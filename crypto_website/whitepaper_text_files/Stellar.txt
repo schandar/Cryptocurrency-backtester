@@ -1,0 +1,1220 @@
+The Stellar Consensus Protocol: A Federated Model for Internet-level Consensus
+DAVID MAZIE` RES, Stellar Development Foundation
+This paper introduces a new model for consensus called federated Byzantine agreement (FBA). FBA achieves robustness through quorum slices--individual trust decisions made by each node that together determine system-level quorums. Slices bind the system together much the way individual networks' peering and transit decisions now unify the Internet.
+We also present the Stellar Consensus Protocol (SCP), a construction for FBA. Like all Byzantine agreement protocols, SCP makes no assumptions about the rational behavior of attackers. Unlike prior Byzantine agreement models, which presuppose a unanimously accepted membership list, SCP enjoys open membership that promotes organic network growth. Compared to decentralized proof of-work and proof-of-stake schemes, SCP has modest computing and financial requirements, lowering the barrier to entry and potentially opening up financial systems to new participants.
+CCS Concepts: ·Security and privacy  Distributed systems security; Security protocols;
+Additional Key Words and Phrases: Byzantine fault tolerance, asynchronous systems
+1. INTRODUCTION Financial infrastructure is currently a mess of closed systems. Gaps between these systems mean that transaction costs are high [Provost 2013] and money moves slowly across political and geographic boundaries [Banning-Lover 2015; CGAP 2008]. This friction has curtailed the growth of financial services, leaving billions of people underserved financially [Demirguc-Kunt et al. 2015].
+To solve these problems, we need financial infrastructure that supports the kind of organic growth and innovation we've seen from the Internet, yet still ensures the integrity of financial transactions. Historically, we have relied on high barriers to entry to ensure integrity. We trust established financial institutions and do our best to regulate them. But this exclusivity conflicts with the goal of organic growth. Growth demands new, innovative participants, who may possess only modest financial and computing resources.
+We need a worldwide financial network open to anyone, so that new organizations can join and extend financial access to unserved communities. The challenge for such a network is ensuring participants record transactions correctly. With a low barrier to entry, users won't trust providers to police themselves. With worldwide reach, providers won't all trust a single entity to operate the network. A compelling alternative is a decentralized system in which participants together ensure integrity by agreeing on the validity of one another's transactions. Such agreement hinges on a mechanism for worldwide consensus.
+This paper presents federated Byzantine agreement (FBA), a model suitable for worldwide consensus. In FBA, each participant knows of others it considers important. It waits for the vast majority of those others to agree on any transaction before considering the transaction settled. In turn, those important participants do not agree to the transaction until the participants they consider important agree as well, and so on. Eventually, enough of the network accepts a transaction that it becomes infeasible for an attacker to roll it back. Only then do any participants consider the transaction settled. FBA's consensus can ensure the integrity of a financial network. Its decentralized control can spur organic growth.
+This paper further presents the Stellar consensus protocol (SCP), a construction for FBA. We prove that SCP's safety is optimal for an asynchronous protocol, in that it guarantees agreement under any node-failure scenario that admits such a guarantee.
+Draft of February 25, 2016
+
+2
+
+D. Mazie` res
+
+We also show that SCP is free from blocked states--in which consensus is no longer possible--unless participant failures make it impossible to satisfy trust dependencies. SCP is the first provably safe consensus mechanism to enjoy four key properties simultaneously:
+-- Decentralized control. Anyone is able to participate and no central authority dictates whose approval is required for consensus.
+-- Low latency. In practice, nodes can reach consensus at timescales humans expect for web or payment transactions--i.e., a few seconds at most.
+-- Flexible trust. Users have the freedom to trust any combination of parties they see fit. For example, a small non-profit may play a key role in keeping much larger institutions honest.
+-- Asymptotic security. Safety rests on digital signatures and hash families whose parameters can realistically be tuned to protect against adversaries with unimaginably vast computing power.
+SCP has applications beyond financial markets for ensuring organizations perform important functions honestly. An example is certificate authorities (CAs), who literally hold the keys to the web. Experience shows that CAs sign incorrect certificates that get used in the wild [Microsoft 2013; Langley 2015]. Several proposals address this problem through certificate transparency [Kim et al. 2013; Laurie et al. 2013; Basin et al. 2014; Melara et al. 2014]. Certificate transparency allows users to examine the history of certificates issued for any given entity and detect attempts by CAs to change an entity's public key without the endorsement of the previous key. SCP holds the potential to strengthen the indelible certificate history at the core of certificate transparency. Demanding global consensus on certificate history among a decentralized group of auditors would make it harder to backpedal and override previously issued certificates.
+The next section discusses previous approaches to consensus. Section 3 defines federated Byzantine agreement (FBA) and lays out notions of safety and liveness applicable in the FBA model. Section 4 discusses optimal failure resilience in an FBA system, thereby establishing the security goals for SCP. Section 5 develops federated voting, a key building block of the SCP protocol. Section 6 presents SCP itself, proving safety and freedom from blocked states. Section 7 discusses limitations of SCP. Finally, Section 8 summarizes results. For readers less familiar with mathematical notation, Appendix A defines some symbols used throughout the paper.
+
+2. RELATED WORK
+Figure 1 summarizes how SCP differs from previous consensus mechanisms. The most famous decentralized consensus mechanism is the proof-of-work scheme advanced by Bitcoin [Nakamoto 2008]. Bitcoin takes a two-pronged approach to consensus. First, it provides incentives for rational actors to behave well. Second, it settles transactions through a proof-of-work [Dwork and Naor 1992] algorithm designed to protect against ill-behaved actors who do not possess the majority of the system's computing power. Bitcoin has overwhelmingly demonstrated the appeal of decentralized consensus [Bonneau et al. 2015].
+Proof of work has limitations, however. First, it wastes resources: by one estimate from 2014, Bitcoin might consume as much electric power as the entire country of Ireland [O'Dwyer and Malone 2014]. Second, secure transaction settlement suffers from expected latencies in the minutes or tens of minutes [Karame et al. 2012]. Finally, in contrast to traditional cryptographic protocols, proof of work offers no asymptotic security. Given non-rational attackers--or ones with extrinsic incentives to sabotage
+
+The Stellar Consensus Protocol
+
+3
+
+mechanism
+proof of work proof of stake Byzantine agreement
+Tendermint SCP (this work)
+
+decentralized control
+! !
+! !
+
+low latency
+maybe
+! ! !
+
+flexible trust
+! !
+
+Fig. 1. Properties of different consensus mechanisms
+
+asymptotic security
+maybe
+! ! !
+
+consensus--small computational advantages can invalidate the security assumption, allowing history to be re-written in so-called "51% attacks." Worse, attackers initially controlling less than 50% of computation can game the system to provide disproportionate rewards for those who join them [Eyal and Sirer 2013], thereby potentially gaining majority control. As the leading digital currency backed by the most computational power, Bitcoin enjoys a measure of protection against 51% attacks. Smaller systems have fallen victim [crazyearner 2013; Bradbury 2013], however, posing a problem for any proof-of-work system not built on the Bitcoin block chain.
+An alternative to proof of work is proof of stake [King and Nadal 2012], in which consensus depends on parties that have posted collateral. Like proof of work, rewards encourage rational participants to obey the protocol; some designs additionally penalize bad behavior [Buterin 2014; Davarpanah et al. 2015]. Proof of stake opens the possibility of so-called "nothing at stake" attacks, in which parties that previously posted collateral but later cashed it in and spent the money can go back and rewrite history from a point where they still had stake. To mitigate such attacks, systems effectively combine proof of stake with proof of work--scaling down the required work in proportion to stake--or delay refunding collateral long enough for some other (sometimes informal) consensus mechanism to establish an irreversible checkpoint.
+Still another approach to consensus is Byzantine agreement [Pease et al. 1980; Lamport et al. 1982], the best known variant of which is PBFT [Castro and Liskov 1999]. Byzantine agreement ensures consensus despite arbitrary (including non-rational) behavior on the part of some fraction of participants. This approach has two appealing properties. First, consensus can be fast and efficient. Second, trust is entirely decoupled from resource ownership, which makes it possible for a small non-profit to help keep more powerful organizations, such as banks or CAs, honest. Complicating matters, however, all parties must agree on the the exact list of participants. Moreover, attackers must be prevented from joining multiple times and exceeding the system's failure tolerance, a so-called Sybil attack [Douceur 2002]. BFT-CUP [Alchieri et al. 2008] accommodates unknown participants, but still presupposes a Sybil-proof centralized admission-control mechanism.
+Generally, membership in Byzantine agreement systems is set by a central authority or closed negotiation. Prior attempts to decentralize admission have given up some of the benefits. One approach, taken by Ripple, is to publish a "starter" membership list that participants can edit for themselves, hoping people's edits are either inconsequential or reproduced by an overwhelming fraction of participants. Unfortunately, because divergent lists invalidate safety guarantees [Schwartz et al. 2014], users are reluctant to edit the list in practice and a great deal of power ends up concentrated in the maintainer of the starter list. Another approach, taken by Tendermint [Kwon 2014], is to base membership on proof of stake. However, doing so once again ties trust to resource
+
+4
+
+D. Mazie` res
+
+ownership. SCP is the first Byzantine agreement protocol to give each participant maximum freedom in chosing which combinations of other participants to trust.
+3. FEDERATED BYZANTINE AGREEMENT SYSTEMS
+This section introduces the federated Byzantine agreement (FBA) model. Like nonfederated Byzantine agreement, FBA addresses the problem of updating replicated state, such as a transaction ledger or certificate tree. By agreeing on what updates to apply, nodes avoid contradictory, irreconcilable states. We identify each update by a unique slot from which inter-update dependencies can be inferred. For instance, slots may be consecutively numbered positions in a sequentially applied log.
+An FBA system runs a consensus protocol that ensures nodes agree on slot contents. A node can safely apply update in slot when it has safely applied updates in all slots upon which depends and, additionally, it believes all correctly functioning nodes will eventually agree on for slot . At this point, we say has externalized for slot . The outside world may react to externalized values in irreversible ways, so a node cannot later change its mind about them.
+A challenge for FBA is that malicious parties can join many times and outnumber honest nodes. Hence, traditional majority-based quorums do not work. Instead, FBA determines quorums in a decentralized way, by each node selecting what we call quorum slices. The next subsection defines quorums based on slices. The following subsection provides some examples and discussion. Finally, we define the key properties of safety and liveness that a consensus protocol should hope to achieve.
+3.1. Quorum slices
+In a consensus protocol, nodes exchange messages asserting statements about slots. We assume such assertions cannot be forged, which can be guaranteed if nodes are named by public key and they digitally sign messages. When a node hears a sufficient set of nodes assert a statement, it assumes no functioning node will ever contradict that statement. We call such a sufficient set a quorum slice, or, more concisely, just a slice. To permit progress in the face of node failures, a node may have multiple slices, any one of which is sufficient to convince it of a statement. At a high level, then, an FBA system consists of a loose confederation of nodes each of which has chosen one or more slices. More formally:
+Definition (FBAS). A federated Byzantine agreement system, or FBAS, is a pair  ,  comprising a set of nodes and a quorum function   22  {} specifying one or more quorum slices for each node, where a node belongs to all of its own quorum slices--i.e.,   ,   ( ),  . (Note 2 denotes the powerset of .)
+Definition (quorum). A set of nodes  in FBAS  ,  is a quorum iff   and contains a slice for each member--i.e.,   ,   ( ) such that  .
+A quorum is a set of nodes sufficient to reach agreement. A quorum slice is the subset of a quorum convincing one particular node of agreement. A quorum slice may be smaller than a quorum. Consider the four-node system in Figure 2, where each node has a single slice and arrows point to the other members of that slice. Node 1's slice { 1, 2, 3} is sufficient to convince 1 of a statement. But 2's and 3's slices include 4, meaning neither 2 nor 3 can assert a statement without 4's agreement. Hence, no agreement is possible without 4's participation, and the only quorum including 1 is the set of all nodes { 1, 2, 3, 4}.
+Traditional, non-federated Byzantine agreement requires all nodes to accept the same slices, meaning  1, 2, ( 1) = ( 2). Because every member accepts every slice, traditional systems do not distinguish between slices and quorums. The downside is
+
+The Stellar Consensus Protocol
+
+5
+
+4
+
+( 1) = {{ 1, 2, 3}}
+
+2
+
+3
+
+( 2) = ( 3) = ( 4) =
+
+{{ 2, 3, 4}}
+
+1 Fig. 2. 1's quorum slice is not a quorum without 4.
+
+3/4
+
+Top tier: slice is 3 out of
+
+1
+
+2
+
+3
+
+4
+
+{ 1, 2, 3, 4}, including self
+
+2/4
+
+Middle tier: slice is self + any
+
+5
+
+6
+
+7
+
+8 2 top tier nodes
+
+2/4
+
+9
+
+10
+
+Leaf tier: slice is self + any 2 middle tier nodes
+
+Fig. 3. Tiered quorum structure example
+
+that membership and quorums must somehow be pre-ordained, precluding open membership and decentralized control. A traditional system, such as PBFT [Castro and Liskov 1999], typically has 3 + 1 nodes, any 2 + 1 of which constitute a quorum. Here
+is the maximum number of Byzantine failures--meaning nodes acting arbitrarily-- the system can survive.
+FBA, introduced by this paper, generalizes Byzantine agreement to accommodate a greater range of settings. FBA's key innovation is enabling each node to chose its own quorum slice set ( ). System-wide quorums thus arise from individual decisions made by each node. Nodes may select slices based on arbitrary criteria such as reputation or financial arrangements. In some settings, no individual node may have complete knowledge of all nodes in the system, yet consensus should still be possible.
+
+3.2. Examples and discussion
+Figure 3 shows an example of a tiered system in which different nodes have different slice sets, something possible only with FBA. A top tier, comprising 1, ... , 4, is structured like a PBFT system with = 1, meaning it can tolerate one Byzantine failure so long as the other three nodes are reachable and well-behaved. Nodes 5, ... , 8 constitute a middle tier and depend not on each other, but rather on the top tier. Only two top tier nodes are required to form a slice for a middle tier node. (The top tier assumes at most one Byzantine failure, so two top tier nodes cannot both fail unless the whole system has failed.) Nodes 9 and 10 are in a leaf tier for which a slice consists of any
+
+6
+
+D. Mazie` res
+
+1
+
+6
+
+2
+
+( ) = { , ( mod 6)+1}
+
+5
+
+3
+
+4 Fig. 4. Cyclic quorum structure example
+
+two middle tier nodes. Note that 9 and 10 may pick disjoint slices such as { 5, 6} and { 7, 8}; nonetheless, both will indirectly depend on the top tier.
+In practice, the top tier could consist of anywhere from four to dozens of widely known and trusted financial institutions. As the size of the top tier grows, there may not be exact agreement on its membership, but there will be significant overlap between most parties' notions of top tier. Additionally, one can imagine multiple middle tiers, for instance one for each country or geographic region.
+This tiered structure resembles inter-domain network routing. The Internet today is held together by individual peering and transit relationships between pairs of networks. No central authority dictates or arbitrates these arrangements. Yet these pairwise relationships have sufficed to create a notion of de facto tier one ISPs [Norton 2010]. Though Internet reachability does suffer from firewalls, transitive reachability is nearly complete--e.g., a firewall might block The New York Times, but if it allows Google, and Google can reach The New York Times, then The New York Times is transitively reachable. Transitive reachability may be of limited utility for web sites, but it is crucial for consensus; the equivalent example would be Google accepting statements only if The New York Times does.
+If we think of quorum slices as analogous to network reachability and quorums as analogous to transitive reachability, then the Internet's near complete transitive reachability suggests we can likewise ensure worldwide consensus with FBA. In many ways, consensus is an easier problem than inter-domain routing. While transit consumes resources and costs money, slice inclusion merely requires checking digital signatures. Hence, FBA nodes can err on the side of inclusiveness, constructing conservative slices with greater interdependence and redundancy than typically seen in peering and transit arrangements.
+Another example not possible with centralized consensus is cyclic dependency structures, such as the one depicted in Figure 4. Such a cycle is unlikely to arise intentionally, but when individual nodes choose their own slices, it is possible for the overall system to end up embedding dependency cycles. The bigger point is that, compared to traditional Byzantine agreement, an FBA protocol must cope with a far wider variety of quorum structures.
+
+3.3. Safety and liveness
+We categorize nodes as either well-behaved or ill-behaved. A well-behaved node chooses sensible quorum slices (discussed further in Section 4.1) and obeys the protocol, including eventually responding to all requests. An ill-behaved node does not. Ill-behaved nodes suffer Byzantine failure, meaning they behave arbitrarily. For instance, an ill-
+
+The Stellar Consensus Protocol
+
+ill-behaved
+
+well-behaved
+
+Byzantine, including crashed
+
+blocked
+
+divergent
+
+7
+
+correct
+
+failed correct
+
+Fig. 5. Venn diagram of node failures
+behaved node may be compromised, its owner may have maliciously modified the software, or it may have crashed.
+The goal of Byzantine agreement is to ensure that well-behaved nodes externalize the same values despite the presence of such ill-behaved nodes. There are two parts to this goal. First, we would like to prevent nodes from diverging and externalizing different values for the same slot. Second, we would like to ensure nodes can actually externalize values, as opposed to getting blocked in some dead-end state from which consensus is no longer possible. We introduce the following two terms for these properties:
+Definition (safety). A set of nodes in an FBAS enjoy safety if no two of them ever externalize different values for the same slot.
+Definition (liveness). A node in an FBAS enjoys liveness if it can externalize new values without the participation of any failed (including ill-behaved) nodes.
+We call well-behaved nodes that enjoy both safety and liveness correct. Nodes that are not correct have failed. All ill-behaved nodes have failed, but a well-behaved node can fail, too, by waiting indefinitely for messages from ill-behaved nodes, or, worse, by having its state poisoned by incorrect messages from ill-behaved nodes.
+Figure 5 illustrates the possible kinds of node failure. To the left are Byzantine failures, meaning the ill-behaved nodes. To the right are two kinds of well-behaved but failed nodes. Nodes that lack liveness are termed blocked, while those that lack safety are termed divergent. An attack violating safety is strictly more powerful than one violating only liveness, so we classify divergent nodes as a subset of blocked ones.
+Our definition of liveness is weak in that it says a node can externalize new values, not that it will. Hence, it admits a state of perpetual preemption in which consensus remains forever possible, yet the network continually thwarts it by delaying or reordering critical messages in just the wrong way. Perpetual preemption is inevitable in a purely asynchronous, deterministic system that survives node failure [Fischer et al. 1985]. Fortunately, preemption is transient. It does not indicate node failure, because the system can recover at any time. Protocols can mitigate the problem through randomness [Ben-Or 1983; Bracha and Toueg 1985] or through realistic assumptions about message latency [Dwork et al. 1988]. Latency assumptions are more practical when one would like to limit execution time or avoid the trusted dealers often required by more efficient Randomized algorithms [?]. Of course, only termination and not safety should depend upon message timing.
+4. OPTIMAL RESILIENCE
+Whether or not nodes enjoy safety and liveness depends on several factors: what quorum slices they have chosen, which nodes are ill-behaved, and of course the concrete consensus protocol and network behavior. As is common for asynchronous systems, we assume the network eventually delivers messages between well-behaved nodes, but can otherwise arbitrarily delay or reorder messages.
+
+8
+
+D. Mazie` res
+
+1
+
+( 1) =
+
+( 2) =
+
+( 3) =
+
+{{ 1, 2, 3}}
+
+2
+
+3
+
+4
+
+( 4) =
+
+( 5) =
+
+( 6) =
+
+5
+
+6 {{ 4, 5, 6}}
+
+Fig. 6. FBAS lacking quorum intersection
+
+( 7) = {{ 7}}
+
+1
+
+7
+
+4
+
+( 1) =
+
+( 4) =
+
+( 2) =
+
+( 5) =
+
+( 3) =
+
+( 6) =
+
+{{ 1, 2, 3, 7}}
+
+2
+
+3
+
+5
+
+6 {{ 4, 5, 6, 7}}
+
+Fig. 7. Ill-behaved node 7 can undermine quorum intersection.
+This section answers the following question: given a specific  ,  and particular subset of that is ill-behaved, what are the best safety and liveness that any federated Byzantine agreement protocol can guarantee regardless of the network? We first discuss quorum intersection, a property without which safety is impossible to guarantee. We then introduce a notion of dispensable sets--sets of failed nodes in spite of which it is possible to guarantee both safety and liveness.
+4.1. Quorum intersection
+A protocol can guarantee agreement only if the quorum slices represented by function satisfy a validity property we call quorum intersection.
+Definition (quorum intersection). An FBAS enjoys quorum intersection iff any two of its quorums share a node--i.e., for all quorums 1 and 2, 1  2  .
+Figure 6 illustrates a system lacking quorum intersection, where permits two quorums, { 1, 2, 3} and { 4, 5, 6}, that do not intersect. Disjoint quorums can independently agree on contradictory statements, undermining system-wide agreement. When many quorums exist, quorum intersection fails if any two do not intersect. For example, the set of all nodes { 1, ... , 6} in Figure 6 is a quorum that intersects the other two, but the system still lacks quorum intersection because the other two do not intersect each other.
+No protocol can guarantee safety in the absence of quorum intersection, since such a configuration can operate as two different FBAS systems that do not exchange any messages. However, even with quorum intersection, safety may be impossible to guarantee in the presence of ill-behaved nodes. Compare Figure 6, in which there are two disjoint quorums, to Figure 7, in which two quorums intersect at a single node 7, and
+7 is ill-behaved. If 7 makes inconsistent statements to the left and right quorums, the effect is equivalent to disjoint quorums.
+In fact, since ill-behaved nodes contribute nothing to safety, no protocol can guarantee safety without the well-behaved nodes enjoying quorum intersection on their own. After all, in a worst-case scenario for safety, ill-behaved nodes can just always make any possible (contradictory) statement that completes a quorum. Two quorums overlapping only at ill-behaved nodes will again be able to operate like two different FBAS
+
+The Stellar Consensus Protocol
+
+9
+
+systems thanks to the duplicity of the ill-behaved nodes. In short, FBAS  ,  can survive Byzantine failure by a set of nodes  iff  ,  enjoys quorum intersection after deleting the nodes in from and from all slices in . More formally:
+
+Definition (delete).
+
+If 
+
+,
+
+is an FBAS and 
+
+
+
+is a set of nodes, then to delete
+
+from 
+
+,
+
+, written
+
+
+
+
+
+,
+
+, means to compute the modified FBAS
+
+
+
+
+
+
+
+,
+
+where 
+
+( ) = {    ( ) }.
+
+It is the responsibility of each node to ensure ( ) does not violate quorum inter-
+
+section. One way to do so is to pick conservative slices that lead to large quorums. Of
+
+course, a malicious may intentionally pick ( ) to violate quorum intersection. But
+
+a malicious can also lie about the value of ( ) or ignore ( ) to make arbitrary as-
+
+sertions. In short, ( )'s value is not meaningful when is ill-behaved. This is why
+
+the necessary property for safety--quorum intersection of well-behaved nodes after
+
+deleting ill-behaved nodes--is unaffected by the slices of ill-behaved nodes.
+
+Suppose Figure 6 evolved from a three-node FBAS 1, 2, 3 with quorum intersection to a six-node FBAS without. When 4, 5, 6 join, they maliciously choose slices that violate quorum intersection and no protocol can guarantee safety for . Fortunately,
+
+deleting the bad nodes to yield  ,
+
+{ 4, 5, 6} restores quorum intersection, meaning 
+
+at least { 1, 2, 3} can enjoy safety. Note that deletion is conceptual, for the sake of
+
+describing optimal safety. A protocol should guarantee safety for 1, 2, 3 without their
+
+needing to know that 4, 5, 6 are ill-behaved.
+
+4.2. Dispensable sets (DSets)
+We capture the fault tolerance of nodes' slice selections through the notion of a dispensible set or DSet. Informally, the safety and liveness of nodes outside a DSet can be guaranteed regardless of the behavior of nodes inside the DSet. Put another way, in an optimally resilient FBAS, if a single DSet encompasses every ill-behaved node, it also contains every failed node, and conversely all nodes outside the DSet are correct. As an example, in a centralized PBFT system with 3 + 1 nodes and quorum size 2 + 1, any or fewer nodes constitute a DSet. Since PBFT in fact survives up to Byzantine failures, its robustness is optimal.
+In the less regular example of Figure 3, { 1} is a DSet, since one top tier node can fail without affecting the rest of the system. { 9} is also a DSet because no other node depends on 9 for correctness. { 6, ... , 10} is a DSet, because neither 5 nor the top tier depend on any of those five nodes. { 5, 6} is not a DSet, as it is a slice for 9 and 10 and hence, if entirely malicious, can lie to 9 and 10 and convince them of assertions inconsistent with each other or the rest of the system.
+To prevent a misbehaving DSet from affecting the correctness of other nodes, two properties must hold. For safety, deleting the DSet cannot undermine quorum intersection. For liveness, the DSet cannot deny other nodes a functioning quorum. This leads to the following definition:
+
+Definition (DSet). Let  ,  be an FBAS and  be a set of nodes. We say is a dispensible set, or DSet, iff:
+
+(1) (quorum intersection despite )  ,  enjoys quorum intersection, and
+(2) (quorum availability despite ) Either  is a quorum in  ,  or = .
+Quorum availability despite protects against nodes in refusing to answer requests and blocking other nodes' progress. Quorum intersection despite protects against the opposite--nodes in making contradictory assertions that enable other nodes to externalize inconsistent values for the same slot. Nodes must balance the two threats in slice selection. All else equal, bigger slices lead to bigger quorums with
+
+10
+
+D. Mazie` res
+
+well-behaved / Local property of nodes, independent of other nodes (except for ill-behaved the validity of slice selection).
+intact / Property of nodes given their quorum slices and a particular set befouled of ill-behaved nodes. Befouled nodes are ill-behaved or depend,
+possibly indirectly, on too many ill-behaved nodes.
+correct / Property of nodes given their quorum slices, a concrete protocol, failed and actual network behavior. The goal of a consensus protocol is to guarantee correctness for all intact nodes.
+
+Fig. 8. Key properties of FBAS nodes
+
+greater overlap, meaning fewer failed node sets will undermine quorum intersection when deleted. On the other hand, bigger slices are more likely to contain failed nodes, endangering quorum availability.
+The smallest DSet containing all ill-behaved nodes may encompass well-behaved nodes as well, reflecting the fact that a sufficiently large set of ill-behaved nodes can cause well-behaved nodes to fail. For instance, in Figure 3, the smallest DSet containing 5 and 6 is { 5, 6, 9, 10}. The set of all nodes, , is always a DSet, as an FBAS  ,  vacuously enjoys quorum intersection despite and, by special case, also enjoys quorum availability despite . The motivation for the special case is that given sufficiently many ill-behaved nodes, may be the smallest DSet to contain all ill-behaved ones, indicating a scenario under which no protocol can guarantee anything better than complete system failure.
+The DSets in an FBAS are determined a priori by the quorum function . Which nodes are well- and ill-behaved depends on runtime behavior, such as machines getting compromised. The DSets we care about are those that encompass all ill-behaved nodes, as they help us distinguish nodes that should be guaranteed correct from ones for which such a guarantee is impossible. To this end, we introduce the following terms:
+
+Definition (intact). A node in an FBAS is intact iff there exists a DSet containing all ill-behaved nodes and such that  .
+
+Definition (befouled). A node in an FBAS is befouled iff it is not intact.
+
+A befouled node is surrounded by enough failed nodes to block its progress or poison its state, even if itself is well-behaved. No FBAS can guarantee the correctness of a befouled node. However, an optimal FBAS guarantees that every intact node remains correct. Figure 8 summarizes the key properties of nodes. The following theorems facilitate analysis by showing that the set of befouled nodes is always a DSet in an FBAS with quorum intersection.
+
+THEOREM 1. Let be a quorum in FBAS  , , let  be a set of nodes, and let
+
+=
+
+
+
+. If
+
+   then
+
+ is a quorum in 
+
+,
+
+.
+
+PROOF. Because is a quorum, every node  has a  ( ) such that  . Since   , it follows that every   has a  ( ) such that   . Rewriting with deletion notation yields   ,   ( ) such that  , which, because
+   , means that  is a quorum in  ,  .
+
+THEOREM 2.
+
+If
+
+1 and
+
+2 are DSets in an FBAS  ,
+
+enjoying quorum intersec
+
+tion, then = 1  2 is a DSet, too.
+
+PROOF. Let 1 =  1 and 2 =  2. If 1 = , then 1 = and = 2 (a DSet), so we are done. Similarly, if 2 = , then = 1, and we are done. Otherwise, note
+
+The Stellar Consensus Protocol
+
+11
+
+that by quorum availability despite DSets 1 and 2, 1 and 2 are quorums in  , . It follows from the definition that the union of two quorums is also a quorum. Hence
+
+ = 1  2 is a quorum and we have quorum availability despite . We must now show quorum intersection despite . Let and be any two
+
+quorums in  ,  . Let = 1  2 = 2  1. By quorum intersection of  , ,
+
+= 1  2  . But then by Theorem 1,
+
+=
+
+2
+
+1 must be a quorum in  ,
+
+1. 
+
+Now consider that  1 and  2 cannot both be empty, or else  = would
+
+be. Hence, by Theorem 1, either
+
+ 1 is a quorum in  , 
+
+1 = ,
+
+1 , or 
+
+2
+
+is a quorum in  , 
+
+2 = ,
+
+2 , or both. In the former case, note that if 
+
+ 1 is
+
+a quorum in 
+
+,
+
+1 , then by quorum intersection of
+
+
+
+
+
+,
+
+ 1, (
+
+ 1) 
+
+ ; since
+
+(  1)  = (  1)  2, it follows that  2  , making  2 a quorum in
+
+,
+
+2 . By a similar argument, 
+
+
+
+2 must be a quorum in  ,
+
+2 . But then quo
+
+rum intersection despite 2 tells us that (  2)  (  2)  , which is only possible
+
+if   .
+
+THEOREM 3. In an FBAS with quorum intersection, the set of befouled nodes is a DSet.
+
+PROOF. Let min be the intersection of every DSet that contains all ill-behaved nodes. It follows from the definition of intact that a node is intact iff  min. Thus,
+min is precisely the set of befouled nodes. By Theorem 2, DSets are closed under in-
+tersection, so min is also a DSet.
+
+5. FEDERATED VOTING
+This section develops a federated voting technique that FBAS nodes can use to agree on a statement. At a high level, the process for agreeing on some statement involves nodes exchanging two sets of messages. First, nodes vote for . Then, if the vote was successful, nodes confirm , effectively holding a second vote on the fact that the first vote succeeded.
+From each node's perspective, the two rounds of messages divide agreement on a statement into three phases: unknown, accepted, and confirmed. (This pattern dates back to three-phase commit [Skeen and Stonebraker 1983].) Initially, 's status is completely unknown to a node -- could end up true, false, or even stuck in a permanently indeterminate state. If the first vote succeeds, may come to accept . No two intact nodes ever accept contradictory statements, so if is intact and accepts , then cannot be false.
+For two reasons, however, accepting does not suffice for to act on . First, the fact that accepted does not mean all intact nodes can; could be stuck for other nodes. Second, if is befouled, then accepting means nothing-- may be false at intact nodes. Yet even if is befouled--which does not know--the system may still enjoy quorum intersection of well-behaved nodes, in which case, for optimal safety,
+needs greater assurance of . Holding a second vote addresses both problems. If the second vote succeeds, moves to the confirmed phase in which it can finally deem true and act on it.
+The next few subsections detail the federated voting process. Because voting does not rule out the possibility of stuck statements, Section 5.6 discusses how to cope with them. Section 6 will turn federated voting into a consensus protocol that avoids the possibility of stuck slots for intact nodes.
+
+12
+
+D. Mazie` res
+
+5.1. Voting with open membership A correct node in a Byzantine agreement system acts on a statement only when it knows that other correct nodes will never agree to statements contradicting . Most protocols employ voting for this purpose. Well-behaved nodes vote for a statement only if it is valid. Well-behaved nodes also never change their votes. Hence, in centralized Byzantine agreement, it is safe to accept if a quorum comprising a majority of well-behaved nodes has voted for it. We say a statement is ratified once it has received the necessary votes.
+In a federated setting, we must adapt voting to accommodate open membership. One difference is that a quorum no longer corresponds to a majority of well-behaved nodes. However, the majority requirement primarily serves to ensure quorum intersection of well-behaved nodes, which Section 4.1 already adapted to FBA. Another implication of open membership is that nodes must discover what constitutes a quorum as part of the voting process. To implement quorum discovery, a protocol should specify ( ) in all messages from .
+Definition (vote). A node votes for an (abstract) statement iff
+(1) asserts is valid and consistent with all statements has accepted, and
+(2) asserts it has never voted against --i.e., voted for a statement that contradicts --and promises never to vote against in the future.
+Definition (ratify). A quorum ratifies a statement iff every member of votes for . A node ratifies iff is a member of a quorum that ratifies .
+THEOREM 4. Two contradictory statements and  cannot both be ratified in an FBAS that enjoys quorum intersection and contains no ill-behaved nodes.
+PROOF. By contradiction. Suppose quorum 1 ratifies and quorum 2 ratifies . By quorum intersection,   1  2. Such a must have illegally voted for both and , violating the assumption of no ill-behaved nodes.
+THEOREM 5. Let  ,  be an FBAS enjoying quorum intersection despite , and suppose contains all ill-behaved nodes. Let 1 and 2 be two nodes not in . Let and  be contradictory statements. If 1 ratifies then 2 cannot ratify .
+PROOF. By contradiction. Suppose 1 ratifies and 2 ratifies . By definition, there must exist a quorum 1 containing 1 that ratified and quorum 2 containing 2 that ratified . By Theorem 1, since 1    and 2   , both must be quorums in  ,  , meaning they ratified and  respectively in  ,  . But  ,  enjoys quorum intersection and has no ill-behaved nodes, so Theorem 4 tell us and  cannot both be ratified.
+THEOREM 6. Two intact nodes in an FBAS with quorum intersection cannot ratify contradictory statements.
+PROOF. Let be the set of befouled nodes. By Theorem 3, is a DSet. By the definition of DSet,  ,  enjoys quorum intersection despite . By Theorem 5, two nodes not in cannot ratify contradictory statements.
+5.2. Blocking sets In centralized consensus, liveness is an all-or-nothing property of the system. Either a unanimously well-behaved quorum exists, or else ill-behaved nodes can prevent the rest of the system from accepting new statements. In FBA, by contrast, liveness may differ across nodes. For instance, in the tiered quorum example of Figure 3, if middle
+
+The Stellar Consensus Protocol
+
+13
+
+1
+vote accept
+
+2
+vote accept
+
+3/4 Slice is 3 nodes, including self
+
+3
+vote accept
+
+4
+vote 
+
+Fig. 9. 4 voted for , which contradicts ratified statement .
+tier nodes 6, 7, 8 crash, the leaf tier will be blocked while the top tier and node 5 will continue to enjoy liveness.
+An FBA protocol can guarantee liveness to a node only if ( ) contains at least one quorum slice comprising only correct nodes. A set of failed nodes can violate this property if contains at least one member of each of 's slices. We term such a set
+-blocking, because it has the power to block progress by .
+Definition ( -blocking). Let  be a node in FBAS  , . A set  is -blocking iff it overlaps every one of 's slices--i.e.,   ( ),   .
+THEOREM 7. Let  be a set of nodes in FBAS  , .  ,  enjoys quorum availability despite iff is not -blocking for any   .
+PROOF. "   , is not -blocking" is equivalent to "   ,   ( ) such that   ." By the definition of quorum, the latter holds iff  is a quorum or
+= , the exact definition of quorum availability despite .
+As a corollary, the DSet of befouled nodes is not -blocking for any intact .
+
+5.3. Accepting statements
+When an intact node learns that it has ratified a statement, Theorem 6 tells that other intact nodes will not ratify contradictory statements. This condition is sufficient for to accept , but we cannot make it necessary. Ratifying a statement requires voting for it, and some nodes may have voted for contradictory statements. In Figure 9, for example, 4 votes for  before learning that the other three nodes ratified the contradictory statement . Though 4 cannot now vote for , we would still like it to accept to be consistent with the other nodes.
+A key insight is that if a node is intact, then no -blocking set can consist entirely of befouled nodes. Now suppose is a -blocking set and every member of claims to accept statement . If is intact, at least one member of must be, too. The intact member will not lie about accepting ; hence, is true and can accept it. Of course, if is befouled, then might not be true. But a befouled node can accept anything and vacuously not affect the correctness of intact nodes.
+
+Definition (accept). An FBAS node accepts a statement iff it has never accepted a statement contradicting and it determines that either
+
+(1) There exists a quorum such that  and each member of or claims to accept , or
+(2) Each member of a -blocking set claims to accept .
+
+either voted for
+
+Though a well-behaved node cannot vote for contradictory statements, condition 2 above allows a node to vote for one statement and later accept a contradictory one.
+
+14
+
+D. Mazie` res
+
+1
+vote accept a)
+
+2
+vote
+
+3/4 Slice is 3 nodes, including self
+
+3
+vote
+
+4
+vote 
+
+3/4
+
+1
+vote
+
+2
+vote
+
+vote 
+
+b)
+
+3
+vote  accept
+
+4
+vote 
+
+Fig. 10. Scenarios indistinguishable to 2 when 2 does not see bold messages
+THEOREM 8. Two intact nodes in an FBAS that enjoys quorum intersection cannot accept contradictory statements.
+PROOF. Let  ,  be an FBAS with quorum intersection and let be its DSet of befouled nodes (which exists by Theorem 3). Suppose an intact node accepts statement . Let be the first intact node to accept . At the point accepts , only befouled nodes in can claim to accept it. Since by the corollary to Theorem 7, cannot be -blocking, it must be that accepted through condition 1. Thus, identified a quorum such that every node claimed to vote for or accept , and since is the first intact node to accept , it must mean all nodes in  voted for . In other words, ratified in  ,  . Generalizing, any statement accepted by an intact node in  ,  must be ratified in  ,  . Because is a DSet,  ,  enjoys quorum intersection. Because additionally contains all ill-behaved nodes, Theorem 4 rules out ratification of contradictory statements.
+
+5.4. Accepting is not enough
+Unfortunately, for nodes to assume the truth of accepted statements would yield suboptimal safety and liveness guarantees in a federated consensus protocol. We discuss the issues with safety and liveness in turn. To provide some context, we then explain why these issues are thornier in FBA than in centralized Byzantine agreement.
+
+5.4.1. Safety. Consider an FBAS  ,
+
+in which the only quorum is unanimous 
+
+consent--i.e.,  , ( ) = { }. This ought to be a conservative choice for safety--don't
+
+do anything unless everyone agrees. Yet since every node is -blocking for every , any
+
+node can single-handedly convince any other node to accept arbitrary statements.
+
+The problem is that accepted statements are only safe among intact nodes. But as
+
+discussed in Section 4.1, the only condition necessary to guarantee safety is quorum
+
+intersection of well-behaved nodes, which might hold even in the case that some well-
+
+behaved nodes are befouled. In particular, when ( ) = { }, the only DSets are  and ,
+
+meaning any node failure befouls the whole system. By contrast, quorum intersection
+
+holds despite every  .
+
+5.4.2. Liveness. Another limitation of accepted statements is that other intact nodes may be unable to accept them. This possibility makes reliance on accepted statements
+
+The Stellar Consensus Protocol
+
+15
+
+problematic for liveness. If a node proceeds to act on a statement because it accepted the statement, other nodes could be unable to proceed in a similar fashion.
+Consider Figure 10a, in which node 3 crashes after helping 1 ratify and accept statement . Though 1 accepts , 2 and 4 cannot. In particular, from 2's perspective, the situation depicted is indistinguishable from Figure 10b, in which 3 voted for  and is well-behaved but slow to respond, while 1 is ill-behaved and sent 3 a vote for  (thereby causing 3 to accept ) while illegally also sending 2 a vote for .
+To support a protocol-level notion of liveness in cases like Figure 10a, 1 needs a way to ensure every other intact node can eventually accept before 1 acts on . Once this is the case, it makes sense to say the system agrees on .
+Definition (agree). An FBAS  ,  agrees on a statement iff, regardless of what subsequently transpires, once sufficient messages are delivered and processed, every intact node will accept .
+5.4.3. Comparison to centralized voting. To understand why the above issues arise in federated voting, consider a centralized Byzantine agreement system of nodes with quorum size . Such a system enjoys quorum availability with = - or fewer node failures. Since any two quorums share at least 2 - nodes, quorum intersection of well-behaved nodes holds up to = 2 - - 1 Byzantine failures.
+Centralized Byzantine agreement systems typically set = 3 + 1 and = 2 + 1 to yield = = , the equilibrium point at which safety and liveness have the same fault tolerance. If safety is more important than liveness, some protocols increase so that > [Li and Mazie`res 2007]. In FBA, because quorums arise organically, systems are unlikely to find themselves at equilibrium, making it far more important to protect safety in the absence of liveness.
+Now consider a centralized system in which, because of node failure and contradictory votes, some node cannot ratify statement that was ratified by other nodes. If hears + 1 nodes claim was ratified, knows that either one of them is wellbehaved or all safety guarantees have collapsed. Either way, can act on with no loss of safety. The FBA equivalent would be to hear from a set where , if deleted, undermines quorum intersection of well-behaved nodes. Identifying such a is hard for three reasons: one, quorums are discovered dynamically; two, ill-behaved nodes may lie about slices; and three, does not know which nodes are well-behaved. Instead, we defined federated voting to accept when a -blocking set does. The -blocking property has the advantage of being easily checkable, but is equivalent to hearing from
++ 1 nodes in a centralized system when we really want + 1. To guarantee agreement among all well-behaved nodes in a centralized system, one merely needs + + 1 nodes to acknowledge that a statement was ratified. If more than of them fail, we do not expect liveness anyway. If or fewer fail, then we know + 1 nodes remain willing to attest to ratification, which will in turn convince all other well-behaved nodes. The reliance on has no easy analogue in the FBA model. Interestingly, however, + + 1 = , the quorum size, suggesting a similar approach might work with a more complex justification. Put another way, at some point nodes need to believe a statement strongly enough to depend on its truth for safety. A centralized system offers two ways to reach this point for a statement : ratify first-hand, or reason backwards from + 1 nodes claiming was ratified, figuring safety is hopeless if they have all lied. FBA lacks the latter approach; the only tool it has for safety among well-behaved nodes is first-hand ratification. Since nodes still need a way to overcome votes against ratified statements, we introduced a notion of accepting, but it provides a weaker consistency guarantee limited to intact nodes.
+
+16
+
+D. Mazie` res
+
+5.5. Statement confirmation
+Both limitations of accepted statements stem from complications when a set of intact nodes votes against a statement that is nonetheless ratified. Particularly in light of FBA's non-uniform quorums, may prevent some intact node from ever ratifying . To provide a means of accepting despite votes against it, the definition of accept has a second criterion based on -blocking sets. But the second criterion is weaker than ratification, offering no guarantees to befouled nodes that enjoy quorum intersection.
+Now suppose a statement has the property that no intact node ever votes against it. Then we have no need to accept and can instead insist that nodes directly ratify before acting on it. We call such statements irrefutable.
+Definition (irrefutable). A statement is irrefutable in an FBAS if no intact node can ever vote against it.
+Theorem 8 tells us that two intact nodes cannot accept contradictory statements. Thus, while some intact nodes may vote against a statement that was accepted by an intact node, the statement "an intact node accepted " is irrefutable. This suggests holding a second vote to ratify the fact that an intact node accepted .
+Definition (confirm). A quorum in an FBAS confirms a statement iff   , claims to accept . A node confirms iff it is in such a quorum.
+Nodes express that they have accepted statement by stating "accept ( )," an abbreviation of the statement, "An intact node accepted ." To confirm means to ratify accept ( ). A well-behaved node can vote for accept ( ) only after accepting , as cannot assume any particular other nodes are intact. If itself is befouled, accept ( ) might be false, in which case voting for it may cost liveness, but a befouled node has no guarantee of liveness anyway.
+The next theorem shows that nodes can rely on confirmed statements without losing optimal safety. Theorem 11 then shows that confirmed statements meet the definition of agreement from Section 5.4.2, meaning nodes can rely on confirmed statements without endangering the liveness of intact nodes.
+THEOREM 9. Let  ,  be an FBAS enjoying quorum intersection despite , and suppose contains all ill-behaved nodes. Let 1 and 2 be two nodes not in . Let and  be contradictory statements. If 1 confirms , then 2 cannot confirm .
+PROOF. First note that accept ( ) contradicts accept ( )--no well-behaved node can vote for both. Note further that 1 must ratify accept ( ) to confirm . By Theorem 5,
+2 cannot ratify accept ( ) and hence cannot confirm .
+THEOREM 10. Let be the set of befouled nodes in an FBAS  ,  with quorum intersection. Let be a quorum containing an intact node (  ), and let be any set such that   . Let + =  be the set of intact nodes in , and let - = (  ) be the set of intact nodes not in . Either - = , or   - such that + is -blocking.
+PROOF. If + is -blocking for some  -, then we are done. Otherwise, we must show - = . If + is not -blocking for any  -, then, by Theorem 7, either - =  or - is a quorum in  ,  . In the former case we are done, while in the latter we get a contradiction: By Theorem 1,  is a quorum in , . Since is a DSet (by
+ Theorem 3),  ,  must enjoy quorum intersection, meaning -  (  )  . This is impossible, since (  )  and -  = .
+THEOREM 11. If an intact node in an FBAS  ,  with quorum intersection confirms a statement , then, whatever subsequently transpires, once sufficient messages are delivered and processed, every intact node will accept and confirm .
+
+The Stellar Consensus Protocol
+
+17
+
+quorum satisfying each votes or accepts
+
+quorum satisfying confirms
+
+is valid
+
+voted
+
+accepted
+
+confirmed
+
+uncommitted
+
+voted 
+
+-blocking set accepts
+
+Fig. 11. Possible states of an accepted statement at a single node
+
+-valent
+
+agreed
+
+bivalent
+
+stuck
+
+-valent
+
+ agreed
+
+Fig. 12. Possible system-wide status of a statement
+PROOF. Let be the DSet of befouled nodes and let  be the quorum through which an intact node confirmed . Let nodes in  broadcast accept ( ). By definition, any node , regardless of how it has voted, accepts after receiving accept ( ) from a
+-blocking set. Hence, these messages may convince additional nodes to accept . Let these additional nodes in turn broadcast accept ( ) until a point is reached at which, regardless of future communication, no further intact nodes can ever accept . At this point let be the set of nodes that claim to accept (where  ), let + be the set of intact nodes in , and let - be the set of intact nodes not in . + cannot be -blocking for any node in -, or else more nodes could come to accept . By Theorem 10, then,
+- = , meaning every intact node has accepted .
+Figure 11 summarizes the paths an intact node can take to confirm . Given no knowledge, might vote for either or the contradictory . If votes for , it cannot later vote for , but can nonetheless accept if a -blocking set accepts it. A subsequent quorum of confirmation messages allows to confirm , which by Theorem 11 means the system agrees on .
+5.6. Liveness and neutralization
+The main challenge of distributed consensus, whether centralized or not, is that a statement can get stuck in a permanently indeterminate state before the system reaches agreement on it. Hence, a protocol must not attempt to ratify externalized values directly. Should the statement "The value of slot is " get stuck, the system will be forever unable to agree on slot , losing liveness. The solution is to craft the statements in votes carefully. It must be possible to break a stuck statement's hold on the question we really care about, namely slot contents. We call the process of obsoleting a stuck statement neutralization.
+
+18
+
+D. Mazie` res
+
+Local state System-wide status of
+
+uncommitted voted voted  accepted confirmed
+
+unknown (any) unknown (any) unknown (any) stuck, -valent, or
+agreed
+
+agreed
+
+Fig. 13. What an intact node knows about the status of statement
+
+More concretely, Figure 12 depicts the potential status a statement can have system-wide. Initially, the system is bivalent, by which we mean there is one sequence of possible events through which all intact nodes will accept , and another sequence through which all intact nodes will reject (i.e., accept a statement  contradicting ). At some point, one of these two outcomes may cease to be possible. If no intact node can ever reject , we say the system is -valent; conversely, if no intact node can ever accept , we say the system is -valent.
+At the time an FBAS transitions from bivalent to -valent, there is a possible outcome in which all intact nodes accept . However, this might not remain the case. Consider a PBFT-like four-node system { 1, ... , 4} in which any three nodes constitute a quorum. If 1 and 2 vote for , the system becomes -valent; no three nodes can ratify a contradictory statement. However, if 3 and 4 subsequently vote for  contradicting , it also becomes impossible to ratify . In this case, 's state is permanently indeterminate, or stuck.
+As seen in Figure 10a, even once an intact node accepts , the system may still fail to reach system-wide agreement on . However, by Theorem 11, once an intact node confirms , all intact nodes can eventually come to accept it; hence the system has agreed upon . Figure 13 summarizes what intact nodes know about the global state of a statement from their own local state.
+To preserve the possibility of consensus, a protocol must ensure that every statement is either irrefutable, and hence cannot get stuck, or neutralizable, and hence cannot block progress if stuck. There are two popular approaches to crafting neutralizable statements: the view-based approach, pioneered by viewstamped replication [Oki and Liskov 1988] and favored by PBFT [Castro and Liskov 1999]; and the ballot-based approach, invented by Paxos [Lamport 1998]. The ballot-based approach may be harder to understand [Ongaro and Ousterhout 2014]. Compounding confusion, people often call viewstamped replication "Paxos" or assert that the two algorithms are the same when they are not [van Renesse et al. 2014].
+View-based protocols associate the slots in votes with monotonically increasing view numbers. Should consensus get stuck on the th slot in view , nodes recover by agreeing that view had fewer than meaningful slots and moving to a higher view number. Ballot-based protocols associate the values in votes with monotonically increasing ballot numbers. Should a ballot get stuck, nodes retry the same slot with a higher ballot, taking care never to select values that would contradict prior stuck ballots.
+This work takes a ballot-based approach, as doing so makes it easier to do away with the notion of a distinguished primary node or leader. For example, leader behavior can be emulated [Lamport 2011b].
+
+6. SCP: A FEDERATED BYZANTINE AGREEMENT PROTOCOL
+This section presents the Stellar Consensus Protocol, SCP. At a high level, SCP consists of two sub-protocols: a nomination protocol and a ballot protocol. The nomination
+
+The Stellar Consensus Protocol
+
+19
+
+protocol produces candidate values for a slot. If run long enough, it eventually produces the same set of candidate values at every intact node, which means nodes can combine the candidate values in a deterministic way to produce a single composite value for the slot. There are two huge caveats, however. First, nodes have no way of knowing when the nomination protocol has reached the point of convergence. Second, even after convergence, ill-behaved nodes may be able to reset the nomination process a finite number of times.
+When nodes guess that the nomination protocol has converged, they execute the ballot protocol, which employs federated voting to commit and abort ballots associated with composite values. When intact nodes agree to commit a ballot, the value associated with the ballot will be externalized for the slot in question. When they agree to abort a ballot, the ballot's value becomes irrelevant. If a ballot gets stuck in a state where one or more intact nodes cannot commit or abort it, then nodes try again with a higher ballot; they associate the new ballot with the same value as the stuck one in case any node believes the stuck ballot was committed. Intuitively, safety results from ensuring that all stuck and committed ballots are associated with the same value. Liveness follows from the fact that a stuck ballot can be neutralized by moving to a higher ballot.
+The remainder of this section presents the nomination and ballot protocols. Each is described first in terms of conceptual statements, then as a concrete protocol with messages representing sets of conceptual statements. Finally, Section 6.3 shows the correctness of the protocol. SCP treats each slot completely independently and can be viewed as many separate instances of a single-slot consensus protocol (akin to the "single-decree synod" in Paxos [Lamport 1998]). Concepts such as candidate values and ballots must always be interpreted in the context of a particular slot even if much of the discussion leaves the slot implicit.
+
+6.1. Nomination protocol
+Because slots need only be partially ordered, some applications of SCP will have only one plausible ballot per slot. For example, in certificate transparency, each CA may have its own series of slots and sign exactly one certificate tree per slot. However, other applications admit many plausible values per slot, in which case it is helpful to narrow down the possible input values. Our strategy is to begin with a synchronous nomination protocol that achieves consensus under certain timing assumptions, and feed the output of the nomination protocol into an asynchronous ballot protocol whose safety does not depend on timing [Lamport 2011a]. Such an initial synchronous phase is sometimes called a conciliator [Aspnes 2010].
+The nomination protocol works by converging on a set of candidate values for a slot. Nodes then deterministically combine these candidates into a single composite value for the slot. Exactly how to combine values depends on the application. By way of example, the Stellar network uses SCP to choose a set of transactions and a ledger timestamp for each slot. To combine candidate values, Stellar takes the union of their transaction sets and the maximum of their timestamps. (Values with invalid timestamps will not receive enough nominations to become candidates.) Other possible approaches include combining sets by intersection or simply picking the candidate value with the highest hash.
+Nodes produce a candidate value through federated voting on the statement nominate .
+Definition (candidate). A node considers a value to be a candidate when has confirmed the statement nominate --i.e., has ratified accept (nominate ).
+
+20
+
+D. Mazie` res
+
+So long as node has no candidate values, may vote in favor of nominate for any value that passes application-level validity checks (such as timestamps not being in the future). In fact, should generally re-nominate any values that it sees other nodes nominate, with some rate-limiting discussed below to avoid an explosion of candidates. As soon as has a candidate value, however, it must cease voting to nominate for any new values . It should still continue to accept nominate statements for new values (when accepted by a -blocking set) and confirm new nominate statements as prescribed by the federated voting procedure.
+The nomination protocol enjoys several properties when a system has intact nodes (meaning it has avoided complete failure). Specifically, for each slot:
+(1) Intact nodes can produce at least one candidate value.
+(2) At some point, the set of possible candidate values stops growing.
+(3) If any intact node considers to be a candidate value, then eventually every intact node will consider to be a candidate value.
+Now consider how the nomination protocol achieves its three properties. Property 1 is achieved because nominate statements are irrefutable. Nodes never vote against nominating a particular value, and until the first candidate value is confirmed, intact nodes can vote to nominate any value. So long as any value passes application-level validity checks, intact nodes can vote for and confirm nominate . Property 2 is ensured because once each intact node confirms at least one candidate value--which will happen in a finite amount of time--no intact nodes will vote to nominate any new values. Hence, the only values that can become candidates are those that already have votes from intact nodes. Property 3 is a direct consequence of Theorem 11.
+The nomination process will be more efficient if fewer combinations of values are in play. Hence, we assign nodes a temporary priority and have each node, when possible, nominate the same values as a higher-priority node. More concretely, let be a cryptographic hash function whose range can be interpreted as a set of integers {0, ... , max - 1}. ( might be SHA-256 [National Institute of Standards and Technology 2012], in which case max = 2256.) Let ( ) = ( , -1, ) be a slot-specific hash function for slot , where -1 is the value chosen for the slot preceding (or the sorted set of values of all immediate dependencies of slot when slots are governed by a partial order). Given a slot and a round number , each node computes a set of neighbors and a priority for each neighbor as follows:
+
+weight (
+
+,
+
+)
+
+=
+
+||{ |
+
+
+
+
+
+()
+
+
+
+}|| |
+
+| |
+
+( )||
+
+|| neighbors( , ) =   (N, , ) < max  weight ( , )
+
+priority( , ) = (P, , )
+
+N and P are constants to produce two different hash functions. The function weight ( , ) returns the fraction of slices in ( ) containing . By using weight as the probability over that  appears in neighbors( , ), we also reduce the chance that
+nodes without a lot of trust will dominate a round.
+Each node should initially find a node 0  neighbors( , 0) that maximizes priority(0, 0) among nodes it can communicate with, then vote to nominate the same values as 0. Only if = 0 should introduce a new value to nominate. should use timeouts to decide on new nominate statements to vote for. After timeouts, should
+
+The Stellar Consensus Protocol
+
+21
+
+Variable
+
+Meaning The set of values node has voted to nominate The set of values node has accepted as nominated The set of values that node considers candidate values The set of the latest NOMINATE message received from each node
+
+Fig. 14. Nomination state maintained by node for each slot
+
+NOMINATE
+This is a message from node nominating values for slot . is 's quorum slice ( ) or a collision-resistant hash of ( ). and are from 's state. The concrete message encodes the following conceptual messages:
+
+-- { nominate   }
+
+(votes to nominate each value in )
+
+-- { accept (nominate )   }
+
+(votes to confirm nominations in )
+
+Fig. 15. Message in nomination protocol
+find a node  neighbors( , ) maximizing priority( , ) and vote to nominate everything has voted to nominate.
+THEOREM 12. Eventually, all intact nodes will have the same composite value.
+PROOF. The theorem follows from the three properties of the nomination protocol. Each intact node will only ever vote to nominate a finite number of ballots. In the absence of action by ill-behaved nodes, intact nodes will converge on the same set of candidate values, call it . To forestall this convergence, ill-behaved nodes may introduce new candidate values, which for a period may be candidates at some but not all intact nodes. Such values will need to have garnered votes from well-behaved nodes, however, which limits them to a finite set. Eventually, ill-behaved nodes will either stop perturbing the system or run out of new candidate values to inject, in which case intact nodes will converge on .
+6.1.1. Concrete nomination protocol. Figure 14 lists the nomination protocol state a node must maintain for each slot. is the set of values for which has voted nominate , is the set of values for which has accepted nominate , and is the set of candidate values--i.e., all values for which a quorum including has stated accept (nominate ). Finally, maintains , the latest concrete message from each node. (Technically, , , and can all be recomputed from , but it is convenient to be able to reference them directly.) All four fields are initialized to the empty set. Note that all three of , , and are growing over time--nodes never remove a value from these sets.
+Figure 15 shows the concrete message that constitutes the nomination protocol. Because and grow monotonically over time, it is possible to determine which of multiple NOMINATE messages from the same node is the latest, independent of network delivery order, so long as does not change mid-nomination (or has to be versioned). Only one remote procedure call (RPC) is needed for nomination--the argument is the sender's latest NOMINATE message and the return value is the receiver's. If or the nominated values are cryptographic hashes, a second RPC should permit retrieval of uncached hash preimages as needed.
+Because nodes cannot tell when the nomination protocol is complete anyway, SCP must cope with different composite values at different nodes. As an optimization, then,
+
+22
+
+D. Mazie` res
+
+nodes can attempt to predict the final composite value before they even have a candidate value. To do this, the composite value can be taken as combine( ) when  , otherwise combine( ) when  , otherwise combine( ) when  . This means the highest-priority node can optimistically initiate balloting at the same time as nomination, piggybacking its first ballot message PREPARE (described below) on its first NOMINATE message.
+6.2. Ballot protocol
+Once nodes have a composite value, they engage in the ballot protocol, though nomination may continue to update the composite value in parallel. A ballot is a pair of the form =  , , where   is a value and is a referendum on externalizing for the slot in question. The value  1 is a counter to ensure higher ballot numbers are always available. We use C-like notation . and . to denote the counter and value fields of ballot , so that =  . , . . Ballots are totally ordered, with . more significant than . . For convenience, a special invalid null ballot = 0,  is less than all other ballots, and a special counter value  is greater than all other counters.
+We speak of committing and aborting a ballot as a shorthand for using federated voting to agree on the statements commit and abort , respectively. For a given ballot, commit and abort are contradictory, so a well-behaved node may vote for at most one
+of them. In the notation of Section 5, the opposite of commit would be " commit ," but abort is a more intuitive notation.
+Because at most one value can be chosen for a given slot, all committed and stuck ballots must contain the same value. Roughly speaking, this means commit statements are invalid if they conflict with lower-numbered unaborted ballots.
+Definition (compatible). Two ballots 1 and 2 are compatible, written 1  2, iff 1. = 2. and incompatible, written 1  2, iff 1.  2. . We also write 1  2 or 2  1 iff 1  2 (or equivalently 2  1) and 1  2. Similarly, 1  2 or 2  1 means 1  2 (or equivalently 2  1) and 1  2.
+Definition (prepared). A ballot is prepared iff every statement in the following set is true: { abort old  old  }.
+More precisely, then, commit is valid to vote for only if is confirmed prepared, which nodes ensure through federated voting on the corresponding abort statements. It is convenient to vote on these statements en masse, so wherever we write " is prepared," the surrounding context applies to the whole set of abort statements. In particular, a node votes, accepts, or confirms that is prepared iff it votes for, accepts, or confirms, respectively, all of these aborts.
+To commit a ballot and externalize its value . , SCP nodes first accept and confirm is prepared, then accept and confirm commit . Before the first intact node votes for commit , the prepare step, through federated voting, ensures all intact nodes can eventually confirm is prepared. When an intact node accepts commit , it means . will eventually be chosen. However, as discussed in Section 5.4.1, must confirm commit before acting on it in case is befouled.
+6.2.1. Concrete ballot protocol. Figure 16 illustrates the per-slot state maintained by each node. A node stores: its current phase ; its current ballot ; the two most recent incompatible ballots it has prepared ( , ); the lowest ( ) and highest () ballot, if any, it has voted to commit and for which it has not subsequently accepted an abort (or for which it has accepted or confirmed a commit in later phases); a next value to try if the current ballot fails; and the latest message received from each node ( ). Ballots , , , and  are non-decreasing within a phase. In addition, if  --meaning may
+
+The Stellar Consensus Protocol
+
+23
+
+Variable
+, ,
+
+Meaning
+Current phase: one of PREPARE, CONFIRM, or EXTERNALIZE
+Current ballot that node is attempting to prepare and commit (  ) The two highest ballots accepted as prepared such that   , where  = or =  = if there are no such ballots
+In PREPARE:  is the highest ballot confirmed as prepared, or if none; if  , then is lowest and  the highest ballot for which has voted commit and not accepted abort.
+In CONFIRM: lowest, highest ballot for which accepted commit In EXTERNALIZE: lowest, highest ballot for which confirmed commit Invariant: if  , then    .
+Value to use in next ballot. If  = , then is the composite value (see Section 6.1); otherwise, = . .
+Set of the latest ballot message seen from each node
+
+Fig. 16. Ballot state maintained by each node for each slot
+
+PREPARE
+
+ . .
+
+This is a message from node about slot . specifies ( ). The other fields
+
+reflect 's state. Values . and . are elided as . = . = . when .  0.
+
+This concrete message encodes a host of conceptual statements, as follows:
+
+-- { abort   accept (abort )    } -- { accept (abort )    } -- { accept (abort )     } -- { commit   .  0      }
+
+(a vote to prepare ) (a vote to confirm is prepared) (a vote to confirm  is prepared) (a vote to commit , ... ,  if  )
+
+CONFIRM
+
+. . .
+
+Sent by to try to externalize . for slot after accepting a commit. Implies
+
+. = . = . = . in 's state. For convenience, we also say  = (  is
+
+irrelevant after accepting commit). specifies ( ) as above. Encodes:
+
+-- Everything implied by PREPARE , .  . 
+
+-- { accept (commit )      }
+
+(a vote to confirm commit , ... , )
+
+EXTERNALIZE
+
+. .
+
+After confirms commit . , for slot and externalizes value , this mes
+sage helps other nodes externalize . Implies =  . ,  and  = . , . For convenience, we also say = =  = , , and  = . Encodes:
+
+-- Everything implied by CONFIRM ,   . 
+
+-- Everything implied by CONFIRM ,   . . {{ }}
+
+Fig. 17. Messages in SCP's ballot protocol
+
+have participated in ratifying commit --code must ensure    . This invariant guarantees a node can always legally vote to prepare its current ballot .
+Figure 17 shows the three ballot protocol messages, with determining which one of the three a node can send. Ballot messages may overlap with nomination messages, so that, when  = , a node may update in response to a NOMINATE message. Note
+
+24
+
+D. Mazie` res
+
+that "  accept ( )" is what each node must assert for a quorum to accept under
+condition 1 of the definition of accept.
+For convenience, when comparing state across nodes, we will identify fields belonging to particular nodes with subscripts. If is a node, then we write , ,  , ... to denote the values of , , , ... in node 's state as described in Figure 16. Similarly, we let denote message 's sender, and , ,  , ... denote the corresponding values of , , , ... in 's state as implied by .
+Each node initializes its ballot state for a slot by setting  PREPARE,  ,  0, ,  , and all other fields ( , , , ) to the invalid ballot . While = , a node can receive but not send ballot messages. Once  , if . = 0, a node reinitializes  1,  to start sending messages. Nodes then repeatedly exchange messages with peers, sending whichever ballot message is indicated by . Upon adding
+a newly received message to , a node updates its state as follows:
+
+(1) If = PREPARE and lets accept new ballots as prepared, update and . Afterwards, if either   or   , then set  .
+(2) If = PREPARE and lets confirm new higher ballots prepared, then raise  to the highest such ballot and set  . .
+(3) If = PREPARE, = ,  , and neither   nor   , then set to the lowest ballot satisfying   .
+(4) If = PREPARE and accepts commit for one or more ballots, set to the lowest such ballot, then set  to the highest ballot such that accepts all { commit       }, and set  CONFIRM. Also set  . after updating , and unless   , set  .
+(5) If = CONFIRM and the received message lets accept new ballots prepared, raise to the highest accepted prepared ballot such that  .
+(6) If = CONFIRM and accepts more commit messages or raises , then let  be the highest ballot such that accepts all { commit       } (if any). If there exists such an  and  > , then set   , and, if necessary, raise to the lowest ballot such that accepts all { commit       }.
+(7) If = CONFIRM and confirms commit  for any , set and  to the lowest and highest such ballots, set  EXTERNALIZE, externalize . , and terminate.
+(8) If  {PREPARE, CONFIRM} and < , then set  .
+(9) If  {PREPARE, CONFIRM} and   such that the set of senders {     } is -blocking and    ,  . > . , then set   , , where is
+the lowest counter for which no such exists. Repeat the previous steps after updating .
+
+While = , the above protocol implements federated voting to confirm is prepared. Once  , the protocol implements federated voting on commit  for every    . For the CONFIRM phase, once a well-behaved node accepts commit , the node never accepts, and hence never attempts to confirm, commit  for any   . Once a commit
+is confirmed, the value of its ballot is safe to externalize assuming quorum intersection. All messages sent by a particular node are totally ordered by  , , , , , with
+the most significant and  the least significant field. The values of these fields can be
+determined from messages, as described in Figure 17. All PREPARE messages precede
+all CONFIRM messages, which in turn precede the single EXTERNALIZE message for a
+given slot. The ordering makes it possible to ensure contains only the latest ballot
+
+The Stellar Consensus Protocol
+
+25
+
+from each node without relying on timing to order the messages, since the network may re-order messages.
+A few details of the protocol merit explanation. The statements implied by PREPARE of the form "abort   accept (abort )" do not specify whether is voting for or confirming abort . The distinction is unimportant for the definition of accept. Glossing over the distinction allows to forget about old ballots it voted to commit (and hence cannot vote to abort), so long as it accepted an abort message for them. Indeed, the only time modifies when  is to set it back to after accepting abort for every ballot it is voting to commit in step 1 on the preceding page. Conversely, the only time
+modifies when = is to set it to a value  in step 3. Because nodes never vote abort for any  , no past abort votes can conflict with commit .
+Theorem 11 requires that nodes rebroadcast what they have accepted. It follows from the definition of prepare that the two highest incompatible ballots a node has accepted as prepared subsume all ballots the node has accepted as prepared. Hence, including and  in every message ensures that nodes converge on --a confirmed prepared ballot. Note further that the ballots a node accepts as prepared must be a superset of the ballots the node confirms as prepared; hence, step 2 can never set  such that    , as step 1 will set  if the new  is incompatible with the old .
+At the time sends an EXTERNALIZE message, it has accepted { commit     }. More importantly, however, it has confirmed { commit       }. can assert its acceptance of confirmed statements without regard to ( ), because it has already checked that one of its slices unanimously agrees; this explains the appearance of {{ }} in place of for the second implicit CONFIRM message in the description of EXTERNALIZE. Eliminating allows a single static EXTERNALIZE message to help other nodes catch up arbitrarily far in the future, even if quorum slices have changed significantly in the meantime.
+Only one RPC is needed to exchange ballot messages. The argument is the sender's latest message and the return value is the receiver's latest message. As with NOMINATE, if or the values in ballots are cryptographic hashes, then a separate RPC is needed to retrieve uncached hash preimages.
+
+6.2.2. Timeouts and ballot updates. If all intact nodes start with the same ballot , then steps 1 to 9 on the previous page are sufficient to confirm commit and externalize value . . Unfortunately, if the ballot protocol starts before the nomination protocol has converged, nodes may start off with different values for . If a ballot fails, or takes long enough that it may fail because of unresponsive nodes, then nodes must time out and try again with a higher ballot. For this reason, nodes employ a timer as follows:
+
+(a) A node with  EXTERNALIZE arms a timer whenever   such that the set of senders = {   } is a quorum,  , and   , .  . .
+
+(b) If the timer fires, updates its ballot by setting
+
+  . + 1,
+
+. 
+
+Different nodes may start ballots at different times. However, condition (a) delays setting a timer at a node that has gotten ahead of a quorum. Conversely, step 9 on the preceding page allows nodes that have fallen too far behind to catch up without waiting for timers. Taken together, these rules ensure that given long enough timers, intact nodes will spend time together on the same ballot; moreover, this time will grow proportionally to the timer duration. To ensure timeouts are long enough without predicting latencies, an implementation can increase the timeout as a function of . .
+
+6.3. Correctness
+An SCP node cannot vote to confirm commit until it has voted to confirm abort for all lower-numbered incompatible ballots. Because a well-behaved node cannot accept (and
+
+26
+
+D. Mazie` res
+
+hence vote to confirm) contradictory statements, this means that for a given  , , Theorem 5 ensures a set of well-behaved nodes cannot externalize contradictory values so long as enjoys quorum intersection despite  . This safety holds if and
+change only between slots, but what if they change mid-slot (for instance, in reaction to node crashes)?
+To reason about safety under reconfiguration, we join all old and new quorum slice sets, reflecting the fact that nodes may make decisions based on a combination of messages from different configuration eras. To be very conservative, we might require quorum intersection of the aggregation of the present configuration with every past configuration. However, we can relax this slightly by separating nodes that have sent illegal messages from those that have merely crashed.
+
+THEOREM 13. Let  1, 1, ... ,  ,  be the set of configurations an FBAS has experienced during agreement on a single slot. Let = 1    and ( ) = {   such that    ( ) }. Let  be a set such that contains all ill-
+behaved nodes that have sent illegal messages, though  may still contain crashed (unresponsive) nodes. Suppose nodes 1 and 2 are well-behaved, 1 externalizes 1 for the slot, and 2 externalizes 2. If  ,  enjoys quorum intersection, then 1 = 2.
+
+PROOF. For 1 to externalize 1, it must have ratified accept (commit  1, 1) in col-
+
+laboration with a pseudo-quorum 1  . We say pseudo-quorum because 1 might
+
+not be a quorum in 
+
+,
+
+for any particular , as ratification may have involved 
+
+messages spanning multiple configurations. Nonetheless, for ratification to succeed
+
+  1,  ,   ( ) such that  1. It follows from the construction of that
+
+ ( ). Hence 1 is a quorum in  , . By a similar argument a pseudo-quorum 2 must have ratified accept (commit  2, 2), and 2 must be a quorum in  , . By
+
+quorum intersection of  ,  , there must exist some   such that  1  2. By assumption, such a  could not claim to accept incompatible ballots. Since
+
+confirmed accepting commit for ballots with both 1 and 2, it must be that 1 = 2.
+
+For liveness of a node , we care about several things when an FBAS has undergone a series of reconfigurations  1, 1, ... ,  ,  within a single slot. First, the safety prerequisites of Theorem 13 must hold for and the set of nodes cares about, since violating safety undermines liveness and Theorem 11 requires quorum intersection. Second, the set of ill-behaved nodes in the latest state,  , , must not be -blocking, as this could deny a quorum and prevent it from ratifying statements. Finally, 's state must never have been poisoned by a -blocking set falsely claiming to accept a statement.
+To summarize, then, if is the set of nodes that have sent illegal messages, we consider a node to be cumulatively intact when the following conditions hold:
+
+(1) is intact in the latest configuration  , ,
+(2) The aggregation of the present and all past configurations has quorum intersection despite (i.e., the prerequisite for Theorem 13 holds), and
+
+(3) is not -blocking in  ,  for any 1   .
+
+The next few theorems show that ill-behaved nodes cannot drive intact nodes into dead-end stuck states:
+
+THEOREM 14. In an FBAS with quorum intersection, if no intact node is in the EXTERNALIZE phase and an intact node with ballot  ,  arms its timer as described in Section 6.2.2, then, given sufficient communication, every intact node can set  before any timer fires.
+
+The Stellar Consensus Protocol
+
+27
+
+PROOF. Let = {   } be the set of nodes with counters at least . By assump-
+tion, contains an intact node. Furthermore, because that intact node armed its timer, must also encompass a quorum. Let + be the intact subset of , and - be the set
+of intact nodes not in . By Theorem 10, either - =  (in which case the theorem is trivial), or + is -blocking for some  . By step 9 on page 24, will adjust its ballot
+so .  . At this point, repeat the argument with   { } until such point as - = .
+
+THEOREM 15. Given long enough timeouts, if an intact node has reached the CONFIRM phase with . = , then eventually all intact nodes will terminate.
+
+PROOF. If an intact node has reached the EXTERNALIZE phase, it has confirmed
+
+commit for some ballot . By Theorem 11, all intact nodes will confirm commit ,
+
+after which they will terminate in step 7 on page 24.
+
+Otherwise, an intact node in the CONFIRM phase has accepted commit where =
+
+
+
+,
+
+. Beforehand, an intact node confirmed 
+
+was prepared. By Theorem 11, all intact
+
+nodes will eventually have   . Moreover, by Theorem 8, no intact node can accept
+
+abort , so no intact node can accept as prepared any ballot such that  . Hence,
+
+after sufficient communication, every intact node will permanently have   . The
+
+intact node or nodes with the lowest will, by Theorem 14, raise their ballots until
+
+such point as all intact nodes with armed timers have the same ballot counter. Since
+
+they also have identical = . = , they will all have the same ballot. If they cannot
+
+complete the protocol because one or more intact nodes have higher ballots, the nodes
+
+with higher numbered ballots will not have timers set. Hence, the nodes with lower-
+
+numbered ballots will after a timeout set set
+
+ .
+
++ 1,
+
+until eventually all intact 
+
+nodes are on the same ballot and can complete the protocol
+
+THEOREM 16. Regardless of past ill-behavior, given long enough timeouts and periods in which ill-behaved nodes do not send new messages, intact nodes running SCP will terminate.
+
+PROOF. By Theorem 12, all intact nodes will eventually have identical sets of candidate values. Assume this point has passed and every intact node has the same composite value = combine( ). If no intact node ever confirms any ballot prepared without . = , then after at most one timeout, all new ballots of intact nodes will have value and, given a sufficient timeout, complete the protocol. By Theorem 15, nodes will also complete if any intact node has progressed beyond the PREPARE phase.
+The remaining case is that an intact node has   and all intact nodes have = PREPARE. By Theorem 14, when the intact node or nodes with the highest . arm their timers, if timers are long enough, other nodes will catch up. Moreover, by Theorem 11, if timers are long enough, nodes will converge on the value of  (the highest confirmed prepared ballot) before the next timeout, at which point all intact nodes will raise to the same value and complete the protocol.
+
+Theorem 16 assures us there are no dead-end states in SCP. However, a set of illbehaved nodes with very good timing could perpetually preempt an SCP system by delaying messages so that some fraction of intact nodes update  right before timers fire and the remaining update it after, preventing intact nodes from converging on the next ballot. Nodes can recover from such an attack by removing ill-behaved nodes from their slices.
+An alternative would be to add randomness to the protocol, for instance changing step 2 on page 24 to update with probability 12 (or even with probability proportional to the fraction of the timer remaining). Such an approach would terminate with
+
+28
+
+D. Mazie` res
+
+probability 1, but in worse expected running time for the common case that most or all nodes are well-behaved or fail-stop.
+7. LIMITATIONS
+SCP can only guarantee safety when nodes choose adequate quorum slices. Section 3.2 discusses why we can reasonably expect them to do so. Nonetheless, when security depends upon a user-configurable parameter, there is always the possibility people will set it wrong.
+Even when people set quorum slices correctly and SCP guarantees safety, safety alone does not rule out other security issues that may arise in a federated system. For example, in a financial market, widely trusted nodes could leverage their position in the network to gain information with which to engage in front running or other unethical activities.
+Byzantine nodes may attempt to filter transactions on the input side of SCP while otherwise producing the correct output. If well-behaved nodes accept all transactions, the combine function takes the union of transactions, and there are intact nodes, then such filtering will eventually fail to block victim transactions with probability 1, but may nonetheless impose delays.
+Though SCP's safety is optimal, its performance and communication latency are not. In the common case that nodes have not previously voted to commit ballots incompatible with the current one, it is possible to reduce the number of communication rounds by one. An earlier version of SCP did so, but the protocol description was more complex. First, it required nodes to cache and retransmit signed messages previously sent by failed nodes. Second, it was no longer possible to gloss over the distinction between votes and confirmations of abort statements in PREPARE messages, so nodes had to send around potentially unbounded lists of exceptions to their abort votes.
+SCP can suffer perpetual preemption as discussed in Section 6.3. An open question is whether, without randomness, a different protocol could guarantee termination assuming bounded communication latency but tolerating Byzantine nodes that continuously to inject bad messages at exactly the point where timeouts fire. Such a protocol is not ruled out by the FLP impossibility result [Fischer et al. 1985]. However, the two main techniques to guarantee termination assuming synchrony do not directly apply in the FBA model: PBFT [Castro and Liskov 1999] chooses a leader in round-robin fashion, which is not directly applicable when nodes do not agree on membership. (Possibly something along the lines of priority in Section 6.1 could be adapted.) The Byzantine Generals protocol [Lamport et al. 1982] relays messages so as to compensate for ill-behaved nodes saying different things to different honest nodes, an approach that cannot help when nodes depend on distinct ill-behaved nodes in their slices. Still another possibility might be to leverage both randomness and synchrony to terminate with probability 1, but in shorter expected time than Ben Or-style randomized protocols [Ben-Or 1983] that make no synchrony assumptions. Public coin techniques [?] that speed up randomized centralized Byzantine agreement protocols appear to be difficult to adapt to the federated model, barring some cryptographic breakthrough in federated threshold signatures.
+Unfortunately, changing slices mid-slot to accommodate failed nodes is problematic for liveness if a well-behaved node has ever experienced a wholly malicious and colluding -blocking set. The good news is that Theorem 13 guarantees safety to any set
+of well-behaved nodes enjoying quorum intersection despite  , even when has befouled members. The bad news is that updating may be insufficient to unblock nodes if well-behaved nodes were tricked into voting to confirm a bad commit message. In such a situation, nodes must disavow past votes, which they can do only by rejoining the system under a new node names. There may exist a way to automate such
+
+The Stellar Consensus Protocol
+
+29
+
+recovery, such as having other nodes recognize reincarnated nodes and automatically update their slices.
+The FBA model requires continuity of participants over time. Should all nodes simultaneously and permanently leave, restarting consensus would require central coordination or human-level agreement. By contrast, a proof-of-work system such as Bitcoin could undergo sudden complete turnover yet continue to operate with little human intervention. On the other hand, if nodes do return, an FBAS can recover from an arbitrarily long outage, while a proof-of-work scheme would face the possibility of an attacker working on a fork during the outage.
+An intriguing possibility is to leverage SCP to mediate tussles [Clark et al. 2005] by voting on changes to configuration parameters or upgrades to an application protocol. One way to do this is to nominate special messages that update parameters. Candidate values could then consist of both a set of values and a set of parameter updates. A big limitation of this approach is that a set of malicious nodes large enough to deny the system a quorum but not large enough to undermine safety could nonetheless trigger configuration changes by lying and putting configuration changes in that were never ratified. It remains an open question how to vote on parameter changes in a way that requires the consent of a full quorum but also never jeopardizes liveness.
+8. SUMMARY
+Byzantine agreement has long enabled distributed systems to achieve consensus with efficiency, standard cryptographic security, and flexibility in designating trusted participants. More recently, Bitcoin introduced the revolutionary notion of decentralized consensus, leading to many new systems and research challenges. This paper introduces federated Byzantine agreement (FBA), a model for achieving decentralized consensus while preserving the traditional benefits of Byzantine agreement. The key distinction between FBA and prior Byzantine agreement systems is that FBA forms quorums from participants' individual trust decisions, allowing an organic growth model similar to that of the Internet. The Stellar Consensus Protocol (SCP) is a construction for FBA that achieves optimal safety against ill-behaved participants.
+Acknowledgments
+Jed McCaleb inspired this work and provided feedback, terminology suggestions, and help thinking through numerous conjectures. Jessica Collier collaborated on writing the paper. Stan Polu created the first implementation of SCP and provided invaluable corrections, suggestions, simplifications, and feedback in the process. Jelle van den Hooff provided the key idea to restructure the paper around quorum intersection and federated voting, as well as other crucial suggestions for terminology, organization, and presentation. Nicolas Barry found several bugs in the paper as he implemented the protocol, as well as identifying necessary clarifications. Ken Birman, Bekki Bolthouse, Joseph Bonneau, Mike Hamburg, Graydon Hoare, Joyce Kim, Tim Makarios, Mark Moir, Robert Morris, Lucas Ryan, and Katherine Tom slogged through drafts of the paper, identifying errors and sources of confusion as well as providing helpful suggestions. Eva Gantz provided helpful motivation and references. Winnie Lim provided guidance on figures. The reddit community and Tahoe-LAFS group pointed out a censorship weakness in an earlier version of SCP, leading to the improved nomination protocol. Finally, the author would like to thank the whole Stellar team for their support, feedback, and encouragement.
+Disclaimer
+Professor Mazie`res's contribution to this publication was as a paid consultant, and was not part of his Stanford University duties or responsibilities.
+
+30
+
+D. Mazie` res
+
+REFERENCES
+Eduardo A. Alchieri, Alysson Neves Bessani, Joni Silva Fraga, and Fab´iola Greve. 2008. Byzantine Consensus with Unknown Participants. In Proceedings of the 12th International Conference on Principles of Distributed Systems. 22­40.
+James Aspnes. 2010. A Modular Approach to Shared-memory Consensus, with Applications to the Probabilistic-write Model. In Proceedings of the 29th Symposium on Principles of Distributed Computing. 460­467.
+Rachel Banning-Lover. 2015. Boatfuls of cash: how do you get money into fragile states? (February 2015). http://www.theguardian.com/global-development-professionals-network/2015/feb/19/boatfulsof-cash-how-do-you-get-money-into-fragile-states.
+David Basin, Cas Cremers, Tiffany Hyun-Jin Kim, Adrian Perrig, Ralf Sasse, and Pawel Szalachowski. 2014. ARPKI: Attack Resilient Public-Key Infrastructure. In Proceedings of the 2014 ACM SIGSAC Conference on Computer and Communications Security. 382­393.
+Michael Ben-Or. 1983. Another Advantage of Free Choice (Extended Abstract): Completely Asynchronous Agreement Protocols. In Proceedings of the 2nd Symposium on Principles of Distributed Computing. 27­30.
+Joseph Bonneau, Andrew Miller, Jeremy Clark, Arvind Narayanan, Joshua A. Kroll, and Edward W. Felten. 2015. Research Perspectives and Challenges for Bitcoin and Cryptocurrencies. In Proceedings of the 36th IEEE Symposium on Security and Privacy.
+Gabriel Bracha and Sam Toueg. 1985. Asynchronous Consensus and Broadcast Protocols. Journal of the ACM 32, 4 (Oct. 1985), 824­840.
+Danny Bradbury. 2013. Feathercoin hit by massive attack. (June 2013). http://www.coindesk.com/feathercoin-hit-by-massive-attack/.
+Vitalik Buterin. 2014. Slasher: A Punitive Proof-of-Stake Algorithm. (January 2014). https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/.
+Miguel Castro and Barbara Liskov. 1999. Practical byzantine fault tolerance. In Proceedings of the 3rd Symposium on Operating Systems Design and Implementation. 173­186.
+CGAP. 2008. Making Money Transfers Work for Microfinance Institutions. (March 2008). http://www.cgap.org/sites/default/files/CGAP-Technical-Guide-Making-Money-Transfers-Workfor-Microfinance-Institutions-A-Technical-Guide-to-Developing-and-Delivering-MoneyTransfers-Mar-2008.pdf.
+David D. Clark, John Wroclawski, Karen R. Sollins, and Robert Braden. 2005. Tussle in Cyberspace: Defining Tomorrow's Internet. IEEE/ACM Transactions on Networking 13, 3 (June 2005), 462­475.
+crazyearner. 2013. TERRACOIN ATTACK OVER 1.2TH ATTACK CONFIRMD [sic]. (July 2013). https://bitcointalk.org/index.php?topic=261986.0.
+Kourosh Davarpanah, Dan Kaufman, and Ophelie Pubellier. 2015. NeuCoin: the First Secure, Cost-efficient and Decentralized Cryptocurrency. (March 2015). http://www.neucoin.org/en/whitepaper/download.
+Asli Demirguc-Kunt, Leora Klapper, Dorothe Singer, and Peter Van Oudheusden. 2015. The Global Findex Database 2014 Measuring Financial Inclusion Around the World. Policy Research Working Paper 7255. World Bank. http://www-wds.worldbank.org/external/default/WDSContentServer/WDSP/IB/2015/ 04/15/090224b082dca3aa/1_0/Rendered/PDF/The0Global0Fin0ion0around0the0world.pdf.
+John R. Douceur. 2002. The Sybil Attack. In Revised Papers from the First International Workshop on Peer-to-Peer Systems. 251­260.
+Cynthia Dwork, Nancy Lynch, and Larry Stockmeyer. 1988. Consensus in the Presence of Partial Synchrony. Journal of the ACM 35, 2 (April 1988), 288­323.
+Cynthia Dwork and Moni Naor. 1992. Pricing via Processing or Combatting Junk Mail. In Proceedings of the 12th Annual International Cryptology Conference on Advances in Cryptology. 139­147.
+Ittay Eyal and Emin Gu¨ n Sirer. 2013. Majority is not Enough: Bitcoin Mining is Vulnerable. (November 2013). http://arxiv.org/abs/1311.0243.
+Michael J. Fischer, Nancy A. Lynch, and Michael S. Paterson. 1985. Impossibility of Distributed Consensus with One Faulty Process. Journal of the ACM 32, 2 (April 1985), 374­382.
+Ghassan O. Karame, Elli Androulaki, and Srdjan Capkun. 2012. Double-spending fast payments in bitcoin. In Proceedings of the 2012 ACM conference on Computer and communications security. 906­917.
+Tiffany Hyun-Jin Kim, Lin-Shung Huang, Adrian Perring, Collin Jackson, and Virgil Gligor. 2013. Accountable Key Infrastructure (AKI): A Proposal for a Public-key Validation Infrastructure. In Proceedings of the 22nd International Conference on World Wide Web. 679­690.
+
+The Stellar Consensus Protocol
+
+31
+
+Sunny King and Scott Nadal. 2012. PPCoin: Peer-to-Peer Crypto-Currency with Proof-of-Stake. (August 2012). http://peercoin.net/assets/paper/peercoin-paper.pdf.
+Jae Kwon. 2014. Tendermint: Consensus without Mining. (2014). http://tendermint.com/docs/tendermint.pdf.
+Leslie Lamport. 1998. The Part-Time Parliament. 16, 2 (May 1998), 133­169.
+Leslie Lamport. 2011a. Brief Announcement: Leaderless Byzantine Paxos. In Proceedings of the 25th International Conference on Distributed Computing. 141­142.
+Leslie Lamport. 2011b. Byzantizing Paxos by Refinement. In Proceedings of the 25th International Conference on Distributed Computing. 211­224.
+Leslie Lamport, Robert Shostak, and Marshall Pease. 1982. The Byzantine Generals Problem. ACM Transactions on Programing Languages and Systems 4, 3 (July 1982), 382­401.
+Adam Langley. 2015. Maintaining digital certificate security. (March 2015). http: //googleonlinesecurity.blogspot.com/2015/03/maintaining-digital-certificate-security.html.
+Ben Laurie, Adam Langley, and Emilia Kasper. 2013. Certificate Transparency. RFC 6962. Internet Engineering Task Force (IETF). http://tools.ietf.org/html/rfc6962.
+Jinyuan Li and David Mazie`res. 2007. Beyond One-third Faulty Replicas in Byzantine Fault Tolerant Systems. In Proceedings of the 4th Symposium on Networked Systems Design and Implementation. 131­144.
+Marcela S. Melara, Aaron Blankstein, Joseph Bonneau, Michael J. Freedman, and Edward W. Felten. 2014. CONIKS: A Privacy-Preserving Consistent Key Service for Secure End-to-End Communication. Cryptology ePrint Archive, Report 2014/1004. (December 2014). http://eprint.iacr.org/2014/1004.
+Microsoft. 2013. Fraudulent Digital Certificates Could Allow Spoofing. Microsoft Security Advisory 2798897. (January 2013). https://technet.microsoft.com/en-us/library/security/2798897.aspx.
+Satoshi Nakamoto. 2008. Bitcoin: A peer-to-peer electronic cash system. (2008). http://bitcoin.org/bitcoin.pdf.
+National Institute of Standards and Technology. 2012. Secure Hash Standard (SHS). Federal Information Processing Standards Publication 180-4. http://csrc.nist.gov/publications/fips/fips180-4/fips-180-4.pdf.
+William B. Norton. 2010. The Art of Peering: The Peering Playbook. (August 2010). http://drpeering.net/white-papers/Art-Of-Peering-The-Peering-Playbook.html.
+Karl J. O'Dwyer and David Malone. 2014. Bitcoin Mining and its Energy Footprint. In Irish Signals and Systems Conference. Limerick, Ireland, 280­285.
+Brian M. Oki and Barbara H. Liskov. 1988. Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems. In Proceedings of the 7th Symposium on Principles of Distributed Computing. 8­17.
+Diego Ongaro and John Ousterhout. 2014. In Search of an Understandable Consensus Algorithm. In 2014 USENIX Annual Technical Conference. 305­319.
+Marshall Pease, Robert Shostak, and Leslie Lamport. 1980. Reaching Agreement in the Presence of Faults. Journal of the ACM 27, 2 (April 1980), 228­234.
+Claire Provost. 2013. Why do Africans pay the most to send money home? (January 2013). http://www.theguardian.com/global-development/2013/jan/30/africans-pay-most-send-money.
+David Schwartz, Noah Youngs, and Arthur Britto. 2014. The Ripple Protocol Consensus Algorithm. (2014). https://ripple.com/files/ripple_consensus_whitepaper.pdf.
+Dale Skeen and Michael Stonebraker. 1983. A Formal Model of Crash Recovery in a Distributed System. IEEE Transactions on Software Engineering 9, 3 (May 1983), 219­228.
+Robbert van Renesse, Nicolas Schiper, and Fred B. Schneider. 2014. Vive la Diffe´rence: Paxos vs. Viewstamped Replication vs. Zab. IEEE Transactions on Dependable and Secure Computing (September 2014).
+
+32
+
+D. Mazie` res
+
+A. GLOSSARY OF NOTATION
+
+Notation Name
+
+Definition
+
+iff
+
+
+
+function
+
+()
+
+application
+
+
+
+complement
+
+ 1, ... ,  tuple
+
+
+
+logical and
+
+
+
+logical or
+
+, ()
+
+there exists
+
+, ()
+
+for all
+
+{ , , ...} set
+
+{  ( ) } set-builder
+
+
+
+empty set
+
+||  
+
+cardinality element of subset
+
+
+
+strict subset
+
+An abbreviation of "if and only if" Function maps each element of set to a result in set . The result of calculating function on argument An overbar connotes the opposite, i.e.,  is the opposite of . A structure (compound value) with field values 1, ... , Both and are true. At least one, possibly both, of and are true. There is at least one value for which condition ( ) is true.
+( ) is true of every value . A set containing the listed elements ( , , ...) The set of all elements for which ( ) is true The set containing no elements The number of elements in set Element is a member of set . Every member of set is also a member of set .
+ and  .
+
+2
+
+powerset
+
+The set of sets containing every possible combination of members of ,
+
+i.e., 2 = {   }
+
+
+
+union
+
+The set containing all elements that are members of or members of
+
+, i.e.,  = {     }
+
+
+
+intersection The set containing all elements that are members of both and , i.e.,
+
+ ={     }
+
+
+
+set difference The set containing every element of that is not a member of , i.e.,
+
+ ={     }
+
+
+
+not
+
+Negates a symbol's meaning. E.g.,  means  is false, while
+
+ , ( ) means no exists such that ( ) is true.
+
+

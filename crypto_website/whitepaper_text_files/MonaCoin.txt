@@ -1,0 +1,1002 @@
+CONTENTS
+
+1. MONACO CARD EXECUTIVE SUMMARY
+
+1
+
+1.1. Core Features
+
+1
+
+1.2. The Monaco Card
+
+2
+
+1.2.1. ETH-funded Purchase with Monaco Card - Example
+
+3
+
+1.2.2. BTC-funded Purchase with Monaco Card - Example
+
+4
+
+1.3. MCO Token Creation
+
+5
+
+1.4. MCO Asset Contract
+
+5
+
+1.5. Support for other ERC20 currencies
+
+5
+
+1.6. MCO Token Cash and Burn
+
+6
+
+1.6.1. Redeem and Burn Example
+
+7
+
+2. THE MCO TOKEN CREATION
+
+8
+
+2.1. The Monaco BLACK Card
+
+9
+
+2.2. Use of Funds
+
+10
+
+2.3. Monaco Escrow
+
+10
+
+2.4. Reserve Tokens
+
+11
+
+3. USE CASE SCENARIOS
+
+12
+
+3.1. Funding your Monaco Card with ETH / BTC and incremental automated
+
+exchange at interbank rates when you swipe the card
+
+12
+
+3.2. Spending in foreign currency while traveling abroad
+
+12
+
+3.3. Shopping online in foreign currency
+
+13
+
+3.4. Sending money back home
+
+13
+
+3.5. Splitting bills / paying back friends
+
+13
+
+3.6. Paying suppliers / contractors / merchants in foreign currency
+
+13
+
+4. MONACO APP & PLATFORM DETAILED OVERVIEW
+
+14
+
+4.1. Monaco App
+
+14
+
+4.2. Card Issuing platform
+
+14
+
+CONTENTS
+
+4.3. e-KYC platform
+
+15
+
+4.4. Sanctions / PEP checks
+
+15
+
+4.5. P2P Transfers between Monaco Card users
+
+15
+
+4.6. Interbank Exchange Rates, Physical Settlement & Hedging
+
+16
+
+4.7. Cross-border Transfers platform
+
+16
+
+4.8. Top-up Channels
+
+16
+
+4.9. Apple Pay & Android Pay Functionality
+
+16
+
+4.10. Physical Card Production & Inventory Management
+
+17
+
+4.11. 3rd Party Financial Services API
+
+17
+
+4.12. Live Rates API Feed
+
+17
+
+4.13. Card Security Management
+
+17
+
+4.14. Companion Card Management
+
+17
+
+5. THE MARKET
+
+18
+
+6. TEAM
+
+20
+
+6.1. Our Mission
+
+20
+
+6.2. Our Values
+
+20
+
+6.3. Our Team
+
+21
+
+6.3.1. Management
+
+21
+
+6.3.2. Advisory Board
+
+22
+
+6.3.3. Blockchain Advisors
+
+22
+
+7. FINANCIALS
+
+23
+
+7.1. Conservative
+
+24
+
+7.2. Optimistic
+
+27
+
+8. TOKEN CREATION EVENT
+
+29
+
+8.1. Details
+
+29
+
+8.2. Additional MCO
+
+29
+
+8.3. Example ­ total MCO issued and MCO in circulation
+
+30
+
+8.4. Timetable
+
+30
+
+1. MONACO CARD EXECUTIVE SUMMARY
+
+1.1. Core Features
+
+The functionality of Monaco Card makes it a must-have item not only for every Ether or
+
+Bitcoin holder, but also for everyone who spends money in foreign currency.
+
+Core features:
+
+·
+
+Spend your Ether or Bitcoin with a physical Monaco Card, wherever cards are accepted,
+
+both online & offline
+
+·
+
+Only the exact amount that you spend with your Monaco Card will be incrementally
+
+exchanged from ETH/BTC in real-time when you swipe your card, with rest being securely
+
+stored in your wallet to which only you have access
+
+·
+
+Exchange money at perfect interbank exchange rates using Monaco App
+
+·
+
+Enjoy the same perfect interbank rates whenever you spend on Monaco Card
+
+·
+
+Send money from Monaco App in 23 currencies to 120 countries worldwide for free
+
+·
+
+Sending money between Monaco App users is free & real-time, with the money being
+
+instantly available for the recipient on their Monaco Card
+
+·
+
+Customer onboarding can be done entirely via the mobile App ­ a process taking less than 3
+
+minutes
+
+1
+
+1.2. The Monaco Card
+In order to receive the Monaco Card, our customers need to download Monaco Android / iOS App and go through a simple 3 min onboarding process, including remote KYC. We will issue and send the Monaco Cards to customers free of charge. The physical card can be used both for online and offline purchases at more than 30m merchant locations globally. Every time you spend with the Monaco Card, you will be given perfect interbank exchange rates without markups or fees. In practice that means savings of EUR30-40 on every EUR500 spent, compared to high street banks.
+You can fund your account with Ether and Bitcoin, instantly and for free. You can also use fiat currencies, topping up your account by bank transfer or with a debit/credit card. Finally, you can also apply for a credit limit from our App and receive a decision within 48 hours. A top-up credit limit effectively turns the Monaco Debit Card into a credit card, as you will only pay interest on amounts of credit that you use, but don't repay in a timely fashion.
+Spending your ETH/BTC with Monaco Card is seamless. You keep ETH/BTC balances in your wallet, which you can view at any time in the Monaco App. Every time you swipe your Monaco Card, we will only exchange the incremental amount of ETH/BTC that is required to settle the fiat currency transaction. The rest of your ETH/BTC balances remain in your wallet. There are no monthly or annual fees for usage of the Monaco Card. Access to perfect inter-bank exchange is free. Monaco will not charge fees for global ATM withdrawals within Fair Usage Limits. There is a 1% fee for all transactions (swipe and exchange) of ETH/BTC. These earnings will accrue in the MCO Smart Contract, the rights to which will be held by community members who hold MCO tokens.
+2
+
+1.2.1. ETH-funded Purchase with Monaco Card Example
+Jenny is a using Monaco Card for her travel expenses. She tops-up her Monaco account with 1 ETH. She is in France on holidays and spends EUR 16 on lunch. She swipes the Monaco Card. Monaco Card's server-side processing systems apply perfect interbank exchange rates to calculate that EUR 16 equals USD 17.7410. Based on the current exchange rate between USD and ETH, provided by the highest daily volume exchange, USD 17.7410 is equal to ETH 0.19068368. Monaco will pass on the best-available exchange rate between USD & ETH to the users without any mark-up. Monaco will cover the cost of USD & ETH exchange rate (the maker/taker fees traditionally charged by cryptocurrency exchanges). No fees are applied for exchange between USD & EUR. Users will receive the perfect interbank exchange rate without any mark-up.
+This is absolutely the most cost-efficient way to spend ETH in the world, avoiding all the bank fees!
+The only fee that is applied is a 1% software license fee that accrues to the MCO Asset Contract described in section 1.5. In this case, ETH 0.001906837 will be automatically credited to MCO Asset Contract, increasing the value backing MCO tokens. Since fees are paid in the token transacted in, the most popular tokens used for transacting will accumulate to the distribution contract, helping back the value of MCO.
+3
+
+1.2.2. BTC-funded Purchase with Monaco Card Example
+The scenario works exactly as with an ETH-funded purchase described above, the only difference being the Asset Contract accrual of a 1% software license fee. BTC equivalent will be converted to ETH at prevailing rates without any exchange fees and credited to the MCO Asset Contract. Monaco will cover the cost of BTC & ETH exchange (the maker/taker fees traditionally charged by cryptocurrency exchanges). Monaco will pass on the best-available exchange rate between BTC & ETH without any mark-up.
+4
+
+1.3. MCO Token Creation
+The Monaco MCO Token Creation Event will last for 30 days, starting 9:30am UCT on 18th of May 2017. A fixed number will be created during the sale, and no more will be created thereafter.
+1.4. MCO Asset Contract
+MCO Asset Contract accrues a 1% licensing fee on transactions using the Monaco Card funded with ETH/BTC, as well as exchange transactions between ETH/BTC and fiat currencies. Over time MCO will be backed by a portfolio of the most popular ERC20 tokens. MCO holders will be able to access the portfolio through a mechanism called "REDEEM & BURN" (see 1.6).
+Fees from card swipes will be denominated in the token being used to fund the swipe (ETH or BTC at launch). These fees will be sent directly to the MCO Asset Contract. Over time, this contract will accrue tokens in proportion to the usage of the Monaco Card & App globally.
+1.5. Support for other ERC20 currencies
+Other broadly accepted cryptocurrencies will be added to the platform over time as they gain popularity and in consultation with the community. The current assumption, in order to maximize potential of the MCO Asset Contract, is to set the integration threshold at a currency-in-circulation market cap of US$500mm.
+5
+
+1.6. MCO Token Redeem and Burn
+
+At any time, a holder of MCO can "Redeem and Burn" the MCO for their pro-rata share of each token held by the MCO Asset Contract. The holder will irrevocably destroy the MCO, and in exchange, the MCO Asset Contract will transfer the underlying tokens to the holder.
+MCO token will have a market value at or above the assets contained in the MCO Asset Contract. If the value goes below, market participants will be incentivized to purchase MCO and burn it; this will then push the value of MCO back up.
+
+·
+
+Definitions:
+
+There are MCOT MCO issued.
+
+There are MCOh units of MCO held by a certain holder of MCO.
+
+There are m distinct tokens held in the MCO Asset Contract.
+
+The MCO Asset Contract holds Tm tokens for the m th token contract.
+
+Then the holder of MCO will receive the following vector of tokens upon calling the burn function and choosing to "Redeem and Burn":
+
+·
+
+Received:
+
+MCOh [T1, T2, . . ,Tm]
+MCOT
+
+6
+
+1.6.1. Redeem and Burn Example
+
+An MCO holder has 500MCO, the current MCO supply is 10,000MCO. The MCO Asset Contract holds 1,000ETH.
+
+Their claim equals:
+
+[1,000 ETH]
+
+500 10,000
+
+If he burns his MCO, they will receive:
+1500,0000= 5.00%
+Of the held tokens, giving them:
+
+50ETH
+
+After `burning' his MCO, the remaining supply of MCO will now equal:
+10,000 - 500 = 9,500
+
+This means that remaining MCO holders will have a higher claim per MCO on the underlying assets than before the burn. A separate MCO holder who also held 500 MCO will now have a claim on the assets equal to:
+500 = 5. 26%
+9,500
+Since users can always cash out, we expect the value of MCO should be at least the value of the underlying tokens.
+Consequently, MCO will typically be worth more than the underlying tokens, because a user who cashes out abandons future fees. By cashing out, the user distributes the present value of future dividends to the other MCO holders. Therefore, users will not normally cash out!
+
+7
+
+2. THE MCO TOKEN CREATION
+
+Monaco Card aims to accept up to 150,000ETH from our initial token partners and create approximately 17.6m MCO for sale in exchange for the ETH committed.
+The MCO smart contract will stop accepting commitments at 888,888ETH hard cap. The Token Sale will last for 30 days. If soft-cap is reached, the event will be extended for 7 days and then closed. If hard-cap is reached, the event will close automatically.
+
+CUMULATIVE NUMBER OF ETH COMMITTED MCO PER ETH RATE
+
+0-10,000
+
+150
+
+10,001-30,000
+
+140
+
+30,001-50,000
+
+130
+
+50,001-75,000
+
+120
+
+75,001-100,000
+
+110
+
+100,001-150,000
+
+100
+
+(possible 7 days period)
+
+100
+
+8
+
+2.1. The Monaco BLACK Card
+
+Limited Edition Monaco BLACK Card will be issued to first 999 customers. Each of the cards will have a unique number engraved from 001 to 999 accompanied by the words "Founding Member".
+The priority of the numbers will be decided after the MCO Token Creation Event, according to the following rules:
+
+·
+
+001-499 ­ will be assigned to the top ETH token contributors upon completion of MCO
+
+Token Creation Event
+
+·
+
+500-999 ­ will be assigned to the fastest contributors, based on time stamp of their ETH
+
+contribution
+
+There will be no Monaco BLACK Cards issued after the initial 999.
+The BLACK Card Leaderboard will be available and updating automatically in real-time during MCO Token Event.
+Besides the exclusive design, Monaco BLACK Card holders will enjoy lifetime unlimited perfect interbank exchange rates and triple free monthly ATM withdrawal limits. More benefits will be rolled out over time.
+The person who contributes the highest number of tokens in the ICO will be rewarded with Monaco BLACK Card Number 001 and will receive a bonus 188,888 MCO Tokens from the Monaco Founder's Pool. The 188,888 Bonus MCO Tokens will not be subject to a lockup period.
+
+9
+
+2.2 .Use of Funds
+
+The proceeds from the token sale will fund the product launch, continued platform development and user acquisition:
+
+·
+
+35% ­ R&D and Product Development
+
+Includes opening of an R&D center in Shenzhen with approximately 20-30 engineers.
+
+·
+
+20% ­ Marketing and Customer Acquisition
+
+The marketing budget is not significant compared to the target number of customers we
+
+intend to acquire. The key source of new customers is going to be word-of-mouth, as the
+
+product gives users a very strong commercial incentive to download the App and get the
+
+Monaco Card. There are natural network effects built into the product around the P2P money
+
+sending function, which will lower the average customer acquisition cost (CAC) substantially.
+
+·
+
+15% ­ Initial Capex, including costs of e-Money licenses, compliance and architecture setup
+
+Some of our key partners are listed in section 4 of the document. There is a substantial cost
+
+associated with integrating all those partners, acquiring all the necessary licenses across
+
+multiple jurisdictions, building out compliance teams, legal fees and general technical
+
+architecture setup.
+
+·
+
+30% ­ Working Capital
+
+Our product ­ the first and only Universal Money App - is bridging the gap between the
+
+worlds of crypto and fiat currencies. In order to offer our users real-time access to funds and
+
+perfect exchange rates without mark-up, we will have to bridge funding gaps between
+
+multiple parties using our own balance sheet.
+
+2.3. TokenMarket Escrow
+
+Funds committed during the MCO Token Creation Even will be held in a secure multi-signature wallet and will only be released from the account with 2 out of 3 signatures:
+
+·
+
+Kris Marszalek ­ Founder @ Foris
+
+·
+
+Mikko Ohtamaa ­ CTO @ TokenMarket
+
+·
+
+Timothy Hitchens ­ Head of Solution Architects, Worldwide Public Sector - APJ at
+
+Amazon Web Services
+
+10
+
+2.4. Reserve Tokens
+We are setting aside 30% of all MCO created as Reserve Tokens. These MCO will not be issued or sold during the initial sale and are locked in a smart contract. If at some point it seems advisable for the Monaco Card project to sell more tokens, some or all of these may be offered in an auction format or some other format that suits the capital needs of the project. Specifically, there are substantial balance sheet strength requirements in case Monaco decides to apply for a full banking license in the European Union or Asia. In the interim, these MCO will not be used in any way. They will not be considered as issued for Redeem and Burn calculations. It is possible these MCO will never be issued, however, we feel it is prudent to have some backup if needed. In any event, Monaco will engage directly with MCO holders to seek guidance and market reaction before any of the Reserve tokens are offered.
+11
+
+3. USE CASE SCENARIOS
+3.1. Funding your Monaco Card with ETH / BTC and incremental automated exchange at interbank rates when you swipe the card
+Monaco Card is the most convenient and cost efficient way to spend your Ether and Bitcoin, period. You can load your Monaco Card with ETH / BTC in real-time and free of charge and have the funds immediately accessible with your Monaco Card. You can setup rules to automatically top-up your card whenever the balance drops below a specific level. At the moment of the transaction when you swipe the card, we will check whether you have sufficient balance in the account and convert only the amount necessary to settle the transaction. All transactions completed with Monaco Card are done at perfect interbank exchange rates. Banks & credit card companies typically charge FX fees and cross-border fees every time you spend in a foreign currency. With Monaco Card you are able to save EUR30-40 for every EUR500 spent.
+3.2. Spending in foreign currency while traveling abroad
+With Monaco Card, you can pay at over 30m merchant locations globally. Your card will always be treated as a local currency card, you will receive perfect interbank exchange rates without any mark-up, without any cross-border fees, without any worries
+12
+
+3.3. Shopping online in foreign currency
+
+3.4. Sending money back home
+
+Using Monaco Card to shop online in foreign currency is an excellent way to save money.
+3.5. Splitting bills / paying back friends
+Monaco App allows you to easily split bills with your friends or pay them back with a single swipe and a Touch ID authorization.
+
+Transferwise is 6-8x cheaper than high street banks when sending money back home. Sending money with Monaco App is an additional 0.5% cheaper than Transferwise. Comparing with Western Union or MoneyGram make almost no sense whatsoever ­ our users may save as much as 25% on a single transfer compared to those soon-to-be obsolete institutions.
+3.6. Paying suppliers / contractors / merchants in foreign currency
+
+For those who run businesses paying suppliers in FX, Monaco App is the best source of foreign currency. We beat every single bank and every single remittance company with perfect interbank exchange rates.
+
+13
+
+4. MONACO APP & PLATFORM DETAILED OVERVIEW
+4.1. Monaco App
+Proprietary. Both iOS and Android Apps built in-house with focus on simplicity and ease of use.
+4.2. Card issuing & processing platform
+Monaco Cards are going to be issued by one of the leading issuers and processing platforms globally, listed on Frankfurt Stock Exchange, with one of it's subsidiaries holding a full banking license in Germany. Our processing platform is a MasterCard® and Visa® accredited processor. They are Level 1 PCI DSS compliant. The company is headquartered in UAE and has an end-to-end solution that includes: payment processing at its core, program management tools, bespoke software development, financial control and reconciliation, technical support and card-holder customer services.
+14
+
+4.3. e-KYC platform
+Our mobile onboarding & e-KYC solution is built with Jumio. Jumio delivers the next-generation in digital ID verification, enabling businesses to reduce fraud and increase revenue while providing a fast, seamless customer experience. Jumio uses computer vision technology to verify credentials issued by over 200 countries in real-time web and mobile transactions. Jumio's solutions are used by leading companies in the financial services, sharing economy, retail, travel and online gaming sectors. Based in Palo Alto, California, and funded by Centana Growth Partners and Millennium Technology Value Partners, Jumio operates globally, with offices in the US and Europe, and has been the recipient of numerous awards for innovation.
+4.4. Sanctions / PEP checks
+IIn order to comply with relevant KYC/AML regulations, all Monaco Card holders undergo standard Sanctions / PEP checks in partnership with Thomson Reuters World-Check.
+Thomson Reuters World-Check risk intelligence data can be accessed using purpose built screening platforms, APIs and selected partner software. World-Check data supports our clients' due diligence obligations in the fight against financial crime, bribery, corruption, human rights crimes and environmental crime.
+World-Check appreciates the data protection and privacy implications of providing this database and has robust data protection processes in place.
+4.5. P2P Transfers between Monaco App users
+Proprietary. Monaco App users will have the ability to send currency (both crypto and fiat) to each other for free and in real time with funds being available to the recipient instantly and accessible by their Monaco Card at ATMs & POS globally.
+4.6. Interbank Exchange Rates, Physical Settlement & Hedging
+Proprietary. In order to offer all Monaco customers perfect interbank exchange rates without losing a tremendous amount of money, we are connected with 8 out of the top 10 banks by foreign exchange volume, giving us access to liquidity and low spreads. Our backend handles settlement and deploys proprietary algorithmic currency hedging strategies.
+15
+
+4.7. Cross-border Transfers platform
+Monaco partnered with several parties to power it's cross-border transfers capability using existing banking rails. In this setup, funds are sent locally, avoiding cross-border charges. We're looking to deploy blockchain-based solutions at a later stage.
+4.8. Top-up Channels
+Customers will be allowed to top-up their Monaco Card with ETH/BTC/ERC20 tokens, bank transfer, credit card, debit card or via a pre-approved credit limit.
+4.9. Apple Pay & Android Pay Functionality
+Customers will be able to link their cards to Apple Pay, Samsung Pay and Android Pay in Q4 2017
+16
+
+4.10. Physical Card Production & Inventory Management
+Monaco Cards will be produced by Gemalto, one of the market leaders with EUR 3.1b in 2016 revenue and 15,000 employees in 48 countries.
+4.11. 3rd Party Financial Services API
+Proprietary. Monaco have developed an API allowing rapid integration of other startup products into our platform to enable additional financial services (i.e. wealth management, travel insurance and more)
+4.12. Live Rates API Feed
+Live interbank exchange rates API feed from one of the industries golden standards ­ MorningStar.
+4.13. Card Security Management
+Industry leading card security features are available from the Monaco App ­ including card blocking, unblocking, setting up geographical security, online shopping capability and more.
+4.14. Companion Card Management
+Ability to issue a Companion Card with ability to set spending limits.
+17
+
+5. THE MARKET
+
+Fundamentally, there are two broad group of customers for whom Monaco Card has been built
+
+·
+
+Cryptocurrency holders, who want to spend it globally in the most convenient and efficient
+
+manner
+
+·
+
+Fiat-only customers, who spend in foreign currency and are now facing excessive levels of
+
+fees charged by banks
+
+While the funding sources for Monaco Card will differ for both customer groups, their use cases largely overlap and include:
+
+1. Outbound travel spend
+
+IPK International reported that the world outbound travel market turnover for the full year 2016 topped the $2 trillion mark for the first time, which was an increase of around 7 to 8% compared to 2015. The outlook for travel in 2017 is very positive, according to IPK International. The consultancy forecasts an increase in worldwide outbound trips of between 4 and 5%. IPK International sees particularly strong growth for outbound trips from Asia, with a likely rise of 6%. China's outbound tourism is a massive opportunity. Over 70% of cross-border trips are made to Hong Kong and Macau, according to the World Travel Monitor. Chinese outbound trips amounted to around 39 million in 2015, excluding trips to Hong Kong and Macao. For the Chinese traveler holding digital currencies, the Monaco App can be an essential tool.
+
+2. In-bound remittance (sending money back home)
+
+A remittance is - quite simply - a money transfer made by a foreign worker back to an individual in their home country. However, the typical international money transfer requires loads of communication between the individuals on either end of it. They have to calculate exchange rates, synchronize amounts, collect personal details, agree on a transfer method, and then confirm when the cash has been sent and received. Worldwide, 230 million people send $500 billion in remittances each year, primarily using firms like Western Union, Moneygram, and RIA. India, China and the Philippines are the top three countries that receive the most money via remittances. In terms of continents, Asia is the biggest recipient by far - in 2016, migrants from China and India sent home a staggering $180 billion. year, primarily using firms like Western Union, Moneygram, and RIA. India, China and the Philippines are the top three countries which receive the most money via remittances. In terms of continents, Asia is the biggest recipient by far - in 2016, migrants from China and India sent home a staggering $180 billion.
+
+18
+
+1. Cross-border online shopping in foreign currency The global B2C cross-border e-commerce market will balloon in size to $1 trillion in 2020 from $230 billion in 2014, according to a report from global consulting firm Accenture and AliResearch, Alibaba Group's research arm. In the report, researchers forecast that this increasingly popular form of online shopping--entailing consumers taking to the Internet to buy products directly from overseas retailers--will see compound annual growth of 27.4 percent per year. By 2020, more than 900 million people around the world will be international online shoppers, the report says, with their purchases accounting for nearly 30 percent of all global B2C transactions. China will become the largest cross-border B2C market by 2020, with the transaction volume of imported goods purchased online reaching $245 billion, according to Accenture-AliResearch. The report predicts over 200 million Chinese consumers will be cross-border shopping by 2020. Monaco Card can address those markets directly and globally .
+19
+
+6. TEAM
+6.1. Our Mission
+Build simple and honest financial products that improve lives.
+6.2. Our Values
+Clarity and simplicity We strive to make our products simple to understand and easy to use. We take extra care to think and communicate with absolute clarity, be it with our customers, our partners or internally. No fine print Our brand is built on principles of trust and honesty, as such our customers don't need to worry about reading the fine print ­ because there isn't any. Lead, don't follow We push the envelope in financial products, doing things that were never done before to win the hearts and minds of our customers.
+20
+
+6.3. Our Team
+6.3.1. Management
+Kris Marszalek ­ Co-founder & CEO
+Serial Entrepreneur in Southeast Asia Internet industry, 2x from $0 to $100m in revenue and 2 exits CEO at Ensogo, Founder at BEECRAZY (sold for US$21mm to iBuy Group in 2013)
+Rafael Melo ­ Co-founder & CFO
+15 years' experience in finance, deep understanding of risk, compliance and Mobile Payments ecosystem in Asia. Led fundraising efforts as CFO at ASX-listed Ensogo, securing strategic investment from VIPSHOP (NYSE:VIPS) and raising over A$50m from blue chip institutions like Fidelity, Goldman Sachs and BlackRock. Prior to Ensogo, served as CFO at Mobile Payment MasterCard in Singapore and Finance Director at Embraer.
+Gary Or ­ Co-founder & CTO
+Hacker, Product Designer, Entrepreneur, 9 years of full stack engineer-ing experience (RoR, Elixir, Golang), Keen interest in Machine Learning and AI Platform Architect and Ruby Lead at Ensogo, Engineer at BEECRAZY, Co-founder and CTO at EventXTRA
+Bobby Bao ­ Co-founder & Managing Director
+Extensive experience in investment banking, corporate development, investor relations. Head of Corp. Development at Ensogo, investment banker at China Renaissance (), Deloitte, Merill Lynch. While at China Renaissance he worked on landmark deals, including merger of Didi and Kuaidi (now Didi Chuxing) as well as Special Corporate Development Projects for Richard Liu (), Founder & CEO of JD.com (Nasdaq: JD)
+21
+
+6.3.2. Advisory Board
+Brent Diehl ­ Payments MD of Alliance Payment Solutions, Formemrly Prepaid Partner Solutions at VISA Timothy Hitchens ­ Technology Head of Solution Architects, Worldwide Public Sector - APJ at Amazon Web Services Ohad Hecht ­ Marketing CEO at Emarsys, global leader in B2C Marketing Automation Bradley Riss ­ Fintech Built Adyen's payment business in Southeast Asia Dimitri Tsamados ­ Talent Acquisition Founder & Partner at DTCA, Partner at Eric Salmon Asia Ransu Salovaara CEO ­ TokenMarket; Creator of BitcoinETI, the first bitcoin-backed exchange traded instrument
+6.3.3. Blockchain Advisors
+Mikko Ohtamaa Smart Contracts Development ­ TokenMarket Pablo Yabo Smart Contracts Audit - CoinFabrik
+22
+
+7. FINANCIALS
+We have a short operating history and a new business model, which makes it difficult to evaluate with accuracy our prospects and future financial results. Despite the risks and uncertainties frequently encountered by companies in rapidly evolving markets, we are offering two scenarios to help those participating in the Token Creation Event to understand different levers and possible outcomes for the project.
+Monaco's revenue comes from the fee paid by the merchants (interchange fee, see below). This fee is the same as on other cards and is paid by merchants to the acquiring bank in order to process their payments. Monaco takes a percentage of this fee each time a customer uses their Monaco Card. We assumed in our models the average interchange fee to be around 1.20%. This is not straightforward, there are pages and pages of rates: the interchange fees vary based on whether the card was present or not ­ and on the type of good or service being bought, whether it was a debit or credit card, whether it was a corporate card, whether it was an international transaction and lots of other criteria.
+Monaco intends to add additional recurring revenue streams within the next 12-18 months, including subscription fees based on a fair usage policy (i.e.: for cash withdrawals) and introduction of credit line with repayment period between 12 and 60 months. Additionally, we will partner with innovative fintech companies around the world to provide customers with the best savings, investments, credit, and insurance products directly with our App. We intend to be a digital finance platform and share revenues with selected "best of" partners in other major categories (investing, savings, credit & loans, insurance) with an emphasis on blockchain empowered partners.
+Conservatively, we have based our average user spend on debit card reports that give an average spend of USD3,500 per year.
+Licensing fees are calculated simply as 1% of transaction volume. We have also taken into account growth in users transacting in ERC20 tokens versus fiat currency. We will grow progressively the percentage of ERC20 tokens transactions from 40% to 80% over 5 years.
+23
+
+Financial transactions include POS and ATM transactions.
+Since January 2017, Ethereum and the Token market have grown at a value-weighted average of about 300,000% annually (or 6.7x per three months). We do not believe this growth rate will continue over the next five years. We have therefore taken a range of growth from 40% to 100% per year as our range for projections. For each scenario, we also assume that the Ethereum economy grows by around 3% (Conservative) and 6% (Optimistic) monthly for the next 5 years. This equates to around a 40% and 100% annual growth in assets backing MCO for the different scenarios respectively.
+Below are some rough projections of Monaco performance under two different scenarios over a 5 year period.
+7.1. Conservative
+In a conservative scenario, we modestly grow our user base and modestly monetize our products. We will operate in a highly competitive space. However, we strengthen our position as the multi-currency platform of choice in the Ethereum community by adding product features valued by the community. We foresee only a modest increase to the rate at which the general public funds payments using digital currencies. and tokens begin to see adoption by the general public, which also boosts our user-base.
+
+Customers Total number of financial transactions Total Revenue (in USD) Total Load Value (in USD) Transactions in ERC20 tokens Licensing fees accrued (in USD) Growth in underlying Assets Value of Asset Contract (in USD)
+
+YEAR 1 165,597 3,967,692 3,649,507 218,271,567 40% 873,086 40% 1,222,321
+
+YEAR 2 488,030 18,744,932 19,244,017 1,117,669,763 50% 5,588,349 40% 9,046,009
+
+YEAR 3 1,099,944 46,161,039 53,222,398 2,977,083,035 60% 17,862,498 40% 34,053,507
+
+YEAR 4 1,858,745 87,466,327 99,976,466 5,842,784,616 70% 40,899,492 40% 91,312,796
+
+YEAR 5 3,027,601 145,926,570 169,561,988 9,801,038,295 80% 78,408,306 40% 201,084,425
+
+24
+
+Customers
+165,597
+YEAR 1
+
+488,030
+YEAR 2
+
+1,099,944
+
+1,858,745
+
+3,027,601
+
+YEAR 3
+
+YEAR 4
+
+YEAR 5
+
+Total number of financial transactions
+
+3,967,692
+YEAR 1
+
+18,744,932
+
+46,161,039
+
+YEAR 2
+
+YEAR 3
+
+87,466,327
+
+145,926,570
+
+YEAR 4
+
+YEAR 5
+
+Total Revenue (in USD)
+
+3,649,507
+YEAR 1
+
+19,244,017
+YEAR 2
+
+53,222,398
+YEAR 3
+
+99,976,466
+
+169,561,988
+
+YEAR 4
+
+YEAR 5
+
+Total Load Value (in USD)
+
+218,271,567
+
+1,117,669,763
+
+2,977,083,035
+
+5,842,784,616
+
+9,801,038,295
+
+YEAR 1
+
+YEAR 2
+
+YEAR 3
+
+YEAR 4
+
+YEAR 5
+
+25
+
+Licensing fees accrued (in USD)
+
+873,086
+YEAR 1
+
+5,588,349
+YEAR 2
+
+17,862,498
+
+40,899,492
+
+78,408,306
+
+YEAR 3
+
+YEAR 4
+
+YEAR 5
+
+Value of Asset Contract (in USD)
+
+1,222,321
+YEAR 1
+
+9,046,009
+YEAR 2
+
+34,053,507
+
+91,312,796
+
+201,084,425
+
+YEAR 3
+
+YEAR 4
+
+YEAR 5
+
+26
+
+7.2. Optimistic
+In an optimistic scenario, we expect to grow our user base and user engagement, introduce new products, such as credit line, capture a substantial portion of the Ethereum community and see success from customers spending in foreign currency while traveling abroad, shopping online in foreign currency and sending money back home.
+
+Customers Total number of financial transactions Total Revenue (in USD) Total Load Value (in USD) Transactions in ERC20 tokens Licensing fees accrued (in USD) Growth in underlying Assets Value of Asset Contract (in USD)
+
+YEAR 1 281,515 6,745,076 6,204,161 371,061,663 40% 1,484,247 100% 2,968,493
+
+YEAR 2 829,651 31,866,384 32,714,829 1,900,038,597 50% 9,500,193 100% 21,968,879
+
+YEAR 3 1,869,904 78,473,766 90,478,076 5,061,041,160 60% 30,366,247 100% 82,701,373
+
+YEAR 4 3,159,867 148,692,756 169,959,992 9,932,733,847 70% 69,529,137 100% 221,759,647
+
+YEAR 5 5,146,921 248,075,169 288,255,379 16,661,765,102 80% 133,294,121 100% 488,347,889
+
+Customers
+281,515
+YEAR 1
+
+829,651
+YEAR 2
+
+1,869,904
+
+3,159,867
+
+5,146,921
+
+YEAR 3
+
+YEAR 4
+
+YEAR 5
+
+Total number of financial transactions
+
+6,745,076
+YEAR 1
+
+31,866,384
+YEAR 2
+
+78,473,766
+YEAR 3
+
+148,692,756
+
+248,075,169
+
+YEAR 4
+
+YEAR 5
+
+27
+
+Total Revenue (in USD)
+
+6,204,161
+YEAR 1
+
+32,714,829
+YEAR 2
+
+90,478,076
+
+169,959,992
+
+288,255,379
+
+YEAR 3
+
+YEAR 4
+
+YEAR 5
+
+Total Load Value (in USD)
+
+371,061,663
+
+1,900,038,597
+
+5,061,041,160
+
+9,932,733,847
+
+16,661,765,102
+
+YEAR 1
+
+YEAR 2
+
+YEAR 3
+
+YEAR 4
+
+YEAR 5
+
+Licensing fees accrued (in USD)
+
+1,484,247
+YEAR 1
+
+9,500,193
+YEAR 2
+
+30,366,247
+
+69,529,137
+
+133,294,121
+
+YEAR 3
+
+YEAR 4
+
+YEAR 5
+
+Value of Asset Contract (in USD)
+
+2,968,493
+YEAR 1
+
+21,968,879
+YEAR 2
+
+82,701,373
+
+221,759,647
+
+488,347,889
+
+YEAR 3
+
+YEAR 4
+
+YEAR 5
+
+28
+
+8. TOKEN CREATION EVENT
+
+8.1. Details
+
+MCO token creation event will commence on 18th of May 2017, 9:30am UCT.
+
+·
+
+Only Ether can be contributed and turned into MCO
+
+·
+
+The Token Sale will last 30 days
+
+·
+
+The creation will be soft-capped upon receipt of 150,000ETH
+
+·
+
+The MCO tokens will be created in real time, in response to incoming ETH contributions
+
+·
+
+If the soft-cap is reached before the end of the 30 days, additional contributions will be
+
+accepted for 7 days
+
+·
+
+No more MCO will be created after this period
+
+8.2. Additional MCO
+
+Additional MCO will be created for the Capital Reserve, founders, advisors and early investors as follows:
+
+1. Monaco Card founders, advisors & future employee token pool
+
+·
+
+25% of MCO created during the creation event will be allocated to Monaco Card founders,
+
+locked in a smart contract for 3 months
+
+·
+
+10% of MCO created during the creation event will be allocated to the Company and utilized
+
+as a future employee token pool, to strengthen our ability to attract & retail top talent; these
+
+tokens will be locked in a smart contract for 12 months
+
+·
+
+5% of MCO created during the creation event will be created for and granted to advisors;
+
+these tokens will be locked in a smart contract for 3 months
+
+2. Capital Reserve
+
+·
+
+30% of the MCO supply will be credited to the reserve, but not issued. These MCO will be
+
+available as an additional token sale mechanism, but may never be issued, depending on circum-
+
+stances in the future.
+
+29
+
+2. Capital Reserve
+
+·
+
+30% of the MCO supply will be credited to the reserve, but not issued. These MCO will be
+
+available as an additional token crowdsale mechanism, but may never be issued, depending
+
+on circumstances in the future.
+
+8.3. Example ­ total MCO issued and MCO in circulation
+
+During the Token Creation Event, we imagine that exactly 1,000,000 MCO are created in response to incoming payments.
+
+After the Token Creation event ends, the following additional MCO are created:
+
+·
+
+1,000,000 MCO for the Reserve
+
+·
+
+833,333 MCO for the Founders
+
+·
+
+333,333 MCO for the Talent Pool (future hires)
+
+·
+
+166,667 MCO for the Advisors
+
+In total, 3,333,333 MCO are created of which 1,000,000 MCO are transferable upon the completion of the Token Creation Event.
+
+If at some point, $3.33 million worth of tokens are held in the Token Asset Contract, and no MCO have been burned. Each MCO would receive $1 worth of tokens if burned.
+
+8.4. Timetable
+MCO Token Event Schedule 17th of May, 2017 ­ Announcement 18th of May, 2017 ­ MCO Token Creation Event Launches, MCO Tokens are created in real-time 17th of June, 2017 ­ Event closes Monaco App Launch Schedule 31 Aug 2017 ­ Go-live date
+
+30
+
+

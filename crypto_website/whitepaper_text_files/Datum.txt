@@ -1,0 +1,1490 @@
+An empirical study of Namecoin and lessons for decentralized namespace design
+Harry Kalodner*, Miles Carlsten*, Paul Ellenbogen*, Joseph Bonneau, Arvind Narayanan* {kalodner, carlsten, pe5, arvindn} @cs.princeton.edu* jbonneau@gmail.com Princeton University
+
+Abstract
+
+1 Introduction
+
+Decentralized namespaces. We initiate the
+
+study of decentralized namespaces from an eco-
+
+Secure decentralized namespaces have recently nomic perspective. A namespace, as we define
+
+become possible due to cryptocurrency technol- it, is an online system that maps names to val-
+
+ogy. They enable a censorship-resistant domain- ues. The Domain Name System (DNS) is the
+
+name system outside the control of any single most prominent example. A web service such
+
+entity, among other applications. Namecoin, a as Twitter that allows users to claim usernames
+
+fork of Bitcoin, is the most prominent example. and create profiles can be thought of as imple-
+
+menting a namespace. To be memorable by hu-
+
+We initiate the study of decentralized names- mans, namespaces must support arbitrary user-
+
+paces and the market for names in such sys- chosen strings as names. To be secure, names-
+
+tems. Our extensive empirical analysis of paces must map each name to the same value
+
+Namecoin reveals a system in disrepair. Indeed, for all users and adversaries shouldn't be able to
+
+our methodology for detecting "squatted" and convince a user that any other value is correct.
+
+otherwise inactive domains reveals that among The problem of decentralized namespaces has
+
+Namecoin's roughly 120,000 registered domain long been recognized as an important one. The
+
+names, a mere 28 are not squatted and have non- DNS is a critical yet centralized component of
+
+trivial content. Further, we develop techniques the Internet and those who control it can alter
+
+for detecting transfers of domains in the Name- the web for all users. The controversies around
+
+coin block chain and provide evidence that the the shutdowns of wikileaks.org and the
+
+market for domains is thin-to-nonexistent.
+
+2011 domain name seizures by the U.S. DoJ
+
+and DHS illustrate why many researchers and
+
+We argue that the state of the art in mecha- activists have sought decentralized alternatives
+
+nism design for decentralized namespace mar- [1].
+
+kets is lacking. We propose a model of utility The above three properties -- security, user-
+
+of different names to different participants, and chosen names, and decentralization -- are
+
+articulate desiderata of a decentralized names- known as Zooko's triangle [2]. Until 2011, de-
+
+pace in terms of this utility function. We use signing a system that exhibited all three was
+
+this model to explore the design space of mech- conjectured to be impossible [3]. The rationale
+
+anisms and analyze the trade-offs.
+
+was that enforcing the uniqueness of name-value
+
+1
+
+mappings and a consistent view of the directory for all participants would require a centralized server or a hierarchy.
+Cryptocurrencies and Namecoin. Cryptocurrency technology enables building a namespace with all three properties. Put simply, the block chain is a global, distributed data structure that can be repurposed as a directory. Miners execute a consensus protocol to establish the state of the system and are incentivized to do so by mining rewards they receive in exchange for their participation. As long as a majority of miners -- weighted by computing power -- follow the protocol, all users will see a consistent view of the directory when they query it. This in turn gives the system, and hence the underlying currency, economic value, making miners' actions profitable to them.
+Namecoin is a cryptocurrency that realizes a decentralized namespace. It is the first altcoin from Bitcoin with its own block chain. It offers the same features as Bitcoin with the addition of a name/value store that can be used to hold arbitrary data (see Section 2). The name/value store supports various applications; primarily, Namecoin has been used for domain-name resolution for the `.bit' alternative TLD, and by the online identity service, OneName, which utilizes the Namecoin block chain to record data about its members.
+Namecoin offers a novel solution to the technical challenges of decentralized namespaces. However, there are also economic challenges. These arise from the fact that even though namespaces theoretically support an infinite number of names, the supply of names that are memorable and meaningful to humans is scarce. Allocating these names to users is therefore a mechanism-design challenge. The central thesis of this work is that this mechanism design challenge is far harder than realized. A system that gets it wrong may "work" in a narrow technical sense, but may not be useful to real users.
+Specifically, there are several crucial questions to consider: how do we model the economic behavior of the users of a namespace
+
+and what are the goals of mechanism design for namespaces? How well does Namecoin succeed at attaining these goals and what are its limitations? If Namecoin is not the ideal design, can we analyze the design space as a guide to the creators of future decentralized namespaces?
+Our contributions. Along the above lines, we make the following contributions. We begin by proposing a model of utility of different names to different participants and articulating desiderata of a decentralized namespace in terms of this utility function (Section 3). We highlight the difficulty of mechanism design even in a toy model and explain the importance of making the model more realistic by incorporating extensions such as time-varying preferences.
+The central contribution of this paper is a thorough empirical analysis of the Namecoin ecosystem. We develop a series of criteria based on the block chain, network behavior, as well as content to distinguish active websites from parked or squatted names (Section 4). This allows us to iteratively filter our dataset of around 120,000 registered names in Namecoin, leaving a mere 28 that are not squatted, and have nontrivial content.
+We then delve deeper into the economics of names. Namecoin has a built-in ability to transfer names, which is a secure way to trade them using the block chain. However, it is not obvious which transactions correspond to such sales, as opposed to regular name updates. We develop a novel analytic technique to distinguish the two types of transactions and find evidence for about 250 transactions in the entire history of Namecoin that may represent sales of names (Section 5). Of course, it is possible that more sales have occurred off the block chain, but there doesn't appear to be a widely known marketplace for Namecoin names.
+Based on all the empirical evidence we present, we are left to conclude that the Namecoin ecosystem is dysfunctional. The vast majority of registered names represent squatting and there is little evidence of a secondary mar-
+
+2
+
+ket for names. While there could be many fac- and server software, users, a mechanism, and so
+
+tors that explain the lack of adoption, there ap- on. In fact, Namecoin contains namespaces in
+
+pears to be clear room for improvements in the the computer science sense, which we term sub-
+
+design to minimize squatting and other prob- spaces in this paper.
+
+lems. To this end, in Section 6, we explore the
+
+design space of decentralized namespaces and make recommendations.
+
+2.1
+
+History
+
+Why study namespaces? Although we find Namecoin is an alternative cryptocurrency, or that the Namecoin ecosystem is in disrepair, altcoin, modeled after Bitcoin [4]. Furthermore, studying namespaces is important. While there it is the first altcoin in the sense that it was currently doesn't seem to be widespread dissat- the first to create its own block chain, sepaisfaction with today's DNS causing users to seek rate from Bitcoin's. Namecoin shares many censorship-resistant alternatives, the existence similarities with Bitcoin, including the same of such alternatives provides a valuable hedge method for proof-of-work, the same coin cap, against a potentially abusive central authority. the same block creation time, and all of the same Besides, domain names are just one application transaction operations (with a few additions). of namespaces. Centralized directories for user Namecoin was inspired after discussions about public keys have fared much less well than DNS, a BitDNS [5] protocol using a block chain to and the service OneName, which we discuss manage a domain name lookup service. The in Section 8, is an interesting alternative. And motivation was that a central authority managof course, the problems posed by namespaces ing domain names, such as ICANN, requires too are intellectually interesting to study. We think much trust in a single entity and represents a sindecentralized namespaces have many important gle point of failure. The first Namecoin block applications, but their promise hasn't been real- was mined in April 2011, and as of this writing, ized so far. Our work helps understand why this over 215,000 total blocks have been mined in might be and lays the groundwork for a more the Namecoin system. Because of its similarities rigorous approach to building such systems. with Bitcoin, Namecoin was able to be merge-
+
+mined and has been merge-mined with Bitcoin
+
+2 Background: Namecoin
+
+since October 8, 2011 (see the next subsection).
+
+In this section we cover the background of Namecoin. We begin by looking at the history of the cryptocurrency and then explain why a block chain can be used for our definition of a namespace. We then proceed to discuss the technical design of Namecoin and the mechanisms used in the design. We conclude this section with a discussion about the applications of Namecoin.
+A note about the term `namespace'. In computer science, a namespace is simply a container for a set of names, so that names in a single namespace must be unique but the same name can exist in different namespaces. We have chosen to use the term in a related but different way: it's a system that includes client
+
+2.2 Description of the block chain
+Namecoin is minted and maintained by a decentralized peer-to-peer network.1 Namecoin transactions require the digital signature of the account holder to prevent theft, and every transaction is published in an append-only hash chain, called the block chain. The block chain can be extended with new transactions by any participant, and such participants (known as miners) obtain newly minted Namecoin currency (NMC) and transaction fees from the transactions for performing this function. Extensions to the block chain require a proof-of-work that
+1This description is adapted from [6].
+
+3
+
+rate-limits the process (to approximately one number of leading zeros required by the hash is
+
+extension every ten minutes) which enables a referred to as the difficulty threshold. Name-
+
+steady inflation rate, ample competition among coin enjoys a very high difficulty threshold for
+
+participants to extend the block chain, and ade- the proof-of-work because it is similar to Bit-
+
+quate time to obtain and verify the history of the coin and supports "merge mining" with Bitcoin.
+
+block chain for new participants. Informally, the This means that miners who are mining Bitcoin
+
+proof-of-work protocol in Namecoin is intended can also choose to mine Namecoin at the same
+
+to maintain the following two essential proper- time with no extra work. Essentially, this is
+
+ties about the block chain:
+
+because the miner is using their computational
+
+· Every party eventually agrees on the order and correctness of transactions in the block chain.
+
+power to solve a cryptographic puzzle that satisfies the proof-of-work for both block chains at the same time. This is advantageous for the miners because they are rewarded with coins from
+
+· Any party can publish a transaction (for a fee), which will then be verified and, if valid, included in the block chain within a small bounded delay.
+
+both systems, and helps Namecoin because it gives the Namecoin network a vastly increased amount of hash power over what it would have if it did not support merged mining. Including the merge miners, Namecoin has aproximately one
+
+One use case for a block chain is a tamperevident log. That is, it can be used as a data structure that stores user-supplied data, and allows users to append data to the end of the log.
+
+third the hash rate of Bitcoin. This provides resilience to a 51% attack, although a sufficiently large Bitcoin mining pool could still execute this attack.
+
+Each new block has a hash of the previous block,
+
+so if data that is earlier in the log is altered, it 2.3 Technical details of names
+will be detected. If an adversary wants to tam-
+
+per with data anywhere in this entire chain, in In this subsection and the next, we present de-
+
+order to keep the hash pointers consistent, he tails of Namecoin, separating the technical solu-
+
+will have to tamper with the hash pointers all the tion from the mechanism design choices.
+
+way up to and including the current block. Thus The feature that separates Namecoin from
+
+it emerges that by just remembering the single Bitcoin is that Namecoin is a namespace, and
+
+hash pointer of the head of the chain, users es- can be used to register name/value pairs that can
+
+sentially remember a tamper-evident hash of the be stored in the block chain and traded amongst
+
+entire list, all the way back to the genesis block. individuals. This registration is done using
+
+Namecoin, and all block chain based cryptocur- the three script operations exclusive to Name-
+
+rencies, use this tamper-evident log in order to coin: NAME_NEW, NAME_FIRSTUPDATE, and
+
+record all the transactions between users.
+
+NAME_UPDATE. In order to understand the
+
+Block chain security. The value and sta- registration process, we think it is helpful to
+
+bility of a cryptocurrency are directly related walk through the registration process of name,
+
+to the amount of proof-of-work involved in the roughly following Figure 1.
+
+calculations of the blocks because this work is NAME_NEW. To start, the user will need to
+
+what keeps the data distributed and secure in the select a coin to be crafted into a token (or special
+
+tamper-evident block chain. For both Bitcoin coin) that represents a name and whose value
+
+and Namecoin, the proof-of-work is shown by can be changed by whoever possess the token.
+
+calculating the hash of a new block and a ran- The next step to register a name is to make a
+
+dom nonce over and over until the calculated transaction that uses the NAME_NEW script oper-
+
+hash has a certain number of leading zeros. The ation in a transaction sending the token from one
+
+4
+
+of their addresses to another. Using NAME_NEW, a user can indicate an interest in name for a name/value pair by posting a hash commitment of the desired name in the scriptPubKey of the transaction. The reason the user posts the name in hashed form first, rather than in plaintext, is to prevent front-running, which we will explain in Section 6. The NAME_NEW operation acts as a signal in the block chain for name parsers to indicate that the next part of the scriptPubKey will be the hash commitment to a name.
+NAME_FIRSTUPDATE. After doing this, and waiting for 12 or more blocks on top of the one containing the NAME_NEW transaction (to ensure that the block chain reaches consensus on the NAME_NEW transaction), the same user can use the output of the NAME_NEW transaction as the input for the NAME_FIRSTUPDATE transaction. Once completed, this will associate the chosen name with value selected by the user. Similar to NAME_NEW, NAME_FIRSTUPDATE allows data to be posted in the block chain as part of the scriptPubKey of a special transaction. To create a NAME_NEW transaction, a user will select, as input, the output of the NAME_NEW transaction. They will then use another address they control as the output for the transaction. The scriptPubKey of this transaction will contain a NAME_FIRSTUPDATE, the name desired, the random nonce used in the NAME_NEW hash commitment, and the first value for the name to take.2 In order for this transaction to be valid, a miner will verify that the name and the provided nonce do, in fact, hash to the commitment in the appropriate NAME_NEW transaction. The output of this transaction now contains the token representing the name/value pair for name and value, and whoever can unlock and spend the output can utilize the final new operation, NAME_UPDATE.
+NAME_UPDATE. The third and final new operation in Namecoin is the NAME_UPDATE operation. Again, this operation's argu-
+2There are also other operations that exist for reasons of compatibility with Bitcoin; this seems to exist to minimize changes to Bitcoin's script handling code.
+
+ments (the name and newValue) are stored in the scriptPubKey of a special transaction. This transaction must have as input a NAME_FIRSTUPDATE or NAME_UPDATE output with the same name. This operation has three uses: updating, renewing and trading a name. If the user wants to change the value associated with a given name, they will update name with this operation, providing a newValue. If names can expire, as they do in Namecoin, then this operation can also be used to renew a name by providing a newValue that is the same as the old value. In either of these cases, the user will use an address they control as an output of the transaction. The final reason to make a NAME_UPDATE transaction is to trade the special coin to another user. In this case, the user will put, as an output, one of the other user's addresses instead of their own. Once the transaction resolves, the other user will have control over the special coin and can change the value to whatever they deem fit. Because the ownership of name is associated with the ownership of the special coin, if the buyer is paying for the name with Namecoins, the exchange between the payment and the name can be atomic (meaning they happen in the same transaction and either are only valid if the other is as well).
+2.4 Mechanism design
+Fees. Namecoin has been implemented with various fees and protocols to incentivize the behaviors of the users. The special token used in the NAME_NEW transaction has a value of 0.01 NMC. This coin will be not be spendable like other Namecoins while it has a name attached to it. For all of the transactions, NAME_NEW, NAME_FIRSTUPDATE, and NAME_UPDATE, the default behaviour is to have the user pay a transaction fee to the miner. The current expected transaction fee, which is programmed into the Namecoin client, is 0.005 NMC on each transaction. Historically, Namecoin also had a network fee attached to the NAME_FIRSTUPDATE transaction. The
+
+5
+
+Figure 1: Namecoin name registration protocol described in Section 2.3
+
+network fee is different from the transaction NAME_UPDATE in 36,000 blocks, the name be-
+
+fee; the transaction fee is paid to the miners, comes available again for any user to claim
+
+whereas the network fee was destroyed (with an with NAME_NEW and NAME_FIRSTUPDATE.
+
+OP_RETURN) when a NAME_FIRSTUPDATE Similarly, a NAME_UPDATE must cite a
+
+transaction was confirmed. The network fee var- NAME_FIRSTUPDATE or NAME_UPDATE that
+
+ied over time­ it started at 50 NMC at the gen- is less than 36,000 blocks old as input.
+
+esis block, but decreased by a factor of 2 every
+
+8192 blocks (which is approximately 2 months).
+
+The purpose of the network fee was to have a
+
+large initial cost to claiming names to deter users
+
+from quickly claiming all the desirable names, Changing the protocol. Changing the pro-
+
+but then decay off so that eventually the cost tocol in a cryptocurrency requires a "hard fork"
+
+of registering a name becomes negligible. As or a "soft fork" depending on the extent of the
+
+of block 85585, the network fee became small change. In a mature system like Bitcoin, this is
+
+enough that it rounds to 0 and is no longer added very difficult. In a fledgling system like Name-
+
+onto the transaction. The current implemen- coin, however, it is much easier has happened
+
+tation of Namecoin has no fees other than the multiple times. Both the addition of merge min-
+
+transaction fees and the investment of the token ing with Bitcoin, and the increase in expira-
+
+coin.
+
+tion length were not initially in the design of
+
+Namecoin and required hard-forking changes.
+
+Expiration. Namecoin has an expiration In order to make these changes, the Namecoin
+
+time for names. Originally, the time period community decided on arbitrary blocks at which
+
+for a name to expire was 12,000 blocks, but point the new protocol would be enforced. Ex-
+
+by March 2012, the expiration period was in- plicitly, up to block 19,199 blocks that were
+
+creased to 36,000 blocks (which comes out to merge mined with Bitcoin were not allowed into
+
+about 250 days). If a particular name hasn't the Namceoin block chain, but starting on block
+
+been mentioned in a NAME_FIRSTUPDATE or 19,200 they were.
+
+6
+
+2.5 Applications
+
+quires trusting that the DNS server is working
+
+properly and accurately reporting results. A fiThere are many different subspaces in Name- nal option is using a proxy server hosted in a
+
+coin, and the different subspaces correspond to standard TLD. This requires no local configura-
+
+applications. When claiming a name, a user tion, but users must go to example.bit by visiting
+
+prepends the name with a subspace ID and a example.bitproxy.com.
+
+slash. Namecoin was created to be very general OneName. The name/value data store in
+
+so that it would be useful for any application that Namecoin has applications beyond DNS. One-
+
+would benefit from an online name/value store. Name is an online identity service that runs on
+
+While d/ has the most registered names, there top of Namecoin, making use of the data store.
+
+are many used subspaces in Namecoin. The sep- OneName is a centralized service, but one can
+
+aration of namespaces is not enforced by the use other clients to interact with the block chain
+
+protocol in any way, but merely agreed upon by in a way that's interoperable with OneName.
+
+consensus of all users, analogous to open web The idea behind OneName is that a user can
+
+standards.
+
+have a name/value pair in the block chain that
+
+.bit Domains. The vision for Namecoin was associates said name with different online iden-
+
+to use one of these subspaces for DNS lookup tities such as an email, GitHub, Twitter, and
+
+in the .bit TLD. Explicitly, Namecoin names as- Bitcoin address. A OneName user can then
+
+sociated with .bit domains are prepended with confirm ownership of accounts on any of these
+
+the subspace ID d/. If a user wanted the do- services by referencing their OneName name
+
+main example.bit, they would claim the name through some messaging channel in each re-
+
+d/example. The owner of example.bit would spective system. For example, if Alice wants to
+
+then set the value to their server address in a way tie her twitter username to her OneName user-
+
+that would be understood by .bit compliant DNS name, she must tweet the message "Verifying
+
+servers as described in the .bit specification [7]. that +Alice is my openname (my Bitcoin user-
+
+Most major web servers, such as Apache, name). https://onename.com/Alice".
+
+ngnix, and lighthttpd will accept connections This is similar to the verification scheme Key-
+
+through .bit domains with minor modifications base [12] uses. A OneName account also has
+
+to their per-site configuration files.
+
+an associated Bitcoin address so users can eas-
+
+There are a number of ways to resolve .bit do- ily find an address to use to send Bitcoins to a
+
+mains to IP addresses with varying levels of se- particular individual, if they want.
+
+curity. The most secure option is running lo- In order to make a OneName identity, a user
+
+cal DNS resolution software. The three ma- can visit OneName's website to create an ac-
+
+jor projects created for this purpose are NM- count. A user makes an account by selecting
+
+Control [8], a local DNS server, FreeSpeechMe a username and then optionally entering in their
+
+[9], a Firefox add-on, and DNSChain [10], actual name, their account names, a short biog-
+
+another browser extension. NMControl and raphy and picture, and a Bitcoin address. One-
+
+FreeSpeechMe both hold a local copy of the Name takes the information given to it and au-
+
+block chain and query it for values associated tomatically puts it into a name/value pair, with
+
+with .bit domains. They parse the value of the the name equal to the selected username, and
+
+name using the specification and seamlessly di- the value containing all the other data. If the
+
+rect the user to the resolved IP address.
+
+username is not already claimed by some user
+
+There are a couple less secure options to ac- in the Namecoin subspace u/, then OneName
+
+cess .bit domains. Users can connect to specific posts this pair into the block chain. If it is al-
+
+DNS servers such as OpenNic [11] which sup- ready taken, the website will ask the new user to
+
+port resolving .bit domains. However this re- select a different username. If a user so desires,
+
+7
+
+they can alternatively manually create a name transaction using the Namecoin client to create a name value pair with a name in the u/ subspace and a value formatted to match the OneName specifications. To incentivize using their website interface, OneName covers the Namecoin fees for their users.
+3 Modeling namespaces
+Names are scarce. Many types of systems map keys or names to values. In his essay introducing his triangle, Zooko considers naming systems that include a system mapping PGP key fingerprints to keys. Fingerprints are hashes of keys. This would not qualify as a namespace by our definition because users cannot pick arbitrary names -- that would require finding the hash pre-image of an arbitrary name (fingerprint), a hard problem by the definition of a hash function. Zooko (and similar prior work) considers such systems to lack human memorability of names. We replace this criterion with that of user choice of names, which is roughly equivalent but easy to define rigorously.
+In a system that maps key fingerprints to keys, names are fungible and essentially infinite, and thus not scarce and have no market value. On the other hand, in any system that we call a namespace, scarcity is an almost inevitable consequence of free user choice. Even when names are scarce, the system architecture can make names more or less valuable. For example, usernames on Twitter are more valuable than on Facebook -- the username or handle is a relatively important way to find a user on Twitter, whereas on Facebook it is done more often by navigating the social graph.
+The scarcity of names makes the design of namespaces challenging. But it also makes the problem particularly amenable to cryptocurrency-based solutions. Since names have market value, and participation in the primary market requires the associated cryptocur-
+
+rency, the currency becomes valuable. This incentivizes miners, making the system secure.
+The (non) role of trademarks. Scarcity is also an issue in centralized namespaces, but it manifests in different ways. One key goal of most centralized systems is trademark protection. The trademark system can be seen as a legal mechanism to address the problems of name scarcity and limits of human memorability in the real world, independent of any particular technological system. Most centralized systems support some form of arbitration or dispute resolution in which trademark plays a role.3 In a decentralized system, on the other hand, there is no easy way to enforce any rules that cannot be encoded algorithmically. As of yet there is no way to cryptographically assert that one is the owner of a trademark, and this may be impossible given the complexity and nuance of modern trademark law.
+Primary and secondary markets, algorithmic agents. We use the term primary market to mean the part of the market where new names are issued to users for the first time. By contrast, the secondary market deals with the sale of a name already in use.
+Whom do names "belong to" before they are sold on the primary market? To answer this, we must understand decentralized agents. Any cryptocurrency can be thought of as an algorithmic agent executed as a global, distributed computation. The agent has no capability to store private information but it can hold funds and transact with users of the system. Bitcoin encodes a very simple agent whose only function is to release currency into circulation at a prespecified rate.4
+In a nutshell, the agent implemented by a namespace initially owns all names and sells them to users. As we'll see in Section 6, there
+3For example see ICANN's Uniform Domain-Name Dispute-Resolution Policy [13].
+4At the other extreme, altcoins such as Ethereum allow any user to create an agent by making the central agent "Turing complete," that is, flexible enough to execute arbitrary programs specified by users on their behalf.
+
+8
+
+are many variants including whether names are tors are hoping for. Land speculation has also
+
+sold or leased, whether or not they can be bought been criticized as contributing to a market fail-
+
+back, how names are priced, what the agent does ure [15].
+
+with the funds received as payment, and so on. In this view, squatting may exist and may be
+
+The most straightforward implementation of problematic even if the primary market is able
+
+a secondary market is to leave it entirely exter- to discover the market price. But if the primary
+
+nal to the system. This is the approach taken market is algorithmic, it only exacerbates the
+
+by Namecoin, but again, a variety of choices are squatting problem.
+
+possible. We elaborate in Section 6.
+
+Complexity of the utility function. Our
+
+Squatting. Even though names are scarce, argument above is essentially that the utility
+
+it's not obvious what "squatting" means. Af- of a given name to a given user may vary
+
+ter all, material goods are scarce, but we don't with time. This is particularly relevant to
+
+usually characterize car owners as squatting on cryptocurrency-based namespaces -- in addi-
+
+them. The difference is that names have (vastly) tion to the usual network effects that make
+
+different utility to different users. A squatted the adoption of some new products challeng-
+
+name is one that is owned by a user whose util- ing, cryptocurrencies need to "bootstrap," which
+
+ity for that name is close to zero (or very small presents an additional difficulty in getting off
+
+compared to the user who has the most utility the ground. A cryptocurrency may not be suf-
+
+for that name), purchased in hopes of selling to ficiently secure if it has too few users. Thus,
+
+another user whose utility is higher.
+
+many users may have a zero or negligible utility
+
+Is squatting a problem for the system? This for all names until they decide that the names-
+
+is a tricky question. If squatting exists merely pace is secure enough and has enough users to
+
+because one side of the primary market is an al- be worthy of taking seriously.
+
+gorithm and doesn't charge market price, then Another aspect of complexity of the utility
+
+squatters could be seen as analogous to brokers function is diminishing marginal utility. A user
+
+or ticket scalpers. Such agents are sometimes named John Smith may want either the name considered to perform a useful function as mar- JohnSmith or john-smith but not necessarily
+
+ket makers [14], or at least tolerated, but not both. Time-variation and diminishing marginal
+
+considered an existential threat to the function- utility make the mechanism design problem
+
+ing of the market.
+
+very tricky.
+
+On the other hand, squatters can be viewed as Suppose, to the contrary, that utility functions
+
+analogous to land speculators. This analogy is are time invariant, and utility functions of a user
+
+supported by the fact that names, like land but for different names are independent. Then we
+
+unlike tickets, are not fungible. The speculator may state the goal of the system as ownership
+
+may have zero utility for a name and makes no of each domain by the user with the maximum
+
+use of the name himself; he hopes that demand utility (or willingness to pay) for that domain,
+
+for a name will rise in the future, and may there- as long as that value is above some threshold.
+
+fore not sell to a buyer who has a positive util- We can easily realize this by making the pri-
+
+ity today. This could lead to a market failure mary market a second-price auction with a re-
+
+in a few ways. The uncertainty around future serve price. No secondary market would be nec-
+
+demand means that some names may be squat- essary.
+
+ted indefinitely, while legitimate users may end Of course, this is oversimplified. Let's add
+
+up with sub-optimal names. If most valuable diminishing marginal utility to this model. Sup-
+
+names are locked up by squatters, it may prevent pose there are 10 John Smiths in the world and
+
+the growth of the system, in turn preventing the 10 variations of the name JohnSmith. A 10x10
+
+growth in market price for names that specula- matrix describes the utility of each user for each
+
+9
+
+name. Further, none of these users has any utility for more than one name. Now we can state a welfare-maximization goal of finding the assignment of names to users that maximizes the sum of each user's utility for his assigned name, which translates to a maximum weighted graph matching problem. Or we could be happy with a Pareto-efficient assignment; since this is onesided market (names aren't agents), this is the house allocation problem [16]. This shows that even in a highly simplified setting with a finite number of names and the same number of users, the mechanism design question is very tricky.
+When we add time-varying preferences to the model, it is unclear if we can even formally state a goal for the system. The harder we make it for a user to hold on to a purchased name, the easier it becomes for an adversary to "seize" a name (see below).
+
+100%
+
+80%
+
+Percent of total names
+
+60%
+
+40%
+
+20%
+
+0% 0
+
+5000
+
+10000
+
+15000
+
+Value occurs more than n times
+
+20000
+
+Figure 2: Analysis of squatting. Names whose values occur more than about 10 times can be safely considered to be squatted. In fact, the graph shows that the majority of names are held by prolific squatters who control thousands of names.
+
+4 Analysis of .bit domains
+
+At any rate, the fact that preferences are time varying appears to be part of the reason that names in Namecoin expire and must be renewed; in effect, they are leased rather than purchased outright.
+
+In this section we analyze the current state of .bit domains. We begin at the highest level, looking at the repetition of values in order to detect squatters. Next we look at how many .bit domains are set up with query-able values. Finally
+
+Seizures. The Namecoin community consid- we actually visit these query-able names and aners it a major goal to prevent "seizures" of do- alyze the content we find there.
+
+main names by adversaries [17]. To prevent
+
+seizures, then, it must be easy to hold on to a
+name after buying it. This is in tension with pre- 4.1 Detecting squatters
+
+venting speculation, which works by buying a
+
+name and holding on to it despite other people We investigate the balance between squatters
+
+wanting it.
+
+and other users in the .bit subspace. As we dis-
+
+cussed in 3, squatting is a critical issue in any
+
+The reason it is even technically possible to decentralized namespace. We look at Namecoin
+
+prevent such censorship in the face of a well- in order to get a realistic view on the prolifera-
+
+funded adversary is that the adversary can't pos- tion of squatting.
+
+sibly preemptively buy up all the names that the Namecoin possesses the same pseudonymity
+
+victim might use. For example, Wikileaks might properties as Bitcoin and thus it is difficult to
+
+find any name with the string "wikileaks" in it group names by their owner. Names are owned
+
+to be acceptable, even if not ideal, for their pur- by individual addresses rather than by identities
+
+poses. In other words the victim's utility func- and it is a common practice to keep each pur-
+
+tion has a large support; the adversary's utility chased name under a different address. Because
+
+for a name is contingent on the victim owning of this, it is difficult to assess how many names
+
+that name.
+
+any single entity owns.
+
+10
+
+However, many squatters are easily identified
+
+Type of resolution Count
+
+through the values they set for the names they
+
+Nameserver URL 3200
+
+own. Since there is no built-in functionality
+
+Nameserver IP 148
+
+for the listing and sale of names in Namecoin,
+
+Single IP
+
+5848
+
+squatters use the values of names they own to
+
+Multiple IP
+
+2
+
+display contact information. This information
+
+Single IPv6
+
+2
+
+generally comes in the form of either contact in-
+
+Multiple IPv6
+
+1
+
+formation stored directly in the value of a name,
+
+Tor
+
+9
+
+or contact information stored at the IP address
+
+Alias
+
+23
+
+to which the name resolves. We observed that a
+
+Only subdomains 2
+
+squatter's contact information is generally con-
+
+Total
+
+9354
+
+stant among all the names they own. Thus, by measuring the extent to which values are duplicated on the block chain, we can estimate the
+
+Table 1: Comprehensive list of .bit domain resolution methods currently in use.
+
+ratio of squatters to genuine users.
+
+4.2 DNS records
+
+Regular .bit domain owners are unlikely to
+
+use values that are highly replicated. The value We now examine how .bit domains are used by
+
+of a domain points to an individual server and genuine users. Only 9354 out of the 119624 .bit
+
+most are unique. Repetition may occur in this domains make any attempt to resolve to an IP
+
+circumstance is when multiple names resolve to address. Out of these a variety of types of IP
+
+the same point. This could occur when a sin- resolution are employed.
+
+gle DNS server is resolving a large number of In order to support DNS lookups, Namecoin
+
+names to different websites. However when we provides a specification that allows for the sup-
+
+performed the content analysis described in Sec- port of most DNS record types. A name's con-
+
+tion 4.3, we found that this does not happen cur- figuration is stored in a JSON dictionary object
+
+rently.
+
+which is placed in a name's value. Domain's
+
+can be configured in a number of different ways.
+
+There is no definitive threshold for deciding The main methods are directly setting one or
+
+exactly how often a value has to occur in order to more IP (or IPv6) addresses or setting one or
+
+assume a squatter has been detected. However more secondary name-servers which hold infor-
+
+even the coarsest grained approach displays a mation about a domain. Additionally records
+
+massive amount of squatting on the block chain. can link a name to a number of hidden-services
+
+Of the 196023 currently active names, there are URL schemes like .onion [18] and .i2p [19].
+
+only 34361 unique values.
+
+Namecoin supports a number of different
+
+name resolution methods. Different methods
+
+In Figure 6 we examine the fraction of current have different properties and thus it is interest-
+
+.bit names that are squatted. We sorted all of the ing to inspect how people are setting up their
+
+values that occur by the number of times they domains. The vast majority of names point di-
+
+occur. The graph has a very sharp initial drop rectly to an address. This includes people using
+
+as we remove all names with values that occur IP, IPv6, and Tor. This is by far the most privacy
+
+only a few times. This leaves the majority of preserving method since the IP address is drawn
+
+domains to drop off very slowly as we remove directly from the block chain. A client can sim-
+
+bigger and bigger squatters. Using a cut-off of ply look up a name in the block chain and im-
+
+n = 10, it appears safe to say that at least 76% mediately connect to the server. However, this
+
+of .bit domains are held by squatters.
+
+privacy comes at the cost of flexibility since the
+
+11
+
+Criteria applied
+
+Count
+
+mirrors or duplicates of each other. After re-
+
+Valid DNS
+
+9354
+
+moving 290 such duplicates, 455 domains re-
+
+Curlable
+
+5374
+
+mained.
+
+Not squatter
+
+745
+
+Without duplicates
+
+455
+
+A large number of pages were either error re-
+
+Without errors
+
+278
+
+sponses from the server or default pages from
+
+With content
+
+222
+
+various web servers. Neither of these can be
+
+Without ICANN hostname 28
+
+considered useful content. There were 177 such
+
+Table 2: Number of .bit domains which resolve to real content
+
+domains, and removing them left us with 278 domains.
+
+Out of the remaining sites, many had very
+
+server is directly encoded in the block chain and small amounts of content consisting of only a
+
+can not be changed without an update.
+
+few words on a blank page like, "Welcome to
+
+The much more flexible configuration, also mysite.bit." These pages, though valid uses of
+
+commonly used, is name server delegation. Namecoin, provide minimal utility to a visitor.
+
+Rather than directly listing an IP address in the Thus, we decided to look at only pages con-
+
+block chain, one or more name servers are listed. sisting of 15 or more words and images which
+
+This way a name owner can update their IP ad- brought us down to 222 domains.
+
+dress without modifying the block chain. How-
+
+ever this is an insecure delegation since Name- These 222 domains make up the only web-
+
+coin can not enforce any properties regarding sites reachable through .bit domain names
+
+the action of the external name server. The which have any real content on them at the time
+
+server will have full control over its interaction of this analysis. We are further interested in the
+
+with users including the ability to track lookups subset of these pages which don't come from
+
+or return results which aren't globally consis- a server that is accessible through a standard
+
+tent.
+
+ICANN TLD as well. 83 of the pages directly
+
+redirect the user to a standard domain and 111
+
+were manually identified as pointing to the same
+
+4.3 Domain content analysis
+
+site as a standard domain. The domains which
+
+had ICANN hostname's along with their .bit After understanding how people connect their hostname were manually identified and pinged names with IP addresses, we explored what to ensure matching IP addresses. sort of content is reachable through .bit domain
+
+names. We attempted to download the front This left us with 28 pages serving non-trivial page of each of these 9354 domains over port 80 content that is uniquely available via .bit. (HTTP). 3881 of these domains were unreach-
+
+able or didn't serve web content, leaving us with Our approach to analyzing content suffers
+
+only 5374 responsive domains.
+
+from a few limitations. First of all we only
+
+Looking at the content of the servers' re- queried the main domain over port 80, thus if
+
+sponses, we found that of the responsive 5374 any of the servers only respond to subdomains
+
+domains, 4629 are owned by 3 different squat- or only serve content over HTTPS, they are not
+
+ters. These domains serve nothing of value and included. Additionally when we detect how
+
+caused massive inflation in our reachable do- much content is on each page, we do not follow
+
+main count.
+
+links and thus content could be hidden behind
+
+Removing the squatters, we count 745 viable links. Despite these limitations we believe that
+
+domains. However, many of these pages are we have missed very few legitimate domains.
+
+12
+
+100% 80%
+
+25000 20000
+
+Probability of being registered Frequency
+
+60%
+
+15000
+
+40%
+
+10000
+
+20%
+
+5000
+
+0%100
+
+101
+
+102
+
+103
+
+104
+
+105
+
+106
+
+Alexa rank
+
+0
+
+0
+
+5
+
+10
+
+15
+
+20
+
+25
+
+30
+
+35
+
+40
+
+Name Length
+
+Figure 3: For each 1  n  1, 000, 000, the probability that .bit versions of domains with Alexa rank approximately n are registered.
+
+Figure 4: The number of Namecoin names registered as a function of name length.
+Name length Percent registered
+
+1
+
+4.4 Examining Squatter Name
+
+2
+
+Choice
+
+3
+
+100.00% 100.00% 58.61%
+
+4
+
+As we have seen, many individual squatters
+
+5
+
+buy up very large numbers of domains. We now explore what sort of categories these names
+
+...
+
+1.00%
+0.02% ...
+
+fall into and try to interpret the decisions these squatters have made. Here we explore two potential measures of name desirability, one using Alexa ranking, and one using the length of the
+
+Table 3: Percent of all domains of registered by length. All possible names are counted combinatorially using the rules given by [7].
+
+name.
+We can see from Figure 3 and Figure 4 that tion that squatters and other namespace particithere are patterns to the names that squatters pants put on names.
+
+have acquired. In Figure 3, we can see that
+
+squatters have claimed the majority of very high
+
+ranking Alexa sites.
+
+5 Secondary market analysis
+
+In Figure 4 we see that there is a preference for shorter names. Table 3 shows that in fact Next, we seek to understand and quantify how all one- and two-character names are taken. It names move between users. Our basic scenario is not until we get to names with at least three is that Alice owns the name `d/example' and characters that there are names available to reg- Bob would like to purchase it from her. We exister. Beyond three characters, the combinato- plore various ways this sale can occur and how rial nature of name strings makes it infeasible to these sales can be detected.
+
+register all names of that length. There are more
+
+names with a length of 4 available than there are 5.1 Detecting atomic transfers
+total names registered currently.
+
+Alexa ranking and name length are not an ex- The safest way to buy and sell Namecoin names
+
+haustive description of squatter behavior. Future is through the use of atomic transactions. This
+
+work would attempt to better model the valua- is an important technique in cryptocurrencies
+
+13
+
+Figure 5: Anatomy of an atomic name transfer. Both the name and the payment are included in the same transaction, so one cannot fail to transfer to the other party without the other failing to transfer.
+
+whereby two parties can exchange digital as- Namecoin RPC client must be used from the
+
+sets (such as a name in exchange for currency) command line. In order to simplify this task,
+
+without a trusted intermediary without either a Namecoin developer created ANTPY [20],
+
+worrying that the other will abscond after re- a piece of software to automate the creation
+
+ceiving her half of the bargain. We show how of atomic transactions. This software has the
+
+these transactions work in Figure 5. In an quirk that the buyer's payment goes to the ad-
+
+atomic transaction, Alice and Bob make their dress that the seller held the name in. To find
+
+exchange in a single transaction. In the sim- these transactions we queried the block chain for
+
+plest form of atomic name transfer, Bob cre- transactions with a NAME_FIRSTUPDATE or
+
+ates a transaction which transfers his payment NAME_UPDATE input from the same address as
+
+to Alice and transfers `d/example' to him. He a non name output. We then further reduced this
+
+then sends this transaction to Alice, the owner set by eliminating transactions where the name
+
+of the name, who verifies it, signs, and broad- stayed at the same address.
+
+casts the transaction to the block chain. Both Al- We searched throughout the history of the ice and Bob's signatures are locked to the inputs Namecoin block chain for transactions fitting and outputs of the transaction so neither input this specification. Our query returned 13 transcan be spent individually without the full trans- actions which we believe represent all transacaction. This transaction provides cryptographic tions built by the ANTPY script. However this
+
+security to both Alice and Bob since either both by no means represents all sales on the block
+
+the name and coins will be exchanged or nothing will. Although there is nothing inherently different looking about this transaction on the block chain, there are a few possible techniques to detect them by implementation quirks.
+
+chain. We next attempt to discover atomic transactions in a different way.
+A implementation-agnostic method for detecting atomic name transfers is to find transactions that clearly use change addresses. This
+
+The Namecoin client is a fairly underdevel- occurs when there are two non-name outputs in
+
+oped piece of software and thus there is no a transaction that has a name input. In this case
+
+built-in method of performing atomic transac- the buyer did not want to pay all of his input to
+
+tions. In order to accomplish this task, the the seller and thus kept some for himself. This
+
+14
+
+leaves the transaction with 3 outputs. Under normal circumstances, NAME_UPDATE transactions will only have two outputs, a name output and a change address. Thus every transaction with three outputs is very likely an atomic name transfer.
+In the history of the Namecoin block chain, we found 6 transactions fitting this form. However 5 of the 6 were also detected by the previous (ANTPY) criterion.
+The 14 atomic transactions which we detected are a lower bound for the number of name transfers. We are unable to query for all atomic transactions since if the buyer doesn't want any change from a purchase and the seller gives the buyer a new address to send payment to, the transaction is indistinguishable from a regular non-transferring name update.
+
+250
+
+Number of Transactions
+
+200
+
+150
+
+100
+
+50
+
+00
+
+5
+
+10
+
+15
+
+20
+
+25
+
+30
+
+Squatter Treshold
+
+Figure 6: Number of transfers detected based on squatting threshold. For each n on the x-axis (5  n  25), we plot the number of squatter  non-squatter transactions detected if we characterize names whose values occur n or more times as squatted.
+
+5.2 Deriving an upper bound on Although there doesn't seem to be a way
+
+number of sales
+
+to detect non-atomic name transfers generally, there is an important subclass of these transac-
+
+Following up on our lower bound from the pre- tions which can still be detected -- transfers vious section, we now derive an upper bound on from squatters to regular users. In the previthe number of name sales using data from the ous section we discussed our detection of squatblock chain. Whereas atomic transactions, can ters in the block chain which produces a list of (sometimes) be recognized simply from their values which with a high probability belong to contents, other name sale transactions are not squatters. Detecting transfers from squatters by recognizable. Here the payment could be a sepa- finding names that change from one of these valrate transaction or even made in a currency other ues to a value outside this set gives us a strategy than Namecoin. We would hope that we could to detect transfers.
+
+detect changes in name ownership by looking at We employ an additional criterion to elimi-
+
+changes in which key owns a name. However, nate false positives to tighten our upper bound.
+
+since the Namecoin client defaults to sending If a name's value includes an info or email field
+
+names to new addresses on update, there is no and that stays the same in the updated value we
+
+way to look at an update and tell whether or not can assume this is simply an update by the squat-
+
+a name is being transferred between owners. ter.
+
+In order to detect non-atomic transactions we Applying this analysis at various squatter
+
+must expand our view to the prior value of a threshold values, we see that the total number
+
+name being updated. Certainly if the value does of squatter  non-squatter transactions detected
+
+not change then the transaction is simply renew- holds at approximately 250 transactions. We
+
+ing the name, not transferring it. However con- emphasize that this value is likely an upper-
+
+sidering all other transactions to be name trans- bound since our criteria for reducing the number
+
+fers is far too conservative of a criterion. Users of transactions were quite conservative.
+
+freely update the values of names whenever in- To summarize, we would expect that given
+
+formation in them becomes outdated.
+
+the high percentage of squatted .bit names, if
+
+15
+
+there is a flourishing secondary market it would to the key used to first register the name. Such a
+
+be dominated by sales from squatters to regular system could deter speculative squatters because
+
+users. Yet we are able to upper bound the num- a speculator would not be able to sell a name
+
+ber of such transfers to about 250, a tiny frac- to another individual. While it would be pos-
+
+tion of the number of squatted names. Further, sible to transfer the private key that controls a
+
+even though Namecoin supports a secure way to name, the user receiving it would have no cryp-
+
+transfer names, we find strong evidence based tographic assurance that the original owner does
+
+on known tools supporting this functionality that still posses a copy of the key. On the other hand
+
+its usage is very low.
+
+squatters who wish to censor names or simply
+
+damage the system would be undeterred by the
+
+inability to transfer names.
+
+6 Exploring namespace de-
+
+As we noted in Section 3, utility functions are
+
+sign choices
+
+time-varying, so a technical restriction against
+
+name transfer goes against the logic of the mar-
+
+Throughout this section we will refer to the con- ket. It is possible that most names would be con-
+
+cept of the decentralized algorithmic agent that trolled by squatters who act as dealers and lease
+
+we introduced in Section 3. Several of the op- names to users. Essentially this would make the
+
+tions we explore will require this agent to im- system a hybrid between a centralized and a de-
+
+plement rather complex algorithms. We will not centralized namespace.
+
+directly address the question of practical feasibility of complex decentralized agents. We note, 2. Control lasts forever except if the user however, that based on proposed designs, these chooses to transfer or sell the name. This ap-
+
+agents can be surprisingly powerful; we refer the proach is easy to understand as it is the most
+
+reader to [6, 21, 22].
+
+similar to physical property. A practical prob-
+
+lem with this approach is that if a user loses her
+
+6.1 Control of names
+
+key, any names controlled by that user or key are lost forever. This may also happen if a user
+
+At any point in time, each name is either con- leaves the system, but this problem can be alletrolled by some user or is unclaimed. In the lat- viated by having the primary market agent buy ter case, it can be considered to be owned by the back names from users. This incentivizes the decentralized agent encoded into the cryptocur- user to give up the name before leaving the sysrency, and is on the primary market. Any user tem even if she can't find a seller for it. The can attempt to purchase any name on the pri- agent essentially acts as an automated market mary market. We will return later to the question maker.
+
+of how the name is priced.
+
+3. Names expire after a fixed period, except
+
+When a name is controlled by a user, how if the user renews it. This is a practical choice
+
+strong is that control? We can consider a hier- that avoids the problems pointed out above, es-
+
+archy of increasingly weaker forms of control. pecially if the renewal fee is very small com-
+
+1. Control lasts forever and names can- pared to the price of the name on the primary
+
+not be transferred. It is straightforward to de- market. We expect that a rational user will keep
+
+sign a namespace in such a way that names are renewing a name she controls unless her utility
+
+non-transferable (in Namecoin, it would be a drops to near-zero, or she loses the associated
+
+matter of requiring the input and output of a private key and therefore can't update the name.
+
+NAME_UPDATE transaction to have the same If the renewal fee is substantial, this becomes
+
+address). Making names non-transferable would similar to a lease instead of ownership. The re-
+
+lock authority to update to the value restricted newal fee is paid to the agent.
+
+16
+
+Finally, the agent may pay the user if she lets her name expires, returning her original fee to her. This is analogous to a deposit.
+4. Names always expire after a fixed period and return to the primary market. Seizure or censorship becomes easy. Additionally, if we imagine that names appreciate in price by being used, just as land that is developed increases in value, this disincentivizes users from putting names to use since they have no expectation of being able to hold on to them. So this model is clearly inappropriate for applications like domain names, but perhaps useful in other contexts.
+5. Control over names may be preempted by other users. This is an idea that has been proposed several times in the context of Namecoin, allowing users to either force a name to return to the primary market or even directly acquire it by paying the a fee to the agent and/or the current owner. This is intended to alleviate squatting, but it is hard to imagine this approach being superior to a functioning secondary market. On the other hand, the downsides are clear: seizures are now possible, and as before, uncertainty over future ownership may discourage legitimate use.
+6.2 Markets and fees
+Primary market: auctions vs. algorithmic pricing. There are essentially two choices for the primary market: auction and algorithmic pricing. Auctions are appealing, but there are practical problems due to the infinite number of names. For example, let's say an auction for a name is triggered whenever any user expresses an interest in buying that name. Since there are a potentially infinite number of names that a user is interested in, she would have to be able to participate in an auction at any time, which is a problematic assumption. Alternatively, names could go up for auction at fixed times, but this also has practical downsides.
+On the other hand, names can be priced algorithmically. This is more applicable for applications like domain names than for personal
+
+namespaces. In the former case the utility of a name is less dependent on the user and therefore easier to price based on publicly available data. Several factors based on publicly available data can be incorporated into the pricing model: name length, frequency of the name (treated as a word) in text found on the web, traffic rank of the corresponding .com domain, and so on. Pricing can also vary with time; a blended model between auctions and algorithmic pricing would see initial prices decided algorithmically which decline steadily over time in a form of Dutch auction. Again the challenges in implementing this are practical: incorporating data external to the block chain into the computation of distributed agents is possible, but very complex and has not been successfully demonstrated in practice. If the secondary market is implemented within the system (see below), then the agent has access to pricing data for other similar names as well as for the same name if it was previously sold on the secondary market.
+There is an interesting technical limitation of agents which affects algorithmic pricing. Since the agent doesn't have private storage, an adversarial node in the peer-to-peer network can intercept a user's request to the agent to purchase a name, and try to purchase that name ahead of the user, perhaps in the hope of turning around and selling it to the user. This is analogous to front running. In fact, front running is a problem in the current DNS as well, carried out by intermediaries that provide domain registry search services [23]. Fortunately, in the cryptocurrency context there's a simple cryptographic solution: the user first presents a sealed bid to the agent (here it is the name that needs to be sealed, not the price, which is public); after this message is confirmed in the block chain, the user (from the same address) reveals the name. Now the adversary cannot front run the user because he cannot spoof messages (transactions) from the user's address.5
+5This is the approach used in Namecoin, and the reason why NAME_NEW and NAME_FIRSTUPDATE need to
+
+17
+
+Namecoin uses a simple model of a flat fee for tem, this is typically not a meaningful goal. Af-
+
+all domains that varies with time (which we can ter all, the agent is not a real-world entity. How,
+
+think of as a trivial case of algorithmic pricing). then, should the agent handle its finances?
+
+Secondary market. As long as the techni- Our first simplifying observation is that there
+
+cal capability to transfer names exist, we would is no point in the agent holding on to any funds
+
+expect a secondary market to develop without -- even if it needs to buy names from users,
+
+any further design support. In addition, the it can simply print money (introduce new coins
+
+ability to transfer names and payment in a sin- into the system) as necessary. Of course, from
+
+gle atomic transaction allows parties to transact a practical perspective it may be easier to have
+
+without a trusted intermediary. This is straight- the agent store funds; this corresponds to the
+
+forward to implement technically as we dis- proposal in Namecoin to treat registration fees
+
+cussed in Section 5; Bitcoin and most altcoins as deposits and to hold them in "escrow" [25].
+
+including Namecoin support it.
+
+Conceptually, however, we can get rid of this
+
+However, there are benefits to the capabil- option.
+
+ity to post bids and offers on the block chain That leaves two options. The first is to dis-
+
+as well as execute trades. First, as a prac- tribute its revenue to miners, in proportion to
+
+tical matter, when cryptocurrencies are in the their hash power at the time of the transac-
+
+bootstrapping stage, exchanges may not develop tion. This is technically straightforward to do
+
+or may be fragmented. We see this problem by structuring payments as transaction fees to be
+
+with Namecoin. Secondary markets for DNS collected by the miner who first mines a block
+
+names are also fragmented. A fragmented or containing that transaction. The other option is
+
+non-existent secondary market may in turn in- to "burn" the coins representing the payment,
+
+hibit adoption of the namespace. Integrating an i.e., mark them as permanently unspendable.
+
+exchange (implemented, of course, in a decen- This is also technically trivial. Assuming that
+
+tralized form) may prevent this problem. As the market capitalization of the currency is un-
+
+an interesting historical aside, early versions of affected by burning some of it, it has the effect of
+
+Satoshi Nakamoto's Bitcoin code contained ex- distributing the agent's revenue to all holders of
+
+change functionality in prototype stage, but this the currency in proportion to their holding. Both
+
+was never rolled out [24]. Second, as mentioned of these appear to be reasonable options, and
+
+above, executing trades via the block chain al- Namecoin has used both; it is not clear which
+
+lows the agent direct access to price data, and is better in terms of incentivizing the long-term
+
+this may help with algorithmic pricing. Finally, growth and security of the system.
+
+integrating an exchange allows shaping the sec-
+
+ondary market, for example, by charging a fee
+
+for trades. As mentioned earlier, it is technically 7 Related Work
+feasible to deter private trades; this would force
+
+or incentivize trades to happen through the inte- Here we discuss attempts besides Namecoin at
+
+grated exchange.
+
+decentralized cryptocurrency-based namespaces
+
+or domain-name systems and more broadly
+
+6.3 The agent's finances
+
+technologies that utilize the block chain.
+
+Bitshares is another altcoin that includes pro-
+
+In a centralized namespace, the owner of the posals for a namespace as one of its goals [26].
+
+namespace has a clear goal of maximizing rev- Emercoin recently emerged as a Namecoin com-
+
+enue from name sales. In a decentralized sys- petitor [27].
+
+be distinct operations separated by a 12-block waiting pe- More broadly, the ability to publish messages
+
+riod, as described in Section 2.3.
+
+to the block chain immediately allows a vari-
+
+18
+
+ety of applications. Physical property, shares [34]. Another is voting by shareholders of de-
+
+of stocks, bonds, or any other real asset can be centralized agents to enable modifications to the
+
+digitally represented on the block chain. Over- logic (i.e., script).
+
+lay protocols such as Mastercoin and Colored
+
+Coins specify a syntax and semantics for such
+
+digital representations [28, 29]. CommitCoin al- 8 Discussion and Conclusion
+
+lows for putting hash commitments on the Bit-
+
+coin block chain in order to timestamp data in a Our empirical analysis of Namecoin and explo-
+
+trustless manner [30].
+
+ration of the design space reveal several po-
+
+There are a number of more complex applica- tential mechanism design weaknesses. First,
+
+tions that require additional primitives. Finan- Namecoin's fees are far too low to deter squat-
+
+cial derivatives are contracts whose value de- ters. The system utilizes neither an auction nor
+
+pends, in some mutually agreed-upon way, on algorithmic pricing that might help price names
+
+the price (or movements in price) of an under- near their market value. Worse, users who paid
+
+lying asset. Implementing derivatives of digi- a high network fee in the early period and who
+
+tal assets, then, requires user-defined logic (or wish to leave the system have no way to recoup
+
+scripts) for transaction validation. This can any of their investment by returning the name to
+
+be accomplished via an altcoin with a flexible the primary market.
+
+scripting language such as Ethereum [21]. Fur- These problems are exacerbated by the lack
+
+thermore, since derivatives depend on prices, of a functioning secondary market. Buying a
+
+scripts that implement them require access to squatted name, even if contact information is
+
+price feeds as input. Otherwise, it requires available on the block chain, is a cumbersome
+
+a trusted third party (known by a Bitcoin ad- manual process. There is no way to, say, search
+
+dress) to regularly publish suitably encoded, for all names available for sale matching a given
+
+signed price statements reflecting external real- string and below a specified price limit. Name-
+
+ity. These can be published directly to the block coin does not integrate an exchange into its
+
+chain or distributed off-chain and only added to core functionality, nor have Namecoin develop-
+
+the block chain when needed to redeem an asset. ers chosen to build and promote one outside the
+
+More generally, such entities could publish any system.
+
+data feed representing news or other events.
+
+Is a decentralized namespace for domain
+
+Bitcoin can act as a platform for fair secure names viable? Even with a hypothetical sys-
+
+multiparty computation [31, 32, 33]. These are tem where the above weaknesses are fixed, it's
+
+SMC protocols augmented with Bitcoin opera- not clear that it would be a viable platform for
+
+tions, e.g., a payment from one participant to a decentralized DNS. Namespaces are a solu-
+
+another, or a deposit.
+
+tion to the problem of mapping names to val-
+
+Finally, a set of related ideas known as decen- ues. However, in a domain name system, the
+
+tralized autonomous organizations (among sev- problem that needs to be solved is to map enti-
+
+eral other names) has stirred considerable ex- ties -- legal entities, brands, or identities -- to
+
+citement in the community recently. These com- addresses/values.
+
+bine several primitives discussed above -- dig- Naturally, mapping entities to names (or di-
+
+ital assets, long-lived scripts implementing ar- rectly to values) is not a purely technical prob-
+
+bitrary logic governing those assets, data feeds, lem, but requires human judgment. In the tradi-
+
+and out-of-band communication. Some propos- tional DNS, arbitration based on trademark law
+
+als for DAOs incorporate human input in vari- is a mechanism to prevent names that are con-
+
+ous forms: one is a decentralized agent farming fusingly similar from being controlled by differ-
+
+out computationally intractable tasks to humans ent entities. This is augmented with Extended
+
+19
+
+Validation certificates, which, when used, establish the legal identity of the name owner. With these mechanisms in place, the user must still provide a name to the system, but at least she can then verify that it corresponds to the correct entity she had in mind. This type of verification is much harder to incorporate in a decentralized system. We are not aware of any designs for decentralized systems that attempt to do so.
+If such mechanisms are not developed, can decentralized namespaces for domain names be viable at all? Or will they depart so far from user expectations as to be unusable?
+Other solutions for usability might be possible. Web search engines are used in practice as a way of mapping entities to names. Indeed, such "navigational queries" are one of the primary ways in which people use search engines.6 Navigational queries are about equally viable in centralized and decentralized systems. Presumably, using search engines and following links from other sources (including bookmarks) will allow a user to gradually memorize an entity  name mapping.
+Of course, if users always used these nagivational aids and relied on them entirely to find the correct name, then those names don't have to be human-memorable or user-chosen, so one doesn't need a namespace at all. Indeed, .onion domains force users to rely on navigational aids since names are public keys and can't be freely chosen by users. Anecdotally, however, it is clear that this results in poor usability and memorable names would be an improvement.
+We remain neutral on the question of whether a decentralized namespace for domain names can be viable. But the human factors we discussed do complicate the mechanism design question. In Section 3 we proposed utility maximization as a (strawman) goal of the mechanism, and suggested that an auction would satisfy this goal. However, in an auction-based system, it may turn out that an adversary inter-
+6Bing reports that about 30% of queries are navigational [35].
+
+ested in phishing has a higher utility for (say) bankofamerica.com than Bank of America does. It is not clear how to design a mechanism that will discourage such outcomes.
+Comparison between .bit and OneName. In contrast to the .bit subspace, the online identity service, OneName, has a very large user base. We found that after limiting the number of name/value pairs to only those with unique, well formed entries (using the strategies listed in section 5) OneName has roughly 20,000 pairs, which dwarfs the 1000 or so .bit domains. It is too early to tell whether or not these users are putting their OneName identities to any real use, but at least in terms of registration numbers, interest appears to be high.
+Perhaps the biggest reason for this is that while scarce, OneName names are not nearly as valuable as domain names, and so it is far less important to get the mechanism design right, or have any mechanism at all. Unlike domain names that must be remembered by humans, users typically find OneName identities through links from other social media services or by searching for the individual's real name.
+A second reason is that OneName benefits from being a centralized service on top of a decentralized platform. If a name is squatted, a typical user who wants that name might not even know how to contact the squatter because they are trying to register a name through the OneName website which doesn't facilitate this process. While a user could technically interact with the `u/' subspace of the block chain directly, most OneName users don't.
+The .bit subspace, on the other hand, suffers from the lack of any centralized service providers coupled with the poor usability of the client software. A new user faces many significant hurdles in registering a name. The first step is acquiring a Namecoin client which requires downloading, verifying, and storing the entire block chain, which is currently about 1.6 GB. Then she must acquire NMC, which requires connecting the user's wallet on a cryptocurrency exchange (which supports Namecoin) to
+
+20
+
+her bank account. In our experience, there is a 3-day wait after registering with an exchange and being allowed to transfer funds. Now the user is finally ready to register names, but she must also remember to update names every 250 days or run software in the background that will automatically handle this.
+In conclusion, designers of decentralized namespaces must pay careful attention to mechanism design to deter squatters and facilitate a healthy secondary market. Further, the usability of the overall ecosystem, which includes not just users who own names but the applications that utilize the namespace for web browsing or other tasks, is paramount. Finally, a hybrid model of centralized services that utilize an underlying decentralized platform is worth considering.
+Acknowledgement. We would like to thank Ed Felten and Muneeb Ali for helpful discussions and feedback.
+
+markets and order books. In Workshop on the Economics of Information Security, 2014. URL http://weis2014.econinfosec. org/papers/Clark-WEIS2014.pdf.
+[7] Domain name specification, 2015. URL https://wiki.namecoin.info/ index.php?title=Domain_Name_ Specification.
+[8] khalahan. Nmcontrol. URL https:// github.com/khalahan/nmcontrol.
+[9] Freespeechme website. URL http://www. freespeechme.org/.
+[10] Greg Slepak. Dnschain. URL https:// github.com/okTurtles/dnschain.
+[11] Opennic project. URL http://www. opennicproject.org/.
+[12] Keybase. Keybase. URL https:// keybase.io/.
+
+References
+[1] Paul Mutton. WikiLeaks.org taken down by US DNS provider. URL http: //news.netcraft.com/archives/ 2010/12/03/wikileaks-org-takendown-by-us-dns-provider.html.
+[2] Wikipedia. Zooko's triangle, . URL http://en.wikipedia.org/wiki/ Zooko%27s_triangle.
+[3] Aaron Swartz. Squaring the triangle: Secure, decentralized, human-readable names. URL http://www.aaronsw.com/weblog/ squarezooko.
+[4] Satoshi Nakamoto. Bitcoin: A peer-to-peer electronic cash system. URL https:// bitcoin.org/bitcoin.pdf.
+[5] appamatto. Bitdns and generalizing bitcoin. URL https://bitcointalk. org/index.php?topic=1790.0.
+[6] J Bonneau, J Clark, E Felten, J Kroll, A Miller, and A Narayanan. On decentralizing prediction
+
+[13] Luke A Walker. Icann's uniform domain name dispute resolution policy. Berk. Tech. LJ, 15: 289, 2000.
+[14] William L Silber. Marketmaker behavior in an auction market: an analysis of scalpers in futures markets. The Journal of Finance, 39(4): 937­953, 1984.
+[15] John R Ottensmann. Urban sprawl, land values and the density of development. Land economics, pages 389­400, 1977.
+[16] Atila Abdulkadiroglu and Tayfun Sönmez. Matching markets: Theory and practice. In Advances in Economics and Econometrics (Tenth World Congress), pages 3­47, 2013.
+[17] Daniel. Proposal: Domains should be regularly auctioned. URL https://forum. namecoin.info/viewtopic.php?f= 11&t=2003.
+[18] Roger Dingledine, Nick Mathewson, and Paul Syverson. Tor: The second-generation onion router. Technical report, DTIC Document, 2004.
+
+21
+
+[19] Juan Pablo Timpanaro, Chrisment Isabelle, and [31] Marcin Andrychowicz, Stefan Dziembowski,
+
+Festor Olivier. Monitoring the i2p network.
+
+Daniel Malinowski, and Lukasz Mazurek.
+
+2011. URL https://hal.inria.fr/
+
+Secure multiparty computations on bitcoin.
+
+hal-00653136/document.
+
+In Security and Privacy (SP), 2014 IEEE
+
+Symposium on, pages 443­458. IEEE, 2014.
+
+[20] ANTPY Github. Bitcoin github com-
+
+doi:10.1109/SP.2014.35.
+
+mit history. URL https://github. com/bitcoin/bitcoin/commit/ 5253d1ab77fab1995ede03fb934ed.
+
+[32] Iddo Bentov and Ranjit Kumaresan. How to use bitcoin to design fair protocols. In Advances in Cryptology­CRYPTO 2014, pages 421­439.
+
+[21] Ethereum white paper, 2015.
+
+URL
+
+https://github.com/ethereum/
+
+Springer, 2014. doi:10.1007/978-3-662-443811_24.
+
+wiki/wiki/White-Paper.
+
+[33] Ranjit Kumaresan and Iddo Bentov. How
+
+[22] Bitcoin Wiki. Agents. URL https://en. bitcoin.it/wiki/Agents.
+
+to use bitcoin to incentivize correct computations. In Proceedings of the 2014 ACM SIGSAC Conference on Computer and Commu-
+
+[23] Wikipedia. Domain name front running, . URL https://en.wikipedia.org/
+
+nications Security, pages 30­41. ACM, 2014. doi:10.1145/2660267.2660380.
+
+wiki/Domain_name_front_running. [34] Vitalik Buterin. Daos, dacs, das and more:
+
+[24] phelixbtc. Bitcoin github. URL https:// github.com/phelixbtc/antpy.
+
+An incomplete terminology guide, 2014. URL https://blog.ethereum.org/ 2014/05/06/daos-dacs-das-and-
+
+more-an-incomplete-terminology-
+
+[25] Namecoin Forum. Idea for better fee struc-
+
+guide/.
+
+ture. URL https://forum.namecoin. info/viewtopic.php?p=6653&sid= [35] Bing blogs: Making search yours, 2011. URL
+2cf37d245bbc611a8d93ad6ac23b9982. http://blogs.bing.com/search/ 2011/02/10/making-search-
+
+[26] .p2p (bitshares dns), 2015. URL http:
+
+yours/.
+
+//wiki.bitshares.org/index.php/
+
+.p2p_%28BitShares_DNS%29.
+
+[27] Emercoin, 2015. URL http://emercoin. com/.
+
+[28] Mastercoin protocol specification, 2015. URL https://github.com/mastercoinMSC/spec.
+
+[29] Meni Rosenfeld. Overview of colored coins, 2012. URL https://bitcoil.co.il/ BitcoinX.pdf.
+
+[30] Jeremy Clark and Aleksander Essex. Commitcoin: Carbon dating commitments with bitcoin. In Financial Cryptography and Data Security, pages 390­398. Springer, 2012. doi:10.1007/978-3-642-32946-3_28.
+
+22
+
+A List of significant .bit domains
+Below is a list of names counted towards the last entry in Table 2. These domains were determined by the proccess described in Section 4.
+· alt-freedom.bit · bangkokgroup.bit · bitcoinpl.bit · bitcoinquotes.bit · carnicominstitutemirror.bit · changepurse.bit · columbo.bit · darkfur93.bit · dcinvestments.bit · dealing.bit · deathrowdemocracy.bit · dot-bit.bit · dotbitkittypix.bit · feens.bit · hewgill.bit · hosting.bit · kk-cabrio.bit · lapan.bit · medicinalgenomics.bit · megabrutal.bit · michail.bit · mikeward.bit · namecoin-test-suite-1.bit · onemillionpixels.bit · peterboswell.bit · rmgx.bit · tuler.bit · wikimouto.bit
+23
+
+

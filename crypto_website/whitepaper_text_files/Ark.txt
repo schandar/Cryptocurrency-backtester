@@ -1,0 +1,236 @@
+ARK Whitepaper
+A Platform f or Consumer Adoption
+v.1.0.3
+
+The A RK Crew
+
+ARK W  hitepaper v.1.0.3
+Table O f C ontents
+
+Overview... .......................................................................................................................................................................................................3
+Purpose o f t his Whitepaper.......................................................................................................................................................3 Why?... .............................................................................................................................................................................................................4 ARK... ................................................................................................................................................................................................................5 ARK I S.............................................................................................................................................................................................................5 ARK: T echnical D etails....................................................................................................................................................................6
+- Delegated Proof o f Stake... ................................................................................................................................................6 - Hierarchical Deterministic ( HD) W  allets (BIP32)... ..........................................................................................8 - Fees.......................................................................................................................................................................................................8 - A RK Delegates a nd D elegate V oting.......................................................................................................................9 - Br idged Blockchains ( SmartBridges)...................................................................................................................10 - P OST A RK-TEC T oken Distribution ... .......................................................................................................................11
+- Testnet Release... .......................................................................................................................................................12
+An d B eyond?... .................................................................................................................................................................................12
+Addendum 1 : ARK I S...(Cont.)...........................................................................................................................................12 Addendum 1.1: Use Cases....................................................................................................................................................12 Addendum 2: ARK C ard a nd Point of S ales Network................................................................................13
+- Off-chain t ools... ........................................................................................................................................................16
+References... ...............................................................................................................................................................................................17
+
+2
+
+The A RK C rew
+
+ARK W  hitepaper v .1.0.3
+
+Overview
+Bitcoin[1] brought us the blockchain. Ethereum brought us smart contracts. Altcoins brought us their unique features. So where are the services for the ordinary consumer instead of only s peculative instruments for the t rader?
+We all know the fanciest and flashy blockchain technologies bring in big money. However, is this all cryptocurrency is? A one trick pony designed for investors? ARK Crew does not t hink so.
+Instead of relying on highly hyped cryptocurrency features without future revenue potential, ARK Crew researches the best blockchain technologies under development to expand the range of services ARK can provide. After the implementation of these technologies into the ARK Core through bridged blockchains (ARK SmartBridge), the ARK Crew uses these connections and multipurpose data fields to construct new features and provide valuable services to the average consumer.
+Examples of technologies the ARK Crew integrates into ARK Core are InterPlanetary File System (IPFS), InterPlanetary Database (IPDB - when available), optional private transactions and potentially additional technologies like InterPlanetary Linked Data(IPLD)[1a], Practical Byzantine Fault Tolerance (PBFT)[ 1b] Tendermint Validators, or web2web[1c] serverless webtorrent as they emerge. ARK Crew supplies additional whitepapers for all the main upgrades to the ARK platform with further technical details.
+The Primary objective of ARK Crew is simple; i ncreasing consumer adoption by focusing on two critical areas: A Fast Secure Core Technology a nd Practical Services for Real People.
+The ARK Founder Team (AFT), as presented on ARK.io, acts in the name of the ARK Crew.
+The AFT is responsible for the proper use of funds collected under the Token Exchange C ampaign ( ARK-TEC) p resented b elow i n this d ocument.
+The AFT undertakes that the result of this TEC will be used exclusively for the financing of the "ARK" project as explained in this whitepaper - which will be made available on the collection platform: tec.ark.io - and which should result in the creation of a legal entity whose name will be "ARK Ecosystem". The creation of this company is scheduled f or t he f irst q uarter o f 2017.
+To this end, AFT intervenes on behalf of "ARK, a company in the process of being incorporated".
+
+3
+
+The ARK C rew
+
+ARK Whitepaper v.1.0.3
+
+Purpose o f t his Whitepaper
+This document provides a written outline of how we envision the ARK Ecosystem to grow, technical a spects o f our b lockchain a nd a  b asic o verview of o ur roadmap.
+The original funding for this project raised through an exchange of seeded ARK tokens for alternative cryptocurrencies is dedicated to further development of the ARK Core and build use cases to surround it. A general overview of the initial commitment is provided for distribution to participants of the ARK Token Exchange Campaign ( ARK-TEC).
+Why?
+Real c onsumer a doption benefits us a ll, the e ntire c ryptocurrency economy a nd every r eal world user.
+ARK
+ARK is N OT just a cryptocurrency - it is an ecosystem meant for cryptocurrency mass adoption. By building the ARK platform on top of a highly secure core blockchain, integrating key decentralized technologies, and developing use cases to show off the abilities of the ARK network, ARK Crew provides a user-friendly platform to increase user adoption of blockchain technology as a whole. By leveraging and integrating these technologies, over time, the ARK ecosystem adapts to all new challenges h ead on -  one a dvancement a fter another.
+With further use case integrations, ARK Crew can develop successful consumer websites, products, and physical distribution networks with the intention of easing consumers into blockchain technologies and increasing general knowledge about the cryptocurrency industry. Below are some of the things ARK Crew envisions ARK to b e.
+ARK I S...
+- A Community - A diverse group of people and skill sets, including Full Stack and Web Developers, Network Engineers, Hardware Experts, Money Managers, Musicians, Traders, Social Media Promoters, and Business Owners, uniting to realize a vision shared by 30 members of the ARK Crew. All passionately devoted to collaboration and the development of the ARK ecosystem a nd c ommunity.
+- An Underlying Token - Secured by a cryptographic blockchain network similar to Lisk and Crypti, running on a Delegated Proof of Stake Consensus Algorithm developed by Bitshares. ARK DPoS provides a newly adapted
+4
+
+The ARK Crew
+
+ARK W  hitepaper v .1.0.3
+
+voting system and incorporates many improvements over previous DPoS implementations.
+- A Set of Bridged Blockchains through SmartBridge - To increase the reach of the ARK platform, ARK bridges together useful and proprietary blockchains through the use of ARK SmartBridges. These SmartBridges allow for communication among validated bridged blockchains with the ability to perform tasks and advanced functions. Through the use of SmartBridges, the ARK Crew is able to connect many popular blockchains and finally create a unifying bond among different ecosystems. As examples, the first blockchains the ARK Crew will bridge are: Bitcoin, Ethereum, Lisk, 3rd Party Anonymous Network Integration, one or more proprietary gaming economy tokens (Codename: A***** [Ticker: A***]), and numerous other bridges connecting new and already e xisting blockchains i n the future.
+- Security - B ecause we understand security is a major point of concern for everyone, cryptographic and security principals are incorporated throughout the entire Development Life Cycle to guarantee a secure core meeting the requirements and expectations of our users. Through continuous ri sk analysis and internal recurring penetration testing, we provide a system that fulfills the high s tandards required b y this type o f environment.
+- Privacy - ARK Anonymous Network Integration provides ARK users with optional privacy when sending ARK transactions throughout all of the services developed for the ARK platform. Anonymization services could be potentially provided b y a 3rd Party technology i ntegration Partnership.
+- Self-Sustaining - The ARK Crew has a mission to make blockchain technology easily accessible to consumers, even to the point where consumers do not know that they are using it. We not only develop the tools bridging the virtual with reality, but also provide the unique services consumers want, u nderstand, and are willing to p urchase using ARK. The ARK Crew develops additional platforms and services benefiting from the ARK technology, providing online and offline revenue streams for the ARK Platform, and leading to faster research and development of new and exciting ways to encourage consumer participation, educating them about blockchain technology, while simultaneously adding value to the ARK cryptocurrency. By incorporating revenue streams into our projects, the ARK Crew c an p rovide e ven m  ore u nique services for u ser a doption as w e grow.
+Additional information is provided in the addenda located at the end of the whitepaper i n t he s ections titled:  ARK IS...(Cont.) and Use Cases.
+(Addendum 1: A RK IS...(Cont.)) a nd ( Addendum 1.1: U se C ases) (Addendum 2 : ARK Card Point of Sale N etwork)
+5
+
+The ARK Crew
+
+ARK Whitepaper v.1.0.3
+
+ARK: Technical Details
+This section outlines the technical a spects o f the ARK Blockchain.
+ARK is a Cryptocurrency Blockchain built as a derivative from Lisk, Crypti, and BitShares with unique differences and improvements to the Delegated Proof of Stake consensus algorithm. This code association provides simplified future interaction between ARK and other blockchain systems using DPoS as their consensus. This homogenous codebase allows for the potential to provide service bridges in the form of Lisk blockchain apps, along with any other additional systems provided by their B lockchain administrators.
+
+Delegated P roof o f S take[2]
+Ark uses the Delegated Proof of Stake (DPoS) consensus system that was first introduced by BitShares. This consensus algorithm was designed to eliminate the
+6
+
+The A RK C rew
+
+ARK W  hitepaper v.1.0.3
+
+issues associated with Proof of Work (PoW), namely the centralization of computing power and the exponentially increasing waste of real world energy. While not completely decentralized as it relies on consensus by a fixed number of elected delegates, it guarantees a better decentralization than Bitcoin. The consensus algorithm implementation is improved over time, evolving into an optimal consensus system.
+
+The t echnical d escription of t he A RK b lockchain i s as f ollows: - DPoS (Delegated P roof of S take)
+- 51 a ctive forging D elegates
+- Delegates s elected by v ote mechanism built i nto DPoS
+- 125 M illion A RK -  S eeded Genesis Block
+- Multi-signature a ccounts
+- Constant b lock reward
+- 2 $ p er block
+- Inflation Rate (with 8 s b lock t imes) - 6.31% f or the first y ear - 5.93% the 2nd year - 4.02% t he 10th y ear
+
+Inflation rate over t ime (Ethereum a nd Lisk for c omparison) - 8-second b lock t ime
+7
+
+The A RK C rew
+
+ARK Whitepaper v .1.0.3
+
+- Decreased b lock t ime possible w ith f uture upgrades t o t he c ore. - 25 t ransactions p er block
+- Increased v ia soft fork as needed. - Routing tables - SmartBridge d ata field f or custom u se and bridging blockchains
+The ARK network usage scales up to the level of Major Credit Card networks through potential c ore upgrades, for e xample:
+- Increasing t he n umber of Forging Delegates - Increasing t he B lock Size to include more t ransactions - Implementation of pre-approval PBFT block concept testnet [codename:
+TwinChain] - Routing tables, to m  inimize hops among nodes when blocks are broadcast - Include f orging with ARK Uncles. Two v ersions of t he n ode software is u sed t o r un ARK C ore. - Relay nodes - Nodes with full API functionality, acting as a backend for the
+feature rich lite clients. Relay nodes do not collect any transaction fee and do not have t he ability t o F orge A RK Blocks. - Forging nodes - Nodes with reduced API functionality, decreasing the exposure to potential DDoS attacks on the ARK Platform. Forging nodes are able to Forge ARK and receive t ransaction fees.
+An official lite client for network access is be provided shortly before the mainnet launch including desktop clients (Windows, MacOS, and Linux) and mobile clients (Android and iOS). The network itself does not use a Graphical User Interface by default. Any ARK account can be created offline and managed at no cost with a single device (computer, mobile p hone, embedded A RM, I oT).
+Hierarchical Deterministic ( HD) W  allets ( BIP32)
+The structure of the public and private key generation follows the same specification as Bitcoin. A custom implementation of BIP32 for Hierarchical Deterministic Wallets is p rovided to A RK u sers.
+Fees
+The fee for standard transactions is set at 0.1 but may be manually changed if needed. At mainnet launch, a fee structure is provided out of the box to forging delegates w ith t he f ollowing r ules:
+8
+
+The A RK C rew
+
+ARK W  hitepaper v.1.0.3
+
+- Transaction 0.1 - Vote 1  ( 51 v otes p er transaction) - Second S ignature 1 - Multi S ignature 1  per signature + 1  p er s igning a ccount - Registering a  d elegate 2 5. All f ees are p aid to the f orging n ode w hich processes t he b lock c ontaining t hose fees.
+ARK D elegates a nd D elegate V oting
+Any node running the core blockchain code wishing to become a forging node must register their account within the ARK network. The fee for this registration is set to 25 p er d elegate account registered.
+ARK incorporates a new DPoS voting system originally envisioned by the Crypti Founders. The ARK system fee is 1 per delegate vote. The voting weight of each wallet w ill b e split evenly b etween all d elegates voted.  For e xample:
+- If a wallet votes for one delegate, that delegate receives 100% of the wallets voting w eight.
+- If that wallet votes for an additional delegate, the entire vote weight is split evenly between the two d elegates at 50%.
+- By adding a third delegate, the voting weight splits again, and each of the three delegates r eceives 3 3.333% of t he voting w eight f rom that wallet.
+The 5 1 forging nodes with the highest n umber of v otes are eligible t o Forge A RK blocks. T his design eliminates t he p ossibility t hat a ny single l arge ARK holder or a n organization holding l arge p ercentages of ARK a re a ble t o gain control over t he entire network by voting f or all o f their nodes into f orging p ositions, t hus effectively taking complete c ontrol o ver t hat DPoS Blockchain. V otes from A RK T okens held by ARK C rew may be used at A RK Crew's discretion.
+Bridged B lockchains ( ARK S martBridges)
+The ARK Platform does not provide direct support for sidechains or dapp databases. Instead, a mechanism to bridge together blockchains is provided via a bridging function built into ARK Core where any blockchain can send and receive trigger
+9
+
+The A RK C rew
+
+ARK Whitepaper v .1.0.3
+
+function notices and informational data through the primary ARK network via custom d eveloped SmartBridge(s) a nd E ncoded L isteners.
+SmartBridges can also be used to connect "centralized" services. For instance, any user can listen to the ARK network for specific triggers inside the SmartBridge via Encoded Listeners and allow for their developed autonomous systems to act accordingly on their behalf. Encoded listeners will be developed by the connecting blockchains administrators although ARK will supply a Rapid Deployment Engine to assist i n c reating these Encoded Listeners.
+Bridged Blockchains allow ARK Crew to create systems like a microloan Bridged Blockchain where people in need of a microloan can be connected with those who might be willing to lend a helping hand. Processing of worldwide loans, payments, and transfers of ARK is made simple through a combination of online/offline transfer hardware and services that allow for repayment in many alternative cryptocurrencies ARK Crew connects via SmartBridges. Profiles and service ratings are stored and processed using IPDB (future integration) in conjunction with software platform for d iscovery.
+
+10
+
+The ARK C rew
+
+ARK Whitepaper v .1.0.3
+
+Post ARK-TEC T oken Distribution
+125 million ARK tokens are seeded into the genesis block and distributed in the following w ay:
+- 75% [93,750,000] of ARK tokens are distributed to participants of the ARK Token E xchange C ampaign.
+- 15% [18,750,000] t o the A RK F ounders T eam. - 15% are divided among the 30 founding ARK team members based on activity and participation o f each m  ember prior to t he t oken e xchange.
+-   7 % [8,750,000] ARKShield Program - A professionally managed fund to provide healthy long-term growth of the ARK Platform, OTC exchanges, and to deal with matters of contingency. - Partnerships associated with the ARKShield Managed Fund Program are currently under Non-Disclosure Agreement (NDA), and official announcements are m  ade by A RK a t a  later date.
+
+-   2 % [2,500,000] f or B ounties
+- Signature/Avatar Campaign =  3 50,000 T okens - Sweepstakes bounty = 4 30,000 Tokens - ARK-TEC Top P roposals C ontest (3 winners) = 3 00,000 T okens - ARK S upporting Websites =  150,000 T okens (ongoing from main net
+,selected b y ARK Crew) - Video C ontest =  100,000 Tokens
+- All winning content becomes t he property of A RK C rew and may b e u sed f or c ommercial purposes.
+- Blog/Media A rticles ( 300+ words unique - 10, 20, or 30 s hares g iven by ARK C rew b ased o n q uality o f the articles)  =  100,000 T okens
+- Translations =  1 00,000 T okens - GITHUB development o r b ug bounty =  4 00,000 Tokens - Post A RK-TEC promotions = 5 70,000 T okens
+11
+
+The ARK Crew
+
+ARK W  hitepaper v.1.0.3
+
+-   1% [1,250,000] f or escrow - This percentage is an estimate. All remaining ARK from the escrow reserve a re added to ARKShield P rogram.
+
+Testnet Release
+The testnet will be available to the public during the token exchange period. Initial test v ersions o f lite clients ( desktop a nd m  obile) is also released for testing.
+- Integration a nd Testing o f InterPlanetary F ile System[6]  (IPFS) - Preparation f or f uture integration o f InterPlanetary D ataBase[7]  (IPDB) - Development o f S martBridge C ore code - Blockchain penetration t esting, d ebugging, a nd optimization - Testing with S martBridge and initial optimal b locktime
+
+ Welcome t o ARK -  transporting c onsumers t o the blockchain.
+Addendum 1 : A RK IS...(Cont.)
+- A peer-to-peer Hypermedia Protocol Platform - InterPlanetary File System (IPFS) integration enables ARK to enter the future of media and hosting. IPFS integration gives ARK the ability to create decentralized media services on top of the ARK platform and allows the ARK Crew to build alternative revenue streams through the use of Distributed APP Hosting, File Hosting, File Sharing, Audio a nd Video streaming, and L ive S treaming M edia.
+- A peer-to-peer B lockchain Database - I nterPlanetary DataBase (IPDB), when released, will be integrated into the ARK Ecosystem to facilitate the management of personal data, reputation, and privacy, along with secure attribution, metadata, licensing information, and even just hold links to media files. The combination of IPFS and IPDB make ARK a powerhouse for plug and play blockchain social media services enhancing our ability to create more
+12
+
+The A RK Crew
+
+ARK Whitepaper v .1.0.3
+
+revenue streams to fund future research and development of the ARK ecosystem.
+- A Physical Person-to-Person (P2P) Card and Modular Point of Sale S ystem A wide range of physical cards, wearable NFC devices, and transfer equipment accessible to people without traditional bank accounts or credit card access. This system is designed and developed to facilitate the transfer of ARK tokens between two parties through the use of a modular Point of Sales Device and chipped card or wearable device utilizing programmable NFC. This also includes tools to manage off-chain transactions and the potential to add other blockchain support for P2P transfer. Cards and hardware have multiple tiers of functionality and features to meet the demand of consumers at varying income l evels.
+- Future upgrades to the physical card system include Point of Sale Activation (POSA) one-time use gift cards. Through partnerships with national gift card distributors, the ARK Cryptocurrency will be able to be purchased for cash at national retail chains in the form of one time use gift cards. These partnerships gives ARK a method of distribution throughout major retail outlets Globally and serve as physical advertising space within these high traffic retail locations. These cards, after purchase, must be redeemed online through a token exchange platform with similar functionality to Shapeshift which is integrated with the ARK B ridged Blockchain ecosystem.
+Addendum 1 .1: U se Cases
+Listed below are several revenue streams considered as potential candidates for early development. Currently, these only serve as examples of profitable niche services ARK Crew may pursue developing. All final development decisions are made based on the availability of resources and future in-depth i ndustry research.
+- Codename: A***** (Ticker: A***/A***) - Gaming service tokens for the ARK economy. These tokens are used as rewards for participation in the a***** digital gaming platform. A***** utilizes two specially designed bridged blockchains. These two tokens interact with consumers in different ways, but when combined, create a unique gaming, gambling, and leisure environment, powered by the blockchain. A***** is the perfect launch point for the development of more advanced online ARK services. Through a myriad of built in potential revenue streams, a***** brings innovation to the online gaming experience. To generate additional funds for Research and Development, a***** provides customers access to our online bitshop (also known as cash shops in video game terminology) named "The Storefront", where they are able to buy modifications to their a***** experience like Trollbox chat
+13
+
+The ARK Crew
+
+ARK Whitepaper v.1.0.3
+
+modifiers (Emoji, Name Modifiers [crystals, sparkles, flames, font glow, etc], gifs, backgrounds), unlockable options, special trollbox effects, ranks, transferable gifts for a***** friends, new games, and many more exciting features, to provide a more enjoyable experience for consumers. More specific information regarding a***** is provided in a separate W  hite Paper.
+- Live Gaming and Personality Broadcast Streaming Platform (similar to twitch[8] and afreeca[ 9]) which allows content creators to earn ARK or a***** through tips within the embedded chat box or through paid account subscriptions for streaming their lives, events, and experiences through our service. Live Streaming uses a mixture of P2P[10] and traditional Content Distribution Networks (CDN) to deliver high-speed live streams of niche content provided by community members about their interests. Content creators have basic administration rights to change options in their profile but may be upgradable to more advanced features through small fees. Ark Crew provides maintenance and upgrades to the service by a small tipping fee and through the sales of dynamic chat modifiers like custom created emojis, animated gifs, and packaged sets of both. A market for in-chat modifiers may also be a potential revenue stream for customers of our service to earn ARK. Content creators can set subscription fees, and other monetization settings from their admin area based on rating levels, and upgrades mentioned above. Live streaming software is provided through licensing of high quality professional live streaming software modified for blockchain services integration.
+- Group and Community sales. Discounted purchase of high quality, early release, or original physical products and services (similar to massdrop[11], groupon[ 12], and beezid[13]) provided for use with ARK and A**** tokens. Discount percentage levels increase as more consumers purchase a product with their ARK. Other physical item revenue streams can be generated through penny auction style bidding systems where A**** may be used as the bidding token and ARK as the token o f v alue t o purchase t he auctioned merchandise.
+- Physical card printing and insertion of Blockchain-based digital Collectible Card Game Assets into high quality printed NFC cards for physical collectibility. This opens the possibility for whole game printing or select rare asset limited production runs with random card seeding and optional holographic foil stamping technique implementations. A platform for Asset creators to upload their print designs and digital assets for insertion into physical cards is made available for use. The creation of physical collectible cards with the ability to store the digital data equivalent brings blockchain based digital a sset creation to the next l evel.
+14
+
+The A RK C rew
+
+ARK W  hitepaper v .1.0.3
+
+Addendum 2: ARK Card a nd P oint o f S ales Network
+A physical card network is developed to assist in obtaining a higher rate of consumer adoption and to enable payment without the need for a bank account, credit card services, or middlemen. With this card or device, participants can directly trade their ARK for goods and services while eliminating the need to exchange with traditional or local f iat c urrency.
+Custom hardware is designed and manufactured for the process of allowing people anywhere in the world to transfer cryptocurrencies like ARK tokens, person to person without the need of a human or fee based technological intermediary. Hardware specifications may include NFC, Bluetooth, a display for card balance, spend, receive, and data menus, an integrated rechargeable lithium-ion battery, and solar charging panel. The hardware may function as a wallet itself and have the ability to become a mobile PoS (Point of S ale) terminal for s tore owners in more remote a reas.
+Several versions of the hardware may be possible. With enough funding, ARK Crew may be able to develop a highly modular and portable hardware system capable of plug and playing additional hardware features for different needs of the merchant or consumer. These upgrades may include extra batteries, solar panels, receipt printers, extra disposable card storage, two-factor authentication (2FA) fingerprint scanner for security access, GSM data card slot, increased performance wifi adaptor, etcetera.
+Additional variations of the physical card may also be available from simple contactless chip/NFC to full service multi-card with built in e-ink touch display similar to Plastc[ 14]. Wearable NFC devices are also available for use with ARK NFC-enabled hardware. These wearables include high-quality NFC payment enabled rings, bracelets, a nd mobile accessories.
+The A RK Network is a  t echnological stack built with:
+- Smart Cards and wearable NFC Devices. These devices range from simple NFC or chip cards to full feature transaction signing and verification multi-cards switchable through a small embedded touch screen e-ink display. Additional NFC hardware is sourced through high-quality 3rd party manufacturers for use in our systems. Through partnerships and product licenses, we are able to provide our customers with stylish wearable NFC devices like designer Rings and Bracelets for use as a replacement or substitution f or N FC or contactless c hip cards.
+15
+
+The ARK C rew
+
+ARK W  hitepaper v.1.0.3
+
+- Point Of Sale (POS) hardware. Provides the ability for a direct person to person transfer through technologies like NFC and Contactless Chip without the need of an intermediary as a standard feature. Additional features and functionality a re added f or u pgraded/advanced m  odels.
+- Point Of Exchange (POE) hardware. The hardware device used to provide Exchanges of ARK with local currency or ARK for ARK or other Cryptocurrency.
+- Point Of Credit (POC) hardware. Provides microcredit validation and management.
+All hardware is able to operate using open source code and can run on small ARM-based devices like the Raspberry-Pi. Our equipment acts as a unified POS, POE, and POC terminal, eliminating clutter and is highly customizable to the needs of the merchant. E xample design Plastc c harger[ 15].
+Only electricity and an on-demand low bandwidth internet connection are needed to access the ARK network. Electricity may be delivered to the hardware devices through an optional integrated solar cell array. No registration fee or maintenance fee is required. The management of the POS hardware fleet and cards is left to local third-party businesses, although they may be manufactured and purchased through the A RK Crew t o fund further a dvancements i n t he t echnology.
+Off-chain tools
+Some transaction categories may not require immediate online processing within the blockchain. These c ategories m  ay include but are not l imited t o:
+- Trustworthy or centralized environments. For instance, a family or a company, for cultural reasons, may want to process transactions in person off of the blockchain. They have their trusted oversight to verify that the transactions are legitimate. ARK Crew provides simple, manageable tools for off-chain multi-account management.
+- Microtransactions. Off-chain processing removes the need for fees, increases speed, a nd p revents b lockchain b loat.
+- Local Currencies.  Many p eople are u sed t o a  trusted l ocal source for cash. ARK Crew p rovides t ools t o develop local currencies backed b y A RK t o d eal with exchange rates and c ash d eposit processes similar to those o f a conventional c entral b ank.
+
+16
+
+The A RK Crew
+
+ARK Whitepaper v .1.0.3
+
+References
+[1] https://bitcoin.org/bitcoin.pdf [1a] http://ipld.io/ [1b] http://pmg.csail.mit.edu/papers/osdi99.pdf [1c] https://github.com/feross/webtorrent [2] h ttps://bitshares.org/technology/delegated-proof-of-stake-consensus/ [3] https://www.docdroid.net/VnfmpgX/asch-white-paper-102.pdf.html [4] h ttp://coinmarketcap.com/currencies/volume/24-hour/#BTC [5] http://nfcring.com/#what-is-the-nfc-ring [6] h ttps://ipfs.io/ [7] h ttps://ipdb.foundation/ [8] http://expandedramblings.com/index.php/twitch-stats/ [9]h ttp://qz.com/592710/why-some-koreans-make-10000-a-month-to-eat-on-camer a [10] h ttps://www.massdrop.com [11] h ttps://groupon.com [12] https://beezid.com [13] https://www.peer5.com/about [14] https://plastc.com/ [15]https://blog.plastc.com/wp-content/uploads/2016/08/Charger_8.17_email-1-1024x 536.png
+
+17
+
+

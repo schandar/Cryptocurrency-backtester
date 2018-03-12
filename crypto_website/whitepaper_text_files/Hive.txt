@@ -1,0 +1,550 @@
+ATMChain Whitepaper
+(Genesis Edition)
+
+content
+
+1.Introduction
+
+4
+
+2.Current Situation and Problems
+
+5
+
+2.1 Advertising M arket Background
+
+5
+
+2.2 Current Situation and D isadvantages o f D igital M edia
+
+6
+
+2.2.1 Current Situation o f D igital Media M arket
+
+6
+
+2.2.2 T raditional D igital Media B usiness M odel Drawbacks
+
+7
+
+2.2.3 T he Application of Digital M edia T echnology L ag Behind
+
+8
+
+3.Solutions
+
+8
+
+3.1 V aluing t he A ttention E conomy and Realizing V alue Redistribution
+
+9
+
+3.2  Open and Transparent D ata Information
+
+9
+
+3.3  Resource Integration o f P latform Ecosystem
+
+10
+
+3.3.1 I ntegration o f R esources in t he F ield o f Advertising Media
+
+10
+
+3.3.2 Resource I ntegration o f Cross-domain Media E cology
+
+11
+
+3.4 I ntelligent Data A nalytics
+
+12
+
+4.Business Structure
+
+13
+
+4.1 Roles
+
+14
+
+4.2 ATMChain Open Platform
+
+15
+
+4.3 Typical Process I ntroduction
+
+16
+
+4.4 Schema D escription
+
+17
+
+4.4.1 Value Distribution
+
+17
+
+4.4.2 Accurate A dvertisement D istribution
+
+19
+
+4.4.3 Integration o f Industry R esources
+
+20
+
+4.4.4 Competitive E cology
+
+22
+
+4.5 Economic M odel
+
+22
+
+4.5.1 T okens F low
+
+22
+
+4.5.2 A ttention M easurement
+
+23
+
+4.5.3 E conomic Incentive Model
+
+24
+
+4.5.4 Integrity M odel
+
+25
+
+5.Technical Architecture
+
+25
+
+5.1 Blockchain
+
+26
+
+5.1.1 Smart Contract
+
+28
+
+5.1.2 Z ero K nowledge Proof
+
+29
+
+5.1.3 R aiden Network
+
+30
+
+5.1.4 O pen P latform A PI
+
+31
+
+5.2 A I and Big Data
+
+32
+
+2
+
+5.3 Internet of Things
+
+34
+
+5.4 Virtual Reality
+
+35
+
+6.Outlook o n A pplications o f ATMChain
+
+35
+
+6.1 Outlook on A pplication E cology of A TMChain
+
+35
+
+6.2 E xample of Outlook and A pplications of ATMChain
+
+36
+
+7.ATMChain E cology Planning a nd Governance
+
+37
+
+7.1 B lueprint o f A TMChain E cology
+
+37
+
+7.2 Main Business L ogic of A TMChain Ecology
+
+37
+
+7.3 F oundation G overnance
+
+38
+
+7.3.1 Overview of the Foundation
+
+38
+
+7.3.2 Governance Structure o f t he A TMChain Foundation
+
+39
+
+8.Product Roadmap
+
+39
+
+9.ICO Strategy
+
+41
+
+9.1 ATM T oken D istribution
+
+41
+
+9.2 ICO R ules
+
+41
+
+9.3 B udget Allocation
+
+41
+
+10.Conclusion
+
+41
+
+Reference
+
+42
+
+FAQ
+
+42
+
+Glossary
+
+44
+
+3
+
+1.Introduction
+ATMChain is an intelligent, trustable and open digital media ecology, which is a creative application o f the blockchain technology i n the d igital media industry.
+ATMChain uses ATM (Attention Token of Media) as the token to achieve value quantification and v alue c irculation in the ecology.
+ATMChain encapsulates the underlying blockchain technology to provide access for media platforms. It also provides services like smart contract setting, smart contract trigger, automatic d ividend transfer, data onchain, d ata query, e tc.
+The v alue p roposition o f A TMChain for the d igital m edia i ndustry i s as follows: 1) Users: rewarded with tokens when they pay attention to view digital media
+information, with their p ersonal privacy a nd d ata being protected. 2) Media operators: improved profit, improved accuracy of advertising delivery, and
+reduced f raud. 3) Media clients: high quality user reports, better spread effect at a lower cost, and
+higher conversion rate. More i nformation is s hown i n F ig. 1 -1:
+Fig. 1 -1 Value proposition of ATMChain ATMChain is an ecosystem, including ticketing, cinema, entertainment, social media, We media and other industries of large-scale ecosystem. It supports subsequent big data analysis and artificial intelligence analysis through gradually improved and enriched data collection at media screen ports, and expands the media screen and interactive experience scene. It aims
+4
+
+to create a first-class digital media cultural ecology The ATMChain ecosystem is shown in Fig. 1-2:
+Fig. 1 -2 E cology structure o f ATMChain
+2.Current S ituation and P roblems
+2.1 A dvertising M arket B ackground
+"It is difficult for enterprises to choose media which to reach their customers. A large amount of advertising budget is carelessly expended on non-target audience members. I know that half of my a dvertising e xpenses h ave b een w asted, but I c an't f igure o ut t he exact part."
+Breaking U p America: Advertisers a nd t he N ew Media World - Joseph Turow With the arrival of the attention economy globalization era, under the current rapid economic development, the mere widely-advertised or content-oriented age has ended. Audience segmentation and accurate delivery have become the main focus of advertising development. "The material and information in the information society are not scarce, in which the limitation is attention of people in the infinite information world. This phenomenon leads to the shift of attention into wealth, so he believes that attention is more important than money."
+Attention S hoppers! - Michael Goldehaber The current business model of advertising has existed for more than 100 years, which is collecting a  large a mount o f u sers' cheap o r even free attention a nd s elling i t at a h igh p rice.
+5
+
+In the age of information explosion, information and data have become more and more abundant, while people's attention is becoming scarce. Attention resource has been scarce economic resource. More and more people have realized the value of attention. Everyone holds an equal wealth, namely their own attention. When people pay attention, they should be rewarded.
+As such, more efficient, accurate and quantifiable advertising delivery model, and new value distribution model which reflects the principle of the attention economy, will become the i ssue to b e dealt w ith i n the f uture development o f the a dvertising industry.
+2.2 C urrent S ituation a nd Disadvantages o f Digital M edia
+2.2.1 C urrent Situation o f Digital Media M arket
+According to WARC, as the world's second largest advertising market, the market size of China has reached up to USD 80 billion. It is also estimated that advertising market size of China will keep growing rapidly over the next 3 years, eventually reaching USD 120 billion. In the market, the share of internet advertising, cinema and outdoor media advertising will continue t o increase, and the d igital a dvertising m arket will m aintain growing rapidly.
+Fig. 2-1 M arket share o f e ach m edia c hannel a nd Rate o f c hange Digital advertising has gradually a chieved t he effect of t raditional TV advertising o n the consumer a rrival r ate index.
+6
+
+
+
+Fig. 2 -2  Arrival rate o f each media channel i n 2016
+
+2.2.2 Traditional D igital M edia Business Model Drawbacks
+At present, the advertising media ecology mainly consists of three parties: media clients, media operators a nd users. I n the existing b usiness m odels, a ll t hree parties face many issues.
+As the funding source of the media ecology, media clients focus mainly on the effects of advertising delivery and expect to receive high quality reports for analysis. However, it is currently difficult to carry out personalized advertisement for media operators, resulting in an unsatisfactory delivery effect and vague feedback. At the same time, the over-complicated advertising ecology consumes a large amount of advertising funds due to the many intermediate links d uring a dvertising promotion.
+The media operator is the media executive of the entire media ecology. The main problems of mainstream digital advertising delivery are as follows: 1) The single form of advertisement lacks interaction with users and has a poor effect. 2) It is difficult for media operator to update their advertising content, causes poor real-time performance. 3) Redundant advertising resources are ubiquitous in people's daily life that caused a serious waste of resources, a ttracting l ow attention.
+The user is the audience the advertising ecosystem, but the media mode is currently dull with non-personalized content, and user privacy cannot be guaranteed. Any advertising mode that lacks an incentive mechanism will not take effect at times, or may even have adverse effect.
+
+7
+
+2.2.3 The Application of Digital Media Technology Lag Behind
+Since the emergence of digital media advertising, its technology has not been promptly updated, the effectiveness o f digital m edia gradually weakened.
+Because of limitation in location of outdoor advertising screens, it is impossible to update content dynamically. In addition, advertising screens located in public places are prohibited from being equipped with camera, making them unable to collect multi-dimensional user data effectively. Thus, it is difficult to implement big data analysis and artificial intelligence analysis i n t he subsequent w ork.
+The big screens in cinemas have a good display effect, but the advertising delivery at present is mainly a one-way information flow, making it unsuitable for interacting with users. This leads to decreased length of viewing time and loose user stickiness, let alone any richer human-computer interaction scenarios.
+The current internet advertising push is the most popular form of advertising media at present, b ut it f aces the problems o f u ser p rivacy disclosure and malvertising.
+In short, there are many problems regarding the installation location, data collection, content display, privacy protection and attractiveness of human-computer interaction regardless of traditional LCD screens, cinema screens or internet advertising. These issues are also t he p ain p oints r estricting the development of digital media today.
+3.Solutions
+In o rder to d eal with the m any i ssues i n m edia industry, ATMChain i ntroduces blockchain technology and o ther a dvanced technologies s uch as big data, the Internet of T hings, artificial intelligence and so o n, i n order t o reshape the digital m edia f ield. I ts specific s olutions are shown in F ig. 3 -1.
+8
+
+Fig. 3 -1 A p reliminary s olution to t he field o f a dvertising m edia
+3.1 V aluing the A ttention Economy a nd Realizing V alue Redistribution
+ATMChain ecosystem brings in attention economy principle. ATMChain pays user's attention by mean of blockchain technology to achieve value, so that attention can be the value of circulation, cash. It is fair to say this is a developed incentive mechanism that better encourages users in subjective initiative and motivation.In addition, it makes use of the smart contracting decentralization of blockchain and the open and transparent character of the data to solve v alue t rust i ssues, f orm a reliable c losed d ata loop.
+ATMChain create a new business environment and business relations, changing the concept of the market and completely overwhelm the value distribution existing in the traditional advertising m edia industry, as well a s  r eshaping t he a dvertising media m odel.
+3.2  Open a nd T ransparent D ata Information
+Once commited, blockchain is characterized by open & transparent and tamper-resistant data, e nsuring the c redibility of d ata.
+ATMChain will keep four kinds of information in the blockchain: information on the media operators, location provider and user account; information on the ATM reward sharing strategy; status information when users browse advertisements and status information of media screen; and media operators, location provider and transaction information of the ATM
+9
+
+rewards received by the user. The status information is uploaded to the blockchain on which the data cannot be changed, thus fundamentally eliminating the problem of data fraud and malicious brush single trace most worried by the digital media operators and media customers.
+In addition, the user's key information and the operator's data information is also through the privacy desensitization treatment, and encryption in the blockchain security layer to protect the privacy of the u ser and c ustomer.
+3.3  Resource I ntegration o f Platform Ecosystem
+3.3.1 Integration of R esources in t he Field of A dvertising Media
+For the traditional advertising media mode, there are currently diversified media operators on the market. As cities, sections, and targeted audiences covered by different media operators varies, when media clients have specific advertising demands, it is difficult to integrate the channel resources of different media operators properly or achieve more effective delivery. As s hown in F ig. 3-1:
+Fig. 3 -2 The p roblem i n t raditional m ode The emergence of ATMChain has created a large media ecology which can access various media operators. The delivery effect of each media operator will generate accurate, reliable and quantifiable data indexes with the help of blockchain technology, thereby providing more authoritative and reliable delivery guidance. With the continuous development of the ATMChain ecology, the number of the accessed media operators has been increasing. When advertisers have business needs, ATMChain can be adjusted dynamically according to the evaluation data of each media operator's delivery effect on the blockchain, push to the most
+10
+
+appropriate media operators and improve the operation efficiency of media operators. As shown in F ig. 3-3:
+Fig. 3-3 A TMChain a dvertising m ode
+3.3.2 R esource Integration o f Cross-domain Media Ecology
+ATMChain is the large media ecology, which includes ticketing, cinema, entertainment, social media, We media and other industries, and provides ATM tokens to be circulated in the ecology.
+With the continuous improvement of the ATMChain ecology and increasingly rich accessing industries, the specific role of any accessed industry can interact directly with other specific roles in an effective and trustworthy way through the reliable platform interface provided by the ATMChain ecology. This will greatly enrich and promote the development of the media industry while also achieving the more efficient integration and utilization of resources. As shown in Fig. 3 -4:
+11
+
+Fig. 3-4 Interaction in ATMChain e cology
+3.4 I ntelligent D ata A nalytics
+As the development of technology, media screens, acting as data terminals, has ability to provide multi-dimensional information in terms of users' watching time, age and gender, etc. through facial recognition technology, enabling data collection abilities at screen terminals, and p roviding a  basis f or the f ollow-up intelligent data analytics a nd p rocessing.
+Data islands exist in the traditional media field, and such low data credibility leads to the low efficiency of data analysis. Serving cross-advertising publishers and the cross-business "blockchain + big data" media ecology, ATMChain is also a large data analytics platform, and its advantages in high credibility and transparent data far outstrip those of traditional advertising c ompanies.
+ATMChain not only has abilities in data input, user report analysis and delivery effect analysis, and it also has the ability to process data and achieve directional output. As the media ecology connects a large number of terminals, inflow data can be directed as output to terminal screens via artificial intelligence analysis and processing, thereby providing more accurate human-machine interaction to suit each user, and promoting the subsequent expansion o f t he scene. As s hown in Fig. 3-5:
+12
+
+Fig. 3 -5 I ntelligent Analytics D iagram
+4.Business S tructure
+ATMChain consists of the blockchain network and open platform. The entire business ecosystem includes mobile APP / WeChat APP, advertising platform, media screen, IoT sensor and other facilities, as well as advertiser, advertising media operator, User, Place provider, ATMChain o perating t eam, E xchange and o ther roles. Business structure s hown in Fig. 4 -1:
+Fig. 4 -1 B usiness S chematic Diagram of A TMChain 13
+
+4.1 Roles
+1) Advertiser ATMChain does not change the habits of advertisers, they will still buy advertising services from advertising m edia operator. 2) Advertising media o perators and advertising platforms The advertising media operators will have their own advertising platforms, on which they can sell advertisements and display reports. These platforms gain access to ATMChain through API provided by t he A TMChain o pen p latform, thereby developing new advertising mode. 3) Media screens a nd p lace providers Media screens are assets of the advertising media operators.They are distributed in different places (malls, residential Area, etc.) and maintained by the place provider(business,properties). Media screens interconnect with advertising platform and accept advertising content delivery, and is established on the basis of the policy parameters, enabling it to display appropriate advertising according to the surrounding conditions and parameters, facing crowd characteristics. When advertising content is broadcast, a QR code including screen identification, advertisement identification, time information and other necessary information is generated simultaneously, which is superimposed on the playing video provided for users to scan during their watching. With the development of technology, the media screens can be integrated with cameras and other devices, enable them to intelligently analyze the gender, age, b ehavioral preferences and o ther user i nformation, thereby enriching the u ser d ata. 4) Internet of t hings s ensors Both user-aware and environment-aware internet of things sensors can be applied, and the data they gather will e nrich t he u ser d ata. 5) User a nd ATMChain A PP/ W eChat A PP Users can scan advertisements QR code through ATMChain APP/ WeChat APP to receive incentives i nt the f orm o f ATM t okens. 6) Exchange Providing ATM token transactions and offering an open interface for obtaining the real-time exchange r ate b etween ATM t oken a nd l egal currency. 7) ATMChain open p latform a nd its operation team The ATMChain open platform is operated and maintained by its operation team.The early promotion of ATMChain and customer education requires well operation from the ATMChain operation team in order to make more users realize their attention value and become involved in the ATMChain ecology. Accurate user profiles and behavior models,forecasting models through continuous business operations so as to improve the precision and effectiveness of advertising.
+14
+
+The Open Platform is the central hub of ATMChain, served as the highly reliable network services.
+8) ATMChain network ATMChain network provides distributing value automatically by smart contract, key data into blockchain and data enquiry abilities, as well as blockchain accounts management and transfer transactions.
+4.2 ATMChain O pen P latform
+Fig. 4-2 S chematic diagram of ATMChain open platform As t he nerve c enter of A TMChain, the open p latform h as following c apabilities: 1) Providing access and services to different advertising platforms through the open
+gateway, to further integrate resources from advertising media operators, which helps to b uild a  w in-win o utcome a nd a m ore c ompetitive m edia industry e cology. 2) Providing access to ATMChain APP and WeChat APP through the open gateway, to upload advertising s canning d ata a nd u ser d ata, a nd deliver advertisement. 3) Providing access to ticketing and cinema platforms through the open gateway, to build a m ore complete m edia e cology. 4) Delivering smart contract release via ATMChain network, realizing distributing value automatically via trigger contract, the data into blockchain and enquiry of advertising information, sharing strategy, and key business data, and transfer of ATM tokens via blockchain agent, in order to achieve open and transparent financial management, information management, as well a s e nhancing the c redibility o f the media i ndustry.
+15
+
+5) Providing account management, wallet subsystem and other basic functions, to manage u ser's i nformation, and help users t o manage and transfer t okens.
+6) Supporting advertising, information, ticketing, social media and other business scenarios through the advertising subsystem, information subsystem, ticketing subsystem and social subsystem in order to expand the ATMChain business ecology and improve user stickiness.
+7) Accepting direct access and data into blockchain of the media screen/IoT Sensors via the open gateway. Supporting non-invasive interactions with users, and collecting more accurate data for AI-based big data analysis, more accurate advertising so as to enhance their experiences.
+8) Providing thorough data collection and AI-based big data analysis through the data analytics system, and generating accurate user reports, business reports, user portraits, environmental portraits and business models which are used to evaluate the delivery effect for advertisers, improve business through media operators and realize more a ccurate d elivery on the ATMChain o pen platform.
+4.3 Typical Process I ntroduction
+Fig. 4 -3 S chematic d iagram o f a dvertising process As shown in Fig. 4-3 the process of the typical scenario of advertising through ATMChain is described a s follows:
+16
+
+1) Through the advertising platform, the advertiser pays legal tender to the advertising media o perator to p urchase a dvertising time/duration.
+2) The advertising media operator purchases ATM tokens from the exchange for spare use.
+3) Advertising platform follows the specific advertising information to transfer the ATM tokens of corresponding legal tender expense to the corresponding advertisement account.
+4) The Advertising platform publishes advertisements to the ATMChain, puts division strategy information on t he chain and i mprove i ts bargaining credibility.
+5) The ATMChain p ublishes t he c orresponding smart c ontract. 6) The advertising platform delivers advertisements to eligible media screens. The media
+screens generate QR codes with information as the advertisement identification, screen identification, screen position, and playing time, which are displayed synchronously when p laying v ideo a dvertisements. 7) The users u se t he A TMChain A PP t o scan the QR c ode o n the media screens. 8) The ATMChain APP analyzes t he QR c ode i nformation and reports t o t he ATMChain. 9) According to the received advertisement identification,screen identification,screen position, playing time,user information,place provider information,etc., the ATMChain triggers the smart contract to perform distributing value automatically and follows the advertisement account to issue ATM tokens of the corresponding amount to the ATMChain platform blockchain address, advertising operator blockchain address, code scanning user blockchain address, the site provider blockchain address according to the preset d ivision s trategy. 10) The ATMChain generates user reports and business statements for the advertising platform. 11) The advertising platform provides user reports to advertisers to evaluate advertising serving.
+4.4 S chema Description
+4.4.1 V alue Distribution
+17
+
+Fig. 4 -4 V alue d istribution diagram of A TMChain
+The ATMChain introduces the attention economy to conduct revolutionary reform of the value o f m edia i ndustry.
+1) Advertisers Value contribution: Advertisers use the advertising platform to inject value into the ATMChain. Income: Advertiser can receive detailed user reports for advertisement performance evaluation. The Cost-effective user diversion from the precision advertising of the ATMChain will also g enerate m ore transactions for advertisers. 2) Advertising m edia operators Value contribution: Advertising media operators can provide accurate user reports to advertisers and more effectively help advertisers to improve advertisement effect and drive their performance. Income: Users scan the ad QR code through the ATMChain APP / WeChat APP to trigger the smart contract's execution of distributing value automatically and advertising media operator account can t hen r eceive t he c orresponding proportion of A TM t okens. 3) Users Value contribution: Users participate in the ATMChain ecology, contribute attention and user d ata Income: G ain ATM t okens reward f or w atching a ds. 4) Place p roviders Value contribution: They are responsible for maintaining the media screens. After obtaining ATM tokens, they will use ATM tokens or withdraw cash from the account, which contributes to the promotion and a pplication of the A TM t okens.
+18
+
+Income: The more times and longer length of time media screen advertisements are viewed by users, t he more ATM t okens p lace p roviders will b e r ewarded.
+5) ATMChain o pen p latform Value contribution: With the continuous operation of the ATMChain, the ATMChain open platform will gain more and more user data, thereby obtaining more accurate and valuable user profiles, environment profiles and business models, this will serve to further improve the precise advertising and user experience of the ATMChain system and lay a firm data foundation for more e cological a pplications b uilt b y ATMChain provider. Income: Each time the user uses the ATMChain APP / WeChat APP to scan the ads QR code and triggers the smart contract to distribute values automatically, the Open Platform of ATMChain will receive a corresponding proportion of the incentive, according to the operation strategy, t he p roportion c an b e c hanged or set as l ow a s  zero.
+4.4.2 Accurate Advertisement D istribution
+Fig. 4-5 Data collection &  Analytics p latform Based on the quick evolution of mobile internet and IoT technology, ATMChain can collect and analyze various information of users and locations, which includes - audio/video around the media screens, information about geolocation, environment, and scanning data from users, etc.
+19
+
+Under the principle of user privacy, all collected data will be pre-analyzed and desensitized b efore being sent to the b ig d ata analytics p latform.
+On the big data p latform - 1) We can retrieve information about audience's gender, age, occupational
+characteristics, and density of population by face recognition and feature match of video. 2) Retrieve the characteristics of large-scaled crowd around the media screen by analyzing the video, audio a nd g eolocation i nformation. 3) By analyzing the information from IoT sensors, it is possible to response to the environmental c hanges i n real time. The scanning data from users will be saved on the blockchain, which will be used to generate reliable user r eports about t he u ser's c haracteristics. With the multi-dimensional data collection and analytics system, we can get the profile of audiences and environment around the media screens, which will be used for making more accurate advertising decision. Analysed data from user scanning and environment profile will be used as parameters for the advertising media operator's pricing policies. The detailed user's r eport will be used for advertiser's evaluation.
+4.4.3 I ntegration o f Industry Resources
+Fig. 4-6 Trustful data f low o n A TMChain Advertising information, smart contracts, profit sharing policies, part of the business data and transfer transaction information of ATMChain will be uploaded to the blockchain. As the
+20
+
+blockchain itself is open, transparent and tamper-resistant, these data on chain will be transparent and c redible.
+Sensitive data that are unsuitable to open for public will be encrypted for privacy protection.
+Fig. 4 -7 I ntegration of i ndustry resources ATMChain, b ased o n t he trustable data circulation, p rovides a n opportunity for m edia companies to i ntegrate t heir b usiness resources. Small a nd medium media companies c an join in ATMChain to build a  m edia a lliance, a nd get benefit from t wo a spects: 1) They c an receive a  wider r ange o f advertiser r esources 2) They can u ndertake advertising business that could n ot b e r eached or m atched before
+21
+
+All of the media companies that j oined t o A TMChain, as a  whole in t he market, w ill g et more m arket share through the c onstruction of i ndustry and the complementary advantages of each other.
+4.4.4 Competitive E cology
+Fig. 4-8 ATMChian ecology Of course, the scan advertisement + reward mode can be used as an entrance for attracting users. However, from the perspective of user stickiness and necessity, the scanning reward alone is not e nough. ATMChain provides a complete application ecosystem, in which users use ATMChain App to gain access to the fascinating news, theater tickets, music, entertainment and other information, reward the article author with ATM tokens, vote for the product, exchange merchant coupons, etc. ATMChain A pp r elies o n its content advantages to build a  b outique e cosystem. The integration of the ecosystem modules will expand the commercial closed-loop scenarios, and promote l ong tail income.
+4.5 E conomic Model
+4.5.1 Tokens Flow
+Like other public chain systems, ATMChain has its own token mechanism. Having ATM tokens m eans h aving t he r ight t o u se the ATMChain s ystem.
+1) The implementation of ATM tokens is similar to that of other encrypted currencies, with typical encryption currency characteristics: ATM tokens associate with a corresponding wallet address, wallet management and account-related public and
+22
+
+private keys. It is similar to BTC and ETH in the sense that having a private purse key represents the r ight t o t he c ontrol and ownership o f the token. 2) ATM t okens can be p ut into c irculation, which is s imilar t o t ransfer: Through a signature transaction, ATM tokens can be transferred from one address to another. The multi-signature mechanism is supported by the smart media chain to accommodate m ore r ealistic scenes and b ring more flexibility into play. The advertiser needs to pay the equivalent amount of ATM tokens for advertising, and the advertising media operator displays the ad on the media screen while transferring the ATM tokens t o t he blockchain f or the follow-up i ssuance of tokens. 3) ATM tokens can be traded on the exchange and converted into the currency of the country.
+4.5.2 Attention M easurement
+The ATMChain measures the attention of users. More attention is equal to more ATM tokens.
+Attention pricing formula:price=f(User Profiles, Environment Profiles, Ads. Strategy). Attention prices are determined by user profiles, environmental profiles, and advertising strategies. F or  example,
+Advertisers inject 10,000 RMB which is convertible 10,000 ATM tokens for advertising service, this can buy a total of 10,000 times of clicks, assume that the user proportion is 1% when scanning the advertising QR code, then finally the attention price for each scanning is: 0.01ATM tokens.
+The user successful scanning of the QR code can be deemed as a valid advertising browsing behavior for the r eceipt of the c orresponding ATM tokens reward.
+With the continuous upgrading of the ATMChain system, more measurement strategies will be t aken into a ccount, s uch as:
+1The longer the b rowsing time i s, t he m ore ATM t okens a re r ewarded. 2Different ATM tokens awards are received in different time depending on the time period of t he a dvertisement b rowsing. 3Different ATM tokens awards are received in different phase like user browses the ads,user is guided to business,user concludes a transaction,user feeds back. this can help to facilitate m ore t ransactions.
+23
+
+Fig. 4-9 S taged attention mesurement a nd reward
+4.5.3 Economic I ncentive Model
+ATMChain uses i ncentives t o ensure t he perfect o peration of t he e ntire s ystem:
+Fig. 4-10 ATM token distribution All incentive transactions and strategies are recorded in the blockchain in an open, transparent and traceable manner. The incentive model ensures that each participant of each system takes only what is required. The advertisers receive the attention they want and the advertising media operators, location providers and users receive the financial benefits they want.
+24
+
+4.5.4 I ntegrity M odel
+Based on the advertising system of incentive model, to operate successfully, we must consider t he i ntegrity o f stakeholders to p revent t he problem o f cheating.
+1) Avoid t he fake data of advertising p latform and t he d epletion of a dvertisers f unds. Different from the advertising system of old Internet era, the advertising system built by block chain is verifiable with multi-node, making it naturally exerts strong supervision over the advertising platform. Any fake data attempts of the advertising platform will be immediately i dentified by o ther nodes i n the blockchain. 2 Concerning m alicious scanning on the users' end a nd m ultiple s canning fraud problem. Similar with the traditional click-based browser ads, many technical method can be applied to solve the scanning fraud. Typically, binding the proceeds of scanning with user's ATM wallet, and authenticated the wallet by real-name/id card, and coupled with statistical data analysis i s sufficient to p revent multiple s canning fraud. 3 T he p roblem of s canning o nly f or r ewards. Strictly speaking, this kind of cheating, like "bonus hunter", will still expose the user to advertising, which is not an e ntirely negative c onsequence. On the one hand, we can conduct accurate advertising through the algorithm, provide more interesting content, so that w e c an get b etter advertising result. On the other hand, some scanning reward can be retained and issued after the consumption of customers. The ATM tokens issuance proportion before and after consumption can b e adjusted t o a chieve the best i ncentive effect. In addition, bid data analysis also helps detect cheating account and then limits the incentive p arameters. For the behavior of mutual cheating, such as sharing QR code through internet, we can control the total amount of rewards tokens to make the profit share decline, thereby reducing the driving force of cheating. The platform itself can benefit from the sharing behavior, that is, it can achieve a wider range of advertising effect without increasing the overall cost of the case. In short, building a model of integrity is just as much of an offensive battle as it is a defensive battle. ATMChain team, together with top security experts in market and technical aspects w ill maintain the system f or b est p erformance and h igh stability.
+5.Technical Architecture
+In order to support next generation of media business, we plan to build a complete system architecture including blockchain, artificial intelligence, big data, IoT and virtual reality in technical aspect. The user terminal is connected to the platform through the Internet, and the media display device supports the IoT access and obtains the information of each
+25
+
+dimension in the environment in real time through sensors such as location, image, sound and infrared. With IoT, the collection of data can be free from geographical location and environmental constraints.
+Big data, AI analytics platform using distributed architecture design can carry a large amount of business data storage and build up accurate delivery model in accordance with deep learning. Data storage and block chain network cooperate to ensure that the data is true and credible without b eing t ampered.
+The smart contract mechanism ensures that the multi-party collaboration in the network and can be run autonomously. Considering the diversity of the system terminal, the media content will be displayed flexibly and the system is fully capable of combining user preferences and presenting in the way of virtual reality and create a first-class user experience. B esides, A TMChain provides a u nified A PI interface to e nable t hird-party access.
+From t he design level, we propose the f ollowing g eneral technical architecture:
+Fig. 5-1 T he overall structure o f A TMChain Next, w e will d escribe i n detail t he implementation strategy of e ach s ubsystem.
+5.1 Blockchain
+The ATMChain system takes the blockchain technology as the core and realizes the open point-to-point cooperation mode with mutual trust. The existing blockchain platform supports
+26
+
+smart contract technology, which satisfies the requirements of autonomous operation of multi-party cooperation contract signing and automatic transaction execution. However, the current blockchain network performance can not meet under heavy traffic scenarios and we need to rely on raiden network to transfer a lot of small payments to the off-chain processing, taking into account the performance and credibility. In addition, the blockchain network is weak in the privacy protection and the zero knowledge proof algorithm zkSNARKs is the m ost effective p rivacy s olution.
+Generally, ATMChain can be divided into three parts: user, business server and blockchain network. Media display device could be treated as an extension part and managed by business server. Logically, we see different parts interact with each other on application layer, security layer, d ata layer a nd network layer.
+Fig. 5-2 S tructure o f blockchain subsystem Transaction data in business server will be merged by raiden network and further to be exchanged with blockchain on data layer, in order to reach a consensus and finalize it on the blockchain. Transaction detail will not be revealed to ordinary participants after being processed using zkSNARKs on security layer. Business server could be accessed by third party devices and applications using API, the transaction data retrieved is also encrypted. Therefore, the customer p rivacy i s protected.
+27
+
+Fig. 5-3 Attention M etric and Data Flow
+5.1.1 Smart C ontract
+In the smart contract of ATMChain, it not only realizes the standard ATM token management, but also realizes the core process of the allocation and distribution of the ATM revenue after the user watched the advertisement. In the smart contract, the publisher has a wallet account that holds the ATM tokens, which is used to hold the ATM tokens that are redeemed when the ad is served. The ATM token is issued by the publisher and is commissioned to ATMChain o perating platform for r evenue d istribution.
+Fig. 5-4 M ulti Party Contract D eployment 28
+
+The smart contract receives the parameterized data of the distribution model, transfers the payment to each participant and records the address of each account; broadcasts the consensus on the blockchain according to the digital signatures recognized by the various stakeholders and f inally writes i nto blocks.
+Fig. 5 -5 M ulti Party Contract Execution The contract receives advertising payment and conducts benefits distribution to publisher, the venue provider, ATMChain platform and end users from the advertiser account address according to t he distribution m odel i n t he contract.
+5.1.2 Z ero Knowledge P roof
+In order to prevent the user sensitive data leakage, ATMChain introduces the technical solution o f z ero knowledge p roof.
+29
+
+Fig. 5 -6 Z ero K nowledge S ecurity
+The zkSNARK algorithm is an implementation of zero-knowledge proof. It can meet the following under the premise o f t ransaction d etails i s n ot disclosed:
+1) There i s n o prover could c onvince the verifier to accept a false transaction. 2) The p rover can c onvince the verifier to accept a real transaction. SNARK is called "Succinct non-interactive arguments of knowledge". Succinct refers to the message is very small compared to the actual data calculation; Non-interactive represents almost no interaction and the establishment process is completed only through the message sent by prover to the verifier; Arguments refers to the verifying party can only prevent the accounting party with limited computing capacity, and call it "computational security" rather than "complete security". In order to integrate zkSNARK, we need to take into account: the elliptic curve matching algorithm after zkSNARK transformation will be more complex and privacy protection is not l imited to the t ransaction, b ut to include smart contract encryption.
+5.1.3 R aiden N etwork
+The use of raiden network to achieve heavy traffic, low-cost blockchain applications. When a "hot" ad, such as a highly rewarded or a very attractive content, can cause a large number of users to watch the ad in one second, causing the transaction (ATM reward) traffic congestion. Users can not see how many ATM received instantly, the user experience is not good, raiden network is based on the low-latency low-cost tokens transfer technology, through the raiden network ATM payment into the chain, to achieve fast handling of ATM transfer transactions. More importantly, for the platform can also save a lot of transaction fees.
+30
+
+Fig. 5-7 Micro P ayment i n Raiden Network
+Raiden network is inspired by the idea of lightning network in bitcoin and realizes the low latency and low cost token transfer technology in Ethereum. The use of a off-chain payment channel network (raiden network) to achieve multiple token transfers between any two participants. Since the token transfer is done off-chain, the transaction throughput can reach 1,000,000+/sec except the last closed channel operation. Compared to the existing mainstream blockchain network, ATMChain in a combination of raiden network improves a lot in transaction p er s econd ( TPS):
+Table 5 -1 B lockchain Performance
+
+Platform
+Bitcoin Ethereum ATMChain
+
+Performance (TPS) 7 20
+1,000,000
+
+5.1.4 Open P latform A PI
+As a technology interface of the ATMChain open platform, the API layer has the following characteristics:
+31
+
+ O penness, c reate open and f air access s tandards f or t hird-parties.  Completeness, p rovide the c orresponding A PI support f or all subsystems.  O rthogonality, minimize the coupling dependencies among t he s ubsystems.  Compatibility, consider how to access the legacy equipments and the overall principle is no need to change t he inventory advertising e quipment. Public p latform A PI f unctions i nclude:  For the QR code scanning needs of advertising screen, provide ATMChain QR code management, p ublishing, b illing A PI.  For the statistics of scanning number / advertising effects needs, provide QR code statistics of the media chain a nd d ata m ining A PI.  For the client access, usually the user's mobile phone or website, provide a complete Restful API a nd SDK.
+5.2 A I a nd Big D ata
+ATMChain provides a safe, trustable, open and transparent data sharing and collaboration environment to advertisers, advertising media operators and shops. They can obtain a large number of true and effective advertising content data, media channel data, scenario data, and feedback data, etc. to solve the problems of data isolation, low quality data and data leakage, etc. Thus we will achieve a cross-advertising-media-operator and cross-business "blockchain + big data" analytics platform, so that data can be fully used to provide added values to advertisers, a dvertising m edia operators a nd u sers.
+The figure below is the architecture of ATMChain data analytics platform. The data access layer has access to both blockchain data and third party data to provide more information for follow-up analysis. The platform uses big data analysis and machine learning technologies to fully exploit the data and build effective prediction model, and provides Ad hoc query system, BI application a nd API interfaces, e tc.
+32
+
+Fig. 5-8 Design o f A I and B ig D ata S ubsystem We can obtain more precise prediction model and advertisement analysis report based on trustable data, to provide a scientific basis for accurate advertisement delivery and data-driven  a dvertising m arketing, a s s hown in the figure below.
+Fig. 5 -9 D ata Analytics Process Based on ATMChain data, APP data and third party data, the data analytics platform uses advanced AI engine and machine learning algorithm to build high-credibility user portrait and
+33
+
+media screen portrait, and build many analysis prediction models to provide decision-making data for advertisers and a dvertising m edia o perators, a nd information for users.
+1) User portrait: includes natural f eatures, c onsumption characteristics a nd other l abels. 2) Media screen portrait: includes physical information of the media screen itself,
+environment information and extended characteristics analyzed in accordance with all account information. 3) Prediction model: includes advertising effectiveness model, user scan prediction model, a dvertising s can rate prediction model, a dvertising e ffect prediction model. In addition to the above portrait information and prediction model, it also provides ad hoc data querying, expert reporting system and so on, to provide multi-dimensional data support for advertisers and advertising media operators' decision-making. At the same time, it enables users to get their favorable advertisement at the right time, and make their attention more valuable. The b usiness logic t o achieve t he g oals a bove i s shown b elow: 1) When the media screen is able to perceive users, it can present the right advertisement to users at different times, which improves the quality of the media screen a nd the benefits o f r elevant parties. 2) The multi-channel real-time collection of analysis information allows stakeholders to receive feedback in a timely manner and remain informed of the advertising effects; and the timely update of the prediction model can further improve the prediction results s o as to provide b etter services to r elevant p arties. To sum up, the ATMChain data analytics platform, as a specific application of "blockchain + big data", can collect sustained data to make the machine learning algorithm and prediction model more accurate. And the ATMChain operation platform will become more intelligent, to provide m ore a dded v alue t o a dvertisers, advertising media o perators a nd users.
+5.3 Internet o f Things
+The Internet of Things has become the future trend for intelligent terminals. The underlying intelligent media screen of ATMChain is a terminal for displaying advertisements, and also a source to collect user's consumption data. The thriving IoT technologies provides a solid technical g uarantee f or t he interconnection o f large n umbers i ntelligent media screens.
+The NB-IOT technology and the future 5G technology provide physical network of different scenarios of IOT. The ATMChain will mainly collect screen ID, geographical coordinates, and user customization data after collection by the intelligent camera in NB-IOT network. And in high-bandwidth IoT, it will collect all the details of the full transmission intelligent camera on the channel to generate user data and advertising media resources. The immersive VR advertising experience w ill also b ecome a reality.
+34
+
+Fig. 5 -10 IoT architecture
+5.4 V irtual Reality
+Virtual reality is defined as a technology, which integrates computer graphics system and different kinds of interface equipments to provide a sense of immersion in a computer-generated interactive 3D environment. By using VR technology, ATMChain provides virtual and immersive advertising experience in new models like tourism, real estate show rooms and n ew car test drives, to get more user's attention.
+6.Outlook o n A pplications of A TMChain
+6.1 O utlook on A pplication E cology of ATMChain
+We have a good reason to make the following inferences about our application ecology for the introduction of various technologies : Smart contract technology brings real-time settlement to us, build a trusted environment of the underlying foundation. Zero-knowledge proof technology provides an umbrella for our user data privacy. Raiden Network technology provides us a solid technical backing for building a large ecology which achieves high concurrent, low-cost blockchain hot applications. At the same time, as an open ecological technology, we will open various APIs for our follow-up community application technology developers.
+As a builder who actively embraces high-tech ecology, hopes to harness the technology that can serve the community's ecology, such as artificial intelligence, large data analysis, Internet of Things, and virtual reality. It can be seen that artificial intelligence in the application of
+35
+
+ATM ecology, could give us considerable support in decision-making and collaboration.Besides, large data can give us a deeper dimension of information data mining,Internet of Things can enhance our human-computer interaction, and we can bring more valuable details for ATM. VR / AR can not only broaden our view of the media industry, but also increase the number of ecological application types. Based on the integration of many technologies in the ATMChain ecology, we have enough technical strength to introduce the following ecological application set.
+Fig. 6-1 E cology prospects o f A TMChain The application ecology of ATMChain is mainly focused on media while also covering news, cinema, social media, entertainment, We Media and other industries. It makes fully use of the latest technology including blockchain, Internet of Things, big data, artificial intelligence and etc. to build up a first-rate digital media ecology integrating cultural creation and dissemination, promoting the upgrading of media consumption services and finally radiating over t he l arger offline customer i ndustry, s hopping c enters and o ther i ndustries.
+6.2 Example o f Outlook and Applications of ATMChain
+Take the cinema and ticketing information service application of ATMChain as an example. Generally s peaking, we c an d ivide cinema and ticketing services into several c ategories:
+36
+
+I. Cinema and ticketing information is traceable and transparent, thereby solving the problem o f t icket touts;
+II. Ticketing information is promoted precisely to serve the information demands of recreation e nthusiasts;
+III. Ticket information is presented through a variety of media which is not limited to dynamic screens, static advertisement or ticket information, encouraging users to use ATM tokens t o pay f or t ickets i n the A TMChain e cology;
+IV. It is used to motivate the distribution of cinema ticketing coupons, to enrich the ATMChain ecology;
+V. As VR and AR are put into use, the operation data is stored to blockchain for big data analysis to d ig u p m ore v aluable information.
+We use the existing ATMChain ecology to integrate media news, information service, and transferrable value and other factors to eventually build an ecology serving the media industry based on t he b lockchain t echnology.
+7.ATMChain E cology Planning and Governance
+7.1 Blueprint of A TMChain E cology
+As an open organization, we hold inclusive attitude and the principle of sharing to enrich our ATMChain ecology in order to achieve a win-win situation. Now, we are trying our best to create a global community ecology in the help of the resource from home and abroad. The management of the ATMChain ecology is coordinated by the ATMChain Foundation. Besides, in order to makes full use of the vigor of science and technology innovation, motivate users and attract shops, we invite experienced community managers to co-build our ATMChain ecology. Our ultimate goal is to build an international top-ranking media ecology under the guidance of the s upervisory d epartments.
+The vision of ATMChain is to build an international digital media alliance which integrates advanced technologies with innovative models in order to build an international top-ranking media ecology which bears comparison with traditional Internet media giant like Google and News C orporation.
+7.2 M ain B usiness Logic of A TMChain E cology
+The main business logic for the development of the ATMChain ecology has the following two key components. On one hand, it starts from the DApp application gallery, in order to make full use of the subjective initiative of the DApp application itself and provide new technology innovation for the community. On the other hand, making full use of resources integration, for Industry-wide information exchange and analysis, we will integrate online resource with offline resources. At the same time, it combines with the overall characteristics
+37
+
+of the DApp application gallery to bring a variety of professional and subjective exchange activities and resource connections to the entire community, thereby enriching the internal information of our c ommunity c ulture.
+ Fig. 7-1 Logic diagram o f ATMChain ecology a nd c ommunity
+7.3 Foundation G overnance
+7.3.1 Overview o f t he F oundation
+World Technology Crypto Organization (WTCO) (hereinafter referred to as the `Foundation') is a non-profit organization which has established a corresponding institution in the form of an association in China. The Foundation is committed to the development and construction of ATMChain, and the advocacy and promotion of transparent governance, so as to promote the sound and harmonious development of the open source ecological society. The Foundation will help to manage the general issues and privileged matters concerning open source community projects by developing a good governance structure. The main design goal of the Foundation's governance structure is to take the sustainability of open source community projects, m anagement effectiveness a nd s ecurity o f raising f unds i nto a ccount.
+38
+
+7.3.2 Governance Structure o f t he ATMChain F oundation
+The governance structure of the Foundation is mainly composed of four parts; namely, the executing agency, technical agency, operating agency and comprehensive service agency in communities. The principals of the executing, technical and operating agencies are separately assumed by senior experienced personnel at home and abroad. With regard to the comprehensive service agency in communities, the principals are separately assumed by domestic and foreign community leaders, of which the Foundation Governance Committee provides unified management and d ecision-making f or the following four a gencies:
+ Fig. 7 -2 G overnance s tructure o f A TMChain Foundation
+8.Product Roadmap
+39
+
+Fig. 8-1 Development p lan o f A TMChain The product development uses methods of agile development and version iterations. As shown in Fig. 8 -1, the overall p roduct d evelopment r oadmap is d ivided i nto four m ilestones: 1) Milestone 1, Implement the c losed-loop o f token t ransfer b y scanning Q R c ode. 2) Milestone 2, Implement the closed-loop of integrating media screens, and start
+pre-research o n technology. 3) Milestone 3, Support Raiden network, n ews subsystem, and IoT s ensors. 4) Milestone 4, Release self-developed public blockchain, based on which, more
+applications w ill b e d eveloped.
+40
+
+9.ICO Strategy
+9.1 A TM Token D istribution
+ Total amount: 1 0 b illion  Token available t o p ublic: 4.2 b illion  Early investor: 800 m illion  Foundation: 5 b illion
+9.2 ICO Rules
+ Duration: 7  d ays  Token a ccepted: Ethereum ( ETH)  Minimum investment a mount: 0 .01 ETH  Direct offering: 4 billion, 4 billion ATM tokens dividing all the ETH raised in 7 days is
+the e xchange ratio between ATM and ETH(ATM/ETH).  Early bird bonus: 200 million, in accordance with the actual amount of ETH gathered in
+the first 3 days. The reward rule is, 120 million for the first day, 50 million for the second day, 30 m illion for the t hird day.  The ETHs gathered during the ICO will be transferred to the account of the ATM foundation.  The ATM offered to the public will be unfrozen gradually. 1/6 ATMs will be unfrozen every 30 days.  The ATM held by the foundation will be unfrozen gradually too. 1/60 ATMs will be unfrozen every 30 days.
+9.3 B udget A llocation
+ Development: 30%  Community: 1 5%  Marketing: 10%  Law & C ompliance: 2%  Reserved: 43%
+10.Conclusion
+With the digital media industry as the entry point and blockchain as the underlying technology, ATMChain introduces the concept of the attention economy with regard to the prominent problems in the media industry, and encourages users to participate in the ecology of ATMChain through the value distribution mode of paying for users' attention, thereby
+41
+
+obtaining more high-quality users and data. It enriches user data through facial recognition, Internet of Things sensors and other technology. It analyzes and generates precise user reports, user portraits, environmental portraits and service data models through big data and AI technology, accurately evaluates the advertising effect, enhances advertising accuracy and improves the user experience to solve the problems in the digital media industry. In addition, it builds an industry-wide ecology embracing digital media, ticketing, cinema and news based on users and data, thereby achieving the in-depth integration of industry resources and improving i ndustry o peration efficiency a nd e cology competitiveness.
+As a vivid case of the integration of blockchain technology and digital media industry, ATMChain sets an example in promoting the sound development of the blockchain industry. In addition, ATMChain will have a subversive impact on the digital media industry and bring about revolutionary c hanges.
+Reference
+[1]  B rave S oftware,Basic Attention Token ( BAT) B lockchain B ased Digital Advertising,https://basicattentiontoken.org/BasicAttentionTokenWhitePaper-4.pdf
+[2] E thereum W hite paper, h ttps://github.com/ethereum/wiki/wiki/White-Paper [3] C hristian R eitwiessner, z kSNARKs in a  n utshell, https://blog.ethereum.org/2016/12/05/zksnarks-in-a-nutshell/ [4] Raiden N etwork, https://github.com/raiden-network/raiden [5] Joseph Poon, Thaddeus Dryja, T he B itcoin L ightning N etwork: Scalable Off-Chain I nstant Payments, h ttps://lightning.network/lightning-network-paper.pdf, Jan 14, 2 016 [6] Brian Rigney, 3 A ttention M etrics T hat P ut O nline Engagement In T he S potlight, http://marketingland.com/3-attention-metrics-put-online-engagement-spotlight-141435, Oct 8, 2015 [7] Vitalik Buterin, Vitalik's R oadmap, https://entethalliance.atlassian.net/wiki/pages/viewpage.action?pageId=36872&preview=/36 872/599625/Ethereum%20Roadmap.pdf,  Feb 2 8, 2 017
+FAQ
+Q: How to benefit f rom i nvesting ATMChain? A: The ETHs gathered from investors will be used to build the community and ecology of ATMChain, not just a DApp. The value will be reflected in the rising price of ATM token, which gives a financial f eedback t o investors.
+Q: How t o participate in the I CO?
+42
+
+A: Please pay attention to our website (www.atmchain.io) , we will publish ICO information on our website first. You can also pay attention to ICO information published by major cryptocurrency e xchanges. Our partners will a lso p ublish r elevant information.
+Q: H ow d oes ATMChain achieve i ts v alue p roposition? A: ATMChain as a platform can be applied to many fields in the "Internet of Value" powered by blockchain. For example, ATMChain can be applied to industry big data analysis, entertainment digital copyright protection, media accurate delivery, etc. All parties on the ATMChain platform will b enefit f rom i t.
+Q: Can ATMChain b e u nderstood a s a  blockchain system d edicated to a dvertising? A: Advertising is a very important part of ATMChain, from which we also expect to obtain sustained benefits. It can be said that the advertising system is one of the priorities of the initial work of ATMChain. However, the application of ATMChain is not limited to the advertising system, and advertising is only one subsystem of ATMChain. In addition, ATMChain also support news subsystem, ATM token wallet, ticketing subsystem and more extensive applications i n the m edia i ndustry, which c reates a very broad a pplication space. Although there are many applications, the project shall have highlights and focus, and shall be carried out in stages from the perspective of project management. Excessively decentralized work priorities are not conductive to product development, and this is why this whitepaper goes t o great l engths to describe t he a dvertising subsystem of A TMChain.
+Q: Which exchanges will support A TM tokens? A: Major domestic and foreign exchanges are under negotiation. We seek to make an open-standard and open-source blockchain system to secure support from a wide range of investment platforms f or our i nvestors.
+Q: What are the earnings prospects of ATMChain, and are costly long-term investments required?
+A: ATMChain has a self-hematopoietic function. With the gradual introduction of media companies, media companies will get attentions from ATMChain, and at the same time media companies will also feed ATMChain back. For example, in the advertising business, ATMChain provides advertising media operators more accurate user attentions. At the same time, advertising media operators will also feed back to ATMChain while using ATM tokens as incentives. ATMChain and advertising media operators will cooperate with each other and achieve win-win situations in order to make the market share bigger. As such, ATMChain has very good profit prospects, and it involves no such problems that require splashing out the cash n ow w hile t he profit m odel is at a  f ar d istant date.
+43
+
+Q: H ow to participate in ecological c onstruction of ATMChain? A: First of all, if you are a financial investor, we are very welcome to your financial investment, used to support our entire intellectual chain of ecological construction.Secondly, if you are an advertiser, we welcome you to our first DApp in the media program, you can lower the market price to advertise, to get our tens of thousands of propaganda dynamic screen publicity channels.If you are a barber or home business owners, we also welcome you to contact us, to get the opportunity to stay on the screen and then get the corresponding sharing incentives.Finally, if you are an ordinary user who would like to be the first look at the innovative economic model of attention, then please pay attention to our official website(www.atmchain.io), we w ill a nnounce t he latest progress of t his p roject i n r eal t ime.
+Glossary
+Blockchain network: ATMChain uses Ethereum as its underlying blockchain network. We will develop an i ndependent p ublic blockchain i n t he future. ATMChain open p latform: T he center o f A TMChain, which provides s ervices t o other parties. ATMChain operation team: The team which is responsible for the promotion and business operation of A TMChain. Advertiser: The company w hich pays for the advertisement, e.g. McDonald's. Advertising media operator: The company which has media resource, and provides advertising service to its clients. Advertising p latform: The b usiness p latform for t he advertising m edia o perator. User: T he p erson who i nstalls a nd uses ATMChain application. ATMChain application: The mobile application which provides users services of QR code scanning, w allet, i nformation, and t icketing s ervice. Media screen: The screen which is owned by the advertising media operator to display advertisement. Place p rovider: T he s hop o r property w hich provides place for media s creen to gain b enefits. Shop: The business w hich provides commodities or services to users. ATM t oken: The token w hich i s c irculated in the A TMChain. APP scan code: The QR code which is scanned by the user using the ATMChain application to gain A TM t okens. WeChat scan code: The QR code which is scanned by the user using WeChat to gain ATM tokens. User report: The user analysis report provided to the advertisers regarding the advertising effect. Business report: T he business revenue analysis report provided to the advertising media operators.
+44
+
+Advertisement purchase: Advertisers purchase advertising service from advertising media operators t o p romote t heir p roducts or services. Advertisement publishing: Advertising media operators publish advertisements to the ATMChain. Dividend policy: The policy of profit sharing among the parties in the ATMChain for the advertisements p ublished. Smart contract: The digital contract on the blockchain which is automatically executed when conditions meet. Transfer transaction: The trasaction on the blockchain which transfers token from one account a ddress t o a nother account a ddress. Reward: The a ct that u sers t ransfer tokens t o content publishers for t heir contents. Automatic dividend transfer: T he smart contract for the dividend policy will automatically transfer t okens to relevant account addresses when c onditions m eet. Recharge: The act which transfers t okens to some specific a ccount addresses. Wallet: The application which has the user's private key to provide query and transfer services.
+45
+
+

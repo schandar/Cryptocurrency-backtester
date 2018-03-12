@@ -1,0 +1,368 @@
+neblio
+Next Generation Enterprise Blockchain Solutions
+
+v20170726
+
+contents
+Neblio Blockchain
+
+3 Abstract
+
+4 Blockchain
+
+
+
+What is the Neblio Blockchain?
+
+
+
+Enterprise Adoption & Next Generation Solutions
+
+6 Distributed Applications
+
+
+
+What are distributed applications?
+
+7 The Neblio Next Generation Blockchain Platform
+
+Introduction
+
+Tokens
+
+Roadmap Overview
+
+Simplification as an Enterprise Adoption Driver
+
+
+
+Security & Immutability
+
+
+
+Scalability & Reliability
+
+Use Cases
+
+14 Neblio Blockchain APIs
+
+Design Driven by Simplification
+
+Language Support
+
+
+
+RESTful Architecture Design
+
+Enterprise-Driven Requirements
+
+16 Neblio Business Services
+
+Blockchain Consulting
+
+
+
+Neblio Node Deployment & Hosting
+
+
+
+Private Blockchain Development
+
+18 Conclusion
+
+19 References
+
+Abstract
+Blockchain's unique distributed ledger technology is what makes the Neblio Network possible. This decentralized system of securely storing transactions is the future of database technology for global networks. Enterprise applications taking advantage of this technology gain numerous benefits over those using traditional database architectures including transaction immutability, transparency, security, reliability, and decentralization. Despite the maturity of blockchain networks, few applications have taken advantage of the technology due to the difficulty, and cost of integration and maintenance. Unlike legacy blockchain networks, next-generation blockchain networks such as Neblio will fill the huge gap in the enterprise market to simplify the development and deployment of distributed applications that drive business value through blockchain technology.
+3
+
+Blockchain
+What is the Neblio Blockchain?
+A blockchain network such as Neblio is a decentralized peer-to-peer network of nodes that exchange
+information in the form of transactions; storing those transactions in an immutable distributed ledger. All nodes have a full copy of the ledger (known as the
+blockchain, due to being made of individual blocks) at all times. A node that would like to record information in
+the ledger first broadcasts a transaction containing the information to the network where it is relayed to all other
+nodes. One node then compiles all new available transactions on the network into a block that is added to
+the blockchain. Once a block is stored on the blockchain, it and all of the transactions contained within
+it are immutable, meaning that the transactions cannot ever be altered in any way. When information on the
+ledger needs to be updated, as common with database systems, a new transaction is simply added to the ledger
+with the new information. However, the original information that was stored in the ledger remains intact and verifiable in a previous block for the entire life of the
+blockchain.
+Building on top of this blockchain technology originally created by the pseudonymous Satoshi Nakamoto for Bitcoin, the Neblio Blockchain provides distinct advantages for business and enterprise use cases for which bitcoin was not intended.
+4
+
+Enterprise Adoption & Next Generation Solutions
+Despite ever-increasing media coverage of Bitcoin and other blockchain-related technologies, along with countless articles counting the industries that blockchain technology will revolutionize each year (for the last 5 years!) there has been very little adoption of blockchain technology in the enterprise space. Industries that would benefit the most from the inherent advantages the blockchain provides over traditional database architectures are waiting for mature toolsets, developer ecosystems, and packaged platforms to easily develop and deploy new applications, or to move traditional applications off of legacy database architectures and on to a blockchain network. While legacy blockchain networks have gained popularity by focusing on the digital transfer of value (cryptocurrency), next-generation blockchain solutions will focus on how the underlying technology can be evolved to support new use cases through innovation. While these next-generation solutions will also support the transfer of value due to the fundamental need of transferable "tokens" on the network, the focus will be on enabling new technology and use cases. In the case of Neblio, enabling businesses and enterprise developers to harness an intuitive blockchain platform and developer ecosystem to rapidly develop and deploy decentralized applications that utilize distributed ledger technology instead of traditional database architectures.
+5
+
+Blockchain
+
+Distributed Applications
+What are distributed applications?
+In the blockchain sense, distributed applications are applications that access and store pieces of information on the Neblio blockchain. These applications typically have a "front-end" client that stores, processes, or displays the data for the application.
+As an example, consider a theoretical medical application running on an iPad. In a traditional enterprise world, this application would store and retrieve patient medical
+records from a central database located in the medical office. Doctors can use the application as they visit patients to view and update medical records. But...
+What if this medical office is part of a larger network of medical offices that share patient records or part of a state-wide hospital network?
+How do we ensure that the medical records stored in the database are always up to date in all locations and cannot ever be altered or lost?
+What if the database becomes corrupt or is lost due to disaster or hardware failure? Do we have backups? If so, are the backups recent and will the backup restore be successful?
+How much downtime will a disaster cause? Will we have to cancel patient appointments and lose revenue?
+The answer is a distributed application. Imagine the same application, but instead of using a traditional database, the application accesses and stores the medical records in
+real-time on a private (due to medical record privacy laws) Neblio blockchain network. Each office or hospital in the network runs a private version of the Neblio blockchain node which ensures that every single record stored in the ledger is accurate and
+immutable across the entire network in real time. Nodes can be lost due to disaster or downtime without a single record being lost or altered and the network stays up. The main office can now use a separate distributed application that uses the same data off of the blockchain, but in a different way, to begin processing insurance claims and other
+paperwork as soon as doctors at a distant branch office are done adding patient records. This is just one example, in a single industry, where a distributed application
+built on the Neblio blockchain could provide immediate business value, driving efficiency and lowering costs.
+6
+
+The Neblio Next Generation
+Blockchain Platform
+
+Introduction
+
+The Neblio Blockchain Platform is a development platform built to simplify and accelerate the development and deployment of distributed applications on the Neblio Blockchain, and potentially other blockchain networks in the future. Difficulty and inadequate developer skillsets are seen as the major obstacles inhibiting the adoption of blockchain technology for developing distributed applications in the enterprise and business worlds.
+To overcome these obstacles, the Neblio Platform is built from the start for enterprise distributed application development. A suite of RESTful APIs, in almost all of today's popular programming languages, will allow developers to intuitively interact with the
+
+Neblio blockchain network without having to know the complex details of blockchain technology. Developers that are familiar with using RESTful APIs to interact with today's traditional databases will feel right at home developing apps that instead use the Neblio Blockchain to access and store information.
+Deploying a new Neblio node to support your app on the Neblio Network will be as easy as launching a Docker container. In industries where an application or group of applications may need to run on a private blockchain, Neblio's open source nature, along with our Business Services, mean that private deployments can be quick and painless.
+
+7
+
+The Neblio Next Generation Blockchain Platform
+
+Tokens
+Tokens on a blockchain network incentivize network users to secure and operate the network. In a public blockchain network, bad actors can attempt to attack or disrupt the network for their own gain. In an effort to secure the network against such attacks, the network must have a method of finding consensus. Traditional networks such as Bitcoin use an energy and computation-heavy method of finding consensus known as proof-of-work. Users are rewarded with bitcoins for using their computational power to verify new blocks for the block chain and consensus is found when the majority of the computational power on the network agrees, preventing attacks. In contrast, many newer blockchain networks, along with Neblio use a proof-of-stake consensus model. Proof-of-stake works by using the network users' tokens as votes towards consensus to verify new blocks and secure the network. Users with more tokens get more votes since they have more tokens to lose if an attack on the network is successful. In order to incentivize users to stake their tokens in this model, users are given a reward for staking their tokens and verifying new blocks.
+Whether proof-of-work or proof-of-stake, tokens play an essential role in the operation of a public blockchain network's consensus model. Tokens must have some value to incentivize users to participate in securing the network. The Neblio token, NEBL, allows Neblio users to exchange NEBL with other Neblio users while encouraging users via token rewards to stake and help secure the network.
+ Note: Neblio Tokens (NEBL) are not an investment vehicle of any kind and do not pertain in any way to an offering of securities in any jurisdiction. Ownership of NEBL carries no rights express
+or implied. Participants should have no expectation of influence over governance of Neblio. NEBL tokens are only valuable in the sense that they
+are required to create, distribute, and use distributed applications on the Neblio blockchain network and can be transferred amongst Neblio users.
+8
+
+Roadmap Overview
+
+Q3
+
+2017
+
+Neblio is publicly announced. The
+
+Neblio Token ($NEBL) Pre-Sale
+
+Launches! Acquire Top Talent to
+
+Build Out the Neblio Core
+
+Development and Operations
+
+Teams
+
+The market shows a need for simple blockchain solutions for business and the idea of Neblio is born
+
+Q1
+
+2018
+
+Through the use of a set of uniform
+
+and open-srouce RESTful APIs in a
+
+variety of languages (Python, Go, JS,
+
+Ruby, .NET, Java, Node.js) businesses
+
+large and small will rapidly deploy
+
+next-gen applications on the Neblio
+
+Blockchain Network like never
+
+before seen in the blockchain
+
+ecosystem.
+
+Q3 2018
+
+In addition to current strategies, enterprise marketing campaign creation to drive the initial adoption of Neblio blockchain technology in the business environment.
+
+Q1 2017
+Q4 2017
+Q2 2018
+
+The Neblio Next Generation Blockchain Platform
+
+Q4
+
+Implementation and Delivery of
+
+2018
+
+Neblio API Suite v2 for Enterprise
+
+Customers. The focus will be on
+
+improving design requirements with
+
+our business partners to ensure
+
+2019
+
+enterprise customer adoption is
+
+seamlessly integrated with current
+
+enterprise processes.
+
+The Neblio Next Generation Blockchain Platform
+
+Simplification as an Enterprise Adoption Driver
+Difficulty deploying blockchain networks, developing distributed applications, and packaging the two into something that can be operated internally or by customers externally is the most significant obstacle slowing the adoption of this technology in the enterprise and business world. By providing single API calls to instantly deploy a full Neblio Node, developers will have an easy way to spin up or spin down a local testbed that is directly connected to the global Neblio Network; allowing for rapid agile-style development of distributed applications. All Neblio APIs will be designed with simplicity as the priority. Enterprise application developers that are used to working with traditional database RESTful interfaces will be able to create new, or adapt old, applications to use the Neblio blockchain to store or access information without knowing complex blockchain details, due to the similarity in API design. Wherever possible, unnecessary blockchain and network details will be hidden from the developer, with the APIs instead exposing only the interfaces needed to develop or deploy scalable distributed applications.
+Along with APIs to provision Neblio nodes and interact with the blockchain, developers must have a simple way to package and deploy their distributed applications and services in a way that is repeatable, maintainable, and reliable. Where necessary, the Neblio Platform should allow a method for distributed applications to be able to discover the appropriate Neblio node to use for communication with the network to improve performance and availability. If an appropriate node does not exist, applications should be able to provision Neblio nodes themselves that will become part of the network. Applications should have the ability to monitor the health of the network and deploy new nodes in the event nodes lose connectivity or go down, in an effort prevent network outages and maintain enterprise reliability and availability.
+10
+
+The Neblio Next Generation Blockchain Platform
+
+Security & Immutability
+The blockchain technology at the foundation of the Neblio network affords distributed applications running on the network inherent security advantages. Due to the
+decentralized nature of the public Neblio network and the proof-of-stake consensus model where users of the Neblio network are incentivized to run a Neblio node and secure the network, successful attacks on the network by bad actors are nearly impossible. The greater the number of wallets currently staking tokens, the more secure the network is from attacks.
+On private Neblio networks where there are not a large number of users securing the network via staking, Neblio tokens are staked by trusted parties that set up the private network. This allows for private Neblio networks to be as trustworthy as the trusted parties in charge of operating them, while retaining the many other inherent benefits of blockchain
+technology on the network.
+Unlike traditional database architectures, distributed applications storing and accessing information on the Neblio
+blockchain can be certain that that information has not be changed since it was stored. This allows for distinct advantages in use cases in records management, auditing, and lifecycle verification. Information is always stored on the blockchain via additions, rather than modifying existing data. Distributed
+ applications can choose to view the latest version of information via accessing the information at the highest block height for which it exists, or viewing every single transaction in which the information resides.
+11
+
+The Neblio Next Generation Blockchain Platform
+
+Scalability & Reliability
+The Neblio network's massive scalability and reliability through resiliency make it a perfect fit for enterprise and business
+customers to run Tier 1 applications vital to their day to day business needs. Through decentralized mesh networking,
+Neblio nodes connect to each other relaying blocks around the globe. Every functional node contains an entire copy of the
+Neblio blockchain at all times, increasing the performance of potential distributed applications since they can choose to interact with the closest or fastest node. This scalability in a
+global sense can drastically improve application performance and response time while ensuring the information on the
+blockchain can be accessed nearly anywhere the application is running.
+The global scale of the Neblio network also provides enterprise-level reliability through resiliency. Nodes are able to join and leave the network at will, whether it be by choice or due
+to downtime, without harming the network. Applications that are communicating with a node that leaves the network will sim-
+ply begin communicating with another node that also has a full copy of the blockchain. No matter which node the application is
+interacting with, the result of storing or accessing information will always be the same.
+12
+
+The Neblio Next Generation Blockchain Platform
+
+Use Cases
+Blockchain technology has a vast number of use cases in the business and enterprise space. From distributed applications managing the secure records of financial transactions in an immutable ledger that can be traced for audit purposes, to cloud-scale applications managing the secure access and storage of the explosion of information generated by millions of internet-of-things devices. The Neblio blockchain network has the ability to drive business value through revolutionizing the way that enterprises develop and deploy applications in nearly every industry.
+13
+
+Neblio Blockchain
+APIs
+
+Design Driven by Simplification
+Application Programming Interfaces (APIs) must be designed with a purpose in mind. In the case of Neblio,
+our APIs are being designed for simplicity first. In an effort to drive adoption of blockchain technology, our
+goal is to break through the blockchain skillset inefficiencies of the average developer and general
+difficulty surrounding legacy blockchain APIs by supplying a simplified abstraction layer API in a familiar
+and easy to use format. Developers familiar with existing RESTful APIs will feel at home using the Neblio API Suite in the language of their choice to interact with
+the Neblio blockchain network.
+
+Language Support
+The Neblio API suite will support the same set of uniform core APIs in nearly all of today's most popular programming languages. Starting with:
+
+Python
+
+Java
+
+JS
+
+Node.Js
+
+.NET (C# & VB.NET)Go
+
+Objective-C
+
+PHP
+
+14
+
+RESTful Architecture Design
+Underneath the language-specific libraries that will be used to create distributed applications on the Neblio network will
+reside a RESTful API layer. This API layer can be called directly with raw HTTP requests or via one of the language-specific
+libraries. Representational state transfer, or REST is an API style used to provide interoperability between systems over a network. A REST endpoint (Neblio node) listens for an
+appropriate HTTP request that corresponds to an API, processes the API call, then performs and action or returns data back to
+the caller. Integrating a RESTful architecture into the Neblio core node will bring the latest modern API architecture to the
+blockchain, increasing interoperability with existing services, ecosystems, and applications that are already using modern
+RESTful APIs today.
+Enterprise-Driven Requirements
+While designs for the Neblip API Suite v1 are already underway and centered on simplicity, supportability, and usability, the v2 of our API Suite will be designed around the feedback and design requirements we receive from our users. We are open to designing or implementing new APIs that meet the requirements of our users. Whether an enterprise user, or an individual launching their first distributed application on the Neblio network, our requirements, features and releases will be driven by the users, accelerating further innovation in the simplification of developing and deploying distributed applications.
+15
+
+Neblio Blockchain APIs
+
+Neblio Business Services
+Blockchain Consulting
+As experts in designing, building, deploying and managing blockchain networks, Neblio Business Services
+will offer business and enterprise customers consulting services to guide the deployment of blockchain technology, based upon the Neblio
+blockchain, within their organization. Our goal is to guide
+ customers and users to utilize
+the technology behind the Neblio Platform to drive business value
+through efficiency and lower costs than legacy architectures.
+Architecting solutions that utilize Neblio technology to advance the business needs of our customers will give them an advantage in their
+respective industry over the competition.
+16
+
+Neblio Node Deployment & Hosting
+Neblio Business Services will offer custom Neblio node deployment and hosting options where desired by customers. Customers may want a Neblio node deployed in a specific configuration at, for example, each of their main offices around the globe. Other customers may wish to have a Neblio node
+under their control deployed in a hyper-scaler public cloud such as AWS or Azure or hosted directly by Neblio. Neblio Business Services will support
+custom node deployment and hosting options to meet every customer need.
+Private Blockchain Development
+There are cases, such as in the healthcare application example above, where a private Neblio blockchain network is more suited for a user's business need than the main, public Neblio network. In these cases, customers have the option to deploy the private Neblio network themselves utilizing our fully open source node software and tools while tweaking it to their liking, or utilizing Neblio Business Services to build the private Neblio network that meets their business needs. In cases where information on the blockchain must be encrypted for security, or where information needs to be relayed from node to node in smaller blocks at a faster cadence, customers can come to us to design the private network they need and provide support in on an on-going basis.
+17
+
+Neblio Business Services
+
+Conclusion
+The Neblio Platform will provide the fully open source APIs, tools, and services needed by business and enterprises to rapidly develop and deploy distributed applications.
+Replacing legacy database applications with truly scalable and reliable distributed applications through the development of familiar and easy to use API abstraction layers is the goal of the Neblio Platform. Blockchain technology has the potential to revolutionize the way business operate in many industries. Building solutions that radically reduce the difficulty and simplify the complex barriers to entry of blockchain technology will leave Neblio strongly positioned to fill a gap in the current market.
+18
+
+References
+
+·
+
+https://bitcoin.org/bitcoin.pdf
+
+·
+
+https://hbr.org/2017/01/the-truth-about-blockchain
+
+·
+
+http://www.cnbc.com/2016/02/29/the-challenges-of-using-blockchain-technology.html
+
+·
+
+Morabito, Vincenzo. Business Innovation Through Blockchain: The B³ Perspective.
+
+Cham: Springer International, 2017.
+
+·
+
+https://peercoin.net/assets/paper/peercoin-paper.pdf
+
+·
+
+https://www.forbes.com/sites/joemckendrick/2017/05/22/enterprises-have-extreme
+
+ly-high-hopes-for-blockchain-technology/
+
+·
+
+https://azure.microsoft.com/en-us/blog/introducing-enterprise-smart-contracts/
+
+·
+
+https://www.forbes.com/sites/danwoods/2015/10/26/why-your-ceo-and-board-
+
+should-be-demanding-api-adoption/
+
+19
+
+A secure, distributed, platform built for enterprise applications and services.
+
+

@@ -1,0 +1,615 @@
+Whitepaper
+
+2017
+Dec 2017
+
+C O N TA CT Steve Williams, CEO
+ADDRESS 9068, 1 Primrose St, London EC2A 2EX, United Kingdom
+
+INVOICE FINANCING ON BLOCKCHAIN
+
+Contents
+
+1. Abstract
+
+3
+
+2. Introduction
+
+4
+
+3. Extensible Business Reporting Language "XBRL"
+
+5
+
+3.1 Using XBRL in targeted client acquisition
+
+6
+
+3.2 Understanding the analysis
+
+9
+
+3.3 Using XBRL in conjunction with bankruptcy credit formulas
+
+9
+
+4. Altman Z-score Formula
+
+11
+
+4.1 Accuracy and effectiveness
+
+11
+
+4.2 Original Z-score component definitions variable definition
+
+12
+
+4.2.1 Z-score estimated for private firms
+
+12
+
+4.2.2 Z-score estimated for non-manufacturers & emerging markets 12
+
+5. Smart Contracts
+
+13
+
+5.1 Actors
+
+14
+
+5.2 System modules
+
+14
+
+5.3 Platform interactions
+
+15
+
+5.4 Invoice auctions
+
+16
+
+5.5 Bidding on auctions
+
+17
+
+5.6 Wallets
+
+18
+
+5.6.1 Flow of funds
+
+18
+
+5.6.2 Deposit of funds
+
+18
+
+5.6.3 Withdrawal of funds
+
+19
+
+6. Incentive
+
+20
+
+7. Conclusion
+
+21
+
+References
+
+22
+
+1. Abstract
+Small and medium sized enterprises (SMEs) are always in need of short-term financing especially when there is a sudden and immediate need for increased working capital to fund wages or the purchase of raw materials. They will very often take out short-term loans from their bank which is not the ideal solution and the short-term finance industry is dominated by banks and other lending institutions such as the traditional invoice finance companies. However, newer and more innovative P2P (peer-to-peer) invoice finance platforms have recently entered the industry.
+These P2P invoice financing platforms operates in the same manner as the traditional invoice financing companies by providing short term liquidity on invoices for short durations of up to 90 days. Rather than waiting for their customers to settle invoices that have due dates of 45 to 90 days, the invoices can be sold to invoice financing companies to access "immediate" funds. P2P platforms are unique in that they connect invoice sellers directly with invoice buyers making the rise of P2P as an alternative lending platform more attractive to businesses globally.
+The global invoice financing market was valued $3 Trillion in 2013 and due to a slow-down in the world economy the invoice financing market experienced a slight contraction to approximately $2.6 Trillion in 2016. The business environment has become more challenging and making it a more favorable environment for new fintech start-up like Populous.
+However, to operate in this industry without a deep understanding of credit and underwriting principle can result in serious financial loss for the company as well as investors. Our in-depth knowledge and expertise in the short-term finance industry allows us to build a P2P invoice financing platform using credit scoring and bankruptcy formula such as the Altman Z-score. We will also identify potential borrowers using K-means cluster analysis.
+When these formulas are combined with the XBRL data set we can perform "enhanced" credit risk analysis on targeted potential borrowers, linked companies and their customers. Using Blockchain technology we can leverage smart contract to create a cost effective and efficient solution by providing a streamlined funding solution to businesses. Blockchain technology also affords some security against fraud and can prevent duplication in the selling of invoices.
+3
+
+2. Introduction
+Keeping a positive cash flow is the most important part for any SME, even more so in an economy which is currently recovering from a recession. After all, having access to the monies owed to an SME allows that SME to create new opportunities, develop existing plans, purchase new equipment, pay salaries and negotiate the best terms with their suppliers. Unfortunately, keeping a regular flow of cash in the business is often easier said than done especially if late payments to the SMEs are holding them back. It is currently estimated that late payments are costing UK SMEs of more than £2bn a year (Musaddique, 2017). If an SME is selling its products or services to other businesses on credit terms, invoice factoring or invoice discounting also known as invoice finance, could help. It's a form of funding that releases the cash tied up in an SME's outstanding sales invoices instantly at a cost that both the SME and investors agree on. There are currently over 40,000 businesses across the UK using invoice finance to support them at various stages in their business life cycle (Business Comparison, n.d.). Furthermore, there are businesses across the UK at this moment using this form of finance particularly at a time when more traditional financial institutions have been turning down funding requests. As of 2016, approximately 50% of SMEs accounted for the UKs total turnover (White, 2015) of £3 Trillion and 46% of SMEs experienced some form of cash flow problem and late payment (Lobel, 2015).
+4
+
+3. Extensible Business
+Reporting Language "XBRL"
+XBRL (eXtensible Business Reporting Language) is a global standard for exchanging business information and is freely available to anyone. It is developed and published by XBRL International, Inc. and it is used to define and exchange financial information. Companies submit financial statements to government regulators each year using the XBRL reporting format which standardises these data so they can be reviewed and compared regardless of geographic origin.
+HM Treasury made it a requirement to file all annual accounts and corporate tax returns in XBRL format in April 2011 (GOV.UK, n.d.). Following the announcement of this requirement, approximately 1.9 million companies now file annual accounts and corporate tax returns in this format to UK Companies House and HM Revenue and Customs (XBRL, 2015).
+HM Revenue and Customs uses XBRL data to assess annual accounts and tax returns, helps guide tax risk and policy decisions, judge the consequences of legal challenges and gain a better understanding of the business. The government has indicated that the implementation of XBRL filing have been extremely successful.
+
+Tasgogfitnwgare CSV
+
+Prime records Trial balance
+
+Import or manual typing of Bookkeeping records into MS Excel
+
+Adjustments to arrive at Final accounts from Trial balance using MS Excel
+
+Final accounts
+Formatting of Final accounts in MS Excel or MS Word
+
+Tagged accounts
+Manual tagging of accounts in iXBRL
+
+iXBRL
+iXBRL accounts
+
+5
+
+UK Companies House made available 6 years of worth of XBRL data at no cost and covers over 1.9 million UK companies. This data presented a good starting point to analyse past financial data and forecast credit risks on companies covering a wide range of industries and sectors. Using these data we built a XBRL back-end to extract approximately over 2.8 billion points of data which formed part of our in-house credit reference system and targeted marketing database.
+
+3.1 Using XBRL in Targeted Client Acquisition
+We have already tested the XBRL data extraction tool using 2012 data sets available from UK Companies House. The two data sets available for testing were the charge data and accounting data. Our goal in the test was to assess the validity of the extracted data to determine whether the data would be useful to selected financial institution's customers.
+The following analysis results explain how we intend to target clients efficiently and effectively. This will ultimately lead to more SMEs obtaining invoice finance from us and resulting in corresponding increase in our revenue model and hence increase in liquidity for funding invoices on the platform.
+Variables accounted for in this analysis are:
+
+Company Number Company Name SIC Code - 78109 Debtors Creditors Due within 1 Year
+Cash Bank in Hand Person Entitled to the Charge
+Description of Charge
+
+Company registration number Name of the company SIC code - activities of employment placement agencies Debtor's value Creditors who the business has to pay money for goods or services or loans within a year Cash in hand or at the bank Bank/person who lent the company money or took out the charge on the company Type of charge registered
+
+6
+
+Our findings showed a number of observations favorable to what we wanted to achieve. We took a deeper look into how the data can provide useful insight using cluster analysis to give a different approach towards understanding patterns within the data set. In the cluster analysis, we placed emphasis on three variables which are considered key lending parameters in the finance industry, namely; debtors, creditors due within one year and cash bank in hand.
+
+Debtors (£)
+
+Creditors Due Within One Year (£)
+
+Cash Bank Value (£)
+
+1
+
+1,760,305
+
+2
+
+148,924
+
+3
+
+386,104
+
+4
+
+276,045
+
+5
+
+80,631
+
+6
+
+100,455
+
+7
+
+283,543
+
+8
+
+33,178
+
+1,294,833 177,105 321,764 203,015 70,597 134,662 281,284 25,193
+
+157,795 10,154 40,928
+4,740 5,589 32,682 14,315
+31
+
+Approximately 60 observations were recorded and we selected 8 observations to demonstrate our finding in the cluster analysis. The observations were further broken down into 4 clusters to represent the four financial institutions we have used for this analysis. We considered the following financial institution in the cluster analysis:
+
+BIBBY FINANCIAL SERVICES LIMITED HSBC BANK PLC LLOYDS TSB COMMERCIAL FINANCE LIMITED RBS INVOICE FINANCE LIMITED
+
+The clustering algorithm used to carry out this analysis is called the K-means Algorithm and which have been statistically implemented on the dataset using the R-Programming Language (Macqueen, 1967). The objective was to form clusters on the basis of common behavior between the companies being considered based on the three key variables.
+The K-means clustering output gave cluster sizes 18, 1, 31 and 6 for the financial institutions considered.
+
+7
+
+Cluster means:
+
+Debtors
+
+1
+
+244,621.7
+
+2
+
+1,760,305.0
+
+3
+
+53,023.1
+
+4
+
+515,789.0
+
+CreditorsDueWithinOneYear 248,586.9
+1,294,833.0 71,335.0
+479,904.5
+
+CashBankInHand 49,489.11 157,795.00 19,910.06 48,039.67
+
+The number of companies in each cluster were depicted as:
+
+Clusters BIBBY FINANCIAL SERVICES LIMITED HSBC BANK PLC LLOYDS TSB COMMERCIAL FINANCE LIMITED RBS INVOICE FINANCE LIMITED
+
+1
+
+2
+
+3
+
+4
+
+2
+
+0
+
+6
+
+0
+
+3
+
+1
+
+4
+
+1
+
+8
+
+0
+
+19
+
+3
+
+5
+
+0
+
+2
+
+2
+
+8
+
+3.2 Understanding the Analysis
+The cluster analysis was very revealing and presented us interesting and useful metrics of the finance industry. For example, there is a larger concentration of companies in cluster 3 than in the other clusters. This indicates that most lenders according to the data set would prefer to lend to companies that have variable values similar to the mean variable values found in cluster 3.
+Furthermore, the cluster analysis for Lloyds was found to contain more customers than others. This type of analysis would be very useful to a competitor who may want to know why Lloyds are gaining a larger market share and what level of lending they are providing to their customers to acquire such a large customer base.
+Cluster 2 showed HSBC only targeting the large companies when providing funding. The analysis reveal a possible strategy worth pursuing in the knowledge that no other lender were willing to lend to a company of that scale. To a lender with deep pockets, this could prove to be a perfect strategy if executed correctly in a growing economy.
+A lender armed with this sort of analysis can very quickly and easily identify the type and size of companies needing finance, and most importantly its competitors' strategies. This information can form the basis to formulate strategies to grow market share and take business from competitors. Used Strategically, you can even dominate a relatively young but strongly growing sector of the asset based lending industry even before it appears on the radar of your competitors.
+The K-means cluster analysis can form the basis on which a company can be objectively parameterized. It will also form the groundwork for further analysis, for example, whether the company is borrowing money greater than its peers within the same industry.
+3.3 Using XBRL in Conjunction with Bankruptcy Credit Formulas
+The ability to extract over 1500+ data points from the XBRL data set on each company is a game changer and this gives us a great opportunity to analyse the credit risk of a company in question, their trading partners as well as the whole industry. XBRL data submitted daily by companies to UK Companies House are updated on our system instantly, creating a real-time insight to how the UK economy is performing.
+9
+
+The combination of extracted XBRL data and the Altman Z-Score formula have not only allowed us to bypassed the need to use an external credit reference agency, but have also allowed us to gain a technological and financial edge over our competitors. We have effectively created our own in-house credit rating system which is more advanced than the current industry standard.
+10
+
+4. Altman Z-score Formula
+The Z-score formula published in 1968 by Edward I. Altman is a standard formula used globally in the financial industry. The formula provides three predictive measures:
+the probability that a business will go into bankruptcy within two years, whether a business will default on obligations, a control measure for financial distress.
+The Z-score uses multiple corporate income and balance sheet values to measure the financial health of a company.
+4.1 Accuracy and Effectiveness
+In its initial test, the Altman Z-Score was found to be 72% accurate in predicting bankruptcy two years before the event, with a Type II error (false negatives) of 6% (Altman E. I., 1968).
+In a series of subsequent tests covering three periods over the next 31 years (up until 1999), the model was found to be approximately 80%­90% accurate in predicting bankruptcy one year before the event, with a Type II error (classifying the firm as bankrupt when it does not go bankrupt) of approximately 15%­20% (Altman E. , 2000).
+From about 1985 onwards, the Z-scores gained wide acceptance by auditors, management accountants, courts, and database systems used for loan evaluation. The formula's approach has been used in a variety of contexts and countries, although it was designed originally for publicly held manufacturing companies with assets of more than $1 million.
+Later variations by Altman were designed to be applicable to privately held companies (the Altman Z-score) and non-manufacturing companies (the Altman Z-score). Neither the Altman models nor other balance sheet-based models are recommended for use with financial companies. This is because of the opacity of financial companies' balance sheets and their frequent use of off-balance sheet items.
+11
+
+4.2 Original Z-score Component Definitions Variable Definition
+
+Working Capital
+
+Retained Earnings
+
+X1 =
+
+; X2 =
+
+;
+
+Total Assets
+
+Total Assets
+
+Earnings Before Interest and Taxes
+
+X3=
+
+;
+
+Total Assets
+
+Market Value of Equity
+
+X4 =
+
+;
+
+Total Liabilities
+
+Sales
+
+X5 =
+
+.
+
+Total Assets
+
+Z score bankruptcy model: Z = 1.2X1 + 1.4X2 + 3.3X3 + 0.6X4 + .999X5.
+
+Zones of discrimination:
+
+Z > 2.99
+
+- "Safe" Zone
+
+1.81 < Z < 2.99 - "Gray" Zone
+
+Z < 1.81
+
+- "Distress" Zone
+
+4.2.1 Z-score Estimated for Private Firms
+
+(Current Assets - Current Liabilities)
+
+X1 =
+
+;
+
+Total Assets
+
+Earnings Before Interest and Taxes
+
+X3 =
+
+;
+
+Total Assets
+
+Retained Earnings
+
+X2=
+
+;
+
+Total Assets
+
+Book Value of Equity
+
+X4 =
+
+;
+
+Total Liabilities
+
+Sales
+
+X5 =
+
+.
+
+Total Assets
+
+Z`-score bankruptcy model: Z` = 0.717X1 + 0.847X2 + 3.107X3 + 0.420X4 + 0.998X5.
+
+Zones of discrimination:
+
+Z` > 2.9 1.23 < Z` < 2.9 Z` < 1.23
+
+- "Safe" Zone - "Gray" Zone - "Distress" Zone
+
+4.2.2 Z-score Estimated for Non-manufacturers & Emerging Markets
+
+(Current Assets - Current Liabilities)
+
+X1 =
+
+;
+
+Total Assets
+
+Earnings Before Interest and Taxes
+
+X3 =
+
+;
+
+Total Assets
+
+Retained Earnings
+
+X2=
+
+;
+
+Total Assets
+
+Book Value of Equity
+
+X4 =
+
+.
+
+Total Liabilities
+
+Z``-score bankruptcy model: Z`` = 6.56X1 + 3.26X2 + 6.72X3 + 1.05X4[4]. Z``-score bankruptcy model (Emerging Markets): Z`` = 3.25 + 6.56X1 + 3.26X2 + 6.72X3 + 1.05X4.
+
+Zones of discrimination:
+
+Z`` > 2.6 1.1 < Z`` < 2.6 Z`` < 1.1
+
+- "Safe" Zone - "Gray" Zone - "Distress" Zone
+
+12
+
+5. Smart Contracts
+The transparency of events along the supply chain via the Blockchain is itself a major enabler of faster payments and improved financing, increased efficiency, reduced risk of fraud, and lower costs. Exchanging information related to these events in a distributed ledger facilitates trigger events that need to take place for goods to arrive at their final destination and for suppliers to receive payment. But the capability of the Blockchain to facilitate these trigger events does not end with the mere exchange of information along a supply chain.
+The use of smart contracts to not only trigger events but actually carry them out automatically represents a bold evolution that is being actively explored by a few today. Smart contracts are self-executing computer codes that automatically carry out functions once a triggering event has taken place. It is a linear contract that can include multiple parties (investors, borrowers, buyers, sellers etc.) and that cannot be altered (EBA Association, 2016).
+For example, if a smart contract is written between an invoice seller and an invoice buyer to say that once the invoice buyer is victorious in a crowd funding process, 80% of the funds will be released to the invoice seller, a smart contract would automatically disburse payment once confirmation is entered into a distributed ledger that the crowd-funding process as closed. The confirmation of approval by the crowd-funding process is not a triggering event requiring action by a bank; the payment is automatically made once confirmation has been entered into the system.
+With a smart contract, legal stipulations are embedded in the computer code, which enables the automatic execution of functions defined by a legal contract. It also provides protection against duplicate invoice financing, as the contract will not allow for an invoice that has already been financed to receive additional financing. A smart contract, therefore, acts as an application layer that is built on the Blockchain.
+The development of the Blockchain that supports the smart contracts we are developing is already built and readily available and globally known as Ethereum Virtual Machine `EVM' in a number of countries. Some see smart contracts as the future of the Blockchain, as they enable more efficiencies in legal contracts through a decrease in manual processing and initiation of contract terms, risk reduction through the elimination of manual errors and duplicate invoice financing, which could make value propositions such as micropayments more feasible.
+13
+
+5.1 Actors
+Administrator The platform administrator approves and manages clients' accounts and actions. Invoice seller Clients can register as an invoice sellers to sell invoices on the platform. The invoice seller must be reviewed and approved, before he can sell invoices on the platform. Invoice buyer Clients can register as an invoice buyers on the platform to bid on auctioned invoices. The invoice buyer if using fiat must be reviewed and approved before he can use the platform. However, invoice buyers using supported cryptocurrencies or PPT can used the platform anonymously.
+5.2 System Modules
+The full Populous smart contracts system specification is beyond the scope of the current document and we will review only some of the main modules of the system ­ bank module, auction module and external tokens module (implements the Ethereum ERC 20 token standard (The Ethereum Wiki, n.d.)). They provide the programming interface for interaction with the system.
+Access to the bank and auction modules' functionality is restricted to ensure the business operations will be performed only inside the platform. Parts of the external tokens module's functionality are restricted as well (minting and destruction of tokens), while the functionality described in the ERC 20 specification is publicly accessible to every Ethereum address, which has tokens (Vogelsteller, 2015).
+Bank The module manages the internal ledger for all platform accounts and the connection between the internal ledger and the external tokens. Auction The module manages auction operations. The administrator creates auctions based on the data provided by the invoice sellers. Invoice buyers can use the platform to create bidding groups for invoice auctions and make bids on them. The auction module is logically connected to the IPFS distributed web ­ every invoice auction has hash references to related documents uploaded on the IPFS web.
+14
+
+External tokens Every worldwide government currency, which is supported by the platform, has a corresponding smart contract, which implements the Ethereum ERC 20 token standard. Clients can withdrawal their funds outside the platform into these smart contracts, to gain sovereign access to their tokens.
+5.3 Platform Iteractions
+
+Administrator
+
+System
+
+Webmaster page Approve account Approve invoice Mark auction as completed
+
+Verify invoice seller's company data Generate invoice credit score
+2
+
+Auction ends 1
+Transfer Pokens from winning bid group to invoice seller
+Return Pokens to invoice buyers from losing groups
+
+Register page Register Activate account
+Company page Provide company data, and documents
+
+Settings page
+
+Upload KYC data
+
+4
+
+Wallets page
+5 Convert
+
+Deposit
+
+Withdraw
+
+Invoice seller Invoice buyer
+
+PPT BTC and ETH
+
+Pokens Manual bank transfers
+
+Invoice form page Create invoice
+
+Invoice page
+
+End auction
+
+3
+
+Send payment to
+
+Populous
+
+2
+
+Create group Bid
+
+Market page
+Browse invoices in auctions
+
+Dashboard page Browse own invoices Browse bid invoices
+
+1 - Ends auction automatically when the sales goal is reached, or automatically when the auction period expires or manually by the invoice seller.
+2 - When the invoice seller receives payment from his customers and deposits the money to Populous. The funds are automatically disbursed back to the liquidity pool and interest paid to the invoice buyer. The funding is then closed.
+3 - The invoice seller can manually terminate the auction early and select the first bid with the lowest interest rate. 4 - Invoice sellers must provide KYC data before their accounts can be approved. KYC details are also required for fiat
+invoice buyers when withdrawing fiat. 5 - Clients can exchange Pokens for any supported currency. For example: convert Poken USD to Poken EUR.
+15
+
+5.4 Invoice Auctions
+When the invoice seller registers, he must provide information and documents about his company. The administrator approves or places a hold on his account based on the provided information.
+Before the invoice is approved for sale ­ the invoice sellers provides information for the invoice and the administrator approves or rejects the invoice:
+The invoice seller provides documentation and related information for the invoice, and requested sales goal. The administrator generates a credit score for the seller's invoice. The administrator approves or rejects the invoice based on the credit score of the Invoice. Service fees are also defined.
+When the invoice is approved, the auction of the invoice starts. All auctions are for the duration of 24 hours. Invoice buyers can bid individually or create bidding groups to bid on the invoice as described in 3.2. The auction can end in three ways:
+1. A bid matches the asking sales goal within the 24 hours bid duration. 2. The invoice seller decides to terminate before the auction duration have expired.
+- He can accept the funds from the first best bid offered, even if the bid have not reached the asking sales goal.
+- He can cancel the auction. 3. The auction duration expires. Invoice seller doesn't receive bids matching the
+asking sales goal. - He can accept the funds from the first best bid offered, even if the bid have not
+reached the asking sales goal. - He can restart the auction again. - He can cancel the auction.
+When the auction is successful:
+The invoice seller receives funds from the winning buyer or group, which have won the auction.
+16
+
+Funds are return to the losing buyers or group(s) for their bid. The invoice seller exchanges the Pokens to fiat and make a withdraw. When the invoice seller receives payment from his customer he deposits the money with Populous and make payment to settle the loan. When the payment is made by the invoice seller, the funds are disbursed back to the liquidity pool and interest paid to the winning bidder or bid group. Each invoice buyer who bid in a group will receive interest proportional to his bidding contributions. If the auction is not successful: The invoice seller has the options to restart or cancel the auction. If the auction is cancelled: The invoice buyers from all bidding groups are refunded their bids.
+5.5 Bidding on Auctions
+Fiat invoice buyer must provide personal KYC information before he is allowed to make bids. Invoice buyers depositing cryptocurrencies or using PPT do not need to provide KYC details. The administrator approves or places a hold on his account based on the provided information. In the case of approval, the invoice buyer can use the platform to: 1. Deposit funds. 2. Browse active auctions and bid groups. 3. Create bidding groups for active auctions. Every bidding group will specify a bid goal which must be same as the asking sales goal or less. 4. Bid on auctions in bid group(s).
+17
+
+5.6 Wallets
+Financial transactions such as deposits and withdrawal are performed in "Wallets". All transaction records of deposits or withdrawals of fiat, supported cryptocurrencies or PPT are recorded there. Exchange of deposits to Pokens will also be facilitated automatically in "Wallets" and you can also search the history of all transactions made.
+5.6.1 Flow of Funds
+The flow of funds within the platform is realised by the use of custom stable tokens called Poken. Poken is the in-platform crypto-currency and is the sole crypto-currency used on the platform to transfer value between sellers and buyers. Poken is a fiat-pegged crypto-currency and the Poken GBP is the base crypto-currency used on the platform. The value of 1 Poken GBP is equivalent to 1 GBP.
+The use of Poken allows us to operate on the Ethereum Blockchain to take advantage of smart contracts while avoiding the direct usage of Ethereum and associated volatility. Pokens can be exchanged for fiat currencies or vice versa (subject to exchange rates) or the well established cryptocurrencies such as Bitcoin and Ethereum, and withdrawn from the platform. Pokens are similar to any other crypto-currency and can also be withdrawn from the platform.
+Pokens within the platform
+Populous manages an internal ledger of Poken balance for invoice sellers and invoice buyers for each currency denomination they may hold. Only Populous have access to this internal ledger and records internal transactions between accounts on behalf of the invoice sellers and invoice buyers by their actions on the platform.
+Pokens outside the platform
+Poken is an ERC20 compatible cryptocurrency and behave just like any Ethereum based cryptocurrency and can be withdrawn from the platform to external Ethereum based wallets. Pokens of any currency denomination can be withdrawn. For example, Poken EUR can be withdrawn to wallets external to the platform. This allows the possibility to access the Poken independently of the platform.
+5.6.2 Deposit of Funds
+When a deposited is made the same amount of Poken is minted and the Poken amount shown in the account balance.
+18
+
+Deposit worldwide government's currency
+Currently only fiat denominated in GBP, USD, EUR or Yen can be deposited and all other currencies will be converted to GBP based on prevailing exchange rates set by the London Stock Exchange.
+Poken is pegged to fiat at a ratio of 1:1 and this applies to all supported fiat denominated currencies. For example, 1 Poken GBP = 1 GBP, 1 Poken USD = 1 USD, 1 Poken EUR = 1 EUR or 1 Poken Yen = 1 Yen.
+Deposit Poken
+Pokens obtained outside of the platform can be deposited onto the platform.
+Deposit BTC or ETH
+Funds deposited in accepted cryptocurrencies such as Bitcoin and Ethereum will be exchanged for Pokens according to an aggregated BTC/USD and ETH/USD pair exchange rate at time of deposit. The conversion is done manually by the platform administrator with partner brokers.
+5.6.3 Withdrawal of Funds
+The platform offers three ways to withdraw funds:
+Withdraw worldwide government's currency
+Fiat in the support currency denomination can be withdrawn from the platform. Pokens are first exchanged for fiat before withdrawal can be made. Fiat will be transferred to registered bank account anywhere in the world. Platform fees apply upon withdrawal.
+Withdraw Pokens
+Pokens can be withdrawn from the platform to external Ethereum based wallets. Platform fees apply upon withdrawal.
+Withdraw other cryptocurrencies
+Pokens are first exchanged for Bitcoin or Ethereum based on prevailing BTC/USD and ETH/USD exchange rates before withdrawal can be made. Bitcoin and Ethereum can then be withdrawn from the platform to appropriate external wallets. Platform fees apply upon withdrawal.
+19
+
+6. Incentive
+The cost of credit insurance can sometimes rise up to 3% for an invoice seller with an invoice value of £100,000. With the implementation of our XBRL system, we see a reduction in this cost for an invoice seller, whose invoice is valued at £100,000. Our approach to credit risk analysis will lead to better understanding of the industry as a whole when making crucial credit decision as well as finding investment opportunities for our invoice buyers and funding for our invoice sellers. The use of credit reference agencies and third party data providers will be minimal as we are currently aware that major data providers such as Dun & Bradstreet, Experian etc. are yet to implemented XBRL and still rely on predated methods of compiling their data, which would bear a huge burden on an invoice factoring platform budget should they wish to perform analysis at will which is demonstrated earlier on in this whitepaper. With an overall reduction in the cost subscription to third party services and the reliance on third party data, our resources can be put to greater use in bringing potential customers to the platform and creating value for invoice buyers on the platform.
+20
+
+7. Conclusion
+Many companies have not yet come to the realisation that integration of blockchain with XBRL data will play an important role in the finance industry going forward and Populous is the exception. Banks and traditional invoice finance companies will soon follow suit and try to utilise XBRL data to make credit risk based funding decisions. Due to the availability of sophisticated algorithms that aid credit decision making for banks and existing invoice finance providers, the use of XBRL data as an effective tool to assess credit risk have not been adopted. Financial data is rarely available in the format needed to develop and perform in-depth credit risk and industry analysis. However, we have built a P2P lending platform that leverages XBRL data, smart contracts and the Blockchain as a solution to automate the whole funding process from start to finish on the platform. Establish data providers such as Experian, Fame and Dun & Bradstreet provide financial data at a high cost and anyone in the financial industry requiring credit risk or any financial related information will find costs prohibited. It is important to note that there is no real substitute for a stringent underwriting process and more importantly the on-site due diligence of clients. While we are yet to see the emergence of a platform similar to Populous, there is already a fintech competitor attempting to replicate what we have done.
+21
+
+References
+Altman, E. I. (2000, July). PREDICTING FINANCIAL DISTRESS OF COMPANIES. [Online] Retrieved from: https://pages.stern.nyu.edu
+Altman, E. I. (1968). FINANCIAL RATIOS, DISCRIMINANT ANALYSIS AND THE PREDICTION OF CORPORATE BANKRUPTCY The Journal of Finance, 589-609. doi:10.1111/j.1540-6261.1968.tb00843.x
+Business Comparison. (n.d.). What is the difference between invoice factoring and discounting? [Online] Retrieved from: https://www.businesscomparison.com
+EBA Association. (2016, May). Applying cryptotechnologies. [Online] Retrieved from: https://www.abe-eba.eu
+GOV.UK. (n.d.). XBRL tagging requirement: filing Company Tax returns online. [Online] Retrieved from: https://www.gov.uk
+Lobel, B. (2015, March 24). SMEs hurt by bullying bigger businesses and cash flow problems. [Online] Retrieved from: http://smallbusiness.co.uk/
+Macqueen, J. B. (1967). Some Methods for classification and Analysis of Multivariate Observations. Berkeley Symposium on Mathematical Statistics and Probability, 1, 281-297. [Online] Retrieved from: https://projecteuclid.org/
+Musaddique, S. (2017, July 18). Late payments cost smaller UK businesses more than £2bn a year. [Online] Retrieved from: http://www.independent.co.uk
+The Ethereum Wiki. (n.d.). ERC20 Token Standard. [Online] Retrieved from: https://theethereum.wiki
+Vogelsteller, F. (2015, November 19). ERC: Token standard #20. [Online] Retrieved from: https://github.com
+White, S. (2015, October 14). Statistical Release. [Online] Retrieved from: https://www.gov.uk
+
+XBRL. (2015, April). Company Reporting in the UK ­ an XBRL Success Story. [Online] Retrieved from: http://www.xbrl.org.uk
+A Tutorial on Clustering Algorithms. [Online] Retrieved from: https://home.deib.polimi.it
+http://www.abfa.org.uk/
+Get help and support for your business. [Online] Retrieved from: https://www.gov.uk
+Payment Study 2016. [Online] Retrieved from: http://www.dnb.com/
+
+

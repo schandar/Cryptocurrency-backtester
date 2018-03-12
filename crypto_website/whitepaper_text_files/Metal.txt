@@ -1,0 +1,770 @@
+Ultimate Gateway into the Crypto World
+WHITEPAPER
+Version: 1.03 Last updated: February 14th, 2018
+
+TRADERSHUB WHITEPAPER
+
+Thank you for your interest in our Whitepaper. Hopefully, you will find the content objective, informative and insightful. Your feedback is highly appreciated.
+2
+
+TRADERSHUB WHITEPAPER
+
+Table of Contents
+
+ABSTRACT4
+
+MARKET INSIGHT
+
+5
+
+Cryptocurrency Market Background
+
+6
+
+Indicators of the Growing Market Potential
+
+8
+
+Problem Overview
+
+10
+
+THE TRADERSHUB SOLUTION
+
+12
+
+Mission and Objectives
+
+13
+
+Product Overview
+
+13
+
+Tradershub's Pillars of Sustainability
+
+14
+
+Features
+
+15
+
+Target Users
+
+19
+
+Security & User Safety
+
+20
+
+THE TRADERSHUB TOKEN
+
+21
+
+Token overview
+
+22
+
+Value and Utility
+
+23
+
+Token Distribution
+
+24
+
+Legal Considerations
+
+25
+
+INITIAL COIN OFFERING (ICO)
+
+26
+
+Token Sale Terms
+
+27
+
+How to Participate?
+
+27
+
+Token Sale Stages
+
+27
+
+Token Bonus Schedule
+
+28
+
+FINANCES29
+
+Funding Breakdown
+
+29
+
+Revenue Generation Model
+
+31
+
+ROADMAP33
+
+TEAM36
+
+Core Team
+
+36
+
+Advisors
+
+39
+
+Partners
+
+41
+
+LEGAL AND REGULATORY DISCLAIMER
+
+42
+
+3
+
+TRADERSHUB WHITEPAPER
+
+Abstract
+The world of money and finance is changing rapidly right before our eyes. While much of the world remains unaware or skeptical, the parallel world of crypto-finance is evolving faster than ever before. Cryptocurrencies have been seen by some as merely a passing fad or insignificant, but as time passes, the growing usage and range of capabilities we are witnessing indicate that cryptocurrencies are taking on an important role, pushing cryptocurrency investing from a hacker novelty to a more common mainstream practice. Although many skeptics around the world are saying that blockchain technology and cryptocurrencies are nothing more than a bubble, new studies suggest the situation is not all black and white. While new cryptocurrencies appear and disappear continuously and their market capitalization is increasing exponentially, several statistical properties of the market have been stable for years. These include the number of active cryptocurrencies, the market share distribution and the turnover of cryptocurrencies.1 Between 2.9 and 5.8 millions of private as well as institutional users actively exchange tokens and run the various transaction networks.2 The maturing cryptocurrency industry has sparked development of new technologies. But with different technology vendors serving different parts of the marketplace, market fragmentation formed. The result of this fractured market is manifesting in operational and cost inefficiency, leaving traders overwhelmed with barriers. Tradershub is developed by a strong, cross-functional team in order to eliminate all friction points, maximize profit and mitigate risk by consolidating best trading practices. In collaboration with hundreds of traders around the globe and these goals in mind, we will deliver a smart trading platform that seamlessly integrates multiple exchanges along with next gen trading tools and provides traders and investors of all experience levels with a collaborative and trustworthy trading environment. We want to build best crypto trading platform and one stop tool in the crypto universe.
+1 Abeer ElBahrawy, Laura Alessandretti, Anne Kandler, Romualdo Pastor-Satorras, Andrea Baronchelli. Evolutionary dynamics of the cryptocurrency market. Royal Society Open Science Journal 4, 2017 2 Garrick Hileman and Michel Rauchs. Global Cryptocurrency Benchmarking Study. Cambridge Centre for Alternative Finance, 2017.
+4
+
+Market insight 5
+
+TRADERSHUB WHITEPAPER
+
+TRADERSHUB WHITEPAPER
+
+CRYPTOCURRENCY MARKET BACKGROUND
+The cryptocurrency market cap as a whole has gone up quite spectacularly this year, to say the least. On January 1st 2016 the total cryptocurrency market cap was "just" around US$18 billion. In June, after months of steady growth, it surpassed the barrier of US$100 billion and is now hitting all-time highs. The cryptocurrency market cap now sits comfortably above the US$502 billion mark (23.01.2018), according to CoinMarketCap.com. That shows how the cryptocurrency ecosystem has evolved in 2017 alone and the tremendous rate at which it is growing.
+The jaw-dropping growth indicates that a lot of money is flowing into the crypto market. Some economists and financiers are saying that cryptocurrencies are a bubble, but industry insiders say they think it's only going to get bigger as it gains more widespread acceptance. There is admittedly a lot of speculation in this market, but due to high volatility, market swings are large and the mean-reversion strategy has a high probability of generating a profit. In markets with low volatility only small spreads are possible and the strategy is less profitable, thereby trading with cryptocurrencies will become more profitable in the long run. Bitcoin is no longer the only attractive investment as other cryptocurrencies arise and gain momentum.
+
+$400 B $300 B $200 B $100 B
+$0
+
+MARKET CAP
+
+Hard Cap
+
+24h VOL
+
+From January 1, 2017
+
+To January 23, 2018
+
+24H VOL
+
+0 Jan 17
+
+Mar 17
+
+May 17 2017
+
+Jul 17
+
+Sep 17
+
+Nov 17
+
+Jan 18 2018
+
+FIGURE 1: TOTAL MARKET CAPITALIZATION GROWTH FROM 2017 TO 2018 (STARTING FROM JANUARY 1 2017, TO JANUARY 23 2018)3
+
+3 Source: https://coinmarketcap.com/charts/; Accessed: 23.01.2018
+6
+
+TRADERSHUB WHITEPAPER
+
+Cryptocurrency trading has become a particularly interesting new way of investing money without any geographical boundaries. Consequently, cryptocurrency exchanges were one of the first services to emerge in the cryptocurrency industry: the first exchange was founded in early 2010. Exchanges provide on-off ramps for users wishing to buy or sell cryptocurrency for other cryptocurrencies and/or national currencies and remain remains the most populated sector in terms of the number of active entities. As of January 2018 there are 129 active cryptocurrency exchanges available on the market who offer 2612 trading pairs.4
+
+EXCANGE Binance Bithumb OKEX Bitfinex Huobi Coincheck GDAX Bittrex Kraken Bitstamp Hitbtc Poloniex Coinone Bitflyer BTCBOX Bit-Z Quoine Zaif Gemini Bibox
+
+MARKETS 203 12 334 53 103 1 9 273 36 11 396 92 6 3 1 48 16 9 3 61
+
+24H VOLUME $ 2,538,448,811 $ 2,479,254,968 $ 2,008,559,339 $ 1,704,764,293 $ 772,931,869 $ 740,381,510 $ 689,830,034 $ 654,413,025 $ 481,641,804 $ 481,521,591 $ 427,757,933 $ 391,155,941 $ 268,576,297 $ 266,779,938 $ 204,370,977 $ 193,898,555 $ 155,192,162 $ 144,588,436 $ 141,402,599 $ 95,639,440
+
+FIGURE 2: TOP 20 CRYPTOCURRENCY EXCHANGES BY 24H VOLUME5
+
+4 Source: https://cryptocoincharts.info/markets/info; Accessed: 23.01.2018 5 Source: https://www.worldcoinindex.com/exchange; Accessed: 23.01.2018
+7
+
+TRADERSHUB WHITEPAPER
+
+INDICATORS OF THE GROWING MARKET POTENTIAL
+Market Forecasts
+CRYPTOCURRENCY MARKET GROWTH The cryptocurrency market is expected to reach 2,902.0 million USD by 2023, at a compound annual growth rate of 32.31% between 2017 and 2023. The growing remittance in developing countries, high cost of remittance across the border, and fluctuating monetary regulations are the major drivers for the growth of the cryptocurrency market. The growth of the cryptocurrency market is further propelled by the transparency and immutability of the distributed ledger technology and benefits such as faster transaction and reduction in total ownership cost. However, the uncertain regulations and standards pertaining to cryptocurrency restrain the growth of this market.6
+
+BitCoin
+
+All currencies
+
+Exponential growth:  = 0.30 ± 0.02
+
+102
+
+MARKET CAP ($ BILLION)
+
+101
+
+100
+
+Jan 2014
+
+Jan 2015
+
+Jan 2016
+
+Jan 2017
+
+FIGURE 3: EVOLUTION OF THE MARKET CAPITALIZATION. EVOLUTION OF THE MARKET CAPITALIZATION OVER TIME (STARTING FROM APRIL 2013) 7
+
+ETHEREUM MARKET GROWTH
+Market for Ethereum is expected to grow at the highest rate between 2017 and 2023. The Ethereum blockchain focuses on running the programming code of any decentralized application, including Distributed Applications (DApps) and smart contracts, enabling it to be built and run without any downtime, fraud, control, or interference from a third party. The advantages offered by Ethereum over bitcoin, such as electronic cash, smart contract technology, and proof-of-stake, are expected to drive the growth of the market for Ethereum.8
+
+6 Source: http://www.rnrmarketresearch.com and http://www.marketwatch.com 7 Abeer ElBahrawy, Laura Alessandretti, Anne Kandler, Romualdo Pastor-Satorras, Andrea Baronchelli. Evolutionary dynamics of the cryptocurrency market. Royal Society Open Science Journal 4, 2017 8 RnRMarketResearch. Cryptocurrency Market by Offering. Source link: http://www.rnrmarketresearch.com
+8
+
+TRADERSHUB WHITEPAPER
+
+BLOCKCHAIN MARKET GROWTH
+The statistic shown in the graph below presents the market for blockchain technology worldwide from 2016 to 2021. The global blockchain technology market is forecast to grow to 2.3 billion U.S. dollars by 2021.
+
+3000 2500 2000 1500 1000
+500 0
+
+MARKET IN MILLION US. DOLLARS
+
+2312.5
+
+1430
+
+210.2
+
+339.5
+
+547.2
+
+885.4
+
+2016
+
+2017
+
+2018
+
+2019
+
+2020
+
+2021
+
+FIGURE 4: SIZE OF THE BLOCKCHAIN TECHNOLOGY MARKET WORLDWIDE FROM 2016 TO 2021 (IN MILLION U.S. DOLLARS)9
+
+Active Cryptocurrency Wallet Users
+The user adoption of various cryptocurrencies has really taken off, with billions in market cap and millions of wallets estimated to have been active in 2016. The current number of unique active users of cryptocurrency wallets is estimated to be between 2.9 million and 5.8 million, while the number of wallets to be currently `active' is estimated to be even higher - between 5.8 million and 11.5 million and still continues to rise.
+
+6m 5.5 m
+5m 4.5 m
+4m 3.5 m
+3m 2.5 m
+2m 1.5 m
+1m 0.5 m
+0m
+
+UNIQUE ACTIVE USERS OF CRYPTO WALLETS
+
+Lower Bound
+
+Mid Point
+
+Upper Bound
+
+1.3 m 0.8 m 0.3 m
+2013
+
+2m 1.3 m 0.5 m
+2014
+
+2.9 m 1.8 m 0.7 m 2015
+
+4.8 m 3.5 m 2.1 m
+2016
+
+5.8 m 4.3 m 2.9 m
+2017 YTD
+
+FIGURE 5: ESTIMATED NUMBER OF UNIQUE ACTIVE USERS OF CRYPTOCURRENCY WALLETS10
+
+9 Source: https://www.statista.com/statistics/647231/worldwide-blockchain-technology-market-size/ ; Accessed: 30.11.2017 10 Garrick Hileman and Michel Rauchs. Global Cryptocurrency Benchmarking Study. Cambridge Centre for Alternative Finance, 2017.
+9
+
+TRADERSHUB WHITEPAPER
+
+Blockchain Wallet statistics show even higher numbers. The number of Blockchain wallet users has been growing since its creation, reaching over 19 million wallet users in December 2017.
+
+21 M 20 M 19 M 18 M 17 M 16 M 15 M 14 M 13 M 12 M 11 M
+
+USER COUNT
+
+Jan 17
+
+Feb 17
+
+Mar 17
+
+Apr 17
+
+May 17
+
+Jun 17
+
+Jul 17
+
+Aug 17
+
+Sep 17
+
+Oct 17
+
+Nov 17
+
+Dec 17
+
+FIGURE 6: NUMBER OF BLOCKCHAIN WALLET USERS WORLDWIDE DEC. 2016 - DEC. 2017 11
+
+PROBLEM OVERVIEW
+FUNCTIONAL DISPERSION AND INFRASTRUCTURAL DIVISION OF EXISTING TECHNOLOGICAL SOLUTIONS
+Trading cryptocurrencies can be very overwhelming with monitoring scattered information and even more so when trying to follow multiple exchange accounts or managing a versatile investment portfolio. With different technology vendors serving different parts of the marketplace, a deep market fragmentation formed, causing operational and cost inefficiency. This dispersion of functions and increasingly blurred lines between exchanges and wallets results in a series of friction points, which greatly complicate the task of trading for all participants. For example: a typical user has to open multiple exchange accounts, go over different KYC procedures and adopt different operational functions and processes which vary widely among the available solutions.
+LACK OF QUALITY INFORMATION, IMPACT OF UNCORROBORATED HYPE AND FUD12
+Quality information is everything in crypto-trading. Because crypto markets are still in their infancy and therefore unregulated, they are subjected to all kinds of manipulation and frauds. Every new information has the potential to quickly catch on as nowadays almost anyone can release false information to manipulate the crowds, stir up opinions and influence people's actions. For this reason, the market is saturated with all sorts of information of which only a small portion is truly reliable and may result in profits. Such crypto-market circumstances and information asymmetry make unbiased data extremely difficult to acquire. Therefore, picking the right token and knowing when to sell or move on to another is becoming increasingly more challenging. Nowadays, it's necessary to have a reliable source of information for guidance as well as having expert traders available to follow and learn from.
+
+11 Source: https://blockchain.info/charts/my-wallet-n-users/; Accessed: 04.12.2017 12 Fear Uncertainty and Doubt
+10
+
+TRADERSHUB WHITEPAPER
+
+SECURITY VULNERABILITY Crypto can truly be an unforgiving technology. If you type in the wrong address or forget a private key, your funds can be gone forever. Exchanges, which match buyers and sellers and sometimes hold traders' funds and are therefore frequently targeted by hackers, causing additional problems for investors. Even with two-factor authentication and complex passwords, there is still a constant threat of hacking, ranging from simple password phishing to more sophisticated intrusions. That is the reason many people still perceive cryptocurrencies as a tool for criminals, that is unsafe and dangerous to interact with.
+11
+
+TRADERSHUB WHITEPAPER
+
+The Tradershub Solution
+12
+
+TRADERSHUB WHITEPAPER
+
+MISSION AND OBJECTIVES Tradershub aims at resolving the issues of safety, complexity and lack of transparency by consolidating best trading solutions and removing existing friction points that traders are facing on a daily basis when trying to engage in cryptocurrency markets. Our mission is to create a people-powered social trading platform that makes the cryptocurrency market accessible to the average user and offers added value to the advanced user. General objectives:
+To build an advanced trading platform, with a base similar to the ones in use by professional traders on traditional markets, and adapted for the crypto economy. To become the go-to platform for trading cryptocurrencies based on blockchain technology. To be the most cost-effective and easy to use platform to facilitate trading services for professional crypto-traders and investors as well as newcomers. To accelerate mass adoption and increase trustworthiness of cryptocurrency trading. To establish a marketplace for traders with a focus on social trading and content creation.
+PRODUCT OVERVIEW We are creating a platform that will provide a powerful single point of interaction with the cryptocurrency markets. By blending sophisticated engineering with an elegant user experience and crowdsourced intelligence, we empower traders with everything they need to trade effectively within a trustworthy and safe trading environment. The platform will allow us to aggregate people and trading services together in dynamic ways in order to deliver a next-generation trading platform that will hopefully become the go-to solution for diversified portfolio management and all trading-related activities. In this section we will outline the main components along with features of the Tradershub platform that will make it the most user-friendly way of trading cryptocurrency on the market.
+13
+
+TRADERSHUB WHITEPAPER
+
+TRADERSHUB'S PILLARS OF SUSTAINABILITY
+In order to deliver the best possible trading experience, we have taken a multilayer approach in developing the platform. Tradershub consists of three pillars, that taken together ensure a sustainable marketplace for trading with digital cryptocurrencies and social capital.
+
+al trading platform
+
+Unified marketplace
+
+Soci
+
+INTERMEDIATE
+
+NEWCOMERS
+
+TOP PERFORMING TRADERS
+
+UNIFIED MARKETPLACE
+Get deep insights fast, easy and transparent
+The central part of the platform is dedicated to key trading process operations - portfolio management, market data analysis and trading executions. Tradershub will be integrated with multiple cryptocurrency exchanges, making it effortless to monitor and manage your cryptocurrency portfolio balance across multiple exchanges. We will do our best to integrate as many trading pairs as possible in order to build platform that will enable users to diversify their assets. A wide variety of tools and real-time metrics provide users with deeper insights and helps them streamline their trading process.
+SOCIAL AND COMMUNITY
+Benefit from crowd-sourced intelligence
+The Tradershub platform incorporates a variety of social components and leverages social capital through its reward system. It offers a collaborative environment that incentivizes members of the community to perform value-adding services for the benefit of the community as a whole. The rewards and incentives serve as tools to encourage the full establishment and continuity of the social trading environment which promotes sustainability of the platform.
+THE TRADERSHUB TOKEN
+A spendable token with a wide range of applications
+In order to create an advanced trading platform with a unique way of transporting value, we intend to launch the Tradershub Token (THT). THT will be used as a payment method for all available platform services. You can use THT to pay trading fees, access advanced trading tools, to invest into successful traders, use automated strategies or to pay for community provided services, such as trading signals, educational content, strategies, webinars etc. THT will also be used to fuel a dynamic rewards and reputation social system and as an access key to Tradershub premium content in the form of tools, services, educational content and offers. Premium content will only be available to users holding a certain amount of THT tokens, deposited in our secured wallet. With such infrastructure we want to reward long-term active users for their loyalty.
+14
+
+TRADERSHUB WHITEPAPER
+
+FEATURES
+MAJOR EXCHANGES ON ONE SCREEN We will use our best efforts to enable direct market access to wider cryptocurrencies market over multiple exchanges. That would enable users to access market data and stay connected to the global crypto markets 24 hours a day, seven days a week.
+GHOST TRADING Copy and follow moves of the top performing traders and prosper with trading even if you are not the best connoisseur of crypto markets.
+ONE-CLICK TRADING AND SIMPLIFIED LIQUIDITY VIEW Check the liquidity of the token/cryptocurrency in simplified view and execute the trade with a single mouse click. Be always ready to react by optimizing your trading process by setting multiple "1 - click" trade tickets for your favourite crypto pairs. Simplified liquidity view feature helps you determine the liquidity of the trading instrument without the need to have open Order book and Time & Sales windows. In this way you can make faster decisions and save on screen space for other useful features or charts.
+DEMO / PAPER TRADING Practice your trading skills in a simulated trading environment with a Demo Trading account.
+Watch how your strategies play out as you develop, practice and perfect the skills you need to trade effectively without risking any of your own money.
+With demo account you can Test new strategies, products, exchanges, order types with prices and account values determined by actual market conditions ­ all without risk. Access essential trading tools ­ real time charts, executions, market depth, option pricing, price risk analytics and more. You can learn about market dynamics on different exchanges.
+Trades entered into this paper trading account will not actually execute on any exchange. However, the price of your executions will be determined by real market prices and sizes.
+15
+
+TRADERSHUB WHITEPAPER
+
+MOBILE TRADING Tradershub provides mobile solutions that allow you to trade your on-the-go from just about any iOS or Android device. With mobile app you will receive quickly accessible trade reports, portfolio and account information. You can manage your portfolio with different type of orders, set price alerts, have control on open positions and orders. With mobile trading app you will easily control your trading account wherever you are.
+SMART ROUTING SYSTEM Tradershub smart routing system (SRS) will offer best execution function among cryptocurrency pairs and combination of prices available at the time of your order. SRS continuously evaluates fast changing market conditions and dynamically re-routes all or parts of your order seeking to achieve optimal execution and maximize your rebate. We will use our best efforts to provide immediate execution of your order electronically on multiple cryptocurrency exchanges. Added value to our SRS will be integration with a liquidity pool which will serve as a mediator that enables and assures fast execution. Our SRS takes into account transaction costs along with the fee or rebate for taking/adding liquidity when determining where to route your marketable order when the inside market is shared by multiple exchanges. The multi-purpose smart routing algorithm finds the best spot between maximizing probability of execution at the best price and minimizing venue fees and is recommended for all non-directed orders.
+SECURED WALLET Because we strive to address safety deficiencies on trading platforms and provide users with as many useful and safe options as possible, we are planning to implement an option that would allow connection of a secured wallet to our platform. This way users can store their assets off of the exchanges and furthermore, the wallet would act as a depository unit for our THT tokens. The platform will also offer integration of multiple cold wallets.
+16
+
+TRADERSHUB WHITEPAPER
+
+INTERACTIVE TRADING PLATFORM View account balances, market value and portfolio data for all of your assets in the customizable, easy-to-read account window. Platform provides intuitive usability with quick and easy access to comprehensive trading, order management, charts, watchlist and portfolio tools all in a single, customizable workspace.
+CUSTOMIZABLE WATCHLIST Create Watchlists to monitor real-time market quotes. Create, resize and move multiple named Watchlist windows to fit your own trading style.
+ADVANCED ORDERS As exchanges evolves more and more order types become natively supported. Despite this many order types can not be implemented natively by the exchanges but they can be implemented in the trading platform as a synthetic order. Some examples:
+Start orders at a certain time Trigger orders on price action Trail the market Slice orders into smaller sub-orders Cancel orders at a certain time
+CHART TRADING Allows instantly transmit orders from the chart using one button. You can set alerts based on time, price, margin, and other criteria directly on the chart and manage, modify and transmit orders from the Chart Trader.
+SIMPLE AND INTUITIVE USER INTERFACE Simplicity is essential to ensuring everyone can trade efficiently.
+Simplicity of entering the order is especially useful with many altcoins that have price with many decimal points. One of the easiest ways to enter an order without the need of typing the price in the box is to use the functionality »trading from charts«. Just put the mouse on the chart at a price you want a limit order to be entered, press right mouse button and a pop-up order window with already entered limit price will appear. Markers on chart can help visualize where the orders were executed.
+ALERTS AND MONITORING Never miss an opportunity. Set trigger points for desired tokens and control your assets with advanced alerts. Receive real-time notifications via SMS, e-mail or receive push notifications on your mobile device and browser.
+17
+
+TRADERSHUB WHITEPAPER
+
+THIRD-PARTY ADD-ON PRODUCTS Expand your toolbox of analysis and trading tools with add-on products from independent sources.
+Tradershub platform will offer an option to integrate the content from various sources. This way traders can have most of their desired analysis already available on the platform, without the need to navigate to other websites. On the other hand service providers have in this way a direct option to offer their services to their target public. Some examples of the content:
+Market analysis ICO analysis News Blockchain analysis Market sentiment Alerts when new coins are listed on the exchanges
+ARBITRAGE OPPORTUNITY VISUALIZER Visualize the price difference of cryptocurrencies on different exchanges. This way you can easily identify where to buy at the best price or even spot an arbitrage opportunity. The tool allows you to visualize the price differences in absolute or relative values. The visualization can be further improved by setting custom threshold for differences.
+CUSTOM MADE INDICATORS, TRADING SCRIPTS AND ROBOTS IIf you feel that most known indicators do not suit your unique trading style then you can create your own trading indicators. If you do not have time or knowledge how to do it then you can simply hire someone from Tradershub social network and pay him in THT for the service. Traders/developers that are comfortable to share their own indicators/trading scripts or robots can offer this to other members for free or for THT.
+DOWNLOADABLE MARKET DATA If you want to analyze historical behaviour of the markets with your own tools and do not have market data, Tradershub can provide it for you in exchange for some THT.
+18
+
+TRADERSHUB WHITEPAPER
+
+BACKTESTING Backtest screen criteria and trading strategies across multiple cryptocurrencies/ tokens and time periods. Tests can be made against a specific symbol or you can simulate multi-holding portfolios.
+TARGET USERS
+Since the rise of ICOs, our target group no longer covers exclusively existing users of cryptocurrencies and wallets, but has spread to the general public. In 2017, the interest in ICOs and cryptocurrencies increased dramatically, even sparking interest and endorsements from celebrities such as Floyd Mayweather, Ghostface Killah, Björk, Lionel Messi and Ronaldinho, just to name a few. This increasing awareness of the growing blockchain technology opportunities has greatly expanded the number of people who can be considered as our potential adopters. In addition to intermediate and professional traders and investors, our target groups now also include newcomers who are interested in blockchain, but might feel intimidated by the technological barriers of entry in the crypto economy.
+Three groups of target users will derive value from Tradershub:
+TOP PERFORMING CRYPTO-TRADERS ­ INFLUENCERS People in this group are professional crypto-traders who possess in-depth understanding of the marketplace and advanced trading skills. It is in the interest of individuals of this group to expand their circle of followers and in generate additional profit by sharing their knowledge. One of the goals of the platform is to enable these individuals to effectively monetize their knowledge.
+THE INTERMEDIATE CRYPTO-TRADER This target group includes existing traders and investors who are already actively involved in the crypto trading industry, but are dissatisfied with the use of existing technological solutions. They aspire to fill the gap between skill and technology and are looking for advanced technology solutions that would optimize and improve their trading performance.
+CRYPTO-TRADING NEWCOMERS Most people still think it is too hard to participate in what could be the most profitable market of all time, and our focus is to change that mindset. This presents a very challenging, but exciting opportunity for us. This target group represents our second most important source of potential users and includes individuals do not know where, when, and why to buy and sell cryptocurrencies. Tradershub's objective is to help newcomers enter the crypto market and enable them to learn from and copy top performing traders. This target group aligns with our objective of mass adoption.
+12 Digital currency in Europe - Statistics & Facts. Source link: https://www.statista.com/topics/3379/cryptocurrencies-in-europe/
+19
+
+TRADERSHUB WHITEPAPER
+
+SECURITY & USER SAFETY We are well aware that all technology handling cryptocurrencies require extra layers of security. While we can't eliminate all of the safety issues in crypto space, we can build a platform that tilts the odds in favor of user protection through layers of protection, backup and encryption. Additionally, by not taking possession of funds and using two-factor authentication, we safeguard against hacks and breaches. In the interest of maintaining a healthy and sustainable platform, we intend to dedicate a part of the development budget exclusively towards ensuring appropriate security measures and staying up to date with emerging threats as well as regularly carrying out preventive safety precautions. All actions in the Tradershub platform are user-oriented. Tradershub does not take custodial possession of consumer assets. The Tradershub platform enables consumers to control their own wallets, coins and keys while providing a layer of security and protection. Additionally, we will never, ever sell or share our user information or private data or take possession of their funds. One part of development will also be focused on integrating quick cold wallet access directly from the platform.
+15 Digital currency in Europe - Statistics & Facts. Source link: https://www.statista.com/topics/3379/cryptocurrencies-in-europe/
+20
+
+TRADERSHUB WHITEPAPER
+
+The Tradershub Token
+21
+
+TRADERSHUB WHITEPAPER
+
+TOKEN OVERVIEW THT will be Tradershub's principal payment unit, essentially functioning as an internal currency. THT is a utility token that can be used to access the platform and its features. It will be used to pay trading fees, invest in successful traders and automated strategies, access various features/services as well as incentivize community building and value creation through a dynamic reward system. THT can also be held as an asset and trade with it. We are well aware of how important it is to get the support from exchanges and will do our best to list our token on as many reliable exchanges as possible. The Tradeshub token will be implemented as an ERC20 compatible token on the Ethereum blockchain. Ethereum was the optimal choice for this project due to its broad adoption and industry-standard for issuing custom digital assets. The compatibility with the ERC20 standard leverages upon the existing infrastructure advantages of the Ethereum ecosystem. Tradershub Tokens will:
+Be the payment mechanism for accessing and using all features and services on the Tradershub platform Fuel a dynamic social rewarding and reputation system Be the payment instrument for transaction fees and API calls Tradershub Tokens will not: Pay dividends or profits of any kind, including buyback Enable holders to vote on company matters Control the company or give/imply ownership in any way
+22
+
+TRADERSHUB WHITEPAPER
+
+VALUE AND UTILITY
+VALUE FOR TOKEN HOLDERS AND PLATFORM USERS THT is base currency for our platform and will be used to pay all fees on the platform. There will be limited number of THT tokens. After initial issuing, no further series of THT tokens will be issued.
+Token holders have to stake THT tokens into a secured wallet in order to gain access to premium services on the platform. THT tokens will be used to invest into one or several traders or automated/algo trading strategies. Certain premium elements of the platform will have limited access. That means the user will be required to have a sufficient number of THTs deposited in a secured wallet in order to access the premium services and content. THT tokens will be used to reward quality content creators and traders who will provide insight into their trading books, allow others to follow them and create valuable content for the community.
+All platform features that give financial value to its users will require fee payment. Users who facilitate the use of a feature and share valuable knowledge which in turn gives financial value to their followers will be rewarded with THT payouts. With this mechanism we want to create a reciprocal financial circuit which offers benefits to all users of the platform, both beginners and professionals; both can act like content creators and content consumers at the same time.
+REWARDING CONTRIBUTIONS TOWARDS COMMUNITY BUILDING Through its rewarding system Tradershub will give back to users who will engage into creating added value for the community. Tradershub will give up to 20% of fees as a monthly reward to best traders and content providers. Rewards will be based on a blockchain technology model. We will organize competitions where traders can earn THT tokens. In addition to that, platform users can vote for best content creators, and show their support in order to reward and encourage their efforts in quality content creation.
+Rewarding system for traders with highest return/lowest risk score Rewarding system for traders and creators with the largest number of followers Rewards for active users with highest referral score Rewards for best bloggers
+
+TRADERSHUB PLATFORM
+
+SELECTIVE COPY TRADING
+2%
+
+ACTIVE TRADING PERFORMANCE
+
+THT TOKEN
+
+5% 20% 75%
+
+INVESTORS
+
+REWARD SPLIT MODEL
+23
+
+TRADERSHUB WHITEPAPER
+
+TOKEN DISTRIBUTION
+We wish to be as transparent as possible about token distribution and ownership in order to disprove concerns about notorious "pump and dump" schemes. We firmly believe that cryptocurrencies are part of the global financial future and are committed to building high-quality services around that viewpoint.
+
+5%
+Advisors
+5%
+Bounty Pool
+10%
+Reserve Fund
+
+60%
+Crowdsale
+
+20%
+Core Team
+FIGURE 7: TRADERSHUB TOKEN DISTRIBUTION
+CORE TEAM Tokens will be retained by founders and developers in the Tradershub team to incentivize their continued efforts. Because we wish to benefit only if the project is operationally successful, all tokens belonging to the team will be locked up in a smart contract for 12 months. After that period, teams' tokens will gradually unlock, recieving 25% of tokens every 4 months over the second year.
+ADVISORS Tokens will be created for and granted to our key advisors and partners who help us on the way to the realization of the project. Part of advisors tokens will be locked for a minimum of 6 months. Our plan is to launch the platform on the market as soon as possible, and in during that process, consultants will play a key role in guidance of the project.
+BOUNTY POOL Tokens will be allocated to several bounties, which we will distribute to everyone who supports Tradershub before and during the ICO in the form of social media support, translation, moderation, surveys, detecting bugs and vulnerabilities, etc.
+
+24
+
+TRADERSHUB WHITEPAPER
+
+RESERVE FUND This pool of tokens is dedicated to incentivizing value creation and active participation within the Tradershub platform. The funds will be used to reward active community members in order to spur growth and to provide a sustainable pool of tokens to continuously stimulate content creation and collaborative user activity in the Tradershub ecosystem.
+CROWDSALE Tokens will be distributed after ICO is conluded. Participants will get tokens directly to wallet provided in KYC.
+LEGAL CONSIDERATIONS Tradershub team will cooperate with best possible legal advisors on the market in order to ensure full legal compliance of its business model. This relates to all the operations of the platform and to protection of the platform's users. Since there is no clear legal framework with regards the trading of crypto currencies and crypto exchanges, we will constantly seek legal advice from our lawyer or from the regulators in order to fully comply with the regulation at all times. Please read terms of sale (when issued) in order to be properly informed about the nature of THT Token and deriving rights for token holders. This document is not legally binding, whereas terms of sale are. For issuing THT Tokens transaction, we will incorporate an entity, which will serve as a special purpose vehicle. The sole purpose of the entity will be to issue tokens and to collect funds from contributors. The jurisdiction of the entity will be decided in the following weeks after discussion with legal advisors. At least two weeks before planned token sale, entity will be incorporated.
+25
+
+TRADERSHUB WHITEPAPER
+
+Initial Coin Offering (ICO)
+26
+
+TRADERSHUB WHITEPAPER
+
+TOKEN SALE TERMS
+Tradershub is raising development and market launch funds by issuing the Tradershub Token (THT) and running an ICO campaign. A maximum of 83,385,000 Tradershub Tokens will be generated, of which 60.00% will be devoted to crowdsale: 22,896,000 to conduct a Presale, and 27,135,000 to conduct the ICO. Once the hard cap target is reached, the THT smart contract will stop accepting commitments. Any funds received above the hardcap will be returned to investors. No additional THTs will ever be generated beyond the total pool of created tokens. In case the soft cap is not reached, investors will be refunded.
+Additional token sale terms will be published on our website, Tradershub.io.
+
+Token Symbol ICO Softcap ICO Hardcap Maximum total THT issued for crowdsales Maximum total THT issued
+
+THT 3000 ETH 12000 ETH 50,031,000 83,385,000
+
+HOW TO PARTICIPATE?
+The public presale will be held on the Tradershub.io website presumably starting at the end of February, with a ICO carried out shortly after that. Detailed instructions for participation will be published on our website.
+
+TOKEN SALE STAGES
+PRESALE
+First public sale. Successful acceptance to the whitelist and KYC pass will be required for participants to contribute ETH in the presale. The presale will provide us with early community feedback regarding the level of support and engagement in the Tradershub project. Raised funds will be primarily used for MVP technical drafting, support for legal procedures and advisory, including compliance and incorporation; finance up-front operational costs, including office and payroll and to push the ICO marketing campaign forward.
+
+STAGE Stage 1 Stage 2
+
+DURATION up to start of presale 5 days
+
+ETH CONTRIBUTION 3000 ETH 1800 ETH
+
+27
+
+TRADERSHUB WHITEPAPER
+
+ICO
+KYC pass will be required for participants to contribute ETH in the ICO crowdsale. Raised funds will be primarily used to:
+Allow the full-time allocation of team into engineering and development of the Tradershub platform. Building relationships with entities, such as exchange providers and other complementary strategic partners. Proactive business development operations, such as preparation and implementation of a marketing plan and user acquisition strategy to introduce the platform benefits to potential users. Ensuring user safety and platform security.
+
+DURATION 3 weeks
+
+STAGE Stage 3 Stage 4 Stage 5
+
+ETH CONTRIBUTION 2250 ETH 2250 ETH 2700 ETH
+
+TOKEN BONUS SCHEDULE
+The bonus will be allocated in the form of additional tokens. All bonuses will be distributed automatically after the ICO ends.
+
+Presale Stage 1
+Presale Stage 2
+Crowdsale Stage 3
+Crowdsale Stage 4
+Crowdsale Stage 5
+
+BONUS 40% 20% 10% 5% 0%
+
+ETH CONTRIBUTION 3000 ETH 1800 ETH 2250 ETH 2250 ETH 2700 ETH
+
+THT PER ETH RATE 1 ETH = 5040 THT 1 ETH = 4320 THT 1 ETH = 3960 THT 1 ETH = 3780 THT 1 ETH = 3600 THT
+
+28
+
+TRADERSHUB WHITEPAPER
+
+Finances
+FUNDING BREAKDOWN
+
+40%
+Engineering & Development
+
+20%
+
+17%
+
+Marketing & User Acquisition
+
+Operational & Administrative
+
+10%
+
+8%
+
+5%
+
+Partner Engagement
+
+Legal & Advisory
+
+Security & Compliance
+
+FIGURE 8: TRADERSHUB FUNDING BREAKDOWN
+
+OPERATIONAL AND ADMINISTRATIVE Funds will be used to cover past ICO project expenses, salaries, platform support personnel, office space, the cost of servers and software licenses, accounting, travel and other operational expenses related to business development.
+PARTNER ENGAGEMENT Developing relationships with complementary entities, such as exchange providers and other strategic partnerships. Engaging possible joint ventures and incentives to drive platform adoption.
+MARKETING AND USER ACQUISITION Funds will be used for preparation and implementation of marketing plan and user acquisition strategy in order to drive platform adoption and reach a wide audience and to attract active users to the platform. Tradershub will leverage traditional sales techniques with a focus on digital marketing channels and strategic partnerships in order to achieve a fast and cost-effective business expansion.
+LEGAL AND ADVISORY Establishing legal entities, complying with the ongoing regulatory framework, incorporation and other legal obligations that require legal and advisory fees.
+SECURITY Our team will develop the Tradershub platform with security as the foremost concern in their minds. We aim to ensure and follow industry's best practices when it comes to securing infrastructure and data, that is why we will be dedicating a portion of the funding exclusively for security and code audits.
+
+29
+
+TRADERSHUB WHITEPAPER
+
+ENGINEERING AND DEVELOPMENT
+Funds will be used to build the Tradershub platform with all its components, including hiring technical resources, recruiting, training, and establishing the infrastructure to support blockchain development and testing. According to the amount of raised funds, we will carry out the development in one of the three proposed development goals listed below:
+
+All-in-one dashboard Monitor and manage all your cryptocurrencies across multiple exchanges in one place (via API).
+
+3M 10M 12M
+
+Transparent insights Quickly check price charts, orders, and market details for every coin. Effortlessly browse trading ideas and news without needing to switch context.
+
+Performance portfolio Keep track of all your cryptocurrency investments in one place.
+Enhanced Account Security 2FA, Encrypted email, IP and location smart monitoring, customizable limits and timeframes, ...
+
+One-click execution Say goodbye to the pain of partially executed orders and slippage. Get your orders filled in 1 click, optimize your trading process and reduce your trading costs.
+
+Consolidated withdrawal process Withdraw crypto from multiple exchanges to your wallet of choice with a single command.
+
+Alerts & monitoring Control your assets with advanced alerts. Set & receive real-time notifications via SMS, e-mail or receive push notifications on your mobile device and browser.
+
+Demo Trading Account System Access risk-free 30-day demo trading that works exactly like real trading (except your balance is fictional). Easily switch between demo and real trading from your dashboard.
+
+Social network Benefit from the collective wisdom of our community or earn token bonuses based on your trading activity. Exchange ideas, strategies, opinions and insights.
+
+Ghost trading Copy and follow moves of the top performing traders & prosper with trading even if you`re not the best connoisseur of crypto markets.
+
+Creator subscription system Tools for creators to run a subscription content service, as well as ways for creators to build relationships and provide exclusive experiences to their subscribers facilitated by the use of THT.
+
+User created Ad system Help business, groups and individuals reach out to the social network utilizing THT.
+
+AI-powered trading Al pricing source based on algorithms ensures the most efficient bid-offer matching across crypto exchanges and helps you make better trading decisions.
+
+User generated smart contracts Create an interface for users to establish Ethereum smart contracts from our platform. Allows users to create complex transparent instruments for trading based on consensus, voting via tokens invested into contract.
+
+30
+
+TRADERSHUB WHITEPAPER
+
+REVENUE GENERATION MODEL Tradershub will collect revenue from multiple streams. These include, but are not limited to the following sources (subject to change): EXECUTION FEES Tradershub will be charging execution fees for transactions conducted through the Tradershub platform. The fees will be charged on a mark-up model of the dollar volume of the trades in line with connected exchanges. Trade costs will vary depending on several factors, including, but not limited to, trade volume, if the order needs to be rerouted to another exchange, and complexity of the execution. FEES FOR TRADING FEATURES Tradershub will charge execution fees as a mark-up model to exchange fees. Exchange fees typically vary from 0.10 do 0.25 percentage of the dollar volume of the trade. Tradershub execution mark-up will add to prevailing exchange fee but lowered on transaction volume provided by trader. THT tokens will be accepted as mean of payment. As THT token is a utility token will be utilized for other platform services and features and also for social part. THT token will therefore be also used for as a mean of payment for trader by followers. Copy trades function, analysis, notifications or other trading related functions can be charged by a trader. By that Tradershub is creating marketplace for every trading expert or content provider. Potential user of platform will be able to purchase THT tokens on secondary markets. COPY TRADING FEES AND REWARDS Platform users will have an option to copy successful traders and their strategies, and on the other hand have the opportunity to show their trading skills to the public where they can make a name for themselves, and possibly gain a large number of followers. Investors will have total control over when to start copying a trader and when to end it. They will also have the ability to easily manage their risk by using automatic stop function to end copying process when the value of the traders portfolio drops by preset percent of choice. Investors will have to pay one-time fee of 2% of the amount chosen to copy a trader or strategy and will be eligible to 75% of the reward made by the trader. Traders will get 20% of the reward on assets that are following him, with 5% reward fee paid as platform commission. All reward fees will be paid in THT tokens.
+31
+
+TRADERSHUB WHITEPAPER
+
+RESEARCH
+
+WEBINARS & ANALYSIS
+
+Tradershub Token
+
+TECHNICAL CHARTS
+
+TRADING CONTENT
+
+ALERTS
+
+THT
+
+INDICATORS
+
+ALGORITHMS
+
+COPY EXPERT TRADERS TRADING SCRIPTS
+
+ACTIVE MANAGED FUNDS We plan to implement Tradershub asset management option in later stages of development (after market launch) as a solution for wider market use. Smart portfolios will be built and managed by our team of trading professionals with in-depth experience in the field of quantitative trading models. Several diverse funds will be created in order to meet the needs of different investors. THT will be required to enter these exclusive funds.
+MONTHLY COMPETITIONS Monthly competitions carried out with "demo/ paper trading" accounts. To enter the competition payment of entry fee in THTs will be will be required. The winner will be rewarded with profits from the participant fund.
+ADDITIONAL 3RD PARTY SERVICES There may be other fees or subscriptions the platform may collect for various additional platform or third party services. Fees will apply to services such as data feeds, newswires, ghosting and other complementary activities on the platform.
+
+32
+
+Roadmap 33
+
+TRADERSHUB WHITEPAPER
+
+TRADERSHUB WHITEPAPER
+
+Regarding the timeline for this project, the following roadmap shows our set milestones:
+Q2 2017 Official start of Tradershub May 23 2017
+Idea development and concept building Active trading tips, blog Cryptomarket research Reviews of best trading platform features from regulated markets and improvements adjusted crypto markets
+Q3 2017 Web page Whitepaper Development of features Team expansion Business model finalization
+Q4 2017 Partnering Marketing Traders database
+Q1 2018 ICO
+Q2 -Q3 2018 Portfolio view Demo/paper trading Traders view and following option Arbitrage opportunity visualizer Downloadable market data
+34
+
+TRADERSHUB WHITEPAPER
+
+Q3-Q4 2018 Beta version of Tradershub gateway Customizable crypto watchlist Aggregated view Backtesting database solution Tradershub SRS Ghost trading Mobile app
+Q1-Q2 2019 Custom made indicators, trading scripts and robots Multi monitor setup Trading alerts Interactive platform, technical indicators set up Third-party add-on product Smart safety and security features, cold wallet integration
+Q3-Q4 2019 Further development of social features Tradershub active managed funds
+35
+
+TRADERSHUB WHITEPAPER
+
+Team
+CORE TEAM
+To lead the development of the Tradershub platform, we have assembled a cross-functional core team with a variety of skills and experience; from crypto-trading experts, blockchain software engineers, UX and design professionals, to a board of experienced advisors in trading services, security, legal compliance and marketing.
+We aim to expand our team in order to get additional manpower to deliver our road map on time, and exceed our supporters' expectations.
+TILEN SARLAH, CO-FOUNDER, PROFESSIONAL TRADER Tilen Sarlah is an economist with a University degree in Financial Markets and Executive MBA. He is a passionate trader with financial instruments and digital currencies with over 15 years of experience with capital markets. At the beginning of his career, he spent seven years as the head of an asset management company, where he managed exclusive clients' portfolios on all major financial markets around the world. In last four years he was also engaged as professional energy trader and president of the youth section of the Petroleum Committee of Slovenia, part of the World Petroleum Council (WPC). As a great cryptocurrency enthusiast, he is actively involved in daily trading, regularly blogs about finances, writes trading strategies and conducts public lectures.
+NIKOLA MALJKOVIC, CO-FOUNDER, PROFESSIONAL TRADER Nikola has been involved with capital markets for over 13 years. After graduating from the Faculty of Economics he started working in the financial industry as a sales trader on the electronic trading platform for the largest Slovenian non-banking brokerage house where he provided support to HNW clients. Thanks to his many years of experience, he knows all the traps and opportunities offered by short-term active trading and operations of derivative financial instruments such as FX, CFDs, options and futures. He is an expert in technical analysis of financial instruments and is the author of many articles on how to improve active trading. He is also the co-author of the Fingym educational financial program and the co-author of the book "Thinking of Winners" - a manual for managing personal finances and lifestyle of a modern professional athlete - published by the Olympic Committee of Slovenia. He believes that crypto market will offer amazing new trading opportunities for years to come to traders equipped with the right trading knowledge and tools.
+36
+
+TRADERSHUB WHITEPAPER
+
+PETER DROBEZ, CO-FOUNDER, INVESTOR Peter has a University degree in Banking and Finance. In 1999 he started working for one of the major banks in Slovenia where he started building his extensive economic background. Excellence in his field of expertise led him to become one of the most influential managers in an international corporation, one of the leading European manufacturers of flavours and food ingredients. Exceeding the high expectations of harsh international business environment in the past 17 years he was promoted to Sales and marketing director, which is the position he stil holds. He is an avid blockchain enthusiast and the driving force of Tradershub, always striving to achieve the highest achievable goal.
+LUKA KLEPEC, CHIEF TECHNICAL OFFICER Luka serves as the Chief Technical Officer at Tradershub, where he is responsible for growing and overseeing the creative output of the company's development team. Before joining Tradershub, Luka served as Chief Technology Officer of Atei. During his tenure the company grew three-fold and named MOV best tech company of the Year. Prior to Atei he was recruited by Telekom Slovenije to help start a new diagnostics platform in 2004. Over the next 4 years, the company became the most successful telecom provider in the country. His previous ventures include almost a decade leading the development of iRose, BMS Computers and other small companies. Outside of work, he is an avid race car driver and enjoys spending time in the garage. He co-founded Octane.me - the car company. He has a BA in CS from University of Ljubljana, and currently lives in Celje with his wife and two children.
+LUKA ZABKAR, VP ENGINEERING, BLOCKCHAIN DEVELOPER Luka is a full stack developer with a Bachelor's Science degree in Computer and Information Science. He participated in numerous projects in the field of IT and development for local and global institutions, including Slovenian Ministry of Agriculture, Forestry and Food. With over 7 years of experience working in the area he is an excellent leader of the engineering and development efforts at Tradershub. He is also an early adopter of cryptocurrencies with a deep understanding of the blockchain technology. Luka specializes in Scala, Java, PHP, Android, backend and Ethereum blockchain development. With his calmness and resourcefulness he turns any complicated situation into a new milestone success for the team.
+MARCELL NIMFUEHR, CHIEF OPERATING OFFICER Marcell is a trained business software engineer and has worked in several start-ups in the Dotcom bubble. He has switched to communications 15 years ago and has worked as a comms-strategist for aid organization Doctors Without Borders. His passion for cryptotrading has brought him back into the start-up world. He runs Austrias best Crypto-Magazin Bitcoinblase. At Tradershub he organizes the Token sale in both operations and marketing.
+37
+
+TRADERSHUB WHITEPAPER
+
+URH FERLEZ, HEAD OF DESIGN AND UX Urh has a Bachelor's Engineering degree in Creative Media and works as a managing director and lead designer at Bragi, a company he founded in 2009. In his 15 years' experience in designing, developing and managing all sorts of innovative products, his work was internationally recognised with many awards, such as Seal of Excellence by the European Commission in Bruxelles, Comenius EduMedia Awards in Berlin and Product Of The Year Award in Slovenia. In his creative design process, he digs deep to understand the drive and motivations in using a product while looking for opportunities to empower the user at every step. His patience, persistency and responsibility make him an excellent team leader.
+BLAZ PALATINUS, SOFTWARE ENGINEER Blaz is a front end developer with a Bachelor's degree in Media Communications Engineering. His diverse set of skills make him an ultimate jack-of-all-trades able to tackle difficult assignments on a day to day basis. For the past 4 years he has perfected his experiences, participating in various development projects from the initial design to the final stage. He is constantly experimenting and trying new approaches to classic problems, striving for excellence at every step. His skill set ranges from HTML5 and CSS3, 2D & 3D design and animation to his ultimate passion that is game development. He is currently working on Tradershub along with the development team.
+VITO KRIZNIK, SOFTWARE ENGINEER Vito has been programming professionally since earning his Bachelor's in Computer Sciences from the University of Maribor. With nearly 10 years of experience, in all parts of development, he is an important part of the company's development team. Before joining Tradershub, Vito served as Full-Stack Developer at Adesco, that has become the leading company in energy management in the country, during his employment. Beforehand he gathered experience on all stages of software development in small companies. In his private life, he enjoys various adrenaline packed activities, that span from windsurfing to car racing or driving his motorcycle.
+JURIJ REPAR, SOFTWARE ENGINEER With his background in Electrical Engineering and Computer Science, Jurij brings a broad spectrum of knowledge to the Tradershub project. From back- and front-end development in Scala, PHP and AngularJS, database management in MySQL and MongoDB, to web design and technical support. Over the last 10 years he worked on several EU and privately funded projects, such as EISALP, MS4ROW, Fieldify, etc. His main scope of work since 2013 was technical planning and co-development of various software systems.
+38
+
+TRADERSHUB WHITEPAPER
+
+SANJA CENTA, CONTENT OPERATIONS AND STRATEGY With a background in Business Management and Cultural Studies, Sanja has contributed to different organizations in public and private sectors, by ensuring fluid execution of operational activities and successfully applying for several local and EU funding calls. Through an analytical and content-driven approach, she analyzes and manages KPIs on multiple levels to evaluate team's success at reaching objectives. In this role, Sanja oversees digital marketing, creative content development and media communications to strengthen team's efforts at Tradershub. Combining her knowledge and experience with qualitative marketing research helps the team gain valuable insight into consumers' needs.
+BOSTJAN ROJC, COMMUNITY MANAGER Bostjan is an entrepreneur with an economic background. For 5 years he gained experience as a salesman leading promotions, company's public image and customer care, until he was taken over by the idea of running his own business. While working as a staff and community manager for his own company, he gained a lot of experience and developed sufficient polish as an event planner and customer manager. He now helps administering Tradershub community channels and support in order to nurture a sustainable and productive relationships with our followers. Inspired by the adventure of the crypto world, he ensures that communication between the team and the community is always in sync.
+ADVISORS
+ERIK GOMEZEL, ARCHITECTURE AND DATA INTEROPERABILITY ADVISOR Erik is an experienced trader with extensive experience in testing trading platforms and trading strategies. After graduating as an electrical engineer, Erik worked in a scientific research institute, where he was responsible for developing electronic devices for experimentation and analyzing collected data. At that time, he has already been passionate about financial markets and fintech. After a while, Erik shifted his focus to full-time trading and developing trading strategies for various asset classes, mostly currencies, commodities and equities. So far, he has over 10 years of experience in trading spot FX, futures, CFDs, and stocks. In this period, he collaborated in several trading projects, such as developing and testing different trading tools, which are used for low latency trading, natural language processing of financial data, and copy trading. In the last few years, Erik has also been involved in testing blockchain technologies and trading cryptocurrencies, since he sees huge potential, but also room for improvements in these new trends.
+39
+
+TRADERSHUB WHITEPAPER
+
+ROMAN GOMBOC, TRADING ADVISOR Roman has university degrees of Faculty of Economics, University of Ljubljana. He has over 15 years of experience as a professional trader and as a leader of best trading platform in the world. At the beginning of his career, he was seven-years head of Saxotrader platform as a white label partnership in one of the biggest brokerage houses in Slovenia. He extends his professional knowledge in commodity area as a power trader at Interenergo. He is currently serves as head of OptimTrader at CM-Equity in München. OptimTrader is a representative of Interactive Brokers which is the biggest broker for trading platforms in the world. His knowledge of trading is very wide, as he trades professional equities, CFDs, futures, options and forex.
+JURE POLJSAK, MBA, FINANCIAL ADVISOR An experienced executive in the area of risk management, corporate finance and M&As. He currently serves as Director of Credit Risk at Abanka and holds several supervisory board positions in the financial industry. He is keen on new technologies including blockchain and has become a digitalisation enthusiast by successfully managing various digitalisation projects in different industries. He is also the co-founder of PricePilot, an advanced service booking platform. He earned his MBA from Cotrugli Business School.
+PETER MERC, PH.D., EMBA, LEGAL AND BLOCKCHAIN ADVISOR Peter Merc is blockchain legal advisor and fintech expert. He is a cofounder of Lemur Legal, disruptive legal advisory company, focused on legal matters related to industry 4.0. Peter is also a member of the supervisory board in Abanka d.d., systemic bank in Slovenia. He acts as an advisor in several blockchain projects, namely "X8 currency", "CargoX" and "MoneyRebel." Peter is core team member in IBC Group, international group of blockchain experts.
+PETER TRCEK, SECURITY ADVISOR Peter Trcek is the CEO and founder of Bitnik, the leading Slovenian bitcoin company that has been successfully operating bitcoin automation since 2014. As a blockchain and cryptocurrency advocate, expert and consultant he is determined to continue spreading blockchain technologies and often participates in events as a public speaker.
+BORIS HORVAT, PH.D., BUSINESS ADVISOR Boris is experienced serial entrepreneur, focused on digital transformation, platform business models and innovation in different industries, with a strong background in blockchain, finances, mobility and logistics. He holds a Ph.D. in computer science and a B.Sc. in applied mathematics. He is a co-founder and CEO of high-tech R&D company Abelium, and a co-founder and CRO of GoOpti - European intelligent DRT platform, Slovenian CESA start-up of 2015. He is a co-author of numerous innovation awards for technology, business models and internationalisation. Boris is advisor to several blockchain ventures and an active member of Slovenian blockchain community. He is CEO of the next generation crypto exchange ACE.Trade, that will be publicly disclosed in Q2 2018.
+40
+
+TRADERSHUB WHITEPAPER
+
+ALEN ORBANI, PH.D., PLATFORM EXPERT Boris is experienced serial entrepreneur, focused on digital transformation, platform business models and innovation in different industries, with a strong background in blockchain, finances, mobility and logistics. He holds a Ph.D. in computer science and a B.Sc. in applied mathematics. He is a co-founder and CEO of high-tech R&D company Abelium, and a co-founder and CRO of GoOpti - European intelligent DRT platform, Slovenian CESA start-up of 2015. He is a co-author of numerous innovation awards for technology, business models and internationalisation. Boris is advisor to several blockchain ventures and an active member of Slovenian blockchain community. He is CEO of the next generation crypto exchange ACE.Trade, that will be publicly disclosed in Q2 2018. PARTNERS LEMUR LEGAL http://www.lemurlegal.com/en/ BITNIK https://bitnik.eu/en/
+41
+
+TRADERSHUB WHITEPAPER
+
+Legal and Regulatory Disclaimer
+PLEASE READ THIS DISCLAIMER SECTION CAREFULLY. IF YOU ARE IN ANY DOUBT AS TO THE ACTION YOU SHOULD TAKE, YOU SHOULD CONSULT YOUR LEGAL, FINANCIAL, TAX, OR OTHER PROFESSIONAL ADVISOR(S).
+This paper is for information purposes only and no part of it is intended to create legal relations between a recipient of this paper or to be legally binding or enforceable by such recipient against the Tradershub company. An updated version of this paper may be published on a date to be determined and announced by the Tradershub company in due course. Tradershub makes no warranties or representations as to the successful development or implementation of such technologies and innovations, or achievement of any other activities noted in the paper, and disclaims any warranties implied by law or otherwise, to the extent permitted by law.
+THT token does not have the legal qualification as a security, since it does not give any rights on dividends or interest, any ownership right or stake share or equivalent rights or any right to receive future revenue shares, or any other form of participation in or relating to the Company, nor shall THT holders have any influence or rights in the development or governance of the Company. THT Token is final and non-refundable. THT Token is not a share and does not give any right to participate in the general meetings of the Company. The purchase and use of THT Token shall not be done for speculative usage.
+THT Token is not an investment advice, a security nor an investment product and any action, notice, communication, message, decision, managerial act, or omission of the mentioned shall not be understood and interpreted as such. Company gives no guarantees as to the value of any of the THT Token and explicitly warns users that there is no reason to believe THT Token will increase in value, and they might also decrease in value or lose their value entirely. You represent and warrant, that you are acquiring THT Token for your own personal use and for your personal utility and not for investment or financial purposes. You also represent and warrant that you don't consider THT Token as security and you understand that THT Token may lose all their value and that you are not acquiring THT Token as an investment and that you are aware of all other risks deriving from holding THT Token as specified in these Terms and you accept them.
+Token distribution is not a public offering of equity or debt and consequently does not fall under the securities or any prospectus regulation.
+42
+
+WHITEPAPER
+
+

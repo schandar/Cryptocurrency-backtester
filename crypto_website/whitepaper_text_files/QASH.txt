@@ -1,0 +1,1362 @@
+Whitepaper version 1.9 October 30, 2017
+Providing liquidity to the non-LIQUID Crypto Economy
+QUOINE Pte. Ltd. liquid.plus
+
+What we believe:
+
+We believe in a world where everyone has access to premium financial services, not only the privileged few.
+
+Cryptocurrency is the means to achieve this and our mission is to provide the products and services necessary for the Crypto world to become the new mainstream.
+
+The future of Finance is distributed. Democratization of Finance has begun. The power is in everyone's hands.
+
+The Crypto economy is here.
+
+-- QUOINE Team
+
+I'm a big fan of Bitcoin... Regulation of money supply needs to be depoliticized.
+­ Al Gore, Former US Vice President and Winner of Nobel Peace Prize
+I think the Internet is going to be one of the major forces for reducing the role of government. The one thing that's missing, but that will soon be
+developed, is a reliable e-cash.
+­ Milton Friedman, Winner of Nobel Prize in Economics
+
+Bitcoin is technological tour de force.
+­ Bill Gates, Microsoft Co-Founder
+Every informed person needs to know about Bitcoin because it might be one of the world's most important developments.
+­ Leon Louw, Nobel Peace Prize Nominee
+
+GENERAL INFORMATION
+This whitepaper describes the initial sale in which the QUOINE LIQUID TOKEN (QASH) is sold. QASH is a crypto token that is designed to be used for all services provided by the LIQUID PLATFORM and QUOINE's existing exchange platforms as explained in this whitepaper. QASH also can be used as a Crypto Token to pay for any other services provided by other business entities. QUOINE will generally not limit the usage of QASH or the types of business entities that would like to use QASH for their business.
+QASH is not intended to constitute a security in any jurisdiction. This white paper is not a solicitation for investment and does not pertain in any way to an offering of securities in any jurisdiction.
+Please note that purchases of QASH are final and non-refundable.
+Individuals, businesses, and other organizations should carefully weigh the risks, costs, and benefits of acquiring QASH.
+LIMITATION OF THE PURCHASERS
+You are not eligible to and you shall not purchase QASH through its token sale if you are a citizen or resident (tax or otherwise) of any country or state where the purchase of QASH or similar Crypto Token may be prohibited or the token sale is deemed to be not compliant with the applicable laws and regulations. In particular, if you are a resident of People's Republic of China, you cannot purchase QASH through the token sale.
+Purchases of QASH should be undertaken only by individuals, entities, or companies that have significant experience with, and understanding of, the usage and intricacies of Crypto Tokens and blockchain based software systems. Purchasers should have functional understanding of storage and transmission mechanisms associated with other Crypto Tokens. Any entities of QUOINE and officers and employees thereof will not be responsible in any way for loss of any Crypto Tokens, QASH or fiat currency resulting from actions taken by, or omissions of the purchasers. If you do not have the required experience or expertise, then you should not purchase QASH or participate in the sale of QASH.
+You should carefully consider the risks, costs, and any other demerits of acquiring QASH, and, if necessary, obtain your own independent advice in this regard. If you are not in the position to accept nor to understand the risks associated with the token sale of QASH (including the risks related to the non-development of LIQUID PLATFORM) or any other risks as indicated in this whitepaper, you should not acquire QASH, until such that you have received the necessary independent advice.
+RISKS
+The purchase of QASH carries with it significant risk. Prior to purchasing QASH, the purchaser should carefully consider the risks listed below and, to the extent necessary, consult a lawyer, accountant, and/or tax professional prior to determining whether to purchase QASH.
+(a) QASH will be stored in a wallet, which can only be accessed with a password selected by the purchaser. If a purchaser of QASH does not maintain an accurate record of their password, this may lead to the loss of QASH. If your password protection is weak and it is cracked or learned by somebody else, this may also lead to the loss of QASH. As a result, purchasers must safely store their password in one or more backup locations that are well separated from the primary location.
+(b) The purchaser recognizes that some of the services under the LIQUID PLATFORM is currently under development and may undergo significant changes before release. The purchaser acknowledges that any of its expectations regarding the form and functionality of the LIQUID PLATFORM may not be met for any number of reasons.
+
+(c) The purchaser understands that while QUOINE will make best efforts to connect the LIQUID PLATFORM to most of the major Crypto exchanges around, it is possible that some exchanges may decline the connection with the LIQUID PLATFORM, which may result in the less liquidity provided through the LIQUID PLATFORM than expected in this whitepaper.
+(d) The purchaser understands that while QUOINE will make best efforts to release the LIQUID PLATFORM on time, it is possible that the official release may be delayed.
+(e) As with other Crypto Tokens, value of QASH may fluctuate significantly and become reduced in value for any number of reasons, including but not limited to, supply and demand, overall Crypto Tokens' market conditions, political or geographical reasons, changes of regulations in any jurisdictions, and technical reasons.
+(f) QASH will be issued on the Ethereum blockchain. As such, any malfunction or unexpected functioning of the Ethereum protocol may impact the purchaser's ability to transfer or securely hold QASH. Such impact could adversely affect the value of QASH.
+DISCLAIMER
+To the maximum extent permitted by the applicable laws, regulations and rules, QASH, any entities of QUOINE and officers and employees thereof shall not be liable for any indirect, special, incidental, consequential or other losses of any kind, in tort, contract or otherwise (including but not limited to loss of revenue, income or profits, and loss of use or data), arising out of or in connection with any acceptance of or reliance on this whitepaper or any part thereof by you.
+Any entities of QUOINE and officers and employees thereof shall not be liable for your loss of QASH after it is transferred to you by any reason including but not limited to your failure to maintain or backup an accurate record of your password or password cracking by somebody due to your poor maintenance of your password.
+QUOINE will do its best to launch its operations and develop LIQUID PLATFORM. Any person undertaking to acquire QASH acknowledges and understands however that QUOINE does not provide with any warranty as to the release of the LIQUID PLATFORM. They acknowledge and understand therefore that QUOINE (incl. its bodies and employees) assumes no liability or responsibility for any loss or damage that would result from or relate to the incapacity to use the QASH.
+Regulatory authorities are carefully scrutinizing businesses and operations associated to Crypto Tokens in the world. In that respect, regulatory measures, investigations or actions may impact QUOINE's business and may limit or prevent it from developing its operations in the future. Any person undertaking to acquire QASH must be aware that QUOINE's business model or LIQUID PLATFORM and its existing platforms may change or need to be modified because of new regulatory and compliance requirements from any applicable laws in any jurisdictions. In such case, purchasers and any person undertaking to acquire QASH acknowledge and understand that neither QUOINE nor any of its affiliate shall be held liable for any direct or indirect loss or damages caused by such changes.
+This whitepaper and any other materials or explanations made by QUOINE and its officers and employees shall not and cannot be considered as an invitation to enter into an investment. They do not constitute or relate in any way nor should they be considered as an offering of securities in any jurisdiction. This whitepaper does not include nor contain any information or indication that might be considered as a recommendation or that might be used as a basis for any investment decision.
+Neither QUOINE nor any of its officers and employees are to be or shall be considered as advisor in any legal, tax or financial matters.
+Acquiring QASH shall not grant any right or influence over QUOINE's organization and governance to the purchasers.
+
+NO REPRESENTATIONS AND WARRANTIES
+QUOINE does not make or purport to make, and hereby disclaims, any representation, warranty or undertaking in any form whatsoever to any entity or person, including any representation, warranty or undertaking in relation to the truth, accuracy and completeness of any of the information set out in this whitepaper.
+REPRESENTATION AND WARRANTIES BY THE PURCHASERS
+By participating in the token sale of QASH, the purchasers represent and warrant to QUOINE as follows:
+(a) you are authorized and have full power to purchase QASH according to the laws that apply in your jurisdiction of domicile;
+(b) you are solely responsible for determining whether the acquisition of QASH is appropriate for you;
+(c) You are not acting as an agent on behalf of any other person or entity who wish to purchase QASH or participate in its token sale;
+(d) You have carefully considered the risks, costs, and any other demerits of acquiring QASH and understood such the risks, costs, and any other demerits associated with QASH and its token sale;
+(e) you are not acting for the purpose of speculative investment;
+(f) you agree and acknowledge that QASH does not constitute securities in any form in your jurisdiction;
+(g) you agree and acknowledge that this whitepaper does not constitute a prospectus or offer document of any sort and is not intended to constitute an offer of securities in your jurisdiction or a solicitation for investment in securities;
+(h) you agree and acknowledge that no regulatory authority has examined or approved of the information set out in this whitepaper, no such action has been or will be taken under the laws, regulatory requirements or rules of any jurisdiction and the publication, distribution or dissemination of this whitepaper to you does not imply that the applicable laws, regulatory requirements or rules have been complied with;
+(i) you agree and acknowledge that this whitepaper, the undertaking and/or the completion of the QASH token sale, or future trading of QASH on any cryptocurrency exchange, shall not be construed, interpreted or deemed by you as an indication of the merits of QUOINE or QASH;
+(j) the distribution or dissemination of this whitepaper, any part thereof or any copy thereof, or acceptance of the same by you, is not prohibited or restricted by the applicable laws, regulations or rules in your jurisdiction, and where any restrictions in relation to possession are applicable, you have observed and complied with all such restrictions at your own expense and without liability to QUOINE;
+(k) you agree and acknowledge that in the case where you wish to purchase any QASH, it is not to be construed, interpreted, classified or treated as:
+(i) any kind of currency other than cryptocurrency; (ii) debentures, stocks or shares issued by QUOINE (iii) rights, options or derivatives in respect of such debentures, stocks or shares; (iv) rights under a contract for differences or under any other contract the purpose or pretended purpose of which is to secure a profit or avoid a loss; (v) units in a collective investment scheme;
+
+(vi) units in a business trust; (vii) derivatives of units in a business trust; or (viii) any other security or class of securities.
+(l) you have a good understanding of the operation, functionality, usage, storage, transmission mechanisms and other material characteristics of cryptocurrencies, blockchain-based software systems, cryptocurrency wallets or other related token storage mechanisms, blockchain technology and smart contract technology;
+(m) you are fully aware and understand that in the case where you wish to purchase any QASH, there are risks associated with QUOINE and its business and operations;
+(n) you agree and acknowledge that QUOINE is not liable for any indirect, special, incidental, consequential or other losses of any kind, in tort, contract or otherwise (including but not limited to loss of revenue, income or profits, and loss of use or data), arising out of or in connection with any acceptance of or reliance on this whitepaper or any part thereof by you;
+(o) you will not use the token sale for any illegal activity, including but not limited to money laundering and the financing of terrorism; and
+(p) all of the above representations and warranties are true, complete, accurate and non-misleading from the time of your access to and/or acceptance of possession this whitepaper or such part thereof (as the case may be).
+UPDATES TO THE DETAIL OF THE TOKEN SALE
+QUOINE reserves the right, at its sole discretion, to change, modify, add, or remove portions of this whitepaper and the terms at any time during the sale by posting the amendment on the LIQUID website. Any purchaser will be deemed to have accepted such changes by purchasing QASH. If at any point you do not agree to any portion of the then-current version of this whitepaper and the terms, you should not purchase QASH.
+MARKET AND INDUSTRY INFORMATION
+This whitepaper includes market and industry information and forecasts that have been obtained from internal surveys, reports and studies, where appropriate, as well as market research, publicly available information and industry publications. Such surveys, reports, studies, market research, publicly available information and publications generally state that the information that they contain has been obtained from sources believed to be reliable, but there can be no assurance as to the accuracy or completeness of such included information. QUOINE has not conducted any independent review of the information extracted from third party sources, verified the accuracy or completeness of such information or ascertained the underlying economic assumptions relied upon therein. Consequently, any entities of QUOINE and officers and employees thereof do not make any representation or warranty as to the accuracy or completeness of such information and shall not be obliged to provide any updates on the same.
+
+DEFINITIONS
+Automated Trading Strategies has the meaning specified in Section 3.3.2. Base Currency shall mean the currency that you are buying or selling, e.g.: BTC, ETH, etc. Cross Currency Conversion Engine (CCCE) shall refer to the core engine of the LIQUID Platform that allows near-instant, automated cross-currency conversion. Crypto / Fiat Credit Facility has the meaning specified in Section 3.2.3. Crypto Lending shall refer to the lending of Crypto Tokens. Similar to lending in the fiat world, large Crypto Token holders can lend their holdings for a fee. Crypto Token shall mean the cryptocurrency or the distributed ledger-based token. Direct Market Access has the meaning specified in Section 3.2.1. External Aggregated Order Book has the meaning specified in Section 3.1.1. Fiat Management has the meaning specified in Section 3.2.2 Internal Order Book has the meaning specified in Section 3.1.1. LIQUID Platform has the meaning specified in Section 3. Liquidity Silos shall refer to pockets of liquidity that exist because liquidity at one exchange in one currency pair cannot easily access the opposite liquidity. Matching Engine (ME) has the meaning specified in Section 3.1.2. Prime Brokerage has the meaning specified in Section 3.2. QASH shall refer to the name of QUOINE LIQUID TOKEN and has the meaning specified in Section 4.1. QRYPTOS shall refer to QUOINE's Cryptocurrency-only exchange. QUOINE will open up its platform for all token issuers as an automated self-serving platform, for both initial Crypto Token issuance as well as a secondary exchange. (www.qryptos.com) QUOINE shall refer to, collectively or individually, QUOINE Corp. established under the laws of Japan and its affiliates, including but not limited to QUOINE Pte. Ltd. established under the laws of Singapore. QUOINE is a leading global FinTech company group that provides trading, exchange, and next-generation financial services powered by blockchain technology with offices in Japan, Singapore, Vietnam and the Philippines. QUOINEX shall refer to QUOINE's flagship product. One of the largest Cryptocurrency-fiat exchanges in the world, and fully regulated in Japan. (www.quoinex.com) Quote Currency shall refer to the currency used to price the Base Currency or the currency used to quote prices, e.g.: USD, EUR, etc. Real Time Reporting has the meaning specified in Section 3.2.4. Smart Order Routing (SOR) has the meaning specified in Section 3.1.2. System Co-location has the meaning specified in Section 3.3.1. Underserved Markets shall refer to smaller markets that, in isolation, are not yet big enough to support their own liquid Crypto Tokens. World Book has the meaning specified in Section 3.1.
+
+1. Abstract9
+
+2. Background11
+
+3. QUOINE LIQUID Platform
+
+14
+
+3.1 World Book
+
+17
+
+3.1.1 Multi-Market Order Book
+
+17
+
+3.1.2 The Architecture
+
+19
+
+3.2 Prime Brokerage
+
+23
+
+3.2.1 Direct Market Access
+
+23
+
+3.2.2 Fiat Management
+
+24
+
+3.2.3 Crypto/Fiat Credit
+
+25
+
+3.2.4 Real Time Reporting
+
+25
+
+3.3 Other Services
+
+26
+
+3.3.1 System Co-Location
+
+26
+
+3.3.2 Automated Trading Strategies
+
+26
+
+3.3.3 Trading Tools
+
+27
+
+4. QASH Token Sale
+
+28
+
+4.1 Token Overview
+
+29
+
+4.1.1 Token Utility
+
+30
+
+4.1.2 Listed Tradeble Assets
+
+30
+
+4.1.3 Exclusive Owner Benefits
+
+30
+
+4.2 Token Specifications
+
+31
+
+4.3 Token Sale Process
+
+32
+
+4.4 Use of Proceeds
+
+35
+
+4.5 QASH Blockchain
+
+36
+
+5. Who Benefits
+
+37
+
+5.1 Individual and Institutional Traders
+
+38
+
+5.2 Token Issuers
+
+40
+
+5.3 Token Holders
+
+41
+
+5.4 Financial Services Innovators and Society at Large
+
+41
+
+6. QUOINE's Competitive Advantage
+
+43
+
+6.1 World Class Team
+
+44
+
+6.2 Product Readiness
+
+44
+
+6.3 Exchange and Banking Relationships
+
+46
+
+6.4 Regulated in Japan
+
+46
+
+6.5 Compliance and Security
+
+46
+
+6.6 Exclusive Partnership with QUOINE (QUOINEX, QRYPTOS)
+
+49
+
+7. Competitive Landscape
+
+51
+
+8. Roadmap52
+
+9. The Company
+
+54
+
+9.1 Summary 
+
+54
+
+9.2 Leadership
+
+55
+
+10. Board Directors, Angel Investors and Shareholders
+
+63
+
+11. Join Our QUOINE LIQUID Community
+
+66
+
+12. Reference68
+
+12.1 QUOINE Corporate Profile
+
+69
+
+12.2 QUOINE Contact Details
+
+70
+
+01
+Abstract
+
+QUOINE LIQUID PLATFORM is a single globally-sourced trading platform (World Book) with an associated suite of services (Prime Brokerage). Combined, these produce the highest level of liquidity in the world--allowing any individual to access the opportunities and wealth the new Crypto economy offers.
+The LIQUID Platform's World Book is built on top of QUOINE's existing Matching Engine, Smart Order Routing, and Cross Currency Conversion Engine technologies. It becomes the ultimate resource for traders--a multi-market order book that combines every liquidity source in the world into a single highly liquid tradable order book, in any currency a user chooses.
+The LIQUID Platform's Prime Brokerage offers Direct Market Access (DMA), Fiat Management, Crypto/Fiat Credit facility, and Real Time Reporting.
+Serving all client sizes and requirements: The LIQUID Platform combines it's World Book and Prime Brokerage with high-end services such as System Co-Location, Automated Trading Strategies, "Crowd-Sourced" AI-driven Algorithms, and QUOINE's advanced proprietary Trading Tools.
+A universal native Token: the QUOINE LIQUID TOKEN, QASH is the fuel that will power all services QUOINE provides. We are already in talks with financial institutions and partners to make QASH the preferred Token for their own upcoming and existing financial services, as they migrate to decentralized platforms. We envision QASH will be used in the broader financial industry and any other industries for various purposes including payment and remittance.
+The end goal: QUOINE is building a solid, global financial utility--an advanced platform the entire Crypto economy will use to great advantage; where anyone can participate as users and Token holders.
+QUOINE LIQUID will become a complete financial ecosystem for the Crypto economy.
+10
+
+02
+Background
+11
+
+When Bitcoin appeared in 2009, only a few visionaries understood a disruptive shock wave was about to hit the Financial industry. Like the Gutenberg Press and the Internet, it promises to take power and information control away from an elite class, and distribute it among individuals.
+In just eight years, Bitcoin has gone from a market cap of zero to $70 billion. There are twelve other Crypto Tokens with ten-figure market caps. The market cap of all Crypto Token combined stands at over $140 billion--with the surrounding infrastructure and ecosystem likely worth a lot more.
+Let's look at a few key statistics. The global (fiat) FX market processes $5­6 trillion in trades per day. Cryptocurrency's daily share is relatively smaller (for now) at around $2 billion--although it sometimes reaches $4­6 billion. While there are 172 unique fiat currencies in the world, there are 1097 Crypto Tokens, and counting. When we look at these figures, they indicate that the crypto-market is going to continue an upward trend.
+Most Crypto Token value so far has come from speculation and trading. Everyone who came late to the party is searching for the "next Bitcoin". Almost every day, a new Crypto Token comes to market to seek its fortune on hundreds of exchanges worldwide, and thousands more will follow.
+Millions of individuals, thousands of businesses, and even new industries will emerge-- building their entire foundations on these decentralized Crypto Token based ecosystems. From ordinary payments to huge institutional transfers, fundraising and investments, smart contracts and services that haven't even been dreamt up yet--disruption is now coming from all directions.
+The new Crypto economy is here. The future of finance is distributed. Democratization of finance has begun. The power is now in everyone's hands.
+12
+
+Enter QUOINE. A successful and profitable cryptocurrency firm with an impeccable reputation and financial industry pedigree. As of 29th September 2017, we are the first global cryptocurrency firm in the world to be officially licensed by the Japan FSA (License 0002): http://www.fsa.go.jp/menkyo/menkyoj/kasoutuka.pdf. Our QUOINEX and QRYPTOS trading platforms are the most advanced in the world with annual transactions over $12 Billion. With over two and a half centuries of combined experience in finance and financial technology, QUOINE's team understands the industry inside out. In fact, we understand it enough to know legacy finance is becoming obsolete. Large financial institutions simply cannot keep up with innovation. And we're only just beginning--read on to see how we plan to grow this exponentially, and why our people are the ones to deliver.
+THE LIQUIDITY PROBLEM
+Amid the massive, often chaotic ocean of economic activity in the Crypto Token markets, participants face many challenges. At QUOINE, we have identified ONE fundamental element to address. It's an element so large it often gets overlooked... yet it's vital to the health and growth of the worldwide Crypto economy. That element is: LIQUIDITY. Liquidity is the lifeblood of any industry, any economy and any individual business.
+Liquidity covers short-term obligations and working capital needs of businesses-- whether it's associated with debt financing or funding of new initiatives. A company can have the largest asset base in the world and the best-run business, BUT if at any point in time it needs short term-finance, and is unable to lend against or liquidate any of its assets, then that company is in trouble. Financial world history is littered with such casualties. Its future doesn't need to be. Liquidity problems triggered many of the Global Financial Crisis' most traumatic events. Its first major shock occurred when BNP Paribas suspended liquidation from three of its money market funds, citing illiquid markets. Then there were runs on Bear Stearns and Lehman Brothers, leading to their eventual collapse.
+The new financial world is pouring its creative energy into this explosion of new Crypto Tokens and exciting business models. But liquidity--that less headline-grabbing yet fundamental element--is getting left behind. What if an individual or business' most significant asset is tied to a specific Crypto Token, without liquidity? They would be in serious trouble. This issue already exists today. The largest liquidity providers in traditional finance are global banks and other financial institutions such as Goldman Sachs, JP Morgan Chase, Citibank, Bank of America Merrill Lynch, and Deutsche Bank. Can QUOINE achieve the same status in the Crypto economy? We believe we can. Read on to find out how.
+13
+
+03
+QUOINE LIQUID Platform
+
+Welcome to QUOINE LIQUID, built to provide liquidity to the non-liquid Crypto economy.
+QUOINE is launching QUOINE LIQUID Platform, a single globally-sourced trading platform (World Book) with an associated suite of services (Prime Brokerage) which will enable the highest level of liquidity. In the process, this will allow anybody to tap into all the opportunities the new Crypto economy has to offer.
+The LIQUID Platform will be managed and operated by QUOINE Pte. Ltd. established under laws of Singapore.
+
+Exchanges
+
+FX Brokers
+
+Banks*
+
+World Book
+
+Matching Engine
+Currency Conversion
+Direct Market Access
+Fiat Management
+
+Smart Order Routing Data
+Infrastructure
+Reporting
+Credit Facilities (Lending)
+
+Prime Brokerage
+
+Regulators
+
+Individual investors
+[QUOINE LIQUID Platform]
+
+Institutional investors
+
+Token holders
+
+Token issuers
+
+15
+
+Currently, the liquidity landscapes for Crypto Tokens are fragmented. The top cryptocurrency exchanges all offer different Crypto Token pairs, and no one exchange dominates in any one Crypto Token pair. Furthermore, liquidity and the best prices for a given pair can shift from one exchange to another. At any particular time, the best deal to buy BTC might be in the US. Within the next hour, it might be in Asia or Europe. The same is true for ETH and other Crypto Tokens.
+
+2017 January
+
+2017 March
+
+China
+
+Japan
+
+Korea
+
+Others
+
+[Changing of liquidity leaders by geography/currency]
+
+2017 July
+
+In a sense, the various cryptocurrency exchanges are Liquidity Silos. They are liquid in some pairs, but their liquidity is only accessible to clients of that exchange. And while most of the exchanges offer liquidity in certain highly liquid currencies (USD, EUR, CNY, JPY, etc.), there is no convenient and highly-liquid on-ramp into the Crypto world for holders of minor currencies such as CAD, NZD, SGD, PHP, IDR, etc. Separately, each market's liquidity remains small, but collectively they represent a large untapped source of liquidity that now desperately wants an on-ramp into the Crypto world.
+
+£
+
+W
+
+$
+
+Canada
+NY SF
+
+Europe UK
+Africa
+
+India
+
+China
+
+Korea Japan
+
+¥
+
+Latin America
+$
+
+¥
+Australia
+
+Underserved Market
+
+Liquidity Silo
+
+[Liquidity Silos and Underserved Markets throughout the world]
+
+The LIQUID Platform brings together the entire global network of cryptocurrency exchanges and makes them accessible to everybody. With access to all the major reputable exchanges worldwide, the LIQUID Platform provides an unparalleled and powerful suite of trading services to Individual and Institutional investors alike--as well as to Token Issuers and Token Holders.
+
+16
+
+3.1 World Book
+3.1.1 Multi-Market Order Book
+The LIQUID Platform's World Book offers a multi-market order book that aggregates the [orders /prices] on world's various liquidity sources into a single highly liquid tradable order book, allowing orders to be placed in the currency of one's choice:
+
+$
+
+P
+
+£
+
+Rp
+
+
+
+$
+
+¥
+
+W
+
+[Multi-Market Order Book]
+The World Book solves two important problems that limit liquidity in the Crypto world: Liquidity Silos and Underserved Markets.
+As mentioned above, Liquidity Silos are pockets of liquidity that exist because liquidity at one exchange in one currency pair (e.g. BTC/USD at exchange A) cannot easily access the opposite liquidity if it exists on another exchange (e.g. BTC/EUR at exchange B). Underserved Markets are smaller markets that, in isolation, are not yet big enough to support their own liquid Crypto Token.
+People in the countries that only have Liquidity Silos and Underserved Markets would like to be able to trade the Crypto Token in their home currencies, but there is no highly-liquid on-ramp into the Crypto world for them.
+The Liquidity Silos and Underserved Markets problems are solved by connecting these exchanges into a single point of liquidity, and by allowing the order book to be priced in any of the major currencies and many minor currencies.
+
+17
+
+Under the hood, the World Book is a composite of two order books:
+Internal Order Book: An order book that contains FX-adjusted orders for all orders placed by users of the World Book.
+External Aggregated Order Book: An order book that contains all other orders (but FX adjusted) that exist throughout the world other than those placed in Internal Order Book. Each order in this book is linked to an order on the various exchanges internationally.
+
+World Book
+
+Internal Order Book
+
+External Aggregated Order Book
+
+External Matching
+Data Infrastructure (data feeds from world exchanges)
+
+External Exchanges
+
+Multi-currency Matching Engine
+Internal Matching
+
+Smart Order Router
+Cross-currency Engine
+
+FX Exchanges
+
+[Diagram of the World Book]
+The LIQUID Platform's World Book supports trading in the quote currency of one's choice. To understand how useful this is, it is helpful to understand that trading pairs in the Crypto Token and FX worlds are composed of a Base Currency (what you are buying and selling, e.g.: BTC, ETH, etc.), and a Quote Currency (the currency in which you see the price, e.g.: USD, EUR, etc.). It is also possible to have pure Crypto Token pairs such as ETH/BTC ­ which has a Base Currency of ETH, and Quote Currency of BTC. Traders using the World Book have the option of selecting their Quote Currency from any of the major fiat currencies, plus some Crypto Tokens.
+For example, a German trader (A) wishing to sell BTC (Base Currency) can choose to see the World Book for BTC in EUR (their Quote Currency). When they place an order in the World Book, they see their order enter the BTC/EUR market, and the order's price is reflected in their orderbook in EUR. While, a Singapore trader, using the World book,
+18
+
+will see the entire order book in their own currency of choice, likely SGD. They will see the order that was placed in BTC/EUR by the German Trader, priced in SGD ­ and from the Singapore trader's perspective, the German trader's order will fluctuate with changes in the EUR/SGD rates. If the order to sell BTC/EUR is matched with an order to buy BTC/SGD, an FX conversion happens behind the scenes. Both parties receive their execution in the respective currencies of their orders.
+
+A
+BTC/EUR
+
+This user sees the entire order book denominated
+in EUR
+[Multi-Market Order Book]
+
+Floats with FX rates
+
+Spread
+
+B
+BTC/SGD
+
+Fixed in user currency
+
+This user sees the entire order book denominated
+in SGD
+
+3.1.2 The Architecture
+Underpinning LIQUID Platform's World Book are three technologies that are already used extensively by QUOINE on a daily basis:
+1. Matching Engine (ME) 2. Cross Currency Conversion Engine (CCCE) 3. Smart Order Routing (SOR)
+Matching Engine (ME):
+Built from scratch by combining decades of experience in financial technology, the World Book's Matching Engine (ME) is capable of processing several million transactions per second, making it one of the most advanced matching engines in the industry.
+The ME has been architected to be hyper-scalable to support a very high number of markets (Crypto Token pairs) and offers native support for a number of key order types, around which a powerful Order Management System has been built.
+All these features, coupled with "built to fail" resiliency, make the World Book's ME one of the best in the market.
+
+19
+
+Rest API
+
+WebSocket
+
+FIX API
+
+X API
+
+Y API
+
+External MM
+
+Traders
+
+Network
+
+Single server machine
+
+Dispatcher(s): SRC/DST translators Market events
+
+Accounts/Balances/ Loans events
+
+Requests to update Accounts/Balances/
+Loans
+
+INPUT ring bu er
+
+OUTPUT ring bu er
+
+Market events MUX
+
+Orders to process or cancel INPUT
+
+Market events OUTPUT
+
+IN
+
+OUT
+
+Qi/Bj
+
+IN
+
+OUT
+
+Qi/Bj
+
+IN
+
+OUT
+
+Qi/Bj
+
+IN
+
+OUT
+
+Qi/Bj
+
+IN
+
+OUT
+
+Qi/Bj
+
+Di erent markets
+
+OUTPUT ring bu er
+
+OUTPUT ring bu er
+
+Accounts/Balances/ Loans events
+
+MUX
+
+Accounts and Loans Database
+
+The markets are discrete state machines which act independently and complete for the funds (balances/loans)
+To avoid race conditions, markets acquire funds atomically for short time
+Acquire Accounts/ Balances/Loans
+atomically (by LUA)
+Accounts/Balances/ Loans events
+
+Market events
+
+Margin Call checker
+
+Internal MM
+
+OUTPUT (Margin Call orders)
+OUTPUT: Internal MM orders
+
+Qi, Q - queue of requests, i - queue identifier Bj, B - order book, j - order book identifier SRC - source, DST - destination, MUX - multiplexer
+
+[Technical diagram / Illustration of Matching Engine]
+
+20
+
+Cross Currency Conversion Engine (CCCE)
+The Cross Currency Conversion Engine allows for near-instant, automated currency conversions: When an execution is confirmed, and the two parties don't share the same Quote Currency, a Quote Currency conversion is necessary. For example, if two clients of the World Book are both trading ETH (the Base Currency), but one of them is trading it in SGD and the other in USD, an FX conversion using USD/SGD must be added to the transaction to complete the match. The CCCE automatically performs this when the match is confirmed. It is also constantly adjusting, in real-time pricing, the order book to reflect the current executable exchange rates. It should be mentioned here that this currency conversion is not limited to fiat. For example, using ETH/BTC for currency conversion, it becomes possible to provide a match between an order placed in ETH/SGD, and one placed in BTC/SGD.
+Furthermore, adding a fiat FX conversion allows for matches between pairs such as ETH/EUR and BTC/SGD (see diagram below. Using the CCCE allows the World Book and Smart Order Routing (SOR) to source liquidity from multiple places that are not normally matched, allowing the World Book to tap into additional sources of liquidity.
+
+An order is sent to the FX markets to SELL SGD and BUY EUR
+
+Client A SELL ETH at a fixed price in EUR
+Client B place an order to BUY BTC at a price
+fixed in SGD
+[Illustrations of the FX conversion process]
+
+The system recognizes a match is possible using ETH/BTCcrates & EUR/SGD
+FX rates
+
+An order is sent to the crypto markets to SELL
+ETH and BUY BTC
+Client A's account has ETH deducted and receives EURs.
+
+Client B's account has SGD deducted and receives BTC
+
+21
+
+Smart Order Routing (SOR):
+The Smart Order Routing Technology maintains low-latency, real-time (R/T) feeds for all major exchanges throughout the world.
+When any of those order books changes, it's reflected in LIQUID Platform's World Book.
+When an order is placed on the World Book, and no match is available internally, the Smart Order Routing Technology checks to see if there is a match available on another exchange. If so, it automatically routes the order in the currency of the order on the other exchange.
+
+Example path 1 Example path 2 Example path 3
+Example path n
+
+FX Exchange
+2
+
+Order
+
+1
+Smart Order
+
+Buy ETH/SGD
+
+Router
+
+5
+
+Exchange A's ETH/SGD
+Exchange B's ETH/USD
+Exchange C's ETH/EUR
+
+GREEN execution path
+1. Order is placed to buy ETH using SGD 2. The SGD is converted to USD in the FX markets 3. The USD is used to buy BTC 4. The BTC is used to buy ETH 5. The ETH is credited to the buyer's account
+[Illustration of Smart Order Routing process]
+
+3
+
+Exchange D's
+
+BTC/USD
+
+4
+Exchange D's ETH/BTC
+
+22
+
+3.2 Prime Brokerage
+The LIQUID Platform's Prime Brokerage is comprised by a suite of services that provide users with tools to reduce counterparty risk and increase ROI. Prime Brokerage includes so-called Direct Market Access, Fiat Management, and Credit Facility as its core offering.
+Users are now able to trade directly on any global reputable exchange, without even having an account or funds on those exchanges.
+LIQUID Platform users will gain the following benefits:
+1. Reduction of Counterparty Risk: Users of the LIQUID Platform will only ever need to deal with QUOINE as their counterparty. QUOINE is regulated in Japan by the Japan Financial Services Agency (FSA), known as one of the strictest regulators in the world. The JFSA officially licensed QUOINE as a Digital Currency Exchange in September 2017.
+2. Increase in Capital Efficiency: LIQUID Platform users will be able to deal on other exchanges without having to move funds directly. Capital movements will be done via QUOINE's funding facilities, and should be instant for both Crypto Token and fiat.
+3. Netting of positions: Users of the LIQUID Platform will have the ability to net positions taken across different trading venues. This will allow market participants to better take advantage of inefficiencies in the sometimes fractured crypto markets.
+3.2.1 Direct Market Access
+The Prime Brokerage allows its users to leverage QUOINE's Smart Order Routing (SOR) technology and connectivity to all reputable global exchanges, and get Direct Market Access for the fastest and best execution from a single platform.
+With our state-of-the-art trading dashboards, users of the LIQUID Platform will be able to manage their trading books, place orders, monitor risk and keep an eye on all global markets on major exchanges, 24/7.
+Our Order Management System (OMS) and Matching Engine (ME) provide
+23
+
+unparalleled banking-level performance capable of processing millions of orders per second. Our OMS provides a professional-grade FIX API, with both common and advanced order types and execution algorithms.
+3.2.2 Fiat Management
+Fiat Management is one of the most difficult (and restricted) constraints when it comes to providing liquidity to the market. Moving large sums of fiat is slow, expensive and time consuming ­ which is one of the reasons Crypto Tokens are the future of finance.
+Over the past three years, QUOINE has built an extensive network of relationships with banks. Part of our banking strategy has been to co-locate our bank accounts with those of other major exchanges, by creating accounts in the same bank--and in many cases the same branch--as other exchanges.
+We have also begun working with a major global bank to provide fiat transfer optimization. This will allow us to complete immediate fiat transfers globally. This service will also be available to third party liquidity providers using the Prime Brokerage. QUOINE is planning to obtain a Funds Transfer Service Provider License and any other permits or licenses when required.
+Why This Innovation Matters for Liquidity
+There are many third party liquidity providers that provide only limited liquidity. Their liquidity provision is substantially constrained by the time and cost of moving fiat. By providing this service as part of our Prime Brokerage, third party liquidity providers will be incentivized to use the platform--because it will allow them to better monetize their capital.
+24
+
+3.2.3 Crypto/Fiat Credit
+The LIQUID Platform's Prime Brokerage will extend its Crypto/Fiat Credit facility to users to leverage their existing balances for enhanced trading opportunities. Crypto/ Fiat Credit facility allows users to borrow using either fiat or Crypto Token as collateral. QUOINE LIQUID TOKEN (QASH) can also be used as collateral for trading. (more on our Token in the following sections.) QUOINE is also in the process of applying for a formal Banking License, to expand the range of services we can offer our users. QUOINE will also obtain any other permits or licenses when required.
+3.2.4 Real Time Reporting
+The Prime Brokerage users will have access to customized activity statements, to view detailed information about their account activity including positions, cash balances, transactions, and more. They will be able to run trade confirmation reports to view all executions.
+25
+
+3.3 Other Services
+3.3.1 System Co-Location
+Our LIQUID Platform provides co-location on one of our powerful private servers physically located near our Matching Engine and OMS system--or near liquidity venues within our network of exchange partners.
+We provide support for mainstream programming languages. Users of the LIQUID Platform will be able to deploy their own strategies and also offer them to other customers on the platform at a fee.
+3.3.2 Automated Trading Strategies
+Our LIQUID Platform provides access to third party trading strategies, and to its own automated trading and market-making strategies. Users can select from a published list of automated algorithmic strategies, then have their asset traded using these strategies. Strategies will be published and will be accessible by our users. Historical performance and other details on strategies will be available to users to aid them in the selection process.
+Initially, these strategies will be provided by QUOINE. However the platform, data, and tools we use will be made available to thousands of data scientists throughout the industry, allowing access to any individual or teams with the talent/skill to design and offer their own trading strategies.
+Examples of trading strategy use cases:
+1. ICO/ITS token issuers can use automated market making strategies to do market making for their tokens.
+2. Talented quants and trading system developers can design their own trading systems and then use them to trade their own assets--or share them publicly for a share of the profits and/or a fee.
+3. Crypto Token holders can select one or a basket of strategies and then have their asset automatically traded using the automate strategies.
+Automated Trading Strategies will be provided only to the extent permitted by the applicable laws, regulations and rules.
+26
+
+3.3.3 Trading Tools
+Users of the QUOINE LIQUID Platform have access to best-in-class trading tools developed over the years for QUOINE products. Among these tools, users have full access to a powerful trading dashboard, developed for QUOINE products and adapted for the LIQUID Platform. Users have access to tools to manage their trades and positions, monitor global markets in real time, enter and manage orders, view live charts, etc.
+27
+
+04
+QASH Token Sale
+28
+
+4.1 Token Overview
+The Crypto economy has given us a whole new way to build new distributed infrastructure through the use of Crypto Tokens. People are coming together to fund something they truly want, something they truly believe in. And as Token Holders, they are benefiting from the growth in its utility and value.
+QUOINE, through QUOINE LIQUID TOKEN (QASH), is building a financial utility--a platform that the entire Crypto economy will benefit from and where people can participate in as both users and token holders.
+QASH will be issued by QUOINE Pte. Ltd and may be distributed by itself and/or designated distributors. Please note that QASH does not represent any equity in QUOINE and does not entitle holders to any voting rights, dividends or profit-sharing of any entities of QUOINE. QASH is a Crypto Token that can be used as the fuel that powers all services provided by the LIQUID Platform and QUOINE's existing platforms (QUOINEX and QRYPTOS).
+QASH has two main functions:
+1. as Crypto Token users can pay for services on all of our platforms; 2. as a tradable Crypto Token on the open market.
+On top of these, QASH will open up to all financial and any other industries. QUOINE will not limit the usage of QASH nor business entities that would like to use QASH for their business. Therefore, any companies or organizations, individuals may be able to utilize QASH as a Crypto Token such as Bitcoin, Ethereum's ETH and Ripple's XRP. As the demand for the LIQUID Platform grows, the utility of QASH will increase and will allow QASH holders to use its value to "pay for" all services and functions QUOINE and its partners will provide.
+We envision QASH could even become the preferred standard Token used to pay for all services provided by the broader financial industry, as participants gradually migrate to decentralized platforms.
+29
+
+QUOINE is already in discussion with multiple financial institutions, FinTech startups, and partners to make QASH the preferred payment Token for upcoming and existing financial services.
+4.1.1 Token Utility
+Initially, QASH value will be used for services provided by the LIQUID Platform and QUOINE--to cover fees, as credit collateral, and to participate in trading strategies.
+QASH holders can use value in return for:
+Transaction Fees LIQUID Platform QRYPTOS QUOINEX
+Prime Brokerage Direct Market Access Fiat Management Crypto / Fiat Credit
+Other Services System Co-location Automated Trading Strategies Trading Tools
+4.1.2 Listed Tradeble Assets
+QASH will be tradable on QUOINE's trading platform--and on other exchanges. Having QASH listed on various exchanges is another way we expect the Token utility to increase with liquidity.
+4.1.3 Exclusive Owner Benefits
+Finally, as an added incentive, QASH owners will receive periodic promotions, discounted fees, preferential access to new products/services, and opportunities to invest in future ICO/Token Sales that QUOINE will help launch.
+30
+
+4.2 Token Specifications
+
+Token Name Code Issuance Amount
+Token Sale Price
+Particulars Maximum Token Offered Minimum Token Required Use of Proceeds
+
+QASH
+QASH
+1,000,000,000 QASH
+Token Sale Price 1 QASH = 0.001 ETH (Special discount of 20% will be applicable to the purchases during the Sales Period described in Section 4.3)
+ERC-20 Ethereum-Based Token
+350,000,000 QASH ~350,000 ETH
+50,000,000 QASH ~50,000 ETH
+Section 4.4
+
+31
+
+4.3 Token Sale Process
+Each day, more and more token issuers are experiencing cyber-attacks, hacks, and impersonators which have led to multimillion dollars' worth of theft. This is because current ICO platforms do not have the proper security measures in place for purchasers to deposit and transfer their funds. Deposits are typically transferred from one ETH address to another without proper KYC checks, often using a single publicly announced address for purchasers to send their funds. Hackers and scammers take advantage of this by posting fake ETH addresses on forums, and unsuspecting token purchasers end up transferring crypto to the hackers' addresses. To ensure this does not happen with our Token Sale, we have placed stringent, preventative measures to ensure a safe, secure, and compliant process for all token participants. We will carry out our Token Sale only through our secure trading and exchange platform, QRYPTOS.
+All purchasers will need to set up an account on QRYPTOS to transfer crypto funds securely to participate in the QASH Token Sale.
+The registration steps to setup an account on QRYPTOS and participate in our Token Sale are explained on the following page.
+32
+
+1. Create/Activate your QRYPTOS account.
+a. From the LIQUID landing page (http://liquid.plus), click "Register Now". This button will take you to QUOINE's QRYPTOS registration page (https:// accounts.qryptos.com/sign-up).
+b. Screen instructions will guide you through your QRYPTOS account registration. You will need to provide some basic information including your name, email address, home address, and securing your login by activating 2-Factor Authentication with the Google Authenticator app. More detailed instructions can be found from our Help Center.
+c. Upon completing the above, an email containing an account confirmation/ activation link will be sent to your email address from service@quoine.com. Click the link to activate your account. You may now pre-fund prior to the actual token sale.
+2. Fund your QRYPTOS account and buy QASH.
+a. Upon logging into QRYPTOS (2FA code required), you will be able to fund your account with either BTC or ETH and purchase QASH. Each QASH purchaser will be allocated a unique BTC or ETH deposit address for funding.
+b. Upon funding his/her account, the Purchaser simply clicks on "Buy QASH", enter the amount the Purchaser wishes to purchase, and hits submit. QRYPTOS will automatically deduct the appropriate amount of BTC or ETH from the Purchaser's account and add purchased QASH tokens. In the case that the Purchaser placed BTC in his/her account, QUOINE determines an amount of BTC deducted from the Purchaser's account in accordance with the amount of QASH entered by such Purchaser on the basis of market value of ETH/BTC (determined in reasonable discretion of QUOINE) at the time of the purchase.
+33
+
+1. Please note that any purchase order cannot be withdrawn or cancelled once it is made. 2. Existing QUOINE users who already have a QRYPTOS account can immediately participate in the token sale by clicking the "Purchase QASH" button in their Home Account tab. 3. QUOINE will not provide any generic funding address through any social media, messaging services, bulletin boards, etc.as most ICO hacks are happening this way. 4. QASH Token Sale will commence at 00:01, Singapore time (UTC + 8 hours), on 6th November 2017 and end at 23:59, Singapore time (UTC + 8 hours), on 8th November 2017 (the Sales Period). 5. If the total amount of the purchase requests exceeds the maximum offer within the Sales Period, QUOINE will pro-rate QASH according to the ratio of the purchaser's request. 6. If QUOINE cannot meet its Minimum Token Requirement of 50,000,000 QASH within the Sales Period, QUOINE will return the deposit after subtracting handling and / or network fees.
+34
+
+4.4 Use of Proceeds
+Immediately after the Token Sale, Token ownership will be as follows (Year 1).
+By Year 5, QUOINE will fully distribute the re servesand only retain 20% allocated to Management and QUOINE shareholders.
+
+Token Allocation
+
+20%
+Management/QUOINE
+Shareholders
+
+35% O ered for Public Sale
+
+Tokens Allocation
+
+20%
+Management/QUOINE Shareholders
+
+Year 1
+
+30%
+Community/Ecosystem
+
+15%
+Strategic Partners/ Institutional Buyers (long term holders)
+
+Year 5
+
+80%
+O ered to public
+
+Proceeds will go into Liquidity (50%), Product Development (20%), Operations (15%) and Legal/Regulations (15%).
+
+Use of Proceeds
+
+15%
+Legal/Regulation
+15%
+Operations
+20%
+Product development
+
+50%
+Liquidity
+
+35
+
+4.5 QASH Blockchain
+QASH will initially be built on top of Ethereum's ERC-20 Token Standard.
+By Q2 2019, QUOINE will create its own blockchain (QASH BLOCKCHAIN) that will have specific financial industry requirements already built in. Currently, none of the existing blockchains (including Ethereum) offer sophisticated tools to build any meaningful or scalable financial services on top of their blockchains (other than basic services such as payments and transfers).
+All QUOINE services will be migrated to the QASH BLOCKCHAIN and the existing ERC20 based QASH will also be exchanged to the newly created QASH token on the QASH BLOCKCHAIN.
+The QASH BLOCKCHAIN will support more sophisticated financial industry programming languages (Python-like language and other commonly used languages in the financial industry) for the design and construction of smart contracts that will allow financial institutions and fintech startups to build decentralized financial services on top of the QASH BLOCKCHAIN. When we launch in Q2 2019, the QASH BLOCKCHAIN will have the following features:
+1. KYC/AML 2. Node Management (Region Restrictions) 3. Financial Service Features
+a) Credit / Lending Management b) Market Data Distribution c) Margin Management d) Matching Engine e) Market Making Engine f) Issuance of new Crypto Tokens g) Banking h) Etc.
+QUOINE is creating a financial services based blockchain that will be powered by QASH. As more FinTech services utilize the QASH blockchain, we anticipate QASH becoming the token of choice by a growing ecosystem of financial service providers thus causing the utility of QASH to grow.
+36
+
+05
+Who Benefits
+37
+
+5.1 Individual and Institutional Traders
+Access to Great Technology
+Over the years, QUOINE has built state-of-the-art, high-availability, and highperformance technology for connectivity to the majority of global Crypto exchanges. This includes Smart Order Routing (SOR) and Order Management (OMS) technology to manage orders for each exchange in our network, in addition to a powerful real time market data infrastructure covering all relevant global Crypto exchanges.
+Access to the World's Liquidity
+The ever-increasing number of Crypto Tokens and exchanges presents both a significant opportunity and a challenge for investors and traders alike. Between USD 4 and 5 billion are traded daily in Crypto Token markets across dozens of exchanges, with volatility well over 10% in the recent past. This presents a sizeable opportunity for traders and investors.
+The chart below shows the spreads across major exchanges for BTC:
+
+3,460
+
+Bitstamp Coincheck Gemini Kraken BitFlyer CoinBase BitFinex
+
+3,368 3,388 3,365 3,392 3,391 3,365 3,363
+
+2017-08-08 05:33:06
+
+3,320 04:00
+
+Bitstamp
+
+Coincheck
+
+Gemini
+
+[Spreads across major exchanges for BTC.]
+
+Kraken
+
+BitFlyer
+
+CoinBase
+
+08:30
+BitFinex
+38
+
+Reduced Risk The challenge lies in having access to all the profitable opportunities in an efficient and secure manner, with as little risk as possible. At the time of writing, it is quite difficult (even impossible) to fully take advantage of these opportunities due to various factors. These range from counterparty risk to technology limitations, financial/banking restrictions, high price volatility, capital inefficiency, and an overall lack of clear and fair pricing. Counterparty risk alone poses a significant challenge when it comes to centralized unregulated exchanges. In the past year, every single one of the top five exchanges excluding QUOINE (measured by trading volume) has been hacked and had funds stolen, costing customers millions--and in some cases tens of millions--of USD in losses. Access to Professional-Grade Services The services that the QUOINE LIQUID Platform offers are already powerful when used on their own, but they can have a much stronger impact when coupled with our Prime Brokerage, Fiat Management Services, and sophisticated reporting tools. Trading at the scale our LIQUID Platform provides will no longer be the exclusive privilege of the few. We are launching a fully open, super-connected platform that will allow anybody, anywhere to participate and benefit from the trading opportunities that the Crypto economy has to offer. This is real democratization of finance.
+39
+
+5.2 Token Issuers
+Currently, there are hundreds of new Crypto Tokens being created to support various services their issuers intend to offer, across a variety of industries.
+The challenge, as discussed in previous sections, is that there is usually zero (or very limited) liquidity due to their being new issues. This poses a problem for new Crypto Token holders and issuers alike.
+QUOINE will open its Crypto-only exchange, QRYPTOS, to token holders and token issuers except for Crypto Tokens that would be categorized as securities or some other regulated financial products that QRYPTOS cannot handle with will not be listed in QRYPTOS.
+Token issuers will be able to leverage all of LIQUID Platform's technologies and services to create a market for their Token in QRYPTOS. Our LIQUID Platform will be capable of fully supporting the new emerging Crypto Token economy, and help eliminate the current liquidity challenges it is facing.
+Token Issuers will be able to auto-setup an initial/secondary offering and marketmaking, or as part of a managed service. LIQUID Platform's World Book and Market Data Services, coupled with specialized market-making strategies, will allow marketmaking for new Crypto Tokens--and in turn, the creation of liquidity and fair pricing for new Crypto Tokens.
+Features include
+· Web-based, self-service setup on QRYPTOS (www.qryptos.com) · Use of LIQUID Platform's high-performance Matching Engine · Market Data Services · Tools to do own market-making, or use LIQUID Platform's market-making as a service (Token Issuer will need to provide inventory)
+40
+
+5.3 Token Holders
+Early participants in the Crypto world who participated in ICOs and Token sales have a significant portion of their assets invested and tied up in various Crypto Tokens.
+The LIQUID Platform's success will benefit token holders by providing increased price stability and less market manipulation, leading to higher valuations of their Crypto Token assets.
+The LIQUID Platform will also provide token holders with the following additional services:
+Crypto Lending
+Token holders may lend their Crypto Tokens for a fee at QRYPTOS. Doing so adds liquidity to the Token market, by providing the necessary inventory for liquidity providers who trade on margin. This increases the overall liquidity of the specific Token.
+Token Liquidation Service
+When token holders have significant assets tied to a specific Crypto Token--and there is a need to liquidate quickly--this liquidation can disrupt the token market and can even cause token markets to crash. Holders can use third party services, but these are expensive, non-transparent, and can lead to information leakage.
+Using the LIQUID Platform, World Book and sophisticated automated order types, holders can liquidate large positions without disrupting the market for the Crypto Token--and without having to engage third party services.
+5.4 Financial Services Innovators and Society at Large
+Cryptocurrencies and their underlying blockchain/distributed ledger technologies are a key facilitator for many of the applications, products and services being introduced as part of the irreversible wave of innovation currently taking place in the financial services industry.
+This wave of new innovations, sometimes referred to as, "the FinTech Revolution", promises to completely disrupt traditional financial services on all fronts. It will ultimately
+41
+
+bring better, faster, cheaper, middleman-free financial services to everyone, including the world's estimated more than 2.5 billion "unbanked" with no access to banks at all. There are also countless "underbanked" individuals and businesses who can't get credit using traditional banking, due to lack of credit histories and other reasons. QUOINE's global network of exchange and banking relationships, regulatory licenses, and compliance/security frameworks can fill the gaps for many of the existing FinTech alternative models for intra-country and international remittances, payments and lending.
+We envision QASH to become the preferred token that can be used in the broader financial industry to power financial services as they migrate to decentralized platforms.
+42
+
+06
+QUOINE's Competitive Advantage
+Unlike most other Token offerings so far, the LIQUID Platform is a real product backed by a world class company (QUOINE). It has a strong management team with hundreds of years of combined financial technology experience, and live-scalable products that are already used by hundreds of thousands of active users.
+43
+
+6.1 World Class Team
+We have assembled a world class team with over 250 years of combined experience in Finance and Technology.
+Our team has a proven track record in Forex IT, Forex Trading, Algos, Equity Trading Systems, and FICC (Fixed Income, Currencies, and Commodities)--all combined with expertise in Internet and mobile technology.
+Most notably, we have built QUOINEX--one of the largest Cryptocurrency exchanges in the world. It is regulated by the Japan FSA and is fully aligned with the requirements of most regulated markets around the world.
+QUOINE's management team has worked at the following companies:
+· Financial Institutions: Goldman Sachs, Bank of America Merrill Lynch, Credit Suisse, Citigroup, Barclays, UBS, ANZ, Union Bank, Rabobank, Wells Fargo Bank, Bloomberg, Price Waterhouse Coopers, Simplex, Scotty D. Group, Capital Markets Trading, etc.
+· Internet and Technology: SoftBank Group Corp., SAMSUNG, SingTel, BSB, Hike, Gungho Online Entertainment, Grab, Luxola, Protiviti, SAP, etc.
+· Others: Mitsubishi Corporation, Anderson Consulting, AirAsia, Sephora, etc.
+6.2 Product Readiness
+Our core product development is already completed. There is zero risk on core product development.
+The LIQUID Platform:
+· Is connected to all the major reputable exchanges worldwide from a single platform.
+· Provides an unparalleled and powerful suite of trading services to both individual and institutional traders.
+44
+
+Our product-market fit is unquestionable.
+The Crypto economy needs liquidity and we are solving a fundamental problem. We will continuously improve our products using our cutting-edge technologies.
+We know how to scale. We built QUOINEX to become one of the largest exchanges in the world.
+As is the case with all startups, though, 90% of companies will unfortunately fail during product development and product-market fit stages. However QUOINE is already past that "valley of death".
+The Valley Of Death
+90% of companies fail here
+
+Product Development Risk
+Risk - Stage 1
+
+Product Market Fit Risk
+Risk - Stage 2
+
+Product Scaling Risk
+Risk - Stage 3
+45
+
+6.3 Exchange and Banking Relationships
+Over the past three years, QUOINE has built and connected with global exchanges and banks on all major continents--which the LIQUID Platform is able to leverage. The amount of work (resources, regulation, professional services) makes our LIQUID Platform truly unique.
+We have been able to build these relationships as we are fully compliant, regulated, and have never experienced any significant incidents or theft on any of our existing platforms (both QUOINEX and QRYPTOS).
+Exchanges: The LIQUID Platform is connected to over 15 Cryptocurrency exchanges around the world. We have already performed extensive due diligence to assess counterparty risk, and have implemented a tiered monitoring system.
+Banks: The LIQUID Platform has bank accounts in Japan, US, EU, Taiwan, Singapore, Philippines, Indonesia, with more to come. The account opening process takes anywhere from six months to two years--that is, if successful at all (most banks still reject and have a zero-tolerance policy for Cryptocurrency startups). Our team has succeeded where most others have failed.
+6.4 Regulated in Japan
+QUOINE's parent company QUOINE Corp. operates a fully-regulated Cryptocurrency exchange under the Japan Financial Services Agency and we were the first global exchange to be officially licensed on September 28th 2017 (License No. 00002).
+We are the first exchange in the world fully regulated at the country-level--bringing security, reliability, compliance, and governance across our entire range of products and services.
+6.5 Compliance and Security
+We are proud that QUOINE's products are the most compliant services in the Crypto Token space. With Ken Mazzio as our Chief Compliance Officer, a strong team of risk officers including an independent internal auditor, a Big 4 firm as our external auditor, compliance training for all employees, and an annual compliance plan agreed by our Risk Management Committee and carried out by our entire senior management team,
+46
+
+we have built a culture of compliance within QUOINE.
+We recognize the risks of money laundering and terrorism financing to the reputation of the Crypto industry and society at large, and we continuously strive to enhance our program to be the leading example of best practices in the Crypto world.
+This culture is what allowed us to open banking accounts around the world, where others could not. No other Crypto company has this much reach and depth, especially in fiat.
+QUOINE strictly complies with FATF guidelines when we operate in jurisdictions where the Crypto industry is not yet subject to specific AML regulation. We comply with all applicable laws and regulations of the jurisdictions in which we operate. We also use world class tools such as KYCsphere and Thompson Reuters World-Check One to manage our AML compliance and "Know Your Customer" obligations, perform sanctions screening (UN, OFAC, EU, etc.), and help identify Politically Exposed Persons (PEPs).
+On the Security and Privacy side, we took our years of experience working with bankgrade security and combined it with the most up-to-date tools and techniques to leapfrog traditional financial institutions. We have achieved a new FinTech-grade security program covering all the key security domains. These are:
+1. Access Control 2. Application Development Security 3. Business Continuity and Disaster Recovery Planning 4. Cryptography 5. Information Security Governance and Risk Management 6. Legal Regulations, Investigations and Compliance 7. Operations Security 8. Physical and Environmental Security 9. Security Architecture and Design 10. Telecommunications and Network Security
+In addition to our internal team, processes and tools ­ plus the state-of-the-art external security tools and services we use--we engage specialized external penetration testers and even crowd-sourced penetration testing services to stay ahead of wouldbe attackers. This protects the confidentiality, availability and integrity of our systems, information--and ultimately our users.
+47
+
+At QUOINE, security is a 24/7 activity. It's everybody's responsibility, managed by our Risk Management Committee which is comprised of our senior managers from all areas of the business, and supported by state-ofthe-art technologies and tools.
+48
+
+6.6 Exclusive Partnership with QUOINE (QUOINEX, QRYPTOS)
+LIQUID will have an unparalleled advantage on QUOINE's existing platforms, by forming an exclusive partnership to utilize common infrastructure, product tool sets, and knowledge sharing of best practices. QUOINEX (quoinex.com) One of the largest Crypto-Fiat exchanges in the world with over USD 12B annual transactions, and fully regulated in Japan.
+49
+
+QRYPTOS (www.qryptos.com) Our Cryptocurrency-only exchange. QUOINE will open up the platform for all token issuers as an automated self-serving platform, for both Initial Token Issuance and Secondary Exchange.
+50
+
+07
+
+Success Factors
+Proven Team
+Core Products Already Built & Battle Tested
+Exchange & Banking Relationships
+Regulated (Japan, etc.)
+Compliance & Security Frameworks
+Big 4 Auditor
+
+LIQUID
+
+OMEGA ONE
+
+BANCOR
+
+EXCHANGE QUANTAVE UNION
+
+RIALTO
+
+SALT
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+Fully Implemented
+
+Partially in place
+
+Not started
+
+N/A Not known/not disclosed Based on QUOINE research of White Papers
+
+51
+
+Competitive Landscape
+There are many companies trying to address a certain segment of what we offer. Unfortunately, none have the necessary Success Factors nor Product Features that we are ready to offer today.
+
+Product Features
+Aggregated Order Book
+
+LIQUID
+
+OMEGA ONE
+
+BANCOR
+
+EXCHANGE QUANTAVE UNION
+
+RIALTO
+
+SALT
+
+N/A
+
+Matching Engine
+
+N/A
+
+Smart Order Routing
+Realtime Currency Conversion
+Market Making
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+Fiat Management
+
+N/A
+
+N/A
+
+N/A
+
+Credit Lending Facility
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+Fully Implemented
+
+Partially in place
+
+Not started
+
+N/A Not known/not disclosed Based on QUOINE research of White Papers
+
+08
+Roadmap
+52
+
+QUOINE is building a global financial utility--an advanced platform the entire Crypto economy will use to great advantage; where anyone can participate as users and Token holders.
+Eventually, QUOINE LIQUID will become a complete financial ecosystem for the Crypto economy and we welcome everyone to join our exciting journey.
+
+Launched QUOINEX
+
+2014 Q1
+
+2015 Q1
+
+2014 Q2
+QUOINE
+
+incorporated
+
+QUOINEX Mobile App
+
+2015 Q2
+
+New High Performance
+
+2016 Q1
+
+Data Infrastructure
+
+Moved headquarters
+
+2017 Q1
+
+to Japan
+
+O ered Margin Trading
+
+QUOINEX Japan Registered with the Japan FSA license no. 00002
+2017 Q3
+
+Global Smart Order Routing & Cross-Currency Matching Engine
+
+2017 Q2
+
+Launched QRYPTOS
+
+QUOINE QASH Token Sale
+
+Support for Tokens and Self Service Token Listings on QRYPTOS
+
+2017 Q4
+
+2017 Q4
+
+New High Performance Multi-Market Matching Engine (5M+ transaction/sec)
+
+Launched QUOINE LIQUID Direct Market Access Beta
+2018 Q1
+
+2018 Q2
+
+Full Banking License
+
+Launch QUOINE LIQUID World Book Beta
+Prime Brokerage O ering
+
+O cial QUOINE LIQUID Launch
+
+2019 Q3
+
+Launch QASH Blockchain
+
+2019 Q1
+
+2019 Q2
+
+Expand service to Asset Management and Investment Banking
+
+2018 Q4
+
+2018 Q3
+Direct Market Access
+
+53
+
+09
+The Company
+
+9.1 Summary
+We have assembled a world class team with over 250 years of combined experience in Finance and Technology.
+Our team has a proven track record in Forex IT, Forex Trading, Algos, Equity Trading Systems,
+
+and FICC (Fixed Income, Currencies, and Commodities)--all combined with expertise in Internet and mobile technology.
+Most notably, we have built QUOINEX--one of the largest Cryptocurrency exchanges in the world, regulated by the Japan FSA and fully aligned with the requirements of most regulated markets around the world.
+
+54
+
+9.2 Leadership
+
+Mike Kayamori
+Co-Founder and CEO
+
+Inspired by the innovative disruption of blockchain and digital currencies, Mike co-founded QUOINE in 2014 with Mario. Mike brings over 22 years of experience in investments, business management, IT and venture capital across Japan, the United States, India and Southeast Asia.
+Prior to QUOINE, Mike was a Senior Vice President at SoftBank Group, managing its Asia operations and investments with SingTel and Bharti Group. He was also the CIO of Gungho Asia, the creator of Puzzle and Dragons.
+
+Before SoftBank, Mike was a Senior Director at Globespan Capital Partners, a Palo Alto-based venture capital fund with over USD1.2 billion under management.
+Mike holds a Bachelor of Law from the University of Tokyo and an MBA from Harvard Business School.
+
+55
+
+Mario Gomez-Lozada
+Co-Founder, President and CTO
+
+Mario was the Japan CIO and Head of Fixed Income IT Asia at Credit Suisse (CS). At CS, Mario oversaw projects related to the expansion of the Fixed Income, Currencies and Commodities business in Asia. He was also responsible for creating the FICC Global Development Center in Singapore.
+As Japan CIO, he worked closely with local regulators and was responsible for IT Risk and Control.
+
+Prior to CS, Mario was CTO of Merrill Lynch in Japan, spanning a 13-year career where he was responsible for all aspects of the bank's IT pertaining to the Fixed Income, Currencies and Commodities business.
+He was actively involved in early electronic trading initiatives, where he developed cutting-edge software for Sales and Trading systems.
+
+56
+
+Katsuya Konno
+CFO
+
+Katsu spent close to eight years at SoftBank Group. In his time at SoftBank, Katsu worked on many large M&A and venture deals worth over USD60 billion, including the acquisition of Sprint (US mobile carrier), Brightstar (global distributor of mobile devices), investments in Coupang (largest e-commerce platform in South Korea) and Snapdeal (largest e-commerce platform in India).
+In 2011­2013, Katsu led the establishment of SoftBank's venture capital arm in the US and Southeast Asia. He has also driven many financing
+
+deals, including financing for the acquisition of ARM Holdings Plc. (world's largest chip architecture developer), issuing mandatory exchangeable bonds backed by Alibaba Group Holding Limited (largest e-commerce company in the world), hybrid bonds, and more.
+
+57
+
+Ray Hennessey
+Chief Strategy Officer
+
+Ray has over 30 years of experience in IB technology, Risk Management, Finance, Management Consulting and Payments. Most recently, Ray worked in Thailand implementing a national payment scheme (PromptPay) for 21 banks.
+In Singapore/Manila, Ray was President/Principal of KPMG Management Consulting (Philippines). As Director, he spent over 5 years at Deutsche Bank leading Finance IT for Philippines & India. In Hong Kong, Ray was Executive Director, Head of IT and APAC COO for UBS Investment Bank.
+
+In New York, as Executive Director, Ray led the global OpRisk, SOx, Compliance and Audit IT teams at Morgan Stanley.
+He spent 5 years as Director and CIO at Merrill Lynch in Japan. Prior to that, Ray spent 10 years at Goldman Sachs (New York/London) where he was Vice President in the Equities Division.
+
+58
+
+Andre Pemmelaar
+Chief Trading Officer
+
+Andre brings extensive battle-tested experience in the practical application of AI to the world of crypto market-making. He has over 15 years' experience in the design and implementation of low latency, highperformance, automated trading systems.
+Andre spent 2.5 years at Simplex, where he spearheaded efforts to develop AI-driven marketmaking algorithms.
+His FX pricing algorithms are used to trade 20-30% of all retail FX traded in Japan.
+
+Andre's algorithms continue to be the most selected by Simplex's FX dealers to drive their FX marketmaking systems.
+Andre spent 6 years as Head of Systematic Trading at Scotty D. Group (SDG), the largest private non-bank JGB option market-maker by volume. Prior to SDG, Andre ran the Global Statistical Equities Arbitrage book for Capital Markets Trading, a Chicago-based market-making group.
+
+59
+
+Ken Mazzio
+Chief Compliance & Information Security Officer
+
+Ken brings nearly 30 years of experience in technology, information security (IS), cyber security, IT risk management, operational risk management, audit and compliance.
+In Singapore, Ken was Director, Head of APAC Audit at Barclays Bank, covering Technology and the bank's large change initiatives. Ken designed, implemented, and managed large bank programs to enhance governance, management structures; policies and procedures to comply with regulatory requirements of the Monetary Authority of Singapore and other regulators.
+
+Ken was with Merrill Lynch (ML) for 12 years based in Tokyo and Hong Kong. As Asia Head of IS and later Director, Head of Technology and Corporate Audit, Ken helped build ML's first global IS and privacy program across all business lines, and was responsible for implementing and managing it throughout Asia.
+
+60
+
+Seth Melamed
+SVP of Operations
+
+Seth has over 10 years of investment banking operations experience at Goldman Sachs (GS), across New York, Tokyo, Moscow, and Salt Lake City.
+Seth was Head of Equity Derivatives Settlements Americas, managing complex derivatives settlements for US institutional clients. Before that, he managed Treasury and Liquidity operations for GS in Russia, obtaining expertise in payments and cash management functions for investment banks. Seth led the GS Asia Derivatives Prime Brokerage operations in Japan and Asia, successfully expanding
+
+the client base. He was also involved in initiatives with CLS and SWIFT, including enabling same-day settlement in CLS. Seth served on GS' Payment subcommittee, working on efforts to improve payment security, anti-fraud measures, and developing the firm's global payment policy.
+
+61
+
+Katherine Ng
+Head of Marketing
+
+Katherine Ng is the Head of Marketing at QUOINE. Katherine was the Commercial Director at Luxola Indonesia (acquired by Sephora-LVMH). Katherine spearheaded commercial initiatives across datadriven digital marketing channels to drive revenue across email, onsite, social media, paid ads, and partnerships.
+Previously, she was the Head of Marketing at GrabTaxi and GrabCar Indonesia (now known as Grab, Southeast Asia's largest ride hailing app). Katherine was responsible for building and leading
+
+the marketing team, and helped ride volume grow more than 3x in the first quarter.
+Before Grab, Katherine served in the CEO Office of AirAsia (Asia's largest low-cost airline) for 4 years, managing special projects in the AirAsia group across commercial operations, corporate strategy, policy development, and process improvement.
+She started her career as an investment banking analyst in ECM Libra Investment Bank.
+
+62
+
+Pavel Pekanov
+Creative Director
+
+Pavel founded startups in AI, ML, Social Networking, Dating, and Messaging throughout 2013-2015.
+Prior to this, he ran a freelance creative practice since 2008, helping clients all over the world to launch their IT products, websites and apps.
+In 2014, while working as Creative Director/Art Director with new businesses, Pavel launched a private angel investor initiative, helping startups to get funding and expertise.
+
+Prior to becoming an IT-oriented professional, Pavel did installations (art), paintings, illustrations and music as a traditional designer/performer.
+
+63
+
+10
+Board Directors, Angel Investors and Shareholders
+64
+
+Masaaki Tanaka
+Board Director, QUOINE
+
+Senior Global Advisor Price Waterhouse Coopers International
+Former Representative Director and Deputy President Mitsubishi UFJ Financial Group
+
+Former Board Director Morgan Stanley
+Advisor Japan Financial Services Agency
+
+Atsushi Taira
+Board Director, QUOINE
+
+Representative Director, Chief Growth Officer Mistletoe Inc.
+Former SVP, Global Strategy SoftBank Group Corp.
+
+Former Chief Marketing Officer Yahoo! Japan
+
+Shozo Isaka
+Board Director, QUOINE
+Investment Group Leader JAFCO Co., Ltd.
+65
+
+Paul Kuo
+Investor, QUOINE
+
+Former Chairman International Bankers Association
+
+Former Board Member Tokyo Stock Exchange, Inc.
+Former CEO, Japan Credit Suisse AG
+
+Koh Boon Hwee
+Investor, QUOINE
+
+Former Chairman Singapore Telecom Group
+
+Former Chairman Development Bank of Singapore
+
+Former Chairman
+
+Former Board Director
+
+Singapore Airlines Limited Temasek Holdings Private Limited
+
+David Katz
+Investor, QUOINE
+
+Former Deputy Head of Global Government Relations Paypal
+Former Vice President Visa Inc.
+
+Former Executive Office of the President of the United States
+Former Foreign (Diplomatic) Service Officer U.S. Department of State
+
+Gen Miyazawa
+Investor, QUOINE
+
+Executive Vice President & President of Media Group Yahoo! Japan
+
+Hiroaki Yasutake
+Investor, QUOINE
+
+Former Director and Managing Executive Officer (CTO) Rakuten Inc.
+
+Shin Murakami
+Investor, QUOINE
+
+Executive Vice President & Chief Mobile Officer Yahoo! Japan
+
+66
+
+67
+
+11
+Join Our QUOINE LIQUID Community
+68
+
+QUOINE's story started when our two co-founders, Mike Kayamori and Mario Gomez Lozada, met in 2013 to discuss forming a Bitcoin exchange to facilitate liquidity in the cryptocurrency markets. This idea evolved into QUOINEX, a fully-functional trading platform and fiat/cryptocurrency exchange, which was launched in 2014. From the beginning, QUOINE believes that cryptocurrency markets will enable financial inclusion globally. Our mission is to provide global access to the next generation of financial services, powered by cryptocurrency markets. In 2017, we continued enabling market liquidity and efficient price discovery of cryptocurrencies with QRYPTOS, a crypto-only exchange that list the top altcoins in the new crypto economy. Today, we have now launched QUOINE LIQUID, a platform that offers World Book, Prime Brokerage, and other services. For the first time in our company history, we are making our platform and product roadmap for QUOINE LIQUID available to the entire world. We ask for your participation to be part of the QUOINE community to provide feedback on our business model, product, and participate together in our QASH Token Sale. Join us in the next revolution of financial services through QUOINE LIQUID.
+69
+
+12
+Reference
+70
+
+12.1 QUOINE Corporate Profile
+QUOINE is a leading global FinTech firm that provides trading, exchange, and next-generation financial services powered by blockchain technology. We believe Cryptocurrencies and blockchain technology will shape the future of financial services. We are also a FinTech company at heart, focused on our mission to make financial services accessible to all. With offices in Japan, Singapore and Vietnam, QUOINE combines a strong network of local partners with extensive team experience in banking and financial products, to deliver best-in-class financial services for all customers. In June 2014, QUOINE launched QUOINE Exchange--now known as QUOINEX--which became one of the largest Bitcoin exchanges in the world by transaction volume. QUOINE offers powerful trading features, a sophisticated user dashboard, and secure regulatory compliance to individual and corporate customers. QUOINEX provides trading services for Bitcoin and fiat currency pairs in Japanese Yen, US Dollar, Chinese Renminbi, Euro, HK Dollar, Indonesian Rupiah, Singapore Dollar, Philippine Peso, Indian Rupee, and Australian Dollar. QUOINEX has exceeded USD 12 billion in transactions over the past two years. Find more information about QUOINEX at www.quoinex.com. In 2016, QUOINE raised USD 20 million in investor funding. In June 2017, QUOINE launched QRYPTOS--a new Cryptocurrency-only exchange and trading platform. QRYPTOS is currently in beta desktop version at www.qryptos.com.
+71
+
+12.2 QUOINE Contact Details
+Address Singapore: 08-01, Lattice80, 80 Robinson Road, Singapore 068898 QUOINE https://quoine.com QUOINEX https://quoinex.com QRYPTOS https://qryptos.com
+72
+
+Website http://liquid.plus
+Telegram t.me/QUOINE
+Twitter https://twitter.com/quoine_SG
+Facebook https://facebook.com/QUOINE.SG/
+LinkedIn https://www.linkedin.com/company/quoine
+Reddit https://www.reddit.com/r/QASH/
+Steemit https://steemit.com/@quoineliquid
+YouTube https://www.youtube.com/channel/UCOR2GJnFoOgTazC5v6mBTSA/ featured?disable_polymer=1
+E-mail support@quoine.com
+73
+
+

@@ -1,0 +1,926 @@
+Token White Paper
+Global marketplace based on Blockchain for small-scale business
+2017 I ver. 2.25
+
+Contents
+
+Introduction
+
+3
+
+Issues
+
+6
+
+Target audience
+
+6
+
+Small-scale producer issues
+
+6
+
+Online shop customer issues
+
+8
+
+Market overview
+
+9
+
+Our solution -- Storiqa
+
+15
+
+Why do we need the Blockchain?
+
+17
+
+Why do sellers need Storiqa?
+
+18
+
+Why do buyers need Storiqa?
+
+22
+
+Platform Operation Principles
+
+23
+
+Storiqa rates for sellers
+
+25
+
+STQ tokens
+
+27
+
+Use of STQ tokens
+
+27
+
+Transmission of the project development to the STQ token rates
+
+28
+
+Cryptocurrency exchange listing
+
+29
+
+Token Sale
+
+30
+
+Become a Campaign Member
+
+32
+
+Token Sale Bonus system
+
+33
+
+Project team
+
+35
+
+Advisory board
+
+36
+
+Project roadmap
+
+40
+
+Introduction
+The position of cryptocurrency in today's world is growing rapidly: the combined market capitalization of all cryptocurrencies has increased more than threefold since early 2016, reaching almost $150 billion in August 2017. According to the latest data, the current number of unique active users of cryptocurrency wallets is estimated to be about 6 million. Thus, the application of cryptocurrency becomes an important issue.
+If cryptocurrency is designed to be a means of payment, then what can you buy with it right now? There are precedents of people using bitcoins to buy real estate and conduct other financial transactions, and each notable use of cryptocurrency becomes an event in the cryptofield and brings society closer to the widespread use of such currencies.
+But can you actually buy something from another person using bitcoins or "altcoins"?
+Even though more and more outlets and merchants are beginning to accept cryptocurrency as a means of payment, anyone in possession of a sum of bitcoins or "altcoins" can still not use them in day-to-day financial operations.
+The idea of creating a marketplace came to the project team after a crowdfunding platform where small-scale productions and startups find crowdfunding for the development of their projects and realization of their own ideas.
+In the space of 5 years, Boomstarter has helped fund more than 1,500 projects that have subsequently become full-fledged, profitable business ventures. That was when we found out that small-scale productions with real potential have no viable way of breaking into a global market. Through supervising and studying their work from inside we realized what impedes them from participating in global trade.
+1 -- https://coinmarketcap.com/charts/
+2 -- «Global Cryptocurrency Benchmarking Study», Dr Garrick Hileman & Michel Rauchs, Cambridge Centre for Alternative Finance, 2017.
+3
+
+The main reasons for the failures by scaling:
+Lack of customer's confidence in an unknown seller who offers goods of unconfirmed quality;
+Impossibility of providing the service at the level of an international company;
+Lack of multilingual twenty-four-hour customer support;
+Lack of skillful `package' of goods and multilingual localization;
+Lack of international marketing knowledge.
+We realized that small-scale producers all over the world need a place for further development and product launch to the international market.
+Building a system of e-commerce business is quite a sophisticated problem. The company has to spend a lot of resources on creating of a team and channels of distribution. In addition, one should know how to promote a product in light of trends and specificity of a particular market.
+
+E-commerce
+
+Marketplace
+
+Upkeep of a staff developer team
+
+A unified ready-to-use interface
+
+Costly development of channels of distribution (website, IOS applications, Android, Windows Phone, social media)
+
+Twenty-four-hour customer support
+
+Independent advertising management Marketing expenses reduction
+
+Problem of worldwide 24/7 customer support
+
+Assistance in product presentation and localization
+
+With an easy-to-use online store builder, any seller will be able to create their own storefront to sell their goods, while making use of the platform's wide range of features for a minimal fee. Our service offers great opportunities for selfemployed entrepreneurs, small-scale manufacturers, family businesses and makers
+4
+
+of handmade crafts, such as a selection of tools for direct customer feedback, bookkeeping, sales analysis, advertising and promotion, as well as a convenient, user-friendly interface.
+The online store builder which allows to build a multiplatform online sales channel and able to stimulate the promotion is an outstanding solution for any business. Such builder provides a ready-to-use interface and favours the development of the e-commerce through the high-quality service.
+The mission of such platforms consists in creating the environment where any user could manage to create a personal online shop and get the technical support without wasting his or her time on the activities which may distract from the production of high-quality goods.
+However, the market does not have solution which would combine an advanced system of e-commerce and new technology such as smart contracts, cryptocurrency payments, multiplatform integration and comprehensive twenty-four-hour customer support.
+Our aim is to offer such a solution to business!
+Storiqa is a marketplace platform designed to allow anyone to create an online store that will make good use of the most advanced technologies in the e-commerce field, including the option to pay for goods with cryptocurrencies and STQ tokens.
+Our aim is to connect producers all over the world and supply business with the necessary tools for launching of one-of-a-kind merchandise to the global market with minimal transaction fees and without any financial borders, intermediaries or annoying bureaucratic routine.
+We will unite producers from all over the world in order to create our own economical ecosystem that will take e-commerce to a new level.
+Storiqa Team.
+5
+
+Issues
+Although the e-commerce field is growing rapidly, getting started with selling your goods and services online is a daunting task.
+The business owner has to use his/her resources ineffectively: to spend time on the online shop management and to conduct advertising campaigns without assistance.
+What's worse, of small-scale producers getting into a global market requires considerable investments at the early stage and further monthly expenses for the maintenance of the online shop operations. Besides, the manufacture faces bureaucratic difficulties and transaction fees when conducting international payments. Few smallscale productions can meet that kind of financial demand and be ready to face the risks related to international sales and entering the new markets.
+Target audience
+Typical small-scale producers usually turn out about 50 product items and work in the local or regional market. The staff of such a company includes from two to ten people. Each of them combines several responsibilities and functions inside the company. Customer support and marketing are often managed by the business owner or one or two employees.
+Small-scale producer issues
+The main issues addressed by business owners when getting into the international market are as follows:
+Lack of twenty-four-hour multilingual customer support. Selling your goods internationally means being able to keep the buyer-seller feedback line open at all times in order to be able to assist customers in different time zones -- and the lack of live customer support makes communication much less effective;
+6
+
+Lack of localization. Small-scale producers are not able to present the translation of product descriptions and features taking into consideration the specificity of various countries which renders the launch to the international market impossible;
+High fees at the existing platforms and various charges of payment systems. The existing platforms withhold a considerable part of the cost, let alone payment system and conversion charges, transaction fees and taxes;
+Lack of customer's confidence in an unknown seller. The customer prefers verified sellers who offer goods of confirmed quality, while the unknown sellers with no reputation have to compete with them;
+Lack of proper "online sales pitch" for items. Each purchase, especially the one made online, is based on many parameters. The lack of the product description, parameters, good-quality photos, video overviews and customer reviews negatively impact sales;
+Impossibility of automatization. In addition to the all of the above issues, the small-scale manufacture owner is not ready technologically to make the online store completely automatic;
+Competition with global corporations. International corporations have a wide range of tools for marketing high-quality goods across the globe at their disposal, which small-scale productions do not have access to, making it impossible for them to go global;
+Cash deficiency. Businesses receive money from sales only after a certain delay, and increasing sales without factoring this into the equation will sooner or later prove to be an impossible task.
+7
+
+Online shop customer issues
+On the other hand, the list of issues related to the buyer's experience with small-scale producers is also quite long:
+Goods search. A great deal of unique goods made by small-scale producers have no adequate descriptions or photos, which hampers the search of the desired product. Besides, many good-quality items of small-scale production cannot be ordered online at all; Lack of proper "online sales pitch". Because of the lack of skillful presentation materials the customer cannot get a full overview of a product and as a result declines the purchase; Lack of reliable reviews. Without any way to confirm the authenticity of reviews posted on custom-made sites of online stores, customers are unable to form a true-to-life impression about the product; Lack of guarantees. Many online stores offer goods on an upfront fee basis, but not all customers are ready to risk sending money to an unfamiliar online shop which can turn out to be a short-lived website.
+8
+
+Market overview
+
+Under conditions of global economic growth, the online retail is gradually capturing its share of the international market of retail and enlarging the number of e-commerce platforms users both among customers and among sellers.
+
+The world e-commerce is getting a boost, with the turnover of $2.2 trillion expected by 2018. Rate of increase is 20%.
+
+2500 1875 1250 625
+
+900
+
+1 100
+
+1 490
+
+1 850
+
+2 000
+
+0
+
+2013
+
+2014
+
+2015
+
+Global e-commerce turnover ($ trillions).
+
+2016
+
+2017
+
+2 240 +248%
+2018*
+
+Each year the number of people who regularly shop online keeps growing. According to the Global E-commerce Report marketing study by Nielsen (a company focused on the FMCG industry marketing measurements), the number of online shoppers increases annually by an average of 16% and now it amounts to 1.66 billion worldwide.
+
+There are more than 1.5 billion customers of online marketplaces in the world:
+
+2,10
+
+1,85
+
+1,60
+
+1,35
+
+1,10 2014
+
+2015
+
+2016
+
+2017
+
+Number of customers by years (billions)
+
+2018*
+
+2019*
+
+2020*
+
+* -- Source: Statista. B2C e-commerce sales worldwide research.
+9
+
+The volume of the global e-commerce amounts to trillions of dollars annually. The leaders in expenditure are China, USA, Great Britain and Japan.
+In view of the consumer demand in the e-commerce field, more and more small and medium companies need the assistance of marketplaces for launching their products to new markets and attracting new clients.
+The huge volume of the global market stimulates sellers to enter the international platforms: Volume of B2C e-commerce markets ($ billions)
+
+China USA UK Japan France Germany South Korea Canada India Russia
+0
+
+250
+
+500
+
+2016
+
+2015
+
+Source: Statista. B2C e-commerce sales worldwide research.
+
+750
+
+1000
+
+Still for the majority of small enterprises the barriers to entry are hardly superable and the marketing budget expenses appear to be an unattainable luxury.
+
+10
+
+Marketplaces, in their turn, help solve this problem and offer a lot of benefits both for sellers and for customers:
+
+Access to the global market
+With low investments, the trade at the large marketplaces gives the access to the resources
+of a huge market segment.
+
+Opportunity to sell various goods
+The choice and variety of goods is extremely vast
+at the large marketplaces. This makes it possible to expand the range of goods in each single
+store.
+
+Large clientele
+Entering the market with use of e-commerce
+services the seller obtains the access to a broaden client base.
+
+Marketing cost reduction
+Thanks to the incorporated marketing
+tools the advertising support costs less.
+
+Payment convenience
+Thanks to modern ways of receiving
+international payments, the sellers will be able to obtain the pays form all
+over the world.
+
+Though online marketplaces have already caught on among sellers it is still expensive for small-scale producers to set up a shop there:
+Blanket fees of the platform and sale charges eat off a considerable part of the sellers' receipts;
+Expenses for the registration and establishment of the enterprise in the country where the platform is located in. The expenses of this kind are typical for Chinese marketplaces;
+Applying other formal procedures necessary for the start of trade;
+11
+
+Additional fees of the payment systems which marketplace works with (besides acquiring payment systems);
+Marketing and advertising costs which are necessary for traffic building.
+
+Approximate cost of online shop establishment and operation at various platforms (USD):
+
+11000 8250 5500 2750 0
+
+Ebay
+
+Amazon
+
+AliExpress
+
+Shopify
+
+Rakuten
+
+Storiqa
+
+95%
+
+67%
+
+54%
+
+95% of Americans have shopped online
+in the last year
+
+67% Millenials* prefer to make purchases in online shops than in the offline ones
+
+54% of clothes, shoe and accessory purchases have been made via marketplaces in 2017
+
+Source: Statista. B2C e-commerce sales worldwide research. * -- Generation Y
+
+Marketplace users have their own preferences and habits, depending on their affiliation to a certain consumer group and on the country of origin.
+
+Note also three main factors which online shoppers pay attention to: 70% of customers named the price as the main criterion for selection of goods in online stores; 80% of customers pay attention to the delivery cost and speed; 71% of customers take into account sales and promotional offers, when shopping; 12
+
+$1 600 -- an average annual expense sum of an online shopper; $648 billion -- market capitalization of the most popular e-commerce platforms.
+Source: Ecommerce Foundation, 2016
+
+According to the forecast of the eMarketer research agency, the market share of e-commerce companies in global retail trade is expected to increase and will have reached 15% by 2021. Thus, e-commerce is exhibiting considerable influence on the development of global trade.
+
+Market share of e-commerce companies in retail trade:
+
+16%
+
+12%
+
+8%
+
+4%
+
+0% 2015
+
+2016
+
+2017
+
+2018*
+
+* -- Source: Worldwide; eMarketer; 2015 to 2016
+
+2019*
+
+2020*
+
+2021*
+
+It is important that 45% of brand-name item purchases have been made in 2017 via marketplaces, not in the official online shops of the brands.
+According to the study "Unlock the Secrets to Building Your Global Ecommerce Business" conducted by the Payoneer payment system which provide worldwide payments for e-commerce market leaders, 41% of the companies presented at more than one platform, get the annual revenue equal to more than $150 thousand, while only 17% of companies operating at one platform obtain similar results.
+According to the sellers, each platform has its own comparative advantages, that is why the companies have to operate at various platforms.
+
+13
+
+The main criteria for marketplace selection: Focus on quality products; Large amount of traffic; Simple and fair rules; Support.
+
+In the respondents' view, payment security is the most important factor when choosing a payment system. Low rates and payment speed are also quite significant for the sellers.
+
+Factors affecting payment system choice:
+
+40%
+
+30%
+
+20%
+
+10%
+
+0% Security
+
+Fees
+
+Speed
+
+Easy of operation
+
+Support
+
+Combining all the benefits of marketplaces at one platform creates a comparative advantage over other market offers both for customers and sellers.
+Decentralization and the opportunities presented by the use of cryptocurrency in the project can cover the needs in speed, global market access, and transaction security.
+
+14
+
+Our solution -- Storiqa
+Storiqa is a platform created for buyers and sellers all over the world. With an easyto-use online store builder, any seller is able to create their own storefront to sell their goods, while making use of the platform's wide range of features for a minimal fee.
+Our service offers great opportunities for self-employed entrepreneurs, smallscale manufacturers, family businesses and makers of handmade crafts, including a selection of tools for direct customer feedback, bookkeeping, sales analysis, advertising and promotion, as well as a convenient, user-friendly interface.
+Storiqa integrates all the necessary tools for starting the trade and promoting the products to other countries' markets. This is useful not only for first-time entrepreneur and start-ups, but also for offline shops. An easy-to-use platform allows to create an online shop and manage it without additional expenses and staff.
+One of the main features of Storiqa is the use of blockchain technology, which allows to make the platform transparent, open and as safe as possible for both transaction parties, reduction of transaction costs and business costs, and simplification of the purchase process.
+Decentralization, globalization and the opportunities presented by the use of cryptocurrency in the project are our competitive advantages over other business solutions existing in the market today.
+Main advantages of the Storiqa platform:
+Extensive and easy-to-use service;
+Low fees;
+Low transaction costs;
+Detailed sales analysis;
+Advertising support of your business;
+Payment in popular cryptocurrencies (BTC, ETH, LTC etc.);
+15
+
+International markets access; Transparent and decentralized review system; Tools for customer communication and financial reporting; STQ token payment for goods and the platform services at special price; CPA network with opinion leaders for product promotion.
+The key part in the system is assigned to token. Paying for a purchase in tokens the customer may count on the best offer. The sellers' need to pay the fees and other platform services in STQ will make hard basis for stable condition of token value.
+
+Comparative advantages of leading e-commerce platforms:
+
+Comparison criterion
+Globality
+24/7 customer support
+Unique goods' availability
+Possibility of product localization Transparent review system
+Cryptocurrency payment available
+Cashback
+Warehouse management
+Affiliate marketing
+
+AliExpress Amazon
+
+Ebay
+
+Wix
+
+BigCom-
+
+constructor merce
+
+Shopify
+
+Storiqa
+
+16
+
+Why do we need the Blockchain?
+
+Cryptocurrency payment and smart contract implementation.
+Purchase payment in Storiqa is conducted directly and without any middleman involved, in any convenient currency. The smart contract implementation and the use of blockchain makes the transactions as safe and fast as possible.
+The smart contract transfers the money to the seller's account only when the item has reached its destination. So the customer pays only after receiving the product, which increases his or her confidence in the service and makes online shopping more attractive.
+
+Openness and transparency maintenance:
+Transaction transparency ensured by the blockchain technology;
+Honest customer reviews -- only customers who actually bought an item (with a confirmed transaction) will be able to comment on their customer experience;
+Token holders will get an access to the open-source statistics with real-time publication of important metrics of business processes and the platform development dynamics: purchases, the number of active stores and visitors, average receipt amount etc. This is the simplest and the most open way to monitor the platform development and forecast the increase of one's bonuses due to STQ holding;
+A platform-wide blockchain-based CPA network that guarantees transaction transparency across all open offers and no holds -- any webmaster will be able to see all purchases made through a referral link as recorded by the blockchain.
+
+Security guarantee:
+Safe purchase system: any customer can get a refund for a low-quality item at their sole discretion within 14 days* of purchase. This condition is included in each smart contract, and the money for the purchase will be refunded in cryptocurrency using the current exchange rate (through a cryptocurrency exchange platform).
+
+* -- or depending on local laws.
+
+17
+
+Example of correlation of e-commerce sales markets sizes:
+1500
+
+1000
+
+500
+$65 billion
+0 Average local sales market size
+
+$1 600 billion
+Global Market
+
+Why do sellers need Storiqa?
+
+1 Low entry. We offer an efficient, simple, and low-cost set of tools with a clear interface, loyal client base, all to make your goods available internationally.
+
+2 The possibility of entering the international market of consumables. Small-scale manufactures may undergo significant structural changes in consequence of growing amount of orders and margin. Higher workload of the basic infrastructure will increase their profitability and allow to expand the production and develop the company. They will also get a competitive advantage in those regions where the sector they work in is developed poorly for some reason or another.
+
+Example of correlation of e-commerce sales markets sizes:
+
+Management
+
+Sales department
+
+Accounting department
+
+3
+
+For suppliers
+
+3
+
+Team Leaders
+
+1
+
+For clients
+
+2
+
+Support
+
+IT department
+
+Multilingual support
+
+3
+
+Frontend
+
+3
+
+Conflict managers
+
+1
+
+Backend
+
+2
+
+Marketing department
+
+PR
+
+3
+
+SMM
+
+2
+
+SEO
+
+1
+
+18
+
+26 people
+
+Average rate of $1500 per month
+
+12 months
+
+$468 000
+
+Small-scale producers have a small staff (at the average from three to five people) and limited budgets, and do not have the possibility of fund raising.
+
+They cannot spend half a million dollars on business expansion
+
+Storiqa supplies all the services necessary for expansion, entirely supplanting marketing, sales, communication, support and IT departments. The price is by orders of magnitude lower than the expenses the entrepreneur would incur in case of independent full team building.
+
+50 items 2 people
+
+30 STQ per month $750 per month
+
+12 months 12 months
+
+18 000 STQ $18 000
+
+Placing the goods at the Storiqa platform and paying the annual fee of 18000 STQ the seller obtains the capacity of an online shop whose operating expenses amount to $468,000.
+
+3 The main factor which impedes the majority of small-scale producers from getting into the international market is a high financial entry barrier. It appears due to the necessity of building additional teams inside the project, whose responsibilities previously were often carried out by other employees (handling of rare (due to small amount) conflicts or formation of lease contract for a local billboard does not require the employment of additional staff). However, with the company amendment the employees become overloaded and fail to manage the increased amount of problems. At the same time the majority of companies cannot afford fund raising aimed at project development, and this problem stands in the way of business expansion.
+Storiqa allows companies to solve the issue of non-core activities related to product promotion and to concentrate on the main goal, i.e. efficient increase of production volume and expenditure reduction due to the growing amount.
+19
+
+4 8+ efficient and ready-to-use tools for successful sales, analysis, and customer feedback:
+Advanced Customer Analysis Tools Storiqa offers the mechanisms to constantly gather, analyze, and process customer data. The key metrics will allow sellers to promptly adapt to any changes in demand, since Storiqa makes tracking customers and adjusting your current business model a simple and elegant experience.
+Customer Feedback That Works Storiqa offers a set of tools for effective buyer-seller communication. The main reason of refusing a purchase is the necessity to see/touch the product or, in other words, learn more about its features. Today's customer wants to learn all the ins and outs of their purchase from the manufacturer directly, get involved in creating the unique product tailored to their wants and needs, and receive up-to-date information about any campaigns and offers straight from the source. Additionally, 30% of all customers prefer to place orders and ask any questions about their future purchase by phone. The integrated telephony allows to receive feedback calls from clients in two clicks, saving and playback of recorded calls, and monitoring of the performance of their call managers. Storiqa's customer support tools make it possible to get your customer feedback lines up and running, and increase sales through direct interaction with your clients.
+Integrated Marketing Tools We help our clients attract new customers for increased sales growth through easy-to-use integration with the largest partner networks, as well as by offering a wide variety of tools to track customer experience in order to make each and every store more client-oriented. Furthermore, Storiqa is preconfigured to work with many popular advertising platforms. Advertising and promotional expenses are automatically aggregated by our platform, which makes Storiqa incredibly useful for entrepreneurs.
+20
+
+5 Comprehensive support from the Storiqa team Business owners can always get in touch with the platform developers using our 24/7 support service, while any customer-related issues can and will be resolved with the help of Storiqa arbitration.
+6 Items can be sold for cryptocurrency or any fiat currency alike Sellers receive payment in the currency of their choosing, including cryptocurrency.
+7 Storiqa Community Services Storiqa is a community of helpful people! You can get in touch with the community to request description (with translations), photos and video and text reviews for the items you sell, using the platform's tokens as a reward. Crowdsourcing is the foundation of the Storiqa community ­ our flexible system will let sellers choose the exact combination of community services or a full community package for their store. In addition, requesting presentation content for your items will mark them as verified, showing your customers that everything you sell was tested and approved by the likes of them.
+8 Affiliate Marketing: Referral offers for reviewers  In addition, we also add an option to earn rewards through spotlighting an item: bloggers, reviewers and other people with an audience can review goods sold through Storiqa and earn tokens through referral links for each item bought. According to an inPowered sponsored Nielsen research, more often than not readers put their trust in reviews, test drives, reviewer articles and opinions of those who already owned and tried the item they want to buy.
+The research poll showed that:
+85% customers decide on a purchase after studying "live" reviews;
+67% are more likely to buy an item recommended by an expert in the field;
+69% put their trust into detailed reviews.
+These figures are more or less accurate for all online sale categories, from beauty products to phones and consumer electronics. And another important note to take from this analysis: customers see reviews published on third-party sites as more trustworthy than in-store posted reviews.
+21
+
+On the one hand, quality reviews for all items in stores help small-scale producers increase their online sales and earn the trust of their customers; on the other hand, there's a great number of video reviewers looking for affiliate offers to develop their channels and boost viewership (since only 3 reviewers out of 100 enjoy marketing revenues of any kind and as much as 50% of viewership traffic). Storiqa brings sellers and reviewers together. Reviewers can choose any item available through Storiqa and receive it for free in return for a review ­ in this way, things you sell will be deeply integrated into the reviewer's content and way of presentation, increasing your revenue tenfold compared to conventional advertising!
+9 Guaranteed influx of loyal customers Offering your goods for purchase using cryptocurrencies and STQ tokens will make your store accessible to a large audience of cryptocurrency holders; and, since cryptocurrencies and tokens are somewhat limited in their use, there will be a guaranteed customer base that will seek to exchange them for goods through Storiqa.
+10 Factoring data using platform-wide store rating Storiqa will form a platform-wide store rating based on a number of factors, such as delivery speed, quality of items and customer reviews. We will be able to use this rating to supply our clients with the factoring data that will help them eliminate cash deficiency as a problem.
+11 Loyalty program builder based on the proper CPA network We offer sellers a tool for creating loyalty programs by selling their goods at a discount or giving them to the community via CPA networks, for example for a review or a video overview. The platform will also provide the presence of world-famous bloggers whom the Storiqa participants can send product promotions offers to, and the promoted product sales interest.
+12 Free test of the platform effectiveness We offer our clients a 60-day free trial. In this period the company can carry out test placements of its products and ascertain the efficiency of the system.
+Why do buyers need Storiqa?
+1 Buying what you need from anywhere in the world Our platform will host millions of unique, tailor-made items created by smallscale manufacturers that you will not be able to buy in any large-scale online store. 22
+
+2 Any item can be bought for cryptocurrency or STQ tokens with minimal fees, while real-world currencies still remain relevant and valid.
+3 Increased cashback when paying with STQ tokens, as well as discounts for purchases made with the tokens.
+4 Convenient and simple search for the goods you need Storiqa offers an extensive catalog of items sold in stores across the platform with fine-tuned filters and categories, making finding the things you want to buy a simple experience.
+5 Guaranteed quality Storiqa isn't just another catchy name: the last two letters, QA, stand for Quality Assurance, and we mean it. We assume the responsibility of ensuring high quality service, and guarantee that the seller will send the buyer the exact item as described and outlined in the product description.
+6 Protecting customer interests and Storiqa arbitration We guarantee the high quality of items offered through Storiqa. If an item is damaged during shipping, the buyer can request arbitration through Storiqa and request a full or partial refund (using the current exchange rate for cryptocurrency-paid orders) after a review. If the refunded order was paid with STQ tokens, you will be refunded the exact amount of tokens regardless of the current exchange rate.
+7 Safe and secure smart contract deals When a transaction has been made, the seller can be sure that the buyer will receive their item(s) when and only when the it arrives at the destination. At the very moment that the seller sends the package, the buyer receives a tracking code, which will allow them to track their order real-time. The smart contract ensures that the money goes to the seller's account only after the item has reached its destination. Failing that, the buyer will be eligible for a refund within 14 days*.
+8 Honest reviews The smart contract records the interaction between the buyer and the seller, ensuring all reviews come from people who actually bought the item.
+
+* -- or depending on local laws.
+
+23
+
+Platform Operation Principles
+After the project launch store owners and buyers will get access to the basic functions. The seller will be able to offer their items through the general catalogue dividing them into relevant categories as well as create an autonomous online shop. The seller can customize a discount system (by percent or value). Once the mandatory fields on the main page (the store name, brief and full descriptions, warranty liabilities, delivery options and return policy, a logo, and a cover) and the catalogue (items with descriptions, prices, and covers) are completed, your store will be available for the first orders.
+Quality Assurance is an important part of the Storiqa system. That's what the last two letters of our name -- QA -- stand for. The buyer places an order through the platform and transfer the payment to a transit account not accessible to either the seller or Storiqa. Upon receiving the order the seller supplies the item in question to the special Storiqa warehouse, the Quality Assurance Department, where the item is checked for apparent defects, gets repacked and/or branded if necessary; there we also take pictures of the item. If the item does not possess the stated features or does not meet the quality requirements, it is returned to the seller. In case of successful verification the item is transferred to the logistics company chosen by the buyer and gets transport damage insurance at the expense of Storiqa. During
+24
+
+the course of the delivery the buyer can track the item using a tracking code and get notifications via e-mail. The payment for the order is transferred almost immediately the moment the item is delivered because of the smart-contract system. Should any problems that are insured events occur during the course of transportation, the buyer and the seller automatically get a refund.
+Quality Assurance is an important part of the Storiqa system. That's what the last two letters of our name -- QA -- stand for.
+Agents delivery interaction chart:
+
+1. Order placement and payment.
+
+Transit account with a blocked balance.
+
+4. The item is delivered to the buyer. Should any problems that are insured events occur during the course of transportation, the buyer and the seller automatically get a refund.
+5. Funds transfer at the time the goods are received by the buyer through a smart contract.
+
+3. The item is transferred to the logistics company chosen by the buyer and gets transport damage insurance at the expense of Storiqa.
+
+If the item does not possess the stated features or does not meet the quality requirements, it is returned to the seller.
+
+2. The item is supplied to the Storiqa warehouse after the order placement and the transfer of the payment to the transit account.
+
+Storiqa offers a 24/7 support of both sellers and buyers. Also call can be recorded, which helps to resolve disputes easier and quicker.
+Storiqa rates for sellers
+Storiqa offers three rate plans and each of the three grants particular advantages while using the platform. After the project launch all the stores will be working at the Basic rate (1 STQ per 1 item per 24h). This rate plan includes all the basic functions of the marketplace: an online shop with a catalogue, hosting, discount system and 24/7 customer support. In future we are planning to offer E-commerce (2 STQ per 1 item per 24h) and Premium (3 STQ per 1 item per 24h) rate plans. The E-commerce
+25
+
+rate plan will grant access to online card payments while purchasing the Premium rate plan will give the seller convenient communication tools (Voice over IP, chat, callback function and mailout), promotion instruments (enabling advertizing goods), offering items through the Storiqa catalogue (it has color, size and price filters which make the search convenient and efficient). The funds spent by the seller during the previous period are calculated on the 1st day of the next month and the said sum in STQ is charged off the seller's account. If there are not enough tokens on the account, they are automatically purchased through the integrated exchange customization program by charging a corresponding sum of money from a bank card.
+
+1 STQ
+per 1 item per 24h
+Basic
+An online shop with a catalogue, hosting and a
+discount system, 24/7 customer support.
+
+2 STQ
+per 1 item per 24h
+eCommerce
+Online card payments.
+
+3 STQ
+per 1 item per 24h
+Premium
+Buyer communication tools, promotion instruments, the
+opportunity to use the Storiqa catalogue.
+
+Storiqa Prospects. In compliance with the current e-commerce development trends, payments on Storiqa will be made through smart-contract deals, which will result in the safest transactions (the seller receives the money only after the item is delivered to its final destination). We will introduce mobile apps for Android and iOS for quick and easy shopping, a multi-currency wallet with the option to pay with cryptocurrency which will make it unnecessary to follow the fiat money rate. It will be possible to make a one-click purchase from any part of the world without any middleman involved.
+STQ tokens
+STQ tokens are issued for internal and external payments of the Storiqa system and also are the only payment instrument when you need to pay fees or pay for marketplace services. STQ token are deeply integrated into the system to ensure maximum trade flow -- as the number of agents using the system grows, the value of any cryptocurrency usually increases.
+26
+
+Selling STQ tokens STQ100 Fee
+
+Token holders
+Cryptocurrency exchange
+STQ / BTC, STQ / ETH
+Buying STQ tokens
+
+Buyer
+
+$100 payment
+
+Store
+
+Wallet $540 STQ 300
+
+Storiqa platform
+
+Wallet $100 STQ 0
+
+$
+
+$
+
+Bank system
+Adding or withdrawal of funds using a bank card or an account
+
+Use of STQ tokens
+Goods placement fee. Every month of items hosted in the marketplace shall be paid for with STQ tokens by each store. At the moment of the project launch the fee is going to be 10 times lower than placement offered by our competitors and will always remain low because the nominal fee size will decrease with the increase in the STQ tokens rate.
+However, a user does not have to have any tokens or be an expert on cryptocurrency exchange -- they can pay the fee using their bank card or a payment service, and the platform will automatically buy tokens with this money and will pay the fee. The absolute purchase of STQ tokens every time a customer uses the platform is extremely important, because it ensures quotes liquidity for STQ First Purchasers and permanent demand for tokens on the part of stores, which is the basic principle of the increase in token quotes.
+There will also be demand on the part of buyers as numerous stores will offer a bigger cash back and special prices to their clients that pay for goods with STQ tokens.
+However, this system won't show considerable surplus as the buyers will be expectedly using earned STQ tokens in fiat money transactions with their contractors. Therefore, this method will raise the liquidity for STQ First Purchasers but the influence on the market rate will be insignificant.
+Promotion services. Storiqa will offer online shops a wide range of services (prioritizing in search results, rating systems and appearance on the main page) allowing to attract more buyers. All these services can be paid for with STQ tokens.
+27
+
+Referral programs and rewards. The platform members will be able to additionally earn STQ tokens by taking part in referral programs and getting awards for CPA offers.
+Internal transactions of the members. To make promotion of goods in the global market more convenient we will create an integrated freelance exchange where you will be able to get services of localization, prepared items description, photos and videos at a fixed price. Besides, the payments are made with STQ tokens and no fee is charged. If the payment is made outside the platform, the members will lose their opportunity to resolve potential disputes in Storiqa arbitration, as well as price and quality guarantee.
+Making purchases in Storiqa stores using STQ tokens. Purchasing goods through the platform with tokens, the buyer can count on a bigger cash back and better offers. It's important to mention that all the transactions in cryptocurrency will be seen in the blockchain. By paying for an item using the platform, the buyer gets an additional protection of the transaction because of the smart-contracts and the Storiqa warranty.
+Consequently, to carry out a deal outside the platform is less profitable for both of the parties, as they get a number of advantages when using the system.
+Payment service for external stores. Any external store can start using the STQ tokens payment system and count on increasing buyers' demand, service of the highest quality and system guarantees.
+Transaction transparency ensured by the blockchain technology;
+Honest customer reviews ­ only customers who actually bought an item (with a confirmed transaction) will be able to comment on their customer experience;
+Token holders will get an access to the open-source statistics with real-time publication of important metrics of business processes and the platform development dynamics: purchases, the number of active stores and visitors, average receipt amount etc. This is the simplest and the most open way to monitor the platform development and forecast the increase of one's bonuses due to STQ holding;
+A platform-wide blockchain-based CPA network that guarantees transaction transparency across all open offers and no holds ­ any webmaster will be able to see all purchases made through a referral link as recorded by the blockchain.
+28
+
+Transmission of the project development to the STQ token rate
+The need to pay fees and additional bonuses to those paying with tokens grants the demand for tokens, which, on one hand, gives STQ First Purchasers an opportunity to leave the project and at the same time has positive influence on market quotes, as the only sellers of the STQ tokens will be the STQ First Purchasers.
+Supply of tokens is possible only on the part of the STQ First Purchasers
+Commission demand of stores.
+The value of STQ tokens, like any other currency, will be determined by people's willingness to accept them as the payment for their goods and services. Exchange liquidity will allow STQ to develop on external websites. In addition to this, partner projects will be able to pay with STQ tokens, making their transactions faster and more transparent and also succeeding in marketing and promotion because the system is popular and trendy.
+Therefore, the token rate is correlated with the Storiqa platform money turnover, its developments as a project on the system level. The more sellers and buyers, deals and activity on the platform, the more profit is gained by all the members. The placement fee is charged in tokens, which the sellers have to buy, either themselves or indirectly through STQ First Purchasers on exchange market. All this results in the increase in the STQ token circulation.
+It should be mentioned that the prices of the platform are adaptive -- if the token value rises, the size of the fee for hosting goods and services of promoting a store within the platform decreases in face value of the STQ token and is calculated according to the current token rate.
+The platform will not buy or sell tokens on day-to-day basis, leaving this activity to users. The platform fund will be permanently growing through collecting fees, but these tokens shall not be sold in the exchange market. Their future purpose will be determined upon analyzing the project development during its first years. In the
+29
+
+event of favorable business activity the said tokens can be used to finance the further development of the system.
+
+Cryptocurrency exchange listing
+Upon finishing the Token Sale campaign the tokens can be easily bought or sold on numerous cryptocurrency exchange markets. The number of exchange markets will grow with the increase in the platform trade turnover and the users' demand from different countries. Our team is planning to introduce STQ tokens to more than 12 international cryptocurrency exchange markets.
+There it will be possible to exchange STQ tokens for any of fluid cryptocurrency (BTC, ETH).
+
+Token Sale
+Token ticker Token sale starts Token sale ends Token Sale First Price Total Supply
+
+STQ 28th of November 2017 13th of February 2018 $0.003 no more than Hard Cap
+
+Token Sale has two main goals:
+Adoption of STQ token;
+Raising funds for developing and promoting the Storiqa platform.
+The distribution will be carried out through a smart contract. Raised funds will be used to launch the platform, integrate the token and finance promotion and marketing. Depending on the raised sum, we can execute our project on different levels.
+30
+
+Soft Cap -- $5 000 000 Hard Cap -- $25 000 000
+The Token Sale run ends when the Hard Cap threshold is reached.
+15% of emission is reserved for the team and partners, a share will be 3% each and will be unlocked as the project reaches the following token capitalization levels: Token Sale campaign end, $100M, $250M, $500M, $1000M. The process will be Escrow-controlled. As a result, it brings the STQ value interests of Token holders and the team together.
+10%
+15%
+10% 60%
+2% 3%
+10% -- development fund (the first part of it will be unlocked after a 9-month period for launch on the Asian market, and the second one -- after another 9months period to get introduced to the North American market); 10% -- Early STQ First Purchasers; 15% -- team; 3% -- to bounty rewards; 2% -- to advisory board; 60% -- The main part of the tokens is distributed through the Token Sale.
+After the Token Sale run all the further centralized token distributions will be carried out at the expense of the fund which is replenished with fee payments. The price
+31
+
+will be determined according to the market quotes. Also, it will be taken into account that additional sale creates oversupply and therefore the risk of the decrease in market quotes. The distribution method must completely mitigate this risk in order to protect the rights of the STQ First Purchasers (for example, through distributing the tokens over a longer period of time).
+Become a Campaign Member
+To become a member of our STQ First Purchasers, you will need to purchase STQ tokens by making an ETH transaction to our smart contract address. We accept ETH transactions made from wallets ONLY. Please note that you should NOT make the transaction using ERC20-incompatible wallets or cryptocurrency exchange accounts, as that may potentially lead to you losing control over the tokens you would otherwise have gained.
+Openness and transparency maintenance:
+
+Chrome extension
+
+Online wallet
+
+Requires installation
+
+32
+
+Token Sale Bonus System
+
+Purchase amount bonuses:
+
++2%
+for purchase
+of $100 000 and more
+
++5%
+for purchase of $150 000 and more
+
++8%
+for purchase of $200 000 and more
+
++10%
+for purchase
+of $300 000 and more
+
++15%
+for purchase of $1 000 000 and more
+
++20%
+for purchase of $1 500 000 and more
+
+Purchase amount bonuses:
+
+28 Nov -- 05 Dec
+Token price:
+$0.003
+Bonus:
+20%
+
+05 Dec -- 12 Dec
+Token price:
+$0.0036
+Bonus:
+18%
+
+12 Dec -- 19 Dec
+Token price:
+$0.0042
+Bonus:
+16%
+
+19 Dec -- 26 Dec
+Token price:
+$0.0048
+Bonus:
+14%
+
+26 Dec -- 02 Jan
+Token price:
+$0.0054
+Bonus:
+12%
+
+02 Jan -- 09 Jan
+Token price:
+$0.006
+Bonus:
+10%
+
+09 Jan -- 16 Jan
+Token price:
+
+16 Jan -- 23 Jan
+Token price:
+
+23 Jan -- 30 Jan 33
+Token price:
+
+14%
+09 Jan -- 16 Jan
+Token price:
+$0.007
+Bonus:
+8%
+30 Jan -- 06 Feb
+Token price:
+$0.01
+Bonus:
+2%
+
+12%
+16 Jan -- 23 Jan
+Token price:
+$0.008
+Bonus:
+6%
+06 Feb -- 13 Feb
+Token price:
+$0.015
+Bonus:
+0%
+
+10%
+23 Jan -- 30 Jan
+Token price:
+$0.009
+Bonus:
+4%
+
+34
+
+Project team
+RUSLAN TUGUSHEV CEO
+Co-owner of first largest crowdfunding platform Boomstarter.ru, owner of Tugush.com -- investment platform (more than 1500 investors, investment potential of $800 million).
+EVGENY GAVRILIN Co-founder
+Entrepreneur, founder of more than 10 companies. Cofounder of the Boomstarter platform which has already helped in fund raising of 1548 projects of various fields, such as business, technology, books, travelling, cinema, music and events. Author of Life of Bi, a youtube channel on business issues, with more than 400,000 subscribers.
+Founder of Netarin, the leading digital agency in Russia from 2014 to 2017, according to a number of ratings. Co-founder of the Tugush investment platform.
+NADIYA CHERKASOVA Early investor, the project consultant
+Senior Vice President and Director of the Small Business Customers Service Department at VTB24, leads the project for small and medium enterprise development and lending at VTB24*.
+35
+
+Advisory board
+PADDY TAN Advisor Founder at InterVentures Asia. He is armed with vast experience in identifying startups from an idea to mentoring, funding and acquisition stage. He improves the probabilities by running on the ground engaging founders, partners and VCs to make the whole business plan work.He possesses vast knowledge of how technologies can be integrated into different businesses and provides consultancy services to business leaders with a team of colleagues for digital technologies and system integration specialising in Change Management, Digital Marketing, Gamification and App Development.
+ALAN WONG Advisor Alan is a respected ecosystem builder, business advisor and serial entrepreneur with a unique combination of experiences in both large organisations and entrepreneurial startups. C-level experience in business development, marketing and technology at large Multi-National companies, such as Cable & Wireless and Huawei Devices.
+36 * -- Bank 2 in Russia by total asset on 01.09.2017
+
+SERGEI FEDORINOV Consultant on large e-commerce projects development He was the CEO and director general of Ulmart.ru. Ulmart is the only Russian company included in Deloitte's global top 50 of the e-commerce field, with a turnover of $800 million in 2016 and capitalization of $6 billion. Ulmart's distribution network features over 400 multiform points of sale in more than 240 cities and towns. In case of successful Token Sale realization, Sergei will be invited to head the company.
+MARK GINSBURG Advisor Blockchain evangelist. President of the Ukrainian Investment Holding. The seller of the first in the world real estate object sold for crypto currency using a smart contract and a full one cycle of technology.
+AUSTIN KIMM Advisor He is an international strategist for established and startup companies.
+37
+
+ALEXEY ANTONOV Marketing & Financial Advisor
+An entrepreneur and the blockchain technology expert. Well-known speaker on the subjects of blockchain and Token Sale and has authored several publications including some critical comments on questionable ICO projects.
+Alexey founded the company suicide.ventures which forging strategic pathways for promising tech. He has invested in 15 different ICO's and successfully managed several ICO projects (including SONM.io). Alexey has been actively involved in crypto currencies trading, making over 6000 trades on various crypto exchanges.
+NICKOLAI ORESHKIN Venture Capitalist, Blockchain Enthusiast, AI Futurist
+Investment professional, engineer and experienced entrepreneur with a proven track record in bringing early-stage technology from idea to disruptive growth. He is currently responsible for all aspects of deal sourcing, quantitative and strategic assessment, due diligence, deal structuring and negotiations at GVA Capital. Previously, Nikolai was an Associate Partner at F50 Ventures.
+Has experience in Venture Capital, Startups, Business Development, and M&A. His specialties include Consumer Mobile, Blockchain, Artificial Intelligence, Computer Vision, VR/AR.
+38
+
+WULF KAAL Entrepreneur, Technologist, Professor Wulf Kaal is a leading expert at the intersection of law, business, and technology. His research focuses on innovation, technology, blockchain technology applications, smart contracts, initial coin offerings, hedge funds, and dynamic regulatory methods. Kaal is the director of the Private Investment Fund Institute (PIFI). Before entering the academy, he was associated with Cravath, Swain & Moore LLP, in New York, and Goldman Sachs in London, UK.
+PETER XU Galaxy Group Partner Peter has served in leadership roles in the US and China in both Venture Capital and technology companies. He has led overseas investments of the Galaxy Venture Capital, a venture arm of Galaxy Group, an investor in fund of funds, venture capital funds and accelerators worldwide. He also has extensive experience in establishing partnerships with public trading companies and M&A funds to provide portfolio companies with stronger exit opportunities. Peter focuses on seed and early stage investments in AI, ecommerce, financial services and mobile sectors.
+39
+
+Project roadmap
+
+2016
+
+1 2 -- 3 quarter
+
+Market demands study Market analysis and analysis of the needs of customers and businesses Recruitment of early token holders for creating the prerelease version of the product ($200,000) Testing the business's launch to the international market Engagement of the first sellers Development of the strategy of business's launch to the international market Marketplace design project Launch of the first stores to the international market Resolving product logistics issues
+
+2 4 quarter
+
+Product development start Marketplace development Resolving international marketing issues Resolving multilingual support issues
+
+2017
+
+3 1 -- 2 quarter
+
+The earliest version of the product The development of the first version of the store Preparation for use of the blockchain technology in the project Start of composing the Whitepaper Engaging the stores in the platform testing The introduction of the stores to the platform potential Store builder Comprehensive catalog of all items Basic online store functions The second round of financing ($300,000)
+
+40
+
+4 3 quarter
+
+Token sale preparation The alpha version of the product Start of marketing campaigns on Token Sale Start of creating the Storiqa community Token pre-sale The presentation of the project for early investors Pre-sale funding ($500.000)
+
+5 4 quarter
+
+Pre-Token sale and Token sale The presentation of the basic functionality to the stores The project presentation for potential participants Start of funding for the launch of the product to the market The project presentation for potential participants in worldwide The product demo version Completion Token Sale MVP
+
+2018
+
+6 1 -- 2 quarter
+
+Cryptocurrency payment and smart contract implementation Acceptance of cryptocurrency payments Internal currency exchange system and Multicurrency digital wallet Launch of the first points of the verification of Storiqa Warehouse accounting system launch Smart contracts integrated with logistics systems
+
+7 3 -- 4 quarter
+
+Efficient promotion & Integration Unblocking 5% of development fund Efficient promotion tools Mobile application development Localization in additional languages Launch of the internal CPA network for opinion leaders Unblocking 5% of development fund US market entry Development of additional functions Integration with third-party services Launch of the goods to third-party platforms
+
+41
+
+

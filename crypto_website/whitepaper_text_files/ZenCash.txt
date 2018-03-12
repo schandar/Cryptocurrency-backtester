@@ -1,0 +1,1141 @@
+A blockchain-based protocol stack for global commerce and supply chains
+Whitepaper Version Update 22 December 2017 Authors: J. Scott Nelson David Henderson Glenn Jones Micha Roon Michael Zargham Aleksandr Bulkin Jake Brukhman Kenny Rowe Reviewers: Alex Felix Christian Crowley
+
+A supply chain is everything that produces, moves, stores, and reports on a product or service in commerce. on a product or service in commerce. Supply chain management is the science of managing commerce. Sweetbridge is a blockchain-based protocol stack that enables highly efficient supply chains and commerce without intermediaries.
+2
+
+Abstract
+
+4
+
+1. Introduction
+
+7
+
+2. Vision
+
+10
+
+2.1. Cheap liquidity
+
+11
+
+2.2. Low-risk settlement
+
+14
+
+2.3. Accounting: transparency, risk management, auditability
+
+15
+
+2.4. Resource sharing
+
+16
+
+2.5. Optimization and "liquid" talent
+
+17
+
+2.6. Risk management
+
+17
+
+2.7. Sweetbridge Alliance
+
+18
+
+3. Liquidity: Loans Without Interest
+
+19
+
+3.1. Bridgecoin: stable transaction currency
+
+22
+
+3.2. Collateral asset types
+
+23
+
+3.3. Sweetcoin: zero interest loans
+
+24
+
+3.4. Bridgecoin stability
+
+26
+
+3.5. Service providers: trust intermediaries and market makers
+
+26
+
+4. Settlement
+
+29
+
+4.1. Use case example: fast low-risk settlement
+
+30
+
+4.2. Data standardization
+
+33
+
+4.3. Settlement costs
+
+33
+
+4.4. Architecture
+
+34
+
+5. Proof of Concept
+
+36
+
+5.1. A detailed example using cryptocurrencies
+
+37
+
+5.2. Example 2: Sweetcoin
+
+41
+
+5.3. Sweetbridge treasury
+
+43
+
+6. Launch and Roadmap
+
+44
+
+Appendix A - Sweetbridge Adoption
+
+48
+
+Appendix B - Governance Model
+
+50
+
+Core beliefs on governance
+
+51
+
+Large organizations
+
+51
+
+Starvation model
+
+52
+
+A not-for-profit foundation
+
+52
+
+The Sweetbridge Foundation
+
+53
+
+Appendix C - Long-term Roadmap
+
+56
+
+Appendix D - Team
+
+58
+
+Appendix E - Advisors
+
+63
+
+Supply Chain
+
+64
+
+Technical / Blockchain
+
+64
+
+Legal / Regulatory
+
+66
+
+Economic / Monetary Policy
+
+66
+
+Retail
+
+67
+
+Abstract
+4
+
+Abstract
+Blockchain innovations are expected to have a profound effect on the $13T global financial industry.1 In this paper, we present a vision for applying blockchain technology to an even larger opportunity: supply chains that manage two-thirds of the $75T global GDP.2
+Sweetbridge is a technology stack and project alliance that solves four basic problems: 1. Lack of liquidity in supply chains, by creating an innovative collateralized liquidity economy; 2. Resource underutilization, by enabling asset sharing across organizational boundaries; 3. Suboptimal supply chain operations, by providing access to liquid professional talent and creating incentives for supply chain professionals to provide services based on objective measurements of outcomes; 4. Accelerating pace and scale of change, by creating more flexible and adaptive supply chains.
+To address these problems, Sweetbridge proposes to create a layered blockchain-based protocol stack in the service of a broad ecosystem of supply chain projects. The Sweetbridge project is a combination of bottom-up technologies together with a consortium of project alliances managed by a nonprofit foundation.
+The Sweetbridge protocol stack will be composed of five layers for (1) liquidity, (2) settlement, (3) accounting, (4) resource-sharing, and (5) optimization.
+This work first provides a high-level overview of the Sweetbridge vision and explains how it improves upon existing solutions applicable to supply chains. Next, we focus on the liquidity layer as a first step in the implementation roadmap. Subsequently, we present a proof-of-concept implementation of the liquidity layer using cryptocurrency as collateral. We conclude with the structure of our token offering that is designed to both help fund the project and jumpstart its ecosystem.
+This effort is the first in a series of projects that will lead to a new economic framework for all commerce, compatible with existing economies and regulatory frameworks but rethinking implementation with a heavy emphasis on next-generation technologies including artificial intelligence, internet of things, and blockchains. The Sweetbridge protocol provides a better way to finance commerce, efficiently utilize assets, and compensate participants.
+5
+1 Ross, Sean (2015, March 15). What percentage of the global economy is comprised of the financial services sector? Retrieved from investopedia.com. 2 The World Bank Group (2016). GDP (constant 2010 US$). Retrieved from worldbank.org.
+
+Abstract Section 1: Introduction describes the core problems solved by Sweetbridge. Section 2: Vision presents the long-term roadmap of Sweetbridge innovations and discusses their interdependencies and implementation roadmap. Section 3: Liquidity presents the dual-token cryptoeconomics3 and the protocol used to create liquidity based on a broad range of collateral assets. Section 4: The Settlement Protocol describes the system used to carry out and record supply chain transactions, enable transparency, and manage risk. Section 5: Proof of Concept presents a simple walk-through of the Sweetbrige Liquidity System and demonstrates how Sweetbridge will enable participants to create liquidity with cryptoasset collateral. Section 6: Launch and Roadmap discusses the near-term economics and fundraising plan for the Sweetbridge project.
+6 3 See, for example, https://www.coindesk.com/making-sense-cryptoeconomics/
+
+1 Introduction
+7
+
+Section 1 | Introduction
+
+The world's supply chains manage $54T in global commerce.4 Supply chains process, store, and move almost everything we interact with every day, from raw materials to finished products. Supply chains are based on the cooperation of all of the independent parties required to move products from producers to customers. They must have the ability to restructure on the fly in response to rapid changes in environment, economic constraints, and demand. Indeed, supply chains are real-world examples of vast decentralized autonomous networks which organize distributed activities at vast scales, sometimes larger than that of nations.
+With this in mind, Sweetbridge plans to address four pressing problems facing global supply chains today:
+
+Lack of Liquidity · At any given moment, there are 3.5 trillion euros ($3.9T) tied up in net working capital in supply chains.5 Liquidity solutions are frequently expensive, tie up borrowing capacity, and are often unavailable to companies that need it most. Working capital optimization is a critical need for supply chain participants.
+
+For an average invoice, a company must wait 42 days before receiving payment. Many businesses have millions of dollars tied up in their accounts
+
+Inefficient Allocation of Resources · Only 75% of the $70T in global supply chain assets are utilized at any given time.6 Factories, warehouses, planes, ships, trains, and trucks are expensive yet there is a surprising amount of excess capacity across the extended network. Companies maintain information silos and asymmetries as a competitive advantage and avoid disclosing their unused capacity. This prevents significant optimizations in supply chains.
+
+High Risks Inherent in Optimization · Organizations find it difficult to measure the performance of their systems and, consequently, to retain effective talent for the purpose of supply chain optimization. Enabling such optimization can easily lead to efficiency gains of 5 to 10% ($2.7T to $5.4T globally).7
+
+Disruptive Change · Today's disruptive pace of technological change (e.g., IoT, AIs, autonomous vehicles, 3D printing, Big Data, and blockchains) presents existential risks for entities from all industries. Current supply chain participants must increase their global agility, transparency, and efficiency to quickly respond to sudden shifts affecting today's markets.
+
+8
+
+4 Approximately two-thirds of global GDP - All economic activity that is product related (non-service) but including logistics, the World Bank Group (2016). GDP (constant 2010 US$). Retrieved from worldbank.org. 5 PWC (2015). Bridging the Gap 2015 Annual Global Working Capital Survey. Retrieved from pwc.com. 6 Capacity Utilization chart from: A. Gary Shilling's Insight Newsletter (December 2016, Volume XXXII, Number 12), Chart 13, page 6. 7 Tyndall, Gene and Kane, Doug (2013, February). Improving the Consumer Electronics Supply Chain: Applying Demand-driven Practices to Reduce Lead Times. Retrieved from tomkinsinc.com.
+
+Section 1 | Introduction
+
+These challenges represent a significant opportunity for global improvement of both supply chain efficiency and agility if participants understand the issues and apply technological remedies. Inefficient banking practices,
+
+Tower Records, Good Guys and Circuit City are just the first of many retailers Amazon will drive out of business if they don't
+
+outdated communication modes, unreliable
+
+change
+
+data sources, siloed organizational structures,
+
+lack of collaborative business practices, and insufficient transparency should be replaced with a new
+
+framework utilizing today's innovative tools, and business models.
+
+Better solutions are in development to harness the power and the technological underpinnings of blockchain technology.8 Blockchains improve on the economic, governance and management aspects of incumbent organizational systems by supporting the compelling vision of decentralized governance and economics.
+
+Blockchain technology may have a larger impact on supply chain than financial services
+
+Blockchains and other decentralization technology are well-suited to manage data, financial assets, and inter-enterprise transactions without the need for intermediaries. As a core principle,
+
+decentralized networks improve the quality,
+
+standardization, and accessibility of shared data while preserving privacy where appropriate.
+
+At the same time, the transition to a new paradigm must be supported by existing social frameworks in the supply chain industry, such as inter-enterprise and interpersonal relationships, trust networks, and expert networks.
+
+The Sweetbridge protocol stack will preserve these essential existing structures while using blockchainbased decentralized networks to create peer-to-peer solutions that address the problems facing supply chains and eliminate the core inefficiencies that hold back innovation and sustainable growth.
+
+9
+8 For a discussion of how blockchain technology improves economic efficiency see https://blog.coinfund.io/the-agency-problem-and-economic-efficiency-of-blockchain-systems-e4a8ae4ba0fc
+
+2 Vision
+10
+
+Section 2 | Vision The figure below presents an overview of the Sweetbridge architecture in the form of a protocol stack.
+
+2.1 Cheap liquidity
+
+Organizations need cash in order to fund their operations and generate value for customers. Liquidity gaps arise when a company has a surplus of non-cash assets and talent but lacks cash required to fund its ongoing operations. In
+
+A liquid asset is one that can be converted into cash quickly and with minimal market price impact
+11
+
+Section 2 | Vision
+
+order to avoid liquidity gaps, companies often pay a significant percentage of their income to lenders in exchange for collateralized cash loans. As a result, companies further constrain their non-cash assets by reserving them for collateral.
+
+Because we will measure financial outcomes, organizations can offer bounties for improved performance
+
+At the base of the Sweetbridge protocol stack lies the Liquidity Protocol (described in detail in Section 3). The Liquidity Protocol allows anyone to borrow money against assets they already own without using the services of a
+
+lender. It is designed to dramatically decrease
+
+the time required for any entity to convert assets, such as accounts receivable, real estate, inventory,
+
+equipment, and commodities into cash.9
+
+Smart contracts10 enable automated money supply management, implementation of specialized accounting rules, and a variety of pre-programmed behaviors associated with economic tokens. In Sweetbridge's Liquidity Protocol, token cryptoeconomics replaces banking services while providing access to low cost liquidity.
+
+Sweetbridge will create an economy based on two digital tokens, Bridgecoin and Sweetcoin.
+
+Bridgecoin, described in Section 3.1, is designed to be a stable cryptocurrency used as an easily accessible liquid transaction currency by participants. It is a cash-like asset that can be exchanged for fiat currency when needed.
+12
+9 http://www.investopedia.com/articles/basics/07/liquidity.asp 10 https://blockgeeks.com/guides/smart-contracts/
+
+Section 2 | Vision
+
+As recently as the 1850s, there were thousands of currencies in circulation - each issued by a different bank. These different currencies were known as banknotes. Bridgecoin is like a banknote but issued by the blockchain instead of a bank
+
+Bridgecoin will be issued using a participantlevel smart contract called an Asset Vault in exchange for a broad range of valuable collateral assets deposited by the participant. When Bridgecoin is repaid to the Asset Vault, the collateral will be unlocked for withdrawal, at which point the participant again regains custody of the asset. A small fee is assessed by the system for this service. This process serves the same purpose as asset-backed bank loans today, but the process is cheaper and simpler because there is no intermediary.
+
+The second token, Sweetcoin, serves as a software license that reduces liquidity fees for its holders, allowing them to use the system to borrow money, make settlements, and convert to and from fiat currency without cost.
+
+When Sweetcoin is added to a collateral portfolio and activated, the small fee that Sweetbridge otherwise charges to issue Bridgecoin will be reduced or eliminated. Activating a sufficient amount of Sweetcoin allows one to take loans that are completely interest-free. This process is described in detail in Section 3.3.
+
+When you buy and activate Sweetcoin, you help the network grow. As a reward, you receive nocost loans, currency exchange and trades
+
+Supply chain participants can use this token system to generate cheap liquidity on demand, while maintaining ownership and use of their assets. Sweetbridge will enable more liquidity than can be achieved through traditional loans and will accept a much broader range of assets as collateral.
+
+13
+
+Section 2 | Vision
+2.2. Low-risk settlement
+The liquidity created in the base layer of our protocol stack is utilized by its second layer, the Settlement Protocol, which is the subject of Section 4. The Settlement Protocol defines all the ways in which supply chain participants may transact with one another. It may be compared to TCP/IP, the protocol that governs the digital packet transmission layer of the Internet. Similar to Internet data packet routing standards, the Sweetbridge Settlement Protocol will provide standards for settlement and provision of goods and services. This will enable global optimization of supply chains through efforts of local actors. The protocol reduces or eliminates settlement risk caused by the failure of one party to pay another party. It does this by rerouting payments otherwise owed to a defaulting party to cover losses caused by that party. In other words, the protocol routes payment around the defaulting party like the Internet routes a packet around a failed router.
+14
+
+Section 2 | Vision
+
+The Settlement Protocol provides transparency into changes in the financial state of every participating entity, as well as reputational and historic information. The protocol will model existing trust relationships, allow resource sharing and will generate data used for accounting and risk-management.
+
+When you know the amount of money customers spend with an organization and the purchases that an organization makes, you can determine changes in key financial indicators without
+
+Bridgecoin generated by the Liquidity Protocol is
+
+financials
+
+the native transaction currency for the Settlement
+
+Protocol, but it will also accept other means of
+
+monetary exchange, such as fiat or cryptocurrencies. Sweetbridge will develop Commodity Bridges --
+
+public exchange services that will allow participants to convert fiat or cryptocurrencies into Bridgecoin.
+
+2.3. Accounting: transparency, risk management, auditability
+The third layer, the Sweetbridge Accounting Protocol, uses the information generated by the Settlement Protocol to provide transparency into changes in the financial strength of supply chain participants.
+The Accounting Protocol serves three purposes:
+· Transparency. It gives organizations a detailed view into their own economics and financing capacity. · Risk Management. It allows Sweetbridge to independently assess financial risks associated with any specific entity, similar to a credit score. · Auditability. It provides a detailed, permanent audit trail of all transactions completed.
+Risk assessments enabled by the Accounting Protocol improves the safety of transactions and further increases the economic efficiency of supply chains.
+The Accounting Protocol provides transparency into value entities generate. Consequently, future value can become a type of collateral on par with other assets, by virtue of having known risk and volatility. Using this collateral to create liquidity will provide additional working capital required for supply chain companies to grow and expand. The Accounting Protocol can reasonably estimate and risk manage future value of an organization when all of its transactions are available within Sweetbridge for a sufficiently long period of time.
+15
+
+Section 2 | Vision
+
+2.4. Resource sharing
+
+The fourth layer of the protocol stack is the Resource Sharing Protocol. It makes use of data generated by the three lower layers of the Sweetbridge protocol stack. It allows supply chain entities to generate additional profit through collaborative use of shared resources such as factories, warehouses, and heavy equipment.
+
+Conversely, today's economic environment rarely creates incentives for such collaboration. With Sweetbridge, we intend to promote transparency and effective resource sharing among supply chain participants across company boundaries.
+
+Asset sharing can increase the efficiency of global commerce by 10% to 20%
+
+16
+
+Section 2 | Vision
+
+2.5. Optimization and "liquid" talent
+
+The Optimization and Liquid Talent Protocol constitutes the final layer of the Sweetbridge protocol stack. It defines tools, APIs, and data aggregation which would facilitate the analysis of supply chain networks that would reward
+
+Because we will measure financial outcomes, organizations can offer bounties for improved performance
+
+supply chain professionals in the market on a
+
+contingency basis by objectively measuring the outcomes from their efforts. This is in stark contrast to
+
+the time-based salary or consulting fees of supply chain professionals today.
+
+2.6. Risk management
+Risk Management plays an important role in every layer of the Sweetbridge stack. Conceptually, it is comprised of algorithms and processes that span the Sweetbridge architecture vertically and permeate all the layers described thus far. Here is a brief summary of risk management constructs that we will build to interoperate with other aspects of the system:
+1. Chargebacks will cover risk in the Settlement processes by exchanging a collateralized asset that has lost value (e.g. an unpaid invoice) with another remittable asset the party is due (e.g. a newly created invoice from a different customer).
+2. Collateral assets are used to fill liquidity gaps and are locked into a smart contract. The smart contract may sell collateralized assets automatically on an open market if losses occur.
+3. Trust intermediaries put up their own collateral as a guarantee to cover losses for another party in exchange for a fee. Like today's professional lenders, these entities must perform the required due diligence on their counterparties. Here, due diligence is simplified as a consequence of the Accounting Protocol's ability to analyze and estimate the financial performance of supply chain entities.
+4. Network fees will be used to insure against and repay losses when they occur. They will also lower the total risk within the network by diminishing collateral liabilities when augmented by Sweetcoin in the Liquidity Protocol.
+
+17
+
+Section 2 | Vision
+
+2.7. Sweetbridge Alliance
+
+Long term, Sweetbridge aims to become a collaborative consortium of projects and research efforts that promote better-functioning global supply chain ecosystems. The Sweetbridge ecosystem will foster projects that:
+
+The Sweetbridge Alliance is open to everyone working to bring blockchain, IoT and AI to the supply chain
+
+1. Improve existing legal technology to support decentralized transactions in commodities, assets or physical goods on a blockchain. 2. Improve supply chain workflow management and coordination systems. 3. Enable provenance tracking in supply chains. 4. Improve scalability and usability of blockchain technology. 5. Provide sales and marketing channels within various ecosystems. Projects in this category focus on go-to-market strategy in industries such as retail, high tech, legal, and energy. 6. Improve point of sale and legacy system integrations and gateways.
+
+Sweetbridge is a multi-year effort of significant complexity aimed at two-thirds of the world's GDP. The remainder of this white paper focuses mainly on its early stages: the Liquidity and the Settlement protocols (Sections 3 and 4). Our proof-of-concept (PoC) system implemented on Ethereum will encompass these first two layers in their basic forms and will limit participating collateral to cryptocurrency only. The PoC is illustrated in detail in Section 5.
+
+18
+
+3 Liquidity: Loans Without Interest
+19
+
+Section 3 | Liquidity
+
+Traditionally, three sources determine a supply chain entity's purchasing power: revenue, investment capital, and credit.
+
+Reliance on revenue provides only minimal purchasing efficiency. Consider a factory that cannot create a new batch of product until the previous batch is sold and payment is received.
+
+Investment capital is expensive because it often constitutes a sale of future revenue, and in order to secure it, companies must transfer rights of ownership to parties whose interests may not align with those of the founders, employees, or customers.
+
+Credit requires additional expenses in the form of interest payments and locks up other assets as collateral, limiting their availability for other uses. These factors reduce an organization's ability to invest in new products and equipment. They also increase its Weighted Average Cost of Capital (WACC)11 when the organization tries to borrow for investment.
+
+According to the world bank, 50% of small and medium enterprises lack access to financing which hinders their growth
+
+Furthermore, barriers to borrowing exist -- which are often unrelated to an entity's ability to generate value. These include the laws and availability of capital in the company's country (or countries) of operation, the company's lack of history, the amount of equity on the company's balance sheet or bank risk concentration.
+
+The first step to carry out the Sweetbridge vision is to create a liquidity system that unlocks a participant's ability to transact beyond traditional methods of creating liquidity. A blockchainbased decentralized network permits such a system because the blockchain itself operates as a counterparty in the liquidity process. A blockchain-based liquidity system offers operational and financial efficiencies that significantly surpass those of current centralized lending organizations.
+
+At the outset, Sweetbridge envisions a system of collateralized liquidity that appears similar to that of banks. In particular, a party wishing to transact may put up collateral in exchange for liquid currency.
+
+However, a blockchain-based system distinguishes itself through cryptoeconomics. Collateral used to create liquidity is contributed in an automated process based on smart contracts in a cryptocurrency economy. Rather than "renting" money from a bank in exchange for a collateralized guarantee, the network can create and destroy money when collateral is contributed and repaid. This removes the need to pay expensive interest on money received in this fashion. The fees in a blockchain system can be significantly lower than those of traditional banking.
+20
+
+11 http://www.investopedia.com/terms/w/wacc.asp
+
+Section 3 | Liquidity
+
+A cryptoeconomic approach removes much of the frictions inherent in credit checks, signed documents, and loan applications. When an asset is onboarded onto Sweetbridge as a digital token, sufficient information becomes available to estimate that asset's risk and volatility parameters. Additionally, as the economy grows, so does the level of diversification of collateral. The decentralized network can collectively manage its risks and liabilities far more effectively than centralized financial institutions.
+
+The supply chains of the world generate $54T in GDP; there is no lack of collateral, only a lack of liquidity
+
+The risk profile of this collateralization process differs from the traditional counterparty risk normally managed by banks. This is because a decentralized network can access the liquidity information of all participants, not just a small number of unrelated counterparties.
+
+Within this new process risks can be spread out across the entire network, rather than concentrated on the books of a single lender. Consequently, this enables two enhancements: (1) a much larger percentage of liquidity may be safely unlocked without putting an unnecessary burden on any one participant, and (2) a much broader spectrum of assets may be used as collateral.
+
+Additionally, the Sweetbridge Settlement Bus, covered in Section 4, further enhances risk management by providing the network with greater visibility into entities' settlement and transaction processes. This settlement process can isolate risk within the network by using each party's unsettled orders and invoices as collateral to cover that party's obligations within the network. This lowers risk and reduces the need to use physical or financial collateral. An organization's ability to use unpaid orders, invoices and accounts receivable as collateral increases as the Sweetbridge settlement process gains adoption in any one supply chain.
+
+The Sweetbridge Liquidity Protocol will serve as the basis for the subsequent stages of the Sweetbridge vision. It creates the transparency and financial underpinnings required to enable other elements of our approach including asset sharing, risk management, settlement, insurance and performance based work.
+
+21
+
+Section 3 | Liquidity
+
+3.1. Bridgecoin: stable transaction currency
+
+In the Sweetbridge liquidity system, participants exchange collateral for liquidity in the form of a cryptocurrency specific to the Sweetbridge economy. This currency, Bridgecoin, is designed to be a stable cryptocurrency tied to a fiat national currency. Bridgecoin will serve as a means of transacting along the supply chain. Bridgecoin's price stability is ensured by support mechanisms discussed in Section 3.4.
+
+Bridgecoin is designed to be stable related to a fiat currency, allowing parties to conduct trade without fear of currency fluctuation. Current cryptocurrencies fluctuate
+
+Bridgecoin will eventually form not one but a family of stable currencies, each tied to a different national currency (e.g., BridgecoinUSD, Bridgecoin-EUR). Bridgecoin will feature commodity-pegged currencies (for example, Bridgecoin-Coal or Bridgecoin-Sugar).
+
+wildly in price which makes them Furthermore, as the pool of collateralized
+
+unsuitable for settlement in trade assets used in Sweetbridge grows, a universal
+Bridgecoin can be tied to the value of the overall
+
+collateral basket. This universal coin can even include such assets as a human resource's time and
+
+skill. The combined value of collateral under Bridgecoin will become an important measure of the
+
+overall Sweetbridge economics.
+
+For the purposes of this paper, we will assume Bridgecoin is tied to USD.
+
+The process of creating liquidity through collateral begins when a valuable asset is locked into a blockchain smart contract called an Asset Vault. The Asset Vault takes possession of the collateral for the period of time that it is locked. In exchange, the vault issues Bridgecoin to the owner up to a maximum amount set as a percentage of the locked collateral value. This percentage differs by collateral type and is based on risk assessment and volatility inherent to the asset.
+
+Within a specified period of time, users must repay the liquidity they received from the collateral vault. The amount repaid, the liability, will be slightly higher than the liquidity generated. This ensures that the operation and maintenance of the system are economically well-supported. The additional liability also incentivizes responsible use of the system and, compared to traditional interest rates, equates to a fraction of the cost.
+
+After the Bridgecoin liability is repaid to the Asset Vault, the Bridgecoin is burned. Burning a coin removes it from circulation and thus reduces the number of Bridgecoins in the market, which maintains a balance between collateral and Bridgecoin.
+22
+
+Section 3 | Liquidity
+
+Certain types of collateral such as cryptocurrencies or stocks may significantly fluctuate in value. In such cases where the value of the collateral in the vault drops below a certain threshold called the notice line, the user is notified by an oracle12 that they are approaching the point where their assets are at risk of being sold. To address this, the user can either contribute additional collateral to the Asset Vault or pay down their liability with Bridgecoin to make up the difference.
+
+If the value of the collateral drops further, and the necessary assets or funds are not contributed in time, a portion of the collateral may be sold by the treasury vault contract. This threshold, called the sell line, is set differently for different collateral asset types depending on their risk and volatility parameters.
+
+Users can set their notice line to any value between their collateral's value and their sell line. When the notice line is hit, users can receive an app notice, text or email
+
+Users are allowed to set their sell line at any value above a required minimum. This prevents correlated large scale sell events that could otherwise introduce instability into the Sweetbridge economy.
+
+3.2. Collateral asset types
+The Sweetbridge liquidity system is designed to work with many different types of collateral, even some types that cannot be used to guarantee traditional loans. Examples include:
+1. Cryptocurrencies and other cryptoassets 2. Physical assets such as real estate, heavy equipment, physical commodities 3. Conventional currencies and financial instruments such as stocks, bonds, loan guarantees 4. Future cash flows such as accounts receivables, outstanding invoices 5. Future products and services 6. Time, including valuable work time pledged by a professional or a team 7. Intellectual property
+Different types of collateral pose different risks and require a different set of procedures. Sweetbridge plans to standardize access to liquidity for these different types of collateral. Each will be represented digitally on the blockchain using smart contracts specific to its respective collateral type.
+23
+12 https://blockchainhub.net/blockchain-oracles/
+
+Section 3 | Liquidity
+
+Let's look at some specific examples:
+1. Cryptocurrencies are already digital blockchain assets, but their risk profiles and volatility levels differ. When Sweetbridge onboards additional cryptocurrencies, it will measure and specify these parameters.
+
+Sweetbridge is forming a legal ecosystem of projects, developers and lawyers to digitize supply chain assets around the world
+
+2. Discrete13 physical assets (e.g., heavy equipment, real estate) and financial assets (e.g., cash, stocks) will be onboarded by creating legal technology stipulating that ownership and custody be recorded on blockchain. In this form, asset ownership and custody can be controlled by a smart contract, such as the Asset Vault. In general, any legal obligation can be digitized in this way and consequently used as collateral to generate liquidity and fund transactions.
+
+3. Non-discrete assets (e.g. accounts receivable, inventory, commodities, factory capacity, time) can also be digitized as blockchain assets, provided that (1) an entity transacts exclusively through Sweetbridge, and (2) additional risk management mechanisms are available (See Sweetcoin, below, in Section 3.3).
+
+3.3. Sweetcoin: zero interest loans
+
+In addition to Bridgecoin, Sweetbridge will issue a second cryptographic token called Sweetcoin.
+
+Sweetcoin will be used to change the risk profile and repayment schedule of the collateral pool that
+
+uses it. Sweetcoin is a limited supply cryptocurrency and no additional Sweetcoin will be created after
+
+the initial token generation event.
+
+Anyone can use Sweetbridge, but
+
+The following summarizes the aspects of
+
+the right amount of Sweetcoin
+
+Sweetcoin behavior encoded into the Sweetbridge economic model:
+
+allows users to access liquidity for free
+
+1. Sweetcoin may be added to a collateral vault and activated. When Sweetcoin is activated, the liabilities a user has to repay will be reduced. Depending upon the amount of Sweetcoin activated, the borrowing fees may even become zero, allowing participants to create liquidity free of fees. When the outstanding Bridgecoin is repaid, Sweetcoin will be returned to the owner in the same amount as initially deposited.
+2. When Sweetcoin is used as collateral, the corresponding liquidity is always created interest-free.
+
+24 13 Discrete assets are those where every valuable item can be individually identified.
+
+Section 3 | Liquidity
+
+3. Additionally, activating Sweetcoin will allow a slightly higher collateral advance to be made available. This incents users to buy Sweetcoin and use it to create more liquidity from their existing assets.
+4. Sweetbridge will provide a treasury vault and commodity bridge that will permit exchanging Bridgecoin to and from fiat currency for a small fee. Users who activate Sweetcoin in a vault will be further rewarded by being able to use this service at a lower cost than non-Sweetcoin users.
+5. Finally, Sweetbridge users who use and activate Sweetcoin will be able to pay minimal or zero fees for using the Settlement Bus to transact with their counterparties.
+
+As an example, consider an asset vault made up of 500 units of Ether. Assuming the price of Ether is $200 and its collateralization coefficient is 50%, the user may withdraw 50,000 Bridgecoin from this vault at par value of one dollar per Bridgecoin. Assuming that the liquidity period is one year and the annual fee is 2%, the user will have to repay 51,000 Bridgecoin, inclusive of the 50,000 originally withdrawn to unlock the Ether at the end of the borrowing period.
+
+If, however, the user buys and activates the amount of Sweetcoin proportional to the value of their collateral in their vault, they will only have to repay 50,000 Bridgecoin. The exact formula behind this behavior is based on the total amount of collateral in the system as well as the total amount of Sweetcoin currently active.
+
+The Commodity Bridge is a money exchange service offered to the ecosystem participants by Sweetbridge. Users can use it to convert their Bridgecoin into fiat for a year and then convert it back to Bridgecoin for a significantly lower fee
+
+Sweetbridge members that use Sweetcoin help the network grow, so they receive network benefits for free as a reward
+
+than would be available on exchanges today.
+
+They could also use the Sweetbridge Settlement Bus to pay for goods or services without fees within
+
+their supply chain.
+
+25
+
+Section 3 | Liquidity
+3.4. Bridgecoin stability
+Bridgecoin is designed to maintain a stable peg to the US dollar. This stability is ensured by the following factors:
+1. Collateral is denominated in USD and Bridgecoin is issued in the amount equal to the USD value of the usable portion of collateral. To unlock the collateral, Bridgecoin must be repaid in the amount equal to that which was originally withdrawn. Because of this, price moves of Bridgecoin drive incentives for participants to either deposit collateral or withdraw existing collateral depending on whether Bridgecoin trades above or below its par value with USD. This is the primary stabilization mechanism for Bridgecoin. 2. Incentives will exist for specialized treasury entities (market makers) to contribute assets for creating an additional supply of Bridgecoin when needed or to sell assets to buy Bridgecoin when supply exceeds demand. Sweetbridge will become the initial treasury entity and will be funded by selling Bridgecoin in our token sale. Once the "drip" sale of Sweetcoin begins (see Section 6), a majority of the proceeds will go to the Sweetbridge treasury entity for this purpose. 3. Parties who have excess capital may contribute it to the system for a portion of the total fees the system receives for generating liquidity. Such users will take on risk by offering their currency holdings in exchange for Bridgecoin at par value, but will receive a portion of network fees in return. At periods of high Bridgecoin supply, the network generates higher fees to incent Bridgecoin redemption. This functions similarly to a money market account that allows a party to earn interest but still permits withdrawal of capital at any time. 4. Assets that have dropped too far in value will be sold on the open market for Bridgecoin at par value, creating further stability.
+3.5. Service providers: trust intermediaries and market makers
+Sweetbridge has a place for professional financial service providers to contribute value and capital to the economy. There are three distinct roles for such entities: (1) market making to balance supply and demand of Bridgecoin, (2) providing trust guarantees early in the life of the system, and (3) helping to onboard new entities onto the Sweetbridge platform.
+We have already alluded to market makers in Section 3.4 when we discussed mechanisms Sweetbridge will use to stabilize the value of Bridgecoin. The entities that can provide this service possess a large amount of free capital.
+26
+
+Section 3 | Liquidity
+Market makers generate revenue by buying Bridgecoin when it trades below target value and selling Bridgecoin when it is above target value. These trades are conducted on the Sweetbridge Commodity Bridge without fees so they have a trading advantage over other market players.
+
+Market makers take a risk of loss in case of a major market disruption, for example, due to a significant sudden depreciation of some class of collateral assets. In order to compensate them for taking this risk, Sweetbridge will pay them a portion of the transaction fees based on a measure of their consistent presence in the market.
+
+Banks and financial organizations should be able to earn higher returns than they do today by playing the role of a trust intermediary
+
+Trust intermediaries are another type of entity willing to receive income in exchange for taking risks. These participants will contribute collateral so that another entity is able to receive liquid funds. Sweetbridge has only a limited ability to assess risk associated with an expectation of future profits of a supply chain entity, such as a manufacturing organization. The risk assessment
+
+Unlike financing today, a company does not need a trust intermediary once their trading partners join the network
+
+27
+
+Section 3 | Liquidity is poor at the beginning of the process and improves over time as more of the organization's trading partners transact through Sweetbridge. To give such an organization the ability to create early liquidity, a trust intermediary may rent collateral to the entity's Asset Vault in exchange for a fee.
+The need for trust intermediaries exists in two different contexts: 1. At the early stages of Sweetbridge's lifetime, when existing information is insufficient for good risk assessment; and 2. When a new supply chain entity joins the network before it earns a credit rating because the entity has not yet converted all of its customers and suppliers to the Sweetbridge settlement process.
+Consequently, there will always be a need for trust intermediaries to help onboard new members to Sweetbridge. In this context, they will make an independent risk assessment and use it to negotiate the appropriate fee structure with the new participant that is in the early stages of onboarding.
+28
+
+4 Settlement
+29
+
+Section 4 | Settlement
+
+The key to a vibrant and efficient supply chain network is a common protocol for transacting in goods and services, including a standardized settlement process.
+
+Settlement is the process of exchanging information and making a payment. The Sweetbridge settlement process replaces the need for banks, credit card networks and EDI in this process
+
+A settlement protocol is akin to data transmission protocols used today in global packet-switched networks comprising the Internet. Common internet protocols such as TCP/IP underly a self-optimizing structure which is inherently decentralized and highly efficient. These protocols route data locally, yet allow global access to digital content and services.
+
+Similar to this TCP/IP model, the Sweetbridge Settlement Bus aims to create a global transaction network for delivery, storage, and processing of physical goods and services along global supply chains. This ability includes settlement of all trades within multiple tiers of a supply chain. Therefore, when party A fails to pay party B, the Settlement Bus can route other payments owed to party A to party B instead.
+
+The Sweetbridge Settlement Bus functions on top of the Sweetbridge protocol stack's Liquidity Protocol by using the liquid cryptocurrency generated through the collateral process. It also creates additional liquidity by providing visibility
+
+Orders and invoices don't need a marketplace to establish their value because the parties agree on the price in advance
+
+into the transactions constituting a supply chain
+
+entity's interactions with the outside world. For the purpose of this additional liquidity, the Settlement
+
+Bus introduces additional types of collateral including orders, invoices, and inventory.
+
+4.1. Use case example: fast low-risk settlement
+Let's consider an example. A customer buys a teddy bear toy from a retailer called "The Big Store." The Big Store will need to reorder teddy bears from its supplier in Phoenix, "Major Toys," who then needs to reorder the toys from a manufacturer in Virginia, "Fun Toys Company," who in its turn needs to order parts and materials from a Chinese manufacturer of toy parts, "Ming Zhou Toy Parts." Each of these steps takes time for both delivery of the items and for the payment of corresponding invoices. This is detailed in the following table:
+30
+
+Section 4 | Settlement
+
+Entity
+Big store Major Toys Fun Toys Company Ming Zhou Parts
+
+Time to delivery (days)
+0 10 10 21
+
+Time to payment (days)
+2 32 50 70
+
+Total time from shipping to payment
+2 42 60 91
+
+This table shows a total of 195 days of credit that must be secured by these supply chain entities in order to transact. Credit is expensive, ties up assets, and often cannot be secured at all, making it necessary for the company to pay its suppliers in cash. This creates a vicious cycle making it preferable for supply chain entities to delay paying their suppliers as long as possible, further exacerbating this dynamic.
+Sweetbridge's Settlement Bus allows entities to create liquidity by collateralizing future payments as follows:
+
+Entity
+Big store Major Toys Fun Toys Company Ming Zhou Parts
+
+Future payment
+
+Collateral vault value
+
+Credit card transaction for $100 $100
+
+Invoice to Big Store for $80
+
+$80
+
+Invoice to Major Toys for $64 $64
+
+Invoice to Fun Toys for $51
+
+$51
+
+Assuming that the risk of a chargeback on a credit card transaction is known to be less than 20%, the collateralization ratio of such transaction in the Sweetbridge asset vault can be safely set to more than 80%.
+Big Store needs $80 of liquidity to pay for the reordered toy immediately and the Sweetbridge Liquidity Protocol permits liquidity to be created immediately. Subsequent transactions in the chain are then determined to be of very reduced risk because the Settlement Bus has sufficient information about their upstream sources. The following table shows the Sweetbridge Asset Vault contents, available liquidity, and liability for these transactions:
+31
+
+Section 4 | Settlement
+
+Entity Big store Major Toys Fun Toys Company Ming Zhou Parts
+
+Vault collateral
+
+Available liquidity Liability
+
+Credit card transaction for $100
+
+$80
+
+$80
+
+Order from Big Store for $80
+
+$80
+
+$64
+
+Order from Major Toys for $64
+
+$64
+
+$51
+
+Order to Fun Toys for $51
+
+$51
+
+Not only can Sweetbridge settle all of these transactions immediately, it can now help entities create
+
+excess liquidity in case they need to expand or modernize - all at a fraction of the cost of traditional
+
+loans. Here, the risk is virtually eliminated
+
+All parties in a supply chain can make 2% to 4% more profit by simply using Sweetbridge for settlement
+
+because the Sweetbridge Settlement Bus can secure payments for transactions from their upstream source, in case the entity refuses to make the necessary payment.
+
+Sweetbridge liquidity is not only cheaper than
+
+traditional loans for the same time period, the Sweetbridge Settlement Bus also shortens the
+
+total time liquidity remains outstanding. This is because suppliers will be paid much faster by the
+
+consumers of their products. As a result, Sweetbridge estimates that the average company can
+
+reduce borrowing costs by 75% and increase liquidity by 25%.
+
+This situation only improves when supply chain entities enlist more of their trading partners to join Sweetbridge. As the volume and diversity of transactions grows, entities accumulate trading history and settlement reputation. This allows more accurate risk assessment of a company's ability to create liquidity using future revenue as collateral. This consequently will generate even more liquidity.
+
+32
+
+Section 4 | Settlement
+
+4.2. Data standardization
+The Sweetbridge Settlement Bus provides a common protocol for the exchange and storage of critical financial data.
+
+The design of the Sweetbridge network motivates everyone to add more trading partners to make more profit
+
+Currently, many of a supply chain's inefficiencies stem from data inaccuracies. These require an expensive reconciliation process between a large number of disparate data sources including paper documents, text files, Excel spreadsheets, and a host of proprietary database systems.
+
+The Settlement Bus provides a unified data protocol that is reconciled by definition since data exists in a shared database comprised of the blockchain and other immutable data storage facilities, such as IPFS.14 The Settlement Bus further lowers financial risks by eliminating data inaccuracies and by allowing unprecedented efficiency of financial data verification.
+
+4.3. Settlement costs
+
+Sweetbridge will assess different fees on different types of transactions to support frictionless and efficient supply chains. Depending on the type of transaction, there may be no fee at all, or at most, transaction fees may range between 20 and 100 basis points (0.2-1%). Furthermore, the transaction fees will decrease over time, as the ecosystem and its transaction volumes grow.
+
+The architecture of the Settlement Bus will be based on a suite of smart contracts where each type of
+
+transaction uses its own dedicated algorithm to fulfill the necessary functions, including calculating
+
+the fee. The smart contracts allow the system
+
+Users can use Sweetcoin to bring down or eliminate fees on the Settlement Bus
+
+to fluidly control the economics by changing these fees through a set of automated control algorithms designed to support stability and fluid operation of the Sweetbridge economics.
+
+33 14 https://github.com/ipfs/ipfs
+
+Section 4 | Settlement
+4.4. Architecture
+The following diagram shows the flow of data and payment between the seller's and buyer's account in the Sweetbridge Settlement Bus.
+34
+
+Section 4 | Settlement The Settlement Bus can be used to make payments in either Bridgecoin or fiat currency. This is achieved by using a Bank Interface oracle, which can send payment instructions to and receive payment information from banks. This is illustrated in the diagram below.
+35
+
+5 Proof of Concept
+36
+
+Section 5 | Proof of Concept
+
+In this section, we describe our product proof of concept (PoC) which is designed to implement and refine the Sweetbridge liquidity protocol described above.
+
+The volatility of the crypto markets provide an ideal test of stability of Bridgecoin against fiat currency
+
+The initial version of the PoC will create Bridgecoin liquidity by collateralizing exclusively digital blockchain assets such as Ether. While the system may be somewhat limited in this version, subsequent examples and illustrations demonstrate a compelling use case for the broader cryptocurrency community.
+
+Once the PoC has scaled and demonstrated the necessary characteristics such as stability and reliability, we will extend it to provide liquidity for discrete digitized assets. These include real estate or digitized commodities, such as Royal Mint Gold.15 Subsequently, we will further extend the PoC to non-discrete assets, including accounts receivable, business value, and even skilled resources and intellectual property.
+
+The goal of the PoC is to create a token that is stable against the US dollar +/- 1% within the highly unstable cryptocurrency market. Such stability will require experimentation within a real world operating environment of our algorithms that control supply and demand of Bridgecoin. An additional task will be to jumpstart the ecosystem by creating supplies of both Bridgecoin and Sweetcoin on the open market. Our initial token distribution is designed to achieve this goal as described in Section 7.
+
+5.1. A detailed example using cryptocurrencies
+Consider the following example:
+Alice is an early token holder of Ether (ETH) and believes in the long-term value ETH. Alice wants to buy a new computer, but she doesn't want to dip into her USD savings or sell her ETH in order to purchase the computer. Imagine Alice has 10 ETH and the current value of ETH is $200.
+To illustrate what happens in Sweetbridge, we present the economic value in multiple buckets using the following table:
+37
+15 http://rmg.royalmint.com/how-rmg-works/
+
+Section 5 | Proof of Concept
+
+Time Day 1
+
+Alice's assets 10 ETH
+
+Alice's liabilities
+
+Asset Vault
+
+Sweetbridge allows Alice to create liquidity by depositing her Ether and receiving Bridgecoin in
+
+exchange. ETH is deposited into and subsequently managed by an Asset Vault smart contract.
+
+Assuming ETH collateralization ratio of 50%, Alice may deposit 10 ETH and receive 1,000 BRC
+
+(Bridgecoin) in exchange (total value of Ether being $2,000, Alice receives half of that in Bridgecoin).
+
+If she borrows the money for a year, her liability becomes 1,020 BRC, the original 1,000 BRC of created liquidity plus a small excess liability of 2%
+
+Liquidity fees are like interest, the length of time determines the size
+
+if she repays the Bridgecoin exactly one year later.
+
+of the fee
+
+Time Day 1 Collateral Deposit
+
+Alice's assets 10 ETH 1,000 BRC (=$1,000)
+
+Alice's liabilities 1,000 BRC
+
+Asset Vault 10 ETH (=$2,000)
+
+At this point, Alice may spend her Bridgecoin to buy goods or exchange them for dollars on the open market.
+When the deposit period of one year elapses, Alice will need to repay her liabilities to unlock her Ether collateral. We assume here that the price of Ether remains stable.
+
+Time
+
+Alice's assets
+
+Alice's liabilities
+
+Asset Vault
+
+Day 1
+
+10 ETH
+
+Collateral Deposit
+
+1,000 BRC (=$1,000)
+
+Collateral deposit after a year
+
+1,000 BRC
+
+Collateral withdrawal (Alice pays out 1,020 BRC)
+
+10 ETH
+
+1,000 BRC 1,020 BRC
+
+10 ETH (=$2,000) 10 ETH (=$2,000)
+38
+
+Section 5 | Proof of Concept
+
+Alternatively, Alice can release a part of the ETH held in the vault to repay the liabilities. The system will sell the ETH for her, exchange it for Bridgecoin on the open market, and then will use that Bridgecoin to repay the liabilities. This would make sense especially if increased while Alice held her ETH in the asset vault. Assuming ETH price is now $250, here is how this would work:
+
+Time
+
+Alice's assets
+
+Day 1
+
+10 ETH (=$2,000)
+
+Collateral Deposit ETH prices increases after a year
+Collateral sale
+
+1,000 BRC (=$1,000)
+5.92 ETH = (2,500 1,020)/250
+
+Alice's liabilities
+1,000 BRC 1,020 BRC
+
+Asset Vault
+10 ETH (=$2,000) 10 ETH (=$2,500)
+
+39
+
+Section 5 | Proof of Concept
+
+If, however, the price of Ether drops, then some collateral may be sold automatically by the system. Assuming that a sell line for ETH is set at 75%, some of Alice's collateral will be sold
+
+The user sets the notice line and how they want to be notified when the value of their collateral drops
+
+when the value of her ETH falls below $1,500 (75%
+
+of $2,000). The Sweetbridge system will send Alice several notifications prior to a sale taking place,
+
+recommending that Alice repay some of her liabilities prior to automatic sale. Assuming that Alice
+
+repays her liabilities, the picture will look like this:
+
+Time
+
+Alice's assets
+
+Day 1
+
+10 ETH (=$2,000)
+
+Collateral Deposit
+
+1,000 BRC (=$1,000)
+
+ETH prices decreases after a year
+Alice repays 100 Bridgecoin to cover liabilities
+
+Alice's liabilities
+1,000 BRC 1,020 BRC 920 BRC
+
+Asset Vault
+10 ETH (=$2,000, sell line at 75% = $1,500) 10 ETH($1,750, sell line still at 1,500$)
+10 ETH (=$1,750, sell line at at 1,300$)
+
+If, however, Alice chooses to wait and the price of Ether drops even further, the Sweetbridge vault will sell some part of her collateral automatically on the open market and charge a penalty for doing so.
+
+Time
+
+Alice's assets
+
+Alice's liabilities
+
+Asset Vault
+
+Day 1
+
+10 ETH (=$2,000)
+
+Collateral Deposit
+
+1,000 BRC (=$1,000)
+
+ETH prices decreases after a year
+Alice takes no action. Sweetbridge sells 4 ETH worth $60016
+
+1,000 BRC 1,020 BRC
+
+10 ETH (=$2,000, sell line at 75% = $1,500)
+10 ETH ($1,750, sell line still at 1,500$)
+
+500 BRC (1020 - 600 + 6 ETH (=$900, sell line
+
+80 penalty17)
+
+reduced to $675)
+
+40
+
+16 The exact amount sold by Sweetbridge is for illustration purposes only and will be defined by the exact algorithm. 17 The numbers are for illustration only. The exact size of the penalty is to be determined based on actual behavior of the users and economic fundamentals of the system.
+
+Section 5 | Proof of Concept
+
+5.2. Example 2: Sweetcoin
+Now let's imagine Alice wants to make better use of her funds. When Sweetcoin is activated in the vault, the system will reduce Alice's liabilities automatically. Additionally, Sweetcoin activation causes an increase in the collateralization ratio of assets so Alice could borrow more if she wanted.
+
+Time
+
+Alice's assets
+
+Day 1
+
+10 ETH (=$2,000)
+
+Collateral Deposit
+
+1,000 BRC (=$1,000)
+
+Alice buys 50 SWC, (assuming SWC costs $2)18
+
+900 BRC, 50 SWC
+
+Alice activates SWC 900 BRC
+
+Alice is able to withdraw additional 100 BRC on the same collateral pool
+
+1,000 BRC
+
+Alice's liabilities 1,000 BRC 1,000 BRC 1,000 BRC 1,100 BRC
+
+Asset Vault
+10 ETH (=$2000)
+10 ETH
+50 SWC ACTIVE 10 ETH 50 SWC ACTIVE 10 ETH
+
+41
+18 $2 equals fair value of Sweetcoin when the total amount of collateral in Sweetbridge is about $40M. Fair value will increase as system use increases, but so will the amount of liability forgiveness. This does not account for speculative value.
+
+Section 5 | Proof of Concept
+
+While it appears that Alice's liabilities have increased for the same amount of liquidity, Alice now has 50 SWC in her vault in addition to 10 ETH. The table below shows what happens assuming that Sweetcoin market price doesn't change:
+
+Time
+
+Alice's assets
+
+Day 1
+
+10 ETH (=$2,000)
+
+Collateral Deposit
+
+1,000 BRC (=$1,000)
+
+Collateral pool with active Sweetcoin after a year
+
+1,000 BRC
+
+Alice sells her Sweetcoin for $2 each
+
+1,000 BRC
+
+Alice withdraws collateral to repay 1000 BRC
+
+10 ETH (Total value $2000)
+
+Alice's liabilities 1,000 BRC 1,100 BRC 1,000 BRC [0 BRC]
+
+Asset Vault
+10 ETH (=$2000) 50 SWC ACTIVE 10 ETH 10 ETH
+
+We see that by using Sweetcoin, Alice created liquidity of 1,000 BRC for her own use at no cost. Instead of paying a $20 fee, she invested $100 in Sweetcoin to borrow another $100 which saved her $20. This scenario assumes that neither the price of ETH nor of SWC has increased. Alice's benefit would be higher if either of these assets appreciated while being held in the vault.
+
+42
+
+Section 5 | Proof of Concept
+
+Alice may sell her Sweetcoin, but more rational behavior would be to invest $40 and use it as collateral for an interest-free loan for five years while retaining ownership of it.
+
+Time
+Day 1
+Collateral Deposit
+Collateral pool with active Sweetcoin
+Alice Pays off her ETH and add $40 to continue to own her Sweetcoin
+
+Alice's assets 10 ETH (=$2,000) 1,000 BRC (=$1,000)
+1,000 BRC
+
+Alice's liabilities
+1,000 BRC 1,100 BRC
+
+10 ETH + $40 of BRC added to account
+
+60 BRC19
+
+Asset Vault
+10 ETH (=$2,000) 50 SWC ACTIVE 10 ETH
+50 SWC COLLATERAL
+
+This way, if SWC appreciates, Alice retains the ability to profit from reselling it at a higher price but only has to spend $40 dollars to have a $100 investment in Sweetcoin.
+
+5.3. Sweetbridge treasury
+Sweetbridge will offer Sweetcoin users the ability to exchange Bridgecoin for USD without having to pay exchange fees. This service will be provided by the Sweetbridge Treasury, a special Asset Vault managed by the Sweetbridge Foundation that can issue Bridgecoin with USD as collateral. The USD will be held in the Sweetbridge bank account and contractually assigned into the Sweetbridge Treasury Vault. As part of the future decentralization roadmap, Sweetbridge plans to allow other entities, such as banks, to perform a similar service.
+Sweetbridge will use the treasury to hold the funds received from the initial sale of Bridgecoin. These funds will be used to support the Bridgecoin price and to provide cheap redemption services to ecosystem participants.
+
+43 19 Exact number depends on the collateralization ratio of Sweetcoin.
+
+6 Launch and Roadmap
+44
+
+Section 6 | Launch and Roadmap
+The release of the Sweetbridge PoC Liquidity protocol will occur shortly after the close of the initial crowdsale of Sweetcoin and is designed to generate an early supply of liquid Bridgecoin. Sweetbridge will sell Sweetcoin only in exchange for Bridgecoin. Bridgecoin will be initially sold at par value equal to $1 through the Sweetbridge treasury contract (see Section 5.3) and later generated through cryptocurrency Asset Vaults. Until the Asset Vault smart contracts are launched, Sweetbridge will freely issue and redeem Bridgecoin for its denominated fiat currency at par value using the treasury contract.
+Sweetbridge will create a smart contract which implements a reservation queue for those who wish to purchase Sweetcoin. Sweetcoin will be released for purchase in multiple tranches. Each successive tranche will be priced slightly higher than the one preceding it. Participants wishing to buy Sweetcoin will place Bridgecoin into the queue. When a new tranche is issued, it will execute against the oldest slots in the reservation queue first. This ensures that earlier participants receive a better Sweetcoin price than those who join later. To drive wider distribution of the tokens, the reservation queue may place restrictions on the total amount of Sweetcoin that can be purchased in a given time period by a single participant. Users who no longer wish to buy Sweetcoin may leave the queue at any time.
+The release of Sweetcoin to early supporters of Sweetbridge will proceed in stages, starting with a closed offering to strategic partners and advisors, followed by a measured benchmark-based release of Sweetcoin to the public called a "drip." The "drip" will initially proceed in a discretionary manner, taking into account the total amount of collateral locked in Sweetbridge vaults, the market price of Sweetcoin, and the amount of USD liquidity demanded by the market. The "drip" will be oriented towards releasing only the amount of Sweetcoin appropriate to the current utilization of the liquidity system, while also dampening speculation in the market. Token offerings will be priced at a discount to the available market price.
+The "drip" will subsequently switch to use an algorithmic process based on objectively measured benchmarks of system utilization.
+The total amount of Sweetcoin released to public over time will be 65% of total Sweetcoin supply. In addition, 10% of Sweetcoin is reserved for non-profit social enterprises to help create sustainable economic activity and 5% of Sweetcoin is reserved for funding future alliance partners. These reserved tokens will be released on a pro rata basis to the public release. 9% of Sweetcoin is being held in a reserve and 11% will be issued to team members and advisors.
+The public release will proceed through the entire lifetime of Sweetbridge in continually decreasing quantities. The queue contract will be utilized as the means to organize all Sweetcoin releases. The specific time and price structure of the token offering will be communicated to the public in subsequent posts.
+45
+
+Section 6 | Launch and Roadmap
+The funds raised through the public offering of Sweetcoin will initially go toward developing the Sweetbridge protocol stack and to finance the Sweetbridge Foundation. At later stages an increasing percentage of the funds received through the sale of Sweetcoin will go to the treasury contract to ensure the economic stability of the ecosystem and provide price-support for Bridgecoin. The funds will also be used to offer discount redemption services to holders of Sweetcoin. In summary, the following is the implementation sequence of the early stages of Sweetbridge:
+· Launch Bridgecoin currency contract · Launch the Sweetcoin currency contract · Create and launch the reservation queue contract that sells Sweetcoin for Bridgecoin · Create the Treasury Vault contract and the Asset Vault contract · Create a simple crypto-exchange for redemption of Bridgecoin into USD and back · Create centralized price s for Ether, Bridgecoin and Sweetcoin denominated in USD
+46
+
+Section 6 | Launch and Roadmap · Use the Treasury Vault contract to sell Bridgecoin to select participants (whitelist: developers, advisors, and early testers) · Sell Sweetcoin in exchange for Bridgecoin to select participants through the queue contract (whitelist only) · Privately launch the Asset Vault contract · Begin public release of Sweetcoin based on collateral benchmarks · Publicly launch the Asset Vault contract
+The drawing below shows the fundraising timeline of the Sweetbridge liquidity system.
+47
+
+A Sweetbridge Adoption
+48
+
+Appendix A | Sweetbridge Adoption
+Sweetbridge's design and roadmap have been created to drive and improve adoption both by blockchain-savvy participants and by entities whose experience is limited to traditional commerce.
+The initial proof of concept will mostly attract market actors already familiar with cryptocurrency management and investing. It provides a compelling use case for cryptocurrency holders looking to generate additional liquidity and value. With time, as Sweetbridge introduces new kinds of collateral for liquidity creation and builds out additional layers of the stack, the platform will offer significant efficiency improvements to a much broader group of potential mainstream users.
+Sweetbridge's design makes it beneficial for members to increase their use of the system and to encourage others to join. At every level of our vision, positive Adoption Drivers exist:
+1. Increased use of the asset vaults decreases the amount of Sweetcoin it takes to create interestfree liquidity, incentivizing users to join as the ecosystem grows. The dollar cost for a user to get an interest free loan will stay relatively stable independent of the network size. 2. Transactions settled through Sweetbridge are cheaper than the status quo. Lower costs lead to improved profitability. This provides an adoption incentive throughout the network - across buyers and suppliers. Additionally, risks are better managed when more entities are on-boarded into Sweetbridge. A larger number of participants creates an extended ability to move collateral and risk across the system. 3. The increased volume of transactions flowing through the Accounting Protocol provides more data to evaluate future risk of non-payment. Once again, the system works best when all counterparties transact and generate liquidity through Sweetbridge protocols. 4. Similarly, both the Resource Sharing and the Optimization Protocols create incentives that drive system adoption. This is due to the increased availability of supply chain optimization services and broader access to resources.
+Sweetbridge founders recognize the needs of traditional supply chain organizations in terms of scale, recourse, availability, reporting, economic stability and ease-of-use. The project will proceed in stages where critical adoption barriers are identified and addressed, one-by-one, in order to make Sweetbridge a global platform for supply chain commerce.
+49
+
+B Governance Model
+50
+
+Appendix B | Governance Model
+Core beliefs on governance
+We believe that the best way to prevent bad actors is to decentralize power. This entails more than just allowing people to vote on a given action. Rather, decentralization means that the choice to act is best made, seen and felt by local decision-makers and stakeholders. Classic hierarchical organizations and command and control systems concentrate decision-making power in the hands of a few. The more decisions are removed from the individuals they affect, the easier it is for good people to justify bad choices. Keeping decision-making near the affected parties leads to better outcomes for the entire community. The larger the economic value concentrated under centralized control, the more likely it will attract bad actors. Concentrated power is a tempting target for those who want to disrupt or destroy. It also draws those who want more power and are willing to do what it takes to get it. We believe decentralized power leads to better outcomes for everyone.
+Large organizations
+We believe large organizations pose a risk of concentrated power because they tend toward monopolistic and protectionistic behaviors. While larger organizations can achieve levels of scale that reach optimal efficiency, at some point their self-interested behavior becomes detrimental to themselves and others. Additionally, in an age of increasing pace of change, their drive for self-preservation incentivizes them to resist innovation, even transformational and positive changes, leading to obsolescence and destruction. Big trees tend to do a lot more damage when they fall. In the recent 2008 financial crisis, many banks were seen as "too big to fail." When organizations become too large in an economy, the risk of their failure begins to prevent changes that are in the economy's best interest.
+51
+
+Appendix B | Governance Model
+Starvation model
+Sweetbridge is attempting to address a market need that could be very large, potentially in the USD trillions. This will require centralized leadership to keep a project of this scope focused and running. But we believe that any concentration of power will ultimately become corrupt, even our own. This is why we purposely reduce fees as the ecosystem grows forcing Sweetbridge to fork into child protocols and subsystems to continue to be able to serve the needs of our network.
+A not-for-profit foundation
+Many modern platforms have conflicts of interest with their community. These platforms are owned by shareholders and are controlled by leaders whose interests do not always align with those of participants. This is why Sweetbridge is an open source community project governed by a Swiss nonprofit foundation. The foundation will also be in control of the proceeds from the token sale.
+52
+
+Appendix B | Governance Model The rules for Swiss foundations are tightly controlled and audited. This is intended to prevent misuse of economic power related to Sweetbridge. Sweetcoin holders have veto rights on protocol changes within the network. Bridgecoin holders will have no controlling interest in either the foundation or the companies owned by the foundation. Bridgecoin is purely a liquidity token and should need little adjustment to its protocol over time.
+The Sweetbridge Foundation
+The mandate of the Sweetbridge Foundation is to develop the Sweetbridge protocol and ensure the health of its economy. For the first seven years, it will be made up of key founders in the Sweetbridge economy to keep its vision from being diluted until the economy is stable. Subsequently, new directors will be nominated by the Sweetbridge Foundation. Sweetcoin holders will have the right to veto nominations by a vote that constitutes a majority of both accounts and Sweetcoin in circulation. The Swiss foundation structure was chosen after a thorough review of many different governance structures. The founders believe a centralized leadership model with a common vision offers
+53
+
+Appendix B | Governance Model
+advantages over a purely decentralized leadership structure of mass rule in the early years. The problems obtaining consensus on upgrades to protocols within the Bitcoin and Ethereum networks illustrate the weaknesses of systems that are decentralized too far too early.
+Sweetbridge founders bring a track record of execution and successful business growth. As an open source project, the Foundation's centralized control structure will bring the benefit of speed, stable vision and adaptability while ensuring engagement with the community.
+As with other open source projects, the community will be encouraged to submit proposals and recommended changes to contracts or protocols. The Foundation will appoint leaders to oversee testing and select changes into the code base of the platform. The Foundation will have the right to push out emergency changes it deems necessary in case of a security flaw or bug identification. In these cases, the Sweetcoin holders will have a right to veto these changes later and roll them back if they are deemed undesirable.
+In addition, we believe that power should be restricted: specifically, as any entity grows, it should be weakened. Therefore, our economic model is designed with the intention to reduce the fee rates over time. This policy encourages the creation of new autonomous child sub-economies and ecosystems.
+Sweetbridge founders believe that the best way to address decentralization is through specialization around common interest in small sub-communities. Sweetbridge will support protocol forks to create child projects that remain compatible with a common parent but have their own identity and governance.
+The Sweetbridge Foundation will be funded from the Sweetcoin sale to the public over the lifetime of the project. A settlement fee based on a declining power curve that lowers the fee as the economy grows will also be used for this purpose as needed.
+The Sweetbridge Foundation serves the following functions:
+· Represents - The Foundation will provide ambassadors for the Sweetbridge economy as a whole that work with leaders of national economies and regulatory agencies. · Incubates - The Foundation will fund early stage development, exploration and recruitment of individuals who want to create technologies and services to support the economy. · Founds - The Foundation will fund the creation and operating expenses of local sub-foundations or organizations to act as economic agents within specific geographic and jurisdictional areas.
+54
+
+Appendix B | Governance Model · Grants - The Foundation will provide grants to universities and other educational institutions to propel academic research that furthers the Sweetbridge economy. · Gives - The Foundation will dedicate 10% of its proceeds for not-for-profit social enterprises that can help develop sustainable economic activities in underdeveloped countries and depressed communities. · Teaches - The Foundation will fund education programs to develop blockchain talent. At least 50% of this funding will focus on providing training in underdeveloped countries or depressed economic zones within developed countries. · Controls - The Foundation will control the Sweetbridge protocol stack. When a change to a critical protocol is proposed, the community may veto the change by a vote that represents a majority of both accounts and Sweetcoin in circulation.
+55
+
+C Long-term Roadmap
+56
+
+Appendix C | Long-term Roadmap
+Sweetbridge will develop its ecosystem in several stages. The long-term Sweetbridge roadmap will proceed as follows:
+· Create the liquidity protocol based on cryptocurrency collateral with a small number of assets (Ether and ERC 20 Tokens) · Add additional fiat currency versions of Bridgecoin · Add support for a broader range of digital assets, including price feeds and exchange functionality · Add decentralized trust intermediary protocol · Add support for physical assets, fiat currencies and other valuable collateral · Introduce the Settlement Protocol · Extend Settlement Protocol to build the Accounting protocol · Add chargeback protocol · Implement subsequent stages and protocols: Resource sharing and Optimization (exact roadmap to be determined)
+57
+
+D Team
+58
+
+Appendix D | Team
+Sweetbridge was founded by seasoned supply chain practitioners and technology leaders who have created the systems that manage the supply chains of the largest and best-run companies in business today. We have over 150 years of cumulative experience with supply chains and projects that help run and optimize them. At the same time, we are innovators and forward thinkers who always look for better solutions.
+· Scott Nelson - Our CEO founded and ran a successful freight audit and payment firm that processed more than $7B a year in settlements via automated contracts in Logistics prior to selling the company to a private equity firm two years ago.
+· Mac McGary - Our President was the Chief Revenue Officer for one of the world's largest supply chain visibility & trade finance companies. He led the successful $675M acquisition of his company to the 3rd largest ERP company in 2015, and has been an executive leader in several successful supply chain tech startups.
+· Glenn Jones - Our COO was the CTO of several successful supply chain connectivity/visibility companies who has built and managed global development teams for SaaS supply chain technology companies.
+· Hui Huang - Our technical architect and co-founder was the senior architect at our CEO's prior firm and has 15 years experience in automating contracts and understanding the data science required to clean data for the settlement process.
+· Micha Roon - Our senior blockchain smart contracts developer trained corporations to build Ethereum smart contracts for the past two years, was the founder and CTO for two startups in data management and distributed systems, and is a certified distributed economy specialist from MIT FinTech.
+· David Henderson - Our CFO and co-founder worked with the CEO in his prior firm as the Director of European Operations and was the European controller for Supply Chain Logistics for one of the world's largest technology companies. He previously worked internationally for The Coca-Cola Company and PWC.
+· Rhonda Milligan - Our Chief Talent Officer and co-founder has two decades of experience building teams for some of the most successful supply chain tech companies after a successful career in finance, consulting and business process improvement for global companies in multiple industries - KPMG, NCR & Fujitsu.
+· Jason English - Our protocol marketing VP brings more than 25 years of enterprise technology marketing experience. He was VP and employee #3 of dev/test software startup ITKO through to its $330M sale to CA Technologies. He also co-founded SignalMind and led B2B product marketing at i2, CA and Skytap.
+59
+
+Appendix D | Team
+· Dylan Figlo - Our vice president of marketing leads the strategy and development of our online and offline experiences. He is an alumnus of digitally native vertical brands, such as Bonobos and Tuft & Needle. In just two short years at Tuft & Needle, he was pivotal in building out the company's Performance Marketing team and their profitable growth from $8M in 2014 to $100M+ in 2016.
+· Robert Zaremba - Our senior software developer is well versed in Data Mining, is a recommendation system specialist, and is an active member of the Swiss FinTech association. He was an IT and Business Developer at Scale it and before that the CTO of AgFlow.
+· Hamid Moutawakkil - Our systems architect has over 20 years in the IT field. He has covered all major aspects of the software industry in a wide variety of situations and contexts. Most recently he served as the Co-founder and CTO at PreVisionX, a highly configurable and customizable service platform for mobile workflow management.
+· To be revealed - Our community lead for the Americas is a 30-year career logistician, having directed large-scale logistics operations for McDonald's, Walmart, Michaels Stores and Samsung, and pioneered logistics technology at Pepsico, P&G, and GM.
+· To be revealed - Our blockchain protocol designer comes to Sweetbridge with a wealth of talents and world experiences. Prior to joining the Sweetbridge team, he most recently worked at Tata Consultancy Services, focusing on blockchain. He spent his time helping clients understand blockchain's disruptive power and how to develop new business strategies around that power.
+· Brian Weaver - Our senior technical operations engineer has over 17 years of Fortune 500 experience with Intel and Hewlett Packard. His technical strengths are in Linux, Amazon AWS cloud, and automating infrastructure.
+· Andrew Cernek - Our senior software engineer thrives while working with fast scaling, young companies. He was co-founder at Landiverse where he built a project using MongoDB. His foundation as a successful accountant serves him well as a UI/UX designer.
+· Chris Gerke - Our in-house legal counsel is a blockchain/cryptocurrency expert, a seasoned international tax lawyer, and an expert in tax policy. He has over 15 years of experience in tax planning, with substantial experience in both the private and government sectors. Prior to PwC, he worked for General Electric and Kimberly-Clark.
+· Alejandro Guerrero - Our special projects Leader comes to Sweetbridge with a specialty in Strategic Project Management in finance, supply chain and M&A. Alejandro is a senior strategy and commercial leader with over 20 years of progressive international experience. Alejandro has been the VP of Pre-Sales Consulting & Professional services at GT Nexus, the VP of Financial & Commercial Planning at GT Nexus, and the SVP Chief of Staff and Strategic Planning at Infor.
+60
+
+Appendix D | Team
+· Vinayak Joglekar joins Sweetbridge as a technical advisor. He is the Founder and CTO of Synerzip. Vinayak built and scaled Synerzip's project teams by attracting and retaining top-notch talent in the fiercely competitive market in India. Synerzip's teams are highly applauded for their work by discerning clients. Currently, he is busy mentoring DevOps professionals to enable Synerzip's future teams to provide continuous delivery for "Lean Start-ups."
+· Ryan Charleston - Our digital marketing and social media manager most recently worked as the Product Marketing Manager at mobiManage, a leading developer of mobile apps and interactive kiosks for the travel and tourism sector. Previously, Ryan worked at ebay Enterprise, Prescio Consulting, and founded the Bitcoin social network, Bitcorati.com in 2013.
+· Karen Nelson - Our chief culture officer has over 20 years experience developing a transparent company culture spanning a global workforce that focuses on empowerment based on merit and has expertise in the areas of global staff development, human resources, policies and administration.
+· Jana Heywood - Our executive administrator has two decades experience organizing and implementing multiple projects simultaneously, coordinating people and teams virtually and has experience setting up global operations on four continents from the ground up. In her 20 years working in logistics and SaaS environments, Jana has experienced a wide variety of roles in the business development cycle that gave her experience in the areas of administration, training, HR, finance, legal and facilities. Most recently, her focus has been administrative systems and processes.
+· Tiffany Tucker - Our director of community operations spent 18 years at the largest wine producer in the world, Constellation Brands. During her time there, Tiffany managed their corporate facilities, Executive and Corporate IT Support, coordinated multiple high-priority calendars, worked with event planning, and managed day-to-day office management. From Constellation, Tiffany moved to DKM and served as their Director of Operations for three years. Tiffany successfully led DKM operations-performance, productivity, efficiency of organization, social media, website, and IT.
+· Danielle Munsil - Our research analyst has worked at DKM for the past two years. She understands strategic talent needs, possesses market and functional expertise, builds relationships with sourcing leads, and serves as a candidate advocate. Joining Sweetbridge allows Dani the opportunity to recruit the best experts for Sweetbridge's customers. Prior to her work at DKM, Dani graduated with honors from UCLA and was captain of the UCLA Swim and Dive Team. Dani then went on to help open up a school as a 5th-8th grade History/English teacher, a Master Teacher (5th grade) and Head Swim Coach at Scottsdale Preparatory Academy, a Great Hearts school in Scottsdale, Arizona.
+61
+
+Sweetbridge White Paper The Sweetbridge management team will leverage its deep execution, sales and marketing experience applying technologies to all things in technology, supply chain and logistics to drive a clear line of sight to profitable revenue. We believe that selecting and mining go-to-market opportunities in our existing extensive trust networks is key to building momentum for a new business launch. Our immediate first-degree networks contain a strong pipeline of qualified early adopters.
+62
+
+E Advisors
+63
+
+Appendix E | Advisors
+Supply Chain
+· Harry Goodnight - joins Sweetbridge as a supply chain advisor. He helped grow i2 from $10 million to over $1 billion in just six years. He has designed go-to-market strategies for more than a dozen of the most successful supply chain technology companies and has 32 years of global supply chain consulting and sales experience for a number of companies, including Samsung, TRW, Toshiba, Frito-Lay, SONY, Intel, Raytheon and Siemens.
+Technical / Blockchain
+· Vinay Gupta joins Sweetbridge as a blockchain and business advisor. Vinay is currently working on the Internet of Agreements, which aims to bridge the internet and the deals, contracts, rules and regulations that support our lives. He has worked in a variety of fields including cryptography, energy policy, defense, security, resilience and disaster management. Vinay managed the launch of Ethereum and worked as a strategic architect for Consensus Systems before launching Hexayurt Capital and Mattereum.
+· Rob Knight joins Sweetbridge as a blockchain and business advisor. Rob is a co-founder of Mattereum, a company that integrates legal contracts and smart contracts to bridge the blockchain into the physical world. As a Chief Technology Officer and consultant, he has contributed to and led large-scale infrastructure development projects for the UK Post Office, ITV, and the BBC. Rob previously co-founded a software consultancy firm with operations in Europe and Asia.
+· Mark Whipple joins Sweetbridge as a technical advisor with in depth software architecture experience. He is a software leader with a proven track record of delivering large-scale cloud based enterprise solutions. Mark currently works at VMware, where he leads the technology side of the hybrid cloud group, designing and developing micro-service based PAAS/IAAS products.
+· Michael Zargham joins Sweetbridge as a technical advisor. He has an extensive background in Information and Decision Systems Architecture, an engineering Ph.D. and 12 years of experience applying data to business decision-making applications. He will look to provide theoretical and empirical support to the Sweetbridge Platform with his data driven decision-making expertise.
+· CoinFund LLC is a blockchain technology research company, advisory team and private cryptoasset-focused investment vehicle. It works with companies in the blockchain space and beyond to understand how to leverage blockchain-based economics to create decentralized applications and ecosystems.
+64
+
+Appendix E | Advisors
+· Aleksandr Bulkin joins Sweetbridge as a technical and business advisor. He is a CoFounder and Managing Partner at CoinFund. He is a multidisciplinary thinker with a special interest in social and technological innovation. He has 13 years of experience in developing pricing, risk management, and high-frequency trading software at Goldman and Sachs Group, Inc. Holding a dual degree in Mathematics and Computer Science from New York University and a Masters Degree in Organizational Psychology from Process Work Institute in Portland, Oregon, Alex bridges technological insight with social science, psychology, and economics. · Jake Brukhman is a Co-Founder and Managing Partner at CoinFund LLC. Jake has 9 years of experience in pure and financial technology, a background in computer and mathematical sciences and an avid interest in blockchain and financial technology. CoinFund also operates as an advisory team for companies working to design blockchain products, with past clients including Kik Interactive and Civil. Previously, Jake was Partner & CTO at Triton Research, a technical product manager and engineer at Amazon.com, and spent five years as a financial technologist at Highbridge Capital Management and as a quantitative researcher at Kohera. · Kenny Rowe joins Sweetbridge as a technical and business advisor. He is an entrepreneur who brings a focus on governance, community building and collaboration to projects across the blockchain industry. A member of the core team, Kenny currently serves as head of operations for MakerDAO. Other blockchain projects of note include Rchain, Metamask, and Aragon. Kenny founded the Seattle Ethereum Meetup group and previously spent eight years working in e-commerce for Newell Brands in various management roles. · Alex Felix joins Sweetbridge as a technical and business advisor. He is a Managing Partner at CoinFund. He leads investment research and advises clients on blockchain product development, business models, cryptoeconomics and token sale structuring. Alex has been an active researcher and investor in blockchain since 2013 and is passionate about advancing decentralized technologies. Additionally, he has 10 years of private equity and leveraged finance experience at American Capital, BofA Merrill Lynch, RBS and Guggenheim Partners. Alex has a degree in Economics and Earth Sciences from Dartmouth College.
+65
+
+Appendix E | Advisors
+Legal / Regulatory
+· Caroline Lynch joins Sweetbridge as a public policy and legislative advisor. She is the founder of Copper Hill Strategies, LLC and has 15 years of experience on Capitol Hill. She spent a decade with the House Judiciary Committee where she served for eight years as the Chief Counsel of the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations. The Sweetbridge team is excited to use Caroline's expertise while looking at the public policy and legislative ramifications of blockchain policies. · Scott Henderson joins Sweetbridge as a legal advisor. He currently works at newLAW, a company he founded four years ago. newLAW is a national law firm dedicated to providing the highest quality of work and service delivered through an innovative and cost-effective model. Scott joins Sweetbridge with 30+ years of experience as a business lawyer with some of the nation's and region's finest law firms such as Squire Sanders and Gallagher & Kennedy. He has also received recognition from The Best Lawyers in America, Southwest Super Lawyers, Arizona's Finest Lawyers, The Best of the Bar, and Who's Who of American Law.
+Economic / Monetary Policy
+· Warren Weber joins Sweetbridge as economic advisor. He has an impressive economics background and is an active advisor in the blockchain world. His research has appeared in many professional economics journals, and he has taught economics at several major universities. Warren is adept at economic modeling and is currently a monetary advisor to crypto economics startups. He is working to make the marketplace more efficient by applying economic principles and the power of the blockchain to the cryptocurrency economy.
+· Todd Keister joins Sweetbridge as an economic advisor. He is currently a Professor of Economics at Rutgers University and has previously been an Assistant Vice President at the Federal Reserve Bank of New York and a Professor of Economics at the Instituto Tecnológico Autónomo de México (ITAM) in Mexico City. His work has been published in leading economics journals and he has provided expert testimony before the U.S. House of Representatives.
+66
+
+Appendix E | Advisors
+Retail
+· Brad Holaway joins Sweetbridge as a retail advisor. He has in-depth retail and point-of-sale knowledge and is the president of Copperstate Restaurant Technologies. Brad's father opened a cash register dealership is Tempe, Arizona in 1969 which Brad has built into a full service Hospitality POS solutions company. He is dedicated to serving his clients well and has a deep understanding of sales, marketing and the intricate details it takes to run a company.
+Bibliography of Changes 22 December 2017 Section 2.1: Diagram: Changed direction of arrow for "Buy wheat" commodity Section 2.7: Correction. Spelling of "assets"
+67
+
+

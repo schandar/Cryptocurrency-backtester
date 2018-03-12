@@ -1,0 +1,1226 @@
+Decentralized AR/VR ecosystem for 3D content exchange
+WHITE PAPER v.7.3 artoken.io
+© Copyright 2018 Cappasity Inc. All rights reserved.
+
+Abstract
+
+4
+
+Introduction to the AR/VR context
+
+5
+
+Why do AR/VR technologies matter
+
+5
+
+The market today
+
+8
+
+Market projections promise AR/VR exponential growth
+
+8
+
+AR/VR implemented across various industries
+
+12
+
+The AR/VR value chain
+
+13
+
+AR/VR industry hurdles
+
+14
+
+Lack of compelling content
+
+14
+
+Content distribution intricacies
+
+15
+
+Envisioned solution
+
+18
+
+Cappasity background
+
+20
+
+Cappasity: how it all began
+
+20
+
+The Team
+
+22
+
+Advisory
+
+23
+
+Cappasity Ecosystem
+
+28
+
+How does it all work: the scheme
+
+28
+
+Ecosystem structure
+
+32
+
+Toolkits
+
+32
+
+AR/VR Ecosystem blockchain
+
+34
+
+What are the benefits of blockchain as it used in the CappasityEcosystem?
+
+36
+
+Decentralized content storage
+
+36
+
+Marketplace economy
+
+39
+
+Gaming: 3D model sale for videogames
+
+43
+
+Live events: 360-degree video call for tender
+
+43
+
+Video entertainment: 3D graphics for consumer AR app
+
+44
+
+Retail: virtual 3D exhibition, VIP showrooms, social e-commerce
+
+44
+
+3D printing: 3D models for medical students
+
+45
+
+Social VR: 3D avatar for sharing and fashion
+
+45
+
+Ecosystem content moderation
+
+46
+
+Cappasity Token (CAPP)
+
+50
+
+Cappasity utility currency
+
+50
+
+Cappasity endowment funds
+
+52
+
+Milestone roadmap
+
+52
+
+Conclusion
+
+53
+
+Appendices
+
+54
+
+AR/VR hardware, software and content
+
+54
+
+Bibliography
+
+58
+
+THIS DOCUMENT DOES NOT GIVE PERSONAL LEGAL OR FINANCIAL ADVICE. YOU ARE STRONGLY ENCOURAGED TO SEEK YOUR OWN PROFESSIONAL LEGAL AND FINANCIAL ADVICE.
+
+1.
+
+The Cappasity Token (CAPP) White Paper (hereinafter -- `the White Paper', `the Document') is
+
+presented for informational purposes only. Cappasity Token is also known as ARtoken.
+
+2.
+
+Nothing in the Document shall be construed as an offer to sell or buy securities in any jurisdiction, or a
+
+solicitation for investment, or an investment advice. The Document does not regulate any sale and purchase of
+
+the CAPP (as referred to in the White Paper). The sale and purchase of the CAPPs is governed by the Terms and
+
+Conditions.
+
+3.
+
+Several estimates, phrases and conclusions incorporated in the White Paper constitute forward-looking
+
+statements. Such statements or information concern matters that involve uncertainties and risks, which may
+
+result in material differences from the results anticipated.
+
+4.
+
+The White Paper may be updated or altered, with the latest version of the Document prevailing over
+
+previous versions and we are not obliged to give you any notice of the fact or content of any changes. The latest
+
+version of the White Paper in English is available at the website https://artoken.io/. While we make every effort
+
+to ensure that all data submitted in the White Paper is accurate and up to date at the point in time that the
+
+relevant version has been disseminated, the proposed document is no alternative to consulting an independent
+
+3rd party opinion.
+
+5.
+
+The White Paper and the related documents may be translated into languages other than English. Should
+
+a conflict or an inconsistency arise between the English language version and a foreign language version, the
+
+English language version of the Document shall govern and prevail.
+
+6.
+
+The White Paper does not constitute an agreement that binds Cappasity. Cappasity, its directors,
+
+officers, employees and associates does not warrant or assume any legal liability arising out of or related to the
+
+accuracy, reliability, or completeness of any material contained in the White Paper. To the fullest extent
+
+permitted by any applicable law in any jurisdiction, Cappasity shall not be liable for any indirect, special,
+
+incidental, consequential or other losses, arising out of or in connection with the White Paper including but not
+
+limited to: loss of revenue, income or profits, and loss of data. Persons who intend to purchase CAPPs, should
+
+seek the advice of independent experts before committing to any action, set out in the White Paper.
+
+7.
+
+You do not have the legal right to participate in the CAPPs digital asset public sale if you are a citizen or
+
+other representatives of any jurisdiction whether the issue of CAPPs would be illegal or subject to any
+
+requirement for registration, licensing or lock-up.
+
+8.
+
+You agree that you purchase, receive and hold the CAPPs at your own risk and that the CAPPs are
+
+provided on an `as is' basis without warranties of any kind, either express or implied. It is your responsibility to
+
+determine if you are legally allowed to purchase the CAPPs in your jurisdiction and whether you can then resell
+
+the CAPPs to another purchaser in any given jurisdiction. You bear the sole responsibility for determining or
+
+assessing the tax implications of your participation in the crowdsale, purchasing, or receiving and holding the
+
+CAPPs in all respects and in any relevant jurisdiction.
+
+9.
+
+No regulatory authority has examined or approved of any of the information provided in this White
+
+Paper. No such action has been or will be taken under the laws, regulatory requirements or rules of any
+
+jurisdiction.
+
+10. The regulatory status of tokens and distributed ledger technology is unclear or unsettled in many
+
+jurisdictions. It is difficult to predict how or whether regulatory agencies may apply existing regulation with
+
+respect to such technology and its applications, including the Cappasity Ecosystem and CAPP. It is likewise
+
+difficult to predict how or whether legislatures or regulatory agencies may implement changes to law and
+
+regulation affecting distributed ledger technology and its applications, including the Cappasity Ecosystem and
+
+CAPP. Regulatory actions could negatively impact the Cappasity Ecosystem and CAPP in various ways,
+
+including, for purposes of illustration only, through a determination that the purchase, sale and delivery of
+
+CAPPs constitutes unlawful activity or that CAPPs are a regulated instrument that requires registration, or the
+
+licensing of some or all of the parties involved in the purchase, sale and delivery thereof.
+
+2
+
+The Cappasity Ecosystem may cease operations in a jurisdiction in the event that regulatory actions, or changes to law or regulation, make it illegal to operate in such jurisdiction, or commercially undesirable to obtain the necessary regulatory approval(s) to operate in such jurisdiction. 11. Given that CAPP is based on the Ethereum protocol, any malfunction, breakdown or abandonment of the Ethereum protocol may have a material adverse effect on CAPP. Moreover, advances in cryptography, or technical advances such as the development of quantum computing, could present risks to CAPP and the Cappasity Ecosystem, including the utility of CAPP, by rendering ineffective the cryptographic consensus mechanism that underpins the Ethereum protocol. 12. As with other decentralized cryptographic tokens based on the Ethereum protocol, CAPP is susceptible to attacks by miners in the course of validating CAPP transactions on the Ethereum blockchain, including, but not limited, to double-spend attacks, majority mining power attacks, and selfish-mining attacks. Any successful attacks present a risk to the Cappasity Ecosystem, CAPP, including, but not limited t o, accurate execution and recording of transactions involving CAPP.
+3
+
+Abstract
+Cappasity, being a well-trusted player in 3D digitizing and its applications for augmented and virtual reality (AR/VR), is announcing a crowdsale of Cappasity Token (CAPP). The CAPP crowdsale will signify the start of the Decentralized AR/ VR Ecosystem that enables easy AR/VR/3D content generation. The Ecosystem leverages blockchain infrastructure to create, rent and sell AR/VR/3D content. Each content file is assigned with an ID or a hash to prevent any copyright infringement. All hashes of all the files are listed in the blockchain and cannot be changed. Once a content transaction is done, all its details will be processed according to a smart contract protocol and cannot be reversed retrospectively. Thanks to the blockchain, when 3D content is being sold via the marketplace, it is sold at a seller's price and the Ecosystem participants are charged close to no fees. Blockchain technology allows instant and transparent financial transactions all over the globe. The content owner receives payments for each transaction very quickly and without a failure.
+Augmented and virtual reality (AR/VR) promises to change the way we live, consume, interact with digital environments and each other. The AR/VR market is forecasted to become a multibillion dollar business in the next decade and to have sweeping demand. Nevertheless, the lack of compelling AR/VR/3D content, its labour intensive production and imperfect quality hinder the evolution of AR/VR industry and AR/VR mass adoption. Since high-quality and accessible content is the driving force behind the development of AR/VR technologies, we believe that the blockchainbased AR/VR Ecosystem will bring the AR/VR industry to a new level of its development
+We believe the AR/VR revolution will be driven by content creators. For this reason, we have committed our ambition and experience to launching a content-oriented AR/ VR Ecosystem. The Cappasity utility token, CAPP, will be used as a native digital currency for content purchase and for active community member rewards through dedicated CAPP Funds. Immediately after the token sale is finished, Cappasity will give crowdsale participants an opportunity to pay for its already presented 3D modeling services with CAPP.
+4
+
+Introduction to the AR/VR context
+Why do AR/VR technologies matter
+" There's always a richer, more immersive medium to experience the world, and after video, the next logical step is fully immersive virtual reality.
+Mark Zuckerberg, Facebook CEO at the Oculus Connect1
+The top-tech companies bet on virtual as well as augmented realities thereby expecting them to shake up many industries and massively reboot our lifestyle and behavior as it happened with the Internet in the 90s and smartphones in the new millennium. Google, Apple, Samsung, Huawei, Facebook among other top-techs drive the race and dedicate significant budgets2 to support their own AR/VR programs and product lines.
+While often mentioned together, augmented and virtual realities are not the same technology. Virtual reality implies immersion into a virtual world which is completely isolated from reality. VR uses goggles that completely cover the user's field of vision, creating the illusion of transferring the user to a virtual space.
+In contrast to virtual reality, augmented reality doesn't remove the physical world but enriches it by superimposing digital objects developed with the help of computer graphics software or other techniques. The user is aware of both, the virtual and the physical, and may interact simultaneously with virtual objects as well as with the real world. The most familiar implementation of augmented reality was in aviation3 almost half a century ago -- it helped pilots navigate through fog by overlaying necessary indications on the screen showing their surroundings.
+In recent years, we have witnessed a new resurgence of AR and VR technologies. Since the tremendous success4 of VR gaming device Google's Oculus Rift on Kickstarter in 2012, we have seen more and more releases in the hi-tech AR/VR market which have encouraged investors and analysts like Google Cardboard, Samsung Gear and Pokémon Go.
+Though the technology is still in its early stages, investors are unanimous about the AR/VR's bright future. AR and VR technologies presage an increased level of digital immersion and interconnectivity between the online and offline spaces. As the
+5
+
+technology evolves, no doubt it will see more widespread adoption amongst consumers and businesses. Despite the VUCA5 environment, such certainty is not groundless or reckless at all. It is supported by two clear trends in the society: immersion and participatory culture. If anything can be considered a precedent for VR technologies, it's participatory or immersive theater, which has faced a high demand in the past few years, starting with show Sleep No More6, which opened in 2011 and was followed by a number of prominent stagings. Audience members were thrilled to be treated as a part of the performance and were encouraged to participate in the story and interact with actors7. Immersive theater is a natural partner to VR technologies, as creators seek to deliver theater to the general public through VR experiences, such as the Delusion immersive theater series8. The trend for immersion is the logical conclusion of the participatory culture which displaced consumer culture in the Web 2.0 era9. The central concept of this culture is that a consumer should evolve into a proactive participant and contributor to the environment they belong to, leading to the new term "prosumer." In general, society is no longer content to passively consume content and services but wants to be a part of it instead. According to Clay Bavor, VP of Virtual and Augmented Reality at Google, we are on the frontier of an era of immersive computing driven by AR and VR technologies10. Immersive computing will remove the level of abstraction with which we interact with the digital world, just like when touchpads and smartphones first became popular a decade ago, and will create a myriad of new experiences of environmentally aware computing, rich in lifelike context.
+6
+
+«
+«
+«
+« « «
+« «
+«
+«
+
+VR/AR history timeline
+19th century
+Brain processes the different two-dimensional images from each eye into a single object of three dimensions
+
+Stanley G. Weinbaum in Pygmalion's Spectacles expressed the idea of a pair of goggles that let the wearer experience a fictional world through holographics, smell, taste and touch
+
+The Ultimate display concept: simulating a virtual world indistinguishable from actual reality viewed through a HMD and appeared realistic through augmented 3D sound and tactile feedback
+
+1965
+
+« Virtual reality term is coined (Jaron Lanier, founder of the VPL visual programming lab)
+
+The Lawnmower Man movie introduced the concept of virtual reality to a wider audience
+
+1992
+
+The Matrix film hits theaters with a major cultural impact bringing the topic of simulated reality into the mainstream
+
+1999
+
+1838 1849 1929
+1930s 1939 1950s
+1960 1961
+
+PANORAMIC PAINTINGS the 360-degree murals
+STEREOSCOPIC PHOTOS & VIEWERS the Stereoscope (Charles Wheatstone) the Lenticular Stereoscope (David Brewster)
+« LINK TRAINER (Edward Link)
+the 1st entirely electromechanical Flight Simulator
+SCIENCE FICTION STORY PREDICTED VR
+The View-Master (William Gruber)
+« SENSORAMA (Morton Heilig)
+a theatre cabinet for full film immersion stimulating all the senses by stereo speakers, stereoscopic 3D-display, fans, smell generators and vibrating chair
+« TELESPHERE MASK (Morton Heilig)
+the first VR Head Mounted Display
+« HEADSIGHT (Comeau & Bryan)
+the first motion tracking HMD by Plico Corporation
+
+1968 1969 1987
+1991 1993 1995 1997
+
+«SWORD OF DAMOCLES (Ivan Sutherland, Bob Sproull)
+the first VR / AR head mounted display connected to a computer and not a camera
+« ARTIFICIAL REALITY (Myron Kruegere)
+a series of responsive computer-generated environments: GLOWFLOW, METAPLAY, PSYCHIC SPACE and VIDEOPLACE tech
+«THE DATAGLOVE (Jaron Lanier, Tom Zimmerman)
+VR gloves
+«THE EYEPHONE (Jaron Lanier)
+VR googles
+VIRTUALITY GROUP ARCADE MACHINES
+realtime multi-player gaming experience with immersive stereoscopic 3D visuals
+SEGA VR headset for the Sega Genesis console
+the wrap-around protoype glasses had head tracking, stereo sound and LCD screens in the visor
+The Nintendo Virtual Boy (originally known as VR-32)
+this 3D gaming console was hyped to be the first ever portable console that could display true 3D graphics, though met a commercial failure due to the poor software
+«TOURING MACHINE (Steve Feiner et al.)
+the first mobile AR system (MARS) which included see-through HMD with integral orientation tracker, differential GPS, digital radio for wireless web access and a hand-held computer with stylus and touchpad interface had to be carried around in a backpack
+
+7
+
+The market today
+" The smartphone is for everyone, we don't have to think the iPhone is about a certain demographic, or country or vertical market: it's for everyone. I think AR is that big, it's huge. I get excited because of the things that could be done that could improve a lot of lives. And be entertaining. Tim Cook, Apple CEO interview for The Independent11
+
+Market projections promise AR/VR exponential growth
+According to International Data Corporation (IDC) analytics published earlier in August this year, the worldwide AR/VR revenue is expected to be $11.4 bn in 2017. The IDC forecasts it will jump as high as $215 bn by 2021, achieving 113.2% CAGR along the way12.
+
+IDC worldwide spending on AR/VR forecast
+Source: IDC Research
+
+200,0
+
+$215bn
+
+150,0
+
+100,0
+
+50,0
+$11.4bn
+0,0
+2017 2021
+
+Regional spending on AR/VR in 2017
+Source: IDC Research
+
+Western Europe
+$2.0bn
+
+will be the region with the largest AR/VR spending
+total in 2017
+$3.2bn
+
+$3.0bn
+Asia/Pacific
+(excluding Japan) (APeJ)
+
+8
+
+Digi-Capital consulting holds a more conservative point of view. In their Augmented/Virtual Reality Report for 2017 they predict the AR/VR market will reach $108 bn in 2021. Their estimations are based in the AR/VR market's performance in 2016. Digi-Capital's AR/VR forecast for 2016 was $4 .4 bn with $3.8 bn of that VR revenue and $0,6 bn AR. The firm says, VR was overestimated and accrued $2.7 bn revenue only, but AR overbalanced the projection adding $1.2 bn partly due to the incredible popularity of Pokémon Go13. In the near future the company sees mobile AR as the leading force. Taking into account that giants like Facebook and Apple have already stated their interest in the AR sector, it is expected to make a giant leap soon.
+The abundance of the M&A deals and investment volume in AR/VR proves that this young and evolving market is highly promising and attractive. Large tech companies are hungry for AR/VR innovative startups. Digi-Capital calculated that the AR/VR deal volume in 2016 amounted to $2.3 bn with the highest acquisition, that of hardware player Magic Leap, raising $793.5 mn at a $4.5 bn valuation14.
+
+Digi-Capital AR/VR revenue ($bn) forecast
+Source: Digi-Capital
+
+Digi-Capital AR/VR investments (2016)
+Source: Digi-Capital
+
+VR games eSports
+
+Games advtg
+
+AR games
+
+120
+
+Web games
+
+VR hardware
+
+100
+
+Standalone PC games
+
+80
+
+Console
+
+hardware
+
+Mobile
+
+60
+
+Games
+
+games
+
+40
+
+MMO/MOBA games
+
+software/ hardware
+
+20
+
+over $150B
+
+0 2016F 2017F 2018F 2019F 2020F 2021F
+
+Augmented Reality Virtual Reality
+
+Underperform (total) Outperform (total)
+
+PC hardware
+
+Console games Console games
+
+Citi in its Citi GPS: Global Perspectives Solutions 2016 report on virtual and augmented reality evaluated the current AR/VR market at $7.5 bn, with $3.9 bn attributed to software, content and services. The bank's analysts believe the focus will shift from AR hardware to software and expect the latter to reach $276 bn by 202515. From there, Citi says, AR headsets will start replacing smartphones and finally overtake the current market of mobile smartphones. AR smartglasses may even be the primary device for phone calls and data transmission. Also AR commerce is predicted to take the place occupied by e-commerce today. The purchases made by
+9
+
+users on smartphones in the next few years will be made using AR, so the usage of AR will also be similar to that of mobile smartphones today.
+
+Citi VR/AR market scale forecasts
+Source: Citi Research
+
+Units (Billions) 600
+
+$569bn
+
+400
+
+200
+0 2016
+
+$80bn
+
+2017
+
+2020
+
+2025
+
+Citi AR headset market growth in expense of the smartphone market
+Source: Citi Research
+Units (Billions) 3.0 2.5 2.0 1.5 1.0 0.5
+0
+Current smartphone market view AR replacement scenario ­ bearish Base case Base case
+
+2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2021 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035
+
+Citi expects the VR disruption to begin with the gaming industry, expanding further to entertainment activities such as live events, theme parks, movies and TV programs. In the report, Citi predicts around half of existing games will be converted to the VR format, which will become the main format for the game industry. Another application is a substitute for the virtual tours offered on websites. It also has the potential to reshape the main tools used for conferencing systems. The other area that would be affected by VR is the movie industry. As of March 2017, the total number of leading VR HMD platforms sold is reported to be 18,151,410 units16.
+
+Total VR HMDs sold (leading platforms): 18,151,410
+Source: thevirtualreport.biz (updated 3rd March 2017)
+
+Google Cardboard Samsung Gear VR
+Baofeng PS VR
+DeePoon HTC Vive Oculus Rift
+
+5,000,000 1,400,000+ 915,000 566,410++ 140,000 130,000
+
+10,000,000
+
+10
+
+Worldwide virtual reality revenue by segment
+Source: SuperData Research
+
+2020
+
+$12.1B
+
+2019
+
+$9.9B
+
+2018
+
+$6.0B
+
+$3.0B
+
+$2.7B $1.0B 2017
+$1.5B 2016
+$0.3B
+
+$7.2B
+
+$16.2B
+Consumer software/services Hardware
+
+According to Superdata Research's cautious estimates, the VR market in 2017 will grow more than twice in comparison to the last year (from $1.8 bn to $3.7 bn) and will see a 15-fold increase by 2020. The major driver of growth is seen to be VR software and compelling content estimated to reach $16.2 bn and surpass hardware earnings for the first time by 202017.
+Goldman Sachs estimated the AR/VR market value by industries and engaged users in its first report of the Profiles and Innovations series dedicated to Virtual and Augmented Reality and published in 2016. According to the investment bank, AR/VR will shake up markets to the tune of $80 bn by 2025, where the software market will occupy $35 bn with 60% of AR/VR software revenue driven by the consumer (vs. enterprise18). The technologies promise to affect the business landscape across many industries.
+
+11
+
+Total addressable AR/VR software market
+Source: Goldman Sachs Global Investment Research
+AR/VR implemented across various industries
+Meanwhile AR/VR technologies have been recently sneaking into various industries for both businesses and consumers. VR dominates primarily in the videogame industry nowadays, although it has already been implemented in far more cases. Sotheby's uses VR technology to show homes for their clients without an agent19. 3D tours allow virtual visitors to immerse themselves into the atmosphere of their luxury homes without even setting a foot inside. The tours are created using special cameras placed strategically throughout a home. Ford is applying VR technology for design and engineering purposes. The main aim of the Ford Immersive Vehicle Environment lab (FIVE) is to help engineers and designers improve their early concepts20. The lab gives them the opportunity to experience a concept before a physical prototype is produced. FIVE also enhances international collaboration between designers and engineers thus helping to achieve the goal. One of the most innovative companies in 2017, as ranked by Fast Company, Next VR created a platform that allows users to view live events in virtual reality creating an even more immersive experience21. They have already partnered with CNN, FOX Sports, HBO/Golden Boy. Spectators may watch the International Champions Cup or the NBA finals as if they were there in person. In the near future, VR is expected to become indispensable for different kind of trainings and educational programs, as well as for the real estate and entertainment businesses.
+12
+
+AR has become a widely discussed phenomenon in 2016 due to the success of the Pokémon Go game. Nevertheless, AR has great potential to change the landscape of professional fields such as engineering, design and surgery, where instant access to certain information is of the utmost importance. At the same time, AR is revolutionizing the e-commerce field.
+
+Amazon has recently acquired two patents, demonstrating its interest in AR technology22. The first patent, titled "Augmented Reality Representation," allows users to "try on" different products using data from e-commerce websites with the help of cameras and sensors. This technology may help diminish the number of returns, as customers will be able to try the product before purchase. The second patent, titled "Forming a Representation of an Item with Light," describes a technology that projects a product's image into a room. For users it means they get an opportunity to see how a piece of furniture they like would fit into the exact room they have in mind. Other large online retailers such as Alibaba are also taking proactive steps to integrate AR into their current business, in hopes of improving the customer experience, increase their conversion rate and engage millennials23.
+
+The AR/VR value chain
+
+Being a highly advanced technology field, the AR/VR market comprises hardware, software and content segments. The value chain of the AR/VR market is made up of four segments that may be represented as follows:
+
+Infrastructure
+
+Tools and platforms
+
+HMD / AR Glasses / Cameras / Hardware
+
+SDK and software
+
+Applications and content
+AR/VR images
+
+Users
+Users of content
+
+Source: BOM "Virtual reality. Augmented reality. Hype or serious business?" 2017 report24
+
+Here, the infrastructure segment stands for all AR/VR hardware such as headsets, goggles, mobile interfaces, etc., and is mainly driven by top-tech companies. Other stakeholders include users (the demand side) and developers and content creators (the supply side). Users consume AR/VR content via various applications, while content creators and developers supply those applications. The latter are involved in infrastructure development as they build toolkits and software compatible with a specific hardware platform. AR and VR technologies are evolving separately; the main market players and breakthroughs will be reviewed in Appendices.
+
+13
+
+AR/VR industry hurdles
+Lack of compellingcontent
+" Just as content was the fuel that launched many successful technology products, our respondents clearly believe that high-quality and robust content is key to moving the AR/VR industry forward.
+Kirk Soderquist, co-chair of Perkins Coie's Interactive Entertainment practice
+Although various big market players have launched their own VR hardware, not many people use it on a regular basis, and it is still far from becoming mainstream. One of the top reasons is the lack of compelling content25. Inadequate content was named by 38% of the respondents of the survey by Perkins Coie and Upload as the main challenge facing the AR/VR industry26. The survey encompassed more than 650 respondents including IT startup founders, executives of technology companies and investors.
+The value chain of any technology intensive industry can be described as follows: infrastructure, tools & platforms and content. Value for the user is created when all the segments are developed and optimized. AR/VR finds itself in a kind of "chicken or egg" situation. The demand for AR/VR hardware will be slow to pick up unless the users are provided with quality content and services. On the other hand, the content and services will remain slow to develop and prosper unless there is a demand for AR/VR headsets.27
+At the dawn of the Internet in the first half of 1990s, only a few people had access to the Internet and the content was rather expensive and of limited value. Due to constrained computer power and bandwidth the first pages could be filled only with text. Tools and platforms were prohibitive for general users as it required HTML, Javascript and coding skills. Then, step by step, the Internet evolved into a commodity accessible to everyone.
+The situation currently observed in AR/VR industry is very similar to when the Internet appeared. The content generation is resource consuming and pricing is prohibitive for end-users. The choice in stores of Oculus and HTC Vive is limited and the added value is still low28. But the infrastructure and tools are gaining momentum. Smartphones' high resolution displays and 3D graphics processors combined with mobility have already made them good AR/VR devices. New emerging software platforms like Apple ARKit, WearVR, and that of Facebook promise to deliver easier
+14
+
+and cheaper VR content creation than is available now with Unity and Unreal Engine development tools.
+AR/VR content needs to keep up, as it is not unreasonably believed to be a potential catalyst for AR/VR expansion.29 The appearance of high quality content bases contributed to huge breakthroughs in many areas of artificial intelligence. For instance, take ImageNet30 database's impact on the computer vision field. The majority of AI achievements were preceded by the availability of large open datasets, although the key algorithms were developed well before that31. Other examples include the algorithms needed for speech recognition or Google Arabic/Chinese to English translation, which were developed long before they could actually be implemented. It was actually the corpus of Spoken Wall Street Journal articles that led to the breakthrough in human speech recognition, three years after the formation of the corpus and 10 years after the development of the Hidden Markov Model that lies at the core of recognition technology. In a similar fashion the statistical machine translation algorithm was first introduced in 1988, but only the collection of 1.8 trillions tokens from Google web and news pages in 2005 empowered Google translation from Chinese and Arabic to English.
+Just as with AI, the disruption in AR/VR may happen as soon as developers get access to enough AR/VR and 3D content, widespread and affordable content which is compatible with the variety of available platforms and hardware.
+Content distribution intricacies
+The threat of a lack of content or of underwhelming content that the AR/VR industry faces today requires actions to be taken in order to provide content creators with fertile ground. The top-tech and VCs' initiatives to support content creators through AR/VR specific incubators and accelerators are of undoubted importance.32 However, there are black holes in the AR/VR industry space that prevent content from proliferating. The barriers include:
+· the disunity of different platforms intentionally retained by the leading IT companies;
+· the existing marketplaces' domination over content makers which is reflected by unreasonable commissions imposed on the content stocks;
+· low protection from the original content resale and copyright infringement.
+All the reasons above can be considered problems of content distribution which make content makers feel powerless and discourage them from sufficient content creation. So, the low motivation of content makers leads to the content shortage and disappointing content quality.
+15
+
+Platform incompatibility
+Though the top-tech's AR/VR platforms incentivize developments with grants and rewards33 34, they are ultimately motivated to develop their own business. Thus, app developers have to choose a platform and find themselves stuck with their choice. One of the recent examples is the rivalry between Apple and Facebook in developing their AR platforms: ARKit and Facebook Camera Effect Platform35. App developers will have to decide which platform is worth joining. Facebook has a huge audience on both iOS and Android, but it's already a self-contained app and developers are cautious to obey Facebook's terms and be dependent on Facebook. ARKit helps developers create their own apps for the iOS user base, but they have to find a way to promote their app themselves36.
+As for 3D content, creators are usually limited to restricted use or a specific format. Once the content is developed for a business purpose, it can hardly be reused by other applications even when the business no longer needs it. The content is abandoned and usually non-convertible to other formats qualified for AR/VR apps. Thus the developed 3D content doesn't pay off for its creators.
+Dominance of marketplaces
+Nowadays the majority of 3D content marketplaces care more about their business KPIs than community development. The content makers' royalty rates on these sites are not higher than 60% on average, sometimes, dipping as low as 30%. Royalty rates higher than 70% may be achieved on some platforms, but only on the terms of content exclusivity.
+
+3D content base Turbosquid CGTrader Daz 3D Renderosity 3Docean 3Dexport CreativeCrash
+Source: lifewire.com
+
+Royalty 40% - 80% 70% - 90% 50% - 65% 50% - 70% 30% - 70% 60% - 70% 55%
+
+16
+
+In addition, a content maker's sales depend mostly on their marketing efforts, as voting systems are underdeveloped and buyers are not incentivized to rank content. Such unstable and low revenue makes freelance a better option for the artists who want to earn money.37 Moreover, the infrastructure is not benevolent to content buyers either: they don't have an option to test the models, to check the compatibility of content with different hardware or development environments, or to embed the content in the places they will be used, and, as a consequence, some users face import problems38 39 40.
+Concerned with their own commercial gain, existing marketplaces can hardly meet the demands of the coming AR/VR breakthrough that will be desperate for high quality 3D models for AR/VR software development.
+Copyrights
+When compared to 2D image space, the problem of copyright is rather new for 3D models, and the tools for preventing infringement are underdeveloped. Watermarks can't be applied to 3D models as the 3D models have different viewing and usage. The search system through 3D databases of intellectual property isn't developed either.
+However, marketplaces that sell original content inevitably have to deal with copyright issues. In the absence of an automated monitoring system the databases fail to protect users from violation of their copyrights. So, monitoring of 3D databases for copyright issues is only possible via the system of user reports, and the existing 3D marketplaces try to protect authorship by introducing complaint systems and subsequent removal of infringing content. Although user complaints help detect some cases of unauthorized use of content, they can't prevent the violation of copyrights completely. In fact, 3D content marketplaces can only rely on the integrity of their users, because the marketplaces do not provide any incentive system for these actions.
+Since the databases can't guarantee proper copyright protection they are cautious about granting use rights and limit consumers in content usage. For example, Turbosquid doesn't allow images to be used in open virtual worlds such as CS:GO, justifying it with the argument that "TurboSquid's artist community does not believe the IP protections for their work are sufficient in these worlds". 41
+Turbosquid42 and CGTrader43 try to prevent copyright infringement by differentiating two types of licenses. Editorial use may be only applied to purposes relating to events of public interest and other non-commercial purposes. Royalty free licenses grant a buyer the rights to use a model for commercial purposes including education, 3D printing, product design, films, video game development and AR/VR application development without having to pay fees for the end product sold. 3DExport44 provides basic and extended licenses. The latter allows the buyer to use 3D models in the end
+17
+
+product for commercial purposes. According to the End User License Agreement at 3DExport the content buyer must ensure that the model cannot be separated from the software produced. Renderosity45 also provides extended licenses for some products and draws extra attention to the fact that the model shouldn't be stored in a place where it will be accessible by another person.
+Though the licensing options define the terms of use, they barely help to protect content makers' rights. A failure to protect the copyright of the 3D content creation may result in serious issues as the AR/VR industry gains momentum and the demand for 3D content grows.
+Envisioned solution
+" ...it is important to have lots of content creators working together now, because the technology companies have got the technology to a stage where the industry and consumers are ready for it. But I think it is now content creatives that will drive the next wave of improvement.
+Neil Graham, Executive Producer at Sky VR Studios for Citi 46
+It is indisputable that content is one of the major drivers that will boost AR/VR development. Therefore, the future of AR/VR technologies largely depends on content creators and on the opportunities the AR/VR industry will unveil for them. Content makers should feel like empowered and appreciated members of a larger AR/VR community.
+Unfortunately, the AR/VR field has not been consolidated like the machine intelligence community, but it is coming along. It has recently started segregating into a separate discipline while new AR/VR academic programs are emerging. So, all efforts and actions aimed at bringing our community together under one roof are coming at just the right time. Though we need to be sure that all community members are equally respected: be they platform and tool suppliers, content makers or content consumers, such a requirement can only be met by a decentralized organization or an ecosystem that doesn't pursue one party's business success metrics.
+The ecosystem should be content-centric and we largely regard it as a scalable marketplace like Shutterstock for AR/VR/3D content, but decentralized and trustless. All the community actors should be economically motivated, and all economic actions are to be transparent and documented. Incentives should be structured within the
+18
+
+community in such a way that content makers are fairly rewarded, copyrights of traded content are protected and high-quality content is promoted. We envision a solution that naturally meets the above conditions and embraces a content-centric ecosystem view. The solution is to be based on the principles of a decentralized economy and will implement blockchain technology, which is able to address the fundamental copyright challenge. Blockchain provides transparency and decentralization that will endorse the development of an immutable record.47 This is the very feature needed to implement the immutable storage of commercial rights, to trace the transfers of commercial rights and to untangle the issue of commercial rights protection. Blockchain applications extend to various fields including insurance, finance, fraud detection, identity management,48 e-commerce49 and healthcare50. Even in higher education, Blockchain technology can help track student credentials and achievements in a cheap, secure, reliable and public way. The solution should provide content makers with easy and scalable tools for content generation in order to engage new artists and stimulate content exchange. To facilitate transaction flows among the parties, digital currency will be highly valuable as it will help to globalise the ecosystem and avoid complexities in money transferral. We believe that such an environment may be able to compensate for the shortfalls of AR/VR/3D content as well as act as a valuable springboard to boost AR/VR industry growth and to create the conditions to meet its market volume projections.
+19
+
+Cappasity background
+Cappasity: how it all began
+The Cappasity story began when a team of professionals with a strong record in 3D gaming participated in a project which required a large number of 3D models. To the team's surprise, the creation of a single game character took up to two weeks. In order to facilitate the process and make it cheaper the team designed a prototype of a 3D scanner. Soon it became clear that 3D content production and integration could be deployed in more industries than just gaming: engineering, the automotive sector, trading, etc.
+This is when Cappasity was established, with the aim to develop an easy and a fast platform for 3D content mass-production. In 2013, being a young and ambitious company, we seriously examined the retail and fashion industries, as this market was starving for new AR/VR and 3D visualization solutions for their businesses. Ecommerce is the ideal medium for such innovations: consumers enjoy trying on clothes in online stores before buying, studying products closely, and using their tablets to see if a chosen piece of furniture fits into the bedroom, etc. Willing to take a chance, we decided to tap into this emerging industry, which demonstrates an extraordinary growth rate.51
+Until recently, 3D technology was time-consuming and not suitable for mass production.52 For instance, 3D scanners were (and still are) rather expensive and the creation of a single 3D image took up to 30 minutes. That didn't meet the fast-paced requirements of fashion and online retail when new catalogues contain thousands of items and catalogue updates occur every two to three months. Moreover, previously available 3D scanning technologies were not tailored for the specifics of fashion merchandise. They failed to capture textures such as transparent elements, glistening surfaces or black matted surfaces. The resulting 3D image files were heavy, slowed webpage download and negatively affected the view time.
+Cappasity set its sights on developing tools to revolutionize AR/VR and 3D technologies -- and succeeded. We introduced a professional 3D digitizing solution comprising:
+· Easy 3D Scan® software, which generates a 3D image in two to three minutes and is capable of digitizing thousands of items per day.
+· 3D View a new format, revolutionizing the concept of 3D digitizing. Y
+20
+
+his format does not overload a website with heavy traffic: The download rate is four times faster on average, as we are streaming the data and enable users to interact with an object if only 30% of it is downloaded.
+· 3D Hologram - a new format, compatible with various AR/VR devices. · API used for synchronization with product catalogs: We implement Cappasity
+tools for customers' e-stores; Additionally, Cappasity tools show better compatibility with various browsers than most comparable alternatives. · Cappasity.AI to analyze customer interaction with 3D content and provide a customer interest heatmaps for each product.
+We deliver a 3D digitizing solution that has become easier, faster and much more friendly than could be imagined a couple of years ago. Over more than four years on the market, we have attracted the attention of leading brands: We established relationships with large merchants and fashion brands. Top luxury retailers have announced conversion increase by 10-40% after implementing 3D imaging, and 91% of customers say they want to have the option to have a 360-degree view of products.53
+Today, our platform provides more than 700,000 views per month and we are working on new features and a mobile 3D-imaging app. Cappasity graduated from the Plug and Play Retail (Sunnyvale) Batch 7 accelerator. It was selected to join the Dec 2017 Batch of the Lafayette Plug and Play acceleration program in Paris and attracted $1.8m from VCs. We also host AR/VR/3D events in our office in Santa Clara inviting specialists from all kinds of industries including, of course, AR/VR and gaming. The events have grown very fast, attracting people from tech companies and VR startups.
+An ambitious team, we see the overwhelming potential our technology can bring to the AR/VR industry, but also, we must not overstate the opportunities our platform will create for mass AR/VR/3D content production if shared with the community. We will provide developers our SDK so they can build their own apps on top of it, and we are hard at work on the Unity plugin release for direct embedding of 3D content into the AR/VR environment. So, we are ambitious enough to bring our experience and technology to the inception of a decentralized AR/VR ecosystem for 3D content exchange. We'll address the AR/VR/3D content demand with an AR/VR Ecosystem that makes 3D modeling of real objects easy for everyone and brings the AR/VR community together for a brighter AR/VR future.
+21
+
+The Team
+
+The Cappasity founders have been working with 3D technologies for more than 15 years. Initially, they started with PC projects and moved on to video and mobile games.
+
+Kosta Popov Cappasity CEO
+
+Kosta Popov, CEO and Founder, has a 10+ years successful track record as a software company CEO. Under Kosta's lead the company successfully raised over $1.8M from angel investors since 2014 and launched its platform and 3D digitizing software in January 2017. Kosta is an expert in 3D technologies, SaaS solutions and mobile applications. One of the top innovators of 2016 by Intel Software.
+
+Alex Chegaev Co-Founder
+Marianna Alshina Co-Founder
+
+Cappasity's CTO and Co-Founder, Alex has strong expertise in 3D technologies, blockchain and has worked with Kosta as a technical lead of several cross-platform software projects.
+Cappasity's CBDO and Co-Founder, Marianna has a digital marketing and business development background. She is building relationships with the company's core partners.
+
+Natalie Reyes CSO
+
+As Chief Sales Officer, Natalie drives Cappasity's international expansion on operational level. She is responsible for growing the sales team, ensures customer success and further market penetration.
+
+22
+
+The Team
+Julia Kasiyanova BDM
+
+Julia Kasiyanova comes from a multicultural background and has a truly global outlook. As a business development manager, she represents Cappasity at various acceleration programs and establishes and reinforces relationships with key clients.
+
+Advisory
+
+Henry Ines
+Partner at DraperDragon Fund, Executive Director of Global Chamber® San Francisco
+
+Jeff Smith
+Entrepreneur in residence, Tech Futures Group
+
+Henry is a global executive with extensive venture capital, cross border advisory, corporate finance and entrepreneur experiences. As an investor, he focuses on FinTech/blockchain and frontier technology ventures based on his VC experiences as a partner at DraperDragon Fund, DFJ Dragon Fund and DragonVenture, Inc. Henry is also an advisor to multiple blockchain / ICOs and tech startups in Silicon Valley; and also continues to serve as a mentor for accelerators & incubators worldwide. Additionally, Henry oversees the Global Chamber® San Francisco, a member organization focused on cross border trade and investment, and also routinely lectures at Nanyang Technological University (NTU) in Singapore. Henry began his career as a management consultant for Fortune 500 companies. Later, he focused on sell-side M&A and other corporate finance transactions before transitioning to direct investments. Henry holds a BS in Finance from Pennsylvania State University in University Park, PA and an MBA from Duke University Fuqua School of Business in Durham, NC.
+
+Jeff Smith has spent over 30 years of domestic and international high technology sales, marketing, business development, corporate development and venture capital experience in multiple industry markets. Jeff was most recently with RBM Technologies, a leading cloud based retail software company that was successfully sold. Prior to RBM, Jeff was the Founding and Managing Partner of XcelR8 Partners that provided business development consulting services to accelerate revenue traction for early stage companies. Jeff has held executive positions at other software companies including Commerce One as VP of Business Development, Corporate Development and GM of Commerce One Ventures. Prior, he held leadership roles in sales, business development, marketing, and product line management at BlueCurve (acquired by Red Hat), Sybase, Technology Concepts (acquired by Bell Atlantic) and Unisys.
+
+23
+
+Advisory
+
+Anders Larsson
+Vice President and Head of Network Products, Ericsson Co-founder LiveTourLAB
+
+Joakim Holmer
+Co-founder LiveTourLAB
+
+Anders has worked for two decades to create the emerging technologies of 2G, 3G, 4G, 5G and IOT in 10 different countries for Ericsson (NASDAQ: ERIC). Today, in 2017, there are 4.8 billion mobile broadband and 7.7 billion mobile subscriptions in total, exceeding the world population. Anders has held various CTO roles and the role of Vice President and Head of Practice for Mobile Broadband in Southeast Asia & Oceania with billion dollar yearly sales responsibility. He holds his own patents. Since 11 years old, Anders has loved to code. He is the main developer of the LiveTourLAB open source framework and now passionate about bringing VR, Crypto and Green Technology to same scale as telecom.
+
+When Joakim completed the delivery of a 500 team member strong project, he gave a T-shirt to each of the 500 team members that said: "Everything is Possible". This is Joakim. That project was the major delivery to AT&T in California and THE BIG ONE for Ericsson (NASDAQ: ERIC) that year, delivered on time, which everyone stated was impossible. Joakim Holmer joined the Ericsson Group right after school and it was his passion for communication and travel that made Ericsson an easy choice. The initial years as mobile comms software engineer were followed by 15 years in various technical leadership positions around the world. Later Joakim has also worked with Software System Sales. With hunger to develop that included everything from Mobile App start-ups to RedHat, SAP and Cisco. Together with Anders he has started the next big venture. Let's see where LiveTourLAB will take him next!
+
+24
+
+Advisory
+
+Leo Batalov
+Partner at DLA Piper, Head of Emerging Growth Companies & Venture Capital Russia & CIS
+
+Jonathan Millet
+CEO NewsBTC
+
+Leo Batalov advises on corporate finance
+
+transactions, mergers and acquisitions, venture capital transactions, private equity transactions and general corporate matters. He also has
+
+broad experience
+
+representing issuers,
+
+underwriters, trustees and servicers in public
+
+and private offerings of asset-backed
+
+securities as well as lenders and borrowers in a
+
+variety of debt finance transactions.
+
+Bitcoin Investor and a Hardcore crypto believer. Jonathan is a CEO of NewsBTC.com, one of the leading Bitcoin News outlets, founded in October 2013 with the goal of educating and informing those curious about the virtual currency that is Bitcoin. NewsBTC.com publishes insightful news articles, interviews with industry experts and extra bits of information to help better understand the Bitcoin ecosystem and share the awesome start-ups and projects running on Bitcoin. NewsBTC's coverage has been mentioned in the major business and technology outlets like TechCrunch, CNN, Forbes, Business Insider, and others.
+
+25
+
+Advisory
+Jayanand Sagar
+CTO NewsBTC
+
+Frank Holz
+Director / Member Of The Board Gawooni
+
+Jayanand is a seasoned Serial Entrepreneur with 7+ years track record of success. Crypto Investor and Tech Consultant, Jayanand is a Co-Founder of First Principles Ventures. He enjoys creating new products and is an expert in emerging technologies - blockchain and crypto industry are his new experimental grounds. Jayanand is a CTO at NewsBTC.com and holds deep expertise in blockchain-based projects and specifically Bitcoin.
+
+Frank Holz is a qualified economic engineer and a long serving consultant for companies such as Daimler-Benz, Mercedes-Benz and Mannesmann (today Vodafone). Since 1996 Frank Holz has been working in the games industry. He was Marketing Director of well-known, international game publishers such as Infogames and Atari. In 2008 he founded IEM Consulting, an internationally operating management consultancy focusing on the games industry. Frank Holz advises game developers, game publishers, multimedia entrepreneurs, branded insurers, investors, banks and governmental agencies worldwide. He has a very strong strategical background and stable international network within the gaming industry. Due to his numerous consulting projects for governmental agencies and game developers in Asia, Frank Holz has a huge business network in Korea, Japan, Hong Kong, China, Taiwan, Thailand and Singapore.
+
+26
+
+Advisory
+
+Jim Theberge
+Director, Head of Product Management & Sales Strategy, Advanced Advertising at Verizon
+An entrepreneurial, Emmy awardwinning Advanced TV executive consistently recognized for innovation and market execution. A successful startup veteran (six startups one IPO, three acquisitions) with numerous industry awards and firsts. First to lanch a global connected TV advertising network with Samsung, Sony, Panasonic & Toshiba.
+
+Yu Cao
+Startup Explorer and Analyst at LVMH
+
+Yu is working on startup sourcing at LVMH.
+
+She helps LVMH Group and Brands to
+
+identify and evaluate relevant startups
+
+for their businesses. She was directly
+
+involved in selecting startups for LVMH
+
+during Viva Technology
+
+2016 & 2017.
+
+Yu holds a Master in Management degree
+
+from ESSEC business school, one of the
+
+best business schools in France. Yu is
+
+originally from China. Her bi-
+
+cultural background gives her a good
+
+understanding of both European and
+
+Asian digital ecosystem.
+
+DLA Piper, legal advisor
+DLA Piper is a global law firm with lawyers located in more than 40 countries throughout the Americas, Europe, the Middle East, Africa and Asia Pacific, positioning us to help clients with their legal needs around the world.
+
+27
+
+Cappasity Ecosystem
+How it all works: a schematic overview
+The AR/VR is a nascent and highly prospective field. However, the lack of quality content is a serious obstacle that may put AR/VR disruptions on hold for decades. To unlock AR/VR's potential, Cappasity, an established trusted player, is launching a community-friendly AR/VR Ecosystem which is capable of solving the AR/VR content issue. The Ecosystem is designed to provide its participants with engaging economic incentives to store and trade self-created 3D and other AR/VR content. To ensure trustless content exchange among participants, the system relies on blockchain infrastructure, which allows users to register copyrights and track transaction history by using smart contracts that will ensure a fair allocation of remuneration among all interested parties. Additionally, we propose to use a proper utility token (CAPP) as the primary payment vehicle for all transactions within the Ecosystem's content Marketplace. This will simplify content exchange among participants from different parts of the globe and create a borderless AR/VR community network. Cappasity will use its proprietary technological platform as a lever to boost Ecosystem growth and will provide the community with its API and SDK to integrate new tools and technologies developed by third party service providers.
+The Cappasity AR/VR Ecosystem is intended for those wishing to sell, rent or buy AR/VR and 3D content. The Ecosystem consists of an infrastructure layer and a marketplace layer while both are based on Cappasity platform technologies. The infrastructure layer encompasses the blockchain, software toolkits, and decentralized storage. The decentralized storage infrastructure is provided by Cappasity and the independent storage service providers. The marketplace layer comprises the Marketplace for content exchange and the sandbox area as a testing environment for AR/VR/3D content. AR/VR developers and active community contributors are to be supported through dedicated AR Funds.
+28
+
+Cappasity AR/VR Ecosystem
+
+Capp
+
+Cappasity
+
+Ecosystem participants
+· Content makers All Ecosystem participants who generate AR/VR/3D content for the Marketplace and upload it to the Ecosystem's databases.
+· Content moderators Community participants who check the content for appropriateness and consistency. They help filter out offensive submissions and copyright violations and report misplaced tags and wrong descriptions. Moderators help keep the Marketplace clean and shape the content ranking system.
+29
+
+· Developers App and web developers having a need for AR/VR/3D content with the purpose of app creation or content integration on a website. They may also build tools and apps based on the Cappasity technological platform or on their own framework, and list the created products to the Marketplace application store.
+· Businesses Corporations or SMBs who consume AR/VR/3D content through the Cappasity's embedding tools. These customers acquire content to display it on their websites (ex. e-commerce websites or non-commercial online galleries) or to develop their own apps, or to buy ready-to-go apps from developers available at the Marketplace application store.
+· Consumers Anyone having a need for 3D, other AR/VR content such as 360-degree video and released apps for personal use.
+· Storage service providers Databases already on the market or any active community members willing to use their servers for content database hosting. The Cappasity content database is one of the multiple members.
+Ecosystem key elements
+· Marketplace The Marketplace functions as a buy-and-sell area where 3D and other AR/VR content exchange happens among the Ecosystem community. There will be two main categories of goods: AR/VR/3D content and AR/VR/3D apps available in the Ecosystem's application store.
+· Sandbox All content on the Marketplace can be deployed in the sandbox area before purchase. The sandbox has a built-in viewer for content as well as tools to test AR/VR/3D content in practice. This will be invaluable for developers wishing to see how content behaves when run on different devices.
+· Blockchain and smart contracts Each Cappasity Token transaction between Ecosystem participants is immutably stored in the blockchain and cannot be reversed. Once a transaction is done, it will be processed according to a smart contract protocol. Blockchain transactions will contain such facts as copyright information, content owner and author (if different), transfer of the rights for commercial use (if any), as well as purchase and license details. Also a blockchain and smart contract logic make fund replenishment and expense transparent.
+· Storage AR/VR/3D content and apps will be stored in a decentralized manner by a number of peer databases and multiple P2P servers as a part of a Bittorrentlike system --a geographically distributed network of servers and data centers.
+30
+
+Data storage providers will have the opportunity to add their nodes to the Ecosystem's decentralized database and earn service fees from Marketplace transactions. The Cappasity platform database will be one of a number of peer databases. · Software tools & SDK Cappasity platform software tools, SDK for AR/VR/3D content generation, embedding as well as data import from popular third-party utilities (Autodesk, Rhino, 3ds MAX etc.) will be available to the developer community. Developers will be free to build their own apps on top of it, embed 3D objects and models and integrate their own products with the available tools. · CAPPfunds for ecosystem development
+- Cappasity Innovation Fund -- an endowment providing the developer community with periodic grants for innovative apps.
+- Reward Fund for Users --an endowment providing the makers of the most popular content with weekly rewards and encouraging active community members to moderate and upvote.
+Ecosystem goods
+There will be two main categories of goods available on the Marketplace: · AR/VR/3D content, namely, 3D models, 3D Views, 3D Holograms and 360-degree view videos. The Ecosystem will support 3D model importing in various formats such as *.OBJ / *.STL / *.3DS / *.WRL / *.FBX and other popular formats. This content will be used by AR/VR/3D app developers, businesses, other content makers and artists as a basic element of a whole AR/VR app environment. A plugin for content embedding will be available to content purchasers. Also general consumers may use the available content for personal and social VR/AR applications. · AR/VR/3D apps for a range of use: content creation tools for developers and content makers, content web-players for various devices, consumer AR/VR/3D apps for different purposes, e.g. entertainment, business and 3D printing.
+In order to support and promote good content, we have introduced moderation and an "upvote" ranking system for content and its authors. Every user can upvote any content that pleases them by clicking on the "thumbs-up" button. Content makers' ratings will be calculated as a simple sum of all their content'S upvotes. Top voted and demanded goods as well as the most appreciated creators will be listed on the Marketplace main page.
+31
+
+Ecosystem structure
+AR/VR Ecosystem toolkits
+
+API
+
+SDK
+
+Sandbox
+
+to
+
+Embedding Remeshing 3D measurement Cappasity AI
+
+access integrate capture 3D content
+
+check embed test pay if suits
+
+In order to keep the AR/VR/3D content creation and exchange experience smooth for all participants, the Cappasity Ecosystem will rely on the Cappasity technological platform with a variety of useful toolkits and an open API.
+For instance, Easy 3D Scan software is indispensable for mass 3D content generation. In contrast to complicated photogrammetry techniques, the tool can equip every person with the ability to easily create quality 3D content of real objects and put them up for sale. A module for 3D modeling of large objects, such as buildings or landscapes, with mobile devices or drones is in the platform pipeline: the software will be adapted for drone 3D shooting and will not require a lot of computing power so that it will work rapidly on laptops and smartphones.
+The Cappasity platform supports a multitude of 3D model formats. The Cappasity platform formats (3D View and 3D Hologram, U.S. Patent Pending) were designed to easily share and embed 3D images to websites and AR/VR apps. The first one is tailored for websites and mobile apps, the latter is better suited for AR/VR apps and hardware. To support the proper formats in other development environments such as Unity and Unreal Engine, plugins are available for developers. Also imported 3D model formats can be easily converted to 3D View or 3D Hologram for embedding and sharing convenience.
+The platform will provide developers with SDK to: · Integrate 3D content with third-party apps and SDKs · Integrate 3D capturing with third-party mobile apps · Access 3D content from AR/VR apps
+
+32
+
+The platform will provide its API to upload content to one of the databases and to access platform complementary features, namely:
+- Embedding solution -- open-source tools and plugins for apps and web developers that allow them to integrate 3D View and 3D Hologram formats.
+- Cappasity AI -- an analytical tool for designers and marketers that analyzes customer interaction with 3D and provides a customer interest heatmap for each 3D image. The tool can be integrated with Content Management Services.
+- Remeshing solution -- a tool for a better discrete representation of 3D model surfaces. Mass market devices can't handle complex polygonal models, so polygon optimization is needed to run AR/VR/3D apps on such devices. On the contrary, the tool allows users to increase the number of polygons to achieve a better output quality for 3D printing.
+- 3D measurement solution -- a tool that allows users to measure the size of an object based on its 3D image.
+The open code of Cappasity's embedding tool API will be available on the Cappasity github before the Ecosystem's official launch. Additionally, we will provide the developer community with the open API of new platform features and open SDK/framework for feature extensions. Moreover, the code of the platform's new features will be open sourced as soon as they are developed.
+On the marketplace layer, the Cappasity platform provides all account holders with the sandbox area.
+Sandbox
+The sandbox is a part of the Cappasity Ecosystem's marketplace layer where customers can test AR/VR/3D content before purchasing it. It allows them to:
+· Quality check and draw content · Check format compatibility with different devices · Embed content into a website or any other system to see what it looks like. · Import content into an app to test the embedding plugin in the development
+environment. · Use the SDK to test integration with their own tools.
+Inside the Sandbox, only temporary access via link may be granted. In the case of embedding into a developer environment, the Cappasity import plugin deletes the tested content upon expiration. The owner of the content may forbid embedding for tests, not all the content will be available in the Sandbox.
+33
+
+AR/VR Ecosystem blockchain
+The Ecosystem stakeholders, i.e. content creators, app developers, businesses and consumers, need to be ensured that their copyrights are respected. That's why all content exchange details are immutably stored in the blockchain. These details form the record of transactions and the record of license if commercial rights' transfer took place.
+The record of transactions will contain the following details for each content exchange:
+- content hash - content seller - content buyer - sum of transaction - subscription vs. standalone - rent vs. sale vs. free use - expiration date for content provision (lifetime if sold).
+The record of license contains: - content hash - content author - content owner - territorial coverage: the list of countries for content distribution - license type: exclusive vs. non-exclusive - payment type: fixed price vs. royalties vs. fixed price with royalties - permits for sublicensing: yes vs. no - content usage: - non-commercial use vs. commercial use vs. extended commercial use - single-end product or multi-use product - license expiration date
+To prevent the infringement of copyrights, each content file is assigned with an ID or a hash value. The hashes of all the files submitted to the Cappasity platform are listed in the blockchain and cannot be altered. A user may not upload a file that has already been submitted, as the blockchain already contains a record with the hash of this file and won't perform such operation. That means that a file can be submitted only once to the platform and no one can sell anyone else's content without the author's' consent. The exact content submission procedure is discussed in the next chapter. The Cappasity platform ensures that a model belonging to its author or a content owner won't be sold by any other person illicitly and that the 3D content use rights won't be infringed on.
+Due to the fact that each piece of content is assigned with a hash, the content owner receives payments for each transaction. All standalone and subscription purchases as
+34
+
+well as free content are regulated by the smart contract that grants access to the content. It also regulates application downloads and 360-degree video viewing. In the case of a content rental, the link will expire at the end of the period listed in the rental contract. In the case of temporary-available free content or content sale term changes, the corresponding amendments are to be registered in the blockchain and the relevant smart contract activated.
+Smart-contract code example for granting access to the content.
+function hasPermissionToGetContent(bytes32 _contentID) public view returns (bool _hasPermission) {
+_hasPermission = false;
+bool allowedByLicense = false; if (licensePurchases[_contentID][msg.sender].isValue) {
+allowedByLicense = (licensePurchases[_contentID][msg.sender].isLifetime) || (licensePurchases[_contentID][msg.sender].expirationDate > now);
+}
+bool freePeriodApplies = false; if (freePeriods[_contentID].isValue) {
+freePeriodApplies = (freePeriods[_contentID].startingDate < now) && (now < freePeriods[_contentID].endingDate);
+}
+_hasPermission = (content[_contentID].owner == msg.sender) || allowedByLicense || freePeriodApplies;
+}
+This is a simplified version of the code for demonstrative purposes, the actual implementation may and will differ from this illustration.
+AR/VR/3D Ecosystem will be built on Ethereum platform as a set of smart-contracts. Ethereum is a blockchain that supports Turing-complete smart-contracts. Smart-contracts will track license purchases and cover all the aspects mentioned above in respect to copyrights' protection. All the content exchange details will be stored in Ethereum blockchain and therefore approved by Ethereum miners. We picked Ethereum for several reasons. It has smart-contracts to support the behaviour we want from our blockchain ecosystem. It's fast enough for our requirements and it's reliable.
+35
+
+What are the benefits of blockchain as it used in the Cappasity Ecosystem?
+Decentralized and trustless copyright storage
+All content and its exchange details are immutably stored in the blockchain, which resembles a Bittorrent-like system. Each content file is assigned with an ID or a hash to prevent any copyright infringement. All hashes of all the files are listed in the blockchain and cannot be changed. Once a content transaction is done, all its details will be processed according to a smart contract protocol and cannot be reversed retrospectively. For instance, the system won't allow a malefactor to sell someone else's file by claiming it as their own, or rent a file for free when the rental period has already come to an end. Therefore, when exchanging content, buyers and sellers are guaranteed that their copyrights are fully protected.
+Nearly free, instant and transparent global financial transactions
+Firstly, thanks to the blockchain, when 3D content is being sold via the marketplace, it is sold at a seller's price and the Ecosystem participants are charged close to no fees. Secondly, blockchain technology allows instant and transparent financial transactions all over the globe. The content owner receives payments for each transaction very quickly and without a failure. Overall, the blockchain helps us create a secure and convenient environment for 3D content production and mass distribution. Since high-quality and accessible content is the driving force behind the development of AR/VR technologies, we believe that the blockchain-based AR/VR Ecosystem will bring the AR/VR industry to a new level of its development.
+36
+
+Decentralized AR/VR content storage
+
+User wants
+to upload content
+
+Integrity tests
+
+The content submission system
+
+Contents check
+
+Blockchain stores:
+authorship ownership sale info license info
+
+CONTENT is stored at several storages
+
+User wants
+to buy content
+License selection
+
+User wants
+to download content
+
+SMART CONTRACT
+method
+« buy (content_id) »
+
+Check ownership
+
+Register ownership
+
+File request
+
+SMART CONTRACT
+
+User receives content
+
+Content submission system is designed to verify the uploaded content, in order to distribute the content among decentralized storage nodes and to make copyright records on the blockchain.
+The content that is going to be uploaded passes through a 2-step verification. The first step checks if the file is broken and if the file format coincides with its content. The second step applies computer vision methods to filter inappropriate content that may offend the community or infringe on copyrights.
+Each content file that passes through verification is uploaded to the Ecosystem's decentralized storage and is assigned an ID or a hash value in order to facilitate the procedure of verifying the file's integrity.
+
+37
+
+The meta information stored in the blockchain comprises the following: · Content author · Content buyers · Content owners · License types · Payment types · License territories · Territories where license is valid · Content usage permission and terms · Expiration dates of content provision · Users who reported the content · Users who upvoted the content
+When the content is purchased on the Marketplace, a smart contract function appends a buyer's address to the content buyer list. Each content file has a link that, when integrated in the development environment or a website, triggers a verification procedure. Its blockchain record is checked to determine if the user's ID is included in the content buyer list. When the content is rented, the smart contract is activated to delete a user's ID from the sold_to list when the rental period is over.
+The smart contracts have a get(id) function which forwards the link to one of the content sources recorded in the decentralized system, verifying that the file is available and unchanged. Technically, for each given content piece there is a queue of source databases and the top one of them is selected. When access to content is successfully provided, the source moves to the end of the queue to enable other sources to be paid for providing content.
+The proposed decentralized storage is a Bittorrent-like system allows anyone to join the Ecosystem with their own server. The server administrator just needs to install the Cappasity storage software and register an account. The content submission system provides the content that is most requested in that region so the data server will not be idle. The server administrators will not know what content is stored on their servers but they will be paid with a share of the monthly Marketplace turnover.
+To reward storage service providers for content hosting we are creating the Storage Fund, which will be refilled with a share of every sale -- 2% on average. The payment for each server will be based on disk space, Internet bandwidth connectivity, geolocation and stable access to the stored content.
+To penalize poor-quality databases, we plan to introduce lists of reliable and unreliable sources. All sources are deemed reliable in the beginning. Once a database is reported unavailable when a file or a link is requested, or a certain file is unavailable or damaged/changed, the database is moved to the list of unreliable sources. When
+38
+
+content is requested after being bought or rented, databases from the reliable list go first. Only if none of them contain the requested file does a search among the unreliable databases proceed. In order to be returned to the list of reliable sources, it is enough to provide a valid link to requested content in a timely manner at least once.
+File is requested
+If a user purchases a file and wishes to download it from a local server, they are charged only after receiving a direct link to the file. The Storage Fund where the file was downloaded is filled by a share of content's cost.
+Link is requested
+If a user rents a file, he/she is charged after access is provided for the first time. The Storage Fund is filled by a share of the rental cost in equal portions every week within the rental period. If a database that claims to contain this content is unavailable, the payment is transferred to another source which is able to provide the content. At the same time the initial source is moved to the unreliable list.
+Marketplace economy
+The Ecosystem economy is designed to be driven by the market. Thus, the Marketplace is the key economic unit where goods turnover occurs. Using the Marketplace, participants are free to rent, sell and buy AR/VR/3D content as well as released apps. Below we describe the scope of Marketplace functionalities as well as the types of economic relationships within the community.
+Content listing
+Artists, developers, designers -- basically anyone with AR/VR/3D content -- are free to create a personal or business account on the Cappasity's Ecosystem platform. Once the content is uploaded to the platform, the content maker is able to choose a status for each piece of content:
+· Public -- the content is visible on the content maker's account o Listed on the Marketplace -- the content becomes available for purchase o Unlisted -- the content is only on the account, but sharing and embedding option is available. This is the case for not-for-profit content display.
+· Private -- the content prohibited from sale or use and is solely available to its owner, who can store the content for personal purposes.
+As for all public content pieces listed on the Marketplace, a content maker is free to choose one of two listed mode options corresponding to one of two content categories:
+39
+
+· "Standalone listing" mode for the exclusive content category: the content maker may set the price for each piece.
+· "Listing in subscription" mode for the regular content category: the price is set by the Marketplace.
+Besides the difference in pricing, each content category will have different terms of moderation. To protect the content from piracy, computer vision algorithms will be utilized to find potential copyright infringement. The similarity value threshold is set higher for the exclusive category than for the regular one.
+Content makers can also choose how their content is going to be traded. Several economic types are available:
+· Renting content, · Selling content, · Transferring commercial use of rights with various licensing options, · Apply for tender calls
+Along with that a content maker may take part in calls for tender hold on the Marketplace, where customers will encourage content makers to compete for orders by price and quality.
+For all traded content in the Ecosystem, the fact of payment for the content, as well as the deadline for the rental term, is fixed in the blockchain. The execution terms are guaranteed by smart contracts.
+Renting content
+When rented, content is accessed by the customer via temporary link and cannot be cached for development or downloaded. The link will expire once the lending period is over. The link to the model may be embedded into the customer's website or mobile apps making it a good option for e-commerce catalogues, seasonal expositions or advertisement cases. The content maker gets paid on a monthly basis.
+Selling content
+When sold, content is provided to a customer either via link or as a file; the customer chooses. Content sale doesn't imply exclusive sale, so one and the same content may be sold to different customers. To complete the purchase, a lump-sum payment is required. Content sale is well-suited for permanent exposition of goods or artwork, and app development in gaming and other fields.
+Transfer of commercial use rights
+Transfer of rights implies a change of content ownership, tough the blockchain keeps the information about author forever. Separation of authorship from ownership allows
+40
+
+original content makers to continue collecting upvotes and leave the content in their personal portfolio. Meanwhile, the owner is authorized to trade the content and to enjoy revenue.
+Call for tender
+The Marketplace will allow community members to place orders for AR/VR/3D content and applications and invite content makers to participate. For instance, a call for tender may contain a description of a 3D model wanted, its format and specs, price range and submission deadline. Content makers are free to set the price for their work, show their portfolio of previous creations and discuss details. Once the customer is satisfied with the terms of one of the bidders, the deal is closed. The transaction takes place when the content is ready. Orders can be placed not only for the 3D models and images, but also for any other types of content traded on the Marketplace such as AR/VR/3D apps or 360-degree videos.
+Marketplace revenue distribution
+Not all revenue from content exchange is given to the content maker. A share of it is allocated to nurture supporting infrastructure as a transaction fee. The size of the fee is not fixed and serves as an economic incentive to promote good quality content and encourage diligent content makers. The Marketplace content ranking system affects the profit received by a content maker. Thus, every user is assigned with a score in such a way that a content maker's royalty lies between 85-95%, starting at 90%
+Smart-contract code example for royalty rate after moderation reports. function punishForInappropriateContent(address _author) internal {
+This is a simpli ed version of the codefor demonstrative purposes, the actual implementation may and will differ from this illustration.
+41
+
+A content maker's rating is affected positively based on:
+· The number of upvotes received · Correct moderation of others' content (correct reporting increases the score)
+A content maker's rating decreases when: · The maker's content is reported as inappropriate and deleted. · False complaints on the others' content and report retractions during moderation are discovered.
+The fees are distributed among a daily fund and databases, a.k.a storage service providers. Fees for storage service are equal to 2%. The databases are rated as well; the exact fees depend on their rating.
+A content seller: 85-95% depending on personal rating. Starts at 90%. The retained fee from the content sale is allocated to *:
+· Storage service. 2% of content monthly turnover is collected and allocated among databases. The exact remuneration amount that a database receives depends on its technical specifications and behavior.
+· The remaining 3-13% goes to the Daily Fund. Starts at 8%.
+Smart-contract code example for royalty rate depending on personal rating. function sendTokenPayment(address _recepient, uint _tokens) internal { require(tokenContract.allowance(msg.sender, address(this)) >= _tokens); require(tokenContract.balanceOf(msg.sender) >= _tokens); uint royalty = accounts[_recepient].rating / 1000;
+uint tokensToOwner = _tokens * royalty / 100; uint tokensToStorageFund = _tokens * 2 / 100; uint tokensToDailyFund = _tokens * (95-royalty) / 100; tokenContract.transferFrom(msg.sender, _recepient, tokensToOwner); tokenContract.transferFrom(msg.sender, storageFund, tokensToStorageFund); tokenContract.transferFrom(msg.sender, dailyFund, tokensToDailyFund);
+PaymentProcessed(msg.sender, _recepient, _tokens, tokensToOwner, tokensToStorageFund, tokensToDailyFund);
+This is a simplified version of the code for demonstrative purposes, the actual implementation may and will differ from this illustration.
+42
+
+The Daily Fund is filled with the fee from daily transactions and is spent on: · Rewards for senior moderators · Rewards for reports that lead to the content deletion · Rewards for socially important achievements such as: - Moderation: 10 reported pieces of content confirmed inappropriate and deleted - Content sale: content maker achieved maximum royalty rate - Storage: holding a database for more than a year or 100TB of traffic having gone through the database
+Cappasity ecosystem use-cases
+Gaming: 3D model sale for videogames
+2025 videogame AR/VR market estimation by Goldman Sachs: 216m users and $11.6bn AR/VR software market
+A team of video game developers is looking for 3D content compatible with different VR hardware for their VR game. To stun and engage gamers, the team plans to create real-world industrial holograms and 3D models. To speed up the game's release, a technical designer goes to the Ecosystem Marketplace and searches for relevant content. They pay for a subscription and buy a bunch of industrial 3D holograms, generated with the open source Cappasity 3D capture module for drones. Also they choose a 3D model and test it in the sandbox area via the link. During the test period the technical designer uses the plugin to display the model on different devices. Once tested, they complete the purchase. As a result, the developer gets the opportunity to download the purchased model in the relevant format and use it in their development framework. The smart contract protocol allocates the revenue among the 3D hologram makers and transfers the funds to the 3D model makers. The developers obtain the files with the model and holograms. Once programmed, the video game is ready for production release.
+Live events: 360-degree video call for tender
+2025 live events AR/VR market estimation by Goldman Sachs: 95m users and $4.1bn software market
+A video production and PR company provides services to many clients hungry for hot and fresh content including cable-TV broadcasters, travel agencies and on-demand streaming services. It joins the Cappasity Ecosystem to place calls for a tender for 360-degree videos on different topics: erotic home 360-degree videos, safari park 360-degree videos, rock festival 360-degree videos. Content makers from different corners of the globe send their proposals and links to their portfolios to negotiate the terms. The bidding party is ready to
+43
+
+license the rights for commercial use from the content makers. Once the content makers are selected, the money is frozen on the customer account and sent to the makers when the task is submitted. The customer evaluates the video quality. After the purchase, the production company is authorized to resell the content to its clients. It sells erotic home 360-degree video to cable TV broadcasters, safari video from South Africa to travel agencies and live rock festival footage to streaming services. The spectators enjoy neverbefore-seen content with VR glasses.
+Video entertainment: 3D graphics for consumer AR app
+2025 video entertainment AR/VR market estimations by Goldman Sachs: 79m users and $3.2bn software market
+A consumer AR app developer submits its product to the Marketplace application store. The app superimposes animated 3D graphics over a user videostream. The monetization model is freemium: users can select to display a free AR image or pay for the ability to display exclusive AR images. The demand for images is not predictable: the developer has to do lots of market study and tests in order to achieve a sustainable profit. To shorten filter time-to-market and development iterations, the developer pays for a short-term rental of 3D images, embeds them into its app via the Cappasity platform SDK and measures conversion rates of installs and payments. The developer drops unwanted content and keeps the most popular images, purchasing them from the content owner. Thus, the developer's revenue grows while a prudent balance between variable and fixed costs is maintained. Meanwhile, users enjoy abundant entertaining content.
+Retail: virtual 3D exhibition, VIP showrooms, social e-commerce
+2025 retail AR/VR market estimation by Goldman Sachs: 32mn users and $1.6bn software market
+3D content rental for online art auction
+An art auction agency launches an online auction of valuable sculptures. To promote the event it announces a virtual exhibition of thematic pieces of art. The agency's system administrator uses Easy 3D Scan Cappasity software to generate 3D images of the sculptures for sale and surfs the art section of the Marketplace to find the necessary content submitted by academies of fine arts for seasonal rental. Then, they embed the objects into the agency's online gallery. The auction prospects enjoy viewing the exhibition and the sculptures for sale in 3D view format, which allows rotation, zooming and viewing on the agency's website directly. Along with the sculptures, the agency may sell the rights for commercial use of sculptures' 3D models or may list them on the Marketplace and accrue passive income. AR/VR VIP showroom A famous Swiss watch brand discovers a new way to showcase its collection of luxury models to VIP clients. It invites a high-ranked content maker to prepare 3D holograms
+44
+
+of the collection and submit them to the Cappasity Ecosystem for private use only. Then it sends its representative to a VIP client location with AR headsets Microsoft Hololens, for example. The client enjoys seeing various models right in front of them and chooses their favorite model with ease.
+Social e-commerce A professional cyclist used to place their obsolete equipment to eBay for sale, but it is annoying for them to reply to redundant customer requests for equipment condition details. So, they join the Cappasity AR/VR Ecosystem to make a 3D View of their professional equipment. They download a 3D Scan mobile app to digitize the equipment and then embed the link in their eBay account and several other Marketplaces to display a detailed 3D image of her equipement. Now, all the details of the equipment are clearly available to purchasers: They can zoom and rotate the object. Therefore, sales require less communication and happen faster.
+3D printing: 3D models for medical students
+2025 education and healthcare AR/VR markets estimation by Goldman Sachs: 18.4mn users and $5.8bn software market
+A bioengineering lab engineers 3D printed hearts, lungs, brains, and livers. The artificial organs are made from soft materials that look so lifelike they even bleed. The lab joins the Cappasity Ecosystem to sell the 3D printed models stored as 3MF (3D Manufacturing Format) files to medical schools and university hospitals. The more 3D printing spreads in healthcare, the more medical labs become equipped with their own 3D printers and need ready-to-print models for medical training. Medical students can watch surgeries on a monitor while practicing along on their own 3D printed model. Afterward, surgeons and students are able to compare what they removed from the organ. Meanwhile, the bioengineering lab is able to release model updates and profit from the market.
+Social VR: 3D avatar for sharing and fashion
+2025 total addressable AR/VR market estimation by Goldman Sachs: $80bn with 60% of VR/AR software revenue driven by the consumer (vs. enterprise/public sector)
+An actress makes a 3D model of herself and places it on the Cappasity Ecosystem to share with friends and publish on social networks. As her 3D figure becomes publicly available, she gets requests from fashion brands and designers to rent her figure for virtual fashion shows and showrooms. She lists her hologram on the marketplace in the exclusive content category and sets the rental price. Fashion customers embed her hologram into their AR/VR applications and pay monthly rent to the content owner.
+45
+
+Ecosystem content moderation
+
+AR/VR content submission and moderation system
+
+Uploading
+
+Uploading
+
+Content submission System moderation
+
+CONTENT 1
+
+CONTENT 2
+
+Number of user reports
+
+Uploading CONTENT 3
+Cappasity Platform
+
+Moderators
+
+Reported 3D content
+
+3D trashbin
+
+To ensure appropriateness of the content and eliminate copyright infringements, steadily data curation and monitoring is needed. To filter out defective objects at submission stage, the automatic curation will be carried out by the Content submission system. This will allow the system to avoid damaged content such as:
+· Total copies of already uploaded content to the database · Mismatched format of content · Broken file · Offensive content
+As for content submitted to the Cappasity platform, it is a subject to two steps of manual moderation. The first step relies on users who sent complaints. Complaints may made about: *
+· Unwanted content · Copyright infringement (with proof), · Content descriptions that don't match the content, · Misplaced tags.
+
+46
+
+Smart-contract code example for content moderation. struct ContentDeletionVote { bool hasVoted; bool votedToDelete; }
+struct ContentDeletionVoteBooth { // The number of potential voters is small, so arrays can be used // safely, without the risk of running out of gas address[] assignedModerators; mapping (address => ContentDeletionVote) castVotes; uint totalVotesCast; uint startingDate; uint expirationDate; bool resolved; bool isValue;
+}
+mapping (bytes32 => ContentDeletionVoteBooth) contentDeletionVotes;
+function maybeAdvanceContentReporting(bytes32 _contentID) internal { uint authorsRating = accounts[content[_contentID].author].rating; uint threshold = MIN_REPORTS_TO_INIT_VOTING + (authorsRating^2) / 10000; if (content[_contentID].totalReports >= threshold) { // Check that the moderation voting hasn't been launched already require(!contentDeletionVotes[_contentID].isValue); // Launch voting contentDeletionVotes[_contentID].startingDate = now; contentDeletionVotes[_contentID].expirationDate = now + MODERATION_VOTING_TIME; contentDeletionVotes[_contentID].isValue = true; assignRandomModeratorsForContentRemoval(_contentID); }
+}
+This is a simplified version of the code for demonstrative purposes, the actual implementation may and will differ from this illustration.
+The second step involves a small number of moderators, appointed by trusted community members with high rank and high report hit rate.* Content with a high number of complaint reports comes to them. The second group of moderators makes a final decision about whether delete content or decline a complaint. The latter is followed by lowering the rank of the reporters who misplaced the complaint. The required number of reports to send the issue to the second group of moderators isn't fixed. For the content to be deleted, content makers who have many upvotes will need a higher number of reports than a freshly made account, since new accounts don't have any record of content quality. The minimum required number of complaint reports is determined by the sum of upvotes of a content maker.
+(the bottom brackets indicate rounding down).
+47
+
+Smart-contract code example for content moderation based on number of moderators.
+function voteForContentDeletion(bytes32 _contentID, bool _vote) public { require(contentDeletionVotes[_contentID].isValue); // Make sure the voting period hasn't ended require(contentDeletionVotes[_contentID].expirationDate > now); // Make sure the voter has been selected for this particular vote require(isInAddressArray(msg.sender, contentDeletionVotes[_contentID].assignedModerators)); // Make sure the voter hasn't already voted require(!contentDeletionVotes[_contentID].castVotes[msg.sender].hasVoted);
+contentDeletionVotes[_contentID].castVotes[msg.sender].hasVoted = true; contentDeletionVotes[_contentID].castVotes[msg.sender].votedToDelete = _vote; contentDeletionVotes[_contentID].totalVotesCast += 1;
+VoteCast(_contentID, _vote); }
+function punishModeratorForIdling(address _moderator) internal { // Decrease rating, but not below the threshold of 85% royalties accounts[_moderator].rating = max(accounts[_moderator].rating - 30, 8500);
+}
+function resolveContentDeletionVote(bytes32 _contentID) internal { require(contentDeletionVotes[_contentID].isValue); // Make sure the vote hasn't already been resolved require(!contentDeletionVotes[_contentID].resolved); // Voting can only be resolved when every vote is cast or it has expired require((contentDeletionVotes[_contentID].assignedModerators.length == contentDeletionVotes[_contentID].totalVotesCast) || (now > contentDeletionVotes[_contentID].expirationDate));
+uint votesToDelete = 0; uint votesToKeep = 0; address _moderator; for (uint i=0; i<contentDeletionVotes[_contentID].assignedModerators.length; i++) { _moderator = contentDeletionVotes[_contentID].assignedModerators[i]; // If the moderator has voted, count the vote if (contentDeletionVotes[_contentID].castVotes[_moderator].hasVoted) { if (contentDeletionVotes[_contentID].castVotes[_moderator].votedToDelete) votesToDelete += 1; else votesToKeep += 1; // Otherwise punish the moderator for skipping on a vote } else punishModeratorForIdling(_moderator); }
+48
+
+bool voteResultedInDeletion = votesToDelete > votesToKeep; if (voteResultedInDeletion) { punishForInappropriateContent(content[_contentID].author); removeContent(_contentID); rewardReporters(_contentID); } else { punishReporters(_contentID); clearReportersList(_contentID); }
+contentDeletionVotes[_contentID].resolved = true; VoteResolved(_contentID, voteResultedInDeletion); }
+This is a simplified version of the code for demonstrative purposes, the actual implementation may and will differ from this illustration.
+This dependence increases the threshold sum of report points from 10 to 20 when a content maker's rating reaches 1000 upvotes (the sum of the "likes" for all of their content), and to 110 report points with the 10,000 upvotes respectively. The above logic is hardcoded in the voting smart contract protocol, that executes the calculation of user reports and complaints and performs a content deletion, if required.
+Report points required to send the issue
+1000
+500
+
+Threshold (T)
+
+100 50
+10 1
+
+10
+
+100
+
+User's upvotes
+
+1000
+
+10000
+
+49
+
+Cappasity Token (CAPP)
+Cappasity utility currency
+With intention of developing the international AR/VR/3D content Marketplace, it was decided to use digital currency as the main vehicle for Ecosystem goods exchange among the participants. Due to its ability to ignore the state borders, digital currency is perfect for C2C (consumer to consumer) economic interactions. Moreover, instead of adopting one of the existing cryptocurrencies such as BTC or ETH, we settled upon the creation of a native Ecosystem C a p p a s i t y utility token (CAPP). Consumers of AR/VR/3D content will pay with CAPPs for the Ecosystem goods that content makers and developers offer for sale and rent.
+Cappasity token will be issued as ERC-20 Ethereum token. All CAPP transactions will be handled by Ethereum blockchain and therefore approved by Ethereum miners. Smart contracts created for the Cappasity AR/VR Ecosystem is published on Cappasity GitHub profile.
+Cappasity will invite the AR/VR community as well as the cryptocommunity to contribute to AR/VR Ecosystem development by taking part in the Cappasity Token sale. The community contributions will help AR/VR Ecosystem development and accelerating Cappasity's innovation pipeline. In response, a fair share of contributions will be reserved in form of endowment funds to support AR/VR/3D innovators and active Ecosystem contributors.
+Right after the end of the token sale, personal accounts for all the crowdsale participants will be created automatically on 3d.cappasity.com. After the token sale is finished, Cappasity will give crowdsale participants an opportunity to pay with Cappasity Tokens for the services already presented on Cappasity web site such as a subscription for Cappasity 3D modeling services offered with a discount for token sale participants. As the development of the platform continues, more features will be added to Cappasity AR/VR Ecosystem as soon as they are ready for implementation.
+50
+
+Cappasity endowment funds
+To favor the AR/VR/3D community, two endowment entities are established: The Cappasity Innovation Fund and Reward Fund. Upon a successful token sale 20% of raised funds will be dedicated to the former and 10% will be allocated to the latter.
+Cappasity Innovation Fund
+A dedicated fund for AR/VR/3D app developers and innovators is going to incentivize the developers of the best AR/VR/3D applications submitted to the Ecosystem for further release more high-quality products. Within five years of the Cappasity Ecosystem launch, the Cappasity Token remuneration is to be paid to developers. No binding terms are foreseen: developers will own their IP and will be free to publish or commercialize the apps and tools as they wish. The grant sizes and number of winners will depend on the remaining funds, nominee enrollment will be open all year round with no deadlines set.
+Reward Fund
+A dedicated fund for the development and support of the AR/VR/3D community. The most active content creators and contributors will be rewarded systematically within the period of 200 weeks. After the official Ecosystem launch, the fund will be spent on weekly challenges in such a way that 0.05% of token sale revenue will be distributed each week as a reward fund. It will sponsor such competitions as a sculpting challenge, landscape parts, and best tutorial. Stimulating prizes and rewards ares to be paid in CAPPs. Awardees may spend these utility tokens on AR/VR/3D content and services listed on the marketplace. Moreover, these incentive measures will engage new Ecosystem participants and foster increasing Cappasity Token turnover.
+51
+
+Milestone roadmap
+2013 Cappasity Inc. is founded
+2016 Free 3D digitizing software Easy 3D Scan® to create 3D Views: 10x faster 3D content production
+Q1 2018 Free Mobile 3D capturing SDK 3D View, 3D hologram mobile capturing 3D Hologram Unity/UE integration
+Q3 2018 Free 3D avatars scanner Remeshing solution for AR/VR devices Remeshing solution for 3D printing
+Q1 2019 Decentralized AR/VR/3D app marketplace 3D capturing for drones Fast mobile photogrammerty Decentralized GPU photogrammetry solution
+
+2014 R&D of easy 3D content production
+2017 Cappasity Platform launch: 4x faster browsing from any type of device proprietary 3D format. Easy embedding ­ manual or API.
+Q2 2018 Smart contract empowered 3D/AR/VR content marketplace 3D Hologram Apple ARKit integration Cappasity AI API: prescriptive analytics of user behavior, CMS integration
+Q4 2018 Decentralized AR/VR/3D content storage Free 3D capturing for real estate space 3D measurement solution 3D content search engine
+
+52
+
+Conclusion
+Cappasity proposes the creation of a Decentralized AR/VR Ecosystem to address growing demand for AR/VR and 3D content. Today, we can see the shortage of compelling content that is slowing the dissemination of AR/VR and further technology development. Content makers lack convenient tools and a supportive content distribution environment. Moreover, artists cannot be fully confident that their copyrights will not be violated. Cappasity is initiating a global ecosystem of AR/VR services through the establishment of a new cooperative model. To guarantee copyrights and ecosystem marketplace purity, Cappasity AR/VR Ecosystem is applying blockchain technology. This approach ensures decentralized and trustless exchange of creative content and copyright storage. Cappasity will devote its experience and technology to bringing the AR/VR Ecosystem into the world. As a company, we have already made 3D digitizing and embedding easier, faster and more scalable than could have been imagined a couple of years ago. The Cappasity platform is compatible with AR/VR devices and empowers content creators with a myriad of tools, SDKs and plugins to produce high quality AR/VR and 3D content. Thus, in the ecosystem, artists benefit from easy 3D object creation and delivery, while developers and businesses have access to a broad range of 3D content. Cappasity Tokens are to be issued as a native digital currency of AR/VR Ecosystem. As a utility token it will be used by ecosystem participants to purchase or rent 3D content. Also CAPPs will be used as a reward meant to incentivize active contributors through dedicated CAPP Funds. Thanks to CAPP's digital nature and transparency to state borders, it is perfectly suited for consumer-to-consumer economic interactions, no matter where the parties reside. The decentralized AR/VR Ecosystem will be a turning point, a catalyst for AR/VR/3D content turnover, that leads augmented and virtual reality to a new era of success.
+53
+
+Appendices
+AR/VR hardware, software and content
+Augmented Reality AR hardware evolves in several categories: Mobile AR hardware, tethered smartglasses and standalone smartglasses56. The first category is represented by dedicated smartphone/tablet AR systems like Google Tango, launched in late 2016. The system capabilities are well-suited for entertainment purposes, but that's not all. The Gap, a clothing brand, built a Tango app that lets you try on clothes without going to the store57. The installed base in the next 12 months of the AR phone could amount to tens of millions.58 At the same time, Apple is making an attempt to bring AR even closer to consumers by incorporating AR software into their platforms. The new iPhone 8 is rumored to be equipped with a 3D laser for AR and autofocus: a 3D sensing camera will enable extremely accurate depth mapping for AR applications59. These rumors are preceded by the recent summer announcement of ARKit for iOS, the tool that let app developers draw on detailed camera and sensor data to map digital objects into 3D space with no heavy engineering skills required60.
+Other tech giants including Facebook with its Camera Effects Platform see many applications of mobile AR software as well, such as: AR in messengers (Tencent, SnapChat, LINE, Kakao and Snow), AR in maps (Google and Baidu), AR in e-commerce (Alibaba, Amazon and eBay). After its sudden breakthrough in 2016 with the unprecedented success of Pokémon Go (in less than a year it has been downloaded 700 million times), Mobile AR is expected to gain over a billion users by 202161.
+AR is generally associated with smartglasses which are expected to conquer the mass consumer market and replace smartphones in the next ten years62. Tethered smartglasses are a solution to avoid such challenges as limited battery life. They require a smartphone/tablet or PC host like Meta smartglasses, an upcoming gamechanger in workspace environments63. Standalone AR smartglasses, devices with no host, like Google Glass and Microsoft HoloLens, are evolving as well by extending battery life and improving hardware. Once abandoned, the first series of consumer-oriented Google Glass, has been recently announced to be reincarnated in the enterprise edition, Google Glass EE. Unlike the standalone HoloLens, Glasses can be attached to a regular pair of glasses or goggles and serve as a peripheral accessory to a smartphone. Media reports say that the product is already in the production phase and will be of use for the agricultural machinery manufacturing industry, healthcare, and logistics with DHL64. From the very beginning, Microsoft HoloLens has been focusing on the enterprise market as well. Starting its first shipments in March 201665, the company supplies their mixed reality glasses to NASA,
+54
+
+the US military, the healthcare and entertainment industries, as well as the education sector and more66.
+Virtual Reality
+Hardware producers are working in two directions: improving quality and introducing mass market solutions, and creating several price segments. Thus, today VR hardware can be divided into three categories depending on price and performance: specialist, enthusiast, and explorer67.
+In 2017, Facebook's Oculus Rift and HTC revolutionized the hardware industry with their high quality immersive products68. Oculus Rift, a Kickstarter project in its past, is currently being developed by one of the brightest minds in VR ­ John Carmack, the co-creator of Doom and prominent video programmer. HTC Vive is the result of a tight collaboration between top-tech hardware producer HTC on the infrastructure side and gaming guru-company Valve on the software side. Both products are accompanied by touch controllers to provide a truly immersive experience. The main concern in this case is the processing power of the computer on which the products run, as some applications may require high processing capacity and won't run well on less powerful devices. And the price is well above $1,000, making them unaffordable to the general public. The high prices and requirements of the products developed by Facebook and HTC are likely to put them in narrow "specialist" category.
+VR "enthusiasts" may enjoy the price and performance of Sony's PS and Microsoft's upcoming Windows 10 VR. The fact that the Microsoft product doesn't require a highperformance PC to run it, combined with the price and inside-out tracking inherited from Hololens, makes it attractive to consumers. The prevailing installed base for the "explorer" category is Mobile VR. The launch of Daydream View refined the consumer mobile VR experience, while keeping it affordable for the mass consumer, thus replacing Google Cardboard. Samsung marketed its product Gear VR as low as $100 and exceeded their anticipated sale plan.
+55
+
+Difference between project & actual number of shipments x thousands (2016)
+Source: SuperData Research
+4510
+
+4000
+
+3500
+
+3000
+
+2600
+
+2000
+
+1000
+
+700
+
+240
+
+0
+
+Oculus Rift
+
+400 420 HTC Vive
+
+Samsung Gear VR
+
+750 Playstation
+
+Projected
+
+PC
+
+Actual
+
+Mobile
+
+Console
+
+VR devices differ in characteristics, and therefore require different implementation approaches. Sony's Playstation VR, Oculus Rift and HTC Vive are focused on the gaming industry, whereas Samsung Gear VR due to the limited device power is seen as "VR-lite," mainly for entertainment. The VR hardware race promises that we may soon see affordable products that don't compromise on quality.
+
+To win the competition, equipment producers have built developer ecosystems that are specific to their products. Oculus Rift opens opportunities for third-party developers and offers a wide range of already functioning system content. HTC Vive has integrated the use of Steam VR and Valve's VR game platform and announced a $100 m investment fund, alongside its Vive X accelerator program69. The content for Sony PS VR is strongly related to the PS4 gaming system and is developed in a closed environment.
+
+AR/VR content There is a variety of content types and content generation techniques for augmented and virtual reality. When mentioning AR/VR content we may refer to one of the following categories:
+· 3D content, which exists in form of 3D models or 3D images, with a wide range of uses
+· Apps that can be run on AR/VR hardware · 360-degree video, with the main application in the live event transmission
+The primary use of AR/VR content is gaming. However, available game engines meeting the requirements of other industries are in high demand. The main elements of any game engine are animation, interaction, lighting, physics and presence70 which also make it suitable for the e-commerce and engineering industries. The leading role
+
+56
+
+in software is occupied by the Unity and Unreal game engines. The majority of AR/VR projects are created on Unity (as much as two thirds according to techcrunch.com).71 72 Unreal engine isn't far behind. At WWDC 2017 it was announced that Unreal Engine will provide early access support for ARKit, which opens an enormous new market for game engines.73
+Gaming studios, software and app developers and other industries entering the AR/VR space are highly dependent on a different kind of 3D content. 3D objects lie at the core of AR/VR applications. There are several approaches to creating them. The most common way to create a 3D model is to use 3D editor software. This type of 3D content is called a computer generated (CG) model. One of the most popular softwares for that purpose is Blender. It is free of charge, open-source and has an enormous number of design tools. Besides AR/VR applications, computer generated 3D models are widely used in 3D printing (3DP), which was estimated to have a market of $6.5 bn value in 201674. 3DP is gaining supporters and has already been applied in many different industries: from automotive manufacturing to healthcare. In healthcare it can have a huge impact and is expected to become common practice in a wide range of cases.75 It can also be used for personal purposes: a user may print a missing drone part or an iPhone case.
+When the goal is to create a lifelike object, CG modeling can be replaced with photogrammetry. Photogrammetry is a method used to create a 3D model by combining several images of a real object and determining the exact position of the surface points. Unity considers photogrammetry a valuable tool to produce realistic, high-quality, reusable, game-ready digital assets and offers photogrammetry solutions to bring realism to the gaming experience. 76
+3D models are perfectly suited to 3DP and gaming environments. However, they contain a lot of data such as geometry validation, annotations and metadata77. This limits usage opportunities: such models may not perform well on mobile device with limited processing power; they are too cumbersome for web browsers. So, in order to enhance user experience and meet the demands of other industries such as ecommerce, where lightweight formats are of value, a 3D image format was invented. It contains only the necessary minimum of information for displaying an object in a web browser. 3D images make the online shopping experience more interactive78 and don't require high processing power.
+Not only are 3D objects of value for AR/VR, but also VR cannot be imagined now without 360-degree video production79. It is recorded using multiple cameras with overlapping fields of view. The produced footage is merged together into one piece using a video stitching method. Every piece is calibrated to match the others. 360degree videos are used to record live events for even more immersive experience. This format is also perfectly suited for virtual tours making them even more realistic.
+57
+
+Bibliography
+1 https://www.youtube.com/watch?v=yJBoXQNVX3Q, accessed 17 Aug. 2017. 2 Ermitanio M. VR funding and innovation look strong for 2017. https://venturebeat.com/2017/01/10/vr-funding-and-innovation-look-strong-for-2017/, 2017, accessed 17 Aug. 2017. 3 Lintern G. Transfer of Landing Skill after Training with Supplementary Visual Cues. https://doi.org/10.1177/001872088002200109, 1980, accessed 17 Aug. 2017. 4 https://www.kickstarter.com/projects/1523379957/oculus-rift-step-into-the-game, accessed 17 Aug. 2017 5 Rouse M. VUCA (Volatility, Uncertainty, Complexity and Ambiguity) http://whatis.techtarget.com/definition/VUCA-volatility-uncertainty-complexity-andambiguity 2017, accessed 17 Aug. 2017. 6 http://www.sleepnomorenyc.com/#share, accessed 17 Aug. 2017. 7 Hughes K. Beyond Broadway: Why Everyone's Trying Immersive Theater. http://www.cntraveler.com/stories/2016-04-01/beyond-broadway-why-everyones-tryingimmersive-theater, 2016, accessed 17 Aug. 2017. 8 McCarthy Caty, Immersive theater is coming soon to a virtual reality headset near you. https://killscreen.com/versions/immersive-theater-coming-soon-virtual-reality-headset-near/, accessed 17 Aug. 2017. 9 Participatory culture. https://en.wikipedia.org/wiki/Participatory_culture, accessed 17 Aug. 2017. 10 Bavor C. Virtual and Augmented Realities: Asking the right questions and traveling the path ahead. https://medium.com/@claybavor/virtual-and-augmented-realities-asking-the-rightquestions-and-traveling-the-path-ahead-2428b9d13c01, 2017, accessed 17 Aug. 2017. 11 http://www.independent.co.uk/life-style/gadgets-and-tech/features/apple-tim-cook-bossbrexit-uk-theresa-may-number-10-interview-ustwo-a7574086.html, accessed 17 Aug. 2017. 12 Worldwide Spending on Augmented and Virtual Reality Expected to Double or More Every Year Through 2021, According to IDC. https://www.idc.com/getdoc.jsp?containerId=prUS42959717, accessed 17 Aug. 2017.https://www.idc.com/getdoc.jsp?containerId=prUS42959717 13 After mixed year, mobile AR to drive $108 billion VR/AR market by 2021. http://www.digicapital.com/news/2017/01/after-mixed-year-mobile-ar-to-drive-108-billion-vrar-market-by2021/#.WY2an9OGPdS, accessed 17 Aug. 2017. 14 Record $2.3 billion VR/AR investment in 2016. http://www.digicapital.com/news/2017/02/record-2-3-billion-vrar-investment-in-2016/#.WY2h7dOGPdQ, accessed 17 Aug. 2017 15 Citi GPS: Global Perspectives & Solutions. Virtual and augmented reality: Are you sure it isn't real? https://www.citi.com/commercialbank/insights/assets/docs/virtual-andaugmented-reality.pdf, 2016, accessed 17 Aug. 2017. 16 Tackle S. The Size Of The VR Consumer Market (Updated, 3rd March). http://www.thevirtualreport.biz/asia/feature/63914/the-size-of-the-vr-consumer-marketupdated/, 2017, accessed 17 Aug. 2017. 17 Virtual Reality Market and Consumers. https://www.superdataresearch.com/marketdata/virtual-reality-industry-report/, accessed 17 Aug. 2017. 18 Goldman Sachs Equity Research. Virtual & Augmented Reality. http://www.goldmansachs.com/our-thinking/pages/technology-driving-innovationfolder/virtual-and-augmented-reality/report.pdf, 2016, accessed 17 Aug. 2017. 19 http://www.sothebysrealty.com/eng/virtual-reality, accessed 17 Aug. 2017.
+58
+
+20 Ford's Virtual Reality Lab Revolutionizes Vehicle Design Process. https://www.designboom.com/technology/ford-virtual-reality-lab-vehicle-design-01-15-2017/, 2017, accessed 17 Aug. 2017. 21 https://www.fastcompany.com/company/nextvr, accessed 17 Aug. 2017. 22 Amazon Patents Point To AR Tech For Home Try-On. https://www.cbinsights.com/research/amazon-augmented-reality-home-tryon/?utm_source=CB+Insights+Newsletter&utm_campaign=a1390c459bWedNL_7_26_2017&utm_medium=email&utm_term=0_9dc0513989-a1390c459b-88282953, 2017, accessed 17 Aug. 2017. 23 Pan Y. Alibaba Unveils Exclusive Luxury Pavilion Courting Super-Wealthy Chinese Shoppers https://jingdaily.com/alibaba-launches-luxury-pavilion/, accessed 17 Aug. 2017.https://jingdaily.com/alibaba-launches-luxury-pavilion/
+24 BOM Report, VR/AR Hype or Serious Business? http://cdn.instantmagazine.com/upload/4666/bom_vrar_2017reportpdf.68ec9bc00f1c.pdf, 2017, accessed 17 Aug. 2017. 25 Carufel R. Study Examines Obstacles Facing Augmented & Virtual Reality--Lack of Compelling Content Is Top Challenge. https://www.bulldogreporter.com/study-examinesobstacles-facing-augmented-virtual-reality-lack-of-compelling-content-is-top-challenge/, 2016, accessed 17 Aug. 2017.
+26 Augmented and Virtual Reality Survey Report. https://dpntax5jbd3l.cloudfront.net/images/content/1/5/v2/158662/2016-VR-AR-Survey.pdf, 2016, accessed 17 Aug. 2017.
+27 Bozogzadeh A. The VR industry's biggest threat is underwhelming content. https://venturebeat.com/2016/11/26/the-vr-industrys-biggest-threat-is-underwhelmingcontent/ 2016, accessed 17 Aug. 2017.
+28 BOM Report, VR/AR Hype or Serious Business? http://cdn.instantmagazine.com/upload/4666/bom_vrar_2017reportpdf.68ec9bc00f1c.pdf, 2017, accessed 17 Aug. 2017.
+29 Anon J. Race To Release AR & VR Hardware Leading To Lack Of Content https://www.androidheadlines.com/2017/01/race-to-release-ar-vr-hardware-leading-to-lackof-content.html, 2017, accessed 17 Aug. 2017.
+30 http://www.image-net.org/, accessed 17 Aug. 2017. 31 Datasets Over Algorithms http://www.spacemachine.net/views/2016/3/datasets-overalgorithms, 2016, accessed 17 Aug. 2017.
+32 Bozogzadeh A. The VR industry needs better content, turns to accelerators https://venturebeat.com/2017/03/04/the-vr-industry-needs-better-content-turns-toaccelerators/, 2017, accessed 17 Aug. 2017.
+33 https://www.unrealengine.com/faq, accessed 17 Aug. 2017 34 Robertson A. Oculus is closing its VR film studio https://www.theverge.com/2017/5/4/15547844/facebook-oculus-vr-film-story-studio-closing, 2017, accessed 17 Aug. 2017. 35 Constine J. Facebook launches augmented reality Camera Effects developer platform https://techcrunch.com/2017/04/18/facebook-camera-effects-platform/, 2017, accessed 17 Aug. 2017. 36 Constine J. Apple undercuts Facebook in the augmented reality platform war https://techcrunch.com/2017/06/13/augmented-reality-platform-wars/, 2017, accessed 17 Aug. 2017. 37 Slick J. The Top Places to Sell Your 3D Models Online https://www.lifewire.com/top-placesto-sell-your-3d-models-online-2079, 2017, accessed 17 Aug. 2017. 38 https://blender.stackexchange.com/questions/58497/import-obj-file-from-turbosquid-onlydiffuse-material-no-textures, accessed 17 Aug. 2017. 39 https://www.cheetah3d.com/forum/showthread.php?t=10704, accessed 17 Aug. 2017. 40 http://forums.cgarchitect.com/73780-problems-importing-downloaded-3d-models-into3ds-max.html, accessed 17 Aug. 2017.
+59
+
+41 https://blog.turbosquid.com/royalty-free-license/, accessed 17 Aug. 2017. 42 https://blog.turbosquid.com/royalty-free-license/, accessed 17 Aug. 2017. 43 https://www.cgtrader.com/faq/page/11, accessed 17 Aug. 2017. 44 https://help.netrinomedia.com/item/basic-and-extended-license-usage-examples/, accessed 17 Aug. 2017.
+45 https://www.renderosity.com/mod/wiki/?policies&license, accessed 17 Aug. 2017 46 Citi GPS: Global Perspectives & Solutions. Virtual and augmented reality: Are you sure it isn't real? https://www.citi.com/commercialbank/insights/assets/docs/virtual-andaugmented-reality.pdf, 2016, accessed 17 Aug. 2017.
+47 Pilkington M. Blockchain technology: principles and applications. https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=2662660 2016, accessed 17 Aug. 2017. 48 Monitor Deloitte. Blockchain@Telco https://www2.deloitte.com/content/dam/Deloitte/za/Documents/technology-mediatelecommunications/za_TMT_Blockchain_TelCo.pdf 49 Olusegun Ogundeji.Ethereum Market: How to Make Blockchain Work Better For eCommerce https://cointelegraph.com/news/ethereum-market-how-to-make-blockchainwork-better-for-e-commerce, accessed 17 Aug. 2017. 50 https://www2.deloitte.com/us/en/pages/public-sector/articles/blockchain-opportunitiesfor-health-care.html, accessed 17 Aug. 2017. 51 Worldwide Retail Ecommerce Sales Will Reach $1.915 Trillion This Year https://www.emarketer.com/Article/Worldwide-Retail-Ecommerce-Sales-Will-Reach-1915Trillion-This-Year/1014369, 2016, accessed 17 Aug. 2017. 52 Loguidice B. The pitfalls and potential of inexpensive 3D scanning solutions https://arstechnica.com/gadgets/2017/06/reality-check-personal-3d-scanning-has-come-farbut-its-no-copy-machine-yet/ 2017, accessed 17 Aug. 2017. 53 Nagpal M. 14 eCommerce Product Page Best Practices for Your Website https://vwo.com/blog/ecommerce-product-page-best-practices/, accessed 17 Aug. 2017. 54 https://github.com/EOSIO/Documentation/blob/master/Roadmap.md 55 https://en.wikipedia.org/wiki/Fibonacci_number, accessed 17 Aug. 2017. 56 The Four Waves of Augmented Reality. http://www.thevirtualreport.biz/data-andresearch/64512/the-four-waves-of-augmented-reality/, accessed 17 Aug. 2017. 57 Kovach S. Google's augmented reality project is the coolest thing it showed off this week. http://www.businessinsider.com/google-tango-2017-5/#this-woman-took-a-photo-with-avirtual-lion-6, 2017, accessed 17 Aug. 2017. 58 The Four Waves Of Augmented Reality. http://www.thevirtualreport.biz/data-andresearch/64512/the-four-waves-of-augmented-reality/, accessed 17 Aug. 2017. 59 Sullivan M. Apple Is Working Hard On An iPhone Rear-Facing 3D Laser For AR And Autofocus: Source https://www.fastcompany.com/40440342/apple-is-working-hard-on-aniphone-8-rear-facing-3d-laser-for-ar-and-autofocus-source, 2017, accessed 17 Aug. 2017. 60 Robertson A. Breaking down Apple's new augmented reality platform. https://www.theverge.com/2017/6/6/15742736/apple-arkit-augmented-reality-platformwwdc-breakdown, 2017, accessed 17 Aug. 2017. 61 Mobile AR to Top a Billion Users and 60 Billion by 2021. http://www.digicapital.com/news/2017/06/mobile-ar-to-top-a-billion-users-and-60-billion-by-2021/, 2017, accessed 17 Aug. 2017. 62 Citi Research, Virtual and Augmented Reality Report. https://www.citi.com/commercialbank/insights/assets/docs/virtual-and-augmentedreality.pdf, 2016, accessed 17 Aug. 2017. 63 Anderson D. These smartglasses could replace your desktop computer -- here's what they're like. http://www.businessinsider.com/meta-augmented-reality-smartglassesinteractive-holograms-replace-computers-2017-7, 2017, accessed 17 Aug. 2017.
+60
+
+64 Etherington D. Google Glass is back with hardware focused on the enterprise. https://techcrunch.com/2017/07/18/google-glass-is-back-with-hardware-focused-onthe-enterprise/, 2017, accessed 17 Aug. 2017. 65 Bright P. $3,000 HoloLens dev kit available for pre-order now, shipping March 30. https://arstechnica.com/gadgets/2016/02/3000-hololens-dev-kit-available-for-pre-ordernow-shipping-march-30/, 2016, accessed 17 Aug. 2017. 66 Ward J. Google Glass and HoloLens clash in the enterprise en route to consumers. https://www.windowscentral.com/google-glass-and-hololens-clash-enterprise-routeconsumers, 2017, accessed 17 Aug. 2017. 67 Merel T. The reality of VR/AR growth. https://techcrunch.com/2017/01/11/the-reality-of-vrargrowth/, 2017, accessed 17 Aug. 2017. 68 Swider M. HTC Vive vs Oculus Rift: which VR headset is better? http://www.techradar.com/news/wearables/htc-vive-vs-oculus-rift-1301375, 2017, accessed 17 Aug. 2017. 69 Lang B. HTC Just Earmarked $100 Million to Invest in VR Content, Applications Open Today https://www.roadtovr.com/htc-vive-x-accelerator-100-million-investment-fund-virtualreality/, 2016, accessed 17 Aug. 2017. 70 Matney L. With new realities to build, Unity positioned to become tech giant https://techcrunch.com/2017/05/25/with-new-realities-to-build-unity-positioned-to-becometech-giant/, 2017, accessed 17 Aug. 2017. 71 https://unity3d.com/vr-ar, accessed 17 Aug. 2017. 72 Matney L. With new realities to build, Unity positioned to become tech giant https://techcrunch.com/2017/05/25/with-new-realities-to-build-unity-positioned-to-becometech-giant/, 2017, accessed 17 Aug. 2017. 73 Sweeney T. AR And VR For The Rest of Us https://www.unrealengine.com/en-US/blog/epicunreal-engine-wwdc-2017, 2017, accessed 17 Aug. 2017. 74 3D Printing (3DP) Market Share, Industry Analysis Report, 2014-2025. http://www.grandviewresearch.com/industry-analysis/3d-printing-industry-analysis, 2017, accessed 17 Aug. 2017. 75 Dodziuk H. Applications of 3D printing in healthcare https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5071603/#CIT0006, 2016, accessed 17 Aug. 2017. 76 https://unity3d.com/solutions/photogrammetry, accessed 17 Aug. 2017. 77 Hutchins D. New standard for 3D Model Files. http://www.machinedesign.com/cad/newstandard-3d-model-files, 2013, accessed 17 Aug. 2017. 78 Gedda R. How 3D visualisation will change the shape of e-commerce http://www.techradar.com/news/wearables/how-3d-visualisation-will-change-the-shape-ofe-commerce-1315105, 2016, accessed 17 Aug. 2017. 79 https://en.wikipedia.org/wiki/360-degree_video, accessed 17 Aug. 2017.
+61
+
+

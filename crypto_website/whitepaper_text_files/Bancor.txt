@@ -1,0 +1,951 @@
+Hybrid Intelligence for Eective Asset Management
+hite per
+Authors (Cindicator team): KYMNuoaikrtdieeaLrKBiorubKuryosbnolamtvns,eaoCvkv,ahh,iCiedHfhzieEeeafx,deTCcoehufcitheAivnfneoIanlOolvygetysictcOmesreancntedrOaCnocd-eforCuon-dfoeurnder
+4VOercstioobne1r.22.01167
+Abstract
+Cindicator creates the social and technological infrastructure needed to make eective decisions under the volatile conditions of the new economy.
+By combining a large number of diverse nancial analysts and a set of machinelearning models into a single system, we are developing a Hybrid Intelligence infrastructure for the ecient management of investors' capital in traditional nancial and crypto-markets.
+The benets of Hybrid Intelligence for an ecosystem and community are: E a technological and analytical infrastructure for the ecient and safe management of investors' capital by investors themselves or licensed managers; - an opportunity for analysts to monetise their intellectual assets without risking their own funds; - tools and data for making investment decisions under the conditions of market uncertainty; - up-to-date analytics of the industry, expectations, opportunities, and market growth points; - indices and ratings of crypto-assets.
+
+Contents
+
+1 Introduction to Hybrid Intelligence
+
+3
+
+IFI ht is ryrid sntelligenec F F F F F F F F F F F F F F F F F F F Q
+
+IFP eres of pplition F F F F F F F F F F F F F F F F F F F F F F F F Q
+
+IFPFI enture investments F F F F F F F F F F F F F F F F F F F F Q
+
+IFPFP iene F F F F F F F F F F F F F F F F F F F F F F F F F F F R
+
+IFPFQ gorportions nd usinesses F F F F F F F F F F F F F F F F R
+
+IFPFR olitis F F F F F F F F F F F F F F F F F F F F F F F F F F F S
+
+IFQ ryrid sntelligene for investments nd sset
+
+mngement F F F F F F F F F F F F F F F F F F F F F F F F F F F F F S
+
+2 Ecosystem of Hybrid Intelligence
+
+5
+
+PFI golletive intelligene F F F F F F F F F F F F F F F F F F F F F F F T
+
+PFP erti(il intelligene F F F F F F F F F F F F F F F F F F F F F F F F U
+
+3 Token sale
+
+7
+
+QFI ixpedieny of issuing gxh tokens F F F F F F F F F F F F F F F F V
+
+QFIFI i'etive eonomi motivtion of ll eosystem prtiipnts V
+
+QFIFP xeessity to usiness F F F F F F F F F F F F F F F F F F F F V
+
+QFP erms of token sle F F F F F F F F F F F F F F F F F F F F F F F F F W
+
+QFPFI erms of issue of gxh tokens F F F F F F F F F F F F F F F W
+
+QFPFP gxh token distriution F F F F F F F F F F F F F F F F F F W
+
+QFPFQ punding llotion F F F F F F F F F F F F F F F F F F F F F W
+
+4 An economic model for the ecosystem
+
+10
+
+RFI roduts for gxh token holders F F F F F F F F F F F F F F F F F IH
+
+RFP vimited ess to produts F F F F F F F F F F F F F F F F F F F F F IH
+
+RFQ rding portfolio of ryrid sntelligene F F F F F F F F F F F F F II
+
+RFR gxh pool for dynmi ompenstion of foresters F F F F F F F IP
+
+RFS irGfg pool for dynmi ompenstion
+
+of foresters F F F F F F F F F F F F F F F F F F F F F F F F F F F F IP
+
+RFT wonetistion of intelletul ontriution of
+
+foresters F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F IP
+
+RFU ehnologil infrstruture for investment funds F F F F F F F F IQ
+
+5 Technologies applied
+
+13
+
+SFI ehnologil infrstruture F F F F F F F F F F F F F F F F F F F F IQ
+
+SFP ht siene nd mhine lerning @wvA F F F F F F F F F F F F F IR
+
+SFQ hesription of urrent pipeline F F F F F F F F F F F F F F F F F F IS
+
+SFQFI ht (ltrtion nd lenEup @dt preprtionA F F F F F IS
+
+SFQFP peture extrtion F F F F F F F F F F F F F F F F F F F F F IS
+
+SFQFQ gonstrution of hypotheses nd mthemtil models F IS
+
+SFQFR lidtion nd stremlining of preditive models F F F F IS
+
+SFR hesription of vlidted hypotheses nd pprohes F F F F F F F IT
+
+SFRFI gon(rmtion of orreltion etween nlysts9 forests
+
+nd rel mrket ehvior F F F F F F F F F F F F F F F F F IT
+
+SFRFP epproh to the development of mthemtil models F IU
+
+SFS wthemtil foundtion F F F F F F F F F F F F F F F F F F F F F IU
+
+SFSFI he(nitions F F F F F F F F F F F F F F F F F F F F F F F F F IU
+
+SFSFP uperforesting F F F F F F F F F F F F F F F F F F F F F F IV
+
+SFSFQ isdom of the growd @ygA F F F F F F F F F F F F F F IV
+
+SFSFR wodel foosting F F F F F F F F F F F F F F F F F F F F F F F IV
+
+SFSFS ustinle wodels F F F F F F F F F F F F F F F F F F F F F IW
+
+SFT ehnologies @lirriesD lgorithmsA F F F F F F F F F F F F F F F F PH
+
+SFU ehnologil rodmp F F F F F F F F F F F F F F F F F F F F F F F PH
+
+6 Analytical products: completed and
+
+in development
+
+20
+
+TFI finry proilisti questions F F F F F F F F F F F F F F F F F F F PI
+
+TFIFI wroeonomi events F F F F F F F F F F F F F F F F F F F PI
+
+TFIFP gorporte events F F F F F F F F F F F F F F F F F F F F F F PP
+
+TFIFQ olitil events F F F F F F F F F F F F F F F F F F F F F F F PQ
+
+TFP finry prieErelted questions F F F F F F F F F F F F F F F F F F F PQ
+
+TFQ rieErelted questions F F F F F F F F F F F F F F F F F F F F F F F PS
+
+TFR lnned new dt typesD signls nd inditors F F F F F F F F F PV
+
+TFS lnned new nlytil produts F F F F F F F F F F F F F F F F F PW
+
+TFT uli experiment with wosow ixhnge F F F F F F F F F F F F QH
+
+I
+
+7 Team and stages of development
+
+31
+
+UFI em F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F QI
+
+UFP gurrent progress of the ompny F F F F F F F F F F F F F F F F F QP
+
+8 Legal considerations
+
+33
+
+VFI vegl F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F QQ
+
+VFP vegl sttus of gxh tokens F F F F F F F F F F F F F F F F F F F F QQ
+
+VFQ vegl sttus of rowdsoured foresting pltforms F F F F F F F QQ
+
+9 Conclusion
+
+34
+
+10 Risk factors and disclaimers
+
+34
+
+References
+
+36
+
+P
+
+1 Introduction to Hybrid Intelligence
+1.1 What is Hybrid Intelligence?
+ryrid sntelligene is the omintion of humn intelligene nd mhine intelE ligeneD nd their intertion in resolving vrious tsksF yne sort of intelligene supplements nd strengthens the otherF
+glerlyD one my fe mny hllenges during the deisionEmking proessF ryrid sntelligene nd other relted systems under development re pproE prite for resolving these kinds of di0ultiesF his is not only due to the riterion of speed in deisionEmking E nmelyD the question of why one should wste time on simple tsks tht n e resolved y oth individuls nd simple mthemtil methods nd lgorithmsc st is lso relted to the omplexity of the tsks nd the level of unertinty in the systems used to resolve themF
+sn one of his ltest interviews E ilon wusk speultes tht humns should soon merge with rti(il intelligene nd rete  new kind of interfeF his symiosis ould help people settle one of the most omplex tsks fE ing mnkindX prediting the future with high uryF
+eople hve long tried to resolve this issue in ll res of usiness y using vrious tehnologies with vrying degrees of suessF snvestors nd trders try to predit future shre pries or ompny suess to inrese the pro(tility of investment delsF olitil nlysts try to predit the results of presidentil eletionsD while orportions put  gret del of resoures into ttempts to foreE see future tehnologil trendsF wny of them hve lredy used intelletul rowdsouring to undertke these tsks to  greter or lesser extentF vet9s tke  look t the existing solutionsF
+1.2 Areas of application
+1.2.1 Venture investments
+wost investment venture dels re losed y syndites t the momentF his mens tht severl investors tke prt in one round of the del t the sme timeF his trend hs een inresing yer on yerF sn ddition to syndite dels E whih involve prtner venture funds E spei( ssoitions nd olletive investment lus emerge eh yer @engelEvist is the most fmous exmpleAF
+hy do venture @nd otherA investors prefer group dels rther thn indiE vidul onesD despite the ft tht shring  pro(tle investment with one9s ompetitors seems to mke no sensec
+yne of the resons for suh del strutures lies in the use of olletive intelliE gene systems for risk hedging ginst the potentil mistkes of group thinkingF his ould hppen when n investor mkes the wrong deision out  del sed on  flse insightD trendD or insu0ient ompetene in  given reF sn  synditeD  set of ompetenies nd the investors9 previous experiene n e very di'erentD whih llows them to view the strtup s  wholeD s well s looking t the tem nd the potentil risks from vrious ngles nd to nel the del if there re sound resons to do soF por most venture investmentsD the est del is  del tht hs never een done eforeF
+xow imgine the olletive intelligene of professionl investors omined with rti(il intelligene tehnologyD whihD sed on the use of  lrge volumes of dt in rel time @inluding the numer of exitsD the stok mrket sitution in  spei( reD the stte of the lour mrketD nd even the ehviour of strtup founders on soil networksAD dpts to urrent mrket onditions nd produes signls for entry or nonEentry into  delD free from emotionl ftorsF wost investors t the preEseed nd seed stges dmit tht emotions re still the min drivers in investment deisionsF
+Q
+
+1.2.2 Science
+he symiosis of these two types of intelligene ouldD in this seD e0iently downply the disdvntges of humn 9emotionl9 pprohes y strengthenE ing the deisionEmking signl with  numer of deentrlised dt nlysis pointsF sing suh  method is resonle in systems with higher unertinty nd highly omplex of tsksD for exmple in iotehnologiesF sn  renowned siE enti( pperD reserhers reted  gme in whih eh plyer with  di'erent degree of knowledge ould tke prt in moleulr doking @ proess tht helps predit the struture of  future hemil element with ertin desired properE tiesAF ih projet prtiipnt ould ind  moleule of the protein together in ny wyF sing this rowdsoured dt from  vriety of experts omined with virtul sreening @omputer modeling nd mhine lerningA enles siE entists to rete new mediines y omining  moleule @mediineA with  trget protein @ner trgetAF he synergy of the two types of intelligene llows humnity to invent mediines for diseses tht were one inurleF
+sn IWHTD the fmous fritish sientist prnis qlton me to  rurl fir where visitors were invited to guess the weight of  ull put on puli disply nd to write the (gure on  speil tiketD supposedly just for funF he orgE nizers of tht show promised prizes for those who mnged to guess the orret (gureF husD out VHH peopleD some of them inveterte frmersD nd others fr from pstorl 'irsD took prt in the votingF efter olleting ll the tikets for nlysis fter the firD qlton lulted the verge rithmeti vlue from the entire smpleX IIWU poundsF he tul weight of the ull ws IIWV poundsF his mens tht s  groupD the people gve n nswer inredily lose to the true (gureF
+es evidened y sttistis from the ho nts o fe  willionirec televiE sion gme showD fter ontestnts used the honeEEpriend option to phone n erudite friendD  orret nswer ws hosen in only TS7 of sesD ut when the plyer requested udiene ssistneD the ggregte nswer from the udiene ws true in WI7 of sesF
+uh studies of the wisdom of rowds were used widely mid the oom of studies dedited to group dynmis etween the IWPHs nd IWTHsF he soiE ologist reigl unightD for exmpleD sked students to estimte the temperture in the roomF he rithmeti verge of the group9s opinions estimted the temperture in the room t some PPFRR —D while the tul temperture ws PPFP —F
+1.2.3 Corporations and businesses
+qoogleD tohnson 8 tohnsonD nd mny other lrge orportions use 9olletive intelligene9 for new orporte mngement tehnologiesF gorportions hve lredy egun to integrte the tehnology of ide rowdsouring nd future foresting into their strtegi proesses to rowdsoure new ides nd generE te forests for the future of the ompny nd its ompetitors @sles plnsD new produt relesesD or entry into new mrketsAF
+op mngement ollets proposls nd signls from vrious employees nd deprtments @on  deentrlised sisD whih is importntAD suh s points of view nd 9insights9 from sles mngersD who ollet mrket feedk on  dily sisD s well s developersD who possess informtion on the tul vlue of tehE nologies nd the ompny9s ful(lment of its produt plnD whih re ompletely di'erent in nture nd vlueF gomining this system with the unised lgoE rithms of ig dt proessing @on sles dtD nlytil reports nd forestsD nd the onstntly hnging mrket situtionA nd mthemtil modelingD top mngement gins ess to n extremely vlule deentrlised soure of deisionEmkingD whih n e used in omintion with other strtegi pE rmetersF
+R
+
+1.2.4 Politics
+gertinlyD  similr tehnology n e used for politil purposesF e noteworE thy se is  wellEknown student projet lunhed in IWVVD the sow iletroni wrketF st turned out to e one of the most preise tools for prediting the results of politil events nd eletions for most ountries round the worldF rtiipnts in this 9mrket9 n uy or sell ontrts for the vrious results of future politil events @similr to short nd long positions on the stok exE hngeAD thus forming expettions nd determining the ext proility of vitory for one or nother presidentil ndidteF por two dedesD this tehE nology hs een prediting the results of  presidentil eletions with gret preisionD when ompred with ny nlyst or ompny @until the most reent eletion inidentllyAF
+1.3 Hybrid Intelligence for investments and asset management
+ndoutedlyD stok exhnges re still the leders in reserhing nd using ryrid sntelligene in usiness E this is n re where trders hve to mke deisions on millions of dollrs every seond @nd trding roots do so every milliseondAF
+pinnil mrkets themselves re the dily predition of the future in its pure formF et wht prie nd when is the est time to uy peook shresD frent rude oilD the  dollrD or fitoinc ell these questions re the sujet of dily preditions of trders nd nlystsF
+wjor urrent mrket nlytis reltedD for exmpleD to foresting the fuE ture in terms of (nnes re reted y  limited numer of professionls using roughly the sme informtionF ih yer the pe of informtion retrievls E elertes nd the vlue of suh reports fllsD with fewer nd fewer professionl trders reding them or tking them seriouslyF
+xonethelessD suh nlytil reports ring in n impressive mount of money ll over the worldF sn PHIS loneD professionl trders spent over 6SH illion purhsing (nnil mrket dtD of whih 6R illion ws spent on professionl nlytil servies nd systems @preditive nlytisAF fy PHPH this (gure will inrese pproximtely six timesF end these re only professionl nlytil systemsF he fPg (nnil informtion mrket for nonEprofessionls is hugeX for exmpleD SR7 of  residents hve ought shres t lest one in their livesD nd in ghin out QH7 of residents re engged in stok trdingF
+eognising the potentil nd size of this mrketD we deided to put the tehnology of ryrid sntelligene to good use in (nnil mrkets s  top priorityF
+2 Ecosystem of Hybrid Intelligence
+housnds of nlysts on the ginditor pltform generte vrious forests dilyD nswering  numer of spei( questions out the prie levels of di'erent (nnil ssetsD mroeonomi indiesD nd events signi(ntly in)uening the mrketF
+ixmplesX
+E rete  forest of the minimum nd mximum prie levels of fitoin for the oming sevenEdy periodY
+E will the esl stok prie surge to 6QRS during mrket hours on pridycY
+E will the FF unemployment rte e greter thn or equl to RFS7D E ording to the P tune reportcY
+S
+
+E will fnor ollet more thn IHH million during the (rst week of sgycY
+E wht is the proility of rump9s impehment during the next three monthsc
+ginditor works y using  lrge dtset tht is trnsferred to  mthemtE il lok onsisting of  mhine lerning model ensemle @leningD lustering methodsD liner regressionsD fyesin modelsD xgoost on deision treesD geneti lgorithmsD nd neurl networksAF whine lerning models dynmilly luE lte vrious weightings for eh foresterD identify stle systemtis in their errors nd lulte orretions for the errorsD eliminte noiseD nd generte (nl preditions nd trding signlsF
+et the ore of our ryrid sntelligene system is the synergy of the olletive intelligene of  lrge group of dissimilr deentrlised nlysts omined with rti(il intelligene @mhine lerningD nd  selfElerning model sed on  vriety of dynmi feedksAF
+vet9s review these two eosystem frmework omponents in greter detilF
+2.1 Collective intelligence
+sn order to ensure e'etive opertionsD ny group intelligene system should meet the following riteriF
+The complexity of every goal set.
+por results to hve ny relevneD they nnot e derived from extremely omE plited questions ddressed to di'erent users @iFeFD the expeted fitoin prie in h in QUT dysAF roweverD the olleted signl should present su0ient vlueF eside from the omplexity of the set tskGissueD there is  need to rete the most onvenient infrstruture for eh prtiipnt to mke suh forestsF o do soD in heemer PHIS we lunhed  moile pltform where we foused on the interfe used y forestersF es  resultD it tkes three to (ve minutes for eh user to generte one dt pointF
+Group diversity and decentralization.
+wemers of  single group intelligene should possess vried knowledge nd ompeteniesD intelligeneD personl experieneD nd viewsF sf  prtiulr segE ment previls in  groupD the system will e inple of generting n urte signl in the event of n inorret insightF
+e group my hve  lot of outliersD errorsD or sujetivityY howeverD the diversity nd multidiretionlity of these points llows them to e ignored in modulus @the simplest exmple is the qussin distriutionAF
+purthermoreD the group should e ompletely deentrlisedF xo ommuniE tion or exhnge of opinions inside the group is llowed in order to void the in)uene of some individuls on othersF
+Motivation of each group member.
+ih group intelligene memer must e highly motivted to generte the most urte forest possile @ording to urrent knowledge nd possiilitiesAF
+e hve developed multiElevel motivtion for our pltformD sed on imE portnt spets of humn psyhologyF
+Financial motivation.
+ih monthD we distriute funds proportiontely to eh user9s rnking in the pplitionF he more urte the forests  user mkesD the more omE penstion they reeiveF irroneous forestsD nd low tivity downgrde the
+T
+
+rnkingsF eordinglyD eh user9s ompenstion depends on their personl E tivities nd the ury of the forestsF
+Competitive motivation.
+e hve developed internl user rnkingsD speil nomintionsD nd other gmE i(tion elements to enhne the ompetition ftorF
+Involvement with trades and investment.
+yn our pltformD users do not merely forest in order to mximise their pointsY eh forest is  miroEinvolvement of every user in  rel or simulted trdE ing trnstion or investmentF yur trding roots omplete  rel or model trde linked to every question posedF his is  signi(ntly promotion of the involvement of every prtiipntD oth individuls nd the group s  wholeD nd inreses responsiilityF
+Training.
+qetting dily feedk on the ury of their forests s well s inresing their level of knowledge efore prepring eh predition helps foresters to enhne their skills nd (nd the est strtegies for foresting vrious types of eventsF
+2.2 Articial intelligence
+he rti(il intelligene system is only the (rst stge whih genertes  lrge mount of 9rw9 dtF xextD ginditor9s 9lk ox9 is usedD with the following ore elementsX
+(1) the system nd methods de(ning the on(dene weight @with onstnt
+djustments fter eh question nd trdeA for eh userD whih tkes into ountX
+E the personl trk reord of eh memer9s uryD divided into lusters @signl typesD instrument typesD links etween nswersD etFAY
+E dynmi feedk following eh trde with regrd to the vlue @pro(t or lossA of eh user9s forestY
+E the preditive modelD whih @in  very short timeA is ple of de(ning superforesters in the groupF
+(2) trding strtegies nd models to seek the est possile wy of using the
+enrihed dt to rete trding rootsX
+E testing of vrious trding strtegies nd hypothesesY E onstnt ktests nd forwrd tests to dpt the models to the
+onstntly hnging mrket environmentF
+3 Token sale
+fy relesing gxh infrstruture tokensD we o'er ll prtiipnts @trdersD inE vestorsD forestersD nlystsD dt sientistsD nd the ginditor temA the hne to eome the retors of  deentrlised eosystem of ryrid sntelliE gene for more e0ient sset mngementF
+ih gxh token holder n otin  new level of ess to ginditor9s inditorsD indiesD dtD serviesD informtionD nd nlytil produtsF he level of ess nd the produts nd tools ville will depend on the quntity of tokens in eh holder9s possessionD whih will in turn e in)uened y eh token holder9s role nd tive prtiiption in the deentrlised eosystemF
+e lso pln to ple gxh tokens on exhngesD giving people the opporE tunity to uy them openly @for residents of ountries where the purhse of
+U
+
+tokens does not violte lol lwsAD gin ess to new produtsD or sell them to interested trdersD nlystsD or investment fundsF okens nnot e sold to residents of the eD ingporeD gD or other ountries where the sle of tokens my require registrtion s  seurityF
+vegisltion on the irultion of seurities in ertin ountriesD suh s the eD ingpore nd g prohiits the sle of gxh tokens to the residents of those ountriesF hen you uy gxh tokensD you should e wre of the restritions on their susequent sle nd promise to follow our instrutions ndGor those of the exhnge when reselling them to other usersF
+3.1 Expediency of issuing CND tokens
+he issune of our own infrstruture tokens is onditioned y the need to rete n internl eonomy in the eosystem tht will estlish trnsprent nd fir reltions mong ll prtiipnts omprising the systemX foresters nd nlystsD trdersD (nnil investorsD dt sientistsD nd the ginditor temF
+3.1.1 Eective economic motivation of all ecosystem participants
+flokhinD deentrliztionD nd  fir system of eonomi motivtion re ideE ologilly nd systemtilly integrted into the struture of the preditive produt moduleF heir purpose is to rete  system of longEterm motivtion tht enourges foresters to perform their intelletul work etterD therey inresing the e'etiveness of the entire tehnology nd its ene(ts to the omE munityF
+o ensure more e0ient nd fir motivtion for tive prtiipnts of the eosystemD @foresters urrentlyD ut lso dt sientists nd trders in the futureA we will lote diret uslity etween the qulity of their enggement nd the result of rel or simulted trding trnstions or investments @whih re sed on prtiipnts9 forestsD intelletul workD dt proessing models nd trding strtegiesAF
+por this resonD fter the rowdsle nd quisition of the neessry liensesD we will llote prt of the funding to the trding portfolio @mnged y ryE rid sntelligeneAF otentil pro(t from this portfolio will e used to replenish the dynmi motivtionl irGfg pool to rewrd foresters @in proportion to their rtingD uryD nd prtiiption over  given periodAF hereforeD (nnil ompenstion for tive eosystem prtiipnts will e diretly linked to the trding module performneF his ompenstion is designed to e  rewrd mehnism inentive for urte informtion nd forests provided nd ontriuted to the system nd is not pplied to gxh holders generllyF
+3.1.2 Necessity to business
+hroughout PHIT nd erly PHIUD we lunhed test integrtion with hedge funds nd nks to monetise our tehnology y providing them with produts nd essF e identi(ed the poor slility of this lssi fPf model"lrge funds wnted to monopolise our tehnologyD dtD nd trding signls @primrily eE use of the limited mrket pity " funds with the sme vlule lph egn to ompete in utilising these signlsAF sn other wordsD we relised tht selling our solution to  lrge numer of fPf ustomers would e unwise from  usiness point of viewF
+he issuing of infrstruture tokens is the next step towrds the retion of tehnologil infrstruture @es C foresting module C dt siene module C trding module C qs moduleAD whih will e used y investment funds working under the new formt for utilising ll produts nd pities of ryE rid sntelligene with mximum e0ienyF
+punds tht would purhse this tehnology will e regulrly pying the
+V
+
+performne fee from their potentil pro(tD to the extent of whih the dyE nmi motivtionl irGfg pool will e replenished in order to inrese the motivtion of ll tive prtiipnts of the eosystem @foresters D trdersD dtEsientistsAF his infrstruture is sheduled to e ville for funds in PHIWF
+sn order to preserve mximum e0ieny in the utilistion our tehnology y investment funds @hedge fundsD rypto sset fundsD venture pitl fundsA ess to this infrstruture will e grnted only for those who own  signi(nt numer of gxh tokensF
+3.2 Terms of token sale
+3.2.1 Terms of issue of CND tokens
+gxh tokens will e issued on ithereum lokhin using the igPH token stndrdF
+oken sle periodX IP eptemer to IP ytoerF
+rior to the rowdsleD we pln to strt selling the tokens vi the hite vist in severl itertionsF here is  possiility tht ll tokens will e sold through these stges efore the strt of the rowdsleF
+IHH7 of the tokens will e issued within the token sle periodF
+urhse methods eptedX irF
+rie of I gxh a 6HFHI @(t prie equivlent provided for illustrtive purE poses onlyD no (t urreny will e eptedAF
+wximum hrd p a 6ISDHHHDHHHF
+3.2.2 CND token distribution
+okens will e distriuted s followsX
+75% ! for token sle ontriutorsY 20% ! for the ginditor ompny @C vestingAY 3.8% ! for dvisors nd prtnersY 1% ! for the ounty mpignY 0.2% ! for urrent ginditor foresters @proportionlly to their totl
+rtingAF
+3.2.3 Funding allocation
+punds will e lloted s follows @proportions elow re not (nl nd my hnge t ompny9s disretion sed on usiness needsAX
+55% E udget for ontinution of sienti( workD infrstruture develE
+opmentD retion of new produtsD development of  ryrid sntelligene pltformF he udget will e lloted etween these res s set out elowX
+E developmentX dt sieneD mhine lerningD es modulesD moile pplitionsD we versionsD produtsD esD weEhostingD server E pityY
+E trdingX trding servies nd terminlsD development of trding lE gorithms nd infrstrutureY
+E opertionl ostsX slriesD o0e rentD other opertionl ostsF
+W
+
+20% ! ryrid sntelligene portfolio for tehnology vlidtionD the uE
+multion of vlid trding dt nd formtion of  dynmi motivtionl irGfg pool for forestersF he trding ses of this portfolio will lso serve to mke up  history of trnstionsD whih will ontriute to growing interest nd demnd for ginditor produts in the professionl mrket of investors nd trdersF
+10% ! mrketingX promotion of the olletive intelligene pltform in
+order to hieve signi(nt growth in forester numersF
+5% ! legl supportD improvement of ompny9s legl strutureD protetion
+of investors9 rightsF
+5% ! monthly forester ompenstion fundF 5% ! quisitions nd future prtnerships for the synergeti development
+of the ryrid sntelligene eosystemF
+4 An economic model for the ecosystem
+4.1 Products for CND token holders
+fy uying tokensD gxh token holders will get exlusive ess to prt of the ryrid sntelligene infrstruture @urrently under developmentAF
+rolders of the gxh infrstruture tokens will reeive  di'erent level of ess to ginditor9s inditorsD rtingsD nd internl nlytil produtsF
+oken holders will e le to ess the following prts of the infrstrutureX
+E inditors of trditionl mrkets nd ryptoEmrkets @the proility of the rise or fll of sset priesD the proility of eting onsensus in orE porte nd mroeonomi eventsD inditors of ertin prie levels eing rehedD nd inditors of the proility of signi(nt events in)uening the mrketAY
+E uxiliry servie produts for trding @elegrm nd lk otsD noti(ersD nd portfolio monitoring produtsAY
+E nlytil produts @sgy rtingsD mrket ondition nlysisD sgy due diligeneD nd investor portfolio nlysisAY
+E mrket indexes nd sentiments generted y ryrid sntelligeneF
+he ft tht token holders n use dt from the nlytil infrstruture produts will not 'et the vlue of the dt reeived from ryrid sntelligeneD sine eh inditor or index is not n unmiguous trding signlD ut only n dditionl metri in the mrket tht helps to nlyse n investment deiE sionF hese dt nd nlytil produts will ssist token holders nd mke the eosystem trnsprentF
+roweverD  prt of the infrstruture intended to e diretly used in pitl mngement @y trders9 temsD mhine lerning modelsD nd trding strteE giesA will remin in the entrlised prt of the systemF his is neessry in order to mke sure tht ryrid sntelligene n e used most e0iently t the next stgeD when interested funds will e provided with ess to the entire infrstruture @see etion RFTAF
+4.2 Limited access to products
+o prevent the dilution of nlytil dt vlue @tking into ount mrket pity nd the potentil impt on itAD the ess level nd set of ville produts nd tools will e set for gxh tokensF
+IH
+
+rt of the produts will just e mde ville to the token holders in E ordne with their lne levelD nd prt of the produts will e sold through trnsfer of tokens to the dynmi motivtionl gxh poolF
+ixt formtion of the ess levels will depend on the rowdsdle results @numer of the tokens issuedA nd the mrket dynmisD nd will e determined y the ppropriteness thereof for ginditor9s internl eonomyF
+e will deliver these produts in vrious wys one the orresponding deE velopment work is ompleteX
+E hilyGweeklyGmonthly distriution of inditors vi messengerGemilY
+E @oftwre s  ervieA "  dshord with n ess to inditors nd nlytis of ryrid sntelligene for vrious eventsY
+E woile pplitionY
+E es essF
+4.3 Trading portfolio of Hybrid Intelligence
+sn order to vlidte the h progress on to develop the ryrid sntelligene tehnologyD nd to verify the qulity of the ginditor nlytil produtsD  ryrid sntelligene ortfolio will e retedF
+his ortfolio will e divided into the three prtsD in order to over the most promising nd slle trding strtegiesD s well s for e'etive risk hedgingX
+IF etive ryptotrding sed on ginditor tehnologiesD long with dt nd signls retrieved from the onsensus of ryrid sntelligeneF his portion of the portfolio will vry with ryptomrket liquidityF et the momentD liquidity mkes it possile to omfortly use  smll perentE ge of the totl portfolio in tive strtegiesF fitoin will e used s  enhmrk to estimte the resultsF
+PF rotetive uy nd hold portfolio of rypto ssets @the proportion of vrious ssets in the portfolio is determined y onsensusAF he tsk of ryrid sntelligene is to determine the optimum rtio of rypto ssets from the viewpoint of risk minimistionD nd to keep this rtio up to dteF fitoin will e used s  enhmrk to estimte the resultsF
+QF etive trding of trditionl (nnil ssetsX stoksD futuresD nd foreign exhnge mrkets on the sis of ginditor tehnologiesD s well s dt nd signls retrieved from the onsensus of ryrid sntelligeneF his prt of the portfolio is used to demonstrte the pilities of ryrid sntelligene in trditionl mrketsF st n lso e treted s protetive in reltion to the entire ryptoportfolioF sn the se of  strong fll in the ryptomrketD  portion of the funds my e trnsferred to ryptosE sets with the purpose of erning  pro(t upon the rehilittion of tht mrketF h will e used s  enhmrk to estimte the resultsF
+etive mngement of the third prt of the portfolio will egin within  few months fter the end of the oken leF o do thisD we will need to omplete the preprtion of the entire trding infrstrutureD suh s ounts nd legl struture @it is neessry to estlish  seprte legl entity for the fund nd to otin the neessry liensesAF
+his portfolio will e mnged y our tem of trders nd trding rootsD who will use the dtD signlsD nd nlytis otined through the ryrid snE telligene tehnologyF e will pply vrious strtegies in the (nnil mrkets @oth rypto nd trditionlA within di'erent time horizonsD from shortEterm trdes to longEterm investmentsF he hoie of strtegy nd ssets invested will drw on  positive evlution from ryrid sntelligeneD s well s suessE ful testing in the form of k nd forwrd testsF
+II
+
+yur tem will prepre detiled monthly reports feturing the results of the trdes exeuted nd mke them ville to the ommunityF
+4.4 CND pool for dynamic compensation of forecasters
+o form  stedily growing internl eonomyD ginditor will rete the internl motivtionl pool of gxh tokensF
+he pool tokens will e used to enourge the ginditor forestersD s well s other ontriutors to the eosystemD who will e ringing signi(nt vlues to the eosystem of ryrid sntelligene @sientistsD visionriesD engineersD trdersD investorsD mrketersD vendorsD etFAF
+por the ontriutors to e enourgedD gxh pool tokens will e rought to the pool primrily from selling of the ginditor nlytil produts E those produts nd tehnologies tht will e ville only through the sle of gxh tokens y ginditor ompnyF
+4.5 ETH/BTC pool for dynamic compensation of forecasters
+ivery qurter we will reord the results of ll the ounts in the ryrid sntelliE gene portfolio in order to form  dynmi motivtionl irGfg poolD desigE nted to rewrd foresters for their intelletul investment into the eosystemF
+sn the se of positive performne @reltive to the initil stte of the portE folioAD we will distriute the pro(t s followsX
+IF 7 will remin in the ryrid sntelligene portfolioD ensuring its growth for the next reporting periodY
+PF 7 is the performne fee for the ginditor tem @to e pid only if the portfolio size is lrger thn its initil stteAY
+QF 7 E funds to replenish the dynmi motivtionl irGfg poolF
+sn se of  lossD we will n use the reserve fund to provide (nnil motiE vtion nd ompenstion to the superforesters for the period in questionF
+he prties knowledge tht the urrent stte of the ryptourreny inE dustry is unertin due to fst hnging regultions ndGor lk of regultory ertinty in severl jurisditionsF o omply with ny regultions ndGor to ensure viility of its usiness model in light of ny mrketD tehnologilD ndGor regultory hngesD gompny reserves the right to mendD supplementD or delete ny term of this egreementD inluding ut not limited to ny terms deling with the retion of dynmi motivtionl poolsF
+4.6 Monetisation of intellectual contribution of forecasters
+poresters forming the ginditor olletive intelligene re the key element to e reted with in the eosystemF he suessful opertion of this system s  whole requires the personl motivtion of foresters to e sustinedD nd  ommon gol to e formulted for the entire groupF
+yur pltform enles professionl nd nonEprofessionl nlysts to moneE tize their intelletul work in nlysing mrkets nd generting preditionsF e ll this produt the golletive sntelligene ltformD in whih our foresters n invest their mentl sset @timeD ttentionD intelligeneA nd e eligile for the respetive ompenstion of their emedded intelletul investmentsD with no risk of losing their own (nnil ssetsF
+IP
+
+Personal motivation
+ih forester generting vrious forests in our pplition is given  personl rtingD sed on the forests9 uryF he rting my oth inrese nd dereseD depending on the ury of eh preditionF he rting of eh forester is mde puliD whih retes the neessry ompetitive motivtion for eh of foresterF
+et the end of eh month the rting is (xedD nd the most urte of foresters in the rtings shre the sh prize in proportion to the numer of points rued tht monthF he monthly sh prize is formed from the reserve fund of foresters9 remunertion nd depends on the numer of foresters t the timeF he size of the monthly prize nd the rules for its llotion re nnouned efore the strt of eh monthF
+sn the eginning of eh monthD this rting is reset @in order for everyone to hve n equl hne in the new periodA nd  new monthly stge eginsF
+Group motivation
+he overll gol of the entire forester group will e relted to the result of trding the ryrid sntelligene portfolioD sine they re n integrl prt of its mngementF
+et the end of eh reporting period @qurterA we will reord the results of trding of the ryrid sntelligene portfolio @for the trditionl portfolio in hY for the ryptoEportfolio in fgAF sn the se of pro(t generted on ny of the ounts @ording to the orresponding enhmrkAD one prt thereof will e pplied into the dynmi motivtionl irGfg pool for llotion etween the forestersD s the dditionl onus in proportion to their rting in suh reporting periodF
+sn se of  loss on oth ountsD no dditionl onus will e provided to the forestersF
+4.7 Technological infrastructure for investment funds
+he (nl gol is to rete  omplete infrstruture for the new genertion investment funds whih will uy ess to ginditor tehnology @esD foreE sting moduleD dt siene moduleD trding moduleD qs moduleD seurity systemAF
+he funds will e le to ess this tehnology y uying neessry @see setion RFPA mount of gxh tokensF punds tht would purhse this tehnology will e regulrly pying the performne fee from their potentil pro(tD to the extent of whih the dynmi motivtionl irGfg pool will e replenished in order to inrese the motivtion of ll tive prtiipnts of the eosystem @foresters D trdersD dtEsientistsAF
+he numer of funds tht will get ess to the full infrstruture will e limited in order to mximise the e0ieny of the infrstruture on eh mrket @ryptossets mrketD trditionl stok mrketD urrenies mrketD derivtives mrketD venture pitl mrketAF
+his will provide n e0ient supplement to ginditor9s eosystemD inresE ing its sustinility nd providing ene(ts for ll tive memersF
+5 Technologies applied
+5.1 Technological infrastructure
+he ginditor tehnologil infrstruture is lredy developed t the time of the token sle nd onsists of the following modulesF
+IQ
+
+Business logic module:
+E fkend system with si usiness logi tht works with eventsY E edministrtive systemY E iewing dt nd inditorsY E woile pplitions @iy C endroidAY E e pplition @under developmentAF
+Prediction module:
+E ht quisitionY E piltrtion nd lening of quired dtY E peture extrtionY E porming of hypotheses nd mthemtil modelsY E lidtion nd optimistion of prmeters for preditive modelsY E ynthesis of urte preditionsF
+Trading module:
+E ht quisition from the preditive moduleY E sntegrtion with exhngesD quisition nd proessing of resulting dtY E fk tests nd forwrd tests for prmeters of trding strtegiesY E smplementtion of trding strtegies through trding rootsF
+5.2 Data science and machine learning (ML)
+wv is employed y ginditor to urtely forest the tul ehviour of (nnil instruments sed on dt from the mrket nd foresters9 prediE tionsF
+o hieve this golD two mjor pprohes re usedX superforesting nd the wisdom of the rowdF
+e undertke this work in severl wysX IF e study our forestersD identifying ehviourl ptterns nd ommon
+ftorsF E e luster forestersX into ers or ullsD those who nrrow or expnd prie levelsD nlyse the mrket or notD follow the trend or notD use tehnil or fundmentl nlysis etY E e explore ehviourl ptternsX how often foresters mke misE tkesD in whih situtions they re mistkenD nd how foresters ret to  drmti hnge in the mrket nd di'erent eonomi eventsF
+PF e ondut experiments with groups nd lustersF QF e ondut experiments with preditive models nd use them to uild
+the oosting lgorithmF RF e ondut time series nlysis of the mrket nd the preditions of
+forestersF SF e vlidte mhine lerning models nd optimise their prmetersF
+IR
+
+5.3 Description of current pipeline
+ht villeX
+E porester pro(le @genderD geD ountryD professionl kgroundD ouE ptionD nd ehviourl ptternsAY
+E poresters9 preditions for di'erent (nnil ssets @inry questionsD prieErelted questionsAY
+E ristoril mrket dt on vrious (nnil ssetsF
+e use the lssil pipeline of mhine lerning modelsF
+5.3.1 Data ltration and clean-up (data preparation)
+he min soure of rndom errors is forester input errors @where the user inE dited the wrong tiker symol or spei(ed n inorret numer orderAF hese errors dversely 'et the work of models nd disple our metrisF por dt lenEup we use the following methodsX sD qrus estD nd qihF
+5.3.2 Feature extraction
+ih forester nd investment instrument hs  distintive ehviourl ptE ternF yur lgorithms onsider these ptterns nd pply either hrge di'erent weightings or di'erent models in the pproprite mnnerF e hve developed  model tht onstntly updtes the feture vetor nd relultes its weightE ings sed on v @reinforement lerningAF
+5.3.3 Construction of hypotheses and mathematical models
+ell our models n e divided into two lssesX
+E uperforesting models @in whih we uild models on vrious foresters9 lusters nd luster ensemlesAY
+E he wisdom of the rowd model @in whih we uild vrious models on the preditions of ll forestersAF
+e develop mthemtil models for desription nd predition sed on the theories of phse trnsitions nd gme theoryF e lso use frtl geometry to forest ritil points @points where the mrket experienes inresed tenE sionD when the topologil dimension nd the rusdor' himension re hnging drmtillyAF
+5.3.4 Validation and streamlining of predictive models
+yur models re optimised nd k testEssisted due to the pipelines involvedF hi'erent models demonstrte their own spei( ehviors for di'erent investE ment instrumentsF ih model hs its own settings @the length of the sliding windowD the form of the funtion for lulting weights or penltiesD the depth of the deision treeD nd othersAF uning of prmeters is done for eh model with regrds to eh (nnil ssetF ih model is onstntly lerning on the sis of new dtF o ssess the ury nd qulity of our modelsD we perE form kEtesting nd use oth stndrd sores @wiD ygD weiD erson9s orreltion oe0ientA nd their intrinsi evlution funtions for eh trding strtegyF
+IS
+
+5.4 Description of validated hypotheses and approaches
+5.4.1 Conrmation of correlation between analysts' forecasts and real market behavior
+o demonstrte existene of strong orreltion etween nlysts preditions nd rel mrket ehviourD we turn to the si mthemtil sttistisF
+vet R2 ! e the oe0ient of determintionD one of the generl mthemtE il metrisD whih determines the degree of orreltion etween the dtF st is elieved thtD when the ondition R2 b HFS is stis(edD there is  strong orreltion etween the dt setsF
+o lulte the oe0ient of determintion for (nnil instruments @qyyqD fegD D wghD pIAF vet9s demonstrte the vlues of the oe0ient of determintion on the exmple of dt from the rhive @ginditor nlyst9s forests nd rel vluesAD lulted using n open lirry in ythonX
+from sklearn.metrics import r2_score
+The obtained value of R2:
+qyyqX HFVY fegX HFWQY X HFWRY wghX HFWY pIX HFWTF por this lultions sed on the dt from dt rhive @foresters prediE tions relityA used n open lirry on ython lngugeX from sklearn.metrics import r2_scoreF
+gonlusionX yur experiments show the presene of  onstnt nd strong orreltion eE tween nlysts9 forests nd rel mrket ehviorF his mens tht we n implement  mthemtil model tht will extrt from the forests of nE lysts the ext vlues of mrket ehvior with the neessry uryF
+IT
+
+5.4.2 Approach to the development of mathematical models
+reditions9 ury of eh forester vries depending on the type of quesE tionX some users provide gret nswers for questions relted to mroeoE nomis nd politisD while mking mistkes in prieErelted questionsY othersD on the other hndD n urtely forest prie of  prtiulr sset for next dyGweekGmonthD yet mke mistkes in questions of other typesF fy reserhE ing ehvior of eh user we reted selfElerning system for ssessmentF por instneD depending on forester nswers for prieErelted questions we n de(ne T di'erent forester pro(lesF
+hereinD ehvior of the individul forester my vryX they predit only trends on weekdys @no time to look t the hrtsAD ut mke more urte forests on weekendsF fy pplying di'erent onversion opertorsD we n sigE ni(ntly improve predition uryF sn our models we tke into ount ll ehviorl ptterns of the usersF
+e hve found tht there ws  group of foresters who re espeilly good t prediting the soElled ifurtion pointsD when the trend hnges drmtE illy or experienes  shrp jumpGfllF fy onstruting  seprte lgorithm for this luster of forestersD we n predit suh ifurtion points nd pply individul models to themF
+yur models use di'erent wvGhv pprohesD suh sX
+E e fyesin pprohY
+E fyesin felief xetworksY
+E rwwY
+E sing vrious models s seprte preditors whih serve to uild up the oostingY
+E fuilding vrious regression modelsY
+E sing vrious lgorithms of lustering for segmenttion nd ggregtion of forestersF e ompose lusters of superforesters nd ensemles of lustersD on whih we run vrious lgorithmsY
+E sing historil dt on investment instruments in ddition to user sigE nlsF wodels sed on time series nlysis re lso usedF
+
+5.5 Mathematical foundation
+5.5.1 Denitions
+
+e de(neX
+
+ s  feture vetor whih hrterizes  userY
+
+Ui() s n ith system user @foresterAY
+
+U = {U1 . . . Un} s  user vetorY
+
+E = {E1 . . . Em} s  event vetorY
+Ereal = {E1real . . . Emreal} s rel vlues @orret nswersA vetor for events EY
+
+Vl " s n lth tiker or EEelonging event voting opertorF
+
+henD  pure signal for event lD not involving lgorithmsD is denoted y the
+
+followingX
+
+w
+
+w
+
+Vl(UiEl) Vl( UiEl)
+
+Sl = i=1 w
+
+= i=1
+
+,
+
+w
+
+where w is the numer of forestsF
+
+IU
+
+5.5.2 Superforecasting
+he group Ul = {Ul1 . . . Ulm } is lled superforecasters for events Ek = {Ek1 . . . Ekn }D if
+Ul =U |Vk(U EkT ) - Ekreal|.
+
+he vlue
+
+s k
+
+=
+
+max |V (UlEkT ) -
+
+Ekreal|
+
+is
+
+the
+
+limit
+
+error
+
+for
+
+the
+
+group
+
+Ul
+
+at events EkF
+
+5.5.3 Wisdom of the Crowd (WOC)
+e de(neX W s the user weights mtrixY Wl s the user weight vetor for the event lY WlT U s the weighed users vetor for the event lF
+henD the WOC algorithm signal is denoted y the followingX Sl = Vl(WlT U ElT ).
+
+he vlue
+
+w k
+
+=
+
+max[Vl(WlT U ElT )
+
+-
+
+Elreal|
+
+is the limit error of the WOC algorithm at events ElF
+
+5.5.4 Model Boosting
+e de(neX µ1 = {µ11 . . . µ1n} s the Superforcasting models @forestsA vetorY µ2 = {µ21 . . . µn2 } s the WOC models @forestsA vetorF
+he following liner omintion of models is lled model boostingX
+
+L = iµi1 + iµi2.
+
+sn mtrix formX
+
+L = AM,
+
+where A = ij is the oe0ient @weightA mtrixD M = µ1i µ2j is the model mtrix µ1 nd µ2F
+
+e shll selet  mtrix AD tht
+
+A =A |AM - Ereal|.
+
+he limit error of model boosting will e the followingX b = max |A M - Ereal|.
+
+hereforeD the following ondition will e orretX b <= min( s, w).
+
+IV
+
+5.5.5 Sustainable Models
+
+vet us onsider the lss of models µ^( ,  ) = {µ^1 . . . µ^n|µ^i  µ1  µ2}D for whih the following sustainability conditions re lidX
+
+IA t  Tl
+
+d(E[Etpredict - Etreal]) = 0D iFeF expettion of forests is  dt
+
+onstntY
+
+PA Var[Etpredict - Etreal] < D iFeF error distriution of expettion does not exeed ;
+
+QA Var[Etpredict - Etreal] < E[Etpredict - Etreal]D iFeF forest distriution does not exeed expettionD
+
+where Epredict is the forested vlue @for ny lgorithmAD Tl = {tk1 . . . tk } is the time series of the tiker lF
+
+uh  lss is lled sustainable under the timing errorF
+
+Theorem 1. Let us assume that µ^( ,  ) is the model class sustainable against
+the timing error, Tl is the time series for which Tl > Tl Then:   : S  S is the ane transformation at a set of signals, for which:
+
+lim
+t
+
+|S^l
+
+- Elreal|
+
+=
+
+0,
+
+„‰Â
+
+S^l
+
+=
+
+(Sl),
+
+t
+
+
+
+Tl .
+
+Proof. Let us prove that provided that Theorem conditions are met, there exists
+an ane transformation , for which |S^l - Elreal| .
+
+Without prejudice to communality, let us assume that all the forecasts are
+shifted upward, beyond the real value by   (inferred from the denition of
+a sustainable class). The case of downward shifting is proven analogically.
+
+1) Induction Basis. Let us assume that  < is the forecast error for the moment t1 = Tl , then let us set the shift (Sl) = Sl -  as the transformation. We might note that the error for this case will be ^ = 0.
+We shall add the forecast with the error  < to the moment t2 = Tl .
+Using the previous transformation, we then obtain that the error of the
+second forecast became as follows: ^ =  - .
+
+We then see that without the transformation, the total error of two fore-
+casts will be  + , and  -  with the transformation.
+
+It is obvious that  -    + , as   0.
+
+2) Induction Step. Let us assume that  = {1 . . .  |i < } denotes errors of forecasts in the time series Tl = {tl1 . . . tl }. Then the value  = i
+i
+will be the total error in the series Tl .
+We shall take the transformation (Sl) = Sl - E[Etpredict - Etreal], where t  Tl .
+
+Let us then add the next forecast with the error  <
+
+t = T l(tau+1)
+
+ l
+
+.
+
+to the moment
+
+Now we must prove that
+
+i
+
+i +   (
+
+i + ) - 2
+
+i
+
+
+,
+
+i
+
+i
+
+or
+
+i 2 i  0.
+
+
+IW
+
+As  = 0, while the sustainability conditions provide for i  0, then the
+i
+monotonicity statement will be correct.
+
+Let us use the Weierstrass Theorem for the limited monotonic sequence:
+
+Any monotonically increasing series, bounded from above (or monotonically decreasing series, bounded from below), has the limit equal to its least upper (lower) bound.
+
+Thus,
+
+we
+
+obtain
+
+that
+
+lim
+t
+
+|S^l
+
+- Elreal|
+
+=
+
+0.
+
+ell the models used in ginditor hyrid intelligene tehnologyD ould e strtly set out in the form of pprohes given oveF yn ount of the desried theoremD there exists  model trnsformtion for whih error expeE ttion redues to zero in the time seriesF
+
+5.6 Technologies (libraries, algorithms)
+E Languages: ythonD lD Y E Libraries: xumyD iyD ndsD sikitElernD mtplotliD seornD
+kersD henoD xgoostY
+E Algorithms: regressionsD lusteristionsD esweD oostingD deision
+treesD rndom forestD deep lerningY
+E Infrastructure: hjngoGplskGorndoD ostgresD wongohfD eEdisD
+w ezureD rdoopD prkF
+5.7 Technological roadmap
+sn the futureD s our tehnology develops nd mount of dt inresesD we pln toX
+E smplement neurl networks nd deep lerningY
+E smplement  trding root sed on reinforement lerningD whih will independently nlyse the mrket nd lern from its own mistkesY
+E hevelop modern mthemtil models to uild preditive models for the mrketY
+E gollorte nd ooperte with dt sientists from leding universities @tnfordD ferkeleyD rinetonD A nd ompnies @qoogle eserhD sfwA in (nneD dt sieneD nd wvGhvY
+E grete  pltform for mnging trding rootsY
+E hevelop the mrketPve lgorithm @ vetor representtion of (nnil ssets9 dtAF
+e elieve tht the merging of suh res s ontrol dynmisD gme theE ory nd tehnil nlysisD mhine lerningD nd ehviourl nlysis is  very promising (eldF
+
+6 Analytical products: completed and in development
+yver VDHHH foresters hve mde PQHDHHH forests sine the glol pltform lunh in heemer PHISF sn tuly PHIT @one n dequte dt set hd een umultedAD the ompny strted trdingD forwrd testing nd ktesting vrious trding strtegiesF
+he min fous res inluded two types of questionsX
+PH
+
+E inry proilisti questionsY
+E prieErelted questionsF
+6.1 Binary probabilistic questions
+finry proilisti questions re questions tht only hve two possile nE swersX yes or noF poresters hve to give their nswer s  H7!IHH7 proE ility for n event to hppenF e H7ERW7 proility is interpreted s  no nswer with vrious degrees of on(deneD while  SI7!IHH7 proility is interpreted s yes with vrious degrees of on(deneF es  ruleD this type of question is used to forest politilD mroeonomiD orporteD nd other sorts of eventsD s well s to forest prie movements to  ertin degreeF
+ih nlyst uses vrious strtegies to nswer these questionsD s  spei( proility vlue set out y  forester 'ets the numer of points in the forester9s rtingB"tht isD their (nnil motivtionF husD eh user is oth n nlyst nd  risk mnger for their portfolio on the pltformF
+por instneD some foresters hoose RH7 or TH7 for most questionsY thereE foreD they n lose @if the nswer is wrongA or gin @if the nswer is rightA IH points mximumF ome foresters only hoose H7 or IHH7 to reeive the gretest possile numer of points @similr to trdersD who use n equl risk per position in eh trdeAF end some foresters re utious in events of gret unertinty nd ggressive @H7!IH7 or WH7!IHH7A in events where they re more on(dentF hereforeD they re similr to trdersD who risk igger with greter on(dene in  trdeD nd vie versF
+es  resultD rti(il intelligene models weigh the nswers nd ssess foreE sters over the history of their forestsD s well s forming dynmilly hngE ing lusters @ullsD sheepD ersD superforestersD etAF es  resultD we get  vlule ggregte signlD whih n e used in vrious trding systems nd strtegiesF
+vet9s tke  loser look t vrious types of inry proilisti questionsF
+Bhe numer of points is lulted s the di'erene etween SH7 nd the user9s nswerF por instneD if  user hose TS7 proility for the event ill the fitoin prie rise to 6QDSHH y tuly QHc nd the orret nswer is noD @iFeFD H7AD they will reeive SH ! TS a EIS pointsF he forester who nswers IH7 for this question will get SH ! IH a RH points for their nswerF hereforeD the mximum numer of points ville is SHF por more informtionD plese see our peF
+6.1.1 Macroeconomic events
+wroeonomi events re the ltest nd most importnt eonomi eventsD (guresD nd fts tht ould 'et (nnil mrketsF por exmpleD we needed to (nd out the proility for the pederl eserve9s interest rte hike in tuneF o do soD we reted the following question in the ginditor ppX
+"The aggressively pro-US business approach of the Trump administration could prompt the Federal Reserve to hike rates more rapidly. Will the Fed raise the interest rate on Wednesday, 14 June?"
+sn this seD the ryrid sntelligene deemed the proility of  rte hike to e TT7D nd in ft the ped inresed the rte t tht meetingF
+egrding mroeonomi eventsD it is lso possile to (nd out whether  mroeonomi inditor surpsses of nlysts9 expettionsF por exmpleD we re going to mke  trde sed on the pulition of the eh imployment eportD so we pulish the following question in the ginditor ppX
+"Last month ADP employment change was 172,000. The next report will be published on Wednesday, 3 August. Will employment rise by more than 165,000?"
+PI
+
+sn this questionD ginditor foresters predited  TU7 proility of eh employment inresing y more thn the onsensus setF sndeedD tht dyD eh employment hnge to IUWDHHHF husD ryrid sntelligene provided  orret forestD nd the mrket reted in the right diretionF
+vet9s ddue some more exmples of similr questions relted to mroeoE nomi eventsX
+"Will the jobless rate in May be greater than or equal to 4.4%?"
+"Will China's second quarter GDP exceed estimates of 6.6% according to a report to be published on July, 14?"
+"Bank of Japan (BOJ) Governor Haruhiko Kuroda reiterated that the central bank is prepared to step up stimulus if needed, while noting again that so-called helicopter money is prohibited. Will BOJ cut interest rates to below -0.2% on the 28 July meeting?"
+pind out more out mroeonomi questions on our wedium logD where we shre the signls we reeive nd informtion on the trdes ompleted sed on this dtX
+E xonfrm yrollsX CQFU7 in two minutesY E hurle qoods yrdersX row to rde with growd snditorc E X CHFQ7 on ped9s deisionF
+6.1.2 Corporate events
+peultion out whether  pulished report will exeed its onsensus forest is lso used to predit some orporte events @eFgFD qurterly reportsAF por this purposeD we put the following question to ryrid sntelligeneX
+"Best Buy Co., Inc. (BBY) is set to report its second-quarter 2016 results on Tuesday, 23 August before the market opens. Wall Street is expecting earnings per share (EPS) of $0.43. Will Best Buy report EPS above Wall Street Consensus?"
+ginditor predited tht fest fuy9s report would e etter thn the nE lysts9 onsensus with  UQ7 proilityF sndeedD the i pulished turned out to e higher thn the onsensusD nd the ompny9s shres spiked up y over IH7 in one dyF
+gorporte events inlude not only report pulitionD ut lso dividend pymentD onferene llsD nd presenttionsF ou n see exmples of trdesD whih n e mde with the use of these forestsD on our wedium logX
+epple @eevA gonferenesX E eppleX CHFS7 within  few hoursY E eppleX CS7 in  few dysF urterly nd nnul reportsX E quessc CIQFP7 in one trdeY E eppleX row to rde with growd snditorc CSFTT7 in one trdeY E xet)ixX CIUFU7 in less thn PR hoursF
+PP
+
+6.1.3 Political events
+olitil events nlysed on our pltform inlude the eletion of top o0ils nd prties in vrious ountriesD resigntionsD importnt meetingsD ertin politil deisions @eFgFD imposing or extending sntionsD or ountries joining vrious olitionsAD nd othersF
+por exmpleD prior to the (rst round of presidentil eletions in prneD we posted the following question in our pplitionX
+"Less than two weeks before the vote in the rst round, the farright candidate Marine Le Pen was leading the polls in the 2017 French presidential election. The rst round will be held on 23 April 2017. Will Marine Le Pen reach the second round?"
+ginditor9s ryrid sntelligene generted n nswer of VH7D nd indeedD wrine ve en pssed into the seond roundF efter thtD the following question ws posted in the pplitionX
+"The rst round of the 2017 French presidential election was held on 23 April 2017. As no candidate won a majority, a runo election between the top two candidates, Emmanuel Macron and Marine Le Pen, will be held on 7 May 2017. Will Le Pen win the 2017 French presidential election?"
+yn T wyD PHIUD ryrid sntelligene deemed the proility of wrine ve en eoming president s QR7F yn U wyD immnuel wron ws eleted resident of prneF husD ginditor9s ryrid sntelligene urtely preE dited the results of the presidentil eletions in prneF
+roweverD the nswers reeived from ryrid sntelligeneD oth orret nd inorret preditionsD whih need to e interpreted in the right wyD n lso e used s trding signlsF por exmpleD prior to the  presidentil eletionD not mny people elieved in honld rump9s vitoryD nd ginditor9s foresters estimted his hnes of winning s QI7F roweverD  opinion polls showed tht rump nd glinton were keeping pe with eh otherF ristory shows tht in suh sesD when puli opinion is so solutely ginst fts @whih show equl hnes of oth eventsAD lk swns often pperF sn expettion of speultion round the eletion on V xovemerD PHITD our nlysts sked  numer of questions nd then ompleted severl suessful trdes sed on those questionsF por more informtionD plese see our log on wediumX
+E oltility indexX CQFIR7 in one trdeY
+E iEmini 8 SHH futuresX CIQ7 in less thn R hoursF
+husD the signls reeived from ryrid sntelligene n e inverted in some ses to omplete pro(tle trdesF
+6.2 Binary price-related questions
+sn ddition to questions relted to eventsD inry questions re used when there is  need to determine prie movementF por exmpleD we need to know whether the prie of n sset will rise to  ertin levelF fy sking suh  questionD we reeive n inditor tht shows the proility of the prie hieving this levelF
+por instneD on U ytoerD PHITD we wnted n urte prie forest regrding oil futuresF hereforeD we posted the following question in the gindiE tor ppX
+"Oil climbed above $50 a barrel for the rst time since June as declines in U.S. crude inventories and OPEC's pledge to reduce supply lifted hopes the global glut may clear. Will WTI futures surge above $51.7 before 20 October?"
+e reeived the signl tht the proility of suh  prie movement ws SV7F yn IH ytoerD the prie rose to 6SIFTY our trders losed their position
+PQ
+
+with pro(t of IFW7D without further prie inrese expettionsF e question regrding the ryptourreny poldinggoinD put to ryrid sntelE
+ligene on IS tuneD PHIUD is nother exmple of  prie inry eventF
+"The cryptocurrency FoldingCoin (FLDC/BTC) rose more than 16% and settled at 0.00000834 at 4 PM ET at Poloniex exchange on Thursday, June 15. Will FoldingCoin surge above 0.00001030 before 25 June?"
+ryrid sntelligene nswered 4yes4F sndeedD on PI tuneD poldinggoin exE eeded HFHHHHIHQHF yn PP tuneD its prie rehed  pek of HFHHHHITRPD showing lmost IHH7 growth over the prie t the time of the question eing postedF
+finry signls n omplement eh other to rete  omprehensive piE ture of the urrent mrket situtionF husD the next exmple ontins  inry question tht ws sked right fter xet)ix pulished its qurterly report nd imed t understnding the term of n inrese in shre prie on the reportX
+"Shares of Netix, Inc. (NFLX) closed the week ending 21 October 25.65% higher at $127.50 after the company reported far stronger-than-expected earnings per share on Monday, October 17. Will Netix stock drop below $120 before November 5?"
+ryrid sntelligene estimted suh  proility t QR7F sndeedD until xovemer SD the prie ws ove 6IPH per shreF
+rere9s nother exmple of mking  trde using  series of questionsF sn wy PHIUD the mrket sw n djustment of ryptourrenies following  rpid inreseF ginditor posted  series of questions regrding viteoinD whih provided us with  signl to uyF
+"The cryptocurrency Litecoin (LTC/USDT) settled on $30 at 7:15 AM ET at Poloniex exchange on Tuesday, 6 June. Will LTC/USDT drop below $22.50 before 25 June?
+"The cryptocurrency Litecoin (LTC/USDT) settled at $28.32 at 4 PM ET on Poloniex exchange on Thursday, 15 June. Will LTC/USDT rise above $32 before 21 June?"
+eording to ryrid sntelligeneD the nswer to the (rst question ws noD nd the nswer to the seond question ws yesF husD our trders purhsed viteoin with  stop elow 6PPFSH using these signlsF por more informtionD see our post on wediumX viteoinX CVH7 in three weeksF
+rere re some more exmples of inry prieErelted questionsX E yil puturesX wing rdes with growd snditorF CIFU7 in  few dysY E yil puturesX CPFQ7 in two dysF finry signls show high uryX the verge ury of this type of signl is UT7 @the model is trined with over QHHDHHH forestsAF rding with the use of vrious inry signls s  min or uxiliry tool n provide interesting (nnil resultsF husD from tuly PHIT to perury PHIUD we inresed our model portfolio y IPQ7 y using only inry signls nd trding on trditionl mrketsF
+PR
+
+ginditor9s model portfolio return @result of inry question interpretE tionAD IVGHUGPHIT ! PVGHPGPHIU
+ou n see more exmples of inry questions in this qoogle spredsheetF
+6.3 Price-related questions
+elong with proility questionsD ginditor introdued prie questions in tnE ury PHIUF he questions were tested eforehnd with  group of foresters in  speil hllenge in ytoerEheemer PHITD when the signls produed exellent resultsF
+por exmpleD we needed to get  trde signl nd entryGexit pries sed on minimumGmximum signls for elphet snF @qyyqA for wondyD T wrhD PHIUF yn pridyD Q wrhD we reted the following question in our moile ppX
+"Shares of Alphabet, Inc. (GOOG) closed at $829.08 on Friday, 3 March. In your opinion, what will be the maximum and the minimum price of GOOG on Monday, 6 March during market hours?"
+sullyD in suh eventsD foresters n provide their predition of the minE imum nd mximum prie of (nnil ssets efore the mrket opens @in our exmpleD efore WXPH ew iD T wrhAF ight fter the question loses @dedE lineAD the rti(il intelligene system synthesises urte forests using mE hine lerning lgorithms sed on the umulted sttistis predited y forestersF yur system uses forwrd nd kEtests of the history of syntheE sised preditions to lulte entry nd exit points for qyyq shres with the optiml riskGrewrd rtioF
+sn this exmpleD the signl ws very urteX the predited minimum ws 6VPPFRQD nd the tul minimum ws 6VPPFRH @n error of HFHHQT7AY the preE dited mximum ws 6VPVFVID nd the tul mximum ws 6VPVFVV @n error of HFHHVR7AF he net pro(t for qyyqD fter ll trnstion ostsD mounted to HFQI7 in two trdes in one dyF he hrts elow demonstrte the ury of the signls @ll prie levels re lulted y ryrid sntelligene efore mrket openingAX
+PS
+
+enother exmpleX entry signls for  @h 8 SHH ipAD HWGHQGPHIU
+pind more exmples of minGmx prie signls on our logX E emzonX CPFS7 in  few dysY E peookX CHFTT7 in  few hoursY E hollr reeX CI7 in just P minutesY E isX CI7 in just PH minutesY E eppleX CHFIS7 in one hourF imilr to other ginditor signlsD minGmx signls re universl nd n e pplied to ny ssetsX ryptourreniesD stoksD futuresD urreny pirsD etF elsoD generting these signls is possile for vrious time frmes " eFgF dilyD weeklyD monthlyD or qurterlyF pei( questions relted to the ryptoEmrketD s well s questions with longEterm time frmesD is linked to higher voltilityF yur regulr weekly ryptoEsignls re n exmple of how our tehnology dels with high voltilityF wie  weekD we reeive ryrid sntelligene signls on the top three ryptossets in terms of pitlistionX fitoinD ithereumD nd ippleF por exmpleD here is one of questions relted to fitoinX
+"[#WEEKLY]. The cryptocurrency Bitcoin settled at $2469 at 2:00 PM ET on Wednesday, 14 June. In your opinion, what will be the maximum and minimum price of BTC/USDT in over the next ve days (from 10:00 AM ET on Thursday, 15 June until 9:59 AM ET on Monday, 19 June)?"
+he signls reeived with regrd to fitoin question were quite urte nd re lerly represented on the following hrtX
+fitoin @fgGhAD ISGHTGPHIU E IWGHTGPHIU
+imilrlyD the exmple regrding ipple looks s followsX
+"[#WEEKLY]. The cryptocurrency Ripple settled at $0.2627 at 2:00 PM ET on Sunday, 11 June. In your opinion, what will be the maximum and the minimum price of XRP/USDT over the next 4 days (from 10:00 AM ET on Monday, 12 June until 9:59 AM ET on Thursday, 15 June)?"
+PT
+
+hese signls lso turned out to e urteD whih n e lerly seen from the hrt elowX
+ipple @GhAD IPGTGPHIU E ISGHTGPHIU
+he minGmx signls for prie levels n e used to uild numerous trding strtegies or to serve s n inditor of importnt support nd resistne levelsF fy using  simple ounterEtrend strtegy @purhse t the min level nd sell t the mx levelAD we mnged to reh  return of IIFTV7 on trditionl mrkets from ytoer PHIT to wrh PHIUF prom ytoer PHIT to perury PHIU trdes were not rried out on  dily sisD so there were only IRV trding dysF husD the nnul pro(tility of this strtegy ws IWFV7F
+he minGmx signls return @selling t the mx levelD purhsing t the min levelAD PTGIHGPHIT E HTGHTGPHIU
+ixmples of minimumEmximum prie signls n e seen in this spredE sheetX linkF
+uh  strtegy yields good results for ryptoEssetsD prtiulrly fitoinsF eekly minGmx signls desried in detil ove showed out RH7 yield over the lst six months @VH7 pFFA with fitoinF et the sme timeD these signls re  ountertrendD nd the ft tht they perform suessfully in  trendy ull mrket is  mtter of helthy optimismF elso noteworthy is the ft tht this strtegy works well on the short side too"short selling rought lmost twie s muh pro(t s longs @uying n ssetAD PPFQI7 vsF IQFWT7D whih is reognised s  solid gin in  ull mrketF
+PU
+
+he minGmx signls return for fitoins @selling t the mx levelD purhsed t the min levelAD IQGHIGPHIU E HQGHUGPHIU
+6.4 Planned new data types, signals and indicators
+ine I tuly PHIUD  new type of prieErelted question hs een dded"questions pointing to  single prie levelF hese my e questions relted to the open nd lose pries of  (nnil ssetD the prie of n sset t  given momentD ssoited with rehing  ertin levelD nd so onF por exmpleX
+"Shares in NIKE, Inc. (NKE) closed at $59 on Friday, 30 June. In your opinion, what will be the close price of NIKE stock on Monday, 3 July?"
+ine wy PHIUD we hve lso een testing  new type of signl on  group of foresters who re onsistently in the top P7 of the monthly rtingF sers re required to hoose ssets tht they think should e ought or sold @short sellingAD s well s ssets for whih trnstions should not e mdeF sers should lso provide stop loss nd tke pro(t pries for those ssets tht they hoose to uy or sellF por exmpleD the question is formulted s followsX
+"What should we do with the cryptocurrency Ethereum (ETH/USD) in the coming week: buy, sell or nothing? The position will be opened at 9:30 AM ET on Monday, 22 May, and will be closed at 4:00 PM ET on Friday, 26 May."
+ell foresters provide their preditions for this ssetF sf they hoose n E tion @uy or sellAD they lso need to set stopEloss nd tkeEpro(t orders for their positionF sn this wy eh person n 9mnge9 their own investment positionD hoosing the expeted diretion nd riskGpro(t prmetersF por exmpleD one of the users nswers tht ithereum should e sold with  stopEloss of IWWFW nd tkeEpro(t of IRSFIY the seond user hooses n option of uying @with  stopEloss of IPH nd tkeEpro(t of PWHAY  third user indites tht nothing needs to e doneD nd so onF
+hen it9s the rti(il intelligene lgorithm9s turnX it ggregtes the foreE sters9 preditions into  single oneD determining whih tion should e tken nd with wht prmetersF sn our exmpleD ryrid sntelligene deided tht this week ithereum should e ought with  tkeEpro(t of IWTFTP nd stopE loss of IPWFUVD on the ondition tht the position opens t the opening prie t WXQH ew i on wondyF sf neither the tkeEpro(t nor stopEloss is hievedD then the position will e losed on pridyF sndeedD ithereum prie inresedD nd this signl rought the model portfolio  pro(t of more thn QP7 over the ourse of (ve dysF
+por one month the pro(t on suh signls ws CIP7 in the stok mrket nd CVT7 in the mrket of ryptoEurrenies @only three ryptoEssets were used in trdingX fitoinD ithereumD nd ippleAF e onsider it n exellent result nd pln to dd suh questions to the pplition in the ner futureF
+he development of signls in whih the tsk of ryrid sntelligene is to rnk ssets on  ertin sis is eing tively pursuedF por exmpleD the omE pnies onduting n sgy in the nerest month need to e rrnged ording
+PV
+
+to the degree of their prole suess or trustworthinessF ih forester gets IHH points nd the list of plnned sgys in the urrent monthD s shown in the exmple elowX
+E eiternity
+E fnor
+E givi
+E gofoundFit
+E wono
+E ymiseqy
+E yxw
+E ttus
+he forester should then rnk the proposed sgy sed on the degree of expeted suess @expressedD for exmpleD in the growth of the prie of  token over  ertin periodA or y personl trust thereinF o do thisD the forester distriutes the IHH points mong themD giving more points to ompnies exE peted to hieve greter suess with the sgyF
+he rti(il intelligene system then ggregtes the sores from ll foreE sters nd determines whih sgys will e the most suessfulF
+ests for the stok mrket held in xovemer PHIT @where foresters were required to rnk the shres of dozens of ompnies sed on expeted growth in their shre prie for the oming weekA showed the onsisteny of these sigE nls s  stndlone inditor nd s one of the support inditors in mking investment deisionsF
+enother promising re of our reserh re signls in whih foresters need to speify  dte in nswering the questionF por exmpleD we re interested in this type of eventX
+"When do you think any G20 country will issue a national cryptocurrency?"
+yr this eventX
+"On what day will Ethereum break $1000?"
+e forester will nme the dteD nd rti(il intelligeneD in its turnD will ggregte ll preditions of foresters into  single signlF
+6.5 Planned new analytical products
+he experiments we onduted nd the results hieved y our ollegues studyE ing vrious spets of the opertion of olletive intelligene will enle us to rete the following set of nlytil produtsD whih will e integrted into the overll pitl mngement infrstrutureX
+E essessing the power nd in)uene of news on mrketsF poresters re o'ered x potentil news hooks or events tht will our in the future nd required to ssess the diretion of motion @whether this my led to n inrese or  drop in the prie of n ssetAD s well s the impt of suh motionY
+E niting foresters in entrlised groups @depending on the preditions9 ury in  prtiulr lusterA nd linking these groups to  deenE trlised struture @foresters in  group olletively mke preditionsD whih re further ggregted y rti(il intelligene etween di'erent groups to rete di'erent dt sets nd trding signlsAY
+PW
+
+E eess to nlytis from superforesters @signls exlusively from the top P7 rnked forestersY hnnels for diret intertion with superforeE sters for ny tegory of interestD eFgFD longEterm fitoin nlytisAY
+E enlysis of the existing investment portfolio of  prtiulr trder y olletive intelligeneY
+E e therml geogrphi mp of the mrket showing ntiipted prie inE reseGderese for  ertin ssetF he mp is ompiled on the E sis of preditions of foresters from di'erent regionsF por exmpleD  users tken together expet  RH7 inrese in fitoin over the next qurE terD itizens of ghin expet VH7D nd itizens of qermny only S7F husD the mp will expliitly show the distriution of expettions for the growthGdeline of vrious ssetsF
+6.6 Public experiment with Moscow Exchange
+sn tnury PHIUD we lunhed  puli experiment with wosow ixhnge @wyiAD one of iurope9s iggest exhngesF wosow ixhnge is lso one of the ten lrgest exhnge pltforms for derivtives trding glolly @ording to the orld pedertion of ixhnges monthly report sttistisAF
+sn this experimentD we ompleted trdes sed on the synergy of rti(il intelligene nd the olletive intelligene of people with vried professionl exE perieneD united y  ommon golF sn dditionD every prtiipnt hd personl motivtionF
+o rry out this experimentD we olleted  new smple of WPS unrelted peopleX RH7 of the prtiipnts hd never mde trdes on the exhnge eforeY TH7 hd vrious investment experienesF
+e reeived minGmx levels @PSDHHH forestsA from our foresters regrdE ing four (nnil ssets @hGf futuresD frent oil futuresD silver futuresD nd gold futuresA for three weeks on  dily sisD exluding weekends nd holidysF efter reeiving forestsD the root ggregted them into  signl @inluding the entry levelD stop lossD nd tke pro(tA nd simulted the trdesF
+es the experiment ws puliD we posted ll entry levels to our elegrm puli hnnel on  dily sis prior to mrket openingF
+fsed on the forestsD ginditor9s root modelled SU trdesD QT of whih were pro(tleD over the ourse of the experimentF he ompleted trdes showed  QFH7 return in PW dysD whih is equl to PT7 pFF
+he result of this pilot proved the e0ieny of the ryrid sntelligene eosystem even with  nonEtrined @on the omputer lerning models used y usA smple of forestersF
+otl ginD puli experiment with wosow ixhnge from IWGHIGPHIU to IRGHQGPHIUX
+QH
+
+intryGexit signls for hGf exhnge rte futuresD HIGHQGPHIU
+intryGexit signls for frent oil futuresD PUGHPGPHIU
+intryGexit signls for qold futuresD IHGHQGPHIU
+ertile highlighting the results of  puli experiment with the wosow ixE hnge @originl post on the wesite of the wosow ixhngeAF
+rdes mde during puli experimentF
+7 Team and stages of development
+7.1 Team
+he ginditor tem hs een reted y  synergy of likeEminded people with  vriety of expertiseF eout VS7 of the tem memers re grdutes of top iw universitiesF
+sn PHIRD wike frusov hd the ide of reting n pplition for users where they n mke vrious (nnilD politilD nd sports forests while ompetE ing with one notherF tudying olletive intelligene nd the dt generted y numerous diverse individuls ws one of his professionl tivities in PHIHF prom PHIH to PHIQD wikeD s one of the oot strtup founders @n utomted servie for monitoring nd nlysing dt generted y users in soil mediA studied the orreltions etween medi overge of numerous snternet posts tht ontined di'ering sentiments nd relitiesF
+QI
+
+sn PHISD wike olleted the required initil investment nd invited his fuE ture prtnersD ury voyntsev nd ertem frnovD to join him in exploring the potentil of olletive intelligeneF
+ury voyntsev hs een working with omputer systems nd progrmE ming lrgeEsle softwre systems sine erly hildhoodF et the sme time he hs een exploring the phenomen of intelligeneD mindD nd onsiousnessF sn PHIID ury founded his (rst teh usinessD the yumoile studioD whih is engged in teh development for moile strtupsF
+sn PHIPD ertem frnov estlished  digitl produt development omE pnyD whih emerged from populr tF etersurg lol pp wost rveF re is distinguished y his sense of styleD loni mnnerD nd ility to pply new tehnologies in everydy lifeF tedy progress of the usiness required growth nd strengthening of the ompnys position on the digitl produt development mrket E this ws the reson for merging with ury9s tem in PHIRF
+sn PHIRD ury nd ertem jointly estlished the ytrin neurolortoryD whih undertook investment nd 8h for strtups nd innovtion projetsF he ompny ws working in the (eld of neurointerfes @rinomputer inE terfesAD nd neurl networksF hrough ytrinD they orgnised  tem of neurosientists nd digitl produt developers to explore nd invent intelligent systems for humnEmhine intertionF
+wikeD uryD nd ertem then united nd egn studying olletive intelliE gene systemsF efter the relese of the (rst version of the olletive foresting pltform in heemer PHISD it ws on(rmed tht mong  rndom group of individuls there were P7 who very urtely predited the nswers to ertin types of questionsF eserhers hilip etlok nd hen qrdner lled these individuls superforesters in their studiesF st eme ler tht the wisdom of rowds9 ury would e signi(ntly enhned y  sttistil nlysis of these foresters uryF
+hereforeD in PHIT the ginditor tem egn growing its expertise in dt siene nd mhine lerningF ht sientist elexnder prolov ws the (rst one who joined the temF efter the rrivl of the mthemtiinD teher of mthemtil methodsD nd kend developerD the tehnil tem egn to strengthen its mthemtil nd dt nlysis expertise in the domins of dt proessing nd rti(il intelligene modelingF
+pollowing the deision to fous on (nnes nd investments while uildE ing the eosystemD ute nd xodri joined the temX highly experiened in mnging lrge positionsD trding glol stokD futuresD foreign exhngeD nd ryptourreny mrketsD these trders hve worked in (nne for over ten yersF heir omprehensive expertise llows ginditor to seek new wys to pply ryE rid sntelligene in vrious spheres of (nnil mrketsF
+7.2 Current progress of the company
+heemer PHIS sw the glol relese of the (rst iyEsed version of the pltE formF his ws  step forwrd towrds the retion of  olletive intelligene system of the required sizeF
+sn tnury PHITD the tem ws invited to severl strtup elertors nd hose trt eelertor due to its lotion in the hert of the glol (nnil system E xew orkF yne the elertion progrm ws suessfully ompletedD ginditor rised 6QHHDHHH during the preEseed round of venture investmentF
+prom tune to xovemer PHITD the tem worked on the retion of the (rst set of mhine lerning modelsD the further improvement of the olletive inE telligene system @urrentlyD there re over VDHHH foresters on the pltformAD nd the retion nd forwrd testing of vrious trding strtegies on the stok nd foreign exhnge mrketsF sntermedite results on(rmed  numer of hyE
+QP
+
+potheses nd provided interesting resultsF
+sn tnury PHIUD n es for trding signls ws lunhedD enling the lunh of test integrtions with II hedge funds nd three nks in the followE ing four monthsF et tht timeD pltforms were supplemented with the (rst ryptoEssetsD followed y internl experiments nd relted forwrd testsF
+prom xovemer PHIT to wrh PHIUD ginditor took prt in the (rst th of the wosow ixhnge (nteh inutorD where it ws rnked s the topE performing strtupF he ompny ws grnted 6IPHDHHH for tehnology deE velopment from wirosoft nd eme  memer of the wirosoft fizprk strtup support progrmF
+sn eprilEwy PHIUD the ompny ttrted 6PHHDHHH from  numer of (nE teh investors in  seed venture roundF
+8 Legal considerations
+8.1 Legal
+e re hve pprohed the ginditor token sle in  omprehensive nd reE sponsile mnnerF qiven the unertin sttus of ryptourreny nd digitl tokens in vrious jurisditionsD we spent  signi(nt mount of time nd reE soures to nlyze the legl sttus of ginditor usiness model nd the gxh tokens in jurisditions where we pln to operteF sn the nited ttesD we worked losely with elton egelmn gD  ilion lley lw (rm tively representing lokhin nd ryptourreny lientsF sn qirltrD the jurisdiE tion of ginditor vtd @qirltrA we re working with syveD  leding nd oldest lw (rm in qirltrF
+hue to the unertin stte of regultion on  glol sleD we nnot gurnE tee the leglity of ginditor hyrid intelligene pltform or ility to struture nd liense  future investment fund sed on our pltform in ny given jurisE ditionF roweverD we strive to e  responsive nd omplint ompny should we fe ny regultory inquiryF
+8.2 Legal status of CND tokens
+gxh tokens re funtionl utility tokens designed for the ginditor hyrid intelligene pltformF gxh tokens re not seuritiesF yne you purhse gxh tokensD they nnot e refundedF e do not reommend uying gxh tokens for speultive investment purposesF ou should uy gxh tokens to prtiipte in the ginditor hyrid intelligene pltformF gxh tokens re not equted with prtiiption in oteD snF ndGor ginditor vtd @qirltrA nd gxh token holders hve no equityD governneD or ny other rights in either ompnyF gxh tokens re sold s  digitl ssetD similr to downlodle softwreD digitl musiD nd likeF e do not reommend purhsing gxh tokens unless you hve prior experiene with ryptogrphi tokens nd lokhinEsed softwreF
+8.3 Legal status of crowdsourced forecasting platforms
+here is no uni(ed regultory frmework pplile to rowdsoured forestE ing pltformsF hese produts nd servies re regulted in some jurisditions sed on existing gming ndGor (nnil servies regultory frmeworksD while they re left unregulted in othersF fefore trgeting  prtiulr jurisditionD we will ondut legl due diligene nlysis of pplile regultions in suh jurisditionF hepending on the regultory urden nd steps involvedD we will then either tke the neessry steps to otin ny required lienses ndGor perE mits in suh jurisdition or withhold from operting in suh jurisditionF
+QQ
+
+por the onveniene of our usersD ginditor hite perD wesite nd other relted douments re ville in  numer of lngugesF sn the event there is ny on)it etween the inglish lnguge version nd  foreign lnguge versionD the inglish lnguge version shll governF
+9 Conclusion
+ginditors ultimte gol is to set up  deentrlised intelletul tehnology tht e'etively implements the potentil of ryrid sntelligene for the ene(t of ll prtiipnts of the eosystemF sn the future the tehnology strives to e fully utomtedX the only resoure neessry for it to funtion will e the mentl investment y the nlystsF
+ryrid sntelligene ntiiptes eing used not only in (nnil nd eoE nomi mrketsD ut lso in rtD politisD sportsD usinessD tehnologiesD nd siene in the futureF
+ginditors token sle is n exellent opportunity to join the development of  symioti reltionship etween the minds of people nd mhinesF
+10 Risk factors and disclaimers
+rs hygwix hyi xy gyxsi ex yppi y ivvD ex sxsesyx y sxhgi ex yppiD y e yvsgsesyx yp ex ypE pi y egsi igssiF rs hygwix s yshih py sxpywesyxev yi yxv exh hyi xy gyxsi sxE iwix ehsgiF
+ri evi yp gxh yuix gyxsi ri evi yp e viE qev ypei yhg xhi qsfeve veF rs yhE g evi s gyxhgih f gsxhsgey vh @qsfeveAD e qsfeve sei vswsih gywexD yiesxq xhi qsfE eve veF s s ri iyxsfsvs yp iegr yixsev grei yp gxh yuix y hiiwsxi sp ri grei gex viqevv grei gxh yuix sx ri grei tE shsgsyx exh riri ri grei gex rix iivv ri gxh yuix y exyri grei sx ex qsix tsE hsgsyxF evv yixsev su gex fi eiih riiF
+y rsi ei we gyxesx 9pyeh vyyusxq eiE wix9 E re sD eiwix iveih y piD xy eD iixF sx rs gyxiD pyehEvyyusxq eiwix ypE ix ehhi y iigih pi fsxi exh psxexgsev ipywexgiD ri ipywexgiD exh eggeg yp gsxhsE gey rfsh sxivvsqixgi vepywD exh ypix gyxesx yh gr e 9iig9D 9exsgsei9D 9sxixh9D 9vex9D 9fiE vsii9D 9iiu9D 9ii9D 9svv9D 9yvh9D 9iswei9D 9pyige9 y 9eqi9F gr pyeh vyyusxq eiwix f ris xeE i ehhi wei re eiD y hsppiix hiqiiD xgiesxF i gexxy qeexii re ex pyeh vyyuE sxq eiwixD fegui y iiswix wehi f  y iigih iv yp yiesyx yp gsxhsgey rfsh sxE ivvsqixgi vepyw svv gyivei sr ri egev pE i peg y ivF
+py ri gyxixsixgi yp y iD gsxhsgey rsi eiD ifsi exh yri iveih hygwix ei eesvE efvi sx e xwfi yp vexqeqiF sx ri iix rii s ex gyxpvsg fiiix ri ixqvsr vexqeqi isyx exh e pyisqx vexqeqi isyxD ri ixqvsr vexqeqi isyx
+QR
+
+revv qyixF QS
+
+References
+
+I he isdom of growds @he isdom of growdsX hy the wny ere mrter hn the pew nd row golletive isdom hpes fusinessD ionomiesD oieties nd xtions E tmes urowiekiD PHHRAF httpsXGGenFwikipediForgGwikiGheisdomofgrowds
+
+P he qood tudgment rojet @hilip iF etlokD frr wellersD hon wooreAF httpsXGGenFwikipediForgGwikiGheqoodtudgmentrojet
+
+Q sntelligene edvned eserh rojets etivityF httpsXGGenFwikipediForgGwikiGsntelligeneedvnedeserhFFF
+
+R uperforestingX he ert nd iene of redition @hilip iF etlokD PHISAF httpsXGGenFwikipediForgGwikiGuperforesting
+
+S sow iletroni wrketsF httpsXGGenFwikipediForgGwikiGsowiletroniFFF
+
+T helphi methodF httpsXGGenFwikipediForgGwikiGhelphimethod
+
+U eferene lss forestingF httpsXGGenFwikipediForgGwikiGefereneFFF
+
+V gonsensus forestF httpsXGGenFwikipediForgGwikiGgonsensusforest
+
+W huhrthi heyD sh uumrD nehnshu hD uryody fskF poresting to glssi(tionX rediting the direE tion of stok mrket prie using treme qrdient foostingF httpsXGGwwwFrserhgteFnetGpulitionGQHWRWPVWSporestingtoFFF
+
+IH hunrong henD romio tingD ongd hngF tok wrket porestEing sing whine verning elgorithmsF httpXGGsPPWFstnfordFeduGprojPHIPGhentinghngEtokwrketFFF
+
+II sn
+
+uhndelwlD
+
+tndipedhikriD
+
+qhnshymermF
+
+ime
+
+eries
+
+poresting
+
+sing
+
+ryrid
+
+eswe
+
+nd exx wodels fsed on h heEompositionF
+
+httpXGGwwwFsienediretFomGsieneGrtileGpiiGIVUUHSHWISHHTUTT
+
+IP irhn fyrktrD rF inent oorD uF onnie irrF istimting the prtl himension of the 8 SHH sndex using velet enlysisF httpsXGGwwwFprinetonFeduG sirrGuliGesgviGpsFpdf
+
+IQ keshi sngkiF gritil ssing wodel nd pinnil wrketF httpsXGGrxivForgGsGondEmtGHRHPSII
+
+IR oert xuF eswe models for time series forestingF httpsXGGpeopleFdukeFeduG rnuGRIIrimFhtm5pdq
+
+IS ulo otel tuniorD pernndo vuiz i¢er son de yliveir mplonF esweX en eries poresting wodel for the fovesp httpsXGG(leFsirpForgGpdfGewPHIRIPHSIRIWRHTSFpdf
+
+lomonD idE epplied ime
+tok sndexF
+
+QT
+
+

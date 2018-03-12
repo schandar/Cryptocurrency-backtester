@@ -1,0 +1,161 @@
+ORIJEN AND ACANA FOODS IN COMPARISON TO PET FOOD SAFETY STANDARDS
+
+INTRODUCTION
+At Champion Petfoods we make award-winning Biologically AppropriateTM foods that are trusted by Pet Lovers everywhere. That means our foods are rich in meat and protein, and subject to rigorous nutritional validation and industry leading food safety standards.
+We believe that describing heavy metals as "contaminants" in pet foods confuses Pet Lovers on the origin of these elements as well as their safety limits for dogs and cats.
+As the maker of ORIJEN and ACANA dog and cat foods, Champion developed this paper to:
+· discuss the source of heavy metals in pet foods; · publish the maximum tolerable limits (MTLs) for dogs
+and cats; and · discuss the results in comparison to animal health to
+help bring clarity and restore confidence.
+At Champion, our Biologically AppropriateTM ORIJEN and ACANA foods use the highest amount of FRESH and RAW meat and fish ingredients in the industry.
+
+recommended by the Association of American Feed Control Officials (AAFCO) and based on the guidelines from the National Research Council (NRC).
+According to the Target Animal Safety Review conducted by the FDA in 2011, some heavy metals are required nutrients for animals (e.g. chromium +3 valence state, cobalt and molybdenum) and some are possibly required in their diets, albeit in very small amounts2.
+Other heavy metals are not essential in animal diets and may be considered unsafe if the exposure and dose exceeds the MTLs for animal species as recommended in the "Mineral Tolerance of Animals: Second Revised Edition" 1.
+The MTL of a mineral is defined as the dietary level that, when fed for a defined period of time, will not impair animal health or performance1. Research on mineral toxicities in domestic animals conducted during the past 25 years has resulted in adjustments to many of the MTLs provided in the NRC report1. Heavy metals are usually presented in Parts Per Million (PPM = mg/kg) or Parts Per Billion (PPB = µg/kg) considering the low level of heavy metals present in foods.
+
+HEAVY METALS SAFETY LIMITS FOR PETS
+In general, heavy metals are naturally occurring elements that have relatively high density, atomic weight and atomic number.
+Some heavy metals are essential nutrients and relatively harmless, while others can be toxic in larger amounts or certain forms to humans and certain animal species.
+The same is true for other nutrients in pet foods such as vitamins and minerals that could be toxic to animals in quantities which are larger than the upper limits
+
+The toxicities of heavy metals depend on several factors including the dose, route of exposure, chemical species, age, gender, genetics, and nutritional status of the exposed animals and, most importantly, the target animal species.
+In this White Paper, we discuss the recommended MTLs for heavy metals and compare the test results from ACANA and ORIJEN foods for dogs and cats. The goal is to educate Pet Lovers on this subject.
+
+1
+
+MAY 2017
+
+WHITE
+PAPER
+HEAVY METALS AND PET FOOD
+
+METHODOLOGY
+We systematically test ORIJEN and ACANA products for heavy metals (arsenic, cadmium, lead and mercury) at two third-party laboratories using the Official Methods of Analysis by Association of Analytical Communities (AOAC).
+Heavy metal testing is an important control point for our food safety and HACCP plans to control chemical hazards in our foods. We have statistically analyzed three years of data collected from May 2014 to May 2017 and compared the results against the NRC standards for heavy metals and the MTLs listed in the FDA Target Animal Safety Review Memorandum.
+
+RESULTS AND DISCUSSION
+
+HEAVY METAL
+Arsenic Cadmium Lead Mercury
+
+ACANA & ORIJEN DOG FOODS
+AVERAGE STANDARD (mg/kg) DEVIATION
+(mg/kg)
+
+ACANA & ORIJEN CAT FOODS
+AVERAGE STANDARD (mg/kg) DEVIATION
+(mg/kg)
+
+NRC / FDA
+Maximim Tolerable Limits (mg/kg)
+
+0.89 1.05
+
+1.36 1.37
+
+12.50
+
+0.09 0.09
+
+0.09 0.09
+
+10.00
+
+0.23 0.15
+
+0.17 0.14
+
+10.00
+
+0.02 0.02
+
+0.03 0.03
+
+0.27
+
+ARSENIC (As)
+Sources of Arsenic
+Arsenic occurs naturally in both organic and inorganic forms. Inorganic arsenic is more toxic than organic arsenic3. In marine environments, arsenic is often found in high concentrations of organic forms, up to 50 mg/kg of arsenic on a net weight basis in some seafood including seaweed, fish, shellfish and crustaceans4. According to the Codex Alimentarius standard4, organic forms of arsenic have a low acute toxicity while arsenobetaine, which is the principal organic arsenic form in fish and crustaceans, is considered non-toxic.
+
+Arsenic and Human Food
+Most foods contain low levels of arsenic due to its wide distribution in the environment and, to some extent, its use in agriculture3. Some types of seafood contain up to 10 times the arsenic of other foods. People who consume large amounts of seafood may therefore ingest significant amounts of arsenic. The arsenic in seafood is primarily in organic form3. Health Canada has a human regulatory standard outlining maximum arsenic levels of 3.5 mg/kg in fish protein5. The Codex Alimentarius has set maximum permissible concentrations for total arsenic in several food commodities, e.g. 0.1 mg/kg for edible fats and oils and 0.5 mg/kg for food grade salt4.
+Arsenic and Pet Food
+Arsenic is generally not considered an essential nutrient for higher animals1, nor is it considered one of the most toxic nutrients. Sea plant and fish ingredients are the source of most arsenic found in animal food including pet food1. The majority of arsenic found in these sources is organic, and virtually non-toxic in nature.
+According to NRC references, the inorganic form of arsenic at 50 mg/kg of diet is toxic to rats and 100 mg/kg diet is toxic to chickens, whereas other animals are more tolerant to inorganic arsenic1.
+The NRC suggests 30 mg/kg, which is the mid-point between 12.5 to 50 mg/kg, as a reasonable MTL for arsenic for dogs and cats. The FDA recommends using the lowest level of 12.5 mg/kg, which we used in this white paper to compare the results.
+ORIJEN and ACANA Results
+ORIJEN and ACANA foods tested for total arsenic were found to have average levels of 0.89 mg/kg (+/- 1.05 SD) and 1.36 mg/kg (+/- 1.37 SD) in dog and cat foods respectively. The maximum arsenic levels reported is less than one third of the MTL of 12.5 mg/kg limit recommended by the NRC.
+
+2
+
+MAY 2017
+
+WHITE
+PAPER
+HEAVY METALS AND PET FOOD
+
+CADMIUM (Cd)
+Sources of Cadmium
+Cadmium is sparsely distributed in the environment and normally ranges in concentrations between 0.1 and 1 mg/kg in the earth's crust1. In aquatic and benthic environments, cadmium concentrations are relatively uniform throughout the food web. Cadmium does not appear to biomagnify as it moves up the food chain1. Increases in soil cadmium content will result in increased uptake of cadmium by plants; this is the pathway of human and animal exposure from agricultural crops4. Edible free-living food organisms such as shellfish, crustaceans, and fungi are natural accumulators of cadmium4.
+Cadmium in Human Food
+The European Union (EU) food safety regulation outlines different cadmium levels such as 0.05 mg/kg (meat excluding offal), 0.10 mg/kg (muscle meat from specific fish), 1.0 mg/kg (livers of bovine animals, sheep and pigs) and 1.0 mg/kg (kidneys of food animals, bivalve molluscs and Cephalopods)6.
+Cadmium and Pet Food
+Cadmium is not considered an essential nutrient for animals. However, the NRC publication on mineral tolerance of animals shows that studies with rodents, chickens and livestock reported increased weight gain when low levels of cadmium were added to the diet1.
+The NRC defines the maximum tolerable limit of cadmium as the dietary level that when fed for a defined period will not impair accepted indices of animal health or performance1. Some animals can tolerate acute exposure to 25 mg/kg cadmium in the diet for a few days, whereas dogs can tolerate up to 10 mg/kg cadmium in the diet for 8 years1.
+ORIJEN and ACANA Results
+Third-party testing for cadmium in ORIJEN and ACANA foods showed averages of 0.09 mg/kg (+/- 0.09 SD) and 0.09 mg/kg (+/- 0.09 SD) for dog and cat foods respectively. The maximum cadmium level reported is less than 5% of the MTL of 10 mg/kg recommended by the NRC.
+
+LEAD (Pb)
+Sources of Lead
+Lead occurs naturally in the earth's crust at a concentration of about 13 mg/kg, but some areas have much higher concentrations, including lead ore deposits scattered throughout the world1. Primary sources of lead exposure for animals are through contaminated soils from industries1.
+Lead and Human Food
+The European Union's food safety regulation6 has outlined maximum safety limits for lead ranging from 0.02 mg/kg (milk and infant formulas), to 0.10 mg/kg (meat), to 0.30 mg/kg (leaf vegetables and fish), to 0.50 mg/kg (crustaceans) and to 1.5 mg/kg (bivalve molluscs).
+Lead and Pet Food
+Lead is not an essential nutrient for animals. However, several studies show that adding lead to the diet of rats and pigs improved growth rates and lipid metabolism, and improved egg production in chickens1.
+The maximum tolerable level of lead is defined as the dietary level that when fed for a defined period will not impair accepted indices of animal health or performance1. Based on the NRC guidelines, dogs tolerate lead at 10 mg/kg diet without changes in functional indices in hematopoiesis or kidney function1.
+ORIJEN and ACANA Results
+Third-party testing for lead in ORIJEN and ACANA foods showed averages of 0.23 mg/kg (+/- 0.15 SD) and 0.17 mg/kg (+/- 0.14 SD) in dog and cat foods respectively. The maximum lead level reported is less than 5% of the MTL of 10 mg /kg recommended by the NRC.
+
+3
+
+MAY 2017
+
+WHITE
+PAPER
+HEAVY METALS AND PET FOOD
+
+MERCURY (Hg)
+Mercury Source
+Mercury is a naturally occurring metallic element which can be present in food by natural causes; elevated levels can also occur due to environmental contamination by industrial or other uses4. Mercury occurs in the earth's crust at levels averaging 80 g/kg, but the actual concentration varies considerably depending on location. Certain shales have mercury up to 10 mg/kg1. Methylmercury and total mercury levels in terrestrial animals and plants are usually very low4.
+Mercury in Human Food
+The European Union's (EU) food safety regulation has outlined maximum safety limits for mercury ranging from 0.5 ­ 1.0 mg/kg6 in fish dependent upon the fish species.
+
+All heavy metals in ORIJEN and ACANA are from natural sources and not from artificial or industrial sources. All heavy metal results for ORIJEN and ACANA are well below the maximum tolerable limits set by the NRC Committee on Mineral and Toxic Substances in Diets and Water for Animals.
+In conclusion, the heavy metals reported in ORIJEN and ACANA foods do not lead to adverse effects or food safety concerns for dogs and cats, and results are reinforced by Champion's 25 years of excellence and international leadership in companion animal nutrition.
+REFERENCES
+
+Mercury and Pet Food
+Mercury is not an essential nutrient for animals1. The NRC suggests a mercury safe level of 5 mg/kg diet for acute exposure (10 days or less)1. In the Target Animal Safety Review, the FDA recommended mercury MTL values for nonreproducing cats (0.267 mg/kg) and for reproductive cats (0.067 mg/kg)2 are regarded as the standard for food safety and animal health considerations for long term exposure to mercury.
+ORIJEN and ACANA Results
+Third-party testing for mercury in ORIJEN and ACANA foods showed averages of 0.02 mg/kg (+/- 0.02 SD) and 0.03 mg/kg (+/- 0.03 SD) in dog and cat foods respectively. The maximum mercury level reported is less than onequarter of the FDA's recommended MTL of mercury for nonreproducing cats (0.267 mg/kg) and less than half of the MTL for reproductive cats based on the NRC guidelines.
+
+1. Committee on Mineral and Toxic in Diets and Water for Animals, National Research ­ Mineral Tolerance of Animals 2nd revision (2005).
+2. United States of Food and Drug Administration, Target Animal Safety Review Memorandum (2011).
+3. Food Standards Australia and New Zealand, the 20th Australian Total Diet Survey (January 2003).
+4. Codex Alimentarius General Standard for Contaminants and Toxins in Food and Feed (Codex Stan. 193-1995).
+5. Health Canada, List of Contaminants and Other Adulterating Substances in Foods (May 2016).
+6. European Union Commission Regulation No 1881/2006, Setting Maximum Levels for Certain Contaminants in Foodstuffs, Official Journal of the European Union (December 2016).
+
+CONCLUSION
+ORIJEN and ACANA are Biologically AppropriateTM foods that feature much higher levels of quality FRESH and RAW meat ingredients than conventional pet foods, including fish and seafood ingredients.
+
+4
+
+MAY 2017
+
+WHITE
+PAPER
+HEAVY METALS AND PET FOOD
+
+

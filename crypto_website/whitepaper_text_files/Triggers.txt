@@ -1,0 +1,345 @@
+Decentralized AI Data Sharing Network
+2017.04
+
+BOTTOS White Paper
+Table of Content
+PREFACE ­ FOUNDER'S MOTIVATION ......................................................................................................................... 4
+1 BUSINESS OVERVIEW ........................................................................................................................................ 5
+1.1 THE PROBLEM .......................................................................................................................................................... 5 1.2 WHAT IS BOTTOS ................................................................................................................................................... 5 1.3 WHAT IS A BLOCKCHAIN............................................................................................................................................. 5 1.4 BOTTOS TOKEN ECONOMICS..................................................................................................................................... 6 1.5 BOTTOS' VISIONS AND GOALS .................................................................................................................................. 6 1.6 BOTTOS' DISTINCT FEATURES.................................................................................................................................... 6
+2 TECHNICAL OVERVIEW ...................................................................................................................................... 7
+2.1 BOTTOS TECHNICAL DESIGN ..................................................................................................................................... 7 2.1.1 Functional map and process flow .............................................................................................................. 7 2.1.2 Data mining mechanism ............................................................................................................................ 8
+2.3 DEVELOPMENT SERVICE LAYER .................................................................................................................................... 9 2.3.1 Smart contract lifecycle management....................................................................................................... 9 2.3.2 Smart contract portfolio service ................................................................................................................ 9 2.3.3 Smart contract testing service ................................................................................................................. 10 2.3.4 Smart contract template service.............................................................................................................. 10 2.3.5 Blockchain APIs ........................................................................................................................................ 10
+2.4 USER SERVICE LAYER ............................................................................................................................................... 10 2.4.1 Wallet ....................................................................................................................................................... 10 2.4.2 Blockchain browser .................................................................................................................................. 10 2.4.3 AI Model Market ...................................................................................................................................... 10 2.4.4 Quality control service ............................................................................................................................. 10 2.4.5 Data reporting .......................................................................................................................................... 10 2.4.6 Privacy protection .................................................................................................................................... 11
+2.5 BLOCKCHAIN SERVICE LAYER ..................................................................................................................................... 11 2.5.1 Security control......................................................................................................................................... 11 2.5.2 Consensus mechanism ............................................................................................................................. 11 2.5.3 Smart contracts ........................................................................................................................................ 11 2.5.4 Cross-chain protocol ................................................................................................................................. 11 2.5.5 Network service........................................................................................................................................ 11 2.5.6 Data storage............................................................................................................................................. 11 2.5.7 Virtual machine ........................................................................................................................................ 11
+3 USE CASES ........................................................................................................................................................12
+3.1 ARTIFICIAL INTELLIGENCE (AI) .............................................................................................................................. 12 3.1.1 BOTTOS and Speech Recognition ............................................................................................................. 12 3.1.2 BOTTOS and Semantic Identification ....................................................................................................... 13 3.1.3 BOTTOS and computer vision................................................................................................................... 13
+3.2 ROBOTS ................................................................................................................................................................ 13 3.3 INTERNET OF THINGS ............................................................................................................................................... 13 3.4 OTHER USE CASES................................................................................................................................................... 13
+4 BOTTOS GOVERNANCE STRUCTURE..................................................................................................................14
+4.1 ESTABLISHMENT OF BOTTOS FOUNDATION................................................................................................................ 14 4.2 GOVERNANCE STRUCTURE OF BOTTOS FOUNDATION .................................................................................................. 14
+4.2.1 Decision-Making Committee ......................................................................................................................... 14 4.2.2 Executive Director.......................................................................................................................................... 15 4.2.3 Application Committee.................................................................................................................................. 15 4.2.4 Code Review Committee ............................................................................................................................... 15 4.2.5 Financial & Personnel Committee ................................................................................................................. 15 4.2.6 Marketing & Public Relation Committee ...................................................................................................... 15 4.3 HUMAN RESOURCE MANAGEMENT OF BOTTOS FOUNDATION...................................................................................... 15 4.3.1 Recruitment ................................................................................................................................................... 16 4.3.2 Performance evaluation ................................................................................................................................ 16
+1
+
+BOTTOS White Paper
+4.4 RISK MANAGEMENT AND DECISION-MAKING MECHANISM OF BOTTOS FOUNDATION ...................................................... 16 4.5 FINANCIAL MANAGEMENT OF BOTTOS FOUNDATION.................................................................................................. 16
+4.5.1 Source of funds .............................................................................................................................................. 17 4.5.2 BTO allocation plan ....................................................................................................................................... 17 4.5.3 Use of fund..................................................................................................................................................... 17 4.5.4 Report on financial planning and performance............................................................................................ 17 4.5.5 Digital asset management ............................................................................................................................ 17 4.5.6 Digital wallet management .......................................................................................................................... 17 4.5.7 BTO issuance and management.................................................................................................................... 17 4.5.8 Disclosures ..................................................................................................................................................... 17 4.6 LEGAL AFFAIRS AND CLAUSES.................................................................................................................................... 17 4.6.1 Legal affairs ................................................................................................................................................... 17 4.6.3 Dispute resolution clauses............................................................................................................................. 18 5 LEADERSHIP TEAM ...............................................................................................................................................19 6 ROADMAP OF BOTTOS DEVELOPMENT ............................................................................................................20 6.1 TIMELINE................................................................................................................................................................... 20 6.2 CROWD SALE PLAN ..................................................................................................................................................... 20
+2
+
+BOTTOS White Paper
+Distributed AI Data Contracts
+Notes from the BOTTOS Founder
+What kind of persistence can change the future? What kind of technology can change the world? Those AI technologies that change the world... The future of the matrix in the web... How can we prevent the emergence of antihuman robots in the future? Why do we trust AI today?
+3
+
+BOTTOS White Paper
+Preface ­ Founder's Motivation
+In 2014, my partner and I started an AI transformation company to help listed companies upgrade their business with AI integration. Most of the upgrade projects failed because the data couldn't be capitalized due to the poor quality of the massive data that those companies gathered. After being involved in a dozen intelligent hardware development, such as nuclear batteries and smarthomes etc, and in particular with the introduction of deep learning, we realized AI had gained significant development in data processing and the algorithm can even write its own code and constantly improve it. Therefore the algorithm can't be the major driver of the AI product development, the data is the pain point.
+Due to my passion in AI technology in 2014 my partner and I started up our respective companies for the R&D of "robot exoskeleton" products which are the highest form of the combination of human brain and machine. His company was called "Scream" specializing in medical field whereas mine was called "Rivexo" focusing on the walking-aid robots. Unlike "Scream" which quickly obtained the capital support of $4 million from the venture capitalist due to its unique medical-oriented algorithm, "Rivexo" didn't have the luck to raise the initial fund due to a relatively long time for capital realization resulted by the massive data collection and training. After several rounds of product launches I realized that the most important thing to improve the AI algorithm and robot proficiency is to conduct intensive data trainings. This is the case for all advanced robot development. However the data acquisition is expensive and becomes the major bottleneck in AI development.
+With the evolution of AI technologies from deep learning, reinforcement learning to transfer learning AI is experiencing a growing reliance on high-quality data. Massive data with poor quality collected through internet projects has lost its advantages and usability. On the contrary, the small amount of reliable and personalized data is becoming the sought-after resource in the current AI 3.0 era.
+The ultimate pain point of AI development lies in the data. The effective acquisition of massive training data determines the evolution speed of AI products. However it is extremely difficult to collect valid and specific data for different AI models. For example "Rivexo" hired people to wear a specific device for data collection, but the device itself was very expensive to manufacture and the data quality can't be controlled. As a result the data that was collected was not as good as they were expecting.
+Fortunately I learned of Blockchain technology in early 2016. By virtue of its unique economic incentive and trust mechanism, Blockchain can be used for data sharing in an AI community where people are financially motivated to provide high-quality data with clear ownership. Consequently the AI project developers will benefit by producing the results they expect due to having the reliable data inputs. Blockchain is the best medium for the advancement of AI in my opinion.
+The idea of "Blockchain + Data × AI" has gained a lot of traction. Two of my friends, Xin Song and Chao Wang, have also shared the same thoughts and dream. So quickly three of us formed BOTTOS and hired a group of talents such as the Blockchain infrastructure expert from IBM, AI research professors from the top schools and programmers with 10-year or more experience. Our vision is to build an Etherum-like ecosystem for AI field to promote the data sharing in a more economic and democratic manner.
+We named the project "BOTTOS" as it implies the robot system (Botos) and robot lover ("BOT ATTOS" in Italy). We are here to work together with those on the cutting-edge of technology to realize the dream of making a positive change to the world.
+By Tingting Wang June 1, 2017
+4
+
+BOTTOS White Paper
+Distributed AI Data Contracts
+1 Business Overview
+1.1 The Problem
+With the rapid development in computing power and algorithms in the Artificial Intelligence field over the past years the data is currently the main driver and differentiator for AI products at present. The acquisition of high-quality, massive data for model training becomes the pain point. Today only the tech giants like Google or Facebook has the ability to acquire and process the large amounts of data to improve their AI models whereas the startups can barely afford to do so due to the high cost of the data acquisition. On the other hand each individual data contributor does not have the effective protection mechanism for data privacy and security or the capability to capitalize the data as a personal asset. So how do we do to promote data ownership while ensuring effective utilization from the data providers' and requestors' perspective in a more economic and democratic manner? BOTTOS is the solution.
+1.2 What is BOTTOS
+BOTTOS is a decentralized data sharing network protocol based on the Blockchain technology. It is also a consensus-based one-stop platform to implement the registration, distribution and transformation of the data among different participants within our broad-based AI ecosystem. Using the BOTTOS platform AI product or service providers can obtain specific training data in a more reliable and economic way, whereas the data contributors can declare ownership of the data as a personal asset and capitalize this asset via the token reward system as well as can have the better control of the data privacy through BOTTOS' protection mechanism.
+1.3 What is a Blockchain
+Blockchain is a continuously growing list of records, called blocks that are linked and secured using cryptography techniques. By design Blockchain is a distributed data structure that can record transactions between two parties efficiently and in a verifiable and permanent way. Its distributed property and immutability feature offer the capability of data sharing in a more decentralized, transparent and reliable manner. The cryptocurrency and smart contracts as part the Blockchain infrastructure create the economic incentive and fairness for data sharing. Therefore the Blockchain technology is a perfect match to what we try to achieve in BOTTOS ­ an autonomous organization to evolve the AI ecosystem with global data and model sharing capabilities.
+5
+
+1.4 BOTTOS Token Economics
+
+BOTTOS White Paper
+
+BOTTOS will issue a token called "BTO" to reward the participants in the network. The AI product developers can purchase BTO and use it to reward the data contributors later if they have the need for data acquisition or other services such as data cleaning. The AI project team can also leverage BOTTOS to issue their own token to fund their development. The data contributors can provide the original data, validate the data, or transform the data to meet the specific requirements and get compensated with BTO or project specific tokens. As the demand for AI data and models increases the value of the tokens also appreciates. With the success of the AI project their own tokens issued in BOTTOS will be also worth more. So early-stage adopters and data contributors can realize their profits by selling the tokens to others later whereas the AI product providers can acquire the data, fund their projects, and gain the market valuation of their products effectively through BOTTOS, which will boost the value of their company and liquidity by connecting with the market directly.
+
+1.5 BOTTOS' Visions and Goals
+Our vision is to build and become the largest global data sharing network to evolve the AI ecosystem via smart data contracts and data mining on a Blockchain infrastructure and to help people capitalize the data assets with clear ownership and better control in data privacy through a transparent and democratic mechanism.
+Our goals are (1) to build the world's most efficient data sharing network "DataMarket" with our proprietary pricing mechanism of the data asset; (2) to build the AI model sharing network "ModelMarket" to facilitate the effective management of the AI development cycle; (3) to implement the hardware sharing network to streamline the AI product registration and communication.
+1.6 BOTTOS' Distinct Features
+(1) Incentivize the data and model sharing with the token reward system via data mining; (2) Deliver the end-to-end solutions for the AI development cycle management through smart data contracts; (3) Create the traceability through the registration of the original or transformed data to ensure the quality and proper use.
+
+6
+
+BOTTOS White Paper
+
+Distributed AI Data Contracts
+
+2 Technical Overview
+2.1 BOTTOS Technical Design
+Bitcoin created the coin mining mechanism based on the computing power to reward BTC whereas BOTTOS needs a different mechanism to enable the meaningful the data sharing. So we created the data mining mechanism to reward the data contributors with BTO based on the provided data. A credit system will also be implemented to encourage the proper behavior of the participants. Credits have to be earned with every transaction based on positive results.
+2.1.1 Functional map and process flow
+There are three major roles in BOTTOS network. The following figures show how they interact with each other as well as the work flow for each individual role to react with the BOTTOS system.
+ Data Requestor ­ any AI project developers or product creators who need the data service will be included in this category.
+ Data Validator ­ this role is to ensure the quality of data provided.  Data Provider ­ this is a broad category to include any participants who may provide original data, clean or
+transform the data or any other related service for AI projects.
+
+Data Requestor
+
+Post a data request
+
+Obtain Data
+
+Data Validator
+
+Find the Project
+
+Verify the data
+
+Reward with BTO Obtain BTO
+
+Train Data
+
+Buy Back BTO
+
+Increase Credit
+
+Increase Credit
+
+Sell BTO
+
+Data Provider
+BOTTOS System
+
+Find the Project
+
+Provide required data
+
+Obtain BTO
+
+Increase Credit
+
+Sell BTO
+
+Generate and Assign Credits
+
+7
+
+BOTTOS White Paper
+2.1.2 Data mining mechanism
+Data mining is the mechanism for the user to get a financial reward. The Blockchain infrastructure ensures the immutability of any transaction, which will encourage users to perform the transaction properly. The credit system in BOTTOS will be another mechanism to enforce the users to act responsibly. Anyone who offers high-quality data to meet the requirements in BOTTOS is compensated in BTO as a reward. A data service provider can also be the data miner.
+8
+
+2.2 System Architecture Overview
+
+BOTTOS White Paper
+
+2.3 Development Service Layer
+2.3.1 Smart contract lifecycle management a) Allow developers to create and design smart contracts that contain business logic. Business service systems can
+interact with Blockchain systems through APIs. b) Provide the capability to manage the lifecycle of smart contracts including creation, calling, upgrade and destruction. c) Provide the capability to upgrade smart contracts or transfer data by following the original rules.
+2.3.2 Smart contract portfolio service
+a) Create a new service function by combining one or more existing smart contracts; b) Provide users with integrated interfaces to access multiple service functions from Blockchain system;
+9
+
+2.3.3 Smart contract testing service
+
+BOTTOS White Paper
+
+a) Test component functions in Blockchain system to ensure that these functions are implemented completely and accurately.
+
+b) Test component functions in Blockchain system to ensure the security and robustness of these components.
+
+c) Ensure interoperability of service function interfaces.
+
+d) The test should cover the service deployment nodes in the Blockchain system.
+
+2.3.4 Smart contract template service
+
+a) Provide smart contract template.
+
+b) The general smart contract template can be generated with minor changes to the pre-defined parameters.
+
+2.3.5 Blockchain APIs
+
+a). Provide restful, rpc, websocket and other APIs, which can call various services of Blockchain system.
+
+2.4 User Service Layer
+
+2.4.1 Wallet
+Users can create their own public and private key based accounts using the wallet and perform token transactions and smart contract related operations.
+2.4.2 Blockchain browser
+Users can monitor the block generation and transaction status in real time through Blockchain browsers. Users can also search and find the status of designated transactions.
+2.4.3 AI Model Market
+a) Users can release the information of AI models, required data format and token settlement methods in the AI Model Market.
+b) Regular users can search interested models, submit the data to meet requestors' requirement and to get tokens as a reward.
+2.4.4 Quality control service
+The quality control service is used to ensure the normal operation of the Blockchain service and users' needs through the tracking of all nodes and data and effective resolution of detected issues. It covers the following functions: a) Tracking the consensus and data synchronization of each Blockchain node to ensure the proper service usage; b) Monitoring the Blockchain service and the existing user service to meet the business goals; c) Defining service measurement points and performance metrics such as service reliability, service availability and
+platform responsiveness etc; d) Monitoring, analyzing and archiving index data.
+2.4.5 Data reporting
+
+10
+
+BOTTOS White Paper
+Data reports can be generated to include the information such as the number of callings and the recognition rate of AI modules etc.
+2.4.6 Privacy protection
+a) Provide solutions for users who choose tighter privacy control. b) Provide solutions for private transaction content.
+2.5 Blockchain Service Layer
+2.5.1 Security control
+Implement the encryption mechanism to meet the global standards. The transaction information can only be viewed by the participants or someone with the proper authorization from the initiators.
+2.5.2 Consensus mechanism
+Two consensus mechanisms will be adopted.  BFT (Byzantium Fault-Tolerant) mechanism, a variation of POS  Algorand consensus by the Turing Award winner and MIT professor Silvio Micali.
+2.5.3 Smart contracts
+a) Provide the management of the entire lifecycle of smart contracts including the deployment, execution, upgrading and destruction. Programming languages like solidity, go, and java will be used to develop smart contracts.
+b) The general functions such as user account management, credit system and data storage will be implemented as a built-in small contracts at the underlying system level to ensure the efficient use at higher level. This will lower the development cost and provide some flexibility for more complicated functions via combination of the small contracts.
+2.5.4 Cross-chain protocol
+Provide the interface of communication across different blockchains and systems.
+2.5.5 Network service
+UDP-based gossip protocol will be used for messaging and communication.
+2.5.6 Data storage
+Non-relational database "leveldb" is used for data storage. Relational databases such as "Mysql" may be supported in the future.
+2.5.7 Virtual machine
+Multiple virtual machines are used to support EVM (Ethereum).
+11
+
+BOTTOS White Paper
+Distributed AI Data Contracts
+3 Use Cases
+3.1 Artificial Intelligence (AI)
+AI development has evolved to a big data driven phase from a computing power and algorithm driven phase. Highquality massive data acquisition has become the key for all AI projects. With the emergence of BOTTOS AI model developers or trainers can post a request in the BOTTOS network to collect the desired data via smart contracts and give BTO tokens as the reward. The AI company can even issue their own token in BOTTOS. Data contributors can provide the data to meet the specific requirements and get compensated via data mining. Meanwhile data owners will declare the ownership of the data with the registration in BOTTOS. The data can be validated and transformed for model use by the independent parties. This ensures a healthy and efficient AI data ecosystem will be established and each participant will play its role with the right motives. The following is specific applications of BOTTOS in AI world.
+3.1.1 BOTTOS and Speech Recognition
+As part of the natural language processing technique speech recognition is the process to convert spoken words into written texts. The texts will be generated by the speech recognition model after gathering the voice signals, eliminating the noise and extracting the main language features through an intensive training process. As a result the AI model can recognize and understand the meaning of the speech. The accuracy of recognition has reached 95% currently, however the improvement from 95% to 99.99% is a hugh leap in this research field, which could really make this a common practice in people's life. For example no meeting minutes are needed if all the conversation can be translated to texts as the record keeping during corporate life.
+There are two major challenges in speech recognition. The first pain point is the so-called cocktail party problem in terms of how to single out the voice from the background noise. The data acquisition and cleaning is the first step. The large amounts of standard corpus data in a specific field is needed to support the model training, especially in dialect collection. The BOTTOS platform provides significant value in gathering and cleaning the desired data through a pointto-point method and largely reduces the efforts and cost of a corpus data search;
+Another challenge is the extraction of language features. Deep learning through the multilayer neural network provides the solution. The multilayer neural networks can capture and describe the voice signals layer by layer and ultimately restore the language features to the greatest extent from the partial to holistic level and from general to more specific aspects. Speech recognition researchers can post their specific requests at BOTTOS to gather the data to support the models and commercialize the AI products later. Some of the AI research giants like iFLYTEK have expressed their interest for future involvement.
+12
+
+BOTTOS White Paper
+One example is how to make Siri, Cortana or similar AI products speak multiple dialects such as Minnan, Sichuan, and ShanDong dialect. BOTTOS can help support that development by connecting model developers with data providers. BOTTOS' point-to-point connectivity and token economics make the data acquisition a reality.
+3.1.2 BOTTOS and Semantic Identification
+Semantic identification is another application in BOTTOS to leverage the network for data gathering and transformation. Data providers and verifiers are motivated to provide high-quality to meet the requestors' needs given the token reward and credit system. The traceability feature of Blockchain can further help the tracking of the data source and processing.
+3.1.3 BOTTOS and computer vision
+The bottleneck in computer vision development is image quality and light environment. The existing image recognition technique has difficulty in processing those incomplete, overexposed or underexposed images. The algorithm can't be improved significantly if the model lacks the large volume of high-quality labeled data from specific context as inputs for training. BOTTOS can serve the purpose of collecting high-quality labeled data through an economic incentive from the data contributors. For example a wild-bird shutterbug took a lot of high-resolution pictures and is willing to share his data through BOTTOS to support the computer vision modeler. As a result he gets the tokens as the reward and the model developers gather the desired data for their training purpose.
+3.2 Robots
+Like terminator robots from the movies the ideal robots should be something mentally smart and physically flexible with strong cognitive and sensing abilities. However at the current stage robots are mainly machines built with a bunch of AI algorithms, such as sweeping robots and wearing robots, which generally only have the simple combination of AI system and physical shells. BOTTOS can improve the algorithms of robots by feeding more effective training data as well as enable the robot sharing economy from the physical aspect by connecting the hardware like chips.
+Take robot exoskeleton R&D as an example, robot development team can collect the brainwave data of healthy people and paralyzed patients using BOTTOS to train the algorithms of the robot exoskeleton. They can ultimately develop the walking-aid robots through a crowd-funding approach by issuing their own tokens in BOTTOS. With the success of the project the tokens will be worth more for any token holders and data miners.
+The other benefit of using BOTTOS to develop robots is to prevent the emergence of anti-human robots because all the data and models have been registered as intellectual properties in BOTTOS to ensure the proper use .
+3.3 Internet of Things
+The Internet of Things (IoT) is the network of physical devices, vehicles, home appliances and other hardware items. The network connectivity enables these objects to connect and exchange data. The traceability of the data among things is very important for regulating the communication and transactions. So if the IoT devices are registered at BOTTOS effective data sharing become a reality.
+3.4 Other Use Cases
+BOTTOS can also be a platform for any users to register their personal data or institutional data as intellectual property. Data can be structured or unstructured files, images, audio or video files to serve research or transaction purposes from different industries such as financial, healthcare, industrial, etc.
+13
+
+BOTTOS White Paper
+Distributed AI Data Contracts
+4 BOTTOS Governance Structure
+4.1 Establishment of BOTTOS Foundation
+The BOTTOS Foundation (hereinafter referred to as "the Foundation") is a non-profit organization registered in Singapore. The Foundation is committed to the construction and development of BOTTOS, advocacy and promotion of the transparent governance, and facilitating the safe and harmonious development of open-source community. The Foundation strives to create a sound governance structure to manage common affairs and certain privileged issues within the community.
+The governance structure is designed to ensure the sustainability of the community development, the effectiveness of fund management and the security of fund raising. The Foundation is composed of operating teams and functional committees. The organizational structure mainly consists of a Decision-Making Committee, Application Committee, Code Review Committee, Financial & Personnel Committee, and Marketing & Public Relation Committee.
+In the initial period of the Foundation the Decision-Making Committee is made up by the Chairman of the Foundation, core operating personnel and members participating in the private placement with the term of office for two years.
+4.2 Governance structure of BOTTOS Foundation
+The governance structure of BOTTOS foundation covers the daily business operating procedures and rules and any special case handling. Responsibilities of each individual functional committee will be introduced in further detail below.
+4.2.1 Decision-Making Committee
+ Appointing and dismissing the Executive Director and the chairs of other functional committees  Making key decisions  Holding meetings for urgent matters Both members of the Decision-Making Committee and the chairman of the Foundation have a two-year tenure. Upon the expiration of the term, the community will elect 50 representatives based on the weight driven by the number of BTO held and holding period. Then 11 core members will be elected out of 50 to form the new Decision-Making Committee. Any member cannot assume the role for more than 3 consecutive terms. Background check will be performed for the newly elected members and their compensation information shall be disclosed. Each member of the Decision-Making Committee shall have one vote but the Chairman of the Foundation have two
+14
+
+votes. The following resolutions will not be valid unless more than 50% of votes:
+
+BOTTOS White Paper
+
+1. To modify the governance structure of the Foundation;
+
+2. To appoint and dismiss Executive Director or the chairs of other functional committees;
+
+3. To make any key decisions that would potentially impact the community's safety and development;
+
+4. To dismiss any members of the Decision-Making Committee in office, including those with violation in laws, regulations or rules of the Foundations.
+
+Moreover, the Executive Director shall call for meeting among the Decision-Making Committee members with five (5) business days if the meeting is:
+
+1. being considered necessary by the Chairman of the Foundation;
+
+2. being jointly proposed by more than one-third of the committee members ;
+
+3. being proposed by Executive Director.
+
+All members of the Decision-Making Committee shall be present at such meetings in person. If member cannot attend he or she shall delegate other committee member in writing. Any undelegated absent members will be assumed to waive his voting right.
+
+4.2.2 Executive Director
+The Executive Director is elected by the Decision-Making Committee. He or she is mainly responsible for the daily operation and management of the Foundation, the coordination among sub-committees and hosting the committee meetings and so on. The Executive Director shall provide the status update to the Decision-Making Committee on a regular basis.
+
+4.2.3 Application Committee
+The Application Committee is responsible for integrating BOTTOS with some selective industries to commercialize the BOTTOS technology.
+
+4.2.4 Code Review Committee
+The Code Review Committee consists of experienced developers from the BOTTOS development team. The Committee focus on the development of underlying technologies, development and review of open-source and APIs. In addition the weekly meeting will be held to discuss the project status and any issues. The members will also stay current with the community development and needs by having regular communication with the token holders. Technical seminars will be held to the community as well.
+
+4.2.5 Financial & Personnel Committee
+The Financial & Personnel Committee is mainly responsible for fund management, compensation review, approval of operating budget as well as financial planning for the operations.
+
+4.2.6 Marketing & Public Relation Committee
+The Marketing & Public Relation Committee is responsible for the promotion of BOTTOS techniques, products and open-source projects etc. The Committee shall also be in charge of the communication and public relation to protect BOTTOS' image.
+
+4.3 Human Resource Management of BOTTOS Foundation
+
+15
+
+BOTTOS White Paper
+BOTTOS is committed to creating the most influential open-source community in the world. To ensure the effective development of BOTTOS technology and the sustainable growth of the community the Foundation will recruit the topclass talents.
+4.3.1 Recruitment
+The Foundation follows the principle of "competition, merit and experience" and strictly implements the recruiting process which includes the interview, background investigation, employment review and approval and probation period.
+Some of the financial, legal and tax service may be outsourced with the approval of Chairman of the Foundation. And clear Statement of Work agreement shall be documented and reviewed by Financial & Personnel Committee.
+Some senior independent technical advisors from the industry will be hired to provide further guidance. The related recruiting matters will be reviewed and approved by Decision-Making Committee, Code Review Committee and Financial & Personnel Committee.
+4.3.2 Performance evaluation
+All members of the Decision-Making Committee shall participate in the performance evaluation by the community, which mainly covers the fund use, Foundation management, and the community development each year. The due diligence on the performance will be conducted and job rotation system will also be implemented.
+As the developers may come from different countries or regions and they may assume the full-time or part-time responsibilities their compensation will be reviewed and performance evaluation will be performed by the Code Review Committee through due diligence annually.
+4.4 Risk Management and Decision-making Mechanism of BOTTOS Foundation
+To improve risk management the sustainability of BOTTOS development will be assessed annually, which covers the project quality, progress and applications. SWOT analysis, risk identification and control will be performed.
+The Foundation shall prioritize things based on the materiality and severity. High-priority matters will be handled relatively quickly. Issues are classified as either management or technical related affairs.
+1. The management related affairs shall be discussed by the committee members of the Foundation, and approved by the Chairman of the Foundation and Financial & Personnel Committee.
+2. Technical issues related to the open source and the use of the funds raised will be discussed and voted within the community with the voting weights driven by the number of BTO held and holding period. The voting results will be the guideline and the final decision will still be made by the Decision-Making Committee.
+3. The urgent matters such as things with high-impact on the broad community, software security, system upgrade, etc will be reviewed by the Code Review Committee and submit to the Decision-Making Committee for approval through the voting approach aforementioned.
+4.5 Financial Management of BOTTOS Foundation
+The financial management includes the daily financial and crypto currency or digital asset management. The daily financial management, such as traveling expense reimburse, payroll, rent, utility bills, etc, are outsourced. The digital asset management, which includes but not limits to wallet management, account management, crypto currency exchange, settlement and redemption, is delegated to the specific personnel by the Decision-Making Committee.
+16
+
+BOTTOS White Paper 4.5.1 Source of funds
+At the initial stage of BOTTOS development the main source of the fund comes from the private placement and public crowd-funding in exchange for BTO. Participants shall pay certain service fees to use BOTTOS and DApps.
+4.5.2 BTO allocation plan
+ 12% - The operating team  37% - Community/Foundation  36% - Public Crowd-funding  15% - Private placement
+4.5.3 Use of fund
+The fund will be managed by the custodian account and the use of funds will be disclosed to the community on a regular basis. For any use of 50 BTC or above it shall be approved by the Financial & Personnel Committee, and any use of 100 BTC or above it shall be approved by the Decision-Making Committee.
+4.5.4 Report on financial planning and performance
+The Financial & Personnel Committee shall conduct the financial planning on a quarterly basis and provide the report of the financial performance for the last quarter to the Decision-Making Committee for review.
+4.5.5 Digital asset management
+The Foundation's digital asset shall be managed by the dedicated personnel delegated by the Financial & Personnel Committee. Daily transaction shall be documented and reviewed with signature. All fiat currency shall be exchanged to digital currency and deposited into the digital wallet in a timely manner. The Foundation's asset shall not be deposited into any individual account.
+4.5.6 Digital wallet management
+The digital wallet of the Foundation shall be managed with 3/4 multiple signatures. In case of additional signatures it shall be determined by the Financial & Personnel Committee. Cold storage shall be adopted for large number of tokens whereas multiple signatures shall be implemented for small number of tokens.
+4.5.7 BTO issuance and management
+The acquisition of BTO means the participants have the right to use BOTTOS and DApp.
+4.5.8 Disclosures
+The Foundation will disclose the information about BOTTOS development and operation, utilization of BTO and the regulatory compliance status of the Foundation's operation.
+4.6 Legal Affairs and Clauses
+4.6.1 Legal affairs
+The BOTTOS Foundation will be established overseas. Thus any matters legal advice the local lawyer shall be hired to provide the guidance.
+17
+
+BOTTOS White Paper 4.6.2 Exemption clauses
+The BOTTOS Foundation aims to build a non-profit organization and users can acquire the right to use the BOTTOS under certain conditions. Purchasers of BTO shall acknowledge that there is no guarantee on the appreciation of the value of BTO after the purchase. No refunds will be provided.
+4.6.3 Dispute resolution clauses
+In case of any dispute, private negotiations will be performed first. If such negotiations fail the legal personnel can be engaged to seek more formal resolution by law.
+18
+
+BOTTOS White Paper
+Distributed AI Data Contracts
+5 Leadership Team
+Tingting Wang, is a serial entrepreneur and the co-founder of the BOTTOS project. She was the Chief Marketing Officer at a distributed smart economy network called NEO (https://neo.org), which is a very successful Blockchain project with $2 billion market cap. Tingting holds a BS in Computer Science from Huazhong University of Science and Technology and a BS in Project Management from Wuhan University of Technology in China.
+Xin Song, is the co-founder and CEO with 13-year experience in high-tech investment, corporate strategy and digital transformation field. He was the head of Droege Group China, a Europe based investment firm during 20122016 and led quite a few successful cross-border mergers and acquisitions and post-transaction integration. Prior to that he worked for Liberty Mutual and Accenture in US as a senior consultant. Xin holds a MBA from Georgetown University in US and a BS in Management Information System from Shanghai University of Finance & Economics.
+Chao Wang, is the co-founder and CTO with 20-year product development experience in cloud computing, distributed systems and wireless communication. Prior to BOTTOS he assumed the R&D Director at Wanxiang Blockchain Lab and Domain Architect at Huawei Technologies Co. Ltd, which are two top research companies in Blockchain and mobile communication technology in China. Chao is the decision-making committee member of 5G mobile communication technology in China. Chao holds a BS in Computer Science from Hefei University of Technology in China.
+Zhen Gao, is the AI Architect. He has been focusing his research on intelligent machines, learning robots and autonomous systems. He is the editor-in-chief of two AI and robotics journals. He has published over 100 journal and conference papers, served as a Program Committee Member for more than 20 international conferences, and reviewed papers for 15 journals in areas of AI, machine learning, automation and robotics.
+19
+
+BOTTOS White Paper
+Distributed AI Data Contracts
+6 Roadmap of BOTTOS Development
+6.1 Timeline
+November 2016: the BOTTOS project launched; July 2017: the White Paper and DEMO released; November 2017: Beta version to be released in Chinese and English; December 2017: Crowd sale to be launched; January 2018: BTO to be traded on exchanges; March 2018: the testing network to be launched; May 2018: the main network to be launched;
+6.2 Crowd Sale Plan
+BTO will be available to the public for purchase when the BOTTOS product is officially released. Specific rules and detailed information on BTO crowd sales will be released at the official website of BOTTOS.org. The purchaser shall acknowledge the potential risk in the crowd-funding. BTO holders shall have the right to use BOTTOS' products and services by consuming BTO.
+20
+
+

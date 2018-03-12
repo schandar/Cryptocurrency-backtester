@@ -1,0 +1,237 @@
+QSP, a product of QUANTSTAMP, INC.
+TOKEN PURCHASE AGREEMENT This Token Purchase Agreement (this "Agreement") is made as of the 1st day of November, 2017 (the "Effective Date") and contains the terms and conditions that govern your purchase of certain tokens ("QSP" or "Tokens") generated and distributed on the Quantstamp Network (the "Project") and is an agreement between you or the entity that you represent ("Buyer" or "you") and Quantstamp, Inc., a Delaware corporation (together with its affiliates, "Company"). Buyer and Company are herein referred to individually as a "Party" and collectively, as the "Parties." NOW, THEREFORE, in consideration of the mutual representations, warranties and agreements contained in this Agreement, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, Company and Buyer agree as follows: IMPORTANT INFORMATION: PLEASE READ THIS AGREEMENT CAREFULLY AND IN ITS ENTIRETY. Buyer acknowledges, understands and agrees: � PURCHASE OF TOKENS ARE NON-REFUNDABLE AND CANNOT BE CANCELLED. � BUYER MAY LOSE ALL AMOUNTS PAID. � TOKENS MAY HAVE NO VALUE. � COMPANY RESERVES THE RIGHT TO REFUSE OR CANCEL TOKEN PURCHASE REQUESTS AT ANY TIME IN ITS SOLE DISCRETION. � PEOPLE WHO PURCHASE EARLIER THAN YOU MAY RECEIVE MORE TOKENS FOR THE AMOUNT PAID. � PLEASE READ CAREFULLY AND IN THEIR ENTIRETY THE RISKS SET FORTH IN SECTION 7. � THIS AGREEMENT INCLUDES PRE-DISPUTE RESOLUTION IN SECTION 9.1 AND REQUIRES ARBITRATION IN SECTION 9.2.
+ME1 25980828v.1
+
+1.
+
+
+
+
+
+ACCEPTANCE OF AGREEMENT AND PURCHASE OF TOKENS
+
+1.1.Website Terms of Purchase. The terms of purchase (as may be amended from time to time, the "Terms of Purchase") located at https://quantstamp.com (the "Website") are hereby incorporated by reference. Capitalized terms used but not defined herein shall have the meanings ascribed to them on the Website.
+
+1.2.White Paper. The white paper and other materials concerning Project and the sale of Tokens, available at https://docsend.com/view/shcsmhe (as may be amended from time to time, the "White Paper") are hereby incorporated by reference.
+
+2.
+
+
+
+
+
+TOKEN DISTRIBUTION
+
+2.1.Allocation and Distribution of Tokens.
+
+a)Company Obligations. Company shall allocate and distribute Tokens (the "Token Distribution") to buyers thereof using the Quantstamp Protocol in a manner consistent with the White Paper. Company shall, from time to time, provide on the Website procedures and other instructions for purchasing Tokens.
+
+b)Buyer Obligations. Buyer shall follow the procedures set forth by Company on the Website for purchasing Tokens. As a condition precedent to any sale by Company of any Tokens, Buyer shall provide an accurate digital wallet address to Company and extend a Quantstamp trustline to Company for receipt of any Tokens distributed to Buyer through the Quantstamp Protocol.
+
+2.2.Allocation and Sale of Tokens to Company Parties. Buyer consents to the participation of Company's past, present and future employees, officers, directors, contractors, consultants, equity holders, suppliers, vendors and service providers in the purchase of Tokens, including people who may work on the development and implementation of the Project or who may work for Company's future businesses that Company may establish with a portion of the proceeds from the Token Distribution (such parties, "Company Parties").
+
+2.3.Sources and Uses of Funds.
+
+a)Use of Funds. Buyer shall not use the Tokens to finance, engage in, or otherwise support any unlawful activities.
+
+b)Payments. All payments by Buyer under this Agreement shall be made only in Buyer's name, from a digital wallet or bank account not located in a country or territory that has been designated as a "non-cooperative country or territory" by the Financial Action Task Force, and is not a "foreign shell bank" within the meaning of the U.S. Bank Secrecy Act (31 U.S.C. � 5311 et seq.), as amended, and the regulations
+!2
+
+ME1 25980828v.1
+
+promulgated thereunder by the Financial Crimes Enforcement Network, as such regulations may be amended from time to time.
+
+c)Anti-Money Laundering; Counter-Terrorism Financing. To the extent required by applicable law, Buyer shall comply with all anti-money laundering and counterterrorism financing requirements.
+
+2.4.Transfers
+
+a)Transfer Fees. Buyer agrees that any transfer of Tokens may be subject to transfer fees imposed by Company from time to time through the Quantstamp Protocol.
+
+b)Transfer Restrictions. Buyer agrees that Company may place limitations on the transferability of the Tokens through the Quantstamp Protocol.
+
+3.
+
+
+
+
+
+NO OTHER RIGHTS CREATED
+
+3.1.No Claim, Loan or Ownership Interest. The purchase of Tokens:
+
+(i)
+
+shall not provide Buyer with rights of any form with respect to Company or its revenues or
+
+assets, including, but not limited to, any voting, distribution, redemption, liquidation,
+
+proprietary (including all forms of intellectual property), or other financial or legal rights;
+
+(ii) shall not be deemed to be a loan to Company; and (iii) shall not provide Buyer with any
+
+ownership or other interest in Company.
+
+3.2.Intellectual Property. Company shall retain all right, title and interest in all of Company's intellectual property, including, without limitation, inventions, ideas, concepts, code, discoveries, processes, marks, methods, software, compositions, formulae, techniques, information and data, whether or not patentable, copyrightable or protectable in trademark, and any trademarks, copyright or patents based thereon. Buyer shall not use any of Company's intellectual property for any reason without Company's prior written consent.
+
+4.
+
+
+
+
+
+SECURITY AND DATA; TAXES AND FEES
+
+4.1.Security and Data Privacy.
+
+a)Buyer's Security. Buyer shall implement reasonable and appropriate measures designed to secure access to: (i) any device associated with Buyer and utilized in connection with Buyer's purchase of Tokens; (ii) private keys to Buyer's wallet or account; and (iii) any other username, passwords or other login or identifying credentials. In the event that Buyer is no longer in possession of Buyer's private keys or any device associated with Buyer's account or is not able to provide Buyer's login or identifying credentials, Buyer acknowledges and understands that it may lose all of its Tokens or access to its account. In such event, Company shall be under no obligation to recover any Tokens and Buyer acknowledges, understands and agrees that all purchases
+3!
+
+ME1 25980828v.1
+
+of Tokens are non-refundable and Buyer shall not receive money or other compensation for any Tokens purchased.
+
+b)Additional Information. Upon Company's request, Buyer shall immediately provide to Company information and documents that Company, in its sole discretion, deems necessary or appropriate to comply with any laws, regulations, rules or agreements, including without limitation judicial process. Such documents include, but are not limited to, passports, driver's licenses, utility bills, photographs of associated individuals, government identification cards or sworn statements. Buyer hereby consents to Company disclosing such information and documents in order to comply with applicable laws, regulations, rules or agreements. Company may, in its sole discretion, refuse to distribute Tokens to Buyer until such requested information is provided.
+
+4.2.Taxes. Buyer shall be solely responsible for compliance with any tax obligations arising from the purchase or receipt of Tokens. Company shall bear no liability or responsibility with respect to any tax obligation of Buyer in respect of the purchase and receipt of any Tokens.
+
+5.
+
+
+
+
+
+REPRESENTATIONS AND WARRANTIES
+
+5.1.Buyer Representations and Warranties. Buyer represents and warrants to Company that as of the Effective Date:
+
+a)Authority. Buyer has all requisite power and authority to execute and deliver this Agreement, to purchase Tokens, and to carry out and perform its obligations under this Agreement.
+
+i)If an individual, Buyer is at least 18 years old and of sufficient legal age and capacity to purchase Tokens.
+
+ii)If a legal person, Buyer is duly organized, validly existing and in good standing under the laws of its domiciliary jurisdiction and each jurisdiction where it conducts business.
+
+b)Purchase Entirely for Own Account. This Agreement is made with Buyer in reliance upon Buyer's representation to the Company, which by Buyer's execution of this Agreement, Buyer hereby confirms, that the Tokens to be acquired by Buyer will be acquired for investment for Buyer's own account, not as a nominee or agent, and not with a view to the resale or distribution of any part thereof, and that Buyer has no present intention of selling, granting any participation in, or otherwise distributing the same. By executing this Agreement, Buyer further represents that Buyer does not presently have any contract, undertaking, agreement or arrangement with any individual, corporation, partnership, trust, limited liability company, association or other entity ("Person") to sell, transfer or grant participations to such Person or to any third Person,
+
+!4
+
+ME1 25980828v.1
+
+with respect to any of the Tokens. Buyer has not been formed for the specific purpose of acquiring the Tokens.
+c)Disclosure of Information. Buyer has had an opportunity to discuss the Company's business, management, financial affairs and the terms and conditions of the offering of the Tokens with the Company's management and has had an opportunity to review the Company's facilities.
+d)No Conflict. The execution, delivery and performance of this Agreement will not result in any violation of, be in conflict with, or constitute a material default under, with or without the passage of time or the giving of notice: (i) any provision of Buyer's organizational documents, if applicable; (ii) any provision of any judgment, decree or order to which Buyer is a party, by which it is bound, or to which any of its material assets are subject; (iii) any material agreement, obligation, duty or commitment to which Buyer is a party or by which it is bound; or (iv) any laws, regulations or rules applicable to Buyer.
+e)No Consents or Approvals. The execution and delivery of, and performance under, this Agreement requires no approval or other action from any governmental authority or person other than Buyer.
+f)No Public Market. Buyer understands that no public market now exists for the Tokens, and that the Company has made no assurances that a public market will ever exist for the Tokens.Legends. Buyer understands that the Tokens may be notated with one or all of the following legends:
+"THE TOKENS REPRESENTED HEREBY HAVE NOT BEEN REGISTERED UNDER THE SECURITIES ACT OF 1933, AND HAVE BEEN ACQUIRED FOR INVESTMENT AND NOT WITH A VIEW TO, OR IN CONNECTION WITH, THE SALE OR DISTRIBUTION THEREOF. NO SUCH TRANSFER MAY BE EFFECTED WITHOUT AN EFFECTIVE REGISTRATION STATEMENT RELATED THERETO OR AN OPINION OF COUNSEL IN A FORM SATISFACTORY TO THE COMPANY THAT SUCH REGISTRATION IS NOT REQUIRED UNDER THE SECURITIES ACT OF 1933."
+Any legend required by the securities laws of any state to the extent such laws are applicable to the Tokens represented by the certificate, instrument, or book entry so legended.
+g)Accredited Investor. If the Buyer is a United States Person as defined by Section 7701(a)(30) of the Code, Buyer is an accredited investor as defined in Rule 501(a) of Regulation D promulgated under the Securities Act .
+h)Foreign InvestorsIf Buyer is not a United States person (as defined by Section 7701(a)(30) of the Code, a "Non-U.S. Person"), Buyer hereby represents that it has satisfied itself as to the full observance of the laws of its jurisdiction in connection with any invitation to subscribe for the Tokens or any use of this Agreement, including
+5!
+ME1 25980828v.1
+
+(i) the legal requirements within its jurisdiction for the purchase of the Tokens, (ii) any foreign exchange restrictions applicable to such purchase, (iii) any governmental or other consents that may need to be obtained, and (iv) the income tax and other tax consequences, if any, that may be relevant to the purchase, holding, redemption, sale, or transfer of the Tokens. Buyer's subscription and payment for and continued beneficial ownership of the Tokens will not violate any applicable securities or other laws of Buyer's jurisdiction. If the Buyer is a Non-U.S. Person, Buyer represents, warrants and undertakes that neither it, its affiliates (as defined in Regulation 501 under the Securities Act), nor any persons acting on its or their behalf has engaged or will engage in any directed selling efforts (as defined in Regulation S) with respect to this Agreement and the Tokens.No General Solicitation. Neither Buyer, nor any of its officers, directors, employees, agents, stockholders or partners has either directly or indirectly, including, through a broker or finder (a) engaged in any general solicitation, or (b) published any advertisement in connection with the offer and sale of the Tokens.
+i)Exculpation Among Purchasers. Buyer acknowledges that it is not relying upon any Person, other than the Company and its officers and directors, in making its investment or decision to invest in the Company. Buyer Status. Buyer is not subject to any of the disqualifying events listed in Rule 506(d)(1) of Regulation D under the Securities Act of 1933 (a "Buyer Event"), and there is no proceeding or investigation pending or, to the knowledge of Buyer, threatened by any governmental authority, that would reasonably be expected to become the basis for a Buyer Event.
+j)Buyer Knowledge and Risks of Project. Buyer has sufficient knowledge and experience in business and financial matters, including a sufficient understanding of blockchain or cryptographic tokens and other digital assets, smart contracts, storage mechanisms (such as digital or token wallets), blockchain-based software systems and blockchain technology, to be able to evaluate the risks and merits of Buyer's purchase of Tokens, including but not limited, to the matters set forth in this Agreement, and is able to bear the risks thereof, including loss of all amounts paid, loss of Tokens, and liability to the Company Parties and others for the acts and omissions of Buyer, including with limitation those constituting breach of this Agreement, negligence, fraud or willful misconduct. Buyer has obtained sufficient information in order to make an informed decision to purchase Tokens.
+k)Funds; Payments. The funds, including any fiat, virtual currency or cryptocurrency, Buyer uses to purchase Tokens are not derived from or related to any unlawful activities, including but not limited to money laundering or terrorist financing.
+l)Restricted Securities. Buyer understands that the Tokens have not been, and will not be, registered under the Securities Act, by reason of a specific exemption from the registration provisions of the Securities Act which depends upon, among other things, the bona fide nature of the investment intent and the accuracy of the Buyer's representations as expressed herein. Buyer understands that the Tokens may be construed as "restricted securities" under applicable U.S. federal and state securities laws and that, pursuant to these laws, Buyer must hold the Tokens indefinitely unless they are
+!6
+ME1 25980828v.1
+
+registered with the Securities and Exchange Commission and qualified by state authorities, or an exemption from such registration and qualification requirements is available. Buyer acknowledges that the Company has no obligation to register or qualify the Tokens for resale. Buyer further acknowledges that if an exemption from registration or qualification is available, it may be conditioned on various requirements including, but not limited to, the time and manner of sale, the holding period for the Tokens, and on requirements relating to the Company which are outside of Buyer's control, and which the Company is under no obligation and may not be able to satisfy.
+
+m)Anti-Money Laundering; Counter-Terrorism Financing. To the extent required by applicable law, Buyer has complied with all anti-money laundering and counterterrorism financing requirements.
+
+n)Sanctions Compliance. Neither Buyer, nor any person having a direct or indirect beneficial interest in Buyer or Tokens being acquired by Buyer, or any person for whom Buyer is acting as agent or nominee in connection with Tokens, is the subject of sanctions administered or enforced by any country or government (collectively, "Sanctions") or is organized or resident in a country or territory that is the subject of country-wide or territory-wide Sanctions.
+
+5.2.No Company Representations or Warranties.
+
+a)COMPANY EXPRESSLY DISCLAIMS ALL REPRESENTATIONS AND WARRANTIES, EXPRESS, IMPLIED OR STATUTORY.
+
+b)WITH RESPECT TO THE TOKENS, THEIR UTILITY AND THE ABILITY OF ANYONE TO PURCHASE OR USE THE TOKENS, COMPANY EXPRESSLY DISCLAIMS ANY REPRESENTATION OR WARRANTY, EXPRESS, IMPLIED OR STATUTORY, INCLUDING WITHOUT LIMITATION, ANY REPRESENTATIONS OR WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, USAGE, SUITABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE, OR AS TO THE WORKMANSHIP OR TECHNICAL CODING THEREOF, OR THE ABSENCE OF ANY DEFECTS THEREIN, WHETHER LATENT OR PATENT.
+
+c)COMPANY PARTIES DISCLAIM ALL REPRESENTATIONS AND WARRANTIES THAT THE PROCESS OF PURCHASING OR RECEIVING THE TOKENS WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT THE TOKENS ARE RELIABLE OR ERROR-FREE.
+
+6.
+
+
+
+
+
+BUYER ACKNOWLEDGMENTS AND CONSENTS
+
+6.1.Agreement. Buyer acknowledges and understands that Buyer has read in full and understands this Agreement and the terms and conditions to which Buyer is bound.
+
+7!
+ME1 25980828v.1
+
+6.2.White Paper. Buyer acknowledges and understands that it has read and understands the White Paper.
+6.3.Terms of Purchase. Buyer acknowledges and understands that it has read, understands and agrees to the Terms of Purchase.
+6.4.Procedures for Purchase. By purchasing Tokens, Buyer acknowledges, understands the procedures set forth on the Website for purchasing Tokens. Buyer acknowledges and understands that: (a) failure to use the Website and follow such procedures will result in Buyer's failure to receive Tokens and (b) Buyer will lose some or all of the amounts paid for Token and (c) the receipt or purchase of Tokens through any other means is not sanctioned or agreed to in any way by Company.
+6.5.Company's Use of Proceeds. Buyer acknowledges and understands that the proceeds from the sale of the Tokens may be utilized by Company in its sole discretion, as described in the White Paper.
+6.6.Transaction Fees. Buyer acknowledges and understands that any transactions in the Tokens effected using the Quantstamp Protocol may subject to transaction fees payable in QSP set by the Quantstamp Protocol, which may vary from time to time.
+6.7.Not an Offering of Investment, Securities, Commodities, or Swaps. Buyer acknowledges and understands that: (a) the sale of Tokens and the Tokens themselves are not investments, currencies, securities, commodities, swaps on a currency, security or commodity, or a financial asset or instrument of any kind; (b) purchases and sales of Tokens are not subject to the protections of any laws governing those types of financial instruments; and (c) this Agreement and all other documents referred to in this Agreement, including the White Paper, do not constitute a prospectus or offering document, and are not an offer to sell, nor the solicitation of an offer to buy an investment, a currency, a security, commodity, or a swap on either a security or commodity or a financial asset or instrument of any kind.
+7.  BUYER ACKNOWLEDGEMENTS OF RISKS
+TOKENS MAY HAVE NO VALUE. BUYER MAY LOSE ALL AMOUNTS PAID. Buyer has carefully reviewed, acknowledges, understands and assumes the following risks, as well as all other risks associated with the Tokens (including those not discussed herein), all of which could render the Tokens worthless or of little value:
+7.1.Basis for Purchase. Purchasing Tokens is at Buyer's sole risk and that the Tokens are each provided, used and acquired on an "AS IS" and on an "AS AVAILABLE" basis without representations, warranties, promises or guarantees whatsoever of any kind by Company. Buyer must rely on its own examination and investigation thereof.
+7.2.No Rights, Functionality or Features. Tokens have no rights, uses, purpose, attributes, functionalities or features, express or implied, outside the Project.
+8!
+ME1 25980828v.1
+
+7.3.Project. Tokens may not be usable on the Project and do not entitle Buyer to anything with respect to the Project.
+7.4.Purchase Price Risk. There are no guarantees as to the price of Tokens purchased by Buyer and no guarantees that the price per Token determined by the market will be equal to or higher. There is the possibility that the price per Token may fall below the price paid by initial buyers of Tokens during the initial distribution period. Company reserves the right to change the duration of any timeframe for the distribution of Tokens, including, without limitation, the unavailability or non-functionality of the Website or other unforeseen procedural or security issues.
+7.5.Blockchain Delay Risk. On the Quantstamp Protocol, transactions may not be recorded in the last-closed ledger until the transaction has been ratified through the Quantstamp consensus algorithm. Timing of ratification may occur at random times. For example, Token transfers in a given open ledger may not be included in the next last-closed ledger, and may be included in the candidate set for the beginning of the consensus process on the next open ledger. As a result, the last-closed ledger may not include Buyer's transaction at the time Buyer expects and Buyer may not receive Tokens on the same day Buyer purchases the Tokens.
+7.6.Quantstamp Consensus Ledger. Transactions on the Quantstamp Consensus Ledger may be delayed or lost due to operational error or malicious attacks by third parties. Buyer acknowledges and understands that the last-closed ledger may not include Buyer's transaction when Buyer wants or expects and that Buyer's transaction may be excluded or discarded entirely.
+7.7.Operational Error. Buyer may never receive Tokens and may lose the entire amount Buyer paid to Company for such Tokens as a result of interruptions and operational errors in the process of purchasing or receiving the Tokens.
+7.8.Ability to Transact or Resell. Buyer may be unable to sell or otherwise transact in Tokens at any time, or for the price Buyer paid due to (a) diminution in value of the Tokens; (b) lack of liquidity for the Tokens; or (c) Company imposing restricts on the transferability of the Tokens.
+7.9.Token Security. Tokens may be subject to expropriation and or/theft. Hackers or other malicious groups or organizations may attempt to interfere with the the Tokens in a variety of ways, including, but not limited to, malware attacks, denial of service attacks, consensus-based attacks, Sybil attacks, smurfing and spoofing. Furthermore, because the Quantstamp Protocol rests on open source software and Tokens are based on open source software, there is the risk that Quantstamp Protocol may contain intentional or unintentional bugs or weaknesses which may negatively affect the Tokens or result in the loss of Buyer's Tokens, the loss of Buyer's ability to access or control Buyer's Tokens or the loss of any other assets in Buyer's account. In the event of such a software bug or weakness, there may be no remedy and holders of Tokens are not guaranteed any remedy, refund or compensation.
+9!
+ME1 25980828v.1
+
+7.10.Access to Private Keys. Tokens purchased by Buyer may be held by Buyer in Buyer's digital wallet or vault, which requires a private key, or a combination of private keys, for access. Accordingly, loss of requisite private key(s) associated with Buyer's digital wallet or vault storing Tokens may result in loss of such Tokens, access to Buyer's Token balance or any balances in blockchains created by third parties. Moreover, any third party that gains access to such private key(s), including by gaining access to login credentials of a hosted wallet or vault service Buyer uses, may be able to misappropriate Buyer's Tokens. Company is not responsible for any such losses.
+7.11.New Technology. The Project and all of the matters set forth in the White Paper are new and untested. The Project might not be capable of completion, implementation or adoption. Even if the Project is completed, implemented and adopted, it might not function as intended, and any tokens associated with a blockchain adopting the Project may not have functionality that is desirable or valuable. Also, technology is changing rapidly, so the Tokens and the Project may become outdated.
+7.12.Tax Consequences. The purchase and receipt of Tokens may have tax consequences for Buyer. Buyer is solely responsible for Buyer's compliance with Buyer's tax obligations.
+7.13.Reliance on Third-Parties. Even if completed, the Project may rely, in whole or partly, on third parties to adopt and implement it and to continue to develop, supply, and otherwise support it. There is no assurance or guarantee that those third parties will complete their work, properly carry out their obligations, or otherwise meet anyone's needs, all of might have a material adverse effect on the Project.
+7.14.Failure to Map a Public Key to Buyer's Account. Failure of Buyer to map a public key to Buyer's account may result in third parties being unable to recognize Buyer's Token balance on the Quantstamp Consensus Ledger.
+7.15.Exchange & Counterparty Risks. If Buyer chooses to maintain or hold Tokens through a third party, Buyer's Tokens may be stolen or lost. In addition, third parties may not recognize Buyer's claim to any derivative tokens if and when launched by third parties according to the distribution rules set in the Project. Buyer holds Tokens through a third party at Buyer's own and sole risk.
+7.16.Changes to the Project. The Project is still under development and may undergo significant changes over time. Although Company intends for the Project to have the features and specifications set forth in the White Paper, Company may make changes to such features and specifications for any number of reasons, any of which may mean that the Project does not meet Buyer's expectations. As a result: (a) the Project may never be completed; (b) the Project may not be completed as initially proposed by Company, and in a different or modified form; (c) a blockchain utilizing or adopting features of the Project may ever be launched; and (d) a blockchain may never be launched with or without changes to the Project.
+1! 0
+ME1 25980828v.1
+
+7.17.Project Completion. The development of the Project may be abandoned for a number of reasons, including, but not limited to, lack of interest from the public, lack of funding, lack of commercial success or prospects, or departure of key personnel.
+7.18.Lack of Interest. Even if the Project is finished, launched and adopted, the ongoing success of the Project relies on the interest and participation of third parties. There can be no assurance or guarantee that there will be sufficient interest or participation in the Project.
+7.19.Uncertain Regulatory Framework. The regulatory status of cryptographic tokens, digital assets and blockchain technology is unclear or unsettled in many jurisdictions. It is difficult to predict how or whether governmental authorities may regulate such technologies. It is likewise difficult to predict how or whether any governmental authority may make changes to existing laws, regulations or rules that may affect cryptographic tokens, digital assets, blockchain technology and its applications. Such changes could negatively impact Tokens in various ways, including, for example, through a determination that Tokens are regulated financial instruments that require registration. Company may cease the distribution of Tokens, the development of the Project or cease operations in a jurisdiction in the event that governmental actions make it unlawful or commercially undesirable to continue to do so.
+7.20.Risk of Government Action. The industry in which Company operates is new, and may be subject to heightened oversight and scrutiny, including investigations or enforcement actions. There can be no assurance that governmental authorities will not examine the operations of Company or pursue enforcement actions against Company. Such governmental activities may or may not be the result of targeting Company in particular. All of this may subject Company to judgments, settlements, fines or penalties, or cause Company to restructure its operations and activities or to cease offering certain products or services, all of which could harm Company's reputation or lead to higher operational costs, which may in turn have a material adverse effect on the Tokens or the development of the Project.
+8.  LIMITATION OF LIABILITY; INDEMNIFICATION
+8.1.Limitation of Liability. To the fullest extent permitted by applicable law, Buyer disclaims any right or cause of action against Company of any kind in any jurisdiction that would give rise to any Damages whatsoever, on the part of Company. Company shall not be liable to Buyer for any type of damages, whether direct, indirect, incidental, special, punitive, consequential or exemplary (including damages for lost profits, goodwill, use or data), even if and notwithstanding the extent to which Company has been advised of the possibility of such damages. Buyer agrees not to seek any refund, compensation or reimbursement from a Company Party, regardless of the reason, and regardless of whether the reason is identified in this Agreement. Company is not and shall not be responsible for or liable for the market value of Tokens, the transferability or liquidity of Tokens or the availability of any market for Tokens through third parties or otherwise
+! 11
+ME1 25980828v.1
+
+8.2.Damages. Under no circumstances shall the aggregate joint liability of the Company Parties, whether in contract, warrant, tort or other theory, for Damages to Buyer under this Agreement exceed the amount received by Company from Buyer.
+8.3.Force Majeure. Buyer understands and agrees that Company shall not be liable and disclaims all liability to Buyer in connection with any force majeure event, including acts of God, labor disputes or other industrial disturbances, electrical, telecommunications, hardware, software or other utility failures, software or smart contract bugs or weaknesses, earthquakes, storms, or other nature-related events, blockages, embargoes, riots, acts or orders of government, acts of terrorism or war, technological change, changes in interest rates or other monetary conditions, and, for the avoidance of doubt, changes to any blockchain-related protocol.
+8.4.Release. To the fullest extent permitted by applicable law, Buyer releases Company from responsibility, liability, claims, demands, or damages of every kind and nature, known and unknown (including, but not limited to, claims of negligence), arising out of or related to disputes between Buyer and the acts or omissions of third parties.
+8.5.Indemnification.
+a)To the fullest extent permitted by applicable law, Buyer shall indemnify, defend and hold harmless and reimburse Company from and against any and all actions, proceedings, claims, damages, demands and actions (including without limitation fees and expenses of counsel), incurred by Company arising from or relating to: (i) Buyer's purchase or use of Tokens; (ii) Buyer's responsibilities or obligations under this Agreement; (iii) Buyer's breach of or violation of this Agreement; (iv) any inaccuracy in any representation or warranty of Buyer; (v) Buyer's violation of any rights of any other person or entity; or (vi) any act or omission of Buyer that is negligent, unlawful or constitutes willful misconduct.
+b)Company reserves the right to exercise sole control over the defense, at Buyer's expense, of any claim subject to indemnification under this Section 8.5. This indemnity is in addition to, and not in lieu of, any other indemnities set forth in a written agreement between Buyer and Company.
+9.  DISPUTE RESOLUTION
+9.1.Informal Dispute Resolution. Buyer and Company shall cooperate in good faith to resolve any dispute, controversy or claim arising out of, relating to or in connection with this Agreement, including with respect to the formation, applicability, breach, termination, validity or enforceability thereof (a "Dispute"). If the Parties are unable to resolve a Dispute within ninety (90) days of notice of such Dispute being received by all Parties, such Dispute shall be finally settled by Binding Arbitration as defined in Section 9.2 below.
+1! 2
+ME1 25980828v.1
+
+9.2.Binding Arbitration. Any Dispute not resolved within 90 days as set forth in Section 9.1 shall be referred to and finally resolved by arbitration under the rules of the American Arbitration Association in effect at the time of the arbitration, except as they may be modified herein or by mutual agreement of the Parties. The number of arbitrators shall be one who shall be selected by Company. The seat, or legal place, of arbitration shall be New York City. The language to be used in the arbitral proceedings shall be English. The governing law of the Agreement shall be as set forth in Section 10.1 herein. The arbitration award shall be final and binding on the Parties ("Binding Arbitration"). The Parties undertake to carry out any award without delay and waive their right to any form of recourse insofar as such waiver can validly be made. Judgment upon the award may be entered by any court having jurisdiction thereof or having jurisdiction over the relevant Party or its assets. Company and Buyer shall be responsible for their respective attorneys' fees and expenses.
+9.3.No Class Arbitrations, Class Actions or Representative Actions. Any dispute arising out of or related to this Agreement is personal to Buyer and Company and shall not be brought as a class arbitration, class action or any other type of representative proceeding. There shall be no class arbitration or arbitration in which an individual attempts to resolve a dispute as a representative of another individual or group of individuals. Further, a dispute cannot be brought as a class or other type of representative action, whether within or outside of arbitration, or on behalf of any other individual or group of individuals.
+10.  MISCELLANEOUS
+10.1.Governing Law and Venue. This Agreement shall be governed in all respects, including as to validity, interpretation and effect, by the laws of Delaware, without giving effect to its principles or rules of conflict of laws, to the extent such principles or rules are not mandatorily applicable by statute and would permit or require the application of the laws of another jurisdiction.
+10.2.Assignment. Buyer shall not assign this Agreement without the prior written consent of Company. Any assignment or transfer in violation of this Section 10.2 shall be null and void. Company may assign this Agreement to an affiliate. Subject to the foregoing, this Agreement, and the rights and obligations of the Parties hereunder, shall be binding upon and inure to the benefit of their respective successors, assigns, heirs, executors, administrators and legal representatives.
+10.3.Entire Agreement. This Agreement, including the exhibits attached hereto and the materials incorporated herein by reference, constitutes the entire agreement between the Parties and supersedes all prior or contemporaneous agreements and understandings, both written and oral, between the Parties with respect to the subject matter hereof, including, without limitation, any public or other statements or presentations made by Company about the Tokens or the Project.
+!13
+ME1 25980828v.1
+
+10.4.Severability. If any provision of this Agreement is determined by a court of competent jurisdiction to be invalid, inoperative or unenforceable for any reason, the provision shall be modified to make it valid and, to the extent possible, effectuate the original intent of the Parties as closely as possible in an acceptable manner in order that the transactions contemplated hereby be consummated as originally contemplated to the fullest extent possible.
+10.5.Modification of Agreement. Company may modify this Agreement at any time by posting a revised version on the Website, available at [Insert Web address]. The modified terms shall become effective upon posting. It is Buyer's responsibility to check the Website regularly for modifications to this Agreement. This Agreement was last modified on the date listed at the beginning of this Agreement.
+10.6.Termination of Agreement; Survival. This Agreement shall terminate upon the completion of all sales in the Token Distribution. Company reserves the right to terminate this Agreement, in its sole discretion, in the event that Buyer breaches this Agreement. Upon termination of this Agreement: (a) all of Buyer's rights under this Agreement immediately terminate; (b) Buyer is not entitled to a refund of any amount paid; and (c) Articles 3, 4, 6, 7, 8, 9, and 10 shall continue to apply in accordance with their terms.
+10.7.No Waivers. The failure by Company to exercise or enforce any right or provision of this Agreement shall not constitute a present or future waiver of such right or provision, nor limit Company's right to enforce such right or provision at a later time. All waivers by Company must be unequivocal and in writing to be effective.
+10.8.No Partnership; No Agency; No Third Party Beneficiaries. Nothing in this Agreement and no action taken by the Parties shall constitute, or be deemed to constitute, a partnership, association, joint venture or other co-operative entity between the Parties. Nothing in this Agreement and no action taken by the Parties pursuant to this Agreement shall constitute, or be deemed to constitute, either Party the agent of the other Party for any purpose. No Party has, pursuant to this Agreement, any authority or power to bind or to contract in the name of the other Party. This Agreement shall not create any third party beneficiary rights in any person.
+10.9.Electronic Communications. Buyer agrees and acknowledges that all agreements, notices, disclosures and other communications that Company provides Buyer pursuant to this Agreement or in connection with or related to Buyer's purchase of Tokens, including this Agreement, may be provided by Company, in its sole discretion, to Buyer, in electronic form.
+1! 4
+ME1 25980828v.1
+
+

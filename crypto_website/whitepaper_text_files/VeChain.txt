@@ -1,0 +1,660 @@
+VECHAIN DEVELOPMENT PLAN
+THIS IS NOT A WHITE PAPER
+No, it is NOT!
+1
+
+Preface
+The VeChain team and the VeChain Blockchain platform has been running for more than two years. Fortunately, while running down the path of Blockchain which everyone has big hopes on right now, we met many people sharing the same goal and lots of enterprise customers that dare to explore this new area. We also met many passionate business partners and co-workers with strong believes. Moreover, we accumulated lots of experience of business use cases for different industries and we kept adjusting and making corrections during the process so that we can continue on searching the right way to use this "secret technology" that may change the world. Our original vision has never been changed. The dream is still same as before, Building a trust-free and distributed business ecosystem to enable transparent information flow, efficient collaboration, and high speed value transferring.
+2
+
+Table of Content
+
+1.
+
+Concept Background ............................................................................................5
+
+1.1 Call for ICO .......................................................................................................5
+
+1.2 The Understanding of Blockchain Technology .................................................6
+
+1.2.1 Synergy and Value Transfer ...................................................................................6
+
+1.2.2 Data and Information Symmetry ............................................................................7
+
+1.3 VeChain's Vision.....................................................................................................8 1.3.1 Distributed Business Ecosystem............................................................................9
+
+1.3.2 The "Blood" in the Distributed Ecosystem ­ VeChain Token(VET).................10
+
+1.4 VeChain's Attitude on Blockchain Technology .....................................................12
+
+2.
+
+Methodology and Technical Support...................................................................13
+
+2.1 Methodology .........................................................................................................13
+
+2.2 Technique Support................................................................................................14
+
+2.3 Technical Structure ...............................................................................................15
+
+2.4 Achieve the Technical Details...............................................................................18
+
+2.4.1 VeChain ID Creation and Hashing.......................................................................18
+
+2.4.2 Storage of VID on Blockchain...............................................................................19
+
+2.4.3 Digital Ownership on Blockchain .........................................................................20
+
+2.4.4 Data Hashed Storage (proof of data) ..................................................................21
+
+2.4.5 API Gateway............................................................................................................22
+
+2.4.6 Service Discovery (SDP).......................................................................................23
+
+2.4.7 Micro-Service ..........................................................................................................24
+
+2.4.8 Hashed Storage Service (HSS) ...........................................................................24
+
+2.5 Blockchain and IoT...............................................................................................26 2.5.1 The Issue of IoT......................................................................................................26
+
+2.5.2 Blockchain and IoT.................................................................................................26
+
+2.5.3 VeChain and IoT.....................................................................................................28
+
+2.6 Technical Testing ..................................................................................................29
+
+2.7 Technology Development's Path and Plan...........................................................31
+
+3.
+
+The Industrial Application and Expansion...........................................................34
+
+3.1 Fashion and Luxury Industry................................................................................35
+
+3.2 Food Safety ..........................................................................................................36
+
+3.3 Car Industry ..........................................................................................................39
+
+3.4 Supply Chain Industry ..........................................................................................40
+
+3.5 The Agricultural Industry.......................................................................................41
+
+3.6 Blockchain Government Affairs ............................................................................42
+
+3.7 This is just the Beginning .....................................................................................44
+
+4. Governance Structure and Management Philosophy ...................................................45
+
+3
+
+4.1 The Establishment of VeChain Foundation..........................................................46 4.2Governance Principle ........................................................................................46 4.3 VeChain Governance Model ................................................................................48
+4.3.1 Strategic Steering Committee...............................................................................49 4.3.2 General Secretary ..................................................................................................50 4.3.3 Technical Audit Committee....................................................................................50 4.3.4 Remuneration and Nomination Committee ........................................................50 4.3.5 Public Relation Committee....................................................................................51 4.3.6 Supervisory Committee .........................................................................................51 4.3.7 Other Functional Department ...............................................................................51 4.4 VeChain Human Resource Management ............................................................51 4.5 Risk Assessment and Decision Making Mechanism of VeChain Foundation .....52 4.6 VeChain Foundation Economy.............................................................................52 4.6.1 Funding Sources ....................................................................................................53 4.6.2 Fund Budgeting ......................................................................................................54 4.6.3 Fund Use Restriction .............................................................................................56 4.6.4 Financial Planning and Implementation Reports ...............................................57 4.6.5 Digital Asset Management ....................................................................................57 4.7 Legal Compliance Matters and Other Matters .....................................................57 5. Introduction of the Team and Team Member.................................................................58
+4
+
+1. Concept Background
+1.1 Call for ICO
+The Blockchain technology is experiencing rapid development especially in recent one or two years. The change is so fast for us entrepreneur. Despite the direction is technology development and expansion, or application research, we face changes all the time. Every time we site together, discuss and conclude "the only thing that does not change is change itself", just like a poet. From the second half of 2015, with an article from The Economist "Blockchain: The Trust Machine", the Blockchain technology started to walk out of the geek community and rapidly gained worldwide attention in various industries.
+The term "Blockchain" is no longer an obscure technical term for many people. Lots of the new ideas and projects are coming out, which includes many imaginative models and new directions for Blockchain. At the end of last year, the Blockchain technology was even written directly into the national "13th Five-Year plan", which encouraged us many peers. In addition, it attracts so many aspiring young people to join the Blockchain industry.
+Needless to say, Blockchain has been recognized by the world as a new generation of powerful technology. Blockchain is considered as being able to change the world again just like what the Internet technology did. In addition, based on the pattern of human technology development, the development process of the Blockchain technology will suddenly get speeds up by a huge margin without doubt. We believe that it will have substantial breakthroughs and extensive expansion in the upcoming few years for the Blockchain industry.
+However, the reality is tougher than expected. The application direction of Blockchain is either for financial industry or non-financial industry. For financial industry, it is so obvious with its high standard of compliance, so it is very hard to make a break through. For non-financial industry, it has a variety of collaborative cooperation modes but all these participants lack of drive to move further. That is why even though there is some new concepts derived from Blockchain, only few practical Blockchain business application has been established. Even when some project get partially established can make the teams feel excited.
+Although everything is hard at the beginning, there is always someone who is very careful and willing to be the first one to get into the field. In order to reduce the possibility of failure as much as possible, we want to share VeChain with the investors, enterprise customers, cooperative partners and colleagues ­ a product that we started making strategic plan two years ago. It has been through several platform software updates, many practical cases and debates with arguments at
+5
+
+so many sleepless nights. Finally we created some matured ideas and we want to CALL for the ICO for VeChain project.
+1.2 The Understanding of Blockchain Technology
+1.2.1 Synergy and Value Transfer
+In the world of traditional business, different varieties of collaborative and business operations as well as the whole financial industry, which is at the top of the "food chain", shows trust is the biggest cost in the field. Though Blockchain carries a "trust aura". The Blockchain technology is widely accepted around the world since the famous article " Blockchain: the trust machine" published by the Economist.
+The essence of a Blockchain is an Internet protocol and a collection of technologies about Trust. We can define the meaning of Blockchain from three dimensions - data, system and application:
+ From the data point of view: Blockchain is a distributed database system that is continuously updated in chronological order. The data can only be added but not tampered with.
+ From the system point of view: Blockchain is a distributed deployment and real-time synchronization system, allows participants from different parties to create and maintain the data through mechanism for consensus. It makes each active node on the Blockchain has exactly the same data.
+ From the application point of view: Blockchain is a standard global platform allows multiple participants to connect at the same time and records all digital objects, users, and their relative operations on this platform.
+With the development of information technology and Internet, the application of various systems makes the collaboration more convenient and efficient. Because of the existence of trust issue, the majority of such efficient collaboration exists mainly within an enterprise or a certain organization. However, people are using the methods and tools from 40 years ago when it comes to the collaboration between different enterprises. The majority of collaboration is still completed by e-mail. System interfacing is actually not as simple as imagined. Since it involves data security, trade secrets, cooperation, trust and other problems. The connection is not just a technical issue. In addition, due to the same problem, the financial service that match and support all kinds of business needs improvement in both efficiency and cost.
+For example, a classic business collaborative mode includes supply chain (as the graphic shows below), brand, manufacturer, distributed retailer, consumer and regulator. All the parties share the same goal: to achieve the same value of
+6
+
+improving the life quality of the consumer. However, even if the different enterprises worked together for the same goal, due to the lack of sufficient trust guarantee, the cooperation is still on a peer-to-peer manner and with traditional communication tools, and the data exchange will be very inefficient and expensive. In such a traditional product life cycle, even if the logistics could be relatively smooth and efficient, the flow of information is often fragmented and the transfer of funds is also relatively slow. For the participants on the whole supply chain, the utilization rate of funds has always been quite a headache.
+The Blockchain technology can help us to establish a new trust-free sharing business collaboration model (as the graphic shows below). Various parties can ensure the security of data in a more convenient and smoother manner. With the support of a more timely and accurate information flow, the value transmission in the ecological environment can be developed and executed during the business activities. This way each enterprise can increase the utilization rate of funds, and greatly improve the speed of value transmission in order to support more business development.
+Figure 1.2.1 Distributed business collaboration from traditional business collaboration to Blockchain
+1.2.2 Data and Information Symmetry
+Most enterprises have three types of data: 1) Public data, such as enterprise data that is publicly available on the official website. 2) Private data, such as enterprise product developing documents, financial reports for non-listed companies. 3) Permitted shared data, usually exists between different cooperation partners. Such as the record data from the identification, logistics, payment information and after-sale service for different level enterprises.
+The first and second kind of data are generally well understood. The interesting part is the third type of data, which is usually converted into private data by the participants.
+7
+
+For example, after a car is sold, maintenance data exists in the 4S store or the maintenance business. When the owners need to buy insurance, the insurance company spend huge cost to buy those maintenance data as a service provider. Or, based on the market demand, this could become as a new data service. This service can collect data, centralize maintenance and management, and get paid by providing data to participants who are interested in those data. For users, the risk comes from the centralized/ isolated data, where stay in a variety of online automotive service platform. This kind of service breaks the asymmetric information (due to the difference of region and time) by using information technology, and constructs a new centralized asymmetric information, and then produce profit base on this.
+We BELIEVE that the Blockchain technology can continuously break those asymmetric information and allow data to return to the real owner eventually. For instance, in the car scenario described above, the data generated by the owner when he used the car should naturally be owned by the owner. That means the data generated from car maintenance should belong to car owner without doubt. While enjoying other service like insurance later, insurance company can reduce data audit costs through user authorized credible data. Thus car owners could enjoy premiums service with lower cost.
+The Blockchain technology allows data owners really own the data, and let the data owner have the authority to choose whether to share their data, which completely breaks the traditional asymmetric of the centralized information. In this way, the value goes back to where they were. The data owned by one side needs to be shared and maintained by all parties. Thus new values are generated and is properly allocated in the activities of multi-party participation.
+1.3 VeChain's Vision
+What does the VeChain want to do? The vision of VeChain is to build a trustfree and distributed business ecosystem based on the Blockchain technology self-circulated and expanding.
+ In this ecosystem, the information is relatively transparent and symmetrical. A large portion of the source of the profit comes from the realization of true value, and only a small portion of it comes from asymmetric information (absolute symmetry does not exist).
+ In this ecosystem, each business party can reduce the potential trust issue between different parties. This makes business cooperation simpler, more efficient, low cost, and the business can concentrate resources on more advanced technology, better product and service to create more value.
+ In this ecosystem, each person and each enterprise can find their own 8
+
+place. Based on their contribution and value, they can obtain relatively fair reward.  In this ecosystem, the technology of Blockchain should have room for all aspects of business, including commercial activities and economic activities that should be supported.  In this ecosystem, the value is in a closed loop that keep expanding accompanied by the development of commercial activities with highspeed transmission. The form of value may be commodities, services, or direct fund.
+1.3.1 Distributed Business Ecosystem
+In the ecological environment made by VeChain, there are several main types of participants:
+1) Enterprise organization All kinds of enterprise organization that provide products and services to end-users to meet all the needs such as various manufacturing enterprises, brands, service providers for end-users, and so on.
+2) Application service provider It means an enterprise that provides various application development and services for enterprise organizations and users on VeChain Blockchain. The product or service can be a variety of decentralized applications and services to users, technical products and related services for all enterprises and institutions, functions of the government agencies, regulators and third party credit service providers. For example, end-user oriented Internet platforms like BAT, sharing products and service providers like Uber, Didi, Airbnb; For instance, enterprise oriented technology, product, service provider such as Oracle, IBM. Supply chain services providers of commodity enterprises, third party credit service providers such as PwC, DNV, GL and financial service providers such as banks and insurance companies.
+3) Smart contract service provider Organizations provide VeChain smart contract technology service to enterprises, and allow the end- enterprise or service providers to develop Blockchain applications in a faster and more convenient manner.
+4) VeChain network node provider Enterprises and organizations that directly participate in the Blockchain network and maintain a certain number of nodes to protect the overall network security. Maintaining a specific function node to provide related services, such as customs, quality inspection node, audit node, wallet service, and user private key management service provider.
+5) VeChain Foundation
+9
+
+VeChain is responsible for the construction of Blockchain network, technology research and development, upgrade and maintenance and other basic technical services. Meanwhile, in the initial stage it is responsible for business development, creating reference cases, encouraging and supporting more of the new smart contract service providers and existing technology enterprises to transform. Based on the demands of ecological development, it provides support to more technology companies on offering Blockchain services, such as wallet development, payment services, private key management, internal exchange, smart contract templates etc. 6) End-user The service target of end-enterprise, end-users and service provider (investors) enjoy the bonus from the future commercial ecology development together. These participants set up the whole VeChain distributed business ecosystem. On one hand, it can form an effective closed loop. On the other hand, it can connect and assimilate with the environment outside of the ecosystem and constantly grow itself, as figure shows below:
+Figure 1.3.1 Distributed business ecosystem environment
+1.3.2 The "Blood" in the Distributed Ecosystem ­ VeChain Token(VET)
+If the entire distributed business ecosystem is a body, then the Blockchain infrastructure is the skeleton and various application services are the muscles and organs. Such body needs the circulation of the blood, and the blood is the VeChain tokens - VeChain Token(VET), carrying the value transfer function of the entire Blockchain network and various commercial activities running on it. VeChain Token(VET) will be openly available for sale in a variety of ways in this ICO.
+10
+
+As the carrier of value transmission in the whole ecosystem, VeChain Token(VET) flows through the smart contract which describes and executes the cooperation among the parties, as well as forming a special closed loop with an open interface. On one hand, the value transfer very fast in the ecological. On the other hand, it opens and communicates with outside the ecosystem as a medium, and further expanding the scope of ecology.
+The main function of VeChain Token(VET) is to circulate as much as possible and to let each participant use it. So we will sell more than 70% of the total amount of tokens to communities, businesses, and users.
+Just as the graphic shows above: 1) This loop begins with the end-user and enterprises as investors to use ETH
+to obtain VeChain Token(VET) in the beginning. VeChain uses ETH to perform technical development, commercial application cooperation promotion, and Blockchain services support. 2) VeChain Foundation receives VeChain Token(VET) from each smart contract development and service provider to pay for the GAS needed to run the smart contract and maintain the operation of each business smart contract. The 75% to 99% of the VeChain Token(VET) income will be awarded as a node reward to the node provider, while the remaining 25% will be used for the daily operation, business promotion and technical development of the VeChain Foundation. 3) Smart contract service providers use VeChain Token(VET) to pay for GAS and provide smart contract service of BaaS (Blockchain as a service). According to different business rules and contributions, each participant receives VeChain Token(VET) from its client - Application Development provider provides smart contract services through collecting VeChain Token(VET). 4) Application provider develops and processes based on end-user's needs with the foundation of smart contract service, as well as providing products for the application of the traditional enterprise customers or end-users and receive VeChain Token(VET) as corporate income. 5) End-users can pay VeChain Token(VET) to obtain enterprise products and services.
+Of course, such ecological development will experience different stages, and maintain an open status. A better fusion with the traditional business world will help the transformation of traditional commercial enterprises, and then expand such a distributed business ecosystem.
+In this process, there must be a variety of new technology service enterprises, to provide a bridge for communication and value transfer between traditional
+11
+
+commercials and VeChain's distributed business environment.
+VeChain will be responsible for the actual development. On the other hand, we will encourage and support outstanding teams to join us so we can have a better understand to the various sectors of all enterprises. We can apply better and more focus on developing and make the right people to do what they do best.
+According to the actual experience of the past two years, we have summed up a few reference methods to carry out this ecological promotion:
+1) The breakthrough point should select the enterprise with most "Blockchain" strategy. These enterprises value greatly on the development of Blockchain technology in the future.
+2) Initial cases should be combined with the real enterprise issue, which can solve the actual problems, or may bring new value.
+3) The business scenario has the multi participants, and space for deeper expansion.
+4) Target enterprises, target cases in the industry or in different industry has considerable influence.
+In this ecological development, the tactics needs to expand both horizontally and vertically:
+1) Horizontally, make more duplicated expansion of the same types of enterprises within the same industry.
+2) Vertically, the expansion of different enterprises and participants.
+More participants will bring more extensive collaboration, more efficient value flow, give birth to a new and strong coupling business model, and then build a future distributed business ecology.
+1.4 VeChain's Attitude on Blockchain Technology
+The development of any new technology is bound to go through several important stages:
+ The first stage, technical barriers stage; at this stage, being capable or not capable plays a very big difference; doing well and not well is not very obvious.
+ The second stage is the business barrier stage. At this stage, the development of technology has been advancing by leaps and bounds, and with the trend of social resources, more and more talents have been pouring in. More technical theories and skills are being shared, and technical barriers are becoming increasingly blurred. To do or not to do already is not a problem; well done and badly becomes prominent. The key point of this stage is whether we can apply the technology skillfully and reasonably to the actual commercial products and services and 12
+
+produce greater value.  The third stage is the scale barrier stage. At this stage, the snowball
+effect is very obvious, and the scale advantage is becoming more and more important. More business activities and social activities focus on one or more ecological environments, and the more participants, the faster they develop.  The fourth stage is the subdividing the vertical phase. At this stage, the industry scale and pattern are basically formed, and new breakthroughs are made. The new breakthrough comes from the division of vertical areas with more concentrated resources advantages to produce better products, services and values.  The fifth stage, the birth of the new technological revolution. More advanced technology was born in the human pursuit of higher value, and then enter the next cycle.
+Blockchain has no exemption to this route. Although the Blockchain technology itself still has a long way to go, there is lots of space for improvement. Nevertheless, as things stand now, we have unwittingly entered the early second stage of Blockchain.
+So, this non-whitepaper does not include mysterious algorithms and technical details. It focuses on the concept and design of the business ecosystem, and the support and further development needs of the related technologies.
+We hope that our investors, partners and communities will be able to come together and build this ecosystem together.
+We recognize that VeChain technology may not be the most advanced in the world. VeChain had a good technical starting point and a cohesive technical team and continuous iterations based on the needs of the application. In the process, we will be very grateful if VeChain could contribute our discovery and breakthroughs to the community, industry and Blockchain technology.
+2. Methodology and Technical Support
+2.1 Methodology
+Based on the understanding and following the objective of business rule, VeChain wants to begin with the smallest elements in business (people, object and money). VeChain wants to digitalize all of these small elements and build a general type of connection. VeChain builds the reflection on the coordinating activities of modern business through different smart contracts. It provides related value flow tool and system in order to create a new business model based on this
+13
+
+coordination pattern. After that VeChain builds a new kind of distributed business ecosystem that will be operated on Blockchain.
+1) Digitalized the objective in a common way. The result by this digitalization can technically be accepted and used by any of the participant. VeChain uses the unified VID to mark the object and make a connection between the hashed data and VID in order to build the corresponded target data to VID. It also helps to IoT technology to complete the connection between VID and real life target.
+2) To build a relationship type of connection with different object data by using the smart contract.
+3) To use the abstract smart contract to cooperate relevant authorizations to composite modelling and customization, reflecting the different business activities in the business world.
+4) A brand new digital asset (VeChain Token(VET)) that can provides the support of high speed value transaction.
+5) Create a new trustworthy interconnect business model. 6) Different business model communicate and merge together to build a
+distributed business ecosystem.
+Through this method, we can "translate" the target product, participants and business activities from the real business world into the world of VeChain. We can combine all enterprise, customers, and government resource and data information from different industries. In this way we can digitalize the cooperation and systematize the operation. So it can reduce the cost of the industries and even the whole society. It can also improve efficiency since resource can be optimized distributed and all kinds of brand new business model will be born.
+Figure 2.1 Standard digitalization in the traditional world
+2.2 Technique Support
+The path of VeChain's technology development is almost identical as the Blockchain technology. The initial idea was generated from the middle of 2015 and then VeChain started doing a series of technology verification (TPOC).
+14
+
+At the very beginning of the technology verification, we tried to use Bitcoin network (UTXO) to build the module and use Colorcoin to make VID come true. SideChain technology improves the speed of the trade performance so that the system can face the future business challenge. In the end of 2015, the smart contract of Ethernet has been improved step by step and we worked for it. We also made huge modifications and technical innovation to commercial requirement and Ethereum Fork based on the open source. Based on the customers and project survey, we kept improving the system in the September of 2016. For instance, we increased the data embedding and read performance to 300TX/s and we also improved the data security control in the bottom layer structure of the enterprise. In addition, we made joint development with CHAOS data management model, the IoT technology, the Blockchain technology and many different business smart contract.
+Overall, the logic behind VeChain technology is always surrounded by business application. The idea of VeChain's management is practical requirement leads product design, product design leads product development and product development leads practical requirement.
+In the whole process of evolving, our technical team got many supports from lots of great leaders, like the founder of the Ethereum- Vitalik, the founder of JaxxAnthony and many others. We feel grateful and appreciate of your open mind and the passion to the technology innovation
+2.3 Technical Structure
+Vechain's structure is based on application needs, and make standardized abstraction for every single technical structure layer. It enables every single layer to have the independent universality and let every model in each layer combine to each other efficiently. The standard unit model have tens of thousands combination of the application.
+Below is the figure of Vechain's overall structure:
+15
+
+Figure2.3 VeChain's technical structure
+16
+
+The structure is separated mainly by two parts of abstract layer: Blockchain abstract layer and business abstract layer.
+Blockchain abstract layer: 1) It is the bottom structure of the basic layer. The technical focus is to fork
+Ethereum codebase and improve based on this, it includes: a. DBGP- after maintained a certain level of security, then making a dynamic
+change for Block based on needs and requirements. This way it saves many storage space and system recourse cost. On the other hand, this protocol helps VeChain network to have 3 times better of efficiency than Ethereum after maintaining the security level. b. DMBSP- combine with the traditional safety technique to cooperate with Blockhchain's mining system in order to give enterprise level Blockchain application to provide data security protection. c. DGIP- Implanting the data within the same category. d. Under Development- -BLACP- storing Blockchain data with classification and use to differentiate saved data with different time and value. e. Under Development - - PBCP- to distributed implanting and reading data with the same blockchain category. f. Under Development - - DCCP- Syncing the data with different categories of Blockchain. 2) The upper level is the smart contract abstract layer for building a standard and modularity smart contract module (SSCU) in order to combine further, customized to face different industry, enterprise and smart contract for application scene (ASCM). Currently the smart contract inventory (VSCL) includes VID registration, data connection, status data implement, digital ownership, ownership transfer, authorization declaring, authorization transfer, multiple authorization and so on. 3) Building a Blockchain connector standard protocol (BGAP) to connect with upper business application layer based on the foundation.
+Business application abstract layer: 1) In this bottom of this layer is the basic service abstract layer. The purpose is
+mainly to do a secondary operation for the smart contract of the bottom layer to build GBSM. It includes ­hashing Storage service, a service model for CHAOS through URS. Meanwhile, this layer contains a special customized module for the data from the bottom layer. It includes index service for Blockchain browser, UDAS, HDMS, DCASS, CNS and DGS which includes the standard basic functions for smart contract on VeChain to save the time on deploying customized smart contract.
+For this layer in the future, people will develop tools for visualized smart contract and through the service to build connections with smart contract. So even developers from different industries, or with no Blockchain experience
+17
+
+can deploy and develop smart contract in order to push the application for the industry. 2) On top of this, the interface between the basic service layer and the business application layer is implemented for the two level application interface layer. The core of the development is standardization and to build the connection of business system that faces different types of data. In addition, accumulating more standard types by using application for many big enterprise that faces SAP, WMS and Salesforce, etc. As well as some common used website and mobile application connection. 3) The top layer is business application abstract layer. It has standard application process module for different business scenes, different business practical developing module. So it can make the delivery and deployment for the development of the final application more convenient and fast. The developer of this layer does not even require to have any knowledge of Blockchain development so this can make more developers and technical service providers to use VeChain as the application of final customer development for Blockchain.
+2.4 Achieve the Technical Details
+VeChain's Blockchain is forked and improved based on Ethereum codebase. The basic technical index can see Ethereum's whitepaper as reference.
+Below we are going to focus on discussing the technical application feature of VeChain.
+2.4.1 VeChain ID Creation and Hashing
+VeChain IDs are created by using a sha256 function which generates a random ID which is hashed before being written into a NFC, QR Code or RFID tag(s) to be used for each product.
+All IDs are hashed by using a sha256 function which goes as follows: SHA25 6(domain + '.' + ID)[12:]. In which the domain is the qualified name of table that the ID settled. e.g. "com.VeChain.dbname.tablename"
+18
+
+Figure 2.4.1 the creation of VID and hashing
+2.4.2 Storage of VID on Blockchain
+As previously mentioned, the hashed VeChain ID is written into tag(s) depending on the client's needs. After the tags are ready, they go to a testing process and are "activated". Activation is done by using a custom-made software called "VOperation" which can either run on Mobile or desktop operating systems. Upon activation, the ID is then written into Blockchain and replicated among all nodes.
+19
+
+Figure 2.4.2 The storage of VID on Blockchain
+2.4.3 Digital Ownership on Blockchain
+VeChain uses a custom-tailored Smart Contract which enables authorizationbased digital ownership management. The ownership of objects, represented by VeChain ID is linked to an account with the key pairs combined with public key and private key.
+The public key is public and known as alias email address which can be recognized and accessed by anyone. The private key is to represent the authorization and access, just like a password, to the objects with the corresponding public key. The ownership management is to set a specific linkage between the objective ID and the public key of owner who controls the corresponding private key.
+20
+
+Figure 2.4.3 Digital ownership on Blockchain
+2.4.4 Data Hashed Storage (proof of data)
+VeChain accepts any type of data: (strings, numbers, booleans, etc). Data is identified by its hash (SHA256). Sample for accessing data via RESTFUL APIs:
+· Store data · POST https://domain/hss/ · Retrieve data · GET https://domain/hss/{hash} The data is self-verifiable. When the data is retrieved, it can be verified by comparing its hash to the hash provided.
+Figure 2.4.4 Data hashed storage
+21
+
+2.4.5 API Gateway
+Universal application architecture interface designed for complex processes. The API gateway is the main entry for all API requests, it encapsulates the internal structure of the application, and the client only needs to interact with the gateway without calling a particular service. When the internal structure of the upgrade or new features, the client is completely transparent, the client does not need to consider too many changes in access, only need to ensure that the exchange protocol is correct. The following is about the network topology graph of the API gateway, deployment graph and functional graph.
+Figure 2.4.5-1 API Gateway-1
+The resources of a server are limited, and the characteristics of the horizontal expansion make it possible for large-scale access. Different instances of the same service can guarantee a service request shunt by API Gateway. In API Gateway we can use different access policy like consistent-hash, ip-hash, random access or priority access. At the same time, API Gateway and Service Discovery Service also can be scale out on-demand.
+22
+
+Figure 2.4.5-2 API Gateway
+2.4.6 Service Discovery (SDP)
+The API gateway needs to know the location (IP address and port) of each micro service that it communicates with. In traditional applications, it may be hard to connect this location, but now that it is based on cloud-based micro-service applications, which is not an easy problem to solve. Infrastructure services typically have a static location that can be specified by the OS environment variable. However, determining the location of an application service is not that simple. The application services are dynamically allocated, and a set of instances of a single service can also change dynamically with automatic scaling or upgrades.
+Service discovery has two major modes: client discovery mode and server discovery mode. We are using the server-side discovery mode. The client makes a request to a service through the API gateway, the API Gateway queries the service registry, and forwards the request to an available service instance. The biggest advantage of the server-side discovery model is that the client does not need to focus on the details of the discovery, simply sending the request to the API gateway, which reduces the discovery logic that the programming language framework needs to complete.
+The service registry is the core of the service discovery and is the database that contains the network address of the service instance. The service registry needs to be highly available and updated at any time. The service instance we uses the self-registration mode. So the service instance needs to be responsible for registering and logging out in the service registry. In addition, a service instance
+23
+
+also sends a heartbeat to ensure that the registration information is not obsolete.
+We choose etcd as a backend high availability, distributed, consistent key store for shared configuration and service discovery.
+2.4.7 Micro-Service
+Micro-service is the generic term for all backend VeChain services. This type of service can be customized according to the actual business interface to keep the separation between different businesses. Micro service can guarantee the service gray scale release, fast service upgrade or downgrade level. In our API Gateway ecosystem, the micro-service should provide below basic functions.
+1) Register& UnRegister Micro-service must be the initiative to register self to Service Discovery Service (SDS) when start up and must be unregister self when shutdown. SDS has 30sec to hold instance states, if unregistered when shutdown, after 30sec it will also be removed from service registry.
+2) Report service health SDS never know whether instances at backend are still available for serving. So microservice must report self-healthy in time and report interval must less than 30sec.
+Micro-services are more complicated than traditional service, especially communicating between service and service at the backend. Currently service discovery service need instance to register self, so all instance need a logic that register to it. In the next time we should consider a 3rd party of register service for leverage. These service can deploy an instance of micro-service, and can config some information for it, can check instance health and report to SDS. So micro-service just can be consider a pure app for serving API.
+2.4.8 Hashed Storage Service (HSS)
+Hashed Storage Service (HSS) is a distributed storage service, which provides services such as digital files, pictures, text data and any other object-oriented reliable storage. Through the combination with VeChain, stored in various types of objects, HSS will ensure that the data cannot be tampered with. At the same time, the uploaded object, unless authorized by the uploader, otherwise it cannot be obtained and modified by improper means.
+The HSS is mainly composed of two parts: object storage service and basic storage service. Object storage service is responsible for external interaction, save the object, access to objects and authorized object access; Basic storage
+24
+
+service is responsible for computing the object storage footprint, cut the object and the actual storage. With the development of service scale, in order to system reliability, Data often need to be backed up. The number of backups per data is at least one copy, or even ensure the reliability of the backup, the number of backups may be two or more. This makes the storage utilization rate of only or less, each TB of data need to occupy at least 2TB of storage space. As data grows, the cost of replication becomes more and more obvious, with traditional replicas equivalent to at least 100 percent more storage overhead. Why distributed storage can help you setup a highly-available storage system with a single object storage deployment. With distributed service, it can simplify the data backup program, reduce disk space, but also make services available, improve data's availability and durability. Erasure Code & Reed Solomon In the storage system. The erasure code technology is mainly through the use of mathematical algorithm to verify the original data to be verified to achieve the purpose of fault tolerance. It can be used to reconstruct missing or corrupted data. Reed-Solomon (RS) code is a storage system that more commonly used in an erasure code. Our Storage Service use RS algorithm to shard objects into and parity blocks. You can lose as many as drives (be it parity or data) and still reconstruct the data reliably from the remaining drives. Amazon S3 Compatible the APIs In the low level is compatible with the Amazon S3 API. Compatibility will lead to data access bonuses. Most developers are familiar with Amazon's S3 service and are familiar with how to use its API. A compatible interface reduces the possibility of external access.
+25
+
+Figure 2.4.8 Hashed storage service
+2.5 Blockchain and IoT
+In 1999, the concept of Internet of Things (IoT) is proposed by a British Scholar Kevin Ashton in MIT. After discussed with many senior level managers from different enterprise, Ashton defines IoT to:
+"A network containing all `smart' devices with some sort of sensing mechanism that can communicate via the internet with other smart devices or the cloud, without human interaction."
+We can see IoT with mainly two parts ­ Perception and Connection based on this definition.
+ Perception is the idea of digitalized the real world data, like temperature, humidity, similar environment type data and personal ID.
+ Connection is sharing the digital information through Bluetooth, WIFI and mobile internet.
+In the future, he trends of IoT will be widely used, more different types, high sales and fast development. It will have a huge impact on the global industries. By quantity, the sales amount of IoT equipment will increase as a rate of 15% to 20% in the near future. IDC predicted that sales amount of IoT equipment will hit 45 billion in year 2020.
+2.5.1 The Issue of IoT
+The issue of IoT technology has been discovered in the nineties. Until June of 2016, 3GPP announced "release 13" and defined the IoT connection standard. This solves the four issues of IoT: Limitation of the connection capacity, limitation of coverage area, low standby time and high cost. Since September of 2016, every mobile device manufacturers released IoT connection plan for business. This focus the concept of different application can choose eMTC, NB-IoT, ECGSM and other different technology.
+With the new IoT standard, it has the feature of great connection, huge coverage area, low energy waste and low budget cost. Since then, IoT industry started to grow rapidly. However, we believe there are still three major issues for IoT: fragmentation of the standard Communication protocol, high cost of development and maintenance and lack of privacy, but these issues can be solved by Blockchain perfectly.
+2.5.2 Blockchain and IoT
+26
+
+Currently, there are many exploration on different IoT and Blockchain application on smart system. When those are applied on IoT, the concept of IoT opened up a road of innovation with unlimited possibilities. The Blockchain technology can be used as tracking the usage history of different equipment. It can also help to complete the trade with different equipment. This technique can provide the data transaction within different equipment that makes IoT equipment independent.
+Blockchain will realize the self-management and maintenance of the equipment. It saves the huge maintenance cost of cloud system and reduce the maintenance budget for IoT equipment. The private key that made by the equipment will ensure personal data won't be stolen by strangers. It increases the safety level of IoT and the economic effectiveness with the combination of these two concepts.
+We believe that the IoT technology and the Blockchain technology cannot be split in the application. From the view of self-development for IoT, IoT wants to build a world with everything connecting to each other and this process requires three steps: 1) It requires a unified communication standard between one thing and another.
+It means the equipment can communicate with the same language no matter where this equipment was built. IoT standard that published by 3GPP provides a physical channel for thing. In addition, the Blockchain technology provides logic language for thing and this makes different types of IoT equipment communicate with one unified language. 2) With the foundation of the unified language, personal Identification will be required during the communication between different things. Then it needs a standard identification code system to support the unified language. This means the Blockchain technology is the best solution to unify different manufacturers and the identification code will not be controlled by anyone. 3) With unified language and personal identification, the connection between those two will require more cooperation and business activities. This means smart contract needs to be built and digital currency will become the transmission carrier since the value needs to be transferred during the cooperation at the same time.
+As a technology that provides the service of trust, Blockchain can ensure the true effectiveness of data on the Blockchain network, IOT is the key to ensure the true effectiveness of data when it's been uploaded from the first time from the original source.
+On the one hand, IoT helps to establish the congruent relationship between the real physical world and Blockchain world. On the other hand, the IoT technology can reduce the disturbing factors from the source to ensure the true effectiveness of data.
+27
+
+2.5.3 VeChain and IoT
+VeChain technology team contains a very important component ­ the IoT technology team. They focus on the responsibility to coordinate the IoT development with Blockchain application, which includes:
+1) Encrypted chips tag technology development. 2) The identification of IoT sensor and data security. 3) Security and authorization module of NB-IoT.
+IoT equipment is very complexed and we need to classify them with different point of views:
+ From the point of view of power supply  Equipment with power source: equipment with battery equipped, like temperature sensor, GPS.  Equipment with no power source: equipment with no battery equipped, like NFC.  Mixed equipment: Equipment with battery equipped and can also get power from other places.
+ From the point view of communication distance:  Close range distance equipment: resolve the communication within 10 meters distance, like NFC(1 meter), RFID(10 meters), bluetooth(10 meters), etc.  Middle range distance equipment: resolve the communication within 1 kilometre, like WiFi, sub 1g, lora, etc.  Long range distance equipment: resolve the communication with more than 1 kilometre, like NB-IoT, etc.
+We upgrade traditional IoT equipment on the chip layer and put personal identification with asymmetric key algorithm.
+ Personal identification: Every IoT equipment requires a unique identification on the network and this ID can be identified by other participants within the network. We enciphered each different equipment or object to ensure the code is unique and cannot be recognized.
+ Asymmetric key algorithm: asymmetric key algorithm is the foundation of the internet and the important feature of Blockchain. It can identify and authorize the equipment based on the identification of equipment. Through public and private key algorithm, we can identify if the equipment could connect to the network, if the digital data source were reliable, or if smart contract can be operated. To ensure the safety level of asymmetric algorithm, we will put the private key in the safety area so it cannot be read. In addition, asymmetric algorithm runs with the processor's safety mode and it can ensure the safety during the process of calculation.
+28
+
+Figure2.5.3 NB-IoT safety module
+2.6 Technical Testing
+VeChain team follows the procedure of professional software testing. Software should be predictable and stable and meet the standard of the product so there should be no unexpected results. With the digital information keep expanding, complicating and smart, the development of software testing is improving as well. With the maturation and systematizing of theory and practical, it shows more impact during the software quality check. General experience suggests that in a typical coding project, software and system testing cost about 50% of project time and over 50% of total cost.
+The most concerned question that software testing care about is in which subset we can find the most problem during all the possible testing. We can put the testing into three category:
+ White box testing: also named structure testing. This method regards testing software as white box. Based on the internal structure and logic, software is designed as testing sample to proceed a testing for the program's path and process. White box's main technique includes statement coverage, branch coverage, design coverage and elementary path coverage.
+ Black box testing: also named functional testing. This method sees testing software as black box. Without considering of internal structure and 29
+
+characteristic to test software's external's characteristic, black box technique mainly includes equivalence class partition method, boundary value analysis, cause and effect diagram method, status mapping method, measurement method of outline and many typical malfunction model.  Gary box testing: This is the test between white and black box testing. Gray box testing mostly used on integrated test phase. It focus not only the validity of output and input, but also program's internal condition. In addition, Gray box testing is not detailed and completed like white box testing, but focus more on internal logic than black box testing. It usually estimates the operational status through certificate of phenomenon, event and symbol.
+Team VeChain sets a special testing team and take on the role of "quality management". The purpose is to make corrections in time and ensure the smoothly operation. Thus software testing is mainly for verification and confirmation. The target for software testing is not just program testing, but also includes all the documents from different phases of development, such as testing guidance book, testing project plan and testing report.
+ Testing guidance book: describing the testing requirements and theories  Testing project plan: describing testing sample and testing methods  Testing report: output testing results
+Testing is a process of convergence step by step and it strictly follows PDCA quality circle. The testing process from the description above is only one part of the PDCA. PDCA is acronym for Plan, Do, Check and Adjust. The PDCA circulation perform the quality check and it will keep going like this by using this order.
+ P (Plan) includes the confirmation of the testing plan that contains unit testing, integration testing, system testing (function, performance, safety and compatibility) and examine testing.
+ D (Do), based on the testing plan to perform the test.  C (Check), the final testing result and reflect the feedback to development
+team.  A (Adjust), development team improve and fix the original code based on
+the testing results.
+The goal of VeChain's software testing:  Lower computer(PLC): Embedded software of IoT parts  Client: PC end, mobile end (ios, Android)and terminal software  Cloud  Server: software on Website and server  Blockchain part  Smart contract part  Interface part
+30
+
+For individual and interface between different parts on the four goals, we have professional testing team defining the testing guidance book, testing plan, and output result report. In addition we will use quality management methods by PDCA to complete the software testing and ensure the quality of VeChain's product. This is part of the pressure test data result:
+Figure 2.6: Part of the pressure test data result. Testing environment is using the lowest cloud server configuration with different locations from global. The basic set up is single core 2G server.
+2.7 Technology Development's Path and Plan
+The development of VeChain technology has been through two years and the core of development focuses on three areas: application, standardization and
+31
+
+safety. VeChain team will keep following these three basic ideas to continue the development. VeChain technology team has three units:
+1) R&D ­ focus on the bottom level of the technology and development, as well as with the newest technology analysis and experiment. In addition, they will make plans for the next generation's possible path and feasibility analysis.
+2) Development ­ Based on the result of R&D, to perform and complete the development and get the initial testing result.
+3) Testing, deployment and maintenance ­ Based on the development result, R&D need to improve and correct the test result as well as taking care of related deployment and maintenance.
+Below is the path of the VeChain technology development and future plans:
+Figure 2.7-1 Technology development path
+32
+
+Figure 2.7-2 Future technology development path
+33
+
+3. The Industrial Application and Expansion
+In the past two years, VeChain has gained great amount of experience from many different fields of the work and some clients are world famous firms. The figure below shows the application structure of the VeChain:
+Figure3-1 Industrial application structure
+Based on the bottom structure of Blockchain system, VeChain loaded a platform that is convenient to use for the business partner and a one-click deployment Blockchain Platform. Users only need to select the industry they are in and the solution plan they want, the system will allow the user to manage their own Blockchain nodes, smart contract and generate related API setting. Meanwhile, together, VeChain and cooperative partner are developing a third party application which is focused on Blockchain to serve VeChain's customers. For instance, VeChain is developing a unique Blockchain audit service with a world famous accounting firm. It provides data auto-collection and audit suggestion on Blockchain overall operating states, smart contract status, business operation status.
+34
+
+Figure 3-2 Third party service application
+In addition, the application structure of VeChain also includes self-developed distributed encrypted database service- CHAOS, user private key management and smart contract authorization, etc. This modular service model makes customers and service provider's development more convenient and flexible.
+VeChain plans to use these successful cases as template to expand and develop more quickly. VeChain wants to let more enterprise and business activities operate based on the VeChain platform. In addition, establishing the connection with these business activities step by step. At the same time, through developing related business smart contracts to promote the circulation of VeChain Token(VET) in order to complete and expand VeChain's distributed business ecosystem step by step.
+3.1 Fashion and Luxury Industry
+According to the survey from year 2015, it costs fashion and luxury brand of Europe 9.7% of the total sales every year, about 2.87 billion dollars, for anticounterfeiting. Due to the overrun by the fake goods, it costs Europe lost 363,000 jobs in fashion, manufacturing and retail industry each year.
+35
+
+Figure 3.1-1 the impact of fake good to the Europe fashion industries
+VeChain aims to focus on this industries by following production management, production channels, anti-counterfeit and the connection with customers. The third party makes product based on the order plan and at the same time, the brand party can "activate" this product when verifying it. This is the process of Chain to verify the enterprise's SAP order form and authorize the real thing from the beginning of the process.
+Meanwhile, VeChain establishes the data connection of WMS with the enterprise and complete the Blockchain process with dealers and retailers sales channel, in order to achieve the management to the sales channel. For the customers, VeChain provides a digital ownership to build a bridge between the brand and customers and keeping the transmitting to CRM and after-sales service. In order to establish a customized individual service, after-sales service and customer care for customers. It can even track the trends of the second-hand market. At the same time, the anonymous privacy protection feature of Blockchain perfectly fits the safety rule of EU's GDPR (General Data Protection Regulation).
+VeChain makes business with famous Europe luxury brand by putting IoT encrypted chips that is based on the Blockchain technology into product. As the medium of the data collecting for Blockchain, the chip records the every "logistics", warehousing and transmission. After the customers get the product, they can scan the chip behind the tag through the APP and they can know the "history" of this product. So the customers can identify the authenticity of the products, and making a statement of the product's digital ownership at the mobile end.
+3.2 Food Safety
+Food safety directly affects people's health. Since the budget of being healthy has growing all the time, both producers and customers would care a lot about food safety. However, traditional food safety relies too much on the process control and
+36
+
+entrepreneur's sense of responsibility. So it is pretty hard to ensure the safety of food by using automated methods. It is quite difficult to track the original source if any problem occurred. Yet the Blockchain technology could bring safe and reliable solutions to the food industry. The Chinese government has already confirmed that food certification and tracking through supply chain are the key steps to find and eliminate the source of pollution in a very fast way. The Liquor tracking platform in Waigaoqiao free trade zone, which built by VeChain, can track the liquor product from the very beginning of the process, even when the liquor was still in the overseas winery. This is the first successful case in domestic. Every details about the bottle of red wine is marked and recorded at the beginning of the process. This way company can use smart contract to track the whole life period of the red wine, from the warehouse in the free trade zone to for the first time. From the distribution center and finally reach to each different sales channels and stores. Customers can identify and track the information of the wine through the in-store touch-screen or even customer's own smart phone. High-end wine are also equipped with IoT Chips with the feature of safety and convenient. Customers can use their Cell phone to check these information as well which increases the security level.
+37
+
+Figure 3.2-1 VeChain application in the wine Free trade zone: background management system, smart front terminal, mobile showcase
+For the next part of the plan, we are going to let more oversea wineries and welcome more imported product providers to join into our platform, so customers can feel safe about the product. We are also going to open the connection and start the cooperation, let the customer see more information about the product.
+On the other hand, the product that VeChain is following right now is one of the most focal point product: dairy, dairy food safety is a hot topic that people pay huge attention to. The regulation requirement is stricter, especially when the news about domestic milk powder contains melamine and makes the milk powder toxic. Mengniu Cooper has to increase the breadth of the product sale and the multiple security check to ensure the source of the dairy product is safe. This is what they paid for the huge loss of customer trust. In 2007, Mengniu corporate spent 3.302 billion Yuan in sales and distribution cost, and the number increased to 4.428 billion Yuan in 2008. The advertise expense in sales percentage has increased by 2.1 percent to 9.3%. This is merely the cost for losing trust of one single enterprise. Although this event has passed for so long, the dairy industry is still paying for this. We can definitely make more example of this, it shows that the cost of trust is almost unbelievable.
+VeChain provides the standard adding Chain function that let all participants upload the data by using the permission to complete a Chain. (Like Figure Below)
+Figure 3.2-2 The process of Dairy industry and ID code
+38
+
+VeChain can help Dairy Company by providing farm information, including Fertilizers management, the audit for feed supplier, the healthy condition of the livestock and the drug use on the cow and environment report. This process ensures the food safety from the very beginning the milk source. VeChain can also help the production supplier to check the receiving time of the raw milk, the storage condition of the raw milk, production reference number, and the detail information of processing personnel and people who are responsible. In addition, Package storage can use the technology methods to tracking the temperature and humidity while transporting. Moreover, the production's loading information of distribution center and data information can also supported by VeChain. Finally, owning these information cannot just prevent counterfeit product but it also increases the product supplier and customer's faith for the industry.
+3.3 Car Industry
+Industry Chain for the Car industry is very complicated. There are many participants, like manufacturer, different agents, regulator, financial service provider (Insurance, Bank) and personal account. In the life circle of a car, there are a big portion of the "user data" are never owned by customer, instead these data are separated in the pocket of different participants. This causes many difficulties of car information collection and verification.
+VeChain and Europe strategic partner Visco, Microsoft invent a verification idea for many international car enterprise together. In the project, VeChain team is responsible for completing the Blockchain deployment on Azure, developing and deploying smart contract and provide standard API to the upper level developers to complete the final product.
+Digital maintenance principle: Every car can build their own digital record and build the authorization of the ownership. After car owner bought the car, they can use authorization and non-authorization feature to give permission by the server maintenance suppliers. So every single maintenance data is recorded to the Blockchain. This way the data provided by different maintenance service provider can build the real grouping record step by step. For instance, insurance, bank and other financial service provider can provide fast insurance and value assessment based on the data supplied by this trustworthy network. The operating expense that saved by this can be returned to the car owner.
+"Green Driving": Green driving is the shared electronmobile project provided by this car enterprise. Every customers can record related driving records by internal computer in car and upload them to the Blockchain and connect the data together which owned. In the future, these data can proves the beneficial information of the certain project like "carbon emission" and even customer data can be used as
+39
+
+individual creditability.
+Figure 3.3 Showcase of VeChain usage by a famous car enterprise
+3.4 Supply Chain Industry
+Traditional supply Chain includes: original material supplier, manufacturer, agent, logistics, customs inspection agency, storage, retail and finally customers.
+Figure 3.4-1 Traditional supply chain
+Traditional supply chain industry is facing many problems includes: 1) It is quite difficult to track supply chain since its cross-region 2) It lacks of transparency between different supply chain and information 3) Data security vulnerability in different enterprise of supply chain 4) Money flow transport has bad timeliness 40
+
+VeChain provides Baas (Blockchain-as-a-service) service to one of the biggest freight forwarders K+N to track and manage all the products from many world's famous brand. To ensure the data protection and privacy as the precondition, VeChain completed the connection with different customers through a common service platform. The operation staff can complete related business work by directly using the handheld terminals.
+Figure3.4-2 The showcase of logistics issue solution by the famous freight forwarders
+In the late period of the plan we are going to make connection with more related cooperative partners, service provider and regulators.
+3.5 The Agricultural Industry
+The Chinese market is facing many critical issues like the scale of the agriculture 41
+
+which is too small and separated, the quality of the product is uneven, the lack of the safety level of the product, low productivity and environment pollution. It is quite hard to fix the issue completely by simply using a certain technology from the internet or a law regulation provided by the government. We can only change the thinking model by using the technology like the special Blockchain cloud project that is exclusive for the verification of the green organic agricultural in order to use industrial management to build modern agricultural.
+China is promoting Agricultural Cultivation Management Plan by using IoT technology, agricultural planting process management, the Blockchain technology, big data and AI (artificial smart) to complete the management of the process before, in the middle and after the agricultural production. In this way, good currency drives out the bad currency to achieve standard agricultural market.
+With this background, VeChain is cooperating with PwC, China Unicom and Liaoning academy of agricultural sciences to develop the special Blockchain cloud project that is exclusive for the verification of the green organic agricultural.
+In this project, VeChain has registered the greenhouse for every farm by using the Blockchain tech to build a data model to record the functional data of every greenhouse. Data source has two main parts: the first part is the production operation data which recorded by the famers directly; and the second part of the data comes from the IoT sensor in the greenhouse. Based on the combination of the data and risk assurance service from PwC, it will establish the foundation of the trustworthy data for the green agricultural verification by the academy of agricultural sciences. In addition, with the support by the IoT equipment, it improves the efficiency of the farm work by about 9 times.
+Figure 3.5 Application of agriculture combines with IoT technology
+3.6 Blockchain Government Affairs
+Government agency shows interest in the Blockchain technology. China ministry 42
+
+of industry and information technology has released a white paper about the application and development of the Blockchain technology. The State Council underlined that Blockchain can bring a world with trust. The science office of British government has reported the potential qualities and advantage of Blockchain technology in the recent report: "Distributed ledger technology has the potential to transform the delivery of public and private services. It has the potential to redefine the relationship between government and the citizen in terms of data sharing, transparency and trust and make a leading contribution to the government's digital transformation plan." VeChain has signed strategic cooperation agreement with local government with big data collection to build case project for Blockchain Government affairs. VeChain has a targeted plan in some very typical application area of the Blockchain technology. For instance, commodity inspection is always reported by manpower to the inspection agency, then agency will inform the client for the material of random sample. Because of the system that agency use is so different than the others, also agency and client are only using manpower to report and delivery every information transaction. This may cause the unmatched information, very long process, low efficiency, and even the risk of data manipulation.
+Figure 3.6-1 Blockchain Government application
+VeChain will share related data on the Blockchain platform, agent and the client both can check the random sample date through VeChain's APP. This makes the whole process paperless and complete the connection between Blockchain ID and waybill number, data ID and waybill number, then finally smart contract ID
+43
+
+and the related operation function. The goal is to reduce the paper use from 2030 pages to 2-3 pages per file. This will increase the efficiency by 80%.
+Figure-3.6-2 Blockchain Government Application
+The Blockchain technology has shown significant meaning to the government. It represents the quality of government of open, public and transparent about the information. At the same time, as the "coordinator" of the whole commercial environment, government focus more on how Blockchain can improve the efficiency of the resource distribution in different industries.
+3.7 This is just the Beginning
+In the past two years, team VeChain has faced many big challenged. It's not the technical consensus, but the consensus of how to achieve the business model and change from the traditional business. However, we have been through the worst part already, and we thank so much for the cooperation partners and customers who dared to step into this field with us, so we can develop and verify the practical use of the Blockchain. VeChain ICO is not just a beginning, because we have the experience from the
+44
+
+past two years. VeChain ICO is also a beginning because in front us, we still have a long way to go in this business environment. The challenge is we still need to invent new business model and promote them in order to complete building the thoroughly connection within the team VeChain, enterprise participant and community.
+4. Governance Structure and Management Philosophy
+In the beginning of the discussion about ICO and the preparation for the later stage, VeChain team has many heated debates and a long night talk, but we always have a consistent pint of view:
+"ICO is the beginning of everything, not the end of everything. All the so-called `successful' ICO, in fact, is only a good starting power. And when the ICO stops, then it's really the time for the beginning of everything. The main theme is always about how to speed up, how to run on the right track, and how to avoid `dying' during the process. Meanwhile, the team cannot just celebrate because of the ICO initial funding, but this should be regarded as the team bearing the hope of the community/business world and proceeding with great cautions. "
+Therefore, maintaining the sustainable development of a team is also a proposition that the VeChain team has been discussing and thinking.
+The corporate governance structure from the company system, is used to constrain the enterprise strategy, risk management, operation principle, human resources and legal compliance program.
+Although the Blockchain technology utilizes decentralized concept as the starting point and establishes an efficient collaborative community platform, in order to improve the efficiency of collaborative Blockchain community and its operation, the team can still learn from the experience of corporate governance structure. The VeChain is also a framework of "non-traditional" community. In addition to the individual participants, there are more business users from different enterprise would agree to a reasonable corporate governance structure.
+Of course, the structure concept cannot be applied mechanically. It is necessary to seek a dynamic balance between community culture and traditional enterprise management culture. This treatment method is combined based on our experience in the Blockchain industry during the past few years with the constant adjusting and optimizing in the future development.
+45
+
+4.1 The Establishment of VeChain Foundation
+The VeChain Foundation (will refer as the Foundation hereinafter) is a non - profit entity established in Singapore in July 2017. The foundation will act as VeChain sponsor entity, who committed to support VeChain's development, construction and governance, transparency, advocacy and promotion work, as well as promoting the safety and harmonious development of the community.
+The standard Blockchain community aims at a high degree of autonomy or decentralized as goal, allowing community participants to diversify their decisionmaking advice and usually use "vote" on important matters. However, such behavior is inefficient or unresolved because of the diversity of participants' opinions, which is not conducive to the continuous iteration and evolution of the Blockchain technology.
+Moreover, because of the bifurcation behavior of the Blockchain, it causes serious divergence of opinion. The solution of "hard forking" has made people question the idea of "de-centering" of" Ethereum" and even "Blockchain". This way of governance is not so much a "democracy" but an "anarchy."
+VeChain development team highly recognized Blockchain's "decentralized" as the construction of the essence, while absorbing the essence of the traditional corporate governance structure, and improving the efficient formulation and implementation of the VeChain development strategy. At the same time it also prevent the serious Blockchain design philosophy differences and irreconcilable issue from showing up again.
+The VeChain team commissioned a trusted third party organization to assist the team in setting up foundation entities in Singapore and to maintain the day-to-day operations as well as reporting the entity architecture. After establishing the Foundation, it selects the appropriate members of the community to join the functional Committee of the Foundation to participate in the actual management and decision-making.
+4.2Governance Principle
+The design objective of the VeChain Foundation governance structure mainly focused on the sustainability of VeChain platform, the effectiveness of the strategy formulation, the management effectiveness, the risk control and the efficient operation of the platform economy.
+1) The combination of centralized governance and distributed architecture
+46
+
+Although there are arguments advocating that Blockchain is a de-centralized or distributed self-governance community system. We believe that the absolute de-centralized may bring the absolute "fairness" but more likely to be further "inefficient". Therefore, the core idea of the Foundation is to absorb the concept of in the management structure of central governance, including the highest decision-making authority strategic Committee and major issues of the centralized procedure to improve the efficiency of the whole operation of the community.
+2) The function of Committee and functional units coexist The function of Committee and functional units coexist in the Foundation for daily affairs, which will set up permanent functional units, such as R & D department, marketing department, operation department, financial and human resources departments to handle daily affairs. At the same time, a functional Committee is set up to make decisions on the important functions of the Foundation. Unlike the functional units, functional Committees exist in a virtual architecture where members of the Committee can be from any place of the world and do not have to work full-time. However, it must meet the requirements of the Committee's expert qualifications and be able to undertake to present and make comments when the Committee is required to present. The functional Committee will also set up a regular meeting system to ensure the effective promotion of major decision-making matters.
+3) Risk oriented governance principles The risk management will be the most important element in the process of studying the strategic development of VeChain Foundation. As a computer technology with great on-going revolutionary, the development of Blockchain is still in its infancy, so it is very important to grasp its development trend. The principle of risk management, when making sure the Foundation makes important decisions, takes full account of the risk factors, the possibility and influence of its occurrence, and makes corresponding countermeasures through decision-making. Thus, the development and iteration of the Blockchain is on the right path.
+4) Technology and Commerce Coexisting Any technology that is divorced from commercial applications is often difficult to develop. If the technology lack the practical function, it will stop and even come to the end. From the creation of the VeChain, it always adhere to the close integration with the business as its purpose. The VeChain Foundation also follows this objective. Even if the Foundation will present as a non-profit organization, but the Foundation wants to get the maximum possible recognition of the business world. To get the business application of revenue, feedback to the Foundation
+47
+
+and the community, while further promoting the Foundation as well as the VeChain's development and upgrade. The VeChain Foundation also takes full account of this principle in the selection of talent and its architecture. It focuses on attracting experts with technical expertise, including industry experts who have a deep understanding of business.
+5). Transparency and supervision Referring to the governance experience of the traditional commercial world, VeChain Foundation also intends to set up special monitoring and reporting channels (Whistle-Blower). Designated by the strategic decision Committee as a window and we welcome the community participants to join in the management, supervision and the operation of Whistle-Blower channel. Those include, but are not limited to, new breakthroughs or recommendations that have significant implications for the Foundation or the Blockchain technologies, community operations issues, crisis information and fraud reporting or fraud, etc. The Foundation will publish a unified information collection window, while ensuring the privacy of the information collected. At the same time, the Foundation publish periodic reports and irregular news releases in the form of community participation in all parties to disclose the Foundation operation and development of VeChain. Meanwhile, the main contacts of the Foundation management will be fully open, and accept the supervision and liaison of the participants.
+4.3 VeChain Governance Model
+The organizational structure of VeChain Foundation raised a combination of Specialized Committee and functional departments, which will deal with daily work and special matters. This section will discuss the functions of the functional Committees of the Foundation as well as the functions of the major functional departments.
+With the reference to the operation of traditional entities, the Foundation will set up functional Committees, including the strategic decision-making Committee, the technical audit Committee, the remuneration and Nomination Committee and the public relations Committee.
+48
+
+Figure 4.3 VeChain functional Committee structure graphic
+4.3.1 Strategic Steering Committee
+The strategic decision-making Committee is the highest decision-making Committee. The main objective is to negotiate and solve VeChain's decision making matters faced in community development include, but are not limited to:
+1) Modifying governance structure of the Foundation. 2) The formation and rotation resolution of the policy-making Committee. 3) The appointment and rotation resolution of the Secretary General of the
+Foundation. 4) The appointment and dismiss of the chief executive and the head of each
+functional Committee. 5) Foundation review and amendment of the constitution. 6) The strategic decision of VeChain development. 7) VeChain's core technology changes and upgrades. 8) Emergency decisions and crisis management agendas.
+The members of the strategic decision Committee and the president of the Foundation will serve for two years and the chairman of the fund shall not be reappointed for more than two sessions.
+After the expiration of the decision making Committee term, VeChain will vote 50 community representatives by the consensus mechanism of next generation and then vote for the 7 core personnel of the decision-making Committee. Those elected representatives of the core staff will do emergency decision making, and accept the wage and salary investigation during his tenure, and the public their salary status as well.
+These important matters need to be decided by the decision Committee with an open vote. Each member of the policy-making Committee has one vote, and the chairman of the Foundation has two votes. Decisions made by the decision Committee must be approved by more than half of all members of the Committee.
+49
+
+In addition, the person in charge shall convene the decision Committee to hold an interim meeting within 5 working days at the time of the following circumstances:
+ The General Secretary of the Foundation considers when it is necessary.  More than 1/3 of the decision Committee members jointly proposed.
+The decision Committee meeting shall be attended by the members of the Committee. If members are unable to attend, they may entrust the other members of the Committee in writing. Failing to delegate is deemed to have given up the right to vote at the meeting.
+4.3.2 General Secretary
+The general secretary is the highest responsible person of VeChain administration. The responsibility is to make guidance and coordinate the daily operation of Foundation, technology development, community maintenance and public relations, as well as connecting various business unit with the governance structure of the functional Committee. The Secretary General will regularly report to the policy-making Committee.
+4.3.3 Technical Audit Committee
+The audit Committee comprises the core VeChain technology developer, who is responsible for the technology research, development direction of Blockchain, the underlying technology development, open port development and review, technology development and patent examination.
+In addition, members of the technical review Committee regularly learn the dynamics and hotspots of the community and industry, communicate with participants in the community, and hold technical seminars on a regular basis.
+4.3.4 Remuneration and Nomination Committee
+The remuneration and nomination Committee is responsible for determining the selection and appointment of key managers of the Foundation. The Committee shall establish rules of procedure, assess the competence of the management, and authorize the appointment. At the same time, the Committee sets up a compensation system to encourage people who have important contributions to the Foundation.
+The remuneration and Nomination Committee regularly reviews the performance of all the Foundation staff, advice on the human resource structure and raise
+50
+
+different incentive measures to attract talented experts.
+4.3.5 Public Relation Committee
+The public relations Committee is responsible for technically promoting the VeChain within the Committee, business alliance, the establishment and maintenance of the VeChain involved in each alliance party, and publicity regarding community crisis and other social responsibility.
+4.3.6 Supervisory Committee
+As a highly independent and autonomous form, the supervisory Committee is set up inside the Foundation as an independent risk control for the overall operation of the Foundation. The supervisory Committee conducts day-to-day guidance of the Foundation's legal and compliance departments. At the same time, the Foundation will set up a mechanism for reporting transparency and supervision to receive internal and external reporting issues, take corresponding improvement investigation and treatment, ensure that the Foundation operation is the perfect legal compliance, and continue to move forward in the acceptable level of risk. The commission reports directly to the Committee on strategic decisions and does not have any conflicts or overlaps with other functions of the Foundation.
+4.3.7 Other Functional Department
+The Foundation refers to enterprise system framework and sets up day-to-day operations such as human resources, administration, finance, marketing, research and development (or laboratory) units, etc.
+The functional departments maintain the normal operation of the VeChain Foundation, and directly deal with the relevant parties in the commercial society, such as enterprise customers, suppliers, regulators and the three party service organizations.
+4.4 VeChain Human Resource Management
+VeChain is committed to creating the world's most influential open source community ecology. To ensure the smooth development of the technology and the continuity of the Foundation operation, the Foundation will focus on recruiting excellent technology developers and managers with deep understandings of the business.
+Talent Recruitment Based on the characteristics of "Blockchain without borders", the Foundation
+51
+
+welcome talented people from all over the world to join the Foundation. In addition to the individual posts that must be recruited locally (e.g., logistics managers), recruitment is not limited to the place of work or the form of work. VeChain Foundation will, at the same time, follow the best practices in human resource management, develop appropriate human resources plans, recruitment procedures and review procedures to ensure that Foundations attract the right people. As an open source community, VeChain will not only recruit full-time developers, but also employ well-known industry technical adviser. Relevant hiring and salary payment is required for discussion and decision, and signed the terms of cooperation by remuneration and Nomination Committee.
+Performance Appraisal VeChain will do the performance appraisal based on commercial company's best practice that comprehensively consider technology development, business expansion effect, economic operation, fund risk control management etc. The performance appraisal award will be submitted to the remuneration and Nomination Committee and the Strategic Decision Committee for review, and an optimization plan shall be worked out.
+4.5 Risk Assessment and Decision Making Mechanism of VeChain Foundation
+As an innovative technology, Blockchain is not only a disruptive breakthrough in computer core technology, but also a challenge to the traditional commercial society. Therefore, the importance of risk management system is self-evident. The VeChain Foundation is committed to build a risk oriented sustainable chain of block communities. It will continue to operate risk management of the foundation which includes the establishment of risk system, risk assessment, risk response and a series of activities.
+For major risks, the strategic decision Committee will discuss and make decisions. It will classify risks based on event characteristics, such as event impact, extent of impact, probability of tokens and probability of occurrence, and decisions based on priority. For priority events, the relevant Committees of the foundation shall be organized as soon as possible.
+4.6 VeChain Foundation Economy
+In its economic operations, the Foundation promotes the following major principles:
+1) Take the nonprofit as the main principle, and give back to the community; 2) Sustainable development 3) Collaboration and sharing of resources
+52
+
+Financially, the Foundation will seek the financial balance between expanding and community development. In addition to the initial funding received during the ICO, the Foundation will be able to obtain digital asset income through community eco operations. Under the arrangement of the third party trust institution, it will be transparent to distribute all the benefits to all operations and community development.
+
+The Foundation will set up a full-time financial management team to maintain its financial and digital assets. The financial management team reports directly to the strategic decision Committee, and regularly prepare the financial reports and disclosures of the Foundation.
+
+4.6.1 Funding Sources
+
+The main income of the Foundation can be divided into two areas: 1) Non-operating income comprising the initial ICO's funds and the return on digital assets. 2) Regular operating income, including R & D, product sales, patent transfer or licensing, academic exchange and contribution, etc.
+
+The following is a detailed description of the main sources of income:
+
+a. ICO initial startup funds.
+
+VeChain tokens totaling 1 billion VeChain Token(VET). The allocation plan is as follows:
+
+Ratio 41% 9% 23% 5%
+
+Distribution Plan
+
+Details
+
+The income of VeChain Token(VET) crowdsale
+
+VeChain Token(VET)
+
+will be used to VeChain Foundation operation,
+
+crowdsale
+
+including development, marketing, finance and
+
+legal advisory.
+
+Private investors are very influential in the
+
+Private investor
+
+community, and they will help a lot in technology
+
+and business development.
+
+Enterprise investor refers to an enterprise in
+
+VeChain distributed business ecosystem or a
+
+Enterprise investors
+
+service provider for these corporate customers or end users; these enterprise investors will use the
+
+future VeChain Token(VET) as a key
+
+development target in their business activities.
+
+Cofounder, team
+
+development
+
+To be distributed to the founders and development team of the VeChain Token(VET) as their rewards.
+
+53
+
+Ratio 12% 10%
+
+Distribution Plan
+
+Details
+
+Continuous operation and To be reserved for various operating costs and
+
+technological
+
+development of the VeChain.
+
+development
+
+Business development
+
+case
+
+To Choose the suitable industry, using VeChain technology to the strategic deployment of the industry, project support and tokens replacement.
+
+b. Digital asset investment. During continuous operation, the Foundation will allocate about 5% to 10% of the funds or digital assets to invest in the Blockchain industry, such as start-ups and incubators, angel investment in emerging scientific and technological investment.
+c. In the process of building the ecosystem, VeChain will serve as an underlying architectures provider of VeChain and receive a certain amount of digital assets or funds. For example, community participants, enterprises and other VeChain Token(VET) purchasers for GAS, as well as the Foundation. It will provide technical sharing and licensing gains. For this part of the proceeds, the Foundation will continue to invest in the community, form a community constantly expanding, and increase the positive cycle of influence.
+
+4.6.2 Fund Budgeting
+
+As mentioned above, the Foundation's funds spending mainly includes day-today operations, technology development, business development and reinvestment. The main categories are shown in the following table:
+
+Classification Technology Development
+Business Development
+Reinvestment Daily Operation
+
+Percentage 50%
+35%
+10% 5%
+
+Content It mainly includes reward for initial team, recruitment of experts and developers, technical patent and protection of intellectual property rights VeChain business development and training, technical exchange and sharing, periodical publication, alliance establishment or participation, etc. Blockchain, new technology and new team investment or absorption Foundation daily logistics management, transportation and office, financial and reporting needs, etc.
+
+See the foundation's initial forecast for the next four years of its operations:
+
+54
+
+Figure 4.6.2-1 VeChain Foundation's 4 annual revenue forecast (000 RMB)
+Figure 4.6.2-1 VeChain Foundation 4 year cost forecast (000 RMB)
+55
+
+Figure 4.6.2-1 the VeChain Foundation's 4 year retained earnings forecast (000 RMB)
+To sum up, the VeChain Foundation is expected to obtain start-up funds through ICO activities, which took about 3-4 years to achieve:
+1) Foundation scale and influence continues to grow. This includes headcounts increasing to around 100. The Foundation attracted the business world continuously joining with than 150 billion yuan of goods in the VeChain flow.
+2) Foundation completes the self-circulation. The Foundation relies on initial ICO start-up funds to get commercial value from the community and feed back to the community. The Foundation guarantees that the gains will be balanced with the expenditure.
+3) Focusing on R & D and commercial promotion. According to the Foundation and VeChain concept, Foundation has always attached importance to the Blockchain based research and development, and business promotion and expand the influence. Most of the annual expenditure will focus on these two aspects.
+4) Adhere to the nonprofit principle. The Foundation promises not to distribute profits, nor does it call dividends". Foundation operating income, in addition to the basic expenditure of the foundation, will all be put into the expansion of the community, to promote the community growing.
+4.6.3 Fund Use Restriction
+The use of VeChain assets is in line with the principles of openness and transparency. According to the principle of distribution and budget, VeChain will set up a separate account and digital asset wallet address used by depository
+56
+
+institutions to digital assets supervision and regularly share to the community. The principle of the use of revenue from public sale:
+ Exceeding the value of 1 million yuan (or equivalent digital assets) requires approval by the head of the financial unit and the Secretary General.  Over 5 million yuan (or equivalent digital assets) will need to be approved by the policy-making Committee.
+4.6.4 Financial Planning and Implementation Reports
+Each quarter, the financial and personnel management Committee prepare the financial planning, and summarize the last quarter financial performance. The formation of financial reports will be submitted to the decision-making Committee for approval.
+4.6.5 Digital Asset Management
+The digital assets belonging to the Foundation are appointed by the strategic decision Committee, and the full-time financial personnel are responsible for the arrangement. Digital assets and transaction currency are arranged independently and timely financial accounting. Following the best practices of financial control, the Foundation adopts multiple signatures to ensure the safety and accuracy of the assets. All the collected coins will be the timely transfer to digital assets and digital wallet. Foundation assets are not deposited in individual accounts.
+ Digital wallet management Based on the principle of independence, VeChain Foundation's wallet adopts 4/7 multi signature. Added Signature is subject to the approval of the strategic decision Committee. Large tokens is cold saved, and small tokens use multiple signatures.
+ Disclosure matters Each year, the Foundation will inform the community of chain development, operations, business promotion and the Foundation's operations. For the financial situation of the Foundation, the financial statements will be performed quarterly, and the work of the annual audit will be disclosed as well. The Foundation establishes a public relations Committee, which serves as an external window for regular and irregular meetings and releases important information to the public.
+4.7 Legal Compliance Matters and Other Matters
+ Legal affairs 57
+
+VeChain team commissioned a trusted third party organization to set up a Foundation entity in Singapore. All operations are subject to local laws, regulations and regulatory requirements. If there is a need to seek legal advice, it needs to be confirmed by local counsel.
+ Exemption clause VeChain Foundation insists the nonprofit nature of the unit's operations. Whether or not to obtain only chain tokens, Users who participate in the only chain community, can hold token or give up token rights. Holding tokens simultaneously means the holder's own rights to consume and use smart contracts on the Blockchain platform. Buyers should understand that within the scope of the law, VeChain foundation does not make any express or implied warranties and benefits. In addition, buyers should understand that there is no refund or refund after purchasing only chain tokens.
+ Settlement of dispute clause When a dispute arises, the parties concerned shall settle it by consultation in accordance with the agreement. If the settlement cannot be solved by negotiation, it can be settled by law
+5. Introduction of the Team and Team Member
+Team VeChain is a pure internationalized team. The team member is from different industries and countries, but they follows the same dream. The composition of the team is well balanced. Business, technology, operation and support are all important.
+Sunny Lu Project Leader
+Sunny was graduated from Shanghai Jiao Tong University, majored in Electronics and Communication Engineering. He has been served as IT Executive in Fortune 500 companies over 13 years, former CIO of LV China. He started VeChain project in 2015, and committed to Blockchain technology and business implementation.
+58
+
+Richard Fu, PR & Marketing Director
+Richard has over 20 years' working experience in multinational enterprises such as Shangri-la Group and LVHM specializing in sales and marketing. He joined VeChain as director of PR and marketing
+Chin Qian, Channel & Sales Director
+Chin worked for HP from 2004 to 2016 and accumulated rich experience in marketing and project management. He joined VeChain in 2017 as director of business partner recruitment and management.
+Jay Zhang, Finance Director
+Jay has worked for PwC and Deloitte as senior manager over 14 years. He joined VeChain in 2015 as the leader of Blockchain governance framework design and digital assets management framework establishment.
+Scott BrsbinGeneral Counsel
+Scott is a well-known lawyer from the United States. His clients include Rolling Stones and lead singer Mick Jagger, Disney, MGM and so on. He graduated from the University of California, Los Angeles in 1978, he joined the MSK law firm, and since 1989 began as a legal partner. In the company's legal affairs and patent maintenance, he has an absolute authority on the experience. Scott joined VeChain in 2016 and worked for VeChain's legal security, organizational structure and property
+59
+
+escort.
+Jerome Grilleres, Business Development
+Jerome holds an MBA from London Business School and a MSc in Computer Science. He is from Barclays France and has 8 years' experience in Business Strategy and Development in Retail Banking and 6 years in Developing Real Time trading application in Investment Banks. Jerome joined VeChain in 2017 as Business Director of Europe.
+Jianliang Gu, Technical Director
+Jianliang was graduated from Shanghai University with master degree majored in Cybernetics. He was working in TCL communication technology as Technical Director. He has more than 16 years' experience in both hardware and software of embedded system development and management. He joined VeChain in 2017 and commit to marry IoT and Blockchain
+Peter Zhou, R&D director& Scientist
+Dr. Peter Zhou obtained his Ph.D degrees in Computer Science from the University of Southampton. He was involved in projects funded by the European Commission and Academy of Finland when working as a postdoctoral researcher at the University of Kent, UK as well as a senior research scientist at the University of Oulu, Finland. He has had more than ten years of scientific research experiences and published papers in top-tier international journals and conferences.
+60
+
+Bin QianBlockchain Director Bin has over 10 years' experience in Mobile application development industry, specializing in developing Internet applications based real-time communication system. He is definitely P2P network technology expert. He joined VeChain in 2016 and is in charge of the Blockchain development.
+Tony Li, Application development manager Tony's majored in Information Security. He has 5 years' experience developing software and project management. Took part in numerous projects, including financial industry, insurance industry, luxury industry, the automotive industry. He's interested in Bitcoin and Blockchain technology since 2014, and has two years' experience developing in the Blockchain product development. Sherry Li, Product Manager Sherry was graduated from Jiangnan University majored in Information Security. She has over 4 years of experience in application development, project management and product planning, including SAAS service platform, O2O platform and user oriented application. She joined VeChain in 2016 as Product Manager
+61
+
+Jack Wu, Project Manager
+Jack was graduated from St.John's university (New York). He has over 3 years iOS development and project management experiences. Took part in numerous project, including luxury goods industry, government agencies, the automotive industry He joined VeChain in 2016 as Blockchain Project Manager.
+Harvey Shang, DA Facilitator
+Harvey was graduated from University of Florida majored in Computer Science. His study focus in distributed systems and advanced data structure. He joined VeChain in 2016 and continued working in researching digital assets management area.
+Lingbo Li, Risk Controller
+Lingbo was graduated from Chinese Academy of Sciences with master degree in Finance Engineering. She has over 11 years' experience in credit risk management and assets management. She joined VeChain in 2016 and is responsible for digital assets management and related risk control.
+Cissy Chen, HR&Admin Manager
+Cissy has over 6 years' experience in human resource management and worked for sub brands of Unilever before join VeChain in 2015. She is in charge of human resource management, recruitment, staff training, compensation and other related strategies and policies establishment.
+62
+
+

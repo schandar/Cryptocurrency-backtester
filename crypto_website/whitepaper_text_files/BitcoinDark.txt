@@ -1,0 +1,334 @@
+A DIGITAL CASH MOVEMENT FOR THE COMMON GOOD
+www.pura.one
+"I care about more than crypto currencies. In fact they are a means to an end, the end being political empowerment of individuals" (Andreas Antonopolous)
+Whitepaper
+Version 0.2
+
+W H I T E P A P E R 0.2
+
+03 Abstract 04 Introduction 05 Purpose 07 Brand Strategy 09 Network Effect 11 Ecosystem 12 Masternodes
+
+14 Miners 17 Missions 18 Masses & Merchants 19 Quick Facts 20 Contacts & Links
+
+PURA WHITEPAPER
+
+3
+
+ABSTRACT
+
+ABSTRACT
+A self-funded, self-governed, private, instant and secure cryptocurrency based on Dash, the work of Evan Duffield and team (itself based on Bitcoin, the work of Satoshi Nakamoto), elaborated with democratically-decided blockchain-transparent social contribution executed without a central authority, to support the socially responsible decentralisation of currency. Budgets for social contribution, user/merchant adoption and usage incentivisation, budget compounding activities, development and marketing are included as well as a three-tier network and improved mining difficulty adjustment for better distribution and growth, governance improvements to promote increased decentralisation and democratic freedom and various scalability and transaction speed improvements.
+We've taken an advanced and successful cryptocurrency protocol and built mass-adoption strategy into the protocol design in order to support an aggressive market penetration and mainstream acceptance, whilst providing an alternative to centrally organised social contribution, or a way to be your own government.
+
+PURA WHITEPAPER
+
+4
+
+INTRO
+
+INTRODUCTION
+Thanks to the work of Satoshi Nakamoto and Evan Duffield and team, digital currency has reached a maturity level where it can function as a form of digital cash; where an end-user can send an instant, private and secure transaction across a network, and where the network itself can self-fund and self-govern its development and growth efforts in a decentralised manner.
+Aside from the technical challenges which must be overcome to compete with credit cards, banks and fiat currencies like those needed to scale safely and performantly, we believe many of the key elements required for a cryptocurrency to function as digital cash or a payment method are fundamentally in place, and that the success of a cryptocurrency is becoming more dependent on adoption factors like user interfaces, price stability and network effect.
+For this reason, and in the same way as it would be unnecessary or inappropriate to reinvent the wheel, or the fundamentals of a motor engine to build one's vision for a car, we have chosen a derivative of the open source Dash code (itself derived from Bitcoin) for its two-tier network with incentivised masternodes and advanced transaction speed and privacy features as the starting point for our development team to build upon, while adding several improvements related to our purpose, brand vision and mass-adoption strategy.
+
+PURA WHITEPAPER
+
+5
+
+PURPOSE
+
+PURPOSE
+1. THE POLITICAL EMPOWERMENT OF THE INDIVIDUAL 2. THE RESPONSIBLE DECENTRALISATION OF CURRENCY
+JPMorgan Chase Chief Executive Jamie Dimon recently explained Bitcoin and digital currencies with the words:
+"Right now these crypto things are kind of a novelty. People think they're kind of neat. But the bigger they get, the more governments are going to close them down"
+The backlash against the decentralisation of currency is not a matter of "if" but "when".
+When we examine the mainstream reasoning against cryptocurrencies we find a legitimate concern.
+If governments lose control over currency, its distribution and movement, into the hands of the people, and the collection of taxes and social security becomes dependent on the individual's voluntary choice, will there be a loss in the budget for services the government provides? The answer is inevitably yes.
+If we examine why, we find any number of reasons such as... · Force and coercion is used to collect taxes and social security, which causes pain and actions
+that seek to avoid that pain · Social dilemma and apathy kicks in when people can't see, comprehend nor appreciate the
+value centralised systems of government provide them with, and may either not choose to contribute consistently, not choose to contribute at all, or may simply forget. (The same is equally true for purely voluntary decentralised alternatives at least during any reorientation period to a new form of social organisation). · A decentralised alternative is not yet available for them to support · They are not yet familiar with or able to understand or use the alternative yet · And so on...
+However, the original intent behind taxes and social contributions is clearly a good one. Even the most extreme libertarian will concede the money for education, schools, hospitals, ambulances, firefighters, and the like has to come from somewhere, at least until the day when all services are successfully decentralised, if ever.
+And so the question arises as to what can begin to rebalance tax and social security losses if cryptocurrency grows to the extent that those losses have a truly negative and significant effect, and can decentralised currency co-exist side by side with centralised currency and still be good for society and support the best intentions of social security or taxes at the same time.
+We propose a simplistic but guiding answer is whether a specific cryptocurrency is a social giver or a taker by protocol design.
+
+PURA WHITEPAPER
+
+6
+
+PURPOSE
+
+"You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete." (R. Buckminster Fuller)
+While we are under no illusion that we are going to prevent the imminent backlash, solve the world's social contribution collection problems or replace the distribution process behind a central government's budget funds, we do propose to take the political empowerment of individuals to an unprecedented level and give them tools to explore how we might begin to cocreate a route that represents a more responsible decentralisation of currency.
+By building decentralised social responsibility and contribution into our brand fibre and protocol design, and by putting the decision-making power on how those funds are spent into the hands of our users, we aim to provide an environment that pioneers a new method of societal organisation, enabling politically empowered individuals to not only be their own bank, but get a feel for what it could be like to, in part, be their own government.
+THE CASE FOR THE COMMON GOOD We believe individuals are fundamentally good, and by giving our users a voice, a choice, and a way to collaborate, the shared will they pursue is good for society and the world.
+Therefore rather than a central authority deciding what the "common good" is and enforcing its definition onto others, we propose to provide the tools and environment for individual users to do so through their vote on the funding of social and environmental projects proposed by the community.
+Hence our brand is dubbed "The digital cash movement for the common good".
+
+PURA WHITEPAPER
+
+7
+
+BRAND STRATEGY
+
+BRAND STRATEGY
+The fact cryptocurrencies are in a race for mass-adoption is clear.
+Branding is one of the major factors that makes people chose one brand over another, and ultimately part of the battle in who wins the race for mass adoption, who survives and who goes to zero.
+EMERGING MARKET READY Pura, while a global cryptocurrency, is named with Latin American emerging markets in mind where the pain to switch to non-deflationary currency is driven by factors like storing the value of one's life savings, or the solution cryptocurrency provides the global remittance market where for example workers or students need to send money back to their home countries is significant, and where adoption is driven more by basic urgent need.
+A PURPOSE-DRIVEN BRAND According to research by Cone Communications and Edelman: · Consumers are more likely to trust a brand that shows its direct impact on society · Upwards of 80 percent, are more likely to purchase from a company that can quantifiably
+show how it makes a difference in people's lives. · 89 percent are likely to switch brands to one that is associated with a good cause if price and
+quality are similar
+Edelman's "Good Purpose Study," released in 2012 but still relevant and covering a five-year study of consumers worldwide showed: · 47 percent of global consumers buy brands that support a good cause at least monthly, a 47
+percent increase in just two years. · 72 percent of consumers would recommend a brand that supports a good cause over one
+that doesn't, a 39 percent increase since 2008 · 71 percent of consumers would help a brand promote its products or services if there is a
+good cause behind them, representing a growth of 34 percent since 2008 · 73 percent of consumers would switch brands if a different brand of similar quality supported
+a good cause, which is a 9 percent increase since 2009
+This new state of purpose-driven consumerism doesn't just show people still have a heart and soul, it is a big flag to brands to integrate Social Responsibility into their brand fibre, customer experience and marketing programs.
+By positioning Pura as a purpose-driven brand with democratically-decided social contribution built into it's core architecture and brand fibre, Pura gives end-users a way to make a difference to the lives of others and have a direct impact on the environment.
+This unique selling point gives mass-market end-users and merchants a clear and compelling ideological reason to consistently choose Pura over the competition.
+A brand image that stands for something truly positive with sticky emotional substance that motivates and engages people to express their purpose and values through our brand will help catalyse adoption and build brand equity.
+
+PURA WHITEPAPER
+
+8
+
+BRAND STRATEGY
+
+A community of end-users who rally behind a purpose in the pursuit of a shared will, will build an enthusiastic and optimistic community, long-term loyalty and numerous other benefits.
+We also believe a brand image of esteem and goodwill will challenge and help eliminate some of the "Wild-West" perceptions of cryptocurrency that may exist in the minds of the mass market and assist with mainstream acceptance of our brand.
+And by being the world's first socially and environmentally conscious cryptocurrency that is programmed by protocol design to contribute up to 10% of its mining rewards to the common good, Pura is positioned to capture the hearts and minds of the rising trend and growing subculture of purpose-driven users and merchants today and over the coming years, who want to make a difference, and choose brands that have a direct impact on the world.
+By riding this rising trend we are well positioned for growth.
+USER & MERCHANT PREFERRED Several adoption tactics will be built into the protocol design for users as well as merchants. These will give users not interested in the purpose of our brand several compelling reasons to switch. Details to be disclosed in a later whitepaper version due to their competitive nature.
+
+PURA WHITEPAPER
+
+9
+
+ADOPTION
+
+NETWORK EFFECT
+We have chosen to build in several levels of mass-adoption strategy into the Pura protocol in order to be aggressive enough to be able to catch up and compete with established currencies existing network effects and overtake them.
+CONTRIBUTIONS NETWORK EFFECT We envision that the social contribution aspect of our brand and the funding of related projects will create a global network of collaborators to include non-profits and prosocial causes and we imagine this will cause a multidimensional distribution of Pura extending up into their supply chain of partners and fund recipients, generating a significant adoption spill-over effect.
+For example, in the case of any non-profit work which our community decides to fund, we anticipate Pura wallet ownership pressure will increase for suppliers and partners who deal with Pura donation recipients, simply because passing on funds from Pura wallet to Pura wallet is quicker, easier and cheaper than going through an exchange, fiat and related bank accounts in order to reach their destination.
+DAO NETWORK EFFECT We believe the use of a layer of masternodes to reach consensus on network changes quickly, and the political empowerment of masternode operators with a democratic voice and vote on proposals and the decisions surrounding the spending of treasury funds is both a paradigm shift and a social breakthrough.
+Furthermore, inviting a community of users to get involved and submit proposals is in part responsible for the quick growth of passionate, engaged and invested communities.
+However, we believe the full potential of DAOs to drive adoption and build communities is largely untapped.
+So far DAOs have attracted the early market of techies and early adopters and engaged them in activities like governance around network issues, and treasury decisions around proposals related to development of the network, software layers, functionality and various marketing activities.
+The dual DAO model of Pura will do all this but also include another DAO that takes the political empowerment of the individual to the next level, by giving not only masternode owners, but our entire user base a vote and a way to make a difference.
+We believe the use of a DAO in this way will generate further network effect that not only engages the early market, but pulls in more of the mass-market. As a result we envisage a rapid and sizable growth of a community of interested end-users and merchants.
+MERCHANT AND USER ADOPTION TACTICS We are under no illusion that our social contributions DAO unique selling proposition is interesting to the entire mass-market. An important segment of adopters will gravitate to our brand and stick to it, while many will not and do not care about being their own bank let alone, in a sense, being their own government, but they would use a new technology if it saves them time and money in their daily lives.
+
+PURA WHITEPAPER
+
+10
+
+ADOPTION
+
+To address this we have several tactics planned for the network that form an aggressive massadoption strategy for user acquisition and retention, and merchant adoption. (To be revealed when appropriate given their competitive nature).
+FAIR MINING NETWORK EFFECT The Pura network has implemented code which aims to better distribute mining rewards in the community, and thus spread, grow and reach more individuals. (See own section for details).
+"THIRD TIER" NETWORK EFFECT Pura's fair mining code supports the strategic and technical enabling of a third network tier related to empowering the average Joe, itself acting as a mass-adoption agent and catalyst. (Details to be revealed in a later whitepaper version).
+
+PURA WHITEPAPER
+
+11
+
+ECOSYSTEM
+
+DIGITAL CASH FOR THE COMMON GOOD
+
+MINERS
+
+MASTERNODES
+
+MASSES
+
+MERCHANTS
+
+MISSIONS
+
+A COMMON GOOD ECOSYSTEM
+
+ECOSYSTEM The Common Good Ecosystem, and its various social and technical or functional goals are outlined in the following section.
+
+PURA WHITEPAPER
+
+12
+
+MASTERNODES
+
+MASTERNODES
+VALUE PROPOSITION Pura's incentivised layer of masternodes provides efficient, reliable and advanced services to the network, creates a circulating coin supply that is attractive to emerging markets, and helps provide some of the coin price stability needed for mass-market adoption.
+GUARANTEED PERFORMANCE Pura's next-generation peer-to-peer payments network ensures that transactions do not underperform or even hang depending on mining hashpower. Pura is coded to reward incentivised individuals who actively protect the Pura network. So called MasterNode owners, these individuals operate servers that remain online, performant, and on call at all times, in order to guarantee that transactions execute instantly, privately and safely.
+Unlike single layer systems like Bitcoin, where miners voluntarily support the network as long as their equipment is competitively performant and profitable, and where changes to the code need lengthy periods of time and complicated risky processes between parties who do not always agree, Pura's paid masternode layer, a derivative from Dash, means Pura can scale more efficiently and deploy services more quickly than a blockchain run entirely by unpaid volunteers.
+Furthermore, the Pura network rewards masternode owners frequently and generously, so there is no risk of not having enough masternodes, and by having an entire incentivised distributed network of servers each holding a full copy of the blockchain and working for Pura 24x7, the developers can rely on them to quickly deploy any additional new feature they wish, as well as ensure that the performance of advanced features like PrivatePay and InstaPay is guaranteed.
+EMERGING MARKET READY Because of the profitable nature of running a masternode, owning one is attractive, and in order to avoid bloating the network with unnecessary masternodes or encouraging reckless masternode operators, one condition must be fulfilled in order to become a masternode owner ­ proof of ownership of a certain number of coins.
+While the coins don't need to be in the masternode itself, meaning the owner can sell them anytime, proof of ownership is achieved by keeping the coins in a certain way that makes them transparent to the entire network. And so, the number of coins needed for a masternode must be chosen carefully since coins locked in masternodes means they are no longer available to endusers.
+Pura is a digital cash movement for the common good with a strategic focus on global growth and mass-adoption. To achieve this Pura has chosen a high total coin supply of approx. 350 million Pura, as well as a high available coin supply of approx. 175 million Pura currently in circulation, with around another 175 million yet to be mined.
+As the price per coin increases over time, in order to remain accessible, attractive and useful in emerging markets and be successfully adopted there, Pura must sustain a high number of coins in circulation. In order to avoid unnecessary masternodes locking up the coin supply, Pura achieves this by setting proof of ownership for a masternode at 100 thousand Pura.
+
+PURA WHITEPAPER
+
+13
+
+MASTERNODES
+
+For comparison let us take the current situation with Dash (using approximate numbers for simplicity): A Dash masternode requires 1000 Dash. Dash has a total coin supply of 22 million, where 7.5 million is already mined and available out of which 4.6 million is already locked up in 4666 masternodes. This leaves just 2.9 million Dash to go around the world. Buying 1000 Dash today is not cheap, but the number of masternodes continues to rise, which can affect the coin supply available to end-users further.
+A Pura masternode on the other hand requires 100000 Pura. Pura has a total coin supply of approx 350 million, where 175 million is already mined and available. While unlikely, if we assume a case where the same ratio of masternodes occurs, then around 109 million Pura would be locked up in 1088 masternodes. This leaves 66 million Pura to go around the world ­ a significant and attractive difference, especially for emerging market adoption.
+PRICE STABILISING EFFECT Another major benefit of a 100 thousand coins per masternode size is the stabilising effect it has on the coin price. Pura's highly attractive masternode rewards structure makes buying the high number of coins needed attractive and worthwhile. Many masternodes will be formed by quick investors and enthusiastic supporters, each time removing 100k coins from the market, while increasing the value of the remaining coins. The high number of coins per masternode implies a higher commitment level and with each masternode being valued more, the turnover of masternode ownerships remains relatively low as owners tend to stay invested over the longerterm. The combined effect is the circulating coin supply, it's growth rate and the value of each coin is to a certain degree stabilised, helping to create the price stability conditions needed for massmarket adoption.
+SOCIAL GOALS · The political empowerment of masternode owners to decide on the spending of a treasury
+budget related to development and marketing activities and own the democratic vote on related proposals (credit to Evan Duffield and team for achieving this)
+TECHNICAL GOALS · Advanced transaction speed and privacy · Avoid unconfirmed transactions left hanging in the network
+
+PURA WHITEPAPER
+
+14
+
+MINERS
+
+MINERS
+VALUE PROPOSITION FAIR MINING FOR THE COMMON GOOD "Fair mining" code empowers individual miners to receive a fairer share of the mining rewards by enabling them to better compete with large mining pools without needing to invest large sums of money in specialised mining equipment.
+By making the Pura network more attractive to higher volumes of individual miners Pura seeks to ensure greater democratic freedom through more evenly distributed and therefore decentralised mining power, and enhance network performance through a more consistent and therefore stable level of network hashpower.
+PROBLEM The mining of a blockchain is carried out by miners who perform complex mathematical computations - called "hashes" - to guess the answers to problems posed by a specific coins mining algorithm. In return miners are rewarded for their work with a predefined number of coins.
+Hashes take time, energy and resources to perform, and since each hash has the same chance as any other hash to find the block and "win" the block reward, more hashpower means more chances to find blocks and their related rewards.
+Given the profitability of mining, many people build powerful computers running specialised software to have a greater chance to win the block reward and earn more than the average miner.
+This has led to the what has become an "arms race" (e.g. Bitcoin mining) where big players who can afford to purchase millions of dollars worth of mining equipment cheaper than the little players posses so much hashpower that the chances of an individual miner to find a block and receive a fair share of the mining rewards diminish while their electricity, hardware and software costs to compete increase, essentially squeezing the individual out of the game.
+The result is greater and greater centralisation, and the unfair concentration of mining and it's related rewards into the hands of the few.
+Then instead of having a decentralized currency managed by the people we are back to a controlled currency where mining pools control the currency (and anyone who recently experienced the Bitcoin Cash fork is a testament to this reality forced upon them by the few, whether for good or bad).
+The existence of such powerful mining pools creates further problems.
+The reality is that with so many different cryptocurrencies out there today, each with their own exchange rate at any given moment in time, in order to maximise profits, miners will sometimes mine one coin when it is most profitable to do so, and then as soon as its profitability decreases they will switch to another coin, essentially "dumping" the network.
+
+PURA WHITEPAPER
+
+15
+
+MINERS
+
+Large mining pools are often set up in this way - to always mine the most profitable coin - and by hopping currencies like this mining pools create wild fluctuations in the overall network hashpower, causing a number of issues for individual miners, as well as to the network's stability and performance.
+A network's "block time" represents the ideal rate at which blocks are found by miners, in order to ensure the steady release of the coin supply over a specific coins' mining lifetime, as well as to maintain a reliable level of network stability and a low latency level in the validation of transactions.
+In reality, as miners join or leave a network it's total hashpower varies, and when a network looks back over the last blocks to see how close to the ideal block time blocks were found, it adjusts a "difficulty" function up or down depending on whether blocks were found early (easily) or later than the intended block time.
+The result is that when a network detects it has a small proportion of mining hashpower it adjusts the difficulty downwards making it easier to find blocks and get rewards. Conversely, when the network detects it has a large proportion of the mining hashpower it adjusts the difficulty function upwards making it harder to find blocks and get rewards.
+Miners are aware of this fact. Seeking to optimise profits they wait until the "correct" time with a high likelihood of finding a block before hopping onto the network.
+When mining pools with huge amounts of hashpower hop onto a network, they soon enough drive the difficulty adjustment to find blocks up until it reaches a peak and then "dump" the network to find another network to join and mine, repeating the cycle over and over.
+As a consequence, the fair share of mining and mining rewards an individual miner can access is negatively impacted, since they try to compete and are forced to mine in an environment of high mining difficulty (read high electricity costs and low returns) created by the difficulty distortion effects of mining pool "jump and dumps". In fact even when the mining pools have left the network, mining difficulty stays high and lowers with a certain (distorted) delay only when the network readjusts to the new much lower hashpower remaining in the network.
+Drops in hashpower can then leave the network instable, impact transactions and even leave them hanging in the system. Advanced features like PrivatePay and InstaPay may also be affected. Furthermore when mining pools dump sell their coins there may be an undesired effect on coin price stability, a key factor in the mass-adoption of a cryptocurrency.
+SOLUTION Pura seeks to insulate it's network from the effects of "jump and dump" mining and better cope with hashpower fluctuations.
+It achieves this by applying an innovative mining difficulty retargeting algorithm known as DeltaDiff, that ensures a smoother and fairer adjustment in mining difficulty.
+Smoothing is achieved by adjusting mining difficulty based on a moving average of time taken to find blocks over the last 24 hours, eliminating much of the effect caused by miners hopping onto and off of the network based solely on when a coin is easiest to mine.
+
+PURA WHITEPAPER
+
+16
+
+MINERS
+
+In this way individual miners have a fairer share in the mining and related rewards, transactions are confirmed smoothly and transaction features like PrivatePay and InstaPay are highly performant.
+We also note that "fair mining" is a unique selling point which other networks would have to "hard-fork" to achieve.
+Furthermore the implementation of "fair mining" code not only immediately benefits individual miners and the Pura network, but forms part of a greater strategic and technical enabling of upcoming features yet to be announced related to empowering "the average Joe"; a powerful component of our mass-adoption strategy.
+SOCIAL GOALS More evenly distributed and therefore decentralised mining power to support: · The empowerment of the many over the few, thereby supporting the pursuit of the common
+good · The avoidance of a specialised mining equipment "arms race" making mining inaccessible to
+individual miners (e.g. Bitcoin mining) · A fairer distribution of mining rewards and therefore wealth in society · Greater democratic freedom with regards to network changes and the avoidance of
+contentious hard forks caused by conflicting concentrations of power (e.g. Bitcoin Cash)
+TECHNICAL GOALS Greater consistency and stability of network hashpower in order to: · Avoid unconfirmed transactions left hanging in the network · Secure performance of advanced transaction features such as PrivatePay and InstaPay
+
+PURA WHITEPAPER
+
+17
+
+MISSIONS
+
+MISSIONS
+VALUE PROPOSITION DEMOCRATICALLY-DECIDED DECENTRALISED AND TRANSPARENT SOCIAL CONTRIBUTION Empower end-users with a way to directly vote on and fund social and environmental projects, track the movement of funds, and see tangible results achieved in an accountable and transparent manner.
+PROBLEM Trust in charity is at an all time low as donors question the efficiency and cost of administration, and exactly how much of their donation reaches it's destination. The same is true for many other centralised common good or goodwill efforts today.
+SOLUTION By getting charities, causes and projects onto the blockchain, users ensure that contributions get tracked, the spending of funds is transparent, and fund recipients are held accountable to the community. In this way the need to simply trust a nonprofit or prosocial cause based on good faith alone is no longer necessary.
+Social contributions for the common good are envisaged to fund projects ranging from environmental (such as ocean cleanup or anti-deforestation efforts), philanthropic and humanitarian (such as the housing or feeding of those in need, research and development efforts and so on) and disaster relief efforts (such as getting food, clean water and facilities into hurricane or earthquake relief zones).
+SOCIAL GOALS · Help with initiatives where no one single nation state feels responsible to invest or act or is
+simply unable to do so e.g. clean up plastic from the worlds oceans and other global impact projects · Take the political empowerment of the individual to a new level by giving the average Joe a taste of what it's like to "be your own government" · Provide people with an opportunity for next level, decentralised stewardship of the planet and society and be a shining example of a new higher way that pioneers the responsible decentralisation of currency · Empower community members to govern on how to spend the related treasury, exploring new aspects of DAOs, personal responsibility, personal values and human purpose. · Transmit a brand image of esteem and goodwill to help eliminate some of the "Wild-West" perceptions of cryptocurrency that may exist in the minds of the mass market
+TECHNICAL GOALS · Provide the community with a treasury management system and project proposals portal to
+list and track related projects and enable end-users to decide on which projects to fund. · Gamify the donation experience and quantifiably show users the impact of their support. · Integrate enhanced transparency, accountability and feedback loop features to help solve
+some the lack of accountability and visibility over results experienced by cryptocurrencies with DAOs so far.
+
+PURA WHITEPAPER
+
+18
+
+MASSES & MERCHANTS
+
+MASSES (USERS)
+Due to their competitive nature features in this area will be elaborated in a later whitepaper
+
+MERCHANTS
+Due to their competitive nature features in this area will be elaborated in a later whitepaper
+
+PURA WHITEPAPER
+
+19
+
+QUICK FACTS
+
+Quick
+FACTS
+
+Coin Name : Coin Tag : Total Coin Supply:
+
+Pura PURA 350.000.000
+
+P2P Port :
+
+44444
+
+RPC Port :
+
+55555
+
+Masternode Port :
+
+44444
+
+(Same as P2P Port)
+
+[Note: Only 1 Masternode per IP allowed. If more are activated then
+
+all nodes from the same IP receive a local ban. No Internal IPs allowed
+
+(e.g. 127.0.0.1 , 192.168.0.2)]
+
+
+
+X11 Dep. on delta diff. adjustment approx. 1.5-4 min to be adjusted in next update
+
+
+
+25.16 Pura 100 Blocks 60% of Block Reward
+100000 PURA 15 Blocks (Can be Pre-Enabled when it has 16 con irms) IPv4 only (IPv6 must be disabled) 10-20min
+
+
+
+44443 55554
+
+44443 55553
+
+1000
+
+1000 1000
+8
+
+CONTACTS
+
+EMAIL
+info@pura.one
+WEBSITE
+www.pura.one
+
+DOWNLOAD WALLET
+https://github.com/puracore/pura/ releases
+
+SOCIAL MEDIA
+Facebook: https://www.facebook.com/officialpura/
+Twitter: @PuraSocial
+Telegram: https://t.me/joinchat/ F6kj1koChG_CJB4SdDRQew
+Slack: puracore.slack.com Slack Invite Link: https://join.slack.com/t/puracore/shared_invite/
+Bitcointalk: https://bitcointalk.org/index.php?topic=2129477
+
+TECH
+https://github.com/PURAcore/PURA
+
+

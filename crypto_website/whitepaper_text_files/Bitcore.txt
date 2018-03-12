@@ -1,0 +1,416 @@
+FunFair: Disruptive online gaming on the blockchain that's Fun, Fast and Fair
+v1.0 June 20, 2017 The FunFair Team.
+
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair
+
+1
+
+Contents
+
+1 Executive Summary
+
+4
+
+1.1 An Experienced Team that you can Trust . . . . . . . . . . . . . . . . . . . . . . . . . 4
+
+1.2 The Platform . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+
+1.3 FUN Token in Brief . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+
+2 Great Games ­ Based on Experience
+
+6
+
+3 Operators: Launch A Casino in 2 Clicks
+
+7
+
+3.1 Developer Friendly . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+
+3.2 ENS-Ready . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+
+4 Instant, Frictionless Gaming
+
+7
+
+4.1 Signup and KYC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+
+4.2 Putting Social First . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+
+4.3 HTML Only . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+
+5 10x Cheaper Betting
+
+8
+
+5.1 Current Competition is Unsustainable . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+
+5.2 Fate Channels: A Long-Term Solution . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+
+6 Serverless Operations
+
+9
+
+7 Platform diagram
+
+10
+
+8 The FunFair Team
+
+10
+
+9 FUN Token Mechanics
+
+12
+
+9.1 FunFair is built on FUN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+
+9.2 FUN Issuance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+
+10 Detailed Issuance Description
+
+13
+
+10.1 Phase 1 Bonus Period . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+10.2 Phase 1 Key Dates and Information . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+10.3 Off-Chain Crediting Vs. On-Chain . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+
+10.4 Server Multi-Mint Solution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+10.5 Excluded Contributions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+10.6 Crediting Bitcoin and Zcash . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+10.7 Crediting Fiat Wires . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+11 The FUN Token Contract Details
+
+18
+
+11.1 Public Review of Token Contract . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+12 FunFair User Stories
+
+18
+
+12.1 Online Gaming Newcomer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+12.2 Publisher with a Big Readership . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+12.3 The Nonprofit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+
+12.4 The Gamer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+
+13 Online Gaming Market Analysis
+
+19
+
+13.1 The Trust Issue . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+
+13.2 The Mobile Opportunity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+
+2
+
+CONTENTS
+14 Roadmap 15 Disclaimer
+
+CONTENTS
+21 22
+
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair
+
+3
+
+1 EXECUTIVE SUMMARY
+
+1 Executive Summary
+We are FunFair and we're revolutionizing the gaming industry by harnessing the power of the blockchain in the online gaming market. We know why blockchain gaming has failed to reached a mass audience and this whitepaper will give you an overview of how we are delivering solutions which ensure that the future of online casino gaming is fun, fast and fair.
+1.1 An Experienced Team that you can Trust
+Headed by Jez San and Jeremy Longley, our executive team has collectively overseen more than six million player signups, billions of dollars in player bets and has published games that have sold millions of units at retail.
+1.2 The Platform
+We are excited to announce the FunFair online casino gaming platform. Our Ethereum-based technology: · Proves that fun, high quality 3D games can be built in HTML5 · Publishes online casinos for operators in just two clicks · Is instant · Is 10x cheaper per bet than other platforms (gas costs) · Will be completely serverless and decentralized at launch · Is built on FUN -- the FunFair platform token · Will be protected by several technology patents (pending) · Is an open architecture that makes it the platform of choice for developers
+While other platforms intending to launch this year struggle to work as claimed, we already know what it takes to make it work -- and we've already built it.
+1.3 FUN Token in Brief
+Our token FUN will be used for all platform actions, including betting, lending, paying out players and compensating stakeholders. FUN will only be created during a single event commencing June 22, 2017 at 14:00 UTC. It will be issued in two phases: Phase 1 is the initial token creation event; Phase 2 is a Dutch auction, in which tokens held in trust will be offered for sale. Tokens left unsold in Phase 2 will be distributed pro rata to Phase 1 token holders. FUN should become more valuable and useful over time as additional FunFair developers and operators launch casinos and new games. Phase 1 Start Date: June 22, 2017 (UTC 2017-06-22T14:00:00Z) Phase 1 End Date: July 7, 2017 (UTC 2017-07-07T14:00:00Z) Phase 1 Cap: 500 million FUN soft, 1 billion FUN hard. Phase 1 Price: 100 FUN/USD Phase 1 Founder Stake: 37.5% Phase 1 Advisor Stake: 2.5%
+
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair
+
+4
+
+1.3 FUN Token in Brief
+
+1 EXECUTIVE SUMMARY
+
+Phase 1 Bonus Period: Up to 150 FUN/USD
+Phase 1 FUN Creation will end 4 hours after 500 million FUN are issued or on July 7, 2017 at 14:00 UTC (2017-07-21T14:00:00Z), whichever is earlier. If 1 billion FUN are issued, the creation period will end immediately. For further details please refer to the specific issuance description in this document and visit https://funfair.io to learn more and sign up for updates.
+Phase 2 Trust: 3X the total number of FUN issued in Phase 1 will be created and held in trust until the Phase 2 Dutch auction event.
+Phase 2 Auction Date: TBD (Sept likely)
+Phase 2 Auction Distribution: Any tokens not sold in the Phase 2 auction will be distributed pro rata to Phase 1 token holders.
+For further details please refer to the specific issuance description in this document and visit https://funfair.io to learn more and sign up for updates.
+
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair
+
+5
+
+2 GREAT GAMES ­ BASED ON EXPERIENCE
+2 Great Games ­ Based on Experience
+
+Figure 1: 3D Roulette - one of the Many Games Built on the FunFair Platform
+Combined, FunFair's founders have a proven track record of over 40 years' creating innovative interactive entertainment products and have sold millions of games in the process. We know what it takes to make a good casino game great and now we've built the world's first blockchain-based platform that is capable of meeting the demands of a high-quality online gaming experience.
+Our core team comprises more than ten full-time developers and we have already completed the first blockchain-based 3D games using the FunFair platform in HTML5. These initial games stand as a fully-playable proof of concept, demonstrating the advanced capabilities of FunFair's platform and serving as inspiration in order to kickstart the ecosystem ofoperators and developers around the world.
+Games built on the FunFair platform run directly in the browser on desktop and mobile devices without requiring an app download, completely eliminating one of the major pain-points of player onboarding.
+Here are sample images of some games under construction (we have six in our launch suite). You can view more images and videos of these games in action on the website. They will be offered as playable prototypes prior to the token event to demonstrate the technologies and capabilities of the platform, including the first generation Fate Channel technology will be playable in at least one of the games
+
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair
+
+6
+
+4 INSTANT, FRICTIONLESS GAMING
+
+3 Operators: Launch A Casino in 2 Clicks
+We're not planning on launching just one online gaming casino -- we have built a platform to effortlessly launch thousands of online casinos, hosted by operators and organizations of all sizes, anywhere in the world. Operators and developers who license the FunFair platform have the ability to create fully-customized player experiences for traditional games of chance such as slots, blackjack, roulette and baccarat. We want to enable anyone who wishes to build, publish, host and play them -- and for all parties to be fully assured that every game is fair and trustworthy. Unlike any existing online gaming platforms or services, a FunFair license allows an operator to easily set up and host their own casino under a private label. Individuals or organizations will be able to select games from a marketplace and offer standard or VIP rooms with customized in-house bonuses for their players. When the operator is ready, the platform enables them to publish a full casino suite and go live in just two clicks.
+3.1 Developer Friendly
+FunFair's platform is designed by game developers, with game developers in mind. The games already built demonstrate the superiority of the FunFair platform. No other platform has to date been able to offer instant, cost-effective real-money gaming to players and developers.
+3.2 ENS-Ready
+FunFair investors have already acquired several gaming-related .eth domains, including blackjack.eth, for FunFair operators' and affiliates' exclusive use. Full details on how to access these domains will be published in Q3 2017.
+
+4 Instant, Frictionless Gaming
+To date, developers have not been able to create blockchain-based games that are worth playing. Nobody wants to sit for a minute (or longer) while the dice roll waits for multiple blocks to be mined before it can report the result back to the player. Yet this is the state of blockchain gaming today. None of our competitors have addressed this shortcoming -- not because they don't recognize the issue, but because it's a very complex problem that nobody has solved -- until now. FunFair's patent-pending technology does the hard work of making truly instant blockchain games available to everyone. This is what will win the market.
+4.1 Signup and KYC
+Self-sovereign identity technology from industry leaders including Consensys Civic and New Alchemy is coming to market later this year. Where possible we are planning to support these technologies to allow safe, private single-click sign-ups that take less than a second. We believe that every second of customer time saved during sign-up will double participation1.
+1Every 100ms of Latency Costs Amazon 1% of Profit
+
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair
+
+7
+
+4.2 Putting Social First
+
+5 10X CHEAPER BETTING
+
+4.2 Putting Social First
+The FunFair platform has been designed from the ground up to encourage viral uptake. All casino games are designed for easy invites and sharing so that users can create virtual groups and play with their friends. Additionally, post- launch, functionality will be integrated which allows operators to grant affiliate revenue sharing to social players.
+4.3 HTML Only
+We've created a browser-based online gaming platform that utilizes the HTML5 and WebGL standards on both mobile devices and desktop computers to provide the rich 3D graphics to deliver a highly polished fast and responsive user experience that players of app-based games are used to.
+
+5 10x Cheaper Betting
+The sluggishness of legacy blockchain-based games isn't their only limitation: Even if players were patient enough to play fewer than 30 bets per hour, they wouldn't be prepared to pay the price. Not only can high transaction costs wipe out winnings for players, they can also severely impact earnings for operators.
+5.1 Current Competition is Unsustainable
+We have been actively tracking gas costs across multiple Ethereum blockchain-based casinos presently operating. Transaction costs to play a single hand of blackjack can exceed $1.00 and dice games can exceed $.75 per bet on average.
+A typical preferred individual bet stake is in the $1-$10 range -- this is how the majority of real-money bets are staked globally. At these sizes, transactions fees can overwhelm the size of the bet.
+Even when a player wishes to make larger bets in the $20 range, the transaction costs can still overwhelm the house edge -- in total an average 12% cost between house edge and fees. For this reason, only players willing to stake amounts greater than $50 generally play these games. Lowering gas costs is only a temporary solution because as ETH prices rise, fee costs will make bets such as this uneconomical once more.
+As part of our market research we contacted Encore Las Vegas, a high-end casino operator, to determine what percentage of their machines are used for high dollar bets. Encore's representatives estimated that there were "definitely five" $50+ slots out of 1,000 machines in the entire casino (as of June 6, 2017.) It is apparent to us that high-stake bets in excess of $50 will not become commonplace in typical use-case situations.
+
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair
+
+8
+
+5.2 Fate Channels: A Long-Term Solution
+5.2 Fate Channels: A Long-Term Solution
+
+6 SERVERLESS OPERATIONS
+
+Online games should be cost-effective, affording repeat gameplay without adding unsustainable transaction costs. Because ETH prices may continue to rise, pushing up gas costs in the process, we needed to devise a solution that provides bets at less than 1/100th of the current industry cost. Typical competitor costs today can exceed 10% per bet for players -- our goal is 0.1%.
+We believe that we have created a long-term solution for transaction cost problems with a unique patent-pending implementation of State Channel technology, developed specifically for online gaming. We call this technology Fate Channels.
+A Fate Channel is a State Channel opened for the duration of a gaming session, supporting custom gaming messages between the FunFair client and server. The only transactions on the blockchain occur at the beginning and end of the gaming session. Because a gaming session is instant and can include hundreds of bets, our costs are an order of magnitude lower than our competitors.
+A complete description of Fate Channels, our Random Number Generation Scheme and the Technology Roadmap can be downloaded in the White Paper section at funfair.io.
+
+6 Serverless Operations
+FunFair has been engineered to be as attractive to online gaming operators as it is to players, eliminating server racks and stifling overhead costs of the traditional online gaming systems (that can run into millions of dollars to deploy). Our existing technology allows licensees much lower overhead costs for running a casino.
+By the time FunFair launches its v4 Fate Channel implementation the system will be entirely serverless.
+A completely serverless, employeeless peer-to-peer casino is vastly more resilient and significantly cheaper to operate than one which must deal with banking institutions, data center hosting costs and
+
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair
+
+9
+
+8 THE FUNFAIR TEAM payroll management. We firmly believe our technology will be transformative for the online gaming industry.
+7 Platform diagram
+8 The FunFair Team
+Jez San, OBE was inspired to become a computer game developer in the 1970s, and after playing the first ever massively multiplayer game Multi-User Dungeon (MUD) he founded one of the earliest British games developers, Argonaut in 1982, creating multiple multi-million-selling videogames including Star Fox, Croc, and Harry Potter. Jez was a pioneer in the field of real-time 3D computer graphics and his first game, StarGlider, was one of the earliest 3D games ever published. He co-invented the Super FX graphics RISC processor for Nintendo, the first custom chip to render 3D computer graphics in a game system. Jez has maintained an active role in computer games and online gaming, including work with console game developers Ninja Theory, mobile developer Origin8 and until recently PKR.com, a leading 3D online poker room. Jez is also an angel investor and some of his investments have included the artificial intelligence pioneer DeepMind Technologies (acquired by Google in 2014) and the cryptocurrency exchange Kraken.
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair 10
+
+8 THE FUNFAIR TEAM In 2002, Jez was made an Officer of the Most Excellent Order of the British Empire for services to computer games.
+Jeremy Longley is a highly experienced, versatile, passionate, analytical leader with over 15 years' experience managing technology teams. In 2005 he co-founded the online gaming site PKR.com with Jez San and served as its CTO, leading a team of over 100 technical employees to develop an award-winning fully 3D game environment. PKR developed a range of 2D and 3D casino games, including iOS, Android and HTML5 products as well as a customization avatar system. Jeremy has also led development of a full in-site account management and cashier system, and systems integration with third-party providers including PlayTech, OpenBet and Ladbrokes/GBE as wel as extensive back office and business intelligence functionality.
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair 11
+
+9 FUN Token Mechanics
+
+9 FUN TOKEN MECHANICS
+
+9.1 FunFair is built on FUN
+FunFair's token, FUN, is the coin of the realm on the FunFair platform. It is the fundamental method of interacting with FunFair smart contracts: players make wagers, game makers and affiliates get paid and operators will receive profits, all in FUN. FUN is utilised in several ways:
+· FUN is the sole token used to purchase in-game credits (e.g. spins and chips) and therefore the sole means of playing casino games powered by FunFair technology
+· Game creators in the game creation marketplace are paid in FUN · Casino affiliates and white-label casinos will finance casinos solely with FUN, pay their licensing
+fees with FUN and receive revenues in FUN · Fees charged throughout the system will be charged in FUN; this FUN will be irrevocably
+destroyed directly by the smart contract for the first two years of operations · FUN can be "staked" by funders of casino bankrolls with returns paid in FUN
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair 12
+
+9.2 FUN Issuance
+
+10 DETAILED ISSUANCE DESCRIPTION
+
+9.2 FUN Issuance
+Because the FUN token will be the fundamental method of interacting with the FunFair platform, it must be broadly accessible during the creation event and thereafter. Design Goals:
+· FUN will be created during one event and subsequently no additional tokens will be created. · Over time, FUN should become more valuable and usable as the customer base for games running
+on the FunFair platform grows · Increases in the value of FUN should not result in FunFair-licensed casino games becoming more
+expensive to play
+9.2.1 Short Description
+Advisory This summary is as close to accurate as possible, but it is not precise. Please read the detailed description for a complete and accurate description of the token creation event. Creation: FUN will be created in a single token creation event and distributed over two phases. Phase 1: Starting shortly after 1400 UTC, June 22, 2017. Phase 2: Dutch auction, selling 3X the total amount sold in Phase 1; Phase 1 holders to receive Phase 2 tokens pro rata. Price: 1 USD contributed will yield 100 FUN. Contributions: We will accept contributions in Ethereum, ERC20 tokens, Bitcoin and Zcash. End Date: FUN will be credited in Phase 1 until the earliest of the following times:
+· 4 hours after 500 million FUN are issued, or · 1400 UTC, July 7, 2017, or · 1 billion FUN are issued (hard cap) Founder Stake: FunFair developers, founders and angel investors will receive 37.5% of total tokens, released slowly over an 18-month period. Advisor Stake: FunFair advisors will receive 2.5% of total tokens, released immediately. ENS Protection: We have acquired funfund.eth to help protect FUN token buyers from Ethereum address fraud.
+
+10 Detailed Issuance Description
+Phase 1 of FUN token issuance is a limited token creation event. Phase 1 begins at the Ethereum block mined soonest after 14:00:00 UTC on June 22, 2017. Fiat currencies, Bitcoin, Zcash, Ethereum and other ERC20 tokens can be contributed to a smart contract or address for an initial period.
+100 FUN will be issued per 1 USD(United States Dollar) equivalent received.
+The Phase 1 creation crediting period will end no later than July 7, 2017 at 14:00 UTC. If 500 million (500,000,000) FUN have been created at any time before Jul 7, 2017 14:00 UTC, token creation will continue for 4 additional hours at that time. After 4 hours or 1 billion FUN are issued, the crediting
+
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair 13
+
+10 DETAILED ISSUANCE DESCRIPTION period will cease, the receiving contract will be marked "finished" and it will reject Ether from that time on by calling throw. As soon as Phase 1 closes, additional tokens will be created in an amount equal to three times the amount sold during the Phase 1 creation crediting period and held in trust until the Phase 2 token issuance event. At some point following the Phase 1 close, the Phase 2 token issuance event will begin. In Phase 2, all tokens held in trust will be offered in a Dutch auction. Whatever tokens remain unsold in this event will be distributed pro rata to holders of tokens sold in Phase 1 issuance.
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair 14
+
+10.1 Phase 1 Bonus Period
+
+10 DETAILED ISSUANCE DESCRIPTION
+
+10.1 Phase 1 Bonus Period
+Phase 1 Bonus Tranches will be calculated by summing only the Ethereum contributions made to the crowdsale contract. There will be five bonus tranches.
+· Tranche 1: All valid Phase 1 contributions made between the first Ethereum contribution and the first Ethereum contribution in which the total amount of ETH contributed exceeds $1mm at the published exchange rate shall be considered "Tranche 1" contributions and credited 150 FUN / USD of value contributed.
+· Tranche 2: All valid Phase 1 contributions made after the final Ethereum contribution in Tranche 1, up to the first Ethereum contribution in which the total amount of ETH contributed exceeds $2mm at the published exchange rate shall be considered "Tranche 2" contributions and credited 140 FUN / USD of value contributed.
+· Tranche 3: All valid Phase 1 contributions made after the final Ethereum contribution in Tranche 2 up to the first Ethereum contribution in which the total amount of ETH contributed exceeds $3mm at the published exchange rate shall be considered "Tranche 3" contributions and credited 130 FUN / USD of value contributed.
+· Tranche 4: All valid Phase 1 contributions made after the final Ethereum contribution in Tranche 3 up to the first Ethereum contribution in which the total amount of ETH contributed exceeds $4mm at the published exchange rate shall be considered "Tranche 4" contributions and credited 120 FUN / USD of value contributed.
+· Tranche 5: Tranche 5: All valid Phase 1 contributions made after the final Ethereum contribution in Tranche 4 up to the first Ethereum contribution in which the total amount of ETH contributed exceeds $5mm at the published exchange rate shall be considered "Tranche 5" contributions and credited 110 FUN / USD of value contributed.
+Valid contributions made after the final contribution credited as Tranche 5 shall receive no bonuses.
+10.2 Phase 1 Key Dates and Information
+Prices: Bitcoin, Zcash, Ethereum and ERC20 contribution prices will be fixed for the duration of the crowdsale.
+Finalized Prices: Prices will be published at or slightly before 1300:00 UTC June 22, 2017.
+Bitcoin Address: Bitcoins will be accepted at 1wxJTZ8ZqJiw2QH3HjuCuqBpSuSF5Yu3q
+Zcash Address: Zcash will be accepted at t1Kh2EjHooDG6qxYCXBjESTNX8JQZSuGKjc
+ERC20 Tokens: FUN created with ERC20 contributions will not count toward the Phase 1 cap ­ many ERC20 tokens are too illiquid to provide fair pricing during a token event.
+Ethereum Address: The official FUN Token Contract address will be published by FunFair on June 20, 2017. Note: Always confirm address authenticity before contributing to any token events.
+ERC20 Transfers: FUN will be tradable shortly after the end of the Phase 1 creation crediting period, barring unforeseen difficulties. Tokens will be minted by the New Alchemy Minting Tool, verified and then "released" for ERC20 transfers within 12 hours of completion of the event.
+FunFair Minting: At the end of the Phase 1 token creation event, the total tokens issued will be counted. For every 100 tokens credited in the Phase 1 sale, FunFair will receive 66 2/3 tokens. After the FunFair Minting, FunFair will hold 40% of all tokens. Of these, 37.5% will be locked and released
+
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair 15
+
+10.3 Off-Chain Crediting Vs. On-Chain
+
+10 DETAILED ISSUANCE DESCRIPTION
+
+periodically over an 18 month period and 2.5% will be distributed to advisors. FunFair locked tokens will never be released in large blocks in order to help maintain market continuity.
+Three times the total number of tokens issued in Phase 1 will be created and held in trust, pending a Dutch auction in Phase 2 of the token issuance. Between Phase 1 and Phase 2, FUN tokens will trade freely. At a date and time immediately before the Phase 2 auction, trading of FUN will be halted to enable accurate crediting to Phase 1 FUN holders, following the auction. All tokens held in trust will be offered for sale in the auction. Holders of tokens issued in Phase 1 will receive all of the unsold tokens, distributed on a pro rata basis.
+10.3 Off-Chain Crediting Vs. On-Chain
+An assessment of ERC20 posts on Reddit indicates that contributors are frustrated when they miss contributing to a favorite project because of a maxed hard cap in a short period, unusual gas costs, slowed blockchains or other annoyances. We recognize that frustration and believe that we can do better.
+We know that it is appealing to imagine the token contribution contract instantly creating tokens during the crediting event, but our team has evaluated the issues and has concluded it's not the best practice for the following reasons:
+· The Ethereum blockchain is too slow and parsimonious with gas to support typical crowdsale demand
+· Creation events that end quickly cannot also easily allow Bitcoin and fiat contributions
+· ERC20 tokens do not trigger events outside their own token ledger, and therefore cannot trigger creation of FUN directly
+· Compounding these factors are concerns about gas: some on-chain token creations can be so costly that only a few will be mined per block.
+We carefully considered all these factors and decided that it would be better to minimize load on the blockchain, increase the responsiveness and work to lower required gas across the board by having a server credit after termination of the event, using multi-mint technology.
+10.3.1 Gas Cost Details
+Typical on-chain token creation calls cost between 200,000 and 400,000 gas. Most miners will not mine more than 4,000,000 gas per block, thus limiting the raw number of participants to no more than 80 per minute.
+A transaction that throws will eventually be mined and this will consume the transaction's gas, and therefore go toward the miner's block gas limit. However, thrown transactions are disfavored by some miners, and may take some time to get mined­at times as long as 15 or 20 blocks during periods of high load.
+Sophisticated participants, concerned that they not throw, may well put their gas as high as 1,000,000 to avoid any chance of transaction failure.
+Taken together, many token creation events are filling every block for up to 30 or 40 minutes around launch; this is unacceptable.
+
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair 16
+
+10.4 Server Multi-Mint Solution
+
+10 DETAILED ISSUANCE DESCRIPTION
+
+10.4 Server Multi-Mint Solution
+This technology was used first in the DAO refund contract and subsequently in the TokenCard TKN issuance.
+Using innovative bit-packing techniques, hundreds of individual FUN credits can be issued in a single transaction call. The server will generate a log of each of the five types of contributions -- fiat, ERC20, Bitcoin, Zcash and Ethereum -- and publish this log for inspection.
+An outside firm has been retained to audit and validate that the server multi-mint credits correspond precisely to the transaction logs. Once the confirmation is received, the ERC20 FUN contract will be set to live and transfer and trading will begin immediately thereafter.
+10.5 Excluded Contributions
+The following payments will not be accepted:
+· Any ERC20 transfer mined before the block height and transaction number of the first accepted Ethereum payment will be refunded within two days of the completion of the contribution period.
+· Any Bitcoin or ZCash transfer mined before the timestamp of the first accepted Ethereum payment will be refunded within two days of the completion of the contribution period.
+· Any ERC20 transfer mined after the block height and transaction number of the block in which the Ethereum contract is marked finished will be refunded within two days of the completion of the contribution period.
+· Any Bitcoin or ZCash transfer mined after the timestamp of the block in which the Ethereum contract is marked finished will be refunded within two days of the completion of the contribution period.
+Blinded Zcash transactions will be cheerfully accepted, but not credited in any way (Please try not to do this!)
+10.6 Crediting Bitcoin and Zcash
+We want to support other blockchains and because we believe in simplicity we will accept Bitcoin and Zcash directly at the designated addresses during the creation event. However, these blockchains by their nature cannot provide us with an Ethereum crediting address for the FUN token.
+The FUN tokens that are created by these contributions will be aggregated into one Ethereum account controlled by FunFair. These FUN tokens will be transferred only to a party that can prove they are the sender by signing a message with the private key of the originating Bitcoin or Zcash address. No exceptions whatsoever will be made to this rule.
+If you are not confident in your ability to create signed messages using Bitcoin or Zcash, we strongly recommend that you contact Bitcoin Suisse online at https://retail.bitcoinsuisse.ch/en or Shapeshift at https://shapeshift.io in advance and use their services to convert Bitcoin or Zcash into Ethereum.
+Any tokens in the Bitcoin/Zcash crediting account which remain unclaimed for more than 90 days after will be donated to Unsung.org (BeUnsung, Inc., a 501(c)(3) nonprofit organization powered by Bitcoin).
+
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair 17
+
+10.7 Crediting Fiat Wires
+
+12 FUNFAIR USER STORIES
+
+10.7 Crediting Fiat Wires
+Its preferred that contributors use crypto contributions rather than wire transfers.
+11 The FUN Token Contract Details
+The Token Contract implements the ERC20 standard with a few additional features. The contract is split into three separate parts:
+· A "Front End" contract­this is the permanent address of the token. · A "Controller" contract referred to by the Front End­this encapsulates the logic used to implement
+FUN token mechanics and may be upgraded in the future. · A "Ledger" contract referred to by the "Controller"­this contract holds all balances and manages
+all minting and burning and will not change except in extreme circumstances. It may be desirable to pause these contracts temporarily or permanently; for this reason, the contracts can each be paused. We realize this raises the risk profile for certain internal attack vectors at FunFair. For that reason, if desired, FunFair can at any time lock itself out from changing the pause status forever. In general, we expect the Ledger contract to never change and the Controller to change once before the MVP launch, and thereafter, only rarely to support new features.
+11.1 Public Review of Token Contract
+The Token Contract and associated audits will be published by June 20, 2017 on Etherscan. We invite all potential participants to review them for features and functionality.
+12 FunFair User Stories
+12.1 Online Gaming Newcomer
+Abigail lives and works in London, England. On her train journey to work, she's recently begun playing card games on her mobile. She enjoys solitaire and has seen a few ads for blackjack, a game she's played with friends for fun before. However, the idea of using real-money online gaming sites makes her nervous, as she doesn't really like the idea of going to a casino in real life. But an ad for a FunFair-powered casino catches her eye by emphasising its fairness and transparency. With a single Ether, she tries signing up. It's quick and easy and she doesn't have to enter much personal information or download an app to her smartphone. Her currency is available for immediate use. She has fun and starts getting better at blackjack, and as her confidence grows she decides to try her hand in an online poker tournament from the same casino. She becomes a repeat customer.
+12.2 Publisher with a Big Readership
+Bionic Publishing owns a portfolio of lifestyle magazines aimed at men aged 18-34. As print magazine readership has flatlined, Bionic is searching for new sources of revenue and reader engagement. After analyzing their reader demographic profiles they decide that gaming is a great fit for them. A study of
+
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair 18
+
+12.3 The Nonprofit
+
+13 ONLINE GAMING MARKET ANALYSIS
+
+the market quickly informs them that FunFair is the industry leading solution and so they acquire a FunFair license and build their own online casino destination.
+They create a fully-customized casino using the FunFair platform, designed to appeal to Bionic readers specifically. Their roll-out includes games that they have determined will be popular with their core demographic. The experiment is successful and it connects the company further into its audience's lifestyle and leisure activities. Future plans include annual gaming events, celebrity and sports endorsements, and co-marketing tie-ins with their advertisers.
+12.3 The Nonprofit
+Courageous Critters is a regional nonprofit that finds homes for unwanted cats and dogs. It is in constant need of donor support and runs frequent funding drives.
+Rather than hold another phone-a-thon or a costly dinner auction gala, Courageous Critters decides to try an online fundraiser, licensing a casino experience through the FunFair casino platform. The organization doesn't have its own intellectual property, but creating a pet-themed online casino turns out to be straightforward.
+They promote the online casino as a single event but it is so successful, bringing in both seasoned players and supporters who are new to online gaming, that they decide to host casinos regularly and reap a steady stream of income to support its services for the community.
+12.4 The Gamer
+Diego grew up playing every type of game possible. He even dabbles in coding and wrote a couple of games himself. Now he's in graduate school and has a large circle of friends who are into myriad fragmented online gaming destinations.
+He decides that instead of playing separate games with different clusters of friends, he'll set up his own online casino. He has heard of FunFair's technology in a popular online coding forum that he frequents, and true to the other users' experiences, it's easy to set up.
+His discriminating friends are blown away by the high quality of the games, and how he's customized them to fit their style and interests, and Diego keeps updating them with special features and new bonuses. Because FunFair's tech is platform agnostic, all of his friends can join in regardless of which brand of device they're loyal to, whether its smartphones, tablets, laptops or desktop computers.
+Because Diego's generation are already fully immersed in the digital culture revolution they enjoy having somewhere cool to use their digital currencies, and it doesn't hurt that they seem to be winning often, too!
+13 Online Gaming Market Analysis
+Global gaming revenues neared $400 billion USD in 2015,2 with Asia making up about one third of all gaming activity. Approximately 10% of that global market, nearly $40 billion USD, is interactive or online gaming, which has enjoyed a 50% increase in activity since 2010.
+H2 Gambling Capital predicts the worldwide total (traditional plus online) gaming market will near $60 billion USD by 2020. With over 6 million adults gaming around the world and estimates of greater
+2"H2 Global Summary," by H2 Global Capital. May 18, 2017
+
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair 19
+
+13.1 The Trust Issue
+
+13 ONLINE GAMING MARKET ANALYSIS
+
+than 10 million for 2020, the gaming market overall is growing rapidly, with the online virtual segment of the market expected to accelerate faster than that of traditional casinos.
+We believe that the online gaming industry could be growing even faster - in line with growth trajectories of other digital industries such as downloadable music, books, online shopping and taxis, which have all benefitted from the disruption of traditional business models by adopting innovative enabling technologies. Yet online gaming has historically been overzealously protected by government-created monopolies and a "wild west" of unscrupulous cowboy casinos that offer neither protection nor fairness guarantees to the unsuspecting player.
+Brick-and-mortar casinos such as the Golden Nugget have flooded the online gaming market.3 But the specialized technology developed by FunFair offers several advantages over the centralized, traditionally financed model. Specifically, our blockchain based platform enables provably fair, streamlined currency deposit and withdrawal, and suffers from none of the speed and transaction costs that have hampered other blockchain efforts.
+13.1 The Trust Issue
+Trust issues can keep interested would-be new gamers out of the game. Inefficient implementations make games cost more than they should to players. Global headline-grabbing reports of wholesale fraud and mismanagement­including the collapse of Full Tilt Poker in 20114, Absolute Poker and UltimateBet in 2007 and 20085 deter new players from trusting online gaming in general, inhibiting the industry's further growth. Moving the elements of online casino gaming which are governed by trust onto the blockchain will be the key to unlocking this wider audience of potential players.
+Although traditional online games can run fast and smooth, they still have systemic disadvantages. Operator risk, grab-and-run criminal schemes and overall game operational accountability all give players little to no security or information about the true odds of the games they are playing. There is no way of verifying whether they are actually getting the published odds at each spin of the wheel or reel, or at the deal of the next hand. Existing games function inside a proprietary "black box" on an unidentifiable remote server possibly hosted on an island on the other side of the world, and nobody (be it players, affiliates, or operators further downstream) have the ability to audit and verify the inner workings of the games.
+Because it is based on the Ethereum blockchain, FunFair's casino removes player mistrust from the equation, eliminating the doubt and anxiety which are the antithesis of a fun player experience. Every game built for the FunFair platform is provably fair, transparent and publicly auditable, so players are always assured that the odds aren't stacked against them (luck still a prerequisite).
+13.2 The Mobile Opportunity
+By 2015, mobile users made up 30.5% of online gaming participants, almost triple the 2010 mobile user base of 11.5%. H2 predicts that mobile gaming levels will continue to rise, reaching 43.3% by 2020. However, the major mobile platforms which dominate the market have heavily restricted "real-money" gaming apps from listing on their app stores, or have banned them outright. Mobile adoption has, in fact, been a significant barrier to growth as gaming operators stick to the old "native app" model, despite the leading app stores consistent and universal ban.
+3DellaFave, Robert. "Game Wars: Golden Nugget First NJ Online Casino To 400 Games, Others Quickly Follow Suit." Online Poker Report, May 12, 2017.
+4Holloway, Chad. "U.S. Attorney Claims Full Till Poker a Ponzi Scheme; Lederer, Ferguson, & Furst Accused." Pokernews, September 20, 2011.
+5"Timeline: Catching the Cheaters." The Washington Post.
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair 20
+
+14 ROADMAP Some online casinos encourage potential players to disable virus protection on their handsets, to allow so-called "side-loading" of apps onto their mobile device. This is a huge security risk to players, since a malicious payload embedded in a rogue app could infect the device undetected and cause untold harm. Any competitor relying on side-loading has less than 1% of the market reach that the FunFair Platform can claim. FunFair bypasses the app store model entirely by running inside the player's browser on their mobile or desktop device without requiring an app download or install - providing a significantly larger potential market for casino operators and licensees. In addition, player acquisition will move away from the walled gardens and chart ranking discovery battle of app stores onto far more organically integrated methods such as user-to-user social media, which is an ideal channel for marketing FunFair casinos with the potential for near-zero barriers between clicking a link and placing a bet.
+14 Roadmap
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair 21
+
+15 DISCLAIMER
+15 Disclaimer
+As of the date of publication of this paper, FUN tokens have no known potential uses outside of the FunFair platform ecosystem and are not permitted to be sold or otherwise traded on third-party exchanges. Players assume risk when participating in gaming and online gaming has inherent risks - software could be subject to attack, bugs, or operators' errors, the House could go bankrupt, and other unforeseen problems could result in the loss of stored value. The token economy is exciting and also incredibly innovative. Any tokens could be impacted by regulatory action, including restrictions on ownership, use or possession. Regulators or other circumstances may demand that the FUN mechanics be altered, in all or part. Therefore, we may revise mechanics to comply with regulatory requirements or other governmental or business obligations. Nevertheless, we believe our planned mechanics to be proper and likely in final version. FunFair intends to apply part of the token contributions (40%) to fund software development and operations, however fluctuations in the value of Ether could impact the extent of development possible in the future.
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair 22
+
+15 DISCLAIMER The New Alchemy team is passionate about tokens and has been working on Blockchain technology full time since 2010. Every day their elite team combines experience, deep technical excellence and imagination to drive results for clients. New Alchemy are proud to support the best token offerings, creation events and companies in the world. Contact Paige Freeman at hello@newalchemy.io to learn more about how New Alchemy guides companies interested in the token ecosystem.
+DRAFT. See https://funfair.io for the most recent version. ©2017, FunFair 23
+
+

@@ -1,0 +1,369 @@
+SMART VIRTUAL GOODS ON THE BLOCKCHAIN
+BLOCKv provides developers with the building blocks to design the experiential economy of the future and unlock new opportunities for businesses within this growing ecosystem.
+WHITE PAPER
+Reeve Collins, Lukas Fluri, Gunther Thiel
+1
+
+TABLE OF CONTENTS
+
+ABSTRACT
+
+3
+
+PART I: INTRODUCTION
+
+5
+
+WHAT ARE VIRTUAL GOODS?
+
+5
+
+SMART CONTRACTS
+
+6
+
+MARKET SIZE AND POTENTIAL
+
+6
+
+CURRENT LIMITATIONS
+
+7
+
+VATOMS: A NEW ASSET CLASS
+
+8
+
+BLOCKv: THE DEVELOPMENT ENVIRONMENT FOR VATOMS
+
+10
+
+PART II: TECHNOLOGY OVERVIEW
+
+11
+
+THE BLOCKv ECOSYSTEM
+
+11
+
+ECOSYSTEM ROLES
+
+12
+
+THE ANATOMY OF A VATOM
+
+13
+
+LEVERAGING BLOCKCHAIN NETWORKS
+
+16
+
+OVERVIEW OF PLATFORM ARCHITECTURE ELEMENTS
+
+17
+
+PART III: THE BLOCKV TOKEN
+
+19
+
+PURPOSE AND USAGE
+
+19
+
+TYPES OF TRANSACTIONS
+
+20
+
+SUPPLY
+
+22
+
+USE OF PROCEEDS
+
+23
+
+PART IV: BLOCKV DEVELOPMENT ROADMAP
+
+24
+
+PART V: BLOCKV TEAM
+
+25
+
+PART VI: ADVISORY BOARD
+
+26
+
+PART VII: CONCLUSION
+
+27
+
+2
+
+ABSTRACT
+Network communication is expanding from moving information to the transmission of value. For the first time, anyone can send scarce, authenticated and trusted value without intermediaries. This phenomenon is poised to affect every industry and government process and give birth to a new economy. However, the potential of blockchain to permeate society has been constrained by the complexity of the underlying technology at this nascent stage.
+Typically disruptive innovations are first relegated to early adopters and specialized industries or academia, and blockchain has been no exception. To become mainstream, a key milestone must be met ­ an advance that XPRIZE and Singularity University founder Peter Diamandis calls the "user interface moment". Diamandis, recognized as among the world's most prominent futurists and business innovators, describes user interface moments as when a platform or interface arrives that allows something formerly difficult to become easy to use and build upon, unlocking its revenue generating potential.
+Diamandis explains that the last most exciting user interface moment was the iPhone and Apple's App Store. The App Store allowed anyone to bring ideas to life and access a massive global audience. Since 2008, 300,000 developers have written 2 million apps that have been downloaded 140 billion times. Prior to the App Store providing the interface moment to mobile, the potential to galvanize a creative army of developers and artists remained unrealized. The App Store opened the door to a staggering era of wealth creation and innovation, and changed the way humanity lives, works and plays. Another example is the advent of Mosaic, the world's first web browser from technologist Mark Andresen. Mosaic, which eventually became commercially known as Netscape, was the interface moment for the internet. Once browsers allowed developers to rapidly build capabilities that could reach a vast audience with low friction, developers had an economic incentive to proliferate internet technology on an unprecedented scale. An interface moment is when something complicated is suddenly easy to use and can be practically applied to advance a personal or business economic interest.
+BLOCKv is the interface moment for blockchain. BLOCKv provides interface protocol overlay on the developer stack ­ the layer necessary to unleash exponential mainstream adoption. BLOCKv enables the rapid development and distribution of interactive smart objects ­ "experiential currency" ­ that interact with the end user. The most common units of provision for blockchain applications are virtual currencies, and yet the UI layer for this asset has yet to mature. BLOCKv allows the currency to come alive and interact meaningfully with the end user for the first time. In essence, it turns virtual currency into dynamic virtual goods.
+The power of distributed ledger architecture is now connecting to the actual end user experience on top of a shared data layer that becomes more powerful with each additional application built. At its heart, BLOCKv is an open source, shared protocol that enhances the underlying distributed ledger and is made available to individual applications. BLOCKv provides the vital piece of plumbing necessary for usercentric, revenue generating blockchain applications.
+When a conduit of value like a Bitcoin or Ether token evolves from a simple container or smart contract to an emotionally satisfying multimedia experience, the promise of widespread adoption can be realized. Suddenly cryptocurrencies become not just units of value but units of engagement value as well. This enhances the nature of digital ownership with the power of human imagination. Now digital currencies
+3
+
+can retain all the advantages of cryptocurrency such as scarcity, ownership, and tradability, but can also take the form of:
+· collectibles; digital esports cards, rare digital art, etc., any digital creation can be imbued with scarcity and emotional power and traded on global exchanges with transparent economic incentives back to the creators in perpetuity.
+· coupons; redeemable smart objects come alive with 3D multimedia visual representations of value, dynamic incentive structures, and functions that change based on location, sharing, and real-time external events.
+· loyalty programs; cryptos completely change the nature of loyalty programs, providing dynamic vehicles for long term and value-based relationships with consumers. Having true value-based distribution vehicles shatters today's fading models of point systems and app overload.
+· gift cards; shifts the industry from impersonal, cumbersome stored value cards to dynamic, visual, tradeable, and deeply personalized and emotionally satisfying virtual goods. As actual products are represented and delivered seamlessly at the speed of light, redeemable virtual objects fundamentally change the gifting model.
+· medical; scarce, traceable multimedia cryptos communicate within completely new formats, using the asset class as a means of information and value delivery. Prescription bottles come alive and refill themselves; secure HIPPA-compliant communication is spawned within the objects for more efficient provider/consumer communication; informed consent videos and immutable signatures create enhanced experiences, streamlined processes, and improved compliance.
+· gaming: interoperable virtual goods between games and the real-world has been a goal of the digital game industry for decades, yet continually out of reach for lack of an independent trust layer that could adjudicate between disparate systems, companies and retail environments. BLOCKv goods visualize differently depending on the device and environment, yet maintain their structural integrity, uniqueness and identity as cryptocurrencies. This provides the open and freely available mechanism for collaboration across the industry and opens up vast new revenue streams with retailers and brands.
+The use cases and applications on blockchain enabled by a shared interface layer on blockchain are no less vital, diverse, and numerous than the apps in the App Store. The difference between the old model of the Apple App Store and the new decentralized model, is that BLOCKv is not claiming central ownership of the platform, but rather building an important service powered by its protocol coin, for and with the developer community. BLOCKv is the shared UI layer for the next generation decentralized economy.
+4
+
+PART I: INTRODUCTION
+WHAT ARE VIRTUAL GOODS?
+Although digital objects have permeated our economy, the full extent of the global economic impact has been hindered by a lack of true ownership and interoperability across silos. Combined with the power of blockchain technology, the BLOCKv platform ushers in a new, transformational asset class called vAtoms (virtual atoms). vAtoms are the foundation for the emerging Virtual Goods Economy.
+Digital objects are becoming an increasingly important part of the human experience. Anything that exists within the digital environment without having a physical counterpart can potentially be seen as a digital object: from in-game goods like swords and crystals that we earn, to virtual cards and artwork that we collect, to digital books, music, and media we exchange on social networks. In addition, digital goods can often have a physical counterpart and act as a bearer bond for the actual real-world item, a digital voucher for redemption. This versatility to act as a unit of inherent scarcity and therefore value, or as a representation of a real-world object, dissolves the boundaries between bits and atoms and ushers in the most significant change to the global economy since the internet itself. vAtoms change the psychology of digital ownership, extending the momentum and mindset of cryptocurrency ownership into the everyday lives of consumers. vAtoms offer true ownership of virtual goods for the first time, providing the interface layer for the blockchain era and acting as a catalyst for the exponential rise of the new "Internet of Value."
+Further, the growth of AR and VR environments will exponentially accelerate the integration of digital goods into our daily lives. As more of our time is spent in mixed-reality, augmented and virtual environments, the objects we use will increasingly become native to those environments and traverse between them. For example, it will be easier for people to make decisions about purchases without leaving the comfort of their own home. Instead of needing to test drive a car or visit a showroom to try out a new sofa, they will be able to do these things in a virtual environment, and take the items with them from online environments for later use, purchase or trade. People will also be able to build complex skills using VR, as the objects they interact with change over time but remain "owned" and available for access across any device, anywhere. AR/VR worlds will be increasingly large and complex, requiring an increasing sophistication of objects coming in and out of them to maximize their immersive and interactive potential. Most importantly, environments where objects currently exist only in closed silos will give way to experiences where the objects are fluid, persistent, open and interoperable.
+Unique digital objects built with an experience layer come alive as virtual goods, surpassing early cryptocurrency usage models. As opposed to an inert currency or digital object, virtual goods possess the inherent potential to change state, interact with the user, create emotional resonance and increase in value due to collectability or redeemability. This means that a good is something that has a certain value attached to it, as seen in the eye of the owner or buyer. Humans subconsciously attach value to things that they perceive as scarce and ownable. In today's virtual goods economy there is already value placed on items such as photographs, in-game items, music recordings and e-tickets, to name a few. With the proliferation of an independent trust layer, a shared data access layer and open interoperability, the widespread predictions of a digital goods economy emerging can be realized.
+5
+
+SMART CONTRACTS
+The general popularity of cryptocurrencies and blockchain technologies has soared in recent years. Bitcoin and its underlying blockchain technology have sparked a wave of innovation that could potentially influence countless sectors and industries. Blockchain technology has the capacity to facilitate the secure, rapid exchange of value, in a way that could be considered similar to how the internet enables the secure, rapid exchange of information. Initially, much of the technology and investment focus was on blockchain's role as the backbone of Bitcoin but, since then, we have seen the use of blockchain technology evolve from peer-to-peer cryptocurrency applications to a trading and settlement system for traditional financial instruments to an infrastructure technology, with potential application across many sectors of the global economy.
+Building on the foundation created by Bitcoin, Ethereum introduced smart contract functionality to the ecosystem. Smart contracts are automatic and digital executions of a binding agreement between two or more parties. They can be self-executing, self-enforcing, or both. Smart contracts aim to provide security superior to traditional contract law and to reduce other transaction costs associated with contracting. Key use cases for smart contracts in the near future are likely to include digital identity, record keeping, securities, trade finance, derivatives and land title data recording, among others. Currently, smart contracts are either used as such or behave as smart contract-based tokens, like for example all ERC20 tokens.
+There is, however, an important factor hindering blockchain technologies, and especially smart contracts, from becoming truly ubiquitous. Although their potential is immense, smart contract tokens currently lack an experiential protocol overlay. Nobody has ever seen a Bitcoin or has had an interactive experience with their smart contract token. At BLOCKv, we believe that by creating a platform to issue experiential smart tokens, we are unleashing the potential of the emerging sector. By enabling the UI layer, smart contract tokens will perform not only utilitarian functions, but become objects of value for people to own, share and experience in their own right-- for their utility and emotional impact, not just speculative value. BLOCKv is developing the user interface for blockchain technologies.
+Further, the vast global interest in blockchain development has been yet another roadblock. As with any early sector, innovation and change is guaranteed, meaning what you build on today may lock you in tomorrow to a technology or project that has better successors or alternatives soon. BLOCKv provides developers with the first blockchain abstraction layer, allowing smart objects and the applications they enable to be built without taking a bet on one blockchain or another. Current plans include Bitcoin, Ethereum, and EOS - but all viable blockchains can be onboarded over time, providing a vital risk mitigation strategy for any serious blockchain project. BLOCKv blockchain agnostic development will enable more capital to be applied to more applications now without having to wait for the sector to settle, and this is especially important as the pace of innovation in the space increases.
+MARKET SIZE AND POTENTIAL
+Today's virtual goods market is large, diverse and growing. It is comprised of numerous verticals, with each demonstrating immense potential. There are several industries that are worth specifically mentioning when discussing virtual goods and their various manifestations:
+6
+
+· The in-game virtual goods market volume is roughly $15 billion. At the moment, this market is the closest one to a virtual goods economy, but it still experiences severe limitations. Nevertheless, within this market, people trade and exchange virtual goods, earning real money for exchanged virtual experiences. Trust is a prerequisite for the existence of this market, since there is no way to confirm possession or ownership of any traded item. However, market growth is driven by the fact that in-game items have built-in scarcity, which means that for desirable objects, demand always exceeds supply. We believe that virtual goods can stretch beyond the game, but this market shows just one potential application of a Virtual Goods Economy.
+· The AR/VR market value is projected to be $108 billion by 2021. As an increasing amount of our time will be spent in augmented and virtual environments, it will become essential to complete these environments with virtual goods. Any training simulation, virtual "field trip" or exhilarating experience will need to be populated by a vast array of virtual objects. Many of these objects will be unique and proprietary, meaning that their creators will want to prove their ownership. Current licensing tactics are weak and ineffective, limiting the surge of innovation that we predict within this field.
+· The cryptocurrency market cap currently exceeds $100 billion. The flexibility of Ethereum-based smart contracts has, in recent years, inspired the advent of digital tokens. In the Ethereum ecosystem, tokens can represent any fungible tradable asset. As such, digital tokens have emerged as a new alternative channel for companies to raise funds and as an entirely new asset class for investors. These assets are bought, sold and traded. They have inherent value built into them, due to their scarcity and desirability. However, a serious limitation for these virtual goods is their lack of an experiential layer. For many people, the value of a token or cryptocurrency is difficult to grasp due to the lack of a perceivable manifestation.
+Although in-game purchases, advertising, consumer and brand marketing, AR/VR, and cryptocurrency are just examples of environments in which virtual goods can thrive, the market volume of these industries and their upward momentum shows that a solution which provides interoperability, scalability and user-centric experience has a lot of potential.
+Much of the user-centric development within these industries is hindered by high barriers to entry, high development costs, low fraud protection and low standardization. By creating a platform with a unique class of smart digital objects that are platform-agnostic, we are spearheading the democratization of a nascent virtual goods economy, both from the developer's and the user's perspective. We believe that virtual goods can be used in industries that stretch beyond gaming, AR/VR, and cryptocurrency, and we would like to give the community the tools it needs to innovate within this space. BLOCKv seeks to remove the artificial ceiling on the virtual goods economy, allowing it to grow ten-fold and beyond.
+CURRENT LIMITATIONS
+By their very nature, digital objects are currently limited in their potential to form a real virtual goods economy. We see these limitations as twofold: on the one hand, digital objects that can be truly owned currently lack an experiential layer; on the other, digital objects that do possess a user-centric experiential layer cannot be truly owned often because they are not unique and distinguishable.
+7
+
+Experiential digital objects are also prone to rampant counterfeiting and obscured authenticity or veracity. This makes their value questionable and difficult to enumerate precisely. If digital objects can be verified in one environment, they cannot be transferred to a different one. This means that truly experiential digital objects today exist in artificial walled gardens, a factor which is hindering their true development into a traceable asset. Moreover, these centralized artificial walled gardens mean that most digital objects today are merely licensed, not owned. The end user of the digital object is not the actual owner and does not benefit from its full value. With the integrity, ownership, scalability and transferability of the objects in question, it is not possible to create a sustainable economy in the digital world.
+Cryptocurrencies and smart contract tokens, on the other hand, are prime examples of owned digital objects which lack an experiential layer. Although both cryptocurrencies and smart contract tokens have embedded value due to scarcity and demand, nobody has ever seen them or experienced them. Have you ever seen a bitcoin? None of the solutions on the market today combine the capabilities of blockchain technologies with an experiential layer to create digital objects that are suitable to become real virtual goods.
+BLOCKv ushers in the new experiential economy, by creating virtual goods that:
+· Work across any digital platform, including all major devices and virtual and augmented reality systems, allowing users to experience and sell, trade and redeem them anywhere they have access to the internet
+· Are ownable, maximizing the value/experience for the owners · Are built on blockchain technology, ensuring authenticity, ownership, and control · Merge the digital and real worlds, giving users a way to seamlessly exchange digital goods for
+physical goods · Are distinguishable and unique on a per object level, which even today's cryptocurrency tokens
+are not.
+VATOMS: A NEW ASSET CLASS
+vAtoms are highly programmable digital objects that are individually owned and can exist in different environments. The ownership of a vAtom is confirmed via a record on any blockchain, making each vAtom unique, verifiable and tradable. vAtoms are owned by the end users, meaning that, for the first time, you can own a virtual object much like you own a physical object. vAtoms utilize many of the same principles that can be found in smart contract technology, but they go several steps beyond what smart contracts are capable of today. Instead of simply executing code through the use of tokens, vAtoms fuse the token and the code into one, adding on a user-centric, experiential layer to the smart contract paradigm. vAtoms employ fully shaded 3D models, animated artwork, music and video, and can be experienced on any device, including mobile phones, smartTVs, and augmented and virtual reality. vAtoms can be acquired from other users, via online interactions, from printed materials and broadcasts, or through being physically present where vAtoms have been "dropped" in the real world. Because each vAtom is unique and network aware, they can be individually addressed by their creators, or released in extremely limited quantities, creating an additional layer of exclusivity and value for each vAtom. By their very essence, vAtoms completely change the landscape and the psychology of what a virtual good is, what it does, and how it is valued.
+8
+
+Each vAtom is comprised of several programmable elements. vAtoms are instantiated objects of a predefined class, which is consolidated within a single template and its variations. Once the template and its variations are developed, they are frozen. This means that once a vAtom of a single class is built, the template cannot be changed. Each vAtom maintains its own state, which will partially differ from other vAtoms of the same class (template variation). Once a vAtom is published, it can get recorded on a blockchain. As vAtoms are blockchain-agnostic, we plan to integrate as many blockchains as required into our ecosystem. When a consumer or any part of the network wants to interact with a vAtom, it needs to call a method of the vAtom. Methods are registered on a per template level and are called reactors in the vAtom plane. Reactors are one of the main ways to modify the state of a vAtom. However, not all state elements can be modified, even by a reactor. The change and modify policies are partially controlled by the publisher, as well as constrained by the platform itself. Each vAtom can have different "faces": ways in which they manifest themselves in different environments. For example, the same vAtom may look and behave differently on iOS as opposed to a SmartTV. vAtom "brains" are long running threads. Brains can be run for individual vAtoms or one brain can compute for all vAtoms of a kind (template variation). Brains receive periodic state version updates and compute based on the current version of the state they have. Modifications to the persisted state are following the same guidelines as any state update, which will be described later.
+vAtoms exist independently of how they are acquired or what device they are viewed on or through. In the soon to be ubiquitous AR landscape, users will be able to own these persistent digital objects just the same way as they do cryptocurrency today. Objects can be discovered and taken out of the AR environments, and put into the inventory associated with the user's identity. These objects can then be experienced via any device ­ in AR, VR, mobile phones, TVs, tablets, etc. Because the objects are both blockchain enabled and device independent, they can take on many forms, such as:
+· In-game items that are network aware, shareable, change according to real-world events and can be taken out of the game to be stored in your inventory, becoming interoperable and tradeable with all other vAtoms.
+· Tickets that can't be duplicated or forged, with built-in pricing policies that protect them from the parasitic impact of third-party brokers. The tickets intelligently come alive at events to deliver valuable keepsakes, personalized interactions, and memorabilia with scarce and valuable content.
+· Virtual trading cards that cannot be counterfeit, that can be collected and swapped on global exchanges, and that react and change state based on action on the field.
+· Virtual goods that listen to real-world events such as weather, stock prices, and sports scores, and that transform into redemption coupons for merchandise and concessions.
+· Secure medical records with user-owned healthcare information that interact in real-time with biomedical sensors and ensure consistent individualized treatments, while reducing medical error.
+· Smart documents that include document-centric chats, enforce behaviors based on policies, timestamp activities, authenticate actions, and adjudicate contracts.
+· Brands that can engage consumers with objects of value vs. simple advertising messages. Imagine a world where brand loyalty becomes an interactive, ongoing, engaging community experience.
+9
+
+Since vAtoms primarily focus on the experiential layer, much of their development requires front-end design and user-related computation. vAtoms are rich in dynamic content, which often requires significant back-end computing power for both long and short-running processes. The seamless adoptability of vAtoms runs on the open-source protocol, which is being developed by the BLOCKv community. This protocol ensures scalability, flexibility and low latency, which is essential for a usercentric experience. To promote innovation and growth within the Virtual Goods Economy, extensive development tools are also part of the key development priorities.
+BLOCKv: THE DEVELOPMENT ENVIRONMENT FOR VATOMS
+Launching now after 2 years of intensive development, the BLOCKv platform provides a development environment and community for the creation and distribution of dynamic, compelling smart objects on blockchain. These objects are easy to develop and come with vast revenue generating potential for creators across industries. Our API is a flexible and dynamic toolkit that enables the creation of value for any digital item, as well as the design of engaging and unique experiences that live across any platform. We see BLOCKv as a "worldwide playground" for experimentation and innovation of dynamic experiential currency, or "smart objects" that allow virtual goods to leave the silos of the virtual world and interact fluidly between digital environments and the real world. By creating this platform, we will:
+· Provide the primary protocol on top of blockchains for digital objects · Make virtual goods easy to create, adopt and use · Build the necessary toolkit to nurture the Virtual Good Economy · Build a community of creators and early adopters around the concept of a Virtual Goods Economy
+Just a few of many applications of how developers and businesses are exploring our platform at the moment include:
+· Reinventing the concert ticketing experience · Developing virtual goods that listen to and interact with real-world events · Designing user-owned medical records that interact in real-time with biomedical sensors · Transforming points earned in in-app games into value, and exchange it for goods across any
+digital platform · Allowing consumers to monetize actions into value, whether it's receiving a free movie ticket for
+sharing the trailer with five friends or simply snapping a photo of a billboard, resulting in an instant redeemable digital object · Driving foot traffic to retail locations with geographically placed vAtoms · Enabling newspaper and magazine publishers to transform their revenue models · Empowering visual artists or any user to create unique, scarce works that can increase in value, such as collectibles and digital art (User Generated Value) · Enabling a dramatic increase in gifting by changing the dynamics of acquisition and distribution · Creating adaptive music content, which can be changed by the bands/composers based on real world events.
+These use cases are a mere fraction of the potential enclosed within BLOCKv and vAtoms. The next set of iterations of the BLOCKv platform will optimize the platform for rapid distribution and adoption across a
+10
+
+global community. It will be comprised of a rich back-end environment, open-sourced and managed by BLOCKv and by a decentralized community of participants in the ecosystem. The roll-out of BLOCKv anticipates the realization of a truly decentralized experiential crypto development and run-time environment. The ubiquity of the BLOCKv interface layer on blockchain will extend beyond the industries in which it is currently applied, and become a staple in the construction of consumer facing blockchain applications.
+PART II: TECHNOLOGY OVERVIEW
+THE BLOCKv ECOSYSTEM
+The BLOCKv platform provides an experiential layer on top of the blockchain that allows developers to build vAtoms that behave and interact in unique ways. The following diagram shows how the platform provides this layer:
+DEVELOPER COMMUNITY
+BLOCKv PLATFORM
+BLOCKCHAIN NETWORKS
+11
+
+ECOSYSTEM ROLES
+Within the vAtom ecosystem we consider the four different roles, in addition to the BLOCKv organization that provides the initial technology and operates the platform system along with decentralized cyclers. All ecosystem roles use V, the BLOCKv token, to interact with each other and the technology.
+DEVELOPER
+BLOCKv will facilitate a developer community where developers can build smart object templates and write code for the behaviour and user interface functions, as well as actions and reactors. A publisher might then use that vAtom template and code for its own use cases to publish vAtoms. The community will come up with new development tools, compilers, coding languages or SDKs to facilitate the implementation of vAtom use cases far beyond our current imagination. These contributions can be opensourced or offered for free or against a fee in V through a BLOCKv developer marketplace. Much like the WordPress template stores, the vAtom templates will grow in volume quickly as the developer community makes new templates and modifies existing ones and puts them back into circulation for community use.
+PUBLISHER
+A vAtom publisher is an entity which creates and publishes vAtoms. The process of creating vAtoms includes the data and properties of a vAtom, the graphical representation (look and feel) as well as the behaviour and interactions. A publisher can use tools provided by a developer for the vAtom creation or directly use a programmatic interface (APIs and SDKs). An example could be a consumer brand company who wants to issue a free sample for a new product as a vAtom that can be distributed to potential customers and redeemed for a real product sample at a point of sale. A publisher might also develop a branded smart wallet including specific functionality, which customers can use to view and interact with the brand's specific vAtoms. Publishers will have to pay a fee in V to emit vAtoms and to keep them alive.
+CYCLER
+A cycler is a decentralized autonomous entity which provides infrastructure and processing power to run BLOCKv platform functions (reactors, brains, APIs) based on the BLOCKv distributed compute consensus model. For successfully executing vAtom transactions, cyclers receive a specific amount of V. For example, large infrastructure providers could offer a highly scalable cloud environment to process generic vAtom functions at very low cost. Or a system integrator traditionally focusing on enterprise business could offer an optimized stack on top of a cloud infrastructure provider, such as AWS, to process only a certain type of vAtom transactions.
+The cycler role and the distributed compute consensus model are essential to what makes BLOCKv unique. Developers and creators are not attached to a single centralized environment, meaning that the technology can become widespread with minimal costs. Similarly, vAtoms themselves can scale to billions of objects without the need for centralized computing power or fiat investments.
+12
+
+USER
+A user is an individual who holds a smart wallet containing vAtoms. A user can view and interact with vAtoms using their smart wallet. A vAtom-enabled smart wallet can be anything from a browser-based web viewer to iPhone or Android mobile apps to SmartTV apps to a 3D virtual reality viewer. Through their smart wallet, users also have access to vAtoms offered on a marketplace or dropped on the map, etc. For users, vAtoms provide a completely new experience. Unlike an app on a mobile device, vAtoms can be dropped, bought or sold, transferred or traded with other users. Unlike an mp3 music file, vAtoms are unique and can't be copied. Unlike a ticket in PDF-format or in your Apple Wallet, a vAtom can be interactive: for example, it can play a song or change its state over time, providing pre- and postexperience on top of access to the actual event. Users are adopted into the system in an exponential virtuous cycle, as each time a new user receives a vAtom for the first time an inventory is automatically created for them associated with their unique identifier (such as a mobile phone number). From that point on, the recipient now has a vAtom "account" automatically and will be able to secure that inventory with a password, biometric ID, or other means. On an opt-in basis, users can receive gifts from other users, exchanges, directly from brands or event promoters, or via serendipitous findings in the AR or VR worlds.
+THE ANATOMY OF A VATOM
+Before we can begin to dive deeper into the architectural elements of the BLOCKv platform, we need to better understand the technological composition of vAtoms. In many respects, vAtoms can be compared to smart contracts, as found on the Ethereum platform, for example. That being said, vAtoms, on the one hand, focus very much on the experiential layer of their consumers and place high demands on the frontend and presentation layers, but, on the other hand, have high demands for compute (both long and short running) as well as scalability, (development-)flexibility and low latency requirements.
+The structural components of vAtoms are:
+13
+
+GRAMMAR AND POLICIES
+vAtoms are instantiated objects of a pre-defined class (a template and its variations). The template, for example, defines a virtual pizza, e.g. a price tag, its ingredients, how it has to be cooked, whether it can be delivered, redeemed etc. Variations of this template can be pepperoni, tuna, margherita etc. ­ all obeying the pizza principles, but with different price tags, varying ingredients etc. A vAtom now is the actual instantiation of a template variation. Each instantiated vAtom has its own independent life-cycle, only constrained by what it inherited from its base classes (template/template variation). Each template, on the other hand, needs to inherit from one of the pre-defined vAtom base classes (like standard vAtom, folder vAtom, contract vAtom etc.). Templates and their variations are defined and controlled by a publisher (see section above). They are the only ones that can emit vAtoms based on their definitions. Once a template and its variations leave the development phase, they are versioned and frozen, i.e. cannot be changed anymore once a single vAtom has been derived from them and has been published.
+DATA/STATE
+Each vAtom needs to maintain its own state, which can and partially will differ from other vAtoms of the same class (template variation). State can be persistent, can be read-only or modifiable according to certain rules and constraints and will reflect platform-relevant information (like ownership, linkage to its base class, creator/emitter of the vAtom, time stamps, commerce tags and policies etc.) as well as use case specific data (like in the pizza example from above). State can be compared to properties in the objectoriented world. If someone decided to build a concert ticket vAtom, for example, the ticket could have several states: "redeemed" and "not redeemed". Of the "redeemed" tickets, two could be assigned "converted to VIP" status randomly. The state of a vAtom is therefore what differentiates vAtoms of the same type during their use.
+REACTORS
+When a consumer or any part of the network wants to interact with a vAtom, it needs to call a method of the vAtom. Methods are registered on a per template level and are called reactors. Reactors are one of the main ways to modify the state of a vAtom. However, not all state elements can be modified, even by a reactor. The change and modify policies are partially controlled by the publisher as well as constrained by the platform itself. Ownership, for example, cannot be changed by the "deliver pizza"-reactor, it can only be changed by predefined system reactors that are entitled to modify ownership. Based on this, reactors can be categorized by two buckets: a) state authority reactors which have to be used to modify platform-
+14
+
+controlled state elements; b) general reactors which can modify certain state elements in the system section as well as all self-defined state elements as defined in the "private section" of the template. Reactors can be implemented as restful endpoints and/or as lambdas in whatever language seems appropriate. Reactors will receive all state information needed for computation (as defined both by the platform as well as on reactor registration and definition by the publisher) during invocation and will reply with all needed state updates as the reactor's computational output. This is an important characteristic of reactors as they need to provide idempotent results for a given input state. Reactors are attached to templates by publishers.
+BRAINS
+Brains are "always on", i.e. long running threads. Brains can be run for individual vAtoms or one brain can compute for all vAtoms of a kind (template variation). An example of a useful brain could be the implementation of a GPS coordinate calculator for a butterfly vAtom, which moves over the map under certain rules. Another example is an event listener that, based on external events, modifies state. Brains run in specific BLOCKv VMs, can be written in javascript/node.js, and can call the existing platform libraries. Brains receive periodic state version updates and compute based on the current version of the state they have. Modifications to the persisted state are following the same guidelines as any state update.
+FACES
+Faces implement the presentation and interaction layer of the system. For example, a single vAtom might have many faces, all targeting different presentation platforms. There could be faces that use native iOS capabilities, while other faces are building using more cross-platform WebView implementations. A vAtom can also have specific VR faces that only work in certain VR environments, while others might leverage the sensor/actuator plane of IoT-devices. Faces can be developed using HTML/JavaScript/CSS or an already built or built-in, native Face can be used.
+RESOURCES
+vAtoms might have a lot of resources attached to them, such as images, videos, 3D-objects etc. which are held and managed by the platform in a CDN environment and controlled by publishers.
+15
+
+ASSETS
+vAtoms might have individual assets attached to them, for example a Wallet vAtom can hold balances for virtual currencies, dollars, bitcoins, ether, etc.
+LEVERAGING BLOCKCHAIN NETWORKS
+The BLOCKv Platform gives vAtom publishers and developers the ability to choose whether or not to leverage a blockchain for each of the vAtom templates they create. Publishers may wish to keep certain vAtoms off-chain for vAtoms which have no inherent value or scarcity and are not intended for use outside of the BLOCKv platform. For vAtoms that are intended to be used on-chain (and therefore viewable in external wallets), publishers may choose to enable this functionality in their templates.
+The platform also allows publishers to choose which blockchain network to leverage (Bitcoin, Ethereum, EOS, etc.), giving them the freedom to choose a network that best meets their requirements, including performance targets and processing costs.
+PUBLISHING VATOMS ON THE BLOCKCHAIN
+When vAtom templates are created by the publisher/developer, they are deemed either blockchainenabled or not. When a blockchain vAtom is created, the platform will first issue the asset onto the chain and the publisher will be able to "emit" or "grant" some number of vAtoms onto the chain, which will end up in the account of the Publisher for distribution to users.
+The vAtom publisher will then distribute the vAtoms by any number of mechanisms available on the platform, including email address, phone number, username, or directly to a blockchain wallet using the destination user's blockchain address.
+LIMITATIONS OF EXISTING BLOCKCHAINS
+At first glance, existing on-chain platforms like Ethereum might seem a perfect fit for the vAtom. Partially, they are. This is one of the reasons why BLOCKv overlays on blockchains such as Ethereum now and EOS soon, not only for its token, but to create fully on-chain vAtoms, hybrid vAtoms, as well as side-chain vAtoms.
+As of today, however, existing blockchain solutions struggle with scalability and TPS limitations. The most popular chains currently handle fewer than 100 TPS. In fact, the number is closer to 10 TPS, which is nowhere near sufficient for the envisioned needs of the developer community. To make matters worse, latency as seen by today's Proof of Work algorithms, lead to commit times of less than 30 seconds, but on average more than 15 seconds, which is unacceptable for the user-centric applications enabled by the BLOCKv experiential protocol layer.
+Current developments are highly encouraging. Over time, this picture might change and more and more elements from blockchains will naturally be leveraged for the network (e.g. Omni Layer on Bitcoin and Litecoin, Ethereum's Caspar research, Raiden, the EOS.IO software amongst others). To overcome these limitations for the short term, BLOCKv platform enables a semi-decentralized network overlay, with onand off-chain transactions. To a large degree, it is at the discretion of the publishers to decide which state will ultimately go on the chain. Other decisions are pre-built into the platform, the most important of
+16
+
+which is that most on-chain transactions will be settled in a batch-like fashion, after having been committed to a platform off-chain commit-log at first.
+The advantage of this approach is that BLOCKv can meet the industry's immediate user experience and latency goals, while evolving in parallel with blockchain evolution. Another advantage is that neither publishers/developers nor users need to be exposed to blockchain complexities (like addresses, managing keys, making sure enough funds of the needed tokens are available for each transaction etc.) as these will be taken care of by the platform. The biggest advantage, though, seems to be that publishers can decide at creation time which state they want to have on-chain (if any at all) while always using the same platform. The drawback of a semi-centralized system is obviously the existence of temporarily centralized elements, with a gradual shift over time to full decentralization as the industry matures. The BLOCKv governance and mission ensures that an increasing amount of any centralized components of the architecture will become decentralized as soon as each becomes viable. As all BLOCKv centralized components will be open-sourced, the community has access to them now and will have continually as the platform moves to the decentralized future.
+OVERVIEW OF PLATFORM ARCHITECTURE ELEMENTS
+The BLOCKv platform is a "complexity reduction" layer for blockchain, making it easy to build and monetize blockchain applications. The developer is shielded from many of the complex tasks, cumbersome processes and learning needed in today's blockchain developer environments. Under the hood, BLOCKv is a sophisticated environment comprised of several interconnected parts. In this section, we will review all parts of the BLOCKv platform and their relationship with each other. The components of the BLOCKv platform are:
+· vAtom Core (vACore) · vAtom Identity Management System (vAIMS) · vAtom Service Locator (vASL) · vAtom State Management System (vASMS) · vAtom Cycler's Framework (vACF) · vAtom Code Hub (vAHub) · Blockchain Abstractor & Hybrid Integration Engine (vAChain) · SDKs for the community
+VATOM CORE
+At the heart of the system, is the vAtom Core. This part of the system provides the services framework, which takes care of:
+· Object Creation & Lifecycle Management · Transaction Services Platform · Billing Engine · Analytics & Auditing Framework
+The vACore provides all services to create vAtoms, has them run (i.e. their reactors, their brains etc.), provides APIs for Identity Management, publisher and developer onboarding, while registering templates, their variations and defining policies. It also makes it possible to access analytics about what has been
+17
+
+happening on the platform, so that publishers can easily judge the "success" of their vAtoms in terms of distribution, liked and disliked vAtom classes, etc. The vACore also manages the billing engine, i.e. makes sure that the token flow (as depicted in the "V: the BLOCKv token" section) is taken care of.
+VATOM IDENTITY MANAGEMENT SYSTEM
+This component manages the users, their identities, and data both in terms of authorization and authentication. The vAIMS leverages on-chain identity management and enriches with data off-chain (which is used for less sensitive, but more volatile data, like how often has a user logged on using a specific app).
+VATOM SERVICE LOCATOR, STATE MANAGEMENT SYSTEM, CYCLERS FRAMEWORK, AND CODE HUB
+These elements are the key pieces within the infrastructure. They will run in a centralized fashion until a better, decentralized approach can be used/implemented. The purpose of these components is to allow distribution of pre-registered reactor, platform and brain code to a network of registered infrastructure providers ("cyclers"), which will provide their infrastructure stacks to the network for computation. The platform will route requests based on analytics to this network, use a consensus-approach for statemodifying results and will pay to those, whose output has been accepted by the vAtom State Management System. The Blockchain Abstractor & Hybrid Integration Engine will marry the centralized components with the on-chain technology stacks and will hence mainly focus on the following tasks:
+· Record and allow ownership to be registered on-chain · Persist required state changes to the chain (for all entities, like identities, vAtoms, definitions and
+grammar etc.) · Pay for transactions on the chain · Pay for the vAtom network transactions using V The platform and its components can finally be depicted as follows:
+18
+
+PART III: THE BLOCKv TOKEN
+PURPOSE AND USAGE
+V (ticker: VEE) are smart contract tokens built on the ERC20 token standard. They are an integral part of the BLOCKv open-source development environment. As a living structure, BLOCKv and each of its composite parts requires nutrients. V are required both to fuse the BLOCKv ecosystem together and provide a mechanism for transactions, rewards and collaboration. All key stakeholders within the ecosystem will utilize V in the following ways:.
+BLOCKv
+This is the Swiss-based company responsible for building and releasing platform and protocol technology, creating an array of tools, incentivizing developers, building use cases for smart blockchain objects, and promoting the use of BLOCKv technology across industry verticals. BLOCKv shapes the digital playground for experimenting with revolutionary technology. It will use V to reward hackathons, competitions and support user-piloted development solutions. For example, BLOCKv will run competitions for the best templates for gaming, health care, education, collectibles and consumer products. The winners will be awarded in V. BLOCKv will also partner with universities and other research organizations. It could then lend the organization a bulk sum of V to experiment with various economic payment models for creating and maintaining vAtoms.
+DEVELOPERS
+Developers are at the core of the BLOCKv ecosystem. As such, they are the main driver of demand for V. Since they are encouraged to integrate BLOCKv's open-source technology into their existing products and develop new BLOCKv functionality, they need to use V for most operations with vAtoms and the BLOCKv ecosystem. Every time a vAtom is linked to the blockchain, this operation will need to be paid for in V. Every time the ownership of a vAtom is changed, it will need to be paid for in V. Using existing templates for vAtoms will also require payment in V.
+To illustrate this point, let's imagine that a gaming company wants to create unique collectable cards based on one of its bestselling games. It will host a competition and award these digital cards to the winners. The company would need to use V to create these cards and to link them to the blockchain in order to ensure ownership.
+PUBLISHERS/COMPANIES/BRANDS
+We predict a surge of developers and companies hiring developers specifically to work with BLOCKv technology to create unique tradable collectibles, vAtom-based viral campaigns, redeemable virtual goods, experiential tickets and treasure hunts, and a vast array of functional and ornamental virtual items. As the ecosystems grows, smart objects and creators will proliferate globally which in turn creates demand for V as the only form of payment in the system.
+For example, a brand hosting a conference could create an interactive vAtom that drops to the user when they post with a specific hashtag on Twitter. The vAtom could grant the user free merchandise, encourage them to share it or grant an entry to next year's conference. The conference organizer's payment into the BLOCKv platform is in fractions of V into the system powering their vAtoms. Another company is creating
+19
+
+digital trading cards for eSports that are collectible and tradeable, but also dynamic and change state when external events occur. If a certain player wins a tournament his card can change to have the picture of the player holding a drink, and the drink object can be simply dragged from the card into a user's inventory and then redeemed for a real drink. Each of these actions, from launching the smart object to the interactions and redemption functions will draw power and therefore V tokens, creating more demand for the tokens as more experiential currencies hit the market. Another example is for ICO's themselves; initial coin offerings where new ERC20 tokens are issued. In this example, the BLOCKv platform would be used to provide the coin issuance with personality and character, as the visualization and behavior of the coin that today is inert and bland will become increasingly interesting and important. Again to onboard and run the interface layer, Vs will be drawn from the creator's wallet to power their creations. The more developers making vAtoms, the more Vs will be purchased as each developer will need to procure and utilize V as the lifeblood of their work.
+USERS & USER GENERATED VALUE (UGV)
+The BLOCKv blockchain interface layer opens an entirely new world of blockchain application development because of the simplicity, speed-to-market and new revenue models it brings to the developer community. As more people have a place to put their digital goods, more of them will opt in to receive value from trusted sources directly and seek to create objects of value themselves. The more individually addressable users capable of receiving direct value, the more brands and providers can bypass traditional intermediaries and develop deep, lasting and mutually beneficial relationships with the user community.
+Note that creators will not only be professionals, but the general public as well. Because of the simplicity of the tools and the nature of the templates that can be rapidly adopted for "fill-in" object creation forms (like WordPress for bloggers), we will see the emergence of a new generation of UGV (user generated value) on a global stage. Whereas UGC (user generated content) powered the last generation of centralized platforms, UGV will now power the new generation of decentralized distributed applications.
+UGC began in the desktop publishing age with the first Macintosh computers enabling the rapid creation of brochures, posters, newsletters, magazines and the like. It evolved with the advent of photo sharing, video posting, and social media outlets. The shift from information sharing to value sharing will trigger a commensurate rise of a new type of consumer content creation. Enabling easy and lucrative UGV outlets will bring tens of thousands of usage scenarios, from artists creating and selling scarce works to a global audience, to family tokens for task and allowance incentive models. In every case, no matter how distinct, each creator will need to use V to access the BLOCKv ecosystem and power their creations.
+TYPES OF TRANSACTIONS
+The previous section illustrated how various participants within the BLOCKv ecosystem will use V to build and use vAtoms. It is important to understand that V is the key to the entire flow of activity within the system ­ the fuel powering the objects, the incentive driving the ecosystem, the way each interaction is tallied. To create and run anything on the BLOCKv platform, you need V. The creator of vAtoms will pay, not the consumers. No payments can be issued in any other manner and the coin is organic to the underlying function of the model. Below is a list of possible transactions that can be conducted within the BLOCKv ecosystem using V. The reason a specific coin is necessary to power the interface protocol rather than simply use an existing cryptocurrency like bitcoin or ether is that the BLOCKv model depends on a number of unique characteristics of the V itself, including community control of its issuance to cyclers
+20
+
+delivering the distributed resources running the objects, its relationship to the price/draw powering the vAtoms, the controls on inflation to maximize community health, and the future experiential elements that will be added to the utility of the V itself (i.e. the V is not only an ERC20 token but a vAtom as well and as such can and will take on many additional characteristics that augment the BLOCKv economy over time). Further, as the ecosystem organically grows and develops, the range of these transactions will increase:
+VATOM CREATION
+· Template and Variation creation - V is paid to the BLOCKv platform for templates and variations created - V is charged for use of existing templates; the template creator receives a payment in V
+· Face Creation - V is paid for faces registered (image/AR/VR/3D) - V is charged for use of existing faces; the creator receives a payment in V
+· Script (vAtom Reactors and Brain) - V is paid to the BLOCKv platform for reactors or brain scripts registered - V is charged for the use of reactor or brain scripts; the creator receives a payment in V
+· Emit vAtom - V is paid to the BLOCKv platform for vAtoms emitted
+· Link ownership to a blockchain - Fee is paid to BLOCKv - Fee is paid to the blockchain
+VATOM TRANSACTION
+· Reactor-based transactions - V is paid to the BLOCKv platform for vAtom transactions initiated by a reactor (such as transfer, acquire, redeem)
+· Brain-based scripts - V is paid for long-running scripts using the vAtom brain function
+Factors influencing the value of V:
+In the near future, everyone will have a simple and convenient place to keep the digital goods they collect across environments, experiences and industries, as well as ubiquitous access to these goods across any device.
+vAtoms will become a ubiquitous fact of life for most people. If you buy a ticket, collect art, engage in commerce with a major brand, accept rewards, or gift digitally, you will own a vAtom. BLOCKv is the enabler of this experiential currency on blockchains and V is quintessential to BLOCKv. If you want to create vAtoms, use them or run them, you will need to acquire V. There are a number of factors which will influence the growing demand for V:
+· Users: growing interest among end-users is the most obvious driving force behind the development of new vAtoms and, consequentially, V as the payment mechanism for this development.
+· Developers: as new developers become incentivized to experiment with this new technology, they will need V to fuel their innovations.
+21
+
+· Publishers: for brands and publishers who want to harness vAtoms' virality, V will become indispensable, both to incentivise developers and to power this new technology.
+· Sophistication of vAtoms: as vAtoms become more intricate and sophisticated, they will need a growing amount of V to run.
+· Number of vAtoms: as vAtoms become more ubiquitous, the amount of V needed to support the ecosystem will increase.
+· Transactions and interactions with vAtoms: as vAtoms become more transactional and interactive, a growing number of transactions will need to be tied to the blockchain, thereby increasing the demand for V.
+SUPPLY
+The token supply will have a 35/15/25/25 distribution, according to the following breakdown:
+
+35% will be sold to the public in the TGE 15% will be locked into a 6 year smart contract to fuel innovation in the ecosystem in the future 25% will be allocated to incentivize the developer community and ecosystem partners 25% will be held by the company for the team, advisors and early contributors
+
+· Token: Ethereum ERC20 Token · Purchase methods accepted: ETH
+
+· Presale: · Main sale:
+
+$20 million cap, September 18 ­ October 10, 2017 $20 million cap, October 19 ­ October 24, 2017
+
+TOKEN SALE DATES
+The BLOCKv token pre-sale will open on the 18th of September, 2017 and will run until the 10th of October, 2017, or until the pre-sale cap of $20 million is reached. The main sale will take place on October 19th, 2017 and will run until the 24th of October, 2017 or until the $20 million main sale cap has been reached.
+BLOCKv's innovative token distribution model supports our vision for the long-term health of our growing ecosystem. To highlight this, we have introduced a separate, long-term lockup token category where 15% of tokens are allocated to be locked up for 6 years. This reserve of locked tokens will be gradually made available to the company after 3 years to further fuel the growth of the ecosystem through developer grants and user incentives.
+The BLOCKv token supply will be split between four categories. Each category, apart from the tokens sold in the public sale, will be subject to a lockup. The lockup structure is a very important aspect, since it guarantees that the token sale is just the first step in the long journey of the growth of the BLOCKv's ecosystem.
+
+22
+
+TOKEN DISTRIBUTION MODEL ­ EXPLAINED
+· 35% will be sold during the public token sales. This will be the total token supply available for purchase during the pre-sale and main sale.
+· 15% of the tokens will be locked up long term. To ensure long-term success of our project, this portion of the tokens will be locked up for 6 years with some vesting starting at year 3. We have absolute confidence in our project and are fully dedicated to the spread vAtoms throughout the world and having this reserve will be the best way to add further fuel to this vision in the future.
+· 25% of the tokens will be reserved for incentives to promote the use of BLOCKv and vAtoms. These tokens will be used to reward developers for devising innovative uses for vAtoms, and to reward vAtom end-users for performing specific actions. The diving goal is to proliferate the use of vAtoms all over the world and across many industries. These tokens will be locked up for 2 years, with 1/5th being available after the token sale and 1/5th being unlocked every 6 months thereafter to ensure regular and timely incentives.
+· 25% of the tokens will be held by the company with a portion going to the development team, early contributors and advisors over time. We believe that rewarding our supporters appropriately will ultimately contribute to our project's success in the long-term. These tokens will be locked up for 2 years, with 1/5th being available after the token sale and 1/5th being unlocked to the company every 6 months thereafter.
+THE BLOCKV TOKEN SALE - EXPLAINED
+The pre-sale contributors will receive up to a 20% discount on the final price of V and will be guaranteed an allocation in the sale. The final price per token, as well as the number of tokens released for the presale, will be determined by the main sale. The total number of tokens released during both the main sale and pre-sale events will add up to 35% of the total supply of V.
+During the main sale event, 1 billion V will be released for sale to the public. The sale will continue for 5 days, with a hard cap of $20 million. The final price per token will depend on the total sum raised in the main sale, with a maximum price of $0.02 per token.
+Once the final price per token is determined by the main sale, the presale tokens will be calculated and final allocation will occur. This model ensures that the tokens are priced according to the market sentiments from the outset, which will be beneficial for the health of our platform and our token-based ecosystem.
+USE OF PROCEEDS
+The funds raised from the token sale will be used to further develop the technology, for operational expenses such as technology licenses, infrastructure and systems management, marketing and community building, as well as for the general operations of the company.
+
+25% 30%
+
+20%
+
+25%
+
+30% Product Development 25% Marketing & Community building 20% Infrastructure & Systems 25% General corporate purposes
+
+23
+
+PART IV: BLOCKv DEVELOPMENT ROADMAP
+24
+
+PART V: BLOCKv TEAM
+BLOCKv's team has a deep background in developing massively scalable transactional systems for consumer and enterprise markets, including the Swisscom cloud architecture and other major telco-scale projects.
+Reeve has been a long-standing pioneer in the Bitcoin/Blockchain space and was cofounder and CEO of Tether. His efforts revolutionized the way currency is transacted by creating the world's first fiat currency platform on the Bitcoin blockchain. In just over one year from inception, Tether was acquired by Bitfinex, the world's largest bitcoin exchange. Prior to Tether, Collins founded several successful ventures, including Traffic Marketplace, one of the first online ad networks to be acquired by Vivendi Universal; RedLever, a branded entertainment studio, acquired by Adconion Media Group; and Pala Interactive, where he secured $70 million to create a legal, realmoney gambling site in the US that is live today.
+Gunther is a veteran technology entrepreneur and blockchain business model consultant. He has diverse experience in leading multi-disciplinary and international teams. Notably, Gunther co-founded and served as CEO at SmApper Technologies, a company which provided intelligent and automated file management solutions for enterprise customers to manage unstructured data, and headed Cloud Products and Technologies at Swisscom, a leading telecommunications provider in Switzerland. Previously, Gunther led projects across various verticals, ranging from IT and media to marketing.
+Lukas is a technology entrepreneur and executive with nearly 20 years of experience in founding and leading companies which developed uniquely innovative technological products. His effort led Swisscom, a leading telecommunication company to the highly successful development and market launch of the first cloudbased IP-TV solution and several other mobile and cloud products for Swisscom in Switzerland. Prior to that, he was the leader of Product and Innovation groups at a mobile venture for Telefonica and for Alcatel-Lucent.
+Craig leads the development of global innovations on top of the Bitcoin blockchain as the Chief Technologist of the Omni Foundation and acts in a variety of roles as Co-Founder, Technologist, Facilitator, Director, and Advisor for several blockchain projects and companies including Omni, Tether, vAtomic, Bitfinex, Unsung, Fuzo, Factom, Synereo, Tau Chain and the MaidSafe Foundation. Occupying several entrepreneurial and executive roles over the past two decades, Craig continues to push the boundaries in cutting-edge technology, decentralized systems and software development.
+25
+
+PART VI: ADVISORY BOARD
+Advisors to BLOCKv are not passive names on a page, but active participants in the health and long-term success of the platform and its underlying ecosystem. Advisory status comes with obligations and proactive involvement across many disciplines and activities. Our advisors include:
+Brock Pierce - Chairman of the Bitcoin Foundation, co-founder of Blockchain Capital, cofounder and Head of Strategy at Block.one, founding board member of Mastercoin.
+Peter Diamandis - Pioneer of innovation and groundbreaking technology, co-founder and Vice-Chairman of Human Longevity Inc. (HLI), co-founder and Executive Chairman of Singularity University, co-founder and Co-Chairman of Planetary Resources.
+Xin Chung - Technology entrepreneur and VR pioneer, founder of SofaVR and TrustCloud.
+Walter Kortschak - Silicon Valley venture capitalist and senior advisor, former managing partner of Summit Partners, a private equity and venture capital firm.
+Jeff Holden - Entrepreneurial product leader, Chief Product Officer at Uber.
+Emmanuel Seuge - Marketing mastermind, formerly the Senior Vice President for Content Marketing at Coca-Cola.
+Sam Englebardt - Experienced executive and investor focused on building innovative media, entertainment and technology companies.
+Mike Costache - Founder of the Blockchain Investors Consortium (BIC) board member of Token-as-a-Service (TaaS), the first ever tokenized closed-end fund dedicated to investments in blockchain assets. David Drake - Founder and chairman of LDJ Capital and The Soho Loft Media Group, a global financial - media company.
+26
+
+PART VII: CONCLUSION
+In the coming years, billions of people will have a primary place to keep their digital goods. This "place" will be associated with their identity, not with the device they use or the mechanism through which they acquired the good. Every time a person accepts a gift, buys a ticket, collects an object, receives a receipt (and the list goes on) they now "own" a digital object and by definition have a place to put it. This means people all over the world will rapidly gain an individual wallet: a place that they psychologically consider to be the home for their virtual goods. The vAtom account will become a ubiquitous fact of life for most people, becoming the default storage locker for items found in every walk of life: from online ads, newspapers and magazines, television commercials, radio advertisements, bus shelters, billboards, games of all types, gifts from friends and random acts of kindness from strangers, retail environments as well as sporting and music events. Anywhere a person travels or spends time, they will find reason to spend "no time for certain value" and pick up objects that they can collect, use, trade, redeem or sell. If you own a smartphone, a television, a PC or a gaming device you will own a vAtom. vAtoms will change the way people experience value, build value, and communicate value. BLOCKv is the interface protocol that allows the building of the experiential currency of the future, vAtoms are its core, and V is the battery fueling the next generation decentralized economy.
+27
+
+

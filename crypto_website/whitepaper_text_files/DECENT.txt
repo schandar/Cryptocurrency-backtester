@@ -1,0 +1,240 @@
+SALUS: Scalable, Standard based Interoperability Framework for Sustainable Proactive Post Market Safety Studies
+A Brief Overview of SALUS Interoperability Approach
+SALUS Consortium
+September, 2012
+
+A Brief Overview of SALUS Interoperability Approach
+
+Table of Contents
+
+Executive Summary
+
+3
+
+Introduction
+
+4
+
+SALUS Interoperability Architecture
+
+6
+
+Expected Results
+
+11
+
+About SALUS Project
+
+12
+
+www.salusproject.eu
+
+A White Paper Published by SALUS Consortium
+
+2
+
+A Brief Overview of SALUS Interoperability Approach
+
+Scalable, Standard based Interoperability Framework for Sustainable Proactive Post Market Safety Studies
+Executive Summary
+Pre-approval clinical trials cannot guarantee that drugs will not have serious side effects after they are marketed. Post-approval drug safety data studies aim to address this problem, however, their effectiveness is started to be discussed especially after recent examples of drug withdrawals. This is due to the fact that, current post market safety studies largely depend on the submission of spontaneous case reports where underreporting is a major problem. The need for a more proactive approach is apparent, where safety data from multiple sources are actively monitored, linked and analyzed. Effective integration and utilization of electronic health records (EHR) can help to improve post-market safety activities on a proactive basis. SALUS aims to facilitate this through providing functional interoperability profiles and supporting open source toolsets enabling EHR systems and clinical research systems to communicate and exchange EHR data; implementing semantic interoperability solutions enabling meaningful interpretation of the exchanged EHR data; implementing security and privacy mechanisms and open source toolsets ensuring that clinical information is shared in an ethical and safe way and providing a novel exploratory analysis framework for open-ended temporal pattern discovery for safety studies on top of disparate, distributed, heterogeneous EHR Systems.
+
+www.salusproject.eu
+
+A White Paper Published by SALUS Consortium
+
+3
+
+A Brief Overview of SALUS Interoperability Approach
+
+SALUS aims to create the necessary semantic interoperability infrastructure to enable secondary use of EHR data in an efficient and effective way for enabling pro-active post market safety studies
+Addressing the need for more effective post market surveillance methods
+
+Introduction
+The process of approving pharmaceutical agents for use in humans usually hinges on establishing the efficacy of the agent. This is usually achieved through appropriately designed and rigorously analyzed randomized clinical trials. Whilst certain safety aspects are established though the evaluation of the development program ranging from animal studies to dedicated large trials, for most approved agents however, there are limited data for ensuring the safety of the product at approval. These include, for example, the risk of rare events which are not identified in the clinical trials due to their limited size, or delayed effects of the drug due to the limited duration of the trials. Furthermore, clinical trials usually have exclusion criteria, e.g. the elderly or pregnant women and therefore there are little or no data on certain groups available prior to approval, but who may ultimately use the agent. Moreover, the pattern of drug use in clinical trials may not necessarily reflect the real-world use once the drug reaches the population and therefore may impact safety.
+For these reasons, while pre-market safety analysis through clinical trials remains vital, there is considerable attention towards improving the reporting and collection of post-market data. Current post-market safety surveillance and reporting activities are largely based on reports of suspected adverse drug reactions sent to the regulatory bodies by medical professionals, and in some countries by patients themselves. While spontaneous reporting remains a cornerstone of pharmacovigilance in the regulator environment and indispensable for signal detection, recent examples of drug withdrawals1 due to uncommon adverse events after millions of patients were exposed, the need for a more effective and proactive surveillance is reinforced. One of the main problems of the current drug surveillance system is underreporting: It has been estimated that only around 5% of adverse drug events (ADEs) are reported through spontaneous reporting2. This is partially due to fact that overloaded medical personnel do not always see reporting as a priority. Another issue is that detecting adverse events may not always be straightforward, hence can be overlooked. Also, as it is not possible to estimate the number of patients taking a drug from spontaneous reports, they do not readily enable the quantification of any risk. Therefore the benefit-risk profile of the product cannot be determined.
+It is evident that whilst more proactive post market surveillance methods are needed, they should not create additional burden for the health care provider or the patient.
+
+1 Philadelphia Inquirer. AstraZeneca abandons blood thinner, citing risk. Feb, 15, 2006 2 Bates, D.W., Evans, R.S., Murff, H., Stetson, P.D., Pizziferri, L., Hripcsak, G. (2003) Detecting adverse events using information
+technology. Journal of the American Medical Informatics Association 10(2):115­128
+
+www.salusproject.eu
+
+A White Paper Published by SALUS Consortium
+
+4
+
+A Brief Overview of SALUS Interoperability Approach
+The SALUS Consortium believes that an effective integration and utilization of electronic health record (EHR) data can help to improve post-market safety activities and will result in:
+ Strengthening the spontaneous reporting process by automated ADE detection and reporting tools screening EHRs in a hospital so that ADE reporting burden can be overcome within a clinical institute. This can increase data accuracy as it eliminates manual screening of clinical care data for identifying ADEs.
+ Enabling ADE reporting by extracting the available information from the EHRs into the individual case safety reports to avoid double data entry. This facilitates delivering timely feedback to the regulatory bodies via automatic EHR supported adverse event reporting.
+ Strengthening the current signal detection processes in pharmacovigilance centers for tracing case reports to their corresponding patient records to allow actual incidence rates to be computed, and to provide additional information on extended parts of the underlying medical history of the patient.
+ Enabling real time screening of multiple, distributed, heterogeneous EHRs for early detection of ADE signals. This facilitates proactive safety monitoring as a complementary approach to reactive signal detection based on spontaneous reports.
+ Enabling sustainable and scalable EHR data re-use facilitating wide scale outcome and health effectiveness research, to be able to observe selected cohorts of patients over an extended period of time screening multiple, distributed, heterogeneous EHR systems
+Another important advantage of EHR data is that they offer the potential for quantification and contextualization of any risk though safety studies and therefore help determine the benefit-risk profile of the drug, which ultimately determines the use of the drug in a population. To facilitate these wide scale proactive post market safety studies, there is a need for a new capacity enabling access to the data locked in multiple different heterogonous EHR systems: an interoperability architecture. This interoperability architecture should enable execution of proactive post market surveillance studies by the pharmaceutical companies and regulatory bodies in cooperation with the heterogeneous, distributed EHR systems.
+SALUS Project3, an R&D project co-financed by the European Commission's 7th Framework Programme (FP7), aims to create the necessary semantic and functional interoperability infrastructure to enable secondary use of EHR data in an efficient and effective way for reinforcing the post market safety studies, addressing the challenges that are presented above.
+
+3 SALUS Project, Scalable, Standard based Interoperability Framework for Sustainable Pro-active Post Market Safety Studies, http://www.salusproject.eu
+
+www.salusproject.eu
+
+A White Paper Published by SALUS Consortium
+
+5
+
+A Brief Overview of SALUS Interoperability Approach
+SALUS Interoperability Architecture
+One of the first challenges to address is achieving syntactic and functional interoperability between EHR systems and clinical research systems. In SALUS, our approach is to provide functional interoperability profiles and open source tools to query EHR data for ADE identification, ADE reporting and signal followup studies and to sub-scribe to clinical data for a selected cohort of patients for signal detection and outcome research over distributed EHRs. These interoperability profiles aim to enable the EHR systems and clinical research systems used for running post market safety studies to communicate and exchange data.
+In order to enable the collaborating systems to interpret the queries and the resulting clinical data exchanged meaningfully and accurately for producing useful results, there is a need for a semantic interoperability layer built upon these functional interoperability profiles.
+One of the first pre-requisites for such a semantic interoperability architecture is to have a common core data set of interest to data analysis tools used for post marketing safety studies. The role of SALUS semantic interoperability framework is semantically mediating the clinical data represented through syntactically different but semantically equivalent EHR content models to one another, by making use of the core set of common data elements as the common denominator. This is facilitated through an ontological framework.
+In the following subsections, we will further analyze the need for functional and semantic interoperability solutions for enabling post market safety studies on top of EHRs, and present SALUS approach to realize these.
+Providing Functional Interoperability Profiles between EHR Systems and Clinical Research Systems Enabling Proactive Post Market Safety Studies
+Achieving syntactic and functional interoperability between the EHR systems and clinical research is the necessary condition for further enabling semantic interoperability.
+The requirements for syntactic and functional interoperability profiles for enabling proactive post market safety studies can be summarized as follows:
+ Different rule based intelligent data analysis algorithms can be plugged on top of available EHRs to detect ADEs by checking the administered drugs, laboratory test results, vital signs, findings and diagnoses and report them to the medical practitioners in order to facilitate detection and reporting of ADEs. Standard based protocols are needed to specify the data to be screened in a machine processable manner, to feed these data to the intelligent data analysis algorithms, and to send the suspected ADE list back to the medical practitioners seamlessly within an EHR session. In this way it will be much easier to integrate several different ADE detection tools with heterogeneous EHR systems in order to conduct scalable distributed post market safety studies.
+ Upon detection of such ADEs through these enabling mechanisms, if confirmed by the physician, these should be reported to regulatory bodies through standard based individual case safety reports. Most of the data that needs to be reported within these case reports are mostly available in the EHRs. In order to avoid duplication of effort to fill in these data to the case safety reports once again manually, there is a need for interoperability profiles to fill in these standard based forms by
+
+www.salusproject.eu
+
+A White Paper Published by SALUS Consortium
+
+6
+
+A Brief Overview of SALUS Interoperability Approach
+extracting the required information from the underlying EHR system, and sending the completed forms to the respective regulatory bodies.
+Figure 1: How SALUS extends current spontaneous reporting system to seamlessly exploit the already existing clinical data in EHRs
+ Spontaneous reports only report the ADE events. The information related to the percentage of other patients who used the drug but not experienced ADEs, i.e. the denominator data, is missing. On top of that, these reports may fail to take into account important information about the patient such as underlying medical conditions and co-medication. An ideal system for adverse drug reaction surveillance would combine the strength of case reports with those of EHRs4. Standard interfaces are needed for tracing case reports to their corresponding patient records, to query the EHRs to enable absolute reporting rates to be computed, and to retrieve additional information on extended parts of the underlying medical history of the patient.
+
+Figure 2: How SALUS enables exploratory signal detection and epidemiological research studies on top of heterogeneous EHRs
+
+4 G Niklas Norén, I Ralph Edwards, Opportunities and challenges of adverse drug reaction surveillance in electronic patient records, PharmacoVigilance Review, Volume 4 Number 1 , February 2010
+
+www.salusproject.eu
+
+A White Paper Published by SALUS Consortium
+
+7
+
+A Brief Overview of SALUS Interoperability Approach
+ Strengthening available spontaneous reporting will already be a step forward for post marketing safety studies. However, in order to realize near-real time proactive post market safety studies, there needs to be a mechanism for screening the available heterogeneous and disparate EHRs for a specified time period for adverse event signal detection and also for conducting observational studies for validation of the suspected signals and for carrying out outcome research to see long term effects of drugs. There is a need for a machine processable mechanism to identify the target patient population for eligibility checking and the details of the clinical data to be collected, together with an exchange mechanism to feed the pseudonymized patient data to a common registry.
+Syntactic and functional interoperability can be achieved if and when two or more systems are capable of communicating and exchanging data by specifying communication protocols and data formats. For addressing the requirements of the proactive post market safety studies summarized above, there is a need for standardized interfaces between EHR systems and clinical research systems:
+ To specify the eligibility criteria to select the patients for the specific post market safety study
+ To specify the clinical data requested by an intelligent data analysis tool (ADE detection/signal detection/outcome research) to be fed to a clinical data registry for the selected group of patients
+ To transfer the specified clinical data to the clinical data registries for the selected patients
+ To query the underlying EHRs to support follow-up studies for signal detection
+ To query the underlying EHRs to fill in the ADE reports after an ADE is detected
+To define such standardized interfaces, in the SALUS project we will follow a "profiling" approach. The profile concept aims to eliminate the need for a bilateral agreement between any two information exchange partners by defining a standard set of messages/documents, choreographies, business rules and constraints. By analyzing the selected use case scenarios the required transactions will be determined, and for each of them, the best suitable standards for enabling these transactions will be chosen. SALUS functional interoperability profiles will be based on the available initiatives for achieving syntactic interoperability for re-use of EHRs for clinical trial execution, such as IHE Retrieve Form for Data-Capture (RFD)5, Clinical Research Data Capture (CRD)6, Drug Safety Content Profile (DSC)7 Profiles, HL7 Clinical Research Filtered Query Service Function Model (CRFQ SFM)8, and where suitable by proposing the necessary extensions for enabling such a standard based interoperability architecture for post-market surveillance.
+
+5 IHE Retrieve Form for Data-Capture Profile, http://wiki.ihe.net/index.php?title=Retrieve_Form_for_Data_Capture 6 IHE Clinical Research Data Capture Profile Profile, http://wiki.ihe.net/index.php?title=Clinical_Research_Data_Capture 7 IHE Drug Safety Content Profile, http://wiki.ihe.net/index.php?title=Drug_Safety_Content 8 HL7 Clinical Research Filtered Query Service Function Model (CRFQ SFM), http://www-
+.hl7.org/Special/committees/rcrim/projects.cfm?action=edit&ProjectNumber=541
+
+www.salusproject.eu
+
+A White Paper Published by SALUS Consortium
+
+8
+
+A Brief Overview of SALUS Interoperability Approach
+
+Providing Semantic Interoperability Framework Enabling Proactive Post Market Safety Studies
+Beyond the ability of two or more computer systems to exchange information through addressing syntactic and functional interoperability requirements, semantic interoperability is needed to automatically interpret the information exchanged meaningfully and accurately in order to produce useful results9.
+Semantic interoperability is a prerequisite for enabling secondary use of EHR data in post market safety studies so that clinical data is consistently captured from the EHR systems and analyzed by intelligent data analysis algorithms.
+The need for semantic interoperability between clinical research and clinical care systems may stem from the following facts:
+
+Reasons for Semantic Mismatch:
+- Different Reference Information Models -Different Templates -Different Coding Systems
+
+ Clinical statements may be represented through different reference and domain information models, like HL7 RIM and CDA, CEN/ISO 13606 5 part (E.g. Reference Model plus Archetypes/Templates, Patient Mandate) or CDISC ODM/SDTM. CDISC10 is a non-profit organization that develops standards covering almost all the steps within a regulated clinical research study including study design (SDM), study data collection (ODM and CDASH), study data analysis (ADAM) and submission to the regulatory bodies (SDTM).
+ Although the same information model is selected, consider for example HL7 CDA, the same clinical information can be represented through different compositional aggregation of clinical statements. To address this problem, these information models could be restricted more through CDA templates or CEN/ISO 13606 archetypes or CDISC ODMs based on selected CDASH data sets. Content models based on one or more of these possibilities can be created. Yet, the content models used by clinical research and care domains usually differ.
+
+ Although the same content model (template/archetype) is chosen, clinical statements may be represented using coded terms from different terminology systems.
+
+To address these problems, semantic interoperability framework should not only handle the structural mappings of two different information models, but also resolve the semantic mismatches due to the use of different terminology systems and different compositional aggregations to represent the same clinical concept differently even when a single information model is used.
+
+9 Werner Ceusters & Barry Smith, Semantic Interoperability in Healthcare State of the Art in the US,
+http://ontology.buffalo.edu/medo/Semantic_Interoperability.pdf 10 Clinical Data Interchange Standards Consortium (CDISC), http://www.cdisc.org
+
+www.salusproject.eu
+
+A White Paper Published by SALUS Consortium
+
+9
+
+A Brief Overview of SALUS Interoperability Approach
+
+In order to be able to detect such semantic similarities, there needs to be a common harmonized ontology that represents the semantics of reference information models, templates, archetypes and the terminology systems used. In SALUS Interoperability Framework we aim to provide tools to create and maintain such a harmonized ontology as a linked set of ontologies, and also to provide the semantic mediators that run on top of this harmonized model to map message payloads represented in one content profile to another in cooperation with terminology servers. SALUS common harmonized ontology aimed to act as a common denominator for exchanging clinical data required for proactive post market patient safety studies between clinical care and research systems. This ontology shall be based on the already existing standards used in clinical care and research domains and the already existing data sets. To be able to create this common harmonized ontology in a systematic and scalable way to serve the needs of SALUS use cases, the following activities are aimed to be carried out based on our methodology:
+
+SALUS will build a semantic metadata registry for managing common data elements in conformance to ISO/IEC 11179 standard
+
+ Identifying the clinical information requirements of the selected SALUS use cases and the related transactions enabling safety research. For this, we aim to agree on and design content models as the message payloads to be exchanged based on the prominent clinical data exchange standards used in clinical care and research domains (such as CDISC ODM models, CDA templates, CEN/ISO 13606 archetypes). There is an important initiative in this respect, namely the intended CEN/ISO Semantic Interoperability Artefact Modeling Standard (SIAMS)11. SIAMS approach provides a generic, neutral, standard approach for defining models of use which is not specific to CEN/ISO 13606, openEHR or HL7 CDA syntax. This generic model of use can be translated into 13606 archetypes, openEHR archetypes or HL7v3 CDA based content templates when necessary. We aim to develop a generic editor for Clinical Information Models (CIMs) for defining models of use, which then can be translated to different standards like HL7 CDA, CDISC ODM and CEN/ISO 13606.
+ Based on these information requirements expressed as content models, identifying the core common data element (CDE) set as meaningful fragments/building blocks to be used to create such content models. We will provide necessary tools to create, select, adapt and manage the CDEs in this core data set in conformance to ISO/IEC 11179 standard for metadata registries12.
+
+ Building a harmonized patient safety study ontology on top of this core CDE set. This evolving ontology will act as a common semantic dictionary of the clinical terms to be exchanged between EHR systems and clinical research systems. Supporting ontology fragments from domain specific ontologies (such as drug ontologies, specific disease ontologies) should also be added to this common ontology by providing the necessary semantic interlinkages between these ontology fragments. It should also cover the related fragments of the terminologies used in clinical care and research domains like MedDRA, LOINC, ATC, SNOMED CT, ICD-10, WHODD.
+
+11 CEN/ISO Semantic Interoperability Artefact Modeling Standard (SIAMS) initiative,
+http://www.en13606.org/wiki/index.php?title=Detailed_Clinical_Models_and_Archetype_Modeling 12 ISO/IEC 11179 standard for metadata registries, http://metadata-stds.org/11179/
+
+www.salusproject.eu
+
+A White Paper Published by SALUS Consortium
+
+10
+
+A Brief Overview of SALUS Interoperability Approach
+
+On top of this harmonized ontology, SALUS Semantic Mediation Framework aims to enable the underlying clinical research and clinical care systems to communicate through their already existing domain information models.
+For this, we support two complementary approaches:
+
+Complementary semantic interoperability support for clinical care and research systems that have varying levels of semantic awareness
+
+ We enable the clinical research and clinical care systems to communicate via the functional interoperability profiles by exchanging message payloads in conformance to the specified content models. In this way, they become able to communicate through the existing well accepted standards they choose like archetypes, CDA templates and CDISC ODM models. SALUS provides tools to semantically mediate these semantically similar but syntactically different content models to one another by exploiting the harmonized SALUS ontology.
+ We enable the development of semantic interfaces on top of their existing proprietary systems that will enable the EHRs and clinical research systems to communicate directly through the harmonized SALUS semantic model. For this, we aim to develop wrappers to translate these semantic interfaces enabled through semantic query languages like SPARQL to the native interfaces supported by the available systems, like SQL.
+
+Expected Results
+Early SALUS Results are already available from: http://www.salusproject.eu
+
+The SALUS project will foster integration of clinical care information from EHRs into clinical research systems to enable proactive post-marketing safety studies for early detection of potential safety issues. Such an environment will increase data availability and data accuracy for the clinical research community; reduce time spent on data entry for filling individual case safety reports by seamlessly retrieving data from EHRs; support wide scale longitudinal observational studies by enabling access to clinical care data stored in multiple distributed EHR Systems; decrease the time to detect the adverse drug events, as access to distributed EHR systems will drastically increase the scale of the safety studies; and facilitate participation by a greater number of clinicians and healthcare institutes in safety research.
+SALUS Project has started its activities in February 2012, the consortium has identified the selected use cases, finalized requirement specification and currently working on the conceptual design of architecture. This study also includes the initial specifications of the functional interoperability profiles, the common set of core data elements required in these use cases. The consortium is also actively developing early proto-types: the first prototype enables conduct of a post market safety analysis study by a regulatory body to assess the validity of a reported adverse event, by collecting case safety reports from heterogeneous hospitals presenting medical summaries in HL7 CDA, and CEN/ISO 13606 EHR Communication format using diverse terminology systems, and seamlessly analyzing the collected reports although different EHR standards and terminology systems are used, and
+
+www.salusproject.eu
+
+A White Paper Published by SALUS Consortium
+
+11
+
+A Brief Overview of SALUS Interoperability Approach
+
+querying back the participating hospitals through semantic interfaces to learn about extended medical history of the patients13. All SALUS results
+are available through SALUS Web Site (http://www.salusproject.eu).
+
+About SALUS Project
+
+SALUS: Scalable, Standard based Interoperability Framework for Sustainable Proactive Post Market Safety Studies
+
+Timetable: from February 2012 to January 2015
+
+The research leading to these results has received funding from the European Community's Seventh Framework Programme (FP7/20072013) under grant agreement no ICT287800, SALUS Project (Scalable, Standard based Interoperability Framework for Sustainable Proactive Post Market Safety Studies).
+
+Project Identifier: FP7-ICT-2011-7-287800 Contact person: Dr. Gokce Banu LALECI ERTURKMEN Tel: +90312 2101763 Fax: +903122101837 Email: gokce@srdc.com.tr Website: http://www.salusproject.eu Partners: · Project co-ordinator: Software Research, Development and Consultancy Ltd (Turkey) · European Institute for Health Records (France) · Stiftelsen WHO Collaborating Centre for International Drug Monitoring (Sweden) · OFFIS E.V. (Germany)
+
+· AGFA Healthcare N.V. (Belgium)
+
+· Electronic Record Services B.V. (Netherlands)
+
+· Lombardia Informatica SPA (Italy)
+
+· Institut National de la Santé et de la Recherche Médicale (France)
+
+· Technische Universitaet Dresden (Germany)
+
+· F. HOFFMANN-LA ROCHE AG (Switzerland)
+
+13 Gokce B. Laleci, Mustafa Yuksel, Asuman Dogac, Providing Semantic Interoperability between Clinical Care and Clinical Research Domains. Accepted for publication in IEEE Transactions on Information Technology in BioMedicine
+
+www.salusproject.eu
+
+A White Paper Published by SALUS Consortium
+
+12
+
+

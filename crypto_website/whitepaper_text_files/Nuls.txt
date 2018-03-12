@@ -1,0 +1,239 @@
+WINGS
+White Paper
+WINGS: A project governance and backing platform with incentivized forecasting
+Written by Serguei Popov, Stas Oskin, Boris Povod, Dominik Zynis and
+Sebastian Stupurac
+Version 1.1 Release Date: 26/9/2016
+
+ABSTRACT
+WINGS is a blockchain platform that seeds and nurtures a community dedicated to the launching, backing and promotion of new projects proposals through a fluid organizational model referred to as a Decentralized Autonomous Organization (DAO). DAOs implement self-determining and independent organizational governance, management and operations using immutable blockchains and smart contracts execution. WINGS combines several concepts, ranging from attention rewards, forecasting markets, smart contracts, governance models and federated funds security. The platform places an emphasis on encouraging the WINGS community to identify and promote high-value proposals that have higher chances of positive financial returns. WINGS creates a decentralized forecasting ecosystem that
+WINGS gives tangible incentives for WINGS token holders to put the effort in making the best available choic-
+es to maximize their rewards.
+Whitepaper
+A social funding platform with incentivized forecasting
+1
+www.wings.ai
+
+INTRODUCTION
+WINGS is a decentralized platform enabling individuals and organizations to submit new proposals to the WINGS DAO community in order for the latter to discuss, review and forecast on the proposal's success factors. Forecasting eliminates inappropriate projects and focuses potential future backers' attention on proposals with the highest potential. More accurately, the process filters out unworthy submissions and highlights high potential proposals that can perform a successful backing and receive promotion assistance from the community. Both the proposal submitters and the community have the ability to earn rewards for the creation and forecasting of new proposals.
+WINGS will be the first project governance and backing social platform of its kind that utilizes novel technologies such as: swarm intelligence through decentralized forecasting markets, smart con-
+WINGS tracts generators, DAO contracts accessibility and engagement solutions, flexible governance and
+participation models, deep learning and machine-based predictive modeling.
+In order to make the platform accessible, the primary interaction medium will be via chatbots integrat-
+Whitepaper ed within popular instant messengers. WINGS will enable users to submit new proposals, get notified
+about proposals submitted by others, inquire for additional information, forecast on a proposal's success chances, discuss neAwsuopcdiaaltfeusnfdroinmg pDlAatOfosramndwpitahrtiniccipenattieviiznemd aforkreectsastotinregach key decisions.
+Structure
+In this document, we discuss decentralized forecast markets and their vital role in reaching answers on a DAO project proposal's potential. We cover subjects such as market models, forecast ratings, anti-Sybil and anti-spam measures, and reward models. Additionally, we discuss the transformative effect of decentralization on organizations with a high-level overview of how WINGS will work. We delve into the platform components and their various aspects such as smart contracts, security, DAO project creation, reward-based governance model, and decentralized storage integration. Lastly, we explain our vision of user experience when interacting with the WINGS platform.
+2
+www.wings.ai
+
+DECENTRALIZED DECISION MARKETS
+The emergence and understanding of the swarm intelligence (information and action manifesting from decentralized, self-organized systems) creates new possibilities for new tools and methods of reaching decision consensus and predicting events. By rewarding participants submitting new proposals and those who forecast a DAO project's ability to raise funds or meet certain milestones, the platform creates an incentive-based system that encourages participation. Forecasts occur according to perceived gain or loss mechanisms, enabling participants to risk missing out on rewards based on choices, thus encouraging participants to conduct research prior to forecasting. The system is intended to reward well-informed decisions which predict correctly.
+Multidimensional markets
+WINGS utilizes a special form of forecasts belonging to the category of extra-predictive applications (a term coined by Paul Sztorc). The category employs multidimensional markets that bind both the decision and the expected outcome into a single forecast choice. These types of markets are based on asking token holders to forecast on a key decision, and noting what they think the value of their token will be as a result of the decision after a predefined amount of time which is long enough to see the influence of the decision. Once this time has passed, the value of the token is evaluated using a multitude of Oracles and the token holders who were the closest to the correct answer are rewarded.
+Forecasting can be flexible in its implementation; for example, participants can be asked to estimate a DAO project proposal's success in terms of how many funds will be collected during the project backing campaign. Once the forecast period is over, the proposal will become a full project on the WINGS platform with its own set of contracts and tokens, and gain the ability to start the backing campaign. After the campaign has concluded, the amount of raised funds is read from the blockchain, and the WINGS token owners, who had the most accurate forecasts about the actual raised amount, are rewarded.
+3
+www.wings.ai
+
+Other examples of key decisions for which forecast markets can be used for DAO proposals are the release of a milestone payments to a DAO contractor, work starting on implementing some feature or capability, or making a change to a DAO's governance or core operating ruleset.
+The forecasting process is semi-transparent, with up-to-date forecasts being published and visible to the public, and only with individual forecasts being completely private. This in order to avoid a possible behavioural bias between the tokens owners, and encourage them to produce the best forecasts they can, without being concerned with the other forecasts popularity, or the forecast ratings of the individuals behind them.
+Forecast rating
+WINGS Those participating in forecasts on the WINGS platform receive a public rating representing their abili-
+ty to make correct forecasts. WINGS DAO implements a liquid DAO governance system that allows for fluid delegation of votes. Token holders can loan ("delegate") forecasting to other token holders ("a
+Whitepaper delegate") who have, for instance, higher reputation. In WINGS forecast ratings influences the reward
+that both the token owneAr asnodcihailsfudnedleinggatpelaretfcoerimve.wAithhiignhceernrtaivtiiznegdsfiogrneaclsasatipnagrticipant who outperforms and therefor other token owners should be willing to loan their forecasting right to the particular participant, creating a meritocratic decision making system.
+A participant's forecast rating increases or decreases following forecasting rounds, and also according to the token holder's forecast activity. The more accurate a forecast, the more the rating will increase, and similarly the more inaccurate a forecast is, the more the rating will decrease. There is an equilibrium point for each forecast where the rating will not change at all.
+Additionally, an account's forecast rating is influenced by the outcome of the proposals submitted by the account owner. If a proposal is marked as a spam, then the submitting account will have its forecast rating penalized. If a proposal does not attract many participants or has a narrow spread of forecasts, the forecast rating will not be penalized, however the rating may or may not increase, depending on the forecast results. In case the proposal attracts sufficient participants and has a wide spread of forecasts, the submitting account will have its forecast rating increased.
+4
+www.wings.ai
+
+Forecast ratings have a gradual decay that is reset at every forecasting event and will eventually drop to nil in case the token holder does not produce any forecasts. The decay mechanism is necessary in order to encourage the token holders to actively participate in the forecasts leading to better opinions distribution and the resulting decision making.
+Sybil prevention and anti-spam fees
+In order to discourage botnets and farming from siphoning off rewards, the WINGS system implements an anti-Sybil protection by having the amount of held tokens influence the reward that the
+WINGS token owner is receiving for correct forecasts. While it is possible to participate in forecasts without
+tokens (with the exception of the anti-spam fee) the amount of rewards, in this case, will be negligible enough, especially when compared to a possible loss of the forecast rating in case of an incorrect forecast.
+Whitepaper
+The forecast rating gain and loss is also influenced by the amount of tokens owned by the account, where accounts with higAhseorcaimalofuunndt ionfgtpolkaetnfosrmgawinitmhoinrecernattiivnigzeodnftohreecraigshtitnfgorecasts, and lose less rating on wrong ones compared to the accounts with lower amount of tokens.
+In order to prevent spamming of the platform and to power it's smart contracts, each action on the platform will require a token fee. Simple actions such as sending tokens and forecasting will involve inexpensive constant fees that will be charged by the platform at the moment of the action. This may be changed in future stages (discussed below).
+More complex actions such as submitting a project proposal or a decision request will require a listing fee that will be dynamically set according to the forecast rating of the account submitting the proposal. Token holders can mark proposals as a spam, instead of forecasting a specific result. If a majority of WINGS token holders participating in the forecast have marked a proposal as a spam, the listing fee will be distributed by the platform to these individuals. This measure aims to discourage the creation of spam or low-quality proposals, which take the attention of the token owners away from real high-quality proposals.
+5
+www.wings.ai
+
+In addition to preventing spam and abuse, the fee-based design is required due to the WINGS platform being based at stage one on the Rootstock (RSK) side-chain with Bitcoin fees involved. Due to the second stage of the WINGS platform involving the launch of a stand-alone cross-blockchain, a switch to a fee-less design will be considered, provided it will not impact the quality of the forecast markets and of the decisions taken. The WINGS tokens owners will have to reach a consensus via decentralized governance in order to switch to this design.
+Rewards models
+WINGS WINGS platform will utilize a rewards model that encourages token holder to participate in forecast-
+ing and try to provide accurate forecasts. These rewards are granted explicitly.
+Whitepaper For example, a reward is granted for forecasting the fundraising success of a proposal, with a portion
+of the project's newly created tokens, and/or a portion of the collected funds. The closer a token holder will be to the correAcstoacmiaol ufunntdoifngcopllleactftoerdmfuwnidths,inthceenmtiovirzeeodfftohreecparsotjeincgt tokens and collected funds he will receive.
+Another reward model to be utilized by DAO projects, is to employ a dynamic issuance that will produce additional tokens at the proposal forecast resolution, to be used to reward submitters of quality project governance proposals and the token owners participating in related decision-making forecasting. Any proposal will be ranked according to a number of forecasts it receives, and how dispersed (or scattered) these forecasts are. The more token owners participating in the proposal, and the more spread their forecasts are, the higher a particular proposal's rank will be, and its author will receive more newly issued tokens. Token owners participating in forecasting on highly ranked proposals will also gain a higher amount of new tokens relative to lower ranked submissions, taking into account how correct their forecasts are. The new tokens will be only issued and distributed after the forecast has completed and the results are known, in order to have a tightly controlled process and precise amount of new tokens created per each forecast, limiting the resulting inflation.
+6
+www.wings.ai
+
+DECENTRALIZATION OF ORGANIZATIONS
+The lifecycle of an organization is generally thought of as individuals coming up with an idea, forming it into a new entity comprised of contractual relationships and finally evolving it into a new organization. As blockchain have already proven to have the ability to bind decentralized community efforts, and following Ethereum's innovation of a generalized smart contracts scripting language and virtual machine on a decentralized blockchain, new decentralized organizations developing new projects, products and solutions are possible now. We are at the dawn of a new era of organizational collaboration and governance.
+When new initiatives that launch on decentralized platforms, have to gain the necessary credibility, trust and community support. The process is not easy, especially due to the fact that the blockchain
+WINGS community is nascent and many players are new entrants to the market, some with dubious inten-
+tions. Various methods such as third-party escrow, team identification, and other methods have to be employed, often with varied degrees of success of ensuring the honesty of the team and their motives. Smart contracts introduced a radically improved solution to this issue, by granting control of
+Whitepaper the collected funds to the platform itself, rather than project creators, thus enabling participants to
+decide on the release of fAunsdoscibaal sfuenddoinngpprolajetfcotrpmrowgritehssinacnendtsivuizcecdesfso.recasting
+Immutable smart contracts execution is an innovative concept that appeals to blockchain enthusiasts and supporters by granting them a degree of control which they previously lacked. The concept also appeals to project creators, enabling them to gain trust easier, thus collecting higher amounts of funding than it was possible before, and increasing the available resources for a project. The concept also helps nurture community promotion and support, thus greatly contributing to the level of success that the project can reach.
+How WINGS will work
+Once submitted to WINGS new DAO project proposals are evaluated and forecasted on by WINGS token holders. During this period, participants may suggest improvements to the proposal submitter via amendments. Amendments themselves can be voted on and ranked. Amendments which receive the highest number of upvotes and are incorporated into the proposal may be compensated by the WINGS platform reward mechanisms.
+7
+www.wings.ai
+
+After the forecasting period is complete proposals automatically become full WINGS DAO projects and are activated on the WINGS platform. The activation process consists of the generation of a unique set of DAO smart contracts and digital tokens that are assigned to the new DAO. Once activated, a countdown for the backing campaign begins, at the end of which the project will be become a fully functioning DAO on the platform, enabling the project to collect funds directly into its individual smart contract. Once the backing period is completed, the DAO project will then start operating according to the governance model and rules defined in its smart contract.
+The role of WINGS tokens
+The WINGS platform uses a token with multiple roles which acts as (i) the platform's smart contract
+WINGS fuel and compensation for miners processing transactions, (ii) an anti-spam fee for transactions, (iii)
+a measure to prevent Sybil attacks by rewarding token owners according to the number of tokens they are holding. It is important to note that the success of the WINGS platform depends on the ability to pick and promote the DAO projects with the most potential to succeed, hence the main role of the
+Whitepaper token is to encourage WINGS token owners to make well-researched forecasts.
+A social funding platform with incentivized forecasting WINGS tokens are not a security under any circumstances. There is no promise of profit or any future value, and the tokens are solely used as the platform fuel, as an anti-spam mechanism and for preventing Sybil attacks.
+WINGS tokens do not constitute a currency equivalent as they are not issued by any government or central issuer, nor do they represent any relationship or rights to the ownership of the protocol.
+WINGS tokens owners compensation
+Once a DAO project is backed, a portion of the newly created DAO project tokens will be distributed as a reward among the WINGS token holders with the most accurate forecasts. The rewarded tokens will be sent to the blockchain address of those WINGS token owners who participated successfully.
+Proposal creators may choose to reward forecasters with their DAO's native tokens instead of with a portion of collected funds. The proposal creator will be able to specify the ratio of DAO project tokens to collected funds which will be set aside as the reward for WINGS token holders for accurate fore-
+8
+www.wings.ai
+
+casting, up to a certain limit of tokens set on the WINGS platform level. The tokens will be distributed to WINGS tokens holders according to how close their forecasts were to the amount of funds collected by the project.
+DAO Projects
+Launching and managing successful DAO projects is a core goal of the WINGS platform. By focusing the WINGS community's attention on projects that have been forecasted to have a successful backing, WINGS maximizes the amount of resources, attention and the promotion that projects receive thus increasing their chances of success. WINGS also aims to expand community involvement in projects after they are backed, by rewarding DAO project communities for providing forecasts on key
+WINGS decisions, and by ensuring projects stay on course by releasing collected funds according to mile-
+stones fulfilment set in the project proposal.
+By enabling project creators to take advantage of swarm intelligence, WINGS aims to provide a power-
+Whitepaper ful decision-making tool, enabling to receive: (i) quality proposal assessments based on public knowl-
+edge and on expertise; aAnsdo(ciii)aal fduencdeinngtraplliaztefdorsmtawmitphoinf caepnptriovvizaeld"sfiogrneecdasotfifn"gby a DAO's community, to engage in the execution of a decision. The hybrid decision-making process allows for faster, more efficient resolutions.
+Due to the implicit encouragement of the community to take part in the project promotion, a highly loyal and positive social marketing ecosystem is created, giving an invaluable boost to the conventional marketing efforts and tools. As a result, the project is able to spread the word faster to a higher number of media resources and hubs, increasing it's visibility in the relevant market and being able to deliver the message better compared to the competition.
+9
+www.wings.ai
+
+WINGS PLATFORM COMPONENTS
+The WINGS platform consists of a variety of advanced and rapidly evolving decentralized technologies, enabling it to provide an efficient basis for new DAO creation and governance. Thanks to these technologies, it is possible to create a fully decentralized version of an organization, which is able to function in a secure and convenient mode without centralizing control and having rely on trust, thus leading to better and faster decision making, implementation of the decision results and lower costs of doing business.
+Smart Contracts
+WINGS DAO smart contracts are written in Solidity, enabling WINGS to support any blockchain that supports Ethereum Virtual Machine (EVM) functionality. These contracts provide the logic for new
+WINGS DAO project functionality and implement the mechanisms required for the creation of the new DAO.
+Rootstock EVM support Whitepaper
+Rootstock (RSK) is a BitcAoisnosciidael cfuhnadininsguplpaotfrotirnmg wEVitMh inacnednitisviszmedafrot rceocnatsrtainctgimplementation. The technology behind RSK enables running smart contracts on the Bitcoin blockchain without adding an additional burden on the Bitcoin mainnet.
+RSK enables smart contracts to operate with bitcoins, thus bringing the smart contracts to the largest and most stable cryptocurrency worldwide. RSK also brings additional innovations to the smart contracts area, such as security improvements, instant transactions, built-in Oracles support, zero-knowledge proofs (in the future), and other capabilities, granting increased flexibility to smart contracts developers.
+The payment for RSK operations will be included in WINGS operation fees, thus enabling the WINGS platform users to utilize only a single token for all their platform related activities.
+Security
+WINGS platform places the utmost emphasis on the security of the smart contracts and the gathered funds. Therefore, a number of innovations are being implemented in order to ensure the highest security of the operating code and funds, such as formal verification of the contract code, functional
+10
+www.wings.ai
+
+programming, and last case emergency protocols.
+Formal verification of smart contracts is a notational representation of a contract that provides assurance that it does indeed what it should. Formal verification tests code in general for all possible inputs, states, results and uses automated provers to verify execution conditions and code branching.
+Functional programming is when functions, not objects or procedures, are used as the fundamental building blocks of a program. Functions in this sense are analogous to mathematical equations: they declare a relationship between two or more entities. Recent research has shown that extending a functional language compiler with an Ethereum Virtual Machine bytecode producer can help develop-
+WINGS ers to avoid common errors. While at the moment WINGS needs to utilize the currently supported
+languages, the long-term plan is to fund and lead the development of a functional language support
+Whitepaper for WINGS DAO smart contracts.
+Last case emergency recoAvseoryciiaslpfousnsdiibnlge pthlarotfuogrmh RwSiKthfeindceernattiivoinz,ewdhfoicrhecisasatliinsgt of known companies in the Bitcoin industry, that serve as gatekeepers of transactions. All the BTC deposited (pegged) to a Rootstock side-chain are contained under the multi-signature key of the federation. As a result, the withdraw of BTC is only possible when the majority of the federation members confirm the side-chain withdrawal transaction.
+WINGS is going to leverage this consensus technology in order to create a last resort recovery for funds that are kept in a smart contract. Every transaction of the funds from the DAO project contract will be staged on federation for a predefined amount of time, and a relevant notice will be sent to the DAO project creator and the tokens owners. In the case, the smart contract is breached and funds are being transacted to a non-authorized address either within RSK side chain or to Bitcoin mainnet, a request will be submitted to the federation to cancel the transaction and restore the funds back to the contract, essentially rolling it back. The request will also put the contract into a lockdown, to prevent further draining of the funds. The request to the federation could be submitted either by the DAO Project creator or by the DAO tokens owners, following a majority consensus on the matter.
+In addition to the above mentioned measures, the WINGS platform will have a periodic client code and smart contracts audit by the external security companies, with a bounty fund allocated to sponsoring
+11
+www.wings.ai
+
+this audit. Newly launched DAO projects may also include an optional bounty fund, providing further security improvements to the project, and contributing to the overall WINGS platform security. WINGS platform will provide mechanisms that will enable distribution of upgrades and security improvements to all DAO projects launched on the platform, thus giving the capability to quickly resolve potential zero-day issues discovered with the smart contracts.
+Creating a DAO
+The WINGS platform goal is to enable easy creation of new project proposals, estimate (via forecasting) the ones with the best potential to become successful DAO projects, and then enable efficient
+WINGS funds collection and fast decision making. WINGS aims to become an end-to-end solution for project
+decentralized backing, promotion and governance needs, giving entrepreneurs a valuable instrument of jumpstarting their innovative ideas.
+Whitepaper The first step for DAO project creators is to submit a new proposal to the WINGS platform, via an easy
+to use the step-by-step wizard. The creator could enter content with rich formatting, upload media A social funding platform with incentivized forecasting
+such as photos and video, and any documentation he wants, in order to make the proposal as attractive as possible to the community.
+In addition to the project content and media, creators specify a project's initial governance model, which could be either be direct DAO governance or a liquid DAO governance. Choice of governance model will influence how the DAO's tokens holders collaborate in order to decide on key amendments regarding a project.
+Project creators set the planned project milestones, which when successfully reached, can release the funding for the next phase of the project. When specifying milestones, project creators define the milestone deliverables, and the amount of funding percentage each will release. The community will decide on the milestone fulfilment by resolving deliverables of a milestone are completed. Finally, the project creators set the initial token supply of a project, and the rules of the supply distribution to the participants of the backing campaign.
+12
+www.wings.ai
+
+The governance model, future milestones terms and the token supply can be changed following a relevant proposal, when majority of forecasts agree on the change. In order to finalize and publish the listing on the WINGS platform, the creator will need to pay a listing fee in WINGS tokens, that will be deducted from creator's WINGS account. Once the forecast period has ended, the WINGS platform will generate a new unique set of smart contracts, that will in turn generate a new DAO token for the project, and provide the creator with a blockchain address for the backing campaign. The platform will also promote the proposal into the active projects area on the blockchain, create an optional dedicated bounty cabinet for the project, and begin the countdown to the backing campaign start. Once the backing has started, the platform will publish the fund's collection address, and will provide live updates in regards to the number of funds collected. The project creator will have a certain period of time during which modifications of the proposal and its terms are allowed, improving the proposal following community feedback. At the end of said period, it will no longer be possible to change the proposal terms anymore, and once graduated into a DAO project, the terms will be used to generate the DAO project's smart contracts. The creator will also have the ability to withdraw the proposal before the forecast period completion.
+13
+www.wings.ai
+
+Governance
+
+Direct DAO Governance
+
+Representative DAO Governance
+
+WINGS places an emphasis on the ability of a decentralized community to quickly reach informed key decisions on a variety of topics, thus minimizing time and energy spent on decision making. Therefore, WINGS aims to provide efficient decentralized governance, by employing decision markets in order to enable WINGS tokens owners to make decisions on key issues. A liquid DAO governance model will be initially employed in addition to forecasting, allowing hedging against decisions made by the majority. Being a dynamic protocol controlled by the WINGS DAO community, the rules could be changed if the community
+
+AB
+
+A
+
+B
+
+Liquid DAO Governance
+
+A
+
+B
+
+C
+
+Voter Delegate
+
+Labels Vote Delegation
+
+Issue
+
+majority forecasts a benefit resulting from this change. Thus the result we are aiming is to have the WINGS members engage in a collaborative consensus building process over time to modify the core governance mechanism for the benefit of the WINGS ecosystem's users.
+
+WINGS platform is going to be self-deterministic, by employing concepts inspired by philosopher Peter Suber who models a game, Nomic, that is comprised of immutable and mutable rules showing the power of self-amending systems, and logical priority of rule sets. Liquid DAO Governance (fluid delegation of forecast power) will be used by the DAO projects for a variety of key decision-making, such as whether to accept a suggested DAO modification or upgrade the smart contracts of the DAO project.
+
+14
+www.wings.ai
+
+Project DAOs that launch using WINGS will be able to start with one of the following governance models Liquid DAO Governance (fluid delegation) and Direct DAO Governance (each person decides directly).
+Liquid DAO Governance is a hybrid between the direct and representative governance models, enabling the participants to freely lend and recover the decision power to people they trust to have most knowledge, experience, and interest making the best decisions.
+Over time these governance models could change or evolve into new variations based on the project DAO community voting. Also, new models could be implemented by WINGS via smart contracts update based on community demands.
+DAO project reward-based decision-making
+WINGS platform employs a reward-based governance model for participating in the governance process of DAO projects, in order to encourage both submissions of well planned DAO propositions and healthy discussions and forecasts, leading to better DAO management. The model utilizes a precise issuance of new DAO project tokens following the resolution of the submitted proposition, with the tokens distributed to both the account that initiated the proposition and to participating forecasters. The creator of the proposition receives tokens according to the number of project tokens that participated in evaluating the proposition, and how wide (disperse) the forecasts submitted were. The forecast providers receive tokens according to how close their forecast was to the final resolution, modified by the proposition quality factor (i.e. based on the proposition creator reward). In case the proposition is marked as spam by the participating majority of token owners, the listing fee will be distributed to these participants.
+This mechanism aims to spur constant participation and keep the interest of the token owners in the project lifecycle, thus increasing the overall community involvement, decision-making effort and promotion, and maintaining the ongoing commitment to project milestones, accountability, and transparency by the project creators.
+15
+www.wings.ai
+
+Decentralized storage
+WINGS will utilize one of the popular decentralized storage systems, such as IPFS, Sia, Storj or MaidSafe, for the storage of the uploaded data. These systems enable developers to efficiently create secure decentralized silos for a user data upload. The payment for the decentralized storage operations will be included in WINGS' operation fees.
+16
+www.wings.ai
+
+USER EXPERIENCE
+The WINGS platform is designed to reduce the amount of on-boarding that new users must undergo with new platforms, by allowing users to access the majority of the platform operations using the most common tool used today: the chat messenger. By using chatbots, WINGS enables the users to immediately start participating in the WINGS platform, using their personal knowledge and experience to increase the quality of forecasting and decisions taken on the platform.
+Chatbots interaction
+WINGS will support the most popular messaging networks, such as Telegram, Slack, Facebook Chat, WeChat, and more. WINGS will employ an IM HUB, therefore enabling true cross-communication across different chat networks and providing the same experience for all different chat networks users without any difference of what messaging application they are using. It will be possible to use the WINGS chatbots to:
+Manage the project proposals Ask for more information about the projects Discuss the proposals opportunities Forecast on the project proposals backing success Manage the graduated DAO projects Follow other WINGS members
+WINGS chatbot enables safe operations by delegating all the sensitive operations such as transaction signing to the Web client sandbox, via a cross-platform mechanism that allows starting an operation in messenger and signing it off in the Web client.
+Additionally, Bot IM Systems allow users to use natural language when engaging in a conversation with a chatbot. Thanks to the use of Deep Learning LSTM Networks, it would be possible to initiate human interaction with the bot and enable users to naturally converse with the system.
+17
+www.wings.ai
+
+Web and desktop clients
+The WINGS web client is implemented on the standard stack of web technologies: HTML5, Javascript, and CSS3. The web client enables performing the same full range of operations available as on the chatbots, in case the users find it more convenient to use. The web client operates on the client side only and does not hold any private keys or passphrases nor passes them to the WINGS platform.
+The desktop client is similar to the web client while having the advantage of being a downloadable and installable application on the user computer. The same functionality existing in the Web client will be available in the desktop client as well. 
+Conclusions
+WINGS is a platform designed to solve the problem of a project's early backing and accountability, by providing tools for backers to work together on providing funds and efficient decision making on business critical items. WINGS puts emphasis on ease of use and efficient collaboration, and on encouraging careful consideration of available choices. The effort put on this consideration defines whether the decision will result in reward, thus directly rewarding those who bring the most net benefit to the platform efficiency. With higher efficiency, higher quality projects get more attention both from the backers and the public. 
+Acknowledgements
+The authors would like to thank Vitalik Buterin, Sergio Demian Lerner, Ron Bernstein, Adam Cleary, Matt Chwierut, Eric Gu, Jake Brukhman and MME Legal | Tax | Compliance for their insights and feedback.
+18
+www.wings.ai
+
+License
+Copyright (c) 2016 WINGS FOUNDATION Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+19
+www.wings.ai
+
+References
+1. Paul Sztorc. "Extra-Predictive Applications of Prediction Markets". TruthCoin. http://bitcoinhivemind.com/papers/3_PM_Applications.pdf
+2. Dominik Schiener. "Liquid Democracy: True Democracy for the 21st Century." https://medium.com/@DomSchiener/liquid-democracy-true-democracy-for-the-21 st-century-7c66f5e53b6f
+3. Dr. Christian Reitwiessner. "Formal Verification Of Smart Contracts" https://chriseth.github.io/notes/talks/formal_ic3_bootcamp
+4. Karthikeyan Bhargavan, et. al. "Short Paper: Formal Verification of Smart Contracts". Microsoft Research. http://research.microsoft.com/en-us/um/people/nswamy/papers/solidether.pdf
+5. Pettersson, J., and Edström, R. "Safer smart contracts through type-driven development" http://publications.lib.chalmers.se/records/fulltext/234939/234939.pdf
+6. Sergio Demian Lerner. "Bitcoin powered Smart Contracts". Rootstock. https://uploads.strikinglycdn.com/files/90847694-70f0-4668-ba7f-dd0c6b0b00a1/ RootstockWhitePaperv9-Overview.pdf
+7. Christoph Jentzsch. "Decentralized Autonomous Organization To Automate Governance". Slock.It https://download.slock.it/public/DAO/WhitePaper.pdf
+20
+www.wings.ai
+
+

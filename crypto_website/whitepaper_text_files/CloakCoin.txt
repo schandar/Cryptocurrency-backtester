@@ -1,0 +1,86 @@
+WHITE PAPER
+Modeling the Lithium-Ion Battery
+By ANDREAS NYMAN, HENRIK EKSTRÖM, and ED FONTES
+
+MODELING THE LITHIUM-ION BAT TERY
+White Paper: Modeling the Lithium-Ion Battery COMSOL, COMSOL Multiphysics, Capture the Concept, COMSOL Desktop, and LiveLink are either registered trademarks or trademarks of COMSOL AB. All other trademarks are the property of their respective owners, and COMSOL AB and its subsidiaries and products are not affiliated with, endorsed by, sponsored by, or supported by those trademark owners. ©2012-2015 COMSOL. Contact Information Visit www.comsol.com/contact to submit general inquiries, contact Technical Support, or search for an address and phone number. You can also visit the Worldwide Sales Offices page at www.comsol.com/contact/offices for address and contact information. If you need to contact Technical Support, an online request form is located on the COMSOL Access page at www.comsol.com/support/case. Further Resources Further writing and tutorials on postprocessing in the COMSOL software are available here:
+VIDEOS www.comsol.com/videos BLOG ARTICLES www.comsol.com/blogs DISCUSSION FORUM www.comsol.com/community/forums SUPPORT KNOWLEDGE BASE www.comsol.com/support/knowledgebase
+2 | COMSOL WHITE PAPER SERIES
+
+MODELING THE LITHIUM-ION BAT TERY
+
+The term lithium-ion battery refers to an entire family of battery chemistries. The common properties of these chemistries are that the negative and the positive electrode materials serve as hosts for lithium ions and that the battery contains a non-aqueous electrolyte. The chemical energy of lithium differs between the positive and negative electrodes. This difference governs the retrievable voltage from the battery. During charge and discharge, lithium ions are transported between the two electrodes and electric energy may be absorbed or released, when current flows through the cell.
+Lithium-ion batteries have become the most common rechargeable batteries for consumer electronics due to their high energy densities, relatively high cell voltages, and low weight-to-volume ratios. They are also predicted to become commonplace for industrial, transportation, and energy-storage applications, even if they tend to be more expensive than equivalent battery technologies with aqueous electrolytes.
+Modeling and simulations are necessary tools for accelerated understanding, design optimization, and design of automatic control of batteries and battery systems. These tools allow for the analysis of an almost unlimited number of design parameters and operating conditions at a relatively small cost. Experimental tests are then used to provide the necessary validation of the model.
+This paper discusses the benefits of modeling and simulations in the design, selection, and operation of battery systems through a gallery of applications and simulation results. To understand these results, we also look at the described processes used in state-of-the-art models, as they take place in the electrodes, electrolyte, as well as on the model and battery pack level. The different implications of design parameters and operating conditions are discussed with respect to experimental observations of battery performance, aging, and battery safety.
+
+For a battery manufacturer, modeling and simulations improve the design of cells and modules, for example, by identifying limitations in a suggested design. By describing the involved processes on a detailed level in a model, the designer may apply different hypotheses and relate these with the observed and simulated behavior of a given cell. This results in the intuition for a system that is required for making vital improvements. For instance, the designer can study the influence of different geometries, electrode materials, pore distribution, electrolyte composition, and other fundamental parameters. The manufacturer may eventually use the models to optimize the battery design with respect to these parameters.
+For device manufacturers who incorporate batteries into their products and devices, simulation allows for the performance of the product to be tested at relevant operating conditions. During this process, the first step may be to get an intuition for a system while the second step may be to use validated models to select the proper battery system and to optimize and control the operation of the system. Simulations are crucial for the application expert's work in selecting batteries and in designing proper control of the battery system for different devices and purposes.
+Mathematical models able to simulate the performance of lithium-ion battery cells were first published in the beginning of the 1990s by Professor Newman at the University of California. They were based on well-proven electrochemical and thermodynamic concepts and they described the processes that take place in the battery during operation. Performance models have since then been used to predict the cell voltage and other variables for different batteries at different operating conditions. A performance model should include descriptions of the transport of charged and neutral species, current conduction, fluid flow, heat transfer, and electrochemical reactions in the porous electrodes.
+
+FIGURE 1: Lithium-ion batteries have become the dominant rechargeable battery chemistry for consumer electronics devices due to their high energy densities, relatively high cell voltages, and low weight-to-volume ratios.
+
+FIGURE 2: Cell voltage during an applied cycle. The cell is discharged for 2000 s. After a rest, the cell is charged again for another 2000 s.
+
+COMSOL WHITE PAPER SERIES | 3
+
+MODELING THE LITHIUM-ION BAT TERY
+
+One example from such a model is shown in Figure 2 on the previous page, where a typical high-energy battery for mobile applications is simulated. In the model, the processes within the battery are described by equations and material properties. The values of the properties are obtained through carefully designed experiments, often based on theoretical models. For a battery manufacturer, geometrical parameters may also be studied and optimized using the model. For a device manufacturer, the geometry is usually an input to the model. In some cases, the geometry may not even be revealed by a battery manufacturer and the application expert may have to open and examine the cells in a glove box before the model is developed.
+When a lithium-ion cell is discharged followed by a resting and a charging period, the cell voltage often varies during the resting periods. The explanation for this can be easily found using the previously mentioned battery model. During discharge, the electrolyte salt concentration increases in the negative electrode and
+
+FIGURE 3: Electrolyte salt concentration (mol/m3) profiles at various times during the cycle in Figure 2. During discharge, the electrolyte salt concentration increases in the negative electrode and decreases in the positive electrode when lithium ions are transported between the electrodes.
+
+FIGURE 4: User interface for an application for parameter estimation of spectrograms obtained using electrochemical impedance spectroscopy (EIS).
+4 | COMSOL WHITE PAPER SERIES
+
+MODELING THE LITHIUM-ION BAT TERY
+
+decreases in the positive electrode as lithium ions are transported between the electrodes (Figure 3). Since the concentration profiles in the particles and the electrolyte are relaxing to a uniform profile during the resting period and since the cell voltage is dependent on the local electrolyte salt concentration, the cell voltage is also slowly relaxing to an equilibrium voltage. The phenomenon is reversed during charging.
+The advantage of the performance models is that they can be used to find out and analyze the processes that are responsible for the limitations in the performance of the battery. The models can also be used to evaluate how the energy and power density are changed when the design of the electrode is varied, and how the electrode materials are utilized in the cell design.
+As for all battery chemistries, the lithium ion batteries loose capacity and the internal resistance increases over time. After a while, the battery is not able to deliver the energy or power that is demanded and the battery has to be replaced. The reactions that are responsible for this ageing can be included in a performance model. By combining experimental results with simulations, the lifetime can be estimated for different operating conditions. Proper design or control of the operating conditions can be applied to avoid accelerated aging based on simulation results.
+A method that is becoming more common for analyzing the state of health of a battery is electrochemical impedance spectroscopy (EIS). In this transient electrochemical method, a small sinusoidal perturbation is applied around a given pseudo-stationary potential. The resulting current response may have a small shift in time due to processes in the battery that delay it. The time delay and the magnitude of the current response are different at different frequencies: at low frequencies, electrolyte and solid state diffusion may result in delays while kinetic effects may result in delays at higher frequencies. In this way, processes with different time scales within the battery can be separated and parameter estimations of the material and kinetic properties of the battery can be performed.
+Physics-based performance models of EIS may be combined with experimental measurements to study the effects of aging and decay of the battery material at the cell level. Figure 4 shows an application for parameter estimation using the physics-based model presented above in combination with experimental data. With this application, battery experts can enter estimated values for material properties and kinetics, together with the operating conditions, and obtain simulated spectrograms that can be compared to experimental results. They can also automatically fit selected parameters to experimental data.
+
+A factor that is important to take into account when designing cells and packs is the production of heat within the cells. Heat is released due to internal resistance phenomena such as Joule heating. Using a physics-based model, such as the previous mentioned performance models, the different sources of heat are directly available from the model (Figure 5). When designing a battery cell or pack, the heat dissipation must be fast enough to avoid temperatures where decomposition reactions of the electrode and electrolytes occur (>80 °C). The decomposition reactions are exothermic, which implies that the temperature will continue to increase once decomposition starts. This event is called thermal runaway and it leads to the destruction of the cell. The temperature on the surface of cells can be monitored during experimental testing. The advantage of using a thermal model is that the temperature inside the cell can be estimated from the measurement at the surface. This allows unwanted effects to be studied, such as internal short circuits, where hotspots may be the cause of thermal runaway.
+FIGURE 5: Heat sources (W/m2) in the cell during a discharge and resting period. Using a physics based model, such as the previous mentioned performance models, the different sources of heat are directly available from the model.
+An example of a thermal model of a passively air-cooled cylindrical shaped battery cell is shown in Figure 6 on the following page. Heat is generated when a cell is discharged and dissipated to the surrounding by convection and radiation. As a result, the temperature is often higher at the core of the cell. The temperature difference between the core and the outer regions increases when the cell is discharged with higher C-rates. As a consequence, the electrode material close to the core of the cell may age faster than at the outer regions, since some aging processes are accelerated by high temperatures. Lithium plating may increase at lower temperatures on graphite electrodes, which shows that low temperatures may also accelerate aging.
+
+COMSOL WHITE PAPER SERIES | 5
+
+MODELING THE LITHIUM-ION BAT TERY
+
+FIGURE 6: Temperature distribution (°C) in a cylindrical battery during a discharge. The temperature difference between the core and the outer regions increases when the cell is discharged with higher C-rates.
+
+Temperature variations are especially predominant within large cells, since uneven current distributions cause uneven heat productions. A performance model of large cells must therefore include heat production, since the rated capacity is dependent on the temperature. Thermal models of individual cells are also often used as starting blocks when developing internal short circuiting models where heat is produced locally by unwanted chemical reactions.
+Uneven temperature distribution can also occur at pack and module levels. To prevent this, a thermal management system is often used. The temperature of the cells is controlled either by an air or liquid flow. Simulation results from a thermal management system model where the cells are cooled by a liquid are shown in Figure 7.
+A model of a thermal management system often includes the heat generation in the cells, the flow of the cooling liquid, and the heat transfer in the pack. The efficiency of the cooling is affected by the size of the cell versus the size of the cooling system as well as the design of the thermal management system. A model of a thermal management system is crucial in the development of a battery pack, since it allows for reliable evaluation of a large number of designs and cell sizes to a comparably low cost.
+It is also very important for battery manufacturers and battery users to be able to give reliable guidelines regarding temperature intervals for safe operation. One example of this is when the battery manufacturer has used mathematical models to optimize the placement of temperature sensors that are used for disconnecting the
+
+FIGURE 7: Thermal management system showing the temperature (°C) in the cells and in the cooling channels. Uneven temperature distribution can also occur at pack and module levels. The efficiency of the cooling will be affected by the size of the cell versus the size of the cooling system as well as the design of the thermal management system.
+external circuit during overheating. The placement and the cut-off values need to be carefully chosen in order to make sure that thermal runaway does not occur.
+To conclude, models of lithium-ion batteries can be developed for cells as well as packs and modules and they can be in 1D, 2D or 3D depending on the purpose of the model. They can include aging processes as well as failure mechanisms such as internal short circuits and thermal runaway. Modeling and simulations, in combination with experimental verification and validation, allow for the study of an almost unlimited number of designs covering a very broad range of operating conditions at a comparably low cost.
+
+6 | COMSOL WHITE PAPER SERIES
+
+MODELING THE LITHIUM-ION BAT TERY
+
+Andreas Nyman Intertek
+www.intertek.se
+
+Andreas Nyman works as a battery specialist at Intertek Semko AB and has a Ph.D. in Applied Electrochemistry from The Royal Institute of Technology (KTH), Stockholm. Andreas works within the global batteries and fuel cells group at Intertek, which has a track-record of assessing more than 20,000 batteries each year, covering all chemistries and sizes. His modeling expertise and experience includes batteries, fuel cells and electrolytic processes.
+
+Henrik Ekström COMSOL
+www.comsol.com
+
+Henrik Ekström works at COMSOL and has a Ph.D. in Applied Electrochemistry from The Royal Institute of Technology (KTH), Stockholm. As the technical program manager of electrochemistry at COMSOL, is responsible for the development of various simulation and modeling solutions for batteries, fuel cells, corrosion, electrodeposition, as well as general electrochemistry applications.
+
+Ed Fontes COMSOL www.comsol.com
+
+Ed Fontes is Chief Technology Officer at COMSOL and has a Ph.D. in Applied Electrochemistry from The Royal Institute of Technology (KTH), Stockholm. He has been the lead developer for the chemical engineering, CFD, and heat transfer product lines at COMSOL. He is responsible for technology development at COMSOL.
+
+COMSOL WHITE PAPER SERIES | 7
+
+www.comsol.com
+
+

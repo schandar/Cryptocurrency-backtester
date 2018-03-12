@@ -1,0 +1,153 @@
+WHITE PAPER OF KUCOIN
+Kucoin - A World-class Cryptocurrency Exchange Platform
+
+KCS
+
+Known as Kucoin Shares or KCS for short, the token issued by Kucoin Cryptocurrency Exchange Platform maintains a total issuance volume of 200 million. After buy-back disposal, it will be a constant - 100 million. As a decentralized cryptocurrency issued on the basis of Ethereum, also a standard ERC 20 token based on Ethereum blockchain, KCS supports all the Ethereum wallets.
+
+BACKGROUND
+By August 2017, market value of the global cryptocurrencies has reached $100 billion; meanwhile the worldwide daily exchange volume has reached an astonishing $5 billion. Other than Bitcoin, new cryptocurrencies with new technologies and features have been emerging vigorously in recent years. And their total value and exchange volume has gone over 50% of the global market. Currently, the daily exchange volume of each worldwide top 10 platform has already reached $100 million and maintained the prosperous development. Based on the calculation of 0.1% commission, the daily income of a vibrant platform shall reach $100,000.
+
+02 BACKGROUND
+
+ABOUT KUCOIN
+
+The founders of Kucoin Cryptocurrency Exchange Platform started in-depth research on blockchain technology early in 2011 and successfully built Kucoin's technical architecture in 2013. With the reliable and extendable technical architecture in place, Kucoin team stepped into cryptocurrency exchange business confidently in 2017, serving the industry and users with superior services and flexible operation strategies.
+
+FOUNDERS
+Michael Gan / CEO
+Former technical expert of Ant Financial of Alibaba Group, a veteran of financial solutions, and senior partner of Internet giants like MikeCRM, KF5.COM, etc.
+
+Eric Don / COO
+A senior Internet researcher, systems architect, and Internet industry star. CTO and senior partner of famous IT companies including YOULIN.COM, KITEME and REINIOT, etc.
+
+Top Lan / CTO
+Open source community Technical expert, manager of multiple mainstream open source projects in Github, designer and deployer of Kucoin financial exchange system.
+
+Kent Li Operations &
+/ Maintenance Director
+Operations & Maintenance development expert, Operations & Maintenance director and architects of multiple Internet titans, Stanford University REAP project Operations & Maintenance director.
+
+John Lee / President of the Business Operations Group
+President of Jianbang Communication and project director of group-purchase magnates. Managed 30+ group-purchase service centers over China with his special insight of consumer finance.
+
+Jack Zhu / Marketing Director
+Operations Director of iBOX PAY Southwestern China, manager of a marketing team with 300+ employees.
+
+Linda Lin
+
+/
+
+Chief Legal Consultant
+
+Chairman of Sichuan Qianyuan Investment Co. Ltd., executive vice president of Sichuan Industrial & Financial Development Promotion Association.
+
+ADVANTAGES
+Operation Strategies
+The most enduring and fundamental competitiveness of Kucoin lies in its powerful R&D team, which ensures a world-class stability and service quality. In the meantime, Kucoin's capable operation team shall create a bright and prosperous future through long-term and large-scale online/offline promotion & operation. Majority of the exchange commision will be rewarded to active users who exchange, invest and promote Kucoin. Incentive policies can sustain active users' enthusiasm and make the business even more vigorous. On the other hand, the invitation bonus plan between users will tremendously boost Kucoin's subscribers and trades. Shortly after, we will accomplish the target of becoming one of the top 10 worldwide hottest exchange platform.
+Financing-level Stability
+Learned from the design solution of the state of the art underlying financial system, Kucoin core exchanging system adopted an advanced multi-layer and multi-cluster architecture. The bank-level disaster-proof deployment with two locations and three centers which can handle multiple tasks in several locations simultaneously has been applied, from the mass flow inlet of domain name resolution to the underlying core exchanging system and accounting system, thus ensuring the system stability in situations like hardware failure, even natural disasters.
+
+High-performance Engine
+The trading system has adopted the hardware-accelerated and highly-efficient memory matching technology whose order-making peak value is 2 million+/second, order-processing peak value 1 million+/second. These statistics are hundreds times, even thousands of times of the normal industry standard. Therefore it can guarantee no delay or lag throughout the whole core order process when the market booms.
+System Security
+SYSTEM LEVEL: It is constructed strictly following the financing-level standards. The industry standard transfer encryption protocol is applied to data transfer layers so as to ensure that all user data and sensitive data stored through bank-level data encryption. The multi-factor dynamic authentication mechanism has been introduced to sensitive operations like transaction or withdrawal so as to provide maximum security for our users.
+OPERATION LEVEL: Kucoin has established special internal risk control and operation process departments which have designated strict production data operation and usage standards. It requires multi-level review and approval to check and use all online data and the core data will undergo desensitization so as to ensure the maximum security for user data.
+
+04 ADVANTAGES
+
+Financial Safety
+Wallets in the platform has adopted multiple security levels of storage solution in line with their storage scale. We have stored the micro-withdrawal wallets in the private network architecture built on Amazon Web Services Cloud which has multi-layer firewall on the basis of security isolation. The wallet document itself has adopted industry-level multi-layer encryption storage method whose cipher code will be preserved by a special person everytime and this very code will be altered on a regular basis. Any operation to the wallet document requires strict review and approval through internal control procedure and can only be accomplished by two people deciphering simultaneously with the key. Under normal circumstances, macro-wallets will be stored in the bank custody.
+Efficient Customer Service
+Dedicated to resolve customers' needs without any delay, Kucoin offers 7*24 customer services through multi-channels, including webpage, hotline and e-mail, etc. Kucoin's pre-pay and withdrawl safety will be inspected by AI algorithm. Once the request passed the inspection, automation system will executes entry and remit instantly, ensuring both convinience and safety.
+05 ADVANTAGES
+
+Multiple Cryptocurrencies Support
+The underlying technologies supports infinite cryptocurrency trading pairs. In the early phase, Kucoin provides BTC, ETH, and USDT markets, which includes the trading pair of KCS, LTC, NEO and various highly negotiable ERC20 tokens. The support list will be enlarged shortly in the future. Part of our plan is to release a unique feature which can help cryptocurrency managers or amateurs to self-register new cryptocurrency pairs and start trading automatically.
+Invitation Bonus
+Registration invite links and QR code will be distributed to all the Kucoin users. Users will be able to enjoy the direct and indirect promotion bonus by inviting new users to register. For instance, if user B registers via user A's invitation code and trade, then a certain potion of the trading fees will be awarded to user A as direct bonus; and if user B invites user C (and user C invites users D), a portion of the their trading fees goes to user A as indirect bonus too. This portion will be decided by the real situation of the platform operations, please refer to the announcements. Invitation bonus can increase the register and visit numbers and make the exchange and user activities more flourishing.
+
+INCOME & EXPENSE
+The income of Kucoin mainly comes from the fees of user trade and withdraw. We promise to keep the fee rate low. Please refer to the details below:
+
+Trading Fee
+
+Withdrawal Fee
+
+When trading on the platform, it will cost both sellers and buyers a tiny amount of their trading cryptocurrency as trading fee.
+
+When withdrawing cryptocurrencies from the platform, it will cost users a tiny amount of their withdrawing cryptocurrency as withdrawal fee.
+
+Kucoin's expenses are mainly for operation, promotion and blockchain technology R&D. Please refer to the details below:
+
+KUCOIN BONUS
+Awards for KCS-holding users.
+
+INVITATION BONUS
+Awards for new-user inviters.
+
+TECHNOLOGY R&D
+We saw Kucoin as a technology entity. As a result, more funds will be put into the new blockchain technology R&D, promotion, and application.
+
+06 INCOME& EXPENSE
+
+TOKEN ISSUANCE DETAILS
+Known as Kucoin Shares or KCS for short, the cryptocurrency issued by Kucoin Cryptocurrency Exchange Platform maintains a total issuance volume of 200 million. After buy-back disposal, it will be a constant - 100 million. As a decentralized cryptocurrency issued on the basis of Ethereum, also a standard ERC 20 token based on Ethereum blockchain, KCS supports all the Ethereum wallets.
+KCS Features
+ACQUIRE KUCOIN BONUS To improve user involvement and exchage vitality, Kucoin is going to award incentive bonus, which equals to 50% of the total trading fees charged by the platform, to users who hold KCS in their accounts. Please note that this award proportion could be adjusted based on the actual situation in the future. The initial amount of KCS is 200 million among which 100 million owned by the team and angel investors would not be taken into account when calculating the bonus. In addition, we guarantee that at most 100 million KCS be calculated in the bonus plan during official buy-back and destruction. To obtain the daily bonus, users would need to deposit their KCS into Kucoin Platform. Then the platform will conduct accounting and award bonus based on to the KCS holdings in user's account at 0:00 (UTC+8) that day and all the trading fees charged to the platform on the previous day.Then the bonus gained by users will directly put to their Kucoin accounts in the corresponding currency. For instance, If ETH-BTC cryptocurrency pair rate is 0.063 on the platform and the daily exchange volume is 30,000 BTC; based on the 0.1% rate from each side, the platform shall charge 30 BTC and 476 ETH as trading fees. The bonus for every 10,000 holdings would be 10,000 by 100,000,000 (0.01%). So that the daily bonus from this very cryptocurrency pair is 0.003 BTC and 0.0476 ETH (1 BTC and 17 ETH annually). Please note that this is ONLY the ETH-BTC exchange pair BONUS. Other than ETH-BTC, there are still various cryptocurrency pairs on the platform, which creates the trading fees in the corresponding currency and bonus based on the description above.
+TRADING FEE DISCOUNT When placing orders to trade, holding a certain amount of KCS in Kucoin account can lower the trading fee. Details will be published through announcements.
+OTHER EXCLUSIVE RIGHTS When KCS holding reaches certain levels, users can enjoy special services like one-on-one investment consultation, customer service Fast-Pass, etc.
+FUTURE DECENTRALIZED EXCHANGE SYSTEM GAS Kucoin team is dedicated to blockchain technology R&D and is planned to release decentralized exchange features in the future. As for KCS, it shall be the core fuel of this exchange system.
+07 TOKEN ISSUANCE DETAILS
+
+ICO Issuing Mode
+KCS Initial Coin Offering includes the following three phases: In the first phase, Kucoin founders issues 35%; In the second phase, angel investors and consultants issues 15%; In the third phase, all the public users openly issue the rest 50%.
+
+PHASE First Phase Second Phase Third Phase
+
+PORTION 35% 15% 50%
+
+AMOUNT 70 million 30 million 100 million
+
+DISTRIBUTION PLAN
+Founders' permanent holdings Industry stars and angel investors' holdings
+Open exchange for all users
+
+Lock-up Period
+The 70 million KCS issued by the founders in the first phase should be subject to a four-year lock-up period from Sep 2nd, 2017 to September 2nd, 2021. Founders are prohibited to assign or sell their KCS holdings in any way before September 2nd, 2018. Team members can only assign or sell 25% of their largest historical exchange volume in 365 natural days from Sep 3rd, 2018 to the end of lock-up period.
+The 30 million KCS exchanged by the consultants and angel investors in the second phase should be subject to a two-year lock-up period from Sep 2nd, 2017 to Sep 2nd, 2019. Holders are not allowed to assign or sell their KCS holdings in any way before September 2nd, 2018. They can only assign or sell 50% of their largest historical exchange volume in 365 natural days from September 3rd, 2018 to the end of lock-up period.
+The 100 million KCS issued by public users suffers no lock-up period and opens for exchange from Sep 2nd, 2017.
+
+Buy-back Mechanism
+After the Kucoin platform opened for use, at least 10% of the net profit will be applied to the buy-back of KCS every quarter. The KCS retrieved through buy-back will be destroyed immediately. The buy-back record shall be released to the public at the first time, so that users can review via blockchain explorer, to ensure the open and transparent nature of the whole process. We will continue our efforts in this regard, until 100 million KCS destroyed.
+
+Issuing Timelines
+
+2017.08.10 2017.08.12 2017.08.14 2017.08.18
+2017.09.01
+
+Founders internal issue Consultant team and angel investors issue Declaration of the Kucoin ICO plan and Publishing White Paper to public investors The launch of Kucoin exchange platform - kucoin.com With the conclusion of the issuance, Kucoin users who have KCS holdings shall start getting Kucoin Bonus.
+
+08 TOKEN ISSUANCE DETAILS
+
+KCS ICO HOW-TO
+The cryptocurrency used to participate in KCS ICO is Bitcoin (BTC). Please note that pre-pay in the Kucoin platform with BTC is the prerequisite of KCS ICO. The ICO starts from 8:00 pm of Aug 13th, 2017 and ends at 8:00 pm of Sep 1st, 2017. Once KCS storage runs out, this event will be terminated instantly. The exchange rate is 0.00005500 BTC/1 KCS, which means 1 BTC exchanges approximately 20,000 KCS.
+ICO Awards
+If 100 million KCS is not fully issued after this event, then the rest will be firstly used as awards. Any leftover after that will be destroyed directly. ICO AWARDS: A total amount of 10 million KCS will be rewarded to the KCS holders. If the actual award surpasses 10 million, then it should be commuted based on proportion. AWARDS SOURCE: The KCS among the 100 million which has not been issued will firstly be used as awards. If the numbers falls short of the awards, then the difference shall be complemented with the KCS held by Kucoin team.
+ICO Awards Rules
+After the ICO, the system will list out the top 10 KCS holders through automatic statistics and award respectively with 15%, 13%, 11%, 9%, 7%, 5%, 3%, 2%, 1% and 1% of their own holdings. Also, after the issuance, the system will provide awards based on the timing of KCS ICO. Starting from August 15th as the first day, the system will award 15% of total daily issued amount, and this percentage goes lower by 1% each day.
+09 KCSICO HOW-TO
+
+DEVELOPMENT PLAN AND TIMELINE
+
+2017.05 2017.08
+2017.09
+2017.10 2017.11 2017.12 2018.06 2018.12 2019.06
+
+Core team and initial fund ready, R&D center established, project started. White Paper released, KCS ICO launched, cryptocurrency exchange platform came into use. Kucoin Bonus proposed, API endpoints opened to public, multiple mainstream cryptocurrency pairs listed. Global promotion started. Mobile apps (Android, iOS) released. Over 50 mainstream cryptocurrency pairs listed, daily exchange volume expected 5,000+ BTC. Cryptocurrency pair self-releasing feature available. 1,000+ cryptocurrencies listed, daily exchange volume expected 100,000+ BTC. One of the Top 10 worldwide cryptocurrency exchange platforms.
+
+10 DEVELOPMENT PLAN AND TIMELINE
+
+www.kucoin.com
+
+

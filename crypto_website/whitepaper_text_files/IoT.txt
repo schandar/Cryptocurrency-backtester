@@ -1,0 +1,83 @@
+Technical white paper
+Officejet & Officejet Pro Technology
+Ink dry out and how HP addresses it
+Table of contents
+Explanation of ink dry out.........................................................................................................................................................2 Innovation in inks ..................................................................................................................................................................... 3
+Ink development .................................................................................................................................................................. 3 Ink cartridge design.............................................................................................................................................................. 3 Innovation in printer design......................................................................................................................................................4 Ink delivery system .............................................................................................................................................................. 4 Printhead cap design ........................................................................................................................................................... 5 Usage scenarios that can cause viscous plugs ....................................................................................................................... 6 Prevention of viscous plugs ..................................................................................................................................................... 6
+Click here to verify the latest version of this document
+
+Technical white paper | Officejet & Officejet Pro technology
+The right printer is an essential tool for your business. In an effort to save you time and money and to meet your business's needs, HP has optimized its Officejet and Officejet Pro printers ("Officejet Printers") for use in business environments. HP Officejet Printers are designed to perform at the same level as laserjet technology in terms of print speed, print quality, print durability, and printer reliability. To keep Officejet Printers competitive with laserjet technologies, HP focuses on carefully selecting ink ingredients, innovating in cartridge and printer design, and on creating efficient servicing algorithms. HP Officejet Printers are also put through a series of rigorous tests to ensure that they are able to withstand the demanding and challenging environments of business.
+Explanation of ink dry out
+Inkjet printer ink is a water based product and like all water based products it can evaporate over time. This evaporation, or drying out, can affect ink in one of two ways. The first way is for the ink to dry out while still inside the ink cartridge. HP addresses this problem through the design of their ink, ink cartridges, and ink delivery system. The second way ink can dry out is on the outside of the ink cartridge. This can happen because inkjet ink cartridges spray the ink onto paper through tiny nozzles (Figure 1) and any debris or contaminants that land on them may cause a clog.
+
+Figure 1. Inkjet ink cartridge
+Additionally, some conditions can result in the ink partially (Figure 2) or fully (Figure 3) clogging the nozzle, creating what is known as a viscous plug.
+
+Figure 2. Partially clogged ink nozzle
+
+Figure 3. Fully clogged ink nozzle
+
+HP's design of Officejet Printers helps control these viscous plugs, which can also be completely prevented through regular printer use and maintenance. This whitepaper give more information about HP's design of Officejet ink, ink cartridges and printers. It will also discuss steps that HP Officejet Printer owners can take to prevent viscous plugs.
+
+2
+
+Technical white paper | Officejet & Officejet Pro technology
+Innovation in inks
+HP strives to develop inkjet inks that will meet the demands of business and exceed customer expectation. Our innovations in ink and ink cartridges are intended to keep HP Officejet Printers printing with the highest possible quality.
+Ink development
+In order to remain in the forefront of ink technology, HP invests heavily in research and development. Over the past 20 years HP has introduced more than 100 different inks. We devote between three and five years to the development and manufacture of each new ink line. During that time as many as 1,000 prototype formulations are created and our chemists and ink engineers spend more than 50,000 hours developing each final formulation. Before being released, our reliability engineers run more than 20 different purity tests and more than 50 quality assurance tests on each ink formulation. Some of the tests run are: · An accelerated life test--an accelerated life test subjects the ink to conditions that simulate normal to high stress levels in order to
+predict the reliability and lifespan of the ink. · Cap Storage Test--a cap storage test simulates the printer being shut down for a long period of time with the printhead in the capping
+position. HP ensures reliability of the printhead when capped for at least 16 weeks. · Water Vapor Loss Test--a water vapor loss test verifies that the printhead meets the specifications for water vapor loss.
+Ink cartridge design
+During shipment, ink cartridges undergo extreme changes in altitude. Additionally, the temperatures at which the cartridges are stored can vary. These environmental changes require that the ink cartridges have a way to maintain their pressure equilibrium regardless of how much the contents expand or contract. For this reason inkjet cartridges are designed with vents that can accommodate pressure changes while also minimizing water vapor loss. Traditional ink cartridges are designed with a vent hole and labyrinth plug at the top of the cartridge (Figure 4). This design minimizes water vapor loss.
+Figure 4. Traditional ink cartridge design
+However, HP is always seeking to improve on tradition and has invested in research on ink cartridge design. Now, in order to further extend ink life, HP uses a newer, innovative ink cartridge design. These newer ink cartridges (Figure 5) employ a longer vent path than the traditional design. The indirect style of the vent path improves on the traditional design and prolongs the life of the ink.
+Figure 5. Newer ink cartridge design
+HP inks are warranted to be free from defects in materials and workmanship during the period of the warranty.
+3
+
+Technical white paper | Officejet & Officejet Pro technology
+Innovation in printer design
+In addition to innovation in ink and ink cartridge design, HP continually strives to improve printer design. The design of the ink delivery system and the printhead cap is done with an eye to preventing ink dry out (viscous plugs).
+Ink delivery system
+HP printers use one of two types of ink delivery systems (IDS). Ink is either delivered by an on-axis IDS or by an off-axis IDS. On-axis ink delivery system An on-axis IDS seats the ink supplies directly above the printhead (Figure 8). The ink supply may be in individual containers, or it may be in containers that are integrated with the printhead. The direct connection between the ink supply and the printhead in an on-axis IDS minimizes any chance of evaporation.
+Figure 8. On-axis ink delivery system
+Off-axis ink delivery system When a larger ink supply is needed, HP Officejet Printers use an off-axis IDS. An off-axis IDS connects the ink supply to the printhead with a set of tubes (Figure 9). A pressurization system pushes the ink through the tubes and into the printhead. The tubes connecting the ink supply and printhead are designed with multiple protective layers that ensure the smooth flow of ink between the two components while also minimizing evaporation.
+Figure 9. Off-axis ink delivery system
+4
+
+Technical white paper | Officejet & Officejet Pro technology
+Printhead cap design
+An inkjet printer's printhead is the component that moves back and forth to spray the ink onto the paper (Figure 6).
+Figure 6. Inkjet printhead
+When a print job is finished, the printhead nozzles are covered with a cap (Figure 7). The printhead cap prevents the ink from forming viscous plugs on the nozzles when the printer is not in use.
+Figure 7. Printhead cap
+5
+
+Technical white paper | Officejet & Officejet Pro technology
+Usage scenarios that can cause viscous plugs
+HP makes every effort to ensure that our Officejet Printer inks, ink cartridges, and printers work together to produce optimal print quality. However, there are some conditions that may still result in viscous plugs. · Refilled cartridges or ink supplies are used. · The printer is not used or stored under the recommended environmental conditions. · The printhead is not positioned back to the capping station due to:
+­ A paper jam or carriage jam that is not cleared promptly. ­ Power being cut in the middle of a print job because of a power outage. ­ The printer shutdown sequence not being completed (e.g., after completing a print job the printer is immediately shut down by
+pulling the power plug before the printhead has returned to the capping station) · The ink supplies are taken out of the printer. Ideally, ink supplies should remain in the printer. If supplies are removed from the printer
+and stored separately, the printhead will "dry out." · The ink supplies have passed the expiration dates (e.g., the supplies are left in storage for too long after purchase).
+Prevention of viscous plugs
+· Use Original HP ink in your HP printer. · Follow the printer operating guidelines. Refer to your printer's user guide to learn more about these guidelines. · Place or store your printer in the recommended environment. · Choose the right printer for your printing needs. · Check the expiration date when purchasing ink; HP ink supplies typically have a two year warranty. · Maintain the health of the printhead by using it regularly. · Power down the printer properly when not in use. · Use the printhead cleaning utility that can be accessed either through the control panel of the printer or through the printer software
+installed on the computer.
+6
+
+Technical white paper | Officejet & Officejet Pro technology
+Additional links To learn how thermal inkjet technology works, visit: http://www.youtube.com/watch?v=QNIeVR8luOA&gl=SG&hl=en-GB To learn more about HP Officejet Pro, Officejet Printers, and Officejet all-in-ones, visit: http://www.hp.com/products1/inkjetprinter/officejet.html To learn how to keep your ink cartridge healthy, visit: http://h20435.www2.hp.com/t5/The-Next-Bench-Blog/Keep-Your-Ink-Cartridge-Healthy-and-How-HP-Prevents-Ink-Drying/ba-p/79703
+To learn how ink is used throughout the inkjet printing process, visit: http://h10060.www1.hp.com/pageyield/en-019/articles/howInkIsUsed.html?cCode=us
+To learn about the pros and cons of turning your printer off when it is not in use, visit: http://h30507.www3.hp.com/t5/The-Inkjet-Printing-Blog/Should-You-Turn-Your-Printer-Off-when-You-aren-t-Using-It/ba-p/32062
+To learn how Original HP ink supplies compare with refilled ink cartridges, visit: http://www.hp.com/united-states/campaigns/inkjet-cartridges/
+
+Sign up for updates hp.com/go/getupdated
+
+Share with colleagues
+
+Rate this document
+
+© Copyright 2013 Hewlett-Packard Development Company, L.P. The information contained herein is subject to change without notice. The only warranties for HP products and services are set forth in the express warranty statements accompanying such products and services. Nothing herein should be construed as constituting an additional warranty. HP shall not be liable for technical or editorial errors or omissions contained herein.
+
+

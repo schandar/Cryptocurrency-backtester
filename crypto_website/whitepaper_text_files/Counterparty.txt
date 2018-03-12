@@ -1,0 +1,230 @@
+ZERO Trading Fee Cryptocurrency Exchange
+White Paper
+
+1. Abstract ................................................................................................................................... 2 2. Background .............................................................................................................................. 3 2.1 Problems of Current Cryptocurrency Exchanges .......................................................................... 3 2.1.1 High Trading Fees .................................................................................................................. 3 2.1.2 Difficulties of Real-time Trading ............................................................................................. 3 2.1.3 Asset Security Issues ............................................................................................................. 3 2.1.4 Shutdown without Warning .................................................................................................... 4 2.1.5 Only Limited FIAT Currencies Are Supported ............................................................................. 4 2.1.6 Lack of Multilingual Support .................................................................................................. 4 2.1.7 Slow Customer Services and KYC Process ............................................................................... 4 2.2 Existing ICO Issues ................................................................................................................... 4 2.2.1 Low Liquidity of ICO Tokens ................................................................................................... 4 3. Introduction to COBINHOOD ....................................................................................................... 5 3.1. Summary ............................................................................................................................... 5 3.2 Features of COBINHOOD Cryptocurrency Exchange .................................................................... 6 3.2.1 ZERO Trading Fees ............................................................................................................... 6 3.2.2 100% Reserve Guarantee ....................................................................................................... 6 3.2.3 Offline Multisig Wallet Security System .................................................................................... 6 3.2.4 Crypto Assets Backed by Insurance ........................................................................................ 6 3.2.5 Two-Factor Authentication Enforcement ................................................................................. 6 3.2.6 Distributed Order Matching Engine .......................................................................................... 7 3.2.7 Wide Range of FIAT Currencies Supported ............................................................................... 7 3.2.8 The Most International Cryptocurrency Exchange ...................................................................... 8 3.2.9 Responsive 24/7 Online Customer Services ............................................................................ 8 3.2.10 User-friendly KYC Process .................................................................................................... 8 3.2.11 Decentralized Exchange ........................................................................................................ 8 3.2.12 Design of COBINHOOD Website and App ............................................................................... 8 3.3 Features of COBINHOOD ICO Underwriting Service ..................................................................... 9 3.3.1 ICO Due Diligence ................................................................................................................. 9 3.3.2 ICO Smart Contract Code Review ........................................................................................... 9 3.3.3 ICO Legal Compliance Review ................................................................................................ 9 3.3.4 ICO Spark Program .............................................................................................................. 9 3.4 Conclusion ............................................................................................................................ 10 4. COBINHOOD's Business Models ................................................................................................ 11 4.1 Margin Trading Loan Interest .................................................................................................. 11 4.2 COBINHOOD Prime ................................................................................................................ 11 4.3 COBINHOOD High-Frequency Trading Server ............................................................................ 11 4.4 COBINHOOD ICO Underwriting Service ..................................................................................... 11 4.5 COBINHOOD Financial Center .................................................................................................. 11 5. COBINHOOD Roadmap .............................................................................................................. 12 6. Our Team ............................................................................................................................... 13 7. COBINHOOD ICO .................................................................................................................... 15 7.1 ICO Plan ................................................................................................................................ 15 7.2 COB Token Privileges ............................................................................................................ 16 7.3 ICO Funds Usage .................................................................................................................. 17
+
+1. Abstract
+COBINHOOD is a cryptocurrency service platform for the blockchain era. The first service launched by COBINHOOD is the world's first zero fee high-frequency cryptocurrency trading exchange that solves existing problems of cryptocurrency exchanges. It provides spot trading and margin trading with ZERO trading fees to maximize traders' profit and market liquidity. COBINHOOD also provides ICO underwriting services to solve the problem of ICO token liquidity issues.
+COBINHOOD will launch its ICO (Initial Coin Offering) on September 13th, 2017.
+2
+
+2. Background
+With the advance of blockchain technology, more and more people are migrating from fiat-based financial system towards blockchain-based financial system. Since January 2017, the cryptocurrency market cap has increased from 7B USD to 110B USD in July[1]. Moreover, cryptocurrency trading volume exceeded stock trading volume by August 2017. However, existing cryptocurrency exchanges are not able to handle modern trading demands.
+2.1 Problems of Current Cryptocurrency Exchanges
+2.1.1 High Trading Fees According to Exchange War[2], the top 30 cryptocurrency exchanges, on average, charge 0.2% trading fees for both makers and takers, which impact traders' profit margins significantly. Some exchanges claim that they charge low trading fees, but these reduced rates often only apply once a trader's volume has reached a very high threshold.
+2.1.2 Difficulties of Real-time Trading Due to rate-limited trading APIs, non-real-time transaction confirmation, and delayed order book updates, traders are unable to trade in real-time.
+2.1.3 Asset Security Issues Cryptocurrency trading platforms hold a large amount of cryptocurrency deposits, making them unavoidably the target of hackers. On February 24th, 2014, Mt.Gox, a Bitcoin exchange, was breached and lost 650 Bitcoin, which is currently worth2.6B USD; in August 2016, Bitfinex, one of the world's top 10 cryptocurrency exchange, was hacked and lost 120K Bitcoin, currently valued at more than 480M USD. If investors continue to be concerned about security issues, then the growth of the cryptocurrency trading market will be affected.
+Moreover, most cryptocurrency exchanges are not able to guarantee the adoption of the 100% reserve banking system. Deposits can be embezzled, the security concerns make cryptocurrency deposits into exchanges unsecured.
+[1] https://www.coinmarketcap.com/ [2] https://www.exchangewar.info/
+3
+
+2.1.4 Shutdown without Warning Shutdown without warning is common amongst trading platforms. In 2014, Mt.Gox encountered serious technical failures, resulting in trading halts. The value of Bitcoin plummeted from 260 USD to 110 USD. On May 25th, 2017, Kraken, another cryptocurrency exchange platform, shut down three times in one day. On May 27th, 2017, Coinbase, a leading exchange platform, claimed that the system halt was caused by unprecedentedly high trading volume. The incident also led to a significant plummet of Bitcoin value. Platform shutdowns bring user trading to a halt and people have lost vast amounts in investments. To this day, many of these incidents remain unresolved.
+
+2.1.5 Only Limited FIAT Currencies Are Supported Most exchange platforms only support one kind of fiat currency. While some don't even provide FIAT withdrawal/deposit.
+
+2.1.6 Lack of Multilingual Support Most exchange platforms only support one language; only a handful are multilingual.
+
+2.1.7 Slow Customer Services and KYC Process Currently, the delivery of customer services is slow, while some exchanges don't even respond to inquiries at all. Furthermore, the process of KYC (Know Your Customer) is slow and complicated. Take Kraken as an example, when the demand for identity verification is high, it takes around 30 days to complete Tier 4 verification.
+
+2.2 Existing ICO Issues
+
+In 2017, funds raised through ICOs increased from 5.6M USD in January to 987M USD in July[3]. This activity is expected to exceed 200B USD in 2020. Although ICOs are increasingly popular as a means of fundraising, some problems with ICOs remain unsolved.
+
+2.2.1 Low Liquidity of ICO Tokens The most serious problem for ICOs is that ICO tokens cannot be immediately traded in exchanges after their ICO. Low liquidity of ICO tokens means ICO tokens' bid-ask spread is large, which further reduces their value.
+
+In addition, it required an intimidatingly high listing fee to list a token on one of the world's top 10 exchanges. The listing fee is often as high as 500 to 1000 Bitcoin.
+
+As a result, traders have no choice but to resort to the secondary market, which has low liquidity and large spread for trading ICO tokens. This has imposed significant obstacles to the overall development of the cryptocurrency market.
+
+[3] https://www.cryptocompare.com/ico/#/completed/
+
+4
+
+3. Introduction to COBINHOOD
+3.1 Summary
+COBINHOOD is a cryptocurrency service platform that provides cryptocurrency trading and ICO underwriting, aiming to solve the existing problems of current cryptocurrency exchanges.
+COBINHOOD features ZERO trading fees to maximize traders' profit and market liquidity. It has the ability to process more than one million orders per second, achieving the true "real-time" trading experience, and rendering it the world's first cryptocurrency exchange capable of high-frequency trading.
+Furthermore, COBINHOOD aims to solve ICO tokens' liquidity issues through its ICO underwriting service.
+COBINHOOD will support the following cryptocurrencies:
+
+BTC
+
+BCC
+
+ETH
+
+ETC
+
+LTC
+
+ZEC
+
+XMR
+
+XRP
+
+COB
+
+NEO
+
+OMG
+
+USDT
+
+DASH
+
+IOTA
+
+EOS
+
+REP
+
+GNT
+
+5
+
+3.2 Features of COBINHOOD Cryptocurrecny Exchange
+3.2.1 ZERO Trading Fees COBINHOOD features ZERO trading fees for spot trading and margin trading with up to 10x leverage to maximize the profits for traders all over the globe.
+3.2.2 100% Reserve Guarantee COBINHOOD guarantees 100% reserve. It will also disclose all online and offline wallet addresses for public audit, ensuring no embezzlement of traders' funds.
+3.2.3 Offline Multisig Wallet Security System Every kind of crypto assets deposited at COBINHOOD will be stored in an offline multisig wallet. It is estimated that 98% of assets will be stored offline, while 2% of assets will remain in an online wallet allowing for faster user deposit/withdrawal experience.
+Each offline multisig wallet consists of 8 HSMs (Hardware Security Modules). This means that transactions which use the multisig wallet will require 5 out of the 8 HSMs to proceed. If one of the HSM administrators is compromised, the multisig wallet will remain secure. Furthermore, the administrators of the HSMs are located in different countries (geo distributed) adding to COBINHOOD's security system.
+3.2.4 Crypto Assets Backed by Insurance All crypto asset deposits in COBINHOOD's online wallet will be backed by insurance. Since offline multisig wallet is virtually impossible to be compromised, all users' crypto assets will be fully covered.
+3.2.5 Two-Factor Authentication Enforcement COBINHOOD enforces two-factor authentication (2FA) to log in. Withdrawal of crypto assets requires an extra email confirmation to protect the user's crypto assets.
+6
+
+3.2.6 Distributed Order Matching Engine The COBINHOOD platform is built on Google Cloud Platform and is programmed with Golang for high concurrency.
+By design, each trading pair is transmitted through a dedicated order matching engine to ensure high order matching speed.
+COBINHOOD's order matching engine is composed of microservices, including frontend, API backend, order matching system, and job/message queue services deployed with Docker and Kubernetes to achieve high availability and high scalability.
+All of the transaction records are stored in Spanner DB, a Google Cloud Platform database that features strong consistency and the ability to do horizontal auto scaling.
+The information of the order book is stored in Redis cluster, an in-memory database technology featuring horizontal auto scaling and distributed in-memory replication.
+Transactions and order book updates are sent through Web Application Messaging Protocol (WAMP) to achieve real-time information update at every tick. In stress tests, COBINHOOD is able to process 1,154,284 orders per second and achieve 10,142 order book updates per second for each trading pair on average--making it the world's first cryptocurrency exchange capable of high-frequency trading.
+At COBINHOOD, software development follows test-driven development (TDD). By using Docker and Kubernetes together with CircleCI, continuous delivery (CD) and continuous integration (CI) we can ensure system stability and strength.
+3.2.7 Wide Range of FIAT Currencies Supported COBINHOOD will support a wide range of fiat currencies. Users are able to choose their preferred fiat currencies to make funds deposit or withdrawals. Fiat currencies supported by COBINHOOD: USD/EUR/JPY/KRW/CNY/HKD/CAD/GBP/ AUD/NTD
+7
+
+3.2.8 The Most International Cryptocurrency Exchange The website and app of COBINHOOD support 10 main languages, covering 98 % of the world's population's native language, making it the most internationalized cryptocurrency exchange. Languages supported by COBINHOOD: Chinese/Japanese/Korean/English/Russian/ French/German/Spanish/Portuguese/Arabic 3.2.9 Responsive 24/7 Online Customer Services COBINHOOD provides 24/7 online customer service. Should users encounter issues or need assistance, customer success specialists can be reached via the COBINHOOD website and mobile app. When a user submits an inquiry, the customer success team will respond within one day. COBINHOOD's goal is to provide consistently excellent customer assistance. 3.2.10 User-friendly KYC Process COBINHOOD will enforce bank-level KYC (Know Your Customer) processes to comply with AML (Anti Money Laundering) laws. COBINHOOD provides user-friendly identity authentication services. The process usually be completed within 24 hours of customer submission. 3.2.11 Decentralized Exchange In the future, COBINHOOD plans to build a decentralized cryptocurrency exchange. As the consensus algorithm of blockchain technology advances, decentralized highfrequency trading and real-time order book matching will become feasible. 3.2.12 Design of COBINHOOD Website and App
+8
+
+3.3 Features of COBINHOOD ICO Underwriting Service
+COBINHOOD only underwrites high-quality, promising ICOs that have passed stringent due diligence, smart contract code review, and legal compliance review by COBINHOOD's dedicated ICO review team. In addition, COBINHOOD's ICO Spark ProgramTM will help well-known enterprises, successful startup companies, and celebrities launch their ICOs.
+
+Also, ICO tokens underwritten by COBINHOOD can be traded on COBINHOOD exchange immediately after ICO, which solves ICO tokens' low liquidity issue as explained in 2.2.1.
+
+3.3.1 ICO Due Diligence It is very difficult for ICO investors to tell if an ICO project is promising or not. COBINHOOD ICO review team makes a huge difference. The team will review ICO projects on different aspects, including project feasibility, idea novelty, financial justification, and legal compliance.
+
+3.3.2 ICO Smart Contract Code Review In June 2016, The DAO was able to raise 150M USD within a short timeframe; however, due to the flaws in its smart contract code, a hacker was able to steal 50M USD from it. COBINHOOD's experienced technology team will review ICO smart contracts to eliminate errors, bugs, or backdoors.
+
+3.3.3 ICO Legal Compliance Review COBINHOOD is committed to achieving the highest possible standards for legal compliance. COBINHOOD's legal team are highly experienced in securities law and banking law. All ICO project's white paper documents and ICO terms will be examined for compliance with legal regulations.
+
+3.3.4 ICO Spark Program COBINHOOD ICO Spark ProgramTM is launched with vision to help companies integrate
+their products and services through the use of blockchain technology.
+
+A well-known example of traditional and blockchain technology integration is "FunFair." FunFair creates a fair gambling environment for players with Ethereum smart contract technology. FunFair FUN token's market cap is now 98M USD as of August, 2017[4].
+
+Another example is Lampix, a computer-vision AI startup whose machine-learning algorithm can transform any surface into a smart surface[5]. In August 2017, it launched an ICO for its PIX token, an image-mining blockchain. Its ICO was a success with 14.2M USD raised[6] in 8 hours.
+
+[4] https://www.coinmarketcap.com/assets/funfair/
+
+[5] https://www.lampix.co/ [6] https://www.newswire.com/news/lampix-crowdsale-ends-with-over-14-2-million-raised-19881254/
+
+9
+
+Other than enterprises, the ICO Spark ProgramTM also aims to help individuals launch their own ICO. With guidance from the ICO Spark ProgramTM team, a person of notable accomplishments can easily launch ICOs for fundraising or charitable foundations. Through the "ICO Spark ProgramTM", COBINHOOD will launch ICOs for well-known enterprises, successful startup companies, and distinguished individuals, not only to help fundraising but to also build a trustworthy ICO ecosystem.
+3.4 Conclusion
+COBINHOOD is the world's first ZERO trading fee cryptocurrency exchange that is capable of high-frequency trading. In the near future, large investment banks, hedge funds and institutional investors will be more than willing to enter the cryptocurrency trading market due to COBINHOOD's high quality of service. Together with COBINHOOD's ICO underwriter service, COBINHOOD will become NASDAQ and Goldman Sachs in the cryptocurrency market.
+10
+
+4. COBINHOOD's Business Models
+4.1 Margin Trading Loan Interest Users can opt in to become margin trading loan providers and receive interest earnings with their asset deposits. COBINHOOD will automatically determine the interest rate based on margin trading loan supply and demand. A portion of earnings generated from interest payments will be collected by COBINHOOD.
+4.2 COBINHOOD Prime COBINHOOD will launch COBINHOOD PrimeTM service for individual traders in 2018. Traders can subscribe to COBINHOOD PrimeTM service for higher leverage on margin trading, lower latency ticker, and higher trading API rate limit on COBINHOOD exchange. Also, COBINHOOD PrimeTM subscribers will have escalated customer assistance, dedicated phone support, a committed customer success account manager, and 100% uptime SLA. COBINHOOD PrimeTM service will be subject to annual subscription fee.
+4.3 COBINHOOD High-Frequency Trading Server COBINHOOD will launch its high-frequency trading server subscription service for investment banks, hedge funds, and institutional investors. These servers will be hosted on the same network with COBINHOOD order matching engine, providing ultra lowlatency ticker and unlimited API rate on the COBINHOOD exchange. Trading algorithms can be deployed onto these servers for high-frequency algorithmic trading. The highfrequency trading servers will be subject to annual subscription fee.
+4.4 COBINHOOD ICO Underwriting Service A percentage of ICO tokens underwritten by COBINHOOD will be collected as underwriting service fee.
+4.5 COBINHOOD Financial Center COBINHOOD will launch more financial products and services in the future, for example, crypto assets trading with stocks, forex, commodity, market indexes, and futures. In addition, COBINHOOD will also launch cryptocurrency wallet and payment services.
+11
+
+5. COBINHOOD Roadmap
+
+2017.8
+COBINHOOD Development Starts
+2017.9
+COBINHOOD ICO Starts
+
+2017.11
+COBINHOOD Exchange Online
+
+2017.12
+Margin Trading/Funding Online FIAT Trading Online
+
+2018.Q1
+ICO Underwriting Service Online
+
+2018 Q2
+Decentralized Exchange Online
+2018.Q3
+Crypto Assets Trading with Stocks/Foreign Exchange/ Precious Metals/ Commodity/Market Indexes/ Futures
+
+12
+
+6. Our Team
+CEO Chen Tai -Yuan A serial entrepreneur, co-founder of 17 live streaming, and founder of the COBINHOOD Financial Group Chen Tai Yuan is a 26-year-old serial entrepreneur who skipped one year of senior high school and entered NTU (National Taiwan University) as an Electrical Engineering major, and earned an Electrical Engineering master's degree at the age of 22. At the age of 24, he founded 17 live streaming, a leading live streaming platform across Asia with more than 5M daily active users. In three months, 17 live streaming raised 10M USD. Angel investors got 20x return on investment within a year. Jamie Lin, the founder of AppWorks, the largest startup incubator in Taiwan, named Chen a "genius among entrepreneurs."
+Chief Strategy Advisor Tony Scott Tony Scott was the third U.S. Federal Chief Information Officer, serving from 2015-2017. During his tenure, he was involved in leading various digitalization and blockchain-themed projects as well as improving the cybersecurity of government. Scott's 40year career in information technology includes roles as CIO of VMware, Microsoft and The Walt Disney Company. Today, he leads the Tony Scott Group, which provides IT consulting and advisory services to public and private sector. Scott also serves as a research director at the Blockchain Research Institute, a global knowledge network.
+CTO Mao Pu-Chen Pu-Chen Mao previously worked for companies such as 17.Media, Ubiquiti Networks, etc.. He is experienced in network protocols, low-latency networks, and multimedia streaming technologies. Throughout his career, Pu-Chen has designed and implemented systems with bandwidth-intensive and high-concurrency demands, and developed strategies to achieve these requirements.
+13
+
+Advisor Huang Wei-Ning Wei-Ning has 3 years of working experience at Google. Before that he was an active open source contributor and worked in the open source space for more than 5 years. He specializes in building large scale web applications with demanding throughput and availability. Wei-Ning is also an early adopter of cryptocurrencies, having 5 years of cryptocurrency trading experience and deep understanding in the blockchain technology.
+Advisor Brendon Hogger Brendon is a software architect with fifteen years' experience helping startups build out their systems, across industries including finance, health, telecom, and media. He believes in rough consensus and running code. For the last three years, he has been Chief Architect at one of Asia's leading fintech companies, leading backend development and partner integration with banks and remittance partners in nine Asian countries and beyond.
+Advisor Jeng Tz-Iu Tz-Iu is COBINHOOD's financial advisor. He has several years of global FX trading experience and he is used to work in UBS Investment Bank and State Street Bank. He focuses on FX and money market in emerging market.
+COBINHOOD's Technology Team The COBINHOOD's Technology Team consists of former employees of Google, Microsoft, Lenovo, Cheetah Mobile, Mozilla, and 17 Media. Most of them are graduates from the world's top universities, including Stanford University, MIT, Carnegie Mellon University, and UCLA. The team as a whole has solid domain knowledge on Google Cloud Platform infrastructures, blockchain technology, and financial transaction FIX protocol implementations.
+14
+
+7. COBINHOOD ICO
+7.1 ICO Plan
+Participate in COBINHOOD's ICO to sponsor COBINHOOD exchange development.
+COBINHOOD's token symbol will be COB. COB tokens are based on Ethereum ERC20 token standard. A total of 1 billion COB tokens will be issued. 500 million COB tokens will be available for ICO.
+ICO Amount: 50% (500M COB tokens) COBINHOOD Inc. Amount: 40% (400M COB tokens) Private Placement Amount: 10% (100M COB Tokens)
+The COBINHOOD ICO starts on September 13th, 2017 and continues until October 22th, 2017. Only Ethereum is accepted. The rate of COB will be as follows:
+9/13 - 9/19: 1 ETH for 5600 COBs (40% bonus)
+9/20 - 9/26: 1 ETH for 5200 COBs (30% bonus)
+9/27 - 10/3: 1 ETH for 4800 COBs (20% bonus)
+10/4 - 10/10: 1 ETH for 4400 COBs (10% bonus)
+10/11 - 10/22: 1 ETH for 4000 COBs
+The COBINHOOD exchange is scheduled to go online on November 1st, 2017. COB token can be traded on the COBINHOOD exchange once it is online.
+*Participation in the COBINHOOD ICO means you are sponsoring the development of the COBINHOOD exchange platform. COBINHOOD, Inc. does not and cannot promise any guaranteed returns for ICO participants. *COB token is not security since it does not reflect the ownership of COBINHOOD, Inc. legal entity.
+15
+
+ICO Participants
+50%
+
+COBINHOOD Ltd. 40%
+
+Private Placement 10%
+Unsold ICO tokens will be reserved by Cobinhood Ltd. 10% of COB tokens held by COBINHOOD Ltd. vests every year.
+7.2 COB Token Privileges
+COBINHOOD ICO participants will be eligible for several privileges. For example, 50% off margin trading loan interest can be availed when paid with COB tokens. Another privilege is, when COBINHOOD underwrites an ICO, COB token holders will be able to get future ICO tokens at significantly lower rates. The amount of ICO tokens that a COB token holder can get at a lower rate is as follows:
+(ICO Tokens Received by COBINHOOD from ICO Underwriting Service) * (The Amount of COBs Owned) / (Total Amount of COBs)
+COB token holders can bind their Ethereum wallet address, which is holding COB tokens to their COBINHOOD trading platform account, by calling the binding function in COB token smart contract. After the binding is complete, COB holders can get the ICO tokens at a lower rate on the COBINHOOD exchange. As an example, COBINHOOD underwrites an ICO for a token called XYZ. The total issuance of XYZ tokens through ICO is 100M and COBINHOOD takes 5% as underwriter service fee. 10M COB tokens holder will have a lower rate, i.e. :
+5M * 10M / 1B = 50k XYZ tokens.
+COBINHOOD will make efforts to maximize a COB token holder's benefits. There may be more privileges for COB token holders in the future.
+
+*Privileges for COB token holders may be subject to change in the future.
+*A detailed ICO underwriting service report will be published on the 15th of every month on COBINHOOD's
+official website.
+16
+
+7.3 ICO Funds Usage
+All funds received from the ICO will be used for the development of the COBINHOOD cryptocurrency exchange platform. Specifically:
+40% Product Development Recruitment of top talent to maintain COBINHOOD's competitive edge, as well as develop new financial products and services. 20% Operation Cost for servers and customer service. 20% Marketing To rapidly increase market shares. 10% Auditing and Security Compliance COBINHOOD will make all efforts to ensure security of all users' crypto assets, aiming to achieve banking industry level auditing and security compliance. 10% Legal Affairs Legal compliance is key to COBINHOOD's long-term success.
+
+Legal Affairs 10% Auditing and Security Compliance 10%
+
+Product Development 40%
+
+Marketing 20%
+
+Operation 20%
+
+DISCLAIMER: This White Paper is for discussion purpose only. COBINHOOD, Inc. does not guarantee the accuracy of the conclusions reached in this white paper.
+Copyright © 2017 COBINHOOD, Inc.
+17
+
+

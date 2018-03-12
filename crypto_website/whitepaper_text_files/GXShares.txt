@@ -1,0 +1,224 @@
+ShareChain White Paper
+Decentralized and Valuable Credit Data Platform for The Global Sharing Economy
+-1-
+
+1. What is ShareChain?
+Based on the sharing economy, ShareChain is a smart, reliable, open, decentralized and valuable credit data platform and also an underlying structure created by blockchain technology. As blockchain technology subverts the existing centralized credit platform, ShareChain is designed to realize value quantification and circulation on the platform by using the Super Smart Share, briefly called "SSS", to build a credible credit system, in which the data is real and unique, to create a credible ecological circle of the sharing economy, and to pursue the great vision of " interconnected credit and sharing future".
+2. What are the goals of ShareChain?
+ShareChain is aimed at finding specific and practical applications of blockchain technology in the new global sharing economy business and relevant fields.
+-2-
+
+3. What is the sharing economy?
+The sharing economy means on the same ownership premise, benefits will be gained by temporarily transferring usage rights and increasing the utilization rate of resources. The estimated value of the global sharing economy forerunners like Uber, Airbnb, etc., has been several ten billion dollars. Nevertheless, it's just the beginning of the sharing economy, which will account for more than 30% of GDP in the future and become one of the national policies.
+4The current situation of the sharing economy
+The rapid development of the Sharing economy also brings problems and challenges to sharing enterprises. Specifically, the problems and challenges faced by the sharing economy are the following four points:
+1. Environment: Although delivering civilization and building up new spirit are advocated by the mainstream, sharing products are still not cherished or vandalized by some people. Many useful sharing products are no longer available and have become a burden
+-3-
+
+on the society. Consequently, the benign development of the sharing economy is being challenged.
+2. User information:
+While the sharing economy penetrates into the personal sector, enterprises find it difficult to know the user information. The cost of large amounts of information screening is enormous. With a single data acquisition channel, personal credit for each user can not be judged by traditional sharing enterprises and different permissions for different users are also impossible, which lead to significant increasing costs of product supervision and operation.
+3. Interoperable databases:Although sharing enterprises record the user data in the APP, the new user's comprehensive credit level can not be judged. The enterprise databases are not interoperable in the traditional Internet domain to ensure information safety, which leads to repeated collection of the user data by different sharing enterprises.
+4.User loyalty: The user of traditional sharing enterprises is not reliant on the APP with integral incentive mechanism. Point value is not the reason for the user to use APP for a long time.
+-4-
+
+5. ShareChain introduction
+ShareChain gives a solution to the following four issues faced by shared applications.
+With the underlying blockchain technology, major sharing applications access, at the same time, smart contract setting, smart contract triggering, automatic ledger, data uploaded on the chain, data check, value analysis, credit output and other services are provided. 5.1 ShareChain value proposition
+1) Users: The user of Super Smart Share in shared applications will enjoy preferential price or contribute to the valuable behavior to get rewards, without disclosing personal privacy and data.
+2) Shared applications: To increase user activities and profits, obtain real credit index of users, and reduce fraud
+3) External applications: To capture high-quality data reports, specify an optimal program at lower cost and increase profits.
+-5-
+
+5.1.3 ShareChain Value Proposition Profile With the sharing economic credit data as its core, ShareChain gradually accesses travel sharing,charger sharing , digital sharing, guesthouses sharing and other sharing applications, by using Internet of Things, artificial intelligence, big data and other technologies to increase interoperability in various fields and integrating resources more efficiently to create a first-class decentralized credit sharing ecosystem .
+-6-
+
+5.2 Decentralized sharing ecology of ShareChain
+The feature of blockchain is that after the data is uploaded on the chain, it is open, transparent, and can not be tampered. The data credibility is ensured.
+The ShareChain will store four types of datum on the chain: user information in shared applications, SSS transaction information, participant's comprehensive information on ShareChain, and third-party credit information. Related information is uploaded onto the blockchain, and the data in the blockchain can not be changed, fundamentally solving the problems of data stealing and tampering, which is the most concern of the user. In addition, the user key information, sharing enterprise data information, are also desensitized by privacy processing and encrypted in safety layer to ensure privacy safety of the user and sharing enterprises.
+The development of ShareChain is to create a sharing ecosystem, and access the sharing enterprise. With the help of blockchain technology, accurate, credible, and quantifiable data indicators will be shared among sharing enterprises. More authoritative user information analysis and recommendations will be obtained from authoritative third-party credit agencies. With the
+-7-
+
+continuous development of ShareChain ecology, the number of sharing enterprises has been increasing. When the sharing enterprise has information query requirements, based on the blockchain, ShareChain provides the most accurate information required by the sharing enterprise through dynamic analysis, reducing business operating costs and improving the efficiency of all participants in the ShareChain ecosystem.
+5.3 ShareChain smart contract
+(1) Smart contract interpretation In a simple word, "smart contract" is a contract (contract) agreement performed programmatically. The main objective of the smart contract is to meet the needs of a number of common contracts (such as payment agreements, mortgage agreements. confidentiality agreements, and even enforcement agreements). The smart contract minimizes the impact of accidents or the events by implementation of the agreement, removing third-party trust mechanism to minimize the cost of trust between the parties, reducing fraud losses and non-conformance with the agreement,
+-8-
+
+decreasing accidents, improving the efficiency of social operation and achieving other economic goals.
+(2) ShareChain smart contract The user chooses the relevant conditions to generate the smart contract, such as the lease time, the payment of the deposit, the rent and the deductible, etc.. When the smart contract obtains external data, detected in line with the preparatory conditions, will take the initiative to replace the enterprise and users to respond, such as automatic delivery, automatic refund, automatic payment and so on. The whole process is recorded in the blockchain, to ensure that all states of correctness, integrity and non-tampering, and to reduce the impact of accidents.
+5.3.2 ShareChain smart contract case
+-9-
+
+6. ShareChain business structure
+The ShareChain consists of a block network and an open platform. The entire business ecology also includes the roles of cross-chain exchange, sharing enterprises, credit assessment service providers, sharing ecosystems and customers.
+6.1 role composition
+1) Application users
+The ShareChain does not change the usage habits of the users of the sharing enterprise, and the application users still enjoy convenience and service in the applications of sharing enterprise .
+2) Sharing business operator
+Sharing enterprises access the ShareChain with API provided by ShareChain open platform in the application to provide new users with SSS incentive mechanism.
+3) ShareChain operation team
+The ShareChain open platform is operated and maintained by the ShareChain operation team. The initial promotion of the ShareChain, and the initial release of SSS, require ShareChain operation team's meticulous operation, so that more sharing
+- 10 -
+
+software users realize their credit value, and get involved in the ShareChain ecology. Through using the software accurate user information and behavior models are obtained to predict the model, and to improve the accuracy and effectiveness of the user credit report .
+4) ShareChain open platform As the hub of the ShareChain, and a highly reliable operation of network services, Sharing blockchain network has automatic ledger of smart contract, key data recorded in the chain and query , blockchain accounts and circulation trading capabilities. 5) Third-party credit agencies The third-party credit agency is responsible for providing a reliable data algorithm to get a reliable data analysis results of the user information in sharing software in the open platform to ultimately get credit output and other results, and obtains the corresponding SSS as a benefit.
+- 11 -
+
+6.1 ShareChain Business Architecture
+6.2 The open platform of ShareChain
+As the central system of ShareChain, the ShareChain open platform has the following capabilities:
+1) Accept the access of different sharing enterprises by opening api interface. Provide services for them, and further integrate a number of the resources of sharing enterprises through data sharing, resources exchange, and win-win cooperation to build a more valuable and competitive share industry ecosphere.
+2) Accept the APP and WeChat official account access of the sharing enterprise by opening api interface to upload the enterprise
+- 12 -
+
+database information, the user using software data and valuable contents.
+3) Accept the online software and offline hardware access of the sharing enterprise by opening api interface to build a more complete shared chain ecology.
+4) Release smart contracts, carry out the data analysis of contract execute and automatic ledger, record and search incentive policy information and key data in the chain, transfer transaction of SSS to achieve open and transparent account management, information management, and enhance the credibility of the industry.
+5) Provide business and user account management, wallet and other basic functions, and manage business and user information to facilitate the enterprise and the user to manage and use SSS.
+6 ) Expand the ShareChain business ecology, and improve user loyalty through the application of the data analysis subsystem, the default penalty subsystem, the user information encryption subsystem, and the enterprise alliance subsystem in various aspects of business,
+- 13 -
+
+7)Accept the direct access of intelligent hardware / sharing products sensor, upload data through an open gateway in a user-free interactive way, integrate and collect more accurate user data for big data and data intelligence analysis to make more accurate judgment on the user information and improve the user experience.
+8)Provide perfect data collection and intelligent data analysis capabilities based on big data, generate accurate user report, daily application report, application environment report, personal data model, etc., through the data intelligent analysis system for sharing enterprises to carry out data evaluation, improve business architecture, reduce operating cost and for more accurate data interconnection on the open platform.
+6.2 ShareChain open platform architecture
+- 14 -
+
+6.3 Value distribution
+Thanks to ShareChain access into the economy, the information value distribution in sharing industry has been a revolutionary change. The value of each role in the ShareChain and the benefits obtained are described as below:
+1 ) APPs users
+Create value: Bring information value to the sharing enterprise chain through the use of shared applications.
+Yield profit: Use shared application to get SSS as an incentive. The ShareChain accurately analyze the information of the share enterprise so as to bring a better application experience for users.
+2 ) Sharing enterprises
+Create value: Provide shared services and upload accurate use reports for application users, to enhance the software user experience more effectively .
+Yield profit: When a user uses a sharing product through a sharing enterprise app / WeChat official account, or when the product has been used for some time and has use value, the
+- 15 -
+
+automatic ledger of smart contracts will be triggered. The corresponding proportional SSS as an incentive will be distributed to the user by ShareChain. Sharing enterprises can exchange SSS using software add-on services, and the ShareChain will buy back according to SSS and the user information of SSS.
+3 ) Data analysis service provider Create value: Analyze and upload the user's encrypted data; Integrate accurately the user data; Has a positive influence on the sharing enterprise information collection and information management. Yield profit: Participate in the SSS sharing. The more accurate analysis of the application user's data, the more valuable it is and more SSS will be obtained as an incentive.
+6-3 ShareChain value distribution diagram
+- 16 -
+
+6.4 Resource integration and advantageous ecological construction
+ShareChain user encryption information, smart contract, SSS incentive strategy, key business data, transfer transaction information etc., circulating in the in the system will be recorded in the blockchain network. Based on the open, transparent, tamper-resistant blockchain, the data mentioned above is transparent and reliable. Encryption is used for sensitive data, taking privacy protection into account.
+The ShareChain system based on trusted data flow provides the traditional sharing enterprise with the opportunity to share the resources of the industry. The sharing enterprises in different industries participating in the ShareChain, forming an ecosystem, will benefit from two aspects:
+1) Get more user resources for shared applications;
+2) Cooperate with the sharing enterprises in the industry, which can not be accomplished before. All sharing enterprises in the ShareChain, enter the market as a whole. Through the cooperation and advantages complementary to each other in this industry, a
+- 17 -
+
+wider range of market value will be gained, so that the sharing economy contributes to the society in a larger scale.
+6-4 ShareChain industry resource integration diagram
+- 18 -
+
+7. ShareChain solves the sharing economic core issue - credit
+(1) More secure for sharing the credits of the two parities through interconnection
+The business models of sharing economy are mainly concentrated in C2C, B2C, C2C mode with well-known applications Uber, Airbnb, Didi, etc .; well-known applications in OFO, Mobike, etc., in B2C mode; Either in C2C or B2C, because the transaction is based on the Internet or mobile Internet, two sharing parties can not check mutual information, and sharing becomes risking in some cases that they are completely unfamiliar with each other. And then the access to the ShareChain make the transactions more smooth and secure, due to the uniqueness of real name, and open transparent principles. The entire transaction can be traced to the source, so as to ensure the interests of both parties.
+(2) platform (official) data more credible
+Whether it is C2C or B2C, the transaction is based on the platform, whose interests is to facilitate sharing transactions. In most cases, when the interests of the platform is reduced or removed, the platform is able to tamper with the data through the backstage,
+- 19 -
+
+and the data will never be retrieved or investigated. At this moment the access to ShareChain can better control the corporate credit. Due to consensus mechanism and tamper-resistant principle, the entire transaction data can not be tampered on the platform, making the platform data more credible and more valuable.
+(3)More efficient user experience As traditional sharing applications, when new users register, their ratings are raised at the initial level. In this mode, high-quality user with high-credit groups can not get the best quality user experience at the first time and the user's first impression of the software is affected. Through data sharing mechanism in the sharing ecosystem,each sharing enterprise in the ShareChain can get the most authentic user credit data, and the user's real rating can be adjusted in time based on obtained information. High credit user groups can get the most out of the user experience in new sharing apps at the first time.
+- 20 -
+
+8. Super Smart Share (SSS)
+(1) The role of SSS SSS on ShareChain is the currency of the system. Besides the application of SSS in the above mentioned smart contract execute, it can be used in related services include but are not limited to the following scenarios: A. Share application user incentives B. Share application platform transaction services C. ShareChain underlying data consumption D. Third party consumer services E. ShareChain smart contract consumption In addition, the shared chain will continue to expand the use of SSS scenarios, while continuing to allow more third parties to access to ShareChain to add SSS value. (2) The source of SSS value SSS is the basis for the entire ShareChain system and Dapp operation. While ShareChain system provides external services, it receive a certain number of SSS as a supplement. SSS consumption,
+- 21 -
+
+exchange and other circulation can be done by the users who have access to Dapp. Dapp Users gaining more benefits and added values through SSS consumption, or third party of Dapp using credit data by consuming SSS, maintain or boost SSS price. Users can also share items and recommend friends to join in to gain SSS, so as to propel more users to join Dapp to share items, with increasing Dapp users and greater growth space. In consequence, the price of SSS will be incresed. Similarly when people use Bitcoin for exchange, it is necessary for them to go to the market to buy Bitcoin. With the increasing number of people use Bitcoin for exchange, Bitcoin will be appreciated.
+The ShareChain system helps the zero-rent platform to better serve the user while also providing it to other third parties to share applications. In theory, the prevalent global sharing economy now brings rapidly growing users and increasing awareness of SSS. With the explosive growth of the shared application, SSS value will be increased quickly.
+- 22 -
+
+9. Foundation Governance
+9.1 Overview of the Foundation The Global Foundation of ShareChain (hereinafter referred to as the Foundation) was established in Switzerland and is a nonprofit organization. In China, counterparts are established in the form of associations and are committed to the global development and transparent governance of ShareChain to advocate and promote security, rational and healthy development of ShareChain ecological community . The ShareChain Foundation will help and manage the general issues and privileges of the community through the development of an excellent governance structure in the form of associations. The mission of ShareChain Global Fund Governance Structure is designed to maintain sustainability and effective management of eco-communities and the security of the funds raised. Ecological community governance is mainly planned by the Foundation. Legal protection will be provided by our well-known
+- 23 -
+
+law firm to provide legal advice and guidance on the construction and development of the ShareChain and the ecological community.
+9.2 Foundation Governance Structure Foundation governance structure is mainly composed of four, namely the implementing agencies, technical institutions, operating agencies and community integrated service agencies. The three main bodies, namely, implementation, technology and operation were headed by experienced personnel at home and abroad. Community integrated service agencies are mainly headed by the domestic community and foreign community leaders. The Foundation Governance Committee centrally control and make decisions on the following four institutions.
+- 24 -
+
+9.2 Foundation Governance  9.2   Implementing agency 1. 2. 3. 4. 5. 1. ShareChain application launch 2. Commercial promotion of application 3. Foundation daily business implementation management 4. Coordination of subordinate bodies 5. Routine reporting  Operating organization 1. 2.
+- 25 -
+
+3.Dapp  4. 1. Foundation daily operations management 2. Foundation operations related activities planning 3.Related resources transfer of Dapp associated operations 4. Media industry exchanges  1. 2.Dapp Guithub  3. 4. Technical institutions 1. Open source code management 2.Dapp Guithub source code protection 3. Technical community activities 4. Technical support transfer at home and abroad
+- 26 -
+
+ 1. 2. 3. 4. 5. Community Integrated Services 1. China community integrated operation and management 2. Foreign community integrated operation and management 3. Community activities planning management 4. Community resource transferring management 5. Domestic and foreign community internal resources transferring
+- 27 -
+
+10. The first Dapp application Zero Rental on ShareChain
+Zero Rental is the first sharing application on the ShareChain. In current, the Zero Rental application has covered hundreds of thousands of user groups.
+10.1 The origin of Zero Rental
+Zero Rental is built by a senior team in the sharing economy to build a shared electronic product platform for the purpose of achieving full utilization of electronic products and reducing the pollution of electronic waste based on the premise of sharing the economic model.
+10.2 Advantages of Zero Rental
+Advantage One:
+Zero Rental is the first application to combine ShareChain technology as well as blockchain technology!
+Zero Rental based on "Alipay Samba credit" personal credit mechanism, through ShareChain access to the underlying structure of the application, the block chain consensus and decentralization mechanisms, provides recycling, leasing, credit, insurance and other
+- 28 -
+
+one-stop services for shared electronic products. It will also be the first Dapp to solve the credit problem in the sharing economy through the blockchain.
+Advantage Two:
+Zero Rental takes advantages of shared closed loop for high utilization and maximum reduction in electronic pollution!
+Zero Rental recovers second-hand electronic products from users. After passing the test by the team, Zero Rental provides them at the price far below the average market for users, until the exhaustion of electronic products. The second-hand electronic products are extracted and purified to reduce use-cost and prevent environmental pollution.
+Advantage Three:
+Zero Rental provides security guarantee through the strong blockchain underlying technology.
+The Zero-Rent underlying system is supported by the blockchain technology known as "ShareChain". The front end is divided into four modules, including shared electronic products, electronic products recovery, electronic product maintenance and
+- 29 -
+
+personal credit system. The underlying module ensures that all transactions are executed automatically and accurately. The front-end diversified functions allow users to operate easily, thereby enhancing the sharing efficiency and reducing product vacancy rate.
+10.3 Zero Rental interactive mode
+10.3 Zero Rental interactive mode
+10.4 Zero Rental Access method
+10.4 Access method
+- 30 -
+
+11.
+11-1 ShareChain architecture evolution
+12. Major team members
+ShareChain has more than 30 team members and technical members account for 80%. The core members are from Tsinghua University, Peking University, Hong Kong University of Science and Technology and other famous universities, and worked in Baidu, Tencent, Microsoft and other well-known international IT companies. They have many years of Internet, mobile Internet, blockchain work experience. (To be completed after the new staff to join)
+- 31 -
+
+13. SSS policy
+(1) SSS allocation scheme Total: 10 billion SSS Public issuance this time: 4 billion SSS Early investors: 1 billion SSS Foundation management: 5 billion SSS (2) SSS release plan 1) Accepted currency: Bitcoin (BTC), Ether (ETH) 2) Direct issue: 4 billion SSS 3) ETH and BTC collected at the end of crowdfunding are managed by the Foundation's account; 4) Deblocking SSS collected by investors includes 4 cycles. The length of a cycle is 30 days and 1/4 the total stock of SSS is deblocked each time. (3) Use of funds: a) Technology development: 23% b) Community maintenance: 15% c) Commercial operations: 10% d) Law and Compliance: 2%
+- 32 -
+
+e) Reserves: 50%
+14. ShareChain status and vision
+(1) ShareChain status (2017) In April, planned to build ShareChain In May, joined blockchain TrustSQL In June, the development of ShareChain cold wallet and blockchain browser were completed. In July, WeChat official account, official website and online wallet were released by ShareChain. In August, the early investment was launched officially by ShareChain. In September, Zero Rental APP was finalized by ShareChain. ( 2 ) ShareChain vision
+- 33 -
+
+In October, ShareChain was traded on overseas exchanges.
+In November, ShareChain with open and shared applications circulated, and strategic cooperation was reached with the shared enterprise to promote the ShareChain and expand the user groups.
+In 2018, ShareChain will access to 20 - 50 shared applications (accessible scenarios: shared bicycles, shared portable battery, shared travel, shared clothing, etc. ), with 20 million - 50 million users, and will record 200 - 500 million effective shared datum.
+In 2019, ShareChain will access to 100 + share application, with 500 million - 0.1 billion users and will record 0.5 billion -2billion effective shared datum.
+(3) "Zero Rental" status (2017)
+On April 10, it became a Sesame credit partner, and accessed Sesame credit
+On April 26, the credit system accessed CHSI
+On April 27, the credit system accessed three major operators, China Mobile, China Telecom, China Unicom
+On April 28, the credit system accessed Jingdong, authorized to check the white bar
+- 34 -
+
+On June 8, it accessed to Hua Bei as Alipay partner On June 20, as the partner of Tong Lian, a branch of a state-owned enterprise, accessed Xiao Tong Instalment On June 28, Morningside Capital talked about investment intentions On July 13, Zero Rental Company moved to Shenzhen Science and Technology Park On July 28, Zero Rental started the access blockchain technology research of ShareChain On August 16, Zero Rental completed ShareChain access, and carried out functional debugging On August 31, Zero Rental started software inner test On September, the conference "The Launch of Zero Rentalblockchain Application" was held by Zero Rental. (4) ShareChain ecological planning blueprint As an open application of the blockchain, ShareChain adheres to the principle of openness, inclusiveness and win-win cooperation, operating with various types of applications at home and abroad to
+- 35 -
+
+enrich our ShareChain ecology, and integrating domestic and foreign resources to create a globally shared community ecology.
+ShareChain ecological management agencies are coordinated by Foundation, working together the community management agencies at home and abroad, making full use of scientific and technological innovation to bring new applications to serve users and to facilitate enterprises as a driving force to introduce more industries to share enterprises, and an international first-class shared ecology is built in the direction of national policy and under the guidance of industry regulators.
+For the vision of ShareChain, we hope that as an international sharing enterprise alliance, through project construction by integrating advanced blockchain technology, sharing economic philosophy, efficient interconnection mode of cooperation to achieve the giant comparable with traditional internet in personal information Security industry. For example: Sesame Credit and other enterprises as the representatives of the world-class sharing of ecology.
+15. ShareChain follow-up plan
+- 36 -
+
+ShareChain follow-up plan arrangement: 1. The ShareChain is planned to set up in China, and the self-discipline of the industry will be ensured and the supervision will be welcomed! 2. In the near future, the ShareChain team and the Zero team will jointly organize the "The Launch of Zero Rental and blockchain Application" press conference. 3. The company will add the ShareChain technology to ground promotion, accelerate its launch in Alipay's Credit Life, and place advertisements on Alipay to increase the popularity. 4. Continue to promote cooperation with sharing enterprises, so that the ShareChain will have more voice and influence in this area. 5. It will contact the overseas blockchain exchange and actively promote the ShareChain online plan to enhance the international influence of the ShareChain. 6. After launching in the exchange, ShareChain team and foundation will persevere to the depth development of ShareChain technology, at the same time maintaining the harmonious development of the ecological chain, and continuously increasing access to shared applications.
+- 37 -
+
+16. Conclusion
+ShareChain introduces the concept of sharing industry data, setting the economic industry as the starting point for the prominent problems, by use of blockchain as the underlying technology, through multiple applications of SSS in ShareChain ecology, encouraging users to participate in the ShareChain ecology.
+Allow the sharing enterprise to attract more high-quality and high-loyalty users and more accurate data; through credit analysis and blockchain information encryption technology to ensure the safety of users information to optimize the user experience;
+Through big data sharing mechanism of the sharing enterprise database, and intelligent technical analysis of the data, it produces accurate user reports, user ratings, life scenes and the applicable business model to achieve the high-quality user experience, enhancing the accuracy of enterprise coverage of user groups, greatly optimizing the overall operation structure of the sharing
+- 38 -
+
+enterprise, reducing the overall operating costs of enterprises to solve the prominent problems in sharing economy industry.
+The ShareChain team and foundation in the future will continue to create ShareChain based economic industry. Provide more sharing datum for sharing economy, so that more shared applications will be accessed and more datum will be exchanged in an efficient and convenient way.
+The ShareChain will be connected to more well-known sharing applications, so that sharing economic industry practitioners will participate in and maintain the ShareChain.
+ShareChain as a vivid case in which blockchain and sharing economic industry are combined, will establish a model for the healthy development of blockchain industry. In the future, the ShareChain will have a subversive impact on the sharing economic industry, and consequent bring revolutionary changes!
+- 39 -
+
+

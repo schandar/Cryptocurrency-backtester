@@ -1,0 +1,451 @@
+Red Pulse RPX Whitepaper
+
+Jonathan Ha, CFA
+
+Stanley Chao, CFA, CAIA
+
+July 19, 2017
+
+Abstract
+In today's information age, there is no shortage of market data and financial research. Yet, due to historically entrenched market dynamics, the economics of financial research production and distribution are dominated by only a few gatekeepers. This prevents independent analysts from having a voice, while research consumers are forced to accept whatever coverage is already available. What market participants truly need is context ­ providing relevance in addition to scale. Red Pulse intends to employ RPX as a mechanism to fairly and directly incentivize research producers for their works, while providing research consumers with a mechanism to guide research coverage and provide fair compensation.
+
+v1.10
+
+1
+
+1 Motivation
+China's economy is already the 2nd largest in the world in terms of nominal GDP [1] [2], and 1st in terms of purchasing power parity [3] (PPP) [4]. However, as a market for investment and industry participation, it remains incredibly difficult to understand. This disconnect presents a huge opportunity to platforms and services that can bridge this informational gap. The problem is made all the more challenging to solve by several critical circumstances.
+1.1 Research Content Ecosystem is Broken
+The research content ecosystem as it exists today is broken. The economics of the research business has become dominated by a few key players in content production (sell-side research [5]) and content distribution (major financial terminals [6]). Smaller and independent research producers lose, as do all financial institutions, both large and small, that are forced into the "all-you-can-eat" pricing model.
+1.2 Information Accuracy and Transparency
+While sources of information on China's financial markets and industries abound, information accuracy and transparency are ongoing problems. A common theme is for China market pundits and reputable news sources to report on a market rumor in the morning, only to have it be denied in the afternoon. It's difficult to know who and what to trust, amongst all the noise.
+1.3 Information Overload
+As China has leapfrogged ahead into becoming one of the most mobile- and Internet-connected societies in the world [7] [8], market information has now not only become ubiquitous, but well in excess of what an average analyst can humanly process. This information overload phenomenon [9], while not unique to China, has made the job of analysts all the more difficult.
+
+v1.10
+
+2
+
+1.4 Solution: Sharing Economy for Research
+Red Pulse solves these issues by creating a groundbreaking research content platform that simplifies incentives and directly compensates research producers for their valuable insights, while ensuring research consumers can access the research that is most relevant to them. Independent analysts and market commentators can now contribute their ideas and insights on an ad-hoc basis, and be compensated accordingly. RPX is the underlying mechanism used to facilitate this ecosystem, and provides RPX holders with direct participation in the rise of China's economy.
+2 What Red Pulse Does
+Red Pulse is a market intelligence platform covering China's economy and capital markets. By creating a global community around a common interest, incentivizing participants to produce truly relevant research, and providing technology-enabled analysis tools, Red Pulse seeks to solve the problem that all of us face today: Information Overload.
+3 Scaling the Research Process
+
+Figure 1: Research Process
+
+We are building a new content production, distribution, and consumption platform focused initially on China's capital markets, an oft-mentioned, but little-understood market that is set
+
+v1.10
+
+3
+
+to become the most influential market in the world [10]. We recognize that incumbent platforms are well-entrenched in the financial system, and we do not seek to directly challenge this. Red Pulse offers an alternative, complementary research platform that seeks to address unmet needs, of which there are many, when concerning China markets.
+
+3.1 Contribution from Independent Research Analysts
+Independent and fresh research will be voluntarily contributed by industry experts, active investors, and market watchers, often filling the market coverage gaps that are left by more traditional sources, such as sell-side equity research firms. By helping grow an independent financial community focused on China through high-quality analysis, contributors will receive payment for their work, in the form of RPX, that enables the incentivization system that drives the platform.
+To combat the problem of information accuracy and transparency, research contributors will be designated with a system-generated Credibility Score, which is calculated based on the accuracy and quality of past research as determined by readers and the Red Pulse editorial staff, and general popularity of the contributor's works.
+
+3.2 Hypothesis & Insight Creation
+
+Our solution to the problem of information overload then rests on two principles. First, research consumers have the opportunity to create research "prompts," indicating their interest in new or relatively thinly-covered topics, by paying an adjustable amount of RPX. The greater the contributions, the higher the indicated demand. Consumers may also trigger special rights such as exclusivity for adjustable periods of time, by paying above a minimum threshold, if they are the originator of the prompt.
+Second, Red Pulse employs machine learning technology to highlight new market events that may be of significance to both research consumers and producers, while making topical recommendations to both agents, based on past individual user behavior. This helps to prioritize certain topics on an individual user-level basis that have a higher likelihood of relevance. This
+
+v1.10
+
+4
+
+Cloud Event data feed will be offered to both research producers and consumers as a starting point for potential coverage and analysis.
+
+4 Why Blockchain?
+4.1 Reducing Frictional Costs
+Traditional methods of transferring capital incur relatively high transactional costs (often ranging from 1% to 10% along with flat fees regardless of transaction size) due to banks and other financial intermediaries having to address counterparty risk and settlement and clearing costs. Using RPX significantly reduces these costs, especially if the platform engages in a large amount of relatively small payments.
+
+4.2 Creating a System of Record
+The blockchain ledger is a publicly-verifiable record that can be used to confirm that content producers on our system have been fairly compensated for their works. Research consumers will also have confidence that payments have gone towards research content that they selected, with a dependable system-of-record always available as an accounting of their usage.
+
+4.3 Solving the "Cold Start" Problem
+
+Finally, employing RPX as the underlying mechanism for our open research platform solves the "cold start" problem: convincing enough independent analysts and commentators to contribute to the platform, while convincing enough research consumers (e.g. finance professionals and financial institutions) to use the platform. In both cases, one party is unwilling to participate if there is not enough activity and usage by the other party. To solve this, RPX is used to immediately incentivize and reward research contributors, thereby seeding the platform with enough valuable content that would attract a critical mass of research consumers. With more consumers, the platform gains in popularity, thereby increasing the exposure to research producers, and their corresponding rewards.
+
+v1.10
+
+5
+
+5 Why Our Own RPX?
+5.1 Building a Community
+Establishing RPX allows us to create a common language and value system that we can build a community around. Ultimately, this becomes a rallying point, and will attract new participants, both research content producers and consumers to the Red Pulse platform. Our platform also introduces the concept of research prompts, which allow research consumers to request new research content on specific areas, similar to a Request for Proposal (RFP) process.
+5.2 Payment Scaling Issues
+Major digital assets, such as Bitcoin or Ethereum, have issues with scaling, as each payment, no matter how small, incurs a transaction fee. As our content platform thrives on the concept of micropayments in exchange for small chunks of research content, these fees can quickly add up. RPX allows both content producers and consumers to keep a running "tab", and setting thresholds for automatic or manual asset exchanges, thereby minimizing the frequency of transactions and reducing aggregate fees.
+5.3 Managing the Monetary Supply
+Finally, by establishing RPX as our own underlying software protocol driving the content ecosystem, Red Pulse as a company can manage the supply, which is needed to ensure the fairness of the payments system and research content price setting that is commensurate with real world compensation for similar work produced by professional research analysts.
+
+v1.10
+
+6
+
+6 RPX Purpose
+6.1 Research Producers
+RPX is used to incentivize and compensate research producers for producing relevant and valuable research on China's financial markets. Better analysis results in greater popularity in terms of net upvotes, which is then rewarded with more RPX. As a repeated game, research producers' Credibility Score will also factor into the amount of RPX earned for a piece of research content. Responding to research prompts will also allow the research producer to earn at a minimum, a preset amount of RPX put up for bid by an interested research consumer. This is in addition to any additional RPX earned by net upvotes, as determined by the system. Or, the research consumer may opt to "lock-up" selected article responses to the prompt for adjustable periods of time, with longer periods requiring higher amounts of RPX. As our platform is both in English and Chinese, translators can also receive a portion of the RPX payout, as a reward for work done. The accuracy of the translation will also be determined by a net upvote & downvote voting system.
+
+6.2 Research Consumers
+RPX is used to drive our ecosystem, and relies primarily upon research consumers to determine relative amounts for each article. RPX can also be acquired by content consumers that wish to further increase the baseline RPX reward attached to research "prompts" that are initially funded by the Red Pulse platform. Doing so will prioritize certain research "prompts" to be more lucrative for content producers. Holding RPX will give consumers additional benefits:
+
+· Greater voting power, which can be used to upvote research articles. Upvotes will also have a multiplying effect on RPX earned by content producers.
+· Users that have been verified to be from financial institutions will have greater voting power, at a planned 10-to-1 ratio versus standard users.
+
+v1.10
+
+7
+
+· Early access to content from research producers with higher Credibility Scores · Users initiating research prompts with RPX will give those users exclusive access temporarily
+6.3 Other Stakeholders
+Red Pulse platform: RPX becomes the common language and rallying concept for the Red Pulse community, while also facilitating the transaction mechanism that makes our new content ecosystem possible. Red Pulse company: RPX is a price control mechanism that is used by the company to ensure fair compensation for research and analysis. The company also earns commission that is levied on each RPX transaction.
+7 RPX Mechanism
+7.1 RPX Supply
+RPX will have a supply with nominal value USD 15,000,000. This represents 40% of the total RPX created.
+7.2 Inflation
+The supply of RPX will increase over time at a rate of 10% per year. Half of this is provided proportionally to current holders of RPX on the Red Pulse platform as an anti-inflationary measure, while the other half is used to provide payment to content producers on the platform. RPX held "off the platform" in wallets, exchanges, and other locations, will not receive the anti-inflationary measure to help offset the effects of the annual inflation. The inflation rate will be gradually adjusted downwards, if there is deemed to be enough additional RPX circulation to provide reasonable rewards for new research content.
+
+v1.10
+
+8
+
+7.3 RPX Used as Payments
+Payment for content production: Content producers will be compensated on a per-article basis in RPX. The specific amount of RPX will be determined by credibility score, prompt rewards, and article popularity (description of calculation methods in Challenges section).
+Payment for translation and other tasks: Platform participants may also act as content translators, from either English to Chinese or Chinese to English, in the cases where the original author has only posted their content in one language. Translations will also be rated and ranked if there is more than one version, with RPX distributed to the top ranked translation. Other platform tasks may be defined in the future, for which there will also be RPX compensation.
+RPX refunds: In certain cases, RPX may be refunded to platform participants. For example, if a prompt has gone unanswered after 2 weeks time, any RPX that was paid by a research consumer(s) will then be refunded to the payer(s). Other cases may arise that will necessitate a refund, but typically will follow a minimum period of 2 weeks before this takes place.
+
+8 Current Platform: Market Fit
+Red Pulse already has an operational research content platform at www.red-pulse.com and an iOS mobile app (https://itunes.apple.com/us/app/red-pulse/id492320787), focusing on China's markets and economy from an event-driven perspective. We capture major macroeconomic, regulatory, corporate action, and M&A and cross-border events that we deem to have the potential for significant impact to specific companies, industries, or the economy at large. To date, the platform is built only for our internal employees to generate and publish content to our clients. Our intent is to transform this into an open research platform, with RPX as its underlying transaction mechanism.
+
+8.1 Data Sources
+
+The company employs a combination of traditional research techniques and advanced technology such as machine learning and Chinese natural language processing (NLP) to facilitate the
+
+v1.10
+
+9
+
+collection, classification, and analysis of major China market events and trends. Our data sources include but are not limited to:
+· Regulatory announcements · Government policies · Corporate disclosures · Press releases · News articles · Social media
+
+Figure 2: Red Pulse web platform
+China's markets continue to reform and liberalize through a top-down approach driven by the government and its policies. Keeping track of policies and understanding the potential effect on industries is critical to anticipate the direction of the market and investment environment. We follow major government and regulatory bodies, providing analysis on relevant policies that may have an impact on sectors and companies.
+
+8.2 Institutional Investors vs Retail Investors
+
+In contrast to more established financial markets such as the US and Europe, where institutional investors make up more than 90% of participants by trading activity [11], China's stock market
+
+v1.10
+
+10
+
+Figure 3: Red Pulse iOS app
+activity is dominated by individual investors, representing an estimated 80% of all trading activity [12]. Although investors are very quickly becoming adept at developing their own investment strategies and views, most investors are newcomers to the market and have only a few years of experience, given how nascent [13] China's capital markets are, and the relative short period of time that individual investors have been given access.
+Furthermore, individual investors often do not have access to or choose not to employ the services of a professionally-trained wealth manager. As a consequence, a large proportion of stock buying and selling decisions by retail investors are heavily swayed by news, events, and rumors, rather than basing investment decisions on economic fundamentals [14] [15]. Our expertise in tracking events across the markets allows us to select the important and relevant information, while discarding rumors or false reports.
+
+8.3 Platform Coverage
+The Red Pulse platform currently covers market events spanning several key sectors, including banking, brokerages, insurance, asset management, real estate, internet, telecom, semiconductors, consumer goods, travel & hospitality, food & beverage, aerospace & aviation, and energy.
+
+v1.10
+
+11
+
+Subscribers can access our research through our client web portal, iOS mobile app for iPhone and iPad, or daily summary email newsletter.
+
+8.4 Platform Features
+Our main product consists of a daily real-time feed of major market events in the above sectors. The feed consists of short-format notes that are differentiated from traditional equity research, in that we are purely event-driven.
+· Concise two paragraph format consisting of synopsis and contextual analysis · Sourcing primarily from Chinese language sources, ensuring timeliness · Focus on confirmed or reasonably vetted facts, rather than market rumors
+These event notes are published in both English and Chinese, with cited sources, along with tags based on Industry, Sub-industry, Topic, Event type, Company, Region, and Others, with a custom China-market focused taxonomy of over 4,000 tags. This allows for precise search and querying of our entire 6 years of archived market event notes, via a SOLR implementation of a faceted search engine on our client web portal, as well as custom push notifications by tag on our mobile app.
+
+8.5 Current Clients
+Our clients include major investment banks, asset managers, central banks, sovereign wealth funds, exchanges, and other institutional investors, validating our platform and value proposition of providing timely and relevant market intelligence on China. The key challenge is continuing to expand our research coverage based on demand from our clients, while maintaining the quality of the analysis and minimizing operating costs.
+
+8.6 Sharing Economy for Research
+
+To solve this challenge, we will create a direct-incentivization ecosystem facilitated by RPX, thus creating a global community of contributors, free of the physical confines of office spaces and
+
+v1.10
+
+12
+
+employment contracts, while minimizing operational risks and costs for the company. With this open platform, the format of research notes will also be liberalized yet standardized, starting with several templates:
+· Market event research note employed by current platform · Company-specific research article · Industry / sector-specific research article · Macroeconomic research article
+8.7 Users of the New Platform
+At the same time, Red Pulse can maintain quality by providing editorial oversight of the platform structure, administering a fair and transparent incentivization system, and vetting and approving select research producers as expert-level contributors. RPX helps align the interests of research consumers and producers, by directly addressing the increasing demand for China market insights, and thus benefitting from the rise of China's economy. Users of the platform are generally research producers, research consumers, or both simultaneously. Other tasks such as editing and Chinese-English translation work will also earn RPX according to a system-defined algorithm.
+8.8 New Platform Expansion
+Developing and implementing RPX and the open research content ecosystem requires significant capital investment. We aim to seed the initial interest and usage of the platform itself in the early stages. Users of our platform and RPX are very likely to be the same demographic of people that are interested, or already active, in China's capital markets.
+
+v1.10
+
+13
+
+9 New Platform Challenges
+Building a new content distribution and ecosystem with research produced at scale by independent users, and monetized based on quality, relevance, and usage, faces major, yet not insurmountable challenges.
+
+9.1 Subjective Content
+By nature, analysis and opinions voiced in research content is subjective, and what is considered to be relevant changes depending on the preferences of the reader. To better organize high-quality research, the platform will organize the articles by category and then popularity. Popularity rank is calculated using a combination of metrics:
+· Author Credibility Score · Editorial staff reviews · Page count · Average reader time spent on article · Comment activity
+Red Pulse's machine learning algorithms, along with its advanced search and customization features, will also help readers find more relevant and interesting research based on past user behavior.
+
+9.2 Rankings Manipulation
+Popularity rankings can be subject to manipulation from fraudulent clicks or views. To lessen the impact of page views on popularity ranking, we will use several methods to emphasize legitimate activity driving rankings:
+
+· Research article views: the easiest to track, but will also need to account for accidental misclicks or articles that are viewed for only a few seconds.
+
+v1.10
+
+14
+
+­ Combatting fraudulent views may arise from malicious users creating multiple accounts to increase views. This will be combatted by tracking IPs and devices, and banning IPs or entire IP ranges in extreme cases.
+· View growth over time will be factored in: measure the velocity of page views. Articles with large views in a short period of time will be ranked higher due to the "viral velocity" of such articles.
+· Views over time: measured as a percentage of daily, weekly, or monthly article views as a percentage of total views.
+· Length of time spent on an article: article views must reach a minimum viewing time, which will depend on the length of the article. Too brief, and we may miss counting the score towards the article. However, this metric can still be gamed by clicking on the article and leaving it open, although the impact is limited by how many malicious users engage in this per article, which will be minimized by IP and device tracking.
+· Article activity: will also measure clicks by the user (highlighting, mouse clicks) or scroll activity, how many times article is shared, and number of comments.
+· Editorial review: Staff can give additional points on the quality of the analysis. Initial submissions must meet a minimum standard in order to be published. However, to further reward outstanding analysis, in-house staff can reward more points.
+Gaming and manipulation of popularity metrics can never be 100% eliminated, but the combination of quantitative and qualitative metrics above can help improve the effectiveness of the ranking algorithm.
+
+9.3 Credibility Score Calculation
+A Credibility Score for each author is calculated by the platform, and demonstrates to readers which contributors are more established and whose research can be more reliable. Several metrics will determine the score, which is out of a total 100 points:
+
+· Popularity of articles: a greater number of popular articles will increase Credibility Score.
+
+v1.10
+
+15
+
+· Article view count over time: growing view count over time, while also taking account number of total articles written, will increase Credibility Score.
+· Quality of past articles: editorial staff will look through past articles to determine accuracy of forecasts, predictions.
+· Upvotes paid using RPX.
+9.4 Plagiarism
+Red Pulse has a strict policy forbidding any degree of plagiarizing on our platform. Users found to be in violation of this may have their account revoked and IP banned from our system. Remaining balances may or may not be paid out, depending on the severity of the case.
+That being said, research content (themes, ideas, or partial / entire articles) could be copied, plagiarized, or otherwise misappropriated from other existing articles on the platform, or from external content sources such as news websites or blogs. Regarding similar content on the platform, Red Pulse will monitor articles that have been found to be semantically similar using Chinese NLP and unsupervised machine learning algorithms.
+Another form of plagiarism is when authors intentionally re-post their own content, or a similar enough derivative content more than once. The same natural language processing engine will be used to identify such activity, in order to ensure users are not attempting to get paid more than once for the same content while spamming the platform. This is particularly critical for research prompts that have exclusivity time lock-ups, which would become problematic, should authors repost the same analysis to multiple prompts.
+Regarding plagiarism of external content, the Red Pulse editorial staff will review the articles if enough users have flagged it as a potentially violating our anti-plagiarism policy. Furthermore, as our system becomes more sophisticated and is able to scrape external content websites for archival purposes, we will use this to identify any newly posted articles that may have been plagiarized in part or whole.
+
+v1.10
+
+16
+
+9.5 Existing Platforms
+9.5.1 Blockchain-based Content Platforms
+There are existing blockchain-based content platforms that have pioneered the use case of incentivization mechanisms for content creation and distribution. Steemit.com [16], based on STEEM, has developed a novel way to incentivize social media content creation, similar to Reddit.com. Although there are several key differences, we have borrowed several concepts from the STEEM / Steemit.com platform including:
+· Net upvote & downvote system based on 1 vote per RPX rather than 1 vote per user · A squared (n2) proportional reward distribution function that weighs the rewards more
+towards the top-voted research content, but still allows everyone to earn something · Scheduled increase in RPX circulation to supply rewards for new and existing research
+content · Pre-determined anti-inflationary mechanism for existing RPX holders that are willing to
+commit to a holding period, also provided by scheduled increase in RPX circulation
+
+9.5.2 Traditional Financial Research Platforms
+Expanding beyond the content distribution systems from above, we also consider traditional financial research platforms. We do not seek to directly compete against established platforms, such as Bloomberg, Thomson Reuters, FactSet, S&P Capital IQ, but to complement research on those platforms. As opposed to traditional sell-side equity research reports found on those platforms, our content comes from independent investors, researchers, and market participants. The intent is to provide coverage of currently thinly-covered industries, sectors, companies, and topics, as dictated by the research consumer community.
+
+9.5.3 Web-based User Generated Content Platforms
+
+Other sites, such as Seeking Alpha and similarly China-focused Xueqiu.com, have user generated content. However, we differ from these sites in several distinct ways:
+
+v1.10
+
+17
+
+· Seeking Alpha: Red Pulse specializes in China's financial and capital markets, whereas Seeking Alpha's content and readership is primarily aimed towards US-based stock markets. Top authors are compensated on a per-article basis, presumably from the site's advertising revenue.
+· Xueqiu.com: all content is written in Chinese, creating a barrier for non-Chinese reading audiences. Authors may be tipped by readers for good content, but this is not guaranteed and is not a consistent form of compensation.
+9.6 Disclosures and Conflicts of Interest
+Authors are subject to Red Pulse's information disclosure standards. Personal positions in stocks or any conflicts of interest must be disclosed by authors and agreed to in writing.
+9.7 Ethical Standards
+Red Pulse employees are required to follow the highest ethical standards. Employees are forbidden from front-running any yet to be published research and forbidden from abusing their position at Red Pulse (knowledge, access, authority) for personal gain. An internal compliance team will be established, with separate reporting line to the board of directors, to ensure adherence to these standards.
+
+10 RPX Risks
+RPX is not intended to be an investment vehicle. RPX is the underlying mechanism that drives the Red Pulse open research platform, and supporting RPX is a vote of confidence in the success of our platform. That being said, there are several risks that all users should be aware of.
+
+10.1 Project Risk
+
+As with any project, the development and execution of our platform carries with it the risk of delay and even failure. The core team has a strong track record of development and business
+
+v1.10
+
+18
+
+management experience, but this is not a guarantee of success. The team will endeavor to hit the milestones outlined in the project roadmap, and will be as transparent as possible regarding our progress and any challenges met.
+
+10.2 Cryptocurrency Risk
+By nature, cryptocurrencies are highly volatile, with highly fluctuating prices. Do not purchase more RPX tokens than you are willing to lose. Take time to understand our project and vision. Our goal is to find like-minded participants who have a high likelihood of being active contributors and followers in our open research platform.
+
+10.3 Regulatory Risk
+The regulatory environment concerning blockchain and cryptocurrencies is still in its nascent stages of development. We will do our best to comply with all legal and regulatory policies that develop, but cannot foresee how regulations may impact our project and platform development.
+The People's Bank of China (PBoC), China's central bank as well as financial regulator, has been actively engaged in the blockchain and cryptocurrency space since 2014. PBoC also launched its own fintech committee in May 2017 to study the impact of cryptocurrency on monetary policies, financial stability, settlement and clearing, among others [17].
+In July 2017, a consortium of six Chinese blockchain institutes jointly released a document titled "Guiyang Initial Coin Offering (ICO) Consensus" in Guiyang city [18]. The document outlines a plan to self-regulate initial coin offerings in China and prevent the outbreak of systemic financial risks. The proposal includes a pre-approval system for ICO applicants, clear investor requirements, and marketing and publicity rules.
+A recent ruling by the U.S. Securities and Exchange Commission (SEC) has indicated that companies that undertake an ICO may need to register with the SEC if the token is considered a financial security [19].
+Most recently, PBoC released a statement [20] regarding ICOs, which include banning raising
+
+v1.10
+
+19
+
+funds through ICOs, strengthening supervision of related ICO platforms, and stressing the public to be aware of the risks surrounding ICOs.
+Red Pulse has taken steps to ensure compliance with regulations and intends to comply with these directives, as appropriate and within our capabilities.
+The RPX sale will be conducted in Hong Kong and by RP Technologies (Hong Kong) Limited (#2255299). Citizens of the US, Mainland China, or Singapore, are not allowed to participate.
+A legal opinion on whether RPX is a security is being undertaken by a well-known Hong Kong law firm. Advisory on KYC, AML, tax, and accounting issues are being undertaken by a Big Four accounting firm in Hong Kong.
+
+11 RPX Sale Details
+
+· Hard-capped at USD 15m · Will run for 14 days: October 8, 2017 to October 22, 2017 · Based on NEO blockchain and the NEO smart contract, NeoContract
+
+Specific details at https://coin.red-pulse.com
+
+Early Commitment Period Bonus
+
+1st day Days 2 - 3 Days 4 - 7 Days 8 - 14
+
+30% 20% 10% No bonus
+
+11.1 Breakdown of Total RPX Initially Offered
+RPX will be distributed as follows:
+
+v1.10
+
+20
+
+· 40% Crowdsale · 40% Reserve held by company · 15% Company shareholders (excluding employees) · 5% Company employees
+Employee allocation of RPX will have a vesting period of 12 months, 25% vesting each quarter, with a 6 month cliff. Allocation will be proportional to the tenure of each employee. The company's projected use of funds:
+· 40% R&D and platform development: blockchain developers, machine learning & NLP experts, web and software developers
+· 20% Research and editorial staff · 20% Marketing & sales staff, travel expenses · 10% Operational expenses: admin / HR / other staff, rent, utilities · 10% Legal and accounting expenses
+
+v1.10
+
+21
+
+12 Platform & Business Development Roadmap
+
+Time Period Progress to Date 2Q15 - 2Q17
+3Q17
+
+Proposed Features
+· Launched web-based real-time China financial research platform
+· 50 institutional clients including global asset managers and top investment banks
+· China markets newsletter has 50,000+ subscribers · Website improvements: improved UI, SOLR-based faceted
+search of tags, create and save customizable content feeds · iOS mobile app: bilingual English/Chinese content, content
+sharing, and improved search · Partnership and integration with Bloomberg, Thompson
+Reuters, S&P Capital IQ, and FactSet financial terminals · Prototype of machine learning-based market event data
+collection, classification, and transformation platform · Selected for Accenture Fintech Innovation Lab Asia-Pacific [21] · RPX whitepaper release
+
+v1.10
+
+22
+
+Time Period 4Q17
+
+Proposed Features
+· RPX distribution · Begin development of Python / Django platform to replace
+existing platform · Continue improving upon machine learning-based data
+classification and transformation process · Create research report standard templates + publishing toolkit · Develop and launch Android version of mobile app · Create working group of in-house blockchain developers and
+NEO community developers · Hire key staff:
+­ Blockchain developers ­ Python / Django web developers ­ Data scientists and Chinese NLP specialists ­ Front-end developers ­ Mobile app developer ­ DevOps ­ Research and editorial staff ­ Sales and marketing staff
+
+v1.10
+
+23
+
+Time Period 1Q18
+2Q18
+
+Proposed Features
+· Launch new Python / Django platform · Synchronization of customizable research / insight feeds across
+web platform, mobile apps, terminals, and email newsletters · WeChat mini-app development · Begin integrating RPX via NEO blockchain and NeoContract · Begin development of Cloud Event data feed, built on key
+words and topics generated from our machine learning and NLP algorithms · Revamp mobile apps (iOS and Android) harmonized with new platform · Launch client API for existing platform content and data as premium service · RPX-based platform beta test · Cloud Event data feed beta test integration · Market data feed integration · Alternative data partnerships and integration · Partnerships and integration with financial advisors, asset managers, brokerages, and their respective online / mobile apps
+
+v1.10
+
+24
+
+Time Period 3Q&4Q18
+
+Proposed Features
+· Launch of new RPX-based open research platform · Full integration of Cloud Event data feed · Begin development of AI-based Intelligent Assistant for
+premium customers · Research coverage expansion to Asia-Pacific · Stock watchlists and multiple portfolio tracking features along
+with "followable" portfolios · Begin development of B2B market & business intelligence
+engine for custom analysis and insights
+
+v1.10
+
+25
+
+Time Period 2019
+
+Proposed Features
+· Open-source RPX-based blockchain to allow other affiliate financial services and platforms to integrate with Red Pulse platform
+· Research coverage expansion to North America and other remaining markets
+· Launch industry conferences in key financial hub cities (Shanghai, Hong Kong, Singapore, Tokyo, Seoul, Frankfurt, London, New York)
+· Launch B2B customizable market intelligence engine for institutional clients
+· Expand upon AI-based insight and analysis tools, using historical user activity data amassed from our client base as training set
+· Partner with universities and other educational institutions to foster financial and investment literacy within the markets that we are active in
+· Partner with blockchain-based identity security platforms to ensure privacy and control of private, semi-private, and public information on Red Pulse platform
+· Create separate non-profit foundation with the main objective of fostering innovation in research and information analysis community
+· Begin development of AI-based Intelligent Assistant to help identify, save, retrieve, assess and analyze relevant public information for users
+
+v1.10
+
+26
+
+Time Period 2020 - 2025
+
+Proposed Features
+· Launch separate crowd-sourced hedge fund based on top-ranked analysis and insights
+· Launch Intelligent Robo-lifestyle management services, with optional user profile constructed from user activity on Red Pulse platform, integrated with Intelligent Assistant, secured by RPX blockchain technology
+· Develop augmented reality (AR) and virtual reality (VR) APIs and program content extension to Red Pulse platform to connect with other real-world applications, as it pertains to social media, news, market information, business analysis, continuous education, and overall lifestyle analysis and recommendations
+· Develop partnerships with bionic device and platform companies to create an open shareable information and knowledge platform accessible in real-time from anywhere in the world, with information accuracy verified and secured by RPX blockchain technology
+
+Note: The roadmap above can and likely will change, especially as market conditions fluctuate and the competitive landscape shifts, along with user demand changes. The roadmap is intended as an outline for how Red Pulse intends to continue extending and expanding the platform to achieve the overarching goal of solving the common problem of Information Overload.
+
+v1.10
+
+27
+
+13 Red Pulse Founding Team
+Jonathan Ha, CFA (LinkedIn) Founder, CEO
+· 12 years experience in consulting and financial services · Computer Engineering, economics, business education · 2015 - Present: Red Pulse, CEO · 2010 - 2015: Z-Ben Advisors, Head of Consulting · 2008: LG Electronics, Global Marketing MBA Program · 2003 - 2007: Management consulting in finance sector with AMS, IBM, EMC · 2009: MBA, UC Berkeley Haas School of Business, Strategy & Marketing · 2003: BSE, Computer and Telecom Engineering, University of Pennsylvania · CFA Charterholder
+Stanley Chao, CFA, CAIA (LinkedIn) Co-founder, Head of Data Science
+· 11 years experience in investment management and financial services · Quant background with applied math and computer science education · 2015 - Present: Red Pulse, Co-founder, Head of Data Science · 2013 - 2015: Racing Capital, Quant Trader, Derivatives - Options & Futures · 2012 - 2013: Golden Crops, Financial Analyst · 2009 - 2011 ATA Funds Management, President · 2004 - 2008: Pacific West Securities, Due Diligence Analyst · 2012: Computational Finance Certificate, University of Washington · 2002: Applied and Computational Mathematical Sciences, University of Washington · CFA Charterholder · CAIA Charterholder
+
+v1.10
+
+28
+
+Peter Alexander (LinkedIn) Co-founder, Non-executive Chairman
+· 20+ years experience in China financial markets and research · 2015 - Present: Red Pulse, Chairman · 2004 - Present: Z-Ben Advisors, Founder / Managing Director · 2001 - 2004: Prudential Financial (Shanghai), China Chief Representative · 1997 - 2001: Nationwide Bank (Shanghai), China Chief Representative · 1995 - 1997: Shanghai University of Finance and Economics, Lecturer · 1990 - 1995: Brudage Story and Rose (NYC), Emerging Markets Analyst · 2002: MBA, Rutgers University (Shanghai) · 1992: International Finance Degree, University of Connecticut
+14 Red Pulse Advisors
+Tanfeng Cheng (LinkedIn) Company Advisor BNP Paribas Investment Partners Head of China (former) Richard Wang (LinkedIn) Company Advisor Draper Dragon VC Partner Mark Kuo (LinkedIn) Company Advisor & Legal Counsel Gobi VC Partner (former)
+
+v1.10
+
+29
+
+Hongfei Da (LinkedIn) Company Advisor Onchain CEO, Onchain & NEO Founder
+Tony Tao Company Advisor NEO Secretary General
+Sombat Southivorarat (LinkedIn) Blockchain and Crypto Advisor
+JC Xu (LinkedIn) Blockchain and Crypto Advisor
+Kenneth Hsia (LinkedIn) Blockchain and Crypto Advisor
+
+References
+
+1. Investopedia, http://www.investopedia.com/terms/g/gdp.asp 2. World Bank, https://data.worldbank.org/data-catalog/GDP-ranking-table 3. World Bank, http://data.worldbank.org/data-catalog/GDP-PPP-based-table 4. Investopedia, http://www.investopedia.com/updates/purchasing-power-parity-ppp/ 5. Investopedia, http://www.investopedia.com/articles/stocks/10/impact-of-sell-side-research.
+asp 6. Burton Taylor, https://burton-taylor.com/wp-content/uploads/2017/03/B-T-Global-Mar-
+ket-Data-Analysis-Competitor-Segment-Sizing-2017-Information-Kit.pdf 7. South China Morning Post, http://www.scmp.com/tech/china-tech/article/2064396/
+chinas-internet-users-grew-2016-size-ukraines-population-731-million 8. Emarketer, https://www.emarketer.com/Article/More-than-95-of-Internet-Users-China-
+Use-Mob-ile-Devices-Go-Online/1015155 9. Economist, http://www.economist.com/node/18895468
+
+v1.10
+
+30
+
+10. Wikipedia, https://en.wikipedia.org/wiki/Potential_superpowers#China 11. Statspotting, http://statspotting.com/nyse-daily-volume-statistics-who-is-trading 12. Bloomberg, https://www.bloomberg.com/news/articles/2017-05-16/china-s-investor-ar-my-
+is-bracing-for-more-stock-market-pain 13. Wikipedia, https://en.wikipedia.org/wiki/Shanghai_Stock_Exchange#History 14. CNBC, http://www.cnbc.com/2016/01/08/tthis-china-stock-market-is-so-different-than-
+we-are-used-to .html 15. Research Gate, https://www.researchgate.net/publication/259142466_Investor_Herding
+_Behaviour_of_Chinese_Stock_market 16. Steem, https://steem.io/SteemWhitePaper.pdf 17. PBoC, http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/3307529/index.html 18. Guiyang, https://cointelegraph.com/news/as-china-plans-to-regulate-icos-blockchain-con-
+sortia-form-framework 19. SEC, https://www.sec.gov/news/press-release/2017-131 20. PBoC, http://www.pbc.gov.cn/english/130721/3377816/index.html 21. Accenture, https://newsroom.accenture.com/news/ten-fintech-startups-to-enter-the-fintech-
+in-novation-lab-asia-pacific.htm
+
+v1.10
+
+31
+
+

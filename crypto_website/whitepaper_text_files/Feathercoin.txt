@@ -1,0 +1,1083 @@
+WHITEPAPER
+The Community-Powered Search Engine www.presearch.io
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+Table of Contents
+
+Abstract
+
+1
+
+Background
+
+2
+
+The Internet
+
+2
+
+Search - The Gateway
+
+3
+
+Search Engines - The Gatekeepers
+
+4
+
+Current Search Engine Technology
+
+5
+
+Search Engine Transparency
+
+6
+
+Role of The Community
+
+6
+
+Decentralization
+
+7
+
+Organization
+
+8
+
+The Vision
+
+9
+
+Product Strategy
+
+9
+
+Transparent, Accessible, Open and Decentralized
+
+15
+
+Community Constitution
+
+23
+
+Community Consensus Model
+
+24
+
+Participation and Rewards
+
+24
+
+Key Challenges
+
+25
+
+Go To Market Strategy
+
+28
+
+Milestones
+
+28
+
+Token Model
+
+29
+
+Core Properties
+
+30
+
+Use Cases
+
+30
+
+Token Sales
+
+31
+
+Allocation of Tokens
+
+32
+
+Team
+
+32
+
+Presearch Labs
+
+33
+
+Advisors
+
+34
+
+Conclusion
+
+35
+
+Changelog
+
+36
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+Abstract
+The Internet connects more than half of humanity and is reshaping industry, society and government at an unprecedented pace.
+While most users are happy with the current state of the Internet due to the proliferation of `free' services that enable them to research, share, transact and communicate, just a handful of these services are responsible for the vast majority of usage.
+Never before have so few organizations controlled the information flow for so many people.
+While this is problematic, at least with services like Facebook, LinkedIn, and Twitter users know they are dealing in a walled garden and do not expect impartiality and neutrality in their experience.
+However, in the case of Google, due to their origin as an academic project, friendly branding, and `don't be evil' mantra, users have been lead to believe that Google is a neutral resource that simply guides them to the most appropriate answers that are chosen automatically by a genius algorithm. They expect honest answers and have a hard time believing that Google's results could be self-serving or worse, detrimental to the searcher.
+As Google has become a multi-billion dollar business that answers to Wall Street, their ethos seems to have shifted from the early days people remember them by. They have become known for promoting their own properties at the expense of alternatives1 , appropriating others' info2 and operating in secrecy3 , all of which is blamed on `the algorithm'. The reality is that they manually manipulate results4 while hiding behind their algorithm and justifying all changes as being `best for the user'. It's not an ideal environment.
+Search is the gateway to the web. The world deserves an alternative search engine that is open, transparent, and that involves the community in product development, consensus and quality control.
+Presearch is building this open, decentralized search engine. We clearly set the ground rules and user expectations up front, and will never deviate from our community constitution.
+Presearch is a ground up, community movement, similar to Wikipedia. Human curation is an important strategy that is combined with scalable machine learning approaches. This curation and overall development of the platform is incentivized with PRE (Presearch Token) exchangeable tokens that reward participants' efforts.
+In the beta release, which is more of a search tool than a search engine, the user is able to choose which engine they search from the Presearch interface. Google is the default option, minimizing switching costs for the majority of users who already use Google. Users are exposed to alternative engines, including DuckDuckGo, social search engines, domain WHOIS engines and more.
+Presearch funds operations through a transparent, unobtrusive advertising system that enables advertisers to bid on keywords and sponsor results. In version one, relevant ads are displayed within the search field auto-suggest results. Ads are purchased using PREs via auction, driving usage within the ecosystem.
+
+1 http://www.cnbc.com/2017/06/27/eu-hits-google-with-a-record-antitrust-fine-of-2-point-7-billion.html 2 https://www.theguardian.com/technology/2015/mar/20/google-illegally-took-content-from-amazon-yelp-tripadvisor-ftc-report 3 https://www.inc.com/jeff-bercovici/google-culture-secrecy.html 4 https://www.forbes.com/sites/jaysondemers/2014/06/16/the-definitive-guide-to-google-manual-actions-and-penalties/#3b6427dbe5d0
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+1
+
+Background
+The Internet
+The Internet is one of humanity's crowning achievements.
+In less than 30 years, the Internet has transformed the global economy from industrial to information-based, while altering almost every facet of social life at the same time.
+With half of the global population now online, the Internet is the link that binds people together, enabling them to research, share, transact and communicate instantly and directly.
+The promise of this incredible medium appears to have been met thanks to services like Google, YouTube, Facebook, Twitter, LinkedIn, and Amazon, the market leaders who dominate each of their respective categories.
+There's no denying that these services provide incredible value to the world, but the fact that so many of our online activities are monopolized by so few companies is alarming.
+The Internet was created to be a distributed and decentralized platform that we could all build upon, but what we've ended up with is a series of walled gardens that extract huge revenues and profits from the users who participate in their increasingly-closed ecosystems, with very little ability to influence the direction of the platform, and with little to no transparency.
+While most of these services originated as `closed' systems in which users have consciously chosen to participate, and with no real expectation of neutrality or impartiality, one Internet giant stands out for its academic roots and brand built upon being an arbiter of objective truth.
+That entity, of course, is Google. The quirky Stanford project sought to organize the world's information, making it `universally accessible and useful', and captivated the world's attention and our searches by being better than other search engines of the time. And, with its `do no evil' mantra, Google built an unprecedented degree of trust with users.
+Their simple interfaces, lightning-fast response times and utter reliability, combined with what appear to be amazingly accurate results, have led to Google obtaining more than 80% of global desktop searches5 and 96% of mobile searches6 - more than 5 billion queries per day7 - and generating almost $100 billion8 in annual revenue.
+But what if Google's success comes at a hidden cost to humanity, one that continues to increase with each passing year? And what if Google isn't as impartial as everyone believes?
+Before we explore Google's practices through a critical lens and propose solutions, let's first review the role of search engines on the Internet.
+5 https://www.netmarketshare.com/search-engine-market-share.aspx?qprid=4&qpcustomd=0 6 https://www.netmarketshare.com/search-engine-market-share.aspx?qprid=4&qpcustomd=1 7 http://searchengineland.com/google-now-handles-2-999-trillion-searches-per-year-250247 8 https://www.statista.com/statistics/266206/googles-annual-global-revenue/
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+2
+
+Background
+Search - The Gateway
+There are 3 primary ways that people access online information:
+1. Direct  a. Generally by typing in a URL  b. Using a browser address bar historically  c. For known information and brands  d. Primary channel value is quick access
+2. Referral  a. Generally by clicking on a link  b. Via another channel - social media, website, email, etc.  c. For unknown information and brands  d. Primary channel value is discovery - accessing information you don't   know about, and didn't know you wanted
+3. Search  a. Entering a query into a search engine and choosing a result  b. Done via search engine website and via browser search fields  c. For known needs, unknown information and unknown brands  d. Primary channel value is solving a pain point and accessing the best   result quickly
+Direct traffic to known information and brands involves a high degree of user trust, but because the content is known, this channel acts least as a gateway.
+Referral links to content through various channels are meaningful and plentiful, and due to the breadth of those channels, even in the age of Facebook, there is no single gateway. Blogs, Twitter, Instagram, YouTube and other channels provide many ways to discover unknown content and brands. Users do not have any expectation of impartiality or relevance, and assume responsibility for their content access, thus trust is low. Low trust and unknown content reduce the potential for a gateway.
+Because search engines help people answer specific needs at a moment in time, they are directional in nature, pointing people in the direction of the resources that can help them answer a question or solve a need. Users expect impartiality, relevance and quality. Trust is high due to these expectations, and when coupled with unknown information, the potential for a gateway is high and standards of transparency should therefore also be high.
+It is interesting to note that due to the meshing of the search and URL address bars in browsers, the direct channel is being disintermediated by search, increasing the power of the gateway even further.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+3
+
+Background
+Search Engines - The Gatekeepers
+If the Internet is the Information Superhighway, search engines are the on-ramps.
+While there are a number of alternative search engines; Yahoo / Bing and Baidu being the largest, and a number of smaller engines such as DuckDuckGo, YaCy (peer 2 peer), Gigablast, and others; there is little usage and innovation (except maybe DDG), and Google dominates search.
+Currently for more than 80% of all trips onto this highway, everyone is squeezing through a single ramp. This extreme degree of centralization has had two main negative effects:
+1. The `stops' along the highway: content producers, webmasters, marketers, and businesses, organizations, etc., are all extremely crowded alongside that ramp, fighting to be seen, paying more than $50 billion per year for scraps of attention.
+2. Those who control the single on-ramp are in a position of extreme power and privilege as the directors of traffic, and have the ability to increasingly lock in their position, ensuring their ultimate long-term dominance.
+Having one company in this position of extreme power is particularly troublesome because it enables them to operate in a very opaque, top-down, almost-oligarchical manner.
+With great power comes great responsibility; a responsible gatekeeper would recognize the need to be continually more accountable, open and provably fair.
+Unfortunately, Google appears to be abdicating their responsibility as the primary gatekeeper of the Internet by becoming increasingly secretive9 and taking few steps10 to become more transparent11, despite having more than 15 years as the dominant search engine and billions of dollars in capital.
+They default to `just trust us' messaging in place of processes, information and communication and hide behind their algorithms, justifying their secrecy by blaming hackers and spammers who would take advantage of any information they share.
+While there is some truth to this, and we recognize that Google is in a different position than many businesses, they also have a vested interest in not developing better processes to prevent gaming of the system, and their automated algorithms are actually supplemented by human reviewers, which negates many of the claims that they are hampered by technology and must remain secretive to protect the quality of their results.
+
+9 http://www.businessinsider.com/google-culture-secrecy-employee-lawsuit-spying-program-novel-2016-12 10 https://www.wired.com/2009/12/google-talks-out-its-portal/ 11 techdirt.com/articles/20161021/17382035854/googles-quiet-confusing-privacy-policy-change-is-why-weneed-more-transparency-control
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+4
+
+Background
+Current Search Engine Technology
+There are a number of key components involved in generating results as relevant as Google's. This is a simplified overview of those services:
+1. Web crawler  a. An automated program that scans through web pages and documents  all over the Internet. It looks for links to other pages and recursively travels
+these links, finding more and more pages to scan and storing them in an index.  b. A more detailed explanation can be found here:  https://en.wikipedia.org/wiki/Web_crawler
+2. Index  a. The index is where the results of a web crawl are stored. The information  retrieved is broken up into various components and categorized to make it  faster and easier for the search engine to store, access and determine the  relevance of the data being stored.  b. A more detailed explanation can be found here:  https://en.wikipedia.org/wiki/Search_engine_indexing
+3. Algorithm  a. An algorithm is a set of rules or process that enables a search engine to  match the user's query to information stored in the index.  b. A more detailed explanation of Google's algorithm can be found here:  https://en.wikipedia.org/wiki/PageRank
+4. Personalization  a. Google and other search engines look at your search history, the type  of device you're using, your location, as well as other factors to make their  search results more relevant to you personally.  b. A more detailed explanation can be found here:  https://en.wikipedia.org/wiki/Personalized_search
+All of these elements are combined together to form the search engine results page (SERP), and how this page is constructed is more or less unknown to anyone but the very few Google search engineers who work on the project, and those who provide them with their mandate.
+In addition to the organic search results that are the most trusted within the Google ecosystem, the company has begun wrapping these results in various forms of ads, reviews, maps, images, videos, and snippets that take content directly from the top search result and place it right on Google's page. You may have also used Google's calculation, conversion, and translation tools, which enable you to receive the answers you need without visiting a third-party site at all.
+Google is becoming an answer engine, which is vastly different than the founding of the platform. As an answer engine, there is increasingly only the need for a single, definitive answer. As it approaches that horizon, it is important to think about the implications of having one go-to source for truth on the Internet; especially in light of recent efforts to censor content under the guise of `fake news' and the thought of an increasing monopoly position and how much trust is being put in one entity.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+5
+
+Background
+Search Engine Transparency
+Despite having years to become more transparent and having almost unlimited resources to invest, search engines have become increasingly secretive. They offer a murky dispute resolution process, it is almost impossible to contact anyone directly and obtain answers, their ranking factors are virtually unknown, and ever-changing.
+Often times massive algorithm updates that impact millions of sites are released unannounced, and are even denied or obfuscated. This leaves webmasters constantly on high alert, waiting for the next shoe to drop. It is left to the search engine optimization community to try to make sense of things, almost always after the fact.
+Here's an example of a post discussing a recent Google update: http://searchengineland.com/new-unconfirmed-google-fred-update-shakes-seoworld-270898
+And here's a timeline of all of the tracked Google algorithm updates: https://moz.com/google-algorithm-change
+While this may seem like a search engine `staying ahead of the game', that game is actually the livelihoods of millions of people. Because search is such a powerful way for consumers to connect with businesses, many now live by the sword and die by the sword.
+The lack of transparency leaves people guessing and feeling uncertain about how to effectively use the Internet as a cornerstone of their client strategies.
+Role of The Community
+Despite the massive impact that search engines have on the lives of all of us - from business owners to students to politicians to recreational searchers - it's remarkable how small a role the community plays in the world of Google and other search engines.
+There's a forum for webmasters ( https://productforums.google.com/forum/#!forum/ webmasters ), but there are no guarantees that anyone related to Google will reply, and in the vast majority of cases, they don't.
+There are third-party search engine optimization groups like http://community. seobook.com/ and https://moz.com/community , but again, no official recognition or participation from Google or other search engines.
+Google does host a number of events, including https://events.google.com/io/ and has the Google Developer program, but these are more announcement-like in nature than actually participatory.
+Similarly, there are some top-down info resources available at https://www.google. com/policies/ , but as far as an actual community of voices outside Google having a voice inside, there isn't much.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+6
+
+Decentralization
+From Wikipedia:
+"Decentralization is the process of redistributing or  dispersing functions, powers, people or things away  from a central location or authority.12"
+The New Yorker reports that although the Internet was originally decentralized, in recent years it has become less so: "a staggering percentage of communications flow through a small set of corporations ­ and thus, under the profound influence of those companies and other institutions [...] One solution, espoused by some programmers, is to make the Internet more like it used to be ­ less centralized and more distributed."13
+In the context of this white paper, we are specifically referring to the application of blockchain14 and other distributed technologies that utilize node and peer-based networks that operate collectively to provide a service that is both resilient and, ideally, trustless15.
+There are widely-varying degrees of decentralization within the technology space, with blockchain technologies such as Ethereum and Bitcoin being completely decentralized with no single point of failure or ability to compromise the network.
+These truly decentralized services run on different protocols than the regular internet, which is why some refer to Ethereum in particular as `Web 3.0'. These services require special software, such as wallets or smart contracts, to participate in transactions.
+As more content moves to blockchain-based networks there is a significant opportunity to become the primary blockchain search engine, a position that Presearch is able to obtain due to the project's genesis within the decentralization community. We do not underestimate the size of this opportunity and will make it a high priority as Presearch could enjoy a first-mover advantage.
+That said, within the context of a search engine, decentralization is likely best viewed as a stepped approach, minimizing the current centralization of search activity through a single provider, and expanding the range of choice while simultaneously incorporating innovative distributed technologies into the platform and opening up the governance to the community of users / members.
+Due to the currently closed nature of search, simply introducing transparency, open source technology, community participation and consensus, along with the tokenization and distribution of value created would be a huge step forward.
+
+12 https://en.wikipedia.org/wiki/Decentralization 13 http://www.newyorker.com/tech/elements/the-mission-to-decentralize-the-internet 14 https://en.wikipedia.org/wiki/Blockchain 15 https://keepingstock.net/explaining-blockchain-how-proof-of-work-enables-trustless-consensus-2abed27f0845
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+7
+
+Organization
+Presearch is a multi-phase project:
+ Phase one - operation as a company
+ Phase two - operation as a non-profit foundation
+Ultimately the community needs to control the Presearch platform, so the community should have a voice in the actual legal structure of the project. As such, a temporary corporation has been created to get started, and Presearch will then transition over to a community-owned and controlled foundation.
+Therefore, we are laying out below the current organizational structure of the company and a potential path for the community to consider for the final structure.
+Phase One:  1. The legal entity is a Canadian corporation, Presearch.org Global Limited., which was incorporated on  July 7th, 2017.  2. There is a single shareholder for easy voting and transition to Phase Two. We anticipate that this  structure will persist for an estimated 12-18 months until that transition.  3. We will undertake all measures possible to ensure a clean and timely transition to Phase Two,  including the following guiding principles:  a. No accumulation of significant debt or long-term ongoing liabilities  b. Single shareholder to ensure total responsibility for project  c. No assignment of IP to any entity other than Presearch  4. This company will undertake the early-adopter token sale and operate from that revenue.
+Phase Two:  1. Establishment of the community charter, directors and governance / consensus model.  2. Establishment of a permanent foundation in a country and region with the utmost respect for privacy  and data integrity, with favorable tax and regulatory environment, and a stable and freedom-respecting  political climate.  3. Transition of all IP and assets to the foundation.  4. This foundation will then undertake the general public token sale and operate from the revenue  generated by the sale of sponsorships.
+
+PHASE ONE
+
+PHASE TWO
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+8
+
+The Vision
+The world deserves an awesome, open and community-powered search engine - Let's Build it!
+Product Strategy
+Presearch is a highly-ambitious project. Google is one of the best companies in the world, and #1 on the Internet. Improving on their results, experience, and integrations will be no small feat - many even say it's impossible.
+However, we believe that collectively the community can creatively and elegantly fulfill its own search needs from the ground up and create an amazing and open search engine that is aligned with the interests of humanity, not just one company.
+The strategy with Presearch is to boot the project up and establish the core principles of consensus that will enable the community build a search engine that will serve the world for decades to come.
+During boot up, the core Presearch team seeks to give the project the momentum it needs to get to the point where an active and engaged community exists. We will launch early and iterate rapidly based on community feedback.
+We are optimistic and believe that if we execute the Presearch vision and strategy, we will provide the world with a next generation search engine that is driven and controlled by the community, and which will provide a blockchainbased, decentralized and open source alternative to the closed, corporate search engines that exist today.
+We believe the best way to realize this vision is to utilize a dual-track strategy, with a decentralized search engine being the long-term goal, and with a semi-decentralized search tool that leverages existing search engines in the short-term.
+At the core, we are idealists - we see a more community-oriented, free and open world ahead and are moving as quickly as possible in that direction. At the same time, we are also pragmatic realists and recognize that sometimes taking a step in the right direction is better than waiting to try to magically arrive at a destination.
+The Destination
+The goal is to build a community-powered search engine framework that enables constituents to participate in both the creation and success of the platform. For instance, teams of data scientists could contribute algorithms, subject matter experts could curate collections of content, UI designers could create novel interfaces, and those running nodes could crawl and index the web. All would be rewarded with tokens based on the value of their contributions. The architecture might look like this:
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+9
+
+The Vision
+
+PRE Token
+Tokens paid to searchers by sponsors and from
+Presearch incentive pool. Tokens purchased by sponsors to promote engines and run ads.
+Sponsored Results Keyword ads,
+site sponsorships, etc. that link to sponsor media / websites.
+
+Presearch.org
+Tokens Paid to Nodes
+Mirror Controller Directs users to appropriate community mirror. Enables the selection of a default mirror node.
+Automatic and manual overrides.
+Community Mirror A community's implementation
+of the Presearch platform.
+Distributed Web Hosting IPFS, Substratum or similar. We are evaluating our options.
+Multi-Search UI Enables users to preserve default search engine while providing better access to
+alternate engines.
+External Sites Google, Bing, Amazon, etc., link out directly to their results.
+
+Presearch Nodes User browser-based (extension + app) and industrial-strength nodes running on excess data
+center capacity.
+Crawler Nodes crawl web, browser based crawler crawls as users surf.
+Web Index Inverted index with data obtained by crawler nodes
+and stored via IPFS.
+Presearch Results Results served from Presearch's own index (or resource list for v.1)
+Query Director Node Determines type of query and sends to
+the appropriate handler.
+Query Handler Node Combines the appropriate packages, data collections,
+algorithms & UIs.
+Pkgs, data, algos & UIs
+Distributed Data Stores Inverted indexes and data served via
+IPFS / FileCoin, DHT
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+10
+
+The Vision
+This model will enable tens of thousands of smart people to participate in the creation of an open search engine that is built explicitly to serve the needs of the community.
+The cost to run a full index of the web is prohibitively large. If the index is decentralized, however, and distributed in a way that utilizes the computing resources shared by potentially millions of people (in exchange for PRE tokens), this cost can be mitigated significantly.
+Distributed data stores such as IPFS and OrbitDB will provide access to the inverted indexes that will serve as the core of the Presearch decentralized search results.
+We are exploring a model that will enable Members running a Presearch browser extension (and potentially a standalone browser) to act as web crawling and indexing nodes that would build the Presearch index as they surf the web. This would enable Presearch to get around one of the most difficult crawling challenges; getting blocked by webmasters. Members running nodes will earn PRE Tokens in exchange for utilizing their computers and internet connections for Presearch.
+To supplement these consumer-hardware based nodes, Presearch will also develop a more `industrial-strength' node that would run as a standalone app by those with excess data center capacity to tackle more intensive computations, again in exchange for PRE Tokens.
+When users enter a term into the Presearch search box, their query will be sent to a query director that will use natural language processing to determine the content and intent of the query and match it against a series of query handlers that will retrieve the most relevant results and match them with the most appropriate user interface for display to the end user.
+We envision an active personalization layer where a user could input their preferences to reflect their lifestyle choices and beliefs. For example, a user could specify that they prefer to see local businesses in results instead of big box stores, whether results need to be kid-friendly, or that recipes and restaurant listings should be vegan or paleo-friendly. The storage of this information will need to be completely in the user's control, encrypted and accessible via private key.
+To turn this index of data into relevant results that could match or exceed those provided by Google, Presearch will enable teams of data scientists to plug algorithms into its relevance engine, with those algorithms that test well being rewarded with more traffic and therefore more PRE Tokens.
+Presearch envisions a system whereby subject matter experts could curate collections of content that their domain knowledge indicates are most relevant to the query. This could be in the form of a featured snippet, onebox or query refinement result, or a specific subset of the index to further accentuate the relevance inferred by the algorithm. Curators will be able to monetize this knowledge and effort via PRE Tokens. In addition to earning based on organic traffic driven to their collection by the query director, we anticipate enabling these participants to actively market their collections.
+In fact, we envision a model where it would be possible to create entire curated versions of Presearch, with default resources and options configured to appeal to a specific community, for which a Member could promote and earn Tokens, based on the usage of their version.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+11
+
+The Vision
+We are exploring a number of different models for how this could work, including a domain-based mirror model that would enable alternate implementations of the platform to be tied together via a common token and harmonized by a mirror controller.
+This way, the Presearch platform can provide communities with significant autonomy over search results, identity and operations while still allowing them to participate within a larger token economy that would provide access to a network of traffic and revenue from advertisers.
+Members will be able to select which mirror they wish to support, providing them with a louder voice than if Presearch remained with a single implementation.
+This mirror model also provides sponsors with the granular ability to specify which communities within the network they would like to reach or ignore.
+To reach the scale of development needed to realize the potential of the opportunity, Presearch will need to inspire a significant decentralized community of developers to work on the project. We will need to effectively communicate the vision and invite developers to join us in changing the world.
+With the proper structure and compensation for work performed, we believe we can expand and attract the talent necessary to build the team needed to develop the platform.
+We are developing a hackathon program with significant prizes awarded to the winning teams as a way to jumpstart the development community.
+This model is both ambitious and novel, with many moving parts. We believe that while it may take time to implement, the benefits to all of humanity in not having a single company control the vast majority of user traffic is worth the work involved in its development.
+In the meantime, we've developed a beta product that delivers significant value by acting as a layer on top of existing search engines such as Google, Amazon, Facebook, and others. The success of this product will pave the way for the introduction of the fully-decentralized Presearch platform.
+The Stepping Stone
+As mentioned above, the next generation search engine that Presearch is building will take some time to arrive in the marketplace. Rather than wait months or years to deliver a working product, the beta version of Presearch is ready for release and is based on a product that the founder first developed in 2013. This product has proven to be highly valuable and will enable Presearch to drive a very thin wedge between users and their existing search behavior, making it easy to convince people to switch away from competitors and minimize the token incentives required to motivate new users.
+At its core, the beta version of Presearch provides users with an easy way to search the different online resources they use on a regular basis, ranging from search sites such as Google and Amazon to cryptocurrency resources such as Etherscan and Blockchain.info to internal services such as CRM platforms and intranets.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+12
+
+The Vision
+To start, the Presearch results page is an organized collection of links out to third-party sites that are grouped by category. Presearch will develop a query classifier that will determine which collections are surfaced at the top of the results. With so many high-quality resources available, and no way to easily surface the options in the current search paradigm, the Presearch beta is a hybrid search and discovery engine that represents a new paradigm in search.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+13
+
+The Vision
+As you can probably imagine, there are a significant number of resources within each collection - ex. the Shopping collection could easily contain dozens of large multi-hundred million dollar retailers, but there is limited room for resources to be listed. This exclusivity will result in demand for Presearch engine sponsorships that will enable a site to get featured within the Presearch results.
+Other sponsorship units include homepage sponsorships, where a sponsor's logo is featured below the search field on the home page, and keyword sponsorships, where a sponsor bids on a keyword and their advertising is displayed as the first result in the search field autosuggest drop down menu.
+Homepage sponsorships will be priced on a CPM (cost per 1,000 impressions) basis. Estimated pricing will be somewhere around 20 - 50 PRE Tokens per 1,000 impressions to start. This ad unit will be the first to be deployed as it is the simplest and least susceptible to fraud.
+Keyword sponsorships will be priced on a CPC (cost per click) basis. Pricing will be set at a flat rate of 2 - 5 PRE Tokens per click to start, and will then be determined on a per-term basis via an auction mechanism. The revenue from this ad will be split between the Member clicking the ad and Presearch. As such, there is significant potential for fraudulent clicks, and Presearch will work diligently with sponsors and the community of beta testers to deliver a solution that protects sponsors while ensuring that Members are adequately rewarded.
+This ad unit works well with the Presearch beta model as most users will be directed to third-party websites, and so Presearch will not have results pages to display ads on, which is where most search engines capture value and generate revenue.
+By turning the autosuggest results into a sponsorship opportunity, the Presearch beta enables pre-monetization of Member searches.
+With the value capture mechanism established, the primary goal with the Presearch beta is to get as many people searching as possible. To do this, Presearch will incentivize Members to run their searches through the platform by issuing PRE Tokens when they search through the platform.
+There are a number of fraud-prevention mechanisms in place at the outset, including rate limiting, daily query caps and pattern-recognition measures to detect unnatural search behavior. Additionally, Presearch is considering several trust-based mechanisms to minimize the impact of fraudulent accounts.
+This includes the use of an invite-only closed beta trial, whereby new Members can only join Presearch if they are referred by a trusted Member of the community. Presearch is considering a number of proof-of-stake-type models that would enable those with more significant PRE holdings to be able to invite more Members and/or have a blockchain-style confirmation system in place that would require new users to be confirmed by more than one Member of the network, with more confirmations required the further their inviter from the core of trust.
+PRE Tokens are available for purchase from Presearch via its crowd sales and sponsors will also be able to purchase Tokens directly from other Members who have accumulated Tokens through the search reward program or from those with excess inventory purchased directly from Presearch.
+As this beta version is already complete and undergoing final testing ahead of deployment, its development follows a different path than the final version that is truly open and decentralized.
+In this version, the code will ultimately be open sourced as soon as it's safe to do so, information will be made available on how the various mechanisms work, and blockchain technology will power the token platform. Decentralization will be more via the method of the interface design with multiple search providers than in a true technologically decentralized version.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+14
+
+The Vision
+Transparent, Accessible, Open and Decentralized
+These are powerful and compelling words. But what do they actually mean within the scope of this project?
+Transparent
+We will make public on the web complete details on how and why Presearch operates the way it does. This will include ranking factors, usage stats, roadmaps, and financial results. We will provide a proper dispute resolution process to ensure that any edge case scenarios are handled in a timely and diligent manner. We will open up a standardized partnership program so that all partners, big and small have a voice and a place within the Presearch ecosystem, with deal terms made public.
+Accessible
+There will always be the ability to directly contact an official representative at Presearch via phone, live chat, email, or online forum and receive a personal reply within 72 hours. We will quickly expand to support every language and every device possible.
+Open
+Ultimately, we see a huge opportunity for various specialist groups to extend the Presearch platform and build more focused versions of the site. As a fully open source project, this will be possible for anyone.
+This includes: 1. Open source licensing
+ a. All code will be licensed under GNU General Public License v. 3
+2. Public repository  a. All code will be available in a public Github repo: https://github.com/presearchofficial
+Decentralized
+Full decentralization will take a number of release cycles. The plan is to progress from a decentral-ish Internetbased search tool to a fully-decentralized search engine over the next three years.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+15
+
+The Vision
+
+Roadmap
+
+2017
+
+2018
+
+2019
+
+Q1
+
+Q2
+
+Q3
+
+Q4
+
+Q1
+
+Q2
+
+Q3
+
+Q4
+
+Q1
+
+Q2
+
+Q3
+
+Q4
+
+Phase One - Ship, Test & promote Search Tool
+
+Proof of concept - establish Presearch use ease and vision for a decentralized, open search engine
+
+Organization - set up structure, funding and core team, establish early model for community transition and begin outreach
+
+Release Search Tool - Presearch interface, token integration, engine customization, reward platform, sponsor platform
+
+Refine Search Tool - security, kill bugs, prevent fraud, improve useability
+
+Promote Search Tool - begin actively building partnerships and spreading the word
+
+Phase Two - Community Ownership
+
+Establish Consensus Model - engage the community to determine how to make transition, lock in Community Constitution
+
+Phase Three - Fully Decentralized Search Engine
+
+Establish Core Roadmap & Team - ensure that key initiatives are outlined and core dev team is engaged
+Establish DAO - convert Presearch company to Decentralized Autonomous Orginizaton & Foundation
+
+Engage Community - analyze needs and establish frameworks for search engine
+Build - build, release, review, refine
+Repeat until 
+
+Beta Release
+A working beta release is planned for Q4 2017. This version is limited to basic customization, rewards, sponsorship, and token purchases. Although the first draft of the Community Constitution will be available shortly after the beta release, true voting on community matters and crowdfunding will not be made available until Q2 2018.
+
+From a Search Tool to a Search Engine
+As mentioned a number of times throughout this document, and in conclusion to the Product section of the white paper, we wanted to reiterate that this is a multi-stage project, and that building a fully-decentralized search engine from scratch at this time is premature due to a rapidly-changing technology landscape that is seeing new solutions come to market almost daily.
+As such, we subscribe to the belief that we need to take baby steps and start small with the search tool model. This incarnation of the vision establishes openness and transparency in search, while minimizing the need to build our own index. Over time, as the community grows, distributed technology evolves, and more and more Internet users become Power Internet Users, we can empower these trends with a platform that is constantly improving and iterating at the hands, hearts and minds of the community.
+This transition may take significant time, or may be surprisingly quick. At this point, we do not want to set the expectation that it will be quick, and for the purposes of this white paper remain primarily focused on the vision for a decentralized search engine while leveraging the early model for the search tool described in this document.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+16
+
+The Vision
+
+The Presearch Ecosystem:
+
+Improvements
+
+Consensus
+Member
+
+Search
+
+Preferences
+
+Info
+Wallets
+Cryptocurrency
+ETH, BTC, PRE
+
+Presearch Control Panel
+(PCP)
+Credits
+
+Votes Info
+Fiat
+
+Banks
+
+DEV Projects
+
+Donations to Community
+
+Query
+
+Suggested
+Sponsors platform
+
+Invoice
+Pymt
+
+Query
+
+Sponsors
+
+Requests + Payments
+
+Search Suggestions
+
+Internal Exchange
+
+Pymt
+
+Votes
+
+Earnings
+
+Voting and Crowdfunding
+Donations from Community
+
+Community Constitution
+
+Choice
+
+Reward Logic
+
+Service Fees
+
+Internet
+
+The Presearch ecosystem will be governed under consensus of the Community Constitution.
+The Beta product will serve as a proof of concept and minimum viable product for the actual service, which will provide time for experimental technologies to become proven, best practices to be developed and new abstracted models that will be fully-decentralized via the blockchain.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+17
+
+The Vision
+
+Presearch Search Tool
+If Activated
+Your History
+
+Machine Learning Human Curation
+
+Suggestion Index
+
+Query
+Search Suggestions
+
+Sponsor Platform
+
+Sponsor Database
+
+Preferences
+
+Engine Suggestions
+
+Sponsored
+
+No
+
+Suggestion
+
+Chosen
+
+Yes
+
+Sponsored Choice Logged
+
+Rewards
+
+Yes
+Sponsored Engine Chosen
+No
+
+Internet
+
+Internet
+
+Search Suggestions
+Members who do not opt out of autosuggestions will receive suggested search terms as they type, in a predictive manner, populated by a custom index.
+Sponsors will be able to pay to have a "brought to you by" sponsorship displayed at the top of the search suggestions - if you click it you may be rewarded.
+
+Suggested Engines
+Presearch allows Members to choose which search engine they use. By default, Google is selected but other types of engines are available.
+Members who do not opt out will have other engines suggested based on their preferences - if a sponsored engine is searched, you may be rewarded.
+
+Sponsored Suggestions
+Revenue from Keyword Sponsorships and Sponsored Engines is split between Member doing the search and Presearch to fund site operations.
+Initial revenue share: 80% - Member 20% - Presearch service fee
+Details in Rewards diagram.
+
+Key Challenges
+Building the initial autosuggestion index will require significant usage to be truly valuable, and if other APIs are not available.
+Additionally, creating an autosuggestion mechanism that is fast enough to predict user intent, and introduce sponsored results will be challenging.
+
+The search tool is the heart of the Member user experience. This is where you will search the web, choose your engines/ collections, and see suggestions. The development roadmap calls for browser extensions, and a mobile browser, however, those products are not the core focus of this white paper and thus are not included.
+
+18
+
+The Vision
+
+Presearch Exchange
+
+Wallet Info
+Wallets
+[1] Cryptocurrency
+ETH, BTC, PRE
+
+Presearch Control Panel
+(PCP)
+[2] Credits
+
+Wire Info [3] Fiat
+
+Banks
+
+Suggested
+Sponsors platform
+
+Invoice in PREs
+Pymt in Credits
+
+Internal Exchange
+
+Pymt in Credits
+
+Voting and Donations
+
+Exchange Rates
+PREs to Credits = 1:1 Credits to PREs = 1:1 *
+Fiat to PREs = Market Rate ETH to PREs = Market Rate PREs to ETH = Market Rate BTC to PREs = Market Rate PREs to BTC = Market Rate
+* Subject to Exchange Policies
+
+Exchange Policies
+
+For Credit to PRE Exchanges
+
+Minimums**: < 100 Credits
+<= 1000 Credits > 100= Credits
+
+No Conversion 1: 0.8 PREs 1:1 PREs
+
+** Covers gas on small transactions
+
+Fiat purchasers subject to KYC
+
+Funding Methods
+PRE, ETH, BTC Fiat Wire Transfer
+Transaction Types
+- Fund Account - Withdraw to Wallet - Buy Sponsorships - Vote - Donate
+
+Internal Wallet
+All Presearch Members automatically receive an online wallet capable of holdingPREs.
+All withdrawals require 2-factor authentication.
+2FA services provided by Authy.
+
+PRE Revenue / Sales
+Presearch earns a % of each PRE paid through the Sponsor Platform and Exchange.
+These PREs can be sold to fiat purchasers at the PRE market rate.
+If insufficient PREs are unavailable via internal operations, a market buy and sell of PREs may be made to secure inventory for fiat purchasers.
+
+PREs vs. Credits
+Eventually, Presearch will likely run its own blockchain and all credits and PREs will be one and the same.
+In the interim, while Presearch is based on Ethereum, the cost of gas and transaction times are prohibitive and a non-blockchain credit system will be used.
+Credits and PREs exist on a one-to-one basis. Credits cannot be created, only purchased and earned.
+
+The internal exchange handles all transfers of value within the Presearch ecosystem. Due to gas costs on Ethereum transactions ($0.02 - $0.50 per), it is impractical to use PREs for every transaction. Therefore we use credits to track internal transactions and enable exchange to and from PREs. Credits and tokens exist on a one-to-one basis, and credits must be backed by a reserve of PREs, ensuring exclusivity and limited supply.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+19
+
+The Vision
+
+Presearch Rewards
+
+Member Clicks Sponsored Result
+Member Searches Sponsored Engine
+
+Positive Suggestion
+Logged
+
+Get Paid to Search
+The Presearch Rewards program flips the traditional search advertising model on its head:
+Where normally only Google gets paid when you click on an advertisement, with Presearch you'll earn the majority of the amount paid by the sponsor as a credit that can be converted to PREs.
+
+Rewards
+All Clicks & Searches Fraud Detection System
+Verified Clicks & Searches
+
+Fraud & Abuse
+One of the largest challenges with the Presearch model is the potential for fraud and abuse in the reward program.
+Using the latest in machine learning, challenge-response security, blockchain identity tools and max compensation thresholds, the potential for abuse is minimized.
+
+Reward Sharing
+
+20% of Rewards
+
+Presearch Operations
+
+For Sale to Fiat Sponsors
+
+50% of Rewards 30% of Rewards
+
+Searcher
+
+Nodes, Curators Data Scientists, Participants,
+Promoters
+
+Bounties and Other Bonuses
+
+Member Credits
+
+Purchase Sponsorships
+
+Exchange For PREs
+
+Crowdfund Projects
+
+Promotion rewards
+for Spreading the Word
+Donations from Crowdfunders
+
+The reward system is designed to drive usage of the platform and provide Members with more incentive to help spread the word about Presearch, as well as to transfer value to Members for willingly choosing Sponsored Suggestions when they search.
+PREs will be issued to Members for the following actions:
+1. Searching via Presearch (rate will depend on engine chosen) 2. Clicking on Sponsored results in the search field autosuggestions and viewing sponsored content. 3. Promoting Presearch that results in new Member sign ups and usage 4. Donations from other Members for participating in dev projects 5. Bounties and other bonuses from specific campaigns outlined 6. Future reward types may be added at a later date
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+20
+
+The Vision
+
+Suggested Sponsors Program
+Suggested Sponsor Platform
+
+Sponsor Chooses Keywords
+
+Query
+Search Suggestions
+
+Sponsor Bids
+Sponsor Matches
+
+Member
+
+Chooses
+
+Yes
+
+Suggestion
+
+Positive Suggestion
+Logged
+
+Internal Exchange
+Invoice Payment In PREs In Credits
+Campaign Payment and
+Reporting
+Reward Issued
+
+Internet
+
+Transparency
+Keyword Volume Provided Competing Bids Provided Clickthrough Rate Provided.
+Sponsor Matches
+Sponsors are matched based on keyword, bid and relevance score - members can rate results via browser extension.
+
+Types of Sponsorships
+Keyword Sponsorships Sponsor pays when a member clicks on Autosuggest Sponsored link.
+Site Sponsorships Sponsor pays when logo is shown in site footer currently for all users.
+Sponsored Engines Sponsor pays when engine is searched / chosen.
+
+Sponsorship Rewards
+Tokens earned from Keyword Sponsorships and Sponsored Engines is split between Member doing the search and Presearch to fund site operations.
+Initial revenue share: 80% - Members / Participants 20% - Presearch service fee
+Details in Rewards diagram.
+
+Payment Terms
+Bidding and invoicing is in PREs Payment is in credits, account is pre-funded and credits deducted. Multi-currency
+Fraud Prevention
+Machine Learning Tiered Rewards Verification Systems
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+21
+
+The Vision
+Presearch Community
+
+Community
+
+Consensus Model
+The final consensus model will need to be developed with the input of the community, and the interim model is under development.
+Community Constitution
+The initial Community Constitution can be found online at: www.wethecommunity.com
+
+Crowdfunding
+
+Voting & Consensus
+
+Community Constitution
+
+Project Proposal
+
+Proposal to Implement
+
+Project Funding
+
+Proposal Feedback
+
+Amendment
+
+Development
+
+No Consensus Yes - Constitution
+
+Implementation
+
+Yes - Improvement
+
+Presearch
+The community is the heart of the Presearch ecosystem. In order to be transparent, open and innovative, we need to attract smart people who can jump in and run with the concept and evolve it in ways that a single company or team never could.
+We believe in the wisdom of the community to solve its own problems, determine what's fair, and create systems and processes that support its ideals and goals.
+For this reason, the consensus model and constitution are absolutely the foundation upon which the entire project is created. If we get these models right, many of the other components of the platform will fall into place as the community iterates and finds balance and equilibrium. While we like to pretend that we have all the answers, we know that in fact it is the community who do, and therefore the consensus model and constitution must involve community members and cannot be organized in a top-down manner.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+22
+
+The Vision
+Community Constitution
+The Community Constitution is a concept that we have been thinking on for many years at a local level with ShopCity.com.
+Because each local community is unique, and its values and ideals different, we believe that there can be no onesize-fits-all approach, and that each community must have the right to create its own constitution with the ground rules for participation.
+In this instance, the community is extremely broad - anyone on the planet can be part of the Presearch community, and because this service is one of those fundamental, utility-like services that must be as fair, balanced, open and transparent as possible, the constitution, like that of the United States of America, must be broad in scope and should focus on the inalienable rights of Members, instead of specific rules or regulations.
+This document will be a work in progress, and at the time of writing is only loosely defined.
+In researching this project, we studied the last new search engine extensively and found that blekko's `Web search bill of rights'16 was particularly inspiring and well-done. It is reproduced below for your information:
+1. Search shall be open 2. Search results shall involve people 3. Ranking data shall not be kept secret 4. Web data shall be readily available 5. There is no one-size-fits-all for search 6. Advanced search shall be accessible 7. Search engine tools shall be open to all 8. Search and community go hand-in-hand 9. Spam does not belong in search results 10. Privacy of searchers shall not be violated
+We would appreciate your insights to refine and improve the Presearch Community Constitution.
+Once we have our `northstar' guiding document against which we can evaluate all decisions, we feel that it is very important that this document is posted prominently to demonstrate our commitment to it, and to ensure that all participants are aware of the foundational principles upon which Presearch is built. As such, this document will receive a prominent and permanent home on the domain name `WeTheCommunity.com', a play on the `We The People' from the preamble to the US Constitution.
+
+16 https://web.archive.org/web/20121107201910/http://help.blekko.com/index.php/what-is-blekko/
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+23
+
+The Vision
+Community Consensus Model
+The community consensus model will be the key to empowering Presearch Members and stakeholders to build the platform, believe in the model, and spread the word to their networks.
+It really is the protective shield within which all other aspects are housed.
+Because of its critical role in protecting the Presearch vision, it is extremely important that we get the consensus model right.
+Key considerations include, but are not limited to the following:
+1. Maximizing engagement and participation 2. Minimizing centralization of power 3. Providing a framework for rapid progress and iteration 4. Ensuring that the long-term vision cannot be easily corrupted 5. Creating mechanisms with which to continuously evaluate change and course-correct when necessary 6. Ensuring that the wisdom of the crowd does not become the tyranny of the majority 7. Ensuring the interests of all Members are protected and accommodated at the same time
+We recognize that this is no small feat, simply from a philosophical standpoint, let alone from a practical and programmatic one. However, if we can figure it out, the applications could be vast.
+Participation and Rewards
+The number one underlying goal of this project is to build a community around the concept of open, transparent and decentralized search results, where all stakeholders can dig into the platform to confirm that it is fair, that it is providing the expected results, and that it is creating an ecosystem in which any person or organization can participate and incorporate into their workflows and business models.
+While we anticipate that the size and passion of this community is significant, we intend to incentivize participation at all levels in the early days to ensure that critical mass is reached, and that we attract the top thinkers and doers to the platform as Members.
+One way to do this, which in other contexts is quite powerful, is gamification of various systems: providing users with a reward for completing an action.
+We intend to gamify the core Presearch systems and use the PRE Ethereum-based token as both the measure and the reward for participation. These tokens can be used to run Sponsored Suggestions and other promotions, or, if there's no promotional need for a given Member, to be transferred to another Member who can use them for this purpose.
+The exact details of how rewards are generated is detailed in the Token Model section.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+24
+
+The Vision
+Key Challenges
+Building a Search Engine
+Search is hard. Each facet of building a search engine ­ crawling, indexing, relevance, personalization ­ is extremely difficult each on its own. Combined together and it's so challenging that no significant new search engines have been built since DuckDuckGo and Blekko launched in 2010, and both projects minimized their requirements by utilizing the Bing API for the majority of their results and monetization. Microsoft has spent billions building Bing's capabilities.
+The long tail of search in particular is crushing in its scope. The term `long tail' refers to highly-specific, but very infrequent queries (ex. "air conditioning control module ID for Fleetwood Revolution 40C RV") versus generic, but frequent searches (ex. "New York restaurants").
+Answering these types of queries is very hard, and yet they account for perhaps the majority of searches run each day.
+In addition to long tail searches being very difficult to answer well, time-sensitive, news-type queries are very challenging for another reason. Due to the demand from searchers for up-to-the-minute results ­ for example, searches for a quote from a live presidential speech, or for news related to a major event ­ a search engine must basically hold a copy of all of the potential sources for such information in a near real-time cache. The storage requirements for this type of result are massive.
+Crawling, which is the process of having an automated program scour the web for new content to index, is fraught with challenges due to sites blocking the crawlers for search engines other than Google and possibly Bing. They do this because many second and third rate search crawlers cause problems for webmasters ­ if a crawler is not done properly, it can consume all of a web server's resources, making a website inaccessible to visitors and incurring additional expenses for bandwidth and maintenance.
+And then there's personalization, something that Google users have come to expect. Personalization requires providing a customized relevance algorithm for each individual user as opposed to a non-personalized search engine, where you can create an algorithm to handle a series of queries based on various factors that are standardized across the set.
+The Presearch team has recruited search experts Rich Skrenta and Trey Grainger to its Advisory team to assist with understanding and planning for these challenges. Rich is the former founder and CEO of the Blekko search engine that raised $70MM in venture capital, and which was ultimately acquired by IBM to contribute to its IBM Watson answer engine project. Trey is the author of the #1 book on Solr, the open source search platform, and also serves as the SVP of engineering at a search company that powers the results for many Fortune 100 companies.
+Together, these Advisors and their networks of colleagues and peers have helped Presearch refine our product strategy and begin building out our engineering team, while at the same time, validating some of the key assumptions that the project was founded on.
+We continue to believe that the key differentiator with this project is our community-first focus. By being more connected with our Members and ensuring that we remain focused on serving the needs of the community, we will create products and services that are more aligned with their lives.
+This requires not just looking at surface-level needs or the result of A/B testing, but going beyond to ensure that we are thinking holistically about the some of the tough questions around disruption, participation, privacy, equity, transparency, and looking at the net results of decisions and not just the inputs and outputs or isolated facets, but the overall impact of the platform.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+25
+
+The Vision
+This is a long-term project with the potential to make a significant difference in the world, and we must ensure that we bring it to fruition in the right way to realize its potential for positive change.
+That said, we also realize that when push comes to shove, many choose convenience over ideals every day. For instance, there are many people every day who feel that Google's growing market power and ability to track our every move is revolting, and yet they continue to use Google services because they work so well. Even this white paper was drafted in Google Docs for instance.
+So there is a balance of idealism and pragmatism that must be reached in order for Presearch to achieve significant usage, even within the community of those who identify with its vision and ideals.
+In studying past and current search engines, and in working with Rich and Trey, it has become very clear that outcompeting Google for search result quality in the short-term is a losing proposition.
+Some people use DuckDuckGo because they feel it aligns better with their ideals, but in reality, only a small number of those who feel that Google is `too big' use DDG.
+Therefore, while the vision for Presearch will continue to be focused on a future that is more decentralized and less reliant on internet giants like Google and Amazon, to serve the immediate search needs of a significant demographic of people and ensure that they become repeat users, the user experience must be compelling, and the switching costs must be minimal and the value maximal.
+The most assured way of creating value that we've been able to identify in the short-term is providing an alternative way to access the resources that the majority of internet users utilize on a regular basis.
+This includes Google, Amazon, Facebook, YouTube, Twitter, LinkedIn, and Wikipedia.
+We believe that being pragmatic and accepting that these platforms are where the majority of time and money is spent, and therefore providing easy access to that market will enable us to kickstart the project and drive significant adoption that can ultimately be harnessed for the benefit of the small guys - independent entrepreneurs, content creators, curators, publishers and marketers. Therefore, at first, this demographic will be forced to rely on Google within the Presearch environment due to the lack of a great independent search engine that will be able to accommodate the long tail of search that includes many of these participants.
+It pains the Presearch team to not start with a fully-decentralized platform that focuses on supporting the little guys that we are most aligned with, but having spent more than 15 years fighting many of these companies17 for market share through ShopCity.com, we are all too aware of the scope of the challenge and feel that it's better to leverage the internet Goliaths initially than try to beat them head-on.
+This strategy puts significant pressure on the team to finish the full Presearch engine, as this is where so much of the authentic content will be surfaced and where our hearts are really focused.
+
+17 http://www.mercurynews.com/2011/07/28/local-business-site-challenges-google-ranking/
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+26
+
+The Vision
+Distributed Computing
+The data storage and processing requirements to compete with Google are difficult to comprehend. Tens of billions has been spent on infrastructure - data centers all over the world, massive teams to manage and optimize everything. It's difficult to fathom just how much work, innovation and capital has been deployed to build the overall network capacity.
+However, much of this infrastructure is not actually used by search, it supports ancillary products like YouTube, Gmail, and Google Docs. While the requirements of search alone are much less than the overall needs of the Google/Alphabet organization, they are still massive.
+Fortunately, distributed computing, where users / Members contribute computing resources that run the platform and connect in a decentralized network model, is a great option that's rapidly becoming a viable way to costeffectively scale a full web index.
+There are some key technologies such as the IPFS distributed file storage platform, distributed hash tables and distributed databases, as well as emerging blockchains that appear to be promising.
+While some of these technologies are becoming well-proven within a specific niche or use case, combining these technologies together at scale, and in an application where latency is a deal-breaker will require a lot of experimentation and testing.
+Additionally, because the space is evolving so rapidly right now, one of the largest risks to the project is that the team begins development using an architecture/platform that loses out to another upcoming technology, creating legacy issues and making it harder to attract the best developers and progress the project quickly towards its full potential.
+Therefore, we will take sufficient time to research and test the latest technologies, develop proofs of concept, and utilize architectures that enable various technologies to be swapped out if better alternatives appear on the market.
+Abuse Prevention
+One of the most significant challenges with any online application is the prevention of abuse. Simply stopping bots from spamming a web form can be a real task and require major effort to deter.
+When you're a search engine and nefarious individuals stand to gain by gaming the system and capturing more traffic than they would naturally, the problem becomes orders of magnitude greater.
+Tieing a reward / incentive mechanism to key functionality introduces a whole other dimension, and makes abuse and fraud the biggest technical challenge to overcome.
+Fortunately, there are many best practices that have been developed, and which we can adopt; from simple challenge-response security systems, to tiered rewards that decrease the incentive to attempt to game the system by providing diminishing returns, to fraud detection algorithms that quickly catch scammers before they can cause real harm.
+Security often comes at the cost of usability, and we will be smart about balancing these factors.
+As with all aspects of the project, but especially on the technical side, we know there are some very talented developers within the decentralization community, and we will turn to them for input on how best to combat the more difficult challenges posed by fraud and abuse.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+27
+
+Go-To Market Strategy
+Milestones
+Phase One
+ Establish the organizational roadmap and early infrastructure  Release the Search Tool product  Complete the initial token sale  Distribute tokens  Exchangeability  Community engagement  Product refinement  Promotion and marketing  Continue researching potential methods for creating fully-decentralized search engine
+Phase Two
+ Establish consensus model  Establish core roadmap & team  Establish DAO and transition over
+Phase Three
+ Engage community  Begin building fully-decentralized search engine  Continue engaging the community
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+28
+
+Token Model
+Core Properties
+1. Name: Presearch Tokens (PREs) 2. Standard: Ethereum ERC20 3. Max Supply: 1,000,000,000 pre-mined; 250,000,000 at time of first token sale 4. Unlock date: November 30th, 2017 at 12:01 am EST
+Use Cases
+The Presearch PRE token is the key medium of exchange within the Presearch ecosystem and is used for the following purposes:
+1. To reward members for usage, contribution to, and promotion of the platform 2. To purchase sponsorships and promotional placements 3. To reward partners who have provided traffic and visibility to Presearch 4. To have input on community matters 5. To fund development projects undertaken by the community
+Rewards & Incentives
+Members will be rewarded with tokens for using the Presearch system. Base levels of reward will be provided for searching using Presearch, with increased rewards provided by Sponsored engines that will be able to pay more for usage. Sponsored Suggestions will be matched to keywords, and Members will be rewarded for clicking on Sponsor links and giving the Sponsor a shot at solving the Members' needs. Members can also reward other members, specifically those who participate in the development projects that are listed. Members will also be incentivized to share the platform with their network, and will be able to earn rewards for new sign-ups. These rewards will be tracked as Credits that can be converted to PREs. In addition to rewards for using the platform, PRE tokens will be provided to the data scientists who develop popular Presearch algorithms, information curators, interface designers and those who run nodes for crawling and indexing the web.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+29
+
+Token Model
+Sponsorship Platform
+The sponsorship platform within Presearch will enable businesses and organizations to connect with potential customers via Sponsored Suggestions. These promotional vehicles will be made available for purchase in an auction-based model using credits denoted in PREs.
+PREs will be awarded whenever a Sponsored Suggestion is seen, and an additional award will be collected when a Sponsored Suggestion is clicked. These awards will be split between Presearch and the actual member who saw / interacted with the promotion.
+In addition to keyword-targeted Suggestions, engines will be able to denote the number of PREs they are willing to award Members who choose to run searches using their platforms, and if selected, Members will accumulate PREs when they search using those Sponsored Engines.
+Referrals & Partners
+Members who choose to spread the word about Presearch will receive PREs for their efforts. We will award PREs for referred Member sign-ups, inbound traffic, social sharing and other promotions that drive people to Presearch.
+One of the most exciting uses of PREs is to enable Presearch to build a network of partners who can leverage their own traffic to generate awareness and searches through the platform. For instance, a newspaper that has thousands of visitors will be able to add a Presearch field to their website so that people can search directly from the partner property. They will then be rewarded in PREs for searches conducted.
+Community Voting & Dev Project Funding
+PRE-holders will be able to use their tokens to provide input on the direction of the project and help shape the Community Constitution. They will also be able to organize and contribute to crowdfunded campaigns for development projects and other topics of interest to the community.
+Token Sales
+As all Presearch Token holders will be able to transfer their PREs to any Ethereum-compatible wallet that recognizes ERC20 tokens, token holders will be able to actively sell their PREs to any business or individual interested in sponsoring Presearch results.
+Holders can sell PREs to potential sponsors at whatever price the seller is able to obtain for their token inventory. Any person or company with a product to sell is a potential customer for PREs - in particular, local businesses, advertising and marketing firms, or large brands.
+Presearch is developing a training program and supporting sales collateral to help sellers obtain top dollar for their PREs, and will also link sellers to best practices for proper invoicing, taxes and reporting for their PRE sales to assist them with their PRE inventory sales. Ultimately, it is up to the seller to ensure they remain compliant with all local regulations, but Presearch would like to help sellers stay on the right side of the law.
+Presearch views this opportunity as very similar to the multi-billion Google Adwords industry, and plans to create a certification program and a directory of certified partners.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+30
+
+Token Model
+
+Allocation of Tokens
+Pre-sale Early-Adopter Sale Public Sale Rewards Founding Team
+
+1. Pre-sale: 50,000,000 2. Early Adopter Sale: 200,000,000 3. Public Sale: 300,000,000 4. Rewards: 300,000,000 5. Team: 150,000,000
+The Early Adopter sale is broken into 5 different Lots, each with a different number of tokens and price point.
+The final Lot 5 Token Sale will open on November 14th, 2017 and run until November 30th, at which time tokens will be unlocked and able to be transferred to third-party wallets for safekeeping.
+Upon completion of the Pre-sale and Early Adopter sales, there will be 250 million tokens minted and put into circulation.
+This number will increase incrementally over time as tokens from the Rewards pool are minted and distributed to Presearch users according to the Rewards platform, and as Team tokens are released over a 3-year period.
+Public Sale tokens will not be minted until the transition to the community ownership stage of the Presearch model, which is anticipated to take place in 2018 or 2019.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+31
+
+Team
+Colin Pape Project Lead Colin is a serial entrepreneur who founded the community commerce network, ShopCity. com. In 2011, Colin found himself mired in a battle with Google and realized that the world desperately needs a transparent and open search engine.
+Rob Calvert Technical Lead Rob has more than 20 years experience in application development, network security and project management. Prior to joining ShopCity.com, Rob worked in a C-level position for a big three accounting firm in the Caribbean.
+Nolan Dubeau Product Development Lead Nolan's career as a web dev saw him work with CRYPTOCard, Mercedes-Benz and JDS Uniphase, leading to positions as Creative Director, Interactive at XM Radio and VP Engineering at Guardly, a VC-backed tech company.
+David Keefe Lead Frontend Developer David joined the ShopCity.com team in 2012 as part of the content department and has worked his way up to become a senior developer. David is largely responsible for frontend development and customer-facing product improvements.
+Corey Piitz Senior Fullstack Engineer Corey has been programming for more than 25 years, working at vertical marketplace Labx.com, instructing college-level programming courses and serving as lead fullstack engineer for ShopCity.com.
+
+Jim Terry
+
+Prentice Chang
+
+Thomas LeClair
+
+Blockchain Researcher Blockchain Researcher Marketing
+
+Shannon Ewing Community Relations
+
+Megan Wojtowych Graphic Designer
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+32
+
+Team
+Presearch Labs
+Presearch is contemplating ways to develop the experimental distributed and decentralized technology that will power the second version of the platform.
+Because the vision for the project is that it will be community-based and not centralized, building out a centralized company in the way that Google, DuckDuckGo and other search engines operate is really not an option.
+We are exploring a model similar to projects like Ethereum and Bitcoin, where there is a small team of core developers and community members are actively engaged in the development process.
+We are spending time looking at ways that developers can be rewarded in both PREs and in cash or cryptocurrency for their contributions to enable them to work actively on the project in a distributed team that is paid for performance (versus time).
+Additionally, we are planning to host decentralized hackathons that feature significant cash / crypto prizes to incentivize and reward participation. We are in discussions with a team of decentralization / open source evangelists with experience promoting and operating hackathons to undertake this critically important project and ensure that we attract the talent necessary to build game-changing open source technology solutions that will transform search forever.
+The initial core team consists of two young hackers, David Skrenta and Bryce Desbrisay, both from Silicon Valley but now attending school in Boulder, Colorado.
+David and Bryce have worked together on various projects for a number of years, including as founders and lead developers of Harvix , a search engine for students that the pair first began developing before they were even teenagers.
+We are excited to expand this group far and wide and are looking for developers and data scientists with experience in blockchain, search, front end and back end, UI/UX, machine learning, AI, distributed storage and algorithms who would like to be part of this important open source project.
+If you are interested in joining our team, participating in or organizing hackathons, or otherwise helping Presearch build an open source, decentralized search engine, please send an email to code@presearch.io for an invite to join our Slack channel.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+33
+
+Advisors
+Anthony Di Iorio Anthony is a serial entrepreneur, venture capitalist, community organizer, and thought leader in the field of digital currencies, blockchain and decentralized technologies. He is the founder and CEO of Decentral and Jaxx , and co-founder of the Ethereum Project. He previously served as the Chief Digital Officer at the Toronto Stock Exchange / TMX Group.
+Rich Skrenta Rich was the founder and CEO of Blekko, an Internet search engine acquired by IBM Watson . Blekko raised capital from a host of Silicon Valley's most notable investors and venture capitalists. A serial entrepreneur, Rich also founded news aggregator Topix and the Open Directory Project ( DMOZ.org).
+Trey Grainger Trey is the SVP of Engineering at Lucidworks , a tech company powering search for many of the world's top companies. Trey has been involved in open source search communities since 2008 through the Apache Lucene/Solr project, which produces the most popular open source search technology in the world. Trey also co-authored Solr in Action , the leading book on Apache Solr.
+Addison Cameron-Huff Addison is a leading Canadian technology lawyer who specializes in blockchain technology startup law. Addison has worked for Etheruem co-founders and is a well known speaker at blockchain law events. He has contributed to various publications such as Bitcoin Magazine. Addison is a programmer and lawyer - he is the founder of a number of legaltech startups, including a legal search engine, Global-Regulation.com.
+Tim Enneking Tim is the Managing Director for the industry-leading Crypto Asset Fund. Mr. Enneking also has extensive M&A experience, having completed more than 70 transactions with an aggregate transaction value of over US$12 billion. He speaks near-native French and Russian, as well as German. He has five university degrees, all in international business and law.
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+34
+
+Conclusion
+There is a clear and present need for an open, decentralized search engine. The world cannot continue to rely on one company for the vast majority of its searches, especially when that company has so many other vested interests that may conflict with providing objective answers.
+The current degree of information centralization is both unprecedented and dangerous, from both a resilience and a monopoly-of-power standpoint.
+Never before in history has one company had so much control over the flow of the world's information.
+By raising a flag dedicated to a future in which search is open, and in laying out the vision for a transparent and decentralized alternative to the current search hegemony, Presearch will attract the world's best thinkers, community advocates and coders to help build the search engine for Web 3.0.
+Presearch will dedicate a lot of time, energy, and resources to getting the community consensus model right, providing Members with a framework for active participation in the decision-making and coding of their open search engine.
+The Ethereum-based, exchangeable token model is an extremely powerful tool, and Presearch will leverage its PRE token to reward and incentivize the community to use, promote and contribute to the platform, enabling Members to benefit by using the system and to be rewarded for engaging with Sponsors, rather than being a product that is monetized by the search engine.
+The Suggested Sponsors platform will enable businesses, organizations and individuals to reach a savvy group of freedom-minded web searchers with an innovative promotion at exactly the right time. An auction-based system will enable Sponsors to bid on placement using PREs.
+Presearch is flipping the current search engine model on its head. Rather than a user paying for decent search quality by being overexposed to ads, Members will actually earn rewards for allowing themselves to be introduced to Sponsors, as well as for contributing to the growth of the platform.
+As the early framework of the first generation search tool picks up momentum and the open search movement grows, the organization will transition to a DAO that will serve as custodians for Presearch and ensure that future generations are not stuck with an Internet that has only one dominant search engine and such extreme centralization of online power and control.
+Assuming success with this project, and make no mistake, it won't be easy and there will be risks, we will have lit another beacon of freedom on the Internet, standing alongside and on the shoulders of other great, open organizations like Ethereum and Wikipedia.
+Presearch needs an awesome community of freedom-loving searchers.
+Will you join us?
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+35
+
+Changelog
+This white paper was initially released on July 20th, 2017. This original version can be found here:
+https://www.presearch.io/uploads/WhitePaper_v1.pdf
+Version 2.0 replaced the original on November 1st, 2017.
+Changes include:  Changes to the table of contents to accommodate new sections  The addition of more detailed product info  The addition of a new Presearch.org diagram  The addition of the Presearch Labs section  The addition of our Advisors to the team section  Conversion of the PST symbol to PRE throughout  Significant changes to the Presearch Search Tool diagram  A change to the Exchange diagram to reflect the change in minimums for withdrawals  A change to the Reward splits on the Reward diagram to reflect the nodes, data scientists and curators who will also be rewarded  Minor changes to the other diagrams to clarify flows  Minor tweaks throughout  The addition of this Changelog
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+36
+
+We hope to see you on the journey! :)
+
+Contact Info
+Presearch.org Global Limited 270 King Street Midland, Ontario Canada L4R 3M3
+info@presearch.io
+
+Copyright © 2017 Presearch.org Global Limited. - All Rights Reserved
+
+37
+
+

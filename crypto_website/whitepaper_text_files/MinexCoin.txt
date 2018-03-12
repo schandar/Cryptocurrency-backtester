@@ -1,0 +1,523 @@
+EDGELESS CASINO CROWDSALE WHITEPAPER
+December, 2016 1
+
+Executive Summary
+
+3
+
+1. Price and Transparency Problems of Online Gambling
+
+5
+
+1.1. Rise of the Cryptocurrency Reduce the Gamble Price
+
+7
+
+1.2. Fairness Check's Problems and Limitations
+
+8
+
+1.2.1 Random Number Generator
+
+8
+
+1.2.1.1. Explanation of Fairness Check
+
+8
+
+1.2.1.2. Loops in Fairness Check
+
+8
+
+1.2.2 Bitcoin Casino Can Also Drain Investors Profits
+
+9
+
+1.3. Edgeless Casino Solution
+
+9
+
+1.4. Edgeless Based on Ethereum Smart Contracts - Full Transparency
+
+10
+
+2. How Edgeless Casino Can be a Profitable Business Offering 0% House Edge? 11
+
+2.1. Player Mistakes and Imperfect Play
+
+11
+
+2.2. Gambler's' Ruin and Variance
+
+12
+
+2.3. How will We Reduce an Edge to 0%?
+
+13
+
+2.4. Games Provided by Edgeless Casino
+
+13
+
+3. "Edgeless Lounge" and EDG tokens
+
+14
+
+3.1. Lounge game concept
+
+14
+
+4. Edgeless Casino Business Plan
+
+17
+
+4.1. Market Potential
+
+17
+
+4.2. Marketing Plan
+
+18
+
+4.3. Profit Forecasts (ROI %)
+
+19
+
+5. Crowdsale
+
+19
+
+5.1. Crowdsale summary
+
+20
+
+5.2. Announcement of Crowdsale beginning
+
+21
+
+5.3. Edgeless Tokens (EDG)
+
+21
+
+5.4. Crowdsale "Power Hour" rewards
+
+22
+
+5.5. Budget
+
+22
+
+5.6. Development Roadmap
+
+23
+
+5.7 Timeline
+
+24
+
+5.7. Crowdsale Ethereum-based trustless smart Contract key points:
+
+24
+
+6. Team
+
+25
+
+7. References
+
+27
+
+2
+
+Executive Summary
+The online gambling industry was valued at USD 45.86 billion in 2016. However, it has two major problems: the price o f the gamble and transparency. The price of the individual gamble comes from user-unfriendly rules: a large house edge of 1% - 15% (ref. Expn Section nr. 1), money deposit/withdrawal fees and 2 - 3 days withdrawal delays. In addition, there is no way of knowing what is happening inside the casino's servers and how the mechanisms are programmed. It can be easily rigged. Players need to rely on trusting the casino, which is most likely not the best option in such a profit-driven industry.
+In 2008, Bitcoin and cryptocurrencies solved the gambling price problem. Cryptocurrency casinos are cost effective and can offer a 0.01% - 2% house edge, with instant money transactions without any fees and anonymity. However, the transparency problem is still there. Casinos can easily rig the game or hide profitability from the investors.
+Using Ethereum smart contracts (ref. Expn Section Nr. 1.5), we can have a low price per gamble and solve the transparency problem. Random numbers and payouts can be ruled by smart contracts which are fully public and implemented on an Ethereum blockchain. Now players can see everything: transactions, sums, bets, the reasons why transactions are moving and, most importantly, the mechanism of randomness. If the casino tried to rig the odds, it would be immediately spotted.
+Our team brings the first a bsolutely transparent, z ero edge casino to the market Decentralised Edgeless Casino. At this point in time, there are no casinos like this in the world.
+Our casino will offer a 0% edge with Blackjack, 0% edge with Video Poker, Micro-limit Dice and Sports Betting. All games will be based on the Ethereum smart contract and will ensure absolute transparency.
+The business will sustain itself in two ways: 1. From the players' imperfect play. Blackjack and Video Poker are games of skill and luck. If players make perfect decisions, they will reach a 0% edge. n average, however, a player makes mistakes,
+3
+
+so it will give a -0.83% edge to the casino and this 0.83% will be earned from the money wagered. 2. Sports Betting is about connecting players who are betting against each other and taking the facilitation fee to manage the process. The fee depends on the game types, the number of participants, bonuses and more. It is dynamic, floating in the range of 0% - 10%. Approximately 4% is earned from the money wagered.
+Edgeless project:  40% of all Edgeless Casino's profit will be sent to the "Edgeless Lounge" prize pool. The lounge game is a special lottery game designed to favor the player. Each month EDG tokens can be used to play the lounge game and win a share of the prize pool.  Edgeless Casino is fully transparent since it is based on Ethereum Smart contracts.  Edgeless Casino players will trust that the casino will not cheat them.  EDG shareholders will always be sure that Edgeless Casino is transparent by it providing the full amount of earned profit.  EDG token holders can trust that every month, 40% of Edgeless's profit will be transferred to the "Edgeless Lounge" prize pool.  Edgeless is the first casino with 0% edge based on the Ethereum blockchain.  Edgeless Casino will have strong competitive advantages (0% edge, transparency) to increase its market share in order to become a sustainable business.  Edgeless Casino will provide many gambling games (BlackJack, Video Poker, Dice, Sports Betting).
+Let's decentralise and solve the main online gambling problems!
+
+Traditional Online Casino
+
+Bitcoin Online Casino
+
+House Edge
+
+1% - 15%
+
+No logins/ registrations needed for casino x users
+
+Free money withdrawals and deposits
+
+x
+
+1% - 0.1% Yes
+Yes
+
+Edgeless Online Casino (Based on Ethereum Smart Contracts)
+0%
+Yes
+Yes
+
+4
+
+No delay to money withdrawals and
+
+x
+
+deposits
+
+100% anonymity provided by a
+
+x
+
+cryptocurrency
+
+Random number fairness check
+
+x
+
+Fully transparent random number
+
+x
+
+fairness check
+
+Transparency guided by Ethereum smart x contract
+
+Impossible for intentional casino profits x draining
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+x
+
+Yes
+
+x
+
+Yes
+
+x
+
+Yes
+
+1. Price and Transparency Problems of Online Gambling
+As stated before, in 2016 the online gambling industry was valued at USD 48.6 billion and has shown steady growth each year. Most of a casino's profits come from the "house edge". The House Edge is a term used to describe the mathematical advantage that the gambling game (and therefore the commercial gambling venue) has over you as you play. This advantage results in an assured percentage returned to the house over the duration of playing time, and for you, it is an assured percentage loss of what you bet.
+Imagine that you are playing roulette and you bet $100 on the colour red. As roulette has a number ZERO coloured in green which is neither red or black, the house gets an advantage of 2.7% that is calculated thus: 100 : (36 +1) = 2.7%
+So if the house has an edge, you ultimately lose every time. If you bet $10, your expected loss is $0.27. In one hour, you can spin approximately 20 - 25 times. If every time you bet $10, then in that hour you are expected to lose $5.4 - $6.75.
+5
+
+This loss can be calculated using the expected value (EV) formula: EV = (prob.win)(gain) - (prob.lose)(gain)
+Let's say you are betting $10 on red which gives you an expected $20 win and $10 is your expected loss. Roulette has 18 black fields, 18 red fields and 1 green zero. When you put all the variables in the equations, this is what you get:
+EV = $20(18/37 )+ $0(19/37) = $9.73 + $0 = $9.73
+If you bet $10 on a roulette red, at the end of the game then you are expected to have $9.73. And $0.27 is lost due to the house edge.
+This means that for each $10 that you bet, you are giving away 27 cents to the house. Of course in real life, numbers do not hit exactly like that and we may have a bigger range of wins and loses. However, if we merge the data from all players and calculate it in the long run, then the EV shows the actual sum that casinos are profiting from.
+The house edge is different for each game. Here you can find a list of games and house edges.
+Technically, the `house edge' is the price that people pay for the gambling experience as a whole. Which is not that big if your bets are reasonable and you are playing in Las Vegas. There are tourists who get free drinks, free meals, night entertainment shows, good travel deals and many more benefits such as instant cash deposits and withdrawals.
+However, online casinos are almost a different industry in comparison. You don't get good travel deals or free meals, and players pay more for the raw experience of just the gamble itself. The mathematical house edge is the same, but you have to pay for extras, such as depositing money and withdrawal fees (most online casinos charge). Furthermore, there is usually a delay with regards to withdrawing and casinos usually take 2 - 3 days to send you the money. That barrier to taking your money out of the virtual casino immediately becomes how the industry profits even more. In a real casino - if you win a decent sum of money, you can rush to the cashier, cash out in seconds and celebrate your win. In an online casino, you
+6
+
+know that you cannot celebrate your win right away and need to wait. During that waiting time, a lot of people come back to the table and lose their winnings.
+The worst part - even with all of the money making tools available (deposit, withdraw fees, withdraw delays, house edge), it's not enough for the industry. On some occasions, they even rig the odds to increase the house edge significantly and scam money from their own players. C urrently there is no way of checking the transparency of a casino.
+To sum up, we have two major problems in the online gambling industry: the price of the gamble and house transparency. As this industry is growing rapidly, these problems become ever more relevant.
+1.1. Rise of the Cryptocurrency Reduce the Gamble Price
+One of the reasons why online casinos have a deposit fee, withdrawal fees and extended withdrawal times are to do with problems related to traditional forms of currency such as USD and EUR. To move traditional currency from one account to the other is expensive. It has to go through many third parties and regulators which take their bit out of every transaction. In 2008, cryptocurrency Bitcoin came to life and started changing a lot of areas of our lives including the online gambling industry. By providing instant and low cost currency transactions, Bitcoin became a game changer for online casinos. Now, anyone can a run casino and offer services without any extra fees with instant money deposits/withdrawals and full anonymity. Some rooms offer a house edge that is lower than 1%, which is more of a fair bet. This significantly improves the quality of the gamble as a whole.
+That's why cryptocurrency-based online casinos are on the rise. Right now, we have more than 100 rooms based on a cryptocurrency which accounts for 10 billion bets and is growing each year. In fact, 60% of all Bitcoin transactions are gambling-related. However, one major problem has not been solved yet: transparency. Even after the cost of the gamble has been reduced significantly, we still have many rooms rigging the odds and stealing from customers. Famous cases of Bitcoin casinos rigging the odds can be founder h ere and here. So, one major problem is left: transparency.
+7
+
+1.2. Fairness Check's Problems and Limitations
+1.2.1 Random Number Generator
+1.2.1.1. Explanation of Fairness Check Online casinos create a random number using a combination of casino and client numbers. The casino assigns their own number automatically and the visitor can do it manually or let the casino decide for them. The two numbers are blended to provide a random outcome. The idea behind it is that the casino can rig their own number, but they would not be able to rig the client's number and therefore the outcome will be random. Therefore a casino would not able to cheat.
+Oversimplified example: casino is assigned a number (also known as a seed), visitor assigns the other number (seed). The visitor can set it manually before every game or let the casino decide. Both numbers are blended into one number and using a formula (it's unknown to the player and determined by the casino otherwise the player could predict the final outcome) the random number is generated. After the game, visitors can use a special key (hash, information access code/label/tag) to access the information related to that game and see what seeds were blended and which number was generated as the result.
+1.2.1.2. Loops in Fairness Check 1) The casino can easily influence the client's seed by assigning it themselves (that's the case in most casinos, because an average player is not going to type and give a random number before every gamble round - even if they have this option) 2) The client entered the seed once and is not changing it. The casino can identify it and use that information to adjust their own seed. 3) The casino can delay creating their own seed and provide it to the `blender' once the visitor has sent theirs. Then the casino can adjust their own seed to the client's.
+Even if client sees that the `randomness' of the casino is on the right track, the casino still has the ability to freeze a player's account without reason and steal the deposit, since these actions depend on humans' decisions but not on non-changeable fully transparent and decentralised smart contracts. There are so many ways of cheating that it is clear that a new generation of online casinos is needed.
+8
+
+1.2.2 Bitcoin Casino Can Also Drain Investors Profits
+A lot of cryptocurrency casinos offer investment opportunities for people. They can invest into the casino's bankroll and get a share of a casino's profits. All cryptocurrency transactions are public on the blockchain so it is easy to see the exact profits every day. That's why this investment looks really attractive. However, there is a way that casinos can drain profits from their wallet and pay less to investors.
+For example, a casino shares 50% of its profit to its investors. In 2016, they made $1,000,000$ profit and $500,000 should therefore go to the investors. However, the casino wants to cheat and pay less. They can easily drain money from the casino's wallet into a different wallet which belongs to them and no-one would even suspect that it has happened. They would do this by:
+1. Casino owner enters his own online casino with a new account and different wallet. 2. Casino edits code in casino server and riggs odds ONLY for that new account. 3. Casino wins against casino and leaves. 4. The casino pays less profit share to its investors, because they think casino just had
+a loss and someone got lucky. But they have no idea that the lucky person is the owner of the casino.
+Blockchain can see all transactions and the sums transferred. However they cannot see the reasons why transactions are moving or what is happening inside the casino's server. This scheme can be done in low sums and systematically over the year. At the end of the year, investors would see the total casino's profit and calculate the EV based on their edge. f a casino's profits are 10% less than expected, however, no one would suspect that the owner took it. And 10% from half a million is $50,000. That is one way that casinos can lower their public profits and steal money as a result.
+1.3. Edgeless Casino Solution
+This is why we will be developing Edgeless - a next generation casino. Edgeless casino will be built on the Ethereum blockchain. All of the key operations will be regulated by smart contracts, giving users a fully transparent experience.
+9
+
+We will be using the client's seed and our own seed to generate randomness. The main difference with Bitcoin Casinos will be that users will know our hashed (SHA512) seed before betting and before generating their own client seeds. Because of that there is no way for us to alter the results. After bet is made, client will be able to see our unhashed seed on Ethereum Blockchain and verify the randomness. Moreover, clients will have two options for getting random seeds. The first one is to type it in manually before every game; this would eliminate any ability to cheat the clients. The second one, which will be used by default, is to generate different client seeds automatically for every game by using an API integration with random.org. Smart contracts will be publicly available on the blockchain for everyone to examine and to test its randomness procedure.
+1.4. Edgeless Based on Ethereum Smart Contracts - Full Transparency
+In 2015, the creation of the Ethereum smart contract is another major game changer for online gambling. Right now, we can solve the transparency issue once and for all. Using a smart contract, there is no way that casinos can rig the odds even if they wanted to. That means in 2017, we can have "THE PERFECT ONLINE CASINO" which can offer 0% house edge and 100% transparency. That's a next generation gambling product which is the best in a current market and does not exist. Yet.
+The real power of smart contracts is that if they are properly implemented on Ethereum Blockchain, they will act each and every time how they are supposed to. That is truly trust-flawless technology that eventually all online casinos will be using. Also, it is near impossible to censor smart contracts, because they are placed in a decentralized infrastructure. All Ethereum smart contracts will be publicly available for everyone to see and examine.
+Our Edgeless tokens will be sold via Ethereum-based smart contracts. This means that all investors will be 100% sure that if they send 100 ethers to the Crowdsale smart contract, then they will get 12,000 EDG tokens during our power hour sale guaranteed.
+In the same trustworthy way that our casino will be operated, if a user bets on a particular game, they can be 100% sure that their result will be truly random and that they will get their
+10
+
+win transferred directly into their wallet. The casino will not be able to suspend the transaction or redirect it to another wallet.
+Graph - EDGELESS randomness and fairness mechanism based on Ethereum
+2. How Edgeless Casino Can be a Profitable Business Offering 0% House Edge?
+2.1. Player Mistakes and Imperfect Play
+Most casino games do not require any skill to play or change the odds like roulette, dice, and slots. However, there are a few games which combine luck and skill. By providing more options - blackjack, video poker - players can influence house edge. That means that the house edge depends on the skill level of the player. Blackjack is the game which has the lowest casino edge (0.6%) if played perfectly. The average player, however, does not play the `perfect game' and they make mistakes. Black Jack provides a variety of decisions to the player and based on that, they can increase or decrease their chance of winning. On average, a player makes mistakes which are equivalent of 1.43%. If we offer a 0% house edge game, mistakes count for a 0.83% house edge. That means on every $100 bet, an average player gives 83 cents to the house.
+11
+
+Take a look at full report and analysis of blackjack house edge and player mistakes: here
+2.2. Gambler's' Ruin and Variance
+Gambler's ruin adds an extra profit to the casino. A gambler with finite wealth playing a fair game (both sides have equal chance of winning - 0% house edge) would lose against an opponent with infinite wealth. It's quite simple; a larger bankroll can absorb higher levels of variance. And small bankrolls can't. That means a small player would bust more even if the casino has a 0% edge. Let's take an example: "Assume that the player makes a deposit of $1000 to an online casino, and wants to bet till he reaches $5000 that has been wagered. If the player is to willing to play through 500 hands, then his average bet size would be $5000/500 = $10. The number of betting units would be $1000/$10 = 100. The table shows the risk of ruin is 0.01% for 102 units, so would be just over 0.01% for 100. Perhaps this is too conservative, so the player considers playing 200 hands. The bet size is now $5000/200 = $25. The number of units is $1000/$25 = 40. Interpolating the table shows the risk of ruin would be 1.5%."
+12
+
+Source: http://wizardofodds.com/games/blackjack/appendix/12/ More info: h ttp://wizardofodds.com/games/blackjack/appendix/4/
+At this stage, we cannot estimate the profits coming from the gambler's ruin effect. It strongly depends on the type of players gambling in the casino and their bankroll management skills.
+2.3. How will We Reduce an Edge to 0%?
+Casino has a blackjack edge because they have best decision making position - the last one. That means that players can bust before the house even draws a card. To compensate for this edge, the house gives additional bonuses to the player such as 1 to 3 payoff in the case of blackjack, and the ability to double bet if casino has a bad card. That's exactly what we will do - increase these additional bonuses by reducing house edge to 0%. Actually such game models already exist - Voyages Casino has one. However, they charge 10% for money withdraws and there is no way of knowing if they are rigging the odds or not.
+You can play a 0% edge blackjack demo here: h ttps://betvoyager.com/games/equal-odds/
+2.4. Games Provided by Edgeless Casino
+Based on results of the Crowdsale, these are the following games which Edgeless Casino will offer.
+0% Edge Blackjack and Video Poker - the payout structure will be changed in favour of the player, so the house edge would be reduced to ZERO. Here, you can play a demo of zero edge blackjack: https://betvoyager.com/games/equal-odds/
+Micro Limits dice. The game rules result in a 0.05% edge. In the first year, players will be allowed to bet only micro sums. The concept is similar to most bitcoin dice casinos, however the payout structure will be fairer. If you bet 1BTC on 50%, most Bitcoin casinos will offer 1.98x payout. We will offer a 1.995x fair bet payout.
+Sports Betting - it's not really a traditional casino gambling game, but in order to attract a wider scope of people, we want to offer more games.
+13
+
+In the future, we will expand on the games offered by our casino.
+3. "Edgeless Lounge" and EDG tokens
+Edgeless Casino is based on ETH currency. Each month 40% of casino profits will be sent to the "Edgeless Lounge" prize pool. Transfer process will be guided automatically using a smart contract. EDG token holders can access the "Edgeless Lounge" game lottery and compete for the prize pool. At 3 PM GMT, on the 28th day of each month, winners will be announced and the pool distributed among winners. The lottery process will take no more than 2 minutes. At 3:02 PM lottery participants can claim their prize.
+3.1. Lounge game concept
+For example: 2018's lounge game prize pool is 150,000 ETH. There are 500,000,000 EDG tokens in total which can compete to win a share of the prize pool. In this particular scenario: 100,000 EDG tokens can win 150,000 / 500,000,000 x 100,000 = 30 ETH Formula: ("Edgeless Lounge" prize pool) / (Total EDG tokens issued) x EDG tokens bet Each month, before 3 PM GMT on the 28th, players need to send their EDG tokens to a game smart contract. Winners will be announced after 2 minutes and players will be able to claim their prize.
+14
+
+Lottery betting model:
+IMPORTANT: Players cannot lose their EDG tokens. Tokens are like an entry ticket to participate in a lounge game. The more EDG tokens you have, the larger the share of the prize pool you can win. EDG tokens can be deposited or withdrawn via lottery smart contract any time. If players bet or deposit EDG tokens after 3 PM on the 28th, the bet participates in the next month's lottery. Let's say only 75% of all tokens (370,000,000) participate in a game. What happens to a share of the prize pool which isn't won? It rolls over to the new prize pool which will be available to win next month. In this scenario that would be 37,500 Ethereum. "Edgeless Lounge" game prize formula: 40% of casino profits + ETH left from the previous month's prize pool. Below you can find "Edgeless Lounge" lottery prize pool model:
+15
+
+16
+
+4. Edgeless Casino Business Plan
+
+4.1. Market Potential
+To sum up all of the facts mentioned in the sections above: the online gambling casino industry is valued at USD 45.86 billion and is expected to grow up to USD 56 billion in 2018. Every year, more and more market share of that is going into cryptocurrency gambling solutions. Right now, 60% of all BTC transactions are made for gambling purposes. And the industry has two major problems: transparency and price of the online gamble.
+ At this point, online casinos have full power to cheat without being spotted.  At this point, players need to pay deposit/ withdrawal fees, wait for payouts and
+gamble on 1% - 15% house edge.
+It all can be changed with the Edgeless Ethereum-based Casino.
+Comparison table shows the main Edgeless casino based on Ethereum competitive advantages for attracting player against online and bitcoin Casinos
+
+Traditional Online Casino
+
+Bitcoin Online Casino
+
+House Edge
+
+1% - 15%
+
+No logins/ registrations needed for casino x users
+
+Free money withdrawals and deposits
+
+x
+
+No delay to money withdrawals and
+
+x
+
+deposits
+
+100% anonymity provided by a
+
+x
+
+cryptocurrency
+
+1% - 0.1% Yes
+Yes Yes
+Yes
+
+Edgeless Online Casino (Based on Ethereum Smart Contracts) 0% Yes
+Yes Yes
+Yes
+
+17
+
+Random number fairness check
+
+x
+
+Fully transparent random number
+
+x
+
+fairness check
+
+Transparency guided by Ethereum smart x contract
+
+Impossible for intentional casino profits x draining
+
+Yes
+
+Yes
+
+x
+
+Yes
+
+x
+
+Yes
+
+x
+
+Yes
+
+4.2. Marketing Plan
+We do believe that having the best product/best offer is the key. Our team is planning to offer perfect gambling conditions: 0% house edge and ultimate transparency (Ethereum based smart contracts). Right now, there is no product like that in the market - our casino will be the first one.
+Our main marketing messages:  Perfect gambling experience with 0% house edge  Fully transparent casino based on Ethereum  Fast gaming like on Bitcoin casinos even though Edgeless is based on Ethereum blockchain  0% Edge BlackJack, 0% Edge Video Poker
+In the first stage, we will target gamblers who are already familiar with cryptocurrencies. In the next stage, we expect to attract a large proportion of gamblers from traditional casinos. We will accept main cryptocurrencies by implementing a "Shapeshift" converter and will also pay attention when it comes to attracting and accepting fiat currencies. Most people are already furious from all of the drawbacks that regular casinos have.
+After the successful Crowdsale, we will put a lot of focus into product development, legal procedures and capturing market share from other cryptocurrency casinos. The development process, business operations, and legal procedures will take 4-6 months. After all of the preparation procedures of Edgeless Casino's development and licensing, we will implement mass-scale marketing strategies. All marketing efforts will be put in to attract people from cryptocurrency and traditional online casinos, in turn boosting the overall
+18
+
+popularity of cryptocurrencies and fair gambling. Having a 0% Edge Casino is a strong advantage to attract users to Edgeless Casino, where they can find many other gambling and betting games. One of these will be Sports betting, which will have a 4% commision fee.
+4.3. Profit Forecasts (ROI %)
+We offer games which are a combination of skill and luck. If players will play the perfect basic blackjack strategy, they will reach 0% house edge. However, that's not the case for an average player. From an average player, because of his mistakes (read it here), we expect to get a 0.83% house edge. In the later development stages, we will introduce sports betting which will drive an additional stream of profit. Sports betting is connecting players who are betting against each other and we would take the juice/rake/vig for process facilitation. It's similar to the `rake' used by poker rooms. The sports betting vig will depend on the game type, the number of participants, bonuses and more. It is dynamic, floating in the range of 0% - 10%. In our casino, we aim to have 5% of all money wagered be placed as a sports bet with 4% ROI.
+5. Crowdsale
+The Crowdsale of Edgeless and the corresponding token creation process will be organised around the smart contracts running on Ethereum. Participants willing to support the development of the Edgeless Casino Project can do so by sending Ethereums to the designated address. By doing so, they are purchasing Edgeless Tokens (EDG) at the rate of 1 000 EDG per 1 ETH which are sent instantly to their wallet.
+Crowdsale ends when the end date (21th March 2017, 4:00 pm GMT) is reached, or when the total amount of supplied Edgeless tokens (440 000 000 EDG) are sold.
+If the Crowdsale campaign does not reach its capital goal of 50 000 EHT or the equivalent, all funds will be returned to the EDG holders by the Ethereum smart contracts.
+19
+
+5.1. Crowdsale summary
+
+EDG created per ether Maximum goal to sell Edgeless tokens: Minimum goal to sell Edgeless tokens: % of tokens generated to Edgeless team*
+% of tokens generated to Crowdsale partners % of tokens generated to Crowdsale participants Date of Crowdsale start Date of Crowdsale end Maximum number of EDG generated
+of which Crowdsale participants of which Edgeless team of which Crowdsale partners
+
+1 000 EDG
+440 000 000 EDG
+50 000 000 EDG
+10% of the tokens (belonging to the Edgeless team, are automatically locked for 12 months by a smart contract)
+2%
+88%
+28th February 2017, 3:00 pm GMT
+21th March 2017, 4:00 pm GMT
+500 000 000 EDG (unissued/ unsold tokens are automatically burned by a smart contract)
+440 000 000 EDG
+50 000 000 EDG
+10 000 000 EDG
+
+*After the Crowdsale, Edgeless team's 10% tokens will be locked for 12 months by a smart contract.
+
+20
+
+5.2. Announcement of Crowdsale beginning
+The Crowdsale beginning will be announced through the following channels:
+ Project webpage: edgeless.io  Official Twitter: twitter.com/edgelessproject  Official Slack: edgelesscasino.slack.com  Reddit: reddit.com/r/edgeless
+5.3. Edgeless Tokens (EDG)
+Edgeless will issue 500,000,000 Edgeless tokens (EDG). Edgeless tokens will be an Ethereum-based token of value. The tokens are a digital asset, bearing value by themselves based on their underlying assets, properties and/or associated rights. Edgeless tokens represent ownership rights to the dividends of Edgeless Casino.
+Ethereum-based tokens rely on a well-established Ethereum infrastructure, benefiting from several advantages:
+ Security and predictability (as opposed to, for example, having to run an independent blockchain network);
+ Use of robust and well supported clients (Ethereum-based tokens can be managed with official Ethereum clients):
+ High liquidity (interchangeable with other Ethereum- based tokens or Ether); easier listing on exchanges with infrastructure already in place;
+ Ethereum smart contracts enable a very t ransparent and secure way of profitsharing among the token holders.
+Our Ethereum-based token contract complies with the ERC20 standard, which means that it is extremely easy for exchanges involving trading edgeless tokens to happen. More detailed info about the ERC20 standard: https://github.com/ethereum/EIPs/issues/20
+21
+
+5.4. Crowdsale "Power Hour" rewards
+The first hour of the Crowdsale will be a Power Hour. During the Power Hour, 1 Ether will buy 1200 EDG. After that, the price will change to 1100:1, and then decrease every week until it reaches 1000:1 in the third week:
+
+Power hour (28th February 2017, 3:00 pm GMT - 28th February 2017, 4:00 pm GMT):
+
+1ETH = 1200 EDG
+
+1 week (28th February 2017, 4pm GMT - 7th March 2017, 4pm GMT):
+
+1ETH = 1100 EDG
+
+2 week (7th March 2017, 4pm GMT - 14th March 2017, 4pm GMT ):
+
+1ETH = 1050 EDG
+
+3 week (14th March 2017, 4pm GMT - 21th March 2017, 4pm GMT): 1ETH = 1000 EDG
+
+5.5. Budget
+
+How the Crowdsale Fund Will be Used?
+
+Field Legal
+
+Portion of a Budget 14%
+
+Development
+
+33%
+
+Casino Bankroll to pay wins 20%
+
+Operations
+
+17%
+
+Marketing
+
+16%
+
+Activities
+Startup registration costs, casino licensing, law company which deals with cryptocurrency legalities
+`Break down in dev. roadmap'
+Stored in a separate casino wallet
+Project management, employees salaries
+Expenses of attracting gamblers to Edgeless
+22
+
+Casino (Online traffic generation expenses)
+5.6. Development Roadmap
+1. Phase - 50 000 ETH In the first phase, we will develop 0% house edge Blackjack and the "Edgeless Lounge". The Lounge will ensure a decentralized price pool which is backed by 40% of casino profits. People will have a chance to win it using our EDG tokens. Another part of investment will be allocated to the casino bankroll/bank so the casino can pay out wins for the first wave of visitors. Learn more
+2. Phase - 110 000 ETH At this phase, most of the funds will be allocated towards security/hacker prevention and increased size of Edgeless Casino's bankroll so that it can payout any larger wins. A bigger bankroll means a larger betting range for visitors and more wagered money as a result.
+3. Phase - 190 000 ETH We will work on the development of a new game - 0% house edge video poker. It is based on luck and skill, the same as Blackjack. The second game is a micro limit dice - a pure luck game.
+4 Phase - 250 000 ETH This phase is all about the sports betting development. It has a smaller scale but better ROI than traditional games. Our Edgeless way will offer a much lower edge than other casinos. Sports betting will be so that our casino can stay competitive.
+5 Phase - 360 000 ETH The Grand Vision - a platform for developers where they can easily take our tools and develop their own fully transparent casinos so cryptocurrency and blockchain can become the standard of the casino industry. And later on, the standard of the world.
+23
+
+5.7 Timeline
+Date of Crowdsale announcement Date of Crowdsale starts Date of Crowdsale ends "Edgeless Lounge" Live 0% edge BlackJack Live 0% edge Video Poker Live Dice Live Sports Betting Live Casino platform for developers Live
+
+(14th December, 2016) (28th February 2017) (21th March 2017) (Q2 2017) (Q3 2017) (Q4 2017) (Q1 2018) (Q2 2018) (Q1 2019)
+
+5.7. Crowdsale Ethereum-based trustless smart Contract key points:
+/* From this part of contract EDG holder can see four main dates of crowdsale, and four different prices */
+address public beneficiary; uint public fundingGoal; uint public maxGoal; uint public amountRaised; uint public start; uint public tokensSold; uint[4] public deadlines = [1484020800, 1484625600, 1485230400,1485748800]; uint[4] public prices = [909090909090909,952380952380952,970873786407766, 1000000000000000]; token public tokenReward; mapping(address => uint256) public balanceOf; bool fundingGoalReached = false; event GoalReached(address beneficiary, uint amountRaised);
+24
+
+event FundTransfer(address backer, uint amount, bool isContribution); bool crowdsaleClosed = false;
+/* Here is minimal and maximal token sale amount, if minimal amount will not be reached, sent ethers will be returned to Edgeless Crowdsale participants */
+function crowdsale( ) { beneficiary = 0x2aA2B0Ca9405B882e02851B81706904829C4AF17; fundingGoal = 50000000;//in tokens maxGoal = 394240000;//in tokens start = 1484146800; tokenReward = token(0xec1edef9c3c6035ee89589f516b20929a9225a24);
+/* The function without name is the default function that is called whenever anyone sends funds to a contract, will recieve Edgeless tokens */
+function () payable{ uint amount = msg.value; uint numTokens = amount / getPrice(); if (crowdsaleClosed||now<start||tokensSold+numTokens>maxGoal) throw; balanceOf[msg.sender] = amount; amountRaised += amount; tokensSold+=numTokens; if(!tokenReward.transferFrom(beneficiary, msg.sender, numTokens)) throw; FundTransfer(msg.sender, amount, true); }
+6. Team
+Ignas Mangevicius, Co - Founder, Blockchain-Based Systems Developer, Etherslots Founder, L inkedin He is a father and a husband. He profoundly enjoys developing centralized and decentralized systems. He is a university educated Information Systems Engineer who has been working in IT for more than 10 years.He is now focused on smart contracts and Ethereum-based decentralized apps that he sincerely believes will make a better world. His most recent project is the Etherslots.win, an app built on Ethereum blockchain.
+25
+
+Tomas Draksas, Co-founder, Professional Poker Player & Gambler, L inkedin In 2008 - 2013, online poker was on the rise and a lot of new players were jumping into the game. At that time, Tomas decided to study the math of probability and poker. Later on, my direction changed to investing, cryptocurrency and digital marketing. He is the CEO of a conversion rate design company (Convi Design) which provides solutions to start-ups in the field of conversion rates and sales funnels. Additionally, he is investing into other start-ups. My key competences which are needed for Edgeless Casino are: probability math and models, gambling theory and psychology, digital marketing.
+Tomas Lukosaitis, Co - Founder, Operations & Business, L inkedin Tomas is coming from the field of P2P technologies, the sharing economy and FINTECH industry. He was working as digital marketeer in a platform "SAVY". It is a peer to peer lending platform which connects investors to consumer loan offers. Currently Tomas owns an IT development company which is specialising in Mobile App Development. My key competences which are needed for Edgeless Casino are: digital marketing, operations management.
+Dipl.-Ing. Julia Altenried, Smart Contract and Dapp Developers She studied computer science at the University of Salzburg and the Politechnical University of Madrid. Julia has gathered over 8 years of experience as a software engineer, working for different international companies, and then founded JAM Data. Julia specialized in IT-Security and later blockchain technology with a focus on Ethereum smart contract development. In Blockchain technology, she sees the potential to increase transparency in governmental operations as well as business processes, thereby reducing corruption worldwide. When not working, she is traveling around the globe or practicing Yoga.
+Dipl.-Ing. Stefan Höller, Smart Contract and Dapp Developers Stefan was formally educated at the University of Salzburg. His career started 15 years ago as the e-commerce department head for Austria's largest bicycle retailer. He's a professional mean-fullstack engineer and early blockchain enthusiast. Currently, he is consulting for companies regarding decentralized applications. Stefan sees blockchain technology as a powerful tool to bring equal chances to developing countries. He is a fitness-freak and passionate about exploring foreign cultures.
+26
+
+Paolo Rebuffo, Advisor of Edgeless Project, Blockchain Investor and Analyst, L inkedin Paolo Rebuffo is a whale cryptocurrency investor and senior advisor/strategist of "Digital Identity". His work is related to search and analysis of valuable blockchain-related projects. "Digital Identity" has its own development team that is currently working on the bitcoin and ethereum blockchains. They also do direct financial investment in other crypto projects. Besides that he actively travels the globe and meets blockchain project teams in person.
+Ransu Salovaara, Advisor of Edgeless Project, CEO of Revoltra.com and TokenMarket.net, L inkedin Ransu is the co-founder and CEO of Revoltura, the company behind BitcoinETI, Europe's first bitcoin-backed exchange traded instrument. BitcoinETI is listed on the Gibraltar Stock Exchange and traded at the Frankfurt Stock Exchange. Ransu is also an escrow for several blockchain projects. Additionally, he is an active blockchain community member and believer in decentralisation.
+7. References
+https://bitcointalk.org/index.php?topic=948965 https://www.cryptocoinsnews.com/bitcoin-whale-gambler-says-99-9-dice-100-scam/ https://thebitcoinstrip.com/stats/2015-12-10-to-2016-12-08 http://lsvp.com/2013/08/23/at-least-half-of-all-bitcoin-transactions-are-for-online-gambling/ https://www.statista.com/statistics/270728/market-volume-of-online-gaming-worldwide/ http://mathworld.wolfram.com/ExpectationValue.html https://wizardofodds.com/gambling/house-edge/ http://wizardofodds.com/online-gambling/blacklist/ https://www.statista.com/statistics/270728/market-volume-of-online-gaming-worldwide/ http://www.technavio.com/report/online-gambling-global-market-research-2015-2019 http://www.pwc.co.uk/industries/hospitality-leisure/insights/outlook-for-casino-and-online-ga ming-market-to-2014.html https://wizardofodds.com/image/ask-the-wizard/how-poor-are-bj-players.pdf https://thebitcoinstrip.com/blog/investing-in-bitcoin-casinos.html
+27
+
+http://wizardofodds.com/games/blackjack/appendix/12/ http://wizardofodds.com/games/blackjack/appendix/4/
+28
+
+

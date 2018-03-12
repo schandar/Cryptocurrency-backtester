@@ -1,0 +1,724 @@
+COSS: CRYPTO-ONE-STOP-SOLUTION MADE EASY
+info@coss.io
+June 2017 | Version 3.0
+
+TABLE OF CONTENTS
+DISCLAIMER..........................................................................................................................................................3 ABSTRACT ..............................................................................................................................................................4 INTRODUCTION.................................................................................................................................................5 INDUSTRY TRENDS: THE PAST, THE PRESENT AND THE FUTURE...........................6
+Current Challenges........................................................................................................................................8 The Mass Adoption Challenge................................................................................................................10
+THE COSS PLATFORM OVERVIEW...................................................................................................11
+What is COSS? ............................................................................................................................................11 Team...............................................................................................................................................11 Advisory Board..............................................................................................................................................15 Strategic Partners.........................................................................................................................................20 Mission...........................................................................................................................................................21 Vision..............................................................................................................................................................21
+Eco-Life..............................................................................................................................................21 Roadmap & Development..........................................................................................................................22
+Upcoming Features..........................................................................................................25 Components.................................................................................................................................................27
+The Core Application.....................................................................................................................28 The Login Process and the Account Management....................................................29 The New Account Registration Process..........................................................29 Login Into an Existing Account..........................................................................29 User Information....................................................................................29 Wallet........................................................................................................29 KYC/AML..................................................................................................31 History......................................................................................................32 Security.....................................................................................................32 Deposit....................................................................................................33 Withdrawal...............................................................................33
+1
+
+TABLE OF CONTENTS
+Merchant Platform............................................................................................................33 Merchant Account.............................................................................................................34 Payment Gateway /POS...................................................................................................36 Exchange.............................................................................................................................37 COSS Token......................................................................................................................................39 COSS Token Swap (ICO)...................................................................................................40 COSS Tokens Allocation Plan..........................................................................................41 CAP: COSS Affiliate Program...........................................................................................42 COSS DAO...........................................................................................................................43 Architecture......................................................................................................................................45
+CONCLUSION..........................................................................................................................46 LINKS........................................................................................................................................................47 APPENDIX: Definitions.......................................................................................................................................48
+2
+
+DISCLAIMER
+This white paper is created to serve the informative purposes only, therefore, the representations herein should not be relied on. COSS.IO makes no representations or warranties (whether express or implied), and disclaims all liability arising from any information stated in the white paper. In particular, the "Roadmap & Development" as set out in the text of the white paper is subject to change, which means that COSS.IO is not bound by any representations to the future performance and the returns of COSS.IO. The actual results and the performance of COSS.IO may differ materially from those set out in the "Roadmap & Development". COSS.IO already has an existing and functioning platform (see Phase 1 of the "Roadmap & Development"), and this white paper makes no binding representations or warranties about the existing platform. No regulatory authority has examined or approved of any of the information set out in this white paper. Thus, no action has been or will be taken under the laws, regulatory requirements or rules of any jurisdiction. The publication, distribution or dissemination of this white paper does not imply that the applicable laws, regulatory requirements or rules have been complied with. Please refer to the Token Swap Agreement at https://ico.coss.io for the terms and conditions of the COSS Token Swap Initial Coin Offering (ICO).
+3
+
+ABSTRACT
+This white paper describes the Crypto-One-Stop-Solution (COSS) platform and its functionalities, approaching the subject of online payment technologies and the position of cryptocurrencies in this developing market. With over 800 altcoins on the market, there is hardly a single cryptocurrency which does not suffer from usability or user adoption issues. Imperfections in the technical setting of these digital coins result in the loss of potential customers and merchants and low transaction volumes, affecting the market price of the coin accordingly. Furthermore, the path from creating a digital wallet to making actual payments in cryptocurrencies is very inconvenient and cumbersome, requiring a beginner to spend a lot of time and effort making his/her way in the cryptocurrency world. When addressed mindfully, the problem of poor user adoption of cryptocurrencies can be resolved by means of a one-stop solution approach realized through a platform, that was designed specifically to inform and educate users about the variety of coins, helping them to make an informed choice, and providing multiple possibilities to use digital currency, all in the same place. The concept of the Crypto-One-Stop-Solution (COSS), together with its actual implementation and the technical specs are outlined in this whitepaper. Key words: cryptocurrency, blockchain, dAPPs, smart contracts, SCaaS, POS, exchange, merchant tools, payment gateway, DAO, Token Swap, ICO, e-wallet, e-Commerce
+4
+
+INTRODUCTION
+The inherent value of cryptocurrencies as an alternative payment method has gained critical mass among investors, entrepreneurs, and consumers over the last few years. Such popularity would not be possible without the blockchain technology, which has taken a number of world banks and corporations on a quest to increase the efficiency of their services. The permeation of cryptocurrencies and the blockchain technology into the global market is not simply a technological trend, but rather a steady shift towards a better future, in which managing personal finances is becoming easier, faster, cheaper and safer.
+The cryptocurrency industry has generated an entirely new market, or a set of technology-driven markets, which have the potential to disrupt the existing market strategies and the conventional business practices. However, as any other industry, the cryptocurrency industry has to face a number of obstacles, which slow down its natural dissemination among the non-technical users. One of these challenges is the absence of a one-stop-solution that would bring the existing services together into a single user-friendly 'ecosystem'.
+The main objective of this paper is to present a comprehensive method allowing to improve the overall cryptocurrency user experience by means of COSS, the Crypto-One-Stop-Solution. The COSS platform shapes the foundation for a community of cryptocurrency users: companies, startups, traders, customers and merchants into a viable market, combining the latter three elements into an ecosystem that can boost the mass adoption of cryptocurrency.
+With COSS, usability issues, related to virtual currencies are resolved in an innovative way. The platform gathers the most popular cryptocurrency services and products into one portal allowing users to gain control over their finances, to manage transactions, to integrate merchants' payments, to deposit funds and so much more. This whitepaper will introduce you to the features of the COSS platform.
+5
+
+INDUSTRY TRENDS
+Past, Present and Future
+Bitcoin has been created by Satoshi Nakamoto in 2008. Soon after, it became the first world-known decentralized cryptocurrency, that introduced a great number of new solutions to the existing electronic payment systems.
+Thanks to Bitcoin, large banks, corporations and governments started to recognize the great technological value of cryptocurrencies: the decentralized peer-to-peer public ledgers, the blockchain, the new ways to approach security and anonymity, which have spread to a great variety of fields. The fact that cryptocurrencies are censorship resistant and very difficult to shut down by a centralized institution or entity has increased the amount of trust people have in this technology.
+The design model of cryptocurrencies has revealed that the approach of the traditional financial institutions (e.g. banks) to payments is becoming obsolete, and has unveiled the new possibilities for individuals and organizations adopting them, such as:
+Facilitation of the monetary and the legal transactions eliminating the third parties; Transfer of money in a more secure or completely anonymous way, which protects the users' personal data; Access to banking and the global financial system with any device connected to the Internet, thus improving the quality of the users' lives; Avoidance of substantial transaction fees, such as those charged by credit card companies and the centralized payment processors; Reduction of the inflation risk and the risk of price speculation of a cryptocurrency.
+Cryptocurrencies have generated a technological revolution in banking, similar to the one Internet and email once brought about thanks to the blockchain technology. Bitcoin has become the first use-case of the blockchain, although it had not received a great amount of attention until 2015, when the innovation has undergone a tremendous re-evaluation within many industries, becoming one of the most widely-discussed topics in the fintech and the IT communities. Within a short period of time a large number of blockchain applications, often referred to as decentralized applications - or dAPPs, has emerged.
+The cornerstone of the blockchain is its decentralized nature independent from any control and/or influence of a single person or entity. Instead, the system is run by a network of computers, and data stored on the blockchain is distributed among them. Such distribution helps to resolve the data storage and the security issues, that is, everyone has access to the data, but no one owns it, nor can change it without every participant of the network being informed about such changes.
+6
+
+Another example of a blockchain application is a decentralized autonomous organization (DAO) which, according to the forecasts, can become one of the most disruptive innovations after the blockchain and cryptocurrencies. DAOs are considered to be a new form of legal structure, in which management and control are carried out by means of smart contracts, the so-called self-executing agreements on the blockchain.
+The number of blockchain applications is increasing and expanding further away from the domain of cryptocurrencies to other industries such as administration, accounting, real estate, data storage, etc. The illustration below highlights the growing number of users of the Blockchain applications by segments:
+
+BLOCKCHAIN APPS - END-USER VIEW
+
+THOUSANDS
+
+Descentralized Autonomous Organizations
+
+Transportation Online Storage Mesh Networks Healthcare
+
+MILLIONS OF USE CASES
+
+Smart Contracts
+
+HUNDREDS OF THOUSANDS
+
+BILLIONS OF USERS
+
+Currency
+
+Pegged Services
+
+Naming Identity Ownership Membership Voting
+
+Transfers Payments Tips Crowdfunding
+
+Wagers Bounties Family Trusts Performance Proofs Escrow
+
+Increasing creation complexity & delivery timeframe
+
+© 2015 William Mougayar
+
+Despite the increasing popularity and the wide dissemination, the existing cryptocurrency platforms that currently limited to a small number of services and products. However, the use of these platforms is directly tied to several applications, which customers need to run intermittently to be able to use cryptocurrencies, e.g. to buy, to sell, to exchange, to spend, to trade, to fundraise, to donate or to invest. Due to that, an ordinary payment in cryptocurrency takes an extended amount of time required to switch between these applications and to complete a lengthy registration process on each site before being granted access to its functions. This results in an unpleasant user experience and poor adoption of digital currencies among the masses. It also explains the increasing need for user-friendly products and services, such as a one-stop-solution platform. Large organizations, including the Big Four companies, as well as technology corporations, are now looking for ways to develop such products and solutions.
+7
+
+CURRENT CHALLENGES
+The main reason why cryptocurrencies keep gaining traction is because the use of FIAT currencies imposes limitations on users, such as inability to provide identity protection and the safety of the transaction process.
+The problem of credit card payments is that it is an extremely cumbersome process that requires not only a customer and a merchant, but also banks, acquirers, payment processors and a group of organizations operating the network, to participate. This brings up a number of middlemen in discussion, and also increases the transaction costs.
+Although the payment technologies are constantly evolving, and the concern about the peer-to-peer (P2P) payments is increasing, in this highly competitive environment, all the players are now working hard to maintain their position in the market, and to disrupt the status quo. This is done to eliminate the complicated and inefficient set of separate processes that are at the core of every payment system.
+The payment ecosystem is limited to being a counterpart of a broader commercial landscape, in which fraud management and data privacy are carried out integrally within the IT security framework. This framework spans towards the Internet, mobile devices, social networks and cloud services. As a result, the payment-processing organizations have to manage the risks associated with the online payments in FIAT currency via a complex and slow mechanism. On top of that, many Fintech applications have vulnerabilities when it comes to fraud, theft and chargeback prevention, carrying out cross-border transactions, providing data security, multi-currency payments and on-the-go payments.
+According to IBM Commerce `Pay It Forward' e-book there are three major challenges that the payment processing sector faces at the moment:
+Satisfying customers' needs for payment options and localization; Meeting security, privacy requirements and regulations; Reducing complexity across the payment ecosystem.
+
+80%
+of customers
+dislike the checkout process because it's inefficient or inaccurate9
+
+52%
+of shoppers
+want to see a variety of payment options at checkout10
+
+Key takeaway: Provide customers with a frictionless shopping experience regardless of when, where and how they want to pay.
+
+24%
+of consumers
+have abandoned an online purchase because their preferred payment option was not offered11
+
+Source: IBM Commerce `PayIt Out' ebook
+8
+
+The expansion of E-commerce has increased the customer demands for multiple payment options, emphasizing the need for a seamless user experience. The high-growth areas within the industry are focused on mobile payments, multiple payment options and on-the-go payments. Cashless transactions over smartphones and tablets amount to about 39% of e-commerce sales in the UK alone as of 2015. Above that, between 2015 and 2018, the global e-commerce spending is expected to reach 56%. To enable this, retailers need to ensure that the checkout and the payment processes are smooth and optimized. In the US, the mobile payment industry is predicted to reach 73% by 2019, which will increase the payment providers' concern about security.
+
+USD 32 million
+lost in US retail credit card fraud in 2014, up 39% from 201318
+59%
+of consumers
+fear having their credit card data stolen or abused20
+
+75%
+of consumers
+expect online payment systems, stores and banks to protect them from fraud19
+49%
+of consumers
+feel vulnerable to security risks when transacting online21
+Source: IBM Commerce `PayIt Out' ebook
+
+In spite of the rapid market development of the online payments worldwide, the problem of poor cryptocurrency adoption remains unresolved. Although the outstanding role of the crypto in the Fintech world is recognized and taken into consideration by the IT industry leaders, such as Microsoft and DELL, for instance, a number of technical reasons, such as the technology's inaccessibility, the overload of difficult terminology and the usability hindrances prevent the average internet user from taking advantage of digital currencies, causing their slow adoption rate. Thus, a PwC research on the cryptocurrency market conveyed in 2015 has shown that the level of familiarity with cryptocurrencies among people affects the frequency of use, meaning that the key to cryptocurrency user adoption lies in spreading the knowledge about it and making it more accessible for an average person.
+
+9
+
+THE MASS ADOPTION CHALLENGE
+According to the cryptocurrency adoption research carried out by Hardwin Spenkelink, the three main barriers to overcome for greater cryptocurrency adoption are:
+The ease of use/ the lack of user-friendliness: Sending and receiving digital money is still cumbersome, because each time the user decides to spend cryptocurrency, he/she is required to visit three different websites to be able to do simple operations such as setting up a wallet, making an exchange or spending cryptocurrency. Users are also lacking confidence in the safety of their funds.
+Fluctuation: The price volatility of many existing altcoins is driven by speculation, whereas the lack of liquidity makes keeping funds in cryptocurrency risky for users. The constantly changing cost of cryptocurrencies, undermines the possibility of using them as a value storage.
+Governance: In the Bitcoin system, the centralized governance is viewed as undemocratic, implying that the large mining pools and the big investors own most of the available bitcoin supply.
+The second generation of cryptocurrencies, initiated by Ethereum in 2014, has taken into consideration the Bitcoin experience with all its drawbacks and designed a different governance model. Although Ethereum's blockchain has many similarities with that of Bitcoin, the main difference between the two is significant: Ethereum uses the blockchain as a shared space for other decentralized apps and smart contracts, making them easily compatible via its system. In this way, governance is taken away from a centralized individual or entity. The protocol on Ethereum does not require parties to trust each other and allows them to reach consensus automatically. The use of ether token on Ethereum excludes any possibility of speculation, because the token's main function is to serve as a fuel for the network.
+Removing the above-mentioned barriers is likely to improve the adoption of digital currencies, although the success is not guaranteed. For many users, the benefits of using cryptocurrencies outweigh the aforementioned barriers. These benefits are:
+Low transaction costs; Low entry barriers for newcomers; Cross-border transactions at fast speed; Pseudonymity.
+The above-mentioned factors indicate that the success of massive user adoption of cryptocurrencies lies in the user-friendliness and the level of awareness of the general public about the technology. Users should feel comfortable and safe with any cryptocurrency service having all their needs covered in the same place with no need to visit multiple websites and go through the time-consuming registration processes. Furthermore, gaining sufficient knowledge about the industry (and/or related services/products) and understanding its potential will enable users to start trusting the technology and have more confidence applying it.
+10
+
+THE COSS PLATFORM OVERVIEW
+WHAT IS COSS?
+COSS stands for Crypto-One-Stop-Solution and represents a platform, which encompasses all features of a digital economical system based on cryptocurrency. The COSS system consists of a payment gateway / POS, an exchange, a merchant list, market cap rankings, a marketplace, an e-wallet, various coin facilities and a mobile platform. The COSS platform unifies all transactional aspects that are usually managed by means of FIAT money, and offers multiple cryptocurrency-related services in one place. The list of potential features of the platform can be infinitely extended, and will continue growing as the platform evolves.
+TEAM
+COSS has an international team spread across the world with the managing board based in Singapore, and branches in New York and Bucharest (development team). Apart from having the core team members residing in the above-mentioned locations, we take a great advantage of being decentralized and inclusive at the same time by having team members spread across the world and contributing to COSS remotely.
+Dan Cearnau, Team Leader and co-founder LinkedIn, Twitter Dan manages the technical aspects of the COSS system including the intricacies of the development and the security of the project's information. He is cryptocurrency enthusiast, blockchain developer and experienced entrepreneur with background in advising, consulting and IT development of diverse products enhancing the efficiency of startups, companies and organizations. Dan owns a full-stack development company that has worked with Fintech startups, and successfully implemented smart-contract applications on Ethereum as well as within the other frameworks.
+11
+
+Ioana Alexandra Frincu, Team Coordinator LinkedIn, Twitter Ioana manages the COSS development team and keeps it focused on high-quality performance and achievement of the short- and the long-term goals. She is a Computer Science and Information Technology Engineer with knowledge of ETL processing, Big Data and Machine Learning. Ioana has successfully coordinated the creation of software products, acquiring experience and expertise in various fields, ranging from Information Technology to Communication including projects in Fintech, Retail, Business optimization and Sports. Ioana's main objective is bringing innovation towards the end-user through software products. She dreams of designing comprehensive software capable of addressing the world's needs.
+Iulian Oprea, Technology Officer LinkedIn Iulian manages the technical design and setting of COSS. He is a Computer Science Engineer with a six-years' experience in delivering software products. Iulian is highly-skilled in Software Project Management, Software Development and Financial Management. He has been a developer for several years having successfully created and delivered a large number of software products to small and large companies.
+Desmond Sieow, Financial Manager LinkedIn Desmond manages accounting, bookkeeping, payrolls and reports. He is a financial professional with 10+ years of expertise and specialization in full sets of accounts, financial and management reporting, data analysis, human resource experience in payroll, HR administration, staff permit application. Desmond is IT-savvy, and is on the short leg with the accounting software, possessing a strong business acumen at the same time.
+Rune Evensen, Visionary and co-founder LinkedIn, Twitter Rune is the project's champion directing and supporting the team. He is a business and start-ups consultant, entrepreneur and public speaker, who founded and co-founded multiple Internet companies throughout his career, which includes an 18-year experience in the top field leadership in collaboration with the multinational teams. Rune's expertise lies in the field of the New Marketing Strategies, sales and marketing. Rune professionally assists businesses in developing business plans, in applying market strategies, incorporation and licensing.
+12
+
+Andrei Popescu, Experience Officer and co-founder LinkedIn, Twitter Andrei takes care of the overall user experience and support of the COSS customers, as well as the platform's operations. He is a vision-driven entrepreneur with career-long record of business growth and innovation. Having navigated several business ventures through the economic crisis of 2008, Andrei achieved the maximum operational output with the minimal resource expenditure and learned how to adapt, to survive and to grow in the challenging and the rapidly-changing markets. At the moment, Andrei is focused on the blockchain-related technologies and the SaaS (software as a service) in finance, investments and payments.
+Christopher Bridges, Compliance Officer and co-founder LinkedIn Christopher ensures the compliance of the COSS policies with the applicable state, federal and local laws and regulations. He has over 27 years of experience as notary public, commissioner of oaths and litigator. His field of practice as a General Litigator is wide and varied ranging from Shipping Law to Criminal Law. He is accredited on the List of Leading Counsel maintained by the High Court of Singapore. Christopher has served in various sub-committees in the Law Society of Singapore, and has been recognized by the Criminal Legal Aid Scheme for his contributions. His is also involved in the Academic Field as Adjunct Lecturer with Murdoch University where he teaches the Law Modules, and is a member of the Singapore Institute of Arbitrators.
+Andras Kristof, Corporate Blockchain Analyst LinkedIn Andras is in charge of the overall security of the platform, the way the blockchain technology is used and implemented to match the COSS needs. With over 20 years' experience in IT, building scalable systems, he has collaborated with the biggest players of the digital currency world such as Bitcoin, Ethereum, Ripple on the blockchain implementation, and co-authored David Lee Kuo Chuen in writing the Handbook of Digital Currency. Andras has entrepreneurial and technical background in a number of projects, such as: Viki.com (worth $230M), Yahoo Southeast Asia, Tembusu, Smartgrow and Yojee. Andras is CTO of a Singaporean startup named Yojee, which caters distributed logistics services for collaborative economies. The level of expertise that Andras has acquired throughout his career as IT professional, entrepreneur and founder of numerous companies makes him a very knowledgeable specialist in the sphere of distributed technologies and cryptocurrencies.
+13
+
+Haarek R. Andreassen, Research and Development Officer LinkedIn Haarek is responsible for the product development of COSS and the research related to it. He has technical educational background, and 25+ years of combined experience within Business Development, R&D, Process Development, IT Development, Project Management and General Management in several industries. Haarek acquired a high level of Technical, and Project understanding from working within several areas of Project Management, Project Control and Project Planning in Oil & Gas and IT. He is expert in EPC Planning, General Project Planning Techniques and Processes, Process Management (Development, Assessment, and Analysis).
+Eystein R. Lyche, Marketing Officer LinkedIn Eystein manages marketing communications, brand and sales management, advertising, promotion and distribution of the COSS services. He has 20+ years' experience in business development, management, brokering and trading, establishing and developing successful international companies, both on the owner and the operations' sides. After many years in the brokering market, Eystein has moved on to the owning side of the offshore market. Having worked in brokering companies on and off since 1997, both in Europe and Asia, he has gained significant experience across all areas of the industry. Eystein has also held several senior management positions focused on project finance and syndication in the well-renowned companies, predominately across Europe and Australia. He has management skills across an extensive specter of industries and businesses including shipping, finance, sales and business development, financial management, client recruitment, customer service skills, implementation and evolving of the new and the existing brands, products and services, recruitment and personnel development, establishing and driving market units.
+Fitro Hermawan, User Experience (UX) Manager LinkedIn Fitro creates the graphics and manages the usability improvement of the COSS system. He has 12-years' experience developing multiple design platforms consisting of the web, the print, digital media and advertising. He is an experienced graphic designer with a BA in Visual Communication Design.
+14
+
+Maria Popova, Content Manager LinkedIn Maria converts the COSS vision into the written words, manages the content and promotes the company in the media. As a non-technical person Maria has always been fascinated by innovation, and started following the cryptocurrency agenda in 2014, when she was asked to write for a bitcoin news website part-time. She knows how to make the complicated technical terminology comprehensible for the non-techie people.
+ADVISORY BOARD
+In our desire to bring cryptocurrencies to massive adoption we are eager to learn from experts in a variety of spheres such as business, IT, banking, finance, technology, innovation and marketing. We do not claim to know everything, but we ask the right people the right questions to bring the end-users services that are beyond their expectations.
+Stefan Neagu, Blockchain Technology Advisor LinkedIn Stefan worked for ABN Amro and RBS as IT Infrastructure officer gaining extensive expertise in banking-related applications like the core banking, payment systems, card management and the internet banking. Stefan re-discovered crypto during the Ethereum ICO and the emergence of Lisk. Seeing blockchain as the next revolution, Stefan started to get more and more involved into the blockchain ecosystem, now acting as Lisk Country Ambassador and part of the team that launched the ARK blockchain platform in just 4 months. Stefan is Innovation Enabler for Societe Generale Shared Service Center in Bucharest, Blockchain Consultant, Innovation Banking and Business Strategy Advisor.
+Mike Costache, Strategy / Investments LinkedIn, Twitter Mike always liked out-of-the-box thinking, so the last 20 years he kept himself busy as entrepreneur, investment banker, author, professor, speaker, angel investor and charity fundraiser. Currently, as founding CEO he has been engaged into Krowd Mentor (crowdfunding project), Chargeback Armor (credit card chargeback representation & analytics platform) and TimeWare Solutions (smart home & office automation). Mike is on the Advisory Board of Token-as-a-Service (TaaS), the first ever tokenized closed-end fund dedicated to investments into the blockchain assets. TaaS tokens are currently traded on Liqui, LiveCoin, HitBTC.
+15
+
+Since 2011, Mike is a member of Tech Coast Angels (TCA), a network of 300 angel investors who have invested $175 million into 300 deals and raised over $1.5 billion from VCs. From 2006 to 2011, Mike was the President of Leo & Leo, which represented brands such as Maserati, Segway, NetJets, PrivatSea, Sunseeker Yachts, NetSuite, Marsh, Orgil Greenhouses, Miss Universe, and Rockstar Energy Drink, with the total sales amounted to 60 million. From 2000 to 2006, Mike served as founding CEO of Pioneer TeleCare, an e-commerce firm with total revenues of $4 million. From 1998 to 2003, Mike was an Associate at WestPark Capital, The Interlink Group, Millennium Capital Partners.
+Professor Tan Kim Song, Financial Advisor Prof. Tan Kim Song is currently a faculty member at the School of Economics, Singapore Management University, specializing in international economics and international finance. Prior to his present appointment, he was a Managing Director at Fleet Boston Bank, having also worked at other investment banks including Chase Manhattan Bank and others. He was involved in various aspects of the fixed income business. Before that, he was a senior journalist at the Straits Times in Singapore, covering political, economic and business issues in Singapore and in the region. Prof. Tan has been active in various businesses in the region. He is currently on the board of a number of companies in Singapore and Myanmar, including a company listed in SGX. In his capacity as an advisor/consultant over the past few years, he has worked with various entities from the private and the public sector of the region as well as multilateral organizations such as the IMF, the World Bank and the ADB. He is also active in public service, having served for many years as the Vice President of the Singapore Economic Society, and as a member of the Appeal Board of the Singapore Competition Commission. Prof. Tan holds a PhD in Economics from Yale University and a Bachelor of Economics (First Class Honors) from Adelaide University.
+Peter Sundström, Disruptive Technology Advisor LinkedIn Peter is a Solution Architect with focus and skillsets at finding disruptive technology trends, in many cases decades before the others. He has been in IT since 1985 and has a wide and deep knowledge in Development, IT infrastructure, Virtualization, Security, Cloud and Leadership with a long list of professional certifications. Peter has successfully directed development teams building $200m solutions for one of Sweden's largest and most successful retailers, the lead task-force team that saved a Bank from losing its license, designed IT security in military-oriented organizations. Peter's goal is helping both people and organizations to reach higher knowledge levels enabling them to find the real business values in the new technologies.
+16
+
+Anson Zeall, Blockchain Industry & Community Advisor LinkedIn, Twitter Anson is the Chairman of ACCESS, Singapore's Cryptocurrency and Blockchain Industry Association and a committee member of the Singapore Fintech Association. Anson is also the Co-founder/CEO of CoinPip, a payout service leveraging on the blockchain technologies. CoinPip is backed up by 500 Startups, one of the most prominent venture capital firms in the Silicon Valley. He is an instructor of blockchain 101 at the General Assembly of Singapore. Prior to CoinPip, he ran a private family office in Singapore managing various asset classes, equities, derivatives and real estate.
+Ionut Scripcariu, Payment Gateway and Card-Solutions Advisor LinkedIn Ionut is currently a Managing Partner at CardBlue, the company issuing prepaid MasterCard. He has 10+ years' experience in management within the payment industry at companies such as Union Card Services and Smart Paynetwork.
+Cristian Hagmann, Corporate Strategy Advisor Cristian has 20+ years' experience in the energy sector with focus on the medium voltage networks, IT energy services, network automation research, energy market analysis and energy supply. He started his career in Vienna by providing medium voltage networks management. In 2010, he was invited to speak about smart networks at an industry-related conference in Romania, where he launched a company catering IT energy services and network automation research soon after. To define the company's strategy, Cristian's team conducted the energy market analysis in Romania, and discovered that the demand for smart metering was strong. The outcomes of the analysis inspired Cristian to launch the energy supply company named Eva Energy becoming pioneer in the subscription-based energy supply in Romania with the innovative approach to portfolio structuring that Cristian applied to boost the development of his business.
+John Chrissoveloni, Equity and Trading Advisor Throughout his career John has been president and shareholder of a few companies in Bucharest in the spheres ranging from real estate and IT to finance. He began as mechanical engineer in the late 1960s, and since then has built his career up to CEO's position, having worked as General Manager, International Business Advisor and Consultant in between. John is highly-skilled in strategic planning, management, operation, consulting, finance and investing.
+17
+
+Since the year 2000, John has become involved into the IT and Fintech industries as president, founder, and shareholder of a company processing card services. Currently, he is CEO of Cardblue, a company that is leading the catering of prepaid MasterCard and services in Romania.
+Zach Piester, Strategy / Investments LinkedIn Zach is an innovation, digital transformation, venture investor, growth executive and public speaker. He brought together strategic, creative, and technical skills to assist the industry leaders in grasping the innovation, digital capabilities, and organizational design in order to transform and sustain their positions at the forefront of their industries. Zach is an early stage investor in Blockchain, DLT, Digital Health, IoT, Data & Analytics, Sensors, deeply involved in the organizational design and growth of a variety of FinTech, InsurTech, & non-financial blockchain, distributed ledger, and emerging technology co.'s. He is a regular global public speaker sharing his strategies and insights about the technology trends shaping the global business across the future of work, organizational design, blockchain, Ethereum, Hyperledger, FinTech, RegTech, insurance, economic policy, human resources, innovation & emerging markets of Asia.
+John Bailon, Crypto Adoption Ecosystem Advisor LinkedIn Since 2014, John has been building a Bitcoin ecosystem in the Philippines with the help of the like-minded partners. John leads the team as CEO, guiding the vision of the company and the development of the SCI's products. The rare combination of technical expertise alongside the business acumen allowed him to lead the company's rapid growth, and his passion for developing the Bitcoin technology is reflected in the SCI's successful lineup of products and services today. John is convinced that money transfers is an enormous opportunity in the Philippines, with at least US$30 billion entering the country in 2014 alone, and another US$40 billion in internal remittances. More importantly, he sees Bitcoin as the breakthrough technology that will revolutionize this industry. John is an entrepreneur and a software developer. The two key skills that allowed him to build his first venture, Baicapture Inc., from an idea in 2006 into a profitable company today with presence in the Philippines and Singapore. His unique skill set has enabled him to leverage technology to build products that are lucrative and popular. John understands technology, recognizes business opportunities and combines them to create the winning products.
+18
+
+Miguel Cuneta, Crypto Adoption Ecosystem Advisor LinkedIn Miguel is co-founder and the Chief Community Officer of SCI. His background is in human resource management, marketing, and business management. Miguel is a founding member of the Bitcoin Organization of the Philippines and is an active voice in the Philippine Bitcoin/blockchain community. He is also currently interested in the renewable energy sector.
+David Zhou Yi, Legal Advisor
+LinkedIn
+David's experience arises out of the service in the first joint-venture of China, during which he got acquainted with the working manner and the mentality of the domestic and the international clients, to whom David's team provide the long-term and the ad hoc legal and counseling services.
+His legal career started with the contentious and the non-contentious issues related to trade and the shipping industry. Since the late 90's he specializes in insurance, cross-border investment and transactions, litigation and arbitration. David advises foreign clients from the US, Europe and the ASEAN nations, who are representatives of diverse industries, on investing in China, prosecuting and enforcing their rights and interests nationwide. David is very active in dispute resolution related to civil and commercial matters, and has been appointed to shed the light on the courts and arbitration tribunals, and the law-related issues in and out of China.
+As an individual recommended by Legal 500, a leading legal practitioner in China acknowledged by Euromoney, a highly recommended leading lawyer in China acknowledged by the Chambers Asia-Pacific and a representative of various associations, David retains an extensive and close relationship with numerous professional organizations and the law offices worldwide. As a qualified practicing Chinese lawyer, David has vast experience in protecting and enforcing the foreign clients' rights in China. With his vast local expertise and knowledge, David interprets the cross-cultural issues and provides practical solutions to foreign clients when they have legal needs pertaining to China.
+Additionally to his legal practice, David has a broad experience in teaching as Adjunct professor at the Shanghai University of International Business and Economics (SUIBE), Guest professor at the Shanghai University of Finance and Economics (SUFE) for the international LLM programme, Lecturer at the East China University of Political Science and Law (ECUPL) for postgraduates, Mentor at the University of the Pacific McGeorge School of Law, CA, United States and Speaker at Lloyd's Maritime Academy.
+19
+
+STRATEGIC PARTNERS
+ACCESS - Association of Cryptocurrency Enterprises and Startups Singapore Singapore Fintech Association (SFA) Chamber of Commerce and Industry Romania (CCIR) Chamber of Commerce and Industry Romania Israel (CCIRI) CoinPip Attores Satoshi Citadel Industries (SCI) CardBlue Eva Energy Exulto Consulting ARK CoinFirm Bridges Law Firm UDevOffice Howdy FinancialIT
+20
+
+MISSION
+The main goal of COSS is to bring cryptocurrencies to the masses. What COSS aims to cater to its users is a complete experience of accessing the available cryptocurrency services and products in the same place. From the very first moment a customer decides to use cryptocurrency he/she will be guided through the platform and its features. Protected from any unwanted negative experience, the user will continuously find the new possibilities to use the platform and to interact on it. By means of this integrative approach to virtual currency services, the platform aims to become the most preferred medium, familiarizing the COSS customers with the cryptocurrencies and the ways of using them. For this purpose, the COSS platform is equipped with its own token, a wallet, an exchange, a merchant platform, payment gateway / POS and a list of features that are closely related to the use of crypto.
+VISION
+The COSS team is visionary in the way it approaches the development of the Crypto-One-Stop-Solution. On the track to massive cryptocurrency adoption we do not allow the limiting belief systems to interfere with the development of the COSS platform. We accept the changes that the rapidly-evolving technologies bring, and welcome innovation on any and every level. We plan our success with determination and implement it into our strategy that implies the following steps:
+providing for all the cryptocurrency users' needs via one-stop-solution services; rewarding users for bringing new merchants and affiliates on board; establishing a marketplace, where cryptocurrency users and merchants can meet each other seamlessly; issuing tokens with real value; expanding the network of customers by providing the high-quality services; enhancing the security of the system; adopting the disruptive innovations.
+ECO-LIFE
+Cryptocurrencies have all the prerequisites to becoming a viable replacement for FIAT money over the Internet, allowing millions of customers, including merchants, startups, businesses, charities, etc. as well as the unbanked individuals to gain access to the most technologically-advanced payment methods. For this reason, at COSS we have designed the concept of Eco-Life, a borderless digital economic system suitable for cryptocurrency users. The Eco-Life is aimed at eliminating the challenges faced by the online payment industry via:
+21
+
+Catering goods and services within the e-Commerce and the Merchant Platforms; Increasing the community of merchants accepting crypto as the most preferable payment method via the COSS POS; Developing a lively marketplace with cryptocurrency-related services and products; Integrating the public cryptocurrency exchange into COSS; Providing a competitive payment solution for industries such as gaming, real estate, etc. with direct funds deposition enabled on COSS; Cashing-out cryptocurrencies via COSS prepaid cards.
+The list of potential industries, which can benefit from using COSS is literally infinite and cannot be defined completely. Just like the internet, which is impossible to shut down, the COSS platform is likely to become a `living' project, or `a smart contract with no expiration date' that can endure many technological and social changes.
+ROADMAP & DEVELOPMENT
+A project as huge as COSS would not succeed without a thorough strategic planning and expansive vision. Therefore, we put so much emphasis on writing every milestone down, and having reached it, proceed to the next one already pre-planned. Having a roadmap is very important for COSS, as it keeps us focused on the present moment, and allows us to zoom into the future, once the targeted milestones are reached.
+PHASE 1
+January 2016 ­ COSS Idea From 2009 and up until recently, using cryptocurrencies has been a lengthy and cumbersome process from the usability perspective. A thought of a universal platform combining all the necessary features in one place: e.g. a wallet supporting multiple cryptocurrencies, an exchange and a marketplace, started crossing the minds of the digital currency users. We thought about it too. May 2016 ­ Idea Validation ­ MIT (Scored 100/100) In its early shape, COSS was conceived during MIT Fintech course modules taken by Rune Evensen. In the beginning, the concept seemed rather too obvious, however having done the necessary research Rune realized that no one attempted to create an integral one-stop solution platform for cryptocurrencies before, or at least wasn't successful in bringing it to life. Feedback, encouragement and support from the course participants convinced Rune to move on with Crypto-One-Stop-Solution. June 2016 - Whitepaper v1.0 The first detailed COSS outline on paper.
+22
+
+August 2016 ­ Team Consolidation and Dev. Start October 2016 ­ Whitepaper v1.1 November 2016 ­ C.O.S.S. Pte. Ltd. Incorporation COSS was registered in Singapore as a company. December 2016 ­ Dev. Server Environment Created January 2017 ­ Pre-Marketing to Strategic Partners and Merchants We started speaking about COSS publicly, promoting it on social and networking events, and attracting the first partners and merchants on board. 1st April 2017 ­ Beta Launch ­ COSS is Live The COSS platform saw the light of day for the first time with a fully operational cryptocurrency exchange, newsfeed, market ranking, e-wallet, APIs, coin listing, proof-of-development and the first set of merchants' services. May 2017 ­ 100 Merchants and 600 Users on board COSS
+- Partnership with the International Chamber of Commerce and Industry of Romania (CCIR) - Partnership with the Chamber of Commerce and Industry Romania ­ Israel (CCIRI) - Collaboration with Attores June 2017 ­ Strategic Partnerships and MOUs - Eva Energy ­ MOU - Cardblue ­ MOU - Coinfirm ­ MOU - CoinPip ­ MOU - Satoshi Citadel Industries - MOU - June 8, 2017 BlockCon ­ Disruptive Innovation Conference (Romania, Bucharest) ­ Hosted by COSS and CCIR
+An event dedicated to blockchain, cryptocurrency, smart contracts, financial technologies, IT, innovations and business where Crypto-One-Stop-Solution was presented in Europe for the first time since the official launch.
+23
+
+PHASE 2 July 10-13, 2017 - the COSS Token FIRE SWAP (Pre-ICO) August 8, 2017 - COSS Token Swap (ICO) The start of the Token Swap (ICO) campaign for initial token distribution and offering September 6, 2017 - Token Swap (ICO) ends September 20, 2017 - Release and trading of the COSS tokens The Implementation of the new COSS features following the ICO: COSS Affiliate Program (CAP) Issuance of COSS prepaid cards for easy deposit/withdrawal in association with CardBlue P2P remittance via SCI B2B remittance via CoinPip Enhanced AML functions via CoinFirm Community channel via Howdy Digital signing of documents and certificates via Attores
+PHASE 3 COSS is a living project that aims to evolve and develop in the same trajectory as the rapidly-changing Fintech industry. To be able to keep up with the industry trends, throughout 2018 and 2019 we will be looking for:
+Strategic Partnerships with innovative companies from the Fintech, the blockchain and the related areas to help bringing their disruptive ideas to fruition, and to develop the new solutions by means of the COSS infrastructure; Mergers and Acquisitions: start-ups that have powerful concepts and the potential to increase the technological and the market value will be able to merge with or be acquired by COSS; Incorporation of COSS as entity in different locations of the world for the sake of the strategic and the optimized efficiency. Our Business Development Plan implies establishing the COSS Regional Offices worldwide in accord with the Team growth; Development of the new features: the flexible structure of COSS allows adding new features to the system continuously and always staying up-to-date with the industry's requirements and the customers' needs.
+24
+
+UPCOMING FEATURES
+The upcoming features, which will be developed in this phase include:
+Smart Contracts as a Service (SCaaS) Smart Contracts as a Service (SCaaS) is a segment of COSS, which allows businesses to create and execute smart contracts within their system in order to simplify and automate their actions. SCaaS has potential to become as popular as SaaS (Software as a Service) in terms of its adoption within businesses, and has been predicted to advance the functionality within a wide range of industries. For this reason, we aim to advance the COSS software gradually to be in tune with this technological trend.
+COSS has a very wide range of possibilities for development within the cryptocurrency industry. One of the main objectives of COSS is to create an environment, in which the community of cryptocurrency users will continually expand. Therefore, COSS invites startups onboard to create a vibrant market with a financial model that everyone can benefit from. The first step to building the market is realized through offering Smart Contracts as a Service allowing to implement the following features:
+crowdfunding peer-to-peer funding healthcare marketplaces escrow insurance voting, etc. The full list of potential applications of SCaaS cannot be complete at this point of the technology's development, because it is very new. The same is true about the entire COSS system, that is subject to continuous change aiming for the leading position in the market.
+Smart contracts within COSS are offered as standardized templates to be signed on the blockchain for a small fee, enabling agreements between people, regardless of location. At COSS, we keep our mind open for collaboration with enterprises, businesses and startups that share the same vision and would like to cooperate in making the platform more global.
+DAO The future of COSS goes far beyond the existing structure and functionality, and will reach the point in the future when it will become completely autonomous, decentralized, and run or managed as a DAO.
+In a simplified way, DAO is a computer program, run by a peer-to-peer network, in which the governance and the decision-making is prescribed by the code or the pre-programmed smart contracts. DAOs can be set to operate autonomously, without human involvement, implying that the code can provide the direct, real-time control of the DAO and the funds stored on it.
+25
+
+Because of its decentralized governance, DAOs have no central point of failure, representing the new generation of organizations and businesses that can be turned into DACs (Decentralized Autonomous Corporations and/or Companies). In the future, the COSS system will also allow creating DAOs for and by other customers as one of its added features. COSS is meant to propose a means of improving the overall cryptocurrency user experience, shaping the foundation for a community of cryptocurrency users: companies, startups, employers and employees, traders, customers and merchants into a viable market. All of the above-mentioned are the essential elements required for the mass adoption of cryptocurrency. COSS has a very wide range of possibilities for development within the cryptocurrency industry. One of the main objectives of COSS is to create an environment, in which the community of cryptocurrency users will continually expand. Therefore, COSS invites startups onboard to create a vibrant market based on a financial model that everyone can benefit from. In order to expand, COSS aims to implement 3-5 new features each quarter, and apart from following its long- and short-term goals intends to make new partnerships constantly, adding new products and services that can help to extend the functionality of the platform. The number of features, that can be implemented into the COSS platform is potentially infinite, however the diversity of the digital ecosystem promoted by COSS would not be possible without products and services originating from the external sources. Seeking to explore the new markets, we are looking forward to joining forces with the enterprises that share our vision and are willing to contribute to making the platform more global as well as becoming part of the cooperative blockchain/fintech community.
+26
+
+COMPONENTS
+Crypto-One-Stop-Solution is developed with regard to the global needs of the cryptocurrency industry in general, and with due attention to the demands of the individual users who intend to manage their assets online. The platform is focused on providing individuals with approachable guidelines for a smooth start in the cryptocurrency world: helping those who already own a business to improve the quality of their service, and catering online payments and cryptocurrency services to individuals.
+The initial features embedded into the COSS platform design are: Wallet, providing COSS users with a secure medium to store cryptocurrencies; Market cap listing, an archive list featuring the market prices, the trading volume and the whitepapers of the most popular cryptocurrencies; Merchant list, an early version of the COSS marketplace, on which customers can find merchants accepting cryptocurrency payments for their services directly via COSS; Merchant Platform, a virtual marketplace, on which customers can search for merchants, services and products that are cryptocurrency-friendly; Cryptocurrency listing, a feature that allows coin developers and owners to add their tokens to the Exchange and to become part of the COSS ecosystem; Proof-of-development, a mechanism that analyzes and lists blockchain, cryptocurrency, DApps, smart contracts and DLT developers, helping individuals and businesses to hire the approved devs; News feed that displays articles published by CoinTelegraph, the updates from COSS and the twitter posts.
+The principal COSS applications are: The Core Application, consists of account management tools, the registration and the login processes, security procedures and the password reset mechanism; Payment gateway / POS, a merchant tool that helps merchants to integrate cryptocurrency payments into their web-shops; Exchange, supports the most tradable cryptocurrencies, allows COSS users to place orders, to trade and to swap the funds deposited on their COSS balances.
+The full COSS system is composed out of multiple inter-connected applications that are available to the COSS account owners, divided into two main types of users: the normal users and the admins.
+27
+
+Provides the basic layout and functionalities for a user
+THE CORE APPLICATION
+
+PAYMENT GATEWAY
+POS ensures the security of the online payments
+
+EXCHANGE
+Handles both cryptocurrencies and FIAT
+
+THE CORE APPLICATION
+The core application offers COSS users the following functionalities:
+
+Account management:
+
+A. Registering a new account B. Login into an existing account C. Logout D. User profile deletion E. Configuration security (password
+
+TWO FACTOR
+AUTHENTICATION (2FA)
+
+change, adding phone number, setting
+
+email address, two-factor authentication configuration)
+
+F. Viewing account activity log
+
+Two Factor Authentication (2FA); Wallet Management
+A. Viewing balance in each currency B. Making deposits C. Creating withdrawal requests
+
+28
+
+THE CORE APPLICATION
+WALLET MANAGEMENT
+
+ACCOUNT
+MANAGEMENT ACTIONS
+
+THE LOGIN PROCESS AND THE ACCOUNT MANAGEMENT
+The New Account registration process
+In order to register a new account, the customer must provide the following information: email address (unique); username (unique); Password at least 8 characters long, including 1 number, 1 letter, 1 special character (e.g. $@!%*#?&±+=_^).
+After submitting the form, the user must confirm his/her email address by clicking on the confirmation link. The user can't access the account until he/she confirms the email address.
+Login into an existing account
+Users can choose to go through the authentication process by entering their email address/username and password. There is a number of ways to prevent malicious breaking into an account by an unauthorized individual:
+If the number of failed authentication attempts exceeds 3 times, the application will request users to submit a CAPTCHA code;
+If there were more than 6 failed authentication requests, the application will send an e-mail notification to the user;
+If more than 10 failed authentication requests have been made, the application will block the user's account for 10 minutes.
+Having registered a COSS account, a user is granted access to the following modules:
+User information Users can change their profile details (e.g. email address, first name, last name, profile picture and address).
+Wallet In this section users can view all their balances in crypto and FIAT currencies. They can also choose to withdraw or to deposit funds.
+The currency exchange balances, which cannot be withdrawn are placed to the Exchange orders and are also displayed here.
+29
+
+The COSS funds are kept in 3 different types of wallets: the hot wallets, the warm wallets and the cold wallets. The main funds of COSS account holders are kept in the cold wallet, while the funds, which are expected to be actively used for transactions are kept in the warm wallet, thus preventing the loss of funds. The hot wallet is mainly used for deposits and the temporary storage.
+Hot wallets: Hot wallets are stored into the platform and are used for deposits. These wallets hold funds only for a limited amount of time, as the deposit transactions are being confirmed. After the blockchain transactions are confirmed, the funds are scheduled to be moved to the warm wallet.
+Warm wallets: Warm wallets are stored on a totally separate server that has all the security measures to be protected: all communication ports except for the blockchain synchronization ones are blocked, no user has access to the server directly, the wallet's password is encrypted, etc.
+Only a limited amount of funds can be stored in the warm wallet.
+Cold wallets: Cold wallets are stored on air-gapped PCs in the COSS office in Singapore. These computers have no internet connection, and the transactions from the cold wallets are processed manually by our financial managers.
+The majority of funds is stored in the cold wallets.
+
+Deposit funds
+
+User requests withdrawal
+
+Check if warm wallet has enough balance
+
+Warm wallet doesn't have enough balance to process
+user withdrawal
+
+COSS Financial
+Team
+
+Application server
+HOT WALLET
+
+Check deposit confirmations
+
+Warm wallet has balance to process user withdrawal
+
+Estimate withdrawals
+volume
+
+Withdrawal is processed automatically
+
+Check if deposit is confirmed
+Transfer funds to wallet server
+
+Wallet server
+WARM WALLET
+
+Warm wallet has enough balance to manage
+automatic withdrawals Transfer funds to cold wallet
+
+Air-gapped PC
+COLD WALLET
+
+30
+
+KYC/AML A user can check his/her account status in the left section of the menu. The account status can be upgraded by completing the KYC levels. Each KYC level comes with different limits and requirements.
+Via the KYC mechanism, COSS verifies users before allowing them to access their accounts on the platform. To register a new account, the user needs to fill-in the email address and his/her full name. The application will send a confirmation via e-mail, in which the user will be required to click on the confirmation link, before he/she would be able to access the account.
+The KYC levels available on COSS are:
+1. Basic a. Requirements: i. E-mail address verification; b. Benefits: i. < $50 trading volume;
+2. Basic Plus a. Requirements: i. Proof of Identity (submitting an identity document with a picture); ii. Proof of Residency (utility bill or bank statement); iii. Personal Information; b. Benefits: i. Trading volume < $30000 per day; ii. Option to withdraw and deposit both cryptocurrency and FIAT;
+3. Basic Ultra a. Requirements: i. Video conference with the COSS compliance team; b. Benefits: i. Unlimited trading volume.
+COSS PTE LTD is a Singapore-based company, therefore it reports to the Monetary Authority of Singapore (MAS) and the other legal organizations of Singapore. For this reason, all the KYC requirements on COSS are in sync with the laws of Singapore.
+The COSS platform automatically sets the user's country based on his/her IP address. The user can change the country any time in his/her profile screen.
+Besides requesting the KYC information, COSS tracks each user's transactions and data within the platform in order to comply with the Anti-Money-Laundering (AML) rules. In order to follow the AML/KYC rules, the platform has the following setup mechanisms:
+Collecting the information about all login attempts and IP addresses from users; Screening for and reporting about multiple accounts registered by the same user by comparing names, addresses and IP addresses; Collecting the trading history, the deposit and the withdrawal addresses from all users.
+31
+
+For enhanced security COSS implements services from CoinFirm, a company that offers AML blockchain solutions. All incoming transactions on COSS are screened, and if the receiving users' wallets have ever been involved into any illegal activities, the deposited funds will be rejected. This advanced security feature guarantees the COSS customers their trading safely.
+History In the history section, a user can view his/her transaction history, including the information about withdrawals, deposits, the account security information, etc. The actions in this section are grouped into the following types:
+Accounts: creation, authentication, enabling/disabling 2FA, adding a phone number, changing password / email, upgrading the account KYC level; Exchanges: creating / completing orders, trading; Deposits & Withdrawals: viewing the history of deposits, withdrawals and transactions;
+
+ACCOUNTS
+
+EXCHANGES
+
+DEPOSIT & WITHDRAWAL
+
+Security The main priority of the COSS team is the Security of the system, ensuring the COSS users from any unwanted and fraudulent activities on their accounts by means of the advanced two-factor authentication and the end-to-end encryption processes.
+The Security sub-module can only be accessed after an additional password confirmation has been accomplished (for security reasons). This sub-module can be used to:
+edit the user's phone number and the email address (only after the confirmation); change the password; activate/deactivate the two-factor authentication (2FA).
+Upon the 2FA activation, a user receives a 2FA code displayed in the COSS mobile authentication app or in an email.
+The application displays a list of balances for all crypto- / FIAT currencies that a user possesses. A user is also capable of making deposits and withdrawals from and to his/her account.
+The menu section on the left is used to display the available sub-modules and the users' account types (based on the KYC input information). This section also has a referral link that a user can share via email, Facebook, twitter or LinkedIn to increase his/her affiliate level and to receive the additional perks.
+32
+
+Deposit A user can deposit FIAT or digital currencies by pressing the buttons in the wallet bar inside the application. After pressing the Deposit button, he/she can select a FIAT or a crypto-currency he/she intends to deposit.
+If the user chooses to deposit a FIAT currency, he/she will be redirected to several payment options. The possible action flow will be based on the selected payment method. If a user opted for Bank Transfer he/she will be taken to a page, on which the bank transfer details can be viewed and downloaded in the PDF format.
+If the user has selected a payment gateway, he/she will land on the respective website to complete the payment. After the payment is completed, the user will return to coss.io for payment confirmation. The confirmation page will inform the user that the payment has been completed and processed.
+If a user chooses to deposit a cryptocurrency, he/she will see a pop-up with a wallet address and a QR-code of the payment receiver. The payment can be completed by scanning the QR-code, copying and pasting the address, or simply by clicking on the payment link (if the user's wallet app is installed on the device he/she is using). Depending on the cryptocurrency type, the user's balance will be updated after several confirmations. An email confirmation will also be sent out once the payment is received, indicating that the payment is completed.
+Withdrawal Withdrawals from users' balances are enabled in both FIAT and CRYPTO currencies. Users can withdraw amounts of any currency (FIAT or CRYPTO) that they own. Withdrawals are processed differently depending on the currency that is being retrieved. Some of the withdrawals are automated and some are manual. The automated withdrawals are enabled for users owning small amounts of crypto.
+If the user opts to retrieve a certain FIAT currency, he/she must enter his/her bank account details, and the withdrawal amount, and submit the withdrawal request. The withdrawal request is then manually processed by the back-office operator, and executed in the web-banking interface.
+Withdrawing in CRYPTO is similar: a user completes a withdrawal request, fills in the cryptocurrency address and the amount in the required fields.
+Merchant Platform The merchant platform on COSS aims to bring together the cryptocurrency-friendly businesses and the potential clients, facilitating the communication between them for the mutual benefit. In this way, the COSS platform performs the role of a middleman in the massive cryptocurrency adoption, helping customers to spend and to acquire their digital coins all in one place.
+33
+
+The merchant platform is the first step towards creating a marketplace, which will become an essential part of the COSS Eco-Life. The application has a front-end for the users (authenticated or unauthenticated) to search and filter merchants. Each merchant has his/her own wallet, used independently from the regular user wallets.
+The merchant platform on COSS includes a payment processor that enables businesses to send and to receive transactions in a large number of cryptocurrencies. This module allows users to create and to configure merchants' accounts. To be able to access this module, a user should select an existing merchant account or create a new one.
+One user can own multiple merchant accounts. One merchant account can have multiple users assigned to it under different roles. Each merchant has a general profile, prone to any modifications only in accord with the initiative of the owner or the admin.
+The merchant account confirmation is done by confirming the branches. For this purpose, a KYB (Know-Your-Business) solution has been set in place. For each branch, and after having a complete profile, the merchant owner has to upload information with regards to tax registration, the proof of identity and the proof of address.
+There are multiple account types designed specifically for merchants depending on their KYB, the volume of transactions and the partnership type, which they have with COSS. Having registered a new account, a merchant cannot immediately be seen by the end-users, as his/her account needs to be confirmed by the COSS management.
+Merchant Account A merchant's account is owned by the user who created it. This user automatically becomes the owner of this merchant account. The ownership status cannot be transferred to anyone else and is in the ultimate possession of rights on the merchant's account.
+A merchant can select cryptocurrencies he/she would like to accept for each of the branches (e.g. shops, locations, businesses). Additionally, a merchant can add discount intervals for each cryptocurrency and set the maximum payment amounts.
+When the user opens the merchant platform, a dialog window appears, in which he/she can select a merchant. All the sub-modules of the merchant platform are available only once a merchant is selected. From that moment on, the actions available to the merchant can be accessed.
+The owner can add new users to the merchant account and assign roles to them. The available roles are:
+34
+
+ROLE
+Owner Admin Branch Manager
+Financial Manager Sales Manager Content Manager
+
+PRIVILEGES
+All privilleges
+All privilleges except for creating or removing ADMINS
+A branch manager can only access data about his/her branch(es). A branch manager has full access to the following modules:
+Adding users (with the exception of admins and branch managers). A branch manager can only manage users to the branches he/she is responsible for.
+Accessing branches (except for deleting and creating new branches). A branch manager can only manage branch(es) he/she is in charge of. Sales To be determined
+Managing POS devices and POS users Viewing sales (on his/her branches only) Can configure the public profile of the branch
+
+A merchant can view the discount list by clicking on the currency in the Settings. Each discount has a currency, a branch, a value (in percent), a start-date and an end-date. A user can also access the discount statistics (e.g. the number of sales, the total price reduction, etc.).
+A merchant can add a discount for a certain cryptocurrency. When a customer goes to the payment page, he/she will see the list of available cryptocurrencies. A discount applied for each cryptocurrency specifically will be shown under this cryptocurrency.
+A discount can be scheduled for the future by means of a mandatory starting date (e.g. the minimum start-date: the same day, the current time) and an end-date (e.g. optional, the minimum current time).
+Each merchant has his/her own balance. A merchant, unlike a regular user, who can choose to have both a FIAT and a crypto currency account balances, can only hold a balance in cryptocurrency. Only the owner and the admin are privileged to view and to withdraw balance from the merchant's account. This also means that withdrawals can only be processed to the account balances of the owner and the admin.
+The transaction summary statement reports all the INs and OUTs of the merchant's balance. The income is usually derived from the POS and the payment gateway cells, and OUTs - from withdrawals from the merchant account. Withdrawals can only be made to another COSS account.
+
+35
+
+Payment Gateway / POS The payment gateway is an e-Commerce merchant service allowing COSS users to authorize online payments sent through the platform. It is an effective marketing tool that supports multiple currencies, integrates the exchange rates, has speedy KYB process, reporting, integration and payment mechanisms:
+The payment gateway offers COSS users multiple exchange rates from FIAT to crypto currencies. Upon its launch, the input currency list at the COSS platform was confined to: EUR, USD, the Singapore Dollar (SGD), the Malaysian Ringgit (MYR), the South Korean Won (SKW), and the Romanian Lei (RON), and can be extended upon users' request;
+Fast and secure KYB (Know-Your-Business), allowing Merchants to rest assured that the validation of their branches will not take long;
+Reporting tools within merchant platform are aimed to simplify Merchant's accounting;
+The COSS payment gateway integration takes less than 1 development hour with the COSS scripts;
+Payment Buttons and Links for Merchants, who don't have a web-shop. The payment link is a merchant tool which, allows receiving payments for their products online quickly. The payment link is generated from the merchant's profile. It contains the information that a user requires to be able to pay for a specific item (the amount of crypto, the crypto-currency used and the merchant's wallet address). This link can be sent to the customers through any means of communication, and when clicked on, it opens up a page similar to the Payment Gateway page.
+The 3rd party plugins such as Woo Commerce & Magento to accept cryptocurrency payments.
+6a. Send IPN to merchant website
+
+Customer
+
+1. User does checkout on merchant website and selects "Pay with COSS"
+
+2a. Redirect user to COSS payment page
+
+4a. Open COSS transaction page
+
+5. User makes payment
+
+Merchant website Checkout page
+
+2b. Create transactio
+
+COSS Payment page Payment page
+
+4b. Generate transaction page
+
+Open Payment page
+Show all crypto amount to be
+paid
+Select cryptocurrency
+Show payment details (payment address and QR
+Show confirmation page
+
+Show payment confirmation
+page
+
+36
+
+6b. Payment is confirmed
+
+COSS Platform (Payment gateway API)
+3. Get FIAT to crypto exchange rate
+
+Not USD Convert to USD
+
+If FIAT currency is
+USD
+Convert USD to crypto
+
+XE.com
+
+CMC.com
+
+Convert USD rate to crypto
+
+Exchange The COSS platform has an integrated Exchange developed to handle both crypto- and FIAT currencies. The users can trade currencies directly from their COSS wallets. Merchants cannot trade on the Exchange. In order to exchange their funds, stored in cryptocurrencies into FIAT, merchants are required to withdraw these funds to their personal user accounts, which allow them to trade.
+The trading pairs on the COSS Exchange are dynamically managed from the Exchange back-end. The Admin will be able to add a new pair, to set up dynamic fees for each individual currency and so on. Users can mark certain pairs as favorites.
+For each trading pair, the Exchange displays the following information: the type of currency, the daily transaction volume of the chosen cryptocurrency and the price increase / decrease over the last 24 hours.
+The COSS Exchange is based on a separate, independent custom-developed trading engine. This trading engine communicates with the web-server through an internal API. The trade takes place automatically based on the orders available on the exchange in the real time.
+Every trade occurs between two parties: the maker, who places his/her order displayed in the order book prior to the trade, and the taker, who places a matching order or accepts the maker's order.
+The COSS Exchange offers both the Limit and the Market Orders: The Limit orders are executed by the engine automatically when the price matches; if the price does not match, the limit order may never be executed; the Market orders are executed instantly.
+The differences between the limit orders and the market orders are outlined below:
+
+LIMIT ORDER
+The order will be automatically executed by the engine. It may never be executed, if the price doesn't match
+
+MARKET ORDER
+The order will be instantly executed by the engine. The price is generated by aggregating orders from the exchange.
+
+A user selects the pair and enters the amount and the maximum (for buying) or minimum (for selling) price.
+
+A user selects the pair and enters the ammount. Tthe trading price will be automatically provided by the system. The user can accept this order instant
+
+Orders can be filled partially, which means that a single order can be divided into parts and sold to different people (e.g. a sales order of 100 BTC can be split and partially purchased by several buyers willing to buy 50 BTC each).
+
+37
+
+MODULES
+
+USER INFORMATION
+
+WALLET
+
+MERCHANT ROLES
+
+THE CORE APPLICATION
+
+VERIFICATION (KYC)
+
+WITHDRAW
+
+PAYMENT GATEWAY
+
+DEPOSIT
+
+EXCHANGE
+
+HISTORY
+
+SECURITY
+
+38
+
+COSS TOKEN
+COSS is a 100% self-funded project that did not rely on any external investments prior to and upon its launch. The new and very expansive curve of its development implies launching a token native to the platform that will provide investment opportunities to people who share the COSS vision and believe in the project's potential. The name of the token is COSS.
+The COSS token is a revenue-generating cryptocurrency, that enables owners to receive revenues in the form of transaction fees charged by the COSS system for cryptocurrency transactions.
+The revenues are transferred to the COSS token holders' wallets on a weekly basis. The interest is generated by the transaction fee when transactions in Bitcoin, Ether, and other cryptocurrencies supported by COSS are carried out on the exchange and/or through the POS/Payment Gateway.
+The platform generates revenue from three sources: Withdrawal fees:
+The cryptocurrency withdrawal fees generate the revenue for the platform, however most of the fees are used by the network to process the withdrawal. Throughout this process no direct revenue is generated, which means that no amount of the withdrawal fee is shared with the DAO token owners. Exchange transaction fee: COSS utilizes the maker-taker transaction fee scheme, that generates a pure revenue for the platform. The fee is charged from both members of the traded pair. The fees begin with 0.2% of the taker and maker's fee, and end at 0.04% derived from transactions; 50% of this revenue is shared with the DAO token owners. Payment gateway: The merchant selling goods by means of the payment gateway or the POS creates the revenue for the platform. The COSS merchant platform operates on a 0.75% fee derived from each transaction; The fee is generated in the cryptocurrency that is used for that respective transaction. The fee is generated in both cryptocurrencies traded within a pair. In the case of a FIAT pair, only the fees paid in cryptocurrencies will be distributed to the token holders. 50% of this revenue is shared with the DAO token owners.
+39
+
+COSS Token Swap (ICO) The COSS token will be available for exchange during the Token Swap (ICO) campaign that will take place in August 2017. During the Token Swap (ICO) the total of 200 million COSS tokens will be released, and will become exchangeable at the rate of: 1 ETH = * COSS Tokens.
+*To be revealed on July 10th before the start of the Fire-Swap (pre-ICO). The COSS Token Swap timeline: July 10th: FIRE SWAP (Pre-ICO) (25,000,000 COSS Tokens available) Inviting strategic partners with a minimum buy-in of 50 ETH + 25% bonus COSS Tokens. The Fire Swap will last for 72 hours. July 13th: End of the FIRE SWAP August 8th: The official start of the COSS Token Swap (ICO) with the total of 130,000,000 COSS Tokens available:
+Day 1-5 = 15% Bonus Tokens Day 6-10 = 10% Bonus Tokens Day 11-15= 8% Bonus Tokens Day 16-20 = 6% Bonus Tokens Day 21-25 = 4% Bonus Tokens Day 26-30 = No Bonus September 6th: The end of the Token Swap The Token Swap ends, unless the total amount of tokens is sold-out earlier. Visit www.ico.coss.io for more details regarding the COSS Token Swap. September 20th: The release and the official start of the COSS Token trading.
+The ICO-Fund Distribution Plan is as follows: 50% - IT Development, User Experience, Roadmap Completion 25% - Mergers and Acquisitions 10% - Marketing Plan 10% - Operations 5% - Shareholders, Board of Directors, Advisers
+40
+
+COSS Token Allocation Plan Maximum Supply ­ 200,000,000 COSS Tokens (200 mil)
+25,000,000 COSS Tokens ­ Fire Swap (pre-ICO) (25% Bonus ­ 50 ETH minimum buy-in) The Fire-Swap is to be initiated on 10th of July 3 PM SG Time The Fire-Swap will close on 13th of July ­ 3 PM SG Time
+130,000,000 COSS Tokens ­ COSS Token Swap (ICO) (minimum amount is 0.001 ETH) The Token Swap (ICO) will start on 8th of August ­ 08:08 PM SG Time The Token Swap (ICO) will end on 6th of September ­ 08:08 PM SG Time
+30,000,000 COSS Tokens ­ Developers, Staff, Strategic Partnerships***, Operations 10,000,000 COSS Tokens ­ CAP (COSS Affiliate Program) 5,000,000 COSS Token ­ Shareholders***/Board of Directors***/Advisory Board**
+**COSS Tokens allocated to the Advisory Board will be locked for 90 days. *** COSS tokens allocated to Developers, Staff, Strategic Partners, Shareholders and Board of Directors will be locked for 180 days.
+65%
+COSS TOKENS ALLOCATION PLAN
+
+12.5%
+
+15%
+
+5%
+
+2.5%
+
+1
+
+2
+
+3
+
+4
+
+5
+
+1. 25,000,000 COSS Tokens ­ Fire-swap (pre-ICO)
+(25% Bonus ­ 50 ETH minimum buy-in) The Fire-Swap is to be initiated on 10th of July 3 PM SG Time; The Fire-Swap will close on 13th of July ­ 3 PM SG Time
+2. 130,000,000 COSS Tokens ­ Token swap (ICO)
+(minimum amount is 0.001 ETH); The ICO will start on 8th of August ­ 08:08 PM SG Time; The ICO will end on 6th of September ­ 08:08 PM SG Time
+
+3. 30,000,000 COSS Tokens ­ Developers, Staff, Operations, Strategic Partnerships
+4. 10,000,000 COSS Tokens ­ CAP
+(COSS Affiliate Program)
+5. 5,000,000 COSS Token ­ Shareholders/Board of Directors/Advisory Board
+
+41
+
+UNDISTRIBUTED TOKENS
+All the remaining tokens that haven't been sold after the ICO, will be paced into a vetted/audited Smart Contract serving as the COSS Charity Foundation. COSS currently partners with the biggest Charity Foundation in Romania named "Mereu Aproape" managed by one of the biggest Media Trusts in the country and supports a Malaysian entrepreneur David Wu collecting money to help the children with cancer. The "Mereu Aproape" Foundation and David have registered their accounts on COSS in order to collect charity donations in cryptocurrencies supported on the platform.
+In the nearest future COSS will contribute to more charities by dropping its unsold Tokens left after the Token Swap. The unsold COSS Tokens will be placed into a Smart Contract Pool, accumulating revenues in various crypto as per the FAIR SHARE program. Every 6 months this wallet will release all the gains to help a specific charity case (or foundation) that will be announced publicly. All the funds will be transparent due to their placement on the Ethereum blockchain, and will be donated to a charity vetted by the Board of Directors of COSS.
+The Smart Contract Codes and the Audit will be released after the Token Swap.
+
+CAP: COSS Affiliate Program Followed by the Token Swap (ICO), COSS launches a 1-tier affiliate program to stimulate the further growth of the platform and to reward the contributors. The CAP has two levels.
+Level 1: All COSS users have a referral URL displayed in their account. By sharing the link and inviting the new users to the platform, they can reduce their own transaction fees on the COSS Exchange.
+One's own trading volume counts for 100% towards the milestones, whereas the volume of all the invited referrals counts for 10% of their volume added to the affiliate's personal volume.
+All users start with a standard trading fee of 0.2% (equal for the maker and the taker on all trading pairs).
+The trading Volume Levels are as follows: 0 - 5000 USD - 0.2% FEE 5001 - 10,000 USD - 0.18% FEE 10,001 - 25,000 USD - 0.16% FEE 25,001 - 50,000 USD - 0.14% FEE 50,001 - 100,000 USD - 0.12% FEE 100,001 - 250,000 USD - 0.1% FEE 250,001 - 500,000 USD - 0.08% FEE 500,001 - 1,000,000 USD - 0.06% FEE 1,000,001 - ONWARDS - 0.04% FEE
+Level 2: COSS aims to educate its customers about the functionality of the platform and its marketing tools, by issuing a certification course that will ensure the seamless integration of the POS to merchants' online stores. This certification will also allow the COSS token holders to take advantage of the rewarding system by inviting the new users to the platform. By becoming Certified Affiliates (CCAP) users can also earn transaction fees derived from the COSS payment gateway / POS system.
+The Affiliate is required to enroll him-/herself to the certification course provided by COSS to earn these rights* (see specific affiliate terms for more info) and earn from enrolling merchants to the COSS platform. The Affiliate's earnings will depend on the number of self-registered merchants as opposed to the merchants that have paid the full setup fee, and the type of the marketing plan they've chosen: e.g. the preferred merchant listing, the preferred product listing, the banner placing, etc.
+42
+
+COSS DAO
+
+DAO token wallet (ERC20)
+Ownership of the token (ERC20 compatible)
+User can select COSS username where to receive interest
+
+Generate wallet
+
+Transfer wallet
+
+Generate DAO tolen wallet
+
+Investor wallet
+Deposit cyptocurrencies ETH
+
+ICO platform
+
+Trigger ICO smart contract
+
+DAO token
+DAO Smart Contract
+
+Set COSS stakeholder interest username
+
+COSS Platform
+
+COSS is generating revenue from transaction fees
+
+Revenue is generated in multiple
+cryptocurrencies
+crypto crypto crypto
+crypto crypto crypto
+
+50% of the revenue will be returned to the platform
+
+Call distribution
+Distribution Smart
+Contract
+Issue token
+ICO Smart Contract
+
+50% of the revenue is distributed to the
+token owners
+
+Distribute revenue
+
+Return usernames that will receive the interest
+
+44
+
+ARCHITECTURE
+COSS is built by means of a number of technologies based on the latest software development requirements. With a combination of the best frameworks at hand, COSS is aligned with the most recent technology standards.
+In order to manage the client's communication, the application NGINX creating the web proxy server, is used. The advantages of NGINX such as managing multiple connections, compatibility with a diverse range of protocols and the advanced load-balancing have determined our choice in favor of this application.
+The web proxy server communicates with the front-end applications, which are based on: Angular2, VueJS and NodeJS. The communication is done via the HTTP2 protocol and Web-Sockets.
+The Service Layer manages the SSO (Single-Sign-On), 2FA (2-Factor-Authentication), the messaging system (email sending service), user profiles, merchant profiles, wallets and the Exchange. This layer communicates with the Back-office web application (through HTTP2 and Websockets), the Wallets (through Remote Procedure Calls) and the Exchange Engine (via TCP and a Message Bus).
+The exchange engine is powered by Node.js and is a high-speed single-threaded application. The back-office management applications are built using the Bootstrap framework and Node.js, as they correspond to the latest technology standards and are widely adopted.
+The communication layer between GETH and the front-end application is implemented by means of Node.js, which uses an event-driven, non-blocking I/O model allowing it to manage communications between the users and the COSS system. The Node.js application communicates with GETH through IPC (Inter-process Communication), memory/pipe based communication between processes on the same machine. The Node.js application shares the same server with Geth.
+
+Clients
+
+Web Browser
+
+Web Proxy (NGINX)
+
+HTTP2 Web Socket
+
+Frontend Web Apps (Angular 2)
+
+Backoffice web application (Bootstrap + NodeJS)
+
+HTTP2 Web Socket
+
+Crypto-Wallets
+
+RPC
+
+RPC
+
+Web Socket
+
+SERVICE LAYER
+
+SSO
+
+2FA
+
+Messaging System
+
+Merchant
+
+Wallets
+
+Exchange
+
+Exchange Message Bus (Apache Kafka)
+TCP TCP
+Exchange Engine (NodeJS)
+
+45
+
+CONCLUSION
+The cryptocurrency domain has evolved within the recent years, bringing into fruition a great variety of sites with all sorts of cryptocurrency services, similar to one another, and very limited in terms of functionality. However, the analysis of the cryptocurrency users' behaviors has indicated that many of them are looking for a unified medium allowing to manage multiple crypto in one place, as well as comprising the principles of the educational websites, the wallet providers, the rankings and the exchanges.
+Such a platform, compatible with multiple sites, products and services in relation to cryptocurrencies, designed to perform various business deals can significantly change the way most cryptocurrencies are operated at the present moment. The paradigm shift initiated by innovations like Bitcoin, Ethereum and the DLT can be taken a step further to boost the massive adoption of digital currencies, and to stabilize the role of this pioneering market in the global economy by providing a better user experience. This is the main idea behind COSS, the Crypto-One-Stop-Solution platform.
+COSS aims to consolidate and gain the like-minded cryptocurrency users (customers, merchants, enthusiasts, developers, businesses, startups, investors, traders, etc.) on board around a user-friendly and intuitive platform that can seamlessly integrate all the existing features under the same structure. This platform comprises an exchange, rankings, merchant tools, a marketplace and a venue for social networking, but of course is not limited to these functions only.
+COSS offers an entirely new customer and merchant experiences to its users, who can be businesses and consumers at the same time. COSS allows building further applications upon its foundation, and thus, growing and expanding infinitely, driven by the customers' demands and the rapidly-evolving market. The customers of the COSS platform are people from all walks of life with various needs and interests. Such a versatile community is a great source of inspiration for the non-techie users willing to use cryptocurrency and to benefit from it in the long-run, and increasing the merchants' conversion rates as they grow in number.
+The COSS platform is optimized to provide limitless e-commerce services helping individuals and merchants to embrace the best cryptocurrency user experiences. This doesn't only include services such as marketplace, exchange, point-of-sale (POS), but also the products, services and applications, which are yet to come.
+46
+
+LINKS
+CoinDesk Smart Contracts Report: A Deep Dive Into How Blockchain is Enabling a New Wave of Innovation in Financial Contracts, 2016: http://www.coindesk.com/blockchain-bitcoin-smart-contracts-report/
+Great Chain of Numbers: A Guide to Smart Contracts, Smart Property, and Trustless Asset Management by Tim Swanson, 2014: https://s3-us-west-2.amazonaws.com/chainbook/Great+Chain+of+Numbers+A+Guide+to+Smart+Co ntracts,+Smart+Property+and+Trustless+Asset+Management+-+Tim+Swanson.pdf
+Let's Talk Bitcoin #273 Improving User Experience in Cryptocurrency Systems, 2015: https://letstalkbitcoin.com/blog/post/lets-talk-bitcoin-273-improving-user-experience-in-cryptocurren cy-systems
+Money Is No Object: Understanding The Evolving Cryptocurrency Market, 2015: http://www.pwc.com/us/en/financial-services/publications/assets/pwc-cryptocurrency-evolution.pdf
+Pay It Forward: Solving Three Key Challenges In Payment Processing, IBM Commerce e-book: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=ZZM12388USEN
+Spenkelink, H.F. (2014) The Adoption Process of Cryptocurrencies - Identifying factors that influence the adoption of cryptocurrencies from a multiple stakeholder perspective: http://essay.utwente.nl/65677/1/Spenkelink_MA_MG.pdf
+The Digital Currency Challenge: Shaping Online Payment Systems Through US Financial Regulations by P. Carl Mullan, 2014: www.palgrave.com/us/book/9781137382542
+Understanding Blockchain Technology And What It Means For Your Business by DBS Group Research, 2016: https://www.smefinanceforum.org/sites/default/files/post/files/160225_insights_blockchain_0.pdf
+Understanding the Blockchain by William Mougayar, 2015: https://www.oreilly.com/ideas/understanding-the-blockchain
+47
+
+APPENDIX 1: DEFINITIONS
+
+The Blockchain is a distributed database, which utilizes the digital ledger technology that stores transaction records, and shares them among a distributed network of computers. By means of cryptography each participant of the network can access and manage the ledger in a secure way. No central authority in this system is needed. The blockchain maintains a continuously-growing list of records (blocks), each containing a timestamp and a link to the previous one.
+A Cryptocurrency is a medium of exchange, which makes use of cryptography to secure transactions and to control the creation of the additional currency units. The development of cryptocurrency has been actively growing in the past decade, thus offering a broad range of transactional possibilities to both users and organizations.
+A Decentralized Application (DAPP) is a type of software represented by a set of smart contracts and the code that enables them. A DAPP is designed to exist in the Internet so that no single entity can control it. DAPPs are similar to traditional web applications, although they don't have a centralized server. The function of a server is accomplished by the blockchain. DAPPs can be built on top of the blockchain, just like various altcoins. They can also connect to the other web apps and the decentralized technologies.
+A Decentralized Autonomous Organization
+
+(DAO) is a computer program, run by a peer-to-peer network, in which the governance and the decision-making is prescribed by code or the pre-programmed smart contracts.
+A Distributed Applications (distributed apps or dAPPs) are applications or software that is run on multiple computers at the same time, and can be stored on servers or by means of cloud computing. Unlike the traditional digital applications that are governed by a centralized system, the distributed applications function on multiple systems simultaneously to perform a single task or job.
+The Distributed Ledger Technology (DLT) represents a consensus of replicated, shared and synchronized digital data, geographically spread across multiple sites, countries and/or institutions. The efficiency of a distributed ledger is derived from the immediate displaying of changes made by any participant in all copies of the ledger. The full potential of distributed ledgers is attained at the moment when other applications are layered on top of them (e.g. smart contracts).
+The Fire Swap is a means of exchange in the form of a pre-sale before the official Token Swap (see Token Swap) takes place. This form of exchange is designed specifically for strategic partners and the community members.
+The Initial Coin Offering (ICO) is a form of fund raising initiated by cryptocurrency ventures,
+
+48
+
+during which a percentage of the newly-issued cryptocurrency is sold to the early investors throughout the marketing campaign.
+Nginx, stylized as (NGINX, NGiX or nginx), is a web server, which can also be used as a reverse proxy, load balancer and HTTP cache.
+A remote procedure call (RPC) is when a computer program causes a procedure (subroutine) to execute in another address space (commonly on another computer on a shared network).
+Smart Contracts represent contracts on the blockchain with terms recorded in the computer language; they can be automatically processed by computer systems, and perform functions such as value distribution, data storage, interaction with the other contracts, etc. It is economically viable to use these contracts, as they are low-costing and adaptable to various enforcements and compliances.
+A Token Swap is a means of exchange, during which one or more tokens are exchanged for another token in the equivalent of the same or similar total value.
+Unbanked Individuals are people who do not own a bank account and/or do not have access to the traditional financial system due to economic hardships in their country of residence.
+49
+
+

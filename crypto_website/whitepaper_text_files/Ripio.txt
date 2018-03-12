@@ -1,0 +1,159 @@
+Airswap (AST)
+A decentralized P2P protocol for `swapping' ERC20 tokens
+Overview
+Airswap is a Consensys backed project which seeks to create a protocol in which ERC20 tokens can be traded P2P without the inefficiencies and cost associated with blockchain order books.
+The project is based on developing the following segments:
+· Peer Protocol: a quick and efficient way `makers' and `takers' can interact in the negotiation of providing quotes and orders
+· Indexer Protocol: an off-chain service that aggregates and matches peers based on their intent to trade
+· Oracle Protocol: an off-chain service which provides pricing information to those seeking to transact
+· Smart Contract: An ethereum smart contract that fills and cancels the orders
+Essentially, Airswap seeks to create an agile, efficient and low cost exchange for the Ethereum ecosystem.
+Token Sale
+Under the code AST, Airswap is selling a total of 150m tokens out of a 500m supply. There is a hard cap of 42,000 ETH for the public sale starting October 10.
+During the months of August and September, the company raised over $20m in presale and private purchases from institutions.
+Approximately 30% of the tokens are available for crowd sale at this time while another 40% are being locked up for a period of 6 months.
+Use of proceeds illustrates a heave R&D spend as well as 30% for marketing the platform.
+
+BUY
+
+General
+Country: Team: White Paper: Stage: Sale Period: Website:
+
+USA Transparent Available Concept/MVP October 10 Click here
+
+Sale Info
+Pricing: Accepted: Min Goal: Cap: Escrow: Bonus:
+
+1 AST = 0.001ETH ETH NA 500,000,000 Smart Contract N/A
+
+Bonus structure
+
+Private sale: Presale:
+
+Closed Closed
+
+Checklist
+Management team: Product definition: Commercial viability: Volume/interest: Fulfillment:
+
+Token Allocation
+
+Use of Proceeds
+
+10%
+10%
+10%
+
+30%
+
+40%
+
+Crowdsale Advisors Partnerships
+
+Lockup Team
+
+27% 27%
+
+45%
+
+R&D Marketing Compliance
+
+05 October 2017
+
+Report produced by Picolo Research
+
+Tokens for Investors
+Tokens issued by Airswap (AST) play a central role in the ecosystem for the following reasons:
+1) AST gives traders the ability to add their `intent to trade' 2) AST gives traders voting power to manage roles of Oracles
+within the platform
+AST tokens will be available for trade approximately one week after the crowd sale.
+Commercial Strategy
+The company has stated its development objectives and roadmap throughout the white paper and several posts on online.
+There does not appear to be a lot of information regarding the strategy of market penetration, however, given the attributes of the project itself and the marketing allocation that has been put forward, it suggests that Airswap will likely acquire customers for the platform with ease.
+Management
+The management team appears to be well equipped with a track record in product development, operations, and startup growth.
+There are a total of nine team members listed in operations, predominantly from a development and engineering background.
+In addition to this, there are 11 advisors to the team including Brock Pierce, Erika Karp and Bill Thai.
+Michael Oved - Founder
+Algo trader at Virtu and previously based in Asia. Graduate at Carnegie Mellon.
+Don Mosites - Founder
+Entrepreneur, designer and full stack engineer. Previously Google and Zynga.
+
+05 October 2017
+
+Report produced by Picolo Research
+
+Strengths
+· In a recent blog posted on Medium, Airswap markets its product as "off-chain negotiation, on-chain settlement." This highlights a key differentiator in the market, as the project facilitates the use of an `Indexer' instead of order books and quotes via an off-chain P2P network. This process is a strong solution to privacy, speed, and efficiency.
+· The ERC20 market is growing at a rapid speed. The case for such an `exchange' continues to become more relevant as some token holders seek to rebalance portfolios almost daily by swapping into other tokens.
+· The team appears to have a strong track record in development and operations.
+· The advisory team has some notable and influential backing from the likes of Bill Thai and Brock Pierce.
+· Presale buyers of AST include Kenetic Capital, Blockchain Partners Korea, FBG and Smart Contract Japan.
+· The presale has been well received, and there is a substantial amount of awareness of the public sale.
+· The allocation for the Use of Proceeds is fitting for a company of this type, with the majority of spending towards research & development as well as marketing.
+· The token sale allocation to Founding Partners and the Advisory board appears to be fair and justified for a project of this size.
+· The venture is backed by Consensys ,one of the leading blockchain software companies founded by Joseph Lubin.
+Weaknesses
+· It is difficult to find any specific timelines of the development roadmap of the project.
+· The solution that Airswap is implementing, while technically justified and improved, leads to a similar outcome of many other exchange and transaction/pricing services.
+
+05 October 2017
+
+Report produced by Picolo Research
+
+Conclusion
+Airswap represents a buying opportunity for investors seeking to partake in an innovative new company which can potentially play a large role in the Ethereum ecosystem.
+We are attracted to the concept of P2P `swaps', and the fact that discoverability of pricing is done by a type of `decentralized messaging'.
+With the growth in Ethereum based tokens and increasing transactions amongst the alt coin ecosystem, we anticipate that a solution such as this could become a core service to a significant portion of the market.
+For the reasons listed below, we maintain a positive view on Airswap:
+1) a strong value offering which creates an increasingly relevant solution to current scalability issues
+2) significant interest to date in the presales including notable private equity and venture capital firms
+3) a strong team and advisory board 4) a fair and transparent Use of Proceeds and token allocation
+We acknowledge that there are a number of companies that would be considered `competition' in some ways, such as Kyber, 0x, Bancor and more. These solutions are also solving similar problems in different ways.
+Not withstanding the above, we believe that Airswap provides a unique solution to a rapidly growing segment of the market.
+Picolo Research recommends a Buy for investors seeking short, medium or long-term exposure to a solution that may become a significant player in the Ethereum token marketplace. 
+
+05 October 2017
+
+Report produced by Picolo Research
+
+Like our reports?
+Sign up for Astronaut today for a completely managed and research-backed approach to ICO investing. Click here to register
+05 October 2017
+
+Ratings Overview
+
+Either at concept stage, lack of commercialization/conviction or bordering a Scam.
+The company/tokens have merit, however there are questionable attributes and involves significant risk.
+
+An investment opportunity that can be considered under certain circumstances.
+
+A good opportunity with no significant weaknesses and a clear path of commercialization.
+A high conviction opportunity of investment with no visible weaknesses.
+
+SCAM RISKY HOLD
+NEUTRAL SPEC BUY BUY
+05 October 2017
+
+A fraudulent initiative to be avoided at all costs.
+
+Due to a variety of factors, investment is associated with high risk of losing capital.
+
+Usually occurring in an updated release of coverage to advise maintaining current levels of position sizing.
+The opportunity has merits and room for growth, however, there are several negative aspects to take into consideration which may influence the length of investment.
+A speculative opportunity for investors with a higher risk tolerance.
+A high conviction buying opportunity.
+
+Report produced by Picolo Research
+
+Disclaimer
+Picolo Research is an independent provider of research on cryptocurrency ICO's. We have not been paid, nor mandated for this research report. The views expressed within this report are Picolo's in its entirety.
+The contents of this report and its attached documents have been prepared without taking account of your objectives, financial situation or needs. Because of that you should, before taking any action to acquire or deal in, or follow a recommendation (if any) in respect of any of the financial products or information mentioned in or downloaded from or through this website, consult your own investment advisor to consider whether it is appropriate having regard to your own objectives, financial situation and needs.
+Whilst Picolo believes the information contained in this report is based on information which is considered to be reliable, its accuracy and completeness are not guaranteed and no warranty of accuracy or reliability is given or implied and no responsibility for any loss or damage arising in any way for any representation, act or omission is accepted by Picolo or by any officer, agent or employee of Picolo or its related entities. blockchaini.co at all times reserves the right to at any time vary, without notice, the range of services offered by Picolo and its subsidiaries, and the terms under which such services are offered. The information within this report is our own opinion only and is not to be used in making a decision for investment.
+Contact us
+w: http://www.picoloresearch.com e: admin@picoloresearch.com a: #08-03 Claymore Hill, Singapore
+
+05 October 2017
+
+Report produced by Picolo Research
+
+

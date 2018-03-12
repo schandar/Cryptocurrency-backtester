@@ -1,0 +1,468 @@
+White Paper
+
+Disclaimer
+IMPORTANT NOTICE
+PLEASE READ THIS ENTIRE SECTION AND DO NOT TAKE ANY ACTIONS UNTIL YOU FINISH IT. THIS WHITE PAPER IS A SUMMARY OF WEPOWER BUSINESS MODEL, TECHNOLOGY, AND BRIEF INTRODUCTION TO WEPOWER FUNDRAISER'S PRINCIPLES. WEPOWER FUNDRAISER IS CONSIDERED TO BE A REWARD BASED CROWDFUNDING CAMPAIGN. DETAILED TERMS AND CONDITIONS OF THE FUNDRAISER WILL BE RELEASED IN THE END OF OCTOBER AND PUBLISHED ON WEPOWER WEBPAGE.
+IF YOU ARE IN ANY DOUBT AS TO THE ACTION YOU SHOULD TAKE, YOU SHOULD CONSULT YOUR LEGAL, FINANCIAL, TAX OR OTHER PROFESSIONAL ADVISOR(S) AND IMMEDIATELY NAVIGATE AWAY FROM WEPOWER WEBSITE AND DO NOT CONTRIBUTE TO THE DEVELOPMENT OF WEPOWER.
+This whitepaper, information provided on WePower web page and any fundraiser's terms and conditions published by WePower do not constitute a prospectus or offer document of any sort and is not intended to constitute an offer of securities or a solicitation for investment in securities in any jurisdiction. The tokens to be issued by WePower are not intended to constitute securities and/or collective investment units in any jurisdiction. If you decide to contribute to WePower development, please note that your contribution to WePower does not involve the exchange of cryptocurrencies for any form of securities, investment units and/or form of ordinary shares in WePower or any other company, WePower token holder does not receive any form of dividend or other revenue right that is guaranteed or it participates in profit sharing scheme.
+Due to legal and regulatory uncertainty in the United States of America, the citizens and green card holders of and persons residing in the United States of America are not allowed to provide contributions and obtain WePower tokens. Citizens and green card holders of and persons residing in the United States of America that participate in the fundraiser by providing false information about their citizenship, residency place and nationality will breach fundraiser's terms and conditions and would entitle WePower to request such persons to compensate any damages and/or losses suffered due to this violation. The whitepaper, information provided on WePower web page and any fundraiser's terms and conditions published by WePower any part thereof and any copy thereof must not be taken or transmitted to any country where distribution or dissemination of these documents/information is prohibited or restricted.
+No regulatory authority has examined or approved of any of the information set out in the whitepaper. No such action has been or will be taken under the laws, regulatory requirements or rules of any jurisdiction. The publication, distribution or dissemination of the whitepaper do not imply that the applicable laws, regulatory requirements or rules have been complied with.
+
+To the maximum extent permitted by the applicable laws, regulations and rules, WePower, its founders, team members and any third party involved in WePower project shall not be liable for any indirect, special, incidental, consequential or other losses of any kind, in tort, contract or otherwise (including but not limited to loss of revenue, income or profits, and loss of use or data), arising out of or in connection with any acceptance of or reliance on this whitepaper or any part thereof and/or information provided on WePower web page by you.
+All statements contained in this whitepaper and WePower webpage, statements made in press releases or in any place accessible by the public and oral statements that may be made by WePower, its founders, team members and any third party involved in WePower project and acting on behalf of WePower, that are not statements of historical fact, constitute "forward-looking statements". All statements regarding WePower, financial position, business strategies, plans and prospects and the future prospects of the industry which WePower is in are forward-looking statements. Neither WePower, its founders, team members, any third party involved in WePower project nor any other person represents, warrants and/or undertakes that the actual future results, performance or achievements of WePower will be as discussed in these forward-looking statements.
+This whitepaper includes market and industry information and forecasts that have been obtained from internal surveys, reports and studies, where appropriate, as well as market research, publicly available information and industry publications. Such surveys, reports, studies, market research, publicly available information and publications generally state that the information that they contain has the from sources believed to be reliable, but there can be no assurance as to the accuracy or completeness of such included information.
+No information in this whitepaper should be considered to be business, legal, financial or tax advice regarding contribution to the development of WePower. You should be aware that you may be required to bear the financial risk of any obtained WePower tokens for an indefinite period of time.
+WePower does not make or purport to make, and hereby disclaims, any representation, warranty or undertaking in any form whatsoever to any entity or person, including any representation, warranty or undertaking in relation to the truth, accuracy, and completeness of any of the information set out in this whitepaper.
+The information contained on the WePower Network web page and whitepaper are of descriptive nature only, are not binding and do ­ unless explicitly referred to in fundraiser's terms and conditions. No part of this whitepaper is to be reproduced, distributed or disseminated without including this section "Important Notice".
+
+WePower
+Green Energy Network
+Energy trading platform powered by blockchain technology
+Version 0.8 Contacts: team@wepower.network Web: http://wepower.network November 2017
+
+Summary
+WePower is a blockchain-based green energy trading platform.
+WePower enables renewable energy producers to raise capital by issuing their own energy tokens. These tokens represent energy they commit to produce and deliver. Energy tokenization standardizes simplifies and opens globally currently existing energy investment ecosystem. As a result energy producers can trade directly with the green energy buyers (consumers and investors) and raise capital by selling energy upfront, at below market rates. Energy tokenization ensures liquidity and extends access to capital. The WePower blockchain solution is currently recognized by Elering, one of the most innovative Transmission System Operators in Europe. To optimize the financing cycle and open access to capital, WePower enables energy tokenization. Tokenized energy represents a contracting mechanism between an energy producer and energy buyer. WPR token holders will have priority access to participate in auctions for purchasing tokenized energy once the renewable energy plant is connected to the platform. Energy allocation will depend on the number of WPR tokens held by the participant. Moreover, WPR token holders are rewarded by no less than 0.9% of tokenized energy donated directly by the renewable energy providers. WPR token holders may use or sell this energy.
+WePower comes to the market at a crucial time. Due to a drop in subsidies and increased renewable energy development competing at market price, banks started increasing demand for own capital decreasing debt to capital ratio. It moved from 20:80 to close to 50:50 ratio for newly developing renewable energy projects. Equity capital became a limited source of financing contributing to a plunge (-23% YoY) in investment due to smaller leverages. Energy tokenization together with a platform built on an open decentralized data-base, opens the green energy market globally to a broad pool of investors. In an open platform, new energy projects do not depend on only local investors., Asset liquidity allows more favorable capital-to-debt ratios without using Government subsidies. We estimate that the simplification of the investment process through WePower will significantly reduce financing costs, which is eventually split between renewable energy producers and consumers/investors.
+1
+
+The WePower platform is ready. You can try the demo version on our web page. We are working on the launch of our pilot project with a transmission system operator Elering. Current partnerships with the renewable energy producers allow WePower to be operational within 9 months after the TGE. These partnerships will bring a pipeline of projects to be financed for the first 2 years of WePower operations. Our team is led by energy experts Nick Martyniuk, Kaspar Kaarlep and Heikki Kolk, who lead a group of 12 highly experienced energy engineers and former-Skype programmers. Our team of engineers has previously worked on the smart metering implementation countrywide in Estonia, leader in the rollout of full smart grid in the world. Our Blockchain development is led by Jon Matonis (founding partner of Bitcoin Foundation) and our token economy is structured with the help of Eyal Hertzog (chief product architect of the Bancor Protocol). The project is supported by the United Nations and the Ministry of Energy of the Republic of Lithuania, due to its potential social impact on climate change control. WePower will share part of its technologies to countries who implement green energy and CO2 accounting, using blockchain technologies. The WePower innovative token model was clarified with the European regulator. It is structured as a reward based crowdfunding, where contributors are rewarded free energy which they may use or sell on the platform.
+2
+
+1.Introduction
+WePower was established to change how energy is developed and distributed. The WePower team has been in the market for several years during which time it became obvious that we are lagging behind renewable energy adoption. This is not for lack of a desire to live a cleaner life, and improve the world for future generations. It is due to current market bottlenecks, which slows development of renewable energy sources. There are too many intermediary players between renewable energy producers and consumers of energy. Ultimately, these costs go directly to consumers who pay for it all. Why not include customers to participate in the market directly to support a green transition? Current problems with the energy markets:
+1.1. Current energy market structure
+According to Bloomberg New Energy Finance (BENF)1, the 2016 level of investment into renewable energy had reached 242 Billion USD, representing a 23% decrease over the previous year as seen in the chart on the right. Nevertheless, early 2017 trends show investment in renewable energy has fallen to 20.9% in Q1 compared to 2016, from 64.25 billion to 50.84 billion. The market is dominated by banks, PE funds and hedge funds that dominate the energy investment market. This system does not serve the renewable energy community with proper access to capital. Nor does it serve consumers with proper access to energy.
+1 Please see REN21 Report 2017 here: http://www.ren21.net/wp-content/uploads/2017/06/170607_GSR_2017_Full_Report.pdf (p110)
+3
+
+WePower aims to cut through current problems of access to capital for the renewable energy producers, to provide access to investments in profitable projects directly to the consumers. This is done with transparency and speed of transaction, through blockchain technology and energy tokenization. Through these methods, WePower solves the following energy market insufficiencies:
+· Global access to capital for green energy projects · Global access to green energy investments and trading (i.e. liquidity) · Speed and transparency
+1.2. The WePower platform
+WePower is a blockchain-based green energy trading platform. WePower enables renewable energy producers to raise capital by issuing their own energy tokens. These tokens represent energy they commit to produce and deliver. Energy tokenization standardizes simplifies and opens globally currently existing energy investment ecosystem. As a result energy producers can trade directly with the green energy buyers (consumers and investors) and raise capital by selling energy upfront, at below market rates.
+Energy tokenization ensures liquidity and extends access to capital. This also provides the first access to live trade in renewable energy globally, for everyone. With the potential to be integrated with IOT for purchase or exchange of energy as a base layer of the digital energy world, WePower will lead global decentralized energy transformation.
+4
+
+Legally, WePower acts as an independent energy supplier, allowing the WePower platform to be connected to the energy grid and the local energy exchange market as well as energy end users. WePower receives data about the produced, consumed energy, and energy price from the energy grid and energy exchange markets. Once a renewable energy producer is connected to the WePower platform, their future energy production is tokenized. Energy is tokenized based per kWh unit. One internal energy token represents 1 kWh to be produced at a certain time in the future.
+When a renewable energy producer requires capital to finance the initial cost of a renewable energy project, he may sell a portion of the energy to be produced in the future, on the WePower platform. The buyer/investor acquires this energy in a form of internal energy tokens. Each energy token acts as a smart contract indicating: 1) type of energy, 2) when the energy will be produced and delivered; 3) price tag. This smart contract represents a standard power purchase agreement between the renewable energy producer and energy buyer.
+In addition to solving current issues in the development and financing of green energy projects, WePower has the potential to become a next-generation utility company based on the core principles of decarbonization, democratization and decentralization. By combining the core technological stack elements of blockchain, smart contracts, data analytics and machine learning, WePower is poised to become a 21st century virtual utility, working closely with distribution and transmission system operators. This means that green energy projects without subsidies may finally develop to have a significant positive impact on the Earth's dangerous experiment with climate change, through a data-based, decentralized, generation utility approach, with the infrastructure security required for this operation.
+WePower as an independent energy supplier, operates under established regulations guaranteeing relationships with distribution system operators and transmission system operators, as well as fair use of infrastructure. WePower as the market participant, is connected to wholesale energy markets to sell and buy energy when needed.
+WePower development is divided into 3 distinct stages:
+1. WePower Breeze - Market entrance - challenging how energy investments and purchases are made by creating the necessary technological layer
+2. WePower Storm - Growth of services and usability - aggregating and managing energy flows via smart contracts.
+3. WePower Hurricane - Establishing a new era of decentralized energy utility.
+A detailed implementation road map is provided in Section 5.
+5
+
+2. WePower business case
+We will begin with ecosystem creation in Europe, due to the unique regulatory framework there. The European energy community enjoys a competitive market, providing similar regulation across all member states. This is the most important condition for energy tokenisation on the scale necessary for energy tokenisation beyond borders. The grid cannot be bypassed. If there are no market conditions for open connection to the grid, p2p energy trading may be limited to microgrid solutions without scalability or may not be implemented at all.
+Core components of WePower growth are customer acquisition on energy production, energy consumption, and market liquidity. The platform will grow through by providing greater transparency and simplicity to the market and delivering value unavailable today, due to market inefficiencies. With focus on growth, it is paramount to create the best experience for the WePower platform user. The WePower team is engaging energy project developers in the field, developing market price based projects with a professional team to be expanded upon entering new markets.
+Our sales teams work with high volume corporate and private energy consumers to provide them with outstanding service. We have secured our first clients in production who are developing renewable energy sources and generating more than 1000 MW solar energy capacity in Spain2.
+Energy production is big business:
+1. 24,756 TWh3 energy produced each year in total. 2. 24,756,000,000 MWh energy produced from renewable sources. 3. Assuming the LEC (levelized energy cost) from solar and wind averages 50 EUR/MWh (most
+likely less costly), total market of energy production alone and sales is 1.24 trillion USD. 4. Current yearly investments in renewable energy amount to 242 billion USD4.
+In the future, this is estimated to reach a consumption of 100% renewable energy, with a rough estimation of the market size at 11.5 trillion USD and further replacement of existing renewable energy sources' capacities, due to their natural life cycle. The market size is based on multiple investments that were required to reach the current renewable energy level of 24% (t.y. 2.3 trillion USD) and the rest to reach a 100% renewable level.
+WePower targets both markets in terms of facilitation of investments into the renewable energy and trade of energy. WePower achieves this by facilitating a direct interaction between renewable energy producers and end users/investors globally.
+WePower as a platform will help renewable energy producers to attract capital directly from energy end users/investors. WePower will apply a commission fee to the amount of attracted capital. WePower enables trade of purchased energy. For each trade WePower will apply a commission fee as well. Projected profit of WePower is below.
+
+2 Conquista solar, Civitas, Novacorex
+
+3 Please see here: http://www.ren21.net/wp-content/uploads/2017/06/170607_GSR_2017_Full_Report.pdf (p.226).
+
+6
+
+4 Please see here: http://www.ren21.net/wp-content/uploads/2017/06/170607_GSR_2017_Full_Report.pdf (p110).
+
+We expect to have over 3 times growth from our first to second year doubling the capacity connected to WePower in consecutive years. We will begin with the market we have a presence in through our current partners and expand from there. We expect investment from our partners and new resources online on the platform to be from 1000 - 2000 MW during 20182019 in Spain, amounting to 2 billion EUR investments and 294 million EUR in energy trading. Renewable energy investment growth is at 15% annually. With WePower's ease of investment and trade of energy we expect exceptionally high platform growth. Historical growth of investment was 15% on average with fluctuations from year to year. By creating a way for everybody to buy energy at a more attractive price or to invest into new renewable projects, WePower has the potential to direct investors to renewable energy sources, bringing a 100% renewable future much closer. WePower status:
+7
+
+Currently the team is focused on: · Launching WePower pilot project with Elergin and tokenizing all Estonian energy in April
+2018. We will issue 11 billion energy tokens and test our platform on the Estonian energy infrastructure. · Connecting WePower with first clients in Spain in August 2018. · Testing the WePower platform in September 2018. · Launching WePower in Spain in December 2018. · Expanding to neighbouring countries in 2019.
+3. WePower token model
+3.1. Energy tokenization
+The WePower platform allows renewable energy producers to tokenize and sell the energy they produce. A renewable energy producer connected to the platform issues its own energy tokens within the WePower platform, where 1 energy token represents 1 kWh of green energy to be produced in a certain time in the future (usually within 4-6 months from the connection moment). Each renewable energy plant connected to the WePower platform will organize an auction for the sale of tokenized energy. WePower token holders will have priority access to such auctions and their allocation will depend on the number of WePower tokens they have. Each new plant will create an auction on the WePower platform for the sale of energy tokens to energy buyers with the minimum price set for each energy token, which will represent energy to be produced and delivered.
+8
+
+Each renewable energy plant connected to the WePower platform will organize an auction for the sale of tokenized energy. WePower token holders will have priority access to such auctions and their allocation will depend on the number of WePower tokens they have.
+Each new plant will create an auction on the WePower platform for the sale of energy tokens to energy buyers with the minimum price set for each energy token, which will represent energy to be produced and delivered.
+Through tokenization of renewable energy:
+1. Renewable energy producers are able to pre-sell their production in a global market and acquire necessary capital, increasing a project's profitability.
+2. Investors gain better investment terms (lower costs and higher liquidity) as well as access to green energy projects across the globe in a standardised way. These developments make green energy an appealing asset class.
+For example, a renewable energy producer is building 100 MW solar energy capacity plants in Spain. The cost of such a project is estimated at 100 million EUR. The producer lacks 20 million USD to bring the project to life. Using WePower the producer tokenizes the projected production of energy of 20 million USD and sells it up front. To incentivize buyers, the producer is always selling its energy below market price which they can use for themselves or sell on the marketplace.
+3.2. Tokenized energy auction
+Each new renewable energy plant offers more economical energy to the users of the WePower platform through the auction mechanism, which sets the lowest price for energy per 1 kWh (or one energy token). The auction opens to WPR token holders first. WPR token holders will have 48 hours advanced access. After this period has elapsed, the remaining energy is offered to all WePower platform participants.
+The lowest price offering is set by the auctioning party. Current and historical energy prices are visible on the platform. This gives market price reference for energy and acts as a reference ceiling for the maximum energy price.
+Energy is becoming decentralized in nature and the changing reality of it requires a decentralized delivery system. For the short term, a relational database may suffice, but we are building a decentralized application for now and into the future where the energy grid will function and optimize itself, even under extreme conditions. Scalability beyond country borders is more important than short-term pragmatism, as scalability brings more value to the system. 100% renewable energy on the grid, with variable production, on a robust system is more important than a short-term solution. Our platform is scalable through blockchain technology beyond country borders or even continents to be a virtual utility of a new era in clean, decentralized world energy.
+9
+
+3.3 Blockchain function
+Relational databases are adequate in many applications and situations. However, sustainability and scalability are limited with these databases. From the perspective of sector transformation in trading and digital infrastructure creation, transforming energy production to 100% renewable, the answer was to utilize a public blockchain.
+Blockchain allows:
+· Innovative community interaction across applications · Provide 3rd party liquidity through exchanges and decentralised exchange protocols · Enhanced efficiency due to smart contract elimination of intermediaries · Enhanced security due to immutability of data · Cheaper maintenance vs centralised database · History of transactions and prediction of transactions · Fault tolerance for DApps due to decentralised nature of blockchain
+We are first building a platform to help finance renewable energy, and welcome everyone to join the platform in a trust-less way where people might not otherwise meet each other basing trust on pure math. With a vision to become independant from centralised authority we aim to develop the perfect platform for optimum value creation for all participants based on market conditions.
+Energy is becoming decentralized in nature and the changing reality of it requires a decentralized delivery system. For the short term, a relational database may suffice, but we are building a decentralized application for now and into the future where the energy grid will function and optimize itself, even under extreme conditions. Scalability beyond country borders is more important than short-term pragmatism, as scalability brings more value to the system. 100% renewable energy on the grid, with variable production, on a robust system is more important than a short-term solution. Our platform is scalable through blockchain technology beyond country borders or even continents to be a virtual utility of a new era in clean, decentralized world energy.
+3.4 Energy tokens use
+Every energy token represents 1 kWh of green energy to be produced by a certain time in the future.
+The owner of these energy tokens has the following options:
+1. First - use the energy when it is produced, if the energy was purchased for a development project in the buyer's home market.Note that WePower will physically deliver energy based on the number of energy tokens held, once WePower enters a token owner's home market and begins operation under an independent energy supplier's legal framework.
+10
+
+2. Second - sell the energy before its production within the WePower platform to any other user.
+3. Third - automatically sell the energy to the wholesale energy market once the energy is produced and receive the energy price in fiat or crypto currency. This leaves an ambiguity of the final settlement price as it is done at the market price in that specific moment. However, it provides a safety net for the fund invested in energy. All energy with this option is sold simultaneously on the wholesale market.
+If the token holder decides to choose the third option, he can i) cash out the proceeds immediately or at a future date; or ii) reinvest the received amount in green energy and keep storing value via energy tokens. The value of this token will grow with the price of energy as well as the crypto market. However, it will never drop below its book value - the market cost of energy. WePower is working on an integration with Bancor Protocol, which will provide ultimate liquidity for token holders.
+3.5. WePower token sale model
+3.5.1. WPR - Real asset based token Participants in the WePower token sale in return for their contributions receive WPR tokens. The WPR token will grant rights to: 1. Priority access to participate in tokenized energy sales. The WPR token acts as a priority
+access token for the auction to buy tokenized energy. WPR token holders will be first bidding to acquire energy from each new plant joining the platform. After priority bidding, the remaining energy tokens are sold to any WePower user. Priority allocation for energy token auction is proportional to the amount of WPR the holder has.
+2. Receive part of a renewable energy producer's tokenized energy. Under the WePower platform's terms & conditions, each renewable energy producer will be required to donate 0.9% of all tokenized energy to the WPR token holders. Each WPR token holder receives tokenized energy proportionally.
+11
+
+Once the renewable energy producer connects to WePower platform, WPR token holders receive tokenized energy (i.e. energy tokens). WPR token holder's rights are indefinite. This guarantees WPR token holders receive green energy from each producer tokenizing energy and using the WePower platform. A WPR token holder can choose what to do with the received tokenized energy (i.e. received energy tokens) as indicated above: 1. Use. 2. Sell before its production. 3. Sell to the wholesale market when it is produced and reinvest. 3.5.2. Underlying WPR value The table below shows intended WePower expansion. Calculations are based on our contracted clients in Spain and Italy, which will connect 1000 MW capacity solar energy farms. These initial clients will tokenize at least 20% of their production. WePower growth projections:
+12
+
+With each connected energy provider, a portion of the energy will be donated to WPR token holders at the time of tokenisation as is described in Donation Of Energy 0.9% in kWh. This energy may be retrieved proportionally to the amount of WPR tokens held and either consumed or sold in the marketplace. Tokens not distributed during the token sale will be locked up and unable to retrieve energy. The lockup will last 3-4 years. Based on the WePower intended business growth and expansion, the intended amount of donated energy should have a payback window by book value of 3 years. Every year starting from the 5th year the reward should multiple5.
+3.6. WPR - The next generation token
+WePower is the next stage in token economy evolution. The great majority of tokens currently released in the market, tokenize equity or company future cash flows, both of which do not have an existing intrinsic value. WePower tokenizes energy, which has a well established market and measurable value.
+5 Note that this paragraph is a forward looking and does not necessarily ensure that contributors will get green energy in the form of energy tokens. The WePower expansion depends on various circumstances, which do not depend on the WePower team.
+13
+
+3.7. Token sale
+Main terms of WePower token sale:
+Token creation will end when either the maximum number of WPR is issued or the contribution period has ended. If less than the minimum soft cap of tokens are issued, token sale contributions may be retrieved.
+3.8. Token Distribution
+The WPR token supply will be distributed as follows:
+14
+
+3.9. Token Sale Objectives
+Funds raised during the contribution period will be used solely for the development and benefit of WePower. A budget has been outlined below, representing a scenario where our soft cap has been reached:
+15
+
+4. The WePower Team
+WePower solves market challenges and inefficiencies through a complex platform, which requires a combination of energy, the blockchain, crowdfunding, market trading, independent energy supply knowledge, and experience. The WePower team synergizes this essential mix of expertise to create a new generation utility company.
+Nikolaj Martyniuk
+Co-Founder and CEO
+With a background in international renewable energy development from plant construction to energy sales through independent energy suppliers. Nikolaj is responsible for overall strategy and business development. He is also one of the founding partners of Smart Energy Fund.
+Artras Asakavicius
+Co-Founder
+With a background in regulation and Fintech. For the past 5 years, he led a team of lawyers, responsible for all FinTech, blockchain, and cryptocurrency related businesses and regulation at the biggest law firm in the Baltics - Sorainen. Arturas is focused on investor relations and legal aspects of the business. He is also chairman of the Lithuanian Fintech Association and twice recognized as a Lithuanian Crowdfunding Patron by the EU Commission.
+Kaspar Kaarlep
+CTO
+Kaspar previously was the CTO of a large National DSO, and has worked on the green energy integration and Smart Grids challenge from different angles for 7 years. He was responsible for development and execution of the DSO strategic plan, and their Smart Grid technology roadmap as well as the management of the overall Information Technology and Operational Technology enterprise architecture. Kaspar is a well known speaker at European conferences regarding energy systems digitalization, specializing in building and implementing big data analytics systems and smart meters.
+16
+
+Heikki Kolk
+Complex system architecture
+Heikki is the Principal Consultant for Catapult Lab's consulting services team. In this role, he leads the overall activity of our three consulting service offerings; Systems Integration, Post-Security Risk Assessment Support, and Business Analysis & IT Governance Support. Prior to working at Catapult Labs, Heikki worked for Elektrilevi, the largest distribution system operator in Estonia, holding different positions over 10 years. He started as a SCADA engineer, participating in and leading different projects such as the transition to IP-based SCADA networks and upgrading Elektrilevi's SCADA system. Later he was responsible for defining control center use cases in all major IT development and implementation projects in Elektrilevi, including a customer information system, several asset management systems, and smart metering systems. While he was the Smart Grid architect, Heikki consulted with colleagues in defining new solutions like advanced analytics, demand-side response and distributed generation management platforms.
+Kaspar and Heikki bring together a team of 12 energy engineers and ex-Skype programmers with a commitment to connect WePower to the energy infrastructure to become the new generation utility company.
+Blockchain, token economy and smart contracts
+Jon Matonis
+Blockchain advisor
+Jon is a founding Director of the Bitcoin Foundation and Chairman of Globitex, a cryptocurrency exchange platform. His career has included senior influential posts at VISA International, VeriSign, Sumitomo Bank, and Hushmail. Jon advocates worldwide for Bitcoin and its disruptive economic implications to a wide variety of audiences, including members of the Federal Reserve, Bank of England, ECB, SWIFT, IRS, DOJ, retail payment networks, major financial institutions, financial regulatory bodies, mobile money issuers, iGaming operators, information security firms, hedge funds, gold investors, and family offices.
+17
+
+Eyal Hertzog
+Blockchain and token economy advisors
+Venture-backed technology entrepreneur for over 20 years. Founder of MetaCafe, Israel's fastest growing video sharing site reaching over 50m uniques at its peak. Previously, Eyal founded Contact Networks, one of the first social networks in 1998. Eyal has been an outspoken thought leader on cryptocurrency in Israel and is a talented piano and bass musician. He has recently founded Bancor Protocol.
+Lukas Kairys
+Blockchain and smart contract developer
+Lukas has a personal interest in building new products and systems powered by Blockchain technology and helps the team with his advice how to develop decentralized networks.
+
+Energy markets Security
+
+Steven Meersman
+Energy trade and transactional advisor
+Steven is highly experienced energy market professional providing commercial advice to investment funds, energy majors and independent traders in the global energy markets, recent projects include in the fields of investment/transaction support and trading strategy.
+Liraz Siri
+Security
+Liraz Siri is a professionally paranoid whitehat hacker, early Bitcoin supporter, and co-founder of TurnKey Linux which powers & protects 100,000+ servers worldwide. At 18 he scanned the entire Internet for vulnerabilities. Later, in the military, he co-founded an Israeli cyber unit. Today, he evangelizes open source, crypto & decentralization, while commercializing failure-tolerant security for high-risk applications (WO/2007/066333). Side projects include bitkey.io (trustless cold storage).
+
+18
+
+AI Investments
+
+Tadas Jucikas
+AI advisor
+Dr. Tadas Jucikas is responsible for data analysis within the platform. His vast experience includes advising the Department for Work and Pensions and the Department for Education with the UK Government on data science, machine learning, and AI. He completed his Ph.D. in Computational Neuroscience at the University of Cambridge with research findings in the world's leading scientific journals such as Nature and PNAS.
+Brad Yasar
+Brad is an entrepreneur, investor, mentor, and advisor who has started and bootstrapped several companies from inception to maturity over the past 20 years. Brad is currently the co-founder and Managing Partner of Krowd Mentor, a strategic crowdfunding advisory firm focusing on ICOs, cryptocurrencies, blockchain, and token powered organizations. He is the co-founder for Blockchain Investors Consortium (BIC) with over $2 Billion dollars allocated to blockchain and cryptocurrency projects and has access to extensive dealflow and experience analyzing disruptive technologies. Brad has participated in dozens of successful crowd sales, which have raised over $500 million from 10,000s of investors in 12 months.
+Saber Aria
+Saber is CEO and Founder of two prominent digital marketing agencies, each with a diverse portfolio of clients including several fortune 500 companies. Saber has a passion for seeking out and assisting emerging start-ups both as an advisor and investor. He focuses his council not only on brilliant business ideas, but just as importantly, the teams behind each project. Saber's marketing and advisory experience has lead him to be a keynote speaker in several events such as Affiliate World Asia where he inspired the crowd with his panel "0 to 7 Figures in One Year".
+
+19
+
+Payments Sales 20
+
+Aaron Bichler
+Aaron is a former poker professional, who has been using his deep knowledge of game theory and risk management successfully in the cryptocurrency market for several years. He has founded two flourishing digital marketing agencies with major international clients including fortune 500 companies.
+Darius Rugevicius
+Darius is experienced in building and growing successful technology based business, having sold two of his previous start-ups in the past 4 years alone. Using his skills to implement effective growth strategies, propel execution, and meet deadlines, he has assisted companies operating in the blockchain, fin-tech, robotics and biotech sectors. In the past year Darius has worked with numerous ICO projects, helping them to develop a successful ICO strategy, marketing plan and token model.
+Nimrod Lehavi
+Payment advisor
+Nimrod is co-founder and CEO at Simplex and board member of Israeli Bitcoin Association. Simplex is a fintech & cyber-security company introducing merchants to a world without fraud. Simplex successfully prevents fraud with minimal effect on conversion and customer experience, on tens of millions of dollars' worth of transactions.
+Mantas Aleksiejevas
+Digital reach and sales
+Googler, Business Geek and Startup, Entrepreneurship and Export Development (SEED) Program Lead for the New European Markets. Over the years he has worked with a range of digital transformation projects within and outside Google. He witnessed how digital businesses are built and what lies at the core of progressive business models. Mantas' areas of expertise are international business development, growth marketing, and data analytics.
+
+Rene Fischer
+PR Partner
+Rene has worked in 20+ countries as a Creative Director, Strategist, entrepreneur, and consultant specializing in helping businesses to see clear development trajectories and aligning their activities around their development goals. His clients range from local champions to multinationals and startups.
+Software engineering
+Vytautas Alkimavicius
+Senior Software Engineer, Metasite
+Senior Java and MongoDB certified professional with strong UI knowledge and skills. Experienced with working in internationally distributed teams and environments, successfully participated in the development of large-scale distributed architecture systems with a diversified set of technologies.
+
+Operations
+
+Gytis Labasauskas
+Digital marketing
+Working at the leading digital performance agency iProspect, Gytis is leading digital user acquisition and sales strategies development of well known global and local brands including AirBaltic, Admiral Markets and others.
+
+Auks Siaudzionyte
+Community management
+10+ years of colourful experience bringing brands and customers closer to each other, polishing brands' identities and voices, empowering companies to develop a dialogue with their customers.
+
+21
+
+WEPOWER IS BACKED BY GLOBAL PARTNERS
+WePower due to its potential global impact and ability to solve emission problems is supported by the United Nations and Ministry of Energy of the Republic of Lithuania
+Energy companies supporting WePower:
+· The most innovative transmission system operators in Europe assisting us to launch a pilot tokenizing all Estonian energy sector - Elering
+· Renewable energy producers intending to use WePower and connect more than 1000 MW solar energy capacity plants to the WePower platform: Conquista Solar, Civitas projects and Novocorex
+
+Blockchain and token sale partners:
+· Alignment Ventures - premier one-stop-shop for blockchain creation & transformation · Krowd Mentor - a strategic investment and advisory firm empowering blockchain inves-
+tors, funds, startups and entrepreneurs to reach their liquidity goals · AmaZix - community management for crypto projects · Bitcoin Suisse - a Swiss-based financial service provider specializing in crypto-assets · TokenLot - payment solution for tokens · KR Token - a consulting company based in Korea, specializing in dealing with digital assets
+Technology partners:
+· Catapult - energy infrastructure · Wings - technology partner · Metasite - software development · Blockchain Labs - smart contracts · Finpass - KYC platform
+
+5. Road Map
+5.1. WePower - Breeze
+
+5.1.1. Challenge: limited and expensive capital for green energy project developers
+The energy market today is dominated - 78,4%6 of the total energy supply -by dirty energy,, despite the transition begun many years ago since theories regarding global climate change have appeared7. This process has accelerated in the last decade with oil prices reaching record highs in 2008 and a push towards the search for alternatives. Many developed countries with the support of government during the Kyoto protocol have established renewable energy support programs with variable success to achieve protocol defined goals.
+
+22
+
+6 Please see http://www.ren21.net/wp-content/uploads/2017/06/170607_GSR_2017_Full_Report.pdf (p.30). 7 This whitepaper will not address the problems of climate change. However, we will provide links to materials that show why taking care of the planet and switching to clean energy is more important than ever before. Moreover, we will explain what is the cost of dirty energy on our life to be paid by us or our children.
+
+Transforming an energy market in development for over 100 years to run on clean energy is a difficult task, requiring great amounts of capital. Investment thus far, have enabled a renewable energy level of 21.6%. Moving towards a decentralized future, this market must appeal to investors.. Most P2P energy platforms struggle to scale globally, since significant transaction volumes are first necessary to enable P2P energy trading.
+Capital availability today is the most important issue for any project developer. On different levels, this is dominated by banks, funds, etc., where the goal is always to maximize their share of profits. These high profit percentage requirement slows developers by minimising their returns and their ability to reinvest income in new renewable projects. Debt providers (banks) are not usually open to projects without a substantial amount of equity capital already raised. Naturally, current investment consideration becomes a very difficult and lengthy process, requiring from 3 to 6 months to conclude an agreement. In addition is the time a developer spends locating and researching investors.
+With the increasing percentage required of initial capital for renewable energy development projects (highlighted in a recent BNEF8 article) renewable energy production capital availability becomes an even more important issue as banks increase the demand on higher initial capital/ debt ratio from 20:80 to close to 50:50 for new developing projects. This makes equity a very expensive source of finance, due to limited availability and increased requirement of such. 77%9 of the financing in previous years was done through Project financing. Changing debt structure will have a significant impact on the available debt and thus total investment in the market.
+The second problem linked to the changing financing structure of energy production at the market price is the participation of individuals in the market. For example, a number of peers participating in the energy market investments are negligible. High net worth individuals (HNWI) make up the majority of investors in infrastructure projects such as renewable energy production through Private Equity funds. The general public is faced with these barriers to enter the market and invest:
+1. Minimum investment amount - at least 125,000 EUR 2. Long capital lock-up times - 10 years for a typical fund 3. Lack of knowledge of fund manager reputations and trust in their team
+WePower's first objective is to address this capital availability problem along with the current complexity of administrative issues. By reaching this goal, WePower will increase the renewable energy production growth and the growth of green energy users. Such growth would allow WePower to move towards P2P energy trading and final consumer participation in the market, a necessity in coping with global warming.
+
+23
+
+8 Please see: https://about.bnef.com/blog/lower-debt-ratios-likely-unsubsidized-green-energy/ 9 Please see: http://www.ren21.net/wp-content/uploads/2017/06/170607_GSR_2017_Full_Report.pdf (p.112)
+
+5.1.2. Current working model ­ attracting capital The conventional investment process is lengthy and inefficient. In order to acquire financing, the renewable energy producer must: 1. Analyze the site of energy production compared to other sites 2. Analyze regulations to bring the project online and risks of completion 3. Analyze and selecting equipment to suit the business case 4. Analyze and selecting a construction company with experience and acceptable business
+practices 5. Analyze other risks that may come from development of the project The above list may vary depending on the specifics of each project development but it is a necessary process and cannot be rushed. The next step for a developer is to search for the financing of the project. Raising capital is a gamble. Every investor and/or bank must: 1. Check if risks are acceptable for the investor considering its return 2. Compare the investment and its return with other investment opportunities with similar
+return and risk ratio These projects go through technical, legal and financial due diligence. This is not a standardized process and varies from investor to investor and bank to bank. Current project cost depending on the size of financing involves: 1. Tech Due Diligence - By the third party to assess technical risks 2. Lawyer structuring fees 3. Bank lawyer structuring fees and associated cost -1.5 to 2.5% of debt size 4. Equity - Fund Structuring costs 1.5% - 4% depending on the ticket size 5. Cost of time Investment flow chart with intermediaries:
+24
+
+WePower simplifies the capital raising process to unlock value currently untapped, by connecting renewable energy producers with the global financial markets and every user of the internet the.
+5.1.3. Investment process simplified
+Each new project aims to begin as quickly as possible. However, this is not an easy task. Capital availability is the number one issue delaying most projects. A large part of this is administrative, negotiating the acceptable risks of a project, cost of risks and their coverage, lack of initial equity capital etc.
+WePower provides a marketplace to sell green energy utilizing smart contracts for each token kWh to be delivered at a specific time. This simple model allows projects to raise capital faster with the obligation to deliver green energy at the prearranged price. Even the onboarding process is simple and standard.
+WePower will also streamline administrative issues for both parties. We will ensure standard investment terms and ensure that risks for energy buyers are covered10. WePower will also save time and expenses for the producers looking to raise funds.
+WePower investment process flow chart:
+
+The investment process is simpler with WePower. Project development is accelerated by raising capital from the community in a standardized way, bypassing lengthy negotiations and deal structuring, accepting terms by smart contract.
+WePower has already created a functional, basic energy trading network, which connects energy producers and buyers, market makers and/or investors. With our existing product, WePower helps renewable energy project developers attract capital in an efficient way, which in turn significantly increases the project's return on equity (ROE) ratio. Simultaneously, the platform provides access for any individual to invest in the energy market, without going through a painful administrative process, due diligence or high entry costs and barriers. Moreover, WePower cuts energy costs for consumers and generates stable, high and asset-backed returns.
+5.1.4. Standardization of kWh token issue
+From the administrative responsibilities listed above, with WePower the producer has only two tasks:
+1. Accept standard rules of the smart contract (i.e., power purchase agreement) 2. Negotiate discount from the market price for the energy to be produced in the future or
+simply the price of green energy at which the community is willing to buy energy to make profit acceptable to both parties
+
+25
+
+10 WePower is bringing standardised smart contract for energy trading as a digital PPA with bearer rights for energy delivery with investment, risk and rights clauses covered by the contract.
+
+WePower not only provides a simplified process, but also increases a project's ROE up to 20%. Below is a simplified example of the business case of attracting capital through internal energy token sale on the WePower platform. In other words, capital requirements are met by selling energy to be produced in the future in a form of energy tokens with a discount, compared to the current market price.
+
+As capital is received prior to construction, the price of electricity to be delivered is set (hedging future sales of energy depending on the amount of tokens or energy sold). This decreases the need of initial capital needed for construction. Once the delivery of energy according to the concluded initial smart contract is complete, the producer sells the rest of produced energy at market price. This way, a producer gets the full benefit of plant energy sales, sharing the benefits of lower energy price with consumers and taking advantage of higher future income flow on less capital initially invested.
+This example shows in general terms why it makes sense issuing tokens from the renewable energy producer's perspective. The WePower model has already attracted its first clients, which will connect approx. 1,000 MW capacity solar plants in Spain to the platform in order to finance their construction.
+5.1.5. Speed of investment
+With simple standardized terms of smart contracts running on the blockchain, without required trust in middlemen and with global access to investments, the WePower solution provides everyone with a fast, secure and cheap access to a green energy future.
+This realization has come with the growth of blockchain use. The disruption of financing has begun with further development of transaction scalability11. With clear and standardized rules, projects are able to begin in a matter of hours once showing their capacity to execute. The process will streamline further with the development of the necessary tools to make the process as smooth as possible. Reducing the time from consideration and negotiations to investment from 3 months on average (taking into account all negotiations with funds and banks when the project is ready for investment) to a few clicks after reviewing terms and understanding return via the discount on green energy provided by the project developer.
+
+26
+
+11 Please see: https://plasma.io/; https://raiden.network/
+
+5.2. Challenge: lack of access to green energy investment opportunities.
+5.2.1. Local & global investments
+Not every country is the same; some are blessed with sunshine, others with wind and others with powerful rivers or other hydro resources. However, investments should be done where they would bring most impact producing energy at market price and without subsidies, which pose the risk of Governments changing positions on subsidies or sometimes implementing extreme changes such as with President Trump's view on energy and climate change.
+WePower intends to provide global access to development projects that produce energy at the market price and would allow more people to benefit. Why invest in solar energy where there is not much sunshine? Invest where the sun shines year round and buy locally available green energy from the proceeds of your investment. Here is an example:
+Many governments have previously supported renewable energy development to some extent, however, some countries have much more renewable energy potential without any subsidies. Let us compare UK and Spain using IRR12:
+13
+
+Government support through subsidies would give a larger return on such a project in the UK. However, after the support period has ended14 project earnings drop significantly, creating distortion of the market and hindering the development of potentially better renewable energy options and wasting tax revenues allocated to subsidies..
+
+We begin with countries that have an abundance of renewable resources to be developed at market price and in operation for many decades, not only while receiving subsidies. For example: Spain, Italy, Greece and France, beginning with countries that have high solar irradiation, wind or hydro resources and are capable of producing renewable energy at market price.
+
+27
+
+12 You can think of the internal rate of return as the interest percentage that company has to achieve in order to break even on its investment in new capital. 13 IRR calculation using a reverse formula to find IRR. 14 Please see here: https://www.canadiansolar.com/fileadmin/user_upload/downloads/datasheets/en/new/Flyer_KuDymond_CS3U-MS-FG_EN.pdf - at least 30-year useful life.
+
+5.2.2. Gains from investment process simplified We want to make the process of attracting capital more efficient. The evaluation process for investment becomes much simpler when investing in something you are used to everyday without complicated financial terms. Your consideration of investing is limited to 2 things: 1. Amount of energy or investment size 2. Energy price or discount applicable to the current market price for energy The WePower role of attracting capital from anyone wishing to invest in the energy market becomes extremely important due to the following reasons: 1. Scarcity of funds present on the market to develop renewable projects 2. Changes in project debt structure requiring higher equity portions 3. End of subsidies for renewable energy Based on the the WePower model, users of the platform would invest in green energy which is a tradable resource within the WePower platform and on any national market of the country of the project origin. Energy can be traded between countries where energy import and export is technically possible. This makes math for understanding investment returns very simple. As mentioned above, the renewable energy producer, in order to raise the necessary equity capital for project development, sells part of its energy to be produced in the future. This energy is always sold below the average market price. The discount for this energy price will depend on the market demand/ supply in the WePower platform. The following shows a simple investment return example: 1. Cost of energy token (kWh) versus market price in a specific country:
+0,039 Eur/kWh - token price (T) 0,047 Eur/kWh - market price (M) 2. Difference between prices and return: When we add time consideration we can see the followings
+28
+
+5.2.2. Gains from investment process simplified
+With the proportional portfolio holding of energy for all 4 years the IRR would be on average 10.4%. This is a fixed proportions example. However, different portfolio proportions are also possible in order to satisfy the business model of the plant selling tokenized energy. This would change the example accordingly - different proportions of tokens sold in different years change the return on the initial investment. Just as an example, current return on Government bonds in many countries in the developed world would return close to 0% or in some cases negative return such as in bonds of Germany15 or Switzerland16.
+Complicated project risk considerations are the responsibility of the developer. These risks are included in the price of energy production, simplifying the buyer's/investor's decision to buy the final product which price is determined by the market with a substantial discount. Project due diligence is done by the experienced WePower team.
+The user of the platform who has acquired token for the energy to be produced in the future may:
+1. Sell to another user until the moment the energy is produced 2. Automatically sell in the national energy market where the energy is produced and receive
+proceeds 3. Use for energy needs if WePower is working as an independent energy supplier in the buy-
+er's market. When the user decides to use the energy, he does not need to pay for the acquired energy and saves the difference between the price he paid and the market price when the energy was produced.
+Moreover, energy has tangible value and its demand is increasing yearly with greater connectivity of electrical devices, electric cars even with an increased energy efficiency of new devices.
+5.2.3. Efficient use of capital
+We understand that capital needs to be invested efficiently, thus in projects able to produce renewable energy cheaply, users will be able to:
+1. compare projects through the cost of tokens 2. compare markets through energy tokens and returns on investments
+The investment in energy will be used as efficiently as possible for the highest return for the backers of such projects while still making a profit for renewable energy projects themselves.
+
+29
+
+15 Please see here: https://www.bloomberg.com/markets/rates-bonds/government-bonds/germany 16 Please see here: https://www.bloomberg.com/quote/GSWISS10:IND
+
+5.2.4. Clear and transparent investment structure Transparency is one of the main features of public blockchain that eliminates the need for trust. All contracts, due to their transparent nature and presence on a public blockchain (in our case the Ethereum blockchain) make the investment structure clear. All conditions of the power purchase agreement, which will work as a smart contract, can be easily verifiable. As no complicated risk considerations are included in unsubsidized renewable energy projects, the only variable left will be the energy price.
+5.2.5. Energy market status and liquidity beyond the platform Markets are becoming more and more unified and are applying the same rules to its participants. Legal overview on the current legal system of energy markets will be provided in the additional reading materials we will publish in Medium. With the current level of independent energy production and market competition, over 80% of electricity transactions are done over exchange, making markets mature and highly liquid. Exchange market participation:
+WePower integrated with local energy market exchanges as a participant, is able to sell energy at a time when there is less liquidity on the platform. WePower also gives access to the public to be directly connected to the markets globally through WePower, thereby always having liquidity at market price.
+5.2.6. Shift WePower proposes to receive returns from energy where investment is profitable, sustainable and efficient and use earnings in the local market to procure green energy. WePower, Acting as an independent energy supplier would take care of supplying platform customers with the cross-border transfer of energy when economically viable, or local green energy by swapping energy tokens according to the preference of source and availability.
+30
+
+Instant Swap Example: Spain - Italy & Spain - UK
+The customer/investor would always have a choice whether to get proceeds from the sale of energy in the market or to opt for the supply of green energy and swap the token in a country where it is more efficient to produce from a specific source to the supply of green energy in his home country, as seen above in a form of domestic country token.
+5.2.7. Secondary trade While bringing standardization to energy production and tokenizing energy with the help of blockchain and smart contracts, WePower will enable trade and liquidity in green energy. The current market, due to a shift from subsidized to unsubsidized energy production, has pushed project developers to PPA (Power Purchase Agreement) providers who cut the discount on energy from the producer so they are able to show some fixed income and stability to the bank instead of accepting the full market price and volatility.
+Current PPA market varies from country to country, however with the increasing scale of market price the gap is wide. As an example, current offers of PPA on the market are in a range of 39 EUR per MWh for solar energy and 37 EUR/MWh for wind with the average market price of energy of 47 EUR for the past 10 years17. It creates opportunities to realize sizable profits for the PPA providers. With WePower we will provide this opportunity for anyone without any additional barriers to trade.
+5.3. Challenge: incentives, trust and transparency
+WePower transforms the way green energy is accounted for. The platform does so by providing a technologically more efficient, transparent and robust solution, making use of a public blockchain ledger and smart contracts. The current green energy certificate market lacks integration, trust and transparency as well as efficiency. Furthermore, it does not incentivize further green energy generation capacity investments.
+17 Please see here: http://www.omie.es/inicio/mercados-y-productos/conoces-nuestro-mercado-de-electricidad
+31
+
+5.3.1. The current green energy certificate market
+Currently, green energy certificates operate as guarantees of the origin of electricity production and are accounted for by different entities assigned to do so in each country. In the European Union, the Transmission System Operators (TSOs) are typically responsible for this task. In principle, green energy certificates are derivate energy products and can be purchased separately and/or together with physically consumed energy.
+Green certificates are usually obtained on a monthly basis18, if the following conditions are met:
+1. The energy producer operates in the renewable energy market 2. Any subsidies must be declared on the certificate (otherwise the certificate might not be
+tradable as it is seen that support is granted by means of subsidies) 3. Issue of certificate is based on the principle 1 MWh ­ 1 certificate
+There are a number of issues with the current way green energy certificates are managed:
+1. Does not support further green energy production: current producers and traders of green energy certificates have no formal obligation to invest the proceeds of sales of the green energy certificates into further green energy generation capacity. Furthermore, as there is no information about the geographical location of the green energy, these two aspects combined means that there is no mechanism to use the green energy certificates to further speed up the transition towards renewable energy. There is no effective mechanism to support local green energy production.
+2. Transparency indicating whether green energy is subsidized or not: In the European Union, it is up to national policymakers to decide if subsidized green energy production can receive green energy certifications or whether they can be applied only for non-subsidized energy. As a result, in some countries subsidized green energy production receives green certificates but not in others. This lack of transparency distorts the market and may miss-align incentives for further investment in green energy generation. A wider EU solution to harmonize disclosure and transparency is required. And while national solutions can be reliable, integration of the current national disclosure systems would be very costly.
+3. Lack of transparency and disclosure for consumers: Although disclosure might appear to consumers as an abstract and complicated topic, it is important that they know they can trust the system information. How the system works must be made accessible for consumers demanding this information. Consumers are becoming increasingly aware that by buying electricity based on renewables, they cannot be guaranteed they will physically consume electricity produced by renewable sources (as mentioned above - green energy certificates are derivative products). It only ensures that the same amount of electricity (which is consumed) has been generated by renewables somewhere in the electricity market.
+
+32
+
+18 The period for issuance of the permit varies from 2 weeks to 2 months.
+
+4. Lack of details in accounting green energy: The data concerning guarantees of origin is managed by different local institutions in each country on a private ledger19. Green energy certificate production may or may not match the green energy certificate consumption in each country. In such a case, the inter-country balancing is done via cooperation of the local institutions and regional energy exchanges by adequately adjusting the ledgers for such data for each country. However, there is no single standard and source of information, therefore it is difficult for the customers to know and trust the exact source of the green electricity they consume.
+5. Fragmented implementation of green energy certificates: the implementation of the guarantee of origin system has primarily had a national focus in most countries. Customers would benefit insofar as the costs of the traded guarantee of origin would be made transparent and guarantee of origin trading could be more cost-efficient. Both energy consumers and regulators have expressed a need to introduce platforms capable of making inter-market trading of guarantees of origin more transparent, secure and non-discriminatory through harmonization20.
+6. Barriers to entry for smaller residential users: currently, one guarantee of origin equals 1 MWh which is more than the typical monthly consumption of a residential user. Furthermore, certificates are usually purchased for a period of 12 months (equaling their maximum longevity). This means that residential users are forced to predict their consumption and round it up to the next MW, meaning they risk overpaying for energy if they seek a 100% green energy consumption.
+
+5.3.2. Renewable energy and green certificate trading transformation
+Clear, transparent and trustworthy electricity production disclosure, i.e. green energy certificates, are essential if a voluntary, consumer-driven market for renewables is to be created. Furthermore, green energy certificates are a fundamental tool for supporting consumer awareness and choice in a power market. The energy market requires further integration of the different disclosure systems in a more efficient and reliable way at an international level. This is exactly what the WePower platform delivers - an efficient, affordable and harmonized solution which has the potential to be established as a best practice in the industry.
+Green energy certificates are a tradable commodity21 and such trade will be carried out by using the WePower platform. Current regulations mean that energy suppliers (including WePower) can facilitate the trade of energy on a voluntary basis without any statutory restrictions. WePower takes care of all the administrative work for the energy producer to obtain green certificates. In cases when small energy producers using WePower services cannot reach 1 MWh ­ 1 certificate limit, these small energy producers are pooled together and share the benefit proportionally, meaning that barriers to entry are removed for smaller residential users.
+
+By combining existing technologies, WePower fundamentally transforms the way green energy is accounted for and provides an advanced, robust as well as trustworthy solution to the current green energy certification market. With WePower, residential energy consumers and businesses can:
+
+33
+
+19 This ledger can be as simple as a Microsoft Excel file, which is prone to tampering, errors and exhibits a low-level of security. 20 Report on Certification systems for origin of electricity from RES and CHP, MedReg (Mediterranean Energy Regulators), 2016, Rome. 21 Directive of the European Parliament and of the Council of 23 April 2009 on the promotion of the use of energy from renewable sources and amending and subsequently repealing Directives 2001/77/EC and 2003/30/EC
+
+1. Purchase green energy and have automated and verifiable proof of the amount of green energy purchased via the information stored on the blockchain.
+2. Purchase green energy more efficiently as both the energy and method to guarantee its green origin is the same product, instead of procuring energy and green certificates as two separate products.
+3. Ensure that the purchase of green energy products actually promotes the development of green energy products by effectively purchasing future green energy, unlike now, where there is no legal obligation or technical way to ensure that revenue for green certificates is spent on promoting more green energy.
+4. Ensure that local generation is supported, as it becomes possible to track the exact geographical origin of each green energy MWh produced. For example, it becomes possible to pay additional premiums for green energy if it is generated locally, to promote further local green energy generation capacity.
+5. Receive all information about the mix of green energy (e.g. solar, wind, hydro) certificates purchased, the location of the production, and whether the production is subsidized.
+The illustration below presents how the green certificate transaction model works:
+
+5.3.3. Alignment of the incentives for trust and transparency
+Green energy supply and trading on the WePower platform acts as an advanced version of the existing guarantee of origin of electricity production certificates which are currently often difficult to understand for customers. With a coherent, reliable and trustworthy solution, WePower solves multiple challenges relating to the fragmentation of green energy markets. Therefore, WePower is supported by local governments and regulators (please see the document from the Lithuanian Ministry of Energy)22 as it not only addresses the cost-efficiency and trust challenges, but also aligns the incentives of the green energy producers and consumers wishing to support and participate in further development of green generation assets.
+5.4 WePower Development stages
+The WePower platform connects Ethereum smart contracts based global trading and investment capabilities to local renewable green energy plant construction, energy retail and flexibility markets.
+
+34
+
+22 Attachment to the whitepaper.
+
+The roadmap to realizing these features is divided into 3 general stages of expanding complexity, called Breeze, Storm and Hurricane. All three phases completed will form the technology stack for a next generation virtual utility company., one that encompasses all technological and process capabilities of a traditional vertically integrated utility, but is purpose-built for the emerging decentralized, democratized and decarbonized world. In essence this means although it is basically a utility company, its system nodes are connected virtually, through information flows, instead of physically through energy flows. Hence a virtual utility company does not own assets, but can provide all the trading, control and asset management capabilities for these assets. The physical layer still runs on traditional power grid operators - and the virtual utility will operate within current regulatory and business frameworks. It does not require regulatory change, although success on different markets will be somewhat driven by regulation.
+More detailed information and background about the engineering challenges to be tackled are in the paragraphs below. The 3 general stages represent a lifecycle. Breeze corresponds to demonstrating all core features on a full value chain - hence a properly piloted system. Storm demonstrates features required for larger concentrations of renewable energy where electricity transmission and distribution grid limitations and flexibility become an issue to manage - hence Storm will demonstrate the ability of the WePower platform to successfully tackle the problems of grid integration. Hurricane will then take the system with all features tested and focus on standardization, optimization and simplification - hence, in Hurricane, development focuses on making the platform even easier and cheaper to use, as the platform is being scaled on target markets.
+Although the roadmap does not cover the internals of engineering management, they will be mentioned here in a few words. The 3 lifecycle phases have corresponding engineering organization expansions. Team size will expand only as the features of one stage have been sufficiently validated, so as to keep the overall engineering running cost optimal, while avoiding productivity and team culture problems associated with rapid expansion. The team for Breeze is ready and a recruitment and expansion strategy has been laid out. For more information on key team members check chapter 4 - execution and business.
+5.4.1. WePower Breeze - investment, trade, consumption of energy & Smart contracts
+The objective of the Breeze phase of engineering is to integrate the WPR token and the Energy token with a global trading platform connected to regional wholesale and local energy retail markets with the capability to aggregate renewable energy plants.
+Breeze is concluded when a user can invest in certified renewable green energy and cash out whenever he or she desires.
+To invest in green energy, the high level flow is as follows. When a plant is first planned, we will estimate its energy production pattern. Then the green energy developer will be able to bundle up the desired amount of future-generated power and set a price for it. The platform then converts this into Ethereum smart contracts that will be called Energy tokens on the WePower platform. These tokens are then offered for sale on the platform. Tools to view and evaluate green energy projects under development and to find suitable opportunities to invest will be developed by our team.
+35
+
+In principle, three options exist to sell energy - wholesale markets, retail markets and platform-internal trade. Internal trading features will be developed first. Of the wholesale markets, integrations, both technical and organizational, will be developed initially with Nordpool, EPEXSPOT and OMIE, covering most of Europe.Other market integrations will be added later. Each wholesale market will vary slightly with its rules, so at this stage the user will have to choose the target market. For retail markets, local rules will apply and consumption or retail selling will be available at markets where WePower registers as an energy retail company. Markets with Smart Meters are preferred as accurate metering is the basis for capturing value from price fluctuations.
+To make the trading operations across this complex landscape easy and usable, a wallet system will be developed, allowing for easy transferring and redemption of energy tokens between different retail and wholesale markets. This wallet will also link to the WPR utility token and allow to gather the free Energy token donations that accrue on that over time. The tokens will function as certificates and the user will always know where the green energy comes from.
+In order to coordinate distributed green energy production into a wholesale market-capable offer, aggregation capabilities are integrated and tested, according to the requirement on wholesale markets to offer bundled energy. The current concept assumes the aggregation/flexibility module will be sourced and integrated, not internally developed.
+5.4.2. WePower Storm - enabling high penetration of renewable energy
+Aggregating and managing energy flows to enable high penetrations of green renewable energy and to add the flexibility trading dimension
+In WePower Storm, as more plants and consumers connect to the platform, additional optimization capabilities are developed for prosumers (producers and/or consumers) and local power grids in order to fit more green renewable energy into the grid and onto the platform.
+This phase is critical to ensure that WePower solves the green energy challenge at every level. Since this deals with power grid integrations, it is also the most complex phase. A basic understanding of green renewable energy impact on the physical grid layer is required to understand what kind of optimization is being developed in Storm.
+5.4.3 The impact of green energy investments on electricity grids
+Electricity use can vary dramatically on short and medium time frames, depending on the time of the year, people movement, weather patterns and other difficult to predict events. Electricity generation adjusts to changing demand by dispatching additional or producing fewer sources based on the efficiency and cost. Optimization of energy generation in order to satisfy energy demand at each moment of time is the classic role of the transmission system operator (TSO). The supply of that energy to each and every consumer is the role of the distribution system operator (DSO).
+36
+
+Current electricity grids are designed around centralized large generation units that are using steam, heated by various fuels, to spin large rotating turbines at a stable speed of 50Hz. Green energy investments by their nature are not centrally connected to the grid at a single point, but represent distributed electricity generation that has varying, not stable, energy supply profiles.
+5.4.4. Grid of today challenges
+Electricity grids are not designed, planned or operated to take full advantage of distributed green energy resources.
+The impact of varying load on the energy infrastructure planning and operations carries a significant cost for society that is paid by all consumers as a regulated grid fee component on their energy bills. Grid investments, including the integration of distributed green energy resources, are still planned based on static suboptimal principles.
+Electricity networks are planned and designed on the basis of meeting the local peak demand or peak generation. Such a peak might only occur for a few hours on a handful of days in a year. When a new prosumer applies to connect with the grid, system operators assess whether the generation and/or consumption capacity requested could breach consumption and/or generation limits at this peak time.
+In many cases, the new applicant can indeed cause a possible breach. If this risk is identified, then under the current application management principles, regardless of the magnitude and/or likelihood of the possible breach, this will prompt grid reinforcements. The cost of implementing such reinforcements will, depending on the regulation, either be covered by the applicant, or by the network, which means the costs will be spread among all consumers equally.
+To overcome this suboptimal nature of connecting dynamic supply to a statically designed grid, many TSO-s and DSO-s have implemented flexibility trading platforms. With the flexibility mechanism, it becomes possible to enable new green energy to connect to the network without implementing grid reinforcements. The latter is true if the prosumer agrees to be constrained when the network reaches its capacity limits. This can reduce the costs of connecting to the network and also the time to connect, as reinforcement work is not required.
+With larger concentrations of distributed renewable resources such power quality problems as voltage level fluctuations, increase of total harmonic distortion, or other complex issues may also need to be taken into account while planning.
+5.4.5. WePower Storm: Future of the grid
+Future - Integration to the electric grid and distributed green energy, enabling high levels of renewables in the grid for minimal investment.
+In WePower Storm a fully transparent and decentralized ownership model for green energy projects will be implemented. The integration with energy production plants will be expanded
+37
+
+beyond metering data to include control and monitoring systems. This will allow for advanced asset performance analytics capabilities and machine learning techniques for optimization to be integrated. The resulting visualizations of asset performance and flow modeling will allow the investment data analytics tools on the platform to better reflect the locational and asset flexibility value for the electric grid infrastructure. Another layer of value for distributed green energy resources is added to the platform and it provides superior investment decision support for platform traders.
+Virtual Power Plant control system capabilities will be integrated into the platform and direct integration into flexibility market platforms will be developed in regions where renewable penetration rates are high enough to support this. In the following figure you can see the recent developments of explicit demand response in Europe today23.
+
+38
+
+23 http://www.smartenergydemand.eu/wp-content/uploads/2017/04/SEDC-Explicit-Demand-Response-in-Europe-Mapping-the-Markets-2017.pdf
+
+Aggregators, flexibility service providers, and the flexibility market
+An aggregator is an entity which offers services to aggregate energy production, storage or consumption from different sources and acts in the market as one entity.
+One form of aggregated entity is a Virtual Power Plant (VPP). VPP is a cluster of distributed generation installations (such as solar, micro CHP, wind-turbines, small hydro, backup conventional generators etc.) which are collectively run by a central control entity. A VPP is created either for the purpose of energy trading optimization or the provision of the flexibility support services for the system, such as balancing reserves, congestion management, and frequency regulation.
+A flexibility service provider (FSP) is an individual or aggregated market participant with the capacity to change electricity usage or a generation of prosumers (their normal or current consumption/production patterns) in response to flexibility offer activation signals. FSP provides flexibility services to the flexibility markets.
+The flexibility market process includes 3 main process steps: inquiry, bidding and clearing.
+Inquiry process is designed to send signals from grid operators towards FSP-s to notify them of the need for flexibility somewhere in the grid. After the trading starts, the information collection from FSP-s is performed, receiving and registering flexibility offers for the operator. Then, the prices are negotiated by means of an auction. After gate-closure, the bids can be chosen for activation.
+Flexibility bids are registered in a common system to guarantee the transparency of the bidding and purchasing processes. All purchases placed by the TSO and the DSOs are registered. The information is processed and then provided to all market participants.
+The purchasing market participants place their purchasing bids according to these continuously updated lists. This provides indirect communication between the market participants. In case of conflict, bids can be blocked. The clearing process is performed after the flexibility activations to support the billing and payment settlement flow.
+WePower Storm: enabling smart contract powered flexibility services
+Congestion management and frequency regulation services, supported by machine learning and AI techniques, will be sold on the flexibility markets - both "slow" and "quick" activation will be supported.
+· "Slow" load activation (max within 15 minutes). Increase and/or decrease distributed power consumption and/or generation at a predefined magnitude within a predefined geographical area by activating bids from FSPs. "Slow" load activation will be used for Business use-cases where the grid requirements enable a reaction time within 15 minutes. Such measures are mostly designed to preempt grid constraints.
+39
+
+· "Quick" load activation (max within 5 seconds). Increase and/or decrease distributed power consumption and/or generation at a predefined magnitude within a predefined geographical area by activating bids from FSPs. "Quick" load activation will be used for business use-cases where the grid requirements assume a near-real-time reaction time (e.g. for the primary frequency reserve).
+Frequency management is of critical importance in the electricity system. The primary objective for a TSO in balance management is to maintain the power system frequency, which describes the balance between electricity production and consumption. In a normal situation, the frequency is permitted to vary between 49.9 and 50.1 Hz. If the frequency of the grid is below 50 Hz, consumption exceeds production. Correspondingly, when the frequency is above 50 Hz, production is greater than consumption.
+The power balance is maintained by means of frequency-controlled reserves and manual regulations. The frequency-controlled reserve consists of power which is activated automatically by frequency changes. If it is not possible to keep the frequency within the permitted limits using frequency-controlled reserves alone, manual upregulation or down-regulation is carried out.
+With the growth of generation in the distribution networks and the empowerment of consumers through markets and technology, distribution grid users constitute a substantial source of flexibility that can benefit the power system, both at a local and systemic scale.
+Congestion in a power system occurs when the transmission lines are not sufficient to transfer the power according to the market desires. Thus, congestion management is a tool for efficiently making use of the power available without violating the system constraints. Congestion management refers to avoiding or relieving congestion.
+5.4.6. WePower Hurricane: decentralized virtual energy utility
+As core and auxiliary platform features are successfully developed, WePower Hurricane will focus on drastically improving the scalability of the platform through lowering of transaction costs, simplification and automation of user interface, and introducing AI powered system-wide optimization.
+WePower Hurricane focuses on improving the user experience and platform connectivity options and in fully realizing two wepower complex system concepts - the decentralized virtual energy utility and the peer-to-peer energy marketplace.
+User experience is critical because the utility business has a very wide customer range and in order to build user experiences that are simple and understandable across a wide demographic range, lots of automation is needed behind the scenes. The exact aims here will be determined by the business strategy as we enter the Hurricane phase.
+Platform connectivity simply means expanding the options for supported systems on the energy IoT (Internet of Things) level. This includes support for different types of Smart Metering systems, different renewable energy control and monitoring systems, different integration options with TSO and DSO grid data and more options to connect with different wholesale mar-
+40
+
+kets. The exact targets will be determined by business strategy at the Hurricane stage. To support the decentralized virtual energy utility, from a technology point of view, means the capability to build and operate full microgrids end-to-end. To support the peer-to-peer energy marketplace concept, a system of compiling mass-market energy retail packages from certified green energy needs to be developed. These two concepts are not well-defined in the industry at this point - and WePower has a unique take on them. From a business and concept perspective they will be elaborated separately. Currently, energy is a commodity. On more advanced open markets, where all customers have access to hourly market prices, energy utilities are investing in behind-the-meter IoT platforms and solutions to differentiate themselves, via offering energy optimization and additional comfort services. WePower platform, having reached Hurricane phase, will have one massive advantage when moving into the energy retail space. Having built up a trusted and transparent marketplace of green energy, we can offer the residential energy customer something unique - an emotional connection to power generation - for we can present exactly where the energy mix for the customer was actually produced and who owned it. Having this connection, combined with easy and transparent energy trading and investment opportunities on the platform, will generate a strong incentive for mass market adoption of green energy.
+WePower Hurricane will allow the prosumer to buy and sell all energy via transparent smart contracts. It is intended for mature open energy markets with smart metering and data hubs deployed - whether one or multiple. It will feature integration with behind-the-meter control and monitoring devices for solar and storage. Machine learning and AI-powered residential asset performance analytics will provide capabilities for residential prosumers to participate in VPPs.
+On the markets side, Hurricane will feature algorithmic trading for the hourly market, and supervised, AI-assisted trading support for the day-ahead markets. The following figure shows the predicted scale of smart-metering roll-out in the EU, based on the European Commission's data24.
+24 http://ses.jrc.ec.europa.eu/smart-metering-deployment-european-union
+41
+
+We believe, that at this phase, the WePower platform will revolutionize the energy utility concept and enable full competition against the incumbent large utility companies. Lacking most of the costs of traditional utility companies, with a strong green energy generation portfolio accessible via the trading platform, WePower will be in a far superior competitive position and therefore much more profitable.
+42
+
+43
+
+Contacts:
+Email: team@wepower.network Web: http://wepower.network Telegram: https://t.me/WePowerNetwork
+44
+
+

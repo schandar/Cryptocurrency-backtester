@@ -1,0 +1,1220 @@
+
+
+WHITEPAPER
+TELCOIN WHITEPAPER V1.2
+
+PAGE 1 OF 50
+
+Telcoin Whitepaper v1.2 (2017-12-11)
+This updated version of the Telcoin Whitepaper represents a number of revisions based on community feedback, business strategy refinement, and legal counsel. This current version should be considered the definitive version of the Whitepaper, superseding any previous versions.
+
+
+CAUTIONARY NOTE ON FORWARD-LOOKING STATEMENTS
+This whitepaper contains certain forward-looking statements. A forward-looking statement is a statement that does not relate to historical facts and events. The forward-looking statements are based on analyses or forecasts of future results and estimates of amounts not yet determinable or foreseeable. These statements appear in a number of places in this whitepaper and include statements regarding Telcoin's intent, belief or current expectations with respect to Telcoin's financial position, business strategies, plans and prospects and future prospects of the industry. In many cases, but not all, forward-looking statements can be identified by forward-looking terms such as "aim", "believe", "could", "estimate", "expect", "intend", "may", "might", "outlook", "plan", "possibility", "potential", "probably", "project", "risk", "seek", "should", "target", "will" and similar terms. These forward-looking statements are based on current estimates and assumptions that Telcoin makes to the best of its present knowledge and are subject to risks, uncertainties and assumptions. Should one or more of these risks or uncertainties materialize, or should underlying assumptions prove incorrect, Telcoin's actual results may vary materially from those currently anticipated. Potential risks and uncertainties include, without limitation:
+
+· Telcoin's ability to develop and launch the Telcoin platform; 
+ · risks associated with meeting users' expectations regarding the functionality of the
+Telcoin platform; 
+ · risks associated with Telcoin's business and ope rations; 
+ · risks associated with an unestablished public market; 
+ · risks associated with restriction of transfer of Telcoin tokens; 
+ · risks associated with a user's inability to access their Telcoin wallets; 
+ · risks associated with the compromise of a user's credentials; 
+ · Telcoin's reliance on Ethereum blockchain as the base of the Telcoin platform; 
+ · risks associated with insufficient interest in the Telcoin platform or blockchain
+technologies;
+ · Telcoin's ability to continuously adapt its business model to meet market needs; 
+ · risks associated with competitive technologies; 
+ · risks associated with security weaknesses; 
+ · risks associated with the new and untested technology underlying the Telcoin platform; 
+ · risks associated with large volume transactions occurring through the Telcoin platform
+on the blockchain network; 
+ · Telcoin's ability to effectively protect its intellectual property; 
+
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 2 OF 50
+
+· risks associated with meeting regulatory obligations in the countries in which Telcoin intend to operate; 
+
+· risks associated with unfavorable legal or regulatory actions; 
+ · risks associated with the fact that Telcoin tokens will not be legal tender of any
+jurisdiction; and 
+ · risks associated with tax treatment of Telcoin tokens. 
+
+Given these risks and uncertainties that may cause the actual future results, performance or achievements of Telcoin to be materially different from that expected, expressed or implied by the forward-looking statements in this whitepaper, undue reliance must not be placed on these statements. These forward-looking statements are applicable only as of the date of this whitepaper. Telcoin disclaims any obligation to update, or to announce publicly any revision to, any of the forward-looking statements contained in this whitepaper to reflect future actual events or developments. 
+
+Telcoin reserves the right to update this whitepaper at any time. Please visit Telcoin's website (www.telco.in) for the most up-to-date version of this whitepaper.   This whitepaper does not constitute an offer, but is a concept paper. 
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 3 OF 50
+
+Table of contents
+
+Introducing Telcoin
+Why Partner with Telecoms? Trust, Reach and KYC Compliance
+The Background Story The Case for Telcoin
+
+Working With Telecom Operators Track one - Aggregators (Airtime and Mobile Money)
+ Track Two - Telecom Partnerships
+
+Commercial Model Telcoin Exchange API Telcoin Use Cases And Capabilities
+Primary Use cases
+ Additional Uses Cases
+ Additional Capabilities
+
+Cryptocurrency Details
+Telcoin Blockchain and Supply What is an ERC20 Token?
+ What makes Telcoin different from other ERC20 tokens?
+
+A usable cryptocurrency - how will Telcoin work? Telcoin Building Blocks
+ Selected Use Cases
+
+Telcoin Issuance Model Stages of Integration
+ Connecting with Telcoin Validating Network Size Telcoin Exchange Volume Compliance Maturity
+Partial Exchange Capability Telecom Transaction Fees or Taxes Partnership Overhead and Marketing Issuance Rights From Non-Telecom Exchange Volumes
+Telcoin Remittances
+Why Remittances? Business Model
+TELCOIN WHITEPAPER V1.2
+
+7 
+
+9 10
+12 13 13
+15
+16
+18
+20 20 
+ 21 21
+22 22
+PAGE 4 OF 50
+
+Competitive Analysis
+ Telcoin User Journey
+ Liquidity Management
+Telcoin Roadmap
+Regulatory Compliance Roadmap Product Development Roadmap Business Development Roadmap
+Challenges
+Monetary Regulation The Telecom Side
+ The Cryptocurrency Side
+
+Mobile Network Security Cryptocurrency Volatility
+Currency forward contracts as a service
+ From Telcoin to fiat currency in one click
+ Software Security Ethereum blockchain
+ Wallet security
+ Hot and cold wallet strategy
+ Securing key management on devices
+ Telecom Partnership Relationship Industry participation
+ Telcoin Issuance incentive model
+ Application support
+ Educating Consumers Blockchain needs to talk to the masses
+ Telcoin needs to inspire trust
+
+Marketing
+Telecom Channels Application development support
+
+In-house marketing content for telecoms Turnkey marketing assets for operators
+ Market identification and data analysis
+
+Marketing Plan Western Europe & North America
+
+TELCOIN WHITEPAPER V1.2
+
+24
+26 27 28
+29 32 33 34
+37
+38
+40 40 41
+PAGE 5 OF 50
+
+Asia
+ Africa and Middle East
+ Latin America and Caribbean 
+
+
+Company Structure and Budget
+
+Technology Team
+
+43
+
+DevOps
+
+
+Crypto Development
+
+
+Cryptocurrency Research
+
+
+Telecom Development
+
+
+Customer Facing Products
+
+
+Business Team
+
+45
+
+Customer Service 
+
+
+Legal and Compliance
+
+
+Finance and Liquidity
+
+
+Business Development
+
+
+Account Management
+
+
+Marketing
+
+
+The Telcoin Team
+
+46
+
+Initial Coin Offering
+
+49
+
+Pre-ICO Phase
+
+
+ICO Phase
+
+
+Post-ICO Planning
+
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 6 OF 50
+
+Introducing Telcoin
+Telcoin is a new cryptocurrency based on the Ethereum blockchain that will be distributed by your national telecom operator and made available to everyone, anytime, anywhere. This is the core of our business, and mobile network operators will be at the center of our strategy.
+
+Telcoin is the first cryptocurrency to tap into synergies between the reach of mobile telecoms and the fast, borderless nature of blockchain technology. According to the World Bank, there are nearly five times as many mobile phones in the world (5 billion), as there are active bank accounts (1.2 billion).1 It's a lot easier to access mobile phone services than banking services, and we aim to capitalize on that disparity.
+
+We will initially offer Telcoin to our mobile network partners, providing their customers with seamless access to the digital economy: online remittances, transfers, payments, and ecommerce. We will also provide the necessary marketing and product development resources to nurture the Telcoin ecosystem, in a joint effort with our telecom partners. 
+
+Our objective is not to compete with telecom mobile money, but to cooperatively participate in the overall mobile money ecosystem. We see ourselves as a complementary solution; a tool that will increasingly bring users to mobile money, cryptocurrency-backed solutions, and mobile wallets. Our goal is to become one of the cornerstone financial inclusion efforts of the 21st century and we want to cooperate with actors who we believe can play a critical role in this process, namely mobile network operators.
+
+Why Partner with Telecoms?
+By partnering with mobile operators, Telcoin can avoid key points of friction that have prevented similar projects from succeeding: trust, reach, and KYC compliance.
+
+
+1 An estimated 1.2B adults have access to a bank account that is active and capable of making payments. (Only 22% of adults (1.1B) have used a debit card (p20). Only 20% of adults (1B people) have accounts with more than two withdrawals monthly (p18)) http://documents.worldbank.org/curated/en/187761468179367706/pdf/WPS7255.pdf
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 7 OF 50
+
+Trust
+Cryptocurrencies suffer a major trust issue. The instantaneous nature of transactions is a doubleedged sword, and cryptocurrencies have been featured in numerous recent stories involving hackers stealing funds. Telcoin strives to be a complementary partner in the cryptocurrency ecosystem, and we hope to drive greater adoption of cryptocurrency in general, as many early Telcoin users will likely use it as a doorway to purchase other cryptocurrencies. We are offering to leverage telecoms' existing trust level with customers to provide an easy bridge between mobile money and cryptocurrency. 
+
+As described in the Security Challenges section, default security for subscribers who convert mobile money to Telcoin will involve a multi-signature wallet, preventing large Telcoin movements without two of the three wallet keys. Telcoin will also work with telecoms to utilize all available best practice security measures in order to protect subscribers. Furthermore, by focusing on compliance efforts with telecoms, we don't expect Telcoin to attract criminal elements. We intend to diligently maintain a clean image for Telcoin as a brand that can be trusted.
+
+
+Reach
+According to the GSM Association, more than 5 billion people have mobile phones. Reaching potential users can be difficult and costly for any new business. Telcoin will create a symbiotic relationship with telecoms in order to capitalize on their vast reach. By incentivizing mobile operators to partner with us - through the issuance of Telcoin described in the Cryptocurrency Details section - we will gain immediate access to their existing subscriber base. We will provide incentives to telecoms, which will promote Telcoin in order to maximize their own revenue from issuance.
+
+We also feel that Telcoin will drive further adoption of mobile money by adding practical use cases. Expanding mobile money adoption is a top priority of telecom CEOs in the developing world, as it has proven to generate a higher return on investment (ROI) compared to allocations for network infrastructure. Telecoms' global reach and their potential to spread digital financial services is still largely untapped. As several cases in Africa have illustrated, once regulatory barriers are removed, mobile phone users will rapidly adopt mobile financial services.2 
+
+We believe that now is the perfect time for Telcoin to enter the market. As regulation on both mobile financial services and cryptocurrencies begin to loosen, Telcoin will undoubtedly benefit from the reach of mobile operators.
+
+
+KYC Compliance
+Most exchanges now require a traditional bank account and a cumbersome "know your customer" (KYC) authorization before allowing the purchase of any cryptocurrency. This is a major drawback for companies working on the blockchain trying to address financial inclusion in
+
+2 https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/03/GSMA_State-of-the-Industry-Report-onMobile-Money_2016-1.pdf
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 8 OF 50
+
+developing countries. By going with a telecom-distributed cryptocurrency, a certain amount of KYC compliance is already in place. By working with regulatory compliance bodies to enable the leveraging of existing telecom KYC processes, Telcoin hopes to ease this major friction point for access to cryptocurrency.
+
+Telecoms also have a significant technical advantage to be able to actually know their customer based on call detail records (CDRs), location-based services (LBS), and other network elements that are already commonly leveraged by fraud management platforms. If a bank KYC form is not accompanied with sound document validation processes, it would rely heavily on the word of the customer filling out the form. The telecom operator, on the other hand, has real evidence regarding the customer's usage patterns. So it could be argued that a mobile operator's ability to perform effective KYC is actually far greater than a traditional bank's ability to do so. Telcoin will leverage existing telecom KYC in place for mobile money access and work with the telecoms to meet standards required for cryptocurrency.
+
+By partnering with telecoms, Telcoin strives to solve basic trust, marketing, and compliance challenges that have inhibited cryptocurrency adoption to date. 
+
+The Background Story
+One of the primary observations that led our team to envision Telcoin is the widespread disparity between access to financial services and access to telecom services. According to the World Bank, 2 billion people are unbanked - meaning that more than 35 percent of the global adult population still doesn't have access to basic financial services.3 That figure includes nearly half of the developing world, a neglected segment that we hope empower. 
+
+Bank Account Penetration
+Adults with an account (%), 2014
+94
+
+69
+
+51
+
+51
+
+14
+
+East Asia
+ Europe
+ High-income
+ Latin
+ & Pacific & Central
+ OECD
+ America &
+
+Asia Economies Caribbean
+
+Middle
+ East
+
+Source: Global Findex database.
+
+World
+46 Mobile money account only
+34 Financial institution and mobile money account
+Financial institution account only
+
+South
+ Sub-Saharan
+
+
+Asia
+
+Africa
+
+3 http://documents.worldbank.org/curated/en/187761468179367706/pdf/WPS7255.pdf TELCOIN WHITEPAPER V1.2
+
+PAGE 9 OF 50
+
+Fortunately, a much larger portion of the global adult population has access to telecom services. Nearly 5 billion adults - almost the entire global adult population - have a mobile phone.4
+
+Safaricom in Kenya provides the classic mobile money success story. In Kenya, 90 percent of the adult population has a "bank account" according the the World Bank - nearly the level of highincome OECD economies.5 How did they do it? Regulations in Kenya have allowed telecom mobile money to flourish, and while only a small minority of Kenyans have traditional bank accounts, they almost all have mobile money accounts. The majority of Kenyans would be considered underbanked, as the usability of mobile money is still somewhat restricted. But as the Kenya example has illustrated, regulators have played a major role in holding back financial inclusion. 
+
+Here is where Telcoin enters the picture. 
+
+
+The Case for Telcoin
+The borderless nature of cryptocurrencies is now placing increased pressure on regulators. Monetary policy remains a national security priority - and banks a powerful lobby - but a wave of interest in the future of cryptocurrencies is turning the tide. Around the world, governments are starting to accept cryptocurrencies, as the need to regulate them as a taxable asset is rapidly outweighing any threat to monetary policy. 
+
+We believe that once a telecom has regulatory approval to provide mobile money, and once the government has provided a regulatory approval or legal framework for cryptocurrency as a regulated taxable asset, there will be minimal regulatory barriers to a telecom establishing exchange capability with Telcoin.
+
+In this environment of increasing clarity regarding regulation, and growing excitement around cryptocurrencies, we feel very confident in our ability to get a sizable number of telecoms to agree to proof of concept partnerships. 
+
+
+Working with Telecom Operators
+As core telecom services are becoming commoditized, operators need to seek differentiators to remain profitable and grow. Financial services are an important part of that growth picture and cryptocurrency offers an opportunity to differentiate in the market. Telcoin aims to contribute to the mobile financial services ecosystem as a complement to existing telecom mobile money platforms. We believe that by offering subscribers easy access to Telcoin, we can help drive greater usage of mobile money and increase mobile operator revenue.
+
+Telcoin is realistic about the challenges associated with working with telecom operators. We believe they are great business partners, but telecom relationships and project business cases take time to develop - particularly in a new area with regulatory uncertainty like cryptocurrency.
+
+4 https://www.gsma.com/mobileeconomy/ 5 https://www.gsma.com/mobilefordevelopment/programmes/mobile-money/industry-data-and-insights/sotir
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 10 OF 50
+
+We are in various stages of discussion with many mobile network operator groups, and almost all express excitement about cryptocurrency and the potential for Telcoin. Almost all of them also do acknowledge the regulatory uncertainty and practical complexities surrounding any cryptocurrency project, and thus request a proper process of study prior to deploying a pilot project. We have also realized that dealing with central banks can greatly ease the process of obtaining approval for a pilot project with a mobile network operator. For this reason, Telcoin has developed a two-track approach to rolling out access to Telcoin and associated use cases and products. These two tracks are developing in parallel, and depend on each other for success.
+
+Track One - Aggregators (Airtime and Mobile Money)
+For Telcoin to be successful, we believe that rapid access to all telecoms globally is necessary. If Telcoin relied on establishing direct partnerships with all telecoms in the world, this goal of rapid access would not be practical. So we are working with global, regional, and local aggregators to initially connect to as many telecom airtime and mobile money platforms globally as possible. Along with crypto wallet and outbound "cash in" remittance partners, this will allow Telcoin to rapidly deliver an end-to-end product for Telcoin access. We can also then rapidly deploy products on top of this basic access, namely remittance and card payments, as soon as partners can be identified in key markets to facilitate regulatory compliance.
+
+In many remittance corridors today, "cash out" with mobile operators occurs via mobile airtime just as much if not more than via fiat currency in mobile money accounts. Our goal is to as quickly as possible enable the ability to send Telcoin to any mobile phone number in the world. To this end, we are establishing connections to airtime platforms via aggregators, while going through the process of securing mobile money connection capability in each market. 
+
+Regulatory and banking complications of mobile money connectivity are not the only reason to first connect to airtime platforms. In very important financial inclusion markets like Nigeria, for example, where mobile money adoption is extremely low, converting Telcoin to airtime can actually be much more effective than connecting to mobile money.
+
+The case for telecom partnership is made much easier when Telcoin is able to deliver a working solution in parallel or even prior to negotiating direct partnerships with telecoms.
+
+Track Two - Telecom Partnerships
+The Telcoin strategy is to provide coin issuance as an incentive to promote greater adoption of Telcoin by an operator's subscribers. By already connecting to operators globally via aggregators, Telcoin can easily approach operators in a prioritized fashion, based on level of Telcoin demand in each market. Telcoin will begin with a proof of concept (POC) trial agreement to demonstrate how direct connection and cooperation will enhance the user experience, expand possible use cases, quantify amount of Telcoin issuance that the operator would receive, and provide an executive summary of the overall business case.
+
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 11 OF 50
+
+As a deliverable to mobile operators from a POC agreement, Telcoin provides a demonstration of the technical feasibility of the requested Telcoin Use Cases, which may include:
+
+· Exchange Demonstration - conversion to and from Telcoin and Partner mobile money (and/or prepaid or postpaid balance) via the Partner API or other method requested by the Partner.
+
+· Remittance Demonstration - remittance to or from foreign mobile network(s) requested by the Partner and identified as attractive remittance corridors.
+
+· Airtime Top-up Demonstration - purchase and transfer of Partner airtime using Telcoin.
+ · Card Payment Demonstration - Visa card payment using Telcoin for retail product or service.
+ · Other Telcoin Use Cases and Capabilities - other demonstrations available upon request
+depending on market and partner priorities; see Telcoin Use Cases section below.
+
+Cryptocurrency is still very new and faces regulatory and compliance challenges. As part of the POC, Telcoin also conducts a survey of regulatory feasibility, communicating with the appropriate regulators in cooperation with the mobile operator. Telcoin also provides a report to the mobile network detailing the results of the POC, a business case summary, and an actionable project implementation plan for moving forward.
+
+Commercial Model
+Mobile operators will benefit from Telcoin as a differentiator in the market that attracts customers interested in access to cryptocurrency and other Telcoin use cases, including sending and receiving remittances and inbound and outbound roaming payments. Mobile operators can presumably also benefit from increased adoption of their mobile money. Telcoin is positioning itself as a partner of telecoms in the overall mobile payments ecosystem that will increase the usefulness of mobile money and drive further adoption.
+
+Telcoin will benefit from a transaction fee applied when subscribers buy or sell Telcoin from their mobile operator. At the point of conversion, from mobile money or telecom credit to Telcoin, a transaction fee of 0.5 percent will be applied.
+
+
+We also plan to benefit from exchange spreads when a mobile operator decides to buy or sell Telcoin to/from us in exchange for local currency. If a network's subscribers are buying as much Telcoin as they are selling, they would not need to exchange Telcoin with us, as their issuance balance would provide the necessary liquidity. If there is an imbalance, for instance from net
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 12 OF 50
+
+inbound or outbound remittances, Telcoin would need to apply a spread to manage risks including forex risk and Telcoin secondary market volatility risk. Spreads will depend on currency markets, the degree of forex imbalance, and the liquidity and volatility of Telcoin on secondary markets, but will be designed in a conservative manner and generate a modest profit margin from this activity.
+
+
+Telcoin Exchange API
+Telcoin will offer a flexible application programming interface, the Telcoin Exchange API, to provide operators a number of integration options. Initial implementations will focus on simple connectivity to existing mobile money APIs. We will support any mobile network or third party wallet, enabling us to rapidly deliver an end-to-end solution. With our mission of financial inclusion in mind, Telcoin will work diligently to support feature phones as well, via native/SIM apps, SMS, and USSD.
+
+
+SMS
+USSD
+ERC20 WALLET
+
+OTHER
+
+MNO
+
+WALLET WALLET
+
+Telcoin exchange via existing MNO Mobile Money APIs
+TELCOIN REGISTRATION REQUESTS : ADDRESS/KEY CREATION TELCOIN BLOCKCHAIN REQUESTS : BALANCE/HISTORY QUERIES TELCOIN PRICING REQUESTS : REALTIME BUY/SELL QUOTATION
+TELCOIN EXCHANGE REQUESTS : TRANSACTION EXECUTION
+
+TELCOIN EXCHANGE API
+
+(full cloud or with edge install at MNO)
+
+SIGNALLING &
+ AUTHENTICATION
+
+DIAMETER SS7/RADIUS
+
+API QUERIES & 
+ MM
+ OTHER
+
+
+TRANSACTIONS API
+
+REST
+
+COMPLIANCE
+ REST (AML/CFT/FM) API
+
+CDR FEEDS
+
+POSTPAID BILLING SYSTEM
+
+PREPAID AIRTIME PLATFORM (IN)
+
+MOBILE MONEY PLATFORM
+
+NETWORK ELEMENTS
+ MSC, LBS, IGW, HLR, SMSC
+
+Telcoin Use Cases and Capabilities
+There are a number of use cases for telecom-focused cryptocurrency, but Telcoin will initially focus on tapping into the US$500B remittance market. Remittances are the first actual direct use case where Telcoin sees feasible market entry opportunity. From the perspective of a mobile operator seeking to differentiate itself in the market, there is also case for simply providing access to cryptocurrency. We believe that early adopting networks that enable easy access to Telcoin can benefit from a growing population of consumers who are demanding access to cryptocurrency.
+
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 13 OF 50
+
+Primary Use Cases
+· Efficient Remittances - Telcoin can facilitate easy and inexpensive remittances via Telcoin to and from mobile money platforms, increasing the adoption of Partner mobile money.
+
+· Access to Cryptocurrency - Attract mobile customers interested in easy access to cryptocurrencies, a rapidly growing demand. Increase e-commerce options for underbanked.
+
+· Network Prepaid Airtime Top-up - Purchase and transfer of airtime using Telcoin (denominated in local currency, including any prepaid voice, text and data promo offerings).
+
+· Crypto-backed Card Payments - Prepaid Visa card that spends Telcoin and other crypto assets in realtime and can also be used in supported ATM machine on the Visa network.
+
+Additional Use Cases · Mobile Game Airdrop - Targeted SMS campaigns promoting a mobile game via Telcoin airdrop, for the purpose of revenue sharing game revenues with the mobile operator.
+ · International Aid - Enable efficient disbursement of funds to underbanked aid recipients, and leverage telecom capabilities to geographically limit disbursement areas and prevent fraud.
+ · Roaming Spending - Offer tourists easy access to local currency spending to increase the value proposition for inbound and outbound roaming and thus increase roaming revenues.
+
+Additional Capabilities · Central Bank Compliance - Because Telcoin wallets will generally be associated with mobile phone numbers, Telcoin compatible wallets can require selection of remittance purpose based on destination country code, in compliance with central bank requirements.
+ · Automated Revenue Share or Taxation - For commercial and taxation purposes Telcoin can use smart contracts to automate realtime revenue share for any relevant Telcoin payment.
+
+We are excited about all of the potential use cases, which vary from market to market, but will initially remain focused on the remittance use case described in the Telcoin Remittances section below.
+
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 14 OF 50
+
+Cryptocurrency Details
+Telcoin Blockchain and Supply
+Technically speaking, Telcoin is a smart contract on the Ethereum blockchain. We decided to favor an ERC20 Token over bootstrapping our own blockchain because of the trust that already exists with Ethereum. We do however understand that Ethereum comes with known challenges. The most commonly used language for writing smart contracts (Solidity) is notoriously difficult to make completely secure. Ethereum transaction fees ("gas") also present an unknown, as they could increase over time. In general, though, we feel that the pros of leveraging the existing Ethereum blockchain outweigh the cons. Using Ethereum leverages the collective security of all tokens using Ethereum, and makes it easy to connect to cryptocurrency exchanges and make Telcoin available everywhere. So while we are open to building our own blockchain in the future, we have chosen to start with Ethereum.
+
+In considering supply, we prioritized the fact that Telcoin is focused on solving the problem of global financial inclusion. We consider it important to set a currency denomination that will be usable in the developing world. Most cryptocurrency denominations have focused on value perception. But from the perspective of usability, particularly in the developing world, having 100 currency units is much easier to manage than having 0.001 currency units. For this reason, Telcoin will define a relatively large total supply of 100 billion coins, but will not have as many decimal subdivisions as Bitcoin or Ethereum - we will stop at 2, so 0.01 Telcoin. On the surface, the amount is large, but in reality there are fewer Telcoins than there are Wei or Satoshi.
+
+What is an ERC20 Token?
+An ERC20 Token is a cryptographic asset issued on the Ethereum blockchain that implements basic features in order to be compatible with existing software such as wallets and exchanges. Those features, illustrated in the visual below, are defined in a piece of software called a smart contract, which resides on the blockchain. They allow the token to be issued and traded between users.
+
+Some smart contracts implement additional features, like token destruction, special rights, securities linked to real world objects, and much more. All the operations happening on a smart contract residing on the Ethereum blockchain are counted using a separate Ethereum currency called gas and paid for in Ethereum. What this essentially means is that transferring tokens between users has a cost that should be accounted for, although it is actually very small. 
+
+What makes Telcoin different from other ERC20 tokens?
+Telcoin is going to be sold to purchasers during the initial token sale, and then offered at no charge to partner mobile operators. Technically, the supply of coins intended for telco issuance will be issued to Telcoin Pte Ltd, and then offered to telecoms at a rate depending on their stage of Telcoin integration, as described below in the Telcoin Issuance Model. This simple model
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 15 OF 50
+
+minimizes barriers and risks for operators to partner with us, and will thus accelerate Telcoin adoption. 
+
+Operators' supply will be an asset of the operator - technically a Telcoin wallet that belongs to the operator but is managed by Telcoin. Once the operator has fully connected with Telcoin, the operator will have the right to withdraw Telcoin funds at any time from this managed wallet (or to exchange between Telcoin and local currency). 
+
+
+The purpose of the operator supply wallet is to provide liquidity for users who want to buy Telcoin, so an incentive will be provided for the operator to maintain a certain level of balance in the wallet. This issuance model, as described in the following section, is the strongest differentiator of Telcoin. 
+
+A usable cryptocurrency - how will Telcoin work?
+As it is the case with any ERC20 token, Telcoin will be available to anyone with an access to the Ethereum blockchain. What makes Telcoin different is that users will be able to access it using their mobile operators, so in order for other wallets to integrate fully with Telcoin, their developers will need to integrate with more than the cryptocurrency itself, but with the Telcoin system.
+
+The Telcoin building blocks
+The starting point for the Telcoin ecosystem is of course the end user. Regarding the users, their wallets, and their crypto addresses:
+
+· The users have access to mobile money or another form of payment coming from their link with their mobile operator.
+
+· The users wallets, if fully integrated with Telcoin, will provide integration with the Telcoin API, giving access to payments solutions provided by operators.
+
+· The users addresses are, by default, multi-signature wallets with three private keys.
+ · The users default addresses will have one private key stored encrypted on their devices, one key
+stored encrypted by their mobile operator, and one key stored encrypted by Telcoin.
+ · A subset of transactions made from the users addresses (for example, large amount of Telcoin
+moved) will need to be signed by two of the three keys.
+
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 16 OF 50
+
+Regarding the Telcoin wallets of the mobile operators:
+
+· Mobile operators will receive their allowed Telcoin supply in multi-signature wallets that have at least two private keys. One being stored by Telcoin, and one being stored by the operator.
+
+· In order to simplify management, the mobile network operator wallets will be managed by Telcoin, unless otherwise requested by the operator, over an API Telcoin will provide to the operators.
+
+Regarding Telcoin:
+
+· Telcoin will store user's phone numbers (as it is their identifier with their operator), the public key of their addresses, and one of the encrypted private key to their wallets.
+
+These building blocks provide a solid foundation for a secure use of Telcoin. 
+
+Selected use-cases
+When a user registers using a fully compliant wallet, they will authenticate with their mobile money provider via SMS and Telcoin will then generate the appropriate addresses, private keys, and store the relevant information in a secure way. If the user is not a subscriber of a supported network, the fully compliant wallets will still allow their users to generate a regular blockchain address, as Telcoin is an ERC20 token. 
+
+When a user wishes to buy Telcoin, they will first spend their mobile money. Once this mobile money transaction is confirmed, the operator will order Telcoin to move coins to the user's address. A more fully integrated experience would even allow the user to tap their mobile money directly from the wallet app.
+
+When a user wishes to send Telcoin to another user, for the sake of a better user experience, in addition to allow sending coins to a regular public key, a fully integrated wallet will provide the option to enter a phone number or to pick it from their address book. If the recipient is already a Telcoin user, they will be known by Telcoin and the coins will be sent automatically to the corresponding address. If the recipient is not a Telcoin user, but is a subscriber on a supported network, Telcoin will simply generate a temporary address behind the scenes and have the recipient receive an SMS with very simple instructions to get access to their money by installing a supported wallet. In case the recipient does not subscribe to a supported network, an error will be returned and no coins will be sent.
+
+When trying to send money using their default settings, if the sum is above a certain threshold we'll decide in function of various parameters such as their location, the user will be prompted to authenticate with Telcoin using two factors of authentication. If they never authenticated this way, they will be prompted to create a Telcoin account at that moment. This will protect them in cases like sim-jacking or stolen phones.
+
+A Telcoin user that wishes to send coins to a public key instead of a phone number will obviously have this possibility, but less protection against sending coins to a dormant address (and then losing the money), which should in theory not be possible when sending Telcoin to a phone number.
+
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 17 OF 50
+
+The most common cases will not require any special action, and only heavier actions like large money movements will trigger higher levels of security. This allows us to offer a secure, yet convenient experience to a large amount of users, while still being an open ecosystem on the blockchain and being wallet-agnostic.
+
+Telcoin Issuance Model
+In order to support the adoption, promotion, and integrity of Telcoin, an issuance model has been established to incentivize partner mobile networks.
+
+Cryptocurrencies typically ensure the integrity of their blockchain by allowing public mining, which amounts to members of the public competing to process blockchain transactions as fast as possible in exchange for receiving newly minted cryptocurrency coins. In addition to autonomously powering the blockchain, this public mining "proof of work" algorithm for distributed consensus protects it from malicious attack (as any blockchain hack would require simultaneously compromising more than half of the global mining operations). While this proof of work model works well for a purely autonomous blockchain, it has presented scalability issues and requires a significant amount of electricity. Cryptocurrencies based on purely autonomous blockchains also struggle to comply with "know your customer" (KYC) requirements intended for anti-money laundering (AML), combatting the financing of terrorism (CFT), and fraud management (FM).
+
+Telcoin will implement an alternative "proof of stake" algorithm for issuance, whereby only GSM Association Full Member mobile network operators and their virtual network partners (MVNOs) will have a right to be issued Telcoin. Instead of an inefficient competition between telecoms, issuance rights will depend on stages of Telcoin integration. 
+
+Half of all Telcoin supply will be set aside for mobile network issuance at a linear rate of five percent annually based on the following model for issuance rights:
+
+Telcoin Integration Stages
+1. Connect with Telcoin (10%)
+ · Equal right to any MNO that establishes Exchange Capability with Telcoin
+
+2. Validate Network Size (10%)
+ · Proportional rights to MNOs based on network size and capacity
+
+3. Telcoin Exchange Volume (50%)
+ · Based on volume of Telcoin exchange between Telcoin and MNO subscribers
+
+4. Compliance Maturity (30%)
+ · Compensates MNOs for compliance efforts (KYC, AML/CFT, FM, etc.)
+
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 18 OF 50
+
+Telcoin issuance rights criteria and calculation will be subject to change and updated periodically, with the underlying goal of maintaining an optimal balance between adoption incentive and distribution fairness.
+
+Integration stage percentages above reflect the share that each individual stage carries in the weighted calculation of issuance rights. Issuance rights will be metered daily but calculated and issued initially on a monthly basis, gradually shifting toward a more real-time issuance system.
+
+Telcoin issuance to a mobile network operator will never exceed the amount of Telcoin actually sold by the operator in any given period.
+
+Connecting with Telcoin - 10% weighting
+
+Telcoin will define connectivity as "Exchange Capability," meaning the technical capability for the mobile network's subscribers to be able to use telecom methods, including SMS, USSD, and/or smart-phone applications to effect the exchange of local currency and/or telecom services credit for Telcoin and vice versa. Exchange Capability will be provisioned via the Telcoin Exchange API, described in the section below.
+
+Validating Network Size - 10% weighting
+While with connection issuance rights, all networks are equal, this second 10 percent weighting takes into consideration the size of the network. Mobile network sizes, in terms of active subscribers and actual traffic volume, are extremely subjective, and public reporting is notoriously unreliable. In the interest of fairness, Telcoin will publish simple software tools for measuring the precise size of a mobile network, based on call detail record (CDR) metering of volume of voice, SMS, and data traffic on the network. Metering tools will be continually assessed and updated to account for possible abuse scenarios. Telecoms will be able to install these software tools themselves, which would output to a Telcoin issuance metering private cloud API. Additional weighting will be provided to more advanced network technologies (4G/LTE vs 3G/2G).
+
+Telcoin Exchange Volume - 50% weighting
+Exchange volume will be the most important criteria, counting for half of the overall issuance rights. Telcoin Exchange Volume will be defined as the total volume of Telcoin sold to a network's subscribers in exchange for mobile money or telecom credit, and incurring a transaction fee to Telcoin. Only transactions into and out of the mobile network's wallet (managed by Telcoin) will be subject to a Telcoin transaction fee and count toward Exchange Volume. All other Telcoin transactions will only be subject to applicable Ethereum fees to power the Telcoin smart contract. Any abusive dumping or arbitrage manipulation practice, for example the sale of Telcoin at a price below the offered Telcoin price, would not be counted towards exchange volume issuance rights. Telcoin will reserve the right to sanction or withhold issuance rights in the case of any abusive pricing or marketing practices.
+
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 19 OF 50
+
+Compliance Maturity - 30% weighting
+Telcoin considers compliance a top priority for establishing trust with consumers, networks, and regulatory authorities. Compliance will generally address any factors that contribute to the integrity and marketability of Telcoin. Most prominent will be that the network perform some acceptable degree of "know your customer" (KYC) compliance. Basic monitoring and enforcement in accordance with international conventions on anti-money laundering (AML), counter financing of terrorism (CFT), and fraud management (FM) will be expected of every participating mobile network. Telcoin will establish a protocol for assessing compliance maturity levels in order to determine compliance issuance rights. The goal is to essentially fund network compliance efforts via Telcoin issuance, which will all work to increase the viability, adoption, and value of Telcoin. Other possible compliance factors that may be considered include liquidity reserve levels, risk management, and any other factor that impacts the integrity of Telcoin as a brand and cryptocurrency. Compliance maturity weighting is only applicable proportional to exchange volume levels. For example, a compliant network with no actual exchange volume would not have any issuance rights from compliance maturity. Telcoin will reserve the right to withhold issuance rights for networks that do not reach compliance within a reasonable timeframe, for the purpose of taking proactive measure to mitigate the non-compliance on behalf of the entire system.
+
+Partial Exchange Capability
+Weighted rights will be granted for partial Exchange Capability. During the proof of concept (POC) phase, by simply agreeing to engage in a POC the network will receive 10 percent of their connection issuance rights. Then, during the implementation phase, a telecom might be able to quickly get regulatory approval to accept inbound exchange but may require more time for outbound exchange approval. If a telecom only enables inbound exchange but not outbound exchange, they would receive 30 percent of their connection issuance rights. All partial Exchange Capability issuance will be accumulated in escrow and only released to the mobile network upon achieving full Exchange Capability.
+
+Telecom Transaction Fees or Taxes
+In order to maximize the attractiveness and adoption of Telcoin, we will encourage mobile networks to not apply any transaction fee on top of the standard Telcoin and Ethereum transaction fees. Telecoms would, however, have the right to apply fees and Telcoin will not attempt to prevent this or otherwise fix pricing. In some cases telecoms may feel compelled to, at least for a trial period of time, apply some sort of fee in order to protect existing mobile money revenues. Telcoin will deduct the sum of any applied fees or taxes, or other premium cost for obtaining Telcoin, from the the issuance amount - thereby creating a zero sum situation and supporting effort to keep prices as low as possible for consumers. We feel that this policy will make Telcoin attractive for regulators and consumer advocates.
+
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 20 OF 50
+
+Partnership Overhead and Marketing
+Telcoin will cooperate with mobile operators to most efficiently maintain the partnership administratively and technically, and to most effectively market Telcoin to end users. Telcoin will reserve the right to offset partnership overhead - including account management, administrative, and technical costs - against Telcoin issuance in an amount not exceeding ten percent of total issuance rights. Telcoin will also reserve the right to offset marketing costs specifically earmarked for the partner operator's market against Telcoin issuance, not exceeding ten percent of total issuance rights. 
+
+Issuance Rights from non-Telecom Exchange Volumes
+We will seek to maximize the marketing of Telcoin via mobile network operators to the extent possible. To this end, only GSMA full member operators will be eligible for Telcoin issuance. Given the low penetration of mobile money in the developed world - the typical origination point for remittances - however, we acknowledge that at least in the beginning we will need to rely heavily on traditional cash-in partners (banks and remittance agents) in order to sell Telcoin. In order to support this, the portion of issuance rights for Telcoin Exchange Volume and Compliance Maturity will only be distributed for the proportion of Telcoin that is sold by mobile network operators for any given period. Issuance for Telcoin Exchange Volume and Compliance Maturity for the proportion of Telcoin that is sold via non-telecom channels will be withheld by Telcoin Pte. Ltd. for the purpose of (a) offsetting the costs of marketing and compliance associated with the sale of Telcoin via non-telecom channels, and (b) business development and technical integration costs associated with increasing the proportion of Telcoin sold via mobile network operators.
+
+The Telcoin issuance model will be subject to change at any time, and Telcoin will adapt the model as necessary to best support the growth and adoption of Telcoin.
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 21 OF 50
+
+Telcoin Remittances
+
+Why Remittances?
+We have identified a number of compelling use cases for Telcoin, but find the mobile money ecosystem at large to be an enormous and growing opportunity. Mobile payments are projected to surpass US$2 trillion by 2020.6 The question for Telcoin is not one of market size or opportunity, but of market entry. In order to gain initial traction with consumers, Telcoin is focusing first on remittances because it is a large addressable market that is ripe for disruption. The space also offers a great deal of potential collaboration with telecoms.
+
+
+$4T $3T $2T $1T
+2013 2015 2017 2019 2021 Remi/ances Mobile Payments
+
+In 2016, global remittances totaled more than US$500 billion.7 Despite having enormous market reach, telecoms have a relatively small footprint in the remittance space. Most telecoms with mobile money offerings have made an effort to partner with foreign banks and other entities on the originating end of major remittance corridors, but remittances into mobile money accounts still make up a tiny fraction of the overall market. As of December 2016, mobile money remittances accounted for an annualized US$2.9 billion - telecoms are currently involved in less then one percent of global remittances.8
+
+
+Telcoin sees remittances as a great area to cooperate with telecoms. Mobile money has been very successful with on-net, peer-to-peer transfers and bill payments, but not with remittances. Telcoin can only help mobile networks in this area and will not be viewed as a competitive threat. We envision Telcoin actually increasing mobile money involvement in remittances and also driving further mobile money adoption.
+
+
+Business Model
+Telcoin will not charge a specific fee for remittances. We will simply apply a 0.5 percent transaction fee for conversions between Telcoin and mobile money. So Telcoin fees would amount to a total of 1 percent for a remittance between a mobile money user in one country to transfer to a mobile money user in another country.
+
+
+6 There is a wide range of estimates, depending on how exactly a mobile payment is defined. In China alone at more than $5T in mobile payments last year, using the loosest definition of mobile payments to include peer to peer transfers and C2C sales payments. https://www.ft.com/content/e3477778-2969-11e7-bc4b-5528796fe35c
+ Global non-cash payments last year amounted to more than 433 billion transactions, presumably most via a mobile device. https://www.worldpaymentsreport.com/#non-cash-payments-content
+7 https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT
+8 https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/03/GSMA_State-of-the-Industry-Report-onMobile-Money_2016-1.pdf
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 22 OF 50
+
+There will also be a small Ethereum transaction fee for every Telcoin transfer (Ethereum gas), which varies but is currently around US$0.25 per transaction - a negligible amount in terms of a remittance fee. The Ethereum fee is high enough to provide a level of comfort for telecoms that their "bread and butter" on-net peer-to-peer mobile money transfers are not threatened by the Telcoin business model.
+
+For a US$200 remittance, a user would only pay a $2.25 fee, or 1.125%, significantly less than the global average cost of remittances which stands at 7.42%.9
+
+Of the 7.42% average, approximately 1-2% is a result of currency exchange rate spreads, which vary from market to market but are generally consistent for each individual corridor. Telcoin expects to be on the low end of exchange rate spread costs compared to other providers, as explained in the Liquidity Management section below, resulting in a total average cost of approximately 2.5% (or nearly one third) of the market average. 
+
+Competitive Analysis
+Despite numerous new digital competitors, Western Union remains the dominant player in the remittance world. There is little evidence, however, that Western Union and other incumbents will be dislodged by competitive fees alone.10 Convenience and brand appear to be significant barriers to entry. By keeping up with digital offerings, Western Union has been able to maintain market position even while being several percentage points more expensive than startup alternatives.
+
+
+Telcoin's positioning as compared to the competition, including new lower cost startups like Transferwise, is a pure convenience play. Mobile money is more convenient than connecting your
+
+9 https://remittanceprices.worldbank.org/sites/default/files/rpw_report_sept_2016.pdf 10 https://www.saveonsend.com/blog/western-union-money-transfer/
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 23 OF 50
+
+bank account to an online service or going to a physical outlet. By partnering with telecoms and leveraging mobile money infrastructure, we will be able to offer a service that is not only price competitive but also disruptive from a convenience standpoint. 
+
+Telcoin User Journey
+While most incumbent money remittance services have digital options for connecting a bank online, the process requires one or two business days to connect. Once sent, the sender either needs to agree to require as much as five business days or agree to a higher transfer fee. The recipient then needs to go to a physical outlet to receive the money, requiring time for completing a form to receive the transfer. After all of that effort and time, the recipient is left with an average of around 8% less than what was sent, for a US$200 transfer. Below depicts a US$1,000 transfer. 
+
+
+In the case of Telcoin, we expect to be able to deliver remittances at an average of less than 2% cost, including fees and any currency exchange spread.
+
+More importantly, however, Telcoin will be instantaneous and far more convenient, traveling directly from mobile money to mobile money - and instantly spendable by the recipient. Initially users will be able to use partner wallets on both sides, to convert money into and out of mobile money and to send Telcoin. We will also provide a Telcoin wallet and work with telecoms to enable converting and sending directly from any existing mobile money wallet.
+
+
+Liquidity Management
+Liquidity is a challenge for any cryptocurrency, particularly one focused on international remittances. With the issuance model described in the section above, Telcoin has a major advantage over other cryptocurrencies. We expect the Telcoin issuance model to both alleviate Telcoin liquidity pressure and incentivize mobile network operators to keep transaction fees at a minimum. Telcoin has also set aside five percent of supply for a liquidity fund to be available for sale to telecoms with demand for Telcoin that exceeds their issuance supply. They always have the possibility to buy from market exchanges, but we will also offer this possibility. We will also allow them to borrow Telcoin from this pool when they need to meet unexpected demands, but
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 24 OF 50
+
+we will limit this possibility in order to prevent aggressive speculative behaviors. Mobile network operators will have a certain degree of freedom with their Telcoin issuance allocation, but we will set limits to Telcoin resale on exchange markets for obvious ethical reasons but also because we believe this kind of behavior wouldn't support Telcoin's expansion.
+
+We expect this issuance model to also help us reduce currency exchange spread costs, as we will have ample liquidity at the primary entry and exit points for the currency (mobile money). Beyond that, we will perform basic forex hedging to mitigate fiat currency exchange risk along the major remittance corridors.
+
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 25 OF 50
+
+Telcoin Roadmap
+We are continually refining our roadmap for regulatory compliance, product development and business development. The current status of our roadmap follows.
+
+Regulatory Compliance Roadmap
+
+Q4 2017 Q1 2018 Q2 2018
+Q4 2018 Q1 2019
+
+Survey regulatory requirements in initial target cash-in markets including Europe, USA, South Africa, Singapore, and Japan (completed), and other key markets (ongoing).
+Identify partners with required licensing (banking, money transmitter, cryptocurrency exchange) for cash-in to Telcoin in the United Arab Emirates and South Africa (complete).
+Identify partners with required licensing (banking, money transmitter, cryptocurrency exchange) in target markets, including key cash-in locations such as Europe, USA, Singapore, and Japan; and key mobile money cash-out locations, primarily in Africa, South Asia, and Southeast Asia.
+Identify any required authorization to operate in key phase one cashout markets including India, Pakistan, Georgia, Tunisia, Algeria, Uganda, Kenya, Tanzania, Philippines, Egypt, and Indonesia.
+Implement partnership with required licensing partners in Europe, Japan, and South Africa.
+Initiate application for banking licence in Europe.
+Intiate application for money transmitter licenses in the USA.
+Initiate applcation for a cryptocurrency exchange licence in Japan.
+Initiate application for a remittance license in South Africa.
+Initiate application for any required authorization to operate in India, Pakistan, Georgia, Tunisia, Algeria, Uganda, Kenya, Tanzania, Philippines, Indonesia, and other key cash-out markets.
+Identify any required authorization to operate in India, Pakistan, Georgia, Tunisia, Algeria, Uganda, Kenya, Tanzania, Philippines, Indonesia, and other key cash-out markets.
+Telcoin Foundation is fully setup to airdrop coins in disaster zones.
+Telcoin rolls out in Japan.
+Telcoin serves remittances in 10 large corridors between Europe, Africa, East Asia and Southeast Asia
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 26 OF 50
+
+Product Development Roadmap
+
+
+Q1 2018 Q2 2018 Q3 2018 Q4 2018
+Q1 2019
+
+Launch Telcoin token and connect to a minimum of two cryptocurrency exchanges.
+Single basic wallet integration.
+Support of transfers between Telcoin and airtime in several key markets such as UAE.
+Initiate integration process with cash-in partner in at least one key market.
+Develop blockchain research and development plan for long term scalability and security.
+Support of transfers between Telcoin and Mobile Money.
+Initiate blockchain research and development plan for long term scalability and security.
+Beta version of the Telcoin reference wallet on iOS, allowing transfers in and out of mobile money to Telcoin.
+Initiate integration of mobile money and airtime transfers in at least two partner wallets.
+First partner telecom group app integration. (Two MNO group apps identified.)
+Release Telcoin Reference Wallet (iOS).
+Beta version of the Telcoin reference wallet on Android, allowing transfers in and out of mobile money to Telcoin.
+Telcoin provides the option for providers to integrate in their portal apps, using Telcoin as means of payments in Games and other apps, allowing for revenue-share.
+Release Telcoin Reference Wallet (Android).
+Identify additional financial services and possible partners, including for micro-finance.
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 27 OF 50
+
+Business Development Roadmap
+
+
+Q4 2017 Q1 2018 Q2 2018 Q3 2018
+Q4 2018 Q1 2019
+
+Onboard telco biz dev manager for Africa. (complete)
+Onboard telco biz deve managers for APAC, EMEA, and LatAm.
+Initiate multi-country proof of concept projects with three major telecom groups. (Three groups already identified and agreed.)
+Support Telcoin to airtime transfers in 100 countries. (agreement already in place via aggregator partner)
+Support of transfers between Telcoin and Mobile Money, including proof of concept demonstration for at least five countries.
+Initiate multi-country proof of concept projects with two additional major telecom groups. (Total five global telecom groups.)
+Support of transfers between Telcoin and Mobile Money in at least ten countries, likely including Uganda, Kenya, Tanzania, Philippines, Pakistan, India, and four other countries.
+Initiate first USA and LatAm proof of concept project.
+Initiate integration of mobile money and airtime transfers in at least two partner wallets.
+Production mobile money connectivity with at least 20 mobile network operators covering at least 100M subscribers.
+Begin first Telcoin payment implementation with at least one game company and at least one major commerce merchant.
+Carrier billing (postpaid) implementation for first operator.
+Production implementation of first operator app Telcoin integration.
+Telcoin Foundation project initiation with major aid/non-profit organization partner.
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 28 OF 50
+
+Challenges
+Monetary Regulation
+Community-based ventures are said to be disruptive. Blockchain has the potential to revolutionize a number of traditional industries and as such, can be considered as a threat that needs to be regulated by governments around the world. Law is generally lagging behind innovation, but it often catches up, and global disruptors like Uber and Airbnb are now facing tough regulations that impact their operations and have forced adaptation. On the other hand, regulatory barriers can prove to be powerful assets for those who disrupt them at the right time. 
+
+We feel very strongly that Telcoin is coming at the right time, as on both the telecom and cryptocurrency sides, we appear to be at a watershed moment for regulatory change. Of course we are realistic about the fact that a number of countries are taking a harder stance on cryptocurrencies, but we believe this to be a minority stance. We also believe that the majority of governments that are currently banning cryptocurrencies will eventually allow them. We are simply planning to prioritize our rollout schedule based on market factors including regulatory environment.
+
+The Telecom Side
+It has been a rough first decade for mobile money. With a few prominent exceptions like Safaricom in Kenya, most telecoms have faced an uphill battle with banking regulators. In a bid to protect their national currencies and banks, central banks have made it very difficult for mobile networks to introduce mobile money. They have forced telecoms to get banking licenses, and have not made that easy. In many cases there have been concerted efforts by governments and banking lobbies to stifle the spread of mobile money. As reported in Capco Institute's Journal of Financial Transformation, even current major players such as M-Pesa had to resist shutdown attempts by local banking lobbies.11 Banking lobbies naturally fear the loss of control over a monopoly they've controlled for centuries, but they could count on the difficulty of obtaining a banking license to slow the process down.
+
+There is evidence, however, that a tidal shift is occurring. Mobile money ecosystem transactions have quadrupled in the past four years.12 Furthermore, in markets where banks succeeded in convincing government regulators that they are better equipped than telecoms to offer mobile money - they have almost universally failed. The stark comparison between the success in "telecom-led" mobile money in Kenya and the failure of "bank-led" mobile money in Nigeria is a notable example.13 Banks have had their chance, and there is a growing stable of evidence that
+
+11 "Mobile Payments Go Viral: M-PESA in Kenya" https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1593388
+12 https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/03/GSMA_State-of-the-Industry-Reporton-Mobile-Money_2016.pdf
+13 https://iea.org.uk/blog/why-mobile-money-transformed-kenya-failed-to-take-in-nigeria
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 29 OF 50
+
+telecoms can be more successful than banks in deploying mobile money and improving financial inclusion.
+
+Telecom companies would not normally need banking licenses to simply make their network available to approved bank services, but as they have become more involved in third party payment processing, for instance, they have faced increased regulatory compliance pressure. As Erwin A. Alampay from the University of the Philippines explains, companies like Vodafone and Smart found ways around regulatory pressure. In a partnership with the Ahli United Bank of Bahrain, they created a financial subsidiary to allow their customers to access remittance services.14 But recently consumers have been demanding more, and governments have come under increasing pressure to ease up regulations on telecom mobile money in the name of financial inclusion.
+
+As stated in the 2016 edition of the GSMA State of the Industry Report on Mobile Money, "The majority of public and private sector stakeholders recognize that allowing non-banks, whether retailers, mobile operators, or others, to issue mobile money is a necessary step toward greater financial inclusion."15 According to the same report, now more than half of the countries with mobile money services have an enabling regulatory approach. The GSMA defines an enabling regulatory environment for mobile money as one where the following criteria are met: 
+
+· MNOs or their subsidiaries are able to obtain a license directly to offer electronic money; 
+ · Prudential requirements are proportional to the risks presented by the mobile money business; 
+ · Mobile money providers are able to offer their services using a network of third party agents; 
+ · Know Your Customer requirements are tiered and risk-based to support the growth of low-value
+accounts; 
+ · Regulations allow for a market-led approach to interoperability. 
+
+The trend is clearly tilting toward more supportive regulation for mobile money and telecomprovided financial services. 
+
+Even Egypt, located in the strictly-regulated North African corridor, is benefiting from a fresh perspective on mobile money regulation. The Egyptian central bank decided to loosen regulations around mobile money late last year.16 It was pointed out in the statement released by the Central Bank of Egypt that "mobile payment service is considered the most efficient financial services tool to achieve financial inclusion proficiently, given the noticeably evident wide spread of mobile phones nationwide."17
+
+
+14 "Mobile Banking, Mobile Money and Telecom Regulations" https://www.researchgate.net/publication/ 228279785_Mobile_Banking_Mobile_Money_and_Telecommunication_Regulations
+15 https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/03/GSMA_State-of-the-Industry-Reporton-Mobile-Money_2016.pdf
+16 https://www.wamda.com/2016/12/egypt-loosens-rules-mobile-money
+17 http://enterprise.press/wp-content/uploads/2016/12/Mobile-payments-Press-release-english-version-14december-2016.pdf
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 30 OF 50
+
+This trend of supportive regulations for mobile money creates a favorable environment for Telcoin, particularly as this trend is coinciding with a similar easing trend towards cryptocurrencies.
+
+The Cryptocurrency Side
+Blockchain and cryptocurrencies face expected criticism as they intend to disrupt money itself. In the past months, a few examples have showed us that governments around the world tend to be protective, and even attempt to outright ban, the use of cryptocurrencies. The United Arab Emirates central bank, for instance, issued a policy statement on January 1st containing a statement: "D.7.3. Provisions for Virtual Currencies ­ All Virtual Currencies (and any transactions thereof) are prohibited."18
+
+The backlash was swift. After quickly realizing this new regulation would cut them out of an emerging economy, the UAE backpedaled and on February 1st the governor of their central bank issuing the following statement: "These regulations do not cover virtual currency [...] these regulations do not apply to bitcoin or other cryptocurrencies, currency exchanges, or underlying technology such as Blockchain."
+
+Other countries like India19, the USA20, and South Africa21 are also making moves toward more regulation for the cryptocurrency industry. South Africa's example is particularly interesting. Its Finance Minister Gigaba recently stated that the government wishes to develop a juridical apparatus that "is supportive of the objectives of enhanced innovation, competition, and financial inclusion in the financial sector, while also reviewing risks related to financial customer protection, money laundering and financial stability." It is part of a trend that tends to demonstrate a strong will to not simply ban cryptocurrencies, but implement a set of laws that support financial inclusion and the emergence of a new economy. Many countries are starting to understand the potential size of a future blockchain economy and they feel the need to lay the first stones of its framework. We see this environment as an opportunity to take part in the global regulatory movement and help cryptocurrencies be seen as safe and trustworthy.
+
+That said, there are obviously a number of large economies that currently ban cryptocurrencies, including China, South Korea, Algeria and Tunisia. We feel that in the case of China and South Korea, these bans are temporary efforts to quell scams and give regulators more time to formulate regulatory regimes that will allow cryptocurrency based economy to flourish responsibly. This opinion that the bans are temporary has even been openly expressed by government-affiliated officials in countries that ban cryptocurrency.22 
+
+
+18 "Regulated Framework For Stored Values and Electronic Payment Systems" https://www.centralbank.ae/en/pdf/ notices/Regulatory-Framework-For-Stored-Values-And-Electronic-Payment-Systems-En.pdf
+19 https://www.thenational.ae/business/technology/with-attacks-soaring-india-races-to-regulatecryptocurrencies-1.621763
+20 https://cointelegraph.com/news/us-lawmakers-draft-bill-protecting-cryptocurrencies-from-gov-interference
+21 https://news.bitcoin.com/south-africa-to-take-balanced-approach-to-bitcoin-and-cryptocurrency-regulations/
+22 https://www.coindesk.com/chinas-ico-ban-understandable-reasonable-probably-temporary/
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 31 OF 50
+
+North Africa, as a satellite economic region very closely tied to the Euro-zone, presents a more interesting situation in that currencies in these countries are genuinely at risk and require a careful approach to cryptocurrency. On November 20th, Morocco banned cryptocurrencies outright, claiming that cryptocurrencies operate within a "hidden payment system that is not backed by any financial institution."23 While the Central Bank of Tunisia has not explicitly banned cryptocurrency, capital controls restricting any output remittances make any sort of cryptoexchange business untenable. As a result, Tunisians pay at least a 20% premium to acquire Bitcoin.24 Telcoin is already in very constructive discussions with the Central Bank of Tunisia, and is stressing the potential benefits that Telcoin can bring to central banks like the CBT. Telcoin wallets are generally associated with mobile phone numbers and thus provide a simple countrycode based methodology for the application of central bank compliant categorization and possibly smart contract automated taxation.
+
+We feel that while monetary regulation is our greatest challenge, timing is optimal for Telcoin to turn this barrier into an asset and capitalize on the concurrent trend looser regulation of both mobile money and cryptocurrency. We also believe that we can constructively engage central banks and operate in a compliant manner in the large majority of markets.
+
+
+Mobile Network Security
+Mobile networks are at the center of our business, so it is imperative that we design Telcoin in order to manage their possible security challenges. Among the possible security challenges faced by mobile networks, we consider attacks based on phone number re-routing such as "SIMjacking" to require the most attention.
+
+The first predicate is that we can unfortunately not eradicate SIM-jacking in the current state of affairs. Some of the more advanced networks have already started to move in the right direction to protect their subscribers. Nevertheless, Telcoin is working under the assumption that we must accept the reality of the SIM-jacking risk and build our security protocols around this assumption.
+
+Telcoin works by exchanging tokens with users for mobile money, which is secured using SMS. In additional to socially engineered SIM-jacking, SMS authentication is also vulnerable to being compromised in wholesale transit or via SS7 attacks. So as explained in the Usage section above, the default Telcoin security settings offered by fully compliant wallets will protect to the users balance through a multi-signature wallet. Two of the three keys necessary to operate each wallet will be held outside of the users control, one held by Telcoin and one held by the users mobile operator. The one held by Telcoin will only be accessible using two factors of authentication, like a password and TOTP (like the very usable Google Authenticator) or U2F (like Yubikey), but not SMS. 
+
+Therefore, in case of a compromised phone number or stolen device, only a small amount of their balance could be taken out of their address prior to the complaint being processed. Any transfer
+23 https://www.moroccoworldnews.com/2017/11/234382/bitcoin-morocco-cryptocurrencies-economy/
+24 https://cointelegraph.com/news/bitcoin-price-in-tunisia-20-higher-than-in-the-us-due-to-capital-controls-bitcoinentrepreneur
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 32 OF 50
+
+that exceeds a certain threshold amount determined by the mobile network would require a twofactor authentication if the coins are stored using the default security settings. Thresholds will also be placed on parameters such as total transaction volume over a given time span, protecting against a large number of sub-threshold transactions. Once Telcoin or the mobile operator will receive a complaint, the address will be immediately frozen until investigation, mitigating the possible loss from SMS-based attacks.
+
+In general, Telcoin will leverage existing telecom security protocols and build upon them to make Telcoin as secure as possible without creating too much friction in the user experience.
+
+Cryptocurrency Volatility
+Volatility in the cryptocurrency space is another major concern for existing and potential users. Many users purchasing Telcoin will actually invite the volatility, as they may be buying Telcoin for speculative purposes. In the case of remittances, however, volatility is less likely to be seen as a good thing. Some users may question the risk of losing large value while in transit as not being worth saving a couple percent in fees.
+
+First, we will feel obliged to fully inform users at the point of conversion as to the volatility risks inherent in cryptocurrencies. Second, we would plan to offer basic risk mitigating financial products as a one click offering for a small additional fee - namely, currency spot forward contracts.
+
+Currency forward contracts as a service
+For a small fee, Telcoin will offer users the ability to lock in the current rate of a destination currency for a fixed period of time - for example, one week. In this case the recipient would have up to one week to convert Telcoin into their local currency at that fixed rate, regardless of any fluctuations in the value of Telcoin. We would play the role of an intermediary entity through our liquidity fund and guarantee a risk-free money transfer experience to Telcoin users.
+
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 33 OF 50
+
+We obviously intend for this mechanism to be as smooth as possible in the wallets we are going to release. We consider encapsulating complex financial operations into simple app functions integral to our success.
+
+From Telcoin to fiat currency in one click
+Liquidity is also important to enabling users to be able to easily mitigate volatility risk to the extent that they want to do so. By offering Telcoin issuance to partner mobile operators, and incentivizing them to maintain a healthy level of liquidity reserve in both Telcoin and fiat currency, we will ensure that users will always be able to instantly convert Telcoin to mobile money.
+
+Through the wallet we will offer (or in cooperation with our partner telecom operators' wallets) we plan to enable a simple Telcoin to fiat exchange function. We want to give to the consumer the ability to turn Telcoin into local currency at any time. We want to do so in order to reduce volatility risks for our users when they transfer Telcoin.
+
+Software Security
+Ethereum Blockchain
+In the wake of the recent Ethereum attacks, we cannot possibly talk about Telcoin being secure without addressing the state of this precise blockchain.
+
+Here is a summary of the recent attacks that the Ethereum ecosystem has faced:
+
+· CoinDash had their website hacked. Hackers replaced the target address for ICO and hijacked the equivalent of US$7M.
+
+· Parity, an Ethereum wallet, got exploited by hackers. A Flaw in the smart contract gave hackers the possibility of sending money to an arbitrary address, which they exploited to steal $32M.
+
+· Bithumb, the largest South Korean cryptocurrency exchange, got hacked. An employees laptop was compromised, resulting in US$1M stolen from users, and personal information leakage.
+Most of those attacks do not directly result from issues with Ethereum itself, but from security breaches of third parties, which is why we will appoint security experts and rely strictly on trusted technology. During the ICO period, our website is going to be static and hosted on a provider that allows secure 2-Factor authentication, which will inherently limit hacking risks. Moreover, we designed following secure infrastructure principles such as separation of concerns (modular architecture in which each module does only one thing) and the least privilege (modular architecture in which each sub-part in the system only has access to the subset of data it needs).
+
+Following these principles, and other general security best practices, even if our staff gets their SIM hijacked, their computer compromised, or their phone compromised, user data will theoretically be unreachable. 
+
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 34 OF 50
+
+Another issue that needs addressing when considering security, is the smart contract language problem. Solidity, the language used to write smart contracts makes it notoriously difficult to secure. The current solution is to rely on audited open source contracts available on Github. The problem inevitably arises in the process of adapting these audited contracts to meet their desired proprietary business logic. We plan to not only base our smart contracts on audited code, but to also have our final contracts audited following the integration of business logic.
+
+A paper written by Jack Pettersson and Robert Edström from Chalmers University of Technology in 2016 makes a very interesting point about how much safer smart contracts would be if they were written using languages implementing recent PL research.25 Telcoin commits to pursue research in this area as we believe it will not only benefit us, but secure the entire Ethereum economy. Researching security issues on the EVM is also part of the scope we intend to cover.
+
+Wallet security
+In order to store and spend cryptocurrencies, users normally use software wallets. Those wallets typically hold keys that allow users to execute transactions on the blockchain. Traditionally, a user can execute any sort of transaction on his addresses using their keys. As normal as it sounds, this model exposes the user to the risk of losing all of their coins instantly if their private key is compromised. On the Ethereum blockchain, those issues can be mitigated using smart contracts acting like multi-signature wallets.
+
+A multi-signature wallet, or multisig, requires a certain number of participants to sign for a certain subset of operations to be executed. An example could be a wallet in which you would have daily limits, and require several participants to sign in order to withdraw larger amounts.
+
+We have partnered with multiple cryptocurrency wallet companies, which will allow us to provide Telcoin users with the best experience of the cryptocurrency ecosystem. Telcoin is planning to
+
+25 https://publications.lib.chalmers.se/records/fulltext/234939/234939.pdf TELCOIN WHITEPAPER V1.2
+
+PAGE 35 OF 50
+
+only work with wallet partners that support multi-signature wallets, which will benefit all of our users instantly.
+
+The intended security default for Telcoin is that users' wallets are multisig with one key held by their mobile operator, and another held by Telcoin. This mechanism would prevent loss of coins due to SIM-jacking and stolen phones. This will be the default setting, which can be changed by users if they intend to manage security themselves.
+Hot and cold wallet strategy
+The best accepted practice for storing any large amount of cryptocurrency is to use a strategy of hot and cold wallets. Moving coins from a hot wallet to any colder wallet should be simple, but moving coin out from a cold wallet must absolutely require more involved processes. Those processes can include getting a keys from safes in remote locations, using specific cryptographic hardware and even biometrics. 
+
+
+As our issuance model will allow us to manage partner telecom wallets, it will inherently help us to enforce a responsible hot and cold wallet strategy by default. Expertise from our wallet partners has also been valuable in designing these processes.
+
+Securing key management on devices We want to provide the most secure and pleasant mobile experience to our users. An essential part of this is to give users a way to encrypt their keys securely on their phones. We're not the first company trying to solve this problem, and recent phones provide secure encryption frameworks.
+
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 36 OF 50
+
+Although we are not a wallet company, we intend to build a reference implementation to provide mobile operators with white-labeled wallets or at the very minimum, guidance on how to build their own wallets using our in-house experience. We will do everything in our power to ensure every wallet accepting Telcoin is secure, as it is very important to generate much-needed trust. The following methods are basic blocks we consider to be necessary to be compliant with our security model.
+
+· iOS - On iOS, the recommended way is to use Secure Enclave in wallets. This way, data is directly encrypted using dedicated hardware (since iPhone 5S, all iPhones have encryption built-in). When a user needs to access encrypted data to make a payment, they identify to their Keychain using TouchID, which also makes use of hardware to decrypt the data if the user is recognized. After this authentication step, the app will execute the transaction. Every key stored on the device must be encrypted using this method.
+
+· Android - Android in general tends to be much more fragmented than iOS, and this fragmentation forces application developers to choose between reducing the security level of their software and providing to a lower amount of users, as only a few devices implement security primitives comparable with Apple's TouchID. The most rational approach in this case is to put a minimum of trust on the device by default, and design applications in such a way that the device can be compromised without risking the user's balance. This essentially means not storing sensible data on the users phones.
+
+Telecom Partnership Relationship
+Telecom companies have a key role in our business model. Mobile networks will be the real node between us (the original Telcoin issuing company) and Telcoin end users. Strong engagement with telecom operators will result in potential mass adoption of Telcoin by consumers. However, if telecoms for some reason would decide to stop cooperating with us, this could seriously impact our business growth rate and endanger our company's future.
+
+Industry participation
+In our experience, industry participation goes a long way in the telecom world. Telcoin is joining the GSM Association and plans to actively participate in the GSMA Mobile Money Programme, the forum dedicated to promoting the mobile money ecosystem and financial inclusion. Our involvement with the GSMA and other similar industry organizations will engender a positive cooperative relationship with telecoms and mitigate the risk of losing the trust of mobile operators.
+
+Telcoin issuance incentive model
+For any given mobile operator, the amount of free Telcoin it will receive each year will be based primarily on their Telcoin transaction volume. The more Telcoin that a network exchanges with its subscribers, the more Telcoin issuance it will receive. Doing so, we expect operators to promote
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 37 OF 50
+
+Telcoin adoption as there will be a clear and direct link between their efforts and the financial benefits they receive through the Telcoin issuance.
+
+Regarding marketing, the issuance model as described above incentivizes telecoms to contribute some of their Telcoin issuance value towards marketing Telcoin. In case a network fails to properly market Telcoin, we will reserve the right to withhold up to ten percent of their issuance rights and directly earmark it for Telcoin marking in their country.
+
+
+Application support
+From our experience, applications made by telecom operators are rarely adopted widely by consumers. As a seamless experience for users is critical, we plan to help telecoms by partnering with best-in-breed cryptocurrency wallets and also introduce a Telcoin reference wallet. We also plan to support telecom operators who want to have their own in-house wallet by helping them build the best wallet possible for their consumers. In case they already have a working product, we are ready to help them improve their app design to maximize user experience. We want to take an active part actively in any initiative that could boost Telcoin adoption.
+
+Educating consumers
+Marketing is usually a challenge for blockchain companies, because prior to advertising their product, they first need to educate their potential users on blockchain technology and concepts. Blockchain and cryptocurrencies are still things that are seen by masses as highly technical things that cannot be understood without a deep technological background. So the first challenge for any company doing business on the blockchain is to make sure their potential users don't feel lost when they hear about how their product works. There is a common effort that needs to be made within the industry and we are ready to participate in that effort. In parallel, as our target is not the blockchain community but average mobile phone users (i.e. the general population), we need to have marketing strategies that will appeal to them and inspire trust in our product. Here is how we plan to address these challenges.
+
+
+Blockchain needs to talk to the masses
+As Fred Wilson of Union Square Ventures observed, "the sector is full of technologists and mostly empty of marketers."26 This is a pretty accurate statement, and that is exactly why we have included in our core team a seasoned B2C marketing specialist with Yacine Farouk. Founder of Hype Means Nothing, he has coordinated marketing campaigns for major retail brands such as Nike, Parrot, and the Jordan brand. We are confident his mastery of viral campaigns and B2C marketing strategies will be of great help for Telcoin. On top of that, having family in Maghreb but being born in France, Yacine has lived with remittance around him since he was a child, and is very familiar with the challenges associated with remittances. This knowledge and experience will turn into a valuable asset when we will need to address the remittance market. With the blockchain industry being still relatively new, we don't believe in those who sell themselves as
+
+26 http://avc.com/2016/12/marketing-the-blockchain/
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 38 OF 50
+
+"blockchain marketing specialists." We do, however, believe in people who have experience speaking to mass markets, and who understand the simple needs of everyday people.
+
+Telcoin needs to inspire trust
+We have a big advantage compared to other cryptocurrency companies - using telecoms as the intermediary between us and the end users. Consumers will not need to trust us in order to start using Telcoin, they will simply need to trust their telecom operator. In developed countries, consumers might not fully trust telecoms to keep their data private - but at the very least, they trust them for not offering illegal services or scam schemes. This is critical for Telcoin, as we will be able to leverage telecom trust to satisfy these concerns that are commonly associated with cryptocurrencies. Additionally we are actively cooperating with industry associations and nongovernmental organizations to promote and enable financial inclusion in developing countries. We feel that this mission will grow over time and strengthen our reputation with users.
+
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 39 OF 50
+
+Marketing
+Telecom Channels
+As described above in the Telcoin Issuance Model section, we will issue Telcoin to mobile networks who will then sell Telcoin to their end users. As their cost for Telcoin will be zero, they will enjoy 100% profit margin selling Telcoin to their subscribers. This of course will only last as long as their issuance rights exceed demand for Telcoin on their network. The assumption then is that for early adopting networks, this profit incentive for mobile networks will incentivize them to cooperate in marketing Telcoin. 
+
+For later adopting networks, the assumption is that by then there will be some built up brand and existing demand in the market for Telcoin. At this point a mobile operator's issuance rights will probably no longer exceed Telcoin demand, but the networks will still be making a significant profit by selling Telcoin to their subscribers.
+
+Thus we see two marketing axes for Telcoin: 
+ · B2B marketing (targeting Telecom operators)
+ · B2C marketing (targeting end users)
+
+In this section, we will review our plan for B2B marketing, and how we plan to have mobile networks promote Telcoin use within their network.
+
+Application development support We are convinced that a flawless end-to-end user experience is critical to Telcoin success. While we are in the business first and foremost of providing a cryptocurrency, we do also recognize the need for attention to product. For this reason we plan to use an in-house product support team to help operators with their existing wallet UX design or to help them build from scratch a wallet that will be custom fit for Telcoin. We can count on our product director Naim Boughazi, who has led product design at Tantan, one of the most popular social apps in China, to realize this work.
+
+In-house marketing content for telecoms
+Even if we give strong incentives to operators to market Telcoin, we understand that this may not be enough. Marketing will be critical in our strategy and we can't afford to rely completely on mobile networks to market Telcoin. For this reason we plan to build an in-house marketing team to market directly to consumers and to work with telecom marketing departments in cooperative marketing efforts.
+
+Turnkey marketing assets for operators
+We will have a dedicated team producing marketing assets for our telecom partners:
+ · Up-to-date press kits
+
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 40 OF 50
+
+· Graphic banners
+ · Video production
+ · Miscellaneous visual assets
+ We will also support telecoms in terms of advertising campaigns designed specifically for individual markets or operators upon request. Our goal is to not only incentivize operators to promote Telcoin, but to actively take part in quality assurance and overall marketing strategy.
+
+Market identification and data analysis
+We will help telecoms with both upstream and downstream data analysis. Upstream data analysis will allow us to identify future Telcoin users and provide insight on how to reach them. Downstream data analysis will then shed light on Telcoin-related ad campaign efficiency and help us run effective PDCA cycles.
+
+Marketing plan
+In the targeting section, we have talked about which territories we plan to target. However for each of these zones, we will need to think of specific marketing means and tools to reach out to the population categories we need to speak to. Here is a brief summary of how we plan to conduct this phase.
+
+Western Europe & North America
+In Europe & North America, we'll focus marketing efforts on two population segments: foreign workers coming from developing countries, and young educated urban users familiar with tech and with potential for trend setting.
+
+For the first category, we understand that each migrant group is different, reacts in different ways and might not be receptive to the same marketing campaigns. However we believe there are some common communication opportunities we can use here. In this particular case for instance, we believe offline advertising in locations where people actually proceed with remittance operations would be relevant and could help us reach out to various groups. One of the other means we plan to use are focus groups. We want to leverage focus groups to trigger viral marketing campaigns within foreign worker communities.
+
+For young urban users, promotion will mostly happen online through tech and lifestyle blogs. We also plan to integrate in our marketing mix YouTube influencers to have a less institutional image and reduce the number of potential friction points. As a sub-category within the young urban users, we plan to specifically target the children of second or third generation immigrants who have become celebrities through cinema, music, and sport. People in this sub-category usually also have an echo in their parents or grand-parents' country of origin and thus have leverage we can use on both sides of the remittance chain. They will be valuable spokespersons for Telcoin.
+
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 41 OF 50
+
+Asia
+We are identifying two groups of countries in Asia: those who are on the sending side of remittance corridors (like Japan and Korea), and those who are on the receiving end (like the Philippines and Indonesia). For the first group of countries, our basic strategy will be similar to the European one, particularly for young urban users. For immigrant populations, we are also considering connecting with local influencers as well as doing online marketing on portals and community sites. Offline promotion during community events is also something we plan to integrate in our marketing strategy. A good example in Japan is the Cinco de Mayo festival for the Latino community living here.27
+
+As for markets on the receiving end of remittances, we believe it will be more efficient to rely heavily on telecom marketing while bringing them the support they need. In most developing countries telecom companies are very powerful and are everywhere. They have partnerships with leaders of various service and industry sectors and are a powerful vehicle for marketing campaigns. We will also hire local marketing experts in countries where we see Telcoin use is taking off in order to maximize our growth in these territories.
+
+Africa and Middle East
+Our strategy for most countries in Africa and the Middle East will be similar to our strategy in countries on the receiving end of remittances in Southeast Asia. Operators in these countries are very powerful and they will be crucial partners for us when it comes to marketing effort. In the meantime we will also need to approach local entertainment industry influencers: musicians, actors, and internationally known athletes.
+
+There are also major originating points for remittances in the Gulf Cooperation countries of the middle east, namely the United Arab Emirates, which originates a massive amount of remittance to India, Pakistan, Bangladesh, Philippines and Egypt. Given the friendly stance of the UAE government and mobile operators toward attracting blockchain investments and fintech, we are considering the UAE to be a potential cornerstone project that could provide us powerful leverage with mobile operators in all of the countries on the receiving end of remittances from the UAE.
+
+Latin America and Caribbean
+Latin America and Caribbean hold with North America a similar relationship to the one that exists between Europe and Africa for instance. Therefore, our strategy for these territories will be similar to the one we will need to adopt to work on Europe to Africa remittance corridors. Additionally, Caribbean communities also a strong presence in Europe, so we will need to keep this channel in mind when we plan our campaigns.
+
+Given recent hurricanes in the Caribbean, we are planning to use the disaster relief use case in marketing efforts with mobile network operators in the region.
+
+27 http://www.cincodemayo.jp/english.html TELCOIN WHITEPAPER V1.2
+
+PAGE 42 OF 50
+
+Company Structure and Budget
+Telcoin Pte Ltd is an existing Singapore private limited company. The Telcoin Foundation is a planned non-profit entity that will be established in a yet to be determined jurisdiction. As for now the majority of our team members are operating from Japan for an obvious reason: Japan has a large pool of skilled engineers, less competition for top talent, a high quality of life, and a flexible immigration policy compared to places like Silicon Valley or western Europe. Additionally, Japan was among the first countries to provide a regulatory framework favorable to blockchain based initiatives allowing several major retail outlets like Bic Camera to accept payments in Bitcoin 28 29. This is a positive sign for any company providing a product related to cryptocurrencies.
+
+We are not only a currency, we are also a company, and we intend to be very transparent and open about many things, financials included. We believe it to be very important that our business case is strong for the currency we put on the market to be a solid asset, which is why we are going to provide a high level overview of how we realistically intend to build this company. 
+
+We plan to structure the company around the concept of autonomous teams, to limit management overhead that is to be expected in any large organization. Our experience showed us that flatter structures help with information flow, and in such a fast moving environment we need a structure that allows us to act and react as fast as possible.
+
+
+Technology Team
+DevOps We will operate a network of services to maintain our systems, and therefore will need proper DevOps. Our philosophy when it comes to DevOps is more about building tools and designing for fault tolerance than only operating servers, which is why we'll focus on hiring DevOps that can actually program.
+
+We will strive to write our tooling using Rust.
+
+The target size of this team is 3 to 5 remote and distributed engineers.
+
+
+Crypto Development
+Smart contracts are hard, and hoping one can get everything right at once is not realistic. We will dedicate proper resources to maintain and extend our smart contracts, and work on new ones as the company grows. Those developers will write Solidity code at first but we will research better languages.
+
+
+28 https://asia.nikkei.com/Politics-Economy/Policy-Politics/Japan-set-to-drop-sales-tax-on-buying-virtual-currency 29 http://www.biccamera.co.jp.e.lj.hp.transer.com/shopguide/campaign/bitcoin/index.html
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 43 OF 50
+
+The target size of this team is 2 software engineers.
+
+Cryptocurrency Research The current state of programming on the blockchain is very primitive, and in order to stabilize our business and the entire ecosystem, some research must be conducted. A recent master thesis by Jack Pettersson and Robert Edström illustrates that a lot of potential exists to improve not only on the Ethereum ecosystem, but the entire cryptocurrency landscape by using sound programming technologies like proper type systems to strengthen smart contracts.30
+
+Solidity has helped get Ethereum to where it is, but we will hire PL researchers to implement safer languages on the EVM and prevent this type of fiasco from happening again.
+
+Languages is not the only area we plan to research, but it will be the primary one for the first 18 months of the company.
+
+We intend for this team to be 2 to 3 researchers.
+
+Telecom Development As compliance is a major challenge, we plan to offer various compliance products for telecoms to use, in the area of anti-money laundering and fraud management. As our team has years of experience developing telecom software, we feel this task is manageable for our team, and are confident in our ability to hire top talent for this. We are developing all of our tools in Rust.
+
+As mobile networks are diverse in technology and vendors, this team will have a lot of work and we will grow it to 5 people before the end of 2018.
+
+Customer Facing Products In order to help our Telecom partners to reach their customers with Telcoin, we will provide them with wallets that they can brand properly and integrate with their existing mobile money solutions.
+
+This said, we do not intend to place ourselves as a wallet company. Telcoin is wallet agnostic and the wallets will be here to help the growth of the company by providing reference implementations. We will also partner with multiple cryptocurrency wallet companies to provide our users with the best wallet options on the market from Day 1.
+
+The head of this team, Naïm Boughazi is already with us. We also already have a senior iOS developers with 5 years of experience with customer facing apps. This team will add UX designers, 1 Javascript developer and an Android developer before the end of 2018.
+
+
+30 https://publications.lib.chalmers.se/records/fulltext/234939/234939.pdf TELCOIN WHITEPAPER V1.2
+
+PAGE 44 OF 50
+
+Business Team
+Customer Service A product facing company in the financial world needs first class customer service. For this reason, we will have an in-house team to serve the needs of our customers.
+
+Not only we will need to manage services mobile operators, but we'll also provide substantial help to their customers, as the quality of their experience will be a determining factor in our success.
+
+Even though we want to enhance our customers service using AI and chatbots, we assume we will need an average of at least three full time support staff per continent before the end of 2018. We also intend to provide training to the customer service department of our telecom partners so they can better assist their customers.
+
+
+Legal and Compliance
+As described in our Challenges section, we expect regulations to bring us a lot of work. Hiring a strong legal team is on the roadmap. At the minimum, we are looking at:
+
+· A Lobbying specialist.
+ · A Compliance officer.
+ · A Telecom regulations expert.
+
+Finance and Liquidity
+In order to manage money flows over the world, we will build a team using the knowledge of our money flow expert advisor, Chris Suh, who spent ten years in treasury management at Goldman Sachs.
+
+The main drivers for the finance team to grow will be the number of jurisdictions we operate in and the risks we are trying to cover. This said, we're going to start with a compliance officer, a risk officer, and a risk analyst. Because of the nature of our business, compliance will be a transversal team, working with product, legal, and business development. 
+
+
+Business Development Our biz dev team will consist of two separate units - sales and compliance.
+
+· Sales team to manage relationships with mobile network operators
+ · Compliance team to manage relationships with government regulators
+ Communication with mobile operators and regulators is key for Telcoin, and we're going to build a solid pair of teams to handle sales. The reason for this split is very simple. We need to build
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 45 OF 50
+
+relationships with telecoms, but also need to work with regulators to enable full adoption by networks and also to be fully compliant in respective markets.
+
+The structure will therefore be:
+
+Sales team, including a leader and 4 to 5 regional sales managers. In addition to those regional managers, we'll have local representatives and consultants with more experience on the ground with individual networks.
+
+Compliance team will be structured vertically instead of regionally. Whereas the sales team will be organized geographically, the compliance team will be composed of subject matter experts focused on the various aspects of regulation and compliance.
+
+Account Management In addition to the business development teams, we'll have internal account managers for day-today relationship management and support. The core of our business is to partner with telecoms in order to together follow the gradual process of regulatory approval, delivery and marketing. This means not only closing partnership deals with mobile operators, but also maintaining long-term relationships with professional support.
+
+Marketing We consider marketing to be essential to our business. We are targeting people that never used cryptocurrencies before, and that means solving issues of PR, trust, and fear of uncertainty in the market. Those are challenges that no blockchain company cracked before, and even though it will likely be a joint effort, we need to work hard to reach our market.
+
+Our marketing team will operate on two levels and will therefore be split in two. One team will assist mobile operators so they can promote Telcoin to their users and potential customers, while another team will build brand affinity directly with consumers.
+
+The Telcoin Team
+CLAUDE EGUIENTA - CO-FOUNDER & CEO
+MS in Computer Science and focused on distributed systems, Claude has been working for startups and large tech companies for a decade. After a stint as a lead systems architect at CyberAgent he co-founded Kabotip, a crypto startup which went through the OnLab incubator. Advisor at TenX.
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 46 OF 50
+
+PAUL NEUNER - CO-FOUNDER & CHAIRMAN
+Paul has more than two decades of experience as a tech entrepreneur in the telecom space, including a successful exit. In 2006 Paul founded Mobius, a leading provider of telecom fraud management solutions that is now installed at more than 30 mobile operators globally.
+SIMO KINNUNEN - LEAD DEVELOPER
+Self taught full-stack programmer, Open-source rockstar, former CyberAgent, Rust expert. Developed Smartphone Test Farm (https:// github.com/openstf/stf) an open source tool for smartphone debugging and mobile data QoS testing that is widely used by mobile network operators and telecom vendors.
+ADAM KULL - LEAD MOBILE DEVELOPER
+Graduate of the KTH Royal Institute of Technology in Sweden, with an MS in Computer Science. Ten years of software development experience including five years leading iOS development projects. Led the iOS team at Chinese social network Tantan from its inception.
+NAÏM BOUGHAZI - PRODUCT DIRECTOR
+Product, UI/UX expert with an MS in Computer Science. Founding team member and former VP Product at Tantan, one of the fastest growing social networks in China.
+
+YACINE FAROUK - MARKETING DIRECTOR
+Digital marketing expert with 8 years of experience as a marketing consultant, creating content and building various types of high-ROI campaigns to maximize brand awareness, ranging from guerrilla marketing to large budgets. Led marketing campaigns for Parrot, Sony, Nike, and Jordan brand. Co-Founded Kabotip, a crypto startup in 2013. Following an MSc in International Business, founded Hype Means Nothing in 2008.
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 47 OF 50
+
+NOBUSUKE MATSUOKA - BUSINESS DEVELOPMENT: TELECOM
+20 years in telecom software and business development, first at Nokia managing core network software development. Worked as a consultant managing projects at SoftBank and other operators in W-CDMA, GMS, LTE air protocol analysis software development. Telecom sales and BD since 2011.
+LEE-ANN CASSIE - REGIONAL MANAGER, AFRICA
+With 17 years experience in the telecom space across Africa, Lee-Ann has accumulated vast experience in both the public and private sectors. She executed key national projects at the South African Regulator including the first mobile internet service and the licensing of the second national operator. After moving to the startup 4G LTE operator Smile, she led the acquisition of operating and spectrum licences in Uganda and Nigeria, and managed the network launch in Nigeria.
+ALIX ZERD - BUSINESS DEVELOPMENT: CRYPTO
+10 years of project management and business development in major mobile game and social network companies. Handled game business development for US and Europe at LINE, largest Mobile social app in Japan.
+ERIC CHUNG - EXECUTIVE DIRECTOR
+Business & Corporate Development, Design, Strategy, Adtech. Former Senior VP at Barclays Capital with experience at Morgan Stanley and Lehman Brothers across all asset classes. Headed up regulatory reform of OTC Derivatives in APAC. Built APAC Equities business from scratch after the Lehman acquisition
+CHRISTOPHER RIZANOW - COMMUNITY MANAGER
+Organizational development and consulting background. MBA, McGill University Desautels Faculty of Management. Thesis research focused on blockchain and smart contract disruption of venture capital.
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 48 OF 50
+
+Initial Coin Offering
+Initial coin offerings (ICOs) are an exciting new way for companies to raise funds, particularly used in the blockchain space. Most ICOs today involve a token sale that grants specifically defined rights, for example a revenue share vehicle. These ICOs have legal complexities, particularly in terms of securities compliance. Telcoin has an advantage in that our ICO will actually be selling the same cryptocurrency that we will be marketing. Furthermore, being based in Japan and established in Singapore, we benefit from a legal environment greatly favorable to token sales. There has been a solid interest around cryptocurrencies for years in Japan, but the number of Japan-based companies doing ICOs here is surprisingly low. We want to tap into this interest in cryptocurrency and participate responsibly in the ecosystem in order to build a successful example for other to follow. 
+
+We plan to lead our fundraising activity according to the following 3 phases, and we will explain how it will unfold for each of them below:
+
+· Pre-ICO
+ · ICO period
+ · Post-ICO
+
+Pre-ICO Phase
+Before we open the Telcoin purchase to the public through the actual ICO, we plan to meet with potential contributors who intend to purchase a minimum of US$100,000 worth of Telcoin. We also plan to allocate a small portion of the Telcoin to reward those who have committed at a very early stage or high contribution level. (See ICO breakdown below for further details).
+
+ICO Phase
+The Telcoin supply will be composed of 100,000,000,000 coins, but only 25% of the total supply will be distributed during the ICO. This 25% will be distributed to our ICO contributors through the general crowd sale as described in the Telcoin ICO website (www.telco.in/ico), and bonuses allocated to contributors coming in with a big amount will be taken from this pool as well.
+
+
+The unit value of a coin will be calculated based on the total amount of funds raised during the pre-ICO and ICO phases. As this total amount will stand for 25 percent of the coins in circulation, unit price will be calculated as:
+
+Telcoin unit price = (Total funds raised / 25%) / 100,000,000,000
+
+Telcoin will be purchasable in exchange for Ethereum, through our smart contract for a limited time and limited amount, or using Bitcoin or fiat currency. Our coin will be on sale for a maximum
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 49 OF 50
+
+of two months and we plan to only accept contributions up to the equivalent of US$25,000,000. Once either of these two limits is reached, we plan to close our ICO phase.
+
+Post-ICO Planning
+We have developed an operational budget of roughly US$25,000,000 to kickstart Telcoin during the first 36 months, but if we were to raise more funds, we already have thought of several ways to allocate them efficiently:
+
+· A large part of the extra funds will be allocated to additional marketing spending in order to maximize our reach to at least one telecom in as many countries as possible - particularly important remittance corridors. 
+
+· In a number of markets we expect to need a formidable effort to overcome regulatory challenges, and extra funds will help us to build a strong lobby team with the necessary resources and top notch respected legal support.
+
+· In the mid to long term, extra funds will help us to operate strategic M&A when we will have a need for it, for example to acquire our way into a strategic market or engage in strategic joint ventures with large telecom groups.
+
+· In general, a larger ICO raise will help us gain leverage in negotiations with telecom operators. We feel that a collective coordinated global effort to lobby telecoms and regulators will be required, and this will be expensive.
+
+· In our long term strategy, we don't close the door to becoming a MVNO in some countries if it makes sense for our growth strategy.
+
+· After the ICO is over and once we have kickstarted our activity, we can also consider private equity investment through a series A round if it makes sense regarding our financing plan.
+
+If you are interested in participating in our token sale, please visit our token sale website at www.telco.in/ico
+
+Thank you for your interest in Telcoin!
+
+TELCOIN WHITEPAPER V1.2
+
+PAGE 50 OF 50
+
+

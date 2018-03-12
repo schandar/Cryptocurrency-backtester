@@ -1,0 +1,501 @@
+A DECENTRALIZED DATABASE FOR THE FUTURE
+Bluzelle fills a void in the decentralized internet ecosystem
+WHITEPAPER V 1.4
+December 11, 2017 Wri6en By Pavel Bains & Neeraj Murarka
+
+IMPORTANT NOTICE PLEASE READ THIS ENTIRE NOTICE VERY CAREFULLY. IF YOU ARE IN DOUBT AS TO THE ACTION YOU SHOULD TAKE IN RELATION TO THIS DOCUMENT, PLEASE CONSULT YOUR LEGAL, COMMERCIAL, FINANCIAL, TAX, OR OTHER PROFESSIONAL ADVISORS.
+This White Paper states the current views of Bluzelle PlaTorm Pte. Ltd. concerning the proposed decentralized database storage network named `Bluzelle', the external cryptographic tokens proposed to be used with Bluzelle ("BLZ"), and related ma6ers. Bluzelle PlaTorm may from _me to _me revise this White Paper in any respect without no_ce. However, Bluzelle PlaTorm undertakes no obliga_on to update this White Paper or any of the informa_on it contains. You are responsible for ensuring that you have the latest version of this White Paper and that you read and understand its contents.
+Indica2ve informa2on only. This White Paper presents indica_ve informa_on only. Unless expressly specified otherwise, Bluzelle and the technologies on which it will be based are under development and are not currently deployed. Any plans, projec_ons, or forecasts men_oned in this White Paper may not be achieved due to mul_ple risk factors, including without limita_on defects in technology, legal or regulatory exposure, market vola_lity, sector vola_lity, corporate ac_ons, or the unavailability of complete and accurate informa_on.
+Not an offer, solicita2on, or recommenda2on. This White Paper is for informa_onal purposes only and does not cons_tute, and is not intended to be, a prospectus or an offer to sell, a solicita_on of an offer to buy, or a recommenda_on of BLZ, Bluzelle, an investment in Bluzelle or any project or property of Bluzelle PlaTorm, or shares or other securi_es in Bluzelle PlaTorm or any affiliated or associated company in any jurisdic_on.
+Not a contract. By publishing this White Paper, Bluzelle PlaTorm does not intend to solicit, and is not solici_ng, any ac_on with respect to BLZ or any contractual rela_onship with Bluzelle PlaTorm or any affiliated or associated company. This White Paper is not a contract and does not legally bind Bluzelle PlaTorm or any other party. Bluzelle PlaTorm will not accept any cryptocurrency or other form of payment in respect of BLZ based on this White Paper. If Bluzelle PlaTorm elects to conduct a sale of BLZ, any offer to sell BLZ will be made only on the terms and
+2
+
+condi_ons of a binding legal agreement between the buyer and Bluzelle PlaTorm, the details of which Bluzelle PlaTorm will make available separately from this White Paper.
+Not designed or intended as an investment product or securi2es. Bluzelle PlaTorm has designed BLZ to be an externally-tradable token that can be converted to and from the Bluzelle PlaTorm internal token (BNT), which will be the exclusive medium of exchange within Bluzelle. Bluzelle PlaTorm has not designed BLZ to have the characteris_cs of an investment product and does not intend them to be securi_es or any other type of financial or investment instrument in any jurisdic_on. Without limita_on, BLZ do not en_tle holders to a dividend or any financial or other type of return from Bluzelle PlaTorm or Bluzelle simply by possessing them; BLZ do not en_tle holders to vote on, or otherwise exercise discre_on to govern or influence, any aspect of Bluzelle PlaTorm's or any other en_ty's corporate en_ty, Bluzelle PlaTorm's or any other en_ty's business, or Bluzelle or any other service; and BLZ do not confer ownership, equity, or rights, interests, or benefits in the revenues, profits, or other financial aspects of, Bluzelle PlaTorm or any other en_ty, Bluzelle, any underlying asset (whether tangible, intangible, or virtual), or any technology or intellectual property developed, acquired, or licensed by Bluzelle PlaTorm or any other en_ty.
+Not a recommenda2on or advice. This White Paper provides informa_on about Bluzelle PlaTorm and summarizes the target market, business model, and technology of Bluzelle. Nothing in this White Paper should be considered a recommenda_on for any person to purchase BLZ or to use Bluzelle. Your reques_ng a copy, possession, or sharing of this White Paper does not cons_tute par_cipa_on in any sale of BLZ, if Bluzelle PlaTorm elects to conduct such sale. No informa_on in this White Paper should be considered as business, legal, financial, or tax advice regarding the purchase of BLZ or the use of Bluzelle. No part of this White Paper may be relied on to form the basis of, or in connec_on with, any decision regarding the purchase of BLZ or the use of Bluzelle. Not reviewed, examined or approved by a regulatory authority. No regulatory authority has reviewed, examined or approved any of the informa_on contained in this White Paper. Bluzelle PlaTorm has not sought, and will not seek, review, examina_on or approval of any of the informa_on contained in this White Paper under the laws or regula_ons of any jurisdic_on. The publica_on or distribu_on of this White Paper does not imply that applicable laws, regula_ons, or rules have been complied with.
+3
+
+Third party sources. Bluzelle PlaTorm and Bluzelle Related Par_es have not independently verified the completeness or accuracy of any informa_on extracted from third party sources.
+Forward-looking statements. All statements in this White Paper, on Bluzelle PlaTorm's website, in communica_on channels (such as Slack, Medium, Reddit, Telegram, Github, and Twi6er), or otherwise made by Bluzelle PlaTorm or its authorized representa_ves in any media that are not statements of historical fact (including statements using words such as "aim", "target", "an_cipate", "believe", "could", "es_mate", "expect", "if", "intend", "may", "plan", "possible", "probable", "project", "should", "would", "will", the nega_ves of those terms, and similar expressions), including but not limited to statements about Bluzelle, BLZ, Bluzelle PlaTorm's financial posi_on, business strategies, plans and prospects, and industry trends are "forward-looking statements". Forwardlooking statements involve known and unknown risks, uncertain_es, and other factors (including but not limited to changes in poli_cal, social, economic, and stock or cryptocurrency market condi_ons and changes in the regulatory environment where Bluzelle PlaTorm and Bluzelle will operate) which may cause the actual results, performance, or achievements of Bluzelle PlaTorm, Bluzelle, and BLZ to differ materially from the future results, performance, or achievements expressed or implied in the forward-looking statements. No representa_on, warranty, undertaking, promise, or guarantee is given in respect of the forward-looking statements. Forward-looking statements should not be relied upon.
+Limita2on of liability. To the maximum extent permi6ed by all applicable laws and regula_ons, Bluzelle PlaTorm and its affiliates and its and their founders, directors, officers, employees, advisors, agents, and representa_ves (Bluzelle Related Par_es) shall not be liable for any direct or indirect loss of revenue, income, profits, business, business opportunity, an_cipated saving, data, reputa_on, or goodwill; or any indirect, special, incidental, reliance, consequen_al, puni_ve, or other losses or damages of any kind, in tort, contract, strict liability, or otherwise, arising out of or in connec_on with any reliance on this White Paper or any error, omission, or inaccuracy in any informa_on in this White Paper, even if Bluzelle PlaTorm and Bluzelle Related Par_es have been advised of the possibility of such losses or damages.
+Disclaimers of representa2ons, warran2es, undertakings, and condi2ons. To the maximum extent permi6ed by all applicable laws and regula_ons, Bluzelle PlaTorm and Bluzelle Related Par_es do not make or purport to make, and hereby disclaim, all representa_ons, warran_es,
+4
+
+undertakings, and condi_ons (express or implied, whether by statute, common law, custom, usage, or otherwise) regarding Bluzelle PlaTorm, Bluzelle, BLZ, this White Paper, and any forward-looking statements. Bluzelle PlaTorm provides any informa_on in this White Paper "as is" with no guarantee of completeness, accuracy, _meliness, or of the results obtained from the use of this informa_on. Requirement for reproduc2on and distribu2on. Unless this White Paper, including this No_ce, is reproduced and distributed in its en_rety without change, Bluzelle PlaTorm's prior wri6en consent is required. No part of this White Paper may be reproduced or used in, or distributed to any jurisdic_on where possession or distribu_on of this White Paper is prohibited or restricted. English version controls. The English language version of this White Paper is the only official version. Transla_ons of this White Paper into any language other than English may introduce ambigui_es and errors, despite the best inten_ons of the translators, and Bluzelle PlaTorm does not guarantee the accuracy of any transla_on. If there is a conflict between the English version of this White Paper and a translated version, the English version will control. © 2017 Bluzelle PlaTorm Pte. Ltd. All Rights Reserved. Bluzelle is a trade mark of Bluzelle Networks Pte. Ltd. All other product names are trademarks or registered trademarks of their respec_ve owners.
+5
+
+1. INTRODUCTION
+Our vision is to make the internet a safer and more secure place for the data of people and businesses.
+1.1. The Problem
+Blockchain technologies are propelling the next genera_on of the Internet. Protocols like Ethereum are a plaTorm for launching decentralized applica_ons (dApps) that will change the way products and services are consumed. These dApps will exchange massive amounts of data that need to be stored and managed. The problem is blockchains like Ethereum are not designed for data storage and management; doing so would take up too much space and take too much _me.
+1.2. The Solution ­ Bluzelle
+Just like decentralized services like Filecoin and Storj are needed for file storage & management; there is a need for data storage & management. Bluzelle is a decentralized, on-demand, scalable database service for dApps. Bluzelle fills a need and is complementary to the other components to make the decentralized Internet complete. Without these decentralized components, the decentralized Internet would not be able to run efficiently and scale to massive use.
+6
+
+ECOSYSTEM COMPONENTS
+01
+APPLICATIONS
+02
+OPERATING SYSTEM
+03
+FILE STORAGE
+04
+DATA STORAGE & MANAGEMENT
+
+THE CURRENT INTERNET
+
+THE DECENTRALIZED INTERNET
+
+Bluzelle is the right fit because it provides enterprise-grade database services at a price for all Decentralized Applica2on (dApps) developers.
+
+7
+
+2. HISTORY OF BLUZELLE
+
+Seeing that blockchain can provide numerous benefits to the finance industry, Bluzelle was formed in July 2014. We created a technology stack that abstracts the complexi_es of managing blockchain applica_ons.
+
+2014 JULY
+Pavel Bains and Neeraj Murarka form Bluzelle in Vancouver, Canada
+APRIL
+2015
+Launches Canadian Ripple Gateway directly connected to Canadian Banking debit network
+
+FEBRUARY
+2016
+Sets up in Singapore
+MARCH
+
+Raises seed financing round from True Global Ventures
+
+MAY
+Builds Ripple-based cross border
+
+SEPTEMBER
+
+payments POC for global banking platform Temenos
+
+Builds Ethereum-based consumer
+
+mobile insurance application for
+
+DECEMBER
+
+global insurer AIA
+
+Named to the Global Fintech 100 by
+
+H2 Ventures
+APRIL
+2017
+Builds Ethereum-based KYC Ledger
+
+for international banks consortium
+
+JUNE
+
+consisting of OCBC, HSBC and MUFG
+
+Named Technology Pioneer 2017 by
+
+World Economic Forum
+
+JULY
+
+Builds Ethereum-based insurance platform for a large Asian insurer
+
+AUGUST
+Raises $1.5 M USD round from international VCs Global Brains (Japan), True Global Ventures (Europe) and LUN Partners (China)
+
+Working with enterprise customers revealed one cri_cal challenge for widespread adop_on of blockchain applica_ons: the management of large amounts of data. This discovery led to the forma2on of the Bluzelle decentralized database service.
+
+
+8
+
+3. THE CURRENT STATE OF DATABASE SERVICES
+It's es_mated that in 5 years there will be over 20 Billion connected devices that require the genera_on, management, storage, and retrieval of enormous amounts of data.
+"Business leaders demand next-generation applications and new insights to drive more intelligent engagement and better decisions. To get there, enterprise architects need to design an agile technical architecture that can scale automatically with capabilities, such as databases, that are always available to support new initiatives. It takes enormous time, effort, and coordination to provision new databases today because of a lack of resources to meet the administration challenges of rolling out complex clustered systems." Forrester Research, 2017 Market Overview Database As A Service
+To address this problem, emerged the Cloud Database and Database-as-a-Service (DBaaS) market. According to Markets and Markets, this industry is expected to grow at a CAGR of 67.30% to $14.05 billion by 2019. There are four primary drivers of demand for DBaaS:
+· Consumer personalization apps - financial, dating, social media products · Internet-of-things (IoT) applications - everything is being connected · Mobile apps - amount of data consumed is growing exponentially · Line-of-business (LoB) collaboration - business units share more info
+With all these applica_ons producing more and more data, past and present database management services are under-equipped to meet the needs of businesses. There are problems centered around performance, reliability and scalability. These can lead to problems of data breaches resul_ng in massive amounts of data thet.
+9
+
+The systems of the past and present will now evolve to the future: The Bluzelle decentralized, on-demand, database service.
+
+PAST: SINGLE SYSTEM DB Multiple sources of failure
+Expensive to scale
+No privacy
+No immutability
+Performance limitations
+
+PRESENT: CLOUD DB
+Single source of failure
+
+FUTURE: DECENTRALIZED DB
+No points of failure
+
+Expensive to scale
+
+Scales efficiently
+
+No Privacy
+
+Highest privacy
+
+No immutability
+
+Immutable
+
+Some performance limitations No performance limitations
+
+10
+
+4. BLUZELLE FEATURES
+Bluzelle is a decentralized database service for dApp developers. To ensure developers get the highest throughout in performance, reliability and scalability, Bluzelle implements swarming technologies. A swarm is a large group of nodes (computers) that work together to store and manage data. Nodes in these swarms can go down and new nodes can come up with minimal impact on the network. Overall Bluzelle is a meta-swarm comprised of mul_ple swarms.
+4.1. Performance
+Bluzelle's unique and proprietary swarming techniques were designed for the highest performance. Bluzelle can reduce latency by retrieving data from the nearest nodes on the leaf swarm, and/or increase speed manyfold by retrieving data in parallel from the fastest nodes on the leaf swarm. This is like torrents and seeds. When data is requested, it is done in parallel where chunks (shards) are requested from all the different swarms that contain those shards, and these are all retrieved in parallel, resul_ng in desirable performance metrics.
+4.2. Reliability
+Using the concept of fog or swarm compu_ng, Bluzelle follows a model where every unit of data is 100% replicated in a single leaf swarm amongst a swarm of swarms. So while the data is only in one swarm, that swarm's nodes are aplenty and are geographically dispersed, immune to localized outages caused by either natural or human-related events.
+4.3. Scalability
+Scalability is possible both horizontally or ver_cally. Bluzelle manages the various strategies and considera_ons around the use case of having to increase scale. Horizontal scaling is a cornerstone of the Bluzelle architecture, where every swarm is another "unit" of horizontal scaling at the metaswarm level. Within every leaf swarm, every node acts as yet another agent of horizontal scaling, at the leaf swarm level.
+11
+
+The following table outlines addi_onal features of Bluzelle.
+
+FEATURE
+Highest privacy High reliability Enterprise scalability Data immutability High performance speeds No intruders Low cost
+
+DESCRIPTION
+Bluzelle employs cryptography and sharding techniques to provide a privacy guarantee.
+Bluzelle redundantly stores tiny pieces of data on nodes across the globe, eliminating any single point of failure.
+Bluzelle algorithms store data in a unique, distributed and intelligent manner that will provide enterprise-level scalability.
+Bluzelle leverages blockchain technology so that once data is stored to such a network, it is impossible to change that data.
+Bluzelle dynamically adjusts the number and location of nodes sharding the consumer's data to meet performance metrics.
+Bluzelle's use of consensus is the only method by which updates to the network can be accepted as the "truth".
+Bluzelle operates few data centers and has little capital costs. Vast majority of computer resources are provided by participant producers.
+
+12
+
+5. HOW DOES BLUZELLE WORK?
+Bluzelle takes blockchain principles and sharding & par22oning concepts to create an AirBnB like marketplace for data storage and management. This is a crypto-economic network of powerful producers and consumers.
+5.1. Consumer
+The consumer is the one who "consumes" the Bluzelle database services. These are the developers we target. Consumers are spending Bluzelle tokens so they can store and retrieve data. Addi_onally a user could get a credit of tokens if a producer failed to meet certain service levels.
+5.2. Producer
+The producer is the one who provides resources to the network in return for earning Bluzelle tokens (BLZ). Bluzelle producers will be required to put up a propor_onal stake of Bluzelle tokens, in order to provide a guarantee on the service levels Bluzelle will provide. Bluzelle will encourage compe__on by producers to provide higher quality services, where those with higher service levels can charge more but also have to put up a higher stake. Every par_cipa_ng consumer and producer of Bluzelle are ini_ally required to independently create their own Ethereum account and take responsibility for securing and protec_ng their private key. The private key is used to secure access to their ETH and Bluzelle tokens and encrypt their data before it gets sent out over the Bluzelle network.
+13
+
+6. DAPP USES CASES FOR BLUZELLE
+6.1. Predictions Markets
+Decentralized predic_ons markets on Ethereum require the management and storage of massive amounts of data to work. These include: (1) the ques_ons being asked, (2) the different possible outcomes, (3) the predic_ons being made, and (4) the sourced informa_on for the actual events. A decentralized database can grow and scale as per the products needs. Having fast and reliable access to data is important for the success of the predic2ons market to garner new customers and par2cipa2on. Historical data stored on Bluzelle will add a new category of predic_ons that can reduce human specula_on by using past events to make be6er predic_ons.
+6.2. Currency Exchange Protocols
+A key part of a currency exchange protocol is the presence of relayers, who enable makers and takers to connect via off-chain order books. The underlying order-books must be fast, efficient, reliable, and easy to supply, by the relayers. A pain point is relayers are responsible to store these order-books each in their own way. By using a decentralized database like Bluzelle, currency exchange protocols can provide relayers with a standard, consistent, ubiquitous, database that would be available with no effort. This reduc_on in fric_on maximizes the service level and quality as the network would now s_ll be powered by relayers.
+6.3. Data Streaming Networks
+Data streaming networks match up consumers of data points with producers of data points. For example a car uses real-_me traffic data from the data streaming network. The car collects real_me data while it moves. It is both paying for data it "buys" and "earning" from data it "sells" to the network. The data points need to be both readable and writable with high performance, availability, scalability, and reliability. Bluzelle is ideal to provide the precise infrastructure needed so that a data streaming network can store its data to meet these requirements. 
+14
+
+7. MARKETING STRATEGY
+7.1. Target Market
+Bluzelle has three groups that it targets to become a mainstream product like Oracle Systems. Bluzelle will start the first with the first group and then expand outwards.
+
+· Early Adopters - dApp developers. One of the fastest growing segments in the sotware industry. It involves sotware developers wri_ng blockchain based applica_ons that take advantage of other decentralized technologies that are complementary to Bluzelle.
+· Early Majority - small-to-mid size developers. Refers to developers that are not in dApps but building common web, mobile, hardware applica_ons. These developers are wri_ng games, produc_vity sotware, mobile applica_ons, u_lity sotware, and many other sotware products.
+
+LATE MAJORITY
+EARLY MAJORITY
+EARLY ADOPTERS DAPP DEVELOPERS
+SMALL-TO-MID SIZE DEVELOPERS
+ENTERPRISE SOFTWARE ARCHITECTS
+
+· Late Majority - enterprise sodware architects. The large enterprises who see how dApps and other developers use Bluzelle and then have the valida_on to also move their data storage needs to us.
+
+15
+
+7.2. Regional Focus
+With it's offices in both Singapore and Vancouver, Bluzelle is in a unique posi_on to grow in two of the biggest regions for dApps and the blockchain: US/Canada and Asia Pacific.
+From China to Korea to Japan to Southeast Asia, this region is home to a fast growing startup blockchain community. These startups require efficient and low-cost services. Many parts of Southeast Asia are rapidly developing as major ci_es and high-growth economies. They are leapfrogging legacy client-server architecture systems to innova_ve adap_ve and scalable solu_ons built for the future.
+"Asia Pacific is anticipated to aggressively adopt cloud database and DBaaS solutions in the near future. This is basically due to the increasing focus by small, medium, and large scale enterprises for the purpose of improving efficiency and productivity via investment in technology." - TMR Research Cloud Database and Database as a Service (DBaaS) Market, 2017-2025
+Bluzelle has an R&D center in Vancouver, Canada. Being in Western Canada/US gives Bluzelle a strategic posi_on to offer it's product to the growing blockchain and overall developer businesses in Sea6le, Portland, San Francisco and Silicon Valley. Bluzelle's founders, advisors, investors have a history of working in Silicon Valley and have strong connec_ons to build support in the worlds biggest technology center.
+These regions are just to start. Bluzelle is a global product that meets the needs of developers everywhere.
+7.3. The Bluzelle Developer Community
+The first release of Bluzelle is planned for April 2018 and we have started building our developer community. Servicing sotware developers has less fric_on as they can be engaged online and are passionate about technologies that help them make be6er products quickly and easily. Early on, we will get feedback on the product and build the ecosystem enabling both the producers and consumers of Bluzelle.
+16
+
+We will have an online community site, go to hackathons, host meetup events, and much more. As a tech company, Bluzelle's employees have an organic network of peers, friends and acquaintances who are the target market. As men_oned in the prior sec_on, Bluzelle will be doing various developer reach outs to many of the biggest ci_es in Asia and US/Canada.
+THE BLUZELLE
+DEVELOPER COMMUNITY
+17
+
+8. BLUZELLE'S ECOSYSTEM
+The opportunity to get Bluzelle into the hands of consumers is tremendous. A key is to build a healthy ecosystem where Bluzelle is integrated to many technologies; making it easy for customers to find Bluzelle.
+8.1. Developer Marketplaces
+Bluzelle aims to partner with leading sotware development ecosystems and establishing channel partnerships that share revenue. Notable examples would include Heroku, AWS Elas_c Beanstalk, Redhat OpenShit, Google App Engine, and Microsot Azure. With such integra_ons, developers can quickly use Bluzelle's decentralized database, just as effortlessly as they can use tradi_onal cloud database offerings - simply point and click.
+8.2. Developer Environments
+Development environments such as Android Studio, Apple XCode, Microsot Xamarin and Visual Studio, Eclipse, IntelliJ, Unity3D, PhoneGap, and Ionic are targeted for plugins and integra_ons so that dApp developers of both desktop and mobile apps can easily integrate Bluzelle whenever they have database needs for their games, enterprise applica_ons, etc.
+8.3. Blockchains
+Blockchains play a large role in the Bluzelle ecosystem. Smart contract classes and instances are planned to be deployed directly not just to Ethereum but other open blockchain protocols like Hyperledger to enable dApp smart contracts to use Bluzelle for storage needs.
+8.4. Operating Systems and Browser Tools
+Opera_ng-system and browser tools further enhance the developer's ability to access data, whether it is from a GUI applica_on running on their desktop or a browser plugin that enables them to quickly store and retrieve table data.
+18
+
+9. THE BLUZELLE TOKEN
+Bluzelle is powered by two tokens:
+· Ethereum ERC-20 external token: BLZ This externally-tradable token bridges the Bluzelle na_ve token (BNT) with Ethereum's own na_ve ETH token.
+· Bluzelle Network Token: BNT An internal token to Bluzelle alone that enables the Bluzelle crypto-economy, where consumers pay and producers earn.
+The need for an internal token is because ERC-20 tokens are too slow and expensive for real_me database accoun_ng. The BLZ ERC-20 external token exists to represent on exchanges for customers to easily obtain to use the Bluzelle service. The BNT internal na_ve token exists to enable high-speed, zero-cost, and real-_me database accoun_ng. The BLZ and BNT tokens can be interchanged via the Bluzelle token gateway. For the public sale, people will be purchasing BLZ tokens.
+When a new par_cipant to the network wishes to use its services as a consumer, they will need to acquire BNT tokens. The standard method of doing so is as follows:
+1. Buy BLZ tokens on a crypto-exchange using ETH, BTC or other forms the exchange allows.
+2. Send BLZ tokens to the Bluzelle Token Gateway's smart contract via Ethereum. The gateway will issue new BNT tokens to the user's Bluzelle network wallet.
+3. The user now has BNT tokens, and is free to par_cipate in the network as a consumer.
+19
+
+When a producer wishes to "withdraw" their BNT tokens, they use the following steps:
+1. Send the BNT tokens to the special Bluzelle gateway. 2. The gateway converts the BNT tokens at a 1:1 ra_o to BLZ tokens, and sends these BLZ
+tokens to the producer's registered Ethereum wallet. 3. The producer now has the BLZ tokens, and is free to transact with them on the Ethereum
+network. 
+
+ETHEREUM
+BLZ
+ERC-20 TOKEN SMART CONTRACT
+
+BLZ BNT
+GATEWAY SMART CONTRACT
+
+SWARM
+
+SWARM
+
+BLUZELLE
+Bluzelle Metaswarm DB + decentralized consensusledger for BNT.
+
+SWARM
+
+SWARM
+
+SWARM
+
+SWARM
+
+ETHEREUM BLZ WALLET
+
+DCL BNT WALLET
+
+20
+
+10. REVENUE MODEL
+The BLZ <=> BNT gateway proposes a micro-transac_on fee for every conversion going through the gateway in either direc_on. The fee is charged in BLZ tokens and is sent to a special Ethereum wallet owned by Bluzelle. The model is setup so the en_re ecosystem remains completely decentralized while s_ll providing a revenue for Bluzelle to improve and innovate the network and its associated services.
+Following are two typical scenarios: · A user needs BNT tokens to use the service. 1. The user sends 100 BLZ to the BLZ smart contract. 2. 0.1 BLZ is subtracted from the total of 100 BLZ and is sent to the Bluzelle Ethereum wallet as a non-refundable fee. 3. The remaining 99.9 BLZ is converted to BNT and credited to the user's BNT Bluzelle na_ve wallet. · A user wishes to convert BNT to BLZ. 1. The user sends BNT tokens to the BNT gateway. 2. The BNT tokens are converted at a BLZ 1:1 rate, resul_ng in a conversion amount of 100 BLZ. 0.1 BLZ are subtracted from the total of 100 BLZ and is sent to the Bluzelle Ethereum wallet as a non-refundable fee. 3. The remaining 99.9 BLZ is released out of custody by the Ethereum smart contract and sent to the correct par_cipant' s Ethereum wallet.
+Absolute prices are calculated dynamically and are not 100% determinis_c. Maximums are baked into Bluzelle, where the network adjusts the number of swarms and distribu_on of nodes as prices start to approach the maximums, ge|ng increasingly aggressive with network adjustments as the maximums draw nearer, un_l expected average prices start to trend again.
+21
+
+11. TECHNOLOGY OVERVIEW
+This sec=on provides an overview of Bluzelle's technology architecture. For a more in-depth reading with more details refer to the Technology Paper.
+11.1. Database 101 - CRUD API
+CRUD stands for "create, read, update, and delete" for the four basic func_ons pertaining to databases and permanent storage. CRUD covers the func_onality of rela_onal databases, where each of create, read, update, and delete can be mapped to corresponding SQL and HTTP methods.
+A password of the user's own choosing is also required, and it is up to the user to protect this password and keep it available for later. All the data stored in key value pairs are encrypted, with the password being used as the ini_aliza_on vector in AES 256 symmetric key encryp_on. This password is only ever used locally and never travels on the network in any way, shape, or form.
+11.2. Sharding
+Shard stands for "System for Highly Available Replicated Data". Large databases oten are hard to work with due to the size and memory constraints they come with. By par__oning the database along logical lines, the database becomes much easier to work with.
+A logical shard is the smallest unit in Bluzelle and contains individual units of data that all share the same par__on key. A par__on key is a unique iden_fier that allows the shard to be accessed for the retrieval of informa_on. In Bluzelle, par__on keys allow the dApp to store and retrieve data from the correctly iden_fied leaf swarm efficiently. In Bluzelle, groups of logical shards are stored on leaf swarms, and it is the amalgama_on of these leaf swarms that makes up the en_rety of the Bluzelle database.
+22
+
+11.3. Jump Consistent Hashing
+Jump consistent hashing (JCH) was first described in a white paper by John Lamping and Eric Veach at Google. It is an elegant algorithm that only takes about 5 lines of code in a language like C++. JCH does not have a state machine, and therefore requires no storage. It is an algorithm without lookups in memory and is therefore much faster.
+Bluzelle uses JCH to map from the key (in key value pairs in a NoSQL table) to the id of the swarm that the key is replicated in. Once that id is found, Bluzelle uses Kademlia hashing to find the means to reach that swarm even if that specific swarm is not running.
+11.4. Kademlia Hashing
+Kademlia is an advanced form of a typical peer-to-peer distributed hash table which has been structured in a way to make par_cular use of the special symmetric and geometric proper_es of the bitwise XOR func_on. Bluzelle uses Kademlia hashing to efficiently enable nodes to know about every other swarm on the network. Using Kademlia's own form of "finger tables", each node in the network only needs to know informa_on about how to reach O(log(n)) other leaf swarms, where n is the total number of leaf swarms on the network. This means that irrespec_ve of how large the network ever becomes, every node can reach every other leaf swarm within O(log(n)) tries, by only storing O(log(n)) data. As a result, Bluzelle is able to handle exponen_al growth.
+11.5. Partial Replication
+Par_al replica_on means that not every node in the network has a copy of the data -- only the nodes within the leaf swarm delegated to that data replicate it. This is one of the key differences between Bluzelle and a tradi_onal "blockchain". Blockchains are inherently slow and do not scale well, as every set of transac_ons or blocks is 100% replicated everywhere, pu|ng severe ver_cal scaling limita_ons on the network. Bluzelle by design only stores the data amongst a strategic subset of the nodes, sta_s_cally providing an guarantee that the data is always available and s_ll achieving the benefits of boundless horizontal scaling. Par_al replica_on exists because only ONE
+23
+
+swarm amongst all the swarms in the network replicates a given piece of data. An interes_ng incumbent technology that can be compared to this is the content delivery network (CDN).
+11.6. Load Balancing
+A benefit of having a logical shard stored on mul_ple physical nodes is speed - by having the same data accessible through different hardware resources at various geographical loca_ons, the system may load-balance queries to retrieve data from nearby nodes that are least taxed at any given moment in _me. This permits Bluzelle to dynamically perform queries and retrieve data in the most efficient way possible, maximizing use of the shared resources spanning across mul_ple nodes.
+11.7. Redundancy
+As replicated data is stored across different nodes with unique infrastructure, there is a severely reduced causa_on between single-node failure and loss of the shard. This method of mirroring serves to secure the availability of data in an efficient manner by ensuring any single point of failure is inconsequen_al.
+11.8. Consensus
+Bluzelle deals with consensus differently from blockchains, doing away with any concept of a network-wide universal state. There is no need for a single state for the whole network, so Bluzelle applies the consensus model on a swarming level, ensuring that leaf swarms of nodes storing data shards are each reaching localized consensus, using our customized forms of consensus and proof algorithms .
+A swarm with consensus appears to clients interac_ng with that swarm (or other swarms interac_ng with the swarm) as a single, atomic, indivisible unit that stores a set of data reliably. Any node in that leaf swarm can accurately service requests pertaining to that data.
+24
+
+11.9. Karma
+Every producer on Bluzelle is en_tled to run one or more nodes on the network as farming nodes. Each such producer will use their Ethereum address as the "key" that iden_fies them. This iden_fier is unique to that farmer and is _ed 1:1 with their Ethereum address. The producer also has a "Karma Index", which is a score that dictates how well-behaved the producer is. The karmic index can go up and down depending on the producer's ac_vi_es and decisions, inten_onal or not, autonomous or not, and spans all the nodes the producer operates. If one such node misbehaves, the karmic index typically drops and this applies to all the producer's nodes. Furthermore, the farmer is required to put up a stake (in BNT tokens) that is propor_onal to the number of nodes and inversely propor_onal to the karmic index.
+11.10. Sybil Attacks
+Some blockchain networks, like Bitcoin, allow anyone to add their node to the network. That brings the concern that a malicious organiza_on could poten_ally add so many nodes that they dispropor_onately control the network and leading to hijacking the network. This is referred to as a Sybil a6ack. Bitcoin and Ethereum obviate Sybil a6acks by making them prohibi_vely expensive via proof of work. I
+Bluzelle employs several methods to prevent Sybil a6acks so that when a bad actor is caught, they can be blacklisted, and economically penalized leading to complete removal from the network. These an_-Sybil a6ack methods are:
+· Producers are required to put up a BNT stake to par_cipate in the network. This stake serves as a requirement for par_cipa_on and as a strong economic deterrent from bad behaviour.
+· The Kademlia distributed hash table is used as it relies on message redundancy and the XOR distance func_on. Neighbours are selected and messages are redundantly sent to mul_ple neighbors of the intended node for an_-Sybil verifica_on purposes. Nodes that mislead the swarm loca_on effort will be systema_cally tracked down and caught.
+25
+
+· A request to a swarm for CRUD func_onality is done with redundancy, where mul_ple nodes in the same swarm all perform the request. Given the node->swarm membership rules for Bluzelle, it is sta_s_cally unlikely that mul_ple such nodes chosen to perform a given transac_on are colluding bad actors that deliver bad yet consistent data.
+· Swarm membership is determined by the network and cannot be chosen by nodes. This means that a would-be Sybil a6acker who a6empts to join the network with n nodes or masquerading with the iden_ty of n nodes will not be able to gain a cri_cal mass of memberships into any single swarm.
+· Nodes can be posed a challenge request to par_cipate in a proof of storage test. This test is performed in coopera_on with the consumer on either a random network-ini_ated basis or by the consumer directly and forces the targeted node to prove they have the correct data.
+11.11. Byzantine General's Fault
+One way to protect against Byzan_ne Faults is to have a default understanding of what to do if there is no informa_on. In Bluzelle, if misleading or corrupted or inconsistent informa_on is detected, the default is to do nothing. Thanks to the aforemen_oned redundancy in CRUD requests made to a swarm, inconsistency is caught, whether inten_onal or not. In any case, Bluzelle nodes are instructed to ignore the transac_on and do nothing. Only authen_cated transac_ons with proper creden_als and checksums are accepted and transacted upon. By this way, Bluzelle is Byzan_ne Fault Tolerant by design.
+26
+
+12. THE COMPANY ­ STRUCTURE, TEAM, INVESTORS, ADVISORS
+Bluzelle PlaTorm Pte. Ltd is a Singapore company. Singapore is chosen for its ecosystem of fostering blockchain innova_ons and regula_ons that support the growth of well-managed businesses.
+12.1. The Team
+Bluzelle is a team of 10 and growing with mainly top engineers with backgrounds in computer science, AI, cogni_ve science, blockchain, security, networking and more. Some members are:
+
+Pavel Bains CEO
+
+Neeraj Murarka CTO
+
+Nitin Cunha Sr Developer
+
+Scott Burch Sr Developer
+
+Mehdi Kolahchi Sr Developer
+
+Yingyao Xie Product Assoc.
+
+Pavel Bains, CEO/Co-Founder ­ Pavel has over 15 years experience in opera_onal management, digital technology and finance. An NCAA honor roll student-athlete from UCLA, Pavel also was the co-founder of Storypanda, a digital book plaTorm that published cri_cally acclaimed _tles by DreamWorks, Warner Bros, Peanuts and more. Pavel was in GM and CFO roles for video game studios, including looking ater 7 Disney studios across four con_nents and 350 people and $150M budgets.
+Neeraj Murarka, CTO/Co-Founder ­ Neeraj is an engineer and computer systems architect with over 20 years experience. He has worked for Google, IBM, Hewle6 Packard, Luthansa, Thales Avionics. Projects include: locking down of modified Android OS for retail markets; mul_cast UDP satellite-based systems, design and development of secure and FFA-approved systems for Airbus and Boeing. Neeraj was the fourth employee of acquired blockchain startup, Zero Block.
+
+27
+
+12.2. Early Investors
+Bluzelle raised a round of financing from venture capital firms to kick-start development of the database service, accelerate staffing and provide capital needed for the token sale.
+
+12.3. Advisors
+Bluzelle has put together a specialized unit of advisors to guide the growth of the business. Each person is a technology heavyweight contribu_ng to companies like Facebook, PayPal, LinkedIn, Ethereum and more. These include the following:
+
+Gil Penchina Super-angel known for investing in Ripple, Civic,
+LinkedIn and more.
+
+Brian Fox CTO Orchid, creator
+of BASH, opensource advocate.
+
+Prashant Malik Ex Facebook
+engineer, creator of Cassandra DB
+
+Alex Leverington Core Ethereum Developer, found of Metagrid, Crypto-
+tech expert.
+
+12.4. Corporate Governance , Compliance, Legal
+Bluzelle believes in maintaining high standards for opera_ng a transparent business. We have created a group of top professional firms in legal & accoun_ng to ensure these standards are met.
+OrionW ­ legal counsel for Singapore Bryan Cave ­ legal counsel for Hong Kong and USA
+We have engaged engaged one of the Big 4 professional services firms to assist us on accoun_ng, tax and governance advisory services. 
+28
+
+13. TOKEN SALE
+Bluzelle will be execu_ng a token sale to raise funds for development and commercializa_on of its decentralized database service. The maximum amount we will accept is a value of $19,500,000 USD. The only accepted currency will be ETH. Exact pricing of ETH to BLZ will be determined at a later date prior to the official token sale.
+13.1. TOKEN ALLOCATION
+Token Sale: 33% BLZ will be offered for sale so that consumers and producers can become part of the ecosystem early and have tokens needed to be used for Bluzelle. Retained by Bluzelle: 27% The retained tokens can be used in addi_onal offerings to further development and staff incen_ves. Developer Fund: 10% Used to incen_vize, reward and a6ract outside developers to build projects, integra_ons, partnerships, hackathons and community involvement. Growing the ecosystem is important.
+29
+
+Founding Team: 15% Bluzelle's founders have been working on the business for over three years. Alloca_on of their BLZ tokens will vest over three years. Early Backers, Equity Investors and Advisors: 15% Bluzelle has been fortunate to have early investors and advisors to help with the development of the technology. Part of the equity investments have been converted into tokens.
+13.2. USE OF FUNDS
+Research & Product Development: 55% Use to con_nuously develop the product, grow the team globally. Network Costs: 10% Ini_al capital needed to seed the network with nodes and kick-start the decentralized service. Sales and Marke2ng: 20% Grass-roots marke_ng to start and expand to conferences, sponsorships, adver_sing. Opera2ons: 10% General overhead and administra_ve costs for running the business on a global scale. Legal, Compliance, Accoun2ng: 5% Important to Bluzelle to maintain high standards for its opera_ons and provide transparency.
+30
+
+14. ROADMAP
+We break down the development of Bluzelle into 4 month releases, each named ater a physicist.
+
+LOVELACE - DECEMBER
+Single-swarm NoSQL key-value pair RAFT consensus storage facility, driven by a minimum stake of BLZ ERC-20 tokens on the Ethereum blockchain.
+
+2017
+
+KEPLER ­ AUGUST PaaS integrations, IDE plugins and integrations, blockchain smart contracts, desktop and browser and mobile apps for interactive access, import/export from legacy databases, node scoring and health metrics
+LEIBNIZ ­ APRIL
+Proof of storage Merkel challenges and rewards, proof of stake requirement for farmers, variable CRUD request pricing, edge caching of data close to requests, request parallelism and hotspot support, Spartacus attack tolerance
+TURING ­ DECEMBER
+Column stores, S/Kademlia improvements, Honest Geppetto attack tolerance, 3rd party arbitration against Cheating Owner attacks, reverse http tunnelling, tunnel eclipse attack tolerance, multiparty encryption, complex binary blob storage support
+
+2018 2019
+
+APRIL ­ CURIE
+NoSQL key-value pairs, Bluzelle Harvesting Agent, leaf swarms, consensus, horizontal partitioning, consistent hashing, CRUD API, Bluzelle tokenization, ERC-20 token gateway, versioning and backup/restore, dynasty keys
+DECEMBER ­ EINSTEIN
+NoSQL documents, NoSQL document collections, NoSQL document collection indices, NoSQL document collection partitions, global CRUD operations, batch CRUD operations
+AUGUST ­ ARCHIMEDES Vertical partitioning, 2D partitioning, variablecost data expiries, Sybil attack tolerance, deletion reversibility, proof of redundancy via erasure coding
+
+
+
+31
+
+RISK DISCLOSURES
+Please carefully read and evaluate the risks that Bluzelle PlaTorm describes below.
+The realisa2on of any one or more of the risks described in this White Paper, or other risks whether unforeseen or unforeseeable, could significantly reduce or eliminate the u2lity or value of BLZ and a par2cipant (each, a "Par2cipant") in the proposed sale of BLZ (the "Token Sale") could lose their en2re amount paid for BLZ. Bluzelle Plaporm does not represent that this White Paper discloses all risks and other significant aspects of the Token Sale, including risks which may be personal to proposed Par2cipants and thus unknown to Bluzelle Plaporm.
+Proposed Par2cipants who do not fully understand or are not comfortable with any of the risks described in this White Paper should consult their legal, commercial, financial, tax, or other professional advisers; otherwise, they should not par2cipate in the Token Sale.
+To the maximum extent permiqed by all applicable laws and regula2ons, Bluzelle Plaporm and its affiliates and its and their founders, directors, officers, employees, advisers, agents, and representa2ves (the "Bluzelle Related Par2es") shall not be liable for any direct or indirect loss of revenue, income, profits, business, business opportunity, an2cipated saving, data, reputa2on, or goodwill; or any indirect, special, incidental, reliance, consequen2al, puni2ve, or other losses or damages of any kind, in tort, contract, strict liability, or otherwise, arising out of or in connec2on with any loss or damage of a Par2cipant (or a proposed Par2cipant) rela2ng to the risks associated with the Token Sale or in connec2on with erroneous or insufficient consulta2on with or advice received from any adviser, even if Bluzelle Plaporm and the Bluzelle Related Par2es have been advised of the possibility of such losses or damages.
+References to `Bluzelle PlaTorm' in the risk factors discussed in this sec_on include, where the context permits or requires, any Bluzelle Related Party involved in the opera_on of Bluzelle or the conduct of the Token Sale. References to "discre_on" mean "sole and absolute discre_on", unless otherwise qualified.
+32
+
+Company Risks
+Company Failure. As a consequence of the realisa_on of one or more of the other risks in this White Paper or of risks not described in this White Paper, Bluzelle PlaTorm's business could fail and Bluzelle PlaTorm could be wound up or dissolved. If Bluzelle PlaTorm's business fails and Bluzelle or the sotware plaTorm on which it operates (the "Applica2on") is not transferred to and operated by another company, Bluzelle would terminate and any BLZ would have no u_lity or value. Bluzelle PlaTorm does not commit that it can or will transfer the Applica_on or Bluzelle to another company if its business fails. If Bluzelle PlaTorm does transfer the Applica_on or Bluzelle to another company, Bluzelle PlaTorm does not commit that the other company will operate Bluzelle to a Par_cipant's sa_sfac_on or at all, or will con_nue to accept BLZ for use in Bluzelle.
+Management Failures. Bluzelle PlaTorm's management may fail to manage its personnel, finances, facili_es, informa_on, technology, and other resources to effec_vely develop, operate, maintain, support, improve, market, and sell the Applica_on and Bluzelle, or to manage the growth of Bluzelle or its business, or to adapt the Applica_on or its business to changes in technology or the markets in which it operates, or to iden_fy and effec_vely respond to the risks described in this White Paper or otherwise, the realisa_on of any or all of which could adversely affect Bluzelle.
+No Governance Rights. BLZ confer no governance or similar rights with respect to Bluzelle PlaTorm, the Applica_on, or Bluzelle. Bluzelle PlaTorm will, at its discre_on, make all decisions concerning its business, the Applica_on, and Bluzelle, including decisions to fork or discon_nue Bluzelle; to change any pricing, parameter, or feature of Bluzelle; to subcontract or outsource the development, maintenance, support, and opera_on of the Applica_on; to sell the Applica_on; and to sell, merge, or liquidate Bluzelle PlaTorm or all or a material part of Bluzelle PlaTorm's assets, any of which decisions may not be consistent with a Par_cipant's expecta_ons or interests.
+Business Model Risks. Bluzelle PlaTorm designed Bluzelle (including the Applica_on and BLZ) according to a specific business model. In par_cular, the adop_on and success of Bluzelle depends on several factors, including:
+· Bluzelle PlaTorm's ability to hire top engineers to develop the Applica_on and Bluzelle; · the number of users providing resources to support the func_ons of Bluzelle;
+33
+
+· the availability of BLZ to Bluzelle users ater the Token Sale; and · the number of users perceiving BLZ to be valuable and thus willing to use Bluzelle as
+either providers of resources or consumers of Bluzelle.
+If the business model of Bluzelle is flawed, or if the assump_ons underlying that business model are incorrect, Bluzelle may underperform or fail. Bluzelle PlaTorm may at its discre_on elect to change the business model of Bluzelle in response to compe__on or market requirements, to address perceived flaws, to op_mise the model, or otherwise. Any such changes to the business model of Bluzelle may fail to achieve their purpose and could adversely affect Bluzelle.
+Insufficient Funding. Bluzelle PlaTorm will depend on the proceeds of the Token Sale to fund its opera_ons un_l such _me, if ever, that Bluzelle PlaTorm earns sufficient revenue from Bluzelle or other ac_vi_es. The proceeds of the Token Sale are cryptocurrencies that may increase or decrease in value. Bluzelle PlaTorm may, at its discre_on, engage in hedging or similar ac_vi_es to manage the risk of cryptocurrency fluctua_ons, but those ac_vi_es may not be sufficient, may fail, or may worsen the consequences of those fluctua_ons. In addi_on, the cryptocurrencies held by Bluzelle PlaTorm may not be conver_ble to fiat currencies or other cryptocurrencies at rates Bluzelle PlaTorm considers favourable or at all. The cryptocurrencies held by Bluzelle PlaTorm are also subject to loss or thet despite security precau_ons taken by Bluzelle PlaTorm. If for any reason Bluzelle PlaTorm's funds are not sufficient to sustain its opera_ons, Bluzelle PlaTorm may have to reduce or suspend its opera_ons, which would adversely affect Bluzelle PlaTorm's ability to develop and operate PlaTorm at the intended level or at all.
+Unan2cipated Risks. Bluzelle will be launched and will evolve in technology, business, economic, and legal environments that are uncertain and subject to rapid, unpredictable, and poten_ally contradictory evolu_on. The future risks associated with those environments, their respec_ve evolu_ons, and the interac_ons among them are unknown and unknowable but they could threaten the viability or existence of Bluzelle.
+34
+
+Product Risks
+Delay. Bluzelle PlaTorm may not develop and deploy the Applica_on according to its intended schedule. Delays in deploying the Applica_on may adversely affect the acceptance of Bluzelle in the market and ul_mately the viability of Bluzelle.
+Inability to Use BLZ. Holders of BLZ will not be able to use them with Bluzelle un_l Bluzelle PlaTorm makes it them available ("Launch"). Launch may be delayed, or may not occur at all. Even ater Launch, the availability of certain services will be limited.
+Failure to Develop and Support the Service. As a consequence of the realisa_on of one or more of the other risks in this White Paper or of risks not described in this White Paper, or because of business or technical decisions taken by Bluzelle PlaTorm in good faith, Bluzelle PlaTorm may fail to launch Bluzelle with a full set of intended features and func_ons or at all, may discon_nue certain features and func_ons of Bluzelle, may not improve or add to the features and func_ons of Bluzelle over _me, may not adequately support Bluzelle, and may not fix bugs in Bluzelle in a _mely way or at all. Bluzelle (including BLZ) may therefore not have the u_lity described in this White Paper or expected by a Par_cipant.
+Service Issues. Bluzelle may be degraded, interrupted, or fail because of hardware, sotware, or network defects, security breaches, hacking, viruses or other malicious code, natural disasters, conges_on in underlying networks, and other causes. Bluzelle PlaTorm may be unable to restore Bluzelle to normal opera_on in a _mely way or at all.
+Service Updates. Bluzelle PlaTorm may not update Bluzelle in a _mely way or at all to fix bugs, address incompa_bili_es arising because of changes in underlying technologies and services, respond to user feedback, or react to compe__ve threats. Any such delays or failures could adversely affect Bluzelle.
+Failure to Meet Expecta2ons. The ini_al and future versions of Bluzelle may not meet a Par_cipant's expecta_ons regarding features, func_ons, performance, availability, quality, security, scale, price, or other a6ributes that are important to a Par_cipant.
+35
+
+Reliance on Third Par2es and Third Party Systems. Bluzelle PlaTorm relies on third par_es and third party systems it does not control to operate the Applica_on and Bluzelle and to provide services on which Bluzelle depends. Those third par_es and third party systems may be unable or unwilling to act as Bluzelle PlaTorm needs and expects, may themselves act maliciously, or may be adversely affected by other par_es ac_ng inten_onally, uninten_onally, or maliciously or by other events outside their control. The failure of those third par_es or third party systems to perform according to Bluzelle PlaTorm's needs and expecta_ons could adversely affect Bluzelle.
+Privacy Risks. Bluzelle will rely in part on Ethereum and other public, decentralised plaTorms. Anyone with Internet access can inspect all transac_ons and other informa_on stored in those plaTorms that is not encrypted. A Par_cipant's transac_ons involving BLZ, and other informa_on about a Par_cipant or that belongs to a Par_cipant that may be processed by or stored in those plaTorms in connec_on with a Par_cipant's use of Bluzelle, may be inspected by the public. Certain informa_on may, even if encrypted, be associated with a Par_cipant by combining it with other public or non-public informa_on.
+Technology Risks
+Core Technology Risks. Bluzelle is built with core technologies that are in some cases immature and unproven, including the Ethereum blockchain plaTorm and various open source sotware applica_ons and libraries. If those core technologies do not perform according to Bluzelle PlaTorm's needs or expecta_ons, have bugs or security vulnerabili_es that are not or cannot be fixed, become unstable, degraded, or unavailable, are changed or forked in a way that is incompa_ble with Bluzelle, or are not further developed or supported, Bluzelle PlaTorm may be required to change the specifica_ons of Bluzelle and to reduce or eliminate features and func_ons that are important to Par_cipants, or to discon_nue Bluzelle.
+Integra2on Risks. Bluzelle will be integrated using some essen_al third party services. If the integra_ons with those services fail, or those services are unreliable or do not perform as expected, those features within Bluzelle, or Bluzelle generally, may be adversely affected or delayed.
+36
+
+Smart Contract Risks. Certain key features of Bluzelle will be implemented in smart contracts on the Applica_on and on the Ethereum blockchain plaTorm. The nature of smart contracts makes them difficult to change to fix bugs, improve performance, or add features and func_ons. Bluzelle PlaTorm may therefore not correct defects in Bluzelle or improve Bluzelle to meet market needs or respond to compe__on fast enough or at all, which could adversely affect the u_lity or viability of Bluzelle.
+Hacking. All sotware systems, including the Applica_on and the Ethereum blockchain plaTorm, have security vulnerabili_es. Malicious actors may (a) disrupt, corrupt, or interfere with the Applica_on, Bluzelle, or the Ethereum blockchain plaTorm, (b) defraud Bluzelle PlaTorm or other stakeholders in Bluzelle, including Par_cipants or BLZ holders, and (c) steal BLZ or other valuable data stored in the Applica_on, Bluzelle, or the Ethereum blockchain plaTorm, some of which may belong to or involve Par_cipants or BLZ holders.
+Mining Aqacks. Certain features of Bluzelle depend on the Ethereum blockchain plaTorm. Ethereum is a decentralised service comprising a global peer-to-peer network of many independent node operators. Coordina_on or collusion among node operators could subject Bluzelle and its stakeholders, including Par_cipants or BLZ holders, to a variety of a6acks that could compromise the integrity of Bluzelle, cause loss, thet, or corrup_on of BLZ and other valuable data stored in Bluzelle, including Par_cipants or BLZ holders, or increase the cost of using the plaTorm to levels that make opera_on of Bluzelle uneconomic and unsustainable.
+Security Risks. The security and integrity of essen_al components of Bluzelle depend on cryptography. Known and currently unknown weaknesses in the cryptographic algorithms used in Bluzelle and its underlying core technologies, and advances in techniques or compu_ng power to circumvent those algorithms, may compromise the security and integrity of Bluzelle, cause the loss, thet, or corrup_on of BLZ and other valuable data stored in Bluzelle, including Par_cipants or BLZ holders, and require the suspension or discon_nua_on of Bluzelle. The existence or future development of stronger cryptographic algorithms to replace compromised algorithms, and the feasibility of implemen_ng those stronger algorithms in Bluzelle and its underlying core technologies, is uncertain.
+37
+
+Prohibi2vely High Transac2on Costs. All transac_ons on the Ethereum blockchain plaTorm, including the transfer of BLZ, have a cost in Ether ("Gas"). As at the date of this White Paper, Gas prices for basic transac_ons on the Ethereum blockchain plaTorm are nominal. However, Gas prices may increase and make the trading of BLZ on the Ethereum blockchain plaTorm commercially unfeasible.
+Ethereum May be Superseded. In Bluzelle PlaTorm's view, the Ethereum blockchain plaTorm is the op_mum blockchain plaTorm from which to issue BLZ. However, the Ethereum blockchain plaTorm may be superseded by compe_ng blockchain plaTorms that improve on the Ethereum technology. It is not known whether the Ethereum blockchain plaTorm will remain the predominant plaTorm for token issuances. If Ethereum is superseded, BLZ could be adversely affected as usage and adop_on declines.
+Regulatory Risks
+Regulatory Status. The regulatory status of the Applica_on, Bluzelle, BLZ, and the Token Sale is unclear or unse6led in many jurisdic_ons. Regulators in many jurisdic_ons have announced their inten_on to consider the adop_on of regula_ons to cover cryptographic tokens and the markets for them. It is not known if, when, or to what degree different jurisdic_ons will interpret exis_ng laws and regula_ons or adopt new laws and regula_ons that could adversely affect the Applica_on, Bluzelle, BLZ, and the Token Sale, or whether those laws or regula_ons would be applied retroac_vely. Adverse laws or regula_ons and/or the financial and other costs of regula_on could cause Bluzelle PlaTorm to modify or discon_nue certain features or func_ons of Bluzelle, or cause Bluzelle PlaTorm to discon_nue the Applica_on or Bluzelle in certain jurisdic_ons or en_rely, or make dealing in BLZ regulated or illegal in certain jurisdic_ons.
+Excluded Jurisdic2ons. The Token Sale will only be open to Par_cipants of jurisdic_ons where the Token Sale (or similar cryptographic token offerings) is not prohibited or otherwise restricted. It is a Par_cipant's sole responsibility to determine if they are prohibited or restricted from par_cipa_ng in the Token Sale, or if such par_cipa_on cons_tutes a breach of the laws or regula_ons of their jurisdic_on, whether by virtue of their ci_zenship, residency, or other associa_on with a jurisdic_on which prohibits or otherwise restricts the conduct of the Token
+38
+
+Sale (or similar cryptographic token offerings). Viola_on of those prohibi_ons or restric_ons may result in criminal and/or administra_ve penal_es being imposed on the breaching Par_cipants.
+Compliance Risks. Complying with laws and regula_ons that apply to Bluzelle PlaTorm, the Applica_on and/or Bluzelle may be costly and may divert a significant por_on of Bluzelle PlaTorm's a6en_on and resources. If Bluzelle PlaTorm must have a licence or other government registra_on or approval to operate the Applica_on or Bluzelle in a jurisdic_on, there is no guarantee that Bluzelle PlaTorm will qualify for or be granted the necessary licence, registra_on, or approval. The lack of the necessary licence, registra_on or approval would restrict or prevent Bluzelle PlaTorm from opera_ng Bluzelle in that jurisdic_on. If Bluzelle PlaTorm fails to comply with applicable laws or regula_ons, Bluzelle PlaTorm could be subject to significant legal liability and financial and reputa_onal losses which may adversely affect the Applica_on, Bluzelle, and/or BLZ.
+Tax. The tax status of the Applica_on, Bluzelle, BLZ, and the Token Sale is unclear or unse6led in many jurisdic_ons. Adverse interpreta_on of exis_ng tax laws and regula_ons or adop_on of new adverse tax laws and regula_ons could result in unan_cipated and poten_ally retroac_ve tax liability for Bluzelle PlaTorm and other stakeholders in Bluzelle, including Par_cipants and BLZ holders. Those adverse tax consequences could cause Bluzelle PlaTorm to modify or discon_nue certain features or func_ons of Bluzelle or increase prices for Bluzelle, or cause Bluzelle PlaTorm to make the Applica_on or Bluzelle unavailable in certain jurisdic_ons, or make dealing in BLZ subject to tax in certain jurisdic_ons.
+Market Risks
+Lack of Market Penetra2on. Bluzelle may not a6ract users and/or third par_es providing services to Bluzelle at the intended level or at a level sufficient to become or remain useful or viable. Any such lack of use or interest could nega_vely affect the development of Bluzelle and/or the u_lity or value of Bluzelle and/or BLZ.
+Compe22on. Other organisa_ons may develop (a) services that compete with Bluzelle, and may do so with some or all of the open source sotware underlying Bluzelle or (b) cryptographic tokens that can be used in blockchain plaTorm-based database services similar to Bluzelle. Those
+39
+
+compe_ng services and cryptographic tokens may adversely affect the adop_on and use of Bluzelle and/or the adop_on, u_lity, and/or value of BLZ, and ul_mately the viability and con_nued existence of Bluzelle and/or BLZ. It is unknown whether or to what extent, if any, those compe_ng services and cryptographic tokens may be interoperable with Bluzelle or may accept BLZ.
+Secondary Markets for BLZ. As at the date of this White Paper, there is no public market for BLZ. Virtual currency exchanges and other secondary markets for BLZ may never exist. Even if BLZ are listed or traded on a secondary market, there is no assurance that an ac_ve or liquid trading market for BLZ will develop or, if developed, will be sustained. Unless Bluzelle PlaTorm publicly states otherwise, Bluzelle PlaTorm has no financial or other rela_onship with, and does not endorse, any such exchange or secondary market that elects to transact in BLZ. Exchanges and secondary markets may be new, under-capitalised, illiquid, vola_le, operated by persons with minimal or no relevant experience, and subject to minimal or no regulatory oversight, making use of them suscep_ble to a variety of market, financial, fraud, and other risks that could result in Par_cipants' or BLZ holders' loss of BLZ or other losses.
+Price Vola2lity. The price of BLZ in the Token Sale may not be indica_ve of the price of BLZ on public markets. BLZ have no intrinsic value at the _me they are created. The price of BLZ on public markets may be extremely vola_le, may decline below the price a Par_cipant will pay for BLZ, or may diminish to zero in response to various factors, some of which are outside Bluzelle PlaTorm's control, including, among others, the following:
+(a) the vola_lity of the prices of cryptographic tokens generally and in response to events that have li6le or nothing to do with Bluzelle PlaTorm;
+(b) general economic condi_ons and macroeconomic changes;
+(c) changes and innova_ons in blockchain technology, the industry sectors in which Bluzelle PlaTorm operates, and other technologies and markets;
+40
+
+(d) Bluzelle PlaTorm's announcements pertaining to strategic direc_on, key personnel, financial and opera_onal results, partnerships, significant transac_ons, new products, and other events;
+(e) ac_vi_es and announcements of Bluzelle PlaTorm's compe_tors; and
+(f) third-party reports, recommenda_ons, and statements regarding BLZ, the Applica_on, Bluzelle, or Bluzelle PlaTorm.
+Risk of Dilu2on. Bluzelle PlaTorm will create and distribute BLZ other than via the Token Sale, as described in pages 31 and 32 of this White Paper. In many cases those other BLZ will be distributed for less considera_on per BLZ than a Par_cipant will pay for BLZ in the Token Sale. The distribu_on of those other BLZ will increase the overall supply of BLZ in the market, and may affect as well as result in downward pressure on the market price of BLZ. In addi_on, Bluzelle PlaTorm reserves the right to create and distribute new BLZ in one or more other token sales.
+Market Percep2on. The market price of BLZ could be adversely affected by nega_ve publicity, social media commentary, rumours, and other informa_on, whether or not true, about Bluzelle PlaTorm, the Applica_on, Bluzelle, BLZ, the technology on which Bluzelle is based (including Ethereum), and/or the legal or regulatory environment in which the Applica_on or Bluzelle operates.
+General Economic and Market Risks. Adverse changes in general global and regional economic and market condi_ons may adversely affect Bluzelle PlaTorm, the suppliers and third par_es on which Bluzelle PlaTorm depends, and users and prospec_ve users of Bluzelle, all of which may adversely affect the availability, reliability, performance, adop_on, and the success of Bluzelle.
+Participant Risks
+Private Key Risks. Each Par_cipant, not Bluzelle PlaTorm, is responsible for securing the private key that controls their BLZ. If a Par_cipant does not know their private key, they will permanently lose their BLZ. If their private key is lost or stolen, they could permanently lose their BLZ. If they store their private key with a third party wallet or vault service, they will permanently lose their
+41
+
+BLZ if they forget and are unable to recover their creden_als to access the third party service, or if the third party service malfunc_ons, is corrupted or compromised, makes their creden_als or private key available to others, ceases opera_ons, is hacked, or otherwise cannot make their private key available to them or loses control of their private key.
+Token Sale Process Risks. The process for par_cipa_ng in the Token Sale will be described in the terms and condi_ons applicable to the Token Sale ("Token Sale Terms") which Bluzelle PlaTorm will make available separately from this White Paper. If a Par_cipant does not carefully follow that process, they may not be able to par_cipate in the Token Sale or purchase BLZ, they may permanently lose the funds which they intend to submit as payment for BLZ, or they may permanently lose BLZ which they have purchased. The digital wallet to which payment for BLZ will be made ("Payment Address"), like all sotware systems, has security vulnerabili_es. Malicious actors may a6empt to steal funds from the Payment Address, including by hacking it. Funds in the Payment Address are also subject to loss or thet by other means. Each Par_cipant accepts all risk of loss or thet of their payments from the Payment Address.
+Incompa2ble Wallet. The technical requirements for receiving BLZ will be described in the Token Sale Terms. If a Par_cipant uses a wallet or other technology that does not conform to those technical requirements, or if they use a third party service whose wallet or other technology does not conform to those technical requirements, their BLZ may be permanently lost.
+Uninsured Losses. BLZ are not insured by Bluzelle PlaTorm or by any public agency, and there is no ins_tu_on supervising and controlling the economy for cryptographic tokens. If a Par_cipant's or BLZ holder's BLZ are lost or stolen, they will have no recourse unless they insure them at their expense. Bluzelle PlaTorm cannot issue new or subs_tute BLZ to replace lost or stolen BLZ.
+42
+
+

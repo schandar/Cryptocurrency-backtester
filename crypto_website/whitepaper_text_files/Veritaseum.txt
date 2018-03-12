@@ -1,0 +1,153 @@
+The Trusted Platform to Launch and Participate in ICOs
+White Paper
+| Copyright © 2017 | ICOToday | All Rights Reserved | | Subject to Change | Draft: Oct 6, 2017 |
+
+TABLE OF CONTENTS Abstract ....................................................................................................... 3 1. Industry Overview.................................................................................. 4
+1.1 Current Process of Launching an ICO........................................................4 1.2 Problems Surrounding ICOs........................................................................5 1.3 Conclusion.....................................................................................................5
+2. The ICOToday Solution ......................................................................... 6
+2.1 Product Description .....................................................................................7
+2.1.1 For Companies ................................................................................................................ 7 2.1.2 For Investors ................................................................................................................... 8 2.1.3 Investing Pool Smart Contract: .................................................................................... 9
+3. ICOToken (ICT) ....................................................................................... 9
+3.1 Main Purpose ................................................................................................9
+4. For Analysts.......................................................................................... 10
+4.1 Analyst Selection........................................................................................10 4.2 Analyst Process ......................................................................................... 11
+5. Community ............................................................................................12
+5.1 Community Learning ................................................................................. 12
+6. Business Model......................................................................................12 7. Token Allocation ...................................................................................12
+7.1 Referral and Bounty Program .................................................................. 14 7.2 Costs and Usage of Funds........................................................................14
+8. ICOToday Timeline ...............................................................................15 Sources ....................................................................................................... 16
+2
+
+Abstract
+Initial Coin Offerings (ICOs) are a revolutionary new way for blockchainbased companies to crowdfund. Keeping track of these ICOs becomes more difficult as the number and frequency of ICOs increase. As a young market with minimal regulatory control, they provide a more lucrative alternative for investors over traditional markets.
+The ICO market is primed to attract new investors into the blockchain industry. However, it is scattered and the learning curve for new investors is steep. Moreover, this market has recently been highlighted in the media for the scams and hacks that have cost investors millions of dollars. No standard or trusted platform exists for investing in and launching ICOs.
+ICOToday is the secure, reliable platform for launching and directly investing in ICOs.
+Our aim is to provide a credible and secure platform that ICO investors can use, not only to view upcoming ICOs, but to also safely invest without risk of fraudulent activity. Similarly, we will also aid companies in successfully launching their ICOs through our focus on security and reliability. We will create a decentralized, community driven, secure platform that will enable companies and potential investors to connect, communicate and partner through a trusted, secure medium from launch to token sale.
+3
+
+1. Industry Overview
+Over the last year, Initial Coin Offerings (ICOs) have become an increasingly popular method for companies to crowdfund their projects. In the three-month period between May 2017 and July 2017, Blockchain companies raised an estimated $1.2 Billion dollars through ICO crowdfunding. For this same period, companies only raised $700 Million through traditional Angel and early stage VC funding. A fundamental shift toward ICO funding strategies is occurring with early stage companies and it is quickly overtaking these traditional methods.
+1.1 Current Process of Launching an ICO
+Community protocols have shaped the process by which companies can successfully launch their product using ICO-funding tactics. To launch a successful ICO, companies must first prove the viability of their product in their respective markets. This process requires that companies provide a white paper explaining in exhaustive detail what problem their product solves, why their product is unique, and how they are going to execute on their vision. These companies often have teams that have proven that they are able to execute on their vision. Apart from the team, the community has come to expect that the ICO teams have experienced advisors that will assist in navigating not only the market, but the technology.
+To prove their dedication to the project, companies may build prototypes of their products, should a prototype be possible without funding, to demo to potential customers and invest. This effectively communicates the efficacy of the product and puts hesitant customers and investors at ease.
+Once a team is ready to launch their ICO, they publish their website and contact ICO aggregation and news websites to generate public awareness and draw in potential investors. The ICO teams usually allow users to sign up for a Whitelist that will ensure that those signed up will get priority access to purchase tokens once the token sale begins. Some whitelists are so oversubscribed that they create waitlists for the whitelists. These waitlists can cause an overload of questions and rearranging of contribution addresses. At the same time, these companies create Slacks and Telegrams where they
+4
+
+communicate with those interested in their ICO. Medium blogs often accompany those groups.
+As the token sale date approaches, companies update interested investors through emails, chat groups and blogs. On the day of the token sale, the companies put their Ethereum address on their websites and alert investors that the token sale has begun. Investors then rush to send their tokens to the specified address. Once the token sale is complete and companies have sold all their allocated tokens, the companies then register their token in an exchange or multiple exchanges and then alert their investors, who are then able to redeem their tokens if they choose.
+This process is broken and provides too many opportunities for hackers to penetrate and siphon investor funding.
+1.2 Problems Surrounding ICOs
+The ICO industry is currently very chaotic. During the 2017 summer, over 5 high profile ICOs were hacked. CoinDash, a recent ICO that claims to be creating an "operating system for crypto assets," was hacked. The perpetrators gained access to the CoinDash website and inserted a fraudulent Ethereum address. Investors sent over $7 Million dollars to the address before CoinDash halted their ICO. Similarly, Veritaseum one of the largest Cryptocurrencies, was the victim of a sophisticated hack that saw the perpetrators steal over $8.4 Million dollars. Enigma, a more recent ICO, was the victim of a similar attack that saw the hackers leave with over $470,000. Aventus, another recent ICO, saw its Slack and email hacked. These attacks are all very similar. The techniques the hackers used are easily thwarted through focus on security from a platform level, something Slack and Telegram were not designed for.
+1.3 Conclusion
+These hacks have resulted distrust in ICOs and turmoil and uncertainty in ICO markets. They undermine the revolutionary new way of decentralized crowdfunding that ICOs have championed. If left unchecked, these hacks will become more popular as hackers create more sophisticated ways of dishonestly siphoning funds. Better, safer solutions to launching ICOs must exist before ICO-
+5
+
+funding strategies can reach mainstream investors, users, and community members. Until then, ICOs will never cross the chasm.
+2. The ICOToday Solution
+ICOToday provides a community platform where companies can easily launch their ICOs and securely communicate critical information to their investors. Similarly, ICOToday provides a secure, reliable platform that enables investors to easily, and securely invest in ICOs without fear of losing their funds by sending their funds to the wrong address. The ICOToday platform is built to play an integral role in the ICO ecosystem.
+6
+
+2.1 Product Description
+The ICOToday platform consists of a web client, a smart contract, an Android app and an iOS app.
+2.1.1 For Companies
+To create a company profile, an agent of the company will need to go to our platform and sign up as a company. Once they complete and send in the form, they will need to verify not only their email, but also their phone number. Before the verification, they will have an unverified profile with limitations to what they can do. Once they verify their profile, the company agent will then be able to submit a new ICO application and add other team members to the company. Our reason for requiring companies to create profiles is simple - we want to create transparency between the companies and investors.
+Once a company submits an ICO application, our team of analysts chosen by the community will thoroughly analyze the application and rate it based on the strength of the team, advisors, white paper, and prototype or demo. Only applications with a greater than 50% rating will be approved to prevent unqualified ICOs from scamming investors. The analysis for each ICO will be provided along with the rating on our website. Approved ICOs will then be listed on our platform.
+Once approved, the company will then be able to interact directly with investors. The company will be able to direct users to `subscribe' to their ICO. To communicate with investors, those subscribed and otherwise, the company will be able to post updates to their ICO. To prevent the type of email scams that have plagued the ICO market recently, we have implemented a novel solution. For a company to post an update to their ICO, they will be required to confirm their identity through Two Factor Authentication. Once confirmed, they will then be able to post the update. Once posted, investors that are subscribed to the ICO will be notified via email that an update was posted. They will then need to proceed to our platform to view the update. Since ICOToday will never send any company updates through email, investors will be able to quickly know when an email is from a scammer. Furthermore, to limit the chance that a hacker is able to pass as a company agent on our platform, any updates from company agents will be marked as `team member.' This will give investors a
+7
+
+quick way to identify official company updates. If investors have any questions, they will also be able to comment and ask the company questions directly.
+2.1.2 For Investors
+Investors want a secure platform where they don't need to constantly worry and think about the credibility of every email and company communication. At the moment, it is extremely inefficient and troublesome for an investor to invest in an ICO.
+On ICOToday, investors need not sign up to view the listed ICOs. However, to invest in an ICO, they need to have a `verified' profile with Two Factor Authentication enabled. Investors will be able to `subscribe' to certain ICOs that interest them and receive email notifications about certain major milestones or when the companies post updates. However, no critical information will ever be communicated through email.
+Through our smart contract, an investor will have the ability to specify which upcoming ICOs they would like to invest in. This feature will initially be limited to Ethereum based ICOs. To activate this feature, an investor will need to add Ether to their ICOToday Ethereum wallet.
+Once the date and time that the company specified for the token sale arrives, ICOToday will automatically invest in the specified ICOs. For ICOToday to process the transaction, the user will need to have ICOToken in their wallet. The investor will specify the maximum amount of ICOToken they are willing to spend in order to participate in a particular ICO. This is similar to the gas limits for Ethereum. For ICOs with very high interest, some investors with lower ICOToken limits may not be able to invest in the token sale.
+New investors are often intimidated by the many steps needed to purchase Ether and set up and Ethereum Wallet in order to be able to invest in ICOs. On ICOToday however, investors will be able to directly use USD to invest in ICOs. We will use a fiat-to-crypto service provider to offer this functionality. After the ICO is complete, the investor will be able to redeem their tokens normally like any other investor. This feature will attract many new investors who were otherwise intimidated by this new market.
+8
+
+2.1.3 Investing Pool Smart Contract:
+Currently, other ICO smart contracts place a bounty on the execution call of the smart contract. The smart contract incentivizes investors to be the first to call the smart contract by rewarding them with a pre-determined bounty reward in Ether. Although this strategy makes it likely for the smart contract to make it into the ICO, it causes many people to lose their ether as they fail to win the bounty.
+ICOToday improves the current ICO investing smart contracts by introducing an Ether pool for gas price. A standard gas price by every potential investor will be required to participate in the pool. All of this gas will be used to ensure that the smart contract makes it into the ICO. A pre-scheduled transaction will be set to deliver the transaction with all of the pool's Ether powered by all of the pool's gas to the ICO. Therefore, ensuring that all of the Ether contributed by the investors is used towards executing the ICO buy.
+Once the token sale is complete, the companies will inform their investors on how to proceed to redeem their tokens.
+Investors will also have a `Token Dashboard' with all the ICOs that they have invested in. It will contain all the important information such as when the token will go live in an exchange and the current price.
+3. ICOToken (ICT)
+The ICOToken (ICT) is essential for aligning the economic incentives of participants and ensuring that minimal fraud occurs in the system.
+3.1 Main Purpose
+· Submit an ICO Application: To prevent fraudulent applications, there will be a fee to process the application that will be 1% of the minimum market cap the company has specified for their ICO in ICT. This fee will be distributed to the analysts that analyze and rate the ICO. If the Company receives a rating
+9
+
+of less than 50%, there will be no refund therefore, incentivizing scammers not to submit an application.
+· Submit an Analyst Application: A critical component of ICOToday's platform is having only the most qualified and dedicated analysts vetting ICOs. In order to increase the barrier to entry for analysts, aspiring analysts must pay an ICT fee equivalent to 10 ETH. This price is set to discourage inexperienced investors from applying while encouraging accepted analysts to dedicate ample time to voting on ICO applications to recoup losses.
+· Automatically Invest in an ICO: Popular or highly-promising ICOs may fill their maximum funding target within minutes. To ensure fairness between investors taking part in a large automatic investment pool, investors have the option to specify an ICT limit, similar to Ethereum's Gas limit, in order to secure a spot in a crowd-sale. Investors paying higher ICT limits are prioritized first.
+4. For Analysts
+ICOToday will depend on analysts selected by the community to rate and analyze ICO applications. Creating a completely decentralized system that selects and manages analysts is critical to the success of the platform.
+4.1 Analyst Selection
+Selecting competent, proven analysts will be a necessary step to creating a great platform. Analysts will be community investors with experience and deep knowledge. Any community member interested in being an analyst will be required to apply with a resume, portfolio and a written argument. The analyst application will cost the ICOToken equivalent of 10 Ether to prevent unqualified applicants from applying. Investors with verified ICOToday accounts will then be able to vote on the applicant's competency. If an applicant receives a 75% vote of approval, they will be authorized to become an analyst. the ICOToken equivalent of 5 Ether would then be given back to the applicant and the other 5 Ether distributed to all voters that voted for approval. However, if an applicant does not get enough votes to reach the 75% threshold, then all the 10 Ether
+10
+
+would be distributed to all members that voted for dismissal. This will limit the number of unqualified members from applying.
+4.2 Analyst Process
+On submission of a new ICO application, the community analysts will be notified. They will then be required to provide a thorough analysis and rating of the ICO based on the market, strength of the team, advisors, white paper, and prototype or demo. Only applications with a greater than 50% rating will be approved to prevent unqualified ICOs from scamming investors. The analysis for each ICO will be provided along with the rating on our website. Approved ICOs will then be listed on our platform. Despite the rating, the ICO application fee will then be split between the analysts that voted for either side. If the average rating is greater than 50%, then the fee will be split amongst those analysts that gave it a greater than 50% rating and vice versa. Analysts will receive numerical ratings from 1 to 5 according to the post-ICO performance of ICOs on which each analyst's votes. To incentivize honest voting practices, analysts may be stripped of their title and banned from applying to the analyst program again under two conditions. Should an analyst rate an ICO two standard deviations outside the norm with respect to other analysts on more than three occasions or should an analyst fails to maintain a rating of 2.5 or higher, the analyst will be banned.
+Analysts would be rewarded by taking a 2% stake of the pool's total profit from investors who choose to keep tokens in a ICOToday wallet. The time-frame of determining how much profit the token made by price appreciation would be from the when the tokens are distributed to when the the next high-profit potential ICO dates. Investors may choose to reinvest the profit of a previous coin by selling the tokens on an exchange and investing in a future ICO. There is no predetermined post-ICO date to measure token profitability because token prices are so volatile from day to day. A post-ICO profit average over time could be one good ICO profit metric.
+11
+
+5. Community
+Success of the ICOToday platform will depend on how strong of a community we are able to build.
+5.1 Community Learning
+Enabling investors to learn from each other is important. Investors will be able to follow other investors and analysts to receive updates based on what those they're following are investing in and subscribed to (analysts and ICOs they are subscribed to). Investors will even be able to copy an analyst's trades with the click of a button.
+6. Business Model
+For ICOToday to be able to maintain and enhance the platform, there must be an economic incentive for the company to do so for the long term. Therefore, to ensure the longevity of the platform, ICOToday will take a small percentage for premium features such as automatic trading and the analyst's premium profiles. Furthermore, ICOToday, will also take a small percentage of the ICO Companies' application fee. These fees will be used to continually pay employees and invest in future features to enhance the security and efficiency of the ICOToday platform.
+7. Token Allocation
+The ICOToday token sale will issue 20 million ICOTokens. 56% of the tokens will be offered during the crowd-sale. 20% will be retained for community incentivization through referral and bounty programs. Lastly, 30% will be retained by ICOToday for company usage. The token sale will aim to raise a target maximum of $17,300,000 and a minimum of $12,000,000.
+12
+
+ICOToday 30%
+Bounty and Referrals
+20%
+
+Crowdsale 50%
+
+Crowdsale: 50% Bounties: 20% ICOToday: 30%
+Market Cap: $17,300,000 Minimum: $12,000,000
+
+The crowd-sale will be broken into four tiers: Presale Tier 1 (8% of crowd-sale) will offer a 60% discount, Presale Tier 2 (14% of crowdsale) will offer a 40% discount, and Presale Tier 3 (28% of crowd-sale) will offer a 20% discount. At no discount, the final crowd-sale will make up 50% of the public token offering.
+
+60% 50% 40% 30% 20% 10%
+0%
+
+Crowd-sale Distribution
+
+8% Presale T1
+
+14% Presale T2
+
+28% Presale T3
+
+50% Crowdsale
+
+13
+
+7.1 Referral and Bounty Program
+Similar to other financial startups such as Robinhood, ICOToday will incentivize users to invite their friends to the platform by rewarding the referred user and referee with ICOTokens that can be used towards investing in upcoming ICOs. Furthermore, we will offer users ICOToken to evangelize ICOToday on social media. This will create a viral growth mechanism for the ICOToday platform.
+
+7.2 Costs and Usage of Funds
+
+Legal & Admin Marketing and 5%
+Outreach 15%
+
+Operations 10%
+Blockchain Research 10%
+
+Product Development 60%
+
+The ICOToday ICO will serve to fund the costs associated with growing the ICOToday platform. Revenues from ICT tokens will be used to ensure this continual growth as well as the enhancements to existing features and addition of new features. The costs associated with this growth are broken down into the following categories: 60% for product development, 10% for operations, 10% for marketing purposes, 5% for legal and administrative costs.
+
+14
+
+8. ICOToday Timeline
+15
+
+Sources
+[1] Buntinx, JP. "Aventus ICO Investors Get Scammed Through Compromised Slack and Spoofed Emails." NEWSBTC, 3 Sept. 2017, www.newsbtc.com/2017/09/03/aventus-ico-investors-get-scammedcompromised-slack-spoofed-emails/. [2] Kumar, Mohit. "Warning: Enigma Hacked; Over $470,000 in Ethereum Stolen So Far." The Hacker News, 21 Aug. 2017, thehackernews.com/2017/08/enigma-cryptocurrency-hack.html. [3] Kharpal, Arjun. "Initial Coin Offerings Have Raised $1.2 Billion This Year and Now Surpass Early Stage VC Funding." CNBC, CNBC, 9 Aug. 2017, www.cnbc.com/2017/08/09/initial-coin-offerings-surpass-early-stageventure-capital-funding.html. [4] Zhao, Wolfie. "$7 Million Lost in CoinDash ICO Hack." CoinDesk, 20 July 2017, www.coindesk.com/7-million-ico-hack-results-coindash-refund-offer/.
+16
+
+

@@ -1,0 +1,223 @@
+BLOCKCHAIN-BACKED LOANSTM
+
+Blockchain-Backed LoansTM
+Abstract 08/09/2017
+
+Abstract
+SALT is a membership based lending and borrowing network that allows users to leverage their blockchain assets to secure cash loans. Our Secured Automated Lending Technology is a protocol and asset agnostic architecture designed to adapt to the constantly growing class of blockchain assets. The system is designed such that, if you have an asset you want to hold on to, you can borrow the asset you want to spend, regardless of credit history or geographic constraints. The SALT Platform is automated, efficient, and cryptographically secure. It offers a compelling solution to the problem many consumers face when they need or want cash to make a purchase, but do not wish to liquidate their assets. Instead of selling, SALT enables the members of the SALT Lending Platform (Members) to leverage the value of certain digital assets, thereby giving them access to cash, offsetting tax events, avoiding exchange fees and maintaining their long position in the asset they hold. SALT is a lending platform specifically designed for blockchain assets; operating as a second layer protocol which sits atop any public or permissioned blockchain, allowing the underlying asset to be used as collateral for access to credit.
+SALT also offers lenders a powerful, globally available solution to access a rapidly expanding and immediately addressable borrower base, while providing new tools for managing lender risk. Unlike traditional forms of collateral, such as real estate and automobiles, blockchain assets are divisible, fungible, and in many cases instantly transferrable. These potential advantages can be fully realized with SALT's volatility risk mitigating technology.
+1. Our Vision
+People are happiest when they have access to the things they need or want. This is called purchasing power and it's what credit provides. Over the years, the lending landscape has gone through several periods of change, and blockchain technology is driving the next evolution. Income-based lending is borrowing from the future to spend money today.
+
+This exists in contrast to asset-based lending, which is a form of monetizing assets already owned. At SALT Lending, we see a future where people worry less about their credit score and spend more time recording and monetizing the assets they already have. We seek to enable a new way of monetizing an ever-expanding universe of blockchain assets.
+At SALT, we believe that in the not too distant future, ownership of all assets will be recorded and transferred on various blockchains. The increasing recognition of personal assets, at low cost and in a secure and immutable way, will offer consumers greater financial freedom. The SALT Lending Platform is a system that seeks to give value to previously latent capital, unlocking the wealth within physical and social assets, providing a new source of money creation.
+2. Background
+Created in the wake of the global financial crisis, Bitcoin, and its underlying blockchain technology, sparked a wave of innovation that has changed the way people think about transferring and storing value. The distributed ledger technology that underpins Bitcoin, and other digital assets, decentralizes the tasks of tracking and validating financial transactions. This technological breakthrough streamlines settlement systems that had previously relied on fallible third-party intermediaries. The intrinsic benefit of this new technology has led to explosive growth in blockchain-based assets, which exist within a highly secure digital infrastructure. Reliance on intermediaries that introduce counterparty and settlement risk, in the context of blockchain assets, has been replaced by trustless, open-value networks which operate without the constraints of geographical borders or market hours.
+Holders of digital assets have limited liquidity options in today's cash based digital economy. Bitcoin was the first peer-to-peer electronic cash system enabling trustless transfer of value and we are witnessing the emergence of a new asset class based on value networks. Some of these blockchain assets
+
+are natively digital, others are digitized forms of traditional assets which, like Bitcoin, face critical liquidity challenges.
+Resolving liquidity challenges is important because spending drives growth in economies and is based on the summation of money and credit available. Bitcoin and its associated blockchain technology created an efficient, trustless cash network free from expropriation through unknown inflation, but Bitcoin's inventor Satoshi Nakamoto neglected to address credit. Credit links savers and borrowers and is as important as cash markets to an economy's financial development, because it represents spending in the economy on an order of magnitude greater than cash based transactions. Distributed ledger technology allows for transaction and settlement without counterparty risk. However, the purchasing power held within this new blockchain technology need not be limited to assets held. The access to credit provided by the SALT Lending Platform is intended to let the world of blockchains grow beyond the economic limitations of simply buying and liquidating assets. Credit is not only an important economic factor, it is a vital component of personal financial freedom and, along with asset accumulation, gives individuals greater purchasing power. Crypto-credit products, like those accessible through the SALT Lending Platform, offer a revolution in personal finance by granting control over the medium of exchange to owners of blockchain asset based wealth who wish to preserve their assets, rather than spend them.
+Traditional financial institutions often face significant challenges adapting to changing landscapes. This is especially true of the assetbacked credit market, where there is still no product offering an adequate solution for monetizing the value of blockchain assets without forcing liquidation. Technological, custodial and regulatory barriers have prevented existing financial service companies from overcoming the risk needed to operate in a system without centralized oversight. This has left blockchain asset holders with limited borrowing options in today's digital economy.
+
+SALT's Secured Automated Lending Technology creates a solution that removes many of the barriers that have kept traditional financial institutions, and their capital, from serving the rapidly growing base of individuals and businesses holding assets on blockchains. The SALT Lending Platform provides the tools to mitigate the risk of asset price volatility and borrower default, giving investors the ability to safely lend against blockchain assets.
+A blockchain asset is a natively digital asset like Bitcoin or a digitized traditional asset like digital gold, a stock, or a title; where the record of ownership is recorded within a public or permissioned distributed ledger network. All blockchain assets have the potential to be used as collateral for Blockchain-Backed Loans‘, subject to lender determined collateral suitability.
+The SALT Lending Platform is intended to facilitate the creation of lending agreements, secure and monitor the value of the blockchain assets acting as collateral, and automatically enforce the terms of each smart contract credit agreement. This low-cost, efficient technology gives investors and institutions a way to lend against a new asset class, while addressing the needs of a massively underserved borrower base. It is also designed to provide a new way for individuals to access the value of their blockchain assets that does not involve a liquidation of their asset. Deficiencies inherent in traditional forms of collateral can increase costs to borrowers, decrease liquidity, and necessitate the need for income-based credit evaluation. SALT's technology was built to address these shortcomings, while emphasizing the aspects of blockchain assets that make them a functional form of collateral divisibility, fungibility, and transferability. With SALT, blockchain assets are transformed into collateral that can be incrementally liquidated in a calibration process intended to ensure overcollateralization in a fast, trustless, and secure process. Blockchain-Backed LoansTM offer a new mechanism through which lenders can indirectly gain exposure to digital assets in a regulated environment with sophisticated tools for managing the risks associated with lending.
+
+3. About SALT
+The SALT Lending Platform is designed to enable its Members to leverage their blockchain assets to secure cash loans, making it easy to get money to spend without having to sell their blockchain assets.
+What is a Blockchain-Backed LoanTM?
+A Blockchain-Backed LoanTM is money borrowed for any kind of personal or business use, such as making a big purchase, paying off credit card debt, investing in home improvements, taking a vacation, or paying for business expenses. The loan is collateralized by a blockchain asset, such as Bitcoin.
+SALT wants to make things simple for its Members. There are no origination fees, closing costs, or prepayment penalties on the fixed rate term loans arranged through the SALT platform. Members may elect at any time to pay off their loans early at no additional cost to them. This is in strong contrast to terms often offered by conventional lenders. Typically, conventional loans are accompanied by a myriad of itemized fees such as upfront origination fees, which can exceed 5% of the loan balance, and monthly servicing fees that are paid by the borrower on top of the monthly payments to the lender. SALT has opted for a simple model where fees charged to borrowers are rolled into an annual Membership to promote transparency and fairness.
+3.1 Secured Automated Lending Technology
+SALT Lending has developed protocol agnostic technology to automatically manage blockchainbacked credit agreements between borrowers and
+
+lenders. The SALT smart contract credit agreement has several key functions:
+ Secure Collateral Storage. The blockchain assets underlying each loan are stored in a fully audited, ultra-secure multi-signature architecture throughout the life of the loan.
+Key Features Include:  scalable management of collateral  mitigated counterparty risk  streamlined arbitration  non-custodial escrow; and  automated loan servicing
+ Automatic Collateral Management. SALT Lending's read-write oracle smart contract is specifically designed for blockchain asset collateral management. The SALT oracle smart contract amalgamates real-time global market price metrics from multiple data channels to assess the mark-to-market valuation of the collateral securing the credit agreement, while simultaneously tracking the borrower's loan balance. If the value of the collateral depreciates below a dynamically determined threshold, a maintenance call notice is issued to the borrower. In the case of a maintenance call, the borrower can either add more collateral, make an extra payment reducing the loan balance, or do nothing and the SALT oracle smart contract will automatically initiate the liquidation of a portion of the collateral in order to recalibrate the overcollateralization of the loan. Liquidation occurs through an automated trading engine, which utilizes proprietary investment logic to optimize trade execution
+
+Terms and conditions apply. Subject to suitability, KYC & AML screening.
+
+based on a live assessment of available liquidity, order book depth, and price velocity across multiple exchanges via distributed market orders for each currency pair.
+ Credit Agreement Terms Enforcement. The SALT smart credit agreement performs several loan servicing functions autonomously. It monitors the origination of the loan, directing cash from the lender's bank account to the borrower's bank account, and it tracks monthly payments from the borrower to the lender. If a borrower misses a payment, the technology automatically liquidates a portion of the collateral and gives sale proceeds to the lender as payment on the borrower's behalf. Once the borrower repays the loan in full, the remaining collateral is returned to the borrower.
+If the value of a borrower's blockchain asset increases, then depending on the terms of the loan, the borrower may have the option to (1) add the increased value to the principal of the loan for an additional extension of credit from the lender or (2) withdraw excess collateral. The options available to the borrower depend on the loan terms agreed to at the time of loan origination. There are no prepayment penalties associated with early retirement of debt. Borrowers who are unable to increase the available principal balance of the loan have the ability to repay the loan in full and reapply for a new product, subject to Lender specific borrower eligibility and refinance restrictions. Any appreciation in the blockchain asset collateral is retained by the borrower following the full repayment of all outstanding loan principal, interest and fees.
+
+SALT's smart credit agreements act as a bridge between two historically divided systems: the world of blockchain assets and the world of traditional financial infrastructure. The SALT Lending Platform is structured to provide financial institutions and lenders with the ability to capitalize on this rapidly growing asset class. SALT's technology is designed to systematically quantify and mitigate lending risk, while simultaneously giving borrowers an alternative means of accessing the value of their assets.
+
+Example of How a SALT Lending Loan Works *
+
+Overcollateralized Loans
+Origination: As an example, a one year $100,000 loan with a 10.00% annual percentage rate (APR) has twelve scheduled monthly payments of $8,791.59 representing repayment of principal and interest on the loan. At origination, the $100,000 loan balance is secured with $125,000 of bitcoin, which is posted to a multi-signature wallet as collateral. The borrower and lender each retain a private key to the wallet, along with a third-party custodian and our SALT collateral management oracle. In this example, the collateral balance equates to 50 bitcoin valued at $2,500.00 per bitcoin. As a result, the loan has an origination loan-to-value ratio of 80.0%. Stated differently, the loan is overcollateralized by 25%.
+Payment: The loan balance is reduced to $92,041.74 following the borrower's first $8,791.59 monthly payment, which represents $833.33 of interest and $7,958.26 of principal. This payment reduces the loan-to-value ratio to 73.6%, creating an improved risk profile for the lender, assuming a static collateral valuation.
+Depreciation: Next in this example, the market value of bitcoin depreciates to $2,000.00, causing the approach of a 1:1 ratio between the $92,041.74 loan balance and the new valuation of the 50 bitcoins posted as collateral. The loan-to-value ratio has now
+
+risen to 92%. As a result, the SALT oracle smart contract issues a collateral maintenance notice to the borrower, instructing them to either deposit an additional 7.53 bitcoin to the collateral wallet or make a loan prepayment of $12,041.74. Either option would result in the loan returning to an 80% loan-tovalue ratio. The SALT oracle takes reasonable measures to notify the borrower of the notice, via email and SMS communications which include an estimated time allotment to meet the maintenance call. The actual time period allotted to a borrower to meet a call is subject to the velocity of the price decline, and there is no guarantee to the accuracy of the time estimate.
+Default: If the borrower is unable to act, or chooses not to meet the maintenance notice, then the SALT oracle initiates a partial liquidation transaction along with the lender and custodian, resulting in the sale of the amount of collateral needed to return the loan-tovalue ratio to 80%. In this hypothetical example, a sale order of 30.1 bitcoin would be issued, generating the $60,200.00 needed to reduce the loan balance. After the sale, the remaining loan balance of $31,841.74 would be secured by 19.9 bitcoin at $2,000.00 per, totaling to a dollar value of $39,800.00 and resulting in the loan returning to an 80% loan-to-value ratio. The incremental liquidation
+
+*Actual terms, rates, loan-to-value thresholds and available credit are subject to market conditions and suitability, along with KYC & AML screening.
+
+process would next repeat if bitcoin continued to depreciate to a $1,739.25 price level.
+3.2 SALT's Network of Lenders
+Traditional financial institutions have historically avoided the world of blockchain assets because of the challenges faced in adapting to this relatively new technology and asset class. The SALT Lending Platform provides these institutions with a means to loan national currencies to holders of blockchain assets without having to change their internal business models or add to their operational costs. While the barriers to adoption have thus far kept these institutions on the sidelines, the interest and demand for access to this disruptive technology has been steadily growing. SALT meets this growing demand by providing the processes, compliance, security and technology needed to lend against blockchain assets.
+SALT's extensive network of lenders is designed to give Members access to capital-on-demand. Qualified Members may select the size, type, and term length of the loan they wish to obtain from the available options listed. Loan applications are then automatically matched with qualified lender capital. Lenders benefit from loan interest in an overcollateralized fixed income vehicle that is automatically managed by SALT's technology and denominated in a national currency of their choice. SALT is built to support the lending of any type of currency with sufficient demand, inclusive of cryptocurrencies. A more complex credit agreement or a unique collateral type will require more SALT from the Lender to account for the computational and development resources required.
+Lenders also purchase Membership to the SALT Lending Platform which gives a Lender access to the network and related services. Financial terms reported on the SALT Lending Platform are determined by qualified Lenders and are subject to each Lender's specific risk tolerance. As a result, annual percentage rates (APR) and loan-to-value (LTV) ratios offered to eligible Members are subject to market conditions. All network participants drive additional demand for access by lending or borrowing capital.
+
+3.3 SALT Membership
+SALT Membership is an Ethereum-based Erc20 smart contract representing levels of access to the SALT Lending Platform. It can be redeemed for products and services and other rewards offered through the platform. A total fixed supply of 120,000,000 Membership units exist. Demand for lending and borrowing on the SALT Platform will drive the demand for Membership.
+
+4. How to Purchase Membership
+
+SALT Membership may be purchased with Bitcoin
+
+(BTC), Ethereum (ETH) or any cryptocurrency
+
+supported by ShapeShift. SALT Membership is
+
+priced in United States dollars (USD). Purchase of
+
+Membership will be effective only when SALT
+
+Lending accepts the application upon multiple
+
+confirmations of payment. The purchase of SALT
+
+Membership at a discount will end at the earlier of a
+
+predetermined end date, or the date at which the sale
+
+is either closed or terminated by management in its
+
+sole discretion. Applicants will be alerted to whether
+
+they were successful in purchasing a Membership by
+
+email and an update to their account on the SALT
+
+Lending
+
+Platform
+
+available
+
+at
+
+https://www.SaltLending.com.
+
+The final purchase price is determined when two confirmations have been recorded on the Bitcoin or Ethereum blockchain. No refunds will be issued for accepted Membership redemptions. Membership pricing for the SALT Lending Platform is based on fixed quantity tiers. Digital currency payments that carry inadequate fees may experience an increase in price between their initiation of purchase and SALT Lending's confirmation. If using a payment processor that only allows a single unconfirmed transaction to remain pending at any given time, multiple purchases may result in delayed confirmation. SALT Lending will determine the exchange conversion rate for each purchase by aggregating price feeds from multiple exchanges, adjusting for volume, price variance, statistical outliers and inactivity.
+
+If an attempted purchase of Membership is not accepted following screening procedures, those funds will be promptly returned.
+SALT Lending has engaged First Bank to hold USD funds. In the event management terminates the sale or doesn't accept a Membership application, any USD tendered by an applicant will be returned net of any outgoing fees charged.
+Purchasers of SALT paying in Bitcoin (BTC) or Ethereum (ETH) will direct funds, into multisignature cold wallets specifically designed for this sale. Each purchaser will be provided a unique purchase destination address for the purpose of acquiring a SALT Membership. In the event management closes the sale or doesn't accept the Membership applications, any Bitcoin (BTC) or Ethereum (ETH) tendered by an applicant will be promptly returned by the multi-signature wallet net of any outgoing fees charged.
+4.1 Membership Status
+Membership to the SALT Lending Platform is a prerequisite for a Member to access information and obtain the financial products offered through the SALT Lending Platform. In order to purchase a Membership, a person or entity must create an account by providing a username and an email address, among other requirements established by SALT Lending. Satisfactory completion of both Anti-Money Laundering (AML) and Know Your Customer (KYC) screening is required before distribution of any purchase in excess of $2,000.00 (two thousand dollars) USD, and may be required for any other purchase amount, as determined by SALT Lending. Any Member actively looking to obtain a financial product may be required to complete further Anti-Money Laundering (AML), Know Your Customer (KYC) and SALT suitability screening.
+Membership offers a subscription to the SALT Lending Platform and is used as payment for products and services. An initial purchase of a SALT Membership, in any quantity, results in an immediate redemption representing the purchase of a base
+
+annual Membership to the SALT Lending Platform. Members of the platform accumulate status through their acquisition and redemption of SALT Memberships above and beyond each minimum threshold. The cost of Membership replaces most fees charged to borrowers associated with loan origination and servicing. Elevated annual Membership status is achieved when additional memberships are redeemed through the SALT Lending Platform. SALT Membership is available for purchase in any increment depending on available inventory. Premier and Enterprise Membership packages increase the loan product types and maximum available loan balances accessible to Members.
+As outlined on the next page, products and services are made available to Members in several tiered packages, representing minimum redemption thresholds. Benefits associated with Membership status are based on redeemed SALT. Each tier enables qualified members to gain access to increasingly customizable credit products, ranging from fixed rate term loans to lines of credit and crypto-secured credit cards, all collateralized by blockchain assets. Additionally, SALT can be spent to reduce a portion of the interest rate associated with a financial product underwritten by a lender on our platform. Members have the option to redeem SALT Membership prior to the closing of a newly originated loan in exchange for a reduced interest rate. This is called "buying down the rate", and it permanently lowers the monthly interest payment due for the duration of that loan. Access to the platform API is also denominated in SALT Memberships, as is access to the platform's lender network for institutional accounts. This service offers clients, such as exchanges, wallets, and digital asset custodians, an API subscription service whereby they can access the SALT Lending marketplace to offer credit products to their own customer base, for a subscription access fee. This API plugin is available to them and ultimately utilizes capital arranged via the platform's lender network. Subject to prevailing market exchange rates. Terms and conditions may apply.
+
+Select products and services, such as hardware devices, are available for purchase at additional cost. Loan products available at launch are subject to Lender determined product offerings. SALT Lending anticipates that only bitcoin collateralized US dollar denominated products will initially be available. Annual Membership fees are subject to regular market based price adjustments.
+
+The SALT Network
+The borrowing power made available to Members will be based on either the summation of a single asset's value or that of a portfolio of various blockchain assets. The attractiveness of the products offered through the SALT Lending Platform increases in conjunction with an increase in the number of participants utilizing SALT Membership, resulting in a classic network effect. SALT Lending's marketplace offers consumer borrowers access to affordable credit, and allows individual and institutional lenders the opportunity to lend against a new class of assets. As both sides of the equation grow, the advantages (reduced risk, lower cost) scale accordingly, attracting even more borrowers and lenders. The increased participant pool generates competitive interest rate dynamics and data, which is used to improve the effectiveness of SALT Lending's risk models.
+The SALT crypto-secured credit card
+The SALT crypto-secured credit card is a form of a line of credit that is collateralized by blockchain assets. It will operate on established credit card payment processor networks and allows for payments in national currencies.
+
+5. Sample Platform Use Cases
+Crypto-Exchange - Integrated Leverage
+A crypto-currency exchange may desire to offer its clients leverage through their internal interface. SALT Lending is designed to enable this by providing a streamlined API integration whereby, an exchange can utilize the platform and instantaneously offer leverage terms to their customer base without requiring their users to directly interface with the SALT Lending Platform. Capital is arranged by our extensive lender network and seamlessly integrated into the end user's experience. An arrangement of this nature requires the crypto-exchange to purchase an Enterprise Membership package and redeem SALT Memberships for use of the API.
+ICO - Business Development Line of Credit
+A startup that has completed a token offering may look to use sale proceeds for development of their business. Often these costs require payment in various national currencies and necessitate the liquidation of the digital currency raised. An Enterprise Membership would allow the startup to access a working capital loan or line of credit to help them grow their business, without having to liquidate their blockchain assets.
+Miner - Working Capital Loans
+Proof of Work mining requires significant fixed and variable capital expenses. A mining operation must be constantly acquiring or developing purpose built computer chips while also purchasing electricity to run their systems. Often these R&D costs require payment to third party suppliers denominated in various national currencies. In order to maintain production, a mining operation must therefore sell their mining reward to reinvest in development. With a SALT working capital loan, a miner can now better manage their capital allocations and opportunistically sell mined inventory when the time is right.
+
+6. The Technology
+SALT Memberships exist on the Ethereum Blockchain and loan collateral is recorded on its native blockchain. SALT's Secured Automated Lending Technology is a protocol and asset agnostic architecture. Any blockchain asset, including those that exist on permissioned distributed ledgers, can be used as collateral and managed by our smart credit contracts. Our SALT oracle creates multi-signature smart contracts on the collateral's native blockchain or an external blockchain, case depending. Any external transfer of the collateral, whether it be a liquidation event or a reversion to the borrower, will occur on-chain.
+If the threshold for collateral liquidation is breached, the SALT oracle triggers a liquidation event which is co-signed by other parties. Liquidation events may include fees which are passed along to the borrower. The margin requirements are determined by lenders and agreed to by borrowers. Terms are clearly outlined in each loan agreement. The SALT collateral wallet is a multi-signature blockchain wallet that stores collateral and automatically enforces lending terms. Throughout the duration of the loan the borrower retains ownership of the underlying blockchain asset and a key to the multisignature wallet.
+The SALT Lending Platform can be directly integrated into hardware wallet devices allowing for additional security for loan collateral.
+
+Key features of the SALT Oracle:
+o Monitoring of both the loan origination and the payments made by the borrower to the lender
+o Monitoring of the value of the blockchain asset held as collateral
+o Generation of alerts if the value of the blockchain asset drops below an agreed upon threshold
+o Triggering of maintenance calls o Storage of collateral until loan terms are fulfilled o Dispersal and/or liquidation of collateral
+according to loan terms
+The SALT oracle operates autonomously. However, a minimum of three signatures are always required to trigger a liquidation order. This redundancy provides an added level of security. The SALT Lending Platform uses global server redundancy to protect its Members. Servers are distributed across several continents, through third party cloud based web services and hardware devices. Additionally, SALT Lending takes advantage of fully distributed server systems.
+SALT Lending's decentralized, blockchain based technology platform automates key aspects of operations, including: the borrower application process, data gathering, underwriting, loan funding, servicing, collateral management, regulatory compliance and fraud detection. This provides a significant time and cost advantage over traditional lending business models and we believe it enables us to provide a superior user experience to both borrowers and lenders.
+Members interact with the SALT Lending Platform either through a web and mobile user interface (UI) or via an application program interface (API), which allow seamless integration of the loan platform functionality directly into the backend systems of Enterprise Members. Whether through the UI or API, Enterprise Members are able to offer decentralized leverage products to their own clients via their existing systems.
+
+7. Privacy
+The factors that define a Member's participation profile are private by default and are only revealed to other platform participants with the explicit consent of the Member. Data on the platform is held in a distributed way. This is important to avoid the user data breaches that befall centralized databases. With the SALT Lending Platform, loan collateral is independently secured in unique smart contracts associated with individual credit agreements.
+Continual development requires developers to have permissioned access to update the software and as a result, the back-end marketplace will be centralized and under the control of SALT Lending as an organization. The platform inherits the trustsensitive aspects of the protocol tokens which underpin the products offered by SALT Lending.
+SALT is committed to keeping any and all personal information collected from the individuals that visit our website and make use of our platform accurate, confidential, secure and private. SALT is however, required to verify the identity of Members who apply for financial products through the platform.
+8. Sale Mechanics
+SALT Memberships will initially be distributed in the form of a discounted sale. The purpose of the discounted membership structure is to attract Members early on who can provide feedback on our prototype as we further improved our product. The participation and feedback from the SALT
+
+Community has been crucial to our development. The largest discounts are being provided to the earliest Members who provide direct feedback and influence our platform's development, as we move from the prototype phase to launch. The sale environment is designed to gather feedback. SALT Lending is offering participants a discount for helping to improve the systems, interface and network strength. Each SALT Membership will initially retail for $10.00 United States dollars (USD) following the discounted sale period.
+The sale will not follow a strict timing mechanism. Instead, a set number of memberships will be available for purchase at a set discount level. Members will be unable to withdraw their SALT Memberships until the discounted sale and independent review is completed, and Memberships have been allocated and disbursed. Following the initial discount, SALT Membership will be available for purchase at full retail price.
+9. Business Development
+SALT Lending completed a seed capital funding round in early 2017 raising over $1 million USD, for the purposes of capitalizing the company to develop the SALT Lending Platform. All executive members of the team and board members have contributed personal funds to the development of the software and the company. SALT Lending does not intend to liquidate any cryptocurrency generated from Membership revenue. SALT aligns itself with the "hodl" ethos of the crypto community and will
+
+borrow against the company's balance sheet. This is designed to emphasize SALT's business model.
+Management intends to use debt to fund further development of the platform. Future expenses may include security and financial audit fees, legal, regulatory and other consultancy fees, retention of talent, acquisitions, future patent registration, systems licensing, and marketing fees.
+SALT Lending intends to have its financial position reviewed by a top tier accounting firm on a quarterly basis. External and internal software security audits are also an ongoing part of SALT's business model and have been performed by Spirent Communications Inc.
+The lending and securities industries are highly regulated throughout the world and the business in which SALT Lending operates is subject to complex rules and extensive regulations. Parts of the business are subject to licensing and examination by various regional, federal, state and local government authorities. The ability to serve a global Membership base is key to SALT Lending's business model. As a result, a considerable budget will continue to be allocated towards the on-boarding of new jurisdictions. This process entails meeting legal and licensing requirements to ensure regulatory compliance across continents and international borders. This also often entails establishing regional offices, legal counsel and several service providers.
+
+Budgeted Expenses
+
+10. Membership Supply
+
+A total fixed supply of 120,000,000 (one hundred and twenty million) SALT Memberships will exist, with a fractional supply in circulation representing only those that have not been redeemed and are now held for sale on the platform. SALT Memberships are sold in whole integers. The smallest SALT unit is one hundred millionth.
+
+Expected Allocation Memberships Percentage
+
+Discounted Sales 54,500,000 45.42%
+
+Platform Development 17,550,000 14.63%
+
+Employee Discount 2,450,000
+
+2.04%
+
+Retail Sales
+
+45,500,000 37.92%
+
+Total
+
+120,000,000 100.00%
+
+The SALT wallet will be built into the SALT dashboard. The wallet will give Member's the ability to upgrade their Membership, send additional SALT to the public ETH address currently associated with a Member's account, or choose a different public ETH address in which a Member would like to store and secure their SALT. Direct hardware wallet integration will be available for added security.
+We estimate that Member wallets will be available 15 days after the independent review of Membership transactions. The internal review is estimated to require one to three weeks from the close of the discounted sale. For the sake of speed, we will allow access to wallets once the members transactions have been reviewed. Access to the wallet will vary based upon when a member's transactions have been reviewed.
+
+11. The SALT Financial Inclusion Initiative
+We intend to set aside two percent of the total sale proceeds for the SALT Financial Inclusion Initiative, which seeks to provide blockchain backed lines of credit to anyone who is currently unbanked and/or is unable to get credit as a result of social exclusion. Loans will be issued to qualifying applicants and collateralized with bitcoin from sale proceeds. Secure accounts will be established for individuals and an education on blockchain-backed loans will be made available to help recipients use credit the right way, creating "good debt".
+12. Regulation
+Some elements of SALT Lending's businesses are subject to state and federal regulation within the United States and to foreign laws and regulations. Loans arranged through the SALT platform are originated by an SEC registered investment advisor or other on boarded registered banking entities.
+SALT Lending Holdings, Inc., and the loans originated through the SALT Platform, must comply with applicable state and federal lending and usury laws, such as: the federal Consumer Credit Protection Act, the Truth-in-Lending Act, the Equal Credit Opportunity Act, the Fair Debt Collection Practices Act, the Dodd-Frank Wall Street Reform and Consumer Protection Act, the Servicemembers Civil Relief Act, the Military Lending Act, the Bank Secrecy Act, the USA Patriot Act, the Electronic Fund Transfer Act, the Electronic Signatures in Global and National Commerce Act (ESIGN) and other federal and state laws governing privacy, data security and prohibiting unfair or deceptive business practices.
+As non-bank entities, SALT Lending Holdings, Inc. and its affiliate, SALT Platform, LLC, have developed extensive best practice policies and procedures intended to ensure legal and regulatory compliance.
+
+SALT Lending Holdings, Inc. and its affiliate, SALT Platform, LLC, may be subject to examination, supervision and other regulatory enforcement actions taken by the state agencies responsible for monitoring consumer credit, trade, and commerce; and federal agencies, such as the Consumer Financial Protection Bureau and the Federal Trade Commission, that administer the federal consumer protection laws, trade, and commerce in the United States.
+13. Brand & Values
+SALT Lending's mission is to increase the productivity of digital assets. This will be accomplished by adhering to the core values below:
+Security: SALT Lending puts security and privacy first - our protocols and practices are designed to keep user information and assets safe and private. Innovation: SALT seeks to continuously innovate, creating new paradigms for managing the risk in realizing the value of digital assets. Premium Service: SALT delivers a high quality of service and an exceptional experience to empower the end-user.
+
+Legal & Regulatory Compliance: SALT is committed to maintaining compliance with laws, regulation, and licensing with governing bodies to achieve sustainable growth. Trust: We earn trust by acting with the highest standards of integrity, honesty, and accountability.
+The SALT Brand
+The SALT name originated from the historical record of when salt became more than a commodity, as it gained use as a store of value. Used as a medium of exchange for food, clothing, and other general provisions, salt broke the mold of what a commodity could be. With the invention of blockchain technology the boundaries are once again being pushed. We are forced to rethink what defines an asset or currency as well as the ways in which they can be recorded and transacted. SALT is also an acronym for Secured Automated Lending Technology, the name given to our programmed smart loan contract. The efficiencies and security provided by our technology is SALT's competitive edge. Just like its namesake, SALT intends to be a household name, a pillar in the financial market, and a brand that breaks the mold on how secured lending is conducted.
+
+Benchmarks
+
+14. Disclaimer
+This material is provided by Salt Technology, Ltd. ("Salt", the "Company"), for informational purposes only, and is not an offer or a solicitation to buy or sell any securities or other financial instruments. The SALT Membership is a consumptive use product permitting access to the services provided by the SALT Lending Platform, as detailed above. Memberships are not intended for speculation and afford the holder no rights in, or claims to, any of the assets of SALT or to in any way share in any profits that SALT may achieve. Interested parties acknowledge agreeing to the Consent to Use Electronic Records, Privacy Policy, Membership Agreement and Terms and Conditions. This document is subject to change and must be accompanied by the previously agreed to documents, which remains in effect regardless of purchase decisions.
+This paper describes the current vision for the SALT Lending Platform. While we intend to attempt to realize this vision, please recognize that it is dependent on quite a number of factors and subject to quite a number of risks. It is entirely possible that the SALT Lending Platform will never be implemented or adopted, or that only a portion of our vision will be realized. We do not guarantee, represent or warrant any of the statements in this paper, because they are based on our current beliefs, expectations and assumptions, about which there can be no assurance due to various anticipated and unanticipated events that may occur.
+Please know that we plan to work hard in seeking to achieve the vision laid out in this paper, but that you cannot rely on any of it coming true. Blockchain,
+
+cryptocurrencies and other aspects of our technology and these markets are in their infancy and will be subject to many challenges, competition and a changing environment. We will try to update our community as things grow and change, but undertake no obligation to do so.
+Interested parties acknowledge that the SALT Lending Platform, as described herein, may never in fact operate as intended. A SALT Membership is intended solely as a mechanism for accessing information and using the services offered through the SALT Lending Platform. As such, the SALT Membership may have a value of zero. SALT Memberships are functional utility smart contracts within the SALT Lending Platform. SALT Memberships are not for speculative investment. No promises of future performance or value are or will be made with respect to SALT Memberships, including no promise of inherent value, no promise of continuing payments, and no guarantee that SALT Memberships will hold any particular value. SALT Memberships are not participation in the Company and SALT Memberships hold no rights in said company. SALT Memberships are sold as a functional good and all proceeds received by Company may be spent freely by Company absent any conditions. Membership to the SALT Lending Platform is intended for experts in dealing with cryptographic and blockchain-based software systems.
+
+The SALT Hardware Wallet by KeepKey
+
+For more information visit SaltLending.com, or email Support@SaltLending.com.
+2017 © SALT Technology, Ltd.
+
+

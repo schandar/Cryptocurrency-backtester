@@ -1,0 +1,809 @@
+DeepBrain Chain
+Artificial Intelligence Computing Platform Driven By BlockChain
+White Paper of DeepBrain Chain
+version1.0.0
+
+DeepBrain Chain
+Catalog
+
+Abstract
+
+01
+
+Vision
+
+01
+
+Chapter 1 Introduction
+
+02
+
+1.1 Problems of Artificial Intelligence Enterprises
+
+02
+
+1.2 Brief Description of DeepBrain Chain
+
+02
+
+Chapter 2 Design Concept of DeepBrain Chain
+
+03
+
+2.1 Design Thinking of DeepBrain Chain
+
+03
+
+2.2 Problems to be Solved in DeepBrain Chain Design
+
+03
+
+2.3 Build Artificial Intelligence Ecosystem Around
+
+04
+
+DeepBrain Chain
+
+Chapter 3 DeepBrain Chain Platform
+
+04
+
+3.1 NEO Smart Contract
+
+04
+
+3.2 DeepBrain Chain Architecture
+
+05
+
+Chapter 4 DeepBrain Chain Mining and Privacy Protection
+
+09
+
+4.1 Mining smart contract
+
+09
+
+4.2 Payment mechanism for artificial
+
+10
+
+intelligence manufacturers
+
+4.3 Data privacy protection
+
+10
+
+Chapter 5 Token Sale Public Sell Rules
+
+11
+
+5.1 Token Launching
+
+11
+
+5.2 Token Allocation Scheme
+
+11
+
+5.3 Token Sale Rule Description
+
+11
+
+5.4 Token Sale Risk Comparison
+
+12
+
+Chapter 6 Process and Plan
+
+12
+
+6.1 Development History
+
+12
+
+6.2 Development Plan
+
+13
+
+Chapter 7 Fund Use
+
+14
+
+Chapter 8 About the Team
+
+15
+
+Chapter 9 Investment Institutions, Investors, and Consultants
+
+17
+
+Chapter 10 Voting and Community Governance
+
+19
+
+10.1 Operating Subject
+
+19
+
+10.2 Governance Structure and Voting
+
+19
+
+Chapter 11 Risk Tips
+
+21
+
+Chapter 12 Disclaimer
+
+22
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 01
+
+Abstract
+With the exponential development of GPU computing power, big data, Internet of things, sensors, and other fields over the past few years, artificial intelligence has begun to break out, in a way that futuristic technologies such as facial recognition and voice interaction are being integrated into our lives day by day. From 2012 to 2016, there was an increase of 5154 artificial intelligence startups in the whole world, the total financing amount reached $22.4 billion, and many medium and large companies have set up artificial intelligence departments while the net investment in artificial intelligence world-wide became more than $100 billion. It can be said that after the rise and fall of several times in history, the era of artificial intelligence has finally arrived! In the past few years, the DeepBrain Chain core team has been deeply exploring the forefront of artificial intelligence, was awarded First Prize in Enterprise Sector, and was awarded Second Prize in Academic Sector & Enterprise Sector of SMP 2017 Chinese Man-Machine Dialogue Field Authority Evaluation Contest held by Artificial Intelligence Research Center of the Harbin Institute of Technology, exceeding over 30 domestic first-class academic and corporate AI teams which participated in the competition. We have been committed to artificial intelligence landing applications and services for a variety of Internet of things equipments, so that ordinary equipments could have the brain, with dialogue, thinking, and reasoning abilities. In 2014, as a result, the world's first AI sound box Small Zhi was launched half a year earlier than the Amazon Echo, causing widespread concern in the industry and hence driving the AI wave concerning networking equipments. In 2017, the first national AI brain open platform DeepBrain was launched. When we do AI products, we realize that nearly 10% to 30% of the budget of a lot of artificial intelligence enterprises will be put into construction of AI's computing power. These include the purchase and maintenance of high computing performance hardware, which have become a heavy burden to enterprises, restricting investment in technology research and development. Is there a good way to completely solve this painful point, so that AI enterprises can promote the technological revolution more smoothly? This is where DeepBrain Chain enters. DeepBrain Chain is the first and only artificial intelligence platform in the world, driven by blockchain technology. By utilizing DeepBrain Chain's platform, artificial intelligence enterprises can reduce 70% of hardware cost. In addition, potential privacy risk for enterprises when using data can be effectively avoided. This is because the algorithm of the platform is fixed by smart contract and thus cannot be changed.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 02
+
+Vision
+The vision of DeepBrain Chain is to provide a low-cost, private, flexible, safe, and decentralized artificial intelligence computing platform to artificial intelligence products.
+1. DeepBrain Chain can make the artificial intelligence neural network operation decentralized and distributed over the mass nodes of the whole world through blockchain technology. Thus, the cost is reduced by DeepBrain Coin emission and idle computing resources, and it is less than 30% of the cost of the user's self-built neural network server and less than 50% of the traditional artificial intelligence centralization cloud computing platform.
+2. Via smart contract, data provider and data training party are physically separated, protecting data privacy.
+3. The massive neural network computing nodes of DeepBrain Chain can be dynamically adjusted according to the amount of calculation of the user's products, so as to meet the requirements of users' calculation in a flexible way.
+4. The threat of artificial intelligence has been the sword of Damocles hanging above the human head, and various science fiction movies have thrown out artificial intelligence to threaten the survival of human beings. Famous physicist Stephen William Hawking and crazy entrepreneur Elon Musk have issued artificial intelligence threat theory. Although technically the threat still requires years of technological development, if we can build technical specifications from a very early stage, the benefits of human development will only be greater. We believe that smart contracts are likely to be an important solution to future threats of artificial intelligence. We will continue to explore to restrain some preternatural behaviors of artificial intelligence in DeepBrain Chain through smart contract, to guard against potential artificial intelligence threat for the future.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 03
+
+Chapter 1 Introduction
+1.1 Problems of Artificial Intelligence Enterprises
+1. Artificial intelligence products need to train models by neural network calculation, and the data model training process needs to consume a large amount of computing resources. Artificial intelligence products want to achieve better product index, in addition to the algorithm. That is, there is a need for massive data to train, but more data, in the case of equal computing resources, means longer training, say over a week or even a month to several months. If there are incorrect parameters in the training process, repeated training is needed. Long training time is extremely disadvantageous to the enterprise product's iterative updating, increasing the product's likelihood to fail in the industry's competition. This leads to the fact that many manufacturers have to invest a lot of money to purchase GPU, FPGA, and other hardware resources, directly causing the artificial intelligence chip provider's, e.g. NVIDIA's, share price to rise rapidly. For most small and medium enterprises, more than one million of capital investment is a huge burden.
+2. AI products still need to be decoded by neural network after launching. The larger the number of users, the greater the amount of calculation required, hence pushing up the cost. Consequently, the user access frequency in different time periods will also change, and one-time purchase of a large number of computing resources will inevitably result in idle resources.
+3. The three elements of artificial intelligence are computing power, algorithm, and data. The amount of data is an important factor affecting the index of artificial intelligence products. Companies that make artificial intelligence products need to continually annotate low-quality data or directly purchase high-quality data, but most data involve the issue of user privacy, and data providers only hope that the data are not duplicated. They just sell the right to use the data, but not sell ownership, which is now almost impossible to do. Because the data receiver cannot access the data, it is impossible to train the data.
+1.2 Brief Description of DeepBrain Chain
+Leveraging on blockchain technology, we develop a decentralized, low-cost, and private AI computing platform and also provide perfect peripheral products. The artificial intelligence node in DeepBrain Chain can be composed of various forms, including full function node (permanent node) that runs on a large GPU or FPGA server cluster, idle GPU server computing nodes, and individual idle GPU computing nodes in small and medium enterprises. The income source of mining nodes in the DeepBrain Chain is mainly composed of GAS cost and mining token. The GAS cost is the cost of the neural network computing resources purchased by AI factories. The mining token is a token that is rewarded by the system according to the DeepBrain Chain tokens reward algorithm. The DeepBrain Chain token is traded via smart contract based on NEO, and our token is called DeepBrain Coin (DBC), and the mining node is encouraged according to the incentive system designed by the
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 04
+
+the smart contract. DeepBrain Coin not only ensures the system of safe and stable operation, but also allows all participants to obtain returns, so as to achieve the goal of artificial intelligence factories' low-cost access to neural network computing capabilities. We believe that the DeepBrain Chain platform will become one of the basic platforms in the field of artificial intelligence. It will automatically load the underlying computing requirements of mass artificial intelligence products and promote the development of the whole artificial intelligence industry.
+Chapter 2 Design Concept of DeepBrain Chain
+2.1 Design Thinking of DeepBrain Chain
+Since 2016, we have been thinking about the application of blockchain in the field of artificial intelligence, in order to solve the pain faced by artificial intelligence factories. In April 2017, we released the DeepBrain platform and completed the underlying algorithm design and application of artificial intelligence operating system. Currently, more than 100 manufacturers and 200,000 users have connected to more than 500 models of smart devices. In August 2017, we released a draft of DeepBrain Chain's white paper, studied, and solved the artificial intelligence problems related to blockchain with enthusiasts in the blockchain community, together building the next generation artificial intelligence computing platform driven by blockchain.
+As for DeepBrain Chain's design, we think about the following principles: 1. Extended principle: In DeepBrain Chain, each module should be loosely coupled. It should be easy to add new modules to come in, and each module's own updates should not need other module's interface changes. 2. Stretching principle: Customer access to DeepBrain Chain should be flexible. If there is a large number of users accessing a node, it will inevitably bring service breakdown to the node, so the container of the node itself should be automatically deployed. When there is a pressure of user requests, it should realize the horizontal expansion quickly. 3. Privacy principle: All participants of the DeepBrain Chain ecosystem, mining nodes, artificial intelligence manufacturers, and data providers, can get privacy protection. Participants can selectively open according to their own needs.
+2.2 Problems to be Solved in DeepBrain Chain Design
+1. Low cost: The core problem is the high cost of hardware input by artificial intelligence factories. Through the unique model of the DeepBrain Chain, 70% of the income of each mining node comes from mining DBC while 30% comes from the GAS cost. Artificial intelligence factories only need to pay for such 30%, i.e. GAS.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 05
+
+2. Optimization of neural network computing performance: DeepBrain Chain focuses on the service of artificial intelligence factories, and the current artificial intelligence products are developed on the basis of deep neural network as the core algorithm. DeepBrain Chain is currently optimized on CUDA GPU and plans to dock the current mainstream deep learning framework, such as TensorFlow, Caffe, CNTK, and so on.
+3. Highly concurrent: Users of artificial intelligence factories are massive in number. DeepBrain Chain needs to facilitate high-performance computing while supporting a massive number of users. Through a unique load balancing technology, each node container can cooperate with each other to share concurrent pressure.
+4. Low latency: While it is possible that the training time of neural network can be very long, all online user requests must be responded in seconds. This requires that each module of DeepBrain Chain is able to respond quickly, taking up as little resources as possible.
+5. Privacy protection: To protect the privacy of each participant in the ecosystem, participants can freely determine the degree of information developed. We need to ensure via the encryption algorithm and the separation mechanism.
+6. Flexible supply: Artificial intelligence factories' user requests are not temporally homogeneous, and they are likely to be, say, ten times more frequent at the peak times than at the non-peak times. This issue needs to be effectively dealt with the burst traffic, which requires flexible expansion technology, so that the docker container can be automatically deployed. Fast replication is deployed to multiple idle nodes at the peak of traffic.
+7. Automatic operation and maintenance: When a node container fails, it should be able to alert in a timely manner, remove the faulty node, and add a normal node.
+2.3 Build Artificial Intelligence Ecosystem Around DeepBrain Chain
+DeepBrain Chain realizes the decentralized supply of core computing capability of artificial intelligence, but artificial intelligence, in addition to computing power, also needs algorithms and data. Data are trained to be the model while the algorithm, with the model, generates artificial intelligence applications. Therefore, DeepBrain Chain in the future will derive AI data trading platform, AI algorithm trading platform, AI model trading platform, AI container trading platform, and AI application trading platform. AI application trading platform has a certain scale: there are hundreds of AI skills applications on DeepBrain, which can be sold to users. In addition, the DeepBrain Chain ecosystem will help the artificial intelligence manufacturers to issue their own virtual currency globally, and the virtual currency of the manufacturer can be freely exchanged with DBC.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 06
+
+Chapter 3 DeepBrain Chain Platform
+3.1 NEO Smart Contract
+NEO is a distributed computing bottom system based on blockchain technology, with open source and public maintenance. It provides a decentralized Turing complete virtual machine to support the operation of smart contract. As the most mature platform to support smart contract in the market, the community is very active and the foundation runs well. DeepBrain Chain will release DeepBrain Coin based on NEO and run the DeepBrain Coin issuing algorithm on the smart contract of NEO.
+The DeepBrain Chain team will make DBC in a unified way on the blockchain application registration in order to ensure that once the asset is confirmed by the smart contract, all data would be open, transparent, and non-tamperable.Hence, DBC is a fully reliable data sharing asset allowing fully reliable transactions. There will be no false assets or sham transactions.
+3.2 DeepBrain Chain Architecture
+3.2.1 Overall architecture DeepBrain Chain network nodes can be large mining nodes, such as those of a large mining pool, a medium mining node using Azure and Ali cloud for mining, or a home high-performance computer. The miners only need to install DeepBrain Chain mining software and basic artificial intelligence operating environment to become a mining node to earn DBC. Artificial intelligence factories submit docker images that contain neural network computing requirements to DeepBrain Chain clients, and have the corresponding number of GAS. The nodes that meet the requirements will compete to deploy the docker image, and eventually successful deployment of mirrored nodes will result in token rewards.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 07
+
+AI Manufacturer A
+
+AI Manufacturer B
+
+Submit the neural network Calculate the demand to the DeepBrain Chain client, and there is a corresponding number of DBC gas stored
+
+DBC PC wallet client
+
+DBC website wallet client
+
+Mining nodes
+
+The client packages the requirements into docker image and broadcasts to a DeepBrain Chain network
+
+Mining nodes Mining nodes
+
+Small mining nodes Small mining nodes
+
+Mining nodes Mining nodes
+
+Mining nodes Mining nodes
+
+Mining nodes Mining nodes Large mining nodes
+
+Mining nodes Mining nodes Medium-sized mining nodes
+
+The nodes that meet the requirements will compete to deploy docker image, and eventually successful deployment of image nodes will result in token rewards.
+
+3.2.2 Mining node architecture
+
+DeepBrain Chain Frame Layout
+
+DBC wallet client Interface management
+
+Network management engine
+
+Identity authentication
+
+Storage management system
+
+Identity authentication Providing network connections
+
+Save disk file Identity authentication
+
+Search disk file
+
+Computing engine
+
+Docker management system
+
+Data storage
+
+Identity authentication Identity authentication
+
+Database service engine Identity authentication
+
+Identity service engine
+
+Mining node frame
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 08
+
+1Computing engine A computing engine is a set of controllers including a computational emitter and a container computing engine. Computational emitter: After the container has been deployed successfully, the verification calculation is done, and the calculation is passed. The emitter will broadcast to the whole network, and the broadcast contains fields: Struct{ TimestampTotal number of seconds from Greenwich time 00:00:00 January 01, 1970 to now Address Successfully deployed node wallet account Idimage ID number }
+Image computing engine DCEnginethe entire lifecycle of a container management instance for a single user or group, according to the user's needs to provide virtual services, responsible for the creation, suspension, pause, adjustment, migration, restart, destruction, and other operations of containers. When the user requests the calculation of specific value of distribution amount of container capacity (set by user), the container calculation engine will start the alarm and will start to automate the deployment of container expansion into other normal nodes. First, the configuration file is read, the configuration parameters are read, the initialization message queue is configured according to the configuration, and then the internal message interaction is carried out with other components later. At the same time, the DB server according to the configuration item in the configuration file is started, and a server corresponding to each API in the configuration file is configured. According to the system GPU core number n, each DB server will have n process to deal with the request.
+Def main(): Config.parse_args(sys.argv) Loggin.setup("DBEngine"); Utils.monkey_patch() Gmr.textDBMediation.setup_autorun(version) Launcher=service.process_launcher() For api in CONF.enabled_apis: Should_use_ssl=api in CONF.enabled_ssl_apis If api == `db2': Server =service.DBService(api,use_ssl=should_use_ssl,max_url_len=16384) Else: Server =service.DBService(api,use_ssl=should_use_ssl) Launcher.launch_service(server,workers=server.workes or 1) Launcher.wait()
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 09
+
+2Image management system A virtual container image lookup and retrieval system has the functions of creating mirror image, uploading mirror image, deleting mirror image, and editing basic information of mirror image.
+
+Client A
+
+Client B
+
+Docker management API
+
+Docker management
+register
+
+Storage adapters
+
+Docker management DB
+
+IPFS
+
+Swift
+
+File system
+
+Docker management system
+Image management system is mainly composed of image management API and image management register. Image management API is the entrance of the image management system service, responsible for receiving the user's API request. The image management register deals with image metadata related requests. When the image management API receives the user's API request, if it is determined that the request is associated with metadata, the request is forwarded to the image management register service. Then the image management register parses the contents of the user metadata request, accesses, and updates the metadata of the image interactively with the database.
+3Storage management system A large scale extendable system for storing objects through built-in redundancy and high fault-tolerant mechanisms allows storage or retrieval of files, providing image storage of the image systems.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 10
+
+Client A
+
+Client B
+
+Storage management system API
+
+AMQP message queue
+
+Storage management system Dispatching service
+
+Storage management system Backup service
+
+Storage management system Volume service
+
+Back end storage system
+Storage management system
+Storage management system consists of four parts. API server: Storage management system API is the main service interface, which is responsible for receiving and processing the external API request, putting the request into the AMQP message queue, and then executing it by the back-end. Dispatching service: The task of the task queue is processed, and the appropriate volume service node is selected according to the predetermined policy to perform the task. Volume service: The service runs on the storage node, manages storage space, processes read and write requests of maintenance status of storage management system database, and interacts with other processes through the message queue and directly in the block storage device or software. Each storage node has a volume service, and several such storage nodes join together to form a storage resource pool. Backup service: This provides services to back up the volume of the storage management system to the backup storage device.
+4Identity service engine This is to provide authentication, service rules, and service tokens to other modules of DeepBrain Chain and to manage commands, projects, users, groups, and roles. 5Network management engine This is to provide network virtualization technology and network connectivity services to other services in
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 11
+
+DeepBrain Chain, providing interfaces to service users that can define networks, subnets, virtual IP addresses, load balancing, and so on.
+6Database service engine This is to provide extensible and reliable relational and non-relational database service engine to users in DeepBrain Chain environment.
+Chapter 4 DeepBrain Chain Mining and Privacy Protection
+4.1 Mining smart contract
+4.1.1 Reward for successful competition deployment Miners' main income DBC comes from mining. The whole network, according to the contribution value
+rewards DBC every 1 hour. Only the successful deployment of the container and the normal operation of the node will be eligible for the reward.Bonus of first deployment of new node of mirror is 1% * 95%. Abnormally interrupted nodes will have deducted the GAS reward, and the probability of being rewarded in 100 hours will be reduced to 1% * 1%. The probability of getting a reward for old nodes' normal deployment images equals 99%*99%. Abnormally interrupted nodes will have deducted the GAS reward, and the probability of being rewarded in 100 hours will be reduced to 99%*1%.
+Count of actual award amount = Probability value * Contribution of current nodal force / Sum of nodal force in whole network
+1DeepBrain Chain DBC mining mechanism The total number of DBC produced by mining will be 5 billion. Every 5 years, the number of DBC obtained from mining will be halved. In the first 5 years, there will be a total of 2.5 billion. In other words, 500 million pieces will be dug out each year initially.
+4.1.2 Mining algorithm I. Release of model algorithm Researchers have developed a new model for an AI application, opened source and packaged into a
+DeepBrain Chain (Resource A: model algorithm), provided operating environment and input and output data format standard (Resource B: json description file), and can choose to submit training / testing tasks with public datasets (Resource C: pre-trained model / Resource D: evaluation reference). When the released model is used by others, the publisher can share the token (basic fee).
+II. The release of training / testing tasks Select published model algorithms, publish data, and publish training / test tasks after packing data. These can be displayed before submission: a. Estimated price = Model algorithm training or testing unit cost * Run steps (upper limit can be set) + Basic cost of model algorithm
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 12
+
+b. Available nodes + expected queuing time Unit cost = Averagei (Averagej (Model J unit cost * the speed of node i running model J) / Current model running speed) The unit costs of all model algorithms are adjusted dynamically, which makes all nodes get the same overall returns throughout running different models. After the completion of the task, the transaction gets recorded on the block. III. Automatically receive and run training / test tasks Receiving the broadcast of the task in DeepBrain Chain and other nodes running state, the node will create a block every other time and select the task to run according to the algorithm. For the final reward, in addition to the cost paid by the task publisher, the total "amount of calculation" in the current block =  Model algorithm training or testing unit cost * running steps will be summed after completion of the task. The total pool of each block is fixed and assigned to each node according to the proportion. Node allocation algorithm Task publishers hope that the task will be completed as soon as possible; the people running task nodes want to maximize revenue. Therefore, we use reinforcement learning to maximize the expected revenue of all nodes:
+
+rti= Returns obtained at node i at moment t  is discount factor Rj is the reward for mission J tj is the time point for the completion of task j The algorithm is divided into two parts: The Q function Q (S, A) is constructed to predict the expected revenue of nodes to take action A under the state S. a) State S contains the hardware and historical performance of the node as well as the current running state of the node. b) Action A includes running one of the currently available model algorithms and not running any task to remain idle. Deep Q learning is used to train the parameters in the Q function. For all nodes taking action in time t, the global optimal solution is found by beamsearch approximation. Design logic: The publishers of driver model algorithm publish more models that people will use to get more returns. Task publishers will spontaneously choose better model algorithms and at the same time use unit cost to punish model algorithms with unnecessarily large computation. Miners will optimize hardware to get higher returns based on current popular model algorithms and their unit costs. Within the unit time, the total return of mining is fixed.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 13
+
+4.2 Payment mechanism for artificial intelligence manufacturers.
+According to the floating-point operator, the number of neural network unit occupancy, occupied storage space, memory usage space per unit time, and the consumption of traffic per unit time, the cost of DBC to be paid is calculated. The fee paid by the manufacturers and the miners can be set freely, but it should not below a certain threshold. After meeting the conditions of both parties, the miners will need to compete with each other to deploy the container. Gas service cost will not increase with the appreciation of DBC and thus will be the reference value for the currency to maintain stability.
+4.3 Data privacy protection
+
+Seller
+
+Smart
+
+Mutual evaluation
+
+contract setting
+Data set
+Successful
+
+purchaser will
+
+Purchaser
+
+go into DeepBrain Chain
+
+Decentralized for training
+
+trading platform
+
+Training algorithm
+Anonymous node container
+
+model
+The model can't be copied Can only be used inside the
+DeepBrain Chain
+
+Computing engine
+Anonymous node container
+
+Client request
+
+If the data seller wants to get revenue from selling data, he doesn't want to reveal the user's privacy to the purchaser who bought the data or sell it to others. While it is possible to trade in the DeepBrain Chain's built-in decentralized data trading platform, the data buyers on the trading platform cannot receive directly; instead, the data are sent directly to the anonymous node container of DeepBrain Chain to be trained, and the trained model will also be sent directly to the anonymous node container that the computing engine is working on. Data buyers cannot copy data from the node to the outside in the process of training data and using the model. On the flip side, the seller can verify whether the anonymous node container cheats to output raw data or variant data of the original data by client request. Finally, the seller and the buyer can score each other.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 14
+
+Chapter 5 Token Sale Public Sell Rules
+5.1 Token Launching
+DBC total circulation is 10 billion, among which mining produces 50%. The founding team believes that DeepBrain Chain is a project that has been verified by the market, has huge market scale and significant application value, lets the process and economic value associated, and is gradually issued with the core business sharing storage and the mechanism of computation capacity of mining. Each token corresponds to the computational value of the service provided during its issue, and is a truly valuable asset and digital currency that has already landed. Due to the difficulty of issuing, the value of the flow needed by every new token will increase. The earlier one holds, the more the expected value of the market will be.
+5.2 Token Allocation Scheme
+When more AI devices use DeepBrain Chain, users will use more services running on DeepBrain Chain, and the value of a single coin will appreciate, so as to rapidly increase the incomes of token holders and token sellers.
+
+Purpose Token Sale public offering DeepBrain Chain foundation and ecosystem Pre-sale
+DeepBrain Chain team
+Mining production
+
+Propor t ion
+
+Quantity
+
+9%
+
+0.9 billion DBC
+
+25%
+
+2.5 billion DBC
+
+6%
+
+600 million DBC
+
+10%
+
+1 billion DBC
+
+50%
+
+5 billion DBC
+
+Remarks
+For public Token Sale
+Unlock 10% in the first month after launching in the market, and unlock the remaining 10% each year, total lock-peroid of 10 years
+Sell use rights of DeepBrain Chain ecological service to influential professional investors or artificial intelligence manufacturers
+Unlock 10% in the first month after launching in the market, and unlock the remaining 10% each year, total lock-peroid of 10 years
+In the first 5 years of mining, 500 million DBC is produced each year, and the income is reduced every 5 years by half
+
+5.3 Token Sale Rule Description
+In different public sale periods, there will be different preferential rates, which should be based on the official version when the Token Sale is officially launched. Hard cap is about 10,000 ETH and 166,667 NEO, the ratio: 9%, accumulated about: 0.9 billion DBC. Soft cap is 12,000 ETH or equivalent NEO. We will calculate the exchange ratio around 1 weeks after the Token Sale sales are completed. The corresponding number of DBC will be allocated according to the stage of the participant. After the completion of allocation, we will support wallets and trading on third party exchanges in about 2 weeks. The specific time will be disclosed by the founding team. The number of tokens in each stage is as follows: (quantity will be adjusted according to the market price of mainstream currency)
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 15
+
+DBC Sale on unofficial website
+
+Token Sale cycle 1ETH
+Discount
+
+First stage 40% 40000 15%
+
+Second stage 40% 37360 9%
+
+Third stage 20% 34000 0
+
+DBC Sale on official website
+
+Period 1st hour 2nd to 6th hour 6th to 12th hour
+
+1NEO equivalent DBC 3000 2900 2800
+
+12th to 24th hour
+
+2700
+
+1st to 3rd day 3rd to 8th day 8th to 30th day
+
+2600 2400 2200
+
+Discount 27% 24% 21% 19% 15% 8% 0%
+
+Per person limit 1000NEO 1000NEO 1000NEO 2000NEO 5000NEO 10000NEO unlimited
+
+5.4 Token Sale Risk Comparison
+In order to give benefit to Token Sale participants, create a good and orderly market atmosphere, and create valuable projects, mining will eventually produce 50% of the total supply. Note that those tokens reserved for the DeepBrain Chain foundation and the team will be locked for at least 1 month after the token becomes live in the trading market, greatly reducing the risk of participants in the listing of assets after the disk crash. The following is the comparison between DeepBrain Chain and other Token Sales.
+
+Category Whether there is the issue of mining Team proportion Earnings expectation
+Famous investor blessing
+
+DeepBrain Chain 50% mining production
+A total of 10% Value investment, already landed project
+GSR Ventures, Gobi Partners ,and Qian Shi Investment 32,000,000RMB
+
+Other common Token Sale No, mostly 100% issue
+High proportion, more than 30% Speculation is the most, and there are few landing projects Most of them don't have early investors
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 16
+
+Chapter 6 Process and Plan
+6.1 Development History
+
+Time axis January 2012 January 2013
+
+Event / milestone
+The first Chinese voice assistant called "smart 360" was released The first artificial intelligence semantic open platform- Semantic cloud oriented APP domain was released
+
+June 2013
+
+" s m a r t 3 6 0 " had more than 10 million users, becoming the first third-party voice assistant to break through tens of millions of users
+
+June 2014
+
+The world's first artificial intelligence speakers- " s m a l l z h i " super speakers (Amazon Echo released on December 2014) was released, equipped with semantic cloud brain
+
+June 2014 December 2015 December 2015 March 2016
+
+Member of Council of China Electronic Acoustics Association
+" s m a l l z h i " housekeeper robot was released, equipped with semantic cloud brain 2.0 CEO Feng He, won the title of innovative figures in Shanghai computer industry " s m a l l z h i " housekeeper robot and HTC Vive virtual reality helmet received CHINABANG award and 2016 annual Innovation Awards together
+
+April 2017 May 2017
+May 2017
+
+New upgraded on semantic cloud, released the brand new cloud brain platform named "DeepBrain"
+Started a project which researched cloud brain artificial intelligence operating system by blockchain technology Set up blockchain laboratory, based on blockchain application architecture research and development
+DeepBrain stationed in Institute of Artificial Intelligence, Nansha District, Guangzhou, to build AI cloud OS
+
+May 2017
+
+DeepBrain skills platform has more than 1000 skills. It is the first manufacturer of artificial intelligence skills platform in China
+
+June 2017
+
+32 million CNY of angel investment of Jinsha River Investment, Gobi Investment, and Chance Investment
+
+July 2017 August 2017
+
+1. DeepBrain brain platform skills store HTML5 version was released, allowing consumers to freely add skills for AI hardware 2. DeepBrain Chain Token Sale white paper 0.6 was released
+Won the first prize in the business community of SMP2017 Chinese man-machine dialogue evaluation of the Harbin Institute of Technology AI evaluation, while more than 30 domestic top artificial intelligence teams participated in the competition
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+6.2 Development Plan
+
+introduction 17
+
+Time axis August 2017
+September 2017
+
+Time / milestone
+1. DeepBrain Chain Token Sale white paper 1.0 was released 2. Started Pre Token Sale program
+1. R & D team moved to new office in Hongqiao Tian Street in Hongqiao business circles of Shanghai
+2. It was invited to participate in China's AI 30 people closed door forum and interpretation of the State Council's" notice of new generation of artificial intelligence development planning " internal seminar in Beijing
+3. It was invited to participate in the "digital asset summit"
+
+2017 Q4 2018 Q1 2018 Q2
+
+1. Complete Pre Token Sale Roadmap 2. Token Sale and complete Token Sale recruitment 3. DeepBrain set up a joint laboratory with Shanghai branch of Chinese Academy of Sciences 4. On October was invited to participate in the "First Global Financial Technology and Block
+Chain China Summit 2017" 5. The first phase of the DeepBrain Chain is completed based on the NEO contract, and the
+tokens are issued 6. Support to charge and withdraw coins, DBC assets to be launched on the third party exchange 7. Project quarterly key information disclosure 8. DeepBrain Chain promotion and vendor access
+1. Completion of development of base layer architecture and core components, comple-tion of development of the DBC AI Testnet, and building internal testing environ-ment 2. Support test users' submission of AI training requests to DBC AI Testnet and finish-ing t raining in the Testnet 3. Development of the community contribution & reward system on the official website of DeepBrain Chain 4. Completion of the first round of global meet-up Dublin, Hamburg, Amsterdam and San Francisco 5. DBC communities in 5 countries and steady growth of the official communities' size : Telegram, Reddit, Twitter 5. Attendance to one global blockchain summit every monthBlockChain Connect Conference in San Francisco on January 26th
+1. Finishing development of features including AI users management, group manage-ment, profile management and authorisation management. 2. Finishing integration of DBC AI Testnet with blockchain. 3. Finishing development and testing of the internal DBC network environment 4. Release Alpha and Beta tests of the Community Contribution & Reward System on the official website of DeepBrain Chain. 5. Second round of global meet-up 6. DBC communities in 10 countries and Steady growth of the official communities' size : Telegram, Reddit, Twitter 7. Attendance to one global blockchain summit every month on average 8. Starting cooperation with at least 1 famous universities or organisations on blockchain or AI
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 18
+
+Time axis 2018 Q3
+2018 Q4 2019 Q1
+
+Time / milestone
+1. Alpha test by key users 2. Launch of the community contribution & reward system on the official website of DeepBrain Chain 3. Third round of global meet-up 4. DBC communities in 15 countries and steady growth of the official communities' size : Telegram, Reddit, Twitter 5. Attendance to one global blockchain summit every month on average 6. Starting cooperation with more famous universities or organisations on blockchain or AI 7. Inviting several DApps to run on DBC Main-net(Beta) and investing in several promising blockchain and AI start-ups
+1. online Beta test 2. Smooth running of the community contribution & reward system on the official website of DeepBrain Chain 3. Fourth round of global meet-up 4. DBC communities in 20 countries and steady growth of the official communities' size : Telegram, Reddit, Twitter 5. Attendance to one global blockchain summit every month on average 6. Starting cooperation with more famous universities or organisations on blockchain or AI 7. Inviting more DApps to run on DBC Main-net(Beta) and investing in several promising blockchain and AI start-ups
+1. Improvement and further testing based on feedbacks 2. Optimisation of the community contribution & reward system on the official website of DeepBrain Chain and release of Alpha version of the community honour system 3. Fifth round of global meet-up 4. DBC communities in even more countries and steady growth of the official communities' size : Telegram, Reddit, Twitter 5. Attendance to one global blockchain summit and one DevCon every month on average 6. Starting cooperation with more famous universities or organisations on blockchain or AI 7. Inviting more DApps to run on DBC Main-net(Beta) and investing in several promising blockchain and AI start-ups
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 19
+
+Chapter 7 Fund Use
+
+As the world's first blockchain based artificial intelligence operating system, we are both the founder of the new model, but also the industry benchmark. The purpose of this Token Sale sale is mainly:
+1. Consolidate the first brand position of DeepBrain Chain industry Optimize DeepBrain Chain system performance, promote marketing, network at home and abroad so that more manufacturers know DeepBrain Chain, and support the use of artificial intelligence business global Token Sale of DeepBrain Chain 2. Harness blockchain technology to create more valuable assets Our goal is to redefine the artificial intelligence operating system with blockchain technology, and to believe that blockchain and artificial intelligence are in line with the technology and scale expectations of the future development of the project. Blockchain + artificial intelligence will change all aspects of our lives. 3. More efficient return to mining nodes contributors and Token Sale sale supporters With the increase in cooperation and demand, the difficulty of mining will be accelerated, allowing the value of the currency to increase rapidly. This will furthermore stimulate the enthusiasm of mining node contributors and directly benefit currency holders. The project team will set up a DeepBrain Chain fund for Token Sale public funds for earmarking, and develop a public disclosure mechanism by cycle, with timely disclosure of details of uses.
+
+Token Sale capital use plan
+
+Category
+Technology research and development
+
+Proportion
+
+Illustration
+
+Employ advanced technical personnel; Set up blockchain laboratory with international first-class universities; Performance optimization and upgrade of DeepBrain 55% Chain system; DeepBrain Chain ecological strategic investment, and create the first specific application case of DeepBrain Chain
+
+Market promotion
+
+Media advertising investment and brand promotion; With users, factories, 25%
+and developers, promote the interpretation and widespread use of DeepBrain Chain
+
+Daily operation
+
+10%
+
+Community incentive
+
+8%
+
+Intellectual property right
+
+2%
+
+Office expenses, travel expenses, transportation fees, conference fees, business entertainment expenses, fees of office equipment, servers, and so on
+Encourage supporters to spontaneously establish regional DeepBrain Chain applications and communicate with communities, and continue to maintain the community's activity, collect suggestions of the majority of supporters to promote the healthy development of the DeepBrain Chain platform
+Patent fees, trademark fees, copyright fees, high and new technology certification and expert exchange at home and abroad
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 20
+
+Chapter 8 About the Team
+Feng He CEO
+CEO of DeepBrain Chain was once enrolled Ph.D. in East China Normal University and Ph.D. in Chinese Academy of Sciences
+Artificial intelligence expert, is honored a title of innovation character of Shanghai computer industry, research on bitcoin and blockchain technology since 2014.
+Proficient in product design and machine learning algorithms. The inventor of intelligent semantic error correction engine for game translation.
+The first batch of entrepreneurs in the field of artificial intelligence in China. He had presided over the research and development of the first Chinese voice assistant smart 360, whose registered users exceeded 17 million. Presiding over the development of the world's first artificial intelligence sound box Small Zhi (half a year earlier than Amazon Echo), and the development of the country's first cloud of the brain system--DeepBrain. He led the DeepBrain Chain team to win the innovation and creativity award in 2017 ZhongGuanCun Second Blockchain Competition.
+Shu Chang
+CTO Ph.D. in artificial intelligence at University of Nottingham, Master`s in Artificial Intelligence, University of Bristol; Double Bachelor's in Beihang University and Astronautics and University of Hull
+He served as a visiting researcher at National Institute of informatics in Japan, during the period, following Nigel Collier, Professor of the University of Cambridge in Computational Linguistics and Big Data Analysis, published several academic papers.
+He is also an artificial intelligence, block chain and cryptography expert, director of artificial intelligence laboratory of Shanghai branch of the Chinese Academy of Sciences Institute and the Semantic Intelligence, and one member of Youth Work Committee of Chinese Information Society of China. He led the AI team to win the first prize in the business community of SMP2017 Chinese man-machine dialogue evaluation of the Harbin Institute of Technology AI evaluation, and more than 30 domestic top artificial intelligence teams participated in the competition. He published many papers in COLING, IJAI and other top international conferences and magazine journals, and in the country has a number of artificial intelligence related patents.
+He is under the tutelage of master level professor of the international machine learning field, Nello Cristianini. Professor Nello Cristianini is a professor of machine learning at the University of Bristol, UK, head of artificial intelligence laboratories, one of the authors of the "Support Vector Machine" and "Pattern Analysis Kernel Functions", one of the top 100 most influential academic researchers of machine learning in the world in 2016.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 21
+
+Chuanfeng Lee
+CMO, Master`s in Architectural Research Institute of MCC Group
+Director of China Audio Association, Founding member of Advanced Audio and Video Industry Association of Pudong New Area, founding director of Intelligent Workshop
+The first batch of entrepreneurs in the field of artificial intelligence in China, Bitcoin and block chain research in 2015
+Individually invest in multiple block chain projects, gaining tens of times revenue
+On behalf of the company, he won the first prize of Innovation China (Shanghai Division) in 2012
+He led the market team to achieve more than 17 million registered users for the first Chinese voice assistant smart 360
+The columnist of a number of technical media in China, publishes a lot of articles on the development of artificial intelligence products and block chain industry analysis, and produces industry influence
+Tony Lee
+Business VP Bachelor's in Management, Anhui University
+Having 16 years of sales experience at Aigo, annual sales champion of Aigo, sales channel leader of Aigo, general manager of Shanghai, Nanjing and Hangzhou branch, general manager of business group of Peninsula Iron; Familiar with the national channel development, 2B2C sales and business development, and the Internet precision marketing. Former channel director, and general manager of the branch of Aigo, the director of business group of Peninsula Iron and a new product line has achieved annual sales of hundreds of millions. He is familiar with consumer electronics market, with research on the overall trend of consumer electronics. His working experience is rich in TO B, TO C actual combat experience, channel resources and sales management experience, good at product sales strategic layout and market demand reversing product landing, and he understands customer's pain point, combines customer demand with technology landing.
+Bruce Feng
+Senior Software Architect Computer Science MS degree from Sun Yat-sen University
+14 years pf experience with software development and framework design. Chief architect of Huawei's open platform. Winner of "Outstanding Employee" , "Outstanding Developer", "Outstanding Project Manager" and "Outstanding Software Architect" among other awards in Huawei. He was responsible for the framework design and core code development of several distributed software systems. One of the software systems he designed is used by more than 100 million users every day. Being an experienced software architect, he is also familiar with C++, JAVA, network communications, distributed system, P2P network, design models, data architecture and blockchain.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 22
+
+Louie Lu, Hardware Director
+Bachelor's in Tongji University
+With 15 years of work experience in visual intercom and smart home industry, R & D and management experience in two Top 500 companies (NEC/Honeywell). Focus on hardware product development and R & D team building, familiar with program selection, technical specifications, R & D process, testing standards, product mass production, etc., with 10+ large embedded product development experiences, and now he is responsible for application research of DeepBrain Chain in the field of Internet of things.
+Chenyu Lu
+Artificial Intelligence Principal Investigator Master`s in Computer Science, University of Arizona, Bachelor's in Computer Science, Shanghai Jiaotong University
+Member of Shanghai Jiaotong University International Collegiate Programming Contest, won the first national physics competition in Shanghai Division
+The main research direction is the optimization and application of block chain technology and depth learning algorithm in the field of NLP and automatic dialogue. He has published several academic papers, on behalf of the company won the first prize in the business community of SMP2017 Chinese man-machine dialogue evaluation of the Harbin Institute of Technology AI evaluation
+Jeason Yi
+master's in University of Science and Technology of China,Bachelor 's in Chongqing University, major in software
+Has worked as a Linux device driver software engineer in Intel Asia Pacific R & D Cente,start to join in blockchain development from 2015,be familiar with the blockchain from bottom level and smart contract.Has been involved in research and development of Bytom chain.Participate in writing the book <Blockchain technological development guide>.
+Lingbin Wang
+Block chain Senior engineer Bachelor's in Tian Jin University major in software Engineering
+As a leader of "TJU-DEMON" team of the ACM International Collegiate Programming Contest. Awarded the eighth prize in Korea Division of ACM/ICPC (College Students' Programming Competition)2007ACM/ICPC(College Students' Programming Competition)Beijing Division Bronze Medal Familiar with solidity, truffle, zepplin, web3js, testrpc etc.Right now mainly using Java & Go to develop. Had lots of years programming on Java, Go, Javascript, C++, C#, Luahad worked as the R & D Engineer at ChangYou and Giant Interactive Group Inc.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 23
+
+Chapter 9 Investment Institutions, Investors and Consultants
+9.1 Investment Institutions
+GSR Ventures focuses on investing based in China and faces high and new technology start-ups in the global market. GSR Ventures currently manages more than $1 billion in funds and has a long-term strategic partnership with Mayfield Fund (founded in 1969), the "oldest" venture capital fund in SilToken Salen Valley. GSR Ventures has offices in Beijing, China and SilToken Salen Valley, USA. It has invested in Qunar, Lily network, Didi Taxi, Xiaohongshu, Inke, ele.me, OFO, and other well-known start-up enterprises, and it is the first-tier investment fund in China.
+
+Gobi Partners has offices in Shanghai, Beijing, and Southeast Asia, and is a professional venture capital company focusing on investing in China's early science and technology projects. Gobi fund's strategic investors include IBM, Sierra Ventures, The McGraw-Hill Companies, and Steamboat Ventures (Disney's venture capital sector), etc. It has invested in Tuniu, Camera360, CloudCare, and other famous start-ups, and is a veteran investment fund.
+GBIC (Global Blockchain Innovation Center) is a global hub for blockchain technology that provides investment, human capital, and resources for the development, acceleration and launch of blockchain projects. We utilize our global network of resources & investors from China, Russia, Europe & Korea to provide investment and services including Marketing & PR, community building, exchange listings, white paper and token analysis.
+
+9.2 Partnership in blockchain technology
+The NEO council is a non-profit organization and is the management organization for its blockchain community. NEO is a digital asset enabled by blockchain technology and digital identity. NEO is a distributed network, using smart contracts in an automatic fashion for the management of digital assets in order to carry out "intelligent
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 24
+
+Columbia Blockchain Lab is the central resource for Blockchain technology education at Columbia University. It aims at fostering a culture that routinely analyzes the revolutionary ways in which blockchain technology impacts society. Since its foundation, CBL has connected numerous high-profile blockchain projects to developers as well as investors.
+
+9.3 Investors
+James Ding Managing Director of Jinsha River Venture Capital Fund, Former
+AsiaInfo co-founder & CEO. AsiaInfo has assumed the design and construction of China's Internet infrastructure. In March 2000, he led AsiaInfo become the first high-tech company listed on the NASDAQ in the United States. Currently, he is a director of AsiaInfo Group and an independent director of Baidu. Prior to that, he served as chairman, chief executive officer, chief technology officer and vice president of business development at AsiaInfo. bachelor's in Peking University in 1986 and Master`s in information science at the University of California, USA. He invested in Iboxpay, Skyroam, GEO, Horizon Robot, etc.
+Zhiwei Yang Capital Partner of Jinsha River Venture Capital Fund, focuses on the
+Internet, telecommunications, and wireless and payment investment. Former China Netcom CTO; during his tenure at AsiaInfo, he helped the company succeed in the Nasdaq IPO. Master`s in Business Administration from Guanghua School of Management. Investment projects are iboxpay, Skyroam, GEO, and so on
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 25
+
+Don Jiang management partner of Gobi Investment, focus on the domestic
+Internet, tourism and e-commerce field, He has invested in tuniu.com, Yododo, Zhiyoula, Weilver, the next stop and other tourism related projects, line0.com, Dianwoba, life radius and other O2O enterprises, and Pingread, Star Wardrobe and other mobile applications products. He was the website and business planning director of elong tourism network, the Managing Director of IAC Technology (corporate website and IT service provider) and has led the team for GE, Ingram Micro, Siemens and other international top 500 companies and the British Ministry of Industry and Commerce to successfully implement the website technology-based IT projects. bachelor's in electrical engineering from Fudan University.
+
+Highj Tsien partner of Qian Shi Investment, mainly does investment of artificial
+intelligence and block chain early project. With 5 years of state-owned commercial banks practitioners' background, he helped well-known housing financing and responsible for a supply chain financial solutions project of foreign auto parts enterprise. He has 2 years experience in central enterprises background investment Management Company, worked as marketing and product design, development, training, road show and so on. bachelor's in software engineering, Fudan University
+Tangjun Hu vice president of Gobi Investment, focuses on domestic cloud
+computing, vehicle networking, voice recognition and mobile Internet and other fields. He served as project manager in the Martec Group Management Consulting Company in the United States of America, whose project involved traditional industries such as chemical and automotive, as well as emerging fields of new materials, new energy vehicles, optical communications and consumer electronics, and he served a number of Fortune 500 companies, including Dow Chemical, Henkel, DuPont, Honeywell, Corning, Sinochem International, China Railway Materials and so on. bachelor's in chemistry Shanghai Jiaotong University and passed the CFA level 1 test.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 26
+
+Jun Zou Zhongguancun block chain industry alliance expert, Ph.D. in service
+contract, Macquarie University, Australia, MBA of Macquarie Business School, senior cloud computing expert, concerned about the block chain technology and applications. Former chief architect of the financial department of IBM Australia, the current CTO of Heiner Cloud Computing co., Ltd. He has years of IT experience, whose research direction is the block chain of financial technology, regulatory technology, and block chain consensus algorithm. In 2016 at the IEEE International Conference of Web Services (ICWS) he published block-chain thesis, and won the best paper award. He won the "President Award" the Macquarie University President awarded, Financial Beijing high-end foreign expert, and published more than 20 papers in the international conference journals.
+
+Huawei Kong Director of Institute of Chinese Academy of Sciences, Shanghai Branch, partner of Starting Capital, IC coffee sponsor, italk salon founder; focus on the block chain, Internet of things, virtual reality, cloud computing, large data and artificial intelligence and other fields, invest in many projects; He holds master's in theoretical physics from Zhejiang University and bachelor's in theoretical physics from Peking University.
+
+Dapao Wang master's in computer science from Zhong Shan University, a formal
+member of the Alibaba architecture group, famous coin circle and chain circle opinion leader, evangelist of domestic bitcoin and , and known for its expertise in investing in block chain projects. Now he is the person in charge of "chain investigation" of block chain professional evaluation agency, person in charge of "future virtual currency" which is a well-known public account.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 27
+
+Ren Wu Ph.D.famous computer chess expertAMD Heterogeneous
+System Chief Software Architect HP LaboratoryCUDA Reacher Center Chief ReacherBaidu
+remarkable scientistNovuMind founder. Had worked as Senior Scientist of HP Laboratory and CUDA Reacher
+Center Chief Reacher. Had worked as remarkable scientist in Baidu Institute of Deep Learn-
+ing. Independently designed Chinese Chess Super Program in the
+world--"Meng Ru Shen Ji" won the Champion in Computer Chess Olympic Competition twice.
+His doctoral study "the abductive algorithm and its application" is better than contemporary computer science scholar, Turing Award winner Ken Thompson invented the classic algorithm.
+He is using abductive algorithm to research Chinese Chess endgame systematically and made a significant discovery. He is the first person in the world that using computer produced knowledge to supplement human being knowledge.
+
+Chaoyi Xu bachelor's in Chemical of An Hui UniversityInvestment director of
+well-known block chain investment institutions. Investment director of Calf VC. Thirteen years high-tech industry research and management experience. An angel investor in AI and block chain fields.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 28
+
+Hua Zhang Lhang CEOCascadia Block chain Group Representative of the Asia
+Pacific Region Starting entrepreneurship from 2014 in block chain and digital asset
+field, is committed to the block chain applications and finance, payment, trading and other fields, industry opinion leaders. Awarded annual female CIO 2016 annual FinTech Jie Pu. bachelor's in Shanghai Jiao Tong University.
+Worked for A.T.Kearney analyst for HuaXia dun& bradstreet Strategic Consultant for Euromonitor International. Served in the Visa, Mastercard and other world-renowned financial institutions engaged in financial, payment. Engineering industry analysis and strategic consulting work for the world's top 500 enterprises. Quantify private equity entrepreneurship experience, good at stock, stock index futures and digital asset analysis and strategy research and development.
+
+Qiang Chan Founder of China's famous start-up media, founder of Tuoniao.Fm
+media. Engaged in business investment and business service for nearly ten
+years, worked for the Shanghai City College of science and technology entrepreneurship foundation and Shanghai well-known venture capital institutions and venture relay groups. Serving more than thousands early entrepreneurial project, have experienced new media operation experience and resources of venture capital. Tuoniao.Fm media is early domestic well-known new media in venture capital field, and has got the 2 round of financing, its market valuation of tens of millions. From the end of 2016, participated in the domestic and foreign more than 10 high-quality block chain project investment, and at the same time hatching Tuniao block chain Token Sale.tt. Tuoniao is an integrated platform for domestic professional block chain industry. Recent did incubation services more than 10 high-quality block chain and digital currency projects, trying to construct the digital currency field of investment banking services.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 29
+
+Chapter 10 Voting and Community Governance
+10.1 Operating Subject
+DeepBrain Chain set up DeepBrain Chain foundation in Singapore. The main task of the foundation is to run DeepBrain Chain platform openly, fairly, transparently, without profitable purpose, and deeply support the development team. The foundation is a legally established organization that supports or participates in the public or private interests without any commercial interests. The profit earned by the fund is called surplus and will be retained as funds for other activities without allocating profits among its members.
+10.2 Governance Structure and Voting
+In order to let the DeepBrain Chain foundation make use of the funds and resources in an open, fair, and transparent way, to constantly promote the rapid development of DeepBrain Chain, to expand the application scenarios of DeepBrain Chain, and to absorb more institutions, companies, and organizations into the DeepBrain Chain ecosystem, the foundation sets up the organizational structure as follows: Decision Committee
+The decision committee is the highest decision-making body of the DeepBrain Chain foundation, which bears the final decision-making function. Members of the decision-making committee are responsible for review and approval of strategic planning, annual plan, budget, and other important matters, and on behalf of the foundation vote on the DeepBrain Chain ecological issues. Members of the decision committee and the chairman of the foundation are in office for two years. Executive principal
+The executive principal is elected by the decision committee and is responsible for the decision committee. The executive principal will comprehensively implement the relevant resolutions and provisions of the decision committee, will be responsible for the daily operation of the DeepBrain Chain, will complete the indicators issued by the company, and will regularly report the implementation to the organization. The executive principal has the right to set up the necessary functional departments and to recruit the management personnel, responsible for coordinating five departments (technology research and development, product design and manufacture, ecological operation, marketing, and financial personnel) to form an organization and management system centered on it.on it. Technology R & D Committee
+The technology research and development department is responsible for the development and audit of the underlying technology. It is the basic department of the foundation. In order to ensure smooth internal sharing of information, the technology research and development department should exchange information with other departments (especially product design department), timely adjust the communication project details, and determine the direction of research and development of the next stage.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 30
+
+Product Design Committee The product design department is responsible for enriching and perfecting the product framework
+provided by the technical department. The department establishes a sustainable concrete development strategy, such as conducting market research, coordinating product functions, and undertaking UI design and image design of DeepBrain Chain. Members need to keep abreast of community dynamics, hot spots, and feedback. Members also need to actively communicate with tokens holders and irregularly organize technical exchanges and other activities. Ecological Operations Committee
+On the basis of the technical and product sectors, the eco-operations department is responsible for "one outside one inside." First, the work will be extended to the depths, and the partners will be actively explored. DeepBrain Chain, end users, and partners will be closely linked to create an open and distributed global ecosystem of privacy protection. Second, the department will strive to build a community within the ecological circle, form a user community with benign interaction, and let fully symmetrical information flow freely. Marketing Committee
+The marketing department is responsible for promoting the core or derivative products and services of DeepBrain Chain. Responsibilities include, but are not limited to, communication with the media, advertising, design, user interaction, and so on. The department will work closely with the ecological operations department and, according to the requirements of partners and end users, develop the most appropriate publicity program.
+Financial Personnel Committee The financial personnel department is responsible for the management of the company's financial affairs
+and personnel matters, such as capital management, accounting, cost control, and other aspects of the work. At the same time, due to the high risk of digital assets projects, the department is also responsible for risk management business, cooperating with other departments for project management, financial risk analysis, and evaluation. In auditing, the existing system is difficult to supervise effectively, because of the particularity of digital assets and token itself. The decision committee will hire professional auditors with relevant experience to ensure transparency and openness of DBC use.
+Chapter 11 Risk Tips
+
+1. Systematic risk: refers to the possible change in the revenue due to the common factor of the global factor, which affects the return of all securities in the same way. Take policy risk, for instance. At present, the country's supervision policy for blockchain project and Token Sale mode financing is not clear, and there is a certain possibility of loss of participants caused by policy reasons. As for the market risk, if the overall value of the digital asset market is overestimated, then the investment risk will increase; the participants may expect the Token Sale project to grow high, but these high expectations may not be realized. At the same time, systemic risk also includes a series of force majeure factors, including, but not limited to, natural disasters, large-scale failures of computer networks in the world, and political unrest.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 31
+
+2. Risk of lack of supervision: Digital asset trading, including DBC, is highly uncertain, due to the lack of strong supervision in the field of digital asset trading. Meanwhile, electronic token has the risk of soaring, plunging, and being manipulated by the banker. If an individual lacking experience enters the market, it may be difficult to resist the impact of assets and psychological pressure caused by market instability. Although academic experts and the media sometimes give cautious participation suggestions, there are no written regulatory methods and provisions introduced, in a way that the current risk is difficult to effectively circumvent.
+3. Risk of supervision: It is undeniable that in the foreseeable future, regulations will be introduced to regulate the blockchain economy concerning the electronic token sector. If regulatory bodies regulate the sector, the tokens purchased during the Token Sale period may be affected, leading to fluctuations or limitations in price and marketability.
+4. Team risk: At present, there are many teams and projects in the blockchain technology field, and the competition is very fierce. There is a strong market competition and project operation pressure. Whether or not DeepBrain Chain project can break through many excellent projects and become widely recognized, is not only linked to its own team capacity and vision planning, but also linked to external factors such as competitors and even oligarchs in the market. There is a possibility of vicious competition.
+5. Risk within team: DeepBrain Chain brings together a team of both vigor and strength, attracting senior practitioners in the field of blockchain, experts in the field of artificial intelligence, and experienced technical development personnel, etc. As a pioneer of China's regional blockchain in the field of artificial intelligence Token Sale, DeepBrain Chain boasts stability and cohesion of the team, which are crucial to the overall development of the project. In the future development nonetheless, note that it is not possible to exclude the possibility that the team will be negatively affected by the departure of the core personnel and conflicts within the team.
+6. Project overall planning and marketing risk: The DeepBrain Chain initiative team will spare no effort to achieve the development goals outlined in the white paper and extend the growth space of the project. Because the white paper may be adjusted as the details of the project become updated, if the details of the project update are not timely obtained by the Token Sale participants, there could be information asymmetry, which might negatively affect the subsequent development of the project.
+7. Project technology risk: First of all, the project is based on cryptographic algorithm, and the rapid development of cryptography is bound to bring potential risks to be cracked. Secondly, while blockchain, distributed ledger system, decentralization, disagreeing with tampering, and other technologies support the core business development, DeepBrain Chain team cannot fully guarantee the landing of all of these technologies. Thirdly, during the process of project updating and adjustment, there may be loopholes, which can be remedied by releasing patches, but the extent of the impact caused by the vulnerability will be variable.
+8. Hacker attack and crime risk: In terms of security, the amount of a single supporter is very small, but the total number is large, which puts forward high requirements for the security of the project. Note that electronic tokens are anonymous and difficult to trace. They could easily be used by criminals, be attacked by hackers, or be involved in transferring illegal assets.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 32
+
+DeepBrain Chain may face some unexpected risks. Participants should fully understand the team background, know the overall framework and ideas of the project, make reasonable adjustments to their vision, and participate in the collection of tokens rationally before participating.
+
+Chapter 12 Disclaimer
+
+1. This document is only used as communication information. The content of the document is for reference only and does not constitute any investment proposal or solicitation of the sale of stocks or securities pertaining to DeepBrain Chain and its related companies. Such solicitation must be carried out in the form of a confidential memorandum and must comply with relevant securities laws and other laws.
+2. The content of this document should not be interpreted as forced participation in the Token Sale. Any act related to this white paper shall not be considered as participating in the Token Sale, including taking a copy of the white paper or the sharing of it.
+3. Participation in Token Sale represents that one has reached the age standard and has a complete capacity for civil conduct, so that the contract with DeepBrain Chain is true and effective. All participants sign the contract voluntarily and should have a clear and necessary understanding of DeepBrain Chain before signing the contract.
+4. DeepBrain Chain team will continue to make reasonable attempts to ensure that the information in this white paper is true and accurate. In the development process, the platform may be updated, including but not limited to platform mechanisms, tokens, their mechanisms, and token distribution. Part of the content of the document may be adjusted in the new white paper as the project progresses. The team will update the content by issuing announcements or new white papers on the website. Participants must access the latest version of the white paper and timely adjust their decisions according to the updated content. The DeepBrain Chain clearly indicates that they do not bear the loss of participants due to (I) facts that might depend on the content of the document, (II) inaccuracies in the information of this article, and (III) any act resulting from this article.
+5. The team will spare no effort to achieve the goals mentioned in the document. However, given the presence of force majeure, the team might not be able to completely accomplish the commitment.
+6. As an official token of DeepBrain Chain, DBC is an important tool for platform effectiveness, not an investment product. Owning DBC does not represent the ownership, control, and decision-making power of the DeepBrain Chain platform granted to its owner. DBC as an encrypted token used in the DeepBrain Chain, does not belong to the following categories: (a) any kind of currency; (b) securities; (c) shares of legal entities; (d) stocks, bonds, notes, warrants, certificates, or other instruments granting any rights.
+7. DBC's value depends on the laws of the market and the demand after landing. It may not have any value, in which case the team will not make additional commitment to increase its value. The team is not responsible for the consequences caused by the increase or decrease in the value of DBC.
+8. Within the maximum extent permitted by applicable law, the team is not responsible for damages and risks arising from participation in public offerings, including, but not limited to, direct or indirect personal damage, loss of commercial profits, loss of commercial information, or any other economic loss.
+
+DeepBrain Chain: Artificial intelligence computing platform driven by blockchain
+
+introduction 33
+
+9. The DeepBrain Chain platform complies with any regulatory policy that is conducive to the healthy development of the Token Sale industry, as well as industry self-regulation statements. Participant's participation means that he or she will fully accept and comply with such inspections. At the same time, all information disclosed by the participant to complete such inspections must be complete and accurate.
+
+10. The DeepBrain Chain platform clearly communicates the possible risks to the participants. Once participants have participated in the Token Sale, they have recognized the terms and conditions in detail, have accepted the potential risks of the platform, and have borne the consequences at their own expense.
+
+11. Citizens of nations that have banned Token Sale are not allowed to participate.
+
+

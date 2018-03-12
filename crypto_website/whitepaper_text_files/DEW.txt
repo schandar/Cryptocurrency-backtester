@@ -1,0 +1,897 @@
+Genesis Vision WHITEPAPER © 2017 Genesis Vision. All rights reserved.
+
+Whitepaper Draft
+Version 05.10.2017
+Dmitry Nazarov Ruslan Kamenskiy Alexey Kutsenko
+
+Contents
+
+1. Introduction
+
+5
+
+2. Market Description
+
+5
+
+2.1 Market Participants
+
+5
+
+Managers
+
+5
+
+Investors
+
+5
+
+Brokers
+
+5
+
+2.2 Market Operation Scheme
+
+6
+
+2.3 Market Size
+
+6
+
+2.4 Traditional Trust Management
+
+8
+
+3. Description of the Problem
+
+8
+
+4. Our Solution
+
+10
+
+4.1 Advantages for Investors
+
+11
+
+4.2 Advantages for Private Managers and Funds
+
+12
+
+4.3 Advantages for Brokers
+
+13
+
+5. Project Architecture
+
+14
+
+5.1 Platform Structure
+
+14
+
+Smart Contracts
+
+14
+
+Internal Exchange of Managers' Cryptocurrencies
+
+15
+
+Integration with Trading Platforms
+
+15
+
+Client Applications
+
+16
+
+6. Scheme of Operation of the Platform
+
+17
+
+6.1 Connecting a Broker
+
+17
+
+6.2 Connecting Managers
+
+18
+
+6.3 Managers' Coins
+
+19
+
+6.4 Detailed Process Description
+
+19
+
+Registration
+
+19
+
+Reporting Period
+
+20
+
+End of Reporting Period
+
+20
+
+6.5 Managers' Trading History Control
+
+20
+
+7. Implementation of the Genesis Network
+
+21
+
+7.1 Capturing the Market
+
+21
+
+7.2 Possible Problems and Their Solutions
+
+22
+
+Blockchain Restrictions
+
+22
+
+Currency Conversion Problems
+
+23
+
+8. Genesis Vision Fund
+
+23
+
+8.1 Genesis Vision Investment AI
+
+23
+
+9. Project Economics
+
+24
+
+9.1 Sources of Project Profit
+
+24
+
+10. Token Sale
+
+24
+
+10.1 Genesis Vision Token Sale Options
+
+25
+
+Conditions
+
+25
+
+11. Genesis Vision Token
+
+26
+
+11.1 Factors Influencing GVT Price Growth
+
+27
+
+12. Development Plan
+
+27
+
+12.1 Blocks of Our Planned Works
+
+27
+
+13. Roadmap
+
+29
+
+14. Allocation of Funds
+
+30
+
+15. Team and Project History
+
+30
+
+1. Introduction
+Genesis Vision is the platform for the private trust management market, built on blockchain technology and smart contracts. We unite exchanges, brokers, traders, and investors into a decentralized, open and fair network, making the financial market even more global. This will allow successful traders to rapidly scale their trading strategies by attracting investments from around the world. The smart contract technology that underlies the platform will provide an automated and absolutely transparent system for investment and profit distribution.
+The Genesis Vision platform is the solution for the most crucial industry problems, such as limitedness due to the lack of information, lack of transparency and, consequently, lack of trust.
+Fundraising and the use of GVT (Genesis Vision Token) will help to finance product development, marketing and advertising for the development of the platform. GVT is an internal currency of Genesis Vision platform and will be used for all investment operations and profit distributions.
+2. Market Description
+2.1 Market Participants
+Managers Management funds/traders are companies/individuals with a proven trading history, ready to acquire investors' money for management. The profit, received as a result of management of the total funds, is shared proportionally between the managers and investors. Managers receive a commission for management and a commission from the profit (success fee).
+Investors Investors do not trade in the market directly. Instead, investors transfer their funds to experienced traders who manage the funds for them. Investors get their shares from their managers' profits.
+Brokers Brokers are companies that have the appropriate licenses to carry out brokerage activities. Through brokers, traders have access to trading financial instruments on exchange and over-the-counter markets.
+5
+
+2.2 Market Operation Scheme
+
+Invests Funds
+
+Trades
+
+Investor
+
+Manager
+
+Profit
+
+Profit
+
+Broker
+
+Exchange
+
+2.3 Market Size
+The trust management market is growing rapidly every year. According to the Boston Consulting Group report Global Asset Management 2016, the total amount of funds in management is more than $70 trillion.
+
+Assets Under Management ($trillions)
+
+80
+
+70.5
+
+71.4
+
+60 52 43
+40 29
+20
+
+0
+
+2002
+
+2007
+
+2008
+
+2014
+
+2015
+
+6
+
+Assets Under Management, 2007-2015 ($trillions)
+
+40
+
+36.4
+
+36.1
+
+35
+
+30
+
+27.3
+
+25
+
+20
+
+15
+
+10 5 0
+North America
+
+18.9
+
+19.6
+
+14.2
+
+Europe
+
+5.2
+
+5.2
+
+4.3
+
+Japan and Australia
+
+1.8
+
+1.9
+
+0.8
+
+Latin America
+
+1
+
+1.4
+
+1.5
+
+Middle East and Africa
+
+4.8
+
+5.2
+
+2.4
+
+Asia (excluding Australia and Japan)
+
+Data: Global Asset Management 2016 by Boston Consulting Group (http://www.agefi.fr/sites/agefi.fr/files/fichiers/2016/07/bcg-doubling-down-on-data-july-2016_tcm80-2113701.pdf)
+
+Quantitative data about client assets actively traded and under management on global Forex and CFD markets:
+
+Region/Country China
+
+Estimated Clients' Equity ($)
+$2,700,000,000
+
+Estimated Managed Monthly Trade Volume
+(bln, $)
+
+Estimated Managed Funds Share
+
+$1,890
+
+70%
+
+Estimated Managed Funds Equity ($)
+
+Estimated Monthly Managed Funds Trade
+Volume (bln, $)
+
+$1,890,000,000
+
+$1,323
+
+Japan
+
+$5,900,000,000
+
+$1,770
+
+35%
+
+$2,065,000,000
+
+$620
+
+Middle East
+
+$1,059,000,000
+
+$953
+
+30%
+
+$317,700,000
+
+$286
+
+South East Asia Russia & CIS
+
+$200,000,000 $250,000,000
+
+$180 $225
+
+65% 35%
+
+$130,000,000 $87,500,000
+
+$117 $79
+
+EU
+
+$1,100,000,000
+
+$990
+
+35%
+
+$385,000,000
+
+$347
+
+Africa
+
+$35,000,000
+
+$32
+
+LatAm
+
+$50,000,000
+
+$45
+
+55%
+
+$19,250,000
+
+$17
+
+35%
+
+$17,500,000
+
+$16
+
+Data based on an analysis of industry reports from GFF Consulting)
+
+7
+
+Traditional Trust Management From a technological point of view, traditional fiduciary management systems are a black box to potential investors, because how they work is not always known or understood. In any event, all of the current solutions boil down to the investor using some software to transfer money to a financial manager and then waiting to receive profits. However, investors have no opportunity to control their own funds. Furthermore, the fiduciary management system itself doesn't give investors any technical abilities to ensure that their funds are returned, nor does it provide an understanding of how the money is used.
+The investors receive a statistic on the use of their assets and the financial manager's performance, but this statistic is determined entirely by the company and financial manager. At present, investors have essentially no way to verify this information. Too often, the real situation is understood too late, when the money can no longer be returned.
+Dishonest companies exploit this, scheming to attract customers by using high figures that turn out to be not so promising in reality.
+Our system adds transparency and, on a technological level, increases asset security and information reliability. Decentralization guarantees that one person won't be able to use the entire system for his personal interests.
+3. Description of the Problem
+Despite the industry's steady growth, existing trust management mechanisms do not meet the requirements of modern investors and managers.
+Managers, and consequently their investors, are tied to their brokers/exchanges. Simultaneously, there is no consolidated reliable source of information or statistics. This deprives investors of flexibility in their choices and limits the manager's ability to attract new funds.
+Other Manager
+
+Investor
+
+Manager
+
+Other Broker
+
+Broker
+
+Other Broker
+
+8
+
+The lack of transparency further exacerbates the situation. Brokers have the technical ability to influence the data on the trade history and statistics of their managers. The potential investor does not have the ability to distinguish the real trade history from the counterfeit, and the existing graph of the manager's profit from the "drawn". The mechanisms of investment, distribution of profits and commissions are hidden inside the realization of trading platforms and are not open to market participants.
+
+Investor
+
+Investment
+
+Manager
+
+Profit
+
+Statistics
+
+Trades
+
+Broker - Information can't be verified
+
+A large number of fraudulent conducts in the trust management market was detected in recent years[1]. A lot of Ponzi schemes were created under the guise of currency, stocks and other assets trading. Fraudsters used the fact that technological solutions for trust management by default are very complicated and non-transparent for users. As a result, customers lost their money overnight, and investor's confidence in the market as a whole began to fall.
+The natural reaction for this situation was tightening the regulations in this sphere. Nowadays companies have to come a long and expensive way in order to obtain licence for trust management activities. Conscientious companies have to implement complex and costly reporting and auditing systems as well as to impose serious restrictions for investors. Obviously, neither companies nor investors benefit from that. However, offshore companies continue operating without licences and deceiving their clients.
+All of these factors lead to serious limitations on the potential of market participants, lack of usability, and lack of trust.
+Despite the visibility of the existing problems in the industry, for the past 10 years, the mechanisms of interaction between market participants have not undergone significant changes. This indicates the need to introduce new technologies that will change the current situation.
+We believe that one of such technologies can become the blockchain. Implementation of blockchain will allow trust management market to achieve transparency and efficiency on the technological level. This will help to regain the trust to the market. Besides that, it will attract the attention of new companies and the investors of the new digital generation.
+
+[1] http://www.financemagnates.com/forex/regulation/30-million-forex-ponzi-scheme-unveiled/ , https://www.mql5.com/en/blogs/post/161130
+
+http://www.financemagnates.com/forex/regulation/forex-ponzi-scheme-charged-by-cftc/, http://mayaonmoney.co.za/2017/06/investors-may-lose-millions-suspect-forex-trading-scheme/
+
+https://atozforex.com/news/exential-group-forex-trading-scam/
+
+9
+
+4. Our Solution
+Genesis Vision is a decentralized trust management platform built on blockchain technology and smart contracts. Blockchain technology provides indispensable advantages, such as openness, immutability, and censorship-resistance of all stored information, whereas smart contracts, which will be carrying out investment and profit distribution, make these processes completely transparent and open.
+Each manager in the Genesis Vision network has his own cryptocurrency. The size of the issue depends on successful trade statistics. The process of transferring funds to the manager is carried out by buying a manager's cryptocurrency on the internal exchange.
+From manager's point of view, the trade process will not change. The trader will continue to operate on the exchange or through a convenient broker. Genesis Vision, in turn, represents a common open source of reliable information about the statistics of the network participants' activities and an absolutely transparent system of investment and profit distribution, built on smart contracts.
+Investor
+
+Manager's Token
+Investor
+
+Broker
+
+Broker
+
+Manager
+
+Manager
+
+Manager
+
+Manager
+
+Manager's Token
+Investor
+
+Manager's Token
+-Genesis Vision Token -Manager's Token
+
+Broker
+
+Broker
+
+Investor
+
+Manager's Token
+10
+
+4.1 Advantages for Investors
+Investors have access to managers from all over the world. Information is available on their trading and profit statistics, which is now accessible in one place. The set of managers is not limited by any set of financial instruments Investors have the ability to invest both in the cryptocurrency and in the fiat currencies. Profit distribution is completely transparent and open There is better availability of investment portfolios for any request (high-risk, low-risk, etc.). Investors have additional protection, due to the fact that all managers have a real trading history that cannot be faked. Investing is now not just a transfer of money but the purchase of a cryptocurrency, which remains liquid throughout the process and can be resold at any time.
+11
+
+4.2 Advantages for Private Managers and Funds
+There are increased opportunities to attract investors from any country, regardless of whether they are a client of the same broker or not. Transparency and fairness of report construction guarantees fair competition between all managers. There are excellent opportunities for promoting your own trading strategy to attract more investors. There is increased investor confidence, due to guaranteed transparency, which will lead to an increase in the average investor's check. Managers issue their own branded cryptocurrency, which can be freely traded by investors.
+12
+
+4.3 Advantages for Brokers
+There is no centralized company. The company is decentralized and is represented by all network members.
+Brokers have an opportunity to attract investors from all over the world.
+Participation in the network is free with identical terms for all participants. All necessary software is open and free. If necessary, it can be further adjusted to meet the needs of the broker. Due to the openness of Genesis Vision software, brokers can be sure that their data is not compromised or disclosed.
+Brokers have the right to do any marketing, use any methods of attracting managers, and establish any trading conditions for managers. The system does not require any information about the broker's client base. The only necessary information is the manager's trading history, which will be placed into the blockchain and the profit of the manager, which will be brought to the Genesis Vision system for distribution between investors.
+13
+
+5. Project Architecture
+5.1 Platform Structure
+Smart Contracts The Core of the project are the Ethereum smart contracts.
+
+Application for working with the internal
+exchange and platform
+
+Smart Contracts
+
+Integration with Trading Platforms
+
+PLATFORM STRUCTURE
+
+Internal Exchange of Managers'
+Cryptocurrencies
+
+Personal Cabinet
+
+Registration of Investor
+
+Interaction with Integration Modules
+Profit Distribution Between Coin Holders
+
+ETHEREUM SMART CONTRACTS
+
+Registration of a New Broker / Exchange / Fund
+Creation of a Manager Account
+
+Issuance and Management of Manager Coins
+
+14
+
+Internal exchange of managers' cryptocurrencies Internal exchange of the Genesis Vision platform is the place where investors can purchase and sell managers' coins. Managers have a limited amount of coins, which depends on their level. Initially, these coins can only be purchased directly from the manager for a fixed price. Afterwards, they can be freely traded among the investors on the internal exchange. In this case, investors set their own price for their managers' coins. The cost of these coins will depend on the success of a manager's trading because the manager's profitable trading makes his/her coins "profitable."
+
+Manager
+
+Profit Investor Profit
+
+Manager
+
+Profit Investor
+
+Exchange
+
+Profit Investor
+
+Integration with trading platforms In order to connect to the Genesis Vision network, a broker needs to install an integration plug-in for his trading platform. This plugin will be a bridge between the blockchain and broker's trading platform. The integration plug-in will perform the following functions:
+Interact with Smart Contracts and the Ethereum Broker's Wallet
+
+BROKER'S TRADING PLATFORM
+
+INTEGRATION PLUGIN
+
+GENESIS VISION NETWORK
+
+Transfer money to the manager's trading account,
+according to the transferred funds of investors
+
+Receive all transactions of the manager and write
+to IPFS2 in real time
+
+[2] IPFS - content-addressable, peer-to-peer hypermedia distributed file system (github.com/ipfs/ipfs)
+
+15
+
+Client Applications To interact with the platform, a mobile and web application will be developed. This application will allow investors and managers to perform all of the necessary actions. The basic actions include:
+View the List of Managers
+
+Trading Managers' Tokens on the
+Internal Exchange
+
+BASIC ACTIONS
+
+Viewing the History of Trades and Statistics
+of Managers
+
+Investing in Managers
+Application functionality for managers:
+Creating, Depositing Funds, and Configuring Your Trading Account
+
+Viewing the Actions of Investors at the End of the Reporting Period
+
+APPLICATION FUNCTIONALITIES FOR MANAGERS
+
+Viewing Your Statistics and Trades
+
+Viewing the List of Investors
+16
+
+6. Scheme of Operation of the Platform
+
+Profit
+
+Investor
+
+Profit
+
+Trading Platform
+Profit Investor
+Profit
+
+Trading Platform
+
+Trading Platform
+Profit
+Investor Profit
+
+6.1 Connecting a Broker
+The broker's connection scheme is as simple as possible: the owner of the trading platform only needs to install the Genesis Vision software, which is free and distributed with an open license. Brokers can also provide potential managers' access to the Genesis Vision Manager registration function in their client application - generally a "Become a Genesis Vision Manager" button.
+17
+
+6.2 Connecting Managers
+Traders submit applications either through their brokers' websites, connected to the Genesis Vision network, or directly through the website http://genesis.vision. Under simple conditions (having a minimum amount of one's own funds in a trading account), the trader becomes the manager on the Genesis Vision platform. From that moment, all managers' trades will be automatically verified, uploaded, and recorded in a smart contract, building a trustworthy trading history and statistics.
+A new manager registration triggers the emission of his own cryptocurrency in the initial amount of one thousand coins, available for purchase to any member of the network. Additional issue of coins (i.e., attraction of additional funds to management) depends on the level of the manager, which, in turn, directly depends on the success indicators of a particular manager's trading.
+Available investments depend on the level of the manager:
+
+MAXIMUM INVESTMENTS $ 100 000 000
+$ 500 000
+$ 200 000
+$ 100 000
+$ 50 000
+$ 10 000 $ 1 000 + min. $ 1 000
+OF OWN FUNDS 0
+
+LEVELS
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+The manager trades using both his capital and the funds invested by investors. The profit received as a result of the trade is automatically distributed proportionally between managerial token holders at the end of the reporting period. Managers themselves choose the length of the reporting period, according to their trading strategies. The choice is limited to options such as one week, two weeks, one month or three months
+
+18
+
+6.3 Managers' Coins
+Investing is performed by purchasing a manager's cryptocurrency. This method has several advantages over the traditional scheme of transferring money to a manager's account:
+The manager's coin itself is an asset. At any time, the investor can transfer/sell this cryptocurrency on the internal exchange. The investor has the right to return the coins to the manager. However, the return occurs only at the end of the reporting period.
+The additional element of gamification appears. Unlike the traditional scheme, the user does not just give his money to an unknown until the end of the reporting period. Instead, the user buys "tangible" coins that are displayed in his or her personal cabinet and can be cashed at any time. This encourages investors to potentially assemble large packages of different coins, which is a contrast to traditional investing.
+There is an additional factor of involvement and user retention. In the traditional investment scheme, investors are not involved in the process that occurs between the moment of investing and making profits. In our case, they will be able to constantly monitor the exchange rates of their managers' coins and the issuance of new coins, trade cryptocurrency on the internal exchange and so forth.
+When investors purchase coins, GVTs are transferred to a broker's account, where they are converted to required currency and transferred to a manager's trading account. Coin holders receive part of the manager's profits, according to their share, minus the manager's commission and fee. The investor has the right to transfer coins or sell on the internal exchange.
+The investor can withdraw invested money, but only at the end of the reporting period, having previously created an application for withdrawal. In the case of returns, the investor receives the money according to his or her share, and the coins are returned to the manager for further sale on the internal exchange.
+6.4 Detailed Process Description
+Registration
+1. In order to become a manager of Genesis Vision, traders confirm their participation on their broker's website or on the website http://genesis.vision. A prerequisite for participation is the availability of a minimum amount of their own funds in the trading account.
+2. When registering, the manager indicates the length of his reporting period, in accordance with his trading strategy (one week, two weeks, one month, three months)
+3. This completes the registration, and the trader enters the list of Genesis Vision managers.
+3.1 The manager's trading account is blocked from depositing and withdrawing funds. 3.2 The Ethereum platform issues manager's own cryptocurrency in the amount of one thousand coins. Coins
+immediately become available for investors to purchase in the primary market of the manager's cryptocurrencies. 3.3 The first reporting period begins.
+19
+
+Reporting period
+During the reporting period, the manager trades on his or her trading platform with the amount of funds available at the beginning. The history of its trading is unloaded from the trading platform and recorded in IPFS in real time.
+The manager can leave a request for deposit/withdrawal of his own funds from his trading account, which will be processed at the end of the reporting period. In this case, the amount of remaining funds should not be less than the minimum amount.
+Investors can buy the manager's coins on the primary market for GVT. In this case, the transaction is recorded in the manager's smart contract and will be implemented at the end of the reporting period.
+Investors can freely transfer and sell their coins on the internal exchange.
+Investors can leave requests for withdrawal of their invested funds, which will be processed at the end of the reporting period.
+End of the reporting period 1. The integration plug-in initiates the completion of the reporting period. 2. Each manager's profit is calculated. All received profit, minus the manager's commission, is transferred from the
+broker's wallet to the address of the smart contract.
+3. The integration plug-in executes requests for the input/output of funds received during the reporting period. 4. The next reporting period starts.
+6.5 Managers' Trading History Control
+One of the most important problems solved by Genesis Vision platform is the managers' trading history control and verification. If we were able to record all transactions in blockchain in real time, it would be a possible solution. But this is not feasible for a number of reasons:
+Blockchain technical limitations. Processing of such a large number of transactions will create considerable load on blockchain platform.
+Not all managers will agree to publish all their transactions in real time out of concern for their trading strategies protection. The problem of blockchain limitation can be avoided by using a number of existing technologies and new solutions: The broker's trading platform plug-in writes all transactions in IPFS.
+An off-chain communication channel is created between members of the network (using the Whisper protocol or any other). After each manager's transaction, a hash of the current trading history is sent to the network.
+20
+
+Special service verifies that there were no history amendments, using received hashes and IPFS data.
+Publishing managers' trades in real time potentially endangers their unique trading strategy. That is why traditional trust management systems usually offer an option to hide trading history during the reporting period. In Genesis Vision it would be implemented as follows:
+At the beginning of reporting period, broker's trading platform plug-in generates a crypto key for the manager.
+All managers' transactions are written in IPFS encrypted.
+At the end of reporting period, a key for decryption is published and the entire trading history becomes public and available for validation by hashes.
+7. The Implementation of the Genesis Vision Network
+All code will be open and distributed with the maximum open license.
+Brokers will be able to install software for integration, if their trading platform is supported.
+Any developer or company will be able to add support for additional trading platforms.
+Trading instruments, exchanges and markets are not limited.
+Connection to the Genesis Vision network is free of charge and is performed by the brokers or exchanges on their own, or with the help of our partners.
+Brokers and exchanges operating in crypto-markets will be involved.
+7.1 Capturing the Market
+The Genesis Vision project team has a number of advantages that will allow the project to be successful, and, most importantly, to be applied in a real operating business.
+Our partners' companies have been engaged in technological maintenance and software development for brokerage companies, mainly in foreign exchange markets. Their experience allows them to integrate all of the necessary software into the industry without unnecessary costs and delays or difficulties from the broker's side. For example our partner Tools For Brokers inc. is servicing more than 250 companies from thirty different countries (35% - Europe, 35% - Asia, 25% - Middle East, 5% - Others).
+All of these companies are potential brokers for the project. At the moment, Tools For Brokers already sells a similar centralized solution that is installed in the environment of a particular broker. This software was purchased by more than eighty different companies around the world. The total turnover of funds through this trust management
+21
+
+system amounted to more than $100 billion.
+Considering our more than 400 contacts with brokerages among our partners and advisers, we expect at least 100 brokerages to join our distributed system within 2 years.
+This will attract more than 100,000 investors and roughly 10,000 financial managers. According to industry reports, the average trading volume for a single investor is 5 Lots (500,000 USD including leverage) per month. Thus, the total trading volume in our distributed system could reach 50 billion USD.
+Since this statistics involves only existing customers, it will make Genesis Vision one of the largest blockchain applications.
+Current situation on the potential market shows that a new project with a decentralized transparent system is in demand in an industry in which regulation has become tougher, and transparency has become the main competitive advantage. It will soon become the only way to work in the market, which is why cooperation with financial brokers was chosen as the starting point of the project.
+Trust management industry receives much negative feedback due to persistent stereotype of sticky-fingered brokers and overall lack of understanding of the industry operation mechanisms. We want to make it cleaner and better by using the latest technologies. Thanks to the Genesis Vision project, we will do it.
+This will allow the project to move from the idea phase to an operating business as soon as possible. We will also further develop the project for all other markets including stock markets, cryptocurrency markets, futures markets, and so forth.
+7.2 Possible Problems and Their Solutions
+Blockchain restrictions Token sale and Genesis Vision platform prototype development will take place on Ethereum platform. We have chosen Ethereum because it is currently the most popular and functional blockchain platform. However, Ethereum has a number of serious and well-known flaws, the most critical being its lack of scalability and its high transaction cost.
+At the early stage of our project, it's not a serious problem. However, the expected scale of Genesis Vision platform, according to the number of our potential broker clients, represents tens of thousands of managers, hundreds of thousands of investors, and millions of transactions. This level of load currently cannot be handled by Ethereum.
+Despite Ethereum's flaws, we love its technology and are following its development plans closely. Vitalik Buterin has already announced many promising features in Ethereum's upcoming versions. We hope that these features will be able to improve the current situation.
+At the moment, we are continuing our platform development, based on Ethereum. But in case we reach Ethereum's capabilities' limit (presumably it can happen in a one-year period), we can decide to switch to another blockchain, which will be able to meet the needs of the project.
+Blockchain technologies are developing rapidly, and there are already some promising alternatives.
+22
+
+But in a one-year period, a new favorite may appear, and the choice will be obvious.
+In case of blockchain platform change, all Ethereum tokens will be migrated. Token quantity and conditions for holders will remain unchanged.
+Currency conversion problems Brokers will receive money from investors in GVT, but they will need to transfer funds to the manager's account in the manager's account currency.
+Brokers are currently working with several currencies, and many of them are starting to also support cryptocurrencies:
+https://www.allfxbrokers.com/brokers/deposit-options/bitcoin https://www.100forexbrokers.com/bitcoin-brokers In this way, brokers are able to cope with this problem on their own. However, in order to simplify this process for them and to increase the number of potential customers, Genesis Vision will offer brokers the following solutions: The opportunity to quickly exchange cryptocurrencies for fiat (as well as the reverse). For this purpose, we will have exchange partners and exchangers. A solution providing the service of supporting GVT as currency of trading account. This will help to avoid converting.
+A solution to help in risk management for brokers.
+8. Genesis Vision Fund
+5% GVT will form the Genesis Vision fund. Tokens from this fund will be regularly invested in successful platform managers. We plan to keep the fund operating regardless of the profit it generates, constantly stimulating Genesis Vision managers' activity.
+The main objectives of the fund are: Attracting managers in the system and stimulating their activities Providing additional liquidity of GVT on exchanges Providing additional liquidity of managers' tokens
+8.1 Genesis Vision Investment AI
+Investment decision-making process will be carried out by GV fund management AI. This system will utilize both Genesis Vision's and our partners' robust financial expertise and state-of-the-art machine learning algorithms.
+23
+
+9. Project Economics
+9.1 Sources of Project Profit
+The project will receive profit from commissions on investment operations. Each investment will be charged 0.5%³ of the operation amount. The project will also generate profit from managing its own fund and by investing it in successful managers of our platform.
+10. Token Sale
+
+Date of options program start Date of Token Sale start Date of Token Sale end Token rate
+
+15 September 2017 15 October 2017
+15 November 2017 $1 = 1 GVT
+
+GVT
+
+Maximum Token Sale funding
+
+Maximum number of GVT tokens
+GVT for sale
+Bounty, marketing, advisers
+
+44,000,000 33,000,000 3,960,000
+
+Team tokens
+
+4,840,000
+
+Genesis Vision fund
+
+2,200,000
+
+$ 33,000,000 44,000,000 33,000,000 3,960,000 4,840,000 2,200,000
+
+%
+100% 75% 9% 11% 5%
+
+GVT will be frozen during the Token Sale. Team tokens will be frozen for a one-year period. Unsold tokens will be burned. 24
+[3] Actual commission value may be changed.
+
+10.1 Genesis Vision Token Sale Options
+Recent Token Sale campaigns identified a number of problems in this process: People who have been following the project for a long time can simply be late to invest money.
+A large influx of transactions in the first minutes after the launch of the Token Sale creates difficulties for Token Sale investors and other Ethereum blockchain users.
+Due to the geographical dispersion of investors, participation for many of them may be compounded by the fact that the launch of Token Sale falls on a deep night in their time zone.
+Early investment bonuses are often given not to actual first supporters, but to those who managed to be the first to carry out a transaction in the blockchain. To solve these and a number of other problems, Genesis Vision team is launching an option program for Token Sale participation.
+Conditions Genesis Vision option guarantees the right to acquire GVT tokens at a specified price during the Token Sale. Genesis Vision option token is based on ERC20 Ethereum token standard.
+The option price is 5% of the desired amount of investment.
+Options will also give additional bonuses for tokens' amount:
+To acquire the option, an Token Sale investor pays 5% of his total desired amount of investments. The amount of tokens available for the purchase during the Token Sale is calculated according to this formula:
+
+A GVT
+
+A ìnv + Bonus
+R GVT
+
+A GVT - the amount of tokens available for purchase with the option
+
+A ìnv - total desired amount of investment
+
+R GVT - GVT token rate ($1:1)
+
+Bonus - current Token Sale bonus (30%) The price of a token for option holders is calculated according to this formula:
+
+C op - the price of the option
+
+C GVT
+
+A ìnv - C op A GVT
+
+25
+
+Example:
+An investor wants to invest $1000 in an upcoming Token Sale. Suppose the current Token Sale bonus is 30%. The price of the option is 5% of the total amount - $50. Investor can pay corresponding amount in any of supported currencies. The amount of GVT available with this option will be:
+
+A GVT
+
+1000 + 30%
+1
+
+1300 GVT
+
+The price of each GVT will be: C GVT
+
+1000 - 50 1300
+
+$0.73 per token
+
+In this example, investors are guaranteed to be able to purchase up to 1300 GVT by the price of $0.73 per token during the first day of Token Sale.
+
+When option holder purchases GVT during the Token Sale his option (or a part of the option) is exercised: option tokens are burned and a corresponding amount of GVT is acquired.
+
+If investors didn't exercise the option on the first day of the Token Sale, they can do it on any other day, but in this case the option will be exercised only if the Token Sale pool has enough tokens. If option holders do not exercise their options during the Token Sale, the options will be cancelled. Options can be exercised partially.
+
+Options are non-refundable; money collected from sold options can be spent by Genesis Vision immediately on platform development and marketing.
+
+11.Genesis Vision Token
+Genesis Vision has its own token: GVT ( Genesis Vision Token). GVT is based on ERC20 Ethereum token standard. GVT will be used for all investment operations, profit distributions, and managers' token trading on the internal exchange.
+All tokens will be created during the Token Sale period. The number of tokens is limited, and the subsequent issuance of tokens is technically impossible. Unsold tokens during the Token Sale are burned.
+The GVT is based on the Ethereum blockchain. Its implementation corresponds to a widely distributed standard. This allows token holders to easily store and manage them using existing implementations of Ethereum wallets.
+The GVT will be freely traded on crypto-exchanges.
+
+26
+
+11.1 Factors Influencing GVT Price Growth
+Because the number of tokens is limited and subsequent issuance is not all allowed, the price of GVT will be determined by demand. Demand for GVT will grow due to the following factors:
+All investment operations will be executed in GVT. Accordingly, increase in Genesis Vision network members' trading volume will increase demand for tokens.
+The volume of the potential market supported by GVT significantly exceeds the tokens' market capitalization at the time of the Token Sale.
+Genesis Vision has a well-thought-out development and marketing plan that will consistently increase the project's audience and the amount of investments.
+Genesis Vision already has partners preceding its launch who will provide an active client base (our partners include 400 brokers around the world).
+12. Development Plan
+The budget and components are planned, assuming that our fundraising efforts will reach the estimated maximum amount. Otherwise, a part of the components will have to be abandoned, and the budget will be reduced for the remaining features.
+Below is a full list of features to be completed and the approximate implementation time to reach a fully prepared state:
+12.1 Blocks of Our Planned Works
+Blockchain platform Ethereum prototype Full platform on Ethereum blockchain
+Integration with trading platforms MT4/MT5 FIX/FAST protocol Crypto-exchanges SDK for integration with our platform Integration with exchanges (NYSE, NASDAQ, CME, MOEX, LSE, JPX, SSE, SZSE, SEHK, NSE, BSE)
+Client applications Mobile application for investors: list of managers, portfolios, statistics, signals, advising, social component Mobile application for managers: maintaining profile, statistics, investors' review 27
+
+Web application (for investors and managers) Back office for brokers and funds Fund management (AI) Legal Brokerage license for legalization of our activities Marketing Attraction of exchanges and brokers Expansion of the investor market Attraction of banks Additional functionality The platform for the liquidity provider organization (the ability for brokers to provide customers with CFD trading on cryptocurrencies) Social trading (p2p signals) Connecting the platform to the banks
+28
+
+13. Roadmap
+29
+
+14. Allocation of Funds
+
+Integration, Servers, Connectivity and Auditing
+15%
+
+Legal
+
+10%
+
+40%
+
+Development and Support
+
+30%
+
+5% Other
+
+Marketing
+
+15. Team and Project History
+The CEO of Genesis Vision, Ruslan Kamenskiy, is a financial software developer with more than seven years of experience. He developed a trading system for the stock exchange "Saint Petersburg", was head of the software department of a financial broker company, and implemented HFT strategies for the hedge fund.
+The co-founder of Genesis Vision, Dmitry Nazarov, is a proficient software developer with over six years of experience in various international financial organizations. Among them are a brokerage company, a stock exchange, and a large UK-based foreign exchange company. Recently, Dmitry was working as a software development consultant in the International Atomic Energy Agency.
+The project started its life on November 20, 2016, when Ruslan Kamenskiy and Dmitry Nazarov won the HackRussia (http://hackrussia.ru) all-Russian hackathon in the nomination "Finance and Blockchain" with the Genesis Vision project. The project looked so ambitious and promising that they continued to work on it after the hackathon, adjusting its concepts to suit real market needs.
+At the beginning of 2017, Alexey Kutsenko, CEO of Tools For Brokers (http://t4b.com), joined the team. His fintech company has been operating on the market for eight years and has more than 300 brokers as clients. Alexey helps elaborate strategy for entering the market and manages details of Genesis Vision's trust management solution.
+30
+
+The person responsible for the security of our solution is Vlad Roskov. Vlad is a competitive hacker, playing with LC BC, the top Russian CTF team. In 2012, he was team leader of More Smoked Leet Chicken, the number one global sport-hacking team of the year according to CTFtime's overall rating. Currently he works at Kaspersky Lab in financial incidents investigation. Casimir Compaore is a Senior Software Engineer who has over 10 years of development experience, especially in the field of data science. He is a technical lead of Genesis Vision team. Casimir worked as an Information Technology Officer at African Union Commission. His has extensive experience in ASP.NET, Agile/Lean development and is a Microsoft Certified Professional Developer. Sam Zakhezin is an end-to-end product developer, who has a lead role on the full-stack platform team (backend services, full-stack engineering, guiding and mentoring developers.) He worked as a software developer on different startup and enterprise projects since 2007. Sam has mostly worked on web-based information systems. His track record includes development of different types of online travel reservation systems, in-house full cycle hotel reservation system with integration of external GDS, airline reservation system TravelPort (UAPI), development of enterprise level system (e-commerce, warehouse, ERP) for a US based company and related services and integration of payment processing systems. Genesis Vision Mobile Lead is Arseny Vasilyev. He is an Android and JavaScript developer. His total experience in development is 7 years. For the last 5 years he has been working at a multimedia software company "Fora Soft" as a developer. He has two huge side projects developed on his own. The first one is a game named "Schoolboy" for VK social network with 300,000 installs. His second project is a mobile app "GdeShaverma" which helps people find the best kebab in town. The app won city's 2gis Hackathon in 2016, and as of July 25, 2017 it has 120,000 installs. This is the core team behind Genesis Vision. In total, the project unites around 20 people who believe in the open and decentralized future of investing and work hard everyday to make this idea a reality. A big part of all support the project receives will be directed towards expanding the team to meet planned development goals.
+31
+
+

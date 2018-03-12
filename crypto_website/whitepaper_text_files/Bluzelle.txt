@@ -1,0 +1,411 @@
+White Paper
+October 29, 2017
+TOKEN HOLDINGS LIMITED / 3rd Floor 207 Regent Street, London, United Kingdom, W1B 3HH
+1 White Paper www.tokens.net
+
+Table of Content
+
+Background
+
+3
+
+Solution
+
+4
+
+Opportunity
+
+5
+
+Volume Structure
+
+6
+
+BTC Trading Structure
+
+7
+
+Google Trends
+
+7
+
+Business Profitability
+
+8
+
+Dynamic Trading Rights Token (DTR)
+
+9
+
+Example1
+
+10
+
+Example 2
+
+10
+
+Example Conclusion
+
+11
+
+DTR Tokens - Cheap Trading in the Future
+
+11
+
+Trading Volume Transparency
+
+12
+
+DTR Liquidity
+
+12
+
+DTR Voice
+
+13
+
+ICO Distribution
+
+14
+
+Distribution of Tokens
+
+14
+
+ICO Goals, Limits and Fund Distribution
+
+15
+
+Cost Distribution
+
+15
+
+DTR Price and Token Supply
+
+16
+
+Platform Roadmap
+
+17
+
+Funding Team
+
+18
+
+Source
+
+19
+
+2 White Paper www.tokens.net
+
+Background
+My name is Damian Merlak and I am the leading architect and founder of the Tokens trading platform.
+I was introduced to computer programming in primary school at the age of 13 and I have been hooked ever since. I started developing web applications professionally in 2004. Besides technology, I have always had a great interest in finance and investing, so I spent a lot of my free time trading and investing the money I earned from my software projects.
+At the beginning of 2011, something happened which completely changed the course of my life. I discovered Bitcoin. At the time, the price was fluctuating between $1 and $2, and the financial part of my brain was immediately captivated. I became interested and bought some. Soon after that, the first "bubble" happened and the price soared to $30.
+In the meantime, my technological part wanted to explore the technology a bit more. It drove me to build a small bitcoin mining operation in my basement. I immediately went to buy the cheapest CPU and motherboard available, along with the best graphics card money could buy at the time. Of course, this illogical computer configuration caught the attention of the local store owner, so I had to explain why and how I was going to use it. I started explaining everything I knew about Bitcoin, and we ended up becoming friends.
+Soon after that, the two of us decided to create a bitcoin business together. A few months later, we had a working exchange ready to be launched under the name Bitstamp. It was by far the most professional place to trade bitcoin at the time and after the fall of Mt. Gox, became the largest bitcoin exchange in the world. Today, Bitstamp is still one of the leading cryptocurrency exchanges in the world, with over $1 billion of monthly trading volume.
+Since 2011, the cryptocurrency space has evolved, while most cryptocurrency businesses aren't keeping up with the latest trends.
+3 White Paper www.tokens.net
+
+Solution
+Our solution is a next generation cryptocurrency trading platform, introducing Dynamic Trading Rights (DTR) to revolutionise the current trading environment by providing a trustworthy, transparent, safe, and reliable place to exchange ERC20 tokens and other cryptocurrencies that are foreseen to evolve in the future. Our token trading platform also introduces DTR Voice. The community will be periodically consulted about our future decisions regarding both future trading pair listings and other decisions that would contribute to the user experience.
+4 White Paper www.tokens.net
+
+Opportunity
+
+The cryptocurrency space is growing quickly. The number of cryptocurrencies in existence has grown by 63%, the total market cap has grown by 875%, and the average daily volume has grown by a staggering 3,259% year on year.
+
+#Crypto Currencies
+
+2016 Q3
+608
+
+2017 Q3
+989
++63%
+
+Total Market Cap
+
+2016 Q3
+$12.1B
+
+2017 Q3
+$118.4B
++875%
+
+Average Daily Volume
+
+2016 Q3
+$0.1B
+
+2017 Q3
+$4.6B
++3,259%
+
+TOP10 Currencies Dominance
+
+2016 Q3
+96%
+
+2017 Q3
+86%
+
+5 White Paper www.tokens.net
+
+Right now, crypto/crypto trading represents 23% of all cryptocurrency trading in the world. We believe this share will grow substantially in the near future as bitcoin becomes a reserve currency of the crypto economy, and most trading will be done between bitcoin and other cryptocurrencies.
+
+Volume Structure
+
+Crypto/FIAT 77%
+
+77%
+
+23%
+
+Crypto/Crypto 23%
+
+If we exclude all other trading pairs and only focus on bitcoin trading against other cryptocurrencies, the numbers start to support our predictions even more. Looking only at bitcoin volumes, 43% of all trading around the globe is already done against other cryptocurrencies and only 57% is traded against fiat currencies. We believe this trend will only intensify over time, and fiat trading will soon represent less than half of all trading volume.
+6 White Paper www.tokens.net
+
+BTC Trading Structure
+
+57%
+
+54%
+
+48%
+
+43%
+
+39%
+
+43%
+
+46%
+
+52%
+
+57%
+
+61%
+
+2017
+
+2018 forecast
+
+2019 forecast
+
+2020 forecast
+
+BTC/FIAT
+
+BTC/Crypto
+
+2021 forecast
+
+There is also a clear uptrend in Google searches for the search term "ICO tokens," which points to an increased public interest in token investing and trading.
+2017-W34
+Google Trends
+ICO Tokens
+2017-W1
+
+7 White Paper www.tokens.net
+
+Business Profitability
+Based on current market data, we have predicted our earnings in the first year of operations. We have based our calculation on the assumption that we will take over 2.5% of the world's crypto/crypto trading volume.
+$1,920B
+Total Crypto Market Volume
+$480B
+Crypto/Crypto Market Volume
+$12B
+Tokens.net Volume (est. 2.5% Market Share)
+Y1 Earnings: $18M
+Average fee: 0.15% (0.075% buyer/seller direction)
+Based on today's figures we estimate: · An annual market volume of $1,920 billion · 25% crypto/crypto market share · 2.5% Tokens platform global trading participation · An average platform transaction fee of 0.15% (0.075% buyer/seller direction) TOTAL annual fee income of $18 million.
+8 White Paper www.tokens.net
+
+Dynamic Trading Rights Token (DTR)
+We will fund the development of our Tokens platform by selling vouchers for all our future trading fees to our ICO backers. Vouchers will be sold in the form of future trading rights and will be represented by an ERC20 token created under the ticker DTR.
+DTR tokens will represent a right to make a trade on our Tokens platform on any currency pair listed at any time in the future. The amount of trading you will be able to fund using a single token will be dynamically set, based on the market price of DTR at the moment of the trade. A transaction for a DTR holder will be charged at the best ask price, ignoring the market depth. This favours buying DTR tokens in advance even more.
+However, there will be no need to own DTR in advance or even be aware of the fact that transaction fees are payable in DTR, as any client not owning DTR will be charged a fee in the currency they are trading in. Conversion of the fee cost into DTR will be executed automatically and clients owning DTR will have their DTR subtracted from their balance, based on the DTR's market value.
+DTR used for trading will be burned on the Ethereum network using a smart contract designed to destroy tokens on a regular basis.
+If a client makes a trade without having any DTR, the fee will be charged in a currency they are currently trading with, and converted into DTR tokens in the background.
+9 White Paper www.tokens.net
+
+This process will create a frictionless user experience for users who do not want to deal with our Dynamic Trading Rights tokens. That said, there will be an incentive for our clients to buy our tokens in advance and burn them for trading, as the following examples clearly show:
+Example 1:
+A trader buys 0.1 BTC and the commission for the trade is 0.20%. The DTR price at that moment is 0.00022 BTC. First we calculate the fee in BTC:
+Second we convert that to DTR:
+In the above case a trader would pay 0.90 DTR for buying 0.1 BTC.
+Example 2:
+A trader buys 0.1 BTC again and the commission for the trade is still 0.20%, but the DTR price rose and is now worth 0.00030 BTC. We calculate the fee in BTC:
+And convert that to DTR:
+Now a trader would only pay 0.66 DTR for buying the same amount of BTC.
+10 White Paper www.tokens.net
+
+Example Conclusion
+
+The above examples show how a smart trader may benefit by locking in inexpensive DTR and holding them for future fee exchange when DTR increase in value. A smart trader would still be subject to regularly payable fees, but their effective fee cost would be substantially lower, due to a cheaper DTR stock value than that of a peer trader who does not own DTR at the time of trade.
+
+Trading Fee
+
+0.25%
+
+DTR Tokens -Cheap Trading in the Future
+
+0.20%
+
+0.15% 0.10% 0.05%
+
+Regular fee DTR fee
+
+0.00% 0%
+
+50%
+
+100%
+
+150%
+
+200% 250% 300%
+DTR Price Increase
+
+350%
+
+400%
+
+450%
+
+500%
+
+Trading Fee Discount
+
+100%
+
+DTR Tokens -Cheap Trading in the Future
+
+80%
+
+60% 40%
+
+DTR fee
+
+20%
+
+0% 0%
+
+50% 100% 150% 200% 250% 300% 350% 400% 450% 500%
+
+DTR Price Increase
+
+11 White Paper www.tokens.net
+
+Trading Volume Transparency
+Since every trade on our platform will burn a certain amount of DTR, the daily volume on our platform will have to match the amount of tokens burned every single day. This will make Tokens the most transparent cryptocurrency trading platform in the world. There will be no way of cheating and artificially boosting the volume on any trading pair available.
+DTR Liquidity
+Since trading fees are payable in DTR, a user may reduce their stock by two options: either by inserting a sell order and waiting for an automatic conversion to set against it, or by trading, as DTR are subtracted as payable fees. These two DTR features make the Tokens platform unique in providing constant liquidity and an automatic offset.
+12 White Paper www.tokens.net
+
+DTR Voice
+Tokens platform shall periodically ask community for future decision endorsements, either for the platform to decide on future crypto/crypto pair listings or other decisions that would contribute to user experience. For this purpose the platform will organize votings where DTR will be committed as voting ballots. More DTR tokens will be committed, more voting power will be given to their decisions. This voting shall be for guidance purpose only and not binding nor mandatory for Tokens platform.
+13 White Paper www.tokens.net
+
+ICO Distribution
+The majority of DTR tokens, 40% will be proportionally distributed among ICO backers.
+30% will be reserved for team members and future employees. The team will have 4 years vesting and 1 year cliff.
+30% will rest with the company. Should the ICO money run out, the platform must not discontinue. To solve this problem, the company will liquidate small amounts of tokens to fund operations.
+
+ICO Backers 40%
+
+40%
+Distribution of Tokens
+
+30%
+
+Team members & future employees
+30%
+
+30%
+
+Company 30%
+
+14 White Paper www.tokens.net
+
+ICO Goals, Limits and Fund Distribution
+When we collect the equivalent of $15m USD, the ICO will close at that moment and no additional funds will be accepted. The ICO will last for 30 days at most.
+Since we will be accepting different currencies, we will evaluate all our ICO income at the time of token purchase. That means a buyer of our tokens in the ICO period will get the exact amount of tokens that their bitcoins, ether or ripples will be worth at the time of transaction. Bitstamp exchange rates will be used.
+DTR token distribution will be provided in 7 days after ICO completion, taking all checks and safeguards into account.
+ICO backers are not entitled to any refunds.
+
+40%
+20% 20% 10% 10%
+
+Cost Distribution
+Development 40% Marketing 20% Operations 20% Legal 10% Servers and Support 10%
+
+15 White Paper www.tokens.net
+
+DTR Price and Token Supply
+The starting price of one DTR token will be $0.01. The total token supply will be set after the successful ICO and will be based on the amount of funds collected during the crowdsale. Dynamic Trading Rights tokens may only be purchased by BTC, ETH or XRP.
+
+We are raising: ICO Token Price: Payment Methods: ICO Start Date: ICO End Date: Max ICO Token Supply: Max Token Supply: Initial Token Distribution Date:
+
+$15 million $0.01 Bitcoin (BTC), Ethereum (ETH), Ripple (XRP) November 6, 2017 December 6, 2017 1.5 billion 3.75 billion 7 days after ICO completion
+
+16 White Paper www.tokens.net
+
+Platform Roadmap
+
+November 6
+ICO Start
+
+2017
+
+April
+Private beta launch
+
+2018
+
+July
+Public launch
+
+2018
+
+2017
+
+December 6
+ICO End
+
+2018
+
+June
+Mobile app beta
+
+2018
+
+August
+Mobile app public launch
+
+17 White Paper www.tokens.net
+
+Founding Team
+Damian Merlak Founder, Lead Software Architect, Serial Investor
+Seasoned web developer and lead architect with 15+ years professional experience. Early Bitcoin adopter and miner. Co-founder of Bitstamp (2011), world's leading cryptocurrency exchange ($1B+ monthly turnover), and founder of the Quantum Project (2017). Finance and investments enthusiast, serial investor. Determined to develop the next generation cryptocurrency trading platform for ERC20 and cryptocurrencies that are foreseen to evolve in the future.
+Gregor Karlovsek, MBA Corporate, Finance & Control
+Seasoned professional with 10+ years experience in senior positions in Energy, Finance, IT and Fintech. Portfolios include Strategy, Growth, Team Management, Turnaround, Risk and Internal Controls. BSc Chemical Engineer, MSc Economics, MBA in Finance & Control (EMFC-EI). Participated in multiple successful startups or large corporate product add-ons.
+Gregor Gololicic Development
+Senior software developer with a driving passion for FinTech. Involved in cryptocurrency companies for the last 5+ years, including mobile development for Bitstamp. Initially worked on development of GateHub and later acted as CTO and advised several successful ICOs.
+Luka Pusic Information Security
+IT professional with 5+ years experience in cryptocurrency and 8+ years experience in IT security. FinTech enthusiast. Holds CEH and OSCP network security certificates. Co-founded Bitcoin Association of Slovenia in 2014, developed mobile app for Bitstamp, partnered in GateHub. Recently advised several ICOs (Quantum, SunContract, MoneyRebel).
+Matej Resman Design, Marketing
+Entrepreneur with 8+ years experience in web commerce and pristine design development (UI/UX). Seasoned digital and web project manager, co-founder and CEO of a digital marketing agency. Ownership of a bitcoin mining operation in 2014, lead him to explore crypto, fintech and technology.
+Sebastjan Stucl Business Development
+Experienced delivery lead with 10+ years in the information technology and services industry. Crypto and FinTech enthusiast with more than 5+ years experience working in multiple startups.
+18 White Paper www.tokens.net
+
+Source
+Data source: · https://coinmarketcap.com/ · https://www.cryptocompare.com/ · http://www.cryptocurrencychart.com/ · https://cryptocoincharts.info
+19 White Paper www.tokens.net
+
+

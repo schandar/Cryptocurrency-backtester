@@ -1,0 +1,133 @@
+A Highly Customizable Blockchain Infrastructure
+1 / 15
+
+A Highly Customizable Blockchain Infrastructure
+2 / 15
+
+A Highly Customizable Blockchain Infrastructure
+Abstract NULS is a blockchain that architecturally enables extendibility using smart contracts, modules and sub-chains. It is an open-source project that separates its features into customizable modules such as smart contracts, the multichain system, cross-chain consensus and other operating mechanisms. In the future, NULS will have multiple sub-chains that are based on functionalities of the main-chain. They will use the underlying protocols and infrastructure of NULS to offer businesses a simplified and tailored solution based on their needs.
+Website: nuls.io Mail: hi@nuls.io
+3 / 15
+
+A Highly Customizable Blockchain Infrastructure
+Contents 1. The Future of Blockchain ................................................................................... 5 2. What is NULS? .................................................................................................... 5 3. Why was NULS created? .................................................................................... 6 4. NULS' mission..................................................................................................... 6
+A. Ease of use .................................................................................................. 6 B. Adaptable to numerous application scenarios.......................................... 7 C. High Performance........................................................................................ 7 D. Balance in Transparency and Confidentiality of Data............................... 7 5. NULS Economic Model ....................................................................................... 7 A. The issuance of NULS is divided into 4 parts: .......................................... 7
+a. Airdrop................................................................................................. 7 b. Development Funding ........................................................................ 7 c. Community Funding ........................................................................... 7 d. Business Cooperation ........................................................................ 8 B. Network Maintenance.................................................................................. 8 6. Sub-chain Operation ........................................................................................... 8 A. Sub-chain Based Currency and Intelligent Exchange .............................. 8 7. NULS Technical Design ...................................................................................... 9 A. Consensus Mechanism - Proof of Credit (POC) ........................................ 9 B. Yellow Card Alert ....................................................................................... 10 C. Red Card Alert ........................................................................................... 10 8. Credit Rating...................................................................................................... 10 9. Consensus Reward ........................................................................................... 10 A. Sub-chain Consensus Mechanism........................................................... 10 B. Modular Architecture................................................................................. 11 C. NULS Module and Module Manager ......................................................... 11 D. Multi-Chain System ................................................................................... 12 E. Cross-chain Consensus Domain (C3D).................................................... 12 F. Cross-chain Consensus Node (C3N) ........................................................ 12 G. Safety ......................................................................................................... 13 10. NULS Smart Contract...................................................................................... 13 11. Open-source community ................................................................................ 14 12. NULS Development Roadmap ........................................................................ 14 13. Conclusion....................................................................................................... 15
+4 / 15
+
+1. The Future of Blockchain
+
+A Highly Customizable Blockchain Infrastructure
+
+Since the beginning of human civilization, we have strived to survive, learn, adapt and move humanity in a direction that is sustainable for future generations. Our desire to constantly improve not only our own lives but the lives of others has brought us into the beginning of the 21st century, "the technological era". Every day is more fast-paced than the last and there is no sign of slowing down. The creation of blockchain technology has catapulted innovation even further and acted as a catalyst for creative thinkers to get involved in the space. The rich incentivized environment of blockchain has created opportunities that not only interests the technological savvy individual, but also the individual that simply wants to be involved in the growth of a world-wide disruptive technology.
+
+As this technology continues to mature, the demand to solve real world use cases is becoming more evident. Blockchain however is still in its infancy and an impartial gap exists between itself and real-world adoption. Part of the issue is that the technology has a steep learning curve. The other issue is that many blockchains that currently exist either have a narrowed focus on the problems it solves, or are too broad to fit the needs of individuals and businesses. A new type of blockchain is required that not only can comfortably fit the needs of a wide range of businesses, but also is something that can easily handle development improvements without threatening the underlying protocol.
+
+2. What is NULS?
+NULS is a blockchain with a modular based architecture enabling customizable modules and sub-chain operability. Its two-part design is the microkernel and the functional modules. The microkernel provides the underlying mechanisms for the network while the functional modules are the compartmentalized features of the blockchain. They have been built with the goal to maintain the well-known programming practice of high cohesion and low coupling. They also adopt the hotpluggable principle allowing modules to be added or removed during operation.
+The decentralized nature of NULS is in creating a business model that bridges the gap of trust in using the technology as well allow users to customize their chain to fit with their needs. The simplicity of implementation comes from the architectural design of NULS where complex concepts such as cryptography, consensus mechanisms and storage methods are abstracted away from the developer and they need only to be concerned with what they want to build that is within their skillset.
+The simple base of the main-chain will provide a set a modular component that can be customized to the user's needs. User's will be free to choose the rules of consensus, storage, smart contracts, arbitration, account systems, anonymity policy
+5 / 15
+
+A Highly Customizable Blockchain Infrastructure as well as other permissions to designate to their sub-chain. Sub-chains will not be limited to being public chains but can also be designed as private or consortium chains.
+3. Why was NULS created?
+Blockchain uses the chain structure which is limited in performance due to the size of the database, difficulty in synchronization and the complex task of performing technical updates on a decentralized network.
+A blockchain was needed that not only solves real world problems but also makes the developer's life easier. The ability to customize modules to suit the developer's needs promotes innovativeness and does not constrain the possibilities of what can potentially be built. To solve these problems and promote the commercial use of blockchain technology, NULS was born.
+4. NULS' mission
+After conducting market research and analysis, we found that there are various problems that hinder the growth and development of blockchain. Talented individuals in the IT sector are already hard to come by and developers who are then also experienced in blockchain is a rarity. This creates a higher cost for development as these individuals can charge a premium in exchange for their services due to the simple economic function of demand exceeding supply. This issue cannot be solved in the short term and will only be solved over time as more developers learn and understand the technology.
+Existing Blockchains are limited in performance and cross-chain communication is still being explored. Organizations and businesses will not be interested in using a consortium or private chain that isn't completely trustworthy. NULS will provide a reliable solution to these problems.
+A. Ease of use
+The learning curve for developing on NULS is reduced by hiding some of the complexity from the developer. The goal of the platform is to improve development time by offering a simple programmable environment that caters to the less experienced developer while facilitating extendibility for the more experienced individual.
+6 / 15
+
+A Highly Customizable Blockchain Infrastructure B. Adaptable to numerous application scenarios
+The application layer is where the developer can take advantage of the infrastructural support that has been designed as a part of the platform. The developer can easily perform basic tasks and make use of the modular parts such as the multi-chain system and smart contracts.
+C. High Performance
+NULS understands the importance of performance and the limitations of current Blockchains and is committed to solving these for widespread adoption. Using parallel expansion technology through the multi-chain system, millions of transactions per second can be processed through the main-chain and sub-chains.
+D. Balance in Transparency and Confidentiality of Data
+For organizations and businesses, data confidentiality and security are of utmost importance. The open-source and transparent nature of Blockchain generally makes them hesitant to use this new technology. Although NULS is open-source, it protects the confidentiality of the data in sub-chains through data isolation and cross-chain auditing. This balance between transparency and confidentiality of data is why NULS will appeal to commercial businesses despite it being open-source.
+5. NULS Economic Model
+The token of NULS will be used to promote the entire ecosystem. It will be used to support NULS based applications, pay for application costs, perform exchange for sub-chain digital assets, support NULS development, reward miners and pay transaction fees.
+A. The issuance of NULS is divided into 4 parts: a. Airdrop
+40% of the tokens will be airdropped (40 million) to owners of the ERC20 placeholder token.
+b. Development Funding 20% of the total tokens (20 million) will go towards continued development. Once the main net is live, these tokens will be unlocked at the rate of 5% (1 million) per month over the course of 20 months.
+c. Community Funding
+7 / 15
+
+A Highly Customizable Blockchain Infrastructure 20% of the tokens (20 million) will be allocated for building the community, and no more than 4 million tokens will ever be used per year. d. Business Cooperation 20% of the tokens (20 million) will be used for business partnerships and to support high quality NULS based third party projects. No more than 4 million tokens will ever be used per year.
+B. Network Maintenance 5 million NULS will be created through the Proof of Credit (POC) consensus each year to reward miners and secure the network. 6. Sub-chain Operation In order to create a healthy ecosystem, all NULS' sub-chains are required to pay a certain amount of NULS tokens (amount decided in the future). The purpose of this is to certify that the sub-chain is indeed a sub-chain of NULS. The amount that would be required to be paid will be adjusted over time in relation to the current price so that it always remains within a reasonable range and it will be determined by community votes. A. Sub-chain Based Currency and Intelligent Exchange The token used on the main-chain is NULS and all sub-chains will be able to support their own basic token. This will be considered as a NULS' asset and the sub-chain
+8 / 15
+
+A Highly Customizable Blockchain Infrastructure can easily issue these contract tokens known as IOU assets. The NULS system will provide the conversion of NULS tokens for smart assets and vice-versa. If a sub-chain chooses to issue smart assets, a certain amount of NULS will need to be paid. When the smart assets have been created, the user will set an initial ratio for the smart asset and the NULS token. A NULS capital pool and smart asset pool will also be automatically generated and the ratio will be fixed for conversion but influenced by market values. If the value of the smart assets on the sub-chain rises, then the NULS capital pool will require more NULS to support this appreciation in value. As more quality subchain projects work with NULS, this will in turn appreciate the value of NULS.
+7. NULS Technical Design
+A. Consensus Mechanism - Proof of Credit (POC) The modular architectural design of NULS supports the insertion of new functional modules as well as the replacement of the core functional modules in the consensus mechanism. The user can set the rules for their sub-chain and customize them to their needs. The main-chain will use the Proof of Credit (POC) protocol that is the first of its kind designed by the NULS team. It works like Proof of Stake where a certain number of tokens will need to be locked before the user can run a node on the network. This exact amount has yet to be decided and the community will vote on it. When a user wants to stop running a node, they can immediately unlock their tokens.
+9 / 15
+
+B. Yellow Card Alert
+
+A Highly Customizable Blockchain Infrastructure
+
+When a user generates a block during a internet disconnection, computer crash or when experiencing network issues, this will not be considered as a violation the networks rules. However, because this will affect the entire system, a warning will be given with the coins frozen for a period (e.g. 72 hours) and the credit ratio downgraded.
+C. Red Card Alert
+
+In the case of hostile attacks, double spend attacks, attempts at forking the system or deliberately trying to attack the system, the NULS network will be able to detect and protect from vulnerabilities and exploits. Any hostile nodes will have their coins frozen for a longer period (e.g. 1 month) and their credit ratio will be downgraded again meaning they are no longer able to meet the minimum amount to participate in the network.
+
+8. Credit Rating
+The crediting system is the coefficient that is used to determine a user's integrity and trustworthiness in the network. Credit ratings are between -1 and 1 and are automatically calculated based on the behavior of the node using the credit rating algorithm.
+Credit Evaluation Formula: Credit Cardinality = Coefficient of Capacity + Coefficient of Duty Coefficient of Capacity: Calculated based on the number of blocks generated in the past Coefficient of Duty: Calculated based on violation cases and accuracy of blocks generated
+
+9. Consensus Reward
+To ensure balance and fairness of the entire NULS system, the consensus reward is computed based on the amount of staked coins and the node credit submitted by all consensus nodes. A. Sub-chain Consensus Mechanism
+NULS provides the underlying infrastructure for all sub-chains and allows applications to be built on top on their own sub-chain. NULS gives the user the building blocks required to easily customize their own sub-chain with their own token and own rules in relation to consensus e.g. (POW, DPOS, POS, PBFT, POOL) so that users can decide how their chain will operate.
+
+10 / 15
+
+B. Modular Architecture
+
+A Highly Customizable Blockchain Infrastructure
+
+The design structure of NULS was born out of the understanding that technology is going to continue to advance at a rapid rate and static technologies will be left behind. NULS incorporated the modularity of the Linux kernel to give the flexibility of a dynamic blockchain. Since everything is a module, technical upgrades can easily be made to add the latest improvements to the Blockchain.
+
+NULS Modular Structure Nuls Kernel: the Nuls kernel consists of module manager, service bus and event bus. The kernel manages all the following modules: Modular components: Smart Contract, Account, Storage, Account, Consensus, Processor
+NULS built-in modules Service Module Pack: RPC service module Processor Module Pack: event processor module  smart contract processor module Basic Module Pack: consensus module network module storage module news module account  account book
+C. NULS Module and Module Manager
+The module manager is where all modules can be managed, loaded and unloaded from the chain. Once a module is loaded, it is able to communicate with other modules and allow for various actions to be performed. From a standard technical point of view, NULS is like a program that has been designed with the open-closed principle in mind. Open for extension but closed for modification.
+11 / 15
+
+D. Multi-Chain System
+
+A Highly Customizable Blockchain Infrastructure
+
+The verification of blocks will occur through cross-chain consensus and NULS can circulate through both the main-chain and the sub-chains. Sub-chains report to the main-chain and the main-chain audits and verifies the block headers.
+E. Cross-chain Consensus Domain (C3D)
+
+Partial nodes of the main-chain and the sub-chain make up the cross-chain consensus domain (C3D). The nodes agree on cross-chain transactions between each other and share the data with other nodes in their own chain.
+
+Main-chain consensus domain (surrounded by nodes of main-chain) Sub-chain A consensus domain (surrounded by nodes of chain A) Sub-chain B consensus domain (surrounded by nodes of chain B) overlapped /connected area: Cross-chain consensus domain A, cross-chain consensus domain B F. Cross-chain Consensus Node (C3N) Nodes that join cross-chain consensus need to load modules that are operable across both chains such as the cross-chain network module and the cross-chain protocol processor module.
+12 / 15
+
+A Highly Customizable Blockchain Infrastructure
+NULS Nodes Main-chain module pack: operates main-chain logic Cross-chain module pack: NCM network control module, processor module Communication, protocol Sub-chain module pack: Operates Sub-chain Logic G. Safety Cross-chain consensus protocol consists of two policies to guarantee safety for the network. -Minimum node requirements for cross-chain consensus to prevent centralisation of the domain. -Dynamic adjustment (rotation) to prevent a single cross-chain node from broadcasting information continuously to the network.
+10. NULS Smart Contract NULS has a built-in smart contract virtual machine (NULSVM) that is structurally between the external service module (e.g. RPC module) and the underlying infrastructure module (e.g. network module, storage module or account module). The smart contracts are used by the higher-level applications, interpreted by the interpreter, stored by the storage module and computed by the NULSVM module. It also supports various higher-level programming languages to cater towards the developer that wants to develop in their desired language and compiles the program through the interpreter so that the VM can understand and read the application.
+13 / 15
+
+11. Open-source community
+
+A Highly Customizable Blockchain Infrastructure
+
+NULS is an open-source project that is driven by the Blockchain community. The open-source nature of the project offers transparency and trust for developers which is vital in building a strong community. The community will provide comprehensive development documentation and fully developed tools to assist and support developer's. NULS has setup the community foundation with 20 million NULS that will be used to support excellent projects and reward contributors in the NULS ecosystem. The NULS community foundation is registered in Singapore (NULS FOUNDATION PTE. LTD. 201729333G). The main goal of NULS is to promote a community-driven development platform that incentivizes innovative projects to be developed and offers the tools to simplify and fast track development for the developer.
+
+12. NULS Development Roadmap
+
+14 / 15
+
+A Highly Customizable Blockchain Infrastructure
+
+13. Conclusion
+The NULS team is aware of the current issues in the Blockchain space. Trust is an illusion that has been continuously exposed by hackers, exploitable bugs, malicious nodes and untrustworthy individuals. NULS' mission statement of "Making Trust Simpler" makes them a value driven Blockchain that fortifies its network with the plan to bridge the gap between businesses and Blockchain adoption. The lack of talented Blockchain developers is a barrier that will continue to exist in Blockchain hindering the growth in the space. NULS will become the solution to this problem and their goal is to build an ecosystem that benefits developers, businesses and supporters of the project.
+
+15 / 15
+
+Written, edited, translated, designs and infographics by: Alan Chen, Darryl Chen, David Brenecki, Davi Yang, Ln Yang, Jason Zhang, Neils Wang, Vivi Zhou, Charles Wan
+
+

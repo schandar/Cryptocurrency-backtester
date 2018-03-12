@@ -1,0 +1,350 @@
+White Paper
+
+Metal Detection, X-ray Inspection or Both Making the Right Choice
+
+Metal detection and x-ray inspection have long been the first line of defence against physical contaminants. However, vast improvements in engineering and software mean it's not immediately obvious which technology will provide the best performance.
+By summarising the key advantages and disadvantages of each, this white paper helps readers decide which product inspection system to invest in to ensure the quality and safety of their own food and pharmaceutical products.
+
+Contents
+
+1
+
+Introduction
+
+2
+
+Metal Detection
+
+3
+
+X-ray Inspection
+
+4
+
+Which Technology?
+
+5
+
+Simplifying the Choice
+
+6
+
+Conclusion
+
+7
+
+Summary Table
+
+White Paper
+
+1 Introduction
+The quality and safety of food and pharmaceutical products depends on the level of due diligence exercised during the production process, in order to exclude physical contaminants out of the finished product. The choice of protection and inspection equipment has a significant impact on product quality, product safety and consumer confidence.
+Of the inspection choices manufacturers face, a key one is whether to install a metal detection system, an x-ray inspection system, or both. This white paper helps you decide. It begins with a brief description of how the two technologies work. Knowing their strengths and weaknesses helps you understand why one technology may perform better than the other at different points on a production line.
+The paper goes on to review the performances of the two technologies across a range of applications. In some circumstances metal detection is a clear winner; in others x-ray inspection comes out on top. But not everything is quite so clear-cut. Often there is not much to choose between them. And sometimes the most reliable solution may well be to install both technologies in different locations on the production line.
+2 Metal Detection
+
+2.1 Why Metal Detection?
+Industrial metal detectors have been in existence since the 1960s and are used by food, non-food and pharmaceutical manufacturers at Critical Control Points (CCPs) in many production processes where a Hazard Analysis and Critical Control Points (HACCP) audit has identified the risk of metal contamination. Modern metal detectors can identify all metals including ferrous (chrome, steel, etc.), non-ferrous (brass, aluminium, etc.) and both magnetic and non-magnetic stainless steels in food, non-food and pharmaceutical products. Systems can be installed at CCP's to inspect incoming raw materials prior to processing. Inspection systems can also be installed at mid-way points, or at the end of the production or packagaing line.
+
+2.2 How Does a Metal Detector Work?
+The most common type of industrial metal detector uses a balanced coil design. In very basic terms, this type of metal detector consists of three coils wound around a rectangular or circular supporting frame (sometimes known as a former) to create three parallel loops through which the product is passed. The middle coil is charged with an electrical current that generates a magnetic field and acts as a transmitter. The transmitter coil induces a current in the other two coils, which are positioned in close proximity at equal distance before and after the middle coil (Figure 1).
+
+These coils effectively act as receivers. As the first and last coils are wound in opposite directions, the induced currents cancel each other out. When this happens, the coil system is said to be "balanced." The coil arrangement creates an electro-magnetic field within the former through which the product passes.
+
+Figure 1: Balanced three coil system
+
+2 White Paper METTLERTOLEDO
+
+The electro-magnetic field remains undisturbed and the induced voltages in the coil system remain in balance until something metallic disturbs the magnetic field (Figue 2).
+When this happens, the voltage in each coil changes by just a few nanoVolts. Although the voltage change is very small, it is enough to be detected and interpreted by sophisticated electronic circuitry and advanced software algorithms.
+Figure 2: Shows encircling coil cut away
+The software is able to generate an electronic signal, which can be used to raise an alarm and activate an automated product rejection mechanism to take the contaminated product out of the production process. Alternatively, the signal can be used to stop the production process by de-activating the conveyor or other packaging or processing machines.
+To find out more or request a free copy of the publication 'The Metal Detection Guide - Building an Effective Programme' visit: www.mt.com/mdguide.
+2.3 Stable Online Performance is Critical
+A well-designed metal detector for use in the food industry can detect a pinhead in a loaf of bread and a metal detector designed for pharmaceutical applications can detect stainless steel metal contaminants less than 0.3mm in diameter. But robust construction and stable, consistent performance is critical.
+If the coil system is allowed to move or vibrate by just a few microns, the disturbance could be enough to cause rejection of a perfectly acceptable loaf or uncontaminated tablets or capsules. Equipment construction must therefore be rigid enough to eliminate any movement of the coil system. This is a pre-requisite for a high-quality metal detector.
+In a low-quality detector, the coils system may also be sensitive to electrical and radio interference. High-quality design and construction shield the coils system, eliminating the possibility of external interference. Consideration should also be given to maintaining a metal-free zone immediately adjacent to the detector to avoid interference. Modern design and construction techniques and the use of "Zero Metal Free Zone" (ZMFZ) technology can minimise this requirement.
+2.4 Dry Products
+It is relatively easy to detect metal contaminants in dry products. The lack of moisture in the product generally makes them non-conductive so they do not create a disturbance of the detection field. This means that metal detectors can inspect at high frequency settings where they can achieve very high levels of sensitivity detecting very small contaminants.
+2.5 Wet Products
+Many foods, especially salty or acidic products, or those with high moisture content, produce a signal in a metal detector in the same way a metal contaminant would. When they pass through a metal detector, the product's own characteristics inhibit the metal detector's ability to identify a particular contaminant, a phenomenon known as 'Product 'Effect'.
+Historically 'wet' products have been more of a challenge for metal detectors. To compensate for product effect, sensitivity was often reduced significantly, increasing the risk of smaller metal contaminants passing through undetected.
+White Paper 3
+METTLERTOLEDO
+
+White Paper
+
+The latest metal detection technology overcomes the problem of product effect in a new and innovative manner. By utlising a combination of high and low frequencies simultaneously in conjunction with product signal suppression technology, these metal detectors are able to remove the product signal.
+
+With this Multi-Simultaneous Frequency (MSF) technology what was previously considered a challenging product is now relatively easy for a metal detector to inspect. The result is a vastly improved level of achievable sensitivity and the ability to detect significantly smaller metal contaminants.
+
+2.6 Metallised Film Packaging
+Products packed in metallised film packaging have historically been inspected by metal detectors using low-frequency techniques (depending on the film thickness). However, MSF technology, which is now available from some metal detection companies, enables the sensitivities achieved with a metal detector to be very similar to that achieved when using an x-ray system and, in some cases, the detection capability of the metal detector can be greater.
+
+However, if the metallised film is particularly thick and the application allows, it may be preferable to inspect such products prior to packing by using a "throat" type metal detector. A good example of this is seen in the snack food sector where throat metal detectors are often regarded as the solution of choice due to the high sensitivity levels achieved and the relatively low cost of investment and ownership.
+
+2.7 Aluminium Foil Packaging
+Aluminium packaging such as foil wraps and product trays are a bigger problem for metal detectors. Detectors using balanced-coil technology (described in section 2.2) are unable to inspect products in aluminium packaging. So a different technology, known as "ferrous-in-foil" detection, must be used. These detectors use strong, permanent magnets to create a constant magnetic field, which is disturbed by the introduction of magnetic metals. The drawback here is that this technology can only detect magnetic metals so it may not be an acceptable solution in all cases. Detection sensitivity is considerably lower than that of balanced-coil technology, but this remains a cost-effective solution in many food inspection applications.
+
+2.8 Product Size Limitations
+
+Metal detectors can be designed to accommodate any product size. Non-food applications such as inspecting tree trunks or hay bales for bits of metal, are a good indication of just how large the aperture can be if required. Extremely good sensitivity can be achieved when the height of the aperture of the metal detector is moderate in size (Figure 3).
+For larger packs and products, the aperture height or opening must be increased and, as a general rule, the larger the aperture height and product, the lower the sensitivity.
+
+Aperture Size
+
+(mm)
+
+(inches)
+
+76 x 22 100 circular 350 x 175 1000 x 400
+
+3 x 7/8 4 circular
+14 x 7 40 x 16
+
+Ferrous ball size that can be detected (diameter mm)
+0.15 0.4 0.8 2.0
+
+Figure 3: As the pack size increases, the aperture and coil inside must also increase
+
+However the reductions in sensitivity can be largely overcome by adjusting the pitch of the coil system within the detector. The use of variable frequency technology can also be used to overcome sensitivity problems.
+
+4 White Paper METTLERTOLEDO
+
+Metal detection can be used to inspect a variety of different product types, including loose, unpackaged products; liquids, pastes and slurries in pipeline applications; bulk powders and gravity-fed, free-falling products. In addition, metal detection systems can be used to inspect packaged products including tall, rigid containers such as glass jars, bottles and plastic containers.
+3 X-ray Inspection
+3.1 Why X-ray Inspection?
+X-ray inspection systems made their first appearance on production lines in the late 1980s and are used by food pharmaceutical manufacturers to ensure product safety and quality.
+X-ray systems are capable of detecting metal, as well as non-metallic contaminants such as glass, mineral stone, calcified bone, and high-density plastics and rubber compounds. In addition, they can also simultaneously perform a range of in-line quality checks such as measuring mass, counting components, identifying missing or broken products, monitoring fill levels, measuring head space, detecting product in seal and checking for damaged product and packaging.
+3.2 How Does X-ray Inspection Work?
+X-rays are invisible. Like light or radio waves, they are a form of electromagnetic radiation. As their wavelength is short, x-rays can pass through materials that are opaque to visible light (Figure 4).
+But they don't pass through all materials with the same ease. In general, the transparency of a material to x-rays is related to its density; the denser the material, the fewer x-rays that pass through.
+Hidden contaminants, like glass and metal, show up under x-ray inspection because they absorb more Figure 4: Electromagnetic Spectrum x-rays than the surrounding product.
+An x-ray system is essentially a scanning device. When a product passes through the unit, it captures a grey-scale image of the product. The software within the x-ray system analyses the grey-scale image and compares it to a pre-determined acceptance standard. On the basis of this comparison, it either accepts or rejects the image. In the case of a rejection, the software sends a signal to an automatic reject system, which removes the product from the production line.
+3.3 X-ray Inspection Equipment Design
+There are three key components of an x-ray inspection system (Figure 5):
+· An x-ray generator (A) · A detector (B) · Control system (C)
+Figure 5: Components of an x-ray system
+White Paper 5
+METTLERTOLEDO
+
+White Paper
+
+After leaving the exit window of the x-ray generator, the x-ray beam travels in a straight line through a collimator (a device for narrowing the stream of x-rays, typically to a 2mm wide fan beam), through the product, and on to the detector. A grey-scale x-ray image is created and can be analysed. To accommodate larger products, the x-ray generator has to be moved further away to create an x-ray beam wide enough to inspect the whole product. Increasing the distance between generator and detector reduces the sensitivity of the system.
+
+The whole assembly is encased in a stainless steel x-ray cabinet with a highly-visible lamp stack that signals the system status. The lamp stack is wired to a safety circuit; if the lamps fail, the x-ray source automatically switches off. To find out more or request a free copy of the publication 'The X-ray Inspection Guide ­ Building an Effective Programme' visit: www.mt.com/xray-guide
+
+3.4 Product Density and Texture
+The ease with which contaminants can be identified by x-ray inspection depends on various factors such as product density, product depth and product homogeneity.
+
+X-ray inspection is all about differences in absorption. The amount of x-ray energy absorbed during the beam's passage through a product is affected by the product's thickness, density and atomic mass number. The absorption is known as the linear attenuation coefficient. When a pack or product passes through the x-ray beam, only the residual energy reaches the detector. Measurement of the differences in absorption between a product and a contaminant is the basis of contamination detection by x-ray inspection.
+
+For the most part, food and pharmaceutical products contain compounds made from elements with an atomic mass of 16 and under ­ mainly hydrogen, carbon and oxygen. The absorption of x-rays by products containing low-mass elements is proportional to their density and thickness. In other words, the thicker or denser the product, the more x-rays are absorbed.
+
+A potential contaminant becomes detectable by x-ray systems if it has a high atomic mass, a feature that is generally related to the contaminant's density. Since products contain low atomic mass elements and have low density, while contaminants contain high atomic mass number elements and generally have higher density, it is convenient to use density as the benchmark for contaminant detection.
+
+In general, contamination detection is only possible on contaminants
+
+that are denser (i.e. have a higher specific gravity) than the food
+
+product in which they are embedded (Figure 6). This means that
+
+low-density contaminants such as insects, wood and low-density
+
+polyethythene film cannot normally be detected effectively by x-ray technology.
+
+Figure 6: Contamination detection is only possible if the contaminant is denser than the food product.
+
+Products with varying textures can also affect how an x-ray system
+
+performs; the more homogeneous the product, the better the overall sensitivity.
+
+3.5 Packaging Capabilities
+X-ray systems can inspect a wide range of unpackaged products, from bulk, loose products to liquids, pastes and slurries in pipeline applications.
+
+They are also ideal for inspecting packaged products in all sizes and shapes, including tall, rigid containers such as glass jars, bottles and plastic containers. In addition, they are commonly used to inspect metal cans and products packaged in aluminium foil and metallised film.
+
+6 White Paper METTLERTOLEDO
+
+4 Which Technology ­ Metal Detection or X-ray Inspection?
+The easiest way to choose between metal detection and x-ray inspection is to start with your application. The first step is to carry out a Hazard Analysis and Critical Control Points (HACCP) audit. This will help to understand the requirements of any customer or compliance-related issues driven by the Global Food Safety Initiative (GFSI) and/or major retail groups.
+A HACCP audit will identify the risks of contamination being introduced in your manufacturing process, and the types of contamination likely to be encountered. Critical Control Points (CCPs) should be established to mitigate the risks, and product inspection equipment needs to be installed at these points to reduce the risk of contamination to acceptable levels.
+If the HACCP audit determines that metal is the only likely contamination to be found, then a metal detector is the best solution. However, if other contaminants like glass, stone or dense plastics are identified as likely to be encountered, then x-ray is a more suitable solution. In any case, it is always advisable to conduct product testing to establish the most appropriate technology.
+In many cases, there is only one suitable solution ­ either metal detection or x-ray inspection. However, there are occasions where it could be necessary to install both metal detection and x-ray inspection at different CCPs on the same production line.
+For example, a metal detector or a bulk-flow x-ray inspection system placed early in the processing line can remove large metal or non-metallic contaminants before they reach delicate machinery downstream, where they could damage the machine or become fragmented into multiple, smaller, more difficult to detect contaminants.
+As well as protecting the machinery, the inspection equipment will remove contaminants before further processing increases the cost of product waste.
+An additional metal detection system installed at the end of the line can then make checks to ensure the final product is free of metal contaminants. Alternatively, an x-ray inspection system can be installed at the end of the line to detect a wider range of contaminants and carry out quality checks before the product leaves the factory.
+4.1 Aluminium Contaminants in Non-Metal Packaging
+Aluminium is a lightweight metal and a good electrical conductor. Since its density is lower compared to other metals such as ferrous and stainless steel, this causes a reduction in the sensitivity on an x-ray inspection system. This means that aluminium is detected at twice the size of ferrous or stainless steel. In contrast, due to its excellent conduction properties, aluminium can often be detected at smaller sizes using metal detection technology, which makes it the better solution.
+4.2 Metal Contaminants in Aluminium Foil Packaging
+When products are packed in aluminium foil, the choice swings the other way. Metal detectors struggle to spot the contaminants amidst the packaging.
+However, due to the way in which the x-ray system works, aluminium packaging has a negligible impact on detection levels. X-ray inspection can see straight through the low-density foil to get a better view of the metal contaminants within and offers the better solution.
+White Paper 7
+METTLERTOLEDO
+
+White Paper
+
+4.3 Metal Contaminants in Non-Metal Packaging
+For cost-effectiveness, metal detectors are usually the best solution when looking for metal contaminants only, once all other factors have been taken into consideration. However, if the requirement is to detect metal contaminants whilst simultaneously conducting in-line product integrity checks, x-ray systems are the appropriate solution. If there are any doubts, a product test is always advisable.
+4.4 Metal Contaminants in Gravity-Fed Products
+For the inspection of gravity-fed, free-falling products metal detection is the only choice. Gravity-fed, powdered and granular products do not travel at the same speed; they accelerate as they fall, plus the direction of travel is not uniform, since they bounce off each other making x-ray inspection unfeasible.
+As the product tends to be dry and non-conductive, the sensitivity levels achieved using metal detectors are extremely high.
+The same situation applies when inspecting products immediately prior to packing using Vertical Form, Fill and Seal solutions.
+4.5 Non-Metal Contaminants in any Packaging
+X-ray inspection is the only solution, and has the ability to detect non-metallic contaminants such as glass, mineral stone, calcified bone and high-density rubber and plastic.
+4.6 Quality Control Issues not Involving Contaminants
+Some manufacturers have utilised metal detection technology in innovative ways to confirm the presence of metal in a particular product, such as the clip on a loaf of bread, or the presence of a metal component within a package.
+X-ray inspection can perform a wide range of additional quality control checks simultaneously with contamination detection. They include: · Measuring mass · Counting components · Identifying missing or broken products · Monitoring fill levels · Measuring head space · Inspecting product-in-seal integrity (products or contaminants trapped in the seal) · Checking for damaged packaging
+Additional features such as these can help food and pharmaceutical manufacturers justify the additional cost of x-ray inspection technology.
+4.7 Product Size Limitations
+Both x-ray systems and metal detectors can be designed to accommodate any product size. In general, however, as the product size increases, both technologies will experience a reduction in sensitivity levels. It is therefore recommended that a product test is performed in all cases to determine the most suitable technology.
+8 White Paper METTLERTOLEDO
+
+4.8 Fast / Variable Line speeds
+Metal detection and x-ray inspection systems are both suitable for variable and fast production lines. Metal detectors will detect contaminants in products moving at low and high speeds, including conveyors running at speeds above 400m/min (although very few conveyorised processes run at such high speeds).
+X-ray inspection systems can monitor conveyor lines running at up to 120m/min. Even higher inspection volumes/speeds can be achieved in pumped and bulk applications for both metal detection and x-ray technology. The choice of inspection technology depends on multiple factors such as likely contaminants, product type and packaging material; speed generally is not a deciding factor.
+4.9 Limited Space
+A metal detector head takes up much less space than an x-ray inspection unit so in situations where installation space is limited and metal is the likely contaminant, a metal detector may be the best solution. If packed products are being inspected, both systems will normally need a conveyor system and an automated reject system. In some situations, the differences in overall system length can be very small.
+As mentioned previously in section 2.3, some metal detector companies offer what is referred to as Zero Metal Free Zone (ZMFZ) technology. This allows the overall size of the metal detection system to be drastically reduced and it is common to find metal detection systems that take up less than 1000mm of line space.
+In cases where an integrated reject system is not required, it is possible to install an x-ray inspection system into a space of less than 1000mm, providing there is adequate local guarding in place.
+4.10 Industry Standards and Codes of Practice
+Recent changes in food and pharmaceutical industry safety standards are resulting in the increased adoption of metal detection and x-ray inspection systems by manufacturers.
+Food manufacturers must comply with regulations and standards to prevent physical contamination, such as the Food Safety Modernization Act (FSMA), Global Food Safety Initiative (GFSI), the British Retail Consortium (BRC), Food Safety System Certification 22000 (FSSC 22000) and International Featured Standard (IFS) Food.
+Pharmaceutical manufacturers have their own compliance requirements.
+A growing number of major retailers are also setting their own codes of practice which contain specific advice regarding product inspection equipment.
+5 Simplifying the Choice
+The points raised in this document so far are easily organised into a simple yes-and-no flow chart. The chart detailed in Figure 7 is a good starting point for choosing an appropriate system, but it cannot provide all the answers. There is an area of indecision that requires further levels of discussion with product inspection experts.
+If cost was your sole criterion for deciding, metal detection is a more suitable solution. However product safety decisions are rarely that simple. The performance of each solution is affected by the size of the product to be inspected, plus it is important to compare lifetime costs, not just the upfront capital costs.
+The type of product and the likely contaminants will also affect your choice and consideration must be given to the HACCP audit and CCPs on your production line.
+White Paper 9
+METTLERTOLEDO
+
+White Paper
+
+Figure 7: Flow chart - Metal Detection or X-ray Inspection
+Sometimes the answer is to install more than one detection system at different CCPs on the same production line, as mentioned previously in section 4.
+6 Conclusion
+Metal detection and x-ray inspection offer differing capabilities. In some ways that makes choosing between them simple. You can lay out a grid of features and see which ones match your application or you can reduce the problem to a series of questions. The answers to the questions should generally lead you to straight to one technology or the other. But neither approach is infallible. There is an area of overlap between the two technologies where you could choose either one. Then it's not so much a question of which technology is better, but which technology is most appropriate for your particular application and budget. When thinking about purchase costs, metal detection is invariably cheaper. However, it is worth bearing in mind that a product recall, and the costs of a damaged reputation leading to loss of consumer confidence, could easily dwarf the costs of the equipment that would have protected it.
+10 White Paper METTLERTOLEDO
+
+7 Summary Table
+
+The following table summarises the key differences between the two technologies:
+
+Metal Detection
+
+X-ray Inspection
+
+Product formats Contamination detection
+
+Packaged and conveyorised products, Packaged and conveyorised products, loose
+
+loose and bulk products, free-falling and and bulk products, pumped liquids, paste and
+
+vertically-packed products (including
+
+slurry products, continuous web products
+
+powders and granular products), pumped
+
+liquids, paste and slurry products,
+
+continuous web products
+
+Detection of all metal contaminants,
+
+Detection of dense metals including ferrous,
+
+including ferrous, non-ferrous (including non-ferrous and stainless-steel, as well as
+
+aluminium) and magnetic and non-
+
+other foreign bodies like glass, mineral stone,
+
+magnetic stainless steels
+
+calcified bone, high-density plastics and rubber
+
+compounds
+
+Detectable contaminants
+
+Contaminants must be austenitic
+
+Contaminants must be of high-density or have
+
+(magnetisable) or electrically conductive a high atomic mass number
+
+Aluminium contaminants
+
+Easily detected
+
+Detectable, but not as easily detected as other metals
+
+Quality checks Product texture
+
+Confirmation of presence of metallic component
+No effects
+
+Detection of dense contaminants and simultaneous quality checks for mass measurement, product in seal inspection, fill-level control, component count, detection of missing and broken products, as well as packaging May limit performance
+
+Conductive product
+
+Can be inspected
+
+Can be inspected
+
+Metallised film-packed products
+
+Can be inspected
+
+Can be inspected
+
+Aluminium foil-packed products Pack size effects Increased aperture size
+
+Cannot be inspected The larger the pack, the less sensitive Sensitivity can decline, and costs increase moderately
+
+Can be inspected The larger the pack, the less sensitive Sensitivity can decline, and costs increase significantly
+
+Short conveyor length (insertion space) Short conveyor lengths or small space required for insertion
+
+Short conveyor length may need special guarding for radiation safety
+
+High line speeds
+
+Operates at high line speeds
+
+Operates at high line speeds
+
+Variable line speeds
+
+Operates at variable line speeds
+
+Operates at variable line speeds
+
+White Paper 11
+METTLERTOLEDO
+
+About Mettler-Toledo Product Inspection:
+The Product Inspection Division of METTLER TOLEDO is a leader in the field of automated inspection technology. Our solutions increase process efficiency for manufacturers while supporting compliance with industry standards and regulations. Our systems also deliver improved product quality which helps to protect the welfare of consumers and reputation of manufacturers.
+
+Checkweighing
+
+Metal Detection
+
+X-ray Inspection
+
+Vision Inspection
+
+Disclaimer:
+Information contained in this publication is provided "as is" and without warranty. METTLER TOLEDO disclaims all warranties, express or implied, and makes no warranty regarding the accuracy or applicability of the information contained in this publication, and is therefore explicitly not responsible for any damage, injury or death resulting from the use of or reliance on the information.
+No part of this publication may be reproduced or distributed for any purpose without written permission from METTLER TOLEDO.
+©2016 METTLER TOLEDO. All rights reserved. Subject to technical changes.
+
+Mettler-Toledo GmbH CH-8606 Greifensee, Switzerland Tel: +41-44-944 22 11 Email: product.inspection@mt.com Website: www.mt.com/contact
+Subject to technical changes ©11/2016 Mettler-Toledo GmbH Global Marcom Switzerland
+
+www.mt.com/pi
+For more information
+
+

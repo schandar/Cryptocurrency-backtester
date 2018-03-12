@@ -1,0 +1,148 @@
+Raiden Network (RDN)
+High volume, instant and secure token transfer without the need for global consensus
+Overview
+Raiden is a highly anticipated open-source project which started in 2015, shortly after the market adoption of Ethereum. The goal of the startup is to solve the scaling issues of Ethereum by creating a solution that allows two agreeing participants to perform unlimited, bidirectional transfers without going through the blockchain for every transaction.
+An overview of the functionality can be summarized by the following:
+1) Creation of binding agreements called balance proofs by using hash-locked transfers.
+2) Establishment of payment channel technology which is an off-chain contract between two parties. The two parties can perform almost unlimited and low cost transactions between each other instantly. The only time in which the blockchain is involved is through the initial on-chain creation of the contract and the final closing of the channel.
+Token Sale
+Under the code RDN, Raiden will be issuing a fixed supply of 100,000,000 tokens.
+The company notes that exactly 50% of the tokens will be available for crowd sale as a `Dutch Auction' which is a method that leads to the continued value variability of the contribution price based on the length of the token sale.
+A total of 34% of the tokens will be held by the developers of Raider, Brainbot Labs, for the development and maintenance of the protocol. The balance (16%) is allocated towards an external development fund to grow the ecosystem.
+There is no Use of Proceeds detailed within their materials.
+
+SPEC BUY
+
+General
+Country: Team: White Paper: Stage: Sale Period: Website:
+
+NA Transparent Overview Available MVP October 18 2017 Click here
+
+Sale Info
+Pricing: Accepted: Min Goal: Cap: Escrow: Bonus:
+
+Dutch Auction ETH NA 100,000,000 Smart Contract N/A
+
+Bonus structure
+
+Private sale:
+
+N/A
+
+Presale:
+
+N/A
+
+Checklist
+Management team: Product definition: Commercial viability: Volume/interest: Fulfillment:
+
+Token Allocation
+
+16% 34%
+
+50%
+
+Crowsale External Dev Fund
+
+Brainbot
+
+12 October 2017
+
+Report produced by Picolo Research
+
+Tokens for Investors
+Tokens issued by Raiden (RDN) play a central role in the ecosystem for the following reasons:
+1) RDN is an incentive focused and `fee-based' token which aims to promote innovation, competition and the creation of auxiliary services
+2) The intention of RDN is the be the platform based currency, although the company acknowledges that there is nothing stopping developers from accepting any other type of Altcoin as remuneration.
+There is an expectation that RDN will be exchange listed in the short term, however we cannot as yet confirm a date.
+Commercial Strategy
+The commercial strategy of Raiden is heavily focused on development, deployment and market penetration.
+As the initiative has been in development for some time, it is highly anticipated amongst the community, hence, initial user adoption should not be an issue.
+The company is holding back 50% of tokens which they claim are for continued development of the protocol as well as a way to incentivise community collaboration from an innovation point of view.
+There is a strong focus on retention and growth for commercialization.
+We note that Raiden has delayed the release of their protocol since March 2017 but have produced a sister version with limited functionality.
+Management
+Raiden has been developed by BrainBot Technologies. The personnel involved have a track record of technical development success.
+Heiko Hees - Founder & CEO
+Previously founder of PediaPress. Developer on Ethereum since 2014.
+Oliver Bunting - Consultant
+Ex-Director of CryptoCoins Consulting Ltd.
+
+12 October 2017
+
+Report produced by Picolo Research
+
+THERE'S STILL TIME TO JOIN THE PICOLO RESEARCH BACKED TOKEN SALE
+Find out more
+OR CONTINUE READING
+
+Strengths
+· As more large organizations including financial institutions seek to incorporate Ethereum transactions in their business, the issue of scalability, cost and time are increasingly becoming more of a concern (particularly for those that are seeking high volume numbers). Raiden's solution is a leap in the right direction, solving some of these limitations for a certain type of user.
+· The application of Raiden's Network to fintech related organizations that are focused on constant interbank or `related-party' transactions is significant. The network could effectively reduce costs, settlement periods and open up the possibility of instant remittance within various business models.
+· The project has been open source since 2015 with approximately eight contributors to the GitHub repository.
+· Within the contents of their FAQ's, the team have spent some time comparing other solutions in the market and noting the major differences in technology.
+· The project already has a significant following.
+Weaknesses
+· There is no official white paper for the project, however there is a `101 summary' which provides a good overview of the project. We believe the team decided to do this due to the amount of information already present on github.
+· The company had communicated that there would be a release earlier in 2017, however this has not yet occurred. Such delays pre-ICO dampen confidence in the market that the solution will be delivered within an appropriate time frame.
+· The allocation to the the team of 35% is quite large. They note that this amount is also to be indirectly contributed to development and payment of advisors/legal, however, by any standard this is still significant. A more granular breakdown would have been appropriate.
+· With respect to the above, we would then question where the proceeds of the 50% crowd sale would be going. In light of there being no official `use of proceeds,' it can be assumed that it will be for development, which would indicate a `doubling up' on R&D allocation.
+· At this point in time, the `Dutch Auction' process makes valuation and analysis extremely difficult based on deal structure.
+
+12 October 2017
+
+Report produced by Picolo Research
+
+Conclusion
+Raiden Network presents a speculative opportunity for investors seeking to take exposure in an innovative concept that can change the landscape of Ethereum and its future adoption.
+The solution they are seeking to deploy has merit, particularly when looking at specific use-cases in high volume businesses that have ongoing transactional relationships with the same parties.
+It should be noted however that such a solution will not be applicable to every use case. For business models which operate with new channels of customers or `high volume' and infrequent transactions, Raiden may not be the appropriate solution.
+In general, we are attracted to Raiden and its aspirations in the Ethereum ecosystem, however we do acknowledge several concerns that result in Picolo Research taking a more speculative view:
+· There have been previous delays with the solution · A significant amount of tokens are being held with the
+founding team · No `use of proceeds' or budget has been produced to show
+where the money is going (that we can find)
+In addition to the above, the risk component of the opportunity is heavily correlated to the deal structure, end market capitalization and liquidity. At this moment in time, these points are extremely hard to anticipate due to the nature of the `dutch auction.'
+With respect to the preceding points, Picolo Research acknowledges that while there is a significant chance of upside in the long term, however, this is paired with a large degree of risk and uncertainty.
+Picolo Research believes Raiden to be a speculative buying opportunity for those investors that have a high tolerance to risk and are seeking exposure for the long term only.
+
+12 October 2017
+
+Report produced by Picolo Research
+
+Ratings Overview
+
+Either at concept stage, lack of commercialization/conviction or bordering a Scam.
+The company/tokens have merit, however there are questionable attributes and involves significant risk.
+
+An investment opportunity that can be considered under certain circumstances.
+
+A good opportunity with no significant weaknesses and a clear path of commercialization.
+A high conviction opportunity of investment with no visible weaknesses.
+
+SCAM RISKY HOLD
+NEUTRAL SPEC BUY BUY
+12 October 2017
+
+A fraudulent initiative to be avoided at all costs.
+
+Due to a variety of factors, investment is associated with high risk of losing capital.
+
+Usually occurring in an updated release of coverage to advise maintaining current levels of position sizing.
+The opportunity has merits and room for growth, however, there are several negative aspects to take into consideration which may influence the length of investment.
+A speculative opportunity for investors with a higher risk tolerance.
+A high conviction buying opportunity.
+
+Report produced by Picolo Research
+
+Disclaimer
+Picolo Research is an independent provider of research on cryptocurrency ICO's. We have not been paid, nor mandated for this research report. The views expressed within this report are Picolo's in its entirety.
+The contents of this report and its attached documents have been prepared without taking account of your objectives, financial situation or needs. Because of that you should, before taking any action to acquire or deal in, or follow a recommendation (if any) in respect of any of the financial products or information mentioned in or downloaded from or through this website, consult your own investment advisor to consider whether it is appropriate having regard to your own objectives, financial situation and needs.
+Whilst Picolo believes the information contained in this report is based on information which is considered to be reliable, its accuracy and completeness are not guaranteed and no warranty of accuracy or reliability is given or implied and no responsibility for any loss or damage arising in any way for any representation, act or omission is accepted by Picolo or by any officer, agent or employee of Picolo or its related entities. blockchaini.co at all times reserves the right to at any time vary, without notice, the range of services offered by Picolo and its subsidiaries, and the terms under which such services are offered. The information within this report is our own opinion only and is not to be used in making a decision for investment.
+Contact us
+w: http://www.picoloresearch.com e: admin@picoloresearch.com a: #08-03 Claymore Hill, Singapore
+
+12 October 2017
+
+Report produced by Picolo Research
+
+

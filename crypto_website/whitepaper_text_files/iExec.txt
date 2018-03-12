@@ -1,0 +1,499 @@
+Deutsche Bank Global Transaction Banking
+Big Data
+How it can become a differentiator
+
+Contents
+
+Definition of Big Data
+
+3
+
+Opportunity space
+
+4
+
+Key Players
+
+6
+
+Leading Industries taking advantage
+
+7
+
+of the Big Data trend
+
+Big Data in the Financial Industry
+
+11
+
+Risks/Dependencies of Big Data
+
+19
+
+Conclusion
+
+22
+
+Bibliography/References
+
+23
+
+Deutsche Bank Global Transaction Banking
+The purpose of this white paper
+Authors of this white paper: Helena Forest & Evelyn Foo, GTB Product Management and Donya Rose & Dmitriy Berenzon, Product Strategy & Business Development.
+
+Big Data, with a 40-year history, is not a new subject by any means, but it is a topic that is commanding greater levels of attention from all corners of the global economy.
+Today, we are bombarded with data from every conceivable direction. How we calibrate that data and make constructive use of it is the key issue. Enterprises across various industries have embarked on a path to digitally transform their organisation which can range from the introduction of data processing at every step of existing business processes, all the way to the pivoting of the enterprise's business model towards the monetisation of its data assets.
+This paper aims to examine the phenomenon, how it works and the ways that some organisations are already leveraging its potential. More importantly, it will discuss how we in GTB can harness Big Data to truly digitise our processes and help us become more efficient, as well as enhance client experience in our role as a banking partner.
+
+Today, we are bombarded with data from every conceivable direction
+
+3
+
+Deutsche Bank Global Transaction Banking
+
+Definition of Big Data
+
+Big Data originally emerged as a term to describe large datasets that could not be captured, stored, managed nor analysed using traditional databases. However, the definition has broadened significantly over the years. Big Data now not only refers to the data itself, but also the set of technologies that perform all of the aforementioned functions as well as varied collections that solve complex problems(1) and make unlocking value from that data more economical.(2)
+
+Searches for the term `Big Data'
+
+Worldwide interest, 2004-present, smoothed 100
+
+80
+
+60
+
+40
+
+20
+
+0
+
+04
+
+05
+
+06
+
+07
+
+08
+
+09
+
+10
+
+11
+
+12
+
+13
+
+Figure 1: Growing worldwide interest with respect to Big Data
+
+Interpretation of what Big Data is
+
+% of respondents* (n=1,144), 2012
+
+A greater scope of information
+
+18
+
+New kinds of data and analysis
+
+16
+
+Real-time information Data influx from new technologies
+
+15 13
+
+Modern media
+
+13
+
+Large volumes of data
+
+10
+
+The latest buzzword
+
+8
+
+Data from social media 0
+
+7
+
+5
+
+10
+
+15
+
+20
+
+Figure 2: Broad Interpretations of Big Data
+
+4
+
+Deutsche Bank Global Transaction Banking
+
+Opportunity space
+Nine out of 10 business leaders consider data to be the fourth factor of production, as fundamental to business as land, labour and capital. According to research, the use of big data has improved the performance of businesses by an average of 26% and that impact is estimated to grow to 41% over the next three years.(3)
+Despite challenges relating to privacy concerns and organisational resistance, Big Data investments continue to gain momentum across the globe. Big Data investments are estimated to account for nearly USD 30bn in 2014 alone, and these investments are further expected to grow at a CAGR of 17% over the next six years, eventually accounting for USD 76bn by the end of 2020.(4)
+Today, what matters to businesses and marketers is no longer the question of whether investment in data management tools is a good deal or not ­ but how efficiently can businesses act on the complex material they have on hand?
+Companies that put data as the top priority for their marketing and sales decisions increase their marketing return on investments by 15-20%. With these promising numbers and a good reputation, solid investments in big data are being made, ranging from hiring Chief Analytics Officers to allocating sizable budgets to tools that can make it happen.(5)
+Businesses are also not the only ones that should be excited about Big Data as it has the potential to create more than 4.4 million jobs by 2015, opening up considerable opportunities for analysts, computer scientists, mathematicians and other data-savvy job seekers.(6)
+
+According to research, the use of big data has improved the performance of businesses by an average of 26%
+
+5
+
+Deutsche Bank Global Transaction Banking
+
+Key Players(7)
+
+Big Data technology has four key aspects: Infrastructure; Data Storage; Data Processing and Management; and Data Analytics. In 2012, the top five worldwide Big Data revenue generators were IBM (USD 1.3bn), Hewlett-Packard (USD 664m), Teradata (USD 435m), Dell (USD 425m), and Oracle(USD 415m).(9)
+Infrastructure: The key to big data infrastructure is scalability and flexibility to handle petabytes of data, so the cloud becomes a natural choice. Key public cloud providers include: Amazon Web Services, Gogrid and Rockspace,
+Data Storage: Traditional, legacy systems and methods of storage are suboptimal due to price and scalability restrictions. New methods of storage, particularly NoSQL and DFS (Distributed File System) represent the paradigm shift in the storage arena. Amongst these, Hadoop is the most commonly used storage for Big Data. Key Big Data storage players include: mongoDB, Hadoop, Clustrix and Netezza
+Data Processing and Management: This framework is used for processing a growing mass of data in parallel. Key data processors and managers include: Cloudera, Hadoop, and Greenplum.
+Data Analytics: This is the area which provides visualisation and predictive analytics. Key data analytics providers include: Splunk, Clickfox, Rainstor, Pervasive, MapR and Progress dataDirect.
+
+Big Data analysis tools
+
+% of respondents (n per data point=508-870 out of 1,144), 2012
+
+Query and reporting
+
+91
+
+Data mining
+
+77
+
+Data visualisation
+
+71
+
+Predictive modelling
+
+67
+
+Optimisation
+
+65
+
+Simulation
+
+56
+
+Natural language text
+
+52
+
+Geospatial analytics
+
+43
+
+Streaming analytics
+
+35
+
+Video analytics
+
+26
+
+Voice analytics
+
+25
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+Figure 3: Key Big Data Analytic Tools
+
+6
+
+Deutsche Bank Global Transaction Banking
+7
+
+Deutsche Bank Global Transaction Banking
+
+Leading Industries taking advantage of the Big Data trend
+
+Companies benefit from a multi-dimensional view of their business when they add insight from Big Data to the traditional types of information they collect and analyse. For example, a company operating a retail website can use big data to understand site visitors' activities, such as paths through the site, pages viewed, comments posted and purchasing history, in order to gain a better understanding of customers and fine-tune offers and pop-up advertisements to target and cater to their interests.
+Ever since companies like Google, Amazon and Facebook pioneered the collection, processing and analysing of Big Data, it has become one of the hottest trends in corporate information technology alongside cloud computing, mobility and enterprise social networking. High performance analytics are helping industries from banking to retail, healthcare and insurance to gain insights from Big Data in just hours, minutes or even seconds, as opposed to the lengthy time it once took.(10)
+In the retail industry, many organisations are already using Big Data analytics to improve the accuracy of forecasts, anticipate changes in demand and then react accordingly. For example, Brooks Brothers, one of the oldest retailers in the US, introduced business analytics developed by SAS, the US-based business analytics software group to help improve the management of stock. Using analytics to forecast its global stock enabled store managers to make better decisions around stock levels and pricing. As a result, the number of times stores were out of stock when customers came in to purchase an item was reduced, and stock decreased by 27%.(10)
+In engineering and manufacturing, for instance, companies are seeking new opportunities to predict maintenance problems, enhance manufacturing quality and manage costs through the use of Big Data.
+With regard to product innovation, as McLaren's Formula One cars speed around the track, for example, they send a stream of data back to the team that are processed and analysed in real time using SAP's Hana in-memory technology. The racing cars are laden with sensors detecting flexing, vibration, load, wear, temperature and many other measures that impact machine performance. Hana uses sophisticated data compression to store information in RAM (Random Access Memory), which is 10,000 times faster than hard disks, enabling analysis of the data in seconds rather than hours. The real-time analysis of car sensor data is compared with historical data and predictive models, helping the team to develop improved performance, make proactive corrections and avoid costly, dangerous incidents and, ultimately, win races. These lessons have been extrapolated to many car manufacturers, which
+8
+
+High performance analytics are helping industries from banking to retail
+
+Deutsche Bank Global Transaction Banking
+now embed their vehicles with sensors and microprocessors capturing data for maintenance and repair purposes as well as Research & Development innovation.(12) In healthcare, there are new opportunities to predict and react more rapidly to critical clinical events, allowing better care for patients and more effective cost management. Researchers at the University of Buffalo, New York are using Big Data analytics to improve the quality of life of multiple sclerosis patients, while University of Ontario Institute of Technology (UOIT) is using IBM Big Data technology to capture and analyse real-time data from medical monitors, alerting hospital staff to potential health problems before patients manifest clinical signs of infection or other issues.(11) By revealing the genetic origin of illnesses, such as mutations related to cancer, the Human Genome Project, which was completed in 2003, is one project that realises the promise of Big Data. Consequently, researchers are now embarking on two major efforts, the Human Brain Project and the US BRAIN Initiative, in a quest to construct a supercomputer simulation of the brain's inner workings, in addition to mapping the activity of about 100 billion neurons in the hope of unlocking answers to Alzheimer's and Parkinson's diseases.(13) In the transportation industry, using technology from SAS, air traffic controllers at Frankfurt airport in Germany receive early warnings of storms, and managers can access an overview of all key performance indicators in near real time, including average times for luggage delivery, delays and airport security levels. All of this happens on the go ­ data is refreshed every five minutes and both managers and operations experts monitor reports via PCs and mobile devices.(10) US Xpress, the US trucking company, collects 900 data elements from tens of thousands of trucking systems: sensor data for tyre and fuel usage and engine operation; geospatial data for fleet tracking; and complaints posted on trucker blogs. Using Hadoop, a type of open-source database often used for big data projects and Informatics, US Xpress processes and analyses this data to optimise fleet usage, saving millions of dollars a year.(10) Even governments, including those of the UK and the US, are embracing Big Data. It has been suggested that if the UK government capitalised on Big Data, it could save 2bn pounds in fraud detection, generate 2,000 new jobs and 3.6bn pounds in savings through better management of processes by, for example, integrating patient data to improve healthcare IT systems.
+9
+
+Deutsche Bank Global Transaction Banking
+In March, the US government and six federal agencies started their own Big Data initiative backed by a US dollar 200m investment. Calling it one of the most important public investments in technology, since the rise of supercomputing and the internet, the White House Office of Science and Technology Policy (OSTP) said that this investment was aimed at "greatly improving the tools and techniques needed to access, organise, and glean discoveries from huge volumes of digital data".(10)
+10
+
+Deutsche Bank Global Transaction Banking
+
+Big Data in the Financial Industry
+The financial industry is one of the most data-driven of industries. At the end of 2012, it was estimated that financial and securities organisations were managing 3.8 petabytes of data per firm.(14) Data sets have grown immensely in terms of size, type and complexity, and are awkward to work with using traditional database management tools. Many large financial and banking institutions are reaching the upper limits of their legacy systems and are now seeking fresh analytics and framework solutions.
+Drivers of Big Data Technology Adoption in the Financial Industry
+Explosive Data Growth As technology advances, devices that consumers can use to initiate transactions proliferate. Furthermore, the number of transactions also increases. Rapid growth in data from both internal and external sources requires better utilisation of existing technologies and new technologies to acquire, organise, integrate and analyse the data.
+Big Data extends the range of data types that can be analysed, providing financial institutions with the ability and tools to digest digital and physical channel interactions, customer data, graph data, and geo-location data. Somewhere between 80 to 90% of financial institutions' data is unstructured (in documents/text form).(15) An example is the information stored in insurance claim systems ­ valuable information is captured in text format, but the ability to pass text information and combine the extracted information with structured data in claims database will enable a firm to provide better customer experience and enhance fraud detection capabilities.
+Regulation Within any firm there are disparate data sets containing point-in-time information for individual business activities. This information needs to be reassembled if various events are to be clearly understood for compliance or risk purposes."(35)
+New regulations require liquidity planning and overall asset and liability management functions to be fundamentally rethought. Point-in-time liquidity positions presently provided by static analysis of financial ratios are no longer sufficient; instead, a nearer real-time view is being required. Basel requirements for real-time or at least same-day views of liquidity risk also call for current data feeds and analytics. Hence, many firms are moving to the real-time monitoring of counterparty exposure, limits and other risk controls.(15)
+
+Data sets have grown immensely in terms of size, type and complexity
+
+11
+
+Deutsche Bank Global Transaction Banking
+
+New compliance requirements are placing greater emphasis on governance and risk reporting, driving the need for deeper and more transparent analyses across global organisations requiring banks and insurance companies to store and analyse many years of transactional data. The pervasiveness of electronic trading also implies that capital markets firms both create and react to hundreds of millions of market-related messages each day. This results in an everincreasing data and analytics burden.(15)
+Today, banks are required to have a `horizontal view' of risk within their trading arms, which calls for the integration of data from different trade record systems, each with their own data schemes, into a central repository for positions, counter-party information and trades. Legacy ETL-based approaches take several days to extract, transform, cleanse and integrate such data ­ yet regulatory pressure requires this whole process be repeated many times every day. Furthermore, a variety of risk scenarios must be simulated, and the simulations themselves often generate terabytes of additional data each day. Hence, the challenge outlined is not only one of massive data volumes but also of the variety of data and the timeframe in which such unstructured, varied data have to be aggregated and analysed.(15)
+Fraud Detection and Security(16) JP Morgan Chase has turned to counter-terrorism technology to spot fraud risk among its own employees. This technology enables the bank to process vast amounts of data to identify individual behaviour that could reveal risks or openings to make money. Other banks have similarly turned to Big Data to identify potential rogue traders, who could conceivably bring massive losses.
+Also, in order to combat credit fraud and security breaches, weblog data from banks' internet channels and geospatial data from smartphone applications are being retrieved and analysed along with core operations data. Up until recently, fraud analysis was usually performed over a small sample of transactions, but banks are increasingly examining entire transaction history data sets. Big Data does not replace banks' current analytical infrastructure but simply extends its scope ­ it has now become conceivable to conduct analyses based on the whole spectrum of data available, not just a limited sample.
+Customer Insight and Marketing Analytics Given that consumers now have transient relationships with multiple organisations, today a bank no longer has a full view of its customers' preferences, buying patterns and spending behaviours. Financial institutions no longer monopolise a consumer's financial transactions, with new entrants, peerto-peer services, the Paypals, Amazons, Googles and Walmarts of the world have, to some extent, managed to disintermediate banks.(15)
+12
+
+Paves the way for a fast and more transparent reconciliation
+
+Deutsche Bank Global Transaction Banking
+
+Gaining a more complete understanding of a consumer's interests and preferences is necessary to ensure that banks can continue to address customer satisfaction and for building more extensive and richer predictive models. Banks should bring in external sources of information from social networks, customer call records, customer emails, claims data (albeit in an unstructured format) that could provide them with psychographic information about the consumer, aside from utilising internal systems information. For instance, in 2012, American Express (Amex) partnered with Foursquare to offer promotions based on data collected by the social networking site. Amex understood that mobile geotargeted advertising (serving content based on a consumer's specific location) requires good data. Amex knew their customers' purchase history and possibly other preferences, and now by partnering with Foursquare(19), a location-based platform, they were able to better understand and achieve mobile geo-targeting.
+Big Data technologies provide the ability to collect and integrate and augment transactional and unstructured data from within and outside of the firm, and hence play a pivotal role in enabling customer centricity in this new reality.
+Big Data: Retail Banking vs. Corporate Banking Use Cases
+Retail Banking Use Cases A business called Visual DNA has been gaining rapid traction for its credit scoring of loan applicants through a form of psychometric testing. VisualDNA administers a quick 10-15 minute test via the lender. A bulk of the questions requires applicants to choose pictures from a selection that could reveal their attitude to types of risk. The company's technology has been up and running for a couple of years in Russia. Among the dozen or so lenders now using this test across six countries, some report improvements of as much as 50% in loan default rates. As a result, credit scoring agency Experian and a credit card company have both signed up as clients, with South African, Turkish and Mexican banks also about to trial these tests.(22)
+As with many large banks that have had to go through acquisitions that further muddle traditionally siloed banking operations, A large US retail bank faced the challenge of aggregating all available information about a single customer. Information about checking accounts, mortgages and wealth management for the same individual were stored in different information management systems, preventing it from leveraging analytic capabilities that could have helped account representatives provide customers with better service and understand cross-sell opportunities. Banks will also be able to
+
+A reduction in paperwork and improved process automation
+
+13
+
+Deutsche Bank Global Transaction Banking
+
+offer lower interest rates by utilising Big Data to reduce credit card fraud risks, thereby reducing overheads.(20)
+A major US bank has reduced its loan default calculation time for a mortgage book of more than 10 million loans from 96 hours to just four. Early detection of high risk accounts is crucial to determining the likelihood of details, loss forecasting and how to hedge risks most effectively. Also real-time risk assessment allows proactive analysis to spot fraudsters before they run up thousands of dollars in fraudulent charges ­ and stop them without inadvertently denying a legitimate purchase. A large global bank uses high-speed, real-time analytics to determine, at the point of sale, if the purchase is a legitimate one.(24)
+With a multi-digital customer, real-time data enables real-time offer management and relationship pricing, which can be more valuable than historical data. Being able to engage in predictive analysis to identify consumers' needs and deliver messages in real-time would be extremely valuable marketing, which Big Data technologies have the capacity and potential to do.
+Another US-based bank wanted to focus on multi-channel data to drive strategic decision-making and maximise lead conversions. The bank, therefore, deployed an analytics solution integrating data from online and offline channels to provide a unified view of the customer. The data fed into the bank's Credit Risk Management solution, supplying call centres with more relevant leads. It also provided recommendation to the bank's web team on improving customer engagement on the bank's website, and as a result, the bank's lead conversion rate improved by over 100%. More importantly, customers have been receiving an enhanced and more personalised experience.(21)
+Wells Fargo profiles and monitors the behaviour of every online banking user and pays close attention to occurrences like a change of login address or a sudden increase in the frequency of payment transactions.(23)
+Corporate Banking Use Cases JP Morgan Chase generates a vast amount of credit card information and other transactional data about its US-based customers. Along with publiclyavailable economic statistics from the US government, JPMorgan Chase uses new analytic capabilities to develop proprietary insights into consumer trends, and in turn offers those reports to the bank's clients. The Big Data analytic technology has allowed the bank to break down the consumer market into smaller segments, even into single individuals, and for reports to be generated in seconds.(20)
+14
+
+Strategically designing and optimising their treasury business
+
+Deutsche Bank Global Transaction Banking
+Citi, for its part, is also experimenting with new ways of offering commercial customers transaction data aggregated from its global customer base, which can be used to identify new trade patterns. The data could, for example, reveal indicators of what might be the next big cities in the emerging markets. According to an executive, who manages internal operations and technology at Citi, the bank shared such information with a large Spanish clothing company, which was able to determine where to open a new manufacturing facility and several new outlets.(20) Bank of America (BoA) used the analytic capabilities of Big Data to understand why many of its commercial customers were defecting to smaller banks. It used to offer an end-to-end cash management portal that proved to be too rigid for customers wanting the freedom to access ancillary cash management services from other financial services firms. They discovered smaller banks could deliver more modular solutions. BoA used data obtained from customer behaviour on its own website, as well as from call centre logs and transcripts of one-on-one customer interviews to ascertain why it was losing customers. In the end, it dropped the all-in-one offering and launched, in 2009, a more flexible online product: Cash Pro Online, and a mobile version, Cash Pro Mobile in 2010.(20)
+Big Data in Deutsche Bank
+Deutsche Bank understands the transformational potential of Big Data and has been well ahead of the curve, making significant investments across all areas of the Bank. Deutsche Bank currently has multiple production Hadoop platforms available through Open Source, enabling a decreased cost in terms of data processing. Historically, the adopters of Big Data were the Global Technology & Operations and Finance divisions of the bank. Since then, it has been recognised that Big Data is able to benefit all of the Bank's businesses, and Data Lab (connected with the Innovation Lab) has been set-up, sitting horizontally across the Bank's different businesses, providing internal data and associated analytics consultancy. For instance, if any business division or function has an idea associated with the use of data that it would like to explore, Data Lab will be able to help with the operating model and serve as an "incubator" to testout the business idea. They provide technology services and staff to work alongside the business in proving the data solution.
+15
+
+Deutsche Bank Global Transaction Banking
+Case Studies Most examples of where Big Data is being employed have moved beyond the "opportunity" phase and are in the process of becoming fully-fledged projects in their developmental cycle. Big Data projects have also helped build risk platforms used to mine and process data as well as analyse risk. Examples of risk that can be analysed with Big Data technologies and the data extracted from the bank's systems include P&L Risk, Market Risk and Volcker Key Performance Indicators. Specifically, the Volker rule requires the bank to keep data for a much longer period than the business can presently do or had planned for, and also requires associated information to be pulled out quickly. Big Data technologies have enabled the Bank to store over 10 years of proprietary trading data and ensure easy accessibility. Another set of data analytics currently used by the Bank is the matching algorithm, which enables the business to gain greater visibility on its performance. Other data analytic abilities include profiling of data to identify abnormal information through rule-based algorithms, or "teaching" a machine what is abnormal and normal so it can quickly flag errors and minimise false positives, which is mainly applied in activity monitoring and anti-money laundering processes.. In terms of reporting capabilities, reports can now be generated from the data source itself, where the data is stored without having to create dedicated reporting systems. Within Global Transaction Banking (GTB) Product Management & CIO, the Operating Model is structured around three key pillars ­ Productisation, Product Management Framework and Lean Thinking ­ which drive the organisation towards its vision of delivering client value by being productcentric and market-driven. Specifically, the Productisation pillar brings structure to viewing GTB's front-to-back infrastructure, creating a more transparent and manageable landscape. Successful pilots have been completed for different GTB businesses across the regions, such as Cash Management Germany and Cash Management US with the focus on product level financials and volume data (See Figure 4) alongside positive feedback resulting in a cost-effective and fast, repeatable data extraction and normalisation processes. This approach can be utilised not only for the purpose of generating product level financials but also for other strategic and business relevant data sets on a sustainable basis.
+16
+
+Deutsche Bank Global Transaction Banking
+
+Ongoing pilots included improving multi-year business planning with predictive analysis of stability and capacity impacts; the translation of business plans into product level revenues and volumes; the monitoring of product profitability and health; the identification of up-sell and cross-sell opportunities in terms of revenue gaps; and additional insight for client product `white-spot' analysis.
+
+Product Level Financials
+Managing Organisation
+Product Family
+
+Cash Management Payments
+
+UBR GCIX MIS (i.e. dbSmart)
+
+Client Products & Solutions
+
+Treasury Payments
+(HVP/Wires)
+
+Bulk Payments
+(ACH, X-ACH, OPC)
+
+Cheque Disburse-
+ments
+
+Card Payments
+
+Cash Management Pilot
+Mapped c.600 "Product Items" to new GTB Product Tree Taxonomy Productisation (c.20 CM Products)
+
+20 600
+
+Client Products & Solutions
+Billing & Charging Systems
+
+Product Level Financials
+
+Figure 4: Pilot: New Level of Light: Product Level Financials
+
+Another example of leveraging big data has been the GTB project, which uses Big Data technologies to extract, normalise and gather valuable insights to provide an enhanced view of our clients. This allows for client-centric product development, commercial reviews, relationship management and an understanding of the specific needs of our customers.
+The technical key to successful digitisation of information is the ability of the organisation to collect and process all the required data, and to inject this data into its business processes in real-time - or more accurately, in right-time.
+
+The road to utilising Big Data has not always been a smooth one
+17
+
+Deutsche Bank Global Transaction Banking
+
+Risks/Dependencies of Big Data
+
+As the old adage dictates, knowledge is power, and with Big Data comes the promise of equally Big Knowledge, or so we have been told by researchers and scientists. Hence, many see Big Data as a true enabler in today's world and have enthusiastically embraced it. Of course, while Big Data brings enormous opportunity, the inherent complexity of such an undertaking means it can also present a challenge, as the survey below shows. Certainly, any Big Data scheme must be carefully planned and deployed if it is to deliver real insight, rather than merely inject additional layers of opacity. Furthermore, Big Data means the mining and transmitting of information, and information of any kind ­ particularly regarding personal details ­ must be handled responsibly.
+
+Main problems with Big Data
+% of respondents (n =82*), 2012
+Data protection and security
+Budgeting/setting priorities
+Technical challenges of data management
+
+49 45 38
+
+Expertise
+
+36
+
+Lack of awareness of big data applications
+and technologies 0
+
+35
+
+20
+
+40
+
+60
+
+*SMEs and large companies from various sectors
+
+Figure 5: The Main Problems with Big Data
+
+Size is not everything
+The ability to unlock marketable or income-generating insights from Big Data represents an excellent opportunity. However, it is necessary to evaluate the quality of the data. As with most things, the results we obtain eventually will only be as good as the data we input. In his book, The Signal and the Noise: Why So Many Predictions Fail but Some Don't, Nate Silver suggests the quantity of information in the world is increasing by 2.5 quintillion bytes per day, but the amount of useful information almost certainly is not. He explains that most of it is just noise, and the noise is increasing faster than the signal. There are too many hypotheses to test, and too many data sets to mine, but according to Silver, there is only a relatively constant amount of objective truth that can be found.
+
+Big Data, even with all the opportunities and potentials it presents, is an imperfect giant
+19
+
+Deutsche Bank Global Transaction Banking
+
+Silver also stated that "The credit rating agencies, in advance of the crunch, had millions of individual observations on individual mortgages, but all from a period when housing prices were increasing", showing that a data-rich environment could engender false confidence in our predictive powers.
+Also, Big Data sets can appear comprehensive but the sample size considered to be "N= all" is often just a seductive illusion. The economist Tim Harford and Microsoft's Kate Crawford, among others, have pointed out that most Big Data sets contain systematic biases, and therefore these skews must be identified and corrected. For example, in social media, it is possible to record and analyse every message on Twitter and use it to draw conclusions about the public mood. But there is a failure to recognise that Twitter users are not fully representative of the entire population. Only 15% of the UK population, for example, use Twitter, who are generally young and come from the higher socio-economic groups. Hence, considering a case example like this, we would have been better analysing a much smaller, yet representative sample of the segment of the population we wish to better understand.(32)
+Big Blind Spots Even the most diligently-unbiased archives are constrained by the availability of materials and fluency of its search. When it comes to Big Data, we know only what we have recorded, and we record what we can knowingly capture ­ it is the bias towards measurable information that affects arenas of science that could contribute to misleading results.
+Since we are inevitably hampered by the unknown, it is critical to qualify the importance of the known and be aware that we might be dealing with informational biases and reconfigure our research and results to account for both present and absent information.(31)
+Interpretation Errors and Issues Big Data could therefore result in big errors if the data is wrong or misleading. More often than not, however, there are errors in data interpretation rather than the data itself. Most firms are already dealing with data overload and are not great in utilising the limited data they have. What are the odds that we would get better with more data being available for us to tap into? Potential pitfalls of Big Data interpretation errors include wrongly predicted health scare incidents, or companies trying to sell customers something they already have or are just not interested in.
+In general, one needs to ascertain if the added volume, variety and velocity of data brings quantifiably better results. More data does not fix bad analytics. The primary failures of data analysis are less due to insuffient data, but flawed thinking.(33) To succeed analytically, more investment is needed to train people to think effectively and equip them with the tools to do so. Data scientists
+20
+
+More data does not fix bad analytics
+
+Deutsche Bank Global Transaction Banking
+and advanced analysts need to be empowered with foundational knowledge and skills to handle Big Data, which is very different from pure descriptive or general business analysis. It could take years before companies develop, integrate and become proficient in terms of Big Data competencies. The real challenge is not just incorporating new types of data but making it useful ­ acquiring petabytes of data is pointless if no one can access it and make any sense of it. Privacy and Confidentiality - Ethics Big Data has faced criticism for overstepping privacy boundaries. Ensuring Big Data projects retain their integrity and trust is critical to avoiding public embarrassment, mistrust, and liability. One bank, for instance, removed face recognition algorithms from its set of analytics, because it did not even want to be seen as being able to use it. Traditionally, organisations used various methods of de-identification (anonymisation, pseudonymisation, encryption, key-coding, and data sharing) and allowed data analysis to continue while simultaneously containing privacy concerns. Over the past few years, however, computer scientists have repeatedly shown that even anonymised data can be re-identified and attributed to specific individuals. The `triple identifier' of birthday, gender, and postcode is all that someone needs to uniquely identify at least 87% of US citizens in publicly-available databases. Individuals, who might have given consent to have their data used in what they believe to have been an anonymous fashion, may not have been aware that re-identification is possible. This could lead to harmful results such as revealing information on medical history, personal habits, financial situation and family relations that most people would classify as private.(26) Even though people expect to know what they are doing, and there may be no legal issues after consumers consent to providing information, companies continue to face reputational risk if trust and confidence becomes breached. Hence, what consumers trust firms to do (or not do) is not necessarily equal to what is legally permitted.(26) Given there are potentially significant legal, compliance, ethical and commercial risks associated with unfettered data exploitation, perhaps information leaders should, together with marketing, legal and any other relevant departments, develop a code of conduct for Big Data analytics. The code of conduct should contain the list of principles describing what the organisation finds appropriate and inappropriate, a process that describes ethical checks and balances when conducting big data analytics, legal implications, whether the intended use of the data matches how it is actually used, and if the organisation would be at ease if results became public.(27)
+21
+
+Deutsche Bank Global Transaction Banking
+
+Conclusion
+
+Overall, 62% of banks believe that managing and analysing big data is critical to their success. However, only 29% report that they are currently extracting enough commercial value from data.(33) This means there is significant upside, and it may be some time before Big Data becomes part of the standard business dynamic. The technical key to successful usage of Big Data and digitisation of business processes is the ability of the organisation to collect and process all the required data, and to inject this data into its business processes in real-time - or more accurately, in right-time..
+Therefore, rather than jump into Big Data blindly, a more pragmatic approach would be to test the water first, prioritise investments and use this process to determine how prepared the organisation is for a Big Data transformation, as well as how fast and how deep it can go. Ask the right questions, focus on business problems and, above all, consider multiple insights to avoid any Big Data traps or pitfalls. Harnessed properly, it can become a differentiator for Deutsche Bank.
+
+The four phases of big data adoption
+
+1 Educate 2 Explore 3 Engage 4 Execute
+
+Focused on knowledge gathering and market observations
+Developing strategy and roadmap based on business needs and challenges
+Piloting big data initiatives to validate value and requirements
+Deployed two or more big data initiatives, and continuing to apply advanced analytics
+
+24%* 47% 22% 6%
+
+*Percent of all respondents, 2012 (n=1,061 percentage does not equal 100%, due to rounding)
+
+Figure 6: Four phases of Big Data Adoption
+
+Big data objectives: Customer focus
+
+4 14
+
+15
+
+49
+
+18
+Customer-centric outcomes Operational optimisation Risk/financial management New business model Employee collaboration
+Figure 7: Potential Outcomes of Big Data
+
+22
+
+Deutsche Bank Global Transaction Banking
+Bibliography/References
+Figures (1) Figure 1: DB Research , Big data, The untamed force, May 5 2014,
+Google Trends (www.google.de/trends/) (2) Figure 2: DB Research , Big data, The untamed force, May 5 2014, IBM
+Institute for Business Value, Said Business School Oxford (3) Figure 3: DB Research , Big data, The untamed force, May 5 2014, IBM
+Institute for Business Value, Said Business School Oxford (4) Figure 4: Pilot: New Level of Light: Product Level Financials (5) Figure 4: DB Research , Big data, The untamed force, May 5 2014,
+Fraunhofer IAIS (6) Figure 5: DB Research , Big data, The untamed force, May 5 2014, IBM
+Institute for Business Value, Said Business School Oxford (7) Figure 6: DB Research , Big data, The untamed force, May 5 2014, IBM
+Institute for Business Value, Said Business School Oxford (8) DB Research, Big data, The untamed force, May 5 2014. Access to this
+research: http://www.dbresearch.com/PROD/DBR_INTERNET_ENPROD/ PROD0000000000334340/Big+data+-+the+untamed+force.pdf Websites Used (1) "The Big Data Market: 2014 - 2020 - Opportunities, Challenges, Strategies, Industry Verticals and Forecasts." The Big Data Market: 2014 - 2020 Opportunities, Challenges, Strategies, Industry Verticals and Forecasts. N.p., n.d. Web. 19 Aug. 2014. <http://www.marketresearchreports.biz/ analysis-details/the-big-data-market-2014-2020-opportunities-challengesstrategies-industry-verticals-and-forecasts>. (2) "Big data in the banking sector -." Big data in the banking sector. N.p., n.d. Web. 19 Aug. 2014. <http://onetree-solutions.com/big-data-in-thebanking-sector/>. (3) "10 Trends Shaping Big Data in Financial Services." TIBCO Spotfires Trends and Outliers RSS. N.p., n.d. Web. 19 Aug. 2014. <http://spotfire. tibco.com/blog/?p=12860>. (4) " Big Data a $30 billion market in 2014, says SNS Research report." N.p., n.d. Web. 19 Aug. 2014. < http://www.snstelecom.com/big-data-a-30billion-market-in-2014-says-sns-research-report/>. (5) "Mobile Commerce Solutions and Market Opportunities." Mobile Commerce Solutions and Market Opportunities. N.p., n.d. Web. 19 Aug. 2014. <http://www.marketresearchreports.biz/sample/sample/20704>.
+23
+
+Deutsche Bank Global Transaction Banking
+Bibliography/References continued
+(6) "Georgetown Professor: Big Data Means Big Job Opportunities." BusinessNewsDaily.com. N.p., n.d. Web. 19 Aug. 2014. <http://www. businessnewsdaily.com/5012-big-data-job-opportunities.html>.
+(7) "Big Data." : Technologies and players. N.p., n.d. Web. 19 Aug. 2014. <http://bigdata-tutorial.blogspot.co.uk/2012/01/big-data-technologiesand-players.html>.
+(8) "Big Data 2013: Industry Players' Forecasts | ZDNet." ZDNet. N.p., n.d. Web. 19 Aug. 2014. <http://www.zdnet.com/big-data-2013-industryplayers-forecasts-7000009034/>.
+(9) "Big Data Vendor Revenue And Market Forecast 2012-2017 - Wikibon." Big Data Vendor Revenue And Market Forecast 2012-2017 - Wikibon. N.p., n.d. Web. 19 Aug. 2014. <http://wikibon.org/wiki/v/Big_Data_ Vendor_Revenue_and_Market_Forecast_2012-2017>.
+(10) "Crunch time for big data - FT.com." Financial Times. N.p., n.d. Web. 19 Aug. 2014. <http://www.ft.com/cms/s/0/bd5a5ce2-aa57-11e1-899d00144feabdc0.html?siteedition=uk#axzz38lKeYXD5>.
+(11) "Big data." IBM Big Data for Healthcare. N.p., n.d. Web. 19 Aug. 2014. <http://www-01.ibm.com/software/data/bigdata/industry-healthcare.html>.
+(12) "Big Data + The Internet of Things = Big Manufacturing Opportunity." How Manufacturers use The Internet of Things for Big Gains. N.p., n.d. Web. 19 Aug. 2014. <http://www.crmsearch.com/internetofthings.php>.
+(13) "Big Data: New Opportunities and New Challenges." Big Data: New Opportunities and New Challenges. N.p., n.d. Web. 19 Aug. 2014. <http:// www.computer.org/csdl/mags/co/2013/06/mco2013060022.html>.
+(14) "How Four Financial Giants Crunch Big Data." Datanami How Four Financial Giants Crunch Big Data Comments. N.p., n.d. Web. 19 Aug. 2014. <http://www.datanami.com/2012/07/09/how_four_financial_giants_ crunch_big_data/2/>.
+(15) "Financial Services Data Management: Big Data Technology in Financial Services." An Oracle White Paper. N.p., n.d. Web. 19 Aug. 2014. <http:// www.oracle.com/us/industries/financial-services/bigdata-in-fs-finalwp-1664665.pdf>.
+(16) "Counter-terrorism tools used to spot fraud - FT.com." Financial Times. N.p., n.d. Web. 19 Aug. 2014. <http://www.ft.com/cms/s/2/796b412a4513-11e2-838f-00144feabdc0.html#axzz35fP00Qua>.
+24
+
+Deutsche Bank Global Transaction Banking
+Bibliography/References continued
+(17) "How big data is set to boost the effectiveness of analytics in banking." Cloud Tech News. N.p., n.d. Web. 19 Aug. 2014. <http://www. cloudcomputing-news.net/news/2014/jun/16/big-data-set-to-boost-theeffectiveness-of-analytics-in-banking/>.
+(18) "Key Drivers For Banking Innovation: Big Data, Dark Data, 720 Degree View of the Customer? | VisibleBanking.com." VisibleBankingcom. N.p., n.d. Web. 19 Aug. 2014. <http://www.visiblebanking.com/key-driversbanking-innovation-big-data-dark-data-720-degree-view-customer>.
+(19) "Can Big Data Drive More Relevant Mobile Apps? AMEX Thinks So #SoMoLo." Strategic Driven. N.p., n.d. Web. 19 Aug. 2014. <http://www. strategicdriven.com/marketing-insights-blog/SoMoLo-Big-Data-HelpsPower-Geo-Targeted-Mobile-App-Advertising-For-AMEX/>.
+(20) "Banks Using Big Data to Discover `New Silk Roads'." The CIO Report RSS. N.p., n.d. Web. 19 Aug. 2014. <http://blogs.wsj.com/cio/2013/02/06/ banks-using-big-data-to-discover-new-silk-roads/>.
+(21) "Big Data: Profitability, Potential and Problems in Banking." The Financial Brand Marketing Insights for Banks Credit Unions. N.p., n.d. Web. 19 Aug. 2014. <http://thefinancialbrand.com/38801/big-data-profitabilitystrategy-analytics-banking/>.
+(22) "Big data lends new Zest to banks' credit judgments - FT.com." Financial Times. N.p., n.d. Web. 19 Aug. 2014. <http://www.ft.com/cms/s/0/ dfe64c0c-fadd-11e3-8959-00144feab7de.html#axzz35f8d6WvY>.
+(23) "Big Data." How banks can benefit from real-time analytics. N.p., n.d. Web. 19 Aug. 2014. <http://www.informationweek.in/informationweek/ news-analysis/177269/banks-benefit-real-analytics>.
+(24) "Banks, Big Data and High-Performance Analytics" Insights on turning Big Data into Competitive Advantage. N.p., n.d. Web. 19 Aug. 2014. <http:// www.sas.com/offices/europe/uk/industries/capitalmarkets/pdf/big-data.pdf>.
+(25) "9 Big Data Challenges Banks Face." American Banker RSS. N.p., n.d. Web. 19 Aug. 2014. <http://www.americanbanker.com/issues/177_157/ nine-big-data-challenges-banks-face-1051818-1.html>.
+(26) "Privacy in the Age of Big Data." - Stanford Law Review. N.p., n.d. Web. 19 Aug. 2014. <http://www.stanfordlawreview.org/online/privacyparadox/big-data>.
+(27) "Confronting the privacy and ethical risks of Big Data - FT.com." Financial Times. N.p., n.d. Web. 19 Aug. 2014. <http://www.ft.com/cms/ s/0/105e30a4-2549-11e3-b349-00144feab7de.html#axzz36xjaQhQq>. 25
+
+Deutsche Bank Global Transaction Banking
+Bibliography/References continued
+(28) "Three big data pitfalls to avoid." The Sydney Morning Herald. N.p., n.d. Web. 19 Aug. 2014. <http://www.smh.com.au/it-pro/business-it/threebig-data-pitfalls-to-avoid-20130322-2gkhp.html>.
+(29) "Big Data Market: 2014 - 2020 - Opportunities, Challenges, Strategies, Industry Verticals and Forecasts." Virtual-Strategy Magazine. N.p., n.d. Web. 19 Aug. 2014. <http://www.virtual-strategy.com/2014/06/23/bigdata-market-2014-2020-opportunities-challenges-strategies-industryverticals-and-fore>.
+(30) "Textured Literature: Big Data and the Critical Absence of the Unknown." Textured Literature: Big Data and the Critical Absence of the Unknown. N.p., n.d. Web. 19 Aug. 2014. <http://texturalliterature.blogspot. co.uk/2013/02/big-data-and-critical-absence-of-unknown.html#!/2013/02/ big-data-and-critical-absence-of-unknown.html>.
+(31) "Big data: Mind the gaps - The Boston Globe." BostonGlobe.com. N.p., n.d. Web. 19 Aug. 2014. <http://www.bostonglobe.com/ideas/2012/09/29/ big-data-mind-gaps/QClupxdwdPWHtRrZO0259O/story.html>.
+(32) "Avoiding the Big Data traps." Research-live.com ­ news, analysis and jobs for market researchers. N.p., n.d. Web. 19 Aug. 2014. <http://www. research-live.com/opinion/avoiding-the-big-data-traps/4011873.article>.
+(33) "Big Data: Big Opportunity In Banking... Or Big B.S.?." The Financial Brand Marketing Insights for Banks Credit Unions. N.p., n.d. Web. 19 Aug. 2014. <http://thefinancialbrand.com/26363/big-data-analytics-retailbanking-jm/>.
+(34) "Big Data: Strategic Risks and Opportunities Looking Beyond the Technology Issues " A White Paper by Richard Anderson and Daniel Roberts. N.p., n.d. Web. 19 Aug. 2014. <http://www.crowehorwath.net/ uploadedfiles/crowe-horwath-global/tabbed_content/big%20data%20 strategic%20risks%20and%20opportunities%20white%20paper_ risk13905.pdf/>.
+(35) "Banks aim to unlock big data secrets " e Financial news., n.d. Web. 19 Aug. 2014. <http://www.efinancialnews.com/story/2012-02-06/banksunlock-data-secrets?ea9c8a2de0ee111045601ab04d673622/>.
+26
+
+www.db.com/gtb gtb.marketing@db.com
+Copyright © October 2014 Deutsche Bank AG. All rights reserved. These documents may not be reproduced, distributed or otherwise used without previous authorisation. This presentation is for information purposes only and provides a general overview of the range of services offered by Global Transaction Banking of Deutsche Bank AG. The general information provided in this presentation is based on Global Transaction Banking Services as they may be offered to clients on the date this presentation was published in October 2014. This information is subject to change. This presentation and the general information on the services offered by Global Transaction Banking merely serve as an illustration; no contractual or non-contractual obligations on the part of Deutsche Bank AG or its subsidiaries, or liability claims against Deutsche Bank AG or its subsidiaries, can be derived from them.
+
+

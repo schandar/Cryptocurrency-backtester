@@ -1,0 +1,171 @@
+WHITE PAPER
+MEASUREMENT AND MANAGEMENT OF COUNTERPARTY RISK
+Co-authored by Avadhut Naik (Quantifi) and Michael Bryant (InteDelta)
+· Limit setting and monitoring exposure · Measuring and managing PFE and CVA · Regulatory risk
+www.quantifisolutions.com
+
+INTRODUCTION
+
+The measurement and management of counterparty risk is in the midst of a revolution. Within recent memory of most counterparty risk managers it all used to be so much simpler.
+Limits were set on the same basis as traditional lending, and the exposure measured against those limits was quantified using simple addon factors applied to the notional of each transaction. Regulatory capital was based on the simple methodology specified under Basel I.
+The wave of change started as institutions, led by the banks, began to improve their internal measurement of counterparty risk. Simplistic add-on approaches were replaced by more sophisticated add-on methodologies, which were able to take into account portfolio effects and close-out netting. Many leading institutions went a step further and replaced the sophisticated addon methodologies with Monte Carlo simulation. However, not all institutions deemed it necessary to move this far, and for many a more simplistic approach may still be appropriate (see InteDelta's publication ­ Counterparty exposure:  sometimes simple is good enough).
+Basel II replaced the previous simplistic rules for the calculation of regulatory capital and gave banks the option of using their own internally built models to calculate regulatory capital. This can lead to significant capital savings but requires banks to invest heavily in new systems, processes and quantitative personnel.
+The 2008 financial crisis placed a further spotlight on counterparty risk, institutions that to this point had been judged rock solid failed, these events gave rise to the proliferation of new regulation such as Basel III, Dodd Frank and EMIR. From a counterparty risk perspective this led to the creation of central counterparties (CCPs) through
+
+which the majority of OTC derivatives will be cleared. Even before the migration to CCPs an increasing proportion of transactions between counterparties were collateralised under a Credit Support Annex (CSA). More extensive use of collateral has led the most sophisticated banks to migrate responsibility of collateral management from its traditional home within operations to a front office function, where emphasis is placed on optimising the collateral to be delivered.
+Accounting and regulatory changes have forced banks to measure CVA and to take a P&L and capital charge.
+Finally, but by no means least, we have seen the emergence of Credit Valuation Adjustment (CVA) as an important metric of risk and a risk class to be managed in its own right. CVA is an adjustment to the value of a derivative to take account of expected counterparty losses. Accounting and regulatory changes have forced banks to measure CVA and to take a P&L and capital charge. This has resulted in many banks establishing active CVA functions to hedge CVA exposure. CVA has also become important as a basis for ensuring that counterparty risk is adequately priced into deals and as a basis for inter-desk charging within an institution.
+Against this backdrop of a discipline in constant evolution, this paper explores some of the key areas associated with the management and measurement of counterparty risk.
+
+LIMIT SETTING AND MONITORING EXPOSURE
+
+The process of establishing credit limits traditionally relied on good old-fashioned credit due diligence and to a large extent still does.
+Many banks have an internal rating model for their trading counterparties, which dictates the limits they allocate (this was a requirement for banks adopting the Basel II Advanced Internal Ratings Based approach). Other banks use a more judgemental approach. External ratings may also be used where counterparties have a rating assigned, although post-crisis such ratings are treated with more suspicion. The emergence of central clearing is causing banks to devote considerable effort to performing due diligence on CCPs as they will account for such a large proportion of exposure. This involves a detailed review of the entire legal and operational framework in which the CCP operates.
+The structure of credit limits for traded products is an area where there can be significant divergence between banks.
+Areas where banks have commonly had to make choices include:
+· Should limits be set for separate products or should there be a common traded products limit?
+· Should all locations/business units share the same limit?
+· How should limits be time banded?
+· Should there be separate limits for Potential Future Exposure (PFE), settlement risk, money market exposure and issuer risk?
+· Should collateralised and noncollateralised exposure fall under the same limits?
+· Should collateral or margin deposited be subject to a limit?
+
+The emergence of central clearing is causing banks to devote considerable effort to performing due diligence on CCPs as they will account for such a large proportion of exposure.
+Banks need to concretely define their approach to establishing credit limits in credit policies. This should also include, among other things, the approval process for setting limits (some banks delegate considerable authority to credit officers, others operate a more formal credit committee structure), the frequency of review and the process for ensuring that limits are properly recorded within a limit administration system. A robust system also needs to be in place to monitor exposure against limits, analyse exposures, and provide workflow for the management of excesses.
+
+MEASURING AND MANAGING CVA AND PFE
+
+CVA is the amount banks charge their counterparties to compensate for the expected loss from default.
+Since both counterparties can default, the net charge should theoretically be the bilateral CVA, which includes a debt value adjustment (DVA) or gain from the bank's own default.
+While CVA covers the expected loss from counterparty defaults, there is also the risk of unexpected losses, as well as mark-to-market gains and losses on the CVA. These risks are managed through a combination of exposure limits, reserves and replication or hedging. Unexpected losses are calculated by simulating exposures through time, taking into account netting and collateral agreements, and using the PFE profile at a specified confidence interval e.g. 99%. This PFE profile along with the counterparty's default probability is used to calculate economic capital (EC), net of CVA.
+Accurate measurement and effective management of PFE and CVA are critical to managing counterparty credit risk.
+Gathering transaction and market data from potentially many trading systems, along with legal agreements and other reference data, involves significant and often underestimated
+
+The ability to calculate CVA and exposure metrics on the entire portfolio, incorporating all relevant risk factors and the dynamics between them, adds substantial analytical and technological challenges.
+data management issues. The ability to calculate CVA and exposure metrics on the entire portfolio, incorporating all relevant risk factors and the dynamics between them, adds substantial analytical and technological challenges. Furthermore, traders and salespeople expect near real-time performance of incremental CVA pricing for new transactions. Internal counterparty risk management must also be integrated with regulatory processes.
+In short, the data, technological, and operational systems and processes needed for measuring and managing exposures and CVA, in an integrated fashion across the bank, can be a challenging undertaking.
+
+Potential Future Exposure (PFE) The maximum amount of exposure expected to occur on a future date with a high degree of statistical confidence. For example, the 99% PFE is the level of potential exposure that is exceeded with only 1% probability. The curve PFE(t), as t varies over future dates, is the potential exposure profile, up to the final maturity of the portfolio of trades with the counterparty.
+Credit Value Adjustment (CVA) The expected discounted loss, due to counterparty default, over the life of a transaction or longest transaction in a portfolio of transactions. When applicable, it is calculated after taking into account bilateral netting agreements and collateral.
+
+Data Management
+Most banks have multiple systems for reference market and transaction data, which may be different for each business unit. These systems may be further sub-divided into front-office analytical tools and back-office booking systems, each with its own repository of reference data. There may also be several internal and external sources for market data. The counterparty risk system must integrate with potentially many of these systems in order to extract the data needed to produce a comprehensive set of counterparty risk metrics.
+
+simulate market scenarios using a risk neutral or historical calibration. The next step is to value each transaction over all scenarios and time steps to create the exposure distribution. The exposures are aggregated by counterparty `netting set', according to legal netting agreements. Collateral terms are then applied to determine uncollateralised exposure by netting set.
+In applying collateral thresholds, the `margin period of risk' and collateral mark-to-market risk must be considered. EE (Expected Exposure), PFE and various Basel metrics including EEPE (Effective Expected Positive Exposure) can be directly
+
+Analytics
+
+· Multiple data sources · Systems integration · Symbology mapping · Data format
+conversions · Incremental updates
+
+· Simulation engine · Risk-neutral & historical
+calibrations · Netting & collateral · Right/wrong-way risk · Exotic payoffs
+
+Data Management
+
+· Large cross-asset portfolios
+· Pricing model performance
+· Near-time CVA pricing · CVA sensitivities · Daily and intra-day
+metrics
+Performance & Scalability
+
+Reporting
+· CE, EE, PFE, CVA, EC by counterparty, industry & region
+· EE & PFE profiles over time
+· Data inspection & drill-downs
+· Back-testing, stress testing, VaR outputs
+
+· Back-test exposure projections vs. Realizations
+· Curve steepening & flattening stress scenarios
+· Stress basis spreads · Full reval historical VaR
+Back-testing, Stress Testing & VAR
+
+Analytics
+Analytical components can be categorised into pricing models, the simulation engine, and market data calibrators. Most institutions have their own proprietary libraries of pricing models for front-office pricing and hedging. Ideally, the bank would use the same pricing models for counterparty risk to ensure consistency. Market data calibrators provide the market-implied and historical volatilities and correlations as inputs to the simulation engine.
+The simulation engine uses pricing models to generate the exposure distribution over a specified set of future dates. The first step is to
+
+calculated from the exposure distribution. The final step is to `integrate' the exposure distribution to calculate CVA, DVA and economic capital. Incorporating wrong-way risk into these calculations is important, especially for credit derivative transactions, and non-trivial to implement.
+Technology
+Counterparty risk management and the corresponding data requirements translate into a very challenging technology agenda. Data management is certainly a top priority, as well as robust risk analytics, pre-deal check and CVA
+
+pricing. Centralising counterparty risk management for the entire trading book places a high priority on scalability, while providing near-time performance for marginal pricing of new trades. Given the large amount of information, a configurable reporting environment is a necessity. For regulatory approval, the infrastructure must also support back-testing, stress testing and VaR.
+Performance and Scalability
+Despite recent advances in processing power and reduced hardware costs the performance and scalability of counterparty risk systems continues to be a key issue. PFE is typically calculated as an end-of-day Monte Carlo run. PFE is also required to be calculated intra-day, to perform a pre-deal check or as new trades are added to the portfolio. It is not usually possible to run a full Monte Carlo intra-day within an acceptable timeframe, therefore risk models need to revert to short-cut methods such as marginal Monte Carlo to produce a result within an acceptable timeframe.    E-trading platforms pose a particular performance challenge for pre-deal check. Banks offer online platforms for counterparties to trade vanilla products. Counterparty PFE limits still need to be checked before an online trade can be authorised but the acceptable response time is typically much shorter than for a traditional dealing room transaction. Even faster methods of calculating PFE for incremental deals may therefore need to be developed.
+Processing requirements for CVA can be even higher than for PFE. For a large bank, the counterparty risk system may price something in the order of one million transactions over one thousand scenarios and one hundred time steps, or 100 billion valuations. If the bank actively hedges CVA, the number of valuations is roughly multiplied by the number of sensitivities required. Pricing models must be as efficient as possible in
+
+order to generate counterparty risk metrics on a daily basis. Since banks prefer to use their own pricing models for consistency, additional tuning or substitution of less sophisticated models for valuation of complex products, at the expense of some accuracy, may be necessary. Another approach is to use pre-calculated pricing grids to reduce the number of valuations.
+Scalability can also be addressed through parallel processing. Distributing computations across servers and processor cores using grid technology and multi-threading should allow acceptable levels of performance to be achieved by adding hardware resources. Of course, complexity and potential for failure increases with the amount of hardware.
+Reporting
+With the huge amount of data involved and analytical complexity, the ability to view the various counterparty risk metrics across a variety of dimensions is absolutely essential. At the very least, the system should show CE, EE, PFE, CVA, DVA and economic capital by counterparty, industry and region. The system should also display EE and PFE profiles along specified future time buckets out to the maximum maturity date. The ability to inspect reference, market and transaction data inputs is vital in verifying calculated results and tracking down errors. The system must also provide reports for backtesting, stress testing and VaR outputs with similar aggregation and drill-down capabilities.
+Therefore, competitive CVA pricing and economic capital optimisation will remain priorities for corporate counterparty risk management alongside collateral and clearing processes.
+
+REGULATORY RISK
+
+The calculation of regulatory capital requirements for counterparty risk has undergone an evolution as shown below.
+Banks are at different points on this continuum. Under the Current Exposure Method (CEM), counterparty exposure is quantified using a very simple set of regulatory add-ons dependant on asset class and transaction maturity. Benefit for close-out netting is included in a very simplistic way. This treatment is largely repeated in the Basel II Current Exposure Method.
+
+in the wake of the 2008 crisis. For counterparty exposure these changes primarily apply to banks adopting the IMM. The changes include increased capital requirements for counterparties that have a track record of failed collateral calls and an adjustment for netting sets containing a large number of transactions to take account of liquidity.
+
+Basel II offers banks two additional, more sophisticated, options for the calculation of counterparty exposure. The Internal Model Method (IMM) allows banks to use extensions of their PFE models to calculate counterparty exposure for regulatory capital purposes (the relevant metric is "Effective Expected Positive Exposure", which banks typically calculate from the same framework as their PFE models). The Standardised Method under Basel II offers banks an intermediate methodology, which is more advanced than the CEM although more straightforward to implement than the IMM option.
+The more advanced methods of determining counterparty exposure provide a more granular measure of exposure and potentially offer reductions in regulatory capital, however, this comes at the expense of considerable implementation effort and cost.
+Basel III introduced additional modifications to the Basel II framework, which were deemed necessary
+
+One of the main findings that emerged from the Bank of International Settlements' post mortem into the crisis was that a large proportion of counterparty credit losses were unrealised. Many counterparties suffered a decrease in credit quality, however, had not defaulted, nevertheless banks were insufficiently capitalised to withstand such losses. In light of this, Basel III introduced the CVA capital charge. Banks now have the option of applying either the standardised or advanced formula, the latter requiring the bank to already have IMM approval and meet other stringent criteria regarding the robustness of their models and the strength of the environment in which the models operate.
+Transactions cleared through a CCP will attract a much lower counterparty capital requirement than when executed bilaterally, even when collateralised. This is consequently providing a regulatory capital push towards transacting as much as possible through CCPs.
+
+TRENDS
+
+Post crisis, the ability for senior management to get a comprehensive view of the bank's counterparty risks is a key priority.
+Consolidated risk reporting has been elusive due to front-office driven business models. As influential revenue producers, trading desks have maintained a tight grip on data ownership, model development and front-office technology. This has resulted in a proliferation of systems, making the job of aggregating risks across business lines excessively complicated. Continuous development of new types of derivative payoffs and structured products has exacerbated the problem. Furthermore, the failures and near failures of several global banks have changed the traditional mentality. Banks are now taking a `top-down' approach to risk management. Decision-making authority is transitioning from the front-office to central market and credit risk management groups. This authority includes tighter controls on data and technology.
+Banks are now taking a `top-down' approach to risk management. Decision-making authority is transitioning from the front-office to central market and credit risk management groups.
+Despite budget constraints, risk management technology is an area where banks are continuing to invest. Many smaller institutions are investing in enterprise wide counterparty risk management systems for the first time or upgrading their methodologies, for example from an add-on approach to Monte Carlo. Larger institutions
+
+An innovation increasingly being adopted by the larger and more sophisticated banks  is the central CVA desk or counterparty risk group.
+underwent this transition several years ago and they now tend to be more focussed on regulatory requirements such as preparing for Basel III, CVA or migrating to the Internal Model Method.
+An innovation increasingly being adopted by the larger and more sophisticated banks  is the central CVA desk or counterparty risk group. This group is responsible for marginal CVA pricing of new trades originated by the individual business units and then managing the resultant credit risk. In practice, the CVA desk sells credit protection to the originating trading desk, insuring them against losses in the event of a counterparty default. There are several advantages to this approach. Housing counterparty risk in one place allows senior management to get a consolidated picture of the exposures and proactively address risk concentrations and other issues. It also addresses the competitive CVA pricing issues described in a previous section. As banks continue to ramp up active management of CVA, having a specialised group allows careful management of complex risks arising from liquidity, correlation and analytical limitations.
+The reasons for not creating a central CVA desk or counterparty risk group tend to be practical issues particular to the institution. Decentralised infrastructures may make the data and technology challenges too great to ensure provision of meaningful consolidated counterparty risk metrics on a timely basis. Some banks have aligned counterparty risk management by business line in order to more
+
+CONCLUSION
+
+effectively manage the data and analytical issues at the expense of certain benefits, for example netting. For centralised CVA desks, there is also the challenge of internal pricing and P&L policies. Most banks position CVA desks as utility functions that simply attempt to recover hedging costs in CVA pricing.
+Recent regulatory activity has also had a profound impact on counterparty risk management, mostly due to central clearing requirements and higher capital ratios. Mandating central clearing for an expanding scope of derivative products effectively moves counterparty risk out of complex CVA and economic capital models and into more deterministic and transparent margining formulas. The heavily collateralised inter-dealer market is also undergoing significant changes due to the widening of Libor basis spreads witnessed during the crisis. A new standard for pricing collateralised trades is emerging, based on OIS discounting. Institutions are now looking more closely at optimising collateral funding through cheapest-to-deliver collateral, re-couponing existing trades to release collateral, and moving positions to central counterparties in order to access valuation discrepancies or more favourable collateral terms.
+A new standard for pricing collateralised trades is emerging, based on OIS discounting.
+It is expected that most corporate derivatives transactions will remain exempt from clearing mandates since banks provide valuable hedging services in the form of derivative lines. The cost of extending these lines is increasing due to significantly higher regulatory capital requirements.
+
+The measurement and management of counterparty risk is a rapidly evolving area.
+A range of new regulatory requirements are changing the way in which institutions view risk.   This impacts not only risk quantification but the whole commercial model of an institution. New regulations or risk measures can affect the commercial attractiveness of an institution's existing product range or client profile.
+Institutions need to not only adapt to new ways of measuring and managing risk but may need to reengineer the operating models for substantial parts of their businesses.
+Institutions need to not only adapt to new ways of measuring and managing risk but may need to reengineer the operating models for substantial parts of their businesses, for example to support the move to CCPs or to proactively manage CVA. Underlying all of the change that institutions need to implement in respect of counterparty risk is the need to have the right operating models, methodologies and technology that are able to support their business.
+
+ABOUT  INTEDELTA
+InteDelta helps financial institutions better manage their risk. InteDelta helps financial institutions better manage their risk. Through our range of consulting and associated products we provide assistance in areas such as:
+· Risk management policies and methodologies; · Target operating model design; · Technology selection and implementation; · Market intelligence and benchmarking.
+Our areas of expertise cover the major risk categories faced by financial institutions: credit, market, liquidity and operational risk. We have advised a diverse portfolio of financial institutions located across the world, at different levels of sophistication on counterparty risk methodology and more widely around the systems, processes and policies required to manage counterparty risk. Our global client base includes large US, European and Asian investment banks, asset servicing providers, regional banks, institutional investors and hedge funds. InteDelta applies subject matter expertise through our core consulting approach to deliver change across all aspects of risk management.
+
+CONTACT INTEDELTA
+
+MICHAEL BRYANT Managing Director michael.bryant@intedelta.com +44 (0)20 7153 1037
+
+DOUGLAS WHITE Business Development and Marketing Manager douglas.white@intedelta.com +44 (0)20 7887 2205
+
+For further information, please visit www.intedelta.com.
+
+ABOUT  QUANTIFI
+
+Quantifi is a leading provider of analytics, trading and risk management software for the global OTC markets. Our suite of integrated pre and post-trade solutions allow market participants to better value, trade and risk manage their exposures and respond more effectively to changing market conditions.
+Founded in 2002, Quantifi has over 120 top-tier clients including five of the six largest global banks, two of the three largest asset managers, leading hedge funds, insurance companies, pension funds and other financial institutions across 15 countries.
+Renowned for our client focus, depth of experience and commitment to innovation, Quantifi is consistently first-tomarket with intuitive, award-winning solutions.
+For further information, please visit www.quantifisolutions.com.
+
+CONTACT QUANTIFI
+
+EUROPE 128 Queen Victoria St. London, EC4V 4BJ +44 (0) 20 7248 3593
+
+NORTH AMERICA 230 Park Avenue New York, NY 10169 +1 (212) 784-6815
+
+ASIA PACIFIC 111 Elizabeth St. Sydney, NSW, 2000 +61 (02) 9221 0133
+
+enquire@quantifisolutions.com
+
+

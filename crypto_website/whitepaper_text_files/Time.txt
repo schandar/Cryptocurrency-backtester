@@ -1,0 +1,240 @@
+White paper
+
+Decentraland
+A blockchain-based virtual world
+
+Esteban Ordano esteban@decentraland.org
+
+Ariel Meilich ari@decentraland.org
+
+Yemel Jardi yemel@decentraland.org
+
+Manuel Araoz manuel@decentraland.org
+
+Abstract
+
+Decentraland is a virtual reality platform powered by the Ethereum blockchain. Users can create, experience, and monetize content and applications. Land in Decentraland is permanently owned by the community, giving them full control over their creations. Users claim ownership of virtual land on a blockchain-based ledger of parcels. Landowners control what content is published to their portion of land, which is identified by a set of cartesian coordinates (x,y). Contents can range from static 3D scenes to interactive systems such as games.
+Land is a non-fungible, transferrable, scarce digital asset stored in an Ethereum smart contract. It can be acquired by spending an ERC20 token called MANA. MANA can also be used to make in-world purchases of digital goods and services.
+People are spending increasingly more time in virtual worlds, for both leisure and work1. This occurs predominantly in 2D interfaces such as the web and mobile phones. But a traversable 3D world adds an immersive component as well as adjacency to other content, enabling physical clusters of communities.
+Unlike other virtual worlds and social networks, Decentraland is not controlled by a centralized organization. There is no single agent with the power to modify the rules of the software, contents of land, economics of the currency, or prevent others from accessing the world.
+This document lays out the philosophical underpinnings, technical foundations, and economic mechanisms of Decentraland.
+
+Decentraland 1/14
+
+1 The State of Mobile, Flurry Analytics Blog. https://flurrymobile.tumblr.com/post/155761509355
+
+We would like to thank the following reviewers, whose contributions and feedback made this document possible:
+Jake Brukhman (Founder, CoinFund) Luis Cuende (Project Lead, Aragon) Simon de la Rouviere (ConsenSys) Diego Doval (Founder of n3xt, previously CTO, Ning) Michael Bosworth (Google) Jesse Walden (Mediachain/Spotify) Chris Burniske (ex ARK Invest) Guillermo Rauch (CEO, Zeit) Joe Urgo (Co-founder, District0x) David Wachsman (Wachsman PR) Jon Choi (Dropbox) Allen Hsu
+
+Decentraland 2/14
+
+Table of Contents
+
+1 Introduction
+
+4
+
+1.1 Rationale
+
+4
+
+1.2 History
+
+5
+
+1.3 A Traversable World
+
+6
+
+1.4 Foundations for an In-world Economy
+
+6
+
+1.5 Use Cases
+
+7
+
+2 Architecture
+
+8
+
+2.1 Consensus Layer
+
+9
+
+2.2 Content Distribution Layer
+
+9
+
+2.3 Real-Time Layer
+
+10
+
+2.4 Payment Channels
+
+11
+
+2.5 Identity System
+
+11
+
+3 Economy
+
+12
+
+3.1 LAND and the MANA Token
+
+12
+
+3.2 Fostering the Network
+
+13
+
+4 Challenge
+
+13
+
+5 Summary
+
+14
+
+Decentraland 3/14
+
+01 Introduction
+Decentraland provides an infrastructure to support a shared virtual world, also known as a metaverse2. It consists of a decentralized ledger for land ownership, a protocol for describing the content of each land parcel, and a peer-to-peer network for user interactions.
+1.1 Rationale
+The development of large proprietary platforms, such as Facebook, has allowed hundreds of millions of users to gather, interact, share content, and play games. Their network effects helped cultivate vast online communities and gaming companies. These platforms, controlled by centralized organizations, manage the network's rules and content flow, while extracting significant revenue from the communities and content creators who drive traffic to the platforms. Decentraland aims to establish a network that allows its content creators to own and capture the full value of their contributions.
+The current team began working on Decentraland in 2015. At the time, the adoption of cryptoassets was still in its infancy, as much of the blockchain-based infrastructure necessary for a consumer-oriented platform was lacking. Since then, the rate of consumer adoption and infrastructure creation has exploded. For instance, by July 2017, Coinbase alone reached 8.4 million user accounts, with half of these added over the past 12 months4. This growth has given rise to a pool of users large enough to fuel the decentralized commerce that will take place in a virtual world like Decentraland. While blockchain infrastructure, spearheaded by Ethereum, is now more widely available, the lack of an efficient method to quickly process micropayments constrains the throughput of network transactions.
+The maturation of cryptocurrencies as a global, instant, and low cost payment method is still evolving. Payment transactions will need to occur off-chain to achieve short- to medium-term scalability in blockchain payment networks. Solutions such as Bitcoin's Lightning Network5 or Ethereum's state channels6 are on the verge of enabling a fast, global payment system with low fees.
+2 "The Metaverse". Wikipedia. https://en.wikipedia.org/wiki/Metaverse 3 http://www.kccllc.net/thq/document/1213398130702000000000003 4 https://www.coinbase.com/about 5 "Lightning Apps and the Emerging Developer Ecosystem on LND". Lightning Network's Blog.
+http://lightning.community/software/lnd/lightning/2017/07/05/emerging-lightning-developer-ecosystem/ 6 "Sprites: Payment Channels that Go Faster than Lightning". A. Miller, I. Bentov, R. Kumaresan, P. McCorry, 2017.
+https://arxiv.org/pdf/1702.05812.pdf
+
+01. Introduction 4/14
+
+More centralized solutions can work today7, although at the expense of operability with other systems, privacy, and standardization. Decentraland is built on the premise that low cost, direct payments between content creators and users will radically change internet commerce.
+1.2 History
+Decentraland began as a proof of concept for allocating ownership of digital real estate to users on a blockchain. This digital real estate was initially implemented as a pixel on an infinite 2D grid, where each pixel contained metadata identifying the owner and describing the pixel's color. The experiment was entitled Decentraland's Stone Age.
+Figure 1: Stone Age. A visual representation of
+the blockchain state. Users could mine,
+transfer, and change the color of pixels they own.
+In late 2016, the team started developing the Bronze Age, a 3D virtual world divided into land parcels. The owner of each parcel was able to associate it with a hash reference to a file, using a modified Bitcoin blockchain. From this reference, users exploring the virtual world could use a Distributed Hash Table (DHT) and BitTorrent to download the file containing the parcel's content, which defines the models and textures to be displayed at that location.
+We hosted the first world viewer at decentraland.org/world. Any enthusiast can run a node, download and verify the blockchain, and explore the world by following more advanced instructions8.
+Figure 2: Bronze Age. Structures created by the community around
+the Genesis parcel, located at coordinates
+(0,0)
+7 "Near-zero fee transactions with hub-and-spoke micropayments". Peter Todd, bitcoin-development mailing list, December 2014. https://www.mail-archive.com/bitcoin-development@lists.sourceforge.net/msg06576.html 8 https://github.com/decentraland/bronzeage-node#run-a-node
+
+01. Introduction 5/14
+
+The next version of Decentraland, the Iron Age, will create a social experience with an economy driven by the existing layers of land ownership and content distribution. In the Iron Age, developers will be able to create applications on top of Decentraland, distribute them to other users, and monetize them.
+The Iron Age will implement peer-to-peer communications, a scripting system to enable interactive content, and a system of fast cryptocurrency payments for in-world transactions. A communication layer is essential for social experiences, providing positioning, postures, voice chat, and more; Decentraland achieves this with a P2P network. The scripting system is the tool that landowners will use to describe the behavior and interactions of 3D objects, sound, and applications running on land parcels. Finally, a payment system with low fees is key to developing an economy in the quick environment of a virtual world.
+1.3 A Traversable World
+The adjacency of land makes Decentraland parcels unique from web domains. New land parcels must be contiguous to existing ones. This adjacency allows for spatial discovery of new content and the creation of districts devoted to a special topic or theme. While each web domain can have an unlimited number of hyperlinks to other content, parcels in Decentraland have a fixed amount of adjacencies. Additionally, the content of adjacent parcels can be seen from a distance. For content creators, the establishment of districts provides access to targeted traffic; for end users, it enables discovery of themed experiences. Users can travel through neighborhoods and interact with applications that they stumble upon.
+This discovery by adjacency is at odds with having infinite land: in that scenario, users would have a hard time finding relevant content by traveling through it. With scarce land, developers can acquire users by purchasing land in high-traffic areas. This will allow secondary markets to develop around land ownership and rentals, as is already happening on district0x.io.9
+1.4 Foundations for an In-world Economy
+Decentraland's value proposition to application developers is that they can fully capitalize on the economic interactions between their applications and users. To allow those economic interactions, the platform must allow three things to be traded: currency, goods, and services.
+Decentraland will integrate a core system that allows global, instant, and cost-effective payments between any two users on the internet. Cryptocurrencies allow for trustless payment channels to be established between parties, with low-trust hub-and-spoke systems already possible.
+9 https://blog.district0x.io/decentraland-districts-40b9ada0431b
+
+01. Introduction 6/14
+
+For services to be provided on Decentraland, we are developing a scripting system that enables developers to program the interactions between users and applications. This scripting system runs exclusively on the client side but allows for different data flow models: from mere local effects and traditional client-server architectures, to P2P interactions based on state channels. Developers programming in it will benefit from the availability of fast, cheap micropayments, provably fair games, decentralized storage, and other features enabled by the advent of cryptographic techniques using blockchain-based smart contracts.
+To foster the exchange of virtual goods, economic incentives must be in place to ensure the continued creation and distribution of avatars, items, and scripts. Because static content can be arbitrarily copied, the user experience should empower social agreements that recognize original creations. By implementing an identity system to establish authorship, users will be able to track and verify an author's consent through cryptographic signatures. These experiments are already happening, as in the case of Rare Pepes10.
+1.5 Use Cases
+Applications
+The Decentraland scripting language will allow the development of applications, games, gambling, and dynamic 3D scenes. This scripting language will be designed to handle a wide range of capabilities, including creating objects, loading textures, handling physics, encoding user interactions, sounds, payments, and external calls, among others.
+Content Curation
+Users in Decentraland will gather around neighborhoods of shared interest. Being located near high-traffic hubs will drive users to the landowners' content.
+Advertising
+Brands may advertise using billboards near, or in, high-traffic land parcels to promote their products, services, and events. Some neighborhoods may become virtual versions of Times Square in New York City. Additionally, brands may position products and create shared experiences to engage with their audience.
+Digital Collectibles
+We expect users to publish, distribute, and collect rare digital assets issued on the blockchain by their creators. Just as it occurs today in other virtual worlds or through online forums, these digital assets will be traded inside this world through the scripting system and be backed by the aforementioned naming system.
+10 "Rare Pepe". Fred Wilson. https://avc.com/2017/05/rare-pepe/
+
+01. Introduction 7/14
+
+Social
+Groups that currently gather in online forums, chat groups, or even other centralized multiplayer games could port their communities into Decentraland. Offline communities could also find in Decentraland a space to gather.
+Other use cases
+There are no technical specifications to what could be built in Decentraland. Therefore, other use cases could emerge, such as training and professional development, education, therapy, 3D design, and virtual tourism, among others.
+02 Architecture
+The Decentraland protocol is comprised of three layers: 1) Consensus layer: Track land ownership and its content.
+2) Land content layer: Download assets using a decentralized distribution system.
+3) Real-time layer: Enable users' world viewers to connect to each other.
+Land ownership is established at the consensus layer, where land content is referenced through a hash of the file's content. From this reference the content can be downloaded from BitTorrent or IPFS. The downloaded file contains a description of objects, textures, sounds, and other elements needed to render the scene. It also contains the URL of a rendezvous server to coordinate connections between P2P users that are exploring the tile simultaneously. Figure 3 shows a diagram of the steps the Decentraland clients execute to provide the experience of a shared virtual world in a decentralized way.
+Figure 3: The Decentraland protocol for simultaneous users
+in a decentralized virtual world.
+
+02. Architecture 8/14
+
+Additionally, two other systems are key for Decentraland's economy to develop:
+Payment Channel Infrastructure for fast payments with low fees. Identity System that allows users to establish ownership over original creations.
+2.1 Consensus Layer
+Decentraland will use an Ethereum smart contract to maintain a ledger of ownership for land parcels in the virtual world. We call these non-fungible digital assets LAND: each LAND has unique (x, y) coordinates, an owner, and a reference to the content description file, which encodes what the landowner wants to serve there. Decentraland clients will connect to the Ethereum network to fetch updates to the state of the LAND smart contract.
+LAND is bought by burning MANA, a fungible ERC20 token of fixed supply. This token serves as a proxy for the cost of claiming a new parcel. The LAND contract uses a burn function to destroy MANA and create a new entry in the LAND registry. New parcels need to be adjacent to a non-empty parcel.
+2.2 Content Distribution Layer
+Decentraland uses a decentralized storage system to distribute the content needed to render the world. For each parcel that needs to be rendered, a reference to a file with the description of the parcel's content is retrieved from the smart contract. The current solution uses the battle-tested BitTorrent and Kademlia DHT networks by storing a magnet link for each parcel. However, the Inter-Planetary File System (IPFS)11 provides a compelling alternative as its technology matures.
+This decentralized distribution system allows Decentraland to work without the need of any centralized server infrastructure. This allows the world to exist as long as it has users distributing content, shifting the cost of running the system to the same actors that benefit from it. It also provides Decentraland with strong censorship-resistance, eliminating the power of a central authority to change the rules or prevent users from participating.
+However, hosting these files and the bandwidth required to serve this content has significant costs. Currently, users of the Decentraland P2P network are seeding the content without compensation and out of goodwill. However, in the future, this infrastructure cost can be covered by the use of protocols like Filecoin12. Until this technology becomes available, automated micropayments can be used to pay for quality of service. The proceeds of Decentraland's continuous sale of MANA can cover these costs over the long run (see Section 3.2).
+11 https://ipfs.io 12 https://filecoin.io/
+
+02. Architecture 9/14
+
+The description of a parcel will contain a list of different files required to render it, a list of services hosted by the landowner, and an entry point to orchestrate the placement of objects and their behavior. This document must declare:
+Content files References to, or blobs with, 3D meshes, as well as textures, audio files, and other relevant content required to render the parcel. These are specified so that the client knows what contents the renderization will need, without any instructions on how to place them.
+Scripting entry point The scripting system controls how the content is placed in the parcel, as well as its behavior. This enables applications and animations to take place within the parcel. It also coordinates behaviors such as the positioning and movement of objects, the timing and frequency of sounds played, the possible interactions with users, among other features.
+P2P interactions This allows the client to connect to a server that bootstraps user-to-user connections, coordinates positions and postures, and enables voice chat and messaging.
+2.3 Real-Time Layer
+Clients will communicate with each other by establishing peer-to-peer connections with the help of servers hosted by landowners or third parties. Without a centralized server, peer-to-peer connections are needed to provide social interactions between users, as well as applications that the landowner wants to run inside the parcel. To coordinate the bootstrap of peer-to-peer connections, landowners will have to provide rendezvous servers or understand that users will not be able to see each other in their parcel.
+The maintenance of these servers can be incentivized the same way as content servers. When lightweight protocols like STUN13 can cover the functionality required from the server, the costs would be fairly low. But for more advanced features, such as a voice chat between multiple concurrent users or network traversal services, micropayments can be used to cover the operating costs.
+The social experience of users in Decentraland will include avatars, the positioning of other users, voice chat, messaging, and interaction with the virtual environment. The different protocols used to coordinate these features can work on top of existing P2P solutions like Federated VoIP or WebRTC.14
+13 https://tools.ietf.org/html/rfc5389 14 https://webrtc.org/
+
+02. Architecture 10/14
+
+2.4 Payment Channels
+General purpose, public, and distributed HTLC networks like Lightning may be at least one year away from materializing, but low-trust hub-and-spoke payment channel networks allow for fast and low-cost transactions that can be implemented today.
+Payment channels are key for Decentraland for two reasons:
+In-world purchases Incentivizing quality of service of content and P2P servers
+Today, platforms mitigate the risk inherent in credit card payments: users trust the platform, rather than the application, with their payment details. With payment channels, they could make direct purchases to the developer with no risk of identity theft.
+Some parts of Decentraland's infrastructure can be paid for with micropayments. These costs include hosting content, serving it, and running P2P protocols like spatial audio processing for multiple users. The marginal cost of running applications on Decentraland for developers, given a market of incentivized servers to provide the infrastructure, approaches its real cost as this becomes essentially commoditized. However, in order to have no barrier to entry for incoming developers, Decentraland will subsidize these services with the proceeds of selling MANA tokens.
+2.5 Identity System
+Decentraland's ownership of land is one kind of identity system, where credentials are the coordinates of one's land. Economic incentives are also necessary to ensure that the creators of avatars, items, and scripts continue building and distributing them. Since content can be arbitrarily copied, we must rely in social agreements to enforce retribution to the creator.
+Social agreements can make digital scarcity possible. In centralized systems, this scarcity is defended by the company that creates the platform. For Bitcoin and other proof-of-work blockchains, scarcity is enabled by a computational puzzle and the fact that mining blocks requires an onerous economic sacrifice.
+Decentraland can use decentralized identity systems to create a layer of ownership over in-world items. This system must allow users to easily verify the consent of an author by linking public keys and signatures with human-readable names.
+
+02. Architecture 11/14
+
+Projects like uPort15 or the Ethereum Name Service16 can be used to do this. Social reputation is also needed to facilitate contributions to the author.
+The ability to incentivize content creation on decentralized economies is evolving quickly, with multiple projects working in the space directly or indirectly. Potential solutions include Mediachain17, Curation Markets18, Rare Pepes19, and more.
+03 Economy
+In Section 1.1, we make a case for how the increasing adoption of cryptocurrencies creates the necessary conditions for the emergence of a distributed platform for a virtual world. Below, we introduce the utility of LAND and the MANA token, how their strategic allocation can help bootstrap the utility of the network, and outline how the issuance of MANA will be conducted.
+3.1 LAND and the MANA Token
+With the launch of the Iron Age, we are introducing two digital assets: LAND, the non-fungible parcels in which the virtual world is divided; and MANA, an ERC-20 token that is burned to claim LAND, as well as to make in-world purchases of goods and services.
+The utility of LAND is based on its adjacency to other attention hubs, its ability to host applications, and also as an identity mechanism. Developers and other content creators will demand LAND so that they can build on top of it and reach their target audience. Although every unclaimed LAND can be purchased at the same exchange rate (1000 MANA = 1 LAND), LAND parcels are distinguishable from each other, potentially trading at different prices on a secondary market due to differences in adjacencies and traffic.
+On the other hand, MANA serves as a proxy to asses the price of a new parcel of LAND. Also, MANA used to buy goods and services in the virtual world creates utility value for the token.
+15 https://www.uport.me/ 16 The Ethereum Name System is one of the most successful projects in this area: https://ens.domains/ 17 http://www.mediachain.io/ 18 "Curation Clubs: Tokenizing & Incentivizing Public Funding With Curation Markets". Simon de la Rouviere. 2017.
+https://medium.com/@simondlr/276613e641f0 19 http://avc.com/2017/05/rare-pepe/
+
+03. Economy 12/14
+
+3.2 Fostering the Network
+Land ownership is acquired through an ERC-20 token called MANA. This token will serve to bring value into the network, and to acquire a new parcel of land. MANA can also be used to purchase in-world goods and services.
+In order to jumpstart the network, developers and content creators will be rewarded to set up shop in Decentraland. The Foundation will hold contests to create art, games, applications, and experiences, with prizes contingent on meeting a set of milestones. At the same time, new users will be assigned allowances, allowing them to participate in the economy immediately. These financial incentives will help bootstrap the utility value of the network until it independently attracts users and developers.
+04 Challenges
+Decentralized Content Distribution
+Content distribution through a P2P network has two main issues. The first involves download speed: retrieving a file from a DHT or distributed peer-to-peer storage system has traditionally been too slow. Specially, in a graphical application like Decentraland, users will be adverse to using a system that does not load the experience quickly. The second issue involves availability: ensuring that content is sufficiently distributed around the network without loss. IPFS and the upcoming FileCoin protocol are addressing these issues and we're looking forward to when they become production ready.
+Scripting
+Scripting will be the most important element used to create valuable experiences for users in Decentraland. Its APIs will need to be secure enough for clients to hold private keys and authorize micropayments frequently. Ease-of-use is also critical to penetrate a broad audience of developers.
+Content Curation
+The issue of filtering content for mature audiences (like pornography, violence, or gambling) is difficult to solve within a decentralized network. We expect a market to emerge here: with a reputation-based approach, users could select one or more providers of whitelists/blacklists that track the type of content being served on each parcel.
+
+04. Challenges 13/14
+
+05 Summary
+Decentraland is a distributed platform for a shared virtual world that enables developers to build and monetize applications on top of it. The scarcity of land, on top of which applications can be built, creates hubs that capture user attention, which drives revenue to content creators. MANA tokens will be used to purchase land, goods, and services in-world. MANA tokens will also be used to incentivize content creation and user adoption, therefore bootstrapping the first decentralized virtual world.
+
+05. Summary 14/14
+
+

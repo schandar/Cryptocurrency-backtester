@@ -1,0 +1,81 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cryptocurrency Portfolio Query</title>
+        <link rel="stylesheet" type="text/css" href="{% static "/main.css" %}" />
+    </head>
+    <body>
+        <div id="header">
+            <h1>Cryptocurrency Portfolio Query</h1>
+        </div>
+        <div class="frame">
+            <center><img src="https://media2.giphy.com/media/ehtr0A3IhmXPq/giphy.gif" style="width:250px;height:250px;"></center>
+            <p><center><big>Please choose a strategy from the list below. You must choose at least one.</big></center></p>
+            <p><center><small>Fields with an asterisk (*) are required.</small></center></p>
+            <form method="get">
+                {% csrf_token %}
+                <table class="form">
+                {{ form }}
+                </table>
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+
+        {% if args %}
+        <div class="args">
+            <pre>{{ args }}</pre>
+        </div>
+        {% endif %}
+
+        {% if err %}
+        <div class="error">
+            {{ err|safe }}
+        </div>
+        {% endif %}
+
+        <div class="frame_1">
+            {% if result != None %}
+            <p class="Query_Results"><center><strong>Your Portfolio Returns</strong></center></p>
+            <div class="results">
+                <table class="returns" border = "1">
+                    <tr>
+                        {% for col in columns %}
+                        <th>{{ col }}</th>
+                        {% endfor %}
+                    </tr>
+                    {% for entry in result %}
+                    <tr>
+                        {% for col in entry %}
+                        <td>{{ col }}</td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </table>
+            {% endif %}
+        </div>
+
+        <div class="frame_2">
+            {% if board != None %}
+            <p class="Board_Results"><center><strong>Current Leaderboard</strong></center></p>
+            <div class="board">
+                <table class="leaders" border = "1">
+                    <tr>
+                        {% for col in columns %}
+                        <th>{{ col }}</th>
+                        {% endfor %}
+                    </tr>
+                    {% for entry in board %}
+                    <tr>
+                        {% for col in entry %}
+                        <td>{{ col }}</td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+            {% endif %}
+        </div>
+        <p><small>GIF source: https://media2.giphy.com/media/ehtr0A3IhmXPq/giphy.gif</small></p>
+    </body>
+</html>

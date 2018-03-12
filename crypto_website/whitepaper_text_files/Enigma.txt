@@ -1,0 +1,285 @@
+Whitepaper Request Network The future of commerce A decentralized network for payment requests
+
+January 22, 2018
+
+Contents
+
+1 Executive summary
+
+2
+
+2 The platform
+
+2
+
+3 The ecosystem
+
+7
+
+3.1 The Core layer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+
+3.2 The Extensions layer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+
+3.3 The Applications layer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+
+4 Use cases
+
+9
+
+4.1 B2B invoicing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+
+4.2 Online payments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+4.3 Automation of jobs: Accounting, Audit, Expenses . . . . . . . . . . . . . . . . . . . . . . . . 11
+
+4.3.1 Accounting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+
+4.3.2 Audit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+
+4.3.3 Expenses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+
+4.4 Business Logic and Trade Laws: Government and Tax . . . . . . . . . . . . . . . . . . . . . . 14
+
+4.5 Simplification of commercial tools: Factoring, Escrow . . . . . . . . . . . . . . . . . . . . . . . 14
+
+4.6 Transparency of institutions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+
+4.7 IoT and smart contracts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+5 Token
+
+15
+
+5.1 Incentive for a secure ecosystem of applications . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+5.2 Governance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+
+5.3 Independence of other currencies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+
+5.4 Technical independence . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+
+5.5 Make cross currency exchanges easier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+
+6 Roadmap draft
+
+16
+
+7 Team
+
+17
+
+7.1 Core team . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+8 Architecture
+
+19
+
+8.1 Technical considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+
+8.2 Smart contract architecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+
+1
+
+9 Thanks
+
+22
+
+10 Bibliography
+
+23
+
+1 Executive summary
+Request is a decentralized1 network that allows anyone to request a payment (a Request Invoice)for which the recipient can pay in a secure way. All of the information is stored in a decentralized authentic ledger. This results in cheaper, easier, and more secure payments, and it allows for a wide range of automation possibilities.
+To become the backbone of world trade, Request integrates a general ledger (in the accounting sense of the term), which is: - Universal because it is designed to support 100% of global transactions, regardless of currency, legislation or language. Request is built to last. - Smart because unlike an existing standard accounting book, Request is at the origin of the exchanges and integrates a computerized trade code, as well as the management of a multitude of payment terms.
+Today, their absence makes the whole system inefficient and absolutely unready for the digital and IoT (Internet Of Things) revolution that is taking place.
+Request can be seen as a layer on top of Ethereum2, which allows requests for payments that satisfy a legal framework.It is also possible to see currencies as tools to complete Request transactions. In this sense, Request is more global than any currency.
+
+2 The platform
+Anyone can write on the Request Ledger and create a Request for Payment. The Request can be detected by the recipient monitoring the network (via a wallet or via a financial application). If the request is approved by the user, it can be paid with a single click. Then the request is completed and the network is updated.
+When a Request is created, the trade laws that are applicable to its specific case are taken into account, and taxes are applied. When necessary, advanced payment terms may be selected.
+1http://gavwood.com/paper.pdf, 2014, Gavin Wood. Ethereum: a secure decentralised generalised transaction ledger 2https://github.com/ethereum/wiki/wiki/White-Paper
+
+2
+
+Bob is requesting a payment from Alice Lets look at 2 examples: Bob asks Alice for a payment, then he creates an (invoice) request and relays it to the blockchain; Alice's wallet detects the Request and processes the payment. In the case where Bob was on Amazon and Alice was making a purchase, Amazon creates a Request on the blockchain, Alices phone analyzes the blockchain and detects the request, sends a notification, and she agrees to pay. Request offers: � Security, since it is not necessary to share banking information � Simplicity, since it requires only to click a button � Savings, since purchases dont require a third party (eg. Paypal)
+3
+
+A representation of what the General Ledger looks like Consider a second scenario, in which an autonomous car connects to a smart garage contract to buy a new wheel. They negotiate by algorithm, and agree upon a payment with deposit and escrow (money blocked until delivery). To interact financially, the machines and IoT require a payment framework. These examples are not feasible today, as there is no standard format and no interconnection between the services; it is necessary either to share banking information, or to use a third party that is common to both entities (Paypal, Venmo, Lydia , Stripe ...). Besides being limited and unsafe, it results in scattered invoices that could contain errors. The blockchain is the perfect support to create an open source, durable, smart and immutable system.
+4
+
+These new foundations simplify electronic flows. Today, this is incredibly important because everything comes down to payment. More than $5 trillion is exchanged every day3 on the SWIFT network alone, however, the flows are poorly optimized.
+This solution has even greater advantages. A ledger containing all standardized accounting entries can automate real-time accounting, improve auditing, automate factoring, simplify expense reporting, make escrow simple and reliable, and detect and automatically pay taxes.
+3https://www.fincen.gov/sites/default/files/shared/Appendix_D.pdf
+5
+
+Moreover, it opens up opportunities for more comprehensive trade improvement. Being able to manage data privacy makes it possible to push trade towards more transparency (public expenditure, associations), more fairness (transparency makes it possible to follow the distribution of gains and the origin of products; it also enhances fair-trade) and more justice (trade rules will be more easily aligned and enforced). It is difficult to imagine that the financial world can make any advancements without this layer.
+6
+
+3 The ecosystem
+Many developments will be possible on top of Request once the Core protocol is finished by the team. Our Tech mind map4 gives a full picture of the Request Network and the upcoming roadmap.
+We believe the Request ecosystem is the key to success, and we very much would like to nurture it. In order to drive this decentralization forward and help Request to scale, here is an introduction to the Request Hub5. What we call Request Hub is the community outside the Request foundation that is willing to work on top of Request, create teams and projects around Request, and help with its decentralization.
+3.1 The Core layer
+The bottom layer is the Core, which manages the consensus over the ledger and the states transitions. It consists of the most fundamental smart contracts, allowing the creation of different entities and requests for payments. It also detects when payments have been completed. It is based on immutability (ie. no one can change the information), the openness of its system (everyone can access information that concerns them) and an intelligence that allows it to know when an invoice is paid according to the rules in the invoice.
+This layer takes place on the Ethereum blockchain, which brings endogenous benefits for Ethereum and ERC20-labeled invoices, such as automatic detection. Other currencies are also covered via automatic payment detection through the use of Oracles.
+This layer is free to encourage the greatest number to use it and to discourage the development of other systems. The only costs transmitted are the use of Ethereum gas and the storage of information.
+4https://www.mindmeister.com/991002501?t=R1iofDilV0 5https://www.mindmeister.com/995302918?t=Y78CuCvpRn
+7
+
+3.2 The Extensions layer
+The second layer is the Extensions layer. Most payment requests created today are not as basic as the one proposed by the Core layer. If the request comes from an enterprise, then it includes rules for calculating taxes, payment terms, escrows or advances. All of these conditions take the form of available extensions that can be added to requests. This layer is the gateway to incredible features that do not yet exist, such as "continuous bills". For example, someone could choose this module to break down their rent into 30x24 payments to the landlord, leaving this person with a fluid bank account without large end-of-month expenses. Taxes would be rerouted in real time to government agencies. With each payment, 20% of VAT would go to taxes and 80% to the recipient company. The same example would allow everyone to give 1% of all payments to NGOs (Non Governmental Organizations), or to deposit them into ones own retirement account.
+This layer is chargeable, in that each extension will take a fee that will be partially burned and partially transferred to the extension developers, with the extensions accrued on the same invoice. Costs decrease over time to remain competitive and discourage alternative systems. The costs of these extensions is estimated to be between 0.1% and 0.5% initially, though as the system grows, the costs will be reduced. More than 5,000 billion dollars in payments are made each day, and in the end it will be enough to finance the network by less than 0.1%. Nonetheless, the costs will continue to support the security of applications and their development. This layer is completely open, whereupon anyone can create their own extensions, with the fees also being distributed in a way that will interest and encourage the developer and the community.
+3.3 The Applications layer
+The topmost layer is the Applications layer, which takes place outside the blockchain. Systems from different companies can connect to Request to create requests or access information. Accounting, audit, tax, debt re-
+8
+
+covery and collection, factoring or payment systems can all be connected. When a payment system connects to Request (Mycellium, Coinbase, Bank of America, Bankin ...), it will be able to access the invoices of the user and propose to pay them instantly.
+The Request team will develop applications, including an interface and an API for creating and accessing requests.
+Reputation Application A reputation system is included in this layer to guard against phishing or bad payers. For instance, a user will be able to detect whether a company is attempting phishing, in the case that other users have previously rejected its payments. Conversely, a company that does not pay its invoices on time, after having accepted them, will also be penalized by means of its reputation. The reputation system may also have other uses; for example, members of the network with the best reputation will be able to receive cost reductions or access to custom extensions.
+The reputation could be directly entered in the blockchain, but to keep the system light, we have chosen to keep them in the application layer thus far, since this information can be re-obtained by browsing the blockchain.
+4 Use cases
+The use cases of this technology are extremely wide. This system automates real-time global accounting, replaces an entire branch of the audit, eliminates manual tax collection, simplifies international payments, allows machines to communicate on the same financial field, replaces payment systems such as Paypal, and makes the most advanced payment terms available to everyone.
+4.1 B2B invoicing
+Billions of invoices are shared each year between companies, with most of them still being sent in paper and email format, which have to be copied. This results in a large number of errors, particularly when advanced payment or tax rules are applied.
+With Request, companies can share these bills directly via the ledger; there will be no more duplication, as accounting systems will be immediately plugged in and updated.
+The company awaiting payment will be able to detect a delay immediately, which will happen less often due to the development of invoice payment systems. The company has the ability to pay on the optimal date at the time of receiving the request.
+Each year, thousands of small and medium-sized enterprises (SMEs) bankrupt while waiting for their invoices to be paid. The ECB (European Central Bank), in particular, is setting up solutions that Request complete by adding a payment reputation system and key indicators. Today, a provider still has to trust its client and might not be paid. Tomorrow, the provider will be able to verify the payers clients reputation and other indicators, such as DPO (Days Payable Outstanding) before agreeing on a contract.
+9
+
+4.2 Online payments
+For example, shopping on Amazon requires payment by credit/debit card, thereby exposing sensitive information. Alternatively, selecting the option to pay via Request, the users data remain protected. Amazon will post a Request on the network, the user's account will detect it and request a confirmation of payment from the user. This will trigger a transfer at the lowest cost, without exposing the payment information.
+It becomes possible to avoid unforeseen credit/debit card payments that services charge in a hidden way, because it provides a way to validate payments before they happen. Request empowers people.
+The advantages of Request, compared to current systems, are:
+� Security: Payment information is never shared, there is no risk that someone intercepts and reuses banking information.
+� Simplicity: One click to pay, and no manual input error possible.
+10
+
+� Cost: No third-party like Paypal6, Bitpay7 or Stripe8, all of whom are providers that charge between 1% and 7% of the amounts sent. Request reduces the cost.
+4.3 Automation of jobs: Accounting, Audit, Expenses
+4.3.1 Accounting With Request, the accounting is done automatically and in real time. Beyond cost reduction, this allows for better, faster financial management, and with more information.
+Use cases for accounting purposes: Request brings simultaneity to the accounting process. Payments, accounting, and VAT refunds / payments are done automatically.
+6https://www.paypal.com/en/webapps/mpp/paypal-fees 7https://bitpay.com/pricing 8https://stripe.com/nl/pricing
+11
+
+In addition, it represents a switch from double-entry accounting9 to triple-entry accounting10. This is a revolution, expected by experts, that raises some questions about the future value of external audits. Indeed, a third validation point is added to double-entry accounting systems11, and this is where auditors are currently acting for the validation of the authenticity of accounts.
+Moreover, Request allows the digitization of accounting systems, where one currently spends time to duplicate efforts through repetitive documentation and frequent checks. These manual tasks can now be automated. Request will transform the role of a CPA into consulting and support activities. This system leaves more time for value-added tasks, such as analysis, estimation and strategy.
+Technically, credit notes, purchase orders, reimbursement, and every accounting concepts will be possible on Request. The system will be compatible with the UN/EDIFACT standard and able to be updated to the latest standards.
+4.3.2 Audit With Request, audits become a simple algorithmic check, thanks to the immutability of the system. In comparison, in 2014, Microsoft paid $46.2 million in audit fees to Deloitte12. Similarly, Bank of America paid nearly $100 million. In total, the 100 biggest companies in the United States paid $2.5 billion in audit fees.
+Henceforth, audits will be carried out in real time13. Let's call them Smart Audits14. Blockchain auditing solutions ("smart audits") will likely become a reliable and inexpensive alternative to today's manual audits.
+Request brings significant benefits for improving the efficiency of such audits. In terms of digitization, accounting software, states and companies are still far from optimal. Many companies send invoices by mail every day, and most of them have missing invoices at the end of each year.
+Yet the rules are clear. The methods and technological support could change everything and substitute the intercompany and inter-subsidiary costly controls, which are carried out to ensure the reliability of the
+9https://en.wikipedia.org/wiki/Double-entry_bookkeeping_system 10http://iang.org/papers/triple_entry.htmlhttps://en.wikipedia.org/wiki/Momentum_accounting_and_triple-entry_ bookkeeping 11https://bitcoinmagazine.com/articles/triple-entry-bookkeeping-bitcoin-1392069656/ 12http://fortune.com/2015/08/27/microsoft-pays-more-than-apple-for-its-audit-and-why-investors-should-care/ 13http://economia.icaew.com/features/july-2016/how-blockchain-will-impact-accountants-and-auditors 14https://request.network/assets/pdf/request_yellowpaper_smart_audits.pdf
+12
+
+accounting statements. In the computer consulting industry, the cost of the accounting officer's time to process an invoice is be-
+tween $5 and $1515. To this amount can be added the time necessary for monthly checkings and corrections. The automation of the entire system is slow.
+The use of blockchain for accounting is an opportunity to simplify compliance, and improves double-entry accounting. Double-entry accounting dates back to the Renaissance, where it allowed managers to have confidence in their own reports. Nowadays, to justify trust, independent auditors verify the information of the major groups in a process that is costly in both time and money. The audit firm then becomes a trusted third party guaranteeing the veracity of the information established by the financial statements. However, the auditors maintain responsibility over the companies, which generates mistrust. Do the auditors work for the managers of the companies that mandate them, or for the service of the third parties who consult the information for free?
+Thus, instead of holding internal accounts and publishing them after the annual audit, companies can keep accounts in a decentralized, confidential and shared database with blockchain technology. All accounting entries are then entered into the register, without the possibility of backdating, which means there is no opportunity for falsification. Therefore, it would become more difficult to make questionable year-end adjustments, and most importantly, the company benefits from this system in real time. Shareholders and external parties have access to real-time information. The cost of auditing becomes insignificant, and accounting entries no longer require duplicate manual checks. Finally, the integrity of the financial statements can no longer be called into question when customers and suppliers are interconnected with this system, at least by their cryptographic addresses.
+Request is a distributed registry that acts as a source of confidence, ultimately allowing these "smart audits" in real-time. It includes all purchases and sales of the company. Instead of having double-entry accounts, where the information regarding a purchase appears in the purchase account and in the bank account separately, one can see within the blockchain a purchase account, linked to the supplier, linked to the
+15http://ww2.cfo.com/expense-management/2015/06/metric-month-accounts-payable-process-cost/, 06/24/2015, Mary Driscoll
+13
+
+payment, and linked to the bank account. Traceable, immutable, and authentic.
+Request proves the integrity of archived electronic records. It is a gateway to the trade of the future.
+4.3.3 Expenses With Request, expense reports are easily shared between employees and businesses, without getting lost or altered. A system of expense management will allow employees to select and send, in real time, their professional expenses to their manager, who can accept and refund them when ready.
+4.4 Business Logic and Trade Laws: Government and Tax
+Governments requiring companies to report all transactions could again be creating errors and duplications. Request allows governments to specifically view the real-time transactions that they have access to. Furthermore, the development of a module to levy VAT, or, for example, a transatlantic tax, will redirect the money automatically. Whether one is pro-government or not, the possibility, for the first time, to simplify and make transparent the levies of taxes is a real improvement.
+Blockchain technology allows government agencies to have the ability to detect financial instabilities, fraud, money laundering and financial crime in advance, and operate based on these observations.
+The UK government's scientific wing has recently identified a number of ways that the blockchain can "revolutionize citizen-state relations." For example: helping the government collect taxes and distribute aid.
+4.5 Simplification of commercial tools: Factoring, Escrow
+Request will allow easy access to tools like escrow or factoring for businesses and individuals. Allowing in 1 click to choose to pay only upon delivery of a product or service, for example, or to secure the deposit of an apartment on escrow, rather than crediting the account of the landlord.
+Simple and above all at a lower cost. Indeed, escrow can be automated and based on oracles. As for factoring, companies will be able to use the best system of credit scoring that exists: the "On Chain" reputation . By assigning a unique fingerprint to every invoice and publishing them on the blockchain, double invoicing are avoided because an invoice can be coded in the blockchain only once. A smart contract will then allow such companies to cancel an existing request to replace it with 2 factoring requests.
+4.6 Transparency of institutions
+Budget transparency for institutions (Governments, City Halls, Associations) is on the agenda of the OECD and the World Bank which helps:
+� Accountability: Clarity on how the funds are spent is necessary so that public representatives and officials can be accountable for effectiveness and efficiency.
+� Integrity: Sunlight is the best policy for preventing corruption and maintaining high standards of integrity in the use of public funds.
+� Inclusiveness: Transparency invites for an informed and inclusive debate about the budget policy impacts.
+14
+
+� Trust: We are in the era of open source projects and collaboration, transparency fosters trust in a society where peoples opinions and interests are respected and where public money is used appropriately.
+� Quality: Budget review, as code review, allows to detect waste, misuse and gives insights on how to improve the outcome for more responsivity and impact.
+Request proposes a framework which allows these institutions to adopt transparency conveniently, to publish their account in real time and to anyone to audit and use these data. As the framework gains in popularity, more tools will be developed and, for example, give us a dashboard on our city expenses.
+This transparency can be applied to other industries and can help us identify the origin of some products and if they are issued from a short food circuit.
+4.7 IoT and smart contracts
+An exciting challenge of the coming years will surely be to imagine how objects, machines and artificial intelligences will interact with each others, and how they will automatically negotiate and define payment terms. They will need a payment framework which specifies the payment and help to define the reasons and conditions of the transaction.
+One can imagine a self-contained car order a new wheel to a virtual garage, make a down payment and pay the remaining 90% only at delivery.
+5 Token
+While it is built on the blockchain ledger of Ethereum, Request aims to be independent from other currencies, monetary policies, or technological choices so that we build the most robust system possible. We believe this is the key to evolve through time with a growing community and develop an ecosystem around our framework where more DAPP (Decentralized applications) are created.
+5.1 Incentive for a secure ecosystem of applications
+REQ tokens are ERC20 tokens which are necessary to participate in the network, create advanced Requests and reward various parties who will help build the request ecosystem. When using the network, the participants will need to pay a network fee in REQ which will be burned.
+The fees will be adjusted by the Request Network operators depending on the decreasing supply of REQ and the exchange rate with the different currencies authorized by the network.
+As an example, a request at the beginning of the system might burned 10 REQ out of the total supply of 1 000 000 000 REQ. Later, after the system has been used for a while, a Request might burn 0.0001REQ out of a total supply of 100 000 REQ.
+The network will have a built in system to reward platforms on top of the protocol who decide to charge a REQ fee. In this way we favorize the creation of an entire financial open platform.
+The costs we expect on the platform are 0.05% to 0.5% of the transaction. These costs will then decrease when the volume of the network increases in order to remain competitive and to avoid incentivizing the development of alternatives. With the global market transiting more than $ 5,000 billion a day, minimal fees will become ample when the platform grows to a larger scale.
+15
+
+5.2 Governance
+We have a strong desire to build a Request system that lasts tens or even hundreds of years. A system that can not only be used by historians to see what commerce looked like in the 21st century, but also a system that will take us into the future, with the power and structure to be used when artificial machines and intelligence will account for the majority of transactions. For this reason, Request will have to remain flexible and scalable, this being one of the major challenges of decentralized systems (as we can see with Bitcoin16 Segwit, or the Ethereum management of Ice age ...). We wish to separate the governance of our community from the one of Ethereum and avoid a sub-governance that would allow every Ethereum token holders to decide on the future of this community17.
+The REQ token will bring the community together and allow for discussions and votes on future decisions. The community will be a board and we will create the necessary tools for this administration: A voting system, but also probably a chat system restricted to only members of this board.
+5.3 Independence of other currencies
+Request is agnostic in terms of currency. We are creating a system that should not be dependent on the monetary policy of another currency. Request should be as independent as possible from ETH inflation or deflation. The Ethereum roadmap supports our direction, it is highly likely that miners / stakers will be able to upgrade to Casper to accept other ERC20 tokens as gas, which will be a great simplification. This independence will eventually allow Request to hard fork to a new system with a new technology by keeping the same token holders ecosystem.
+5.4 Technical independence
+In the process of scaling the Request network, there is a strong probability that we will use a solution such as the Plasma Chains. In these solutions, a specific token help to incentivize the avoidance of Byzantine18 states and maximize security. The token is used as a POS (Proof of Stake) and stakers are disincentivized against Byzantine behaviors or faults as that would cause a loss in value of the token. Using a token is the most flexible and independent way to conceptualize a system that will need consensus and security to evolve in the long term19.
+5.5 Make cross currency exchanges easier
+We will propose a model where loops of invoices can be identified automatically by the system and settled without requiring a fund shift. For example, if Alice owes money to Bob who owes money to Charlie who himself receives a request for payment from Alice, the system can offer compensation for these bills and the REQ will settle offsetting differences.
+6 Roadmap draft
+Being finalized. A detailed roadmap will be posted here once ready.
+Request Pyramid: Q3 2017 -Release final draft of white paper
+16https://bitcoin.org/bitcoin.pdf, 2008, Satoshi Nakamoto 17https://medium.com/@FEhrsam/scaling-ethereum-to-billions-of-users-f37d9f487db1, 06/27/2017, Fred Ehrsam 18http://www.scs.stanford.edu/14au-cs244b/labs/projects/copeland_zhong.pdf, 2016, Christopher Copeland and Hongxia Zhong 19http://plasma.io/plasma.pdf
+16
+
+-Launch the Request Network website
+Request Colossus: Q4 2017 -Token Launch -First version of Request working with Ethereum on Test Net -Deploy the website to Create/Visualize and interact with Requests -Add Request management of accounting concepts such as refund, credit note and purchase orders -Release the API to create/read/update Requests -Release technical papers about architecture, upgrades and accounting implementation
+Request Great Wall: Q1 2018 -First version of Request working with Ethereum on Main Net -Deploy management of Crypto-currencies on Request (ERC20 tokens) -Proof of concept : Request Core working with a Bitcoin Oracle -Work on partnerships with Accounting, Payment and Audit firms -Launch the Pay with Request project: an online button which offers an alternative to the traditional Pay with Paypal and Pay with credit card -Outside audits of the Request Contracts
+Request Stonehenge: Q2 2018 -POC of Scaling Request through a Plasma chain with PoS. Request will have to handle a heavy load of transactions -POC of Increased Request Privacy using ZkSnarks20 -Add management of Fiat-currencies to Request (USD, EUR, CNY) -Launch the Request and Transparency project. We will work with city halls, associations and governments to publish real time information on their budget -Organize discussion groups around Payment Requests with institutions such as Worldbank/IMF/ECB and the UN
+Request Colosseum : Q3 2018 -Deploy the Escrow extension to allow the release of funds upon delivery or upon satisfaction of other conditions -Deploy the Tax extension to automatically pay taxes in real time -Deploy the Down Payment extension to specify an amount to pay and a specific date on which to process it -Deploy the Late Fees extension to specify penalties if a Business is not paid on time -Add a Reputation Offchain layer
+Request Petra : Q4 2018 and after -Deploy the governance system (Vote/Token Chat) -Launch the "Internet of Things framework" project -Deploy Inter-currency settlement through REQ to facilitate international payments -Launch the Continuous Payment extension which will act as a Down payment with an infinity of micro payments
+7 Team
+7.1 Core team
+Our team is our strongest asset for the Request project. All of its members have worked together in the past, for terms ranging from 6 months to 6 years. We are doers. Our experiences in finance, blockchain and
+20https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6, 2017, Vitalik Buterin
+17
+
+entrepreneurship are combined to rethink the international trade organization of tomorrow.
+Who are we?
+To name but a few of the roles held by our team, we have practiced as: financial director, IT manager, financial auditor, accountant, management controller, treasurer, data analyst, front end developer, back end developer, lead developer, and blockchain developer. These roles have spanned industries including consultancy, finance, pharmaceutical, music, research, and fintech. We think in blockchain, fintech and finance terms, and we believe that there are far more transparent and healthy alternatives to the way that banks operate today. Our experience in the ING bank accelerator in Amsterdam, the Lisbon Challenge in Portugal and the YCombinator in Silicon Valley, as well as our personal experiences in China, the United States, Switzerland and Mexico, all reflect our international ethos and way of thinking. We believe in the freedom to move, to work remotely, and to work freely, not only for individuals and businesses, but also for machines, money and information.
+Why Request? In the first quarter of 2017, the team participated in the YCombinator in San Francisco. The many exchanges that we had with the biggest startups of tomorrow and the best investors in Silicon Valley confirmed the idea that the blockchain is the best means in which to build the foundation for international trade. Where today's services are struggling to solve the problems of banks and administrations, the blockchain brings a solution to the source. With Request, the issue of local and international payments becomes almost non-existent, being streamlined and automated.
+When did it start? In 2014, the team is working on the construction of an international transfer network based on Bitcoin, Moneytis, which gradually grows into a more global payment network that aggregates money transfer solutions and allows monthly transfers of several million dollars. From 2014 to 2017, the team developed destinesia.io, theblockchainnetwork.com, neomy.io and moneytis.com. Our research on the scalability and liquidity of a blockchain solution for money transfers was fruitful when we learned more from users, companies, freelancers and individuals.
+Presentation of the members of the team:
+Etienne Tatur, CTO Etienne is a "blockchain enthusiast" who graduated from the French engineering school INSA Lyon. He hosted Christophe at Amaris in April 2011 in Geneva (Switzerland), where he was lead developer and manager of IT projects. It was there that he shared his passions for the blockchain, before becoming CTO. After his experience at Qobuz (music startup), in 2014, he created his first blockchain project "Snapsoko", later renamed The Blockchain Network, and which was integrated into the Moneytis project. It is also the manufacturer of the Messenger Bot Neomy.io. He has lectured on the links between blockchain and money transfers in Miami for the International Money Transfer Conference, and in Paris for Blockchain France and Visa Europe. Our Blockchain expert is interested in new technologies, photography and climbing. Member of La Chaintech. He thinks the Blockchain will change the world.
+Christophe Lassuyt, CFO Christophe Lassuyt has experience as a financial manager internationally, across North America, Europe and Asia. After graduating from business school (NEOMA Business School), he began as a computer management controller, before becoming an international financial director at Amaris and Virtua. He is a current member of the Mangrove movement. He believes that working and traveling at the same time is highly effective. When he started as CFO, Christophe personally carried out all the business lines for a subsidiary of Amaris in Munich, Germany, which included customer accounting; supplier accounting; treasury; internal audit; relations with external auditors; monitoring of tax audits; Management control, and so on. His knowledge includes the processing times of an invoice, and factoring issues, and his main accomplishment is to have
+18
+
+automated these trades in the companies where he worked, with a Ratio of one person in finance for 300 employees. He is most concerned about problems associated with the payment of bills. For example, let us assume that a secretary receives an invoice by email, which is validated to a manager, and then sent to the accountant. The accountant must inform it into a software program, before managing a payment, which must also be validated by a manager. This process is unnecessarily long, whereas tomorrow, with Request, we could receive that same invoice via a smartphone, and perform a single click yes / no for the payment to take place automatically on the due date.
+Vincent Rolland, Back-end Engineer, Solidity developer Vincent graduated from the prestigious French INSA Lyon school with a background in research and worked for the CNRS in association with Stanford university. He has also worked on collaborative science projects in the Natural History Museum of Paris. After this, he joined Moneytis on the Blockchain network project for international money transfers, and has also improved the neomy.io project from a research and development point of view by making it autonomous. Vincent strives to bring transparency and values to the projects he works on. Request is an ultimate opportunity to give transparency on a global level.
+Elliott Denis, Full Stack Engineer Elliott is a full-stack developer with experiences in consulting and fintech. He works to write clean, elegant and effective code by integrating state-of-the-art web technologies. He discovered Ethereum for the first time in 2016 and has since never ceased trying to imagine the full breadth of its applications. First with Moneytis and then with the Request project, he believes he can bring simplicity and transparency to the world of tomorrow's trade.
+Laura Girod, Financial controller and Data Analyst A graduate of ICN Business School, Laura played the roles of internal auditor, financial controller, data analyst, and even customer support. She has mastered the accounting and auditing ecosystem, and spent several years in an international startup in Switzerland and Asia, before joining Moneytis in December 2015. Thanks to her qualities in statistics and modeling, she created the sympathetic algorithm neomy.io.
+Julien Devoir, CMO Hipster Julien has extensive experience in growth marketing and graphic design. He participated in the YCombinator at Moneytis. He is one of the first members of the Mangrove movement. Julien trained himself in digital marketing and new technologies. His passion for the internet motivated him to become a Growth Hacker at Virtua (Switzerland) and Molotov.tv (France). According to Julien, working and traveling simultaneously increases productivity. He considers that one also learns professionally while traveling and has promoted this by co-founding the life project destinesia.io
+8 Architecture
+We will soon release a Yellow paper detailing the technical specifications. This paragraph aims to give some hints about the challenge we face and the architecture we chose.
+Request is a protocol service on which a large number of applications are based, which aims to be fully serverless, open source and decentralized. To achieve this goal, we made the decision to build Request on Ethereum technology.
+Ethereum: Ethereum allows the execution of Smart Contracts in a decentralized way on the EVM, which allows Request to be decentralized and serverless. Request smart contracts are developed under Solidity. Request uses Ethereum to create invoices and automatically detect their payment.
+19
+
+Swarm and Filecoin: Swarm21 and Filecoin22 allow document storage to be decentralized in a distributed network. Filecoin will store the heaviest information on invoices and Swarm the ones that must be accessed in the fastest way, such as some meta data.
+8.1 Technical considerations
+Privacy policy Managing confidentiality and privacy in Ethereum is one of the challenges and priorities of the Ethereum protocol. The use of ZkSnarks23 (Zero Knowledge succinct non-interactive arguments of knowledge) answers this problem. ZkSnarks is part of the Ethereum roadmap but it will not be immediate. Until the release of ZkSnarks of similar solution, we will work on 3 paths: -Allowing public requests -Introducing the concept of basic requests. A Request type that will not be a smart contract but an encrypted hash on Filecoin -Plasma chain. Plasma chain will allow ZkSnarks and we are following closely the Omise to work on them -Eventually a temporary sidechain using Quorum24 and private transactions connected to the public one through a system such as Polkadot25
+Scalability Scalability is also another challenge facing blockchains, and there is no doubt that we want to support a very large number of transactions. The fact that we can manage multiple currencies will make the number of Request transactions grow faster than the number of Ethereum transactions. This is why some innovations in the Ethereum roadmap will be important for Request, such as Sharding26.
+Sharding has still a long way to go, as a result we will develop on: -Offloading the maximum off chain on Plasma / State-channels27 -Basic requests for small amounts, which wont be smart contracts, aggregated on Filecoin and Swarm
+21https://github.com/ethersphere/swarm, 03/22/2017 22https://filecoin.io/filecoin.pdf, 08/04/2017, Protocol Labs 23https://blog.ethereum.org/2016/12/05/zksnarks-in-a-nutshell/, 12/05/2016, Christian Reitwiessner 24https://github.com/jpmorganchase/quorum-docs/blob/master/Quorum%20Whitepaper%20v0.1.pdf, 11/22/2016 25https://github.com/w3f/polkadot-white-paper/, 11/10/2016, Dr. Gavin Wood 26https://github.com/ethereum/wiki/wiki/Sharding-FAQ, Vitalik Buterin. Ethereum Sharding FAQ 27https://raiden.network/, Raiden. Raiden Network
+20
+
+8.2 Smart contract architecture
+High level view of the smart contracts. The core is registering all the Requests, and is administrable which allows update and pause. There is only one core, the core can allow subcontracts to manage each currency.
+Each subcontract manages the creation and interaction with the request for a specific currency. Some subcontracts are synchronous, while other interact with an oracle (for Fiat currencies for example) 21
+
+Here are details of a currency subcontract. The subcontract interacts with different extensions which can be chosen by the creator of the request.
+9 Thanks
+We would like to thank the following reviewers, whose contributions and feedback made this document possible or helped us through different parts of the project: Nadja Bene - Gnosis Antoine Grebert - Quandoo Yoann Marion - Amaris Andria Antoniou - PhD at PiG Pierre Laurent - Blockchain enthusiast Christopher Barry
+22
+
+10 Bibliography
+1. http://gavwood.com/paper.pdf, 2014, Gavin Wood. Ethereum: a secure decentralised generalised transaction ledger
+2. https://github.com/ethereum/wiki/wiki/White-Paper 3. https://www.fincen.gov/sites/default/files/shared/Appendix_D.pdf 4. https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Double-entry_ bookkeeping_system.html, 11/25/2016 5. http://iang.org/papers/triple_entry.html, 2005, Ian Grigg 6. http://ww2.cfo.com/expense-management/2015/06/metric-month-accounts-payable-process-cost/, 06/24/2015, Mary Driscoll 7. https://bitcoin.org/bitcoin.pdf, 2008, Satoshi Nakamoto 8. https://medium.com/@FEhrsam/scaling-ethereum-to-billions-of-users-f37d9f487db1, 06/27/2017, Fred Ehrsam 9. http://www.scs.stanford.edu/14au-cs244b/labs/projects/copeland_zhong.pdf, 2016, Christopher Copeland and Hongxia Zhong 10. https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6,2017, Vitalik Buterin 11. https://github.com/ethersphere/swarm, 03/22/2017 12. https://filecoin.io/filecoin.pdf, 08/04/2017, Protocol Labs 13. https://blog.ethereum.org/2016/12/05/zksnarks-in-a-nutshell, 12/05/2016, Christian Reitwiessner 14. https://github.com/jpmorganchase/quorum-docs/blob/master/Quorum%20Whitepaper%20v0.1. pdf, 11/22/2016 15. https://github.com/w3f/polkadot-white-paper/, 11/10/2016, Dr. Gavin Wood 16. https://github.com/ethereum/wiki/wiki/Sharding-FAQ 17. https://raiden.network/
+23
+
+

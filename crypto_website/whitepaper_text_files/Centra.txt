@@ -1,0 +1,257 @@
+Lunyr
+A decentralized world knowledge base on Ethereum driven by economic incentives
+Lunyr Inc. Arnold Pham and Andrew Tran
+White Paper Version 2.5.0
+July 2017
+This document is for informational purposes only and does not constitute an offer or solicitation to sell shares or securities in Lunyr Inc. or any related or associated company. Any such offer or
+solicitation would only be made by a confidential offering memorandum and in accordance with applicable
+securities and other laws. Please read the important Risk Disclosures at the end of this White Paper. Lunyr may make changes to this White Paper.
+Please visit Lunyr.com for the most recent version.
+1
+
+Table of Contents
+The Team
+Abstract
+Market
+Vision Lunyr API Artificial Intelligence Virtual Reality Augmented Reality
+Problem Centralization Censorship Inaccuracy
+Solution Decentralization Token Incentive System Mandatory Peer Review
+Platform Design Peer Review App Tokens Dispute and Resolution LUN Pool Advertising
+Roadmap Milestones
+Crowdsale Crowdsale Summary Initial LUN Supply Distribution Crowdsale Token Contract Guidelines
+Security Audit
+Funding Usage Breakdown
+DISCLAIMER
+2
+
+The Team
+The Lunyr team consists of serial entrepreneurs, technical leaders, and successful advisors. Each core team member has cofounded at least one startup. All together, the team possesses the capabilities to not only build the project, but also create and grow a viable business. The leadership team actively contributes to the Ethereum community and organizes the second largest Ethereum meetup in Silicon Valley.
+Arnold Pham | Cofounder & CEO
+Arnold cofounded Leandigest Inc., a Silicon Valleybased tech startup, as CEO. He started programming in C++ at the age of eight, and later on, was an evangelist of BitTorrent and Bitcoin. As an Ethereum activist, he organizes Ethereum Developers Community, the second largest Ethereum meetup in Silicon Valley, where he also teaches decentralized application development. He graduated from University of California, Los Angeles and University of Pennsylvania.
+Andrew Tran | Cofounder & COO
+Andrew cofounded Leandigest Inc. as COO. Prior to that, he had built an insurance business with over $10MM in sales. Before entrepreneurship, Andrew worked as a Project Manager, and later, Account Executive at Oracle where he closed the largest ever hardware deal for their smallmedium business division. He holds a B.S. in Computer Science from University of California, Los Angeles and an MBA from University of California, Davis.
+3
+
+Christopher Smith | Cofounder & CTO
+Christopher was the Cofounder & CTO of BitMesh, a decentralized platform that enables users to share their internet connections. He has developed algorithms for Internet of Things and Deep Learning applications. Christopher possesses over seven years of experience as a software engineer. He was a PhD candidate in Computer Science at University of California, Santa Cruz and holds an M.S. and B.S. in Mathematics and Computer Science.
+Dr. Greg Colvin | Technical Advisor
+Dr. Colvin works on the Ethereum Virtual Machine (EVM) for Ethereum DEV. His work includes pushing the boundaries of EVM performance and evolving the EVM architecture and Ethereum specification. Greg has had decades of technical experience inventing algorithms, designing systems, and programming applications and servers. His experience includes building and leading world class teams.
+Alex Leverington | Technical Advisor
+Alex has been involved with Ethereum as a core developer since the very beginning. He worked at ETHDEV, where he architected and programmed devp2p, Ethereum's underlying P2P protocol layer. Alex has also made key contributions in Ethereum encryption and security, primarily touching the various communications protocols. He remains active in the protocol steering group.
+4
+
+Grant Fondo | Legal Counsel
+As a partner at Goodwin Procter LLP, Grant specializes in digital currency, blockchain technology, and securities litigation. He is an experienced federal prosecutor and a former Assistant U.S. Attorney in the Northern District of California. Grant is the CoChair of Goodwin's Digital Currency + Blockchain Technology Practice, and sits on the board of the Digital Currency and Ledger Defense Coalition as a founding member.
+Abstract
+Lunyr (pronounced "lunar") is an Ethereumbased decentralized crowdsourced encyclopedia which rewards users with app tokens for peerreviewing and contributing information. We aim to be the starting point of the internet for finding reliable, accurate information. Our longterm vision is to develop a knowledge base API that developers can use to create next generation decentralized applications in Artificial Intelligence, Virtual Reality, Augmented Reality, and more.
+Market
+A strategic component of the Lunyr platform is its advertising system, which allows for the purchase of advertising on the platform using Lunyr tokens ("LUN"). Although the Lunyr platform is unique in its design, decentralization, and vision, it can be compared to Wikipedia.
+Wikipedia today ranks as the sixth most visited site in the world according to Alexa rankings1. It attracts 470 million unique visitors who view over 19 billion pages per month2. Estimating the amount of advertising revenue Wikipedia could generate if it allowed advertising on its pages provides clues to the potential demand for LUN:
+ In 2006, Jason Calcanis, the cofounder of Weblogs, Inc, which was acquired by AOL, published an article about Wikipedia estimating an annual advertising revenue potential of $100MM3.
+1 Alexa is an Amazon.com company that provides commercial web traffic data and analytics. 2 Band, Jonathan, and Gerafi, Jonathan. 2013. "Wikipedia's Economic Value." Rochester, NY: Social Science Research Network. 3 Calcanis, Jason. "Wikipedia leaves $100M on the table (or "PLEASE Jimbo, reconsider­media philanthropy could change the world!")." Calacanis.com. 28 Oct. 2006.
+5
+
+ In 2008, BusinessInsider.com performed an analysis of Wikipedia and arrived at an annual advertising revenue potential of $350MM4.
+ In 2011, Vincent Juhel published a thesis about Wikipedia for HEC Paris, and arrived at an annual advertising revenue potential of $1.6 billion dollars5.
+Vision
+We will initially focus on finetuning the system to improve accuracy, increase content, and grow readership. Once the knowledge base matures, we will attract a wider audience by encouraging contributions of near realtime data on world events and translations in multiple languages. Ultimately, Lunyr intends to establish its brand globally as a reliable, accurate decentralized knowledge base. Taking it a step further, we will grow the ecosystem by developing an API that will attract developers. This Lunyr API will allow developers to use the knowledge base as a backbone for creating next generation decentralized applications in Artificial Intelligence, Virtual Reality, Augmented Reality, and more.
+Lunyr API
+The Lunyr API holds promise for significantly changing existing business models and creating new ones. The Ethereum blockchain currently has no knowledge of the real world, yet most useful applications require real world information. Through the Lunyr API, decentralized applications will be able to tap into the knowledge base and grab accurate data on real world events and information. This leads to immediate benefits for
+4 http://www.businessinsider.com/companies/wikipedia 5 Vincent Juhel, Valorisation du benevolat sur Wikipedia (2011) (master's thesis, HEC Paris).
+6
+
+Artificial Intelligence, Virtual Reality and Augmented Reality applications.
+Artificial Intelligence
+Artificial Intelligence projects similar to Siri or Amazon Echo are enhanced with the Lunyr API. When users ask factbased questions, the decentralized application can dig through the Lunyr knowledge base and provide users with reliable, accurate answers.
+Virtual Reality
+The Lunyr API will enhance the intimate and visceral experience of interactive virtual worlds. Imagine putting on a virtual reality headset that lets you experience walking on the surface of Mars. As you walk along the cold, reddusted ground, information about key landmarks and giant dust storms appear. All of this information is drawn from the knowledge base.
+Augmented Reality
+The Lunyr API can be the foundation for learningbased applications in Augmented Reality. Imagine you are at the beach on a sunny day and you see beautiful flowers by the seashore. You want to know what they are so you put on augmented reality glasses, which will identify the flowers, tap into the knowledge base, and give you all the information you need to satisfy your curiosity.
+Problem
+Current crowdsourced knowledge bases face problems with centralization, censorship, and inaccuracy.
+Centralization
+Centralized systems represent single points of failure controlled by central authorities. Individuals relying on these systems must trust that authorities will not abuse their power to forward selfserving agendas. Yet, resisting the temptation to abuse power is difficult in practice for even the most respected authorities. In 2012, Wikipedia deliberately shut down for 24 hours to protest against internet piracy laws, preventing individuals worldwide from accessing any information6.
+Censorship
+Centralized systems are vulnerable to censorship. Governments ruling through oppression exert control over citizens by prohibiting access to free knowledge. Syria ranks among the governments where internet censorship is pervasive. Syria blocks
+6 Lee, Edward. "Day Wikipedia Went Dark." Boston Review. 18 Jan. 2013. 7
+
+websites for political reasons and arrests those who access them7. Previously, Syria blocked the Arabic Wikipedia from all Internet Service Providers in the country, prohibiting even university students from accessing Wikipedia8.
+Inaccuracy
+On Wikipedia, many articles can be edited by anyone with an internet connection. Therefore, users can easily falsify information. Although popular articles with inaccuracies are likely to be quickly corrected, less popular articles can go uncorrected for months. For example, John Seigenthaler, a former assistant to U.S. Senator Robert Kennedy, was falsely implicated in the assassinations of the Kennedy brothers on his Wikipedia biography for over four months9.
+Solution
+Lunyr's innovative platform solves the problems of centralization, censorship, and inaccuracy seen in current knowledge bases.
+Decentralization
+The Lunyr platform is built on top of Ethereum and is therefore decentralized, censorshipresistant, and autonomous. No single point of failure exists. No central authority or middle man owns or can corrupt the information. The rules in which people interact with the knowledge base and with one another are mutually agreed upon and enforced through smart contracts, which are publicly verifiable on the blockchain.
+Token Incentive System
+Ethereum enables the creation of app tokens, which can be used in an incentive system to replace intermediaries. In Lunyr's system, tokens play a key role in providing economic incentives so that the rational behavior of individuals results in common good. Unlike in Wikipedia where volunteers must donate their time to contribute and validate information, in Lunyr's platform, contributors are rewarded for their work and are incentivized to continue increasing the value of the ecosystem.
+Mandatory Peer Review
+Driveby vandalism and corruption are eliminated in the Lunyr platform. All content submissions go through a mandatory peer review process and are not committed to the knowledge base until validated for reliability and accuracy. A powerful incentive system enabled by app tokens ensures that peer reviewers act in the best interest of the
+7 https://freedomhouse.org/report/freedomnet/2015/syria 8 Arabic Wikipedia Disappears From The Internet in Syria, Menassat, 19 May 2008. 9 Seigenthaler, John. "A false Wikipedia 'biography'". USA Today. 29 Nov. 2005.
+8
+
+ecosystem.
+Platform Design
+Lunyr's innovative platform design aligns each individual's rational economic behavior with benefitting the whole ecosystem.
+Peer Review
+The contributor's workflow begins with adding or editing information in the knowledge base in hopes of receiving rewards. Each contributor's submission costs gas, so flooding the system with junk has its economic limits, just as in Ethereum. All submissions go through a mandatory peer review process and are not committed to the knowledge base unless approved. Every submission requires sources for reviewers to validate the submission's reliability and accuracy. Hence, spam, fake, or malicious content will be filtered out. Every user who submits a contribution is also required to peer review other
+9
+
+submissions. We use Machine Learning to match peer reviewers with topics with which they will likely be familiar. Submissions are not committed unless they pass the judgment of multiple peer reviewers.
+It is crucial that peer reviewers are also contributors to ensure that only individuals who are economically aligned with the well being of the ecosystem are able to peer review submissions. Bad actors who try to attack the system will be fighting against legions of good actors driven by a powerful incentive system.
+App Tokens
+Once the submission passes peer review, the contributor is rewarded Contribution (CBN) and Honor (HNR) tokens. Neither CBN nor HNR can be transferred to other individuals, which ensures that only users who have committed to the wellbeing of the ecosystem hold CBN and HNR.
+CBN are used to calculate how many LUN an individual will be rewarded for the current reward period. CBN are automatically consumed after LUN rewards are distributed for the twoweek reward period. LUN are used to purchase advertising on the platform.
+HNR is used to propose and vote on issues in the Dispute and Resolution system. It is consumed upon use.
+Dispute and Resolution
+The dispute and resolution system exists to solve any content and quality issues that slipped through the peer review system. Issues such as malicious content, vandalism, and content reorganization are dealt with here. Proposals and votes cost HNR. It is important that HNR is only held by users who have committed to the ecosystem to align their proposal and voting behavior with increasing the value of the ecosystem.
+LUN Pool
+LUN rewards come from a pool of LUN that accumulates and is distributed to contributors at the end of every twoweek reward period. The number of LUN that an individual contributor is rewarded is based on the percent of total CBN they hold by the end of each twoweek period. Smart contracts ensure that the distribution will be handled with transparency and fairness.
+The LUN Pool comes from two sources:  New LUN that are created and distributed periodically at twoweek intervals  LUN that are used to purchase advertising
+The supply of LUN grows at an annual rate of 3% of the initial token supply. This growth
+10
+
+will not start until the Beta release on the Mainnet. These additional LUN provide fuel for the ecosystem to grow in the beginning. At the same time, the effective inflation decreases over time towards zero, also known as disinflation.
+Lunyr receives 15% of the LUN pool each twoweek period. This allocation aligns Lunyr's incentive with growing the ecosystem. Since Lunyr's primary source of value is in LUN, Lunyr's wellbeing is tied to the wellbeing of the ecosystem. Therefore, the rational behavior of Lunyr is to continually upgrade and improve the ecosystem so that it grows in value for all participants.
+Outside the LUN pool, Lunyr may sell additional LUN to purchasers in the future. It may do so through exchanges, the blockchain or in other ways.
+Lunyr may make changes to the size of the LUN pool, LUN distribution and other related matters that it believes, in its reasonable judgment, are beneficial to the LUN platform growth and development, or it considers reasonable under the circumstances. Keep in mind that any corrupt behavior would be irrational for Lunyr to do. Lunyr will be holding onto LUN and any decisions that dilute the value of LUN and devalue the knowledge base would be harmful to Lunyr.
+Advertising
+LUN are used to place advertisements on the platform. The ads are textbased such as those seen in Quora. We use Machine Learning to make ads contentaware. Ads are not committed to the platform until they pass through the mandatory peer review system.
+Ads are a crucial component of the Lunyr ecosystem. They create a powerful demand for LUN from those with financial resources. Ads provide the economic force that drives network effects as more contributors and readers join the ecosystem.
+Roadmap
+Lunyr is committed to completing each milestone on the roadmap. In addition to remaining open and transparent on communication channels, we intend to also provide progress updates.
+We will make the following materials available:  Development newsletters  Blog posts of research and development
+11
+
+Milestones
+12
+
+Milestone
+
+Core Features (25k ETH)
+
+Additional Features (250k ETH)
+
+Stardust (Invitationonly Alpha)
+
+ Content submission editor  Basic peer review system for
+content and ads
+
+Celestial (Alpha release on Testnet)
+
+ Basic advertising system
+
+ WYSIWYG editor
+
+Interstellar (Beta release on Testnet)
+
+ Basic dispute and resolution system
+
+ Comments and tagging for editing and disputes
+ Advertising auction system
+
+Supernova (Beta release on Mainnet)
+
+ CBN, HNR, LUN dashboard
+
+Nebula (Peer Review System Upgrade)
+
+ Algorithm improvement for peer review
+
+ Contentaware peer matching  Multilanguage support
+
+Cosmic
+
+ Improved proposal and voting  Dispute and resolution manager
+
+(Dispute and
+
+processes
+
+UI
+
+Resolution System
+
+Upgrade)
+
+Starlight (Advertising System Upgrade)
+
+ Algorithm improvement for advertising
+
+ Contentaware ads  Advertising campaign manager UI
+
+Galaxy (Lunyr API)
+
+ Lunyr API
+
+ Content metadata  Word and edit frequencies  Scraping API  Dataset submissions  Structured data  Dispute dataset  Model serving  Continuous online machine
+learning
+
+Crowdsale
+The initial distribution of LUN will be determined through a Crowdsale. LUN may be purchased during the Crowdsale pursuant to a Presale Purchase Agreement at an expected distribution of 44 LUN per Ether. LUN are purchased by sending Ether to the
+13
+
+Crowdsale token contract according to our instructions.
+The Crowdsale will aim to begin March 29, 2017 at 16:00 UTC and continue for four weeks, or until the maximum number of LUN are purchased. The actual start and end time will depend on Ethereum block numbers, which will be announced on the Lunyr community channels. If the Crowdsale fails to result in a minimum number of LUN, then Ether sent to purchase LUN will be returned.
+The Crowdsale token contract address to which Ether will be sent to purchase LUN according to our instructions and start and end block numbers will be announced on the following channels:
+ Website: lunyr.com  Github: github.com/lunyr  Subreddit: reddit.com/r/lunyr  Slack: lunyrcommunity.slack.com  Twitter: twitter.com/LunyrInc  Blog: medium.com/lunyr
+Crowdsale Summary
+
+Start block: End block: Crowdsale period: LUN purchased per Ether: Minimum Ether: Minimum number of Crowdsale LUN: Maximum Ether (cap): Maximum number of Crowdsale LUN:
+
+3,440,760 3,613,560 March 29  April 27 44 LUN per Ether 25,000 ETH 1,100,000 LUN 250,000 ETH 11,000,000 LUN
+
+14
+
+Initial LUN Supply Distribution
+The overall initial distribution of LUN will be as follows:  78% for Crowdsale purchasers.  15% for Lunyr founders, employees, and advisors distributed to a timelocked vault that prohibits LUN transfers for 180 days.  5% for marketing and promotion distributed to the Lunyr multisig wallet.  2% for Bug Bounty distributed to the Lunyr multisig wallet.
+Crowdsale Token Contract Guidelines
+Before the Crowdsale:  Any Ether sent to the token contract will be rejected.
+During the Crowdsale:  Any Ether sent to the token contract according to our instructions will result in an allocation of LUN to the purchaser at a distribution of 44 LUN per Ether.  LUN cannot be transferred during the Crowdsale period.
+15
+
+After the Crowdsale:  Users may transfer LUN to another address.  The crowdsale token contract creates additional tokens to arrive at the token supply distribution.  The Lunyr Token contract is now finalized, however, upgraded releases of the token contract adding core features and improvements are to be expected.
+Security Audit
+Lunyr is committed to ensuring the security of its platform. With each product release on the Mainnet, Lunyr commits to performing a security audit with both internal and external reviewers. Additionally, there will be a Bug Bounty program that rewards developers for finding security and other related issues.
+Funding Usage Breakdown
+16
+
+DISCLAIMER
+NOT AN OFFER TO SOLICIT SECURITIES AND RISKS ASSOCIATED WITH LUN AND THE LUNYR APPLICATION
+Last Updated March 7, 2017
+This document is for informational purposes only and does not constitute an offer or solicitation to sell shares or securities in Lunyr Inc. or any related or associated company. Any such offer or solicitation would only be made by a confidential offering memorandum and in accordance with applicable securities and other laws. None of the information or analyses presented are intended to form the basis for any investment decision, and no specific recommendations are intended. Accordingly, this document does not constitute investment advice or counsel or solicitation for investment in any security. This document does not constitute or form part of, and should not be construed as, any offer for sale or subscription of, or any invitation to offer to buy or subscribe for, any securities, nor should it or any part of it form the basis of, or be relied on in any connection with, any contract or commitment whatsoever. Lunyr expressly disclaims any and all responsibility for any direct or consequential loss or damage of any kind whatsoever arising directly or indirectly from: (i) reliance on any information contained in this document, (ii) any error, omission or inaccuracy in any such information or (iii) any action resulting therefrom.
+The Lunyr token, or "LUN", is a cryptographic token used by the Lunyr application.
+LUN is not a cryptocurrency. At the time of this writing, (i) with the exception of being used to place ads on the Lunyr platform, LUN cannot be exchanged for goods or services, (ii) LUN has no known uses outside the Lunyr application, and (iii) LUN cannot be traded on any known exchanges.
+LUN is not an investment. There is no guarantee ­ indeed there is no reason to believe ­ that the LUN you purchase will increase in value. It may ­ and probably will at some point ­ decrease in value. Those who do not actually use their LUN honestly and fairly may lose their right to use LUN and may lose their LUN to those that do use LUN honestly and fairly.
+17
+
+LUN is not evidence of ownership or right to control. Controlling LUN does not grant its controller ownership or equity in Lunyr, or the Lunyr application. LUN does not grant any right to participate in the control, direction or decision making of Lunyr or the Lunyr application.
+RISK DISCLOSURES
+1) Risk of Losing Access to LUN Due to Loss of Credentials The purchaser's LUN may be associated with a Lunyr account until they are distributed to the purchaser. The Lunyr account can only be accessed with login credentials selected by the purchaser. The loss of these credentials will result in the loss of LUN. Best practices dictate that purchasers safely store credentials in one or more backup locations geographically separated from the working location.
+2) Risks Associated with the Ethereum Protocol LUN and the Lunyr application are based on the Ethereum protocol. As such, any malfunction, unintended function, unexpected functioning of or attack on the Ethereum protocol may cause the Lunyr application or LUN to malfunction or function in an unexpected or unintended manner. Ether, the native unit of account of the Ethereum protocol may itself lose value in ways similar to LUN, and also other ways. More information about the Ethereum protocol is available at http://www.ethereum.org.
+3) Risks Associated with Purchaser Credentials Any third party that gains access to or learns of the purchaser's login credentials or private keys may be able to dispose of the purchaser's LUN. To minimize this risk, the purchaser should guard against unauthorized access to their electronic devices.
+4) Risk of Unfavorable Regulatory Action in One or More Jurisdictions Blockchain technologies have been the subject of scrutiny by various regulatory bodies around the world. The functioning of the Lunyr application and LUN could be impacted by one or more regulatory inquiries or actions, including the licensing of or restrictions on the use, sale, or possession of digital tokens like LUN, which could impede, limit or end the development of the Lunyr application.
+5) Risk of Alternative, Unofficial Lunyr Application Following the Crowdsale and the development of the initial version of the LUN platform, it is possible that alternative applications could be established, which use the same open source code and protocol underlying the Lunyr application. The official Lunyr application may compete with these alternative, unofficial LUNbased applications,
+18
+
+which could potentially negatively impact the Lunyr application and LUN, including its value.
+6) Risk of Insufficient Interest in the Lunyr Application or Distributed Applications It is possible that the Lunyr application will not be used by a large number of businesses, individuals, and other organizations and that there will be limited public interest in the creation and development of distributed applications. Such a lack of interest could negatively impact LUN and the Lunyr application.
+7) Risk that the Lunyr Application, As Developed, Will Not Meet the Expectations of Lunyr or the Purchaser The Lunyr application is presently under development and may undergo significant changes before release. Any expectations or assumptions regarding the form and functionality of the Lunyr application or LUN (including participant behavior) held by Lunyr or the purchaser may not be met upon release, for any number of reasons including mistaken assumptions or analysis, a change in the design and implementation plans and execution of the Lunyr application.
+8) Risk of Theft and Hacking Hackers or other groups or organizations or countries may attempt to interfere with the Lunyr application or the availability of LUN in any number of ways, including service attacks, Sybil attacks, spoofing, smurfing, malware attacks, or consensus based attacks.
+9) Risk of Security Weaknesses in the LUN Application Core Infrastructure Software The Lunyr application consists of open source software that is based on other open source software. There is a risk that the Lunyr team, or other third parties may intentionally or unintentionally introduce weaknesses or bugs into the core infrastructural elements of the Lunyr application interfering with the use of or causing the loss of LUN.
+10) Risk of Weaknesses or Exploitable Breakthroughs in the Field of Cryptography Advances in cryptography, or technical advances such as the development of quantum computers, could present risks to cryptocurrencies and the Lunyr platform, which could result in the theft or loss of LUN.
+11) Risk of LUN Mining Attacks
+19
+
+As with other decentralized cryptographic tokens and cryptocurrencies, the blockchain used for the Lunyr application is susceptible to mining attacks, including doublespend attacks, majority mining power attacks, "selfishmining" attacks, and race condition attacks. Any successful attacks present a risk to the Lunyr application, LUN, and expected proper execution and sequencing of Ethereum contract computations. Despite the efforts of the Lunyr team, the risk of known or novel mining attacks exists.
+12) Risk of Lack of Adoption or Use of the Lunyr Application While LUN should not be viewed as an investment, it may have value over time. That value may be limited if the Lunyr application lacks use and adoption. If this becomes the case, there may be few or no markets following the launch of the platform, potentially having an adverse impact on LUN.
+13) Risk of an Illiquid Market for LUN There very well may never be a secondary market for LUN. There are currently no exchanges upon which LUN would trade. If ever exchanges do develop, they will likely be relatively new and subject to poorly understood regulatory oversight. They may therefore be more exposed to fraud and failure than established, regulated exchanges for other products and have a negative impact on LUN.
+14) Risk of Uninsured Losses Unlike bank accounts or accounts at some other financial institutions, funds held using the Lunyr application or Ethereum network are generally uninsured. In the event of any loss, there is no public insurer, such as the FDIC, or private insurer, to offer recourse to the purchaser.
+15) Risk of Dissolution of the Lunyr Project It is possible that, due to any number of reasons, including an unfavorable fluctuation in the value of Ether, development issues with the Lunyr application, the failure of business relationships, or competing intellectual property claims, the Lunyr project may no longer be viable as a business or otherwise and may dissolve or fail to launch.
+16) Risk of Malfunction in the Lunyr Application It is possible that the Lunyr application malfunctions in an unfavorable way, including one that results in the loss of LUN.
+17) Unanticipated Risks Cryptographic tokens are a new and untested technology. In addition to the risks discussed in this White Paper, there are risks that the Lunyr team cannot anticipate.
+20
+
+Further risks may materialize as unanticipated combinations or variations of the discussed risks or the emergence of new risks.
+21
+
+

@@ -1,0 +1,265 @@
+Network effects & land redistribution in Zimbabwe
+A quasi-natural experiment
+Tara McIndoe Calder
+Trinity College Dublin
+TIDI Research Showcase 20th May 2010
+Supervisor: Dr. Pedro Vicente
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 1 / 20
+
+1 Overview Motivation Natural experiment
+2 Paper design Field Trip
+3 Analysis Data Descriptive statistics Results Work in progress
+4 Conclusion
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 2 / 20
+
+Motivation
+
+Overview Motivation
+
+Zimbabwe: recent large scale land redistribution
+Commercial farmers (hold title deads, own large tracts of land, highly skilled, productive, land reallocated 1999)
+Communal farmers (no title deeds, small (secure) areas of land, unskilled, lack credit, few beneficiaries post-1999) Anecdotal evidence:
+Commercial farmers facilitate(d) informal access to K (human and physical) by communal farmers Recent land redistribution affected by low access to skills, machinery
+RQ(1): did these links exist?
+RQ(2): what effect on productivity of their removal
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 3 / 20
+
+Overview Motivation
+Commercial vs Communal
+2000 CFU document - national land holding by various groups: (white) commercial farmers: 21% (average size: 1500ha) (black) commercial farmers: 3% (average size: 1500ha) (black) communal farmers: 42% (ave size: 2ha)
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 4 / 20
+
+Why cotton?
+
+Overview Motivation
+
+Cotton: widely grown cash & insurance crop Grown by 300,000 HHs, income for 25% rural pop
+(Some) cotton support structures survived economic decline Mostly grown by small-scale farmers Input credit schemes Extension services (non-government) Purchased at farm gate
+Ceteris paribus is more credible for cotton than other agri-industries
+Data from largest cotton marketing company
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 5 / 20
+
+Overview Motivation
+Figure: Production volume, major Zimbabwean crops: 1980-2008
+
+250
+
+200
+
+150 Volume (tonnes), 1980=100
+100
+
+50
+
+0
+
+1980 1982 1984 1986 1988 1990 1992 1994 1996 1998 2000 2002 2004 2006 2008
+
+Cotton Soybeans Wheat Tobacco Maize
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 6 / 20
+
+Overview Natural experiment
+Natural experiment (difference-in-difference)
+
+Treatment: land redistribution
+Identify: productivity network effects
+Treated group: communal farmers close to (previously) large scale commercial farmland
+Control group: communal farmers further away Treatment
+Lack pre-2000 data Solution: some large-scale farmers not targeted for land redistribution Targeted Farmers = f(characteristics important to network effects &/or productivity) Targeted Farmers = f(ethnicity)
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 7 / 20
+
+Overview Natural experiment
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 8 / 20
+
+Overview Natural experiment
+Land holdings after `Fast Track Land Reform'
+2003 Utete report - Mashonaland Central and East (white) commercial farmers: 269 farms (black) commercial farmers: 247 farms (black) A2 farmers: 560 farms
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 9 / 20
+
+Overview Natural experiment
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 10 / 20
+
+Paper design Field Trip
+Figure: Cotton Farmers, Bindura
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 11 / 20
+
+Paper design Field Trip
+Figure: Cotton Field, Kadoma
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 12 / 20
+
+Paper design Field Trip
+Figure: Cotton Field, Kadoma
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 13 / 20
+
+Analysis Data
+Data - Mashonaland Central and East
+Farm level data (2008, 2009) yield, yield quality, basic inputs, ha, seed growers (quality) rich data on assets, detailed inputs (200 farmers)
+Soil quality, rainfall Distance to: gins, roads, commercial farms Enumeration level data(25-60 HH)
+Income, consumption and expenditure data (1995, 2001) Farmers trained by NGO
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 14 / 20
+
+Analysis Descriptive statistics
+
+Variable Hectares Yield per hectare (productivity) Fertilizer (kg) A grade cotton (kg) Soil Quality (1-7) Annual rainfall (mm) Altitude (m) Distance to closest road (m) Distance to closest indigenous farmer (m) Distance to closest redistributed land (m) Observations Standard deviations in parentheses
+
+2.10 (1.12) 254.16 (260.51) 31.37 (45.54)
+2.02 (33.23)
+1.58 (0.67) 771.43 (69.41) 813.92 (325.98) 3,605.72 (4763.57) 36,526.81 (28,556.76) 28,816.57 (23,633.02) 64,750
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 15 / 20
+
+Analytic model
+
+Analysis Results
+
+Yi =  + 1di + 2ti + 3diti + xi 
+Yi = farmer yield per hectare d = distance
+t = indicator time variable td = interaction (treatment)
+xi = farmer characteristics Expected signs on i s:
+1 < 0 2 < 0 1 + 3 = 0 2 + 3 < 0 3 > 0
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 16 / 20
+
+Analysis Results
+Preliminary Regression Results
+
+Variable Distance
+Time Distance*Time
+Fertilizer (kg) Seed (kg)
+Altitude (m) Ann rainfall (mm)
+Soil quality Roads (m) Distance to gins (m)
+Constant
+
+Coefficient -0.001
+-28.792 0.001 0.657 0.080 0.018 0.022 8.565 0.001 -0.001
+238.607
+
+(Std. Err.) (0.000) (5.495) (0.000) (0.028) (0.098) (0.007) (0.033) (2.233) (0.000) (0.000)
+(26.074)
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 17 / 20
+
+Robustness
+
+Analysis Work in progress
+
+Selection bias: today's black farmers vs previous white farmers vs remaining white farmers
+Compare productivity of small holder farmers living close by Use rich evidence from sub-group Compare geographic conditions (land quality, road proximity) Compare ICES data
+Replicate D-I-D using living conditions
+Training experiment (further control on productivity)
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 18 / 20
+
+Conclusion
+
+Conclusion
+
+The FTLF has been detrimental to productivity of cotton farmers regardless location
+Those close to previously commercial land have suffered marginally more than those further away
+This result provides evidence that the FTLR may have disrupted externalities important to small-holder (cotton) farming
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 19 / 20
+
+Conclusion
+
+Conclusion
+
+Thank-you.
+
+Tara McIndoe Calder (Trinity College Dublin)
+
+Land redistribution & externalities
+
+20th May 2010 20 / 20
+
+

@@ -1,0 +1,574 @@
+Abstract
+The AdEx team is building the next generation online ad exchange that is based on blockchain technology. Our goal is to provide a more efficient, intuitive and transparent advertising platform. Our aim is to disrupt the existing online advertising landscape and address the significant problems it faces such as advertising fraud, privacy and consent to receiving sponsored messages, and the rise of ad blockers. With digital surpassing all other advertising mediums and accounting for close to 40% of global marketing and ad spend in 2017, we see the need of innovation in this area. We believe we can empower advertisers and publishers with a platform that is secure, transparent and beneficial for all the parties involved in the process including consumers who have been left out by existing advertising networks. Our expertise in the fields of software development, blockchain & cryptography, video streaming and online advertising give us the confidence in creating an ad exchange that will be superior to all existing solutions used around the world.
+2
+
+Table of contents
+
+Abstract
+
+2
+
+Table of contents
+
+2
+
+Introduction
+
+5
+
+Team
+
+6
+
+Business case
+
+8
+
+Problem #1: Lack of consumer consent
+
+9
+
+Problem #2: Privacy concerns and data misuse
+
+9
+
+Problem #3: Lack of bidding transparency
+
+10
+
+Problem #4: Unclear and/or misleading reporting
+
+10
+
+Problem #5: Ad fraud
+
+11
+
+Problem #6: Ad blockers & ad blindness
+
+11
+
+Problem #7: Central regulation
+
+12
+
+Problem #8: Payment methods limitations
+
+12
+
+Problem #9: Lack of focus
+
+13
+
+Summary
+
+13
+
+Competitive landscape
+
+14
+
+Traditional ad networks
+
+14
+
+Decentralized ad solutions
+
+14
+
+AdEx Adoption
+
+15
+
+Token
+
+15
+
+Technology
+
+16
+
+Overview
+
+16
+
+The architecture of the AdEx Core
+
+17
+
+AdEx Core versioning scheme
+
+17
+
+Level two
+
+17
+
+Ports
+
+18
+
+SDK
+
+18
+
+The publisher portal
+
+19
+
+The advertiser portal
+
+19
+
+The AdEx Profile
+
+20
+
+Reporting
+
+20
+
+Storage
+
+21
+
+Exchange mechanism
+
+22
+
+Scalability
+
+22
+
+User verification
+
+23
+
+3
+
+Full process walk-through
+
+24
+
+ADXToken2 (ADXT)
+
+25
+
+AdEx Fund
+
+25
+
+Roadmap
+
+26
+
+Stage 1: Research: Completed
+
+26
+
+Stage 2: Token Crowdsale
+
+26
+
+Stage 3 - Prototype
+
+26
+
+Stage 4 - Adoption and Improvement
+
+27
+
+Stage 5 - AdEx V2
+
+27
+
+Wings DAO
+
+28
+
+Crowdsale
+
+28
+
+Budget allocation
+
+29
+
+ADX token allocation
+
+30
+
+Bounty program
+
+31
+
+Adoption
+
+31
+
+Extended use cases
+
+32
+
+References
+
+33
+
+4
+
+Introduction
+AdEx is a decentralized ad exchange built on Ethereum blockchain and smart contracts. The AdEx platform is designed to disrupt and replace the traditional digital advertising models by providing a transparent, focused solution for advertisers to collaborate with ad publishers and reach the best potential clients. The core feature of AdEx will be the so-called A dEx User Profile - a personalized page that allows every end user to understand and control the ads delivered to them. Giving more control to the user is highly beneficial for advertisers since users voluntarily provide more information about their preferences and consumer behavior, about their shopping habits and purchase preferences. This means that with the help of the user's AdEx Profile advertisers achieve surgical precision for ad targeting and ensure a high Return On Ad Spending (ROAS). The technology of AdEx leverages blockchain and smart contracts, thus eliminating the complexity and confusion of existing ad serving networks. The network is regulated by the users and the users only, taking care of the most common issue advertisers today are facing: lack of transparency and incorrect/unclear reporting of advertising campaign results.
+5
+
+Team
+AdEx is being developed by a team that has worked together on Stremio, a video entertainment hub that grew from 0 to 4+ million installs in just under 2 years.
+Lead by Ivo Georgiev and Dimo Stoyanov, the team brings extensive experience in the areas of software development, cryptography and blockchain, video streaming, as well as in marketing and online advertising to the table. These combined knowledge, experience and the professional backgrounds of the founders are essential ingredients for the success of AdEx.
+
+Ivo Georgiev
+Co-Founder & CEO
+
+Dimo Stoyanov
+Co-Founder & COO
+
+Vanina Ivanova
+Ad Tech
+
+Ivo has extensive experience as a software engineer with a particular interest in the video-on-demand industry. Since 2012, he has been heading Stremio, a video entertainment startup. Well-versed in cryptography and crypto currencies.
+
+Dimo comes from a background in UX and UI design, and front-end development. Together with Ivo Georgiev, he runs the VoD entertainment hub Stremio. Dimo is experienced in project management, product design, and brand strategy.
+
+Vanina has more than 12 years of experience in advertising, and online marketing, as well as in ad tech. She has ran and managed huge digital marketing projects in the fintech industry, and has been a part of the team of a major cloud storage provider.
+
+Shteryana Shopova
+Security xpert/Developer
+
+Alexandru Branza
+Developer
+
+Ivo Paunov
+Developer
+
+Shteryana is a well-seasoned software engineer and software architect. Throughout her career, she gained noteworthy experience in cybersecurity. For the past 10 years, Shteryana has been contributing to the FreeBSD project as a committer.
+
+Alexandru is a software / web developer with more then 8 years of experience specializing in: video players, p2p, blockchains and web services. A strong believer and contributor to open source communities.
+
+Ivo is a software developer with experience in the following fields: mobile and web development, and Javascript. He is part of the Stremio team and helps develop the company's video entertainment hub.
+
+Alessya Ivanova
+Designer
+
+Jihan Wu
+Strategy Advisor
+
+Stas Oskin
+Tech Advisor
+
+Allesya is a creative graphic designer who has been contributing to the Stremio project where she is responsible for UI and UX. She holds educational degrees in graphic and product design and has more than 10 years of experience behind her back.
+
+Jihan is one of the founders of BITMAIN Technologies, one of the most recognized and valuable bitcoin mining hardware provider. Wu is a supporter of Bitcoin Unlimited, a solution to solve bitcoin's scalability issue.
+
+Stas has over 10 years of experience in engineering, development and management of software, cloud, healthcare, cryptocurrency, social products and services. He is an entrepreneur, crypto-enthusiast and a life hacker.
+
+6
+
+Sebastian Stupurac
+Strategy Advisor
+
+Guy Corem
+Strategy Advisor
+
+Dominik Zynis
+Marketing Advisor
+
+Sebastian is an entrepreneur, visionary and a husband. He's a big believer in crypto and blockchain technology, in which he has been involved since 2013. Sebastian has vast experience in information systems and product management.
+
+Guy has a versatile professional experience - he has worked for major companies like Intel, Boxee and Voltaire. Along with that, he has background in funding startups, cybersecurity and cryptocurrencies/bitcoin.
+
+Dominik has been involved in the cryptocurrency scene since 2012. His background includes top sales rep for Oracle Corp., cofounder of State Software known for discovering JSON, and Head of Communication and business development at Mastercoin (Omni) Foundation. He leads PR and marcom at WINGS Foundation.
+
+Lior Zysman
+Legal Advisor
+
+Nikola Stojanov
+BizDev Advisor
+
+Vladislav Dramaliev
+Community Advisor
+
+Lior is a corporate lawyer advising startups and investors on crowdfunding and cryptocurrencies, and working on decentralized autonomous non-profit organizations (Runner-up at Consensus 2016 Hackathon with a Charity DAO).
+
+Nikola is a Business Development executive with experience in Germany, Eastern Europe, MENA and Asia Pacific. During the past 10 years, he has developed and consulted a number of international projects, including the Aeternity blockchain platform.
+
+Vladislav is a digital marketing analyst & Bitcoin entrepreneur. He is the founder of BitHope.org, CryptoCrowd.org and the Bitcoin/Blockchain meetup in Sofia, Bulgaria. Vladislav is also co-founder of the Bulgarian Bitcoin Association.
+
+Vincent Zhou
+Strategy Advisor - China
+
+Richard Titus
+Strategy Advisor
+
+Vincent is the general manager and founding partner of Fintech Blockchain Group. He has a successful career in high tech and blockchain companies, and is considered to be one of the most influential blockchain venture capitalists in China.
+
+Richard is a serial entrepreneur with a passion for the Internet, technology and media. A longtime holder of crypto, he has been acting as strategic advisor to a number of blockchain projects, including po.et, HIVE, and now AdEx.
+
+The AdEx team is working with WINGS - a decentralized platform for crowdfunding projects that was recently n amed one of the top fintech startups by the CoinTelegraph. WINGS have a core role both in advising the AdEx project itself, and in providing the platform for the AdEx crowdsale.
+AdEx The team is also backed up by BITMAIN Technologies, a world leader in Bitcoin and cryptocurrency mining technology. In 2015, Bitmain made a significant investment in the Stremio platform.
+
+In partnership with:
+
+7
+
+Business case
+Why are we building the AdEx Network? We are creating a token of influence that solves the current problems of online advertising
+Global advertising and marketing investments continue to grow exponentially around the world, and since last year we see a significant shift in the importance carried by different advertising mediums: while TV has always until now been king for advertisers, it is slowly being outrun by online & digital channels. In 2017, global online advertising will outspend the ad king - television for the first time. Zenith's Advertising Expenditure Forecasts report (September 2016) predicts an average growth of 14% for internet advertising in the period 2015-2018. The report stipulates that by 2018, the internet would account for 38.6% of all global advertising investment. In 2018 alone, advertisers are expected to spend more than $220 billion, up 11.7% from the 2017 projection of $198.8 billion. Despite its huge growth, however, the online advertising industry struggles with a lot of issues. We have identified the ones that affect it the most.
+Source: Zenith 8
+
+Problem #1: Lack of consumer consent
+While popular advertising networks like the ones of Google and Facebook allow for some extent of consent and control over what ads users see, this functionality is very limited, and a lot of options are simply hidden from the end user (Facebook, for example, collects data from the so-called "data brokers" but it took us purposeful research to find i nformation on opting out of these) . Furthermore, it is directly bound with the targeting parameters of each campaign, launched by an advertiser - if an advertiser makes a mistake when defining these, the ad will be broadcast to people who may not be interested in it and may not want to see it.
+Solution: The AdEx Profile
+As we mentioned earlier in this paper, each and every user, to whom AdEx serves ads, will have their own profile where they can be as precise as they want outlining their interests and preferences. This profile will ensure that consumers only see ads that are relevant to them. For advertisers this means more precise targeting, less opportunities for mistakes when setting their campaigns, and higher conversion rates.
+Problem #2: Privacy concerns and data misuse
+Major ad serving networks and exchanges operate with huge amounts of centralized data that can easily be traced back to the consumers' identities. Despite legal disclaimers, consumer have no knowledge of the purposes, for which their data is used, which is a threat to their online privacy - a threat the end users can do nothing about. Most advertising networks include disclaimers about disclosing data to third parties, however despite these disclaimers, consumer and marketing data is being sold by data brokers (unfortunately, there is no reliable information available on the data broking market size but we have reasons to believe it's a multi-billion dollar industry).
+Solution: Blockchain ensures anonymous use of big data
+The blockchain technology, which AdEx utilizes, allows to anonymize large chunks of data so it is only used for statistical purposes. Put simply, with the help of blockchain, advertisers
+9
+
+still get to receive and process data about their target audiences and consumers in the form of statistics only - without compromising the privacy of these consumers.
+Problem #3: Lack of bidding transparency
+Existing real-time bidding (RTB) platforms offer no information about ad bids whatsoever. This means that an advertiser is t old t he maximum bid for a particular ad property is $X but is not given the opportunity to verify this.
+Solution: A decentralized exchange that can be audited
+Due to the fact that AdEx is based on blockchain, advertisers can easily trace every click/view and verify every component of a campaign (participants, ad placements, impressions and clicks, etc.). The information is decentralized so it can't be hogged or manipulated by the ad exchange so advertisers are only paying for actual results.
+Problem #4: Unclear and/or misleading reporting
+Online campaign reporting is every advertiser and marketer's nightmare. Each and every existing advertising network measures different metrics - one would report on clicks, another one - on sessions; one would give details about invalid clicks, another wouldn't; and so on. This prevents advertisers from being able to cross-check data and results, from using unified KPIs across all networks, and from accurately tracking return on ad spend (ROAS).
+Solution: Unified real-time reporting
+Blockchain provides a universal data set that every advertiser can understand and use to analyze campaign performance. Further to that, AdEx will allow real-time reporting (existing networks require at least few hours to aggregate the data and show it to the advertisers). This way, advertisers can quickly spot trends and adjust their campaigns for maximum conversions. With real-time reporting they can also easily test if a campaign is set and tracked properly.
+10
+
+Problem #5: Ad fraud
+The current online advertising ecosystem is flawed. It enables fraud committed by advertising networks, by advertisers and by malicious third parties. According to reports from ad agency The&Partnership and the Adloox audit verification company, in 2017 brands will suffer losses in the amount of $16.4 billion due to ad fraud (bots, exploiting backdoors in ad serving networks, etc.).
+The question of advertising fraud should also be addressed by ad publishers. The global media supply chain also needs to change to ensure ads viewability transparency, reliable measurement, compliance rules and common standards for advertisers.
+Solution: The AdEx anti-fraud mechanisms
+AdEx will equip advertisers with technical mechanisms to trace and prevent fraud and invalid ad traffic. This technology in combination with the transparency, real-time reporting and audit accessibility of blockchain helps deliver a platform where advertisers know exactly how much and why they are paying for advertising inventory.
+Problem #6: Ad blockers & ad blindness
+Ad blocking software rose 30% in 2016, reaching a total of 615 million devices worldwide where ads and sponsored messages are blocked (308 million of these were mobile devices). Users are deliberately choosing to install ad blockers, growing weary of ads that are too intrusive and/or irrelevant.
+On top of this, users are also prone to developing ad blindness - a condition of consciously or subconsciously ignoring any piece of visual information that resembles an ad or a banner.
+These two phenomena cause revenue losses to advertisers as the latter are unable to fully reach their target consumers.
+Solution: Clever, meaningful ads that people want to see
+11
+
+AdEx will deliver unintrusive ads that are precisely targeted. Through this, the end users will be seeing ads that are facilitating their consumers habits rather than annoying them. The exchange will also offer advertisers to select for their ads visual design that resembles native content as much as possible .
+Problem #7: Central regulation
+Most of the existing ad exchanges rely on central regulation, in some cases from tech giants like Facebook and Google. While this has advantages, it's also extremely limiting, restrictive and authoritarian. It's not uncommon to see ad campaigns, or even advertisers/publishers getting banned unfairly, with little to none ability to appeal, let alone quickly.
+Even considering those restrictions, scam/malware ads still exist to date, even on Facebook and AdSense.
+Solution: User-powered governance
+With AdEx, the consumer determines what's right or wrong. The power of crowdsourcing has proven itself over the recent years, and the "consumer is always right" statement has never been more true. Furthermore, we believe that giving users the power to essentially filter out bad advertisements will be beneficial for overall conversions, and therefore advertisers and publishers.
+Problem #8: Payment methods limitations
+All existing ad networks require advertisers to use verified payment methods such as bank accounts, credit cards, etc. However, for many advertisers (especially micro businesses in developing countries), that's an issue.
+Solution: Cryptocurrency
+Blockchain and the use of cryptocurrencies allows literally anyone to take advantage of advertising possibilities to grow their business.
+12
+
+Problem #9: Lack of focus
+General ad networks and exchanges act as mediators between advertisers and ad inventory providers - and usually cater to very diverse ranges of both groups. This is why there are often issues like inappropriate ad formats, wrong audience targeting, etc.
+Solution: Focus on one niche industry
+The AdEx team comes from a background in VOD and video streaming - and this is why the network will initially work with publishers who are exclusively video entertainment providers. We know this market and we know how to best serve it so advertising there is beneficial for all the involved parties.
+This does not exclude the possibility of AdEx opening up to other types of publishers in the future with AdEx V2 ( see Roadmap ), or developing multiple sub-divisions of AdEx, each catering to a specific niche.
+Summary
+As you can see, there are way too many things wrong with the current state of the online advertising industry. That means that the time has come for an impactful disruption of that landscape, and this is where decentralized ad exchanges such as AdEx come in. With these new solutions, advertisers will be able to regain control over their advertising spend, they will be able to limit their exposure to potential ad fraud and will be empowered to achieve higher return on their marketing spending. Publishers will benefit from more interest from advertisers, more targeted ads and higher level of end user satisfaction and ultimately - higher advertising revenues. Last but not least, end users will finally have an online environment where they can receive targeted, tailor-made ads without compromising their privacy and personal data.
+13
+
+Competitive landscape
+Traditional ad networks
+There are currently hundreds of traditional local and global ad networks available on the market; however, Google and Facebook are the main players there. Both companies support their own advertising networks that are very popular among advertisers because of the large amounts of data both Facebook and Google collect about the end users.
+However, being advertising giants, these networks do very little to please the advertisers. They bring unclear reporting that is easy to be misinterpreted, as well as too many restrictions as to what and how can be advertised.
+Furthermore, there is plenty of room for ad fraud left by these networks and as a result, advertisers are exposed to humongous losses.
+Decentralized ad solutions
+ couple of other similar projects related to advertising with smart contracts have been announced recently: Brave Software's Basic Attention Token (BAT), NASDAQ's NYIAX, qChain, adChain.
+While all these ad exchanges come from strong teams, the truth is we are all sailing in uncharted waters here. This is why it is extremely important to have exceptional understanding of both cryptography and ad tech, as well as to stay as open in possible in terms of platform and device availability.
+On top of this, the more decentralized ad solutions, the more viewpoints will be introduced to solving the issues of existing ad networks, and the more the different networks will be able to learn from each other. By doing so, we will accomplish a positive and empowered ecosystem.
+Last but not least, some of these solutions are restricted in one way or another: for example, BAT is limited to the Brave browser only; NIYAX is targeting the financial industry, etc. This will have a negative impact on their adoption speed and range.
+We are excited about the fact that we do have competition as this will push us to deliver a service superior to the others. The AdEx network will be universally usable on all devices and operating systems; the ADX token will be used for trading advertising property rather just for governance, and will thus be easier for advertisers and publishers to understand and adopt.
+14
+
+AdEx Adoption
+Once the AdEx is fully operational, it will kick of with Stremio as the exchange's first publisher. The expertise in the video entertainment industry that we have will help us quickly attract other similar publishers looking for an efficient way to monetize. Advertisers will be attracted by the platform's merits - clear and transparent reporting, limited to no possibility of ad fraud, cross-platform/device availability, exceptional user targeting, etc.
+Further to that, AdEx token holders will be incentivized to bring more advertisers to the platform as they would benefit from a more active ad property marketplace.
+Last but not least, we will invest a significant effort working with ad blocker providers in order to get AdEx ads whitelisted. We are positive that this effort will be rewarded as AdEx will stand for "clean", targeted and meaningful advertising, and will offer ad blockers the option to monetize whitelisting the rewards via smart contracts.
+Token
+Within the AdEx ecosystem, the AdEx token (ADX) will be used internally to buy or sell advertising space and time. Advertisers would be able to create ads, and then place bids for them, setting the bid in ADX token. The advertisers may bid for a specific number of impressions, clicks or conversions (e.g. sign-ups, purchases, etc.). Once the Publisher accepts a bid, the token will be frozen until the Publisher proves that they have completed the goal. When that happens, the token is transferred to the Publisher's balance. Certain actions within the network would be incentivized by the creation of additional tokens, which will be received by whomever committed that action. This will ensure slow, on-demand inflation of the token so that there's enough in circulation for the network to be healthy and usable.
+15
+
+Technology
+Overview
+The AdEx token itself (ADX) will be based on Ethereum, a blockchain-based distributed computing platform. Ethereum allows smart contracts - distributed computer programs that can facilitate online contractual agreements in a cryptographically secure manner.
+Ethereum is open-source and adopted by institutions like JP Morgan, Deloitte, IBM, Santander Bank, Microsoft, the Luxembourg Stock Exchange and Toyota.
+Smart contracts are what enables the existence of AdEx as a truly transparent and decentralized ad serving exchange. Smart contracts are essentially computer programs that run on a distributed public ledger, therefore ensuring their result is always consistent, transparent and cannot be manipulated.
+This technology also ensures that AdEx removes the need for intermediaries and having a central authority you need to trust - through smart contracts, the complex process of choosing ads, tracking ads and facilitating bidding/payment can be described in the contract itself, while still running on the distributed Ethereum network and taking advantage of the blockchain qualities.
+The fundamental philosophy of AdEx is it's balanced/correct use of blockchain. The AdEx Network only uses the blockchain for mission-critical data, such as accomplished conversion goals* and payments. That way, it eliminates the opportunities for fraud and lack of transparency when it comes to the critical events; this, in its turn, removes the incentive to manipulate statistics, which will be kept off-chain to allow for bigger volumes of analytics data.
+We call the critical set of smart contracts facilitating the most important interactions between publishers, users and advertisers "the AdEx Core". The AdEx Core will be kept small and highly modular to mitigate the possibility and impact of potential bugs in smart contracts.
+* Conversion goal: a measurable outcome that represents an action completed by an individual user on your site, e.g. making a purchase, subscribing to an email list, time spent on site, etc.
+16
+
+The AdEx Core will be made publically available with an open-source license and will go through multiple security audits on every update.
+The architecture of the AdEx Core
+ ADXToken: the ERC20 token used to trade advertising space;  ADXPublisherRegistry: handles information about publishers, such as accounts and
+individual websites/apps;  ADXAdvertiserRegistry: handles information about advertisers, such as accounts and
+individual campaigns;  ADXUserRegistry: handles information about end users and their legitimacy;  ADXExchange: handles the bidding, bid accept/execute, payment processes; once a
+bid has been accepted, it locks the ADX tokens until both publisher and advertiser have successfully confirmed the execution of the bid, after which it unlocks the ADX tokens and transfers them to the publisher
+Possible additions:  ADXToken2 (ADXT): an upgradable ERC20 token with an inflation model designed to improve the token's scalability and avoid too much scarcity.
+AdEx Core versioning scheme
+ The entire package has a generation number; e.g. AdEx Core V1; this number is only meant to change when the model is significantly altered (essentially a new big iteration of the Core). This will happen when enough real-world usage data has been gathered to design an improved model; it's not expected that modules from older generations of the Core will be compatible with the next generations, with the exception of the tokens (ADXToken/ADXToken2). Within one generation, there must be a common interface of interaction between the modules.
+ Every module has an individual version, and within the same generation of the Core, every module can be upgraded individually without breaking other modules. This allows for easy upgradability.
+Level two
+For later generations of the Core, there's the possibility of adding off-chain solutions that supplement the main smart contracts, for example an IOTA-based solution that will handle real-time bidding and commit the overall results to the Ethereum blockchain
+17
+
+(ADXRealTimeBiddingExchange) - therefore replacing the current off-chain hyperlog-based* solution.
+Possible level two solutions are IOTA,  TrueBit and polkadot.
+Ports
+The AdEx Core will be ported to NEO (formerly Antshares) and possibly other technologies such as aeternity or R SK.co if they have the necessary scalability and maturity. Again, this is something that may only change across generations of the Core.
+SDK
+Another key advantage of AdEx is it's strong interoperability - the AdEx SDK for publishers works just like any other publisher SDK in the browser, built right on top of HTML5 and compatible with any modern browser. The publisher SDK can be integrated in any website/web application in a matter of minutes by simply copying and pasting code.
+The SDK has two modes of operation:
+1. Full mode: directly connects to Ethereum, IPFS and hyperlog nodes through protocols like WebRTC and WebSockets
+2. Light mode: connects to a publisher endpoint, which facilitates the connection to Ethereum, IPFS and hyperlog
+The full mode is suitable for web-based, single-page applications that load once and dynamically change their content based on user interactions. This mode does not put any strains on the publisher's servers, but it requires a modern browser and some loading time.
+The light mode is suitable for simpler websites such as news websites and blogs. This mode is also more suitable for mobile browsers or older browsers. The light mode does require infrastructure from the part on behalf of the publisher, which means a central point, but it's still fraud-proof, because it still needs to submit proof of conversion and user ID to the blockchain-based core (the exchange).
+* Hyperlog: An append-only peer-to-peer replicated database based on Merkle DAG.
+18
+
+The SDK is based on web tech, but this doesn't mean it's restricted to web browsers only. Mobile and desktop applications can still easily benefit from this SDK by using a webview, which is a standard approach for the adtech industry anyway, and ensures the same technological stack in any case. For mobile/desktop, publishers can choose the full/light mode depending on their needs and use case.
+The publisher portal
+The publisher portal is a client-side dapp bundled with a server that contains a hyperlog instance, publisher endpoint server (used by the SDK and the AdEx Profile) and serves the app itself.
+The publisher portal will handle publisher registration, registering different websites/apps (channels) and advertising properties (particular places on the given channel).
+But most importantly, the publisher will use this portal for accepting particular bids for their advertising property.
+The publisher will be able to set-up automatic bid accepting through the publisher portal - the portal server itself will be responsible for monitoring bids and accepting them for the free properties, based on rules set out by the publisher themselves. Multiple bids can be accepted for a single property too, which will lead to ad rotation and dynamic selection of ads depending on user profile.
+Publishers will be encouraged to self-host the portal themselves, but for convenience the AdEx organization will provide a cloud-hosted portal for an appropriate hosting fee.
+The advertiser portal
+Similarly to the publisher portal, the advertiser portal is a client-side dapp bundled with a server that contains a hyperlog instance.
+The advertiser portal allows advertisers to register themselves, create different ad campaigns and then place bids over advertising space. The bids are placed by defining a conversion goal, how many times it has to be achieved, what's the ADX reward for executing the bid, maximum time to execute the bid and recommended target audience.
+19
+
+The number of executed conversion goals is an important parameter of each bid. Smaller numbers ensure more granularity and control, while more conversion goals allow for a more hands-off approach for the publisher and advertiser, but less control over the price. Of course, the number has to be big enough to justify the gas* that will be paid to confirm the execution of the bid. The need of balancing out this number will be eliminated in the future by adding real-time bidding with AdEx V2.
+As with the publisher portal, advertisers will be encouraged to self-host the portal themselves, but for convenience the AdEx organization will provide a cloud-hosted portal for an appropriate hosting fee.
+The AdEx Profile
+The AdEx profile is a client-side dapp* (HTML5, in-browser) that allows users to change their preferences regarding advertising and essentially describe their interests by themselves. To avoid the need for users to have ETH wallets, users will be completely passive, only reading from the Ethereum network. In order for them to change their taste preferences (or to log a conversion action), they would have to go through the publisher, who'd be responsible for paying the gas**.
+The change of preferences can be verified directly in the Profile dapp, by reading information from the AdEx Core - reading data from smart contracts does not charge gas - and then displaying a success message or an error message.
+Through the same process, the user will be able to report particular advertisements to the publisher, in case they consider them inappropriate.
+Reporting
+Detailed reporting data is kept off-chain in a multi-master, append-only database called hyperlog, although any database with similar characteristics can be used instead. To ensure consistency, the overall result will be verified through the AdEx Core ADXExchange module.
+* Dapp: An abbreviated form for "decentralized application", or an app with a backend running on a decentralized, peer-to-peer network instead of on centralized servers. ** Gas: the fee paid for the execution of every operation made on Ethereum.
+20
+
+Every involved party - advertisers, publishers and users - would log events to the this database, ensuring that detailed reports can be extracted from it.
+Because the database is peer-to-peer, and is stored by the publishers and advertisers, there's practically no scalability issue to record as many events as possible.
+Separate databases will be used for every publisher<->advertiser relationship, which allows for private databases in case the involved parties do not want their detailed data public (although the result outline will be kept on the blockchain, therefore still being transparent enough), and improves scalability because it's essentially equivalent to sharding.
+See the "Scalability" section for more details on how the data is kept.
+A further perk of keeping reporting data in a database only shared between publisher/advertiser, is that only they get access to the detailed reports. However, the general public can still see on the blockchain that the overall result makes sense and the data is not being manipulated.
+To ensure quick aggregation of the data, the publisher portal server will allow executing MapReduce queries on the dataset. MapReduce is a declarative programming model for processing and aggregating big data sets.
+The advantage of the MapReduce model is that the computation of the overall result can be distributed, therefore faster and easier to facilitate. But the biggest advantage in this particular case is that the aggregation can happen over time as the data set grows larger, which provides an up-to-date result at any moment without having to re-compute it from scratch. This is similar to the "Views" in CouchDB. This model also allows for any kind of aggregation, including custom queries that the publishers/advertisers define themselves.
+This access to raw data with a quick aggregation system makes AdEx highly flexible and powerful when it comes to reporting.
+Storage
+The metadata and multimedia for advertising campaigns is kept in a peer-to-peer storage system called IPFS.
+21
+
+IPFS will be used to keep advertisement-related media, such as images, videos and larger media (e.g video/interactive ads), as well as smaller files like metadata JSON, HTML and CSS.
+IPFS is an open source project developed since 2014 by Protocol Labs with help from the open source community.
+AdEx would still allow ads hosted on existing infrastructure (e.g. CDNs), to allow compatibility with the existing ad industry, while still having the reporting transparency and overall process efficiency of our solution.
+In the HTML5 SDK, IPFS can be read through a HTTP gateway (just like regular CDNs), or WebSockets/WebRTC, which are planned transport protocols for IPFS.
+Exchange mechanism
+The exchange mechanism is implemented by the ADXExchange module of the AdEx Core it works by keeping a simple list of bids and giving the opportunity for publishers to accept them. Automatic or real-time bidding will be implemented in later generations as the technology evolves, but for now manual or semi-automatic bidding (see Publisher Portal section) are the two available options.
+Scalability
+The system is designed in such a way that only critical data is verified on the blockchain. Detailed data is only synced between publishers/advertisers, and the overall result of that is verified on the blockchain upon completion of certain bigger goals (e.g. 1,000 conversions). Bids on the exchange are done for whole packages (e.g. "1,000 conversions for this ad") instead of granularly, which allows us to define the bigger goal that the blockchain part (AdEx Core) will be verifying.
+Even though you can technically manipulate the statistical data (e.g. details about individual conversion goals), there's no incentive for you to do that, because the overall result (e.g total conversion goals completed, therefore revenue) must be verified through the blockchain.
+This is very similar to the concept of Ethereum state channels described by Stephan Tual on his blog.
+22
+
+For now, off-chain data is kept in a peer-to-peer multi-master-replication database, but if a technology that allows some further verification/confirmation of the data emerges, while still being scalable enough (for example IOTA), it can be used instead.
+User verification
+To prevent the possibility of publishers performing sybil attacks on the network by registering multiple users and logging conversion goals, there will be an algorithm that tracks the possible legitimacy of every user. Once user data is written to ADXUserRegistry by publishers upon achieving conversion goals, users would be able to gain points towards their legitimacy rating.
+Possible factors for gaining points include:  Number of publishers that have confirmed this user achieved conversion goals;  Advertisers confirmed this user as a user with a unique IP;  A trusted authority confirmed the legitimacy of this user.
+Every advertiser will be able to set a minimum threshold of user legitimacy before a conversion goal is being counted.
+But most importantly, the AdEx Network is designed to work with conversion goals, which decreases the incentive for such a sybil attack anyway: if, for example, the conversion goal is to onboard a paying user, then there's no incentive to actually create a paying user to get the reward from that, since you'll end up losing money. A conversion goal may also be to successfully onboard a user to a new product and get them to complete a conversion goal of an advertisement within that product.
+This ensures a model that may be slow to generate revenue, but discourages any possibility of ad fraud.
+It also gives advertisers an option of how much they want to verify legitimacy, therefore balancing between anti-fraud measures and the speed that they achieve results.
+23
+
+Full process walk-through
+This is an example walk-through of the entire process of an user seeing an ad, and the publisher receiving the ADX reward for it: 1. The publisher registers themselves, their website and the ad property in the publisher portal. 2. The advertiser registers themselves and the advertising campaign in the advertiser portal. 3. The advertiser places their bid for 1 executed conversion goal (for the sake of simplicity, only 1; in the actual platform, this value will be set to 10-1000 conversion goals). 4. The publisher accepts the bid. 5. The user goes to the website and triggers the SDK. 6. The SDK initializes, pulls data from the AdEx Core smart contracts, the publisher and the advertiser; it then finds out that the publisher accepted one bid, and the 1 conversion goal is not yet realized; it pulls data from IPFS to display the ad, and broadcasts it, meanwhile logging a "Load" and "Impression" to the hyperlog database. 7. The user clicks on the ad (logging "Click" on the hyperlog) and signs up for the advertised product, therefore triggering a confirmation from the advertiser side that the conversion goal is met. 8. Since the bid should now be executed, the publisher calls the AdEx Core to confirm with the aggregated data of executing the bid; the advertiser confirms this and the AdEx Core (ADXExchange in particular) unlocks the ADX reward and transfers it to the publisher.
+24
+
+ADXToken2 (ADXT)
+ADXT is a conceptual token that may be launched in the future, once the AdEx Network is highly developed and seeing large traffic. The ADXT is used in the same way as ADX, but has a built-in inflation model that rewards network participants with newly minted tokens, therefore incentivizing usage of the platform and increasing the scalability of the token by ensuring it won't become too scarce. The reason this inflation model is not included in the initial version (ADX) is that this model needs to be designed by using real-world usage data of the AdEx Network instead of theoretical speculation. ADXT would be a smart contract, part of the AdEx Core, and it would allow exchange of the ADX token for the new ADXT token, allowing ADX token holders to easily upgrade.
+AdEx Fund
+The AdEx Fund is a pool of tokens used by the AdEx Network organization to sell to advertisers at the moment of their registration and usage of the platform, therefore giving them easy access to ADX tokens. This pool will be replenished if publishers want to cash out their ADX to a fiat currency.
+25
+
+Roadmap
+Stage 1: Research: Completed June 2016 - June 2017
+During this stage we researched the feasibility of the vision to create a decentralized and transparent ad network. We worked closely with the WINGS Foundation and other advisors to arrive at the current concept and assemble a suitable team.
+Stage 2: Token Crowdsale June 2017 - July 2017
+This stage marks the deployment of the first AdEx smart contract and the announcement of ADX token. The ADX token will launch with the help of WINGS. There will be a crowdsale in which 80% of the ADX token will be offered and the rest will be distributed to the team, advisors, bounty program and WINGS DA. The crowdsale is necessary to fund the development of the prototype and the business development required to drive initial adoption.
+Stage 3 - Prototype July 2017 - February 2018
+The first AdEx prototype will be delivered as early as February 2018, and it will include a basic ad bidding system with a front-end for advertisers and a front-end for publishers, as well as an SDK for publishers. This prototype will focus on native advertising and display advertising. It will be completely open-source and independently audited.
+26
+
+Stage 4 - Adoption and Improvement February 2018 - January 2019
+This stage will include heavy business development. The software development will be driven by the market needs and feedback as we drive the adoption of the AdEx system. This stage will bring massive improvements to the user targeting and reporting. We also plan to enhance the user experience - most importantly, we will work towards making the integration of the publisher SDK as easy as possible. Additionally, we will bring other forms of advertising during this stage, such as video advertising.
+Stage 5 - AdEx V2 Starting January 2019
+AdEx V2 will be a technological re-vamp to focus on scalability, as AdEx is adopted by more and more publishers and advertisers. This stage involves bringing AdEx to other blockchains, for example RSK and aeternity.
+27
+
+Wings DAO
+AdEx has engaged WINGS Foundation, the developers behind the WINGS DAO, in order to efficiently price and promote the AdEx fundraising event to the maximum number of participants.
+The WINGS dapp which runs on Ethereum allows 1000s of members to review project conducting fundraising providing feedback as well as valuation via artificial intelligence powered by crowds of crypto-experts.
+WINGS will allow the AdEx team to better price the fundraiser to minimize the number of tokens for the capital we seek, while also engaging the social graph of the WINGS DAO crypto-experts to maximize potential project backers who can service as product champions and evangelists for AdEx to more quickly go to market.
+2% of the total tokens will go to the WINGS DAO to reward participants in the forecasting.
+Crowdsale
+The crowdsale will fund the initial development and adoption of the AdEx network.
+It will happen through E thereum smart contracts, with audited smart contracts & platform provided by WINGS.
+The crowdsale will start on June 30th and will end on July 30th or when the hard cap of 40,000 H is reached.
+You can participate in the crowdsale only with ETH currency. The address will be announced at https://tokens.adex.network a few days before the crowdsale.
+The token exchange rate will be 1 ETH = 900 ADX. There will be a 30% first day bonus (1ETH = 1170ADX) and a 15% (1ETH = 1035ADX) first week bonus (the first week bonus will be valid for 6 days starting on the second day of the crowdsale).
+Tokens will be immediately transferrable after the crowdsale.
+There will be a hard cap set to 40,000 ETH. If the hard cap is reached, the tokens become immediately transferrable.
+Because of the hard cap, not all of 80% allocated for the public will be sold. Please read T oken Allocation to learn more.
+28
+
+Budget allocation
+ Software Development: 45% of the budget will be allocated to the core AdEx development team, to fund creating the initial prototype and then necessary improvements to achieve significant adoption; this also includes costs for independent security audits
+ Business development: 20% o f the budget will be required for business development, in order to attract more publishers and advertisers and gain traction ; this will require attracting business development/adtech specialists
+ Marketing: 20% of the budget will go driving awareness to the AdEx project to raise awareness and attract a significant number of open-source contributors and build the community around the project
+ Legal and administration: 10% - most of which will be allocated for developing a solid legal framework for the AdEx network; a minor part of that will go to administration/accounting
+ Contingency: 5% - set aside for unforeseen costs
+29
+
+ADX token allocation
+The total amount of ADX token created initially will be 100,000,000  10% will go the AdEx Team and will be vested for 12 months with a 3 months cliff  6% will go the AdEx advisors and will be vested for 12 months with a 3 months cliff  2% will go to WINGS DAO - discovery, valuation, social promotion  2% will be set aside for a bounty program, such as bounties for translating the white paper  80% will be available for sale to the public*
+* - because of the hard cap, not all tokens will be sold in the initial crowdfunding event; The rest of the tokens will be kept in an AdEx Fund address and be vested for 24 months with a 6 month cliff, and used by the AdEx organization for allowing easy purchase of ADX within the AdEx dapps themselves, making the onboarding process easier for advertisers while AdEx is gaining popularity. This also allows for continued project funding.
+30
+
+Bounty program
+Please use our bounty portal, h ttps://bounty.adex.network to claim bounties related to Facebook, Twitter, Slack and other social channels.
+You can also see the bitcointalk thread for signature campaign and ANN thread bounties: https://bitcointalk.org/index.php?topic=1980387.60 In total, 2 000 000 tokens will be allocated for the bounty program
+ 150 000 ADX w ill be given to translators  200 000 ADX will be given for to the bitcointalk signature campaign  125 000 ADX will be given for the Facebook campaign  125 000 ADX will be given for the Twitter campaign  150 000 ADX will be given for joining Slack/Telegram  1 250 000 ADX will remain for additional rewards
+Adoption
+Besides AdEx's technological advantages, we need a clear go-to-market strategy in order to be able to efficiently establish AdEx as a big player on the market. Our strategy is based on the divide-and-conquer principles, where we're starting with very specific markets and niches, and taking them one by one until we reach significant volume to get to the next stage. Stage I: Video entertainment publishers, starting with Stremio Stage II: Blockchain/cryptocurrency news outlets, blogs as publishers, and startups in the blockchain space as advertisers Stage III: Native advertising with tech media blogs and websites Stage IV: Video, native and interstitials (media-heavy ads) on Android and iOS, attracting advertisers in the gaming space
+31
+
+Extended use cases
+Due to AdEx's versitile and modular architecture, it's possible to adapt it into many alternative "spin-off" use cases. One such example of using the AdEx core (exchange and registry smart contracts) to facilitate the business relationship between a publisher and an advertiser in the case of sponsored social media content, such as Tweets, Facebook posts, Facebook covers/avatars and etc. This will serve the purpose to automate this process and make it easier, while adding escrow, transparency and quick payment. Furthermore, the system could be configured, through external oracles based on bots, to track the performance of such sponsored social media.
+32
+
+References
+1. Lara O'Reilly, Business Insider. Ad blocker usage is up 30% -- and a popular method publishers use to thwart it isn't working
+2. Lucy Handley, CNBC. B usinesses could lose $16.4 billion to online advertising fraud in 2017: Report
+3. Rochelle Burbury, B&T Australia. G lobal Online Ad Spend To Surpass US $200 bn (& TV) In 2017: Zenith
+4. eMarketer. T otal Media Ad Spending Worldwide, by Region, 2014-2020 (billions and % change)
+5. George Slefo, AdAge. A d Fraud Will Cost $7.2 Billion in 2016, ANA Says, Up Nearly $1 Billion
+6. Zenith Media. A dvertising Expenditure Forecasts September 2016 7. The&Partnership, Adloox, mSIX. W hat happens next: How to reverse the rising tide
+of ad fraud 8. Shareen Pathak, Digiday UK. How blockchain might be useful in marketing and
+advertising 9. Upturn, Open Society Foundations. Data Brokers in an Open Society 10. Wikipedia. Ethereum 11. Wikipedia. I nterPlanetary File System 12. IOTA Token
+33
+
+

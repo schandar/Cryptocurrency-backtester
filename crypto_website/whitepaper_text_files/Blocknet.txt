@@ -1,0 +1,500 @@
+1 White Paper v 1.10
+Enjin® PTE LTD 26t h September, 2017
+FOR INFORMATIONAL PURPOSES ONLY
+Nothing in this paper constitutes an offer or solicitation to sell shares or securities in Enjin® PTE LTD or any related company.
+
+Introduction
+Enjin® is the largest gaming community creation platform online:  250,000 g aming c ommunities1 across thousands of games.  18.7 million registered g amers  Launched in 2009, b ased in Singapore  60M g lobal views per month2  Gaming focused Content Management System and Forum creator  Millions of USD per month in v irtual g oods sales across Enjin c ommunity s tores
+Enjin® is introducing Enjin Coin ("ENJ"), a new cryptocurrency (ERC-20 Token) and smart contract platform that gives game developers, content creators and gaming communities the required crypto-backed value and tools for implementing and managing virtual goods. The Enjin platform will have full support for these tokens in the next 6 months. Enjin will develop a powerful framework of open-source software development kits (SDKs), wallets, game plugins, virtual item management apps and a payment gateway platform.
+Join us in launching the m ost usable c ryptocurrency for gaming!
+1 E njin Internal Data as of June 2017: https://www.enjin. com/c ommunities 2 Q uantcast data for Enjin Network: https://www.quantcast. com/p-e2f9QTuI7ynec
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Table of Contents
+
+1. Purpose
+
+4
+
+Backed by Communities & Creators
+
+5
+
+Challenges
+
+6
+
+Solutions
+
+7
+
+2. Market Industry Growth
+
+8
+
+Global Gaming Market
+
+8
+
+Virtual Goods market
+
+9
+
+Mobile Game Market
+
+10
+
+3. Enjin Coin Adoption
+
+11
+
+4. Enjin Team
+
+12
+
+5. Platform Features
+
+15
+
+Technical Considerations
+
+15
+
+Tokens & Smart Contracts
+
+16
+
+Public API
+
+16
+
+Create & Manage Virtual Goods
+
+17
+
+Community Integration
+
+20
+
+Decentralized Payment Gateway
+
+21
+
+Easy Automatic Payments
+
+22
+
+The Enjin "Smart" Wallet
+
+23
+
+Virtual Goods Store
+
+25
+
+Subscriptions
+
+26
+
+Escrow for Virtual Items
+
+27
+
+Game Top Lists
+
+28
+
+Game Integration & SDKs
+
+29
+
+6. Token Crowdsale
+
+30
+
+Funding Allocation
+
+32
+
+7. Development Roadmap
+
+33
+
+8. Important Links & Support
+
+34
+
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+1. Purpose
+
+Virtual Goods on the Blockchain
+A decentralized platform to manage, distribute, and trade virtual goods. Giving gamers and content creators a new model of virtual ownership.
+The first easy to use gaming cryptocurrency
+Enjin Coin is the first cryptocurrency with an authentic purpose for online gamers. Earn and trade virtual goods in the most popular gaming community creation platform online.
+SDKs for the Game Industry
+Enjin Coin platform is made for the game industry. SDKs for multiple languages, wallets and payment platforms will be available and completely open-source.
+
+A new gaming experience
+with real ownership & value
+Online gamers can bring or trade their assets from game to game, community to community, growing their digital wallet with real value as they play.
+
+A solution to Fraud & High Fees
+For every legitimate virtual item purchase, 7.5 items are lost to fraud3,4. Enjin Coin minted tokens will create trust and security with minimal transaction fees.
+
+3 E marketer: The rising tide of in-app fraud https://www.emarketer.com/Article/Rising-Tide-of-In-App-Fraud/1012731 4 A psalar study virtual items fraud: h ttps://a psalar.com/2015/07/latest-apsalar- data- on-in-a pp-click-and-iap-f raud
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Backed by C ommunities & C reators
+Millions of engaged gamers
+Enjin's millions of highly engaged users socialize and work together to create unique communities, game content, and virtual economies. By providing the tools they need, Enjin empowers these creators to monetize their content.
+Game value & content creation
+Sandbox games, such as Minecraft, are the most popular games on Enjin. U sing Enjin Coin will promote a culture of passion, collaboration, and pride by giving players more control over their game content. Players that feel valued will keep coming back, and increase revenue and engagement for publishers and content makers.
+Enjin adopts Enjin Coin
+Enjin is uniquely positioned in the virtual goods market to promote and establish a cryptocurrency. We give gamers, communities and game creators high quality tools for monetizing their gaming world.
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Challenges
+Payment F raud
+It is estimated that for every legitimate virtual purchase made, there are 7.5 virtual items lost to fraud5,6. Assets stored and managed online can be open to manipulation or chargebacks. Merchants have to deal with extra burdens, and scammers damage the game's reputation.
+High Fees and Slow T ransactions
+Game publishers and c ommunities rely on third-party platforms to process v irtual goods transactions. Gamers encounter slowness, opaque fund flow, and high transaction fees7.
+Lack of True Ownership & Rarity
+Virtual items are, in-essence, licensed to the gamer and are often only available for use on their proprietary platforms. At times they can be manipulated, lost, or taken back with little recourse for the user. Genuine transparency is missing.
+Locked in and Centralized
+Digital items and currencies are usually locked to a single game and not transferable. Trading items outside of the game environment is cumbersome and difficult. If a player gets banned, they can lose all of their items and currency.
+No open standards
+There are currently no widely-accepted standards for decentralized currencies and assets in games. The user experience is often an afterthought, so users don't know what to expect.
+Expensive & time-consuming
+Developing a platform for managing virtual goods is time-consuming and costly. The complexity of managing a virtual economy on proprietary infrastructure delays time to market. Security concerns introduce a further set of difficulties.
+Lack of value gamification
+Value based gamification features are lacking in content management systems and forum software. Users do not get rewarded in real world value for participation or contribution.
+5 Emarketer: The rising tide of in-app fraud h ttps://www.emarketer.com/Article/Rising-Tide-of-In-App-Fraud/1012731
+6 A psalar study virtual items fraud: h ttps://a psalar.com/2015/07/latest-apsalar- data- on-in-a pp-click-and-iap-f raud 7 P aypal & Stripe: 2.9% + $0.30 per sale. VISA/MasterCard: 1.5%-3% of sales.
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Solutions
+Enjin will develop tools that enable game publishers, game servers, and communities to manage virtual goods and in-game items across multiple platforms. Monetization using Enjin Coin will be a key focus with robust features and toolsets provided. Great benefits will be gained by utilizing a decentralized platform and the supporting frameworks.
+Benefits for Communities
+ Gamify your website and mobile community with custom Enjin Coins  Increase user participation and contribution on forums and walls.  Automate rewards and setup a variety of condition based triggers.  Tie-in your community rewards with in-game goods on servers or games.
+Benefits for G ame Publishers / Content Creators
+ Create new tokens to represent virtual currencies, game items, or privileges.  Create and manage virtual goods programmatically or via an app.  Create time limited or subscription based virtual goods.  Mint non-fungible items or special edition items.  Setup a virtual goods store.  Run a decentralized payment gateway with no middle-man.  Transparent transactions. Setup reports and commission systems.  No fraud, chargebacks, or cancellations.  Minimal fees for blockchain transactions and no commission fees.  Open-source suite of APIs and SDKs for every popular platform and engine.  Smart wallets that facilitate easy automatic payments from users.  Easily setup a site and mobile community with full virtual goods integration.
+Benefits for G amers
+ Buy & sell items with no risk of fraud.  Trade between gaming items from different games using Bancor8 for liquidity  Take your currency with you across any community or game and retain value.  Own valuable currency and rare items that can never be taken away.  Use Enjin's marketplace and social network to find and trade game items.  Earn Enjin coins playing games.  Convert custom virtual goods directly back to Enjin Coins and retain value.  Earn coins by participating in communities and posting on forums.  Buy in-game items on thousands of game servers and games that support ENJ.  Prove ownership of items by showing them off in website widgets.
+8 E njin & Bancor: https://medium.com/@coinfork/bancor-enjin-partner-and-pre-sale-is-extended-7b6982442d08
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+2. Market Industry Growth
+Global G aming M arket
+The global gaming market is experiencing explosive growth, reaching US$108.9BN in 2017 and a projected US$128.5BN by 20209. Enjin PTE LTD is headquartered in Singapore, providing the perfect springboard to further target the Chinese, Japanese and Korean markets. 5 8% of the growth in 2016 came from Asia-Pacific countries. 4
+Global G ames market N ewzoo R eport Apr 2 0174
+Initial Target Audience
+Minecraft is one of the most popular video games in the world, with over 55 million monthly players10. Enjin is in a unique position because of our large existing Minecraft user-base. The Unity game engine has a combined 770 million users across all games, and 34% of top 1000 free mobile games are made with Unity11. This along with Unity's strong presence in Indie games is why Enjin Coin will be developing a Unity SDK early.
+9 h ttps://newzoo.com/insights/articles/the-global-games-market-will-reach-108-9-billion-in-2017-with-mobile-taking-42/
+10 http://ca.ign.com/articles/2017/02/27/minecraft-has-55-million-monthly-players-122-million-sales 11 Thirty-four percent of top games are made with Unity: h ttps://unity3d.com/public-relations
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Virtual Goods market
+It's estimated that, the overall value of the Global Social Gaming market by 2019, is to reach US$17.4BN. Virtual g oods, advertisements, and lead generation offers are the main revenue generation sources of the global s ocial gaming market. Among these, the v irtual goods segment is likely to expand the fastest at a compound annual growth rate of 15.20% over the forecast period.12 Where Virtual Goods are purchased
+Among the buyers, about a third are buying once a month and a quarter are buying once a week.
+Revenue from the different content types of virtual goods13
+12 S ocial G aming Market: h ttp://www.transparencymarketresearch.com/social-gaming-market.html 13 V G Models: h ttps://venturebeat.com/2009/12/10/free-to-play-virtual-goods-business-models-gaining-steam-in-games/
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Median Spent on Digital Goods by Content Type14
+
+Content T ype In-Game C urrency Subscription Codes Armor or Equipment Maps/Levels Weapons Virtual Gifts Power Ups
+
+From 1st Party Sites $50 $50 $30 $30 $25 $23 $20
+
+From 3rd Party Sites $45 $25 $20 $30 $20 $25 $20
+
+Mobile G ame Market
+With the recent release of the Enjin Mobile App15, featuring communities, forums, wall feeds, messaging, notification, rich content creation, and friends management, Enjin is growing rapidly in the mobile app sector.
+2.2 billion gamers across the globe are expected to generate US$108.9 billion in game revenues in 2017. Mobile is the most lucrative segment, claiming 42% of the market. In 2020, mobile gaming will represent just more than half of the total games market.16
+
+14 Revenue by Content type: By PlaySpan & VGMarket Digital Goods Spending Report: http://slideplayer.com/slide/1713883/
+15 E njin Mobile App
+Android: https://play.google.com/store/apps/details?id=com.enjin.mobile&hl=en IOS: https://itunes.apple.com/us/app/enjin-community-for-gamers/id1103331595?mt=8
+16 M obile game Market: h ttps://newzoo.com/insights
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+3. E njin C oin Adoption
+Coins to C ommunity Owners
+6 months following the Enjin Coin crowdsale and the deployment of the wallet and core ENJ features, coins will slowly be released to approximately 30,000 verified gaming communities on Enjin. The amount of coins each community receives will be calculated based on their previous store volume sales, member count, audience visits and various website activity metrics.17
+Adoption Bounty Program
+An Early Adoption Bounty program will be put in place for any game, server, or community that begins utilization of the ENJ coin with a verified history of monetizing game content. We anticipate huge demand in Enjin Coins as we roll our Enjin CMS integration features out to communities.
+Sponsorships & P artners
+Enjin will be partnering with game developers and popular game servers of 20,000 players or higher to distribute Enjin Coins as part of bundles, in-game tournament prizes or subscription bonuses.
+17 B ased on Enjin Internal community data and analytics. Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+4. Enjin Team
+Enjin's team has proven capabilities and experience in software engineering, marketing, blockchain technologies, and business operations. We have a solid reputation in the industry, and a long work history together.
+Maxim Blagov
+CEO / Creative Director
+Co-founder of Enjin. Visionary and creative director with 15 years of expertise in creative direction, project management, and UX design. Expert in concept & strategy development for large interactive applications, specializing in the video gaming industry.
+Witek R adomski
+CTO
+Co-founder of Enjin. Witek has overseen the technical engineering of Enjin for nearly a decade. He champions best-practices in software design, security and testing. Leading the Enjin Coin currency implementation and integration within the online gaming ecosystem.
+Josh W  oelfel
+Full Stack Engineer
+Josh is a perfectionist and a team leader with extensive experience in full stack development. Specializing in REACT, PHP & JavaScript, he has developed numerous full scale applications being used by millions of users on Enjin today. Pioneered the transition to REACT across the platform.
+Vyacheslav Volkov
+C# / Objective-C Engineer
+Technical Lead in C#, Objective-C and Java. Vyacheslav directs the development of the Enjin Android and iOS app. Proven ability to create complex, and versatile enterprise level applications with optimal design and architecture.
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Lilia Pritchard
+Marketing / Operations
+10 years of marketing experience, well versed in establishing partnerships with industry-leading game publishers, and on the ground social media and community interactions spanning millions of users. Possesses valuable insights into strategic trends, and a strong ability to execute campaigns.
+Brad Bayliss
+Security Analyst / Full Stack Engineer
+Over 10 years of programming, security research, quality assurance and network management. Brad is dedicated towards ensuring a safe and secure network infrastructure for the millions of users and sites on the Enjin platform.
+Evan Lindsay
+Java / Game Server Engineer
+Java programmer and lead developer of the Enjin Minecraft plugin, used by over 100k game servers. Over five years of experience working with game and network server implementations. Specialized in game programming and core Java technologies.
+Chris H irasawa
+Quality Assurance / Community Manager
+Over 7 years of experience in the gaming industry, Chris is responsible for driving the software development process toward quality-centric methodologies. Lead in technical support and bridging communication between management and community.
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Advisors
+
+Pat LaBine
+Gaming Technical Advisor
+Pat Labine brings over 17 years of engineering and gaming production experience to the team. Twelve years at critically acclaimed RPG maker B ioWare working on the Jade Empire, Mass Effect, Dragon Age, and New IP franchises as Gameplay Programmer, Technical Director, and Producer / Project Director.
+Robin Hanson
+Advisor on Social Science and Economics
+Robin Hanson is an associate professor of economics at George Mason University and a research associate at Oxford's Future of Humanity Institute. He invented the market scoring rules behind the hugely successful Gnosis and A ugur tokens. Expert on idea futures and markets, and he was involved in the creation of the Foresight Institute's Foresight Exchange and FutureMAP project.
+Ryan Lackey
+Security Advisor
+A renowned security expert, Ryan is a security advisor for Tezos and the founder of multiple security startups including HavenCo, CryptoSeal, and ResetSecurity. He's fascinated by how security technology can enhance individual liberty for people around the world.
+Daniel He
+Business Development / Economics Advisor
+Over 10 yrs of experience in business development and management consulting, Co-founder of The Lo&behold Group, Former consultant for Monitor Group Asia and practicing Physician in Singapore.
+Frederick H eartline
+Advisor
+Original 90's cyberpunk and raver. Cryptocurrency Evangelist, Co-founder of Decentral Vancouver, co-creator and co-host of Salontalks and #Blocktalk. Longtime GPU miner. BTC, ETH and tech lover. Currently spreading the gospel in (and from) Hanoi, Vietnam.
+
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+5. P latform Features
+Technical Considerations
+Today's gamers and website users demand fast and snappy user interfaces.
+The Ethereum network is currently limited in throughput because it has an average block time of 17 seconds (potentially up to 30 seconds). F uture updates to Ethereum aim to improve block times to 3 seconds18 (Casper) and allow transfers within milliseconds19 (Raiden). Both of these updates are planned for late 2017 to early 2018.
+As the standard block times may impose some delays, we will achieve a modern responsive experience by using off-chain notifications. Trusted Platforms will send an instant notification to the user's Smart Wallet for each Transaction Request. When the transaction is accepted by the user and created on the blockchain, the wallet will call the Trusted Platform API with the transaction to watch. The game or website can then be updated immediately with a placeholder item or non-tradeable version of the asset until enough confirmations are reached to allow full ownership of the item. In the case of in-game currencies, the user's balance would immediately update in the game but any unconfirmed portions would be locked from spending until the appropriate number of confirmations are reached on the blockchain.
+The Enjin Coin SDK will display confirmed and unconfirmed balances when listing ENJ and custom assets, to make implementation easy and clear.
+After Raiden and Casper updates are deployed on the Ethereum Network, these safeguard measures will eventually become imperceptible.
+Enjin will be testing the Raiden Network for lightning-fast asset confirmation speeds as soon as the Developer and minimum viable product (MVP) releases are completed, later this year20 .
+18 E thereum CASPER Early Benchmarks https://twitter.com/vitalikbuterin/status/760185856057638913?lang=en 19 R aiden Network http://raiden.network/ 20 R aiden Network Milestones https://github.com/raiden-network/raiden/milestones
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Tokens & S mart C ontracts
+We will deploy Enjin Coin and virtual assets as ERC20 tokens21 on the Ethereum network. Ethereum is the most popular and widely supported smart contract blockchain, with a huge development community and robust language support. We believe it has a strong future in game development and in creating the new decentralized internet. A collection of smart contracts will provide core functionality on the blockchain: the Mint, Payment Gateway Contract, Smart Wallet Contract, Subscription Contract, Custom Coin Registry, and TopList Contracts.
+Public API
+Enjin will h ost a public P latform API using the JSON-RPC protocol with methods for checking account balances and accessing each of the above smart contracts. This will allow websites to display data to internet users without requiring a web3 wallet extension installed in the web browser.
+21 E RC Token standard #20 h ttps://github.com/ethereum/EIPs/issues/20 Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Create & M anage Virtual Goods
+Games and communities can mint unique in-game items, currencies, and privilege tokens using Enjin Coins as the parent currency. These assets can be converted back into Enjin Coins by anyone holding them, at the original exchange rate which they were minted.
+Minting Custom Coins
+Web, Mobile App and API-based user interfaces to the Mint smart contract will be developed to make asset creation and management a simple process. The following parameters define a new custom asset:
+ Name  Icon  Maximum Supply  Decimal Places  Exchange R ate  Access List  Data Once created, a Mint smart contract will be cloned and registered in the singleton Registry smart contract, which will allow custom assets to be recognized by all Smart Wallets. The custom asset may now be minted by anyone in the Access List by sending Enjin Coins to the new Mint smart contract. The Name, Icon and Access List properties may be updated at any time by the Mint contract owner.
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Exchanging Coins
+The Mint contract stores all ENJ coins used to mint each unit of a Custom Coin. Enjin wallets provide an interface to e xchange Custom Coins back to Enjin Coins that are contained in the Mint contract. This provides liquidity and the option of backing custom assets with a known ENJ value. Economically, any custom assets created with ENJ will decrease the number of ENJ in circulation, preserving and increasing the value of the ENJ ecosystem over the long term. Custom Coins that gain their own intrinsic value inside the gaming ecosystem will be held and traded further by the community, while others could be traded back to regain their original Enjin Coin value - giving all users easy liquidity.
+Custom Coins as game items
+The same mechanism for minting Custom Coins may be used to represent unique game items. In this scenario, Enjin coins would be used to mint one or more Custom Coins representing a game item that has value tied to it.
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Unique Items
+Non-fungible items may be issued at the time of minting by including unique data such as the original player who owns the item, the date it was minted, the boss monster it was looted from, or other irreproducible data infused into that specific unit.
+Item Trading Economies
+Using decentralized assets allows gamers to trade with each other o utside of the game environment, and even trade and establish value across multiple different games. Custom Coins will be compatible with any external exchange that supports Ethereum Tokens. Additionally, Enjin will be developing a marketplace, wish-lists, and auction features, directly inside of the Enjin social network and Activity Feed system to facilitate P2P trading.
+The power of Custom Coins as privilege tokens
+Custom Coins will be added to the existing access controls used across the Enjin CMS and can be used as a powerful method of delegating power. For example, a website owner may sell a limited number of "Ad" tokens that allow uploading an ad to the news page or message board. In a game, a custom "Chest Key" token could be required to open chests containing rare items.
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Community Integration
+Enjin Coin features will be i ntegrated across the entire Enjin CMS platform and natively supported by over 250,000 existing gaming websites.
+Going past the Enjin CMS, E njin will develop phpBB, vBulletin, Xenforo and other forum and CMS integrations as part of the open-source Platform API that will allow even more internet communities to easily adopt Enjin Coins into their websites and games.
+Open-source PHP and NodeJS SDKs will give web developers easy access to all Enjin Coin features and functionality for custom website and API integrations.
+Reward Automations
+The existing automation system on the Enjin CMS Platform can reward coins to user accounts based on powerful combinations of conditions and triggers. Various reward system can be setup for user participation on the forum and other website activities.
+Forum Boards
+The Enjin CMS includes an incredibly feature-rich forum system, currently powering everything from small teams to giant communities with over a million users participating on their message boards. Forum votes and points will be extended with the ability to display Custom Coins. Tipping will be added to the Forums so that coins can be tipped to users with a few simple clicks (and this action would be displayed on the thread).
+Donations & Group Pay
+Many websites accept donations instead of using a store - especially smaller eSports clans or guilds made up of friends. Enjin Coins will now be a payment option in the Donation module and Stretch Goals.
+Promotion & Advertising on the Enjin Platform
+Enjin's extremely popular wall system will be upgraded with a Post Promotion system which accepts Enjin Coins as the payment method. Promoted Wall Posts can be targeted to specific games and interests within the audience of 18 million engaged gamers.
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Decentralized Payment Gateway
+The Platform SDK makes creating a complex decentralized payment gateway a breeze. It is designed to allow for unique new payment structures which can reduce accounting work and increase trust between merchants and customers.
+Build your own customized Gateway
+All backend functionality necessary to build a PayPal-like gateway will be included in the Platform SDK. As a provider, you can implement your own desired features, such as carts, web invoices, email/SMS notifications, refunds and more by building on the open-source code and examples provided in the SDK.
+Payment Widget
+Part of the JavaScript SDK release, the payment widget will allow websites to easily accept payments in Enjin Coins and Custom Coins on any website. The widget may be connected to any Payment Gateways built on the SDK.
+Plugins will be available for major open-source and commercial carts such as Magento, Drupal, Shopify, Volusion, Zen Cart and others.
+Native Support for Custom Coins
+The Gateway smart contract can be configured to accept all ENJ-based coins or a list of specific token types. The JavaScript payment widget and shop plugins will identify and display all supported custom coins, along with logos and associated metadata.
+No Built-In Fees
+Other than very small Ethereum transaction fees, complete payment gateways can be created and no built-in fees or costs are imposed.
+Multiple Payees
+An exciting new feature of the payment gateway platform is multiple payees. Incoming funds can be contractually divided up between more than one account. Payees may pull their allocated funds from the Gateway smart contract. Consider these potential use cases: Profit Sharing, provider Fees, charity or Prize fund.
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Easy Automatic Payments
+Using a novel Smart Wallet transaction mechanism, we can allow faster, easy to use automatic payments on the Ethereum network, while maintaining the high level of security that the blockchain allows. The user will approve games and websites as being Trusted Platforms that can initiate a transaction request. The user's wallet (mobile or PC) will prompt for confirmation whenever a transfer of funds or a new subscription is requested.
+In-game purchase scenario
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+The Enjin "Smart" Wallet
+
+A key component in making everything easy to use is the Enjin Wallet. Building on existing light wallet design, the Enjin Wallet streamlines the user experience further by integrating with games and websites that the user trusts. User accounts on each trusted platform will be synced to the user's Ethereum address.
+
+We call this a "smart" wallet because of multiple pieces of functionality that work together to simplify the user experience:
+
+ The Platform API is used to correlate verified gaming and website accounts.
+ Transaction Requests are sent from trusted platforms directly to the wallet.
+ Subscriptions are confirmed and managed by each local wallet.
+ Transaction limits and thresholds enforced by the wallet's smart contract.
+ Smart Contracts are used in the background for data & displayed in a clean UI.
+ Local rules can be set up for accepting and automating Transaction Requests. management
+
+U I Concept: User transaction
+
+Trusted Platforms
+The user can define a list of trusted APIs in the wallet settings, ranging from the Enjin API itself, to trusted game publishers, to any third party running the Platform API. The wallet is able to receive push notifications, receive transaction requests and sync user accounts from each trusted platform.
+
+A user can send ENJ coins to another user on a trusted platform by looking up their username and the wallet will find matching contacts and their associated account address.
+
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Transaction Requests
+Instead of forcing users to copy and paste account addresses or receive risky web-injected transaction commands, each trusted platform will send a Transaction Request to the wallet.
+The user will be prompted with some useful information about the transaction and can Accept or Deny it with a single click. This creates a c lean and seamless user experience and prevents the confusion and uncertainty typically associated with blockchain wallets.
+Rules & Thresholds
+Rules and thresholds can be defined to prevent undesired transactions. If a piece of game logic creates transactions that exceed the thresholds, the wallet will display the pending queue of transaction requests, and prompt the owner for confirmation. Rules can be defined very narrowly, such as "Allow sending a single 20 Enjin Coin reward once daily."
+Changing any of these settings will require a 24 hour safety delay and alert the user of a pending setting update.
+Mobile Wallet
+The Enjin Wallet will also exist as a Mobile (iOS/Android) application and implement the same features mentioned above. Many users will prefer to accept transactions on their phone while playing a game on their PC. The mobile wallet can be set-up quickly by scanning a QR code that contains settings.
+The mobile app will receive Push notifications from Enjin and any trusted platforms. If a transaction request is pushed, the mobile wallet will verify funds exist and ask the user to Accept or Deny the coin transaction. This will allow players in-game to easily send coin transactions by using their phone as the authentication device.
+UI Concept: Wallet with ENJ and custom in-game items and currencies.
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Virtual Goods Store
+Create a Store in minutes Game assets can be represented with Custom Coins, and the process of c reating a shop for in-game items or privileges is already straightforward with Enjin: Websites hosted on Enjin Platform can associate a specific wallet containing ENJ and Custom Coins to the website account. This would link any sellable assets to the Enjin Store module admin panel and these could be listed for sale in-game and on the website priced in Enjin Coins, Custom Coins, Bitcoin, Litecoin, Ethereum or Fiat currency. DonationCraft DonationCraft is a powerful shopping cart and ecommerce system used by tens of thousands of Enjin communities daily and currently processing millions of dollars per month in virtual item purchases and subscriptions. It supports a powerful API, in-game purchases, validates game characters and allows for website automation using triggers and purchase conditions.
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Subscriptions
+The Enjin Wallet opens up an exciting, unprecedented new feature for cryptocurrencies: the ability to c reate real subscription services. Server owners and community owners will be able to provide time-based services like power-ups, ranks, or unlock website content for subscribed users. Subscriptions involve 3 parties:
+Merchant An account with permissions to withdraw from the Subscription Smart Contract. Subscriber The customer with an Enjin Smart Wallet installed and a balance of Enjin Coins. Trusted Platform The API that creates subscription terms between the Merchant and Subscriber, and pushes this as a Subscription Request to the Subscriber's wallet.
+A Subscription Request containing metadata about the subscription is sent to the Smart Wallet to be accepted. This will initiate a smart contract relationship between the Subscriber and Merchant. The Smart Wallet will automatically send funds to the smart contract at regular intervals, and the Merchant will only be permitted to withdraw funds which have been accounted for, based on elapsed time. The Subscriber may choose to cancel anytime to be refunded for the remainder of the subscription interval.
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Escrow for Virtual Items & Trading Platform
+An escrow system using smart contracts allows multiple parties to trade any number of game items and currencies safely. Party A will initiate the contract:
+ Token(s) offered  One or more sets of token types accepted in trade Party B can now check the contract and send any one of the accepted sets of tokens. The first matching set of tokens will release the offered items to Party B.
+This can be used for simple player-to-player trades, aided by the Smart Wallet in-game to identify the correct item types and accept the trade with a tap or click. It can also be used for an on-chain digital goods marketplace. Party A may accept various types of tokens, for example:
+ 100 Enjin Coins  or.. 1 Sword  or.. 1 Helmet + 1 Breastplate + 2 Gloves + 2 Boots The first buyer sending any of the accepted item sets will complete the escrow transaction.
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Game Top Lists
+TopLists allow people to r ank games, servers, teams, or any other item. This is very popular with game servers that solicit player votes or pay toplist websites to be ranked higher. The TopList format is being implemented as a decentralized smart contract with rules that enable market bidding or democratic voting. The public nature of the blockchain can reduce unfair corruption or manipulation of TopLists. The creator of the list receives all coins spent to add items or vote. This incentivizes list creators to promote and market their list to their audiences.
+A list can be configured with a cost to add items and a cost per vote. These may be priced in ENJ or a specific Custom Coin type. The settings available to TopLists allow a range of ranking schemes, from simple Democratic votes (one vote per identity), to Plutocratic votes (wealthiest voters ruling), to somewhere in between. Democratic lists may be created using a limited set of custom coins that are automatically sent to each long-term member of a community. This kind of distribution is already possible using Automations in the Enjin CMS, as an example.
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Game Integration & SDKs
+Open-Source SDKs
+ Java  C#  C++  iOS Swift  Android C#
+For the web, PHP and NodeJS SDKs will enable the creation of custom APIs and web services used by games and websites.
+Unity Plugin
+Unity is a popular cross-platform game engine used by over a million developers. The Unity C# SDK will allow creation of transaction requests, reading account balances, creation of subscriptions, and querying t oplists.
+Minecraft Plugin
+The Enjin Minecraft Plugin will include an Ethereum light client and communicate with the Enjin API. New features will be added that allow servers to initiate transaction requests for both the server and for players themselves. Spigot, Sponge, and Forge servers will be supported since these are the most popular plugin platforms for Minecraft on the PC.
+Unturned Plugin
+We are developing a plugin to support Unturned, a popular multiplayer survival game with a rich third-party plugin framework. Permissions and items will be linked to Enjin Coin assets, and most features from the Enjin Minecraft Plugin will be ported for Unturned.
+Unreal Development Kit 4
+UDK4 is a powerful game engine used in many high-budget games as well as indie titles. A C++ library will be developed with similar features to the Unity SDK above.
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+6. Token Crowdsale
+Allocation Only 1 billion ENJ tokens will ever be created. The ENJ tokens are intended to be allocated as follows: 40% (400,000,000) to be sold by Enjin to pre sale purchasers pursuant to a Simple Agreement for Future Tokens ("SAFT") offering or through Enjin Approved Affiliates. 40% (400,000,000) to be sold by Enjin to Crowdsale purchasers minus any bonuses applied in the pre-sale. The Enjin Coin pre-sale sold out in September 2017, and there are approximately 300,000,000 remaining tokens available for the public sale. 10% (100,000,000) reserved by the Company to incentivize community, beta testers, marketing and strategic partners. 10% ( 100,000,000) to be distributed by the Company to the Enjin Coin Team and Advisors.
+Unsold Tokens & Team Vesting  Any unsold tokens in presale go into public sale.  Team tokens are locked for the first 6 months, and will be vested over a period of 24 months total. Team members will be transferred 25% of their tokens after 6 months, and then 12.5% every 3 months afterward. The team list may be updated during the 24 month vesting period.  Advisor tokens are locked for 2 months and distributed fully.  Any unsold tokens from crowdsale are locked for 6 months and will go into the Marketing and Partnership pool.
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+Presale  Presale ended September 15th and presale hard-cap was reached.  USD $12,000,000 raised during presale (38,800 ETH)  40% of ENJ tokens sold (400M)
+Public Crowdsale ENJ Tokens are intended to be sold at the following rates:
+
+1 ETH
+
+Week 1 6,000 ENJ
+
+Week 2 5,000 ENJ
+
+Week 3 4,000 ENJ
+
+Week 4 3,000 ENJ
+
+Crowdsale Start and End Date The crowdsale will begin at 5 a.m. PDT October 3rd, 2017 (the "Launch Date") and end at 11:59 p.m. PDT on October 31st, 2017 or when sold out. Check the official website: enjincoin.io for further information.
+How can I participate? Detailed instructions along with the contribution address will be posted on the official website: e njincoin.io
+How are funds secured? All funds collected during the crowdsale will be deposited in a secure multi-sig wallet. Keys will be held by Executive Directors of Enjin Pte. Ltd. making it so that all outgoing transactions have to be verified by multiple parties. The crowdsale smart contract code on Enjin's GitHub will be public and available for audit by anyone.
+ ETH exchange rates are subject to change without notice prior to the start of the public crowdsale. Once the public crowdsale starts the exchange rate will be locked.
+ The prices for the presale are not subject to change and will remain the same and have no effect on the public crowdsale.
+
+Funding Allocation
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+All funds contributed in the Crowdsale will be used s olely for the development, promotion, and growth of Enjin Coin Platform. Below is the preliminary allocation and the distribution and may be subject to change.
+
+5 0% Development This refers to the development and operational costs of all technology described in this whitepaper, including smart contracts, wallets, SDKs, APIs, game plugins, third party plugins, and any other Enjin Coin-related updates. This will also cover hiring additional full-time developers and consultants to accelerate development so that we meet or exceed the roadmap goals and expansion goals.
+
+30% Marketing & Growth The marketing budget allows for a constant and relentless promotion of Enjin Coin to gamers in multiple target countries and gaming segments. This will be used for video and in-game advertising, promotional events & tournaments, sponsorships, mobile & social media ads, and liasoning with studios.
+
+5% Security We are taking the necessary steps to ensure that optimal security standards are followed in every release. This includes professional code audits and penetration testing on all APIs, smart contracts, Mobile and PC wallets, plugins and SDKs.
+
+5% Legal Enjin will obtain the appropriate legal advice to always ensure that we operate in accordance with the laws and regulations of each jurisdiction that we do business in. Funds will be held in reserve for any future issues or challenges that may arise in any region.
+
+5% Hosting & Infrastructure This will cover a minimum of 5 years of increased costs required for expansion of the web servers, firewalls, load balancers, DDOS protection and network for anticipated increases in Traffic to the web platform and public JSON-RPC API.
+
+5% Contingency This amount will be set aside for unforeseen costs.
+
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+7. Development Roadmap
+
+We are absolutely dedicated to meet our development goals ahead of schedule and provide the ultimate framework and feature support for Enjin Coin.
+
+Oct 2017 E njin Coin Crowdsale
+
+
+
+Q4 2017
+
+Core Smart Contracts Platform API Mobile Smart Wallet (Core features) Minecraft Plugin Java SDK
+
+Q1 2018
+
+C# SDK Unity SDK Unturned Plugin Mobile Smart Wallet Updates PC Smart Wallet Enjin Store Modules Enjin Automations Enjin Forum Integration Token Manager
+
+Q2 2018
+
+Unreal Development Kit iOS Swift SDK Android SDK Virtual Item Trading System PHP SDK
+
+Q3 2018 Enjin Mobile App
+Payment Gateway Contract Payment Gateway Framework
+
+Q4 2018 Subscriptions
+TopList Contract & UI Enjin Coin Community App
+
+enjincoin.io
+
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+8. Important Links & Support
+Enjin Coin Website: https://enjincoin.io Enjin Website: https://enjin.com Blog: https://blog.enjincoin.io/ Twitter: h ttps://twitter.com/enjin Telegram: https://t.me/enjin_coin Bitcointalk: h ttps://bitcointalk.org/index.php?topic=2042871.0 Reddit: h ttps://www.reddit.com/r/enjincoin Facebook: https://facebook.com/enjinsocial GitHub: h ttps://github.com/enjin
+Whitepaper v1.10 h ttps://enjincoin.io for latest version. ©2017, Enjin® PTE LTD
+
+

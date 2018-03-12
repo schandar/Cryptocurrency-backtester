@@ -1,0 +1,755 @@
+Blockchain for Airline Passengers Safety
+Blockchain for Aviation Safety
+
+Aeron -- the new standard of aviation safety powered by blockchain
+v 1.07 Oct 17, 2017
+
+We are aviation professionals. For 11 years
+we pilot aircrafts, develop flight crew training programs and aeronautical databases. Our newest blockchain based innovation is creating the future of aviation safety. Why?
+-- Because passengers' lives is our first priority.
+
+Nadezda Barkanova CTO
+
+Konstantin Gertman CDO
+
+Konstantin is a certified pilot and passionate aviation enthusiast. Co-founder of aerotrips.com -- aviation portal for pilots and flight schools.
+Nadezhda is a pilot and an aircraft operation and air traffic management engineer with over 11 years of experience.
+
+3
+
+Table of Contents
+
+Aviation market
+
+6
+
+The Future of Aviation
+
+8
+
+Problems & Solutions
+
+9
+
+Advantages of blockchain
+
+11
+
+How it works
+
+12
+
+Pilot Application
+
+13
+
+Company Application
+
+14
+
+aerotrips. com
+
+15
+
+Logs under control
+
+16
+
+Aeron Features
+
+19
+
+Aeron Benchmarking
+
+20
+
+Token Functions & Benefits
+
+21
+
+Why we do Token Sale?
+
+21
+
+Token Functionality
+
+22
+
+Token Sale Process
+
+26
+
+Aviation on Blockchain
+
+27
+
+Budget allocation
+
+28
+
+Roadmap
+
+29
+
+4
+
+Our Clients
+
+31
+
+Canvas business model
+
+32
+
+Team
+
+33
+
+Advisory Board
+
+36
+
+Communities
+
+39
+
+Conclusion
+
+40
+
+Terms and Conditions
+
+41
+
+5
+
+104,171,935 passengers passed through the Hartsfield­Jackson International Airport in 2016
+Aviation market
+-- Today more than ever, despite financial uncertainty, young people are saving up to travel around the world.
+With modern technology evolving everyday, we take a lot of things for granted. We often forget how convenient travel is today. Aviation plays a bigger role in our lives than one might imagine. Think about this: nearly 63 million jobs are provided by air travel, making aviation a key component in global business. Aside from the economy factor, today more than ever people are willing to invest their savings into traveling as opposed to spend money shopping or going out locally. Young people in their 20"s and 30"s see travel as the best investment of their money, in exchange for cultural experiences. According to the United Nations, young people generate $180 billion annually in tourism revenue. What's surprising is that today more than ever people are willing to travel despite any economic uncertainty. Reason being, tourists want to see and explore as many different cultures as they can, something they can't do from the comfort of their own home.
+6
+
+Tourism is quickly becoming the world's largest industry and air transport plays a vital role in supporting this sector. Conservative analysis suggests
+that aviation supports $892.4 billion in economic activity within the tourism
+industry.
+
+World fleet to double in size over the next 20 years
+
+2017
+21,600 fleet
+
+2037
+43,560 fleet
+
+40,630
+
+19,880 1,720
+
+2,930
+
+Passenger fleet Freighter fleet
+
+Boeing aviation market outlook
+
+3.57 billion passengers
+3.57 billion passengers were carried by airlines in 2017
+99.1 million jobs
+By 2037, it is expected that aviation will support 99.1 million jobs worldwide
+The average occupancy of an aircraft is 80% higher than other modes of transport
+7
+
+104,000 flights
+Every day, 104,000 flights take off and 9.8 million passengers travel
+5,500 flights using alternative fuel
+Over 5,500 flights using sustainable alternative fuel are expected to be made by the end of 2018
+The Middle East is forecasted to be the fastest growing region for air traffic in the next 20 years, followed by Africa, Asia-Pacific and Latin America.
+
+Uber plans to test flying cars by 2020
+
+The Future of Aviation
+
+Going even further, aviation has developed much further than we ever thought it could. Private space travel is already today's reality. In 2001, Dennis
+
+Tito got to experience travelling to space, and as he would recall ten years
+
+later, it was the happiest day of his life. With constantly evolving technology
+
+space travel will become more accessible soon enough. Richard Branson launched Virgin Galactic in 2004. The company offers suborbital space flights
+
+to tourists, as well as suborbital launches for science missions. Another
+
+breakthrough in space technology was developed by Elon Musk. SpaceX,
+
+founded in 2002, became the first provider to be able
+
+to launch and recover a spacecraft from orbit. We
+
+can only expect that space tourism will become the
+
+next most wanted attraction in no time. According to Wired, Uber's flying cars could arrive in Dubai
+
+and Texas by 2020. More importantly, Uber has
+
+signed deals with five companies that are developing
+
+electric vertical takeoff and landing aircraft:
+
+Pentagon-backed Aurora Flight Sciences, electric
+
+plane maker Pipistrel, Bell Helicopter, Embraer, and
+
+small plane maker Mooney.
+
+8
+
+Successful landing
+
+of Falcon 9 in 2017
+
+Problems & Solutions
+Despite the fact that we came so far in exploring space, there are still issues to be dealt with in air travel. With over 100,000 flights made daily, serving over 2 million people, safety is still a major concern.
+Accidents related to air transport average to about 3302 yearly, mainly due to human factor
+We looked at several common problems. The key problems are that pilots may lack experience they claim, as flight log records can be easily forged. This problem is worsened by "pay to fly" practices, offered to pilots who would not have been hired otherwise. Flight schools may be corrupt to help pilots put in hours on paper. Aircraft operators also contribute to the problem by often underreporting the flight hours, saving huge maintenance costs for the aircraft. With quickly developing technology, aside from human factors, we also face database intrusion, resulting in modification or distortion of data.
+With so many systems in play--airlines alone house data in many isolated systems from passenger service to crew management--data exchange is not always smooth. In the airline industry, not only are operational integrity and revenue generation at stake when something goes wrong, but even more importantly, so is safety and security.
+Protecting data privacy is a clear issue when it comes to passenger records, flight manifests and crew information. Not to mention the security implications that are in play today if this data is not properly protected. Blockchain technology with a security wrapper creates a very different and less risky, yet transparent approach to managing and sharing this information through the use of authorized access requirements.
+9
+
+Completely new level of security, established by blockchain
+Blockchain technology can transform pilot and aircraft maintenance logs, which at best are in cumbersome databases and, at worst, are in paper binders. The blockchain will ensure that spare parts procured are legitimate and can offer a "virtual copy" immutable record of the provenance of every part on the plane, every time it has been handled and by whom, from the beginning of the aircraft's existence. This visibility is profound, and can take the practice of aircraft maintenance, safety and security to new levels.
+internationalairportreview.com
+"Blockchain will revolutionise the aviation and airport industry."
+accenture.com
+"Blockchain technology can create new efficiencies and services models for airlines."
+cryptocoinsnews.com
+"Blockchain technology can improve the airline industry"
+10
+
+Advantages of blockchain
+A solid, distributed, inviolable and cryptographically secure database.
+The chain of blocks stores the encrypted code of the documents, and once saved, the data is recorded forever.
+The perfect place to store property rights, credentials, identities (of objects or people), agreements between parties, transmissions and transactions.
+No one can falsify, bribe or hack the data inscribed in the blocks of blockchain. Transaction hisory is transparent to all users.
+Blockchain supports Smart Contracts, which is a computer protocol that facilitates, verifies, enforces agreements and execution of a contract in an automatic and transparent way.
+is the new standard of aviation safety
+Falsification of data would be no longer a concern with the development of blockchain. Advantages of the blockchain system are that information is safely stored and completely transparent to all the users. It is secured by a multi-sig authentication system, preventing any alteration of vital data. Our aim is to create "airline in a pocket" -- a smart blockchain based solution. The way it works is simple. The pilot's application is used by a pilot for personal flight logging. The company application collects and verifies data from aircraft operators, maintenance organizations, flight schools and fixed base operators. In case of any mismatch in data between any Aeron data source with either the Air Traffic Control, pilot, or operator, aviation authorities can quickly detect and eliminate the problem. Aviation authorities can also detect any pilots operating with an expired license. As a consumer, or flight school student, you have access to the verified global database through aerotrips.com. Blockchain can really make a difference. Air travel is for everyone, and it is beneficial for every single person to get involved in making trips safer.
+11
+
+How it works
+In case of any mismatch in data between any Aeron data source with either the ATC, pilot, or operator, aviation authorities can quickly detect and eliminate the problem. Aviation authorities can also detect any pilots operating with an expired license.
+Blockchain Trusted Data Repository
+
+12
+
+ATC -- Air Traffic Control
+
+New flight entry in Pilot App
+
+Pilot Application
+Use case
+1. Pilot opens the mobile application (iOS or Android)
+2. Pilot selects "new flight"
+3. Pilot select the Aircraft, enters FROM and TO airfield codes and OUT time
+4. Application tracks location during flight and records the flight track
+5. Once the flight is completed, IN time is recorded 6. Pilot is offered choices of FBO1 services at his
+destination airfield, featured or discounted services are highlighted
+7. Pilot has a choice to purchase certain services from his application
+8. Once the flight is submitted to blockchain, its status can be viewed, whether validated against AC operator2 log (for the same Aircraft) and ATC3 data (once the automated ATC data processing with Data Hub is set up)
+9. Historical records are available to the pilot for review, analysis and statistic summaries
+FBO1 -- Fixed Base Operator, AC 2-- Aircraft, ATC3-- Air Traffic Control
+
+Value to the Pilot: convenient logging application, compliance and transparency for aviation authorities, improved public trust in pilot experience, discounted FBO services and ability to pay with cryptocurrency, as well as an aerotrips.com club membership
+13
+
+Company Application
+
+Use case
+
+1. Company employee opens the mobile application (iOS or Android)
+2. User receives data about completed flight from server (tracked by Pilot App)
+
+3. User adds information about oil, refueling, and remarks on the technical condition of the Aircraft
+
+4. User can assign a task to a technical specialist or maintenance organization for AC1 service
+
+5. User can manage Aircraft bookings through the application
+
+7. User can add other company services, which pilots can order through the application
+8. Once the flight is submitted to blockchain, it's status can be viewed, whether validated against Pilot log (for the same Aircraft) and ATC2 data (once the automated ATC data processing with Data Hub is set up)
+
+9. Historical records are available to the company for review, analysis, and statistic summaries
+AC 1-- Aircraft, ATC2-- Air Traffic Control
+
+Flight information in Company App
+
+Value to the Company: convenient logging application, compliance and transparency for aviation authorities, easy aircraft booking system, aircraft management and maintenance, inflow of new customers introduced through the application
+14
+
+Beta version of aerotrips.com
+
+aerotrips.com
+Passenger Use case
+1. Passenger opens web portal at aerotrips.com 2. He/she is seeking options for demo flights
+around a certain location 3. Offers from local flight schools and private
+pilots are shown on the map 4. Pilots with flight logs validated with Aeron
+solution are highlighted (with a trust icon)
+5. Passenger can select the best offers (based on flight time, cost, etc) and perform booking
+6. Booking can be paid online with fiat or cryptocurrency
+7. He/she receives a booking confirmation 8. Once the flight is completed, passenger can
+submit a report and feedback 9. Booked flight data is validated against logs
+submitted by the pilot and pilot's experience on web portal is updated
+
+Value to the Passenger: access to the global database of flight offers, including Air Taxi & Charters, Flight Tours & Excursions, pilots with validated experience, an ability to pay with cryptocurrency, and an aerotrips.com club membership
+
+15
+
+Till date, pilot logs mainly exist in paper form with manual signatures and stamps.
+Logs under control
+National aviation authorities have no universal mechanism to control integrity and authenticity of the pilot logs electronically. There are no international standards or comprehensive technology for electronic logging. Each country maintains its own log book formats and establishes national rules for processing and validation of the logs. The legacy system is not equipped to handle the ever-increasing number and variety of small aircraft and licensed private pilots operating worldwide. This leads to a less than optimal experience for many people involved.
+Aeron has a solution to this logging conundrum based on blockchain technology. It will enable an online system relying on Aeron database, built on Ethereum blockchain to track aircraft and pilot log records, as well as ARN, a utility token to enable the development of a thriving, self-sustaining ecosystem around the database and token holders. True "airline in a pocket" featuring integrity, reliability and easy validation.
+16
+
+We believe that aviation safety is closely related to record integrity. Once the log records are stored in blockchain, available for public audit and can't be forged, both authorities and passengers can be confident that a pilot actually has the experience claimed. Taking this a step further, the same system can be applied to aircraft maintenance records and tracking of spare parts, to confirm that spare parts are authentic, maintenance has been performed according to standards and there are no shortcuts. The system described above could be supported by smart contracts that contain various log records, as well as execute rental deeds or charters for the aircraft, or cost sharing agreements between private pilots and their passengers; combined with a sleek user interface to allow for engagement with the blockchain, and a defined protocol to ensure transactions occur in compliance with local regulations. Aeron (ARN) utility token would be required for write access to the Aeron database and other on-chain events. Aeron token would also have a real-world application, as it could be envisaged as a means of payment for small aircraft charters or promotional leisure flights, with aircraft owners having signed up for partnership arrangements with Aeron. Aeron will work with national aviation authorities and international aviation agencies including EASA and FAA, to promote acceptance of the electronic log records based on blockchain, to demonstrate integrity, reliability and transparency of record keeping. A smart phone application will ultimately replace obsolete paper records and would gain a global acceptance, enabling a single point of reference for licensed private pilots, aircraft owners and operators, aviation enthusiasts and general public interested in aircraft charters, leisure flights and pilot training.
+17
+
+Blockchain for Aviation Safety
+Making blockchain services for aviation real
+Blockchain for aviation incubator. Growth hack worldwide aviation strartups on blockchain: connect aviation authorities and industry vision and blockchain developers' potential. Education. Educate aviation companies on blockchain integration. Blockchain aviation consultancy. Help major vendors, parts manufacturers and airlines to implement blockchain in their business.
+18
+
+Aeron Features
+With Aeron flight safety is enhanced
+You as a pilot can validate
+your flight experience, facilitating career progression
+Your log records cannot
+be lost or damaged
+
+You can be confident
+in the experience of your pilot or flight instructor
+You data is automatically matched from multiple log data
+sources, eliminating fake entries
+
+You can pay for flights,
+AM and FBO services with cryptocurrencies using mobile app
+You get discounts for flights,
+AM and FBO services with the loyalty/ membership program
+19
+
+Your aircraft has a transparent maintenance history stored in
+blockchain, increasing resale value
+You can easily find options
+for aircraft charters, leisure flights, and pilot training
+AM -- Aircraft Maintenance, FBO ­ Fixed Base Operators
+
+Aeron Benchmarking
+
+Reliability
+records can't be lost
+
+Convenience
+
+Transparency
+
+easy entry and viewing records auditable
+
+Validation
+records can't be forged
+
+Traditional paper logbooks
+Logging applications with local database
+Logging applications with cloud database
+Aeron solution with
+blockchain interface
+Aeron has an innovative solution based on blockchain technology. It will enable an online system relying on Aeron database, built on Ethereum blockchain to track aircraft and pilot log records.
+
+20
+
+Why we do Token Sale?
+There are many arguments why we have chosen to do the token sale instead of alternatives ways to raise money:
+First, a token sale not only allows us to onboard participants from different
+regions but also to incentivise them to promote Aeron's products.
+Second, tokens provide liquidity since they can be traded on various
+exchanges after the token sale. Participants can liquidate their position and benefit from growth of token market value.
+Finally, the token smart contract enables easy distribution of tokens to
+participants, instant payments with tokens, security and transparency, which would be hard to achieve without usage of blockchain technology.
+Token Functions & Benefits
+We introduce Aeron (ARN), an ERC20 compliant Ethereum based token, with a fixed supply of 100,000,000 ARN. During the token launch, a fixed amount of ARN is created, and afterwards no more tokens shall be minted. Aeron utility tokens are created to fund development and marketing of the Aeron project with associated distributed database, online portal and applications, as described in this document.
+Aeron is built on the ERC20 token standard with a fixed supply of 100,000,000 ARN
+Because Aeron is built on the ERC20 token standard, it allows for simple integration into users' wallets and is freely tradeable via direct transfers or via smart contracts. It is possible that Aeron token could also be added to cryptocurrency exchanges.
+21
+
+The total supply of ARN will slowly decrease over time, as tokens are taken out of circulation, for example, when someone with ARN loses their private keys, therefore, ARN will be effectively deflationary. Once Aeron receives ARN for services rendered, the tokens will be put back into the circulation. As a primary utility, for write access to database with signing log entries and validation on the blockchain, Aeron will charge a transaction fee in ARN.
+Token Functionality
+Aeron (ARN) utility token will be incorporated in Aeron products. It helps to enhance product usage, allow contribution to the ecosystem, product access and ownership. ARN is a bootstrapping engagement. While the token will enable access to valuable features within the Aeron platform, it won't be limited by the Aeron mobile applications. Aeron token can be utilized for the following purposes, creating revenue streams for Aeron and offering additional benefits to the token holders:
+1. Subscription fee / Transaction based fee for log entries 2. Commission on paid services (in fiat or ARN tokens) 3. Commission on intermediation and client introductions 4. Currency (mean of payment) for buying aviation services 5. Unlock access to flight schools, offers from pilots and aviation companies To incentivise participation in the ecosystem and expand our reach, we will offer a seed quantity of Aeron tokens to flight schools, aircraft operators and aviation companies signing up with Aeron. Once seed tokens are exhausted we expect a steady demand for tokens from the users. Compared to fiat based payments for Aeron fees and commissions, we will offer discounts should the fees be paid in ARN, facilitating further demand. As an example, once a fixed base operator at a certain airfield renders services (refueling, etc) to a pilot referred by Aeron, commission can be paid in ARN with a 20--30 % discount. Aeron tokens will be the currency of aerotrips. com club, offering premium access to offers from aviation companies, special incentives and discounts.
+22
+
+We created ARN with a clear vision that token must work, must be viable, secure, well funded, inflation protected, work better than other coins and do something unique as well. These are key elements to the solid foundation. More of that, we believe that ARN will bring improvements to society as well as short and long term gains to investors.
+As a long term vision, at the first stage of project development ARN tokens would be used within the Aeron platform, and at the second -- they will became the standard token in aviation. Roadmap for Aeron token application is the following:
+
+Unlock access to flight schools,
+offers from
+pilots...
+
+Buying access to premium app features
+
+Currency for buying aviation services
+
+Membership club and access to discounts
+
+Currency for buying aviation supplies
+
+First stage (2018-2019/Q1)
+
+Second stage (2019/Q2-2020)
+
+Furthermore, we explore potential utility of the token to be also used as a coupling mechanism, linking the value of the token to the value of the Aeron platform by a fee-burning mechanism that slowly decreases token supply.
+The Aeron token contract address will be published at https://aeron.aero.
+
+After token sale ARN will be listed on cryptocurrency exchanges, providing liquidity. Major exchanges already on board are Binance and HitBTC, with others on negotiation stage.
+23
+
+Aeron user base
+400 000
+
+300 000
+
+200 000
+
+100 000
+
+0
+2018
+B2B
+
+2019
+B2B + B2C
+
+2020
+B2B + B2C
+
+Consumer market would drive us to constantly develop new features within Aeron platform and perform marketing campaigns addressed to specific niches Functional expansion will help to power Aeron's vision of building an "airline in the pocket".
+Demand for Aeron services from consumer market will directly in fluence aviation professionals. They will use Aeron more frequently and more responsibly. At that, B2C market would boost B2B market, so more companies will integrate Aeron platform to fulfil consumer demand.
+It will make a positive impact on ARN token value, as a utility token for aviation professionals to access the range of Aeron services offerings.
+
+24
+
+Aeron Projections
+
+Client Base, users
+Pilots Airlines Flight School & Clubs Aircraft comm. Aircraft Private
+
+3 250 000 2 226 5 000
+30 000 336 000
+
+Services & Pricing, $ per year
+
+Pilot Logbook Keeping Additional Services for Pilots Airline Business Account Services For Flight Clubs Comm. Aircraft Tech. Logs Private Aircraft Tech. Logs
+
+30 150 3 000 1 000 1 000 150
+
+Total Revenue
+
+25
+
+2018
+
+2019
+
+2020
+
+2021
+
+2022
+
+32 500 22 50
+300 3 360
+
+162 500 111 250
+1 500 16 800
+
+325 000 223 500
+3 000 33 600
+
+487 500 334 750
+4 500 50 400
+
+650 000 445
+1 000 6 000 67 200
+
+975 000 487 500
+66 780 50 000 300 000 504 000
+2 383 280
+
+4 875 000 2 437 500
+333 900 250 000 1 500 000 2 520 000
+11 916 400
+
+9 750 000 4 875 000
+667 800 500 000 3 000 000 5 040 000
+23 832 800
+
+14 625 000 7 312 500 1 001 700 750 000 4 500 000 7 560 000
+35 749 200
+
+19 500 000 9 750 000 1 335 600 1 000 000 6 000 000 10 080 000
+47 665 600
+
+Token Sale Process
+60% of the fixed 100,000,000 ARN supply are being offered for sale, equating to 60,000,000 ARN. These will be sold in two stages with limited presale, followed by the general sale. ARN can be obtained online at a price per token of 1 ARN = $0.5 (fifty US cents) with payment in cryptocurrencies accounted at a current exchange rate at the date of transaction. Bitcoin ("BTC") and Ether ("ETH") will be the only methods of payment accepted in the general sale. The remaining 40% of the fixed supply (40,000,000 ARN) are not available via the token sale and will be allocated as follows:
+20% of the tokens will be allocated for network growth to incentivise participation in the ecosystem. Worldwide marketing activities and government relations would increase Aeron's market presence. 18% of the tokens will be retained for the development and management team, whose work makes Aeron possible. Remaining 2% of the tokens will be used to cover administrative costs of the token sale.
+The token sale will be offered until all 60,000,000 ARN have been distributed. Early buyers will receive special bonuses connected to the timing and amount of purchase. The ARN distributed and remaining can be tracked at https://aeron.aero during general sale. Please register at https://tokensale.aeron.aero/register/ to purchase ARN tokens. For further queries related to token sale process, refer to FAQ at https://aeron.aero/faq.html Tokens will be released to the Ethereum ERC20 compatible wallets of the buyers specified during the sale process, once the sale is closed tentatively by November 2017. There will be no lock-up for any of the ARN tokens purchased in either presale or the general sale.
+26
+
+Aviation on Blockchain
+Aeron connect various entities. Pilots, flight schools, aviation companies, airlines, aircraft operators and maintenance companies and other businesses will be involved in one network. We envisage the Aeron platform can add value as follows:
+Transparent relationship between aviation businesses; Fast transactional speed; No intermediaries; High level of security; Trustful and verifiable records.
+27
+
+Budget allocation
+40% Research & Development 30% Marketing & Promotion 10% Technology Infrastructure 10% Lobbyng with Authorities 5% Legal Consultancy 5% Administration
+28
+
+Roadmap
+
+We recognize the significant complexity of blockchain technology and are building a multi-stage Aeron solution to be phased in over time. The Aeron team works actively on several fronts to ensure that we are building the correct solution that can solve the real problems of stakeholders, while also complying with all regulations. Ultimately, we would like to extend our solution to contribute to flight safety, by recording the aircraft maintenance events and tracking the spare parts. This requires close cooperation with maintenance organizations and spare parts manufacturers worldwide, turning the Aeron database into a reference for verifying parts authenticity.
+
+Live Today
+
+Short-Term
+
+Long-Term
+
+Online Portal aerotrips.com
+No blockchain
+Traditional payment system on portal
+Global database
+-- Status: Live and active users
+
+Application Beta and Online Portal
+Partially decentralized
+Traditional and cryptocurrency payments
+Global database
+Application in Europe
+Status: Concept development
+
+Application and Online Portal
+Fully decentralized
+Traditional and cryptocurrency payments
+Global database
+Application globally
+Status: R&D assessment
+
+29
+
+Aeron Roadmap
+
+Concept development for Aeron ecosystem
+
+aerotrips.com consumer portal development
+
+Building global flight school, AM and FBO database
+
+aeron.aero public presentation
+
+Lobbying with Aviation Authorities
+
+aerotrips.com consumer portal for aviation launch
+
+Aeron token sale
+
+aerotrips.com integration with blockchain
+
+Token payments for aerotrips.com services
+
+Aviation Authority portal development
+
+Business development EMEA: negotiation & deals flightwscithhoAolus,tAhMoriatnieds Fixed
+base operators
+
+30
+
+Big Data research launch
+
+AM -- Aircraft Maintenance FBO ­ Fixed Base Operator EMEA -- Europe, Middle East and Africa
+
+Our Clients
+
+Student Pilot Private Pilot Commercial Pilot Flight Instructor
+
+Flight Examiner
+
+Fixed Base Operators
+
+Flight Schools
+
+Aviation Authorities
+
+Aircraft Operators
+
+Maintanance Organizations
+
+Revenue Streams
+Aeron has a simple and scalable business model. When any transaction involving a payment between counterparts is concluded (for example, service provided by a fixed based operator to a pilot introduced by Aeron, an aircraft charter or a leisure flight booking), Aeron takes a small percentage (starting from 2% and averaging ~5%) of the total consideration payable by the user. The payments are initially processed by the traditional payment system on the online portal, in fiat, and cryptocurrencies will be added as a means of payment for the jurisdictions where possible. Payment would also be made possible with ARN tokens, as introduced earlier in this document. For write access to database with signing log entries and validation on the blockchain, Aeron will charge a small transactional fee.
+31
+
+Canvas business model
+
+Key partners
+Aviation Authorities FAA EASA National Authorities
+
+Key activities
+Building and administration of infrastructure
+GR, Lobbying and Marketing
+
+Value proposition
+Aeron -- the new standard of aviation safety powered by blockchain
+
+Channels
+aeron.aero aerotrips.com Pilot Application Company Application
+
+Clients
+Student Pilot Private Pilot Commercial Pilot Flight Instructor Flight Examiner
+Flight Schools Aircraft Operators Maintanance Organizations Fixed Base Operators
+
+Cost structure
+
+R&D Legal Consultancy Administration
+
+Marketing & Promotion Technology Infrastructure Lobbyng with Authorities
+
+Revenue streams
+Subscription fee / Transaction based fee for log entries Commission on paid services (in fiat or ARN tokens) Commission on intermediation and client introductions
+
+32
+
+Team of certified pilots, aviation engineers and developers
+Artem Orange
+CEO Artem has more than 15 years of experience in telecoms and finance. Ex-CEO of two national cellular operators and a serial entrepreneur in hi-tech industries. Aviation enthusiast and a Chartered Financial Analyst (CFA) charterholder since 2009.
+LinkedIn
+Nadezhda Barkanova
+CTO Nadezhda is an aircraft operation and air traffic management engineer with over 11 years of experience, specializing in full cycle of production aeronautical databases, flight crew training programs, flight simulators and computer based training development. EASA PPL(A) holder since 2013.
+LinkedIn
+Konstantin Gertman
+CDO Konstantin has 14 years of experience in consulting, market research and financial businesses. Master of Science in Banking and Finance. A passionate small aviation enthusiast and Co-founder of aerotrips.com, EASA certified pilot since 2013.
+LinkedIn
+33
+
+Ruslan Zholik
+Architect Ruslan is building scalable IT projects for over 16 years. CEO of a hosting and business intelligence company. With deep understanding of crowdfunding and technology, Ruslan is focused on creation of convenient and multifunctional products.
+LinkedIn
+Ali Badeea
+Business Development MEA Ali started as a contractor in Titan Corps military ops division. Continued carrer as UN and military logistics agent and entrepreneur, with over 12 years experience in logistics management and finance. EASA certified pilot since 2011.
+LinkedIn
+Dmitri Prokopenko
+Business Development China Dmitri is a long term resident of China. Fluent in Mandarin, founder of several language schools and ex-CEO of Water Energy, a new energy startup in Xiamen. Crypto analyst and investor, supporting projects like TenX, IOTA, LBC and Steem.
+LinkedIn
+Kirill Kazakov
+Customer Experience Analyst Kirill is a manager focused on business modelling and customer experience for over 12 years. Worked with the world's biggest companies like Coca-Cola and Intel. With deep understanding of client needs, Kirill is responsible for matching expectations with a useful digital solution.
+LinkedIn
+34
+
+Kateryna Starcheus
+Product Designer Kate is a seasoned Product Designer with more than 10 years of experience in UX and UI design. A fullstack designer, specialized on startups, usability consultant, lecturer and author of UX courses.
+LinkedIn
+Pavel Liplianin
+Product/Community Manager Pavel is a specialist in stochastic analysis applications in financial markets, big data analysis and machine learning. Mathematician by education, ex-CTO in a consulting company specializing in operations excellence.
+LinkedIn
+Maria Shirokova
+Public Relations Manager Maria is a manager focused on public relations with over 7 years experience in IT. Formerly corporate communications manager at Kaspersky Lab, one of the world's leading information security companies, Maria helps Aeron to drive communications and build brand awareness in the media.
+LinkedIn
+35
+
+Advisory Board
+Philip McMaster (), Beijing, China
+Brand Ambassador
+Philip is well known in the Chinese and world blockchain space as the creator of the Republic Of Conscience. He advises on Corporate Social Responsibility (CSR) strategy and compliance as well as human transportation efficiency. Former MBA lecturer in top Canadian and Hong Kong business schools, publisher and executive in the aerospace and media industry as well as certification program developer for governments and tourism companies.
+Philip is concerned with helping Aeron lead the general aviation industry in setting the immutable standard in safety and sustainability.
+LinkedIn
+Constantinos Kozakos, Limassol, Cyprus
+Aviation Advisor
+Constantinos is a Managing Director at Griffon Aviation, the first licensed flight school on Cyprus offering complete range of pilot courses: from basic to advanced Flight Instructor ratings. A Chartered Accountant (FCCA) and Auditor by profession, Constantinos offers a unique angle, combining extensive knowledge in accountancy and compliance with his passion in aviation.
+Constantinos supports Aeron in liaison with flight schools worldwide, to build awareness and ensure recognition of Aeron solution
+LinkedIn
+36
+
+Dmitrijs Kasjarums, Latvia
+Legal Advisor
+Dmitrijs a partner of an International consulting company Baltconsult. He has more than 12 years experience in legal practice: corporate disputes, tax risk prevention, immigration law, registration and licensing of payment systems, representation of interests of investors engaged in a work with startups in the field of information technology.
+Dmitrijs supports Aeron in legal aspects of the Token Sale to ensure compliance and design the robust legal platform for Aeron application worldwide.
+LinkedIn
+Vladimir Feoktistov, Cyprus
+Blockchain Technology Advisor
+Vladimir has a master's degree in physics. He has been working as a lead programmer in financial, aerospace and data analysis sectors. His biggest project was development of the derivatives matching engine and risk management systems for Moscow Exchange. Vladimir was a CTO of trueflip. io leading a successful ICO and developed many other projects related to cryprocurrencies and blockchain.
+Vladimir helps Aeron to drive technical strategy and design architecture of the blockchain based database for aviation.
+LinkedIn
+37
+
+Eric Ross, Orlando, USA
+Technical Advisor Eric brings 32 years experience in the defence and commercial industries specializing in RF communications and electronics systems integration, testing and fielding in airborne, land and sea based environments. With 10 years management of a Preventive and Corrective Maintenance facility providing customers flightline and backshop services, Eric assists Aeron as a Technical Advisor.
+38
+
+Join our communities
+Telegram
+https://t.me/aeronaero
+Twitter
+https://twitter.com/aeron_aero
+Facebook
+https://www.facebook.com/aeronpublic
+Reddit
+https://www.reddit.com/r/aeronaero
+GitHub
+https://github.com/aeronaero/aeron
+Medium
+https://medium.com/@aeronaero
+Bitcoin Talk
+https://bitcointalk.org/index.php?topic=2078239.0
+39
+
+Conclusion
+-- Blockchain technology will continue to take flight in airlines over the next decade. Something that could not have been conceived of yesterday, is becoming reality today, reducing complexity and costs while improving the travel journey with real-time travel experiences.
+40
+
+Terms and Conditions
+This section informs you of the Terms and Conditions governing use of the information and functionality offered at www.aeron.aero ("Web site") including this present document. By using the Web site, you agree to be bound by these Terms and Conditions.
+1. The Web site does not constitute a prospectus of any sort, is not a solicitation for investment and does not pertain in any way to an offering of securities in any jurisdiction.
+2. By transferring ETH, BTC, or any other cryptographic tokens ("Cryptocurrency") to obtain Aeron tokens ("ARN" or "ARN tokens") and/or receiving ARN, no form of partnership, joint venture or any similar relationship is created between the user and the creators of ARN and/or any other individuals involved with the Web site or ARN.
+3. By transferring Cryptocurrency to obtain ARN tokens and/or receiving ARN, the user confirms that the user is neither a United States citizen nor resident, and the user does not have a primary residence or domicile in the United States, including Puerto Rico, the U. S. Virgin Islands, or any other territories of the United States, and the user is not acting on behalf of United States citizen, resident or entity.
+4. By transferring Cryptocurrency to obtain ARN tokens and/or receiving ARN, the user expressly represents and warrants that:
+a. The user has a deep understanding of the functionality, usage, storage, transmission mechanisms and intricacies associated with cryptographic tokens and blockchain-based software systems;
+b. The user has carefully reviewed the code of the smart contract located on the Ethereum blockchain at the addresses set forth on the Web site and fully understands and accepts the functions implemented therein;
+c. The user is legally permitted to transfer Cryptocurrency to obtain ARN tokens, and is legally permitted to obtain ARN in the user's jurisdiction;
+d. The user is legally permitted to receive software and interact with the ARN tokens smart contract;
+41
+
+e. The user is of a sufficient age to legally obtain ARN tokens;
+f. The user will take sole responsibility for any restrictions and risks associated with obtaining ARN tokens by the smart contract system;
+g. The user is not submitting Cryptocurrency to obtain ARN for the purpose of speculative investment;
+h. The user is not obtaining or using ARN for any illegal purposes;
+i. The user waives the right to participate in a class action lawsuit or a class wide arbitration against any entity or individual involved with the Web site or with the creation or distribution of ARN tokens;
+j. The user understands that submitting Cryptocurrency to obtain ARN does not involve the purchase of shares or any equivalent in any existing or future public or private company, corporation or other entity in any jurisdiction;
+k. The user understands and expressly accepts that there is no warranty whatsoever on ARN, expressed or implied, to the extent permitted by law, and that the smart contract system is used and ARN are obtained at the sole risk of the user on an "as is" basis and without, to the extent permitted by law, any warranties of any kind, including, but not limited to, warranties of title or implied warranties, merchantability or fitness for a particular purpose;
+l. The user understands that the user has no right against any party to request any refund of the Cryptocurrency submitted to obtain ARN tokens under any circumstance;
+m. The user understands that the user bears the sole responsibility to determine if the transfer of the Cryptocurrency to obtain ARN tokens, the obtaining, ownership, or use of ARN, and/or any other action or transaction related to ARN may have tax implications for the user;
+n. By obtaining, owning or using ARN, and to the extent permitted by law, the user agrees not to hold any party liable for any tax liability associated with or arising from obtaining, owning or using ARN or any other action or transaction related to the Web site.
+42
+
+5. The user acknowledges and agrees that, to the fullest extent permitted by any applicable law, the user will not hold any developers, contractors or creators of ARN tokens and/or the Web site liable for any and all damages or injury whatsoever caused by or related to the use of, or the inability to use, ARN tokens or the Web site under any cause or action whatsoever of any kind in any jurisdiction, including, without limitation, actions for breach of warranty, breach of contract or tort (including negligence) and that developers, contractors or creators of the Web site and/or ARN tokens shall not be liable for any indirect, incidental, special, exemplary or consequential damages, including for loss of profits, goodwill or data, in any way whatsoever arising out of the use of, or the inability to use the Web site and/or ARN tokens.
+6. By obtaining, holding or using ARN tokens, and to the extent permitted by law, the user agrees not to hold any third party (including developers, contractors or creators) liable for any regulatory implications or liability associated with or arising from obtaining, owning or using ARN or any other action or transaction related to the Web site.
+7. The user understands and accepts that the network of miners will be ultimately in control of the ARN tokens smart contract. The user understands that a majority of these miners could agree at any point to make changes to the official smart contract system and to run the new version of the smart contract system.
+8. The user agrees that if any portion of these Terms and Conditions is found illegal or unenforceable, in whole or in part, such provision shall, as to such jurisdiction, be ineffective solely to the extent of such determination of invalidity or unenforceability without affecting the validity or enforceability thereof in any other manner or jurisdiction and without affecting the remaining provisions of the Terms and Conditions, which shall continue to be in full force and effect.
+9. These Terms and Conditions are effective as of 1 July 2017 and will remain in effect, except with respect to any changes in their provisions in the future, which will be in effect immediately after being posted at www.aeron.aero/terms.html. The Terms and Conditions can be updated or changed at any time and you should check these Terms and Conditions periodically. Your continued use of the Web site and/or ARN tokens after
+43
+
+any modifications to the Terms and Conditions are posted at www.aeron.aero/terms.html will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Terms and Conditions. For any material changes to these Terms and Conditions, we will notify you either through the email address you have provided on the Web site, or by placing a prominent notice at www.aeron.aero/terms.html.
+
+Most importantly, aviation brings people together, enabling social connectivity like never before.
+Blockchain for Aviation Safety
+If you have any questions, ask us in Telegram: https://t.me/aeronaero
+
+© Aeron Labs 2017
+
+https://aeron.aero
+
+info@aeron.aero
+
+

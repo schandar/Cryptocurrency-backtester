@@ -1,0 +1,282 @@
+White Paper
+The Substratum Network
+Foundation of Decentralized Web An open-source network that allows anyone to rent their computer as a hosting
+server.
+Earn cryptocurrency. Change the world.
+Version 3.4 (ICO Release) August 2017
+
+Contents
+
+1. Introduction
+
+3
+
+1.1 Why the Decentralized Web
+
+3
+
+2 Summary
+
+4
+
+3 Problems of the Decentralized Web and their Solutions
+
+4
+
+3.1 What are the Problems of the Decentralized Web
+
+4
+
+3.2 How the Substratum Network Solves these Problems
+
+4-6
+
+4 Additional Information 4.1 General 4.2 SubstratumNode 4.3 SubstratumHost 4.4 CryptoPay
+
+7 7 7-8 8-10 10
+
+5 Substratum Token 5.1 Substrate & Atoms 5.2 What Gives Substratum Coin Value
+
+11 11 11-12
+
+6 Substratum ICO
+
+13
+
+6.1 ICO Goals
+
+13
+
+6.2 ICO Parameters
+
+13
+
+6.3 ICO Budget Allocation 6.4 ICO Referral Codes 6.5 US Citizen Participation
+7 The Future of Substratum 7.1 Roadmap
+8 Who We Are 8.1 Project Leads
+
+14 14 14
+15 15-1
+6
+16 16-1
+7
+
+1. Introduction
+"The Decentralised Web envisions a future world where services such as communication, currency, publishing, social networking, search, archiving etc are provided not by centralised services owned by single organisations, but by technologies which are powered by the people: their own community. Their users.
+The core idea of decentralisation is that the operation of a service is not blindly trusted to any single omnipotent company. Instead, responsibility for the service is shared: perhaps by running across multiple federated servers, or perhaps running across client side apps in an entirely "distributed" peer-to-peer model."
+Matthew Hodgson Techcrunch October 9, 2016 https://techcrunch.com/2016/10/09/a-decentralized-web-would-give-power-backto-the-people-online/
+Matthew goes on to say in his article that there are three core areas that are necessary for the internet to operate in a decentralized fashion:
+
+1. Privacy 2. Data Portability 3. Security
+1. Why the Decentralized Web
+In a NYTimes Article dated June 7, 2016 Quentin Hardy stated "Today, the World Wide Web has become a system that is often subject to control by governments and corporations. Countries like China can block certain web pages from their citizens, and cloud services like Amazon Web Services hold powerful sway. So what might happen, the computer scientists posited, if they could harness newer technologies -- like the software used for digital currencies, or the technology of peer-to-peer music sharing -- to create a more decentralized web with more privacy, less government and corporate control, and a level of permanence and reliability?".
+Quentin Hardy New York Times June 7, 2016 https://www.nytimes.com/2016/06/08/technology/the-webs-creator-looks-toreinvent-it.html
+
+2. Summary
+Substratum is developing an open-source foundation for the decentralized web, providing free and unrestricted access to content for a new Web 3.0
+The Substratum Network is a worldwide collection of nodes that uses industryleading cryptography to deliver secure content anywhere, all without the need for VPNs or Tor.
+Substratum will revolutionize the hosting industry with per-request billing via microtransactions, all handled by blockchain technology and artificial intelligence.
+3. Problems of the Decentralized Web and their Solutions
+3.1 The Problems Solved by the Decentralized Web
+The benefits of the decentralized web are clear and the proponents are of the highest caliber in the technological community but what are the hurdles and how does Substratum solve them?
+· Serving Up of Decentralized Content · Incentivizing Users to Serve the Content · Privacy / Security / Encryption · Storage and Serving of Content · DNS (Domain Name System) · Development Tools for the Decentralized Web · Net Neutrality · International Digital Barriers · High Hosting Costs
+3.2 How Substratum Solves these Problems
+The Substratum Network will bring the decentralized web worldwide without the need of special software for the average internet user. We will be able to serve Substratum Requests directly to the default browser (Safari, Firefox, Chrome, Internet Explorer) without any special software installed on the average consuming users computer.
+Ease of Use: currently nearly everything that has to do with crypto or the blockchain is very difficult to use and requires technical knowledge. Through our 10+ years of experience working with companies like Apple we understand the importance of a good user experience.
+
+· The average internet user requires NO special software to use the Substratum Network. The default browser will service all requests for average users.
+· Users who wish to service requests and receive SUB coins in return will have a point and click user interface that any user can setup. No technical knowledge required.
+· SubstratumPay will be seamlessly integrated and geared towards high conversions of low technical expertise users.
+Serving Up of Decentralized Content: Substratum provides a method for serving Decentralized Content through a Mac, Windows, and Linux application / service that is easy to install and run (requires no technical expertise) and serves up decentralized content using the toolkit that we have developed.
+Incentivizing Users to Serve the Content: in order to incentivize users to run the Substratum Network client on their machine we will be providing Substratum Coin to them for doing so. The coin is issued to the serving machine through a micro-transaction from the hosting site to the serving computer. By breaking fees down to a micro-transaction level this will greatly reduce the overall cost to companies and entities that want to host sites and applications on the internet solving yet another problem with the web as it stands today.
+Privacy / Security / Encryption: by allowing millions of Substratum Network users to serve content the biggest concern becomes privacy and security. Substratum solves these issues through advanced cryptography algorithms rooted in Artificial Intelligence that ensures all data remains secure. Following the lead of BitCoin this is the strength of cryptocurrency and the crypto movement.
+Storage and Serving of Content: in order to serve millions of sites, databases, and applications the Substratum Network employs custom developed advanced compression algorithms and machine learning to geolocate the right Substratum Network machine to serve up the content to the appropriate user based on geolocation, this will ensure the fastest load time with the lowest amount of latency and strain on the Substratum Network and both the serving and receiving machine.
+DNS (Domain Name System): DNS or the Domain Name System is the system that currently tells your browser where to go when you type in a domain name. For instance when you go to Chrome and type in apple.com a DNS lookup is performed to check where to send that request, the DNS system comes back with an IP address and your request is routed there. In the first version of SubstratumDNS will be a complex, AI enabled DNS server that will receive DNS requests along with the geolocation of the requestor and find based off of that information the closest available SubstratumNode that is able to fulfill the request.
+
+Development Tools for the Decentralized Web: the Substratum Network will provide an API and SDK for developing tools on the Substratum Platform. This will bring in strong developer support and will accelerate the growth of the decentralized web on the Substratum Network.
+Net Neutrality: with the Substratum Network ALL web-sites and applications will have EQUAL ability to be broadcast in an equal and fair manner.
+International Digital Barriers: currently countries like China have strict regulations on what their 1.379 billion citizens are able to interact with on the internet. Substratum will break down these barriers through a network of decentralized computers running the Substratum Network Software. Where other solutions that are currently used by residents in these countries require special software to be installed, like TOR, Substratum will take a reverse approach and require no special software for the average user.
+High Hosting Costs: currently businesses must pay high hosting fees to get their web-sites on the internet. Amazon Web Services launched a 3.5BIL USD per year business by attempting to solve this problem. They allow you to pay for how many minutes you run a web / database server. Substratum completely solves this problem through the power of cryptocurrency by only charging for each request that is processed.
+
+4. Additional Information
+4.1 General
+Will Substratum Be Open Source?
+Yes! Substratum will become a fully Open Sourced project upon our launch of version 1 at the end of 2017. The reason we are waiting until then is we wish to fully establish our compression and cryptographical algoritms as well as a few other things before taking the project open source.
+What BlockChain Is Substratum Built On?
+SubstratumNetwork will be running on its own blockchain. Developed specifically for the Decentralized Web. Substrate, the coin that is the fuel that runs the SubstratumNetwork is a ERC20 compliant token based on the Ethereum Blockchain.
+Do Users need a special browser to view sites on Substratum?
+No, that is the beauty of the Substratum Network. The average user requires no special software to run. All they have to do is open up their browser (Safari, Chrome, Firefox, IE) and surf like they normally would. Substratum takes care of the rest.
+4.2 SubstratumNode
+How Many Substrate Tokens do I need to run a SubstratumNode and begin earning Substrate?
+Zero. You do not need any Substrate Tokens to run a SubstratumNode. You only need a valid Substrate Wallet Address (Ethereum address) where we can send your Substrate at your designated payout periods.
+Do I need to do any special setup on my computer to run a node? For instance do I need to open any special ports?
+Everything is done with point and click, we are focusing on bringing this to the masses and to do that it has to be simple. Only ports 80 and 443 are required to run a node and those will be verified and opened in the setup process.
+
+Can I only run my node when I am not working?
+Yes, you can use our Settings Application (Figure 1) to define what resources are used and when. This way your node makes the most money possible for you when you aren't working but doesn't disturb you when you are working.
+Figure 1: SubstratumNode Settings Application.
+4.3 SubstratumHost
+What technologies will SubstratumNode support?
+To begin with you will be able to use the following technologies when hosting on SubstratumHost:
+· HTML/CSS · Javascript (jQuery, Bootstrap, etc) · PHP / MySQL (Wordpress, Magento, Joomla, etc) · ASP.NET · Python (Django etc) · More to come in future versions (Rails etc)
+
+Will SubstratumHost have a Control Panel similar to CPanel and PHPMyAdmin?
+Yes, SubstratumHost will have a very easy to use Control Panel that will allow you to manage your content as a Web Host on the Decentralized Web.
+Can I keep my Domain Name of my current site?
+Yes! Unlike other companies out there who require you to run on their subdomain to run a site SubstratumHost allows you to use your existing domain name and deliver content to both the centralized and decentralized web.
+How can you deliver content to a Standard Browser?
+SubstratumDNS runs both distributed and decentralized. It uses the existing DNS framework of the internet so we can deliver content to default browsers and allow you to keep your domain name; however, that is where the similarities with a traditional DNS server end. Everything in between the process of "receiving a request from the client and delivering the page back to that client" is completely different.
+1. SubstratumDNS takes the requestors location into consideration first and from there identifies a the closests nodes.
+2. Within that bank of nodes the system locates the node(s) with the most accurate information that needs to be served up (since not all nodes hold the same information and they actually rotate to content to guarantee anonymity for the node) this is a complex process involving machine learning.
+3. Once the system locates the best primary node it sends the request there to be served.
+4. If the node requires additional content that it doesn't have but another node does have it the two will work in tandem to serve that content.
+Is it more expensive to host on the Decentralized Web?
+Actually it is less expensive. Unlike other hosts who charge you whether your content is doing something or not with SubstratumHost you are only charged for each request. As each request comes through the amount of CPU power, Network Bandwidth and the amount of data are calculated and once a threshold of 1 ATOM is reached a micro-transaction will take place between the HOST and the NODE and Substrate will be transferred.
+The result of all of this is that since you only pay for what you use the cost is reduced.
+
+* we are still working out some calculations to get an exact fee matrix but we will without a doubt be less expensive than Amazon Web Services.
+4.4 CryptoPay
+How do web-sites get CryptoPay on their site?
+Just like other Payment Gateways site owners who want to feature CryptoPay will have simple tools to add cryptocurrency checkout to their web-site. Just like when a site wants to add Paypal or Stripe there is a registration process that the site owner will complete and they will then receive an integration guide to add CryptoPay to their web-site. (Figure 2)
+How is the conversion made?
+Each vendor sets which currency they desire to be paid in. In order to change the currency that the user pays in to the desired payment currency CryptoPay uses Substrate as conversion currency.
+Figure 2 ­ CryptoPay example screen
+
+5. Substrate Token
+5.1 Substrate & Atoms
+The terminology involved with modern cryptocurrencies is confusing to anyone who isn't steeped in the world of technology. The average person does understand fiat currency, however. 
+Substratum runs on Substrate and Atoms, a rough linguistic equivalent to dollars and cents. Fiat currency uses whole numbers with two decimal places, and so does SUB. This will ease the learning curve and help mass adoption rates in the general public. 
+Substrate = Dollars (everything before the decimal) Atoms = Cents (two places after the decimal)
+5.2 What Gives Substrate Token Value
+Substratum Solves a Global Problem:
+· Privacy / Security / Encryption on the Blockchain · Decentralized Storage & Serving of Content · Decentralized DNS · Development Tools (API / SDK) for the Decentralized Web · Net Neutrality ­ equal and fair access to all sites for all people · Breaking Down of International Borders · Revolutionize the Way Hosting Costs are Managed and Paid
+Multiple Revenue Streams
+SubstratumNode - Network Members that run our broadcast software will receive SUB coins by serving requests. This increases global participation and will bring value to the coin.
+
+SubstratumHost - Businesses or Entities that wish to host sites, databases, and applications on the Substratum Network will use SUB coin to pay the Network Members through a series of micro-transactions for the requests that those members serve up. This will mean SUB becomes the currency of the decentralized web which nearly every tech source agrees is the future of the internet - see "The Future is a Decentralized Internet" - TechCrunch - https:// techcrunch.com/2017/01/08/the-future-is-a-decentralized-internet/
+CryptoPay - Version 2 (early 2018) will bring in CryptoPay which will allow all sites and applications that run on the SubstratumNetwork to process cryptocurrency transactions using any publicly traded coin. SubstratumCoin (Substrate) will be the bridge currency which will bring immense value to the coin - see our Roadmap for more detail.
+Summary
+Through all these micro-transactions there will be very small fees that will accumulate value to the SubstratumCoin and add equity to investors portfolios as they trade on the major exchanges. 
+
+6. Substratum ICO
+
+6.1 ICO Goals
+
+Substratum solves a global problem that all experts agree is the next step in the evolution of the internet. In version 2 of our roadmap we integrate all Cryptocurrencies that are publicly traded into a Payment Gateway that brings all cryptocurrencies to the web and uses Substratum Coin as an exchange currency which brings tremendous value.
+
+In order to achieve these goals we need to raise working capital for further development to take us through version 2 and marketing capital to raise awareness about our product.
+
+Substratum builds upon principles of the crypto community and takes decentralization to the next logical step in the progression that BitCoin started. Because Substratum is in the same sphere of influence cryptocurrency investors should find this project appealing and the overall reach of this project goes even beyond that of BitCoin and Cryptocurrencies in general. In 10 years Substratum should touch every computer on the planet.
+
+6.2 ICO Parameters
+
+ICO Start Date:
+
+August 14 2017 00:00 EST
+
+ICO End Date:
+
+September 14 2017 00:00 EST
+
+SUB Tokens Issued:600 000 000
+
+Token Exchange Rate:
+
+PRE-ICO: ICO WEEK 1: ICO WEEK 2:
+ICO WEEK 3: ICO WEEK 4:
+
+5 000 SUB = 1 ETH 3 000 SUB = 1 ETH 2 500 SUB = 1 ETH
+2 050 SUB = 1 ETH 1 500 SUB = 1 ETH
+
+Minimum Amount:
+
+500 SUB (0.1 ETH)
+
+Bonuses:
+
+Using Referral Codes (see section 4.4)
+
+Total Sale Goal:
+
+150 000 ETH
+
+Minimum Sale Goal:
+
+1 000 ETH (met during pre-ICO 3.5 times over)
+
+6.3 ICO Budget Allocation
+
+Product Awareness:
+
+30% of Total Budget
+
+Regardless of how great the project is no-one will use it if they don't know about it. Because of that we will be spending a considerable amount of resources on raising awareness of the product. This will involve traditional methods of advertising as well as taking part in Cryptocurrenty / BlockChain Based Conferences worldwide as speakers and booth vendors.
+
+Product Development:
+
+60% of Total Budget
+
+The core of the budget is development of the product so the majority of the budget is allocated to development. Through the use of our core team and by bringing in additional resources we will achieve the product timeline set in place.
+
+Network Infrastructure:
+
+10% of Total Budget
+
+To kickstart the network we will need to establish data centers around the world to provide the core supernodes.
+
+6.4 ICO Referral Codes
+
+During the ICO we will offer bonuses through the form of referral codes. Members who took part in the pre-ICO have their codes and can share them with people who wish to take part. By using the code you will receive the bonus that code Is valued at as a percentage of your level of support.
+
+The best way to find a code if you don't have one is to join our Slack community:
+
+http://x.co/SubSlack
+
+6.5 US Participation
+The Securities and Exchange Commission recently made a filing that most coins need to be registered as a commodity to run an ICO for US citizens. The exception to that rule is if the token / coin has a purpose as part of a platform or system. If it is used as the FUEL that runs the system. Since Substrate is the FUEL that runs the Substratum Network we are cleared to run for US Citizens.
+7. The Future of Substratum
+7.1 Roadmap
+
+July ­ August 13, 2017
+Pre-ICO
+August 14-September 14, 2017
+ICO runs
+September 2017
+COIN added to Exchanges: COSS.IO
+Late 2017
+Working to have coins added to Binance, Liqui and Bittrex and others
+Version 1 (Late 2017 Early 2018)
+SubstratumNode - Mac, Windows, Linux Software for Substratum Network Users to run their Web, Database, and App Broadcast Nodes and receive Substratum Coin on a per request basis.
+Developer Toolkit for Developers to write applications to run on the Substratum Network which includes our fully encrypted SubstratumDB (Database Management System), SubstratumWeb (Web Application Server), and SubstratumApp (App Development System and Broadcast Server)
+SubstratumStore - Decentralized App store for Developers to submit their applications to that will serve as the application store for the decentralized web
+SubstratumDNS - this is a DNS (Domain Name Management) system bridge that will allow standard browsers on any system (Mac, Windows, Linux) to use their default browser (Safari, Firefox, Chrome, Internet Explorer) to serve up sites from the Substratum Network. This will ensure that we can reach the entire world with the Substratum network without the average everyday user having to install any special software.
+Version 2 (Early to Mid 2018)
+Payment Gateway (SubstratumPay) to the Substratum Network. This will enable not only Credit Card transactions but CryptoCurrency transactions for all Web-Sites and Applications on the Substratum Network.
+SubstratumBridge will provide the crux of the SubstratumPay network by using SubstratumCoin as a bridge coin for all transactions that happen on our Payment Gateway network. For example if a user wants to pay with LiteCoin we will
+
+execute a micro-transaction that will convert BitCoin into SubstratumCoin which will then pay the vendor in Fiat. This conversion will happen seamlessly in the background and will further provide value to the SubstratumCoin.
+8. Who We Are
+The team behind Substratum is a US based software development firm who for the last 10 years has architected, developed and deployed software solutions for Fortune 100 companies such as Apple, Facebook, Disney, HP and many more. We have the experience necessary to create a solution on this scale.
+Most of our team of 22 developers, designers, architects, and project managers have been together for 13 years. We are a stable and active development team who has built projects for Fortune 100 companies.
+8.1 Project Leads
+Justin Tabb
+Justin@substratum.net Solutions Architect https://www.linkedin.com/in/justintabb/
+Over the last 10 years Justin has lead development teams on projects such as training.apple.com, consultants.apple.com, Event Software for Facebook, Event Software for OpenStack, Theme Park Software for Disney, Election Software for 2008 Presidential Campaign and many many more.
+Abram Cookson
+abram@substratum.net Lead Software Developer https://www.linkedin.com/in/abramcookson/
+Husband, Father, Owner, Small Business Experienced, Idea Man, Consultant, Technical Lead, Application Developer, Architecture, Comedian  Specialties: Cloud Solutions, Agile, Modeling, Architecture, Search Engine Optimization, Web Standards
+Jason Wollam
+Jason@substratum.net Senior Software Engineer https://www.linkedin.com/in/jasonwollam/
+· C#, ASP.NET, and ADO.Net including ASP.NET MVC 4, WinForm and Web API for web services.
+· TDD and SOLID concepts for building scale-able OOP · implementations.
+
+· JavaScript for full stack and browser based applications using Node.js and common libraries.
+· Single Page & Front-end development using and MVVM JavaScript with Backbone.js.
+Kevin Marois kevin@substratum.net Senior Software Engineer https://www.linkedin.com/in/kevin-marois-40682611/
+Over 30 years of professional software development experience, including client-server enterprise level applications, retail, POS, and military use applications.
+Jason Burns jasonb@substratum.net Design Lead
+Head of Design with 10+ years of design experience of eye catching campaigns with high conversion rates and software design for systems that maximize ergonomics and ease of use.
+Michael Stockwell Michael@substratum.net  Advisor https://www.linkedin.com/in/stockwellmichael/
+Michael is the owner of FizzPow Games, the creator of Bitcoin Billionaire, an accomplished developer and an experienced cryptocurrency investor and is serving as an advisor for Substratum. 
+
+

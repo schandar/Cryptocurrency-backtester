@@ -1,0 +1,850 @@
+SophiaTX Whitepaper
+The Blockchain for Business
+
+Date: Author(s):
+
+13.11. 2017
+Jaroslav KACINA, Martyn C. HARLER, Marian RAJNIC and team of SophiaTX
+
+Disclaimer
+This document is the property of SophiaTX, obcianske zdruzenie, with its registered seat at Rajská 2341/15, 81108 Bratislava-Staré Mesto, the Slovak Republic, company ID: 51074567, registered with the Register of Civil Associations of the Ministry of Interior of the Slovak Republic ("SophiaTX"). All products and companies referenced in this document are used for research and information purposes only and all referenced parties retain their respective intellectual property rights.
+1
+
+Contents
+
+Abstract
+
+4
+
+Introduction
+
+6
+
+About SophiaTX and Equidato Technologies AG
+
+6
+
+Blockchain Overview
+
+7
+
+Blockchain for Business and B2B Space
+
+8
+
+Enterprise Applications and Blockchain
+
+8
+
+Challenges
+
+8
+
+Market and SAP Ecosystem
+
+10
+
+Solution and Roadmap
+
+12
+
+SophiaTX Blockchain- Use Cases
+
+13
+
+Use Case One: One-to-One Document Exchange ­ Invoice to Customer
+
+14
+
+Market Situation
+
+14
+
+Traceability
+
+14
+
+Solution
+
+14
+
+Use Case Two: Multi-Party Information Exchange
+
+16
+
+Market Situation
+
+16
+
+Solution
+
+16
+
+Use Case Three: Collaboration Across Entire Value Chains - Track and Trace in Pharma
+
+18
+
+Challenges in Pharmaceutical Supply Chains
+
+18
+
+Counterfeit products
+
+18
+
+Compliance
+
+19
+
+Traceability and Recalls
+
+20
+
+How Blockchain can address these Key Challenges
+
+20
+
+Supply Chain Process Model
+
+22
+
+Supply Chain in Pharma Industry (Figure 3)
+
+22
+
+Technology and Architecture
+
+23
+
+Overview
+
+23
+
+Sequence Diagrams
+
+24
+
+User Authentication and Authorisation
+
+24
+
+Application Build and Deploy
+
+25
+
+Transaction sent to SophiaTX Blockchain from ERP / CRM System
+
+25
+
+Transaction sent to ERP / CRM System from SophiaTX Blockchain
+
+26
+
+User Services - Certified Backup Authority
+
+26
+
+2
+
+User Services
+
+26
+
+SophiaTX Browser
+
+26
+
+Authentication Engine
+
+27
+
+Logic Engine
+
+27
+
+Encryption
+
+27
+
+Process Description for Encryption Triggered by Users
+
+28
+
+Process Description for Decryption Triggered by Users
+
+28
+
+Testing and Publishing Engine
+
+30
+
+Data Store and Analytics Engine
+
+30
+
+Marketplace
+
+31
+
+App Store
+
+31
+
+Dev Store
+
+31
+
+Application Library
+
+31
+
+Blockchain
+
+32
+
+SophiaTX Token and its usage
+
+33
+
+Go-to-Market Strategy and Driving Successful Adoption
+
+34
+
+Defining the SophiaTX Blockchain Approach and Learning from Other Blockchains
+
+36
+
+Glossary
+
+41
+
+References and Sources
+
+43
+
+3
+
+Abstract
+There is a lot of enthusiasm in the technology community about the recent advances of blockchain use-cases which reach far beyond the financial industry.
+One area which offers significant value is the use of blockchain in a company's operational and management processes. Effectively all companies run these operational processes on enterprise resource planning software (ERP) which often includes a variety of modules such as accounting, controlling, procurement, logistics, warehousing, manufacturing, project management, quality management, and sales and distribution.
+To advance blockchain into business operations, the blockchain must integrate with ERP and other enterprise applications such as SAP. As an example, 76% of the world's transaction revenue touches SAP systems1. This sector has been relatively untouched until recently when SophiaTX announced their first project , an open source blockchain platform and marketplace designed for businesses of all sizes ("SophiaTX Blockchain").
+SophiaTX Blockchain is the first platform focusing on integrating blockchain with SAP and other major ERP, CRM, and SCM systems aiming to expand the possibilities of enterprise applications with the trust and security that comes with blockchain technology.
+The SophiaTX Blockchain can be thought of as three components: a blockchain designed and built specifically for business environment, a development platform with integration APIs to SAP and other enterprise applications, and a marketplace for both industrial companies and a global community of experts, consultants, and developers to buy and sell apps.
+SophiaTX Blockchain is a public blockchain platform with a focus on use by businesses of all sizes, i.e. from large global enterprises to small local businesses and eventually to end consumers. It allows for businesses to join and participate across the entire value chain, enabling SophiaTX Blockchain the best possible drive for global adoption. This choice, over the alternative of a private blockchain, supports the goal of creating a truly holistic collaboration.
+The flexible and scalable solution will serve as the foundation for new applications with specialized processes and modules for companies where peer to peer architecture and decentralization is desired and beneficial.
+The adoption of the SophiaTX Blockchain is supported by a marketplace which includes process flows, use case designs, APIs and common building blocks, specifically developed for widely-used ERP and CRM systems and other business applications. The inter-connectivity with respective APIs is reinforced by the blockchain network.
+The SophiaTX Blockchain is fuelled by the SophiaTX Token (SPHTX) which is used to cover mining and transaction fees, allowing access and subscription to the development platform, marketplace, and in-app purchases. It is designed for trading assets or micro-assets and services, know how, process maps and blueprints, integration, and professional consulting services to enable accelerated adoption and use.
+1 https://www.sap.com/corporate/en/documents/2017/04/4666ecdd-b67c-0010-82c7-eda71af511fa.html
+4
+
+SophiaTX will hold a Token Generation Event (TGE) later this year where the general public can be the first to obtain the SPHTX before its release on any major exchanges. It is a chance for supporters of the project to be directly involved. The token will be used in the marketplace for a wide range of engagements. The funding accrued from the TGE will go directly to the development, marketing and ongoing management of the project and overall platform. Token owners can feel confident in knowing that behind this project is an excellent team backed by stellar experience and know-how in blockchain and business application integration ("SophiaTX Team"). As technology veterans and pioneers in the area of blockchain, the SophiaTX Team is well positioned to lead in this space. It is the SophiaTX Team's ambition to become the principal platform for blockchain adoption by businesses of all sizes.
+5
+
+Introduction
+Businesses today face a number of challenges. Amongst them is the issue of trust in information exchange with other parties' and their respective agreements. The blockchain provides new capabilities with transparent, peer to peer information exchange and establishes a common ground in disputable areas. Such information exchanges are of a limited scope, fulfilled by complex and expensive middleware interfacing products and not yet open to true peer to peer transparency and trust. The SophiaTX Blockchain, aimed at such peer to peer information exchanges, provides a comprehensive set of tools allowing developers to build and publish applications which utilise the power of the blockchain and distributed data integrated with ERP and CRM solutions. Developers publish apps in the marketplace, which are accessible to both businesses and the end user community who purchase applications that integrate with their systems. Developers earn revenue from apps which are downloaded and deployed.
+About SophiaTX and Equidato Technologies AG
+SophiaTX is a civil association aiming to expand the possibilities of enterprise applications with the trust and security that comes with blockchain technology and launch the world's first open source blockchain platform to primarily integrate blockchain technology with enterprise applications. In order to secure the development of respective software, SophiaTX will engage Equidato Technologies AG, any of its affiliates or other developers. Equidato Technologies AG is a company focused on the integration of blockchain with enterprise applications, such as SAP, IoT sensors, smart printing, and other advanced technologies forming the 'industries of the future' eco-system.
+6
+
+Blockchain Overview
+Blockchain2 is a continuous list of transactions which are being recorded into blocks. They are linked and secured using cryptography. Blockchain serves as a distributed ledger that can efficiently record transactions between two parties and store them in an immutable manner. This means that a given block cannot be altered retroactively without the alteration of all blocks that have followed. This creates a chain of blocks which are secure by design and all transactions written inside of them are irreversible. By storing data across its network, blockchain eliminates risks that come with data being held centrally. Every node or miner has a copy of the blockchain which ensures data quality by massive database replication and computational trust. Since the time of publication3, many variations and improvements have been developed. A number of existing blockchains proves that this technology has great potential. Nowadays, blockchain technology can be found in a wide range of applications across many industries.
+Blockchain Types:  Public:  Anonymous, public `open' access to info, trust on mutual transparency  Decentralized - distributed peer to peer network system  Private:  Permissioned - knowing identity of participants  No requirement for "proof of work"  Business networks - smaller / closed systems  Lower costs and faster speeds  Consortium:  Hybrid between the `open access' provided by public blockchains and the `centralised-trusted entity' model of private blockchains
+2 https://en.wikipedia.org/wiki/Blockchain 3 https://bitcoin.org/bitcoin.pdf
+7
+
+Blockchain for Business and B2B Space
+
+Enterprise Applications and Blockchain
+
+Many ERP vendors and technology companies are investigating the usage of blockchain in a multitude of different areas. The approach offered often takes them to either private or consortium based approaches which do not cater to open holistic collaboration across industries and value chains. The approach by SophiaTX offers a true and open public blockchain, which is significantly more advantageous in addressing the entire value chain allowing businesses of all sizes to participate and collaborate. SophiaTX Blochchain provides flexibility and allows accelerated adoption by end users via standardized building blocks, process flows and use case designs.
+
+The overall adoption is enabled by establishing a well-managed ecosystem of players including technology partners, ERP consultants, and blockchain engineers as well as internal company IT leaders who are responsible for adoption of innovative technologies.
+
+The SophiaTX Blockchain provides various learning, development, and deployment tools for the entire community including:
+
+
+
+Use case design, process flows, business scenarios
+
+
+
+Integrated development environment (SDK and API)
+
+
+
+Advanced encryption capabilities for protecting information held by 3rd party
+
+
+
+End-to-end solution builder for business with no requirement to understand the inner
+
+workings of blockchain
+
+The SophiaTX Blockchain and suite of tools combined with meets-ups, trainings, and learning programs are designed to bring the blockchain community closer to the business / B2B space and vice versa.
+The SophiaTX Team has been established with an overarching objective of having the right mixture of competencies in technology enabled business transformation, enterprise applications and blockchain technology.
+
+Challenges
+
+To benefit from blockchain innovations across various industries, it is our belief that the end customer must recognize and address the following challenges of blockchain technology for their business:
+
+
+
+Applicability and use cases for blockchain technology
+
+
+
+Data privacy, security and resilience
+
+
+
+Impact and benefits on business processes and operations
+
+
+
+Compliance and regulations
+
+
+
+Processing speed
+
+
+
+System availability
+
+
+
+Data archival and retention
+
+
+
+Compatibility and connectivity to enterprise applications
+
+8
+
+SAP, as a leading ERP software, is fully compliant with regulations and business use, and thus any blockchain integration and extensions which connect to it must also provide the same compliance and features. The main challenge in integrating enterprise applications with blockchain is ensuring the privacy and encryption of private information in such a way that it is only available to the parties intended to see it. The next challenge is to provide a platform and its respective building blocks so that the system integrators and developers are able to build and deploy their own applications without extensive programming, leading to a reduction of time to market and eventual faster adoption of SophiaTX Blockchain. We believe that current blockchains such as Ethereum, Bitcoin and others do not provide sufficient privacy, speed, and features that are required for a mainstream adoption by businesses. The blockchain market for businesses, focused on industrial use and not on fintech, is vast, and presents significant market opportunities as presented in the section Market and SAP Ecosystem. However, building a system which complies to business and legal regulations, is comprehensive in allowing different use cases, and is simple to use both from the developer and end-user perspective, requires careful consideration. That is the main reason why SophiaTX has developed the technology roadmap presented in later sections.
+9
+
+Market and SAP Ecosystem
+Trend and Market Opportunity4 (Figure 1)
+Prior to describing SAP, it is important to highlight that SophiaTX Blochchain will allow integration of all ERPs and enterprise applications with SophiaTX Blockchain, however in initial stages we focus on SAP as it is a major player in the segment and we wouldn't consider being successful until integration with SAP is in place. In parallel integration to all other major applications will be addressed as required. Now back to SAP, the world's largest provider and market leader5 of ERP / business application software serving more than 365.000 customers in 190 countries6. SAP customers include:
+ 87% of the Forbes Global 2000 companies  98% of the 100 most valued brands  100% of Dow Jones top scoring sustainability companies  80% of its customers are SMEs SAP customers produce:  78% of the world's food  82% of the world's medical devices  76% of the world's transaction revenue touches an SAP system
+4 https://www.sap.com/documents/2016/04/a8e53949-6d7c-0010-82c7-eda71af511fa.html 5 https://www.youtube.com/watch?v=Wg-0kQzHol0 6 https://www.sap.com/corporate/en/company.html#overview
+10
+
+SAP's position on the market:  SAP is leading the market in:  Applications  Analytics  Mobility solutions  Innovation in business applications  Fastest growing database vendor (SAP HANA in-memory database)  Broadest portfolio of modular and suite solutions available on premise, in the cloud and hybrid: customers have full choice of consumption model.  Large amount of software and consulting partners  Including a large number of consultants, developers, and advisory experts
+11
+
+Solution and Roadmap
+The current blockchain technologies are not suitable for mainstream adoption by businesses as highlighted in the previous section. Therefore, the key to success is for blockchain technology to have specific features required by businesses. For example, data privacy and encryption must be strengthened, while processing speed increased. Also document retention, auditability and overall compliance must be addressed. The analysis, which Equidato Technologies AG conducted throughout summer 2017, has provided a key input in the development of the roadmap, which incorporates features ensuring the SophiaTX Blockchain is compliant and suitable for business. Also, it is important to design it at this stage as a `mission non-critical' system so that it is fully acceptable by enterprise risk and audit bodies. The following roadmap illustrates the most important features and timeline for building a business suitable blockchain and respective applications:
+SophiaTX Blockchain and Solution Roadmap (Figure 2)
+The roadmap outlines the high-level initiatives and provides an indicative timeframe for the delivery and readiness of the SophiaTX Blockchain.
+12
+
+SophiaTX Blockchain- Use Cases
+SophiaTX Blockchain enables a large number of use cases combined with individual variations across industries and segments. In our initial efforts we went through all standard modules of ERP (SAP) including Finance, Controlling, Procurement and Logistics, Sales and Distribution, Manufacturing, Project Management and others, and have detailed more than 15 uses cases. This effort was followed by identifying more than 20 various business documents applicable for blockchain use. What became evident was that in order to adopt blockchain into enterprise applications space we must take an approach of building a platform which provides for common building blocks for use cases across all modules of ERP, SCM, and CRM systems. To categorize our findings, we have identified that there are three basic categories of use cases for SophiaTX Blockchain:  Use Case One: One-to-One Document EXchange
+This use case is representative of sending a business document over blockchain in such a way that both the sending and receiving party properly acknowledge the transaction. This case is applicable to documents such as invoices, purchase orders, delivery notices, quality inspections, timesheets, work orders and others.  Use Case Two: Multi-Party Information EXchange This use case is primarily applicable where a collaboration of multiple parties is required with objectives of a common and well aligned goal. The use of blockchain allows transparent and efficient exchange of information and at the same time it provides the transparency required for a fair and trusted award of bonuses and penalties related to overall performance. In this case a good example is collaboration of multiple vendors on a project, where blockchain is used to synchronize delivery dates of all project deliveries and overall schedule. Another example is a collective maintenance effort on power station outage where parties involved synchronize work schedules and share rewards for outcome.  Use Case Three: Multi-Party Collaboration Across Value Chain - Track and Trace The most complex and yet most valuable cases address the entire value chain. In such instances information travels from the beginning to the end so that it allows full transparency from the manufacturer to the end consumer. For instance, this comprises track and trace for pharmaceuticals, food, luxury goods and countless applications. In addition to such obvious cases it also allows track and trace of industrial products, spare parts, extended warranties and certification for installed equipment if all manufacturers' rules are respected and enforced. Based on our initial analysis, these cases are highly desired by current businesses to protect their installed equipment and assets.
+13
+
+Use Case One: One-to-One Document Exchange ­ Invoice to Customer
+Market Situation
+In today's market, companies are evermore challenged and required to exchange information to help support and keep their businesses operational. Although ERP systems such as SAP are available 24x7, they are mainly very insular without interfaces to their customers and vendors systems. Data such as invoices requires third parties (mailing companies) or integration and usage of complex IT technologies for the delivery of such documents. The European E-Invoicing Service Providers Association7 (EESPA) reported a significant growth of 29% and over 1.6 billion processed einvoices in 2016. Traditional e-invoicing is cumbersome in adoption, is relatively expensive to implement, is rather limited to a selected type of document and is peer-to-peer. This is where blockchain technology offers faster adoption and true, peer-to-peer information exchange of relatively unlimited types of documentation.
+Traceability
+The use of blockchain technology provides a secure and provable mechanism for the transfer of the invoice information to the end customer. The information can be read directly by the ERP without the need for additional third-party system integration. The use of blockchain provides a guaranteed and provable method of delivery, so in a dispute situation there can be no argument that the invoice was not sent as the transaction information is stored on the blockchain and can be retained as proof.
+Solution
+The following solution is a description of an invoicing document, however the same principles and design are applicable for a variety of other business documents such as purchase orders, delivery notifications and others: SophiaTX Blockchain will provide a solution for customers allowing them to send key information related to a sales invoice via the blockchain to the end customer for agreement and approval. The solution will allow the end customer to generate a Purchase Invoice directly from the information which has been sent.
+The vendor will issue the invoice directly within the ERP to the blockchain with the following information as an example:
+7 https://eespa.eu/eespa-aggregated-2016-volume-survey/
+14
+
+ Invoice no.  Purchase ref. no.  Line Items
+ Item ref. no.  Description  Quantity  Unit price  Tax %  Line Total  Issue Date  Due Date  Down Payment deduction  Payment Terms  Document Total  Vendor Name  Vendor Address
+To ensure integrity, authenticity, originality and confidentiality of the document, it is encrypted by the publisher (vendor) using the SophiaTX SDK. The essential data related to document are then sent to the blockchain to be verified and sent to the receiver (customer). Once the transaction is verified in blockchain, the platform will send the message to the client system for processing. The data sent to the client system from SophiaTX Blockchain is encrypted and must be decrypted into a readable format using the SophiaTX SDK. A specified system user will be notified that a SophiaTX transaction has been received by their system. Within the ERP the user will be able to view the information which has been received. When the invoice information has been received by the customer, the vendor will receive a notification that the transaction is complete and the customer has received the invoice information. The customer will be able to view the invoice information and can confirm the agreement to the contract. The customer will be able to automatically generate a Purchase Invoice from the received invoice information based on a delivery or purchase order which already exists in the system relating to the purchase.
+15
+
+Use Case Two: Multi-Party Information Exchange
+Market Situation
+In today's market, businesses of various sizes within industries such as engineering, construction, and MRO services face many challenges when working collaboratively.
+The boom in technology in the past years has seen an increase in more complex and technologically advanced solutions being sold to the end customer, requiring more robust collaboration among third party suppliers involved during the delivery of such projects. Today's customer expects value for money in the early stages of business relations. The RFP (Request for Proposal) process is an area which SophiaTX Blockchain will address by providing the trust levels between parties. During the RFQ (Request for Quotation) process it is not only relevant to select the correct partner but at the same time also to drive the cost of a project. With many companies providing complex projects using emerging technologies more parties are involved in the delivery, which in turn increases the risk of delivering on time and within budget.
+Traditional methods such as team meetings and collaborative project plans do not provide the necessary security means for the main supplier, as proof for acceptance or work delivered is missing. The blockchain offers a very effective solution for collaborative acceptance of schedules and proof of deliveries within the given timeframe.
+Blockchain is the enabler for true working collaboration providing complete transparency, allowing project managers and controllers to track the progress and completion of project milestones which in return can be shared within the many involved parties. Blockchain and its peer to peer technology provides the evidence that tasks were agreed upon in case of dispute between parties.
+
+Solution
+
+The following solution is a description of project scheduling, however the same principles and design will be applied to a variety of other collaboration cases which will be released at a later stage.
+
+SophiaTX will provide a solution for customers allowing them to share the project schedule data relevant to the individual party.
+
+The information which is relevant for information sharing with all the 3rd parties:
+
+
+
+Work Breakdown Structure
+
+ Start Date
+
+ Completion Date
+
+ Baseline Date/s
+
+ Delivery Responsible
+
+ Delivery Milestones
+
+
+
+Scheduling of Man Hours
+
+
+
+Component Deliverables
+
+
+
+Support and Maintenance Schedule
+
+16
+
+
+
+Scheduling Status
+
+
+
+Delivery Status
+
+Every deliverable whether it is time and material or support and maintenance will be shared with the 3rd parties for clarification or validation of completion.
+When a project is initially created, the list of relevant scheduled tasks will be sent via the SophiaTX Blockchain to the 3rd party for validation.
+The 3rd parties will validate the information provided and agree on the schedule of works to be completed.
+Within SAP, a list of tasks including start date, deliverable dates, etc will be provided and notifications created for deliverable deadlines.
+The SophiaTX Blockchain will keep the original track of schedules, including updates and further scheduling / revisions. Such a transparency and synchronization allows for effective deliveries and cost savings resulting from elimination of waiting times, more efficient use of labour and low financing costs. A collaboration tool of this effect can be applied across a variety of industries and business scenarios.
+
+17
+
+Use Case Three: Collaboration Across Entire Value Chains - Track and Trace in Pharma
+Challenges in Pharmaceutical Supply Chains
+
+The pharmaceutical ecosystem evolves rapidly as new, advanced technologies are being introduced and quickly adopted by industry players. Evolution and simplification of processes enable and accelerate the entire pharmaceutical landscape.
+The overall landscape from when raw materials are being supplied to a manufacturer and up to the moment where the final pharmaceutical product is being sold to the patient is very complex in terms of collaborating parties, manufacturing, quality assurance including the shipment processes involved, anticipated risks and other influencing factors.
+With well-known facts such as the growing and aging population, new diseases being discovered, and people with inborn health conditions the pharmaceutical industry is challenged to address those trends in safe and efficient and the ways.
+The pharmaceutical industry is operating in a highly competitive market. Market share, turnover volume, and R&D spends are being challenged by smaller companies levering their fast and lean processes to top or overhaul the larger competition. Nonetheless all the drug manufacturers face common issues which cannot be resolved solely within a centralized and isolated system.
+
+Counterfeit products
+
+The pharmaceutical industry on its own is a very profitable business. Increased demand, supply shortage and other market factors open doors to non-authentic drug manufacturers, an issue observable in both branded and generic products.
+
+Counterfeit drugs or products marketed with intent to deceive:
+
+
+
+Counterfeit active / bulk ingredients,
+
+
+
+Counterfeit finished products,
+
+
+
+Unregulated diverted products,
+
+
+
+Counterfeit labelling,
+
+
+
+Mislabelled substances (e.g., generic antibiotics)
+
+Pharmaceutical production represents one of the most regulated sectors in the global economy.
+Counterfeits can be made relatively cheaply and many countries, especially in the developing world, lack adequate measurement and oversight in regulations and enforcement of the law.
+Especially non-branded generics are very widely counterfeited (e.g., ampicillin or paracetamol). Customers are lacking information when buying a product and patients often have to rely on doctors and pharmacists while advised about prescribed drug and the consequent purchase.
+
+18
+
+Counterfeiting can be looked at from two angles:
+
+
+
+Threat to public health and overall number of deaths caused
+
+
+
+Impact on the pharmaceutical companies' revenues
+
+According to the ITO (International Trade Organisation) and other research, the global drug counterfeit market8 is valued between USD 70 billion to USD 200 billion, in both developed and developing countries. A recent global research is projecting the worldwide pharmaceutical market to grow from around $1 trillion in 2015 to $1.3 trillion by 2020. The unwanted consequence to the market is that counterfeits will grow alongside the growing market.
+
+Compliance
+Pharmaceutical companies are often accountable to store, distribute or ship drugs. However, thanks to outsourcing, accountability is usually passed to specialized logistics companies.
+Storage and transportation conditions such as temperature, humidity or even air pressure are crucial factors whilst ensuring the appropriate drug handling by the manufactures across the entire supply chain.
+For temperature sensitive products such as vaccines, deviations outside a specified temperature range may jeopardize and damage the quality of a particular product or the entire shipment.
+Temperature excursion is a deviation from the given temperature range. The World Health Organisation (WHO) guidance defines excursion as an event in which a Time Temperature Sensitive Pharmaceutical Product9 (TTSPP) is exposed to temperatures outside the range prescribed for storage and / or transport handling.
+In the digital era, temperature excursions are often monitored and recorded by IoT or other smart devices helping the transportation companies to address these failures.
+Temperature excursions10 during transport are not rare events. According to information obtained from various sources, exceptions happen at a frequency of 1 ­ 5 % of all transport events. This places transportation as one of the least reliable processes in the entire supply chain.
+What makes temperature excursions difficult to handle is that there is often no visibility in predicting the next condition that the product will be exposed to. Natural disasters or human-related events could interrupt the transport route at any given time.
+If a deviation such as a temperature excursion or product damage has occurred during transportation, this should be reported to the distributor and recipient of the affected medicinal products, which is not always the case due to various reasons.
+
+8 https://www.trade.gov/topmarkets/pdf/Pharmaceuticals_Executive_Summary.pdf 9 http://www.who.int/medicines/areas/quality_safety/quality_assurance/ModelGuidanceForStorageTransportTRS961Annex9.pdf; Chapter: Glossary 10 http://www.pharmoutsourcing.com/Featured-Articles/146648-Handling-Temperature-Excursions-and-theRole-of-Stability-Data
+19
+
+Traceability and Recalls
+
+Drug traceability and recalls are one of the biggest challenges in the supply chain as multiple partners are involved.
+
+Partners operate on a transactional basis, for example orders, shipment notices, or invoices. Most of the time these transactions are taking place between two partners. To track or trace a pharmaceutical product, supply chain partners must either push the transaction from one partner to another or connect with other trading partners to access the corresponding data.
+
+For example, as of November 2017, all prescription drugs in the U.S. will be required to have a serialisation code on each individual unit. In other words, shipping products without a National Drug Code (NDC), serial number, lot number or expiration date will be prohibited.
+
+This information has to be in a readable format for both machines and humans. However, the serialization, data exchange and verification process adoption will take time and effort.
+
+Considering the information systems:
+
+
+
+Complexity
+
+
+
+Number of transactions processed
+
+
+
+Diversity in technology
+
+
+
+Platforms used
+
+
+
+Data mapping across the supply chain
+
+
+
+Security requirements
+
+These factors represent major challenges to be addressed with regards to tracking and tracing.
+
+How Blockchain can address these Key Challenges
+The case study presents the use of the distributed ledger technology (blockchain) in combination with market leading enterprise systems such as SAP. It is a well-known fact that SAP software products11 are widely used across the pharma industry. The top 20 prescription drugs are produced by SAP customers leveraging SAP software products across their sourcing, manufacturing and supply chain processes (SAP Customer Fact sheet).
+According to IgeaHub ­ Pharmaceutical Club, these top 20 drugs are manufactured by 14 companies and account for a total of 10% of the global prescription drug market in 2016. The total revenue generated by these products was estimated to be USD $128 billion12. Integrating blockchain and SAP will allow pharmaceutical companies to write their products into blockchain directly from their SAP systems and prove their authenticity.
+We propose the following information to be added to the SophiaTX Blockchain as an example:  IoT and other smart devices
+11 https://www.youtube.com/watch?v=Wg-0kQzHol0 12 https://igeahub.com/2017/08/08/top-20-drugs-in-the-world-2017/
+
+20
+
+ Temperature exception  Humidity level change  Pressure level change  and other  Manufactured drug  Drug name / ID  Serialisation number  Batch number  National drug code (US only)  Lot number  Expiration date  and other  Shipping Details  Route  Date of loading  Expected delivery date  Start destination  End destination  and other
+Providing the product authenticity in the SophiaTX Blockchain enables pharmaceutical companies to address counterfeit issues, helping to decrease the number of counterfeits on the market, and consequently eliminating adverse effects on the end user. Logistics and distribution companies use various backbone systems to collect the data from a multitude of sources. The most innovative companies have installed IoT and other smart devices in their fleets, collecting temperature, humidity and / or air pressure data to help increase their competitiveness. This data, including all deviations from the parameters can easily be transmitted to SophiaTX Blockchain for each particular drug, lot or shipment, and be verified against the instructions provided by the manufacturer while handling and transporting the product. Resellers such as hospitals and pharmacies can easily verify the trustworthiness of information published or shared by distribution companies. SophiaTX Blockchain can also help to address traceability and tracking challenges of each individual product, with its serial number or other identifiers when it is written into the SophiaTX Blockchain and shared with all parties across the entire supply chain.
+21
+
+Supply Chain Process Model
+Supply Chain in Pharma Industry (Figure 3)
+1. Pharmaceutical manufacturers write ingredients (bill of materials), serial and batch numbers and other regulatory data required into SophiaTX Blockchain
+2. Distributors write tracking ID, status, tracking info and other important data 3. Transportation companies and warehouses with their IoT sensors confirm the compliant
+conditions, temperature exceptions or other by regulator or manufacturer given conditions 4. Hospitals, Clinics and Pharmacies - while taking over the drug can prove all product related
+information are true 5. Patients can verify the shipment and prove the authenticity, and shipment conditions
+throughout the entire lifecycle.
+22
+
+Technology and Architecture
+Overview
+Sophia Platform Technology and Architecture (Figure 4)
+SophiaTX Blockchain for B2B is based on a distributed server technology and will integrate the following components which are described in detail in the following chapters.
+ Marketplace including Application Store  Authentication Engine  Sophia SDK  Test and Publishing Engine  Application Library  Logic Engine  Event Handler  Data Store and Analytics Engine  User Data Store  Blockchain This architecture is being designed to ensure compliance with established international standards, guidelines, and legislation regarding data protection, privacy and security. It is the responsibility of the developer to implement their solution so that data is encrypted before it is sent to the SophiaTX Blockchain. Only the customer will have access to their own private key, as well as know the public key of their customers / vendors. Therefore, all encryption has to be handled by the client application.
+23
+
+As part of the API, SophiaTX Blockchain will provide the methods allowing a developer to encrypt and decrypt the data package, in such a way that the same implementation can be used without having to code encryption / decryption methods each time an application is written. The SophiaTX Blockchain is not designed for high throughput or low latency and it does not scale. Therefore, SophiaTX provides a decentralized data backbone, which provides a Data Store for the information which cannot be passed through the SophiaTX Blockchain.
+Sequence Diagrams
+The following diagrams show the high-level interactions between the different engines. User Authentication and Authorisation
+User Authorised by System (Figure5)
+24
+
+Application Build and Deploy
+Developer Builds and Deploys application (Figure 6)
+Transaction sent to SophiaTX Blockchain from ERP / CRM System
+ERP sends message to SophiaTX Blockchain (Figure 7)
+25
+
+Transaction sent to ERP / CRM System from SophiaTX Blockchain
+Message received from SophiaTX Blockchain (Figure 8)
+User Services - Certified Backup Authority
+An optional certified backup authority will be available to customers who wish to store a copy of their sensitive user data off-site.
+User Services The User Services will store and manage all user data, comprising of the following information:  User access details (Username, Password)  User private details (Contact, Address etc.)  Private key  App license information  User SSL certificate  List of secret keys with TransId
+SophiaTX Browser
+A browser based solution will be provided which can be embedded into the CRM / ERP and is available in the Marketplace for the customer to view their live transaction information as it is being processed on the SophiaTX Blockchain. When the window is open inside the ERP / CRM system the user will see the data transaction in real-time. When a user accesses the view via the marketplace they will be able to select a date range to view transactions which have taken place within the selected timeframe.
+26
+
+Authentication Engine
+The Authentication Engine handles all the authentication and authorisation to the marketplace and the authorisation from applications which have been purchased and installed in the external system (ERP / CRM). The authorisation roles will grant privileges to use the different functionalities and applications, and access to modules of SophiaTX Blockchain. The ERP / CRM system will use VPN tunnelling, creating a secure access point to the SophiaTX Blockchain. Whenever a transaction or message is sent to the SophiaTX Blockchain the Authentication Engine will request information from the User Data Store to verify the endpoint. If the endpoint cannot be validated the transaction will not be processed further. The Authentication Engine resides in the De-Militarized Zone (DMZ) and uses an encrypted proprietary messaging protocol to access the 3rd party private blockchain and the User Data Store. The Authentication Engine will allow or deny the access based on the outcome of authentication. When an unauthorised application or user is denied, the IP Address will be blocked by the system and further requests from the address will be denied. The Authentication Engine will expose a messaging and event layer which is the entry point into the system for external systems such as SAP. Access to the SophiaTX Blockchain can also be direct, without the need to be validated by the authentication engine.
+Logic Engine
+All transactional and business logic which is necessary to deploy into the blockchain will be provided in the Logic Engine. The Logic Engine interacts with the Data Store to hold sensitive information which cannot be placed on the blockchain. The SophiaTX transactions submitted to the blockchain will have the following encrypted information embedded:
+ TransID (reference to data stored on Data Source)  HashOfData  Shared Key (used to decrypt the data)
+Encryption
+The SophiaTX SDK contains encryption functions which allow the developers to encrypt and decrypt data packets before they are being sent to or received from SophiaTX Blockchain. There will be different encryption types available in the future, as the SDK develops.
+27
+
+Process Description for Encryption Triggered by Users SophiaTX Blochchain will provide a library of functions which can be called by a developer. The encryption method will do the following:
+ Symmetric AES Encryption based on the data, with Secret Key generated by client application
+ Symmetric Encryption which includes SHA256 Hash, AES Secret Key and link to data, encrypted with a shared secret key. The shared secret key is based on shared secret, built with the sender's private key and the receiver's public key and / or the sender's public key and the receiver's private key.
+Encryption Process (Figure 9)
+Process Description for Decryption Triggered by Users Calling the API dll Decrypt will use the shared secret key to decrypt the transaction data. The Secret Key, hash and link to data are now available to the user. Using the secret key that systemically encrypts data can be used for the decryption of data records by the application of the hash function on the decrypted data to compare with the original hash thus ensuring that the data has not been modified.
+28
+
+Decryption Process (Figure 10)
+29
+
+Testing and Publishing Engine
+The development platform provides a private regression and testing environment, based on the same setup as the production blockchain, but available only to the developer/s within one organisation. When a developer is satisfied that their application is ready they must first test their application in the testing environment. Once fully tested, the application should be submitted to the automated testing system which will test and provide the pass / failure results. When the testing process provides a pass result, the application will be approved and certified for use on the SophiaTX Blockchain and the developer will be provided with the license key which is the identifier of their application. The license key is used later to track purchases and usage of the application.
+Data Store and Analytics Engine
+The Data Store holds the encrypted transactional information and documents which are too sensitive to place onto the blockchain. The Data Store will comply with the company's local legal requirements for data capture and storage and will utilise the SAP HANA Database technology, with the encrypted data being stored using a multi-container, multi-tenant approach. SophiaTX Blockchain will provide an Eclipse13 (JAVA based Integrated Development Environment) plugin and the user will be required to enter their user details (username, password) and private key; Once verified, a clone of their encrypted data will be decrypted and provided. The user can use the calculation and analytical features to build views which can then be accessed within their own SAP environment. Users will be able to embed their information into the SAP User Experience as Fiori style dashboards / cockpits. For auditing purposes, SophiaTX Blockchain is going to provide an offline tool which only the end customer can access, allowing them to decrypt the raw data (read only) so that an auditor can review the data being held on the SophiaTX Blockchain. Additional datastore technologies are being looked into, in order to provide complementary technologies to suit end customer requirements.
+13 https://www.eclipse.org/
+30
+
+Marketplace
+The Marketplace is a web based solution and entry point for customers and solution developers and contains two primary areas App Store and Dev Store (as per Figure 4). Customers will be able to view and purchase applications developed for SophiaTX Blockchain, while developers are given the option to download the API and submit their own applications for testing prior to the release in the App Store. A published application is going to contain a unique license key used within the blockchain as a method of remuneration for the developer. All customer and developer data in the store is encrypted and saved in a resilient off-site repository. App Store
+The App Store, embedded in the marketplace, is going to provide a catalogue of applications which have been developed and certified by the various solution integrators and developers. Customers can download and install an application into their ERP System which will synchronise with the SophiaTX Blockchain and utilise the blockchain functionality. Dev Store
+The development store, another integral part of the marketplace, integrates the testing environment and allows developers to test their application within a private testchain. All applications will undergo rigorous testing before being placed in the App Store. The license key is only provided to the developer once the testing for certification has successfully been completed. The Dev Store provides developers with the tools necessary to integrate with the SophiaTX Blockchain. SophiaTX Blockchain will provide a Java and .Net based interface for development integration.
+Application Library
+Applications developed by external and SophiaTX Blockchain developers are stored in the application library once they have passed the certification process. The application library is linked to the Marketplace App Store where the end customer will be able to view the details of the application, and will be able to purchase and install the application in their system. The application store will hold the following details for each application:
+ Application Name  Application Description  Application SPHTX value  Application Logic for download and install  Other information relevant for categorization, industry, business scenario and usage
+31
+
+Blockchain
+Transactions will be stored in an encrypted format in the public SophiaTX Blockchain. It is a new independent platform differentiating from already existing blockchains like Ethereum, Chain Core, Hyperledger and others. As a starting point it based on the DECENT design and protocol14, which utilizes Delegated Proof of Stake (DPoS). Subsequently all features required and suitable for business applications will be developed as per the roadmap. DPoS is known to be the fastest, most efficient, most decentralized and most flexible consensus model15. The high transaction rate (the number of transactions per second) of DPoS allows handling and processing of large volumes of transactions generated by SophiaTX Blockchain users. The main attribute of DPoS is that stakeholders have the right to elect miners in a democratic manner. Every stakeholder is able to vote and express their opinion about who should be responsible for block generation. Candidates with the highest number of votes are elected and have the right to generate new blocks and fill them with unprocessed transactions. The number of active miners is limited, but anybody can apply to be a miner. Elected miners are paid for their willingness, services in verifying transactions, and contribution to the network. It requires mentioning that an irresponsible and untrustworthy miner can be voted off and be replaced by a new miner. In DPoS, chain parameters (for example block interval and size, maximum number of miners, transaction fees) are not fixed. Miners may propose changes to the parameters, and if approved by the majority of miners, changes are accepted. The contract stores necessary data for both the vendor and customers and will be stored in the blockchain. Sensitive and confidential data will be securely encrypted by a shared secret so that only the vendor and consumer can decrypt it. Unencrypted data will be publicly available. To provide privacy and security in business transactions, the SDK allows for all or selected data to be encrypted, for example with hash (SHA256), and signed with the issuer's private key. This signature is appended to the transaction. Every attempt to modify a transaction will lead to a different hash and subsequently to a different signature, indicating that the original transaction has been modified by someone else. Such attempts are automatically recognized by the SophiaTX Blockchain and rejected as invalid. Consequently, every transaction in the SophiaTX Blockchain is immutable, irreversible, and protected against any attempt to tamper with it. SophiaTX Blockchain will provide a private blockchain to end customers who request such a solution, which will be enabled by SPHTX.
+14 https://docs.decent.ch/WikiDecent/decent/technical/ 15 http://docs.bitshares.eu/_downloads/bitshares-general.pdf; part 5.4: Distributed Consensus Mechanism
+32
+
+SophiaTX Token and its usage Once the SophiaTX Blockchain is fully launched, it will utilize its own proprietary token SPHTX. SPHTX will have multiple uses on the blockchain, within the marketplace and will also be included as a utility token in many decentralised applications (Dapps):  Transaction fee and reward for miners validating transactions and blocks on the blockchain  Subscription to access rights to the SophiaTX Blockchain  Reward allocation for buying and selling of assets in the marketplace (App Store and Dev Store)  Reward for the developers when an end customer installs and uses a SophiaTX Application (Dapp license)  Transaction and data storage fee for document file server  Licensing for private Blockchain
+33
+
+Go-to-Market Strategy and Driving Successful Adoption
+SophiaTX has been started with the full intention of creating a commercially viable product and platform. There are many factors impacting the overall success, however, we have clearly understood the need for a business viable product and subsequent need for driving adoption and widespread use. The SophiaTX market strategy is based on the following principles:
+ SophiaTX Blockchain must be suitable for business from functionality, security, and compliance perspective
+ Use cases enabled by the SophiaTX Blockchain must have a positive business case and must add significant value to the business and entire ecosystem e.g. increase in revenue, customer trust and satisfaction, elimination of waste, reduction in time, or cost savings
+ The SophiaTX Blockchain must be easy to integrate with enterprise applications such as SAP, Oracle, Salesforce, Microsoft Dynamics, and many more
+ The community of business and system consultants must be engaged, knowledgeable, supportive and skilled in the adoption of SophiaTX Blockchain
+ End customers must be knowledgeable and actively engaged Our go-to market strategy has considered all key and relevant players in the ecosystem regardless whether they are influencers or have direct control over decisions and delivery. The following diagram illustrates such groups of stakeholders which must be knowledgeable and actively supportive for successful adoption.
+SophiaTX Ecosystem of IT Consultants, Partners, and Clients (Figure 11)
+34
+
+As an example, there are over 17,000 partners within the SAP Partner network16, and the SAP expert community17 has over 2.5 million registered members. Such target groups provide sizeable opportunity for building innovative Dapps on SophiaTX Blockchain, driving its adoption and usage. To drive early adoption by companies, several innovation programs have been established. The partnership programs not only support direct innovation by clients but also allow for technology and consulting partners to join SophiaTX Blockchain and directly benefit from the adoption by either building Dapps or providing technology services. The following table describes programs that we have developed for industrial clients of all sizes and consulting and delivery partners.
+Early Adoption Programmes for Clients and Partners (Figure 12)
+In addition to clients and consulting partner programs described above, there is an intent to introduce a `Technology Partner' program primarily focused on those companies that will provide complementary products and services. Those programs will be defined in detail in the early stages of 2018.
+16 https://www.sap.com/corporate/en/documents/2017/04/4666ecdd-b67c-0010-82c7-eda71af511fa.html 17 https://www.berater-wiki.de/SCN_(SAP_Community_Network)
+35
+
+Defining the SophiaTX Blockchain Approach and Learning from Other Blockchains
+Prior to defining the strategy and approach for SophiaTX Blockchain, we have assessed the technological capabilities of other blockchains to ensure we can truly add value and define a product that will not only be suitable for business but also provide superior functionality and features. We have scanned many blockchains however very few are focused on business and enterprise applications. We have considered the following blockchains and here are key findings:
+Ethereum
+Despite the fact this is one of the most dominant platforms currently in use for ICO/TGE and many other uses, we have concluded that using Ethereum18 for integration with business applications has its limitations.
+It is possible to use Ethereum for some selective business contracts and transactions, however, providing a holistic high performance blockchain, in our view, would not be attainable, partly due to the use of Proof-of-Work (PoW). Also, it is required that a business suitable blockchain must have certain level of privacy and encryption currently not used by Ethereum.
+SAP Blockchain-as-a-Service
+The SAP company has introduced a very compelling offering under its SAP Leonardo19 innovation effort. SAP's blockchain approach of BaaS20 (Blockchain-as-a-Service) is suitable for large and midsize organizations seeking a rather private and consortium based setup. Having said that, opening it to wider public participants may prove to be challenging and less trusted by typical blockchain advocates. In our view BaaS is coming short of being truly inclusive of all participants across value chains, does not provide sufficient transparency, and has a tendency to be relatively more expensive.
+Hyperledger
+Hyperledger21, hosted by the Linux Foundation, is an open source collaboration project in developing many building blocks for business blockchains with an outstanding line up of participants. Some of the most valuable research is coming from the initiative. From the industrial company perspective, it is required that a service provider comes with a ready to use solution suitable for business and such offerings are still not available. Most of the participants have plans that are similar to private blockchain offerings, which again are mostly targeted at large scale and mid-size organizations. This is mostly consistent with the consulting and IT provider business models. In the case of SophiaTX Blockchain, similar to premier members, Hyperledger provides valuable input and collaboration, however taking the end product to market is directly in the hands of SophiaTX Team.
+18 https://ethereum.org 19 https://www.sap.com/products/leonardo.html 20 https://www.sap.com/products/leonardo/blockchain.html 21 https://hyperledger.org
+36
+
+Other industry specific blockchains Without naming individual projects, there are a number of initiatives focused on creating industry specific blockchain solutions. Very often they integrate not only blockchain but also IoT sensors and other technologies required by the business. Our solution also integrates with IoT, automation and other technologies, however in contrast to the industry specific approach, we have adopted a platform approach with cross industry capabilities. This allows companies and its partners to establish holistic and open collaboration even outside of their core industries. SophiaTX Blockchain is directly targeted at connectivity of enterprise systems allowing for modular builds of new collaboration models. Its capabilities enable reshaping and developing new business models across entire value chains. In conclusion, we have to build a high-performance solution with technology features required by businesses, fully compliant, secure, and its token value must be directly tied to value generated by its own community (rather than generic use and trading alone, or other indirect factors). In the case of SophiaTX Blockchain the value of the token is directly influenced by the community itself.
+37
+
+SophiaTX Token Generation Event (TGE) and Token Distribution
+
+Intended use of Proceeds (TGE) (Figure 14)
+
+Figure 14 illustrates the intended use of proceeds from the SophiaTX Token Generation Event (TGE). The proceeds of this event are intended to be used in the following way:
+
+
+
+45%: SophiaTX Core, Interfaces R&D and Operations
+
+
+
+35%: Outreach, Integrations, Partnerships, Marketing and Business Development
+
+
+
+10%: Legislative and Compliance Support Fund
+
+
+
+10%: SophiaTX Innovation Lab
+
+The TGE will be conducted by SophiaTX. During the TGE the participants will receive ERC-20 based SPHTX for their donations. In order to secure the development of respective software, SophiaTX will engage Equidato Technologies AG, a company focused on the integration of blockchain with enterprise applications, such as SAP, IoT sensors, smart printing, and other advanced technologies forming the 'industries of the future' eco-system; however, it may also engage any of its affiliates or a third party. Proceeds received from the participants will be used for this purpose.
+During the TGE, SPHTX are created as ERC-20 cryptographic tokens on the Ethereum protocol. Later after the TGE and once SophiaTX Blockchain is launched, the ERC-20 based SPHTX will be replaced by final proprietary SPHTX. The participants shall within a period announced by SophiaTX remit/redeem their ERC-20 based SPHTX, otherwise they cease to exist. At that point the participants that received the ERC-20 based SPHTX shall receive the final proprietary tokens SPHTX and the ERC-20 based SPHTX will be burnt.
+The TGE will last 10 days. During these 10 days there will be 5 rounds, based on the current Ethereum block times. ERC-20 based SPHTX is going to be offered for accepted coins and tokens including BTC, DCT and ETH . SophiaTX reserves the right further to accept other alternative cryptographic coins and tokens subject to individual assessment. Solely ETH values are determinant. There is an additional 10% bonus for contributions in DCT.
+Disclaimer: The details of exact start of TGE and specific block times for each round will be provided on the SophiaTX website before the start of the TGE.
+The TGE principles:
+ TGE organized in 5 rounds  30 000 000 tokens for each round
+
+38
+
+ New round starts when 30 000 000 tokens generated in current round, or estimated 48 hours (based on the Ethereum block time) from start of the round
+ Each round the token value increases by 10% compared to previous round's value  Last round includes all remaining tokens
+
+SPHTX tokens Value per token increase coefficient Value per token (in ETH)
+ETH raised
+
+Round 1
+
+Round 2
+
+Round 3
+
+Round 4
+
+30,000,000 30,000,000 30,000,000 30,000,000
+
+1
+
+1.1
+
+1.21
+
+1.331
+
+0.000627890 0.000690679 0.000759747 0.000835722
+
+18,837
+
+20,720
+
+22,792
+
+25,072
+
+SPHTX Token Generation Event Structure (Figure 15)
+
+Round 5 30,000,000
+1.4641
+0.000919294 27,579
+
+Total 150,000,000
+n/a
+n/a 115,000 ETH
+
+All time intervals are approximate and are based on the current block times of the Ethereum network during the TGE.
+Starting ETH Value of ERC-20 based SPHTX is: 1 SPHTX = 0.00062789 ETH.
+Based on the above data the hard cap of the TGE is 115,000 ETH.
+If not all ERC-20 based SPHTX are generated during the TGE, the remaining tokens will be redistributed to the current TGE participants according to their SPHTX stake.
+For example, one TGE participant having 2000 SPHTX will receive twice the amount of the participant having 1000 SPHTX, of remaining tokens.
+
+SPHTX Token Distribution (Figure 16)
+Figure 16 illustrates the SPHTX token distribution at the launch of the SophiaTX Blockchain. The tokens will be allocated in the following way:  30%: TGE  5%: Future Token Generation Event  35%: Development, Operations, Marketing, Team  30%: Mining (25 years)
+39
+
+This results into:  150'000'000 SPHTX ­ TGE  25'000'000 SPHTX ­ Future Token Generation Event  175'000'000 SPHTX ­ Development, Operations, Marketing, Team  150'000'000 SPHTX ­ Mining (25 years) The total number of tokens ever generated is 500'000'000 SPHTX. 70% of the tokens dedicated to Development, Operations, Marketing, and the Team shall not be disposed for 12 months after initial SPHTX generation.
+40
+
+Glossary
+Term AES API B2B BaaS CRM DAPP DMZ DPOS Eclipse ERP EESPA IOT ITO MRO NDC PoW RFP RFQ SAP SAP HANA SCM SDK SME SophiaTX
+
+Description Advanced Encryption Standard Application Programming Interface Business to Business Blockchain-as-a-Service Customer Relationship Management Distributed Application Demilitarized Zone Delegated Proof of Stake JAVA based Integrated Development Environment Enterprise Resource Planning The European E-Invoicing Service Providers Association Internet of Things International Trade Organisation Maintenance, Repairs, Overhaul National Drug Code Proof-of-Work Request for Proposal Request for Quotation Systems, Applications, Products: Leading business software corporation In-memory, column-oriented, relational database management system Supply Chain Management Software Development Kit Small and Mid-size Enterprises SophiaTX, obcianske zdruzenie, with its registered seat at Rajská 2341/15, 81108 Bratislava-Staré Mesto, the Slovak Republic, company ID: 51074567, registered with the Register of Civil Associations of the Ministry of Interior of the Slovak Republic
+
+41
+
+SophiaTX Blockchain
+
+An open source blockchain platform and marketplace focusing on integrating blockchain with SAP and other major ERP, CRM, and SCM systems aiming to expand the possibilities of enterprise applications with the trust and security that comes with blockchain technology.
+
+SophiaTX Team
+
+The group of developers and other personnel, who are now, or will be, engaged by SophiaTX in order to develop and secure ongoing operation of the SophiaTX Blockchain.
+
+SPHTX
+
+the token of SophiaTX Blockchain
+
+TGE
+
+Token Generation Event
+
+TTSPP
+
+Time Temperature Sensitive Pharmaceutical Product
+
+VPN
+
+Virtual Private Network
+
+WHO
+
+World Health Organization
+
+42
+
+References and Sources
+
+Source
+
+Link
+
+Blockchain
+
+https://en.wikipedia.org/wiki/Blockchain
+
+Bitcoin: A Peer-to-Peer Elec- https://bitcoin.org/bitcoin.pdf tronic Cash System
+
+International Trade Administration
+
+https://www.trade.gov/topmarkets/pdf/Pharmaceuticals_Executive_Summary.pdf
+
+SAP Overview
+
+https://www.sap.com/corporate/en/company.html#overview
+
+PharmaOutsourcing.com
+
+http://www.pharmoutsourcing.com/Featured-Articles/146648-Handling-Temperature-Excursions-and-the-Role-of-Stability-Data
+
+IGEAHUB - Pharmaceutical Club
+
+https://igeahub.com/2017/08/08/top-20-drugs-in-the-world-2017/
+
+World Health Organization
+
+http://www.who.int/medicines/areas/quality_safety/quality_assurance/ModelGuidanceForStorageTransportTRS961Annex9.pdf
+
+Eclipse
+
+http://www.eclipse.org/
+
+DECENT network technical in- https://docs.decent.ch/WikiDecent/decent/technical/ formation
+
+BitShares 2.0: General Overview
+
+http://docs.bitshares.eu/_downloads/bitshares-general.pdf
+
+Facts about SAP Customers https://www.youtube.com/watch?v=Wg-0kQzHol0
+
+SAP Digital Report 2016
+
+https://www.sap.com/documents/2016/04/a8e53949-6d7c-0010-82c7eda71af511fa.html
+
+SAP Global Corporate Affairs https://www.sap.com/corporate/en/documents/2017/04/4666ecdd-b67c0010-82c7-eda71af511fa.html
+
+European E-Invoicing Service Providers Association
+
+https://eespa.eu/eespa-aggregated-2016-volume-survey/
+
+SAP Community Network
+
+https://www.berater-wiki.de/SCN_(SAP_Community_Network)
+
+Ethereum
+
+https://ethereum.org
+
+SAP Leonardo
+
+https://www.sap.com/products/leonardo.html
+
+SAP BaaS
+
+https://www.sap.com/products/leonardo/blockchain.html
+
+Hyperledger
+
+https://hyperledger.org
+
+43
+
+

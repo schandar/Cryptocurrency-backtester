@@ -1,0 +1,128 @@
+Dragonchain C ommercial Platform Version 6 September  2 017 Copyright © 2017 D ragonchain
+Background
+Dragonchain was originally developed at Disney's Seattle office in 2015 and 2016 as the D isney Private Blockchain Platform. Over 20 use cases and applications1 were explored and documented publicly via the W3C Blockchain Community Group2. The platform was later released as open source s oftware under the A pache 2  l icense in October of 2016.
+Dragonchain simplifies the integration of real business applications onto a blockchain and provides features such as easy integration, protection of business data and operations, currency agnosticism, and m ulti-currency support.
+The Dragonchain Foundation, a Non-Profit Corporation was created in January of 2017 to maintain ownership and r esponsibility of t he open source c ode.
+The Dragonchain team is now in the process of launching a commercial entity to build a serverless architecture blockchain platform, and an incubator. The combination of serverless and blockchain technologies is unique and tremendously valuable. The timing of the Dragonchain platform launch is highly strategic to benefit from explosive growth of cloud computing over the last few years and the emerging w ave o f Blockchain s olutions entering p roof o f c oncept s tage across e nterprises.
+Vision
+The Dragonchain team will launch Dragonchain, Inc., as a commercial entity to provide an array of products and services to the community. Our vision supports areas of the market that are underserved with strong demand and projected growth in the blockchain industry ($7.7b by 20243) across an array of multi-billion dollar sectors such as Arts, Wine, Automotive, Legal, Digital Marketing, etc. These sectors and more will experience market disruption with blockchain
+1 W 3C - D isney Dragonchain - Blockchain Use C ases - https://dragonchain.github.io/blockchain-use-cases 2 W 3C Blockchain Community Group -  h ttps://www.w3.org/community/blockchain/ 3 Grand View R esearch  h ttp://www.grandviewresearch.com/press-release/global-blockchain-technology-market
+©2017 D ragonchain                Dragonchain C ommercial Platform  v 6                  Page 1  of 15
+
+capabilities shifting the value proposition into decentralized environments. Dragonchain platform will support t hese n eeds.
+A Turnkey Blockchain Platform f or Business
+Dragonchain provides a commercial platform for application developers to rapidly and securely deploy Blockchain applications while maintaining existing language development environments (e.g. Java, Python, Node, C#, Go); a tremendous costing and speed to market advantage. The Dragonchain architecture is also designed to allow nodes to handle approval of transactions based upon five levels of network consensus to provide a spectrum of trust to data consumers; a level of security and flexibility unseen in the market by current blockchain solution providers. T hese design attributes position D ragonchain for exponential growth.
+ Serverless s ystem and smart c ontracts  Established language s upport f or smart c ontracts ( Java, P ython, Node, C #, Go, e tc.)  Scalable - A mazon A WS and Google d eployments  Secure - P rotection of b usiness d ata a nd o perations  Advanced currency implementations  Smart c ontract l ibraries  Currency Agnostic
+Benefits
+ Lower development c ost u tilizing e xisting development l anguages  Faster speed to market  Significantly higher levels o f security  Higher s calability
+DragonFund Incubator
+Dragonchain will provide project incubation as well as professional services with strategic partnerships to develop successful tokenization ecosystems focusing on long term value. This includes;
+ Standard processes for the incubation of b lockchain startups and new i ntegrations  Marketplace dashboard f or community engagement to monitor a nd c ompare p rojects  Direct access to l egal, t echnical, m arketing, and e conomic subject matter
+experts a s p artners for advice a nd support  Dragonchain platform team to model digital economics aligned with token model;
+business design, user acquisition and retention, lifetime value, creation of network effects, monetization m odels, d ata strategy, and KPI's.  Expedited launch c ycles  Sustainable t oken marketplaces
+©2017 D ragonchain                Dragonchain Commercial P latform  v 6                  Page 2  o f 15
+
+Problem
+Security on a B lockchain P latform
+Data exposure and security is a known issue to large institutions wanting to leverage blockchain technology, as they typically have very sensitive customer data that sometimes has regulatory or legal risks associated (e.g. banking, health, identity, etc.). The data exposure risk can be somewhat alleviated by either obfuscation or separation, however, in both cases, this requires extra design and development work up front, as well as reduces somewhat the utility of the blockchain s ystem itself. A so far generally unrecognized risk in the use of blockchain technology is that associated with the public exposure of smart contract logic as necessary on most blockchain platforms. T he smart contract is exposed and transparent which means that the team must implement very sensitive proprietary business logic in a separate system. Also, any obfuscated data may be unraveled b y a n interested viewer o f t ransactions. Most important however is the combined risk of exposed data and business logic, as it is the equivalent of placing your operational system, all of your data, and a bounty of funds in the public domain. U nlike the well understood and successful open source model, where the discoverer of a flaw or vulnerability in utility software is incentivized to to fix the issue or notify the community of its existence, in the case of a discovered vulnerability on a blockchain, the discoverer is actually incentivized to attack the smart contract and withdraw funds or valuable information.
+©2017 D ragonchain                Dragonchain C ommercial P latform  v6                  Page 3  of 1 5
+
+Skill Set Challenge
+Leveraging blockchain technology for real business initiatives is expensive and very risky in an operational environment. This can be expected to result in low success rates as creation of software without blockchain technology is already fraught with difficulty and the addition of a relatively new technology such as blockchain with features such as cryptography, Proof of work, economics, currency modeling, game theory, and custom programming languages is sure to cause more t rouble f or a team as t he overlap of t hese skills i s p articularly r are. Dragonchain solves this problem by allowing development and integration before the economic model is known. Monetization can be applied after a system is functioning and enough real data is available f or a nalysis.
+©2017 D ragonchain                D ragonchain Commercial P latform  v6                  P age 4 of 15
+
+Solution &  Business Focus
+When Dragonchain was originally launched, the team had several goals in mind based upon past experience d eveloping b lockchain solutions:
+ Protection of B usiness D ata and Processes  Ease o f Integration  Simplified D evelopment  RESTful I nterfaces  Simple Architecture  Short, F ixed L ength Block Time  No Base Currency  Currency A gnostic w ith M ulti-Currency Support  Interoperability w ith other Blockchains  Adoption o f S tandards The platform was designed for use in a wide variety of use cases and applications. It is particularly useful in non-financial systems and in monetization and modeling of micro-economies for example to replace political economies within an organization with transparent rules to incentivize productive or otherwise valued behavior.
+Verification and Consensus
+In the open source Dragonchain Architecture document4, we introduced the concept of "context based verification" wherein Dragonchain adds another dimension to the common blockchain model. This new structure may be best thought of as a "blockchain of blockchains," where business nodes handle approval o f t ransactions based u pon local a nd s ometimes proprietary business logic.
+The Dragonchain architecture provides f ive standardized levels of consensus to provide a spectrum of t rust to c onsumers o f d ata;
+1. Business ( Approval) V erification 2. Enterprise ( Validation) Verification 3. Network Diversity Verification 4. External P artner ( Notary) Verification 5. Public C heckpoint Verification
+4 D ragonchain Architecture -  h ttps://dragonchain.github.io/architecture
+©2017 D ragonchain                Dragonchain Commercial Platform  v6                  Page 5  of 15
+
+As the verification level increases for a block, security increases, risk decreases, and measure of risk becomes possible.
+Level 1 B usiness V erification (Approval)
+Analogous to other blockchain systems, the business context provides localized approval of transactions and operates primarily on a trust basis. Although a proof algorithm can be applied, it is not necessary as data approved at this level can be considered trusted by the team that owns the data and any other team that decides to trust that data. This may best be viewed as web services on a blockchain, where developers familiar with web services or similar traditional services development may p roductively l everage b lockchain technology. Use of this model has been shown to improve the blockchain technology learning curve, as well as lower the risk of decentralized system development. A team can build atop the Dragonchain system to integrate existing systems or add new capabilities without a full understanding of the economic modeling that may later become valuable. That is, many projects have seen value by starting with data transparency as a goal, followed by late binding to an economic model based upon historical evidence. Note that any data contained in the business defined payload of a transaction will not move across t he network u nless explicitly a uthorized b y t he o wner of a n ode(s).
+©2017 Dragonchain                D ragonchain Commercial Platform  v 6                  P age 6 of 15
+
+Level 2 Enterprise V erification (Validation)
+This context is defined Enterprise or network wide, and checks for block and individual transaction validity in form, signature, and required data elements. This can be considered as providing "Real-time Enterprise Governance" with rules defined at the Enterprise level for validation o f a ll t ransactions r egardless o f t he local business d ata.
+Level 3 N etwork D iversity V erification
+A Level 3 node will verify diversity of validation (Level 2) verifications. This verification context will ensure that validations of transactions are coming from a sufficiently diverse set of distributed sources. It also provides control and measurement of network effect and provides distributed security as an attacker would be required to attack multiple systems, businesses, and d ata c enters i n o rder t o t amper with existing data.
+Level 4 E xternal P artner Verification ( Notary)
+A level 4 node will provide a notary functionality to the consensus process. Hosted by an external partner, a level 4 node cryptographically signs any level 3 verification records that it receives. This function allows the Level 4 node to act as an independent witness to level 3 verifications.
+Level 5 Public Verification (Public Checkpoint)
+A Level 5 node will provide a bridge to one or more public blockchains and allow clients to interact w ith t hem (e.g. Bitcoin, Ethereum, L itecoin, etc.).
+With this, Dragonchain is able to provide a spectrum of trust for the consumer of blockchain data, where risk is accepted based upon a combination of real world contracts, reputation of nodes, and trustless system assertions. That is, one may trust one's own data as valid, but require varying levels of consensus verification before accepting a partner or foreign node for use. The s ystem w ill provide a  human r eadable report as w ell as API access to this c apability.
+Currency
+Dragonchain is intentionally "currency agnostic". That is, the architecture defines the ability to create a blockchain without currency, or with one or more currencies in place. We've experimented w ith and e xpect to make a vailable interesting c urrency features.
+See the Dragonchain open source architecture document for a full description of the currency architecture.
+©2017 Dragonchain                D ragonchain Commercial Platform  v6                  P age 7  o f 15
+
+Serverless Deployment
+With the commercial launch of Dragonchain, Inc., we are leveraging the architecture of the Dragonchain platform to provide a serverless blockchain platform for business use. Dragonchain's hybrid model allows a serverless approach, because the smart contracts are executed in a traditional model and on a trusted node. A team can productively use the talents of a traditional software engineer, along with best practices devops to build a system, whilst leveraging the c apabilities of b lockchain technology.
+We will initially launch on Amazon AWS, with the entire system using AWS Lambda services, and with all user provisioned smart contracts deployed as Lambda services. Deployment in this manner will provide to the user the full scaling capacity of the AWS platform as well as all available services. In the future, we expect to port the system for deployment to Google App Engine and A pache OpenWhisk f or internal datacenter d eployment.
+Availability o f Established Languages
+With this arrangement, and due to the abstraction of trust provided by the Dragonchain architecture, t he user has a ccess t o multiple full languages a s supported b y A WS5:
+ Python  Java  Node.js  C#
+These languages are consistently ranked in the top 10 for usage in the real world in such surveys and studies as R edmonk Programming Language Ratings6, S tack Overflow Developer Survey7, Github Language Trends8, and PYPL Programming Language Popularity Index9. Availability of popular, established, and well understood languages for safe and secure use on a blockchain is a valuable capability in convenience and risk to the team and for adoption of the Dragonchain platform. Millions of active developers currently code fluently in one or more of these languages and Dragonchain will provide an easy path for these developers toward the use o f blockchain t echnology.
+Dragon T okens
+Dragon tokens (AKA Dragons) represent a tokenized license for interaction with Dragonchain commercial platform services. The tokens will be issued and provided to the public via an open
+5 AWS Lambda FAQs -  https://aws.amazon.com/lambda/faqs/ 6 Redmonk Programming L anguage R atings - h ttp://redmonk.com/sogrady/2017/03/17/language-rankings-1-17/ 7 S tack O verflow Developer Survey 2 017 -  https://insights.stackoverflow.com/survey/2017#technology 8 T he S tate of the Octoverse 2 016 - https://octoverse.github.com/ 9 P YPL Programming L anguage P opularity I ndex -  http://pypl.github.io/PYPL.html
+©2017 D ragonchain                D ragonchain C ommercial Platform  v6                  P age 8 of 1 5
+
+sale in 2017. For more information, check the official token sale page: https://dragonchain.com/tokensale.
+Utility
+Dragons will be used by developers and organizations to interact with the Dragonchain commercial platform products and services (e.g. launch nodes, provision smart contracts, access incubator dashboard, etc.). As a tokenized license with value in utility service rights, the tokens will further allow individuals or organization to be rewarded in an open market for running public or private nodes for network c onsensus.
+Dragons will also be used to support projects in the DragonFund Incubator. They will provide early access to technology and data from the projects, as well as allow first access to purchase tokens for u se on t he d eveloped p latforms.
+For the Dragonchain Foundation, the maintainer of the Dragonchain open source code, Dragons will be used to reward and incentivize developers contributing to the open source project and related projects. The tokens will be used to increase adoption in the developer community with rewards and training. Community members will be able to contribute on issues and designs, and reward active participation in the development of important functionality anywhere i n t he world.
+Team
+Joe R oets - C EO / P rincipal Architect /  V ision Dragonchain Foundation, Disney, L ockheed M artin, FBI, DoD, S ymbiont, O verstock :  25+ Years S oftware Development D esign and Architecture.
+George Sarhanis -  Chief Business O fficer /  B usiness S trategist / Partnering Dragonchain Foundation, Digital Ventures Group, Big F ish G ames, Sega of America, Googlet : 17+ Years B usiness Management, Strategy, F inance, P artnerships
+Brandon K ite -  Lead Developer - O pen S ource Dragonchain Foundation, D isney
+Dylan Y elton -  Developer Dragonchain Foundation, Disney
+Alex Benedetto - D eveloper Dragonchain F oundation, D isney
+Chin-One C han  -  M arketing Manager Asia /  Evangelist
+©2017 D ragonchain                D ragonchain C ommercial P latform  v 6                  Page 9  o f 15
+
+Microsoft Corporation, B uzz Bee M arketing, 8 ninths, A ccessor Capital, P otomac C apital Sabrina G asson -  M arketing Manager Europe /  E vangelist
+Kuju E ntertainment, T estronic Labs, Konami Digital, Big F ish G ames Mike Grabham -  I ncubation L ead
+Start-up G rind NW C hapter D irector, S tart-IT T V H ost, F ounder o f multiple successful start-ups Chelsea Anderson -  G eneral Counsel GSB L aw, Seattle WA US Scott W arner -  I P A ttorney GSB L aw, S eattle WA US
+©2017 D ragonchain                D ragonchain C ommercial Platform  v 6                  P age 10 of 1 5
+
+Go T o Market S trategy
+Dragonchain will penetrate the market through developer relations, corporate sales, and start-up services ranging from advisory to financing to development. To achieve this, the team and go to market protocols are assigned across a geographic emphasis with market managers across 3 separate regions; Asia, USA, Europe. The role of the market manager is primarily concerned with localization i ssues a nd second the specific m arket tailored offerings. The nucleus of Dragonchain's growth will stem from a blend of technology and incubation services. The technology model is similar to Amazon's AWS model, and the incubation model is similar to Y-Combinator. Both highly prominent organizations that are deep rooted with community a nd m arket success.
+Professional Services
+Dragonchain w ill provide t wo levels of professional services, those offered b y c ompany staff and those provided by qualified preferred vendors. T his w ill b e f or the p urpose o f h elping n ew offerings into t he w orld of b lockchain and t oken offerings to successfully launch t hat allow f or value c reation, operational flexibility, a nd c ompetitive advantage.
+©2017 Dragonchain                Dragonchain C ommercial P latform  v 6                  P age 1 1 of 1 5
+
+Services w ill s pan a cross legal, s trategic, marketing, d evelopment, a nd finance. A ssigning preferred vendors will a llow Dragonchain t o r each a nd support a n i nternational audience.
+Incubator
+Incubator & F und : D ragonFund w orks with c ompanies t o h elp them identify how b lockchain technology and smart contracts can a dvance t heir mission, a nd in select cases t o b uild-out token m arketplace e nvironments that w ill b uild and i ncrease long t erm v alue. D ragonchain w ill benefit from licensing f ees a nd t oken o wnership. We w ill a lso provide access to strategic resources t o a dvance a n incubated p roject.
+Projects Under Incubation
+Look Lateral -  Liquid Art
+Blockchain b ased a rts Provenance a nd Liquid m arketplace. P rovides m arket based Provenance in a dvance o f a service t o s ecuritize rare a ssets f or a l iquid market. Website: http://www.looklateral.com Location: Mantova, Italy & S an Francisco, U SA
+Seed2You
+Company in t he cannabis sector that h as commissioned D ragonchain with b uilding o ut a  s uite of smart c ontract a pplications to support the state l aws i n t andem with o perator n eeds and finance from b anking and p rivate f inanciers. I nitially for W ashington state, a nd t hen f or a ll 9  states t hat have legalized i ndustry. Website: http://seed2you.biz/index.html Location: S eattle, WA
+LifeID
+lifeID is developing a  b lockchain-based o pen i dentity platform that allows u sers to m anage a digital i dentity and h ow it can b e u sed t o i nteract w ith both the d igital a nd physical world, a ll without relying on the oversight o r control o f a  l arge social n etwork, c ompany, or government. Identities on t his b lockchain are created a nd managed v ia a s ystem o f s mart c ontracts on a permissionless blockchain t hat will b e g overned by identity holders. This means anyone can
+©2017 D ragonchain                Dragonchain C ommercial Platform  v6                  P age 1 2 o f 15
+
+create one d igital i dentity to u se f or h is/her entire l ife a nd e verything in it.  Using t his blockchain and a b iometric-capable s martphone a pp s uch as lifeID for iOS, u sers c an s afely and securely identify t hemselves, t aking the p lace of a login and p assword o nline or a card key i n the p hysical world, all w hile giving the user complete c ontrol o ver h is/her privacy. The t eam at l ifeID i s investigating t he use of D ragonchain's t okenized micro-license f or the software that bridges t he l ifeID b lockchain with t he W eb 2.0 applications t hat will u se i t. Website: https://lifeid.io/ Location: B ellevue, W A
+IDPay
+Existing company p roviding s olutions f or Government T reasury, i ncluding Budget o ptimization, Payroll, a nd S ocial funds o ptimization. T he Costa R ican G overnment Treasury, has b een using the software for 8 y ears, a nd s aved h undreds of millions o f dollars. Project will build o n e xisting product onto Dragonchain platform. Location: San Jose, C osta Rica.
+ClevX
+An i ntellectual d evelopment and licensing firm f ocused in t he area o f s ecurity offerings. Maintains a  strong d ominance in g overnment a ccounts t hrough v alue-added r esellers for their FIPS L evel 3  a uthentication d esigns. Website: h ttp://www.clevx.com Location: K irkland WA USA
+Legal
+A Dragon t oken r epresents a  tokenized license for interaction with D ragonchain commercial platform s ervices. A D ragon t oken does not r epresent o wnership or e quity in any company and as s uch should n ot be considered f or p otential i ncrease in v alue, b ut r ather for i ts utility v alue as described in the Dragonchain White P aper.
+Location: U S based sale Legal R epresentation b y G SB Law See token s ale page f or d etailed i nformation.
+©2017 Dragonchain                Dragonchain C ommercial P latform  v6                  Page 1 3 of 15
+
+©2017 Dragonchain                Dragonchain Commercial Platform  v6                  Page 14 of 15
+
+Contact I nformation & R eferences
+Telegram: A nnouncements C hannel & Discussion G roup General Inquiries: info@dragonchain.com Token s ale questions: t okensale@dragonchain.com Technical S upport: support@dragonchain.org Press I nquiries: p ress@dragonchain.com Twitter: @  dragonchaingang Dragonchain F oundation - https://dragonchain.github.io/ Dragonchain Architecture -  https://dragonchain.github.io/architecture Blockchain Use C ases D ocument -  https://dragonchain.github.io/blockchain-use-cases Dragonchain G ithub - h ttps://github.com/dragonchain/dragonchain News A rticles -  https://dragonchain.github.io/blog/
+©2017 D ragonchain                Dragonchain C ommercial P latform  v6                  Page 1 5 o f 1 5
+
+

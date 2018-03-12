@@ -1,0 +1,381 @@
+Bancor Protocol
+Continuous Liquidity for Cryptographic Tokens through their Smart Contracts
+Eyal Hertzog, Guy Benartzi, Galia Benartzi Edit and Mathematical Formulation by Omri Ross
+January 9, 2018
+Abstract
+The Bancor Protocol enables automatic price determination and an autonomous liquidity mechanism for tokens on smart contract blockchains. These Smart Tokens have one or more connectors to a network, that hold balances of other tokens, and enable any party to instantly purchase or liquidate the Smart Token for any of its connected tokens, directly through the Smart Token's contract, at a continuously calculated price, according to a formula which balances buy and sell volumes.
+The Bancor Protocol is named in honor of the Keynesian proposal to systematize international currency conversion by introducing a supranational reserve currency called Bancor, at the Bretton Woods Conference in 1944.
+1
+
+Contents
+
+1 Introduction
+
+3
+
+1.1 Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+
+1.2 Internet of Value & Liquidity . . . . . . . . . . . . . . . . . . . . . . . . . 3
+
+1.3 Long Tail Phenomenon . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+
+1.4 Bancor Liquidity Network . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+
+2 Smart Tokens
+
+5
+
+2.1 Non-Profit Automated Market Makers . . . . . . . . . . . . . . . . . . . . 5
+
+2.2 Connector Weight . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+
+2.3 Networks of Tokens . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+
+3 Pricing Algorithm
+
+7
+
+3.1 Price Formula . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+
+3.2 Supply and Demand with Different Connector Weights . . . . . . . . . . . 9
+
+3.3 Handling Price Slippage . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+3.4 Pricing Example . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+
+3.5 Asynchronous Liquidity . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+
+3.6 Balanced Prices through Arbitrage . . . . . . . . . . . . . . . . . . . . . . 12
+
+4 Advantages of Smart Tokens
+
+13
+
+5 Smart Token Use Cases and Implications
+
+14
+
+5.1 More Scalable and Reliable Token Markets . . . . . . . . . . . . . . . . . . 14
+
+5.2 Long Tail of Small-Scale Tokens . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+5.3 Enabling New Token Applications . . . . . . . . . . . . . . . . . . . . . . . 16
+
+6 Smart Token Configurations
+
+16
+
+7 Bancor Ecosystem
+
+17
+
+8 Bancor Network Token
+
+18
+
+8.1 Network Tokens . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+8.2 BNT Token Generation Event . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+8.3 Contribution Allocation . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+
+9 Summary
+
+20
+
+10 Acknowledgments
+
+21
+
+2
+
+1 Introduction
+1.1 Background
+We live in a world where anyone can publish an article, create a discussion group, or run an online marketplace. The reduction of technical and distribution barriers to entry has allowed user-generated content and participation to emerge as a defining characteristic of the Internet era. We are now witnessing the emergence of user-generated digital assets. For centuries, humans have issued and circulated tokens of value in the form of banknotes, bonds, equity, gift cards, loyalty points, community currencies and more. In 2009, Bitcoin [1] introduced the idea of a decentralized digital currency, based on cryptographic consensus methodology, and in its wake followed a wave of new digital assets, cryptocurrencies colloquially referred to as tokens.
+Tokens are used to manage access to services, as proof of contribution in crowdfunded projects, as incentives in decentralized applications, as IOUs or local currencies, as proof of ownership of real-world assets and more. Recently, they are often issued in crowdsales known as Token Generation Events (TGEs) orchestrated through smart contracts. A smart contract is a simple software program that, once committed to a blockchain, is guaranteed to run unchanged for as long as the underlying blockchain remains operational. Smart contracts have many of the same capabilities as regular users (such as programmers), i.e., they can call on other smart contracts in their code and even hold tokens in escrow as balances in their code. A well-defined smart contract can be viewed as a reliable, incorruptible, and fully automated middleman. This makes them uniquely suited to the mechanical but sensitive task of managing the issuing and governing of tokens.
+1.2 Internet of Value & Liquidity
+Despite differing uses and characteristics, all tokens abstractly represent some type of economic value. Owners from all parts of the world exchange tokens as part of their daily business, giving rise to a global Internet (or network) of value. Currently, the links connecting this internet together are traders exchanging tokens through buying and selling from each other, either through services or directly.
+Unlike, for instance, the cables between Internet switches, which are perpetually available to transfer any data coming through them, these trade links are ephemeral, meaning there must be a buyer and a seller meeting (digitally) at the same time, in order for the data (value) to be passed through the network via this temporary link. The challenge with consistently finding these matches is a problem known in economics as double coincidence of wants [2]. In order for a token to effectively partake in the global token economy (via this Internet of value), its trading volume must cross a critical barrier so that these matches between buyers and sellers are frequent enough to be reliable. In currencies, this
+3
+
+reliability of exchange is known as liquidity, i.e., the ease in which it is possible to find sufficient buyers and sellers so as to liquidate the token without considerably affecting its price. While liquidity is not a problem for the most widely used tokens, it is a significant impediment to buying and selling small-scale tokens (such as tokens required to use a niche decentralized application or to enable commerce in a small local community) or new tokens which have not yet grown in adoption, yet need this liquidity to do so.
+Much the same as certain populations of people cannot access the Internet because they live in remote locations where connectivity is not yet economic for "link" providers, large numbers of token owners (and potential token creators) cannot partake in the Internet of value because they own illiquid tokens without enough "links" to the greater token economy to be viably liquid and thus reliably usable. In traditional financial markets, market makers solve this liquidity problem by always offering to both buy or sell a financial asset, even when there is low interest in the asset on the market. These are typically large financial institutions that leverage their significant reserves of capital to generate profit on market illiquidity and can tolerate significant illiquidity risk. These profits are made by quoting different prices to buyers and sellers and accumulating the difference (known as the spread) over time.
+In the realm of blockchain, the utilization of traditional market makers to solve the liquidity problem would not only violate the movement's spirit of cutting out middlemen, it would also constitute significant centralization of financial power with the major holders of capital in the new token economy.
+1.3 Long Tail Phenomenon
+Today, the top 10% of tokens make up 95% of the entire token market cap and have 99% of trading volume (based on analysis of over 1000 tokens listed on CoinMarketCap). The tail end (90%) of tokens is practically insignificant. This stands in sharp contrast to many other online ecosystems where the tail end cumulatively makes up a significant part of total volume, an observation known as the long tail phenomenon [3]. For example, books with too little volume to be carried by regular bookstores make up an estimated 30-40% of the titles sold on Amazon [4]. The forming of a long tail begins once the barriers to its existence are removed. YouTube made it simple to upload and view videos. Blogging platforms made it easy for people to publish their content. The simple creation of liquid tokens is the barrier to the emergence of a long tail of user-generated currencies.
+1.4 Bancor Liquidity Network
+In this white paper, we propose the Bancor Network for decentralized liquidity, based on the Bancor Protocol which leverages the capabilities of smart contracts to build liquidity directly into tokens themselves, via the software code which governs them. Such tokens,
+4
+
+which we call Smart TokensTM, are always available to be both bought and sold directly through their smart contracts. In other words, the token's program itself always offers to sell tokens to buyers and buy back tokens from sellers. Each Smart Token has one or more connectors, a feature which links the Smart Token to every other token in the network. These connectors hold a balance in another token, and establish and maintain the relationship between the Smart Token and the tokens held by its connectors. Smart Token connectors employ a formula (elaborated below) to establish a price relationship between a Smart Token and its connected tokens. Connected token balances (held by the connector) are used to provide liquidity for the Smart Token and any of its connected tokens, at these algorithmic prices.
+All Smart Tokens are ERC20-compatible tokens, meaning they function as and are compatible with any system or service which supports these now-standard Ethereum-based tokens. The result of the Smart Token standard is an Internet of value that is continuously connected because every token is autonomously liquid to every other at an algorithmically calculated rate. By presenting a modern, efficient and automated solution to illiquidity, we believe the Bancor Protocol can become an enabling technology for a long tail of user-generated tokens, thus paving the way for a diverse economy of millions of even small-scale, user-generated currencies. This multi-currency paradigm is both scalable and decentralized.
+2 Smart Tokens
+2.1 Non-Profit Automated Market Makers
+Smart Tokens are the heart of the Bancor Protocol. They operate as regular tokens, in compliance with the ERC20 token standard [5] used on the Ethereum blockchain [6], but include additional logic that allows users to always buy and sell them directly through their own smart contracts at prices that programmatically adjust to reflect supply and demand. Effectively, Smart Tokens come with a built-in liquidity mechanism that ensures they are continuously convertible for other tokens.
+To achieve this, each Smart Token connector holds a balance of the token it is connected to (for example, the BNT Smart Token has a single connector to ETH, which holds a balance in ETH). Buyers can use any of the connected tokens to purchase a Smart Token by sending them to the Smart Token's contract, which then adds them to its connector balance and in return issues new Smart Tokens, which are automatically sent back to the buyer. In this case, both the connector balance of the Smart Token has increased, as has the Smart Token's supply, since new units were issued. Similarly, a seller may send back a Smart Token to its contract, which will then remove these Smart Tokens from circulation and withdraw a corresponding amount of connected tokens from the connector balance, which will be automatically sent to the seller. In this case, both the connector balance and
+5
+
+the Smart Token's supply have decreased. In order to know what amount to issue to a buyer or withdraw for a seller, a Smart Token continuously recalculates its price vis-á-vis each of its connected tokens, in relation to the supply of and demand for the Smart Token. The Bancor Formula (elaborated below) does so by maintaining a fixed ratio between (referred to as weight, discussed below) the value of the Smart Token and the value of its connector balance(s). The adaptive supply of a Smart Token (recall that it is newly issued when purchased and removed from circulation when sold) is a unique and enabling feature which allows for supply to adjust to demand (without dilution to unit price) and for Smart Tokens to be continuously available for purchase. In the future, the Bancor Protocol will also standardize Smart Token configurations with traditional fixed supplies.
+While it may sound precarious to allow a token to issue and remove itself (expanding and contracting its own supply), the software logic for doing so runs in a transparent (publicly viewable) smart contract on an immutable (unchangeable) blockchain. Furthermore, as Smart Token supply programmatically increases only when the connected token balance increases in any of its connectors (via a purchase), ensuring that Smart Tokens will always be linked to some proportionate value of another token, preventing unanticipated inflation.
+Currently, a Smart Token can be connected to any ERC20-compliant token by holding a balance of this ERC20 token in its connector, through its smart contract. This makes the Bancor Protocol backwards-compatible with the a large part of existing tokens today. In the future, support is planned to allow Smart Tokens to connect to tokens across various blockchains.
+In effect, Smart Tokens function as completely automated and decentralized market makers that, by operating in a network architecture, on a blockchain, can function as effective and autonomous convertibility conduits, without relying on the existing labor-based (i.e. manual) trade approach and accompanying profit-seeking motive.
+2.2 Connector Weight
+As mentioned above, the connector weight represents a fixed ratio between the Smart Token's total value (its supply × its unit price) and value of the connector balance. The creator of a Smart Token defines this desired ratio for each connector. This ratio will be held constant by the Bancor Formula as both the connector balances and the Smart Token's total value (sometimes referred to as "market cap") fluctuate with buys and sells. Since each purchase or sale of a Smart Token triggers an addition or subtraction of connected tokens and Smart Tokens, the price of the Smart Token vis-á-vis its connected tokens will constantly recalculate to maintain the constant connector weight, i.e. the creator's configured ratio between them. The choice of this ratio determines how sharply the price of a Smart Token needs to adjust in order to maintain it with every transaction, or in other words, its price sensitivity. A higher ratio between the connector balance and the Smart Token will result in lower price sensitivity, meaning that each buy and sell will have
+6
+
+a relatively softer effect on the Smart Token's price movement. A lower ratio between the connector balance and the Smart Token will result in higher price sensitivity, meaning that each buy and sell will have a relatively stronger effect on the Smart Token's price movement. It can be said that a higher weight leads to relative price stability of a Smart Token vis-à-vis its connected token, and a lower weight to relative price volatility of the Smart Token vis-à-vis its connected token. Section 3 elaborates further on the pricing algorithm and selecting connector weights based on the desired nature of the Smart Token. Smart Token connectors can be viewed as decentralized, autonomous, transparent and predictable market makers, rather than exchanges. Smart Tokens manage their connector balances by programmatically adjusting prices to maintain a constant ratio between them and the Smart Token's total token value. Since their logic is transparent and immutable, it is always possible to predict how a purchase or sale of a Smart Token will move its price, which ultimately leads to more stable token prices. This formulaic mechanism makes Smart Tokens reliable mediators of supply and demand.
+2.3 Networks of Tokens
+Smart Tokens allow for instant conversion between themselves and any of their connected tokens. This functionality is sufficient for a Smart Token to become instantly convertible also to any number of other tokens which connect to the same network in a similar fashion. In other words, a Smart Token is instantly convertible to any of its connected tokens, and also to any of its connected token's connected tokens, and so on, via the network. Suppose for instance that a Smart Token, ABCCoin, has a connector holding a balance of XYZCoin. Furthermore, suppose a different Smart Token, NEWCoin, also has a connector which holds a balance of XYZCoin. Then a user will be able to convert ABCCoin to NEWCoin simply by first converting ABCCoin into XYZCoin, and then converting XYZCoin into NEWCoin. This can happen seamlessly in the background with only one action required by the user. Furthermore, NEWCoin might itself be connected to additional tokens, expanding the connection range. In this way, Smart Tokens can transitively connect to an unlimited number of tokens, creating a decentralized liquidity network capable of connecting an Internet of value consisting of potentially millions of tokens, all autonomously convertible each for the other, at continuously calculated rates.
+3 Pricing Algorithm
+7
+
+3.1 Price Formula
+
+The Bancor Formula for algorithmic pricing is central to the system's design and potential because it enables Smart Tokens to consistently determine their own reliable and predictable prices, ultimately essential for mass adoption of usable tokens. It is built on the idea, introduced in the previous section, that each Smart Token maintains a ratio between its total value (total supply times unit price) and its connector balance. We call this ratio the connector weight, or CW for short.
+
+CW
+
+=
+
+connector balance Smart Token's total value
+
+The Smart Token's total value, i.e. its market cap, is the amount of money one would get
+
+if they sold every token (the entire Smart Token supply) at its current price. The price of
+
+a Smart Token is denominated in the connected token (for example, the price of BNT is
+
+denominated in ETH, its connected token, and so on.)
+
+Smart Token's total value = price × Smart Token supply
+These relationships are the keys to Bancor's pricing algorithm because they allow the system to algebraically solve for each Smart Token's price as a function of its CW, the connector balance, and the Smart Token's outstanding supply.
+
+price
+
+=
+
+Smart
+
+connector balance Token's outstanding supply × CW
+
+At any given time, each connector always has an accurate and irrefutable record of the size of its balance and the current number of Smart Tokens' in supply, so that it only needs to know the CW in order to continuously calculate the correct price for a Smart Token while both its connector balance is changing (with buys and sells as well as connected token price movement) and its supply is changing (with buys and sells, which occur by sending to or withdrawing from the connector balance). The CW is expressed as a percentage above 0% and up to 100%, and as mentioned, is initially set by the creator when a Smart Token is configured. The value chosen for the CW has significant implications for the pricing of the token, and may also be changed, depending on the Smart Token's chosen settings.
+
+8
+
+Quoted price
+
+(a) CW = 100% 1.2 1.1
+1 0.9
+1,000 1,200 1,400 1,600 1,800 2,000 Supply
+(c) CW = 10%
+400
+200
+0 1,000 1,200 1,400 1,600 1,800 2,000 Supply
+
+Quoted price
+
+Quoted price
+
+(b) CW = 50% 2 1.8 1.6 1.4 1.2 1
+1,000 1,200 1,400 1,600 1,800 2,000 Supply
+(d) CW = 90% 1.08
+1.06
+1.04
+1.02
+1 1,000 1,200 1,400 1,600 1,800 2,000 Supply
+
+Quoted price
+
+Figure 1: Shows quoted price as a function of Smart Token supply for varying CW s. The charts have been rendered with an initial price of 1 and an initial supply of 1000 Smart Tokens, however, as the CW alone defines the price elasticity, curves would develop similarly for any initial supply and price, albeit with different values on the axes.
+3.2 Supply and Demand with Different Connector Weights
+Figure 1 shows how the price of a Smart Token reacts to changes in demand for different values of the CW . Let us briefly discuss the illustrated cases:
+(a) The first case is CW = 100% where the Smart Token's price can never change in
+
+9
+
+relation to its connected token balance or supply, but rather tracks it completely, regardless of demand. The price is effectively pegged to its connected token balance(s) and the Smart Token becomes a proxy for that value. This can be likened to the gold standard, a monetary scheme where an issuing body commits to always exchange a currency for a certain amount of gold. For example, the US dollar was pegged to gold at a rate of $35 per ounce until 1971.
+(b) A second linear case is CW = 50% where the Smart Token price moves linearly with the supply (which is growing or shrinking with the connector balance). The Smart Token price decreases when demand for it is low (i.e., when greater volumes are sold than bought) and increases when demand for it is high (i.e., when greater volumes are bought than sold). This relationship is how supply and demand typically work, with the exception that Smart Token supply is not fixed, but dictated by demand, and yet also not dilutive to the unit price when it increases.
+(c) A third and non-linear case is CW between 0% and 50%, which shows a similar growth relationship between price and supply, but sees the price curve grow more aggressively with increasing supply. The chart shows the particular price curve for CW = 10%. A CW lower than 10% would react even more aggressively (sharper exponential curve) than this, and a CW higher than 10% would relatively flatten towards the linear (b) shape as it approaches 50%.
+(d) The final also non-linear case is CW between 50% and 100%, where the growth relationship between price and supply sees the price curve grow less aggressively than (b), meaning the Smart Token's price reacts less and less to changes in supply, until reaching the flat 100% relationship we see in (a). The particular chart shows the price curve for CW = 90%.
+Theoretically, it is also possible for a Smart Token to have a CW that is greater than 100%, however, this is a specific case where the token becomes cheaper as demand increases, and is outside the scope of this discussion.
+3.3 Handling Price Slippage
+Above we develop the equation for determining the price of a Smart Token at any given point in time. But as the charts show, when buying or selling Smart Tokens (thus increasing or decreasing their supply), their price moves! In fact, even the tiniest transaction moves the price of a Smart Token to a new level, meaning that a buyer will get a different price if she splits her order into many small transactions. To address this, in order to calculate an actual conversion price, we look at the total amount of tokens a Smart Token must return to the buyer (in new Smart Tokens issued) or seller (in connected tokens withdrawn from the connector balance) for a given amount of tokens received (in either the connected token from a buyer, or the Smart Token from a seller.)
+10
+
+tokens
+
+issued
+
+=
+
+supply
+
+×
+
+(( 1
+
++
+
+connected tokens balance
+
+paid )CW
+
+-
+
+) 1
+
+The equation was derived by viewing a transaction as the result of many infinitely small transactions that each impact the Smart Token supply and the connector balance, thus leading to a new price for each subsequent increment. The actual price for a given transaction size is the final price after each infinitely small increment of the transaction size has had its relative impact on the price. A formal mathematical proof is available here. The equations are similar for both buy and sell orders, where we derive the actual amount of the Smart Token units to issue (to a buyer) or connected tokens to withdraw from the connector balance (for a seller) for a given amount of connected tokens or Smart Tokens received by the Smart Token contract.
+
+( (
+
+))
+
+connected tokens paid out = balance ×
+
+CW
+
+tokens destroyed
+
+1+
+
+supply
+
+-1
+
+We are now able to calculate the effective price of a transaction by considering the amount of Smart Tokens converted per connected token, i.e. the price of former in terms of the latter. This effective price will be different for each transaction size, and vis-á-vis each connector in the case of more than one.
+
+effective
+
+price
+
+=
+
+connected tokens exchanged smart tokens exchanged
+
+The effective price has the desired property of ten small transactions or one large transaction leading to exactly the same cost.
+
+3.4 Pricing Example
+
+As an example, we take a Smart Token that currently has a supply of 1000 tokens, with a connector that currently holds a balance of 250 of the connected tokens, and a CW of 50%. This Smart Token can be converted into its connected token at the following price:
+
+price
+
+=
+
+250 1000 × 50%
+
+=
+
+0.5
+
+Suppose a buyer wants to convert 10 units of the connected token into Smart Tokens. How
+
+many Smart Tokens will she receive?
+
+(( tokens issued = 1000 × 1 +
+
+10 )50%
+
+)
+
+- 1  19.8
+
+250
+
+11
+
+Considering the amount of Smart Tokens issued, we can now derive the effective price when converting 10 units of the connected token into the Smart Token:
+effective price = 10  0.5051 19.8
+Note how the effective price is different from the quoted price, in this case slightly higher. The difference is due to the price slippage for this particular transaction size explained in the previous section. In other words, each infinitely small incremental unit of the 10 tokens converted lead to upward pressure on the price, by adding to the connector balance and to the Smart Token supply. Effectively the buyer has paid for the price slippage caused by her own transaction. The buyer is able to perform these calculations in advance of sending her tokens to the smart contract, allowing her to accurately gauge how the price will move in response to her conversion. The predictability and uniformity of the price slippage is a key benefit of Bancor's pricing algorithm.
+3.5 Asynchronous Liquidity
+As a Smart Token processes conversions, the price will converge toward an equilibrium between buy and sell volumes. For this to happen in a classic exchange model where buyers and sellers are matched to each other, there must be sufficient liquidity for two orders to be reliably matched at any time. This is not a requirement of the Bancor Protocol because Smart Tokens always process buys and sells immediately by converting them via their connector balances, and therefore calculate prices continuously over time. Whereas prices are traditionally calculated for each trade independently (when a buyer and seller are matched), each conversion of a Smart Token progressively and directly impacts its price. This makes Bancor's price-determination mechanism truly asynchronous.
+3.6 Balanced Prices through Arbitrage
+Smart Tokens may be also traded on various exchanges, where their market price could potentially diverge from the price quoted by the Smart Token. Since Smart Tokens do not have functionality for observing prices in the external world, it appears that there is risk of the Smart Token's price fragmenting. However, such a situation is unlikely to last for long because it constitutes a clear arbitrage opportunity. For example, if the market price moves higher than the price quoted by the Smart Token, anyone could buy from the Smart Token and sell on the market until prices even out. The ability to arbitrage effectively incentivizes market participants to create price consensus between the Smart Token and external prices. It is also worth noting that the Smart Token functionality of issuing new units and increasing supply (when connected tokens are added to the connector balance) exists only when interacting with the Smart Token directly. Smart Tokens listed, bought and sold on external exchanges, or moved directly between people, do not trigger
+12
+
+this functionality but rather circulate existing supply. Nevertheless, the prices at which existing supply is offered will have an effect on the prices of Smart Tokens as quoted by the Smart Token contract, via the arbitrage mechanism outlined above.
+4 Advantages of Smart Tokens
+Smart Tokens are a new paradigm in token markets because they incorporate automated and decentralized agents that tirelessly fill conversion orders at prices that reflect mathematical supply and demand, and which adapt to conversion sizes in real time. This introduces multiple advantages over traditional exchange-based trading:
+Continuous liquidity Users can always buy or sell tokens in the network directly through their smart contracts, even when there are only few or no other buyers or sellers in the market. Because prices adjust to conversion size, there is always some price at which a token may be converted. The Bancor Protocol effectively disconnects liquidity from trade volume.
+No built-in fees By default, Smart Tokens do not apply fees to the conversions they execute. The only fees incurred by users are those required to transact with the underlying blockchain (e.g., gas on Ethereum). While Smart Token creators may set an optional usage charge (called a contribution) for conversion via their particular Smart Token, these will likely be very low as the open source nature of the protocol would allow another user to easily create a competing Smart Token offering a similar conversion ability for less. The Bancor Protocol does not require conversion fees for operating profit, but rather benefits from increased adoption as the network of tokens and users itself grows.
+Adjustable price sensitivity The leverage provided by a substantial connector balance and high weight makes the price of that particular Smart Token less sensitive to shortterm speculation or sudden turbulence caused by large orders. For example, a Smart Token with a 10% CW is comparable to an exchange that has an order book equal in value to 10% of the entire market cap. This sensitivity can be adjusted via the CW and connector balance to achieve the desired profile of a given Smart Token.
+No spread The Bancor pricing algorithm applies the same price calculation when handling both buy and sell orders. This contrasts with traditional exchanges where the buy price is always lower than the sell price. The difference between the buy and the sell price, known as the spread, is what allows traditional market makers to earn a profit. As mentioned above, the Bancor Protocol does not require this profit in order to operate, and decentralized spreads may be introduced in order to encourage adoption of the network, benefiting all participants.
+Predictable prices A Smart Token's price algorithm is completely transparent, allowing
+13
+
+users to pre-calculate the effective price of their desired conversion before executing a conversion. This contrasts with traditional order-book based exchanges where a large order can cause a price to unpredictably slip to a significantly different level.
+Based on ERC20 Smart Tokens are ERC20-compliant tokens (albeit with additional functionality) which seamlessly integrate with existing token applications (such as wallets, or Dapps) because they comply with the popular ERC20 token standard. Further, any existing ERC20 standard token can connect to the Bancor Network via a Smart Token with two connectors, making the Bancor Protocol backwards compatible with existing ERC20 tokens. We elaborate on a variety of Smart Token configurations in section 6 below.
+5 Smart Token Use Cases and Implications
+We believe the unique properties of the Bancor Protocol make it attractive for a variety of use cases, which range from providing more reliable trading infrastructure for existing tokens, to facilitating the rise of a long tail of small-scale tokens, to enabling completely new forms of innovative token market initiatives. In the following sections, we explore a few in more depth.
+5.1 More Scalable and Reliable Token Markets
+The Bancor Network for decentralized liquidity can be used as an alternative to centralized token exchanges for any token that is connected to the network, with numerous positive implications. For example, a Smart Token with two connectors, with a total CW of exactly 100%, functions similarly to a decentralized token exchange pair. We call this kind of Smart Token a Relay Token. (We elaborate on this and other unique Smart Token configurations in a subsequent section.) A Relay Token allows users to convert between either of its connected tokens through an instant two-step process of purchasing the Relay Token with one of its connected tokens and immediately selling it for the other connected token. Due to the pricing algorithm, this will cause the price of the Relay Token to rise vis-á-vis the first connected token (thanks to the purchase), and to fall vis-á-vis in the second connected token (thanks to the sale), exactly as expected. As discussed earlier, the prices quoted by a Relay Token are unlikely to differ significantly from prices of either connected token on external exchanges for long, because an arbitrage opportunity incentivizes arbitrageurs to even out prices between the Relay Token's connected tokens, and their prices on other markets. This particular Smart Token configuration allows existing standard tokens which do not conform to the Bancor Protocol (i.e. have no connectors) to become backwards compatible (i.e. autonomously convertible to/from every token in the network via the Relay Token), thus increasing the viability and reach of such a liquidity network.
+14
+
+Furthermore, when converting tokens through a Smart Token, a user does not directly deal with a counterparty, nor deposit their tokens in an exchange, resulting in lower risk of tokens being hijacked by hackers or delayed due to other structural challenges of the exchange business. This stands in contrast to pains experienced by MtGox and Bitfinex (as examples), which have been hacked with hundreds of millions of dollars worth of cryptocurrencies stolen from users accounts, or lengthy delays in token availability experienced by numerous other exchanges. By aggregating liquidity in one decentralized, autonomous and low-cost network, users stand to benefit from greater, continuous liquidity and relative price stability to today's fragmented and for-profit exchange landscape.
+5.2 Long Tail of Small-Scale Tokens
+Smart Tokens provide an innovative solution to the liquidity problem that has prevented the rise of a long tail phenomenon for small-scale or newer tokens (see Section 1). Recall that the lack of a sufficient number of buyers and sellers means that there is virtually no activity around the vast majority of tokens currently in existence. This is despite small-scale tokens having a number of productive use cases, such as crowdfunding, local commerce, community collaboration, and others.
+For example, a musician looking to collect funds to record an album can create a new kind of token and pledge to sell the album exclusively in exchange for the this token. She can then start a crowdfunding campaign where she issues tokens to supporters in proportion to the size of their contributions. A supporter who contributes 1% of the contributions during the campaign will receive 1% of the tokens available. If the album becomes a success, there will be increased demand for this token.
+By the time the album is released, activity around the token may have subsided to a point where few of the initial supporters are willing to sell their tokens. In today's illiquid markets for small-scale tokens, there is a good chance that people interested in the album may not be able to purchase the tokens needed to buy it. Since a Bancor Smart Token is always ready to both buy and sell itself, potential album buyers would be able to get the tokens they need without delay, at a price mathematically calculated relative to the current buy and sell volumes. Despite buyers being able to purchase the Smart Tokens from the contract, as opposed to only from sellers, the existing Smart Token owners do not miss out, since they in turn can sell their Smart Tokens back to the contract at a later time, when the calculated price is attractive to them. This highlights the truly asynchronous nature of liquidity in the Bancor Protocol.
+There are many other examples of small projects that can benefit from having a usergenerated token, including neighbourhood tokens that incentivize people to participate in their local community, platform tokens that are used to prioritize access to limited resources such as computing power, and more. Indeed, as the adoption of Smart Tokens facilitate the rise of a long tail of thousands or millions of diverse tokens, we are sure to witness
+15
+
+many novel applications of user-generated tokens, both big and small. Today, all of this potential innovation is stifled by the lack of autonomous and asynchronous liquidity, which creates a chicken and egg game for token creators needing to pre-ensure volume of trade activity in order to offer the liquidity needed for initial support.
+5.3 Enabling New Token Applications
+Smart Tokens not only aid with existing problems in secure token conversion and initial and continuous token illiquidity, but also enable altogether new applications in the emerging world of blockchain.
+Consider the example of Smart Tokens that act as decentralized token arrays thanks to its numerous connectors. A Smart Token holding numerous connectors with a total CW of 100% effectively functions as a decentralized token that tracks the combined, pro rata share adjusted performance of a given (and user configured) set of other tokens. Arbitrageurs can be counted upon to ensure that the Smart Token's prices rise and fall in sync with the external market, meaning that the value of the Smart Token will always be up-to-date. These Smart Tokens enable users to directly hold this type of token without needing a financial services provider as an intermediary.
+Another example may be decentralized applications whose smart contract requires information about token exchange rates. These would conventionally rely on a trusted third party to relay information onto the blockchain, but using the Bancor Protocol, these smart contract could simply query the current price directly from any Smart Token. The Smart Token acts as an on-chain price oracle, removing the need for external input.
+Similarly, it now becomes possible to create decentralized applications that can exchange services (represented by tokens) directly between them, without relying on an external offchain procedure. For example, it would be possible to integrate two services that require different utility tokens as payment, via Bancor's on-chain conversion mechanism. These are but a few examples of the new models we may discover when the long tail of tokens is empowered to emerge, due to a reduced liquidity barrier and other technical barrier removals, such as the technical ease of token creation.
+6 Smart Token Configurations
+While new configurations will continue to emerge, Smart Tokens currently fall into a variety of categories: Smart Tokens with one connector, two connectors, or more than two connectors; Smart Tokens with a combined total connector weight of 100% or below 100%; Smart Tokens with a single yet-to-be-activated connector. While all Smart Tokens share certain attributes, each of these configuration combinations has some different attributes.
+16
+
+Smart Tokens with a combined connector weight below 100% (and more typically below 20%) are called Liquid Tokens. These may have one or more connectors. For example, BNT is a Liquid Token with a single 10% ETH connector. Liquid Tokens may be purchased and sold for any of their connected tokens (using the Bancor Formula to determine their price vis-á-vis their connected tokens) and have an adaptable supply which increases when bought and decreases when sold.
+Smart Tokens with a combined total connector weight of 100% may have one, two or more connectors. A 100% total weight Smart Token with one connector is called a Proxy Token. A 100% total weight Smart Token with two connectors is called a Relay Token. A 100% total weight Smart Token with three or more connectors is called an Array Token. Proxy, Relay and Array Tokens may be purchased and sold for any of their connected tokens (using the Bancor Formula to determine their prices vis-á-vis their connected tokens) and have an adaptable supply which increases when bought and decreases when sold. The connected tokens in any Proxy, Relay or Array Token may be any standard ERC20 token with a fixed supply, allowing existing ERC20 tokens to be backwards compatible with the Bancor Network.
+Smart Tokens with a single yet-to-be-activated connector (i.e. a currently empty connector balance) are called Bounty Tokens, and are useful for distributing to early holders (such as community supporters) a token that will be launched or distributed in the future. At that time, a connector balance is deposited and the Bounty Tokens become a Liquid Token, convertible for the newly connected token.
+Smart Tokens which are held as connected tokens by the connectors of multiple other Smart Token are called Network Tokens. (See more on this in section 8). For example, since many Smart Tokens hold BNT in their connectors in order to integrate with the Bancor Network, BNT can be called a Network Token. It is also a Liquid Token.
+7 Bancor Ecosystem
+The success of the Bancor Network for decentralized liquidity is contingent on the participation of a variety of different users. We will briefly give an overview of the key roles that participants can play in the Bancor ecosystem.
+Traders End-users that hold, convert and transfer Smart Tokens.
+Smart Token Issuers People, companies, communities, organizations or foundations that issue new Smart Tokens, configuring the initial supply, price, CW, and managing the initial issuance of tokens. This also includes creators of Relay Tokens, which can connect any existing ERC20 tokens to the network.
+Asset Tokenizers Creators of Proxy or Array Tokens that mirror real-world assets or tokens on other blockchains. These could allow Smart Tokens to connect to a wider
+17
+
+palette of assets, such as Bitcoin, fiat money, gold or other emerging blockchains.
+Arbitrageurs Traders that monitor the liquidity network for prices that are inconsistent with either those of an external exchange or those of another Smart Token, and then restore price consistency through arbitrage. Arbitrageurs are organically incentivized to keep prices consistent and hence are important participants in the Bancor ecosystem. See Section 3.6 for further explanation of the mechanics of arbitrage in the Bancor Protocol.
+8 Bancor Network Token
+8.1 Network Tokens
+In Section 2.3 we described how a Relay Token allows one connected token to be converted to the other connected token through a two-step process of buying the Relay Token for one and selling it for the other. As discussed, this two-step process will allow any token in the network to be convertible for any other, provided they have at least one connected token in common, at any degree of separation. We call the common connected token a Network Token because it links many different Smart Tokens together into a single network of tokens.
+A Network Token functions as a "token for tokens" by rendering all Smart Tokens in its network inter-changeable for each other, according to the Bancor Formula automated price mechanism described in this paper. Increased demand for any of the Smart Tokens in the network will drive up the value of the Network Token as well (since its supply and connector balanced has increased, which in turn inform the pricing calculation of the Network Token). This upward pressure on the Network Token in turn benefits every other token in the network denominated in the (now more valuable) Network Token, because their own connected token balances have increased.
+The Network Token model creates synergetic relationships between member Smart Tokens, comparable to the way that any single successful Ethereum service drives up the value of Ether, benefiting the entire Ethereum platform and ecosystem. Numerous use cases exist for such a network model, including regional networks of community currencies, credits shared in all games issued by a video game studio, joint loyalty programs supported by a group of independent businesses, and more. A Network Token may also be part of other networks, via its own connectors.
+8.2 BNT Token Generation Event
+The first Smart Token launched was the Bancor Network Token (BNT), which is used as the hub Network Token, connecting all tokens in the Bancor Network. BNT currently has
+18
+
+a single connector to Ether with a 10% CW, and is managed by the Bprotocol Foundation, a Swiss nonprofit whose core objective is the promotion of the Bancor Protocol as a global standard for Smart Tokens which are intrinsically convertible via the Bancor Network for autonomous, decentralized liquidity.
+The contributions to the Token Generation Event of BNT (which took place on June 12, 2017) are used to foster a healthy ecosystem of Bancor-based tokens and applications. New Smart Tokens that utilize BNT as their connected token will be eligible for support from the Bprotocol Foundation, in order to encourage adoption of the new Smart Token while strengthening the existing BNT community through the network effects discussed above.
+8.3 Contribution Allocation
+In the interest of transparency and full disclosure, the Ether contributed to the BNT Token Generation Event has been allocated for specific uses as outlined below.
+· 20% held by the ETH connector balance of the BNT Smart Token, establishing a strong and dynamic initial 10% weight.
+· 40% deployed to develop the Bancor Protocol and surrounding technologies. This includes implementing the Bancor Protocol smart contracts into current and future blockchains and developing user-friendly applications for the accessibility of Smart Tokens to end users, such as Smart Token wallets, Smart Token creation and management interfaces, Smart Token marketplaces and discovery portals, Relay Token creation, Smart Token governance and reporting, and more.
+· 12% used to market the Bancor Protocol and develop the Bancor ecosystem, such as by supporting innovative and strategic Smart Token projects in the Bancor Network, and increasing the awareness and understanding of the Bancor Protocol and Bancor Network globally to relevant audiences. These efforts will ensure a strong community around the Bancor Network while accelerating the development of a long tail of usergenerated tokens.
+· 10% committed to setting up and propelling demonstration Relay Tokens and Array Tokens for popular ERC20 tokens, as well as Proxy Tokens on the Ethereum platform for integrating cryptocurrencies from other blockchains, and various real-world assets, into the Bancor Network.
+· 18% designated for operational costs, including legal expenses and other overhead.
+Half of the initial supply of BNT Smart Tokens were distributed to contributors, while the other half is held by the Bprotocol Foundation and allocated to its long-term budget (locked for two years), the existing and future team and advisors (vested over 2 years), partnerships (vested over 2 years) and community grants to aid in the long tail adoption of the Bancor Protocol, as illustrated below.
+19
+
+9 Summary
+The new blockchain-based economy has the potential to create an Internet of value consisting of millions of innovative, small-scale, user-generated tokens. The key barrier to this diverse and resilient future is ensuring that there exists a liquid market for every token regardless of its volume. In this white paper, we have proposed the Bancor Protocol for decentralized liquidity networks, based on a protocol for a new class of tokens called Smart Tokens, which provide continuous liquidity by incorporating an autonomous and low-cost market making functionality directly into their smart contracts. Smart Tokens utilize connected token balances and an intelligent and open-source pricing algorithm to perpetually offer to buy or sell themselves at calculated and predictable prices, in return for any other token to which they are connected. At the systemic level, Smart Tokens make up an autonomous global network of interconnected tokens. This novel architecture allows member tokens to be easily convertible for all other member tokens, without risk of illiquidity, and while creating network effects that benefit the entire token ecosystem as it grows. The Bancor Protocol advances the domain of asset exchange by introducing a technological solution to the double coincidence of wants and resulting liquidity problem faced by smallscale tokens. This solution constitutes a reliable and comprehensive alternative to the labor-based model, which is currently employed by professional market-makers in traditional financial markets and exchanges.
+20
+
+10 Acknowledgments
+We would like to express our gratitude to the many people who supported us as we wrote this paper. A special thanks to Omri Ross, Meni Rosenfeld, Yudi Levi, Amatzia Benartzi, Ron Gross, Assaf Bahat, Sefi Golan, Joshua Alliance, Brian Singerman, Adi Scope, Dory Asher, Tal Keinan, firmo.network, Wings.ai, TheFloor, Arie Ben-David from the Israel Monetary Change Movement, Scott Morris of Ithacash, Benjamin Egelund-Müller and the team of Blockito and Blockchain Labs ApS, and the Bancor team, Ilana, Asaf, Or, Omry, Itay and Mati. Your support and feedback were truly important to us in improving this document. Thank you.
+21
+
+References
+[1] Satoshi Nakamoto. Bitcoin: A Peer-to-Peer Electronic Cash System, 2009. URL http://www.bitcoin.org/bitcoin.pdf.
+[2] Wikipedia. Coincidence of Wants, . URL https://en.wikipedia.org/wiki/Coincidence_of_wants.
+[3] Wikipedia. Long Tail, . URL https://en.wikipedia.org/wiki/Long_tail. [4] Erik Brynjolfsson, Yu Jeffrey Hu, and Michael D. Smith. From Niches to Riches:
+Anatomy of the Long Tail. Sloan Management Review, 47(4):67­71, 2006. URL http://sloanreview.mit.edu/article/ from-niches-to-riches-anatomy-of-the-long-tail/. [5] Fabian Vogelsteller and Vitalik Buterin. ERC-20 Token Standard, 2015. URL https: //github.com/ethereum/EIPs/blob/master/EIPS/eip-20-token-standard.md. [6] Vitalik Buterin. Ethereum White Paper, 2014. URL https://github.com/ethereum/wiki/wiki/White-Paper.
+22
+
+

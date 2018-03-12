@@ -1,0 +1,825 @@
+THE GROCERY INDUSTRY, REINVENTED
+FIRST GLOBAL DECENTRALIZED ECOSYSTEM DIRECTLY CONNECTING GROCERY MANUFACTURERS AND CONSUMERS
+
+www.ins.world
+
+One-Pager
+
+Presentation
+
+Version 6 December 2, 2017
+
+DISCLAIMERS
+The information set forth in this White Paper may not be exhaustive and does not imply any elements of a contractual relationship. The content of this White Paper is not binding for INS Ecosystem Limited ("INS Company" or "INS") and its affiliates and INS reserves the right to change, modify, add, or remove portions of this White Paper for any reason at any time before, during and after the sale of INS tokens by posting the amended White Paper on the website.
+This White Paper does not constitute an investment, legal, tax, regulatory, financial, accounting or other advice, and this White Paper is not intended to provide the sole basis for any evaluation of a transaction on acquiring of the INS tokens. Prior to acquiring the INS tokens, a prospective purchaser should consult with his/her own legal, investment, tax, accounting, and other advisors to determine the potential benefits, burdens, and other consequences of such transaction.
+Nothing in this White Paper shall be deemed to constitute a prospectus of any sort or a solicitation for investment, nor does it in any way pertain to an offering or a solicitation of an offer to buy any securities in any jurisdiction. This document is not composed in accordance with, and is not subject to, laws or regulations of any jurisdiction which prohibits or in any manner restricts transactions in respect of, or with use of, digital tokens.
+The INS token is not a digital currency, security, commodity, or any other kind of financial instrument and has not been registered under the Securities Act of 1933, the securities laws of any state of the United States of America or the securities laws of any other country, including the securities laws of any jurisdiction in which a potential token holder is a resident.
+The INS tokens are not being offered or distributed to, as well as can not be resold or otherwise alienated by their holders to, citizens of, natural and legal persons, having their habitual residence, location or their seat of incorporation in the country or territory where transactions with digital tokens are prohibited or in any manner restricted by applicable laws or regulations. If such restricted person purchases the INS tokens, such restricted person has done so on an unlawful, unauthorized and fraudulent basis and in this regard shall bear negative consequences.
+INS neither offers or distributes the INS tokens nor carries on a business (activity) in any regulated activity in Singapore, in People's Republic of China or in other countries and territories where transactions in respect of, or with use of, digital tokens fall under the restrictive regulations or require from INS to be registered or licensed with any applicable governmental authorities.
+Each purchaser of the INS tokens is reminded that this White Paper has been presented to him/her on the basis that he/she is a person into whose attention the document may be lawfully presented in accordance with the laws of the purchaser's jurisdiction. It is the responsibility of each potential purchaser of the INS tokens to determine if the purchaser can legally purchase the INS tokens in the purchaser's jurisdiction and whether the purchaser can then resell the INS tokens to another purchaser in any given jurisdiction.
+Certain statements, estimates and financial information contained in this White Paper constitute forward-looking statements or information. Such forward-looking statements or information involve known and unknown risks and uncertainties which may cause actual events or results to differ materially from the estimates or the results implied or expressed in such forward-looking statements or information.
+The English language White Paper is the primary official source of information about the project. The information contained in English language White Paper may from time to time be translated into other languages. In the course of such translation some of the information contained in the English language White Paper may be lost, corrupted or misrepresented. The accuracy of such alternative communications cannot be guaranteed. In the event of any conflicts or inconsistencies between such translations and the official English language White Paper, the provisions of the English language original document shall prevail.
+1
+
+CONTENTS
+
+1. ABSTRACT
+
+3
+
+2. INTRODUCTION
+
+6
+
+2.1. GROCERY MARKET CHALLENGES
+
+6
+
+2.2. FOUNDERS' EXPERIENCE
+
+9
+
+3. MARKET OVERVIEW
+
+11
+
+3.1. GLOBAL GROCERY MARKET
+
+11
+
+3.2. ONLINE GROCERY MARKET
+
+13
+
+4. INS ECOSYSTEM
+
+15
+
+4.1. OVERVIEW
+
+15
+
+4.2. ECOSYSTEM PARTICIPANTS
+
+16
+
+4.3. BLOCKCHAIN & SMART CONTRACTS
+
+19
+
+5. INS PLATFORM
+
+21
+
+5.1. KEY COMPONENTS AND PROCESSES
+
+21
+
+5.2. CONSUMERS' AND MANUFACTURERS' INCENTIVES
+
+25
+
+6. APPS & INTERFACES
+
+27
+
+7. ROADMAP
+
+29
+
+7.1. DEVELOPMENT ROADMAP
+
+30
+
+7.2. GEOGRAPHICAL EXPANSION PLAN
+
+32
+
+8. INS TOKEN
+
+33
+
+8.1. STRUCTURE
+
+33
+
+8.2. USAGE
+
+33
+
+8.3. ADOPTION
+
+34
+
+9. TOKEN SALE
+
+35
+
+9.1. SUMMARY
+
+35
+
+9.2. TOKEN SALE PROCEEDS
+
+37
+
+9.3. KYC
+
+38
+
+9.4. ESCROW
+
+38
+
+9.5. INS PROMO TOKEN (INSP) AIRDROP
+
+38
+
+10. TEAM & ADVISORS
+
+40
+
+10.1. ADVISORS
+
+40
+
+10.2. CORE TEAM
+
+42
+
+12. RISK FACTORS
+
+44
+
+2
+
+1. ABSTRACT
+This white paper explores global grocery market challenges, a technology paradigm shift offering transformative potential, and the business and technical aspects of the solution INS is developing for capitalizing on this potential. Highlights of the paper follow below:
+The grocery market, one of the largest consumer markets in the world, is forecast to reach $8.5 trillion by 2020. It is reaching a digital tipping point, with much of its growth to come from online. Online grocery, being the target segment for INS, is expected to grow from $98 billion in 2015 to $290 billion in 2020, according to IDG estimates.
+Despite the tremendous growth, the grocery market has two large interrelated problems - abuse by grocery retailers and ineffective trade promotions.
+The grocery market dominated by retailers. R etail chains capture a very high share of grocery revenue and have a huge influence over manufacturers, causing deep impact on consumers worldwide. Retailers dictate what food is grown and how it is processed, packaged, priced and promoted. As an example, in the UK, four retailers serve as a slim conduit for 7,000 manufactures to sell their products to 25 million households1, which demonstrates how the existence of retailer abuse in the grocery industry has not only been allowed to develop but also thrived.
+1 Source: Consumers International. 3
+
+Ineffective, costly and outdated trade promotions practice. T rade promotion spending represent 17% of manufacturer's sales2. Each year, over $50 billion3 on trade promotions never reaches the consumer. Unfairness in today's promotion-laden atmosphere go hand in hand with the rising costs of promotions and the inefficiencies they produce. 95% of manufacturers admit that trade promotions inefficiency is an extremely important issue.4
+INS is implementing a decentralized ecosystem enabling consumers to save up to 30%5 on everyday shopping buying directly from grocery manufacturers.
+Direct interaction between consumers and manufacturers. B ypassing retailers and wholesalers means a more personalized and transparent grocery shopping experience at lower prices. onsumers will be able to decide which brands they want and goods they need. We call it "Consumption 2.0" since 21st century customers are tired from a one-way street type of communication, whereby retailers push goods onto them that maximize retailer's profit - not what consumers really want. We also want consumers to have unimpeded access to independent and local manufacturers, including farmers, that do not fit retailer supply chain or procurement terms and can't get their goods on retail shelves. Enabling manufacturers to market their goods directly to the consumers. N o more costly and inefficient trade promotions grabbed by retailers and wholesalers. INS will enable manufacturers to create bespoke marketing programs to reward their customers directly. These programs run on smart contracts and powered by the INS token as a means of reward. It is
+2 Source: D eloitte, A merican Marketing Association. 3 Source: Deloitte. 4 Ibid. 5 For smaller manufacturers. 5-15% savings on average are expected.
+4
+
+similar to miles-based reward programs of many airlines, but more advanced, cheaper to run and personalized thanks to smart contracts behind them. This was hardly possible before the blockchain and smart contract era.
+INS has the prerequisites to perform an ambitious task of disrupting the grocery industry based on our deep industry knowledge and confirmed interest from the largest grocery manufacturers in the world.
+More than 4 years of grocery industry track record. INS is founded by veterans of the online grocery industry, using the knowledge and experience acquired since 2013. W e have built strong relationships manufacturers and gained valuable feedback from consumers. INS received strong interest from both large and small consumer goods manufacturers in the world. Selected logos of manufacturers that expressed interest to sign up (on a global or regional basis) are provided below.
+5
+
+2. INTRODUCTION
+2.1. GROCERY MARKET CHALLENGES
+ABUSES OF BUYER POWER BY RETAILERS
+The global grocery industry is dominated by mass-market retail chains. At the national level in many countries, a large share of the grocery market is frequently in the hands of few retailers. While some amounts of buyer power are understandable and simply desirable for competitive advantage, the high level of concentration causes a growing imbalance of buyer power within the supply chain.
+Exerting buyer power is natural when not abused. It is understandable that any industry participant would seek bigger volumes as a tool for negotiating better prices. But retailers push the limits of what is fair. Grocery retailers are perpetually and aggressively extracting better terms from already squeezed manufacturers, going far beyond the benefits a player should receive for attaining economies of scale.
+Large or small, no manufacturer has enough power. Global constituents, such as Procter & Gamble, Nestle, and Unilever, do play a role in the industry and have more negotiating power than small manufacturers. Still, these companies simply are no match for the extensive control retailers have on end-customers throughout the supply chain. For example, Wal-Mart's sales are approximately 5 times greater than those of its largest supplier, Procter & Gamble.6 Wal-Mart accounted for 16% of Procter & Gamble sales in 2016.7
+Retailer buyer abuse extends beyond normal pressure. The explanation of this pressure is abuse of buyer power. Such power allows retailers to determine what will and will not be stocked, and on what terms, such as sources, quantity, quality, delivery schedules, packaging, returns policy, and above all, price and payment conditions. Indeed, a supermarket company wields an important bargaining chip, namely the threat to stop selling one or more products.
+Evidence of retail power abuse - The Competition Commission in the UK, for example, did find that major retailers enjoy a price advantage that exceeds the cost difference. Additional departures from proper retail conduct included: delaying payments to manufacturers beyond
+6 Source: M IT Sloan Review, Rebuilding the Relationship Between Manufacturers and Retailers (2013). 7 Source: P rocter & Gamble Annual Report (2017).
+6
+
+the terms in the contracts; and changing quantities or product-quality specifications at less than three days' notice, and without paying compensation to manufacturer.8 The figure below offers specific evidence of retail buyer power abuse and lack of adherence to codes of conduct, which was covered in various news outlets. Recent evidence of retailer abuse and lack of adherence to codes of conduct
+INS will help grocery manufacturers to bypass retailers and wholesalers and directly sell and promote their products to consumers.
+8 Source: Gordon Mills, Buyer Power of Supermarkets. 7
+
+SUPPLY CHAIN INEFFICIENCIES
+High distances between manufacture and consumption. The average meal in the US travels about 1,500 miles to get from farm to plate.9 This problem is relevant for many countries and leads to acute financial and ecological consequences with significant adverse impact in the long-term. Food miles, the distance food travels from the place it has been grown to where it is ultimately consumed or purchased, increase significantly when buyers import food from other parts of the country, region or world.10
+Waste in various areas of the supply chain. In distribution centers and on grocery store shelves, food is being wasted. Every night, some perishable items must be thrown out. According to a recent survey, 400 million pounds of food is served by supermarkets, yet nearly a third of it is wasted annually.11 Unfortunately, current retail systems are designed to reduce stock-outs rather than measure and manage food waste. Therefore, managers optimize to ensure food is left over on the shelf.12
+INS will decrease food miles, enabling consumers to unimpededly access local manufacturers, including farmers. INS will implement the effective "pull" system to reduce inventories and out-of-stocks that would decrease the food waste.
+TRADE PROMOTIONS ARE INEFFECTIVE, COSTLY AND OUTDATED
+Grocery manufacturers spend up to 17% of their sales on trade promotions. Trade promotions comprise a growing category of manufacturer expenses directed to wholesale and retail distributors rather than to consumers. Manufacturers spend more than $500 billion on trade promotions annually13, and according to some reports 66% of that spend generates negative returns and leads to higher grocery prices.
+INS is targeting to replace trade promotions with a more personalized, direct and efficient marketing, thus driving grocery prices down and facilitating the effective direct interaction between manufacturers and consumers.
+9 Source: CUESA, How Far Does Your Food Travel to Get to Your Plate?. 10 Source: NRDC, Food miles: How far your food travels has serious consequences for your health and the climate (2007). 11 Source: NPR, Supermarkets Waste Tons Of Food As They Woo Shoppers (2014). 12 Source: ReFED, Inventory Management Challenges. 13 Source: The Boston Consulting Group, estimate (2012).
+8
+
+2.2. FOUNDERS' EXPERIENCE
+INS founders gained a first-hand and practical experience in the grocery industry while developing and growing Instamart, the largest venture-backed grocery delivery operator in Russia. Instamart employs over 200 people, has signed contracts with the largest retailers in the country, and works with the leading grocery manufacturers. Four years of operating experience in the grocery retail sector helped to identify major inefficiencies and abuses in the industry's current construct. INS pursue a large opportunity to disrupt the global grocery retail market via establishing a decentralized and fair ecosystem that directly connects manufacturers and consumers. Instamart's select corporate customers
+Instamart's staff in action
+Instamart developed direct relationship with manufacturers, including the world's largest multinational FMCG companies. The company has launched a number of marketing projects aimed at direct communication between the brands and consumers, including ad banners, sponsored deliveries, traffic generation, sampling and co-branded packaging. Select FMCG counterparties
+9
+
+Instamart has attracted some of the most experienced investors with exceptional track-record in tech and the grocery industry.
+
+INVESTORS
+
+Mail.ru Group, founded by a legendary investor Yuri Milner, is the largest Internet company in Eastern Europe and the world's 7th largest company by pageviews. Mail.ru Group owns social networks (VK, Odnoklassniki), gaming (Armored Warfare, Skyforge, Perfect World), map services (Maps.me), car sharing (BeepCar), and food delivery (Delivery Club).
+
+LEV KHASIS
+
+First deputy CEO of Sberbank, the largest retail bank in Russia, with a decent experience in retail:
+ CEO of X5 Retail Group, the largest grocery retail chain in Russia (2006-2011)
+ Senior Vice-President of Wal-Mart (2011-2013)
+ Vice-Chairman of Jet.com (acquired by Wal-Mart for $3 billion in 2016)
+ Board Member of Boxed.com  Board Member of LendingHome.com
+
+SERGEY SOLONIN
+
+Entrepreneur with over 20 years of experience in the payment services and banking industries.
+Founder and CEO of Qiwi Group, the leading provider of next generation payment services in Russia and the CIS with turnover exceeding $10 billion
+
+ILYA YAKUBSON
+
+One of the best executives in the retail space. He was recognised as "Man of the Year in Retail 2015".
+Ex-CEO of Dixy, #4 grocery retail chain in Russia (2009-2015)
+
+10
+
+3. MARKET OVERVIEW
+3.1. GLOBAL GROCERY MARKET
+ The grocery market is one of the largest consumer markets in the world: it is expected to reach $8.5 trillion by 2020 with up to 50% share of a customer's wallet
+ Grocery retailers have acquired a dominant market share and high concentration: up to 90% of the market in many countries is controlled by a handful of retailers
+ The grocery industry is reaching a digital tipping point, with much of its growth expected to come from online
+A VERY LARGE MARKET WITH EXTENSIVE IMPACT
+The global grocery industry is forecasted to grow at a 6.1% annually from 2016 to 2020, reaching an estimated $8.5 trillion in 2020.14 The grocery market is a defensive one which means that it tends to stay stable in good and bad economic times, given there will always be a demand for food. One of the biggest segments of retail and comprising a significant share of the consumer's wallet, the industry has a deep impact on grocery sector stakeholders, particularly manufacturers and consumers. As an example of the consumer impact, the figure below shows the portion of consumers' household spending on food in a variety of countries. Share of household expenditures spent on groceries15
+14 Source: Persistence Research, F ood Retail Market Will Reach $8,541.9 Billion Globally in 2020 (2014). 15 Source: USDA, Economic Research Service (2012).
+11
+
+HIGH MARKET CONCENTRATION LEADS TO HIGHER PRICES
+The concentration of grocery retail markets is high throughout the world. Top grocery retail corporations comprise an incredibly high share of the market. For example, in Portugal, 90% of the grocery market is controlled by the nation's top three retailers. As the market becomes more concentrated, competition gets weaker and prices of grocery products rise. Share of national grocery market controlled by top retail chains16
+16 Source: Consumers International, Planet Retail, Nielsen. 12
+
+3.2. ONLINE GROCERY MARKET
+ Online grocery, being the target segment for INS, is expected to grow from $98 billion in 2015 to $290 billion in 2020
+ Grocery is the last major consumer market moving rapidly into online, offering tremendous opportunities for those who will lead this shift
+ INS is well equipped to lead in the online grocery segment and is addressing key consumer demands - cheaper prices, higher convenience, better quality, and unique rewards directly from manufacturers
+ONLINE GROCERY WILL EXPLODE
+The global online grocery market increased by 16% in 2016. IGD projects double-digit annual growth rates for online grocery in largest markets by 2020. Top 10 global markets alone are expected to explode from $98 billion in 2015 to $290 billion in 2020.17 Top 10 online global grocery markets and forecast to 202018
+17 Source: IGD, Top 10 Online Global Grocery Markets and Forecast (2015). 18 Ibid.
+13
+
+DEMAND AND SUPPLY DRIVERS
+Consumers are becoming increasingly time-starved. The rapid growth in online grocery retail can be attributed to various factors such as demographic profile of consumers, number of working women, good internet connectivity, rising usage of smartphones, convenience, etc. Traditional in-store buying of grocery is becoming more cumbersome given the fast pace of lives, especially in urban areas. Moreover, buyers are overcoming the biases of wanting to touch and see food and grocery products before buying. Consumers, pressed for time, are looking for options which offer increased convenience and save time. Online grocery buying offers exactly that and hence is gaining popularity across consumer segments.
+
+Demand drivers
+ On-demand economy expectations  Time-starved lifestyle in large cities  Worsening traffic conditions  Growing smartphone usage  Growing middle class in large urban
+areas
+
+Supply drivers
+ Advent of mobile technology  Automated fulfillment solutions  New marketplace models that require
+less capital expenditure  Crowdsourcing economy driving
+affordable, quick delivery
+
+Price, quality of products, convenience and special promotions are the most important drivers that influence consumer behavior.19
+Most important grocery purchasing decision drivers for consumers20
+
+INS will enable consumers to buy high-quality groceries at cheaper prices and receive direct rewards from manufacturers, thus driving consumers to buy groceries online with convenience.
+19 S ource: Nielsen, The Future of Grocery (2015). 20 Ibid. Global average.
+14
+
+4. INS ECOSYSTEM
+
+4.1. OVERVIEW
+
+The INS ecosystem will become the first global decentralized grocery marketplace where consumers can buy products directly from manufacturers, enjoy low transparent prices for a wide range of high quality products, and save on direct promotions. Manufacturers compete for consumers and interact with them directly.
+Comparison with competitors
+
+INS Ecosystem
+
+Offline Retail Stores
+
+Price
+Quality
+Convenience
+Promotions from manufacturer s
+Assortment
+
+   
+
+
+   
+
+
+Amazon Fresh    
+
+
+Instacart
+   
+
+Other Online Grocery Delivery
+
+
+
+
+
+
+
+
+
+INS Ecosystem Limited, incorporated as a BVI company ("INS"), is the official entity that creates the INS tokens, platform and technology. INS is focused on releasing open source cryptographic technologies that enable operation in the INS ecosystem. For the avoidance of doubt, the INS tokens do not provide token holders with any ownership or other interest in INS. Token holders are not entitled to any guaranteed form of dividends, revenue distributions, and voting rights.
+To become an ecosystem participant, the user creates an account on the INS platform. During the registration, the system will create a user profile and a wallet. Each participant of the ecosystem will be provided with a wallet that preserves all data in the decentralized database and interact with other parties, utilizing smart contracts. We plan to place the INS token on cryptographic token exchanges, giving an opportunity to openly buy them (to residents of countries where the purchase of digital tokens does not violate local laws).
+
+15
+
+4.2. ECOSYSTEM PARTICIPANTS
+The ecosystem will be built in accordance with a scalable and decentralized approach that ensures stability and sustainability in the long term. The ecosystem will involve the following participants, which will participate as depicted in the next diagram:
+ Platform  Consumers  Manufacturers  Fulfillment (fulfillment center operators and workers, couriers)
+The fees described on the ecosystem map above may be subject to change at a later stage. 16
+
+PLATFORM
+The INS platform is a decentralized marketplace that allows manufacturers to join, publish their products for sale, carry out promotion and loyalty campaigns, and get feedback from consumers. It enables consumers to order those products and facilitates the order fulfillment process.
+INS roles include:
+ INS token creation and the token launch to fund development and expansion  Establishment of a decentralized, fair and secure model for order execution  Development of smart contracts to run the order payment and fulfillment process  Release of the customer website and app, fulfillment app for fulfillment center workers
+and couriers, and web interfaces for manufacturers and fulfillment center operators  Creation of an effective incentive model for all parties to join the INS ecosystem  Development of an active marketing campaigns to ignite initial traction  Elaboration of the ecosystem's regulatory aspects
+MANUFACTURERS
+Manufacturers are companies or individuals in the business of fresh produce, groceries and consumable household items. They could range from local farmers to large multinationals, such as Procter & Gamble, Unilever, Coca-Cola, etc.
+Manufacturer roles include:
+ Publish products  Deliver products ordered by consumers to fulfillment centers  Promote the INS ecosystem by bringing traffic via promotions of derived apps
+CONSUMERS
+Consumers are individuals or companies that want to buy online high-quality groceries at cheaper prices. Orders can be placed via the INS website, INS app or custom apps derived by manufacturers from the app reference implementation.
+Consumer roles include:
+ Search products listed by manufacturers, make orders and pay for them
+17
+
+ Participate in feedback requests  Receive promotion, loyalty, referral and feedback rewards
+FULFILLMENT
+FULFILLMENT CENTER OPERATORS Fulfillment center operators are owners or operators of existing warehousing facilities and/or delivery fleet. They provide the space where workers take products delivered by manufacturers and assemble orders. INS will engage independent fulfillment center operators to join the ecosystem to ignite fast geographical expansion.
+FULFILLMENT CENTER WORKERS Fulfillment center workers, employed by a fulfillment center operator or acting as independent contractors, will follow instructions received via the INS fulfillment app to:
+ Collect products delivered by manufacturers to fulfillment centers  Assemble products into orders  Pass assembled orders to couriers INS is exploring also attracting independent workers to join the ecosystem.
+COURIERS Couriers, employed by a courier company or acting as independent contractors, will follow instructions received via the INS fulfillment app to:
+ Pick up orders from fulfillment centers  Deliver orders to consumers
+INS will seek to attract independent couriers and courier companies to join the ecosystem.
+18
+
+4.3. BLOCKCHAIN & SMART CONTRACTS
+Blockchain is a shared-database technology, mostly popular for underpinning bitcoin digital currency. It works with linked databases that update digital ledgers unceasingly.
+Smart contracts are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code. The code and the agreements contained therein exist across a distributed, decentralized blockchain network. Smart contracts permit trusted transactions and agreements to be carried out among disparate, anonymous parties without the need for a central authority, legal system, or external enforcement mechanism. They render transactions traceable, transparent, and irreversible.
+The INS platform is designed as a very high-load system. The market potential for the INS ecosystem consists of millions of users, each of them making dozens of orders per year. The main focus is on performance, in which we seek smart contracts support, predictability, stability, and ease of use. We plan to use the most proven and scalable open source technologies and constantly monitor alternative technical implementations.
+As the existing blockchain platforms such as Ethereum have inherent limitation in transaction bandwidth (currently limiting to a dozen tx/sec), and prospective platforms and frameworks are only in the development stage, we also consider designing and developing our own INS blockchain platform in the future, where nodes are selected from a semi-trusted set of supporters. Given the trust in the nodes, we will implement one of much faster consensus algorithms from the BFT family (HoneyBadgerBFT/Zyzzyva/others), enabling up to thousands transactions per second. A smart contract virtual machine will run on top of the consensus algorithm. The state of the INS blockchain will be regularly anchored to the most popular smart contract ledgers (at least ETH) so that proofs of state and proofs of transaction (within INS) can be verified by Ethereum smart contracts (like it is currently done in BTCRelay or will be done in the future in Plasma). Common optimization techniques such as state sharding and payment channels will be also implemented.
+BLOCKCHAIN APPLICATIONS IN INS
+ Smart contracts  Payments  Supply chain management
+19
+
+SMART CONTRACTS
+Blockchain and smart contracts provide the tools and framework to create a new generation of marketplaces where supply and demand sides can engage in trusted trading transactions, according to various business rules, without the need of a central brokerage entity. Consequently, the same way online marketplaces disrupted many traditional brick and mortar businesses, blockchain and smart contracts will give birth to a new kind of peer-to-peer marketplaces that will unsettle the current ones.
+INS will provide a number of smart contract templates that will be used to facilitate the sale mechanism. The peer-to-peer structure is the perfect fit for the decentralized nature of the INS ecosystem and has the benefit of handing over the power back to the people participating in the ecosystem.
+PAYMENTS
+The payment process in e-commerce currently entails more than 10 different steps to settle a transaction and up to 15 separate fees to pay for payment gateways, thus making transaction fees range from 2% to 6%, a long route that could be cut short with blockchain use. Blockchain is the perfect tool for ecommerce to be more efficient and more trustful. Payment processing through blockchain has a significantly bigger potential for transaction high speeds and low prices, let alone all the possible variety of ways smart contracts can improve both ecommerce and payments. A tokenized ledger will provide a complete token-based system, similar to "real" money where tokens are sent and exchanged at different times and for different reasons, based on predefined rules and events.
+SUPPLY CHAIN MANAGEMENT
+E-commerce companies must manage a complex supply chain of manufacturers, third-party vendors, carriers and logistics providers. A blockchain of the transaction, containing order details and negotiated fees and commissions (in the form of smart contracts) will be used to capture documents, delivery and possible return events, and drive financial settlement with fewer opportunities for dispute. The public-private nature of blockchain records means that each party can make data visible to the others. All parties have visibility into the transaction and no custom interface has to be negotiated between partners (only to/from the blockchain).
+The blockchain is the system of record for the entire transaction. It doesn't merely record the transaction, it drives the whole process. This will reduce time delays, added costs and human errors that plague transactions today, automate inventory control, and streamline fulfillment processes, but errors to some extent are possible since grocery products are not digital, the blockchain records of their track is inevitably post-factum.
+20
+
+5. INS PLATFORM
+
+5.1. KEY COMPONENTS AND PROCESSES
+PRODUCTS
+Products in the consumer markets constitute the basic item that actions revolve around. To make it simple and convenient, products on the INS platform are required to have several defined parameters, such as name, category assignment, volume, price, description, ingredients, etc. that makes it easy to find and choose products for ordering.
+
+PLACING ORDER
+Consumers choose products to buy, specify delivery details, and pay in fiat, BTC, ETH or INS tokens. Depending on the payment method, consumers will be eligible to different prices and rewards.
+
+Payment method Fiat currencies BTC, ETH
+INS tokens
+
+Prices general prices + 2-3% card fees
+general prices + transaction fees (e.g. Ethereum gas price)
+general prices + almost 0% transaction fees
+
+Access to rewards Limited Limited
+Full
+
+Consumer can order products using the official INS website, the official app or a derivation of the official app released by a specific manufacturer.
+
+PRODUCT SEARCH
+The decentralized file storage network (we explore different options from IPFS to Storj) is used to maintain up-to-date databases of products listed by manufacturers. Consumers can apply sorting and filters to choose what they want to buy. Manufacturers may distribute proprietary
+21
+
+apps derived from the reference implementation, in which they can choose specific sorting methods and filters for products.
+68% of consumers that shopped online say they are very likely to switch grocers for a better online shopping experience (quick, easy, convenient, enjoyable)21. Browsing tens of thousands of products online can be very daunting for consumers, so we will make it as easy as possible for them to find the products that they love. For instance, we will provide catalogue filters for item attributes such as Local, Gluten-Free, Organic and On Sale.
+We will use the 1-to-1 personalization right from the homepage where consumers should feel that the experience has been tailored specifically to them. Consumers will see their previous orders, have access to their most frequently purchased items, and be shown products and specials that are relevant based on their shopping history. The 1-to-1 personalization will extend to search results, the products displayed at the top of each department, product recommendations in the cart, and daily/weekly offers.
+REWARDS
+Today's consumers have a range of choices about where to shop, and sellers need to work hard to earn repeat business. Rewards and discount programs give customers more reason to come back again, especially in the competitive grocery market. In the INS ecosystem, manufacturers will be able to apply any logic in the smart contract to create bespoke reward programs according to their needs.
+LOYALTY Loyalty reward mechanisms is one of the best ways for manufacturers to easily set up a loyalty program to reward long-term customers. Payments are processed by smart contracts making it possible to proof that a consumer is eligible for a reward. Manufacturers set the rules such as reward type, expiration date, product lists that the reward can be spent on, amount, etc. Loyalty reward instruments will be coded in a smart contract, which accepts reward funds from the manufacturer and distributes them to those who provide proofs of eligibility linked to consumer wallets.
+21 Source: UNATA (2016). 22
+
+PROMOTION
+Automated promotion reward mechanism is built to incentivize consumers to make a first order. Promotion reward mechanism will be coded in a smart contract, where manufacturers set the rules (expiration date, list of products, customer parameters, etc.) and deposit tokens that can only be used to buy pre-defined products during a limited period of time.
+CROSS-MARKETING
+Cross-marketing mechanism will be used by manufacturers to promote products to new audiences and generate more sales. Manufacturers can find partners - other manufacturers that created custom apps and sell complementary products, and cross-promote each other. Cross-marketing reward instruments will be coded in a smart contract, where the product details and reward rules are specified. The cross-marketing mechanism intends to incentivize manufacturers to share app traffic with other manufacturers and help consumers discover more products.
+REFERRAL
+INS will create the INS Reserve Fund as the part of the token generation event with the primary goal to use these tokens as referral rewards to new customers and popularize the INS ecosystem.
+FEEDBACK
+Manufacturers, seeking to receive direct customer feedback on their products, will be able to incentivise consumers with INS tokens to motivate them to participate. The feedback reward mechanism allows to set a specific set of parameters and create a focus group of consumers from whom a manufacturer wants to receive feedback. The customer data will not be shared with manufacturers and will initially be processed in a centralized way on the INS platform, but later decentralized as consumers will provide privacy-preserving proofs of eligibility which enable them submitting a feedback without being identified.
+MINIMUM BALANCE
+Manufacturers will be required to hold a balance in INS tokens equal to some portion of previous month sales to guarantee the ability to pay all types of rewards. Manufacturers can either keep tokens received from consumers or buy tokens on exchanges to comply with the requirement.
+23
+
+RATING SCORE
+The reputation system is important to establish trust between counterparties. Initially rating scores will be deployed for manufacturers and fulfillment parties, and later might possibly include consumers too.
+We plan to code the rating smart contracts so that they would count the ratings and accept privacy-preserving proofs of validity from consumers, while satisfying the following security requirements:
+ Transparency: it should be clear how the ratings are accrued  Legitimacy: only certain set of participants (i.e. manufacturer's customers) are able to
+rate  Integrity: it should be difficult, if not impossible, to manipulate the ratings  Privacy: the consumers who rate do not disclose their identity or other personal details
+ORDER STATUS
+All smart contracts are limited in their ability to read data outside the blockchain. The natural way to make smart contracts process external data is to submit it digitally signed by a proper participant (oracle) from off-chain so that a contract can verify the signature and process the data.
+The order status report will form automatically during the fulfillment process and contain the following signed confirmations:
+ Manufacturer: supply request received and fulfilled  Worker: products delivered to a fulfillment center  Worker: order assembled and ready for delivery  Courier: order picked up  Courier: order delivered  Consumer: order received
+Each participant has a private key to his account securely encrypted and stored in the wallet, and the latter also creates and verifies signatures so that the entire process is smooth. Once the statuses are reflected on-chain, this data is available to other participants or various smart contracts in the system.
+24
+
+DISPUTE RESOLUTION
+Maintaining a high rating score incentivises all ecosystem participants to act truthfully, rendering the dispute mechanism unnecessary in practice in the vast majority of cases. The dispute mechanism will be built to make it as easy as possible to solve a dispute without calling a 3rd party arbiter. If failed, an INS employee will serve as an arbiter. The dispute result can influence the rating score for both defendant and complainant.
+PERSONAL DATA SECURITY
+Handling personal data securely is a task of great importance to us. Due to the public nature of data in the blockchain, we cannot store such information as customer names, addresses, mobile numbers, KYC data, and documentation there. Permissions on the blockchain will be made easily verifiable to allow cooperation of different entities in the ecosystem. The actual personal data and information will be stored in a centralized storage, managed and secured by INS. As the decentralization continues, we will store less and less personal data.
+The secure storage will allow accessing the data without the need for usernames or passwords using the following scheme:
+ When the data is saved into the storage it will be linked to the public identifier of the entity such as a blockchain address
+ The party that wants to retrieve the data should confirm their identity by signing the request with the private key that corresponds to their blockchain address
+ Storage service will get the information about permissions from blockchain, check that the signature is valid and the requester has the right to access the data
+ If the check is successful, the data will be returned to the requestor and a confirmation record will be made in the blockchain
+5.2. CONSUMERS' AND MANUFACTURERS' INCENTIVES
+INCENTIVES FOR MANUFACTURERS
+ Publish products to make them easily available for ordering  Provide fair prices on their products and compete openly with other manufacturers  Customise the INS official app according to their own branding, promote it to consumers
+to increase repeated usage and earn cross-marketing rewards  Serve in a trustful manner to keep a high rating score and attract more consumers  Provide attractive promotion and loyalty rewards to acquire and retain consumers
+25
+
+ Get direct customer feedback INCENTIVES FOR CONSUMERS
+ Order everyday grocery and consumable products cheaper than at retail stores  Get orders delivered to the doorstep without need to spend time on offline shopping  Leave feedback to influence manufacturers  Get different types of rewards
+26
+
+6. APPS & INTERFACES
+We plan to develop and publish a website and mobile apps for consumers, as well as mobile apps and web interfaces for all other ecosystem participants.
+CONSUMER APPS & WEBSITE
+Consumers will shop for groceries and provide feedback on the website or in the apps. The official consumer app implements the consumer side of the model including access to smart contracts and access to products from a decentralized cloud storage. The app will be published as open source software on GitHub and serve as the formal reference implementation. Manufacturers can alter the official app and release their own branded and customized apps. We will publish an open source customization software development kit (SDK) with tutorials and documentation to make the app customization process as easy as possible. Customized app implementations are not forks of the INS platform and are not forks of the INS token but simply a different client for the same network.
+27
+
+FULFILLMENT APP
+The fulfillment app will provide a smooth order fulfillment process to allow fulfillment center workers and couriers to coordinate with each other, manufacturers and consumers. The fulfillment app will be published on Android Play.
+WEB INTERFACE FOR MANUFACTURERS
+The web interface for manufacturers will run in a web browser without the requirement of local installation and allow to perform all actions, including listing and editing products, performing stock control, setting delivery options and reward policies.
+WEB INTERFACE FOR FULFILLMENT CENTER OPERATORS
+The web interface for fulfillment center operators will run in a web browser without the requirement of local installation and allow to set warehousing fees, receive statistics and earning reports.
+28
+
+7. ROADMAP
+Our roadmap involves many different aspects, such as technology development, operational infrastructure installment, signing partnerships, and launching marketing initiatives. The preliminary roadmap is presented below. Dates and activities may be subject to change.
+29
+
+7.1. DEVELOPMENT ROADMAP
+Our goal is to create the leading decentralized consumer marketplace used by broad audiences by maintaining a thriving ecosystem of consumers willing to buy everyday products at lower prices and manufacturers looking to sell directly and surpass existing retail chains. Our main role is to develop the open source technology required for running the platform and create a successful model to incentivize all participants.
+MILESTONE #1: PLATFORM IMPLEMENTATION
+The first milestone is the implementation of the decentralized INS platform. We always welcome feedback from the community regarding the specifics and plan to continually improve the platform to make it fully secure and transparent.
+After the ICO period, all contributors will receive the ERC20 compatible INS token on the Ethereum network. After launching the INS platform on own blockchain platform or a blockchain platform that will be chosen from the list of suitable alternatives, a token native to that platform will be deployed. The ERC20 compatible INS token will be exchanged 1-to-1 with a native INS token.
+The main part of the decentralized platform will be implemented as a set of smart contracts carrying out the behaviors described in the INS platform section of this document.
+The official smart contracts will be published as open source software on GitHub and include implementation for:
+ Basic functionality like trading tokens between addresses  Product publishing  Fulfillment process reporting  Reward mechanisms
+MILESTONE #2: APPS AND WEB INTERFACES DEVELOPMENT
+While the first milestone concentrates on the backend of the system, the second milestone concentrates on the frontend and end-user experience.
+30
+
+We plan to release the consumer website, a reference implementation of the consumer app, and the fulfillment app. We plan to use React/React Native technologies to share most of the codebase between web/mobile. The apps will include a thin client based on a standard open source implementation that will allow the apps to communicate with the various smart contracts on the INS platform. The web interface for manufacturers and fulfillment center operators will run in a web browser without the requirement of local installation.
+MILESTONE #3: ECOSYSTEM EXPANSION
+With the majority of required technology for operating the INS ecosystem at scale available, our main focus will shift from development to growth. Investment in network growth will not wait until all development has been finalized and will take place in parallel as soon as viable versions of the apps and interfaces are available for preliminary release. Growth of the network is two-sided and depends on both manufacturers and consumers.
+MANUFACTURERS
+The INS ecosystem will benefit from as many high-quality manufacturers joining the ecosystem as possible. Manufacturers are the publishers and providers of products in the ecosystem and serve as engines for driving traffic. Manufacturers consume INS tokens to provide all types of reward programs. Channels for attracting manufacturers include manufacturers who already supported the INS idea, direct contacts with manufacturers, participation in relevant meetings and conferences, forming partnerships with manufacturer associations, and providing guidance and support to new manufacturers interested in joining the ecosystem in order to make the process as seamless as possible.
+CONSUMERS
+The more active consumers are in the network, the more turnover and the greater the profits will be for manufacturers. Greater turnover increases the ecosystem value. Channels for increasing the consumer base include marketing and promotion of the INS apps and website to broader audiences and promotion of the online grocery delivery in general. Attracting more consumers is not the only avenue of growth; improving engagement of existing customers is equally important. Customer retention in the network can be increased by ongoing improvement to the core product.
+31
+
+7.2. GEOGRAPHICAL EXPANSION PLAN
+We plan to choose cities for expansion based on the population size, income level and grocery market concentration ratio. The map below presents a preliminary list of cities, which might be subject to change as we progress with the project.
+INS founders' previous experience with Instamart serves as a very solid jump start. We plan to actively engage independent fulfillment center owners to join the INS ecosystem, further accelerating expansion and enhancing the decentralized nature of the ecosystem.
+32
+
+8. INS TOKEN
+8.1. STRUCTURE
+After the ICO period, all contributors will receive an ERC20 exchangeable INS tokens on the Ethereum network. Whenever the INS blockchain is launched with its own token mechanism, the ERC20 token will be always accepted for exchange to a new token 1-to-1.
+The INS token is a core component of the INS ecosystem and is designed to facilitate all kinds of operations that make the token an integral part of the ecosystem and the driver for its economy. The INS token is fractionally divisible, transferable and fungible.The token balances and transfers will be tracked by INS. In the case of any force majeure, such as large token theft, contract compromise, or a disrupting change of Ethereum protocol, INS may opt to freeze token transfers and issue a new token contract with balances replacing that of the original token registry by certain date. In the case of an Ethereum fork, INS will properly announce which branch it will support.
+INS Token Contract Address: 0 x5b2e4a700dfbc560061e957edec8f6eeeb74a320
+8.2. USAGE
+The INS token is planned to be the only means of exchange for handling all types of rewards and one of the means of payment within the INS ecosystem. We plan that INS tokens will be accepted as a payment method in partner services.
+INS TOKEN USAGE
+Manufacturers  Rewards: loyalty, promotion, cross-marketing, feedback  Minimum balance hold
+Consumers  Payment for orders
+INS  Referral rewards to consumers
+33
+
+8.3. ADOPTION
+One of our key goals is the introduction of a decentralized consumer marketplace to audiences that have little experience with cryptocurrencies and likely to have little-to-no knowledge of blockchain-based technologies. The INS ecosystem will be expanding beyond the crypto community and focusing its activity on the broad audiences. Providing services to this audience requires perfect knowledge of the grocery industry and its specifics. Given extensive industry experience, our team knows exactly what consumers want. We will make it very simple and straightforward for consumers to buy, earn and use INS tokens. The complexities of opening and maintaining a cryptocurrency wallet will be made seamless in the INS website and apps.
+34
+
+9. TOKEN SALE
+
+9.1. SUMMARY
+
+Start date: 1 1:00 AM (GMT) on DECEMBER 4, 2017 Payment methods: BTC, ETH, LTC, DASH, USD (bank transfer) Soft cap: 20,000 ETH Hard cap: 60,000 ETH Token exchange rate: 1 ETH = 300 INS tokens Total token supply (max): 50,000,000 Min purchase: 0.1 ETH Bonuses:
+
+Contribution amount
+
+above 100 ETH
+
+10 - 100 ETH
+
+below 10 ETH
+
+Day 1
+
+25%
+
+22.5%
+
+20%
+
+Days 2-7
+
+20%
+
+17.5%
+
+15%
+
+Week 2
+
+10%
+
+7.5%
+
+5%
+
+Week 3
+
+0%
+
+0%
+
+0%
+
+ The exact number of tokens generated depends on the amount of funds contributed  No token creation, minting or mining after the end of the ICO period  Tokens will be transferable once the ICO is completed  If the soft cap is not reached, funds will be returned to the participants  Upon reaching the hard cap, the ICO will end immediately
+
+The token distribution is proportional to the number of INS tokens generated:
+
+ICO participants
+
+Team (subject to vesting and lockup)
+
+Advisors, early supporters, bounty
+
+Reserve Fund
+
+60%
+
+15%
+
+5%
+
+20%
+
+35
+
+ INS team's tokens are locked for 2 years with four 6-month vesting periods  Advisors' and early supporters' tokens are locked for 6 months  The Reserve Fund's tokens distribution will start in 2019 and last for up to 2 years with
+the primary goal to incentivize new customers to join and accelerate adoption of the INS ecosystem by broad audiences
+
+BOUNTY & REFERRAL CAMPAIGN
+
+Activity
+
+% of Bounty pool*
+
+BitcoinTalk Signature ampaign
+
+30%
+
+Blog Article & Video Campaign
+
+20%
+
+Social Media (Facebook & Twitter)
+
+20%
+
+Translations
+
+15%
+
+Telegram
+
+2%
+
+Miscellaneous
+
+13%
+
+*The bounty pool is 500,000 INS tokens. See details on BitcoinTalk h ttps://goo.gl/KNh4ZH
+
+Activity Referrals
+
+Reward as % of tokens purchased 5%
+
+Referral reward to a referral link owner is 5%, based on the number of tokens purchased using the referral link. Those who bought tokens using a reference link receive an extra 3% bonus.
+At the end of the ICO all sold tokens are considered to be 60% of the total supply, 15% is distributed to the INS team, 5% - to advisors, early supporters and bounties receivers. The remaining 20% of tokens will be held in the Reserve Fund. Tokens from the Reserve Fund will be used wisely to reward new customers to join the ecosystem and accelerate adoption.
+
+36
+
+9.2. TOKEN SALE PROCEEDS
+
+The funds raised during the ICO are planned to be used in accordance with the roadmap.
+
+Planned fund allocation Research & Development Marketing & Sales Admin & Operations Legal Contingency
+
+% 50.0% 27.8% 14.4%
+2.8% 5.0%
+
+Amount $9,000,000 $5,000,000 $2,600,000
+$500,000 $900,000
+
+Our roadmap assumes development of all features for the INS platform and feature-rich apps and interfaces for all ecosystem participants, as well as a strong sales and marketing support to accelerate adoption by manufacturers and consumers.
+Research & Development costs cover all R&D expenses, including design and development of smart contracts, cryptographic mechanisms, the INS platform, apps and interfaces, SDK, etc. Includes opening of an R&D center with approximately 35 engineers.
+Admin & Operations costs include salaries of all INS employees excluding the R&D team.
+Marketing & Sales budget will be allocated on acquisition of both manufacturers and consumers.
+Legal costs include all legal expenses associated with expansion of the INS ecosystem in different countries.
+Contingency fund is calculated as 5% of the total budget.
+
+9.3. KYC
+The tokens are not being offered or distributed to, as well as can not be resold or otherwise alienated by their holders to citizens of, natural and legal persons, having their habitual residence, location or their seat of incorporation in the country or territory where transactions with digital tokens are prohibited or in any manner restricted by applicable laws or regulations,
+37
+
+or will become so prohibited or restricted at any time after this Agreement becomes effective ("Restricted Persons"). We do not accept participation from the Restricted Persons and reserve the right to refuse or cancel the INS token purchase requests at any time at our sole discretion when the information provided by the purchasers within the KYC procedure is not sufficient, inaccurate or misleading, or the purchaser is deemed to be a Restricted Person.
+9.4. ESCROW
+All payments received for INS tokens in connection with the INS token sale will be held in escrow in a multi-signature wallet. Keys will stay with the INS team and Nektorov Saveliev & Partners, a cross-border provider of legal services and member of Yingke, Asia's largest global legal services network. NSP has partner offices in over 30 countries, including China, the UK, Switzerland and Italy.
+9.5. INS PROMO TOKEN (INSP) AIRDROP
+500,000,000 INSP tokens airdropped to all Ethereum addresses with >=0.1ETH. A snapshot of ETH token holders was taken on November 1st. INSP token provides an additional 5% bonus to purchase INS tokens during the Token Sale. INSP is a promo token and can not be exchanged into INS token. INSP Token Contract Address: 0 x52903256dd18D85c2Dc4a6C999907c9793eA61E3 INSP Token Airdrop Goals:
+ A fair, equal opportunity for many different people to get involved  Facilitate activity and capture a wider audience Airdrop recipients do not need to do anything to receive the INSP tokens. Ignore any requests for your private keys.
+38
+
+10. TEAM & ADVISORS
+INS founders, Peter Fedchenkov and Dmitry Zhulin, have known each other since 2010 and work together since 2013. INS is supported by world-renowned advisors.
+SELECTED TEAM EXPERIENCE
+10.1. ADVISORS
+EYAL HERTZOG
+PRODUCT ADVISOR Bancor's co-founder, Chief Architect and Head of Product Development. Eyal is a serial entrepreneur, founder of MetaCafe and Contact Networks, outspoken thought leader on cryptocurrency and the Internet.
+MICHAEL TERPIN
+ADVISOR Founder and CEO of Transform Group, a PR firm with over 40 successful ICOs. Co-Founder and Chairman of BitAngels, a digital currency investor group. Founder and Conference Director at CoinAgenda. Special advisor to the Alphabit Fund
+39
+
+MOE LEVIN
+ADVISOR CEO of Keynote, Executive Committee Member at the Global Blockchain Council, founder at the North American Bitcoin Conference. Moe is a visionary entrepreneur and a recognized leader in the crypto space
+DAVID WACHSMAN
+PR ADVISOR The founder of Wachsman PR, the world's largest blockchain-focused public relations agency, leading communications for projects such as Dash, Iconomi, Aragon, Kraken, Lisk, and Kik, amongst many others
+DR. RAWI ABDELAL
+ACADEMIC ADVISOR The Herbert F. Johnson Professor of International Management at Harvard Business School and the Director of Harvard's Davis Center for Russian and Eurasian Studies
+SEBASTIAN STUPURAC
+COMMUNITY ADVISOR Co-Founder of Wings, a successful community engagement and smart contract facilitation platform, one of the few working DAPPS on the Ethereum blockchain. Vast experience in decentralized solutions and blockchain technology since 2013
+ILYA PEREKOPSKY
+ICO ADVISOR Co-Founder of Blackmoon Financial Group ($30 million ICO in Sep-2017). One of the early employees and recently a Vice-President of VK, the leading social network in Russia with more than 400 million users globally
+GEORGE LI
+STRATEGY ADVISOR Co-Founder and CEO of WeTrust.io, a company building financial dApps. Previously with Google Business Strategy and McKinsey & Co. Stanford University Alum.
+40
+
+10.2. CORE TEAM
+
+PETER FEDCHENKOV
+FOUNDER
+
+DMITRY ZHULIN
+FOUNDER
+
+Brings wealth of retail and tech experience. Venture capital and private equity professional
+
+Previously with Goldman Sachs and IBM. Teaches with focus on retail and ecommerce. 5 years of
+
+a class on retail at the Stockholm School of investing experience in crypto-assets. Previously
+
+Economics.
+
+with VTB Capital Private Equity, Rothschild and
+
+Harvard Business School MBA
+
+PwC. University of London, PgD in Finance
+
+DMITRY KHOVRATOVICH
+BLOCKCHAIN & SMART CONTRACTS
+
+PRABHAKAR REDDY
+ASIA EXPANSION
+
+Recognized expert in cryptography and security Serial entrepreneur, 9+ years of experience running
+
+(12 years, 2,000+ citations). Designer of Argon2 successful businesses in India, Dubai and San
+
+(the winner of the Password Hashing Competition) Francisco.
+
+and Equihash
+
+Harvard Business School MBA
+
+PAVEL YAKSHANKIN
+TECHNOLOGY
+
+MICHAEL SCHMIDT
+US EXPANSION
+
+5+ years of leading development teams. Previously Entrepreneur and engineer with wealth of
+
+with Undev, FunBox and Voltmbi. RailsClub 2016 experience launching new technology products.
+
+conference speaker. Experienced in Ruby, Georgia Institute of Technology MS. Harvard
+
+Javascript, Erlang
+
+Business School MBA
+
+41
+
+FEDOR LISITSYN
+MANUFACTURER RELATIONSHIPS
+
+FRANK VAN DER TOL
+EUROPE EXPANSION
+
+Experienced strategy professional with significant Experienced FMCG & Retail professional (food and
+
+experience in FMCG sector. Previously with non-food). Over 15 years experience in
+
+McKinsey & Company with focus on operational FMCG/Retail, eCommerce and online
+
+projects. MBA candidate at Harvard Business marketplaces. Previously with Accenture. Erasmus
+
+School
+
+University Rotterdam Economics MSc, TIAS School
+
+for Business & Society MBA
+
+MARIA LAPUK
+PR
+
+DMITRY GLADKOV
+LEGAL ADVISOR
+
+Over 10 years of experience in digital PR. One of Partner at Nektorov, Saveliev & Partners (#1 VC
+
+the most recognized PR leaders in the region. law firm award 2015). 20+ years of experience in
+
+Maria's awards include "PR Profile of the Year corporate law and financing advisory. Ex-General
+
+2015", "Most Influential Networker 2013", "PR Counsel at UBS (Moscow). LLM from University of
+
+Professional of the Year 2012"
+
+Georgia School of Law
+
+42
+
+12. RISK FACTORS
+An acquisition of the INS tokens involves a high degree of risk. Each potential purchaser of the INS tokens should carefully consider the following information about these risks before he decides to buy the INS tokens. If any of the following risks actually occurs, the INS platform and the value of the INS tokens could be materially adversely affected.
+Risks and uncertainties described below in this White Paper may not be the only ones token holders face. Additional risks and uncertainties may also materially adversely affect on the INS platform or the value of the INS tokens.
+1. RISKS CONNECTED TO THE VALUE OF INS TOKENS
+1.1. Lack of Development of Market for INS tokens. Because there has been no prior public trading market for the INS tokens, the sale of the INS tokens described in this White Paper may not result in an active or liquid market for the INS tokens, and their price may be highly volatile. Although applications have been made to the cryptographic token exchanges for the INS tokens to be admitted to trading, an active public market may not develop or be sustained after the INS token sale. If a liquid trading market for the INS tokens does not develop, the price of the INS tokens may become more volatile and token holder may be unable to sell or otherwise transact in the INS tokens at any time.
+1.2. Risks Relating to Highly Speculative Traded Price. T he valuation of digital tokens in a secondary market is usually not transparent, and highly speculative. The INS tokens do not hold any ownership rights to Company's assets and, therefore, are not backed by any tangible asset. Traded price of the INS tokens can fluctuate greatly within a short period of time. There is a high risk that a token holder could lose his/her entire contribution amount. In the worst-case scenario, the INS tokens could be rendered worthless.
+1.3. INS Tokens May Have No Value. The INS tokens may have no value and there is no guarantee or representation of liquidity for the INS tokens. Company Parties are not and shall not be responsible for or liable for the market value of the INS tokens, the transferability and/or liquidity of the INS tokens and/or the availability of any market for the INS tokens through third parties or otherwise. For the purposes of this Section of the White Paper, the term "Company Parties" shall include Company and its respective past, present and future employees, officers, directors, contractors, consultants, attorneys, accountants, financial advisors, equity holders, suppliers, vendors, service providers, parent companies, subsidiaries, affiliates, agents, representatives, predecessors, successors and assigns (hereinafter in this Section ­ "Company Parties").
+1.4. INS Tokens May Be Non-Refundable. Except for as provided in a legally binding documentation or prescribed by the applicable legislation, Company Parties are not obliged to provide the INS token holders with a refund related to the INS tokens. No promises of future performance or price are or will be made in respect to the INS tokens, including no promise of inherent value, no promise of continuing payments, and no guarantee that the Tokens will hold any particular value. Therefore, the recovery of spent resources may be impossible or may be subject to foreign laws or regulations, which may not be the same as the private law of the INS token holder.
+2. BLOCKCHAIN AND SOFTWARE RISKS
+2.1. Blockchain Delay Risk. On the most blockchains used for cryptocurrencies' transactions (e.g., Ethereum, Bitcoin blockchains), timing of block production is determined by proof of work so block production can occur at random times. For example, the cryptocurrency sent as a payment for the INS tokens in the final seconds of the INS token sale
+43
+
+may not get included into that period. The respective blockchain may not include the purchaser's transaction at the time the purchaser expects and the payment for the INS tokens may reach the intended wallet address not in the same day the purchaser sends the cryptocurrency.
+2.2. Blockchain Congestion Risk. The most blockchains used for cryptocurrencies' transactions (e.g., Ethereum, Bitcoin blockchains) are prone to periodic congestion during which transactions can be delayed or lost. Individuals may also intentionally spam the network in an attempt to gain an advantage in purchasing cryptographic tokens. That may result in a situation where block producers may not include the purchaser's transaction when the purchaser wants or the purchaser's transaction may not be included at all.
+2.3. Risk of Software Weaknesses. The token smart contract concept, the underlying software application and software platform (i.e. the Ethereum, Bitcoin blockchains) are still in an early development stage and unproven. There are no representations and warranties that the process for creating the INS tokens will be uninterrupted or error-free. There is an inherent risk that the software could contain weaknesses, vulnerabilities or bugs causing, inter alia, the complete loss of the cryptocurrency and/or the INS tokens.
+2.4. Risk of New Technology. The INS platform, the INS tokens and all of the matters set forth in this White Paper are new and untested. The INS platform and the INS tokens might not be capable of completion, creation, implementation or adoption. It is possible that no blockchain utilizing the INS platform will be ever launched. Purchaser of the INS tokens should not rely on the INS platform, the token smart contract or the ability to receive the INS tokens associated with the INS platform in the future. Even if the INS platform is completed, implemented and adopted, it might not function as intended, and any INS tokens may not have functionality that is desirable or valuable. Also, technology is changing rapidly, so the INS platform and the INS tokens may become outdated.
+3. SECURITY RISKS
+3.1. Risk of Loss of Private Keys. The INS tokens may be held by token holder in his digital wallet or vault, which requires a private key, or a combination of private keys, for access. Accordingly, loss of requisite private keys associated with such token holder's digital wallet or vault storing the INS tokens will result in loss of such INS tokens, access to token holder's token balance and/or any initial balances in blockchains created by third parties. Moreover, any third party that gains access to such private keys, including by gaining access to login credentials of a hosted wallet or vault service the token holder uses, may be able to misappropriate the token holder's INS tokens.
+3.2. Lack of Token Security. T he INS tokens may be subject to expropriation and or/theft. Hackers or other malicious groups or organizations may attempt to interfere with the token smart contract which creates the INS tokens or the INS tokens in a variety of ways, including, but not limited to, malware attacks, denial of service attacks, consensus-based attacks, Sybil attacks, smurfing and spoofing. Furthermore, because the Ethereum platform rests on open source software, there is the risk that Ethereum smart contracts may contain intentional or unintentional bugs or weaknesses which may negatively affect the INS tokens or result in the loss of INS tokens, the loss of ability to access or control the INS tokens. In the event of such a software bug or weakness, there may be no remedy and holders of the INS tokens are not guaranteed any remedy, refund or compensation.
+3.3. Attacks on Token Smart Contract. The blockchain used for the token smart contract which creates the INS tokens is susceptible to mining attacks, including double-spend attacks, majority mining power attacks, "selfish-mining" attacks, and race condition attacks. Any successful attacks present a risk to the token smart contract, expected proper execution and sequencing of the INS token transactions, and expected proper execution and sequencing of contract computations.
+3.4. Failure to Map a Public Key to Purchaser's Account. F ailure of a purchaser of the INS tokens to map a public key to such purchaser's account may result in third parties being unable to recognize purchaser's INS token balance on the Ethereum blockchain when and if they configure the initial balances of a new blockchain based upon the INS platform.
+44
+
+3.5. Risk of Incompatible Wallet Service. The wallet or wallet service provider used for the acquisition and storage of the INS tokens, has to be technically compatible with the INS tokens. The failure to assure this may have the result that purchaser of the INS tokens will not gain access to his INS tokens.
+4. RISKS RELATING TO PLATFORM DEVELOPMENT
+4.1. Risk Related to Reliance on Third Parties. Even if completed, the INS platform will rely, in whole or partly, on third parties to adopt and implement it and to continue to develop, supply, and otherwise support it. There is no assurance or guarantee that those third parties will complete their work, properly carry out their obligations, or otherwise meet anyone's needs, all of might have a material adverse effect on the INS platform.
+4.2. Dependence of INS Platform on Senior Management Team. Ability of the senior management team which is responsible for maintaining competitive position of the INS platform is dependent to a large degree on the services of each member of that team. The loss or diminution in the services of members of respective senior management team or an inability to attract, retain and maintain additional senior management personnel could have a material adverse effect on the INS platform. Competition for personnel with relevant expertise is intense due to the small number of qualified individuals, and this situation seriously affects the ability to retain its existing senior management and attract additional qualified senior management personnel, which could have a significant adverse impact on the INS platform.
+4.3. Dependence of INS Platform on Various Factors. The development of the INS Platform may be abandoned for a number of reasons, including lack of interest from the public, lack of funding, lack of commercial success or prospects, or departure of key personnel.
+4.4. Lack of Interest to the INS Platform. Even if the INS platform is finished and adopted and launched, the ongoing success of the INS platform relies on the interest and participation of third parties like developers. There can be no assurance or guarantee that there will be sufficient interest or participation in the INS platform.
+4.5. Changes to the INS Platform. The INS platform is still under development and may undergo significant changes over time. Although the project management team intends for the INS platform to have the features and specifications set forth in this White Paper, changes to such features and specifications can be made for any number of reasons, any of which may mean that the INS platform does not meet expectations of holder of the INS tokens.
+4.6. Risk Associated with Other Applications. The INS platform may give rise to other, alternative projects, promoted by unaffiliated third parties, under which the INS token will have no intrinsic value.
+4.7. Risk of an Unfavorable Fluctuation of Cryptocurrency Value. T he proceeds of the sale of the INS tokens will be denominated in cryptocurrency, and may be converted into other cryptographic and fiat currencies. If the value of cryptocurrencies fluctuates unfavorably during or after the INS token sale, the project management team may not be able to fund development, or may not be able to develop or maintain the INS platform in the manner that it intended.
+5. RISKS ARISING IN COURSE OF COMPANY PARTIES' BUSINESS
+5.1. Risk of Conflicts of Interest. C ompany Parties may be engaged in transactions with related parties, including respective majority shareholder, companies controlled by him or in which he owns an interest, and other affiliates, and may continue to do so in the future. Conflicts of interest may arise between any Company Party's affiliates and respective Company Party, potentially resulting in the conclusion of transactions on terms not determined by market forces.
+5.2. Risks Related to Invalidation of Company Parties Transactions. Company Parties have taken a variety of actions relating to their business that, if successfully challenged for not complying with applicable legal requirements, could be invalidated or could result in the imposition of liabilities on respective Company Party. Since applicable legislation may subject to many different interpretations, respective Company Party may not be able to successfully defend any
+45
+
+challenge brought against such transactions, and the invalidation of any such transactions or imposition of any such liability may, individually or in the aggregate, have a material adverse effect on the INS platform.
+5.3. Risk Arising from Emerging Markets. Company Parties or some of them may operate on emerging markets. Emerging markets are subject to greater risks than more developed markets, including significant legal, economic and political risks. Emerging economies are subject to rapid change and that the information set out in this White Paper may become outdated relatively quickly.
+6. GOVERNMENTAL RISKS
+6.1. Uncertain Regulatory Framework. The regulatory status of cryptographic tokens, digital assets and blockchain technology is unclear or unsettled in many jurisdictions. It is difficult to predict how or whether governmental authorities will regulate such technologies. It is likewise difficult to predict how or whether any governmental authority may make changes to existing laws, regulations and/or rules that will affect cryptographic tokens, digital assets, blockchain technology and its applications. Such changes could negatively impact the tokens in various ways, including, for example, through a determination that the tokens are regulated financial instruments that require registration. Company may cease the distribution of the INS tokens, the development of the INS platform or cease operations in a jurisdiction in the event that governmental actions make it unlawful or commercially undesirable to continue to do so.
+6.2. Failure to Obtain, Maintain or Renew Licenses and Permits. Although as of the date of starting of the INS token sale there are no statutory requirements obliging Company to receive any licenses and permits necessary for carrying out of its activity, there is the risk that such statutory requirements may be adopted in the future and may relate to any of Company Parties. In this case, Company Parties' business will depend on the continuing validity of such licenses and permits and its compliance with their terms. Regulatory authorities will exercise considerable discretion in the timing of license issuance and renewal and the monitoring of licensees' compliance with license terms. Requirements which may be imposed by these authorities and which may require any of Company Party to comply with numerous standards, recruit qualified personnel, maintain necessary technical equipment and quality control systems, monitor our operations, maintain appropriate filings and, upon request, submit appropriate information to the licensing authorities, may be costly and time-consuming and may result in delays in the commencement or continuation of operation of the INS platform. Further, private individuals and the public at large possess rights to comment on and otherwise engage in the licensing process, including through intervention in courts and political pressure. Accordingly, the licenses any Company Party may need may not be issued or renewed, or if issued or renewed, may not be issued or renewed in a timely fashion, or may involve requirements which restrict any Company Party's ability to conduct its operations or to do so profitably.
+6.3. Risk of Government Action. The industry in which Company Parties operate is new, and may be subject to heightened oversight and scrutiny, including investigations or enforcement actions. There can be no assurance that governmental authorities will not examine the operations of Company Parties and/or pursue enforcement actions against them. All of this may subject Company Parties to judgments, settlements, fines or penalties, or cause Company Parties to restructure their operations and activities or to cease offering certain products or services, all of which could harm Company Parties' reputation or lead to higher operational costs, which may in turn have a material adverse effect on the INS tokens and/or the development of the INS platform.
+6.4. Risk of Burdensomeness of Applicable Laws, Regulations and Standards. F ailure to comply with existing laws and regulations or the findings of government inspections, or increased governmental regulation of Company Parties operations, could result in substantial additional compliance costs or various sanctions, which could materially adversely affect Company Parties business and the INS platform. Company Parties operations and properties are subject to regulation by various government entities and agencies, in connection with ongoing compliance with existing laws, regulations and standards. Regulatory authorities exercise considerable discretion in matters of enforcement and interpretation of applicable laws, regulations and standards. Respective authorities have the right to, and frequently do,
+46
+
+conduct periodic inspections of any Company Party's operations and properties throughout the year. Any such future inspections may conclude that any Company Party has violated laws, decrees or regulations, and it may be unable to refute such conclusions or remedy the violations. Any Company Party's failure to comply with existing laws and regulations or the findings of government inspections may result in the imposition of fines or penalties or more severe sanctions or in requirements that respective Company Party cease certain of its business activities, or in criminal and administrative penalties applicable to respective officers. Any such decisions, requirements or sanctions, or any increase in governmental regulation of respective operations, could increase Company Parties' costs and materially adversely affect Company Parties business and the INS platform. 6.5. Unlawful or Arbitrary Government Action. Governmental authorities may have a high degree of discretion and, at times, act selectively or arbitrarily, without hearing or prior notice, and sometimes in a manner that is contrary a law or influenced by political or commercial considerations. Moreover, the government also has the power in certain circumstances, by regulation or government act, to interfere with the performance of, nullify or terminate contracts. Unlawful, selective or arbitrary governmental actions have reportedly included the denial or withdrawal of licenses, sudden and unexpected tax audits, criminal prosecutions and civil actions. Federal and local government entities have also used common defects in matters surrounding the Token sale as pretexts for court claims and other demands to invalidate or to void any related transaction, often for political purposes. In this environment, Company Parties' competitors may receive preferential treatment from the government, potentially giving them a competitive advantage over Company Parties.
+47
+
+SUPPORT INS AND JOIN US TODAY
+
+www.ins.world
+
+One-Pager
+
+Presentation
+
+48
+
+

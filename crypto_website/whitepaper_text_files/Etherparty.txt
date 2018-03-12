@@ -1,0 +1,658 @@
+
+GIFTO
+The U niversal G ifting P rotocol for Global C ontent Creators
+November 2 017 Version 1 .3
+Authors: Gifto t eam Reviewers: Loi L uu, CEO a nd C o-founder, Kyber N etwork, Smartpool Chris Miess, Former CFO TenX, F ounder ICONIC Capital Danny Y ang, C EO and f ounder, B lockseer
+1
+
+This paper is not an offer of securities. Please read this document in full and perform due diligence, in particular the section entitled "RISKS AND DISCLAIMERS". Nothing in this document shall be construed as advice or solicitation to make any purchase and if you are in any d oubt, please c onsult y our l egal, f inancial, t ax and/or other professional advisors.
+2
+
+Table of C ontents
+
+1. Abstract
+
+6
+
+2. Executive S ummary
+
+7
+
+3. Motivation: A  First-Hand E xperience
+
+13
+
+3.1 Why c urrent content monetization model i s b roken
+
+13
+
+3.2 A B etter M onetization M odel: Virtual Gifting
+
+15
+
+3.3 B lockchain: decentralized v irtual gifts
+
+20
+
+4. Gifto Protocol -  T he U niversal G ifting Protocol
+
+21
+
+4.1 E nable v irtual gifting on a ny content platform
+
+22
+
+4.2 T he ecosystem of v irtual gifting
+
+25
+
+4.3 C ommunity P articipation: I ncentives
+
+27
+
+4.4 The G ift P ortal
+
+29
+
+4.5 Smart Virtual G ifts
+
+32
+
+4.6 Gifto T oken
+
+33
+
+4.7 Gifto Wallet
+
+33
+
+4.8 Hybrid o ff-chain/on-chain architecture
+
+34
+
+4.9 Token Economy
+
+35
+
+5. Roadmap and Adoption
+
+36
+
+5.1 Uplive brings 70mln g lobal user reach t o G ifto
+
+38
+
+5.2 Migrating U plive from Diamonds t o Giftos
+
+38
+
+5.3 P hased A doption
+
+42
+
+6. G ifto Limited
+
+43
+
+7. Team
+
+44
+
+Advisors
+
+48
+
+8. Asia Innovations G roup's I nvestors
+
+49
+
+9. R isks &  D isclaimers
+
+51
+
+3
+
+1. Abstract
+This paper outlines the case for the implementation of a decentralized virtual gifting protocol to incentivize and monetize content generation by individual content creators worldwide. The protocol may be deployed on various existing content publishing platforms on internet, such as YouTube, Instagram, and Facebook, among others, and can be used to complement conventional r evenue s treams w hich a re primarily d erived f rom a dvertising.
+Asia Innovations Group ("AIG") is a leading mobile entertainment company in Asia. It has demonstrated that virtual gifting system is a highly effective monetization method for content creators on its flagship live video platform, Uplive. Virtual gifts on Uplive not only drive significant revenue for global content creators, but also enhance interactions and relationships between creators and their fans. Since its launch in June 2016, the Uplive community has rapidly expanded to 20 million global users, and the platform will generate more than USD $100 million in revenue for 2017. In September alone, over 25 million virtual gifts were purchased and s ent o n Uplive.
+The Universal Gifting Protocol draws from the positive Uplive experience, and seeks to enable content producers across any content platform to receive gifts from their fans. These virtual gifts will exist independently from any platform and retain their properties without any centralized c ontrolling mechanism.
+Each virtual gift will be implemented as a smart contract on Ethereum blockchain, enabling the virtual gifts to exist, be owned, and be transacted independently from any particular content platform or system. This will serve to reduce the dependency of content producers on their publishing platforms to secure revenue for their work, and, by extension, reliance on advertisers. The proposed currency for transacting in the virtual gifts is Gifto Tokens, which will be deployed as an ERC20-standard token on the Ethereum blockchain. Gifto Tokens will also be used to incentivize and motivate an ecosystem of participants to help create, curate, and redeem virtual gifts.
+The Alpha version of Gifto Protocol will be tested by end of 2017, and the Beta version is targeted for testing in Q1 2018, with full commercial launch in Q2 2018. Gifto Protocol will leverage on Uplive's existing 20 mln user base and 60,000 content creators test, iterate, and jump-start mass adoption, towards the vision of empowering millions of content creators worldwide.
+4
+
+2. E xecutive S ummary
+The P ain Point for C ontent C reators
+Global social media and broadcasting platforms such as YouTube, Instagram, Facebook have allowed anyone to easily create content and build a fanbase of followers and consumers. However, the bulk of revenue generation on such platforms remains heavily dependent on advertising revenue. As a result, the incentive model which drives the ecosystem is largely centralised and dominated by either the platform or the paying advertisers1, often at the expense of content producers and consumers. Since advertisers and marketers typically place greater value on reaching as broad an audience as possible, the present incentive system ends up disproportionately favouring the most popular 1% of producers with the largest viewer base, subscribers, or "hits". So long as less popular content producers continue to be deprived of representation and opportunities at the sustainable end of the revenue-split table, the monetary incentives generated purely by advertising revenue will continue to be swallowed by the top few percentage of content creators with the most traffic. The overall quality and diversity of content on the platform may suffer because the vast majority of content creators are simply not able to command a reliable income stream under the present incentive scheme, regardless of their value to the users. The consequence is that due to the massive influence of advertisers on the type of content that ends up being rewarded, a large catalogue of high quality content may end up never being produced simply because it would be unsustainable purely by advertising revenue. This represents a critical problem for both the platform and audience.
+The Solution: Uplive
+The idea of generating revenue through virtual gifts or assets has been used extensively in the digital gaming industry. However, AIG's flagship product, Uplive, has demonstrated that a sophisticated virtual gifting model can also work to create a sustainable ecosystem for mainstream content creators. To point, the Uplive platform has already been generating millions of dollars of income for over 60,000 content creators every month. This constant income stream is generated directly from the ever-increasing dedicated viewer base. AIG has enabled the "gig economy" as coined by the South China Morning Post, where a broadcaster can generate significant, sustainable revenue simply by doing a few hours of broadcasting a day 2.
+1 h ttp://www.tubefilter.com/2017/05/04/how-youtube-adpocalypse-affected-top-creators/ 2 http://www.scmp.com/tech/china-tech/article/2073048/pots-gold-chinas-gig-economy
+5
+
+Examples of Uplive's virtual gifts are presented below, while actual videos of these virtual gifts in action c an b e seen at w ww.up.live.
+ The diagram below shows the positive feedback loop that virtual gifts create, and why it is such a strong revenue driver. When a viewer sends a gift to a broadcaster, he or she receives visual delight from the gift. When the broadcaster responds with thanks, the viewer feels the recognition and gratitude. This in turn encourages more gifting, and enhances their social relationship, in a way that a simple monetary tip can never do. In essence, this mirrors real life gifting behavior a nd psychology, g enerating a r einforcing p ositive f eedback l oop.
+To truly unleash the transformative potential of the virtual gifting model, we must transcend the boundaries of any platform, including our own. We understand the immense benefits of allowing the audience to reward producers directly, without intermediaries such as the platform or advertisers dictating how producers should be paid. Therefore, we have been working on expanding the deployment of such a model to any content producer around the
+6
+
+world, regardless of which platform they choose to publish on. Our objective is to advance our monetisation system for the benefit of the millions of content creators worldwide, while allowing meaningful relationships to be built directly between the content creators and their fans. Uplive has already demonstrated that this revenue model is possible. Now, we want to bring t his immensely rewarding a nd effective system to t he entire w orld. We do, however, recognise that there are multiple challenges in bringing our vision to reality. These include t he f ollowing:
+ There is no universally immutable and trusted ledger recording values, transactions and characteristics of virtual g ifts, w hich are a ssets with significant economic v alue;
+ Virtual gifts are susceptible to sabotage, such as duplication of a limited edition gift, falsifying transactions, unauthorized changing values of their properties, among other vulnerabilities;
+ There is no organised framework to manage the high number of participants required to create, c ategorise, control a nd run a  sophisticated v irtual g ifting s ystem;
+ Without such a cohesive framework, it is difficult to attract and retain the number of participants r equired to service content c reators and their fans on a  g lobal s cale;
+7
+
+Creating high quality, and large variety of creative virtual gifts involves a combined and sizeable team effort involving many participants following a pre-set workflow which has been implemented i nternally a t Uplive ,  a s illustrated b y t he process b elow:
+This process works well for Uplive, however, it relies on a few key centralized functions and often results in bottleneck of the speed and quality of the end products. For example, our curators have to manually test and trial each virtual gift for each content creator, and from an idea to a high monetization and popular gift, it often takes weeks to create. There is also lack of direct incentives for participants to apply their creativity to the gifts as it's difficult to track how much o f t heir own e ffort c ontributes to the e nd r esult o f the g ift the c reated. Finally, c ombination of virtual gifts and content creators can have different revenue shares, ie, a gift with an IP, such as Mercedes virtual car, will have revenue share with the brand. And more experienced creators can command higher revenue share. This complex matrix of revenue share is calculated by Uplive's internal management system and verified by a team of analysts, and the effort increases as U plive's s cale expands. Therefore, we have identified the need to build a more decentralized ecosystem, that involves the online community in all aspects of creating and maintaining the system. We need to implement clear rules and an incentive system that results self-governance, with minimal centralized m anagement. Our model must also motivate its participants to create high-value virtual gifts for content creators in sufficient quantity to meet the existing demand. Gift creators, as crucial components of the ecosystem, will eventually produce a wholly new content interaction experience for content producers and audiences alike. As illustrated in the above diagram, each party in the ecosystem will be incentivized to participate and contribute in the workflow. For example, the Gift Creator, Reviewer, and Content Creator will each receive a share of the value of the virtual gifts that have been purchased by the Fan. This way, this ecosystem is able to scale more organically, without being subject to the monopolisation or dictation of revenue flow by any centralized entity.
+8
+
+The Solution: Gifto P rotocol -  The U niversal Gifting P rotocol p owered by b lockchain Blockchain t echnology o ffers two c apabilities that are critical f or our needs:
+ Blockchain enables creation of a virtual asset that holds value across any platform and is immutable.
+ Blockchain enables rules to be built into a decentralized system with defined roles that can be utilized by community participants to drive a workflow. Their actions can be incentivized and enforced by the blockchain, creating a self governing ecosystem. In particular, revenue share of the virtual gift's value to different participants can be written directly into the gift.
+Gifto Protocol - The Universal Gifting Protocol aims to utilize the above two capabilities of blockchain technology to create a decentralized ecosystem where a community of participants can come together to create, curate, and customize a rich variety of high-quality virtual gifts for global c ontent c reators. In seeking to make a virtual gift immutable and independent of any content platform, we plan to i mplement it a s a s mart c ontract a sset.
+Gifto Protocol will also build a series of rules and incentives to drive the workflow of virtual gifting, including the process of creation, curation, selection, and purchasing. These rules and incentives will also be implemented using blockchain, so anyone can participate in the workflow and b e r ewarded f or i t. Gifto Tokens are compliant with ERC-20 standards on the Ethereum system, and will be created for audiences to purchase virtual gifts to reward content creators. The virtual gifts, their properties, and workflows will b e c odified i n a n e thereum smart contract.
+9
+
+Finally, in order to ensure frictionless adoption, A Web-based gifting system will enable a virtual gift to be sent by users to content creators on YouTube, Instagram, or any content/social media platform, by j ust u sing a  W eb l ink, without a ny p lugin or a ny additional technical e ffort.
+Implementation and adoption
+We have already begun implementation of Gifto Protocol, leveraging our substantial experience in building virtual gift systems and mass market consumer products. The Alpha version of Gifto Protocol will be in testing by end of 2017, and the Beta version will commence testing in Q1 2018. Recognizing that high transaction throughput rate on blockchain is a key obstacle to mass adoption, we are actively evaluating s everal leading technology p rojects.
+We will leverage our existing user base of 20 millions users and 60,000 creators to test, iterate, and jump start mass adoption. They will be the first adopters and testers of the Alpha version of Gifto Protocol.
+The team behind G ifto P rotocol
+Asia Innovations Group (AIG) is a leading mobile interactive entertainment company based in Asia. AIG was co-founded by the former General Manager of Zynga, China, and the former Deputy Manager of Tencent's Corporate Strategy. Each member of our management team has over 10 years experience in mobile products and operations across Western and Asian markets. AIG currently has over 300 employees across 9 global offices, s panning f rom M orocco to T aipei.
+AIG's p ortfolio o f products include:
+ PengPeng, the first gamified social chat app in Asia, amassing over 40 million downloads;
+ Uplive, the live streaming platform with highest monetization, on track for USD $100mln in revenue for 2 017, w ith over 20 m illion downloads since i ts launch i n June 2 016;
+ BigCat, the #1 original YouTube Content maker in South East Asia, with 150 million views per m onth o n YouTube, a ttracting 11 million u nique v iewers per m onth;
+ Superfans, the #1 fans app that allows fans to follow their favorite stars' social media activities, amassing over 1 0 million users since l aunching i n 2 016;
+ 50+ of the highest quality mobile HTML5 social games, which have accumulated over 30 million users  w orldwide.
+AIG's products have together accumulated over 100 million users, and the company is now on track to generate more t han U SD $ 130 Million in revenue for 2 017 alone.
+AIG is backed by first-tier institutional investors such as KPCB, Index Ventures, Wicklow Capital, Ventech, White Star, and MSA. Individual investors include founder of Palantir, founder of Qunar.com, c o-founder of Z ynga, V P o f Oculus at F acebook, and other I nternet i ndustry leaders.
+AIG has been widely reported in mainstream press such as CNN, WSJ, South China Morning Post. More information on AIG can be found at www.asiainnovations.com, and Uplive at www.up.live.
+10
+
+3. Motivation: A  F irst-Hand Experience
+3.1 W hy current c ontent m onetization m odel is broken
+Platforms such as YouTube, Instagram, Facebook, have made it easy for anyone to create content with their mobile phones and reach theoretically anyone in the world. Youtube has a Monthly Active User (MAU) count of 1.5 billion users3 while Instagram has 700 million MAU4. Any one of these users can become a content creator. However, as easy as it is to create content, it remains difficult for the vast majority of content providers to make a meaningful living from d oing so.
+The fact is that the vast majority of online content creators today are simply not able to make a sustainable living from their work. We have observed that an over-reliance on advertising revenue across many major centralised content platforms has led to the creation of autocratic incentive systems which disproportionately favour mass-market content and "top-tier" producers. This model has created an epidemic of systematic revenue deprivation, orphaning the vast majority of budding online content creators, and stifling the diversity and quality of content being produced. The problem is that many content platforms have not adapted their products and services to generate value for the bulk of content creators - who, ironically, continue to d rive t raffic o n t heir platform.
+Statistics show that only 0 .33% of all videos on Youtube have more than 1 million views5, with videos of 1 million views earning only a measly USD $2,000.006 . This epidemic of systemic revenue deprivation is highly concerning to us. Many deserving content creators are completely neglected by this immensely lopsided system, which disproportionately favours mass-market content over niche, tailor-made content, which may be of equal or higher value to a viewer. The under-representation of the overwhelming majority of creators on many global platforms today paints a worrisome picture of the content production industry as a whole. While we believe that all artists, producers and writers should be able to make a decent living, there is simply no impetus t o c hange t his c rippling m odel.
+In addition, since many content platforms rely so heavily on advertising revenue, they often have little choice but to cater to the whims, demands, and expectations of the advertisers. For example, in 2017, some advertisers advanced concerns about their advertisements are being shown next to what they deemed to be "unsafe" content, and pulled the plug on many advertisements. The end result profoundly affected the earnings of many content producers, even significantly decreasing r evenue for m any of t he " top-tier" content creators.
+3 https://techcrunch.com/2017/06/22/youtube-has-1-5-billion-logged-in-monthly-users-watching-a-ton-of-mobile-video/
+4 https://techcrunch.com/2017/04/26/instagram-700-million-users/ 5 h ttp://www.businessinsider.com/chart-of-the-day-youtube-videos-by-views-2009-5/?IR=T 6 https://devumi.com/2016/12/1-million-youtube-views-much-youtube-pays-milestone/
+11
+
+http://www.huffingtonpost.com/entry/youtube-is-making-it-harder-to-make-money-on-their_us_58e70b9fe4b00dd8e016ea99 http://splinternews.com/get-rich-or-die-vlogging-the-sad-economics-of-internet-1793853578
+"Phil DeFranco, who has about 5.6 million subscribers on YouTube, saw ad revenue drop by 30 percent within the first month. H3h3Productions, which has about 4.7 million subscribers, said it was only making 15 percent of what it typically makes month on month v ia YouTube"  Sep 7 th,  2017, D igiDay
+https://digiday.com/media/advertisers-may-have-returned-to-youtu be-but-creators-are-still-losing-out-on-revenue/
+At AIG, we have a deep understanding of this painful issue. We are intimately familiar with the perils of using advertising revenue as a livelihood crutch, and know what this can mean for producers when the crutch breaks unexpectedly. As an example, within our portfolio is BigCat, the leading original content creator on Youtube in South East Asia, with over 150 million views every month. BigCat has created many long running video shows, each, on average, producing 2 episodes per month. The average number of views for each episode is over 3 million. Ghien Mi Go is one of BigCat's most popular channels, with the most popular video amassing over 69 million views.
+12
+
+ However, with even with a staggering 150 million views and 11 million unique viewers per month, BigCat can only make USD $20,000 per month via YouTube advertising. All these views and users are just brand showcase for Bigcat, with custom brand videos becoming the main revenue driver. If this is the case for a top content creator, we can only imagine the level of impoverishment for the other 99.99% of creators who do not reach any where close to 150 million views a month. This problem is not just on YouTube, but endemic across many leading content p latforms today.
+3.2 A Better Monetization M odel: V irtual Gifting
+On the other hand, AIG's flagship product, Uplive, provides an alternative through its virtual gifting solution. After its launch in June 2016, Uplive quickly became the highest monthly revenue international live streaming platform. As of August 2017, Uplive is receiving over USD 10 Million per month of gross revenue from millions of users across 50+ countries, and at the same time, generating millions of income for the 60,000+ broadcasters spread across these countries. In essence, Uplive is now one of the largest user-generated content platforms that is powered d irectly t hrough u ser contributions, a nd not advertising. Uplive serves the needs of the global community. With real-time translation support in multiple languages, an Uplive user can interact with broadcasters across the world, from Japan to Morocco, all from the comfort of their own home. The Uplive platform enables users to transcend traditional physical and language barriers, forging meaningful interactions between people across cultures, languages and races. Perhaps most crucially, Uplive also demolishes revenue b arriers f or content c reators.
+13
+
+The key to Uplive's strong, sustainable revenue model lies in its highly optimized virtual gift-based monetization system. The system is based on proven business models in Asia and the team's deep understanding of game mechanics. Uplive's founder, Andy Tian, was one of the earliest social game makers in 2008, who later headed up Zynga China and parts of Asia operations. Throughout his career, Andy contributed to building more than 20 games that collectively grossed over USD 500 Million of revenue, being played by over 50 millions users around t he world.
+Uplive enables content creators to generate significant revenue directly from their fanbase. The top broadcasters on Uplive regularly make over USD $50,000 a month, for broadcasting only 1-2 hours per day. On a monthly basis, Uplive's 60,000+ broadcasters receive over 25 million virtual gifts from users around the world. As Uplive grows, we expect the number of broadcasters t o surpass 100,000 i n Q1 of 2 018.
+3.3 Why d o virtual g ifts generate h igh revenue?
+Virtual gifts are not just beautiful animations on the screen. Their ability to generate significant revenue comes from sophisticated implementation of game mechanics and social psychology which have b een d eeply c onsidered a nd methodically executed by Uplive.
+Visual e xpression is e ssential t o m ake i t "fun" for s enders and r eceivers o f g ifts
+Beautiful, expressive virtual gifts dramatically increase willingness of users to send gifts to broadcasters. To point, after an upgrading exercise of our gifts from simple graphics to more expressive animations, revenue from gifts increased five times. As we are veterans in the gaming industry, our artists, who have previously worked on some of the best international games, created some of the most beautiful virtual gifts ever in the live streaming industry. We have observed that users and broadcasters on Uplive find it incredibly "fun" and rewarding to send/receive g ifts.
+14
+
+Virtual gift is c ritical i n enhancing social relationships The concept of "tipping" a content creator has been around for a long time, and there are many such services in the West, from Twitch credits, to crypto tips on Reddit. However, we have observed that virtual gifts are much more powerful and evocative than cash. Gifting is a basic, universal human social behavior, built on the psychology of reciprocity. A direct monetary tip simply cannot supplant the flow of positive emotions generated from receiving a more expressive, personalised gift. In addition, there is only one way to send someone 10 dollars, but infinite ways of sending someone gifts valued at 10 dollars. In the physical world, care, appreciation, and adoration are expressed by the process of selecting, packaging, and delivering of a gift. That is how people build social relationships of significance, and this is what Uplive brings to the virtual w orld. In Uplive, the emotional reward of receiving visually exciting and fun virtual gifts greatly enhances relationship between the broadcaster and his/her fans, in a way that a monetary "tip", be it $1 or 0.01 BTC, can never do. The diagram below shows the positive feedback loop that virtual gifts can create. When a viewer sends gift to a broadcaster, he/she receives visual delight from the gift. When the broadcaster responds with thanks, the viewer feels recognition. This leads to more gift sending, and enhances their social relationship in a multitude of ways that a simple monetary tip (and much less, advertising revenue) can never do. In essence, Uplive brings real-life gifting concepts, along with all its attendant benefits, directly into the virtual world. The result is that both the content producers and their audience are rewarded in their own way.
+Users a re w illing t o p ay significant r eal m oney f or virtual gifts This i s a s ample o f o ur g ift s ales f rom July 2017:
+15
+
+Rank of sales 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+
+ID
+290009 148 17014 19 270002 190034 190030 190035 660001 17055 270001 17 17084 17012 190033 680002 690004 2005 190032 17086 180019 190009 390009 2003 17057
+
+Name
+Sail Hotel Lipstick Private J et Bubble Tea Dream Carriage Birds Bridge Mid-summer's dream Romantic G alaxy Banana Cupid Taipei 1 01 Flying kiss Private Island Ferrari Love y ou f orever Diving M ask Blue R oses Little Monster Together F orever Around the W orld Birds Bridge Dodge Dream B ox Golden Monster Victoria Harbor
+
+# of g ifts s old
+15,318 995,458 3,838 938,210 2,636 25,874 15,091 8,813 493,743 7,575 741 967,974 322 3,178 16,099 413,388 81,116 8,022,929 14,322 71 351,139 11,193 12,512 34,179 620
+
+Total Sales in Gift Price
+
+Uplive coins
+
+(USD)
+
+20,127,852
+
+ $19.3
+
+19,909,160
+
+ $ 0.3
+
+19,190,000
+
+ $ 73.5
+
+18,764,200
+
+ $ 0.3
+
+14,711,245
+
+ $ 82.1
+
+13,480,354
+
+ $ 7.7
+
+13,400,808
+
+ $ 13.1
+
+11,580,282
+
+ $ 19.3
+
+9,874,860
+
+ $ 0.3
+
+9,826,764
+
+ $ 19.1
+
+9,736,740
+
+ $ 193.2
+
+9,679,740
+
+ $ 0.1
+
+9,660,000
+
+ $ 441.2
+
+9,534,000
+
+ $44.1
+
+8,371,480
+
+ $7.6
+
+8,267,760
+
+ $0.3
+
+8,030,484
+
+ $1.5
+
+8,022,929
+
+ $0.015
+
+7,447,440
+
+ $7.6
+
+7,099,929
+
+ $1,471
+
+7,022,780
+
+ $3
+
+6,581,484
+
+ $9
+
+6,506,240
+
+ $8
+
+6,425,652
+
+ $3
+
+6,199,380
+
+ $147
+
+Our sales statistics have demonstrated that users are willing to pay as much as USD $1,471.00 for an "Around the World" gift, one of our most expensive and elaborate gifts. Because these gifts have real meaning within our Uplive platform, users begin to attach real value to them, and therefore are willing to pay for them. This concept has been proven true time and time again i n online games and we h ave s imply a dopted t his c oncept t o o ur content p latform.
+
+Virtual g ifts a re a n i ntegral p art o f a  l arger g amification framework
+
+In Uplive, we control all aspects of the gifting experience, crafting a rich, intriguing variety of tiered virtual gifts for use on the platform. The following are some of the characteristics of Uplive g ifts:
+ Scarce: o nly 100 of this special gift i s available  Customized: some VIP users and broadcasters have gifts that are customized for them
+with t heir special r equests and taste  Transient:  this gift m ust be used in 5 days, or it will expire  Combinable:  3  g ifts can b e combined t o form a  new, more valuable one
+
+16
+
+ Special-occasion-based:  gifts for Christmas, Easter, V alentine's Day  Collectable:   12 types of horoscope g ifts c an be collected w ith rewards  Tradeable:  this g ift c an b e traded once t o others  Variable-pricing:   this g ift h as a  defined d iscount just for 5  days  AR: gifts of crowns, flowers, sunglasses can be worn by broadcasters to enhance their
+appearance  Interactive: users c an i nteract with gifts f or g ame like f un  Randomly generated: some gifts when opened will randomly generate more valuable
+ones For anyone who has built large scale, virtual goods driven online games before, these categories would look immediately familiar as in game items. We have adopted the core concepts from the digital gaming industry and implemented a similarly intuitive to use but sophisticated under the hood g ifting system, which work for u sers who have n ever played games b efore. Virtual g ifts l ead t o engaging new advertising Uplive has worked with many leading brands to create virtual versions of their products, which users actively engage with. In the example below, Uplive has worked with Mercedes in Taiwan to create a unique SLC gift that was a part of the Valentine's day event. These virtual gifts are extremely popular with users, and also represent a new type of highly engaging advertising value.
+17
+
+3.3 B lockchain: d ecentralized v irtual g ifts
+As we steadily grow our Uplive network, we have come to recognize the underlying potential for our system to serve countless content creators residing on other content platforms. There are millions of such content creators in the world. Yet, some may have already invested too much into their content platforms to justify a migration to Uplive, while other creators may produce content that is just not suited for live broadcasting. We thus encounter numerous technical and economical challenges in exporting our native system for the benefit of these people. While our virtual gifts are a powerful and effective monetisation tool, currently they can only be used specifically on Uplive. Outside of our centralized system, and without a well-defined, unalienable set of rules, these virtual gifts quickly lose their meaning and value, and w ill ultimately fail t o benefit c ontent creators.
+We have established that for a virtual gifting system to exist independently of any centralized system such a s Uplive, i t m ust h ave following features:
+ Trusted continuity of value: it must have a well-defined and universally accepted value that is trusted r egardless of a ny platform.
+ Lifetime: must be able to define how long this gift is valid for. This is commonly used for special occasion gifts such as holidays, where a Santa would not be appropriate any more a fter Christmas.
+ Immutable transaction records: it must permanently record all actions performed on the gift, s uch a s o The i dentity of the s ender and t he r eceiver o Changes in value o Changes i n any identifying properties, names, v isual asset, e tc.
+ Creator/owner: i t must r ecord w ho created t his gift, and who is t he c urrent o wner  Customizable properties
+o Allow a nyone with creative ideas to create t heir own c ustomised g ifts
+We have identified blockchain technology as the basis for deploying a universal, decentralised virtual gifting system which can be deployed and usable by any content creator. This technology will extinguish the continued reliance on any centralised platform, and yet allow content creators to reap significant commercial value directly from their fans, while simultaneously enhancing the o verall experience and s ocial relationships.
+We note that the concept of virtual asset transmission on blockchain is not a novel concept. In fact, there are already some early implementations of collectible virtual assets, such as Rare Pepe virtual trading cards, which uses counterparty.io to ensure the uniqueness of each card. The social v alue o f these items c an be s een in t he v ibrant R are Pepe trading c ommunity.
+Now, we want to capitalise on the inherent capabilities of the blockchain, along with our deep expertise in gamification and virtual gift systems, to introduce a universal gifting system for the benefit of content creators worldwide, across any platform. Empowered by blockchain technology, we will create the first, truly decentralized universal gifting protocol. We name it "Gifto P rotocol - The U niversal Gifting P rotocol".
+18
+
+4. G ifto Protocol - T he U niversal G ifting Protocol
+Gifto Protocol - The Universal Gifting Protocol is envisioned to be a self-governing and self-sustaining ecosystem for virtual gifts to be created, curated, tracked, bought, sent and exchanged across  any content platform such as YouTube, Instagram, F acebook, a nd U plive. For it to truly be a self-sustaining ecosystem for all contributors, Gifto Protocol will have the following components:
+ Gift - Gifto Protocol's Virtual Smart Gift, self-executing virtual assets based on smart contracts that l ive on t he blockchain
+ Gift Store,  where a fan can b uy a  g ift f or the c ontent c reator o The Gift Store will be displayed when a fan clicks on the gifting link for a content creator ( see section 4.1), a nd w ill s how gifts customized by t his c ontent c reator
+ Gift I nventory,  h olds g ifts for a  user w ho c an b e e ither a f an o r a  content creator  Gif to T okens, an ERC20-standards token u sed to b uy/redeem virtual g ifts.  Gifto Wallet, a w allet to hold G ifto T okens for a  u ser  Gift Portal, a management system for gifts to be created, curated, and managed by
+Gifto P rotocol c ontributors
+The Gift Portal is the interface through which all the participants in the ecosystem conduct their actions o n t he virtual gift w orkflow:
+19
+
+4.1 E nable v irtual g ifting o n a ny c ontent p latform
+Our experience with building and deploying large scale consumer products has revealed that frictionless interfaces to technology tend to lead towards higher success rates of mass adoption. We envision the Gifto Protocol to enable any content creator to receive gifts on any content platform. Therefore, in order for successful mass adoption amongst users, the blockchain technology h as t o be i mplemented and d eployed s eamlessly and easy-to-use m anner . In response, we have created a broad HTML5-based gifting interface, meaning that only a link is needed to send virtual gifts to any content creator on any platform. We have eliminated the need t o download a ny further p lugins or o ther c lumsy t echnical integration tools. Using Youtube as an e xample, the b asic gift-giving flow i s as f ollows:
+20
+
+Step 1 : The content c reator s elects the g ifts appropriate h is o r h er content project
+
+Step 2 : A Web l ink is created for t he content c reator t hat w ill show t he gifts to h er fans
+
+21
+
+Step 3: The content c reator c an p aste the link in h er I nstagram, F acebook, or YouTube c hannel
+
+Step 4: a  fan clicks on the l ink, opens up t he customized G ift S tore, uses Gifto t o p urchase a nd send a g ift
+
+Once a content creator receives the virtual gift, it is stored in inventory, he or she can then choose o ne of t wo a ctions:
+ Redeem the virtual gift and convert it into Gifto Tokens; where the virtual gift then disappears from i nventory. or
+ Keep t he v irtual gift, w hich can b e sent a t a  later time to others.  Limited edition g ifts are e specially valuable
+22
+
+4.2 The ecosystem o f virtual g ifting
+The creation and maintenance of a high-quality and high-demand inventory of virtual gifts is a hugely manpower-intensive task. Our team of over 300 highly skilled game artists, designers, engineers and operational staffs can only create 50 new gifts a month. This number clearly falls short of what we want to achieve for all the content creators across the multiple content platforms. Therefore, we need to build a proper ecosystem of active participants who will work together to create a system that is scalable and self-sustaining. Our vision of the key participants is outlined b elow:
+- Content creators: The producers or creators of any content around the world that has his or h er fan-base, be i t v ideo, m usic, a rt, o r a ny o ther communicative m edium
+- Virtual gift creators: The contributors/artists who create the virtual gift assets, from images to a nimations; they c an a lso be content c reators t hemselves
+- Curators: The panel to review and curate virtual gifts for quality, categorization, and pricing
+- Fans: T he f ans, fan-base of content producers or creators Our Uplive platform has implemented this concept, and truly refined the process of how each actor performs its role and complements the other in this highly dynamic virtual ecosystem. Our constant dedication to fine-tuning every aspect of the gifting cycle is how we ensure that we have one of the most sophisticated and valuable virtual gifting systems in the entire live streaming industry. Now, we can finally combine the power of this proven system with the immutable and decentralised capabilities of blockchain technology to better serve the needs of millions of deserving content producers and creators all around the world. Our virtual gift system w ill c onnect c reators a nd c onsumers i n w ays n ever e xperienced before.
+23
+
+A few things to note:
+1. It is crucial to have a centralised forum where ideas can be pooled and improved upon, because even the best gift creators do not have all the best ideas. Furthermore, some ideas will tend to be iterative in nature, hence the gift ideas' pool must constantly filter out unoriginal or repeated gift concepts. A gift creator can access the pool to see what has a lready been created a s g ifts or to g et i nspired t o create new o nes.
+2. A Gift Creator is often a visual artist, who creates an image or animation as a virtual gift. The Gift Creator can also use trademarked IPs once he/she has obtained permission from the IP holder. For example, to create a virtual Chanel handbag, the gift creator must have obtained prior permission. Whether the created gift has an IP component should be marked in the gift record. IP owner can grant permission with a pre-agreed fee to gift creators. Curators and users can report an IP violation, which will cause the gift to be taken out of circulation and its creator notified with relevant action(s) taken where necessary. Lastly, being a Gift Creator does not preclude the same person from being a  content producer as w ell.
+3. The Curator plays an important role. One key learning we had when dealing with user-generated content is that a solid curation framework greatly increases the quality of content offerings. The best gift creators are not necessarily the best curators, and vice versa. Therefore, we must separate the creation and curation in the form of a maker/checker s ystem.
+The Curator h as 3 things to r eview: o Content:
+ Visually j udge r epresentation a nd description.  Weed o ut inappropriate or l ow quality content.  Flag o ut any p otential l egal v iolations o r IP violations. o Category:  Proper g ift categorization f or better s orting c apabilities o Price:  Determining appropriate pricing levels. The initial price must be well
+represented based on its visual quality, value in real world context and price relativity. For example, a virtual diamond-studded pen can be more expensive than a virtual car even though the virtual car is more expensive than a  n ormal virtual pen.
+Curation is not an easy job and the curator might not be well-versed to judge all gifts. Hence, a curator can choose to skip a gift if he/she is unsure about it and only curates the ones that he/she h as d omain knowledge i n.
+4. The content creator can choose the type of gift for their fans to see to create a customized a nd c onstant fresh e ngagement e xperience.
+24
+
+5. To close the loop, fans can select and purchase gifts with Gifto Tokens to send to the content creator while also providing feedback on new concepts for gift ideas to be added to the pool of gifts.
+4.3 Community P articipation: I ncentives
+We want Gifto Protocol - The Universal Gifting Protocol to eventually be the ultimate "gift" to the global community where everyone can create, send, and receive gifts regardless of the platform in which they reside in. Our live video streaming and gaming experience has proven that it will not only create a significant monetization avenue for the hard working content creators but also make it mutually rewarding for all parties involved. Our vision is to use the element of enjoyment and personal connections to further enhance the social dynamics of all virtual r elationships. We know that for any decentralised ecosystem to work, a proper incentive and disincentive mechanism must be set in place to continuously reward and encourage positive behaviour, while eliminating unacceptable behaviors. The rules governing this framework should be simple, logical and transparent enough for anyone to easily read and understand. When such a framework is properly executed within the ecosystem, it can create a positive feedback loop that is truly decentralized, in a trustless and autonomous manner. Our suggested framework is presented below. Positive Incentives When the fan purchases a gift with Gifto Tokens and sends it to the content creator, the following proposed r evenue s hare i n G ifto tokens ensures everyone involved is c ompensated:
+*Note that all token revenue shares occur only after transaction fees incurred by the gift purchase have been d educted.
+25
+
+Notes:  Content creator will earn up to 80% as he/she is considered the main contributor to the
+ecosystem.  Gift creator e arns 5%:
+o If an established IP is used, then the IP rights holder will be entitled to a portion of this token revenue share. Actual % is up to agreement between gift creator and IP owner, and there w ill be a c ustom data f ield in the s mart contract for this gift.
+ Gift C urator e arns 2% for w ork done in reviewing the gift c reated.  Gifto Protocol earns 1 0% f or o perational s upport a nd m aintenance o f t he ecosystem.  The remaining 3% would be accumulated into a rewards pool to be paid out periodically to
+all viewers/fans as bonus or lucky draw prizes to reinforce the element of fun and gamification.
+The proposed token revenue share will be written into each gift's smart contract so that all shares are done in a fair, instant and transparent manner. We will implement constant iterations to optimize the incentives for all parties involved as the ecosystem evolves from Alpha t o Beta testing v ersions.
+Negative Incentives
+There are a number of ways that the ecosystem workflow can be compromised. We foresee that the following weaknesses may s till e xist:
+ Gift creator c an c reate p oor q uality, o ffensive Gift which the c urator fails to s pot.  A v irtual Gift might v iolate an existing I P  A G ift Creator p urposely s et very h igh p rices f or a ll o f his/her g ifts To effectively curb undesired behavior, we will implement certain mechanisms as utilised in the Uplive platform. As a starting point, detailed policies will be iterated and completed during Beta testing v ersion:  Inherent c hecks a nd b alances in the e cosystem:
+ Content creator receives the majority of the economic value from each gift, therefore they are the most incentivized to select best quality gifts to increase the chance t hat their f ans w ould p urchase.
+ Content creators are also the most publicly visible participants hence any violation of IP rights or common decency is associated with and reflects badly on them.
+ Fans are paying with Gifto Tokens, which have significant economic value, and therefore will only buy gifts that are high quality and those that they fancy, at the price that they think are fair. Inefficient or unrealistic pricing of Gifts will result in f ewer p urchases, a s i t i s in the r eal world.
+ Gift R atings  Gifts a re rated by fans and content c reators:  When content c reator v iew Gifts f or s election  When fans see them in t he G ift Store  Ratings are b ased o n a  w idespread 5 -star rating ( 1-worst a nd 5 -best).  The ratings o f t he G ift a re r ecorded for both G ift C reator and Curator  If ratings fall below 4 stars, the Gift Creator's and Curator's revenue share will be reduced t o 50% of t heir allocated %  earnings.
+26
+
+ If r atings f all below 3.5 stars, their revenue s hare w ould be a djusted t o 0 %. Uplive has created a vibrant economy of content creators with fans that are happy to pay for virtual gifts. We will exercise the same time-tested policies that have been proven to work for the n ew G ifto Protocol ecosystem.
+4.4 The Gift P ortal
+The Gift Portal will enable content creators and users to better manage the entire gifting experience, f rom both giving and r eceiving perspectives. For content c reators:
+o To view their received Gifts o Allows content creator to view Gift statistics and continuously customize which gifts
+are a vailable f or h is/her viewers, in o rder t o maximize monetization o View v arious leaderboards ( image 4.4.1 b elow) o Access analytics to help content creators understand which content drives better
+monetization o Use management and communication tool between content creators and their top
+fans For u sers:
+o To view w hich c ontent creators they have s ent Gifts t o o To v iew their c urrently purchased gifts t hat h ave n ot b een s ent o Providing inputs t o G ift I dea Pool
+27
+
+Sample UI o f A lpha v ersion of G ift Portal:
+List o f gift projects that a  content c reator might creator f or h is/her content across different p latforms
+
+Showing r evenue r eceived b y t he content creator i n G ifto tokens v ia v irtual gifts
+
+28
+
+The fan c an s ee w ho else h as sent gifts for this content creator
+To further enhance the social gifting experience, we will introduce the element of competition. Gifto Protocol will exhibit a variety of leaderboards for each content creator, to encourage competition amongst his or her fans. The more generous the fan, the higher up the leaderboard he o r she will place. From the leaderboards, both users and content creators will be able to see who are the top fans f or this creator, w hat are t he m ost p opular g ifts, and w hich content i s t he most popular. With leaderboards and rankings, content creators can see who their top contributors are. This opens up more avenues for revenue and content generation. For example, customised content can be produced at the top contributor's request; content can also be made exclusively for such contributors. This system allows producers to build closer relationships with contributors and dramatically enhances the social relationships between content creators and fans, as they currently d o o n Uplive.
+29
+
+4.5 Smart V irtual G ifts
+Smart Virtual Gifts are digital assets deployed using smart contracts within the blockchain. They are used to publish and store data about virtual gifts on the blockchain. Using smart contracts ensures that virtual gifts are kept transparent and immutable. The Smart Virtual Gift's record includes t he f ollowing data:
+ Gift name  Visual a sset  Gift creator  Provenance of t he G ift ( Origination/Transaction P ath)  Content creator who i s merchandizing t his g ift  Gift value in Gifto tokens  Token r evenue share contracts
+ ie, 5% f or Gift Creator, 1 0% for IP i f used, 70% f or C ontent C reator  Special properties based o n categories b elow Many categories of Gifts have already been deployed in Uplive and will be ported over to Gifto Protocol. Over time, new types of gifts can be created by the community based on creativity and demand of fans. Pricing of virtual gifts in Gifto Tokens will be publicly visible in the representation of the gift. The various models and formats of virtual Gifts to be implemented using smart contracts a re seen b elow.
+30
+
+4.6 Gifto Token
+Gifto Tokens will be the main transaction currency in Gifto Protocol and will be transacted in the f ollowing w ays:
+1. Virtual gifts: Community members c an u se Gifto T okens to buy and r edeem v irtual gifts; 2. Incentivizing the community: Participants can earn Gifto Tokens by performing a service
+in t he e cosystem. e .g. creating a  virtual gift or curating v irtual g ifts Gifto Tokens will b e c ompliant with E RC20 standards a nd w ill p ossess the f ollowing p roperties:
+ Foundation: Ethereum b lockchain  Name: Gifto; Symbol:  G IFTO  Supply: One B illion (1,000,000,000) G ifto T okens in t otal  Balance: Available publically on E thereum  Account: U ses Ethereum addresses  Mining: None  Owner: A multi-signature wallet  Restriction: Owner (Issuer of Gifto Tokens) cannot purchase, but Owner can allow the
+purchase and control of the token price. The Owner can withdraw ethers from the contract.
+4.7 Gifto W allet
+To make it easy for users who are new to cryptocurrency, we have also developed the Gifto Wallet, a U.S. Patent pending technology transactional wallet. The Gifto Wallet will handle all Gifto-related transaction activities such as creating the user's wallet on the Ethereum blockchain, and performing the transferring, buying, redemption functions both internally on our network and externally on the blockchain. With the Gifto Wallet, any user can easily manage, transfer o r p urchase G ifto Tokens v ia Uplive or any other content p latforms.
+31
+
+In the Gifto Wallet API/SDK, all communications are securely encrypted via 256-bit encryption, and the user of the Gifto Wallet in the application is the only one who can authorize the transaction. This is done without requiring us to store any user's wallet credentials in our system. Hence the u ser's w allet's p rivate key w ill be only b e a ccessible b y t he u ser.
+We recognise that the complexity of vague transaction fees, encryption necessitating private and private key management and alphanumeric addresses may create significant barriers to mass adoption. To address these issues, Gifto Wallet will make it very simple for all users to transact using a simple password or biometrics like fingerprint. Transaction fees will be kept minimal a nd fully transparent.
+All of Uplive's 20 million users will have access to the first version of Gifto Wallet by end of 2017, w hich will p rovide the i nitial u ser b ase for G ifto Protocol.
+4.8 Hybrid o ff-chain/on-chain architecture
+Although the Ethereum blockchain technology is powerful due to its support for readily-deployable smart contracts, one of its often-cited drawbacks is that it is slow and expensive to confirm a transaction. Recent proposals by many blockchain experts on how to make transactions much faster did not clearly demonstrate how this issue will be solved in the near future. We are aware that the time taken to confirm a transaction on the blockchain is increasingly crucial as we move towards mass adoption, and are constantly surveying alternative s olutions.
+Plasma2, Lightning4, EOS3 , Zilliqa are some of the numerous transaction platforms being studied as alternatives. We are in the process of thoroughly evaluating these options to see if any of them will be suitable for Gifto Protocol. We will conduct real-world trials once we have attained a c ritical mass o f real u sers o n G ifto P rotocol.
+32
+
+As part of our ongoing research and development efforts, we are also in the process of developing a hybrid architecture (Off-chain/on-chain solution) to support fast transaction execution required by the large volumes expected from virtual gift transactions, while preserving a sufficient degree of decentralization. The first version of this architecture is expected t o launch in Q1 2018 to s upport the Beta t est of Gifto P rotocol.
+
+4.9 T oken Economy
+A healthy token economy is key for tokens to shift in the price curve, i n a way that d irectly proportional to the number of users w ho are u sing the t oken.  Healthy token economy has following characteristics:
+ Growing d emand: m ore a nd more users w ant t o u se t he token to create value  Fixed s upply: t otal n umber of t okens a re f ixed  Balance of g radual c onsumption of t okens and supplying of tokens into t he economy
+In the c entralized Uplive experience, w e are running a $100M a  y ear virtual e conomy, based o n our in-app token, d iamond.  T he d iamond user experience i s below:
+
+Diamonds a re t he in-app currency t hat i s used to purchase virtual gifts f or broadcasters
+
+They are p urchased b y f iat v ia t raditional payment c hannels s uch a s G oogle Pay and Apple P ay
+
+33
+
+Notice that t here is 587 d iamonds in my wallet above.  This is a  natural phenomenon occurs in all virtual economies, e specially i n g ames.  U sers u se fiat to p urchase a n in-game/in-app currency, and it takes a  p eriod of t ime for the users t o s pend t he currency to b uy g ame i tems, i n this case, v irtual g ifts.
+In U plive, o n a verage it takes u p to 5 d ays f or u sers to f ully spend the diamonds that t hey purchased.  And because they a re b uying v irtual gifts i n r eal time f or the broadcasters, t hey almost a lways b uy more d iamonds a s s oon a s the p revious balance dips below w hat is required to b uy a particular gift.
+
+1. User b uys a gift for broadcaster
+
+2. G ift animation s hows, broadcaster i s happy, the u ser is motivated to b uy another gift
+
+3. T he n ext gift costs more than the balance 4. T he user i s p rompted to p urchase more 34
+
+of diamonds o f the user
+
+diamonds
+
+Note 6 7 diamonds a re s till left in the b alance before u ser buys.  On a verage, i n Uplive, per d ay per paying user, there are 5 0 d iamonds left i n balance. Therefore, we b elieve t hat a s imilar pattern w ill e merge in the G ifto P rotocol, whereby t here will always be Gifto tokens left o ver in a  u ser's wallet a fter buying virtual gifts. This means that the number o f G ifto tokens h eld a nd not sold will i ncrease p roportionally t o t he n umber of users who u se G iftos to b uy v irtual gifts.  This creates a natural restriction to t oken supply, which w ill c reate n atural s hifts i n t he t oken price curve o ver time.  N o additional a rtificial mechanism is n eeded.
+35
+
+5. R oadmap a nd Adoption
+Unlike most projects that have only a great idea, Gifto comes with Uplive's large userbase and broadcasters. After all, the whole idea of universal gifting was in response to strong demand by current Uplive content creators. Our experience with building products for more than 100 million users across multiple countries, languages, and cultures have trained us to be very mindful of how to drive adoption of new technologies. We will bring these learnings to Gifto's adoption. We will address 3 a spects of a doption in t his s ection
+1. Quantifying t he t otal reach of U plive's u serbase for Gifto 2. Plan f or migrating Uplive i tself from diamonds to Giftos 3. Phased execution and t imeline
+5.1 Uplive brings 7 0mln global u ser reach to Gifto
+Collectively, Uplive already reaches 70mln users that will be incentivized to jump start the global v irtual g ifting ecosystem.
+ Uplive's 60,000 broadcasters have millions of fans OUTSIDE of Uplive on YouTube, Instagram, and F acebook
+ about 10,000 broadcasters have average of 10,000 fans across these platforms, with a combined 100Mln, assuming a large 50% overlap in users, conservatively the reach is 50Mln users o utside Uplive.
+ Uplive's 20mln users are also users on these global platforms, following other content creators
+As an example of Uplive broadcaster's influence outside Facebook, Olivia below has 145,985 fans on Facebook. Since being on Uplive for about 10 months, broadcasting 40 hours average a month, she has received 14.7mln coins on Uplive, which is equivalent to $221K USD, translating to $550 USD /hour.
+36
+
+In essence, Uplive already represents a large slice of the global content creation and virtual gifting m arket.
+37
+
+5.2 Migrating Uplive from Diamonds t o G iftos
+In addition, Uplive is already running a $100Mln USD internal token economy, based on Uplive's own in-app t oken c alled Diamonds.  C urrently, v irtual gifts a re purchased w ith D iamonds.
+38
+
+Diamond usage in Uplive will gradually be migrated to using Gifto, as adoption of Gifto increases. As there are additional benefits Gifto tokens have over Diamonds, users will have a strong incentive to move from Diamonds to Giftos. Our goal is to eventually replace most of Diamonds with Giftos, allowing Uplive users to also enjoy the advantages of crypto tokens over traditional f iat:
+ Uniform form o f p ayment f or users a cross countries, r egions, a nd currencies  Minimal t ransaction f ees of up t o 3 0% on some global p ayment c hannels  Protection from frequent payment frauds, especially credit card and payment fraud. For
+example: scammers frequently use stolen credit card info to purchase Diamonds, which are only d iscoverable post t ransaction.
+39
+
+ Protection from arbitrage losses due to exchange rates fluctuations across different currencies
+The above are real problems faced by Uplive all the time. As an example, users frequently steals other people's credit card data and use to buy Diamonds, and Uplive only finds out after someone makes a claim. In another example, in 2017 Feb, the Egyptian pound suddenly dropped more than 10% against the dollar in 1 day, but the corresponding rate was not updated in a major global mobile payment platform. Uplive team discovered that a user was tunneling to Egypt via VPN and buying up a very large amount of Diamonds which he then resold.  Crypto tokens o f course, a re d esigned to solve t his problem.
+Therefore, as more and more users adopt Gifto, more transactions within Uplive can be migrated to Gifto and off fiat based Diamonds. To facilitate this, we developed the Gifto Wallet as a  p art of t he core Gifto p rotocol implementation.
+The Gifto Wallet is already in development and will be rolled out to the Uplive userbase by end of 2017. After Wallet gets rolled out to all users, across Android, iOS and Web, we will begin air dropping initial set of Gifto tokens to seed Uplive users. By end of 2017, there will be 20mln users h olding G ifto t okens, making it the l argest u ser base E VER to h old a  new crypto t oken.
+40
+
+As current blockchain technology cannot handle the fast response time required of a large commercial system like Uplive, and that a new blockchain Smart Contract Gift system will need to b e built, w e w ill be onboarding users gradually.
+By end of 2018, Uplive will generate conservatively 30mln USD a month, and should have more than 100mln virtual gifts sent every month. We estimate that by then, we will be able to migrate about 30% of Uplive's transactions to it. 70% of Uplive's transactions should be expected b y e nd o f 2 019.
+41
+
+5.3 Phased A doption
+Gifto Protocol ecosystem will b e r olled o ut i n s everal p hases a s follows:
+
+Phase
+
+Work
+
+Timing
+
+Preparation: S eeding G ifto with Uplive u sers
+
+Once G ifto W allet i s available i n U plive a pp, we will allocate G ifto Tokens gradually to p aying users in Uplive, to seed the user base for G ifto, as these users are already p aying f or v irtual g ifts o n a  regular basis.
+
+Nov-Dec 2 017
+
+Phase 1: A lpha v ersion: centralized Gifto Protocol working in e xternal content p latforms
+
+The A lpha v ersion o f Gifto Protocol will b e a vailable to U plive content c reators to u se o utside of Uplive: YouTube, Instagram, Facebook, etc.  T his i s s till hosted on U plive s ystems and d omain. The g oal is to quickly iterate the user experience t o e nable a ny content creator to e asily use Gifto t o s tart monetizing t heir c ontent.
+
+End of 2017
+
+Phase 2 : Beta version: Decentralized Gifto Protocol on blockchain working in e xternal environment
+
+Beta v ersion of decentralized Gifto Protocol, deployed o n b lockchain that i s a vailable f or e xternal users o utside Uplive t o u se.  Will b e a  h ybrid o n/off chain server to s upport f ast t ransactions.  Front end user experience i terated basd on Alpha v ersion
+
+Q1 2 018
+
+Start t o w ork w ith n ew g lobal c ontent c reators that are n ot on Uplive to i terate p roduct experience further.  First set o f Smart V irtual Gifts deployed based on b lockchain.
+
+Phase 3 : C ommercial version 1  of Gifto P rotocol launch
+
+Full ecosystem e nabled, w ith c ommercial-grade fast transaction blockchain server.
+Fully p ush to global content c reators worldwide
+
+Q3 2018
+
+42
+
+6. G ifto L imited
+The long-term goal of Gifto Limited is to establish Gifto Tokens as the pre-eminent cryptocurrency for a decentralized network of global content creators. All existing Gifto-related technology will be integrated to Gifto Limited, and it will be the holding entity of all undistributed Gifto Tokens. The ongoing role of Gifto Limited will be to further develop the technologies underpinning the Gifto Tokens, as well as to perform continuous research and development to improve all other aspects of the Gifto ecosystem. It will further seek to forge strategic partnerships with prominent or up-and-coming entities, apps and platforms to promote, distribute, incentivise, and integrate Gifto Tokens and Gifto Protocol to the entire content creation industry at large. Gifto Limited will also continuously implement further policies and measures to ensure the smooth, uninterrupted functioning of any related technologies to a chieve our g oal o f an o pen, reliable a nd d ecentralized e cosystem.
+43
+
+7. Team
+Asia Innovations Group ("AIG") is a leading mobile interactive entertainment group based in Asia, with a portfolio of products and services that now serve over 100 million users around the world. It is already on track to generate more than USD 130 million of revenue in 2017. In total, we employ more than 300 staff across 8 offices in MENA and Asia Pacific. Our core competencies include deep domain expertise in building innovative consumer products, and driving s ignificant revenue directly f rom o ur users. More information o n AIG c an b e found at: w ww.asiainnovations.com.
+AIG is funded by leading international institutional investors such as KPCB, Index Ventures, Wicklow Capital, Ventech, White Star Capital, and MSA Alternative. Many leading angels are also AIG investors, including the founder of Palantir, the founder of Qunar.com, the co-founder of Z ynga, the VP o f O culus a t Facebook, and many o ther p rominent Internet i ndustry veterans. We will contribute our considerable resources and experiences to the development, promotion, and operation of Gifto Tokens and Gifto Protocol - The Universal Gifting Protocol. Our deep consumer product operation experience will be vital instruments to ensure the successful adoption of G ifto P rotocol, a nd thereby empowering millions o f c ontent c reators worldwide.
+44
+
+The G ifto t eam i s led b y the following i ndividuals:
+
+Andy T ian CEO
+
+Andy is currently the CEO of Asia Innovations Group. Before co-founding Asia Innovations, Andy was the General Manager of Zynga China, where he spearheaded Zynga's expansion in China and personally oversaw the inception and creation of many global top 10 games. He also previously co-founded one of the world's earliest social app companies in 2008, which was sold to Zynga in 2010 to become Zynga China. Before that, he was an early member in Google China and built its mobile business from the ground up, including introducing Android to China in 2006. Andy began his career in Silicon Valley in a startup. AIG is the 4th startup he co-founded. Andy graduated from MIT with bachelor's and master`s degrees in Computer Science. Andy was born in China and immigrated to New York, USA at age o f 1 0. His f ull profile c an be f ound at: https://www.linkedin.com/in/andytian/
+
+Charles Thach Chief C rypto Officer
+
+Charles is the Chief Gifto Officer, responsible for driving operations and implementation of Gifto. He previously worked at top tier investment banks in various roles in Washington DC, Boston, Paris, New York and Hong Kong. He co-authored AML/KYC policy and procedures for a global bank and subsequently initiated and participated in selection of blockchain technologies to implement such procedures. Throughout his banking career, Charles has developed in-depth knowledge of the global banking systems, negotiated and concluded derivatives trading relationships with over 500 counterparts, ranging from regional banks to global hedge funds. He cultivated relationships with financial institutional clients that over the course of a decade generated hundreds of billions USD in transaction notional, with products ranging from simple payment mechanisms to sophisticated financial derivatives such as correlation/variance swaps and swaptions. Charles believes that blockchain technology's main feature is to enable transactions that eliminate or minimize transaction costs and government taxes, which will then enable efficient capital market frontier and minimize wars, economic disparities and physical borders. Charles holds an MBA degree from HEC Paris and earned his Bachelors degree
+45
+
+William H . N guyen, Ph.D. Chief C rypto Architect
+
+from Georgetown University. He's also a Certified Alternative I nvestment Analyst. His f ull p rofile c an be f ound at: https://www.linkedin.com/in/charles-thach-466468/
+William is the inventor of the advanced collaborative telecommunication technology empowering EdooPAD and its auxiliary applications, which were featured on many renowned technology review blogs such as Engadget and Android Authority. William is a serial entrepreneur with many successful ventures. He is the author of the U.S. Patent Pending Technology allowing one to build a massively scalable and transactional cryptocurrency wallet that can handle billions of users. In addition, he is undertaking the research and development of the super fast transactional blockchain technology for fast transactions. His mission for the latest work is to bring blockchain to the mass so that everyone can experience the benefits of this nascent decentralized t echnology in t heir daily lives.
+William is the former Alfred P. Sloan Postdoctoral Fellow at Harvard Medical School. His primary research was on data/text mining, molecular modeling, theoretical development, and massive parallel computing applied to solve many scientific questions spanning from physics, chemistry, and biology to medicine. Before Harvard, he was the Institutional Doctoral Fellow in Computational Science at the Lawrence Livermore National Laboratory. He was a featured/invited speaker at various scientific conferences and universities. Over the past 10 years, William has built many social networking, on-demand video streaming, and telecommunication applications serving tens of millions of users worldwide in the areas of business communication, media, education, and entertainment. William graduated summa cum laude (Highest Honors) from the University of California-Davis c ampus. His full profile can b e found at: https://www.linkedin.com/in/dathnguyen/
+
+46
+
+Daniel Yeh, CEO of Taiwan, AIG G roup
+
+Daniel is a long time veteran in Taiwan's mobile internet space. His experience spans from being the founder of Pillar-Ezmobo.com, co-founder of Mimisoft.com, GM of Mtel Taiwan, and most recently founder of the well-known live broadcasting service MimiCam in Taiwan. MimiCam won many awards and topped the charts in both iOS Apps Store and Google Play. Daniel also created the Taiwan Mobile Application Consortium and was its first appointed chairman. He is also the member of the first class in the AAMA (Asia America Multi-Technology Association), one of the earliest Internet organizations spanning across China and Taiwan. Daniel has an MBA in Global Business Development from National C hengchi U niversity.
+
+Minh Thach, GM of Vietnam, AIG Group
+
+Minh is the General Manager of AIG Vietnam, a subsidiary of AIG, and the #1 live streaming and online entertainment company in Vietnam. He is also the chairman of Big Cat Entertainment - the largest online video network in Southeast Asia, with over 3 million subscribers and over a billion aggregated views. Minh started his career at Yahoo in the Sunnyvale, and subsequently moved to Singapore. He has spent the last 10 years in leading roles at various Internet companies in Asia. Before AIG, Minh was leading the mobile team for Lazada. He also spent 4 years in Singapore in a managerial capacity at Yahoo! SEA and Linkedin. Minh has been studying blockchain technology and co-investing in blockchain companies over the past 3 years alongside his brother, Charles Thach. Minh graduated from California Polytechnic State University with a Bachelor's degree in Electrical Engineering.
+
+47
+
+Advisors
+
+Danny Yang
+CEO of Blockseer
+
+Danny Yang has spent the last 5 years working on blockchain, one of the earliest pioneers in this space. He has founded several companies innovating on blockchain and artificial intelligence. He is currently the CEO of Blockseer, a unique blockchain analytics company that specializes in data analysis and anti-money laundering (AML) for digital currencies. Previously, Danny founded Maicoin in 2013, one of the earliest full service crypto exchanges in the world. Prior to blockchain, Danny was an AI veteran, who founded data science companies, ScoreData and Seravia. He started his entrepreneurial journey as part of L ike.com, the original mass consumer computer vision company that deployed e-commerce solutions back in 2006, later acquired by Google. Danny has a BA in Chemistry and Physics from Harvard, and a PhD in Computer Science f rom Stanford.
+
+Loi Luu
+CEO and C o-founder o f Kyber N etwork
+
+Loi Luu is the CEO and Co-founder of Kyber Network. He is also a researcher working on cryptocurrencies, smart contract security and distributed consensus algorithms. Loi is a regularly invited speaker at Bitcoin and Ethereum workshops such as DevCon2, and EDCON. Loi believes in the force of the Ethereum and Blockchain technology. Much of his work revolves around this community. He developed O yente, the first open-source security analyzer for Ethereum smart contracts. Loi also cofounded S martPool, another open source project which embraces decentralization of mining pools in existing cryptocurrency. He continues to champion decentralisation and trustless properties of the Blockchain with KyberNetwork, taking inspiration and developing value for the community.
+
+48
+
+Bo is co-founder and general partner of Fenbushi Capital, the first venture capital firm that exclusively invests in Blockchain-enabled companies.
+
+Bo S hen
+General P artner o f Fenbushi C apital
+
+Tom Duterme
+Ex D ir o f Corp, G oogle
+
+Tom serves as an advisor to Gifto contributing his invaluable insights into Youtube monetisation and global content economy. He currently serves in advisory and board roles to selected organizations including silicon valley startups, Fortune 500 companies, and Hollywood independent film projects. Previously, he worked as a senior corporate development executive for Google. Most recently, he headed corporate development activities for YouTube, with emphasis on strategic growth including monetising YouTube's vast audience. He has also held business development and advisory roles for other business units within Google. Prior to Google, Tom spent 7 years in China and helped to found two Internet companies, as CTO and head of sales for both ventures. Tom graduated with BA in physics from Macalester College and MBA from MIT Sloan of Management. He speaks Mandarin and French and i s working on his Japanese.
+
+Chris was the former CFO of TenX, and planned and executed their USD 80 million ICO. This ICO was the largest in Asia and has set the standard for many ICOs to come. Before his tenure at TenX, Chris worked for many years in investment banking at Goldman Sachs in London. He advised FinTech companies on capital markets and M&A transactions. Amongst his clients were FinTech companies, banks, credit card companies and other f inancial institutions.
+
+Chris M iess
+Ex-CFO TenX
+49
+
+8. Asia I nnovations Group's I nvestors
+Institutional Investors
+Angel Investors
+ Fritz D emopoulos - Founder o f Queen's' R oad C apital and C o-Founder of Q unar  Joe Lonsdale -  Founder o f  Palantir, 8VC  Justin Waldron - C o-Founder o f Zynga, a ctive a ngel investor i n t ech and b lockchain  Hugo B arra, VP o f V R, Facebook  Shakil K han, i nvestor and e arly s taff i n Spotify  James Mi, M D, Lightspeed Venture China  And o ther s enior s taff f rom Facebook and Google
+9. Risks &  D isclaimers
+By accessing the information set forth in this document or any part hereof, you represent and warrant to A sia I nnovations G roup a nd/or G ifto L imited that you a ccept the following: 9.1 No O ffer This document does not constitute or form part of an offer to sell or the solicitation of an offer to subscribe for, underwrite or purchase any form of investment or securities, nor shall it or any part of it form the basis of, or be relied upon, in any way in connection with any contract or investment d ecision relating to t he s ame. 9.2 N o A greement This document shall not be relied on to enter into any contract or to form basis of any investment decision. Any agreement(s) between Gifto Limited and you are to be governed by a
+50
+
+separate document ("Sale Document"). In the event of any inconsistency between this document and the S ale D ocument, t he respective Sale Document shall p revail.
+9.3 Information
+The information, statements, estimates, projections and opinions in this document in respect of the anticipated roadmaps, development and projected terms and performance of the relevant entities, are selective and subject to updating, expansion, revision, independent verification and amendment. As such, Asia Innovations Group and Gifto Limited are not making any representation or warranty or undertaking, including those in relation to the truth, accuracy and completeness of any of the information set out in this paper. Whilst we intend to fulfil all the goals set out in this document, in case of unforeseen circumstances, the goals may change or m ay not b e a chieved w ithout a ny n otice t o you.
+9.4 No Advice
+None of the contents of this document constitutes legal, financial, tax or other advice and we encourage y ou t o c onsult with the relevant professional advisors independently.
+9.5 Regulations
+The regulatory status of cryptographic tokens, including the any digital currency, digital assets and blockchain technology is unclear or unsettled in many jurisdictions. The publication and dissemination of this document do not imply that any relevant laws, regulations and rules have been complied with. No regulatory authority has examined or approved this document. Where any relevant governmental authority makes changes to existing laws, regulations and/or rules, or where financial institutions make certain commercial decisions, it may have a material adverse effect and/or impair the ability of any relevant entity referred to in the document to function a s intended, o r a t a ll.
+9.6 A dvertisement a nd D istribution
+This paper is for general information purpose only and is not an advertisement, nor is it intended to be used to call for an offer on behalf of Asia Innovations Group and/or Gifto Limited. Distribution of this Presentation may be restricted or prohibited by law or regulatory authority in your jurisdiction. Recipients should inform themselves of and comply with all such restrictions or prohibitions and both Asia Innovations Group and Gifto Limited do not accept any l iability t o a ny p erson i n r elation t hereto.
+9.7 Other Disclaimers
+The disclaimers set out above are not exhaustive and a more comprehensive list will be set out in o ther documents such a s the full p roject Whitepaper.
+51
+
+References
+Please note that we have made references to information set out in websites below but have not sought further verification as to the accuracy, completeness, or timeliness of the information r eferred to t herein.
+1. https://github.com/ethereum/wiki/wiki/White-Paper 2. https://plasma.io/plasma.pdf 3. https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md 4. https://lightning.network/ 5. https://techcrunch.com/2017/06/22/youtube-has-1-5-billion-logged-in-monthly-users-
+watching-a-ton-of-mobile-video/ 6. https://techcrunch.com/2017/04/26/instagram-700-million-users/ 7. http://www.businessinsider.com/chart-of-the-day-youtube-videos-by-views-2009-5/?IR
+=T 8. https://devumi.com/2016/12/1-million-youtube-views-much-youtube-pays-milestone/
+52
+
+

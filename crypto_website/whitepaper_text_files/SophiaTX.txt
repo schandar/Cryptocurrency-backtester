@@ -1,0 +1,168 @@
+Internet of Things (IoT) impacts on Supply Chain
+Harry Machado 5617A Kiam Street Houston, TX 77007 (402)541-4525
+Harry Machado (BS in Industrial Engineering, Universidad de Lima, Peru. MS in Economics, University of Nebraska at Omaha) is currently a graduate student in the MBA program with a concentration in Energy Finance and Investments at C.T. Bauer College of Business, University of Houston.
+APICS Houston Student Chapter APICS ID: 1951133 Part-Time Graduate
+Kartik Shah 17119 Nitshill Lane Richmond, TX 77407 (917)365-0898
+Kartik Shah (BS in Electronics & Communication, Ahmedabad -India, MS in Computer Systems, Boston University) is currently a graduate student in the MBA program with concentration in Supply Chain Management at C.T. Bauer College of Business, University of Houston.
+APICS Houston Student Chapter APICS ID: 4020371 (Registration ID) Part-Time Graduate
+
+ABSTRACT
+In this white paper, our team will provide an overview of this new phenomenon called Internet of Things (IoT) and its possible impacts in the development of supply chains and other applications. Our paper will present the stepping stones in the development of the IoT, and then it will focus on specific applications of IoT such as warehouse management systems, inventory management and manufacturing operations. Moreover, the paper will describe the efficiency gains in the IoT applications. The paper will also discuss Pros and Cons and will also explore the risks associated with this new technology. Finally, we will conclude with next steps and future works planned for IoT to become a reality.
+2
+
+INTRODUCTION
+The internet of things (IoT) is a network of objects equipped with radio frequency identification chips and similar technologies so that the objects could communicate and interact with each other. IoT represents the next evolution of the Internet, taking a huge leap in its ability to gather, analyze, and distribute data that we can turn into information, knowledge, and ultimately wisdom. IoT can also be referred as "Internet of Objects". IoT can be viewed as Networks of Networks as shown below. In essence, IoT can be viewed as billions of connections that will encompass every aspect of our lives.
+Source: SAP the CEO Perspective
+3
+
+HISTORICAL EVIDENCE
+Prior to this definition, authors have imagined about connecting the physical realm with the digital, and inventors have developed supporting technologies. Per Gil Press at Forbes:
+· In 1932, Jay B. Nash in Spectatoritis writes about machines supporting us in our daily lives and increasing our leisure time.
+· In 1949, Norman Joseph Woodland preconceives the linear code bar. In 1952, will be awarded with the first patent for the code bar.
+· In 1973, Mario Cardullo receives the first patent for a passive, read-write RFID tag. · In 1974, a Universal Product Code (UPC) label is used to ring up purchases at a supermarket
+for the first time. · In 1990, Olivetti develops an active badge system, using infrared signals to communicate a
+person's location. · In September 1991, Xerox PARC's Mark Weiser publishes "The Computer in the 21st
+Century" in Scientific American, using the terms "ubiquitous computing" and "embodied virtuality" to describe his vision of how "specialized elements of hardware and software, connected by wires, radio waves and infrared, will be so ubiquitous that no one will notice their presence." · In 1995, Siemens sets up a dedicated department inside its mobile phones business unit to develop and launch a GSM data module called "M1" for machine-to-machine (M2M) industrial applications, enabling machines to communicate over wireless networks.
+4
+
+· In 1999, the Auto-ID (for Automatic Identification) Center is established at MIT. Sanjay Sarma, David Brock and Kevin Ashton turned RFID into a networking technology by linking objects to the Internet through the RFID tag.
+· In March 2002, Chana Schoenberger and Bruce Upbin publish "The Internet of Things" in Forbes. They quote Kevin Ashton of MIT's Auto-ID Center: "We need an internet for things, a standardized way for computers to understand the real world."
+· In January 2003, Bernard Traversat et al. publish "Project JXTA-C: Enabling a Web of Things" in HICSS '03 Proceedings of the 36th Annual Hawaii International Conference on System Sciences. They write: "The open-source Project JXTA was initiated a year ago to specify a standard set of protocols for ad hoc, pervasive, peer-to-peer computing as a foundation of the upcoming Web of Things."
+5
+
+RECENT DEVELOPMENTS
+Continuing with Gil Press account for the last years:
+· In September 2004, G. Lawton writes in "Machine-to-machine technology gears up for growth" in Computer: "There are many more machines...in the world than people. And a growing number of machines are networked... M2M is based on the idea that a machine has more value when it is networked and that the network becomes more valuable as more machines are connected."
+· In October 2004, Neil Gershenfeld, Raffi Krikorian and Danny Cohen write in "The Internet of Things" in Scientific American: "Giving everyday objects the ability to connect to a data network would have a range of benefits.... Many alternative standards currently compete to do just ..."
+· In October 2004, Robert Weisman writes in the Boston Globe: "The ultimate vision, hatched in university laboratories at MIT and Berkeley in the 1990s, is an `Internet of things' linking tens of thousands of sensor mesh networks. They'll monitor the cargo in shipping containers, the air ducts in hotels, the fish in refrigerated trucks, and the lighting and heating in homes and industrial plants..."
+· In 2005, a team of faculty members at the Interaction Design Institute Ivrea (IDII) in Ivrea, Italy, develops Arduino, a cheap and easy-to-use single-board microcontroller, for their students to use in developing interactive projects. Adrian McEwen and Hakim Cassamally in Designing the Internet of Things: "Combined with an extension of the wiring software environment, it made a huge impact on the world of physical computing."
+6
+
+· In November 2005, The International Telecommunications Union publishes the 7th in its series of reports on the Internet, titled "The Internet of Things."
+· In June 22, 2009, Kevin Ashton writes in "That `Internet of Things' Thing" in RFID Journal: "I could be wrong, but I'm fairly sure the phrase `Internet of Things' started life as the title of a presentation I made at Procter & Gamble (P&G) in 1999." As mentioned the terms of "ubiquitous computing", and "pervasive computing" were coined in the 1990s. The progress of both was limited by the fact that it was difficult and expensive to connect an object to a computer. A well-known prediction is that by 2020 there will be 50 billion Internet devices, up from 25 billion today.
+7
+
+FUNCTIONAL VIEW OF IoT
+Building Blocks of IoT
+Sensing Nodes The types of sensing nodes needed for the IoT vary widely, depending on the applications involved. Sensing nodes could include a camera system for image monitoring; water or gas flow meters for smart energy; radar vision when active safety is needed; RFID readers sensing the presence of an object or person; doors and locks with open/close circuits that indicate a building intrusion; or a simple thermometer measuring temperature. The bottom line is that there could be many different types of sensing nodes, depending on the applications. These nodes will all carry a unique ID and can be controlled separately via a remote command and control topology.
+Embedded Processing Nodes Embedded processing is at the heart of the IoT. Local processing capability is most often provided by MCUs, hybrid microcontrollers/microprocessors (MCUs/MPUs) or integrated MCU devices, which can provide the "real-time" embedded processing that is a key requirement of most IoT applications. Use cases vary significantly, and fully addressing the real-time embedded processing function requires a scalable strategy (using a scalable family of devices), as one size will not fit all.
+Wired and Wireless Communication Capability/Nodes The role of the communication node is to transfer information gathered by the sensing nodes and processed by local embedded processing nodes to the destinations identified by the local embedded processing nodes. And, once the data is remotely processed and new commands are
+8
+
+generated, the communication node brings back the new commands to the local embedded processing nodes to execute a task.
+Source: "White Paper: What the Internet of things (IoT) needs to become a reality"
+9
+
+IoT APPLICATIONS
+Making Things Smart
+There is an electrification of world around us. Anything we see these days has electronics in it. Especially, it includes an embedded processor (typically a microcontroller, or MCU), along with user interfaces, that can add programmability and deterministic "command and control" functionality. As described in recently released white paper by CISCO, the electrification of the world and the pervasiveness of embedded processing are the keys to making objects "smart." After a device becomes smart through the integration of embedded processing, the next logical step is remote communication with the smart device to help make life easier. With sophisticated cloud-based processing, communication capability IoT can make things happen without intervention. Applications to connect with and leverage the Internet to achieve this goal, they must first become "smart" (incorporate an MCU/embedded processor with an associated unique ID) then connected and, finally, controlled. "Smart" applications can include cars, cities, homes, appliances, tags, building, grid etc. An example "Smart" service is shown below:
+Source: "White Paper: What the Internet of things (IoT) needs to become a reality" 10
+
+Manufacturing - Manufacturing Communication
+Using sensors to monitor manufacturing equipment and environments is nothing new. But using those sensors to talk to other equipment and automatically feed data into plant and energy management applications is one of manufacturing's newest frontiers. This is where IoT comes. Here devices and equipment leverage Internet connectivity to create a more proactive paradigm in which problems are identified much quicker, and in much more detail, and are often even fixed without human intervention. IoT's supply chain can't be ignored. With manufacturers looking to make themselves more sustainable in order to achieve new levels of efficiency and improve their use of resources, the IoT promises to help on both fronts by enabling companies to get more insight into their manufacturing operations than they'd ever imagined. How IoT Enables Informed Manufacturing An informed manufacturing organization contains four elements: Informed products, processes, people and infrastructure. These essential elements of manufacturing are converging like never before, creating a more automated, intelligent and streamlined manufacturing processes: Products: Advanced sensors, controls and software applications work together to obtain and share realtime information as finished goods make their way down the production line. Informed products will enable machines to take autonomous action.
+11
+
+People: By connecting people across all business functions and geographies, and providing them with relevant information in real-time, "informed people" will provide intelligent design, operations and maintenance, as well as higher quality service and safety. Processes: By emphasizing bidirectional information-sharing across the global manufacturing value chain -- from supplier to customer -- informed processes lead to a flexible and adaptable supply chain. Infrastructure: Using smart infrastructure components that interface with mobile devices, products and people, informed infrastructure will better manage complexities and enable more efficient manufacturing of goods. An Anatomy of an Informed Manufacturing Plant is shown below:
+Source: Designing for Manufacturing "Internet of Things", Cognizant
+12
+
+Warehouse Management
+As Steve Banker points, existing warehouse control systems will need to be "re-conceptualized" to handle data coming from sensors installed in the warehouse. Currently, we defined warehouses as operated manually, semi-automatically, or highly automatically.
+In a manual warehouse a forklift is highly dependent of the operator. The new smart forklift includes sensors for speed control, anti-slip technology, and collision detection among others. Integration to a Warehouse Management System allows the forklift to be safely move faster than the operator is willing to do, therefore gaining productivity. Speed controls can be used to help ensure safety. For example, RFID tags placed in the floor can signal the forklift that certain warehouse section is heavily transit by workers, and then the forklift is given an automatic speed limit when close to this section.
+The most advanced forklifts are built with real-time location systems that allow drivers to proceed to a specified location and pick up (or put down) a load without the need for drivers to scan the location to prove that they have picked up (or delivered) the right load.
+In automated warehouses, conveyor and sortation systems can benefit from the internet of things. For example, imagine a warehouse in which daily throughput volumes have increased over time. One can now pop in a new five-yard segment containing the conveyor, a divert sensor, the sortation device, and a motor. If the warehouse control system signals a divert, the distributed control at the component level can kick the inventory off the conveyor, and the engine on that segment of the conveyor revs up to close the gap with other items on the conveyor.
+13
+
+IMPACTS ON SUPPLY CHAIN
+Improved Inventory Management
+As Phil Van Vormer explains, the Internet of Things (IoT) brings the real-time visibility of the inventory. Without real-time visibility, inventory management relies on guessing. "Lack of realtime visibility means you cannot possibly know how much time your drivers spend active with load, if they take the most effective route, and whether improvements could be made to how pallets flow throughout the warehouse." Moreover the internet of things improves inventory counting: "Manual data collection spells inventory disorder. Too many warehouse operators spend a disproportionate amount of time chasing lost or misplaced pallets as a result of data entry errors. In the connected warehouse, such issues are eliminated since every single pallet is tracked to the sub inch. Sensors effectively take out the human element, potentially leading to 100 percent inventory accuracy."
+Real-Time SCM
+Supply chain management (SCM) manages to optimize processes and collaboration with other companies in the supply chain (suppliers and customers) in order to create more value. While SCM is already heavily supported by various IT solutions, the Internet of Things can be of great value by providing additional information. One of the major challenges in SCM is reducing the bullwhip effect. A major cause of the bullwhip effect is information distortion. For a better information flow, the Internet of Things is able to trigger all relevant actors in the supply chain upon the sale of a product. In traditional processes, information on demand was only passed to one's direct downstream partner instead of sharing this information with the whole chain.
+14
+
+The new sophisticated RFID chips used in the Internet of Things allow the recording of all kinds of manufacturing information, production date, expiry date, warranty period, after sales details allowing real time and more efficient supply chain management. When it's possible to have a real-time look in the supply chain operation, production capacity can be raised, which leads to more productivity with the same investment.
+Increased Logistics Transparency
+The Internet of Things (IoT) embeds the load carried by a logistic operator with smart objects, which can make information about transport (destination, identification, transport conditions etc.) available to the entire supply chain, making the chain more transparent. This brings log of logistic operational advantages. The smart items monitor the goods and proactively raise an alert if transport conditions are not appropriate anymore, so the carrier is alerted and the goods have a higher chance to be saved. This reduces the costs of return, the removal of defective goods and lowers transports due to lower reshipping rate. Because the load is actively providing information the status of the load is more transparent, a carrier can accurately be held responsible for the amount of defective goods. This can effectively help and increase customer satisfaction.
+Besides equipping the load with sensors, the carrier itself can be made smart as well. The sensors can collect all kinds of information and can provide information to the drive in order to allow better navigation and safety. The automatic planning of navigation routes might have impact on the drivers, since they have to yield control over route, allows a greater flexibility to react to unforeseen events.
+15
+
+PROS & CONS of IoT
+Tracking and monitoring almost any resource could save companies and people a lot of time and money. And that is the ultimate reason that IoT will have a major impact in the very near future. But first, people need to better understand the advantages and disadvantages of the Internet of Things.
+
+PROS
+
+CONS
+
+· We live in world where countless data is being produced. · One of the biggest barriers for IoT is the development
+
+Individual data by itself is not useful. Data is just the raw of larger network, an internet which allows lot more
+
+material that is processed into "Information". More IP addresses. With billions of devices getting
+
+information helps making better decisions. Information connected with new sensors, all will require unique IP
+
+availability will be one of the key advantages of IoT.
+
+addresses. Also, "Compatibility" can be a big concern.
+
+Currently IoT is in early stage of conception and
+
+development, there are no international standards of
+
+compatibility for the tagging and monitoring of
+
+equipments.
+
+· With the help of IoT "Monitoring" will become easier. · With billions of devices connected in a cloud-based
+
+For an example your printer is running low on ink, which system, "Complexity" to build secure and large
+
+you previously didn't know and only came to know when networks will be a daunting task for companies
+
+you had to print an important document. With the help pursuing IoT. With complex system, there are more
+
+of IoT and its monitoring capability you will know the opportunities of failure. For an example, on a power
+
+shortage of ink in advance and thus it will save you a trip failure if a printer generates an automated message
+
+to the store.
+
+of low ink cartridge and orders ink cartridge which is
+
+probably not needed.
+
+· "Time" is "Money". Biggest advantage of IoT is Money. If · Biggest concern with IoT can be
+
+the price of the tagging and monitoring equipment is less "Privacy/Security/Safety". System build on large
+
+than the amount of money saved, then the Internet of network can be potentially hacked. Data encryption is
+
+Things will be very widely adopted.
+
+also key, otherwise there is a potential of losing
+
+privacy.
+
+Clearly, Internet of Things (IoT) has several major disadvantages in its early stage of development as a technology, but its advantages will ultimately save consumers and companies lot more Money and Time.
+16
+
+CONCLUSION
+Although IoT is a fairly new concept and not known to wider audience, mainstream companies like IBM, CISCO, ARM to name few are heavily investing in building IoT networks, architecture and betting big on the "Next Big Thing" which will revolutionize world greater than what Internet did. For supply chain, from the manufacturer to the end user, the Internet of Things means richer data and deeper intelligence for all parties in a supply network. Supply Chain Management will continue utilizing these advanced technologies to improve factory workflow, increase material tracking, and optimize distribution to maximize revenues. In conclusion, IoT represents the next evolution of the Internet. Given that humans advance and evolve by turning data into information, knowledge, and wisdom, IoT has the potential to change the world as we know it today--for the better.
+17
+
+REFERENCES
+1. "The Internet of Things for Industrial Machinery and Components." The CEO Perspective. Web. 10 Oct. 2014 <http://www.sap.com/bin/sapcom/en_us/downloadasset.2014-10-oct10-16.the-ceo-perspective-the-internet-of-things-for-industrial-machinery-andcomponents-pdf.html>
+2. "A very short history of the Internet of Things."Gil Press. Forbes. Web. 18 Jun 2014 <http://www.forbes.com/sites/gilpress/2014/06/18/a-very-short-history-of-the-internet-ofthings/>
+3. "Warehouse Management Systems & Warehouse Control Systems in the Age of the Internet of Things." Steve Bank, SupplyChain247. Web. 05 Nov 2014 <http://www.supplychain247.com/article/warehouse_management_systems_warehouse_c ontrol_systems>
+4. "Learn about the Internet of Things." Web <http://www2.research.att.com/~pamela/iot.html>
+5. "How the Internet of Things Impacts Supply Chains." Udaya Shankar, Inbound Logistics. Web <http://www.inboundlogistics.com/cms/article/how-the-internet-of-things-impacts-supplychains/>
+6. "The rise of the machine data: Are you prepared?" IBM. Web. March 2014 <http://public.dhe.ibm.com/common/ssi/ecm/im/en/imm14142usen/IMM14142USEN.PD>
+7. "The Internet of Things: How the next evolution of the internet is changing everything", Dave Evans, CISCO White Paper, April 2011 <https://www.cisco.com/web/about/ac79/docs/innov/IoT_IBSG_0411FINAL.pdf>
+18
+
+8. "What the Internet of Things (IoT) needs to become a reality", freescale.com/arm.com White Paper, < http://www.freescale.com/webapp/sps/site/homepage.jsp?code=IOTINTERNET-OF-THINGS>
+9. "Designing for Manufacturing's Internet of Things", Cognizant, June 2014, <http://www.cognizant.com/InsightsWhitepapers/Designing-for-Manufacturings-Internetof-Things.pdf>
+10. "The impact of the Internet of Things on revenue in supply chains", Jurrien Wagenaar, University of Twente, Netherlands, <www.dinalog.nl/cms_file.php?fromDB=4073&forceDownload>
+19
+
+

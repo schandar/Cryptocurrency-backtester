@@ -1,0 +1,420 @@
+Hive Project Whitepaper
+June 2017 V2.0
+
+TABLE OF CONTENTS
+
+ABSTRACT
+
+3
+
+INTRODUCTION
+
+4
+
+CONCEPT
+
+4
+
+FINANCING CONSTRAINTS AND FACTORING
+
+5
+
+INVOICE VERIFICATION ISSUE
+
+6
+
+NON-TRANSPARENT AND OUTDATED FINANCIALS
+
+6
+
+FINANCIAL DATA FORMAT
+
+6
+
+CORE CALCULATIONS
+
+7
+
+Opportunity Qualification and Risk Assessment
+
+7
+
+Performance
+
+8
+
+Altman Z Score: Analysis
+
+8
+
+Industry Sector Calculation Formula
+
+9
+
+Risk Scoring Example
+
+9
+
+Enhanced Hive Risk Assessment
+
+10
+
+Using AI for Predictive Behavioral Credit Scoring
+
+11
+
+TECHNOLOGY
+
+12
+
+Smart Contracts
+
+14
+
+Smart Oracles
+
+14
+
+Additional Architectural Components
+
+15
+
+Smart Contract Structure & Lifecycle
+
+15
+
+Hive Ecosystem
+
+16
+
+Hive Process Model
+
+17
+
+PRODUCT ROADMAP
+
+18
+
+HIVE (HVN) TOKEN FUNCTIONALITY
+
+18
+
+REFERENCE
+
+19
+
+2
+
+Abstract
+With the emergence of blockchain technology and smart contracts, businesses no longer have to rely on centralized intermediaries when making transactions or obtaining financing. The level of transparency provided is not dependent on the integrity of the counterparty being dealt with--total integrity and immutability is guaranteed by the blockchain technology used in the system itself. The Hive platform lets businesses connect, encrypt and upload received and issued invoices, which can then be either traded and/or used to build a transparent financial track record. Existing market opportunity of invoice financing, audits and credit scoring is USD $ 3 trillion and it constantly growing.
+3
+
+Introduction
+Invoice financing is a general term used in asset based lending for products which allow companies to get finance for their slow-paying accounts receivable. Once a buyer receives goods, a buyer has 90­120 days to pay for them. But is there any way that the seller can get their funds faster? Well, this can be achieved by selling invoices to a factoring company. In exchange for immediate payment seller of the invoice pays interest rate to lender (buyer of the invoice) ­ factoring company. And factoring company collect final payment in 90120 days, profiting from the initial fee / interest rate. But why do companies need their invoices paid faster? For cash flow reasons. They need funds in order to buy materials, pay for the production of goods or even to pay their employees' salaries in order to continue operation and not wait sitting for 90-120 days until final payment. This is called invoice factoring.
+Invoice factoring is a form of invoice financing that allows companies to sell their accounts receivable to improve their working capital. This type of financing provides business with immediate funds and liquidity they need for continuous operation. Factoring is easier to obtain than conventional financing because you are technically selling a liquid asset rather than getting a loan. The most important criterion to fulfil is that the invoices submitted are from creditworthy commercial clients. This makes factoring the perfect solution for SMEs that do not have substantial assets or a long credit history.
+Invoice financing can be structured in a number of ways, most commonly factoring or discounting. With factoring, the company sells its outstanding invoices to a lender, who might pay the company 70% to 95% of what the invoices are worth, up front. Assuming the lender receives full payment for the invoices, it will then remit the remaining 5% to 30% of the invoice amounts to the business.
+This whole process involves a lot of manual work. It involves manually checking if invoices were submitted to creditworthy commercial clients, if those clients agree with factoring of the invoice, if they confirm that goods or services were are really delivered, etc. And all of this needs to be confirmed by written and signed agreements. This whole process is costly and time consuming which prevents SMEs to utilize factoring for smaller amounts. Also some of the bigger clines (for example food stores and chains) by default disallow transfer of invoices to 3rd parties in order to reduce their manual work increase and to reduce risk of paying into wrong account.
+And this is precisely the gap that the HIVE Project is looking to fill. Through HIVE, an entirely new market is opened up which provides liquidity to SMEs that are not able to get invoice factoring from traditional institutions. Put simply, it's a game changer for the industry.
+Concept
+Hive (HVN) uses Ethereum blockchain (distributed ledger) technology and smart contract to assign a unique fingerprint to every invoice issued by tokenizing invoices and publishing them on blockchain. This makes it possible for businesses to automate their invoicing process and take advantage of factoring services. Hive serves as a decentralized data room for all invoices submitted, each of which has a unique record for the
+4
+
+issuer, owner and payer. These invoices can therefore be made available as a shared source of liquidity for factoring and invoice financing. Furthermore, businesses can take advantage of the cryptographically secure nature of the Hive blockchain network to upload all of their financial documentation. Access to detailed financial data about a specific company or invoice can be granted only by the company itself or the recipient of the invoice. This enables real time auditing to be conducted, improves the credit scoring process, expedites credit approvals, etc.
+Hive is an end-to-end platform that will give SMEs easy access to short-term financing by turning their accounts receivables into tradable assets. This is achieved by tokenizing and publishing each invoice to s blockchain in a secure matter, creating a whole new source of financing in the process. A new meta-market will be created, where factoring firm, banks, investment funds, insurance companies, P2P lenders and private investors can provide liquidity in accordance with their specific criteria and expected returns.
+Apart from the network itself, a micro-factoring pool will be created which enables SMEs to gain immediate access to liquidity by selling their invoices to the fund. A proven risk algorithm enhanced with proprietary blockchain algorithmic credit scoring will be used to perform checks on the company's financial status for the claim selection process. The risk algorithm used scores each company on the basis of its financial and transactional history as well as other blockchain parameters. Those companies with a healthy credit history will earn benefits, and incentives are available when they choose to store their financials securely on the block chain. Algorithm is based on companies XBRL data and risk scoring results.
+Financing Constraints and Factoring
+SMEs have limited access to short-term (working capital) financing, as banks demand significant collateral and large amounts of documentation when approving finance. It is this huge funding gap for small and medium-sized enterprises worldwide which has fuelled the global factoring industry's growth of 10% per annum. Current estimated invoice factoring market is estimated to be US $ 3 trillion opportunity.
+In 2014, global factoring surpassed EUR 2.35 trillion in annual volume, an increase of 6% over 2013. Since the start of the financial crisis in 2009, factoring in the United States and the rest of the world has been growing at a rate of 11% and 24% per annum respectively, adding over one trillion euros in annual factoring volume. The industry practically doubled in size during this period, a substantial feat considering the modern era of factoring began only a century ago.
+SMEs are at a clear disadvantage when dealing with a capital market in terms of credit rationing and finance gaps. These gaps in financing have driven the need for alternative sources of financing, such as factoring, even though service providers may charge up to 10% of the receivables as commission. Rates generally range from 1.5% to 4.5% for 30 days and up to 6% for 60 days. This of course all depends on the interest rate environment, debtor rating and the industry concerned. However, when applying a 3% fee to a factoring industry valued at USD 3 trillion and rising, global factoring revenues would come to approx. USD 70 billion per annum.
+5
+
+Invoice Verification Issue
+Invoice verification is a crucial tool for preventing fraud in factoring transactions. As well as making the factoring process more secure, it also speeds up the payment process. A contractor or supplier can commit fraud by knowingly submitting false, inflated or duplicate invoices with the intent to defraud, either acting alone or in collusion with contracting personnel as the result of corruption. Invoice verification is an important part of the factoring process and demands time and resources for the factoring firm. Verification of correctness of submitted invoices includes many steps such as: confirmation that invoiced services were delivered as claimed, an inspection and confirmation that the quantity and quality of the invoiced goods were delivered as claimed, an inspection of the works and materials to confirm that they met the specifications as invoiced, etc. Hive blockchain implementation with ERP connectors enable automation of all processes involved in checking validity of submitted invoices. History of submitted invoices on public blockchain enable surther automated assessment of validity and associated risk.
+Non-Transparent and Outdated Financials
+There is no real incentive for companies to reveal their live financials to the public. It is common place for the financial reports posted for smaller companies to be outdated by over a half a year and they do not really reveal enough quality data to obtain an accurate appraisal of the company's financial health. With Hive, this data is all factored into the risk premium when the creditor assesses the term sheet for financing (maturity, interest rate, annuity, collateral required, etc.).
+Financial Data Format
+We are planning to use XBRL for presenting financial data before tokenization happens. XBRL is the open international standard for digital business reporting. XBRL is used around the world, in more than 50 countries. Millions of XBRL documents are created every year, replacing older, paper-based reports with more useful, more effective and more accurate digital versions.
+In a nutshell, XBRL provides a language in which reporting terms can be authoritatively defined. Those terms can then be used to uniquely represent the contents of financial statements or other kinds of compliance, performance and business reports. XBRL lets reporting information move accurately and tokenized to the blockchain.
+XBRL is often called "bar codes for reporting", it makes reporting more accurate and more efficient. It allows unique tags to be associated with reported facts, allowing:
+· companies publishing reports to do so with confidence that the information contained in them can be consumed and analyzed accurately
+· lenders consuming reports to analyze the potential investment opportunities
+6
+
+· companies consuming the information to do so confident that the data provided to them conforms to a set of sophisticated pre-defined definitions
+Comprehensive definitions and accurate data tags allow the:
+· preparation · validation · publication · exchange · consumption; and · risk and performance analysis
+of business information.
+To enable the exchange of summary business reports, like financial statements, and risk and performance reports, XBRL has the capability to allow the tagging of transactions that can themselves be aggregated into XBRL reports. These transactional capabilities allow system-independent exchange and analysis of significant quantities of supporting data and can be the key to transforming financial reporting.
+Core Calculations
+Hive platform uses two core calculations for helping investor in evaluating investment opportunity. These two calculations are:
+1. Opportunity Qualification and Risk Assessment 2. Predictive Behavior Credit Scoring with Artificial Intelligence
+Opportunity Qualification and Risk Assessment In order to provide lender with risk factoring information we are using Altman Z-score calculation formula. The Altman Z-score is the output of a credit-strength test that gauges a publicly traded manufacturing company's likelihood of bankruptcy. The Altman Z-score is based on five financial ratios that can be calculated from data found on a company's annual 10K report. It uses profitability, leverage, liquidity, solvency and activity to predict whether a company has a high degree of probability of being insolvent.
+The original formula is as follows:
+ -  = 1.2! + 1.4! + 3.3! + 0.6! + 0.999!
+Where we have: ! ­ Working capital / total assets ! ­ Retained earnings / total assets ! ­ Earnings before interests and taxes / total assets ! ­ Market value of equity / total liabilities ! ­ Sales / total assets
+7
+
+New York University Stern Finance Professor Edward Altman, published the Altman Z-score formula in 1968. Addition to that in 2012, Altman released an updated version called the Altman Z-score Plus that can be used to evaluate public and private companies, manufacturing and nonmanufacturing companies, and U.S. and non-U.S. companies. We are using Altman Z-score Plus formula evaluate corporate credit risk.
+Performance
+In 2007, the credit ratings of specific asset-related securities had been rated higher than they should have been. The Altman Z-score indicated that the companies' risks were increasing significantly and may have been heading for bankruptcy.
+Altman calculated that the median Altman Z-score of companies in 2007 was 1.81. These companies' credit ratings were equivalent to B. This indicated that 50% of the firms should have been rated lower, and they were highly distressed and had a high probability of becoming bankrupt.
+Altman's calculations led him to believe that a crisis would occur and there would be a meltdown in the credit market. Altman believed the crisis would stem from corporate defaults, but the meltdown began with mortgage-backed securities (MBS). However, corporations soon defaulted in 2009 at the second-highest rate in history.
+Altman Z Score: Analysis
+In general analysis, the lower the Z-Score, the higher risk of bankruptcy a company has, and vice visa. Different models have different overall predictability scoring. Probabilities of bankruptcy in the above ranges are 95% for one year and 70% within two years.
+
+1. Original Z-Score for public manufacturing companies:
+
+Z-Score Above 3.0 1.8 to 3.0 Below 1.8
+
+Forecast Bankruptcy is not likely Bankruptcy can not be predicted-Gray area Bankruptcy is likely
+
+2. Model A Z-Score for private manufacturing companies:
+
+Z-Score Above 2.9 1.23 to 2.9 Below 1.23
+
+Forecast Bankruptcy is not likely Bankruptcy cannot be predicted-Gray area Bankruptcy is likely
+
+3. Model B Z-Score for private general companies:
+
+Z-Score Above 2.60 1.10 to 2.60 Below 1.10
+
+Forecast Bankruptcy is not likely Bankruptcy cannot be predicted-Gray area Bankruptcy is likely
+
+8
+
+Industry Sector Calculation Formula
+Additionally to original model that is good for manufacturing sector we are using following models for respective industry sectors:
+1. Model A Z-Score for private manufacturing companies: this model substitutes the book values of equity for the Market value in X4 compared to original model.
+ - !"#$% ! = 0.717! + 0.847! + 3.107! + 0.420! + 0.998!
+2. Model B Z-Score for private general companies: this model analyzed the characteristics and accuracy of a model without X5 ­ sales/total assets.
+ - !"#$% ! = 6.56! + 3.26! + 6.72! + 1.05!
+Risk Scoring Example
+When analyzing the Z-Score of a company, it is important to analyze the trend over time. In the case of Borders, the steady decline should have been a warning sign to investors.
+
+Example of Z-Score calculation:
+
+Financial Data ($ in millions)
+
+2006
+
+2007
+
+2008
+
+2009
+
+2010
+
+Sales Earning Before Interest and Taxes Current Assets Total Assets Current Liabilities
+
+4,080.0 173.0 1,640.0 2,570.0 1,310.0
+
+4,110.0 -137.0 1,720.0 2,610.0 1,600.0
+
+3,820.0 6.6 1,510.0 2,300.0 1,470.0
+
+3,820.0 -149.0 1,070.0 1,610.0 994.0
+
+2,820.0 -94.9 988.0 1,430.0 928.0
+
+Total Liabilities Retained Earning
+
+1,640.0 614.0
+
+1,970.0 438.0
+
+1,830.0 250.0
+
+1,350.0 63.8
+
+1,270.0 -45.6
+
+Market Value of Equity
+
+1,400.0
+
+1,004.0
+
+350.1
+
+33.1
+
+73.6
+
+9
+
+So after applying Atman Z-score calculation we are getting following:
+
+Z-score rating
+
+2006
+
+2007
+
+2008
+
+2009
+
+Working Capital / Total Assets
+
+0.13
+
+Retain Earning / Total Assets
+
+0.24
+
+Earning BIT / Total Assets
+
+0.07
+
+Market Value of Equity / Total Liability
+
+0.85
+
+Sales / Total Assets
+
+1.59
+
+0.05 0.17 -0.05 0.51 1.57
+
+0.02 0.11 0.00 0.19 1.66
+
+0.05 0.04 -0.09 0.02 2.04
+
+2010 0.04
+
+Z-score Weighting
+1.2
+
+-0.03
+
+1.4
+
+-0.07
+
+3.3
+
+0.06
+
+0.6
+
+1.97
+
+1.0
+
+Z-score
+
+2.81
+
+2.00
+
+1.96
+
+1.86
+
+1.79
+
+Source: Wikinvest.com
+
+So what these calculation shows is that company was in 2006 with score of 2.81 and that by 2010 company was in dangers zone. Eventually year later company bankrupt.
+
+Enhanced Hive Risk Assessment
+Hive is planning to include more data points sourced from our blockchain and by using training set and Machine Learning algorithms to improve risk calculation and assessment of the borrowers by finding more measuring points and related weights. Our formula includes companies score based on data available on the blockchain ­ defaulted invoices and delays on payment of the invoices also we are adding scoring of the buyers which is based on buyer defaults and delays in paying invoices. All these additional data is available through data collection in the Hive blockchain.
+
+ = ! + ! + ! + ! + ! + ! + !
+
+! ­ Working capital / total assets ! ­ Retained earnings / total assets ! ­ Earnings before interests and taxes / total assets ! ­ Market value of equity / total liabilities
+10
+
+! ­ Sales / total assets ! ­ Score of the company (defaults & delays in paying their invoices) ! ­ Score of company's buyers (all buyer's defaults & delays in paying their invoices)
+
+Using AI for Predictive Behavioral Credit Scoring By tracking data stored on blockchain without knowing issuer & debtor and applying artificial intelligence (AI) algorithm we can enable predictive behavioral credit scoring. This can be achieved by applying advanced statistical models on "big data" stored on blockchain. It could be fully anonymized and automated process enabling bulk financing of small value invoices. Credit scoring model is typically used in the decision-making process of accepting or rejecting invoice factoring. To perform binary classification we are going to use logistic function (Sigmoid):
+
+Were
+
+  = 1 + !!(!!!!)
+
+e = the natural logarithm base
+
+! = the x value of the sigmoid's midpoint
+L = the curve's maximum value
+
+K = the steepnes of the curve
+
+The standard logistic function is the function with parameters (k=1, !=0, L=1) which yields 1
+ = 1 + !!  !
+= 1 + !
+
+from where we get
+
+ (!! !!! !! !!!! !! )  = 1 + (!!!!!!!!!!!!!)
+Where following is:  ­ probability of default ! - regression coefficient of the exploratory factor ! - exploratory factor n ­ number of exploratory variables
+For each of the existing data points it is known whether the client has gone into default or not. Following diagram represents neural network diagram of Sigmoid unit for calculating predictive behavioral credit scoring
+
+11
+
+Neural Network to learn f: x->y Where
+F can be a non linear function X continues and/or discrete variable Y continues and/or discrete variable Neural network represent f by network of sigmoid units
+Technology
+The underlying inputs of the company financials are the invoices that are issued or received. With Hive, every invoice is tokenized and published to blockchain through automatic ERP connector. A blockchain is distributed database, which makes the creation of a digital ledger of invoices and share it among network nodes (computers). Blockchain uses cryptography to allow each participant on the network to manipulate ledger in a secure way without a need for central authority. Time stamping is a basic blockchain function that permanently register on the block the time that a particular action took place. The main advantages of building solution based on blockachain are:
+1. Transparency and consensus helps to reduce costs and eliminate document fraud. 2. The immutability and digital uniqueness inherent to blockchain technology ensures that values are
+transferred securely
+12
+
+3. Data privacy is ensured by utilizing tokenization as a form of cryptography, giving parties access only to the information they have been given rights to.
+4. Smart contracts ensure that the conditions agreed on between the parties are executed flawlessly.
+All these factors guarantee the full and irreversible traceability of the invoices submitted to the Hive network (ownership, due date, payment, counterparty, etc.), making them tradable assets. Once the Hive network has become established, the second stage in the development process will be devoted to setting up the liquidity pool, which will enable investors to benefit from short-term financing.
+Furthermore, Hive provides additional services for companies willing to make their business and financials more transparent such as: Company Credit Scoring and Automated Auditing. Financial items can be uploaded regularly to the Hive blockchain, with a time-stamped record of every transaction made. The company then decides how much information it is willing to expose to the counterparty, with the benefits including increased transparency and the eventual ability to expedite the credit scoring process as a result.
+Blockchain technology is set to revolutionize not only the invoice issuing process but also the financial services based on it, such as factoring. Today, companies record a debit and credit with each transaction-- two entries, hence the term "double-entry" accounting. They could easily add a third entry, the blockchain record, which is instantly accessible to those who need to see it: the company's shareholders, auditors or regulators. Effectively creating a "triple-entry" accounting. Imagine if a company that sells products, buys materials and pays for services, or accounts for assets and liabilities on its balance sheet, recorded every transaction and time-stamped it on a blockchain. These financial reports would be live, effectively a living ledger, and could be made available to interested third parties.
+Generating any up-to-the-minute financial statement would be straightforward, with the click of a button providing an immutable, complete and searchable financial statement, free of error. Companies might not want everyone seeing these numbers, and so may give access only to regulators, managers, and other key stakeholders. Although companies tend not to make all of their financials public, they would benefit from greater transparency, not only in terms of streamlining their finance department or lowering the cost of audits, but also with regard to how the market perceives their company. The first public company to have this system in place will see significant advantages in terms of their price per share or price to earnings ratio over other companies where investors have to wait for financial information provided on a quarterly basis. After all, investors would be far more inclined to invest in a company that shows you what is going on all the time rather than a company, which gives only periodic updates and this includes both vendors and buyers.
+With a shared public ledger, auditors and financiers such as factoring firms could have automated forms of analysis at their disposal to appraise the underlying health of a balance sheet, a powerful innovation that could automate aspects of the regulatory, audit and accounting processes. Moreover, such a tool would bring integrity to the system. All fraud would be much more difficult to carry out. A public ledger that is constantly audited and verified means there is no need to trust the counterparty's books; there is integrity in the statements or the transaction logs because the network itself verifies this. There is no need to rely on
+13
+
+PricewaterhouseCoopers, Deloitte or any other Big Four firm to confirm whether everything is in order. There is no counterparty risk. If the ledger says it is true, then it is true.
+Smart Contracts
+HIVE's underlying architecture is based on an Ethereum smart contract. As previously mentioned, this architecture yields full transparency of events along the supply chain, increased process efficiency, a reduced risk of fraud and dramatically lower costs.
+The HIVE smart contract design follows a modular contract structure, making it highly reusable and easy to upgrade. All of the modules will be written in Solidity.
+Exchanging information related to these events in a distributed ledger facilitates the trigger events that need to take place for the goods to arrive at their final destination, a service to be fulfilled and for the suppliers to receive payment. However, the block chain's ability to facilitate these trigger events does not end with the mere exchange of information along a supply chain. Smart contracts not only allow trigger events to take place, they ensure they are carried out automatically.
+A smart contract is a tokenized computer process that is stored on the block chain and automatically carries out predetermined functions once a triggering event has occurred.
+A smart contract can include multiple parties such as, for example, lenders, borrowers, buyers, sellers and others. Once tokenized, they cannot be altered. For example, if a smart contract is entered into between a lender and a seller, which indicates that both parties have agreed on the borrowing conditions, the smart contract will automatically disburse a payment event that requires action to be taken by the bank. The payment is automatically remitted once confirmation has been entered into the system. With a smart contract, legal terms and conditions are embedded in the computer code, which enables the automatic execution of functions defined by the contract itself.
+Since the contract will not allow for additional financing to be received for an invoice that has already been financed, this architecture also prevents duplicate invoice factoring. Invoice duplication has been a significant obstacle preventing invoice factoring solutions from being more readily available to SMEs, but the incorporation of block chain technology eliminates this issue.
+Smart Oracles
+Smart Oracles is off-chain data sources that smart contract is using to modify its behavior. We are going to use this concept in order to capture events around published invoice and beneficiaries. Smart Oracles contains all the information related to the invoice factoring deal including block signature. Smart Oracles is directing invoice smart contract to change/update beneficiaries contact info with lenders information.
+14
+
+Additional Architectural Components
+HIVE will also use the InterPlanetary File System (IPFS). IPFS allows static files to be stored in a distributed file system and uses distributed hash tables to distribute the files. HIVE uses the IPFS to store all static files and event meta data.
+All of the data stored on the blockchain is protected, and only those parties which are approved by the vendor will be able to view the data it has made available to be seen. Control over security is in the hands of vendors, with a full range of settings available. Only the core data for the invoices that the vendor wants financed will be available to be viewed by lenders.
+In order to compensate for the limitations of Ethereum and IPFS, both of which come without search capabilities, HIVE will develop a distributed, scalable on-chain search functionality which will be used to query invoice data and associated event descriptions.
+An example of possible data associated with each invoice:
+· Issuer (encrypted and accessible with private key) · Debtor (encrypted and accessible with private key) · Account & bank ID for payment (encrypted and accessible with private key)
+· Can be changed by current owner (except if owner is debtor - when confirming the invoice)
+· Amount & Currency (Can not be changed) · Due date (Can not be changed) · Status
+· Open (at time of creation) · Signed / Confirmed / Accepted (When Debtor confirms acceptance) · Locked (By Debtor at the time of payment, can not change ownership) · Closed (When full debt is paid by debtor and coin is back with him) · Can also include encrypted full invoice (pdf)
+Smart Contract Structure & Lifecycle
+The Hive smart contract lifecycle is presented on the figure below. This is just one of the possible scenarios for invoices that are published on blockchain.
+15
+
+Hive Ecosystem
+Different parties take different roles in the Hive network ecosystem. Following are the forms of participation:
+· Hive Administrator ­ can create, manage and disable Lender accounts. · Vendor ­ This is a user who is publishing his financial information on Hive blockchain in order to
+benefit from Hive services, such as invoice factoring, credit scoring and auditing. · Buyer ­ Uses Hive in order to stay informed to who invoice need to be paid. · Lender/Investor ­ are using Hive in search for new investment opportunities. They are able to see
+financial information published by vendor and also collected by Hive. They are also able to use tools provided by Hive and complete the transaction between vendor and themselves. Lender/Investor is able to purchase HVN tokens.
+16
+
+Platform Interaction Hive Invoice Factoring network will support three distinguish types of application layers. On the Vendor side we are providing ERP plugin application for various ERP systems. Second interaction module is Buyer module that enables invoice acceptance and notification of changes. The last one is Lender module that enables investors to search for available investment opportunities, assessment and collaboration tools.
+Hive Process Model Following figure shows in details communication flow between involved parties in Hive Invoice Factoring.
+17
+
+Product Roadmap
+Hive (HVN) Token Functionality
+A HVN token grants the token holder the right to claim right over invoices on the Hive platform and obtain credit scores for certain entities which have a sufficient financial track record on the Hive blockchain. When, for example, a factor who is financing SME wants to claim ownership of invoice they financed and by that bought, they will need to pay HVN tokens to Hive foundation. Also when Credit Scoring company or auditor will request access to private in data on the blockchain, HVN tokens will be used to pay for access to that data. Hive foundation will resell tokens back to the market and use funds for financing of development of infrastructure. Invoices are uploaded to the Ethereum blockchain regularly and at no cost by claim sellers looking for liquidity. A HVN token is therefore the entry point to the Hive network. If the funds raised during the Hive ICO exceed BTC 1,500, the token holders will have the value of their tokens backed by Hive's initial liquidity pool, which will selectively invest in invoices at a discount that is sufficient to enable a proper yield in risk-reward terms.
+18
+
+Reference
+http://www.investopedia.com/terms/m/multiple-discriminant-analysis.asp https://en.wikipedia.org/wiki/Altman_Z-score https://strategiccfo.com/z-score-model/
+https://en.wikibooks.org/wiki/Artificial_Neural_Networks/Activation_Functions
+https://en.wikipedia.org/wiki/Logistic_function#Neural_networks
+19
+
+

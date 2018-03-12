@@ -1,0 +1,248 @@
+W H I T E PA P E R
+
+VERSION 0.8 2018
+
+01
+
+Table of Contents
+Introduction .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 02 Signal Token (SGN). .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 04 Signals Platform.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 05
+Data Marketplace . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  05 Indicators Marketplace. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  06 Strategies Marketplace . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  07 Signals Strategy Builder. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  08 Live trading and mobile notification. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  10 Community Support.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 12 Roadmap .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 13 Milestone 1: Q2-Q4 2017 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  13 Milestone 2: Q1 2018. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  14 Milestone 3: Q2 2018. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  14 Milestone 4: Q3-Q4 2018 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  15 Milestone 5: Q1-Q2 2019 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  17 Milestone 6: Q3-Q4 2019 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  18 Token Sale. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20 SGN distribution process. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  20 SGN Allocation. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  21 SGN Pricing. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  21 Details on token presale and token sale phases . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  22
+02
+
+Introduction
+
+There has been an explosion of crypto assets in 2017, with trading volumes topping billions of dollars. Crypto offers many advantages for traders over traditional assets, in that they are decentralized, borderless and can be traded around the clock. While this opens the doors to practically everyone on the planet, it also poses great risks due to lack of regulation, liquidity and oversight. There are far too many stories of traders who lose it all because of mistakes or a shortage of emotional fortitude necessary to stick to their trading plan.
+With the advent of powerful computational technology, the financial sector and trading industry has been transformed through the replacement of traditional auction-to-computer transactions in the early 70's with algorithmic trading systems. Machines take emotions out of trading and make it into a pure numbers game, cutting through the noise of trading signals and processing huge data sets that a normal human never could. They also never sleep, running 24/7 once they have been properly set up. What's more, they can execute infinitely faster than a human, with decreases in lag time by microseconds leading to substantial profits.
+Pairing these two technologies is a perfect match. Blockchain tech and crypto are expected to continue their growth for the next decade, and traders should have great advantages when it comes to trading for a long time coming.
+Our mission is to empower crypto traders with state of the art algorithms from the data science community, which will allow them to optimize their profits. The Signals Platform provides these tools in a user-friendly way. From advanced charting and classic technical indicators to complex statistical models, crowd wisdom based inputs and machine learning algorithms based on media monitoring and sentiment analysis; the
+
+WHITEPAPER v. 0.8 Introduction
+
+02
+
+Signals Platform is a place where anybody can create fully customizable trading robots with no advanced technical knowledge required.
+
+WHITEPAPER v. 0.8 Introduction
+
+03
+
+Signal Token (SGN)
+The Signal Token will be an Ethereum blockchain based ERC 20 token. All paid features available on the Signals Platform will be accessible exclusively using Signal tokens. Signals' business model is based on two main revenue streams. First, Signals charges a fee on each purchase in the Signals marketplaces. This includes: · Purchases of user-created indicators in the Indicator Marketplace · Purchases of data streams in the Data Marketplace · Renting of user-made strategies for copy trading in the Strategies Marketplace · Using premium machine learning features in order to assemble and train trading strategies. The second revenue stream comes from the Signals cloud solution for deploying strategies. A subscription model will be implemented, with several tiers to choose from based on the amount of strategies used.
+
+WHITEPAPER v. 0.8 Signal Token (SGN)
+
+04
+
+Signals Platform
+
+Algorithmic trading is pretty simple, in essence. First, you have to pick out a data set which serves as the very foundation for further analysis. You then need to choose the different types of indicators which act as the lens to view the data. Lastly, a strategy needs to be designed around the specified way of viewing the data to determine how you will trade it. All of these inputs eventually lead to a robust algorithmic trading strategy, ready to be deployed for testing and use.
+The Signals platform works this very same way in that we have several marketplaces, where data, indicators and strategy inputs can be chosen and then assembled into an automated trading strategy using the Signals Strategy Builder. The whole process can be completed using our visual building tool or in code, for those who know Python. We're designing the whole thing so anyone with a trading idea can design, make, backtest and deploy it in no time at all.
+In order to understand Signals, let's take a look at the different marketplaces, what they are made up of, and how they are used.
+Data Marketplace
+As the fundamental building block of any strategy, data is an essential part of creating powerful analytical tools. With Signals, users and external vendors are able to monetize their unique data sets in the Data Marketplace. These data sets include historical and current market data, social networks data from Facebook, Twitter and others, as well as other crypto related media and sites. Any type of data set can be uploaded to the Data Marketplace and priced accordingly. Integration of data crawlers that provide
+
+WHITEPAPER v. 0.8 Signals Platform
+
+05
+
+live data streams or API access for third-party data is quick and can be done seamlessly using the Signals Data API. Moreover, social network features, data science competitions and users interactions will be a key part of the Signals Platform.
+Indicators Marketplace
+Once a data set is selected, it then needs to be processed, calculated and displayed in an understandable manner. This can be done using simple indicators based on technical analysis, advanced data science indicators based on neural networks or even indicators based on prediction markets and crowd wisdom. We plan to include the following indicators in the Signals Platform:
+· Basic freemium indicators - Monitor the price of a crypto asset and send signals based on "if-then" conditions. We believe that a simple UI and the possibility to combine your basic strategy, such as `Stop Loss', together with other features of the Signals Platform such as the `Flash crash detection system' (more in the Strategy Builder section) would be a popular way to manage a crypto portfolio not only for experienced traders, but also for mainstream crypto exchange users.
+· Technical analysis indicators - This methodology consists of using statistics applied to historical data to find patterns and trends in the market. They are very important in combination with other methods. (See: Machine Learning for Signals Extraction section)
+· Sentiment analysis indicators - Using natural language processing, opinion mining (or sentiment analysis) based on media monitoring is becoming a standard tool for analysis. The Signals Platform provides sentiment analysis indicators together with data from social networks and cryptocurrency focused news. (See: Data Marketplace section)
+· Machine learning based indicators - Deep learning neural networks, support vector
+
+WHITEPAPER v. 0.8 Signals Platform
+
+06
+
+machines, or special neural network architectures which are designed for processing time series, such as LSTM recurrent neural networks
+· Crowd wisdom based indicators - In his essay, The Use of Knowledge in Society, economist Friedrich Hayek put forward that an economy is organic and prediction of it can be determined from surveying the masses. Trading related prediction markets work similarly -- they enable users to monetize their unique knowledge by buying and selling shares in the outcome of an event. If they predict the outcome correctly, they profit; otherwise, they lose their money. The current price of event outcome, based on a 1-100% probability, encapsulates and quantifies the knowledge of the crowd.
+· Blockchain monitoring indicators - The transparency of a blockchain allows for analysis to be conducted on the movement of every token, especially those held by major holders, otherwise known as "whales." When the distribution is not uniform and the majority of tokens are held by few holders, tools which monitor "whale" movements can show when major holders are buying or selling their holdings.
+· Github commit indicators - We will be able to provide traders with the ability to monitor Github commits and changes so that they can immediately see all updates on coins and tokens they hold and trade.
+· Custom indicators - For experienced developers and data scientists, the Signals Platform is an opportunity to monetize knowledge and skills by developing indicators which they can offer to others. These indicators can be used for free for backtesting historical data or for live trading. However, a subscription fee set by the owner of the indicator must be paid.
+Strategies Marketplace
+We believe that the best algo creators should be able to be rewarded for their work and with the Signals Strategies Marketplace. Using the Strategies Marketplace, devel-
+
+WHITEPAPER v. 0.8 Signals Platform
+
+07
+
+opers and traders can list their trade strategies for copy trading and offer it to other users. In this subscription based service, users will pay for receiving trading signals from a third-party bot, which can then be traded through the platform. For new users, this is the most simple to start automated trading. For each strategy, a report is generated, in which users can check the performance, level of risk and statistics of a given strategy before they decide to start copy trading.
+Third party bots integration Even though our mission is to provide the most user-friendly and flexible tool for creating trading robots on the market, there will always be plenty of other successful trading bots which will be created outside the Signals Platform and which can be integrated into our marketplace using our API's.
+This possibility would also be very beneficial for small data science teams, which are capable of designing great algorithms for trading but have no experience with mobile development or UX design. By monetizing their signals through the Signals Marketplace, they can easily approach new customers and offer them top class strategy and analytics.
+Signals Strategy Builder
+With data and indicators in hand, the next step is to piece them together and create a workable strategy for trading. The Signals Strategy Builder is an easy-to-use tool that will allow users to create their own trading strategy, even with no programming skills.
+There are two main components to each strategy ­ indicators and signals.
+Indicators are blocks of code selected from the Indicators Marketplace. Signals, on the other hand, are actions that are triggered in response to indicators. In the Signals Strategy Builder, users drag and drop the indicators from the Indicator Marketplace and then define the conditions of the indicators under which the signals should be triggered.
+
+WHITEPAPER v. 0.8 Signals Platform
+
+08
+
+The Signals Strategy Builder offers numerous features to enable the user to create optimal strategies and evaluate their performance before starting to use it for live trading. The following are some of the main features:
+· Advanced charting
+· Backtesting and training with genetic algorithms - The Signals Platform provides users with a set of data science tools and advanced optimization techniques based on machine learning and evolution algorithms.
+· Complex supercomputer experimentation - Machine learning based on historical data can be very demanding on CPUs. For this reason, Signals, in partnership with iExec, will connect to a worldwide decentralized supercomputer, where users can train their strategies and carry out computationally complex experiments.
+· Benchmarks and risk quantification reports based on historical data - Proper analytics and model benchmarks are crucial for successful risk management. When you create and test your model, we will automatically generate feedback on how successful your strategy would be with new data, assess your strategy using standard benchmarks, and analyze the risks and possible profits.
+· Adaptive strategies - Fixed strategies are not always the best choice for maximizing profits in the long term. Market trends constantly change and so should your strategies. By using advanced automated techniques such as walk-forward optimization, your strategies will continuously adapt to new circumstances on the market.
+· Machine learning for signal extraction - By using deep learning and other machine learning techniques, users can rule out subjectivity and find hidden patterns between selected indicators based on historical data.
+· Flash crash detection system - A deep drop of an asset's price followed by its quick recovery is a nightmare for any trader who sets up a stop-loss order. Many traders have lost money when they set up a stop-loss on a crypto exchange and a flash crash
+
+WHITEPAPER v. 0.8 Signals Platform
+
+09
+
+happens. Our service monitors all major crypto exchanges, and we offer a flash crash detection system that can be used by any trading strategy which is connected directly to a crypto exchange.
+· View and edit directly the code in the background - Although any strategy can be created in the Signals Strategy Builder, we've made it possible for experienced developers to display and edit the code which is generated in the background. Thus, we provide maximal flexibility for developers and data scientists, but at the same time, we make automated trading available for non-programmers.
+Live trading and mobile notification
+Connection to your crypto exchange account After your model is backtested on historical data and ready to use, you can connect it to your crypto exchange and start trading using our cloud based solution.
+Even though the security of our platform is our priority, we understand that providing access to your crypto exchange account via a cloud based service is a delicate issue for many users. That is why we will provide an open source desktop app that will be able to perform automated trading in the background. With this desktop solution, traders can be absolutely sure that the access token is stored and encrypted on their device and is used only for communication with their crypto-exchange account and never disclosed anywhere else.
+Mobile connection and alerts It is also possible to create an automated strategy that is meant not directly for trading but for receiving alerts and notifications. You can connect your trading bot to your smartphone using our app. Any time that your strategy identifies a trading opportunity, you will be informed and the final decision will be up to you.
+
+WHITEPAPER v. 0.8 Signals Platform
+
+10
+
+Our mobile app is especially useful together with media monitoring and sentiment analysis indicators. These kinds of data processing indicators are able to send you not only signals to buy or sell but also meta information about the data source which they processed. This enables you to easily create bots which will notify you when new trends appear so that you can keep up with the constantly changing environment of the crypto world.
+
+WHITEPAPER v. 0.8 Signals Platform
+
+11
+
+Community Support
+
+To bootstrap the Signals Platform community, 20% of Signals' tokens are reserved for users and early adopters. The Signals team will set up transparent competition rules in the form of smart contracts and the results of all competitions will be evaluated using publicly available data like strategy statistics or users' endorsement points.
+Indicators development competitions To offer the community enough algorithms in the Signals Strategy Builder, we want to support developers and data scientists by providing them with Signals tokens for the creation of powerful strategies.
+Strategy competitions The most successful strategies which are offered for copy trading to other traders will be selected based on publicly accessible statistics regarding the strategy's performance, risk-taking or other parameters.
+Data competitions Historical data, new crawlers or the most useful third-party integration -- each data source which is offered to the community contains public analytics about its usage. The most useful data sources will be periodically evaluated and supported with Signals tokens.
+User endorsement competitions Users which help others in the community by answering questions and sharing their knowledge can also endorse points based on positive reviews. This is the main metric which will be used to support active users on the Signals Platform.
+
+WHITEPAPER v. 0.8 Community Support
+
+12
+
+Roadmap
+
+The Signals roadmap is divided into six milestones between 2017-2019. Each milestone consists of a certain number of features that will be implemented. After each milestone, we will conduct extensive testing and auditing of the implemented features; therefore, we expect time gaps in between working on different milestones. We are working on multiple features simultaneously; nevertheless, the work on features from the upcoming milestone will begin only once the current milestone's features are completed and fully tested.
+Milestone 1: Q2-Q4 2017
+Features: Strategy Builder Framework private alpha, Strategy Builder UI Design, SGN Token Presale
+Strategy Builder Framework private alpha The first, already completed milestone is the foundation of the whole Signals Platform: the prototype of the Signals Strategy Builder Framework which will be upgraded in the upcoming milestones into an extremely useful tool for crypto traders. This modular enterprise framework has basic infrastructure for assembling different strategies by combining various technical indicators into trading signals. The strategies can subsequently be backtested on historical data, and the environment it is built upon will serve as a base for the Strategy Builder feature planned for the third milestone.
+Strategy Builder UI design The Strategy Builder UI has been designed to be incorporated into the future Signals Platform. It allows forming indicators into strategies in a visual interface, which is both
+
+WHITEPAPER v. 0.8 Roadmap
+
+13
+
+easy to use and complex enough to offer extensive possibilities of customization. While the UI is intuitive for anyone, developers can edit the code and change anything they like when it comes to building strategies or creating indicators.
+SGN Token Presale At the end of December 2017, we held our successful pre-sale and were able to raise $500,000. These funds were used to increase development of the platform and prepare the alpha version of the platform for release before the start of the ICO.
+Milestone 2: Q1 2018
+Features: Strategy Marketplace alpha, SGN Token Sale The second milestone, which is currently underway, consists of the main SGN Token Sale and an alpha version of the Strategy Marketplace. The fundraising phases are described in detail in section 5 of this whitepaper.
+Strategy Marketplace alpha Strategy Marketplace is one of the three main pillars of the Signals Platform. The alpha version will include a notification bot by Cryptofox.io and will serve as a base for future inclusion of default Signals strategies, third-party strategies and user-created strategies.
+Milestone 3: Q2 2018
+Features: Data Marketplace private alpha, Indicators Marketplace private alpha, Strategy Builder Framework update, Strategies Marketplace update The third milestone will be developed during the first half of 2018. By completing this milestone, we will introduce the last two of the three main pillars of the Signals Platform -- the Data and Indicators Marketplaces -- in a private version to be used by the
+
+WHITEPAPER v. 0.8 Roadmap
+
+14
+
+Signals development team. Furthermore, we will upgrade the Strategy Builder Framework with new tools and begin filling the Strategies Marketplace.
+Data Marketplace private alpha The Data Marketplace will be launched in a private alpha mode, serving as a base for the future full version which will enable users and external vendors to monetize their unique data sets by offering them for sale. The first step in this will be connecting to and storing data obtained from all main crypto exchanges, using exchange data crawlers with the purpose of filling the Data Marketplace.
+Indicators Marketplace private alpha Indicators Marketplace will be launched in its private alpha version, filled with technical indicators to be used in the creation of basic strategies.
+Strategy Builder Framework update The Strategy Builder Framework will be updated with new tools, which will enable the Signals developers to create more advanced strategies. The strategies in this version will be limited to sending notifications for Slack and Telegram via API, as opposed to actual trading orders, which will be implemented in Milestone 4.
+Strategies Marketplace update The Strategies Marketplace alpha will be opened to third-party integrations -- in other words, anyone will be able to build and offer their strategy. At this point, we'll start measuring strategy success and compare results across our platform.
+Milestone 4: Q3-Q4 2018
+Features: Strategy Builder alpha, Indicators Marketplace alpha, Data Marketplace public alpha, Desktop App alpha, Machine Learning strategy optimization, Integration of decentralized supercomputers
+
+WHITEPAPER v. 0.8 Roadmap
+
+15
+
+The completion of the fourth milestone will officially mark the full release in the public alpha version of Signals' three main pillars: Data, Indicators, and Strategies Marketplaces. Additionally, the desktop app will enable direct strategy trading, as well as simple notifications.
+Data Marketplace public alpha The Data Marketplace will be updated to public alpha, containing data from more exchanges and supporting public trading of third-party data. This will enable users and external vendors to monetize their unique datasets.
+Indicators Marketplace public alpha This version of Indicator Marketplace will be open to the public. Our machine learning powered indicators, wrapped as intuitive interface components, will be offered to crypto traders. We will also invite developers from the data science community to share their own algorithms and encapsulate them into visual components (so-called indicators).
+Cryptotraders will be able to buy indicators in the Indicators Marketplace and assemble their trading models in the Strategy Builder. This will establish a whole new dynamic in knowledge sharing between developers and crypto traders.
+Strategy Builder alpha The Signals Strategy Builder tool will be introduced in the form of a visual model builder, enabling the composition of indicators into trading signals. Advanced UI charting will be used to make the process simple and effective. The Strategy Builder will be able to generate performance and risk reports for a given strategy. There will also be a feature called "Idea Sharing" for generating images from charts and sharing trading strategies.
+Desktop app A desktop app for Windows and Mac will be introduced in its alpha version, and it will
+
+WHITEPAPER v. 0.8 Roadmap
+
+16
+
+enable live trading. Important parts of the app will be open-sourced, thus enabling users to verify that the sensitive information, such as access to crypto exchanges, is securely held on their computers and that it can be used only for authentication of trading orders.
+Machine Learning strategy optimization A better and a more precise way to optimize strategies according to historical data will be introduced, in the form of genetic algorithms. Values of parameters in a strategy, whose combinations are otherwise based on brute-force testing, will be precisely defined, therefore removing subjective influences and illogical choices from strategies.
+Integration of decentralized supercomputers Integrating supercomputers into the Signals Platform is an important step, enabling us to process large quantities of data in short time at an affordable price. These sophisticated computations are required for machine learning strategy optimization and strategy backtesting (and also for Signals Extraction - see Milestone 6).
+Milestone 5: Q1-Q2 2019
+Features: Indicators Marketplace beta, Strategy Marketplace beta, Strategy Builder update, Mobile app
+The fifth milestone will make public previously developed and tested beta version features. Any possible shortcomings revealed in alpha versions of Signals features will be fixed and new, powerful features will be added. Moreover, an app for Android and iOS will be created.
+Indicators Marketplace beta New indicators will be added to the Indicators Marketplace beta, particular indicators based on crowd wisdom inputs and indicators derived from blockchain monitoring.
+
+WHITEPAPER v. 0.8 Roadmap
+
+17
+
+Strategies Marketplace beta A new feature will be added to the Strategies Marketplace beta that will give users the ability to copy trade someone else's strategy for a fee or to offer their strategy up for copy trading.
+Strategy Builder update A new version of the Signals Strategy Builder will add a cloud-based live trading solution. Periodic security auditing to ensure and demonstrate the safety of a user's finances will be our top priority. We will add new, adaptive strategies with advanced automated techniques, such as walk-forward optimization to account for constantly changing market circumstances. In-place editing of the source code will be enabled for those who wish to use the abilities of the Signals Platform to an even greater extent.
+Mobile App A mobile app will be released for Android and iOS, enabling users to receive notifications and look through data anywhere. Users will be able to check strategy analytics, currency prices, and trades anywhere. The app will also offer media monitoring and sentiment analysis indicators, keeping users in touch with the latest developments in the crypto world.
+Milestone 6: Q3-Q4 2019
+Features: Strategy Builder update, 0X trading protocol, focus on Machine Learning
+The sixth milestone will bring with it the transfer of all the Signals pillars and features from beta to full version, thus completing our goal of giving the whole crypto community the ability to create advanced trading strategies without knowing a single line of code. We will also further enrich the strategy builder with new, AI-based possibilities of optimization and we will add support for the 0X trading protocol.
+
+WHITEPAPER v. 0.8 Roadmap
+
+18
+
+Strategy Builder update Deep learning methods will be added to the Strategy Builder alongside other advanced machine learning techniques, enabling users to find hidden patterns between any indicators based on historical data. These so-called Signals Extraction methods will give our users the possibility to use artificial neural networks to find non-linear relationships between indicators and buy/sell signals.
+0x Trading Protocol We will integrate the 0x trading protocol into Signals, as we strongly believe that the 0x project will help create decentralized exchanges.
+Focus on Machine Learning We will focus on the newest developments in Machine Learning (ML), using this knowledge to develop better indicators, optimize strategies towards better results and extract more precise signals. We plan to support ML research and contribute to it ourselves, using any new ML techniques available to deliver our users a more refined and optimized product.
+
+WHITEPAPER v. 0.8 Roadmap
+
+19
+
+Token Sale
+SGN distribution process
+The launch of Signals and the corresponding Signals token (SGN) creation process is based on the Ethereum blockchain (as described in the Signals token section of this whitepaper). The distribution process will consist of two phases: the token sale, and the token presale phase. The process began with its token presale phase, which started at 14:00 UTC on Wednesday, November 22, 2017. For more information on the two phases, see the Pricing and Details sections below. Participants willing to support Signals' token sale can do so by sending ETH to the designated address. Detailed instructions on how to participate in this process will be made available at https://signals.network before the start of the distribution process. By contributing, participants will receive SGN tokens at the prices detailed in the section below. SGN tokens received by contributors will be transferable immediately after the end of the Distribution Period.
+
+WHITEPAPER v. 0.8 Token Sale
+
+20
+
+SGN Allocation
+SGNs will be issued during the distribution period according to the following percentages. This is the final amount of tokens, and no further tokens can be issued. · 50% of the SGNs will be offered for sale to public contributors during the distribu-
+tion process. · 20% of the SGNs will be reserved for the community, as a reward for the develop-
+ers and data scientists. This is further described in the Community Support section of this whitepaper. · 18% of the SGNs will be allocated to the company reserve. This reserve will represent a source of the company's income and will be used to cover development and operation expenses. · 10% of the SGNs will be allocated to the advisors and partners collaborating on Signals platform. · 2% of the SGNs will be distributed via our Bounty Program as rewards for marketing initiatives, bug finding programs and advisory compensation.
+SGN Pricing
+SGN prices were nominated in ETH one day before the beginning of the token presale phase. The ETH price of SGN was calculated using the ETH/USD exchange rate at that moment, and the following prices pre-nominated in USD:
+Token presale phase price: · We successfully sold $500,000 worth of SGNs during this phase. · During the presale, there was a 30% discount on all SGNs, as compared to the price
+at the end of token sale phase.
+
+WHITEPAPER v. 0.8 Token Sale
+
+21
+
+· That amounts to 1,969,482 SGNs, priced at $0.253874 per SGN. · Minimum transaction amount in Ethereum is 0.1 ETH. Token sale phase price: · There will be a maximum of $18,000,000 worth of SGNs sold during this phase. · At the beginning of this phase, there will be a 15% discount on the first token sold,
+which will then gradually decrease, with the last token sold having no discount. · Minimum transaction amount in Ethereum is 0.1 ETH.
+Details on token presale and token sale phases
+SGNs will be offered for sale to public contributors during the whole distribution process, split between the two phases as follows: Token presale phase details: · Began at 14:00 UTC on Wednesday, November 22, 2017. · 1,969,482 SGNs were offered for sale during this phase. · There was a maximum fundraising cap of $500,000, which amounts to 1,969,482
+SGN with 30% price bonus. · The token presale phase was set to run for 30 days, or until the cap on fundraising
+is reached -- whichever happens earlier. · If there are unsold SGNs remaining after 30 days of token presale phase, they will
+be added to the token sale phase token pool. Token sale phase details: · The starting date of the token sale is Monday, March 12, 2018.
+
+WHITEPAPER v. 0.8 Token Sale
+
+22
+
+· There will be a maximum fundraising cap of $18,000,000 for this phase.
+· There will be a minimum cap of $2,000,000. If this is not reached, all investors in this phase will have the full amount of their contributions returned to them, minus the transaction cost (GAS).
+· Token sale phase ends either four weeks after its beginning or at the moment when the maximum cap is reached.
+· After the end of the token sale phase, if the minimum cap was reached, but not all SGNs were sold, the remaining unsold SGNs will be burned.
+
+WHITEPAPER v. 0.8 Token Sale
+
+23
+
+https://signals.network | team@signals.network 24
+
+

@@ -1,0 +1,504 @@
+Nxt Whitepaper
+Created by the Nxt community Revision 4 ­ Nxt v1.2.2 ­ July 12, 2014
+
+Abstract
+Bitcoin has proven that a peer-to-peer electronic cash system can indeed work and fulfill payments processing without requiring trust or a central mint. However, for an entire electronic economy to be based on a fully decentralized, peer-to-peer solution, it must be able to do the following: process transactions securely, quickly and efficiently, at the rate of thousands per hour or more; provide incentives for people to participate in securing the network; scale globally with a minimal resource footprint; offer a range of basic transaction types that launch cryptocurrencies past the core feature of a payment system alone; provide an agile architecture that facilitates the addition of new core features, and allows for the creation and deployment of advanced applications; and be able to run on a broad range of devices, including mobile ones. Nxt (pronounced "next") satisfies all these requirements.
+
+Contents
+
+1 Introduction and Overview
+
+2
+
+2 Core technologies
+
+4
+
+2.1 Proof of Stake . . . . . . . . . . . . . . . . . . . . . . . . . 4
+
+2.1.1 Nxt's Proof of Stake Model . . . . . . . . . . . . . . 4
+
+2.1.2 Contrast with Peercoin Proof of Stake . . . . . . . . 5
+
+2.2 Tokens . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+
+2.3 Network Nodes . . . . . . . . . . . . . . . . . . . . . . . . . 6
+
+2.4 Blocks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+
+2.4.1 Block Creation (Forging) . . . . . . . . . . . . . . . 8
+
+Base Target Value . . . . . . . . . . . . . . . . . . . 8
+
+Target Value . . . . . . . . . . . . . . . . . . . . . . 8
+
+Contributors include the following members of the http://nxtforum.org/ community: Alias, anon136, bluemeanie, Brangdon, ChuckOne, Come-from-Beyond, Daedelus, Damelon, devphp, doctorevil, Eadeqa, EMoneyru, Forkedchain, Fry, GBeirn, gs02xzz, Jean-Luc, jl777, joefox, kushti, l8orre, mczarnek, msin, mthcl, NCtrl, Pandaisftw, pouncer, QBTC, Rickyjames, salsacz, Sebastien256, ThomasVeil, VanBreuk, Wesleyh, and Zahlen. Sources were compiled, organized, and edited by joefox.
+
+1
+
+Cumulative Difficulty . . . . . . . . . . . . . . . . . 9 The Forging Algorithm . . . . . . . . . . . . . . . . 9 Balance leasing . . . . . . . . . . . . . . . . . . . . . 10 2.4.2 Accounts . . . . . . . . . . . . . . . . . . . . . . . . 10 Account Balance Properties . . . . . . . . . . . . . . 11 Wallet.dat . . . . . . . . . . . . . . . . . . . . . . . . 12 2.4.3 Transactions . . . . . . . . . . . . . . . . . . . . . . 12 Transaction Fees . . . . . . . . . . . . . . . . . . . . 12 Transaction Confirmations . . . . . . . . . . . . . . . 13 Transaction Deadlines . . . . . . . . . . . . . . . . . 13 Transaction Types . . . . . . . . . . . . . . . . . . . 13 Transaction Creation and Processing . . . . . . . . . 14 2.5 Cryptographic Foundations . . . . . . . . . . . . . . . . . . 15 2.5.1 Encryption Algorithm . . . . . . . . . . . . . . . . . 16
+
+3 Core Features
+
+17
+
+3.1 Advanced JavaScript client . . . . . . . . . . . . . . . . . . 17
+
+3.2 Agile architecture . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+3.3 Basic Payments . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+3.4 Alias System . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+3.5 Arbitrary Messages . . . . . . . . . . . . . . . . . . . . . . . 18
+
+3.6 Asset Exchange . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+3.7 Digital Goods Store . . . . . . . . . . . . . . . . . . . . . . 19
+
+3.8 Device Portability . . . . . . . . . . . . . . . . . . . . . . . 19
+
+4 Concerns
+
+19
+
+4.1 Proof of Stake Attacks . . . . . . . . . . . . . . . . . . . . . 19
+
+4.1.1 Nothing at Stake . . . . . . . . . . . . . . . . . . . . 19
+
+4.1.2 History Attack . . . . . . . . . . . . . . . . . . . . . 20
+
+4.2 Distribution . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+
+4.3 Transaction Fees . . . . . . . . . . . . . . . . . . . . . . . . 21
+
+4.4 Whitepaper Timing . . . . . . . . . . . . . . . . . . . . . . 21
+
+5 Additional Nxt-related Papers and Resources
+
+21
+
+1 Introduction and Overview
+Nxt is a 100% proof-of-stake cryptocurrency, constructed from scratch in opensource Java1. Nxt's unique proof-of-stake algorithm does not depend on any implementation of the "coin age" concept used by other proof-of-stake cryptocurrencies, and is resistant to so-called "nothing at stake" attacks. A total quantity of 1 billion available tokens were distributed in the genesis block. Curve25519 cryptography is used to provide a balance of security and required processing power, along with more commonly-used SHA256 hashing algorithms. Blocks are generated every 60 seconds, on average, by accounts that are unlocked on network nodes. Since the full token supply already exists, Nxt is redistributed
+1Source code for Nxt is available at https://bitbucket.org/JeanLucPicard/nxt/src
+
+2
+
+through the inclusion of transaction fees which are awarded to an account when it successfully creates a block. This process is known as forging, and is akin to the "mining" concept employed by other cryptocurrencies. Transactions are deemed safe after 10 block confirmations, and Nxt's current architecture and block size cap allows for the processing of up to 367,200 transactions per day. Nxt transactions are based on a series of core transaction types that do not require any script processing or transaction input/output processing on the part of network nodes. These transaction primitives allow core support for:
+· a fully-decentralized asset exchange
+· alias creation, transfer and sale
+· storage of small, optionally-encryptable strings of data on the blockchain
+· a digital goods store
+· account control features
+By leveraging these primitive transaction types, Nxt's core can be seen as an agile, base-layer protocol upon which a limitless range of services, applications, and other currencies can be built. Ongoing Nxt development includes the implementation of a novel Transparent Forging feature which will allow a transaction processing capacity increase of two orders of magnitude using a deterministic block generation algorithm, coupled with additional network security mechanisms. The latest development roadmap2 also outlines the following short-term feature additions to the Nxt core:
+· a voting system
+· asset exchange dividend payments
+· a monetary system for facilitating the creation of new cryptocurrencies and associated services that are secured by the Nxt blockchain
+· atomic cross-chain trading, multi-signature transactions and escrow features
+· additional mechanisms for securing the Nxt blockchain, including penalties for accounts that do not behave as expected on the network3
+This version of the whitepaper documents features and algorithms that are implemented in Nxt as of version 1.2.2. Future revisions will be made to reflect additional planned features and algorithm changes.
+2The July 5, 2014 development update is located here: https://nxtforum.org/news-andannouncements/development-roadmap-update-2014-07-05
+3This feature is known as "Economic Clustering" and is in discussion here: https://nxtforum.org/news-and-announcements/economic-clustering/
+3
+
+2 Core technologies
+2.1 Proof of Stake
+In the traditional Proof of Work model used by most cryptocurrencies, network security is provided by peers doing "work". They deploy their resources (computation/processing time) to reconcile double-spending transactions, and to impose an extraordinary cost on those who would attempt to reverse transactions. Tokens are awarded to peers in exchange for work, with the frequency and amount varying with each cryptocurrency's operational parameters. This process is known as "mining". The frequency of block generation, which determines each cryptocurrency's available mining reward, is generally intended to stay constant. As a result, the difficulty of the required work for earning a reward must increase as the work capacity of the network increases.
+As a Proof of Work network becomes stronger, there is less incentive for an individual peer to support the network, because their potential reward is split among a greater number of peers. In search of profitability, miners keep adding resources in the form of specialized, proprietary hardware that requires significant capital investment and high ongoing energy demands. As time progresses, the network becomes more and more centralized as smaller peers (those who can do less work) drop out or combine their resources into "pools".
+Bitcoin's creator, Satoshi Nakamoto, intended for the bitcoin network to be fully decentralized[?], but nobody could have predicted that the incentives provided by Proof of Work systems would result in the centralization of the mining process. This leads to possible vulnerabilities[8]. The GHash.io4 bitcoin pool has reached 51% of the bitcoin mining power in the past[10], and the top five bitcoin mining pools make up 70% of the Bitcoin network's hashing power5. The concept of decentralization is at risk of being completely lost.
+In the Proof of Stake model used by Nxt, network security is governed by peers having a stake in the network. The incentives provided by this algorithm do not promote centralization in the same way that Proof of Work algorithms do, and data shows that the Nxt network has remained highly decentralized since its inception: a large (and growing) number of unique accounts are contributing blocks to the network6, and the top five accounts have generated 35% of the total number of blocks7.
+2.1.1 Nxt's Proof of Stake Model
+Nxt uses a system where each "coin" in an account can be thought of as a tiny mining rig. The more tokens that are held in the account, the greater the chance that account will earn the right to generate a block. The total
+4Located at https://ghash.io/ 5https://blockchain.info/pools as of July 8, 2014 6https://nxtforum.org/general/network-analysis/ 7https://nxtblocks.info/#section/blockexplorer_charts as of July 8, 2014
+4
+
+"reward" received as a result of block generation is the sum of the transaction fees located within the block. Nxt does not generate any new tokens as a result of block creation. Redistribution of Nxt takes place as a result of block generators receiving transaction fees, so the term "forging" (meaning in this context "to create a relationship or new conditions"8) is used instead of "mining".
+Subsequent blocks are generated based on verifiable, unique, and almost-unpredictable information from the preceding block. Blocks are linked by virtue of these connections, creating a chain of blocks (and transactions) that can be traced all the way back to the genesis block.
+Block generation time is targeted at 60 seconds, but variations in probabilities have resulted in an average block generation time of 80 seconds, with occasionally very long block intervals. An adjustment to the forging algorithm has been suggested by mthcl and modeled by Sebastien256 on NxtForum.org9.
+The security of the blockchain is always of concern in Proof of Stake systems. The following basic principles apply to Nxt's Proof of Stake algorithm:
+· A cumulative difficulty value is stored as a parameter in each block, and each subsequent block derives its new "difficulty" from the previous block's value. In case of ambiguity, the network achieves consensus by selecting the block or chain fragment with the highest cumulative difficulty. This is covered in more detail in 2.4.1 on page 8.
+· To prevent account holders from moving their stake from one account to another as a means of manipulating their probability of block generation, tokens must be stationary within an account for 1,440 blocks before they can contribute to the block generation process. Tokens that meet this criterion contribute to an account's effective balance, and this balance is used to determine forging probability.
+· To keep an attacker from generating a new chain all the way from the genesis block, the network only allows chain re-organization 720 blocks behind the current block height. Any block submitted at a height lower than this threshold is rejected. This moving threshold may be viewed as Nxt's only fixed checkpoint.
+· Due to the extremely low probability of any account taking control of the blockchain by generating its own chain of blocks, transactions are deemed safe once they are encoded into a block that is 10 blocks behind the current block height.
+
+2.1.2 Contrast with Peercoin Proof of Stake
+
+Peercoin uses a coin age parameter as part of its mining probability algorithm. In that system, the longer your Peercoins have been stationary in your account
+
+8Oxford English Dictionary. http://www.oxforddictionaries.com/us/definition/american_english/forge
+
+9Full forum thread:
+
+https://nxtforum.org/proof-of-stake-algorithm/basetarget-
+
+adjustment-algorithm/
+
+5
+
+(to a maximum of 90 days), the more power (coin age) they have to "mint" a block. The act of "minting" a block requires the consumption of coin age value, and the network determines consensus by selecting the chain with the largest total consumed coin age. When Peercoin blocks are orphaned, the consumed coin age is released back to the block's originating account. As a result, the cost to attack the Peercoin network is low, since attackers can keep attempting to generate blocks (referred to as grinding stake) until they succeed. Peercoin minimizes these and other risks by centrally broadcasting blockchain checkpoints several times a day, to "freeze" the blockchain and lock in transactions[11]. Nxt does not use coin age as part of its forging algorithm. An account's "chance" to forge a block depends only on its effective balance (which is a property of each account), the time since the last block (which is shared by all forging accounts) and the base target value (which is also shared by all accounts).
+2.2 Tokens
+The total supply of Nxt is 1 billion tokens, divisible to eight decimal places. All tokens were issued with the creation of the genesis block (the first block in the Nxt blockchain), leaving the genesis account10 with an initial negative balance of 1 billion Nxt. The existence of anti-tokens in the genesis account has a couple of interesting side effects:
+· the genesis account cannot issue transactions of any kind, since its balance is negative and it cannot pay transaction fees. As a result, the private passphrase for the genesis account is free for anyone to use11.
+· any tokens sent to the genesis account are effectively destroyed, since that account's negative balance will cancel them out. Several thousand Nxt tokens have been burned in this manner.
+· Nxt assets may also be burned by transferring them to the genesis account.
+The choice of the word tokens is intentional due to Nxt's intention to be used as a base protocol that provides numerous other functions. Nxt's most basic function is one of a traditional payment system, but it was designed to do far more.
+2.3 Network Nodes
+A node on the Nxt network is any device that is contributing transaction or block data to the network. Any device running the Nxt software is seen as a node.
+10The genesis account address is NXT-MRCC-2YLS-8M54-3CMAJ 11Access the genesis account by using the passphrase "It was a bright cold day in April, and the clocks were striking thirteen."
+6
+
+Nodes can be subdivided into two types: hallmarked and normal. A hallmarked node is simply a node that is tagged with an encrypted token derived from an account's private key; this token can be decoded to reveal a specific Nxt account address and balance that are associated with a node. The act of placing a hallmark on a node adds a level of accountability and trust, so hallmarked nodes are more trusted than non-hallmarked nodes on the network. The larger the balance of an account tied to a hallmarked node, the more trust is given to that node. While an attacker might wish to hallmark a node in order to gain trustworthiness within the network and then use that trust for malicious purposes; the barrier to entry (cost of Nxt required to build adequate trust) discourages such abuse. Each node on the Nxt network has the ability to process and broadcast both transactions and block information. Blocks are validated as they are received from other nodes12, and in cases where block validation fails, nodes may be "blacklisted" temporarily to prevent the propagation of invalid block data. Each node features built-in DDOS (Distributed Denial of Services) defence mechanisms which restrict the number of network requests from any peer to 30 per second.
+2.4 Blocks
+As in other cryptocurrencies, the ledger of Nxt transactions is built and stored in a linked series of blocks, known as a blockchain. This ledger provides a permanent record of transactions that have taken place, and also establishes the order in which transactions have occurred. A copy of the blockchain is kept on every node in the Nxt network, and every account that is unlocked on a node (by supplying that account's private key) has the ability to generate blocks, as long as at least one incoming transaction to the account has been confirmed 1440 times. Any account that meets these criteria is referred to as an active account. In Nxt, each block contains up to 255 transactions, all prefaced by a 192-byte header that contains identifying parameters. Each transaction in a block is represented by a maximum of 160 bytes, and the maximum block size is 32KB. All blocks contain the following parameters:
+· A block version, block height value, and block identifier
+· A block timestamp, expressed in seconds since the genesis block
+· The ID of the account that generated the block, as well as that account's public key
+12All possible block parameters are verified, including the effective balance of the block generator's account. This proves that the generating account actually contains the effective balance (stake) that won it the right to generate the block.
+7
+
+· The ID and hash of the previous block · The number of transactions stored in the block
+· The total amount of Nxt represented by transactions and fees in the block
+· Transaction data for all transactions included in the block, including their transaction IDs
+· The payload length of the block, and the hash value of the block payload
+· The block's generation signature
+· A signature for the entire block · The base target value and cumulative difficulty for the block13
+
+2.4.1 Block Creation (Forging)
+Three values are key to determining which account is eligible to generate a block, which account earns the right to generate a block, and which block is taken to be the authoritative one in times of conflict: base target value, target value and cumulative difficulty.
+
+Base Target Value In order to win the right to forge (generate) a block, all active Nxt accounts "compete" by attempting to generate a hash value that is lower than a given base target value. This base target value varies from block to block, and is derived from the previous block's base target value multiplied by the amount of time that was required to generate that block.
+
+Target Value Each account calculates its own target value, based on its current effective stake. This value is:
+
+where:
+
+T = Tb × S × Be
+
+T
+
+is the new target value
+
+Tb
+
+is the base target value
+
+S
+
+is the time since the last block, in seconds
+
+Be
+
+is the effective balance of the account
+
+13See 2.4.1 for an explanation of these parameters and how they are used.
+
+8
+
+As can be seen from the formula, the target value grows with each second that passes since the timestamp of the previous block. The maximum target value is 1.53722867 x 1017 and the minimum target value is one half of the previous block's base target value.
+This target value and the base target value are the same for all accounts attempting to forge on top of a specific block. The only account-specific parameter is the effective balance parameter.
+
+Cumulative Difficulty The cumulative difficulty value is derived from the base target value, using the formula:
+
+where:
+
+Dcb
+
+=
+
+Dpb
+
++
+
+264 Tb
+
+Dcb
+
+is the difficulty of the current block
+
+Dpb
+
+is the difficulty of the previous block
+
+Tb
+
+is the base target value for the current block
+
+The Forging Algorithm Each block on the chain has a generation signature parameter. To participate in the block forging process, an active account cryptographically signs the generation signature of the previous block with its own public key. This creates a 64-byte signature, which is then hashed using SHA256. The first 8 bytes of the resulting hash gives a number, referred to as the account's hit.
+The hit is compared to the current target value. If the computed hit is lower than the target, then the next block can be generated. As noted in the target value formula, the target value increases with each passing second. Even if there are only a few active accounts on the network, one of them will eventually generate a block because the target value will become very large. The corollary of this is that you can estimate the time that will be required for any account to forge a block by comparing that account's hit value to the target value.
+The last point is significant. Since any node can query the effective balance for any active account, it is possible to iterate through all active accounts in order to determine their individual hit value. This means it is possible to predict, with reasonable accuracy, which account will next win the right to forge a block. A shuffling attack could be mounted by moving stake to an account that will generate the next block, which is another reason why a Nxt stake must be stationary for 1440 blocks before it can contribute to forging (via the effective balance value). Interestingly, the new base target value for the next block cannot be reasonably predicted, so the nearly-deterministic process of determining who will forge the next block becomes increasingly stochastic as attempts are made to predict future blocks. This feature of the Nxt forging algorithm helps form
+
+9
+
+the basis for the development and implementation of the Transparent Forging algorithm. Since this algorithm has not yet completely been implemented, and because its implications on the Nxt network are significant, it will be outlined in a separate paper. For an in-depth analysis of the mathematics and probabilities related to Nxt block forging, see mthcl's paper, "The math of Nxt forging", which is located at http://www.docdroid.net/e29h/forging0-5-2.pdf.html When an active account wins the right to generate a block, it bundles up to 255 available, unconfirmed transactions into a new block, and populates the block with all of its required parameters. This block is then broadcast to the network as a candidate for the blockchain. The payload value, generating account, and all of the signatures on each block can be verified by all network nodes who receive it. In a situation where multiple blocks are generated, nodes will select the block with the highest cumulative difficulty value as the authoritative block. As block data is shared between peers, forks (non-authoritative chain fragments) are detected and dismantled by examining the chains' cumulative difficulty values stored in each fork.
+Balance leasing Since the ability for an account to forge is based on the effective balance parameter, it is possible to "loan" forging power from one account to another without giving up control of the tokens associated with the account. Using a transaction of the "account control" type, an account owner may temporarily reduce an account's effective balance to zero, adding it to the effective balance of another account. The targeted account's forging power is increased until the end of a time period specified by the original account owner, after which the effective balance is returned to the original account. Accounts with leased forging power generate blocks more often and earn more transaction fees, but those fees are not automatically returned to lease accounts. With a bit of coding, however, this system allows for the creation of nearlytrustless forging pools that can make payouts to participants. The most notable current implementation of this idea can be found at http://pool.nxtcrypto.org/
+2.4.2 Accounts
+Nxt implements a brain wallet as part of its design: all accounts are stored on the network, with private keys for each possible account address directly derived from each account's passphrase using a combination of SHA256 and Curve25519 operations. Each account is represented by a 64-bit number, and this number is expressed as an account address using a Reed-Solomon14 error-correcting notation that allows for detection of up to four errors in an account address, or correction of up to two errors. This format was implemented in response to concerns that
+14For more information: http://en.wikipedia.org/wiki/Reed­Solomon_error_correction
+10
+
+a mistyped account address could result in tokens, aliases, or assets being irreversibly transferred to erroneous destination accounts. Account addresses are always prefaced by "NXT-", making Nxt account addresses easily recognizable and distinguishable from address formats used by other cryptocurrencies. The Reed-Solomon-encoded account address associated with a secret passphrase is generated as follows:
+1. The secret passphrase is hashed with SHA256 to derive the account's private key.
+2. The private key is encrypted with Curve25519 to derive the account's public key.
+3. The public key is hashed with SHA256 to derive the account ID.
+4. The first 64 bits of the account ID are the visible account number.
+5. Reed-Solomon encoding of the visible account number, prefixed with "NXT", generates the account address.
+When an account is accessed by a secret passphrase for the very first time, it is not secured by a public key. When the first outgoing transaction from an account is made, the 256-bit public key derived from the passphrase is stored on the blockchain, and this secures the account. The address space for public keys (2256) is larger than the address space for account numbers (264), so there is no one-to-one mapping of passphrases to account numbers and collisions are possible. These collisions are detected and prevented in the following way: once a specific passphrase is used to access an account, and that account is secured by a 256-bit public key, no other public-private key pair is permitted to access that account number.
+Account Balance Properties For each Nxt account, several different types of balances are available. Each type serves a different purpose, and many of these values are checked as part of transaction validation and processing.
+· The effective balance of an account is used as the basis for an account's forging calculations15. An account's effective balance consists of all tokens that have been stationary in that account for 1440 blocks. In addition, the Account Leasing feature allows an account's effective balance to be assigned to another account for a temporary period.
+· The guaranteed balance of an account consists of all tokens that have been stationary in an account for 1440 blocks. Unlike the effective balance, this balance cannot be assigned to any other account.
+· The basic balance of an account accounts for all transactions that have had at least one confirmation.
+15See 2.4.1 on page 8 for more information on how this balance is used.
+11
+
+· The forged balance of an account shows the total quantity of Nxt that have been earned as a result of successfully forging blocks.
+· The unconfirmed balance of an account is the one that is displayed in Nxt clients. It represents the current balance of an account, minus the tokens involved in unconfirmed, sent transactions.
+· Guaranteed asset balances lists the guaranteed balances of all the assets associated with a specific account.
+· Unconfirmed asset balances lists the unconfirmed balances of all the assets associated with a specific account.
+Wallet.dat Bitcoin and related currencies often use an encrypted file, called a wallet, to store generated addresses for receiving tokens. The core design of Nxt does not mimic this functionality, but also does not preclude it. As has been demonstrated by the Offspring client16 and the online wallet service provided by nxtblocks.info17, it is possible for client developers to implement a system where a group of private keys for Nxt accounts are stored in an encrypted, offline file.
+2.4.3 Transactions
+Transactions are the only means Nxt accounts have of altering their state or balance. Each transaction performs only one function, the record of which is permanently stored on the network once that transaction has been included in a block.
+Transaction Fees Transaction fees are the primary mechanism through which Nxt are recirculated back into the network. Every transaction requires a minimum fee of 1 Nxt; currently, the only exception is the fee for issuing an asset on the Nxt Asset Exchange, which is 1000 Nxt. When a Nxt account forges a block, all of the transaction fees included in that block are awarded to the forging account as a reward. Until the size of all the transactions in a block exceeds the current 32 kilobyte block size limit, the minimum fee will be sufficient for all transactions to be included in blocks. In situations where the number of unconfirmed transactions exceeds the number that can be placed in a block, forging accounts will likely select transactions with the highest fees. This suggests that transaction processing may be prioritized by including a fee that is higher than the minimum.
+16Offspring was funded and created by the team behind DGEX, and can be found at http://offspring.dgex.com/
+17https://nxtblocks.info/#wallet/options
+12
+
+Transaction Confirmations All Nxt transactions are considered unconfirmed until they are included in a valid network block. Newly-created blocks are distributed to the network by the node (and associated account) that creates them, and a transaction that is included in a block is considered as having received one confirmation. As subsequent blocks are added to the existing blockchain, each additional block adds one more confirmation to the number of confirmations for a transaction. If a transaction is not included in a block before its deadline, it expires and is removed from the transaction pool.
+Transaction Deadlines Every transaction contains a deadline parameter, set to a number of minutes from the time the transaction is submitted to the network. The default deadline is 1440 minutes (24 hours). A transaction that has been broadcast to the network but has not been included in a block is referred to as an unconfirmed transaction. If a transaction has not been included in a block before the transaction deadline expires, the transaction is removed from the network. Transactions may be left unconfirmed because they are invalid or malformed, or because blocks are being filled will transactions that have offered to pay higher transaction fees. In the future, features such as multi-signature transactions may be able to take advantage of deadlines as a means of enforcing an expiry date.
+Transaction Types Categorizing Nxt transactions into types and subtypes allows for modular growth and development of the Nxt protocol without creating dependencies on other "base" functions. As features are added to the Nxt core, new transaction types and subtypes can be added to support them.
+The following five transaction types and associated subtypes are supported by Nxt. Each type dictates a given transaction's required and optional parameters, as well as its processing method.
+1. Payment: used for sending Nxt tokens from one account to another
+· Ordinary payment
+2. Messaging: used by messaging, alias, voting, and account info features
+· Arbitrary message · Alias assignment · Poll creation · Vote casting · Account info
+13
+
+3. Colored coins: an implementation of the colored coins concept[1], which enables the Nxt Asset Exchange
+· Asset issuance · Asset transfer · Ask order placement · Bid order placement · Ask order cancellation · Bid order cancellation
+4. Digital Goods: transactions that enable the Nxt Digital Goods store
+· Listing · Delisting · Price change · Quantity change · Purchase · Delivery · Feedback · Refund
+5. Account control : transactions that place limits on how accounts may or may not be used.
+· Effective balance leasing
+Transaction Creation and Processing The details of creating and processing a Nxt transaction are as follows:
+1. The sender specifies parameters for the transaction. Types of transactions vary18, and the desired type is specified at transaction creation, but several parameters must be specified for all transactions:
+· the private key for the sending account · a specified fee for the transaction · a deadline for the transaction · an optional referenced transaction
+18See 2.4.3 on the previous page
+14
+
+2. All values for the transaction inputs are checked. For example, mandatory parameters must be specified; fees cannot be less than or equal to zero; a transaction deadline cannot be less than one minute into the future; if a referenced transaction is specified, then the current transaction cannot be processed until the referenced transaction has been processed.
+3. If no exceptions are thrown as a result of parameter checking:
+(a) The public key for the generating account is computed using the supplied secret passphrase
+(b) Account information for the generating account is retrieved, and transaction parameters are further validated: · The sending account's balance cannot be zero · The sending account's unconfirmed balance19 must not be lower than the transaction amount plus the transaction fee
+4. If the sending account has sufficient funds for the transaction:
+(a) A new transaction is created, with a type and subtype value set to match the kind of transaction being made. All specified parameters are included. A unique transaction ID is generated with the creation of the object
+(b) The transaction is signed using the sending account's private key (c) The encrypted transaction data is placed within a message instruct-
+ing network peers to process the transaction (d) The transaction is broadcast to all peers on the network (e) The server responds with a result code:
+· the transaction ID, if the transaction creation was successful · an error code and error message if any of the parameter checks
+fail.
+2.5 Cryptographic Foundations
+Key exchange in Nxt is based on the Curve25519 algorithm, which generates a shared secret key using a fast, efficient, high-security elliptic-curve DiffieHellman function20. The algorithm was first demonstrated by Daniel J. Bernstein in 2006[14]. Nxt's Java-based implementations were reviewed by DoctorEvil in March, 2014[7].
+19This is defined as the account's current balance, minus amounts related to all unconfirmed, sent transactions. In general, this is the account balance that is displayed in real-time in a Nxt client interface.
+20For more information: http://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange
+15
+
+Message signing in Nxt is implemented using the Elliptic-Curve Korean Certificatebased Digital Signature Algorithm (EC-KCDSA), specified as part of IEEE P1363a by the KCDSA Task Force team in 199821. Both algorithms were chosen for their balance of speed and security for a key size of only 32 bytes.
+2.5.1 Encryption Algorithm
+When Alice sends an encrypted plaintext to Bob, she: 1. Calculates a shared secret: · shared_secret = Curve25519(Alice_private_key, Bob_public_key) 2. Calculates N seeds: · seedn = SHA256(seedn-1), where seed0 = SHA256(shared_secret) 3. Calculates N keys: · keyn = SHA256(Inv(seedn)), where Inv(X) is the inversion of all bits of X 4. Encrypts the plaintext: · ciphertext[n] = plaintext[n] XOR keyn
+Upon receipt Bob decrypts the ciphertext: 1. Calculates a shared secret: · shared_secret = Curve25519(Bob_private_key, Alice_public_key) 2. Calculates N seeds (this is identical to Alice's step): · seedn = SHA256(seedn-1), where seed0 = SHA256(shared_secret) 3. Calculates N keys (this is identical to Alice's step): · keyn = SHA256(Inv(seedn)), where Inv(X) is the inversion of all bits of X 4. Decrypts the ciphertext: · plaintext[n] = ciphertext[n] XOR keyn
+Note: If someone guesses part of the plaintext, he can decode some part of subsequent messages between Alice and Bob if they use the same key pairs. As a result, it's advised to generate a new pair of private/public keys for each communication.
+21For more information: http://grouper.ieee.org/groups/1363/P1363a/contributions/kcdsa1363.pdf
+16
+
+3 Core Features
+3.1 Advanced JavaScript client
+A second-generation, user-friendly client application22 is built into the Nxt core software distribution, and can be accessed through a local web browser. The client provides full support for all core Nxt features, implemented such that users' private keys are never exposed to the network. It also includes an advanced administrative interface23 and built-in javadoc documentation24 for Nxt's low-level Applications Programming Interface.
+3.2 Agile architecture
+First-generation cryptocurrencies were primarily designed as payment systems. Nxt recognizes that decentralized blockchains can enable a broad range of applications and services, but is not prescriptive about what those services should be or how they should be built. By design, Nxt strips away unnecessary complexity in its core, leaving only the most successful components of its predecessors intact. As a result, Nxt functions like a low-level, foundational protocol: it defines the interfaces and operations required to operate a lightweight blockchain, a decentralized communication system, and a rapid transaction processing framework, allowing higher-order components to build on those features. Transactions in Nxt make simple adjustments to account balances instead of tracing sets of "input" or "output" credits. In addition, the core software does not support any form of scripting language. By providing a set of basic, flexible transaction types that can quickly and easily be processed, Nxt creates a foundation that does not limit the ways in which those transaction types can be used, and does not create significant overhead for using them. This flexibility is further amplified by Nxt's low resource and energy requirements, and its highly readable, highly organized object-oriented source code25.
+3.3 Basic Payments
+The most fundamental feature of any cryptocurrency is the ability to transmit tokens from one account to another. This is Nxt's most fundamental transaction type, and it allows for basic payment functionality.
+3.4 Alias System
+The Nxt Alias System allows any string of text to be permanently associated with a specific Nxt account. Since its inception, a convention for the format
+22Accessible via local web browser at http://127.0.0.1:7876/ 23Accessible via local web browser at http://127.0.0.1:7876/admin.html 24Accessible via local web browser at http://127.0.0.1:7876/doc/ 25Source code for Nxt is available at https://bitbucket.org/JeanLucPicard/nxt/src
+17
+
+of these strings, using JSON26 notation, has been formalized. As a result, an "alias" can currently be "human-friendly" text alias for an account address or a Uniform Resource Identifier (URI)27. The ability to store any URI on the Nxt blockchain enables the creation of any number of decentralized services that rely on small, persistent strings of text, such as a distributed Domain Name Server (DNS) system. One example of a simple implementation of this concept is the browser extensions developed by wesleyh of http://nxtra.org/28
+3.5 Arbitrary Messages
+Arbitrary strings of data up to 1000 bytes in length can be stored on the Nxt blockchain using the Arbitrary Messages feature, and these strings may optionally be AES-encrypted29. These messages are intended to be removable, in the future, when blockchain size needs to be reduced; nonetheless, they form a critical building block for a number of next-generation features. At the basic level, the system can be used to transmit human-readable messages between accounts, creating a decentralized chat system. However, advanced applications can use this feature to store structured data, such as JSON objects, that can be used to trigger or facilitate services built on top of Nxt. The most notable current implementation is the Nxt Multigateway (MGW)30, part of the NXTServices layer, which employs the Arbitrary Messaging system to drive a nearly-trustless method for automatically transforming Bitcoin, Litecoin, and other cryptocurrencies into Nxt assets (based on the colored coins concept) that can be traded, bought, and sold on the fully-decentralized asset exchange.
+3.6 Asset Exchange
+An entire class of Nxt transactions is used to implement a fully-decentralized and automated asset exchange that operates on the Nxt blockchain. Using the colored coins concept, Nxt assets may be issued and tracked on the Nxt ecosystem, supported by transactions and processing that allow for asset transfer, bid and ask order placement, and automatic order matching. Since its inception, the Nxt Asset Exchange has been used for fundraising & IPO offerings, "tipping tokens", and the development of advanced services such as the Multigateway (MGW) system. By combining the features of the Nxt Asset Exchange with other features such as the Arbitrary Messaging System, value-added services can be created. Most notably, another feature of the NXTServices layer is a system for the automated
+26JavaScript Object Notation. See http://json.org/ 27For more information: http://en.wikipedia.org/wiki/Uniform_resource_identifier 28To download the extensions, go to: http://nxtra.org/alias/ 29For more information: http://en.wikipedia.org/wiki/Advanced_Encryption_Standard 30Development and testing of this feature is being tracked here: https://nxtforum.org/nxtservices-releases/
+18
+
+calculation and disbursement of dividends based on the performance of existing Nxt assets31.
+3.7 Digital Goods Store
+The Nxt Digital Goods store gives account owners the ability to list assets for sale in an open, decentralized market place. Goods can be purchased, discounted, delivered, refunded, and transferred, using a dedicated class of transaction types that manage and secure store listings on the decentralized blockchain.
+3.8 Device Portability
+Due to its cross-platform, Java-based roots, its Proof of Stake hashing and its future ability to reduce the size of the block chain, Nxt is extremely well suited for use on small, low-power, low-resource devices. Android and iPhone applications are currently in development, and the Nxt software has been ported to low-powered ARM devices such as the RaspberryPi32 and CubieTruck platforms. The ability to implement Nxt on low-powered, always-connected devices such as smartphones allows us to envision a scenario where the majority of the Nxt network is supported on mobile devices. The low cost and resource consumption of these devices significantly reduce network costs in comparison with traditional Proof of Work cryptocurrencies.
+
+4 Concerns
+
+4.1 Proof of Stake Attacks
+
+4.1.1 Nothing at Stake
+
+In a "nothing at stake" attack, forgers attempt to build blocks on top of every fork they see because doing so costs them almost nothing, and because ignoring any fork may mean losing out on the block rewards that would be earned if that fork were to become the chain with the largest cumulative difficulty.
+While this attack is theoretically possible, it is currently not practical. The Nxt network does not experience long blockchain forks, and the low block reward does not provide a strong profit incentive; further, compromising network security and trust for the sake of such small gains would make any victory pyrrhic.
+
+31Development and testing of this feature is being tracked https://nxtforum.org/nxtservices-releases/nxtservices_div-test-release-for-dividendcalculations-at-any-block/
+32See this guide for help installing Nxt on a Raspberry https://wiki.nxtcrypto.org/wiki/How-To:InstallNRSRaspberryPi
+
+here: Pi:
+
+19
+
+As part of Nxt's development roadmap33, a feature called Economic Clustering will provide further protection against attacks of this nature by forcing transactions to include hashes of previous blocks, and by grouping nodes into "clusters" that can detect unusual behavior on the network and impose penalties (in the form of temporary loss of the ability to forge).
+4.1.2 History Attack
+In a "history attack", someone acquires a large number of tokens, sells them, and then attempts to create a successful fork from just before the time when their tokens were sold or traded. If the attack fails, the attempt costs nothing because the tokens have already been sold or traded; if the attack succeeds, the attacker gets their tokens back. Extreme forms of this attack involve obtaining the private keys from old accounts and using them to build a successful chain right from the genesis block. In Nxt, the basic history attack generally fails because all stake must be stationary for 1440 blocks before it can be used for forging; moreover, the effective balance of the account that generates each block is verified as part of block validation. The extreme form of this attack generally fails because the Nxt blockchain cannot be re-organized more than 720 blocks behind the current block height. This limits the time frame in which a bad actor could mount this form of attack.
+4.2 Distribution
+Because blocks may only be generated based on existing stake, at least some of the token supply must be available when a Proof of Stake network is bootstrapped. As a result, Nxt issued and distributed its full supply of tokens with the creation of the genesis block. The initial supply of Nxt was distributed to 73 original stakeholders, most of whom have been incentivized to further disperse their stake through the use of giveaways, contests, and bounties. Eight months after its creation, Nxt's largest single account contains 5% of Nxt's total supply34. By contrast, Satoshi Nakamoto is thought to hold almost 9% of Bitcoin's total supply after more than five years of that network's existence[13]. It will never be possible for Nxt's proponents to dispel the distribution concerns raised by the wider community. Relative to the levels of profit achieved by early investors in IBM, Apple, Google, Facebook, and Bitcoin, the amount of inequality present in the Nxt blockchain is not out of line. Distribution of the available token supply is progressing and can be tracked at http://charts.nxtcrypto.org/cDistribution.aspx
+33The July 5, 2014 development update is located here: https://nxtforum.org/news-andannouncements/development-roadmap-update-2014-07-05
+34Nxt blockchain explorer at http://blocks.nxtcrypto.org/nxt/nxt.cgi?action=30&switch=1, as of July 8, 2014
+20
+
+When asked: "How would you solve the problem with scam accusations leveled against the `unfair' distribution of Nxt to 73 big stakeholders?", BCNext (Nxt's creator) answered: "This problem can not be solved. Even if we had a million stakeholders the [other] seven billion people would call this unfair. A world with the [sic] money can not be perfect."35
+4.3 Transaction Fees
+As the value of Nxt increases, the cost of minimum transactions fees, expressed in fiat terms, also increases. Plans are underway to reduce the minimum fee, scaled according to transaction byte-size, in order for micro-transactions to be practical. This will be implemented after changes to Nxt's internal database are made, and that development is planned for version 1.3.0 of the Nxt software.
+4.4 Whitepaper Timing
+Most cryptocurrency creators issue a whitepaper before their currency is bootstrapped. Nxt's first formal whitepaper was created for version 1.2.2 of the Nxt software, almost eight months after the creation of the genesis block. The core development team has always been of the opinion that Nxt's source code is its whitepaper: since Java is human-readable and the full source is available36, anyone is welcome to gain an understanding of Nxt's mechanics by examining the source. This whitepaper can be seen as a translation of key components of the Java source code into English, and it was created in order to make the design and function of Nxt more accessible to people who do not possess programming skills.
+5 Additional Nxt-related Papers and Resources
+· "The math of Nxt forging", by mthcl
+­ http://www.docdroid.net/e29h/forging0-5-2.pdf.html
+· "What are the economic parameters of Nxt?", by HassenBlasques
+­ https://docs.google.com/file/d/0BwAGADgnQcrtdXE5MkF5S05oaHM
+· "Nxt Network Energy and Cost Efficiency Analysis", by Matthew Czarnek and secondleo
+­ http://www.nxtcommunity.org/nxt/nxt/nxt-network-energy-and-costefficiency-analysis
+35https://bitcointalk.org/index.php?topic=345619.msg4383169#msg4383169 36Source code for Nxt is available at: https://bitbucket.org/JeanLucPicard/nxt/src
+21
+
+· "Nxt: A cybernetics perspective ­ Proof of X"
+­ https://mega.co.nz/#!yYwD2ArL!aaalNHwQ_RveCKM4Z1x9w0hRI4U6y6119PxQg2RRNA
+· "Why Nxt ought to be taken seriously", by anon136
+­ https://docs.google.com/document/d/1E_ToOMG2l1XThx6YnyXEajXaf6H1k2yjq8XkAF0ScB4
+· "Nxt Myths: What we should know about Nxt generation PoS cryptocurrency", managed by salsacz
+­ https://docs.google.com/file/d/0BwAGADgnQcrtM3g1cU1VSHZtTGM
+
+References
+
+[1] Bitcoin: a Peer-to-Peer Electronic Cash System. (n.d.). Retrieved July 06, 2014, from https://bitcoin.org/bitcoin.pdf
+
+[2] Bitcoin Is Broken. (n.d.). Retrieved July 06, 2014, from http://hackingdistributed.com/2013/11/04/bitcoin-is-broken/
+
+[3] Bitcoin Miners Ditch Ghash.io Pool Over Fears of 51% Attack. (n.d.). Retrieved July 06, 2014, from http://www.coindesk.com/bitcoin-minersditch-ghash-io-pool-51-attack/
+
+[4] Bitcoin needs to scale by a factor of 1000 to compete
+
+with Visa. Here's how to do it. (n.d.). Retrieved July
+
+06,
+
+2014,
+
+from http://www.washingtonpost.com/blogs/the-
+
+switch/wp/2013/11/12/bitcoin-needs-to-scale-by-a-factor-of-1000-to-
+
+compete-with-visa-heres-how-to-do-it/
+
+[5] Bitcoin security guarantee shattered by anonymous miner with 51% network power. (n.d.). Retrieved July 06, 2014, from http://arstechnica.com/security/2014/06/bitcoin-security-guaranteeshattered-by-anonymous-miner-with-51-network-power/
+
+[6] Cohen, R. (2013, November 28). Global Bitcoin Computing Power Now 256 Times Faster Than Top 500 Supercomputers, Combined! Retrieved July 06, 2014, from http://www.forbes.com/sites/reuvencohen/2013/11/28/globalbitcoin-computing-power-now-256-times-faster-than-top-500supercomputers-combined
+
+[7] Crypto Review of Curve25519.java & Crypto.java. (n.d.). Retrieved July 06, 2014, from https://gist.github.com/doctorevil/9521116
+
+[8] Eyal, I., & Gun Sirer, E. (2013). Majority is not Enough: Bitcoin Mining is Vulnerable. Unpublished manuscript. Retrieved July 06, 2014, from http://arxiv.org/pdf/1311.0243v5.pdf
+
+22
+
+[9] Learn Cryptography -- 51% Attack. (n.d.). Retrieved July 06, 2014, from http://learncryptography.com/51-attack/
+
+[10] Losing to win. (2014, June 23). Retrieved July 03, 2014, from http://www.economist.com/blogs/schumpeter/2014/06/bitcoin
+
+[11] Peercoin. (n.d.). Retrieved July 06, http://www.peercoin.net/whitepaper
+
+2014,
+
+from
+
+[12] Qin, W., & Zhou, N. (2010, 12). New concurrent digital signature scheme based on the computational Diffie-Hellman problem. The Journal of China Universities of Posts and Telecommunications, 17(6), 89-100. doi: 10.1016/S1005-8885(09)60530-6
+
+[13] The Well Deserved Fortune of Satoshi Nakamoto, Bitcoin creator, Visionary and Genius. (n.d.). Retrieved July 06, 2014, from http://bitslog.wordpress.com/2013/04/17/the-well-deserved-fortune-ofsatoshi-nakamoto/
+
+[14] Yung, M., Dodis, Y., Kiayias, A., Malkin, T., & Bernstein, D. J. (2006). Curve25519: New Diffie-Hellman Speed Records. Public Key Cryptography, 2006, 207-228. doi: 10.1007/11745853_14
+
+Appendix: Bitcoin Problems Addressed by Nxt
+Nxt was created as a "cryptocurrency 2.0" response to Bitcoin. Nxt adopts features that have proved to work well in Bitcoin, and addresses aspects that are cause for concern. This appendix addresses issues with the Bitcoin protocol and network that are mitigated by Nxt technology.
+Blockchain Size
+The Bitcoin blockchain is the complete sequential collection of generated data blocks containing the electronic ledger book for all Bitcoin transactions occurring since its launch in January 2009. Four years later in January 2013, the size of the Bitcoin blockchain stood at 4 gigabytes (GB) ­ about the amount of data required to store a two hour movie on a DVD disk. Eighteen months later, in July 2014, the size of the Bitcoin blockchain had swelled by almost a factor of five to 19 gigabytes (GB)37. The Bitcoin blockchain is undergoing exponential growth and modifications to the original Bitcoin protocol will be required to deal with it.
+37http://blockchain.info/charts
+
+23
+
+Nxt Solutions
+Nxt block size is currently capped at 32KB. Since its inception, almost 181,000 blocks have been generated38 and the blockchain takes up 390MB of space. In the future, Nxt will implement a Blockchain Pruning feature (still under discussion) that will reduce blockchain size by selectively removing information on permanent blocks, and by deleting other non-persistent data, such as Arbitrary Messages.
+Transactions per Day
+In late 2013, the number of transactions being processed on the Bitcoin network was peaking at 70,000 per day, which is about 0.8 transactions per second (tps). The current Bitcoin standard block size of one megabyte, generated every ten minutes (on average) by "full node" clients, limits the maximum capacity of the current Bitcoin network to a about 7 tps. Compare this with the VISA network's capacity to handle 10,000 tps and you will see that Bitcoin cannot compete as it exists today. Increasing public use of the Bitcoin system will cause Bitcoin to soon hit its transaction-per-day limit and halt further growth. To forestall this, Bitcoin software developers are working on the creation of "thin clients"39 that employ simplified payment verification (SPV)40. To handle greater throughput in the same 10-minute-average time, SPV thin clients will not perform a full security check on the larger blocks they process. They will instead examine multiple hashed blockchains from competing miners and assume that the blockchain version generated by the majority of miners is correct. In the words of Bitcoin's Mike Hearn, "Instead of verifying the entire contents, [SPV] just trusts that the majority of miners are honest. . . . As long as the majority is honest, [SPV] works. . . [However],the full node does give you better security. If you're running an online shop for example, it makes sense to run a full node."[4]
+Nxt Solutions
+In its current state, the Nxt network can process up to 367,200 transactions per day ­ more than nine times Bitcoin's current peak values. The planned implementation of Transparent Forging will allow for near instant transaction processing, drastically increasing this limit.
+Transaction Confirmation Time
+Transaction confirmation times for Bitcoin ranged from 5 to 10 minutes for most of 2013. After the late 2013 announcement that Chinese banks would not be
+38https://nxtblocks.info/#section/blockexplorer_blocks 39https://en.bitcoin.it/wiki/Thin_Client_Security 40https://en.bitcoin.it/wiki/Scalability#Simplified_payment_verification
+24
+
+allowed to process Bitcoins, the average Bitcoin transaction time significantly increased to 8 to 13 minutes, with occasional peaks of 19 minutes41. Confirmation times have since resettled in the 8 to 10 minute range. Nonetheless, since multiple verifications are required to finalize a Bitcoin transaction (six confirmations is generally preferred), one hour can easily pass before a sale of assets paid for by Bitcoin is complete.
+Nxt Solutions
+The average block generation time for Nxt has historically been shown to be about 80 seconds, putting the average transaction processing time at the same value. Transactions are deemed safe after ten confirmations, meaning that transactions are permanent in less than 14 minutes. The implementation of Transparent Forging will allow for nearly-instant transactions, which will further reduce this time.
+Centralization Concerns
+The increasing difficulty42 and combined network hashrate43 for Bitcoin has created a high barrier to entry for newcomers, and diminished returns for existing mining rigs. The block reward incentive employed by Bitcoin has driven the creation of large, single-owner installations of dedicated mining hardware44, as well as the reliance on a small set of large mining pools45. This has resulted in a "centralization" effect, where large amounts of mining power are concentrated in the control of a decreasing number of people. Not only does this create the kind of power structure that Bitcoin was designed to circumvent, but it also presents the real possibility that a single mining operation or pool could amass 51% of the network's total mining power46 and execute a 51% attack[9]. Attacks requiring as little as 25% of total network hashing power also exist[2]. In early January, 2014, GHash.io began voluntarily decreasing its own mining power because it was approaching the 51% level[3]. After a few days, the pool's mining power was reduced to 34% of the total network power, but the rate immediately began to increase again, and once more reached dangerous levels in June 2014[5].
+Nxt Solutions
+The incentives provided by Nxt's Proof of Stake algorithm provide a low Return on Investment of approximately 0.1%. Since no new coins are generated with
+41https://blockchain.info/charts/avg-confirmation-time 42https://blockchain.info/charts/difficulty 43https://blockchain.info/charts/hash-rate 44http://money.cnn.com/gallery/technology/2013/12/17/bitcoin-mine/index.html 45https://blockchain.info/pools 46For some historical statistics, see http://organofcorti.blogspot.ca/2014/06/166-fiftypercent-club.html
+25
+
+each block, there is no additional "mining reward" that incentivizes combining efforts to generate blocks. Data shows that the Nxt network has remained highly decentralized since its inception: a large (and growing) number of unique accounts are contributing blocks to the network47, and the top five accounts have generated 35% of the total number of blocks48.
+Proof of Work's Resource Costs
+Confirming transactions for existing Bitcoins, and creating new Bitcoins to go into circulation, requires enormous background computing power that must operate continuously. This computing power is provided by so-called "mining rigs" operated by "miners". Bitcoin miners compete among themselves to add the next transaction block to the overall Bitcoin blockchain. This is done by "hashing" - bundling all Bitcoin transactions occurring over the past ten minutes and trying to encrypt them into a block of data that also coincidentally has a certain number of consecutive zeros in it. Most trial blocks generated by a miner's hashing effort don't have this target number of zeros, so they make a slight change and try again. A billion attempts to find this "winning" block is called a gigahash, with a mining rig being rated by how many gigahashes it can perform in a second, denoted by GH/sec. A winning miner who is first to generate the next needle-in-a-haystack, cryptographically-correct Bitcoin block currently receives a reward of 25 newly-mined Bitcoins - a reward worth, at the time of this writing, around $15,750USD49. This competition among miners, with its hefty reward, repeats itself over and over and over every ten minutes or so. By early 2014 over 3500 bitcoins per day are generated, worth around $2.2 million US dollars per day.
+With so much money at stake, miners have supported a blistering arms race in mining rig technology to better their odds of winning. Originally Bitcoins were mined using the central processing unit (CPU) of a typical desktop computer. Then the specialized graphics processing unit (GPU) chips in high-end video cards were used to increase speeds. Field programmable gate array (FPGA) chips were pressed into service next, followed by mining rigs specialized application specific integrated circuits (ASIC) chips. ASIC technology is the top of the line for Bitcoin miners, but the arms race continues with various generations of ASIC chips now coming into service. The current generation of ASIC chips are the so-called 28nm units, based on the size of their microscopic transistors in nanometers. These are due to be replaced by 20nm ASIC units by late-2014. An example of an upcoming state-of-the-art mining rig would be a Butterfly Labs "Monarch" 28nm ASIC card, which is to provide 600GH/sec for an electricity consumption of 350 watts and a price of $2200USD50.
+The mining rig infrastructure currently in place to support ongoing Bitcoin
+47https://nxtforum.org/general/network-analysis/ 48https://nxtblocks.info/#section/blockexplorer_charts as of July 8, 2014 49As of July 5, 2014, bitcoinaverage.com places the price per bitcoin at around $630USD 50http://www.butterflylabs.com/monarch/
+26
+
+operations is astounding. Bitcoin ASICs are like autistic savants - they are able to do only the Bitcoin block calculation and nothing more, but they can do that one calculation at supercomputer speeds. In November 2013, Forbes magazine ran an article entitled, "Global Bitcoin Computing Power Now 256 Times Faster Than Top 500 Supercomputers, Combined!"[6]. In mid January 2014, statistics maintained at blockchain.info showed that ongoing support of Bitcoin operations required a continuous hash rate of around 18 million GH/sec. During the course of one day, that much hashing power produced 1.5 trillion trial blocks that were generated and rejected by Bitcoin miners looking for one the magic 144 blocks that would net them $2.2 million USD. Almost all Bitcoin computations do not go towards curing cancer by modeling DNA or to searching for radio signals from E.T.; instead, they are totally wasted computations.
+The power and cost involved in this wasteful background mining support of Bitcoin is enormous. If all Bitcoin mining rigs had "Monarch" levels of capability as described above - which they will not, until they are upgraded - they would represent a pool of 30,000 machines costing over $63 million USD and consuming over 10 megawatts of continuous power while running up an electricity bill of over $3.5 million USD per day51. The real numbers are significantly higher for the current, less-efficient mining rig pool of machines actually supporting Bitcoin today. And these numbers are currently headed upward in an exponential growth curve as Bitcoin marches from its current one transaction per second to its current maximum of seven transactions per second.
+
+Nxt Solutions
+Analysis of the cost and energy efficiency of the Nxt network shows that the entire Nxt ecosystem can be maintained for about $60,000USD per year, which is currently almost 2,200 times less expensive than the cost of running the Bitcoin network52.
+
+Proof of Work's Resource Costs Pertaining to Coinholders
+
+In addition to massive electrical costs, there is a hidden fee for simply holding Bitcoins. For each block found, the entity that generates the block receives a stipend. At the time of writing, this stipend is 25 BTC, producing 10% inflation in the total Bitcoin supply this year alone. For each $1000USD worth of Bitcoin someone owns, that person is paying $100USD per Bitcoin this year to "pay" miners for keeping the network secure.
+
+51http://blockchain.info/stats
+
+52Nxt
+
+Network
+
+Energy
+
+and
+
+Cost
+
+Efficiency
+
+Analysis
+
+­
+
+http://www.nxtcommunity.org/nxt/nxt/nxt-network-energy-and-cost-efficiency-analysis
+
+27
+
+Nxt Solution Since the complete supply of Nxt's 1 billion coins was created with the genesis block, there is no inflation in Nxt. Deflationary pressures are likely to affect Nxt in the future, and a planned feature called Antideflation (design in progress) will address that problem.
+28
+
+

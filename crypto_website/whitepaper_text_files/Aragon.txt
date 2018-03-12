@@ -1,0 +1,391 @@
+1
+
+CORBION WHITEPAPER SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+
+V1.1
+
+SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+Clarifying sustainability aspects around feedstock use for the production of bioplastics
+
+Julia Lovett - Corbion François de Bie - Corbion Version 1.1
+
+2
+
+CORBION WHITEPAPER SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+
+V1.1
+
+Contents
+Introduction: using renewable raw materials for the production of bioplastics.............................. 3 Sugar: today's most sustainable feedstock............................................................................................ 4
+Selecting the feedstocks with the highest yields..................................................................................4 Feedstock efficiency scores highly for PLA..............................................................................................5 Sustainable agricultural practices for growing feedstocks................................................................. 7 Corbion's Cane Sugar Code...........................................................................................................................8 Bonsucro........................................................................................................................................................... 8 GMO-free feedstocks..................................................................................................................................... 9 Land used for bioplastics does not compete with food......................................................................10 Alternative feedstocks for bioplastics....................................................................................................12 The benefits of using biobased plastics in consumer goods.............................................................13 Glossary..........................................................................................................................................................14 References.....................................................................................................................................................15
+
+© 2016 Corbion Group Netherlands B.V. Piet Heinkade 127, 1019 GM Amsterdam, the Netherlands www.corbion.com/bioplastics
+
+3
+
+CORBION WHITEPAPER SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+
+V1.1
+
+Introduction: using renewable raw
+materials for the production of bioplastics
+Historically, mankind has always relied upon natural grown resources to make higher added value products. Originating from nature, these grown resources - often referred to as renewable resources, biobased feedstocks or biomass - include a vast range of plants and trees, including some well-known agriculturally grown crops like cotton, rubber trees, sugarcane, corn and rapeseed, to name a few.
+
+Typical examples of biobased products ­ products originating from these renewable resources - include wooden furniture, cotton shirts, paper, medicine, etc., but also lesser known products such as glue for the cardboard industry, chemical binder in car tiresi and dextrin for firework production, all made from corn starch, as well as biobased plastic items like IT hardware made from sugarcane ii. The scale on which such biobased products are used for industrial purposes today is considerable: for example, it is estimated that about 5 million tons of starch are currently used by the world paper industry alone: that is about 1.5% starch by end-product weight including all grades of paper and paperboard iii. In 2015 in the EU alone, starch consumption was 9.3 million tons, of which 38% in non-food applications, primarily paper making iv. Looking at the total chemical industry - with global sales of $2,820 billion in 2012 - around 9%, or $252 billion, came from biobased chemicals according to a report by McKinsey & Co v.
+Biobased plastics and biobased chemicals offer an alternative solution to traditional, comparable products made from fossil oil and its derivatives. Biobased plastics and chemicals often offer sustainability benefits over their fossil-based counterparts, like a reduced CO2 footprint, reduced dependency on fossil resources and/or additional end-of-life options. Bioplastics can also offer improved product functionalities and performance in many cases, for example in 3D printing filaments vi.
+Today, bioplastics such as PLA (Poly Lactic Acid) are made from renewable, biobased carbohydrate-rich feedstocks like sugarcane, corn, sugar beet and cassava. In this paper some facts and figures related to these feedstocks, alongside some alternative feedstocks, will be presented. The selection and the subsequent sustainable sourcing of these feedstocks is driven by a number of sustainability aspects. In this paper, Corbion will share its views and vision related to the selection and sustainable sourcing of feedstocks for bioplastics.
+
+4
+
+CORBION WHITEPAPER SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+
+V1.1
+
+Sugar: today's most sustainable feedstock
+
+Raw sugar extracted from sugarcane or sugar beet, or dextrose from corn starch or cassava starch, are the main feedstocks used today to produce lactic acid and its derivatives. The raw sugar is usually sourced locally based on the most readily available feedstock for a particular global region. This, in turn, is based on agricultural factors such as climate and soil conditions, as not all feedstocks can be grown effectively in all regions. Thailand and Brazil boast excellent conditions for growing sugarcane, the USA is one of the global leaders in growing corn (maize), whilst Europe has excellent farmland for growing sugar beet. These feedstocks are often grouped under the term `sugar/starch based feedstocks'. Raw sugar is an unrefined version of sugar and as such is generally not suitable for human consumption. Refining raw sugar results in sucrose: also known as white sugar or table sugar.
+
+Selecting the feedstocks with the highest yields
+As our population and our demand on global resources increases, arable land could become scarce and it is therefore of utmost importance to use the most efficient crops available. Agricultural yields per hectare of arable land vary based on type of crop and region. As shown in Fig.1 below, sugarcane and sugar beet provide the highest carbohydrate yields per hectare of land used vii.
+
+Figure 1 Annual carbohydrate yield per hectare for di erent feedstocks
+
+Feedstocks Food crops
+
+corn global
+
+corn USA
+
+rice wheat wheat
+
+SEA
+
+EU
+
+NL
+
+corn NL
+
+sugar beet sugar beet
+
+EU
+
+NL
+
+sugarcane Brazil/Thailand
+
+sugarcane Brazil
+
+By-products/ residues of food crops
+
+palmfruit bunches
+
+wheatstraw EU
+corncobs USA
+
+bagasse Brazil
+
+Non-food crops (lignocellulosic)
+
+switch grass
+
+miscanthus NL
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+de Bie, 2012
+
+Bos et al. 2012
+
+Annual carbohydrate yield Ton/Ha
+
+Nova 2013, based on de Bie 2012 & Bos et al. 2012
+Corbion predominantly uses the highest yielding feedstocks regionally available: raw sugar from cane is used by our factories in Thailand and Brazil, dextrose from corn is used by our lactic acid
+
+5
+
+CORBION WHITEPAPER SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+
+V1.1
+
+production plant in USA and raw sugar from sugar beet is used by our factories in Spain and the Netherlands. In time of shortage, the plants can run on imported or other feedstocks; the factory in Thailand could, for example, also run on cassava starch. In addition to bioplastics production, the lactic acid produced in these factories is also used in food ingredients, biochemical ingredients and medical biomaterials.
+
+Feedstock efficiency scores highly for PLA
+In addition to crop yields, it is important to have an efficient conversion from raw sugar to product. The term `feedstock efficiency' as used here describes the conversion ratio of feedstock weight to final plastic polymer weight and is a combination of a theoretical efficiency (which differs per type of bioplastic) in combination with the production efficiencies. This means that different types of bioplastics, produced using different production processes, require different amounts of feedstock. In terms of feedstock efficiency, PLA is one of the most efficient biopolymers: yielding 1kg of PLA polymer for 1.6 kg of fermentable sugar feedstock. Other bioplastics can require 2.5 ­ 3 times more sugar feedstock to produce the same amount of plasticviii (see Fig. 2).
+Figure 2 Carbohydrate usage: kg sugar per kg plastic
+
+Bio PET Bio PE
+
+5.0 391
+4.0
+
+PLA
+
+1.6
+
+988
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+KGs sugar
+
+A number of institutes and universities have analyzed and combined crop yields with feedstock efficiencies for various biomaterials. See for example reports from IfBB ix and Wageningen University and Research Centre (WUR) x. Figure 3 compares a few of the possible options and shows that when land use is a concern, PLA made from sugar beet or sugarcane is an efficient choice xi.
+
+Figure 3 Land use per ton of biobased PLA, biobased PE and bioethanol
+from 5 crops valid for both current agricultural practice and if all residues/co-products are used
+
+ha/ton
+
+0.80 0.70 0.60 0.50 0.40 0.30 0.20 0.10 0.00
+
+maize
+
+wheat
+
+sugar beet sugar cane miscanthus
+
+PLA Bio PE Bioethanol
+
+Ultimately, feedstock efficiency has a positive impact on land use and, in addition, all environmental impacts related to agriculture are correlated with the amount of feedstock used.
+
+6
+
+CORBION WHITEPAPER SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+
+V1.1
+
+Corbion predominantly produces PLA bioplastic from raw sugar from cane in Thailand. Over the years, Corbion has significantly improved its internal process yields and is, as mentioned above, able to produce 1 kg of PLA using just 1.6 kg of raw sugar xii.
+
+7
+
+CORBION WHITEPAPER SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+
+V1.1
+
+Sustainable agricultural practices for growing feedstocks
+If the levels of consumption that the most affluent people enjoy today were replicated across even half of the roughly 9 billion people projected to be on the planet in 2050, the impact on our water supply, air quality, forests, climate, biological diversity, and human health would be severe .xiii In order, therefore, to produce biobased products in a responsible and sustainable way, for people today as well as for generations to come, companies should ensure that their feedstocks are grown using sustainable agricultural practices and that their supply chains are regulated in a sustainable way. A responsible and sustainable supply chain is essential for the communities in which we operate and should include the entire chain: from farmers to the companies that produce the final finished products used in daily life.
+Corbion's approach to a sustainable supply chain and responsible sourcing is founded on principles of ethical business practices, human and labor rights and environmental protection. Different crops and different geographical locations have different issues that could be considered critical, which is why it is important to examine aspects of sustainable sourcing on a local basis.
+For the production of bioplastics, Corbion's key agricultural material is raw sugar from cane that is grown in Thailand. To a lesser extent, Corbion also uses sugar beet grown in Europe as a feedstock for our plant in Spain.
+
+8
+
+CORBION WHITEPAPER SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+
+V1.1
+
+Corbion's Cane Sugar Code
+
+Corbion's Cane Sugar Code describes our expectations of our cane sugar suppliers to fulfill
+
+our responsible sourcing commitment. The code is based on the definitions for sustainable
+
+sugarcane and derived products as set out by Bonsucro. Bonsucro is a global, non-profit, multi-
+
+stakeholder organization founded by WWF in 2005
+
+to advance a more economically, environmentally,
+
+and socially responsible sugarcane sector.
+
+Corbion's Cane Sugar Code
+
+Corbion's code of conduct for cane sugar suppliers includes our general supplier code, which is applicable to all Corbion suppliers, as well as specific extensions directly related to sugarcane farming in Thailand and Brazil. Corbion's Supplier Code and the Cane Sugar Code are publicly available xiv.
+
+Focus areas:
+· Business ethics · Human rights & labor 
+conditions · Environment · Product quality & safety · Intellectual property · Land rights
+
+Corbion's Cane Sugar Code is applicable to all of our cane sugar suppliers.
+
+· Biodiversity · Good agricultural practices
+
+Corbion is a member of SEDEX. SEDEX provides tools to reinforce social and ethical business practices in global supply chains.
+
+Read more at: www.corbion.com/sourcing
+
+Bonsucro
+Bonsucro has around 400 members around the world, from farmers to sugar mills to ingredient manufacturers like Corbion, to retailers and brand owners. The organization brings together all the players in the supply chain; and through its unique metric-based certification scheme - The Bonsucro Production Standard ­ the organization is now laying down a clearly defined roadmap to help the industry improve. The Bonsucro Production Standard covers the following 5 key principles: obey the law, respect human rights and labor standards, manage input, production and processing efficiencies to enhance sustainability, actively manage biodiversity and ecosystem services and lastly, continuously improve key areas of the social, environmental and economic sustainability.
+In addition to complying with the Corbion Cane Sugar Code, Corbion requires all of its cane sugar suppliers to become members of Bonsucro and expects them to work towards implementation of the Bonsucro Production Standard. As a Bonsucro member, Corbion is already working directly with its own network of industry suppliers ­ from Thailand to Brazil ­ to implement the standard. What this means in practice, is that we are identifying with our suppliers the areas where improvement is needed to enable them to meet the standard ­ giving them an opportunity to make the changes necessary to achieve the standard, which includes answering questions and lending our expertise wherever we can xv.
+In 2015, some 3.5% of all globally produced sugar from cane was Bonsucro certified xvi. Bonsucro is aiming for a 20% penetration rate by 2017. As certified Bonsucro sugar becomes more readily available, Corbion commits to sourcing Bonsucro certified sugar for a part of its overall global sugar needs.
+
+9
+
+CORBION WHITEPAPER SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+
+V1.1
+
+GMO-free feedstocks
+It is not a technical requirement to use genetically modified crops or feedstocks (in short, referred to as GM or GMO) for the production of bioplastics. If GMO crops are used in bioplastic production, the multiple-stage processing and high heat used to create the polymer removes all traces of genetic material in the end product. This means that the final bioplastic product contains no genetic traces.
+Within different world regions and industry segments, diverse views and regulations regarding products containing GMO exist. Whether driven by regulatory requirements or consumer preference, some of our customers look for ways to take GMOs out of their products. As a result, our portfolio includes both GMO and non-GMO products to enable the choices our customers need or desire.
+At Corbion, we use European sugar beet and Thai sugarcane as feedstock for the production of PLA bioplastics. These are always GMO-free crops, which is why we can offer our customers PLA produced from GMO-free feedstocks.
+
+10 CORBION WHITEPAPER SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+
+V1.1
+
+Land used for bioplastics does not compete with food
+
+Today's feedstocks for bioplastics are grown on arable land. For both today and projections up to 2019, we can demonstrate that land use for bioplastics production is minimal and in no way competing with food (see figures 4 and 5, below). The European Bioplastics Association publishes market size data for the existing and future years on an annual basis. Using these growth rates one can estimate the overall total impact that the bioplastics market has on land use. The data shows that, for example, in 2019 land used for growing feedstocks for bioplastics will account for only 0.02% of global agricultural area, a number which leads to the conclusion that bioplastics are in no way competing with land used for food . xvii This conclusion is supported by various independent reports, including those from the nova-Institute , xviii Wageningen University and Research Centrexix and IfBBxx.
+
+Figure 4 Land use for bioplastics 2014 and 2019
+Food & Feed 1.24 billion ha = 26%*
+Material use*** 106 million ha = 2%*
+Biofuels 53 million ha = 1%*
+Bioplastics 2014: 0.68 million ha = 0.01%* 2019: 1.4 million ha = 0.02%*
+
+GLOBAL AGRICULTURAL AREA Pasture 3.5 billion ha = 70%*
+Arable land** 1.4 billion ha = 30%*
+
+Figure 5 Land use for bioplastics 2014 and 2019
+GLOBAL AGRICULTURAL AREA
+
+97%* Pasture, Food & Feed
+
+3%* Bioeconomy
+0.01%* 2014 bioplastics 0.02%* 2019 bioplastics
+
+Source: European Bioplastics, Institute for Bioplastics and Biocomposites, nova-Institute (2015). More information: www.bio-based.eu/markets and www.downloads.i b-hannover.de
+
+* In relation to global agricultural area ** Also includes approx. 1% fallow land *** Land-use for bioplastics is part of the 2% material use
+
+11 CORBION WHITEPAPER SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+
+V1.1
+
+Thai raw sugar production is in the range of 10,790,000 tons/yearxxi. Corbion in Thailand uses a maximum of 150,000 tons of raw sugar annually, around 1.4% of the Thai sugar production. Thailand has 16,810,000 haxxii of arable land, of which just under 9% (1,471,000 ha) is used for growing sugarcanexxiii. This means that in Thailand, 7.3 tons of raw sugar are produced per hectare of land used for growing sugarcane. Therefore the 150,000 tons of raw sugar used annually by Corbion require an estimated 20,450 ha or 0.12% of the Thai available arable land.
+
+12 CORBION WHITEPAPER SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+
+V1.1
+
+Alternative feedstocks for bioplastics
+Although the area of land used for growing crops for bioplastics today is minimal, and projected to remain so in the years to come, there remains a concern amongst certain parts of our society about the use of food crops for other applications than food and feed. Over the next decades, world population will grow and global demand for biomass for food and industrial applications is expected to increase.
+Currently, sugar-based feedstocks are the most efficient and sustainable crops. However, R&D teams continue to work on new production processes that support the production of biochemicals and bioplastics made from alternative feedstocks.
+Options for alternative feedstocks include non-food biomass crops, agricultural by-products and waste streams. Specific examples include miscanthus, wheat straw, bagasse, corn stover and wood chips. These feedstocks are also often referred to as `cellulosic feedstocks' or `second generation feedstocks'.
+In general, significant R&D efforts and investments are still needed in order to commercialize bioplastics made from alternative feedstocks. Within the bioplastics industry, many small and large companies are working on this topic; however a lot of effort and time is still needed to deliver economically viable technology.
+As a first step, a mix of C5 and C6 sugars will need to be extracted from the crops, a process that would need to be commercialized by a 3rd party.
+To make the C5 and C6 sugars an efficient and effective feedstock for Corbion, two different technology routes could be followed:
+1Isolate and purify the C6 sugars from the mix of C5 and C6 sugars. Corbion would buy the purified C6 sugars and feed them into the regular production processes. This route requires efforts from Corbion, but the major effort and capital investment will be with the 3rd party that would deliver the purified C6 sugars.
+2Feed the unpurified mix of C5 and C6 into the Corbion fermentation process. This route requires R&D efforts and process optimization from Corbion: a new fermentation strain needs to be developed and a new production process, requiring a new production plant, needs to be built.
+Corbion has invested significantly in both technology routes. Corbion welcomes suppliers throughout the supply chain to collaborate in reducing the time to market for PLA products made from alternative feedstocks.
+In 2015, Corbion became the first company to successfully produce, on lab scale, PLA from alternative feedstocks ­ and therefore the first to make PLA from non-food biomass . xxiv
+
+13 CORBION WHITEPAPER SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+
+V1.1
+
+The benefits of using biobased plastics in consumer goods
+
+This paper has outlined many aspects related to feedstocks used for bioplastics. Consumer awareness and interest in environmentally sustainable and ecologically sound products is increasing and continues to drive the demand for bioplastics.
+Over the last years, many of the world's largest consumer brands have begun to employ bioplastics in the packaging of their products. Examples include Procter and Gamble's bioplastic shampoo packaging, Danone's PLA yoghurt cups and Coca Cola's plant bottle. Highlighted benefits to consumers include their biobased origin, reduced carbon footprint and that they are made from renewable resources. Biodegradable bioplastics can convert back to CO2, water and harmless substances at the end of their useful life. This is a good option in case mechanical recycling of the end product is not (or no longer) feasible.
+Corbion's PLA is both biobased and biodegradable, and it offers a reduced carbon footprint. A detailed LCA to support these claims is publicly available at www.corbion.com/downloads. Furthermore, the compostability of PLA allows for increased organic waste collection and so helps to divert organic waste from landfill. For example, in 2012, due to recycling and composting of waste in compostable bioplastic bags, the Seattle Mariners baseball stadium diverted two million pounds of waste from landfill, saving $128,000 in waste disposal costsxxv.
+The use of bioplastics reduces our dependency on fossil fuels and supports a circular, local-for-local economy thanks to the multiple end-of-life options provided.
+At Corbion, we believe that the concerns of using biobased feedstocks for plastics can be successfully identified and managed, and that the many benefits of these biobased, renewable feedstocks far outweigh their challenges.
+
+14 CORBION WHITEPAPER SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+
+V1.1
+
+Glossary
+Sugarcane
+The crop, produced at the farm on arable land in, for example, Thailand and Brazil. The harvested (cut and cropped) sugarcane is sold to the sugar mill for further processing.
+Sugar beet
+The crop, produced at the farm on arable land in, for example, Europe. The harvested sugar beet is sold to the sugar mill for further processing.
+Raw sugar
+One of the types of sugar produced at a mill (i.e., in addition to, and as a precursor to, refined white sugar). Raw sugar can be made of a number of feedstocks (sugarcane, beet, etc.). It is an unrefined version of sugar and as such is generally not suitable for human consumption. At Corbion, in Thailand and Brazil, we source raw sugar from cane.
+Cane sugar
+The raw sugar derived from sugarcane, produced at the mill. At Corbion, in Thailand and Brazil, we source cane sugar.
+Beet sugar
+The raw sugar derived from sugar beet, produced at the mill.This is sometimes used in Corbion's factories in Spain and the Netherlands where this feedstock is locally available.
+Refined sugar
+This is the typical `white' sugar that is used as table sugar for eating and cooking.
+Sugar
+This can refer to raw sugar, cane sugar, beet sugar, sucrose, dextrose, etc.
+Starch
+This can refer to the starch feedstock from corn or cassava, for example, which can be further processed into dextrose as a sugar feedstock. At Corbion, in the USA, we source dextrose from corn.
+Second generation/alternative feedstocks
+Cellulosic feedstocks from sources not intended for human consumption (such as bagasse, corn stover, wood chips, etc.).
+Biomass
+Material of biological origin excluding material embedded in geological formations and material transformed to fossilized material. Biomass includes organic material, e.g. trees, crops, grasses, tree litter, algae, and waste of biological origin e.g. manure. Biomass used for bioplastics is currently mainly derived from corn, sugarcane, or cellulosexxvi.
+Biobased product
+A biobased product is a commercial or industrial product (other than food or feed) that is composed, in whole or in significant part, of biological products, including renewable domestic agricultural materials (including plant, animal, and aquatic materials), forestry materials, intermediate materials, or feedstocksxxvii .
+
+15 CORBION WHITEPAPER SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+
+V1.1
+
+References
+iGoodyear Corporate EMEA (no date) Life+: ECO2 Tyre tech. Available at: http://www.goodyear.eu/ corporate_emea/our-responsibilities/innovation/life-project.jsp [Accessed: 16 August 2016].
+ii Nager IT (2016) The fair mouse. Available at: https://www.nager-it.de/en/home [Accessed: 16 August 2016].
+iiiBajpai, D.P. (2015) Pulp and paper industry: Chemicals [p.85]. 1st edn. United States: Elsevier Science Publishing Co.
+ivStarch Europe (no date) EU starch market in figures. Available at: http://www.starch.eu/europeanstarch-industry/ [Accessed: 16 August 2016].
+v Biotechnology Innovation Organization (BIO) (2016) Advancing the Biobased Economy: Renewable  Chemical Biorefinery Commercialization, Progress, and Market Opportunities, 2016 and Beyond, p3.  Washington, DC.
+vi Doornheim, M. (2016) Benefit of Corbion's PLA homopolymers for 3D printing. Available at: https:// issuu.com/bioplastics/docs/bioplasticsmagazine_1605_ [Accessed: 26 September 2016].
+viiCarus, M. and Dammer, L. (2013) Food or non-food: Which agricultural feedstocks are best for industrial uses? Nova Paper #2 on bio-based economy. Available at: http://bio-based.eu/downloads/nova-paper2-bio-based-economy-food-non-food-agricultural-feedstocks-best-industrial-uses/ [Accessed: 16 August 2016].
+viiiwww.lca.plasticseurope.org and Int. Journal Life Cycle Assessment (Aug 2010), LCA of the manufacture of lactide and PLA.
+ixIfBB Institute for Bioplastics and Biocomposites (2015) Biopolymers facts and statistics. Available at: http://ifbb.wp.hs-hannover.de/wp-content/uploads/2015/11/IfBB-Biopolymers-facts-and-statisticsedition-2-2015-e-version.pdf [Accessed: 16 August 2016].
+xBos, H.L., Meesters, K.P.H., Conijn, S.G., Corré, W.J. and Patel, M.K. (2012) `Accounting for the constrained availability of land: A comparison of bio-based ethanol, polyethylene, and PLA with regard to non-renewable energy use and land use', Biofuels, Bioproducts and Biorefining, 6(2), pp. 146­158. doi: 10.1002/ bbb.1320.
+xiBos, H.L., Meesters, K.P.H., Conijn, S.G., Corré, W.J. and Patel, M.K. (2012) `Accounting for the constrained availability of land: A comparison of bio-based ethanol, polyethylene, and PLA with regard to non-renewable energy use and land use', Biofuels, Bioproducts and Biorefining, 6(2), pp. 146­158. doi: 10.1002/ bbb.1320.
+xiiCorbion internal data.
+xiiiWorldwatch Institute (no date) The state of consumption today. Available at: http://www.worldwatch. org/node/810 [Accessed: 16 August 2016].
+
+16 CORBION WHITEPAPER SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+
+V1.1
+
+xiv Supplier Code and Cane Sugar Code. Available at: http://www.corbion.com/sourcing [Accessed: 20 September 2016].
+xvCorbion (2016) Corbion annual report 2015: On the road to sustainable sugar cane. Available at: https:// issuu.com/cascade22/docs/126.00.006_corbion_jaarverslag2015t_16aa715380e61e/139 ?e=16354801/35249391 [Accessed: 16 August 2016].
+xviBonsucro (no date) Bonsucro Progress Report 2014/2015. Available at: http://bonsucro.com/site/ publications/ [Accessed: 16 August 2016].
+xviiEuropean Bioplastics Association, Institute for Bioplastics and Biocomposites and nova-Institute (2016) Feedstocks. Available at: http://www.european-bioplastics.org/bioplastics/feedstock/ and www.biobased.eu//markets and www.downloads.ifbb-hannover.de [Accessed: 16 August 2016].
+xviiiCarus, M. and Dammer, L. (2013) Food or non-food: Which agricultural feedstocks are best for industrial uses? Nova Paper #2 on bio-based economy. Available at: http://bio-based.eu/downloads/nova-paper-2bio-based-economy-food-non-food-agricultural-feedstocks-best-industrial-uses/ [Accessed: 16 August 2016].
+xixBos, H.L., Meesters, K.P.H., Conijn, S.G., Corré, W.J. and Patel, M.K. (2012) `Accounting for the constrained availability of land: A comparison of bio-based ethanol, polyethylene, and PLA with regard to non-renewable energy use and land use', Biofuels, Bioproducts and Biorefining, 6(2), pp. 146­158. doi: 10.1002/ bbb.1320.
+xxIfBB Institute for Bioplastics and Biocomposites (2015) Biopolymers facts and statistics. Available at: http://ifbb.wp.hs-hannover.de/wp-content/uploads/2015/11/IfBB-Biopolymers-facts-and-statisticsedition-2-2015-e-version.pdf [Accessed: 16 August 2016].
+xxiUSDA Foreign Agricultural Service (2016) GAIN Report (Global Agricultural Information Network). Available at: http://gain.fas.usda.gov/Recent%20GAIN%20Publications/Sugar%20Annual_Bangkok_ Thailand_4-12-2016.pdf [Accessed: 16 August 2016].
+xxiiFAO (2015) FAOSTAT: Arable land area Thailand in 2013. Available at: http://faostat3.fao.org/ download/R/RL/E [Accessed: 16 August 2016].
+xxiiiUSDA Foreign Agricultural Service (2016) GAIN Report (Global Agricultural Information Network). Available at: http://gain.fas.usda.gov/Recent%20GAIN%20Publications/Sugar%20Annual_Bangkok_ Thailand_4-12-2016.pdf [Accessed: 16 August 2016].
+xxivCorbion (2015) Corbion Purac successfully develops PLA resin from second generation feedstocks. Available at: http://www.corbion.com/media/press-releases?newsId=1955535 [Accessed: 16 August 2016].
+xxvI. Lopez, BASF (no date) Zero Waste: Organics Recycling Best Practices. Available at: http://www.compost. org/English/PDF/WRW_2015/ON/BASF_CCC_workshop_2015_Zero_Waste_V2.pdf [Accessed: 16 August 2016].
+xxviEuropean Bioplastics Association (2016). Glossary. Available at: http://www.european-bioplastics.org/ glossary/#525295b687bcf3fbc. [Accessed 16 August 2016].
+xxviiUnited States Department of Agriculture (no date) BioPreferred FAQs. Available at: https://www. biopreferred.gov/BioPreferred/faces/pages/FAQs.xhtml [Accessed: 16 August 2016].
+
+17 CORBION WHITEPAPER SUSTAINABLE SOURCING OF FEEDSTOCKS FOR BIOPLASTICS
+
+V1.1
+
+

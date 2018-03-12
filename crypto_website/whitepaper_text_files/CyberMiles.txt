@@ -1,0 +1,781 @@
+WaBi () - crypto token for safe consumer products
+Initial Coin Offering Whitepaper
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Table of Contents
+
+2
+
+Important Notice
+
+3
+
+Summary
+
+4
+
+Problem We Are Solving
+
+
+
+5
+
+Solution and Technology 
+
+6
+
+Our Vision
+
+
+
+14
+
+WaBi () Coin System
+
+
+
+21
+
+Future Development Timeline
+
+29
+
+Team
+
+31
+
+Advisory Team
+
+34
+
+ICO Details
+
+36
+
+Contacts
+
+39
+
+ 
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Important Notice
+
+3
+
+PLEASE READ THE SECTIONS ENTITLED "DISCLAIMER OF LIABILITY", "NO REPRESENTATIONS AND WARRANTIES", "REPRESENTATIONS AND WARRANTIES BY YOU", "CAUTIONARY NOTE ON FORWARD-LOOKING STATEMENTS", "MARKET AND INDUSTRY INFORMATION AND NO CONSENT OF OTHER PERSONS", "NO ADVICE", "NO FURTHER INFORMATION OR UPDATE", "RESTRICTIONS ON DISTRIBUTION AND DISSEMINATION", "NO OFFER OF SECURITIES OR REGISTRATION" AND "RISKS AND UNCERTAINTIES"
+CAREFULLY.
+IF YOU ARE IN ANY DOUBT AS TO THE ACTION YOU SHOULD TAKE, YOU SHOULD CONSULT YOUR LEGAL, FINANCIAL, TAX OR OTHER PROFESSIONAL ADVISOR(S).
+CITIZENS OF THE PEOPLE'S REPUBLIC OF CHINA ARE NOT PERMITTED TO PARTICIPATE IN WABI ICO
+
+FULL VERSION OF LEGAL TERMS AND CONDITIONS CAN BE REQUESTED FROM SUPPORT@WACOIN.IO
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Summary
+
+4
+
+Problem Solution
+
+· 461 billion USD of imported fake goods in circulation globally. · Regular authenticity and food safety scandals in China and fake
+pharmaceuticals in play around the world. · Blockchain unable to solve the problem without a link
+between digital and physical assets.
+· Linking digital and physical assets through RFID labels with anti-copy functionality. Consumers can authenticate the product through their phone.
+
+Business Model
+
+· Selling consumer products (baby food, cosmetics, alcohol, pharmaceuticals, etc.) protected by our technology to consumers.
+· WaBi Project - a blockchain-based loyalty programme to encourage and reward purchases in the Walimai safe channel, and to establish collective security through individual action.
+
+Traction
+
+Technology - already operational · Mobile APPs are available for download from the Apple store,
+Google play, QQ store and Baidu app store. · Secure RFID label with unique anti-reuse design.
+Market - tested as a pilot · Very positive feedback from hundreds of clients regarding the safety of our
+products (link to the store is available at www.wacoin.io). · Sales through 3 pilot O2O terminals at China's baby stores started in
+September 2017.
+
+preICO and ICO
+
+· WaBi () is a digital cryptocurrency which supports Walimai's anticounterfeit system and is backed by sales of products protected by Walimai technology.
+· Consumers around the world are able to purchase products protected by Walimai technology with WaBi ().
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Problem We Are Solving
+
+5
+
+Counterfeiting is a serious issue that claims thousands of lives and costs billions of dollars
+
+At least 63 babies died in Fuyang and rural areas of Anhui after consuming fake baby milk.
+2004 baby food scandal in China
+
+461 billion USD in value of imported fake goods.
+OECD
+
+6 infants killed and 54.000 hospitalised. China reported 300.000 victims in total.
+2008 baby food scandal in China
+64% of pharmaceuticals in Nigeria are fake.
+World Health Organisation
+
+Useful sources if you are not familiar with the problem:
+1. Food scandals in China https://en.wikipedia.org/wiki/Food_safety_incidents_in_China 2. Fake baby food in China http://www.scmp.com/news/china/policies-politics/article/1934641/ baby-formula-scare-chinas-food-safety-watchdog-acted 3. Baby milk rationing: Chinese fears spark global restrictions http://www.bbc.com/news/business-22088977 4. Counterfeit medications https://en.wikipedia.org/wiki/Counterfeit_medications
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Solution and Technology
+
+6
+
+Blockchain can solve the problem with digital assets but can not secure physical assets
+
+Cryptographic technologies akin to Blockchain opened new horizons by ensuring the uniqueness of digital assets and the security of transactions
+
+There has yet to be a technology able to securely protect the link between physical and digital assets while being cost effective
+So far only high-end products such as diamonds could benefit from the security of the digital ledger through expensive scanning of physical parameters. See https://www.everledger.io/ as an example
+Walimai has developed a solution that securely links a physical item to its digital representation at a cost that allows us to protect everyday consumer goods such as milk-powder, pharmaceuticals, alcohol, and cosmetics both physically and digitally.
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Solution and Technology
+
+7
+
+Creating a secure link between Physical and Digital required solving unique challenges in both domains
+
+One of the key challenges in designing the Walimai label was to find a perfect balance between:
+ROBUSTNESS - The label needed to remain securely
+attached to the product throughout its journey to the consumer without a chance of accidental breakage
+FRAGILITY - The label needed to break easily if the
+product's packaging is opened or if there's a counterfeit or `refilling' attempt
+Physical
+
+Digital
+We wanted to bring industry level security to everyday consumer goods. We had to work within very tight hardware constraints while leveraging insights from cryptography, signal processing, economics, and behavioral science to create the Walimai system:
+MICRO SECURITY: Individual tags are securely protected
+against falsification or copying
+SYSTEM-WIDE SECURITY: On the macro-level,
+the system prohibits any unauthorised tampering
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Solution and Technology
+
+8
+
+Walimai's core technology is fully developed and has been in operation since December 2016
+
+Walimai label is applied at a designated `point of origin' along the supply chain. This links the product with its digital representation in the cloud, containing: · Encrypted unique ID · Dynamic Code · Geographical Data
+
+After consumers have scanned the item with Walimai app: · Set of digital objects is stored in the cloud
+· Data from consumer scans are checked against their digital state
+· Digital and physical objects are constantly synchronised
+
+Products with the Walimai label are sold on location: · Consumers scan the label with Walimai app which reads the ID, Dynamic Code, and Geographical Data. This information is then sent to the cloud for verification
+· Public verification result is displayed to the consumer
+· Dynamic Code is changed, label data is
+
+See the process in action here: https:// vimeo.com/203961662203961662
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Solution and Technology
+
+9
+
+Walimai's system effectively defends itself against `label-cloning' attacks
+Below is a demonstration of system effectiveness in face of `label cloning' attempts.
+Scenario I: Sophisticated attacker / Supply Chain NOT Compromised: System response: geolocation data fails to match, resulting in failure of authentication
+Scenario II: Sophisticated attacker/ Supply Chain Compromised (counterfeiter is able to place products in designated locations)*
+
+ If the product is not taken out of circulation: There is a timegap in cloning and placing the object in circulation (which typically requires several
+days) and the next customer scanning the original object (in case of `Fast Moving Consumer Goods', this typically takes minutes). During this gap, the pairing conditions are changed thus prohibiting authentication.
+ If the product is taken out of circulation:
+In order for it to make economic sense, the counterfeiter needs to either sell the fake object at a price premium to the original (which is counter sense) or create multiple copies of the object. However, scanning one such counterfeit product will desynchronize the rest of the batch. This invalidates any further matching attempts and makes the product unsalable.
+
+* This is not solvable for QR-code based systems
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Solution and Technology
+
+10
+
+System robustness and attack scenarios illustrated
+
+Scenario I: Initial State
+
+Modified State
+
+Scenario II: Initial State
+
+Modified State
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+ Consumer scans the label. Matching verified. Data updated.
+ Consumer scans the label. Matching verified. Data updated.
+ Counterfeiter makes a simple copy. Copying some, but not all the data.
+ Matching fails. Consumer alerted that product is not safe.
+ Consumer scans the label. Matching verified. Data updated.
+ Consumer scans the label. Matching verified. Data updated.
+ Counterfeiter makes multiple copies. One scan takes the entire batch offsync, negating any economic incentive.
+ Matching fails. Consumer alerted that product is not safe.
+
+Solution and Technology
+
+11
+
+You can see how our technology works
+See our technology in action: https://vimeo.com/203961662
+
+The technology behind the Walimai label: https://vimeo.com/235864239
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Solution and Technology
+
+12
+
+Authentication, Security and WaBi Token
+
+ One of the crucial security ingredients of the Walimai anti-counterfeiting system is the state of permanent flux created by the dynamic codes that update the system state with each scan.
+
+ The distributed verification process gives the system its crucial robustness, but at the same time subjects it to the `voting paradox'. This means that with a sufficient level of trust in the Walimai brand, consumers might not feel the need to scan the product at all, thus not updating the system.
+
+W
+ This dynamic is dangerous, as it may reduce the rate of `system churning' necessary to prevent counterfeiters from slipping in a fake product.
+ Therefore, it is essential we provide the consumers with incentive to keep on scanning and authenticating through their smartphones' RFID readers and our mobile application. A loyalty program that ensures a sufficient level of `churning' becomes a pivotal security attribute.
+ In other words, every consumer who scans the Walimai label becomes a miner who is rewarded for their contribution with WaBi tokens.
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Solution and Technology
+
+13
+
+Blockchain solves the problem of trust in a platform's meta-security
+· Any platform or channel promising a secure method of product verification will need to prove the product was authentic in the first place.
+
+· On the surface, these three fixed features make a channel secure
+
+· But they hinge on a consumer's trust in your claims of product authenticity
+
+Carefull vetting of suppliers
+Security of transactions
+Control of supply chain
+
+Careful vetting
+
+Consumer trust
+
+Control of supply chain Security of transactions Careful vetting of suppliers
+ofCasruetfpruapllinSvesseerauctstcpuitriCpniltoogyynntcsrofholaionf
+
+· In industries plagued by counterfeit products, this meta-fragility dictates the endurance and success of a platform while limiting its flexibility and growth potential. Blockchain solves the problem of meta-fragility.
+· Blockchain solves the problem of higher order channel trustworthiness through
+ Transactions time and geostamping in the blockchain
+ Distributed record verification that even we as a platform cannot modify
+
+Blockchain Blockchain
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Our Vision
+
+14
+
+We have spent 4 years developing and refining our technology and business model
+
+2013 Walimai was conceived in September 2013
+2014 Official operations started in February 2014, in the Science Park of Zhejiang University in Hangzhou, China
+From April 2014 until January 2015, Walimai's leadership is engaged in a strategic turn-around project for a global top-5 Infant Formula producer
+- Walimai is selected as the one of the most-innovative companies at Open Innovations Forum in Moscow - Walimai anti-counterfeiting technology is presented to Chinese and Russian premiers Li Keqiang and Dmitri Medvedev
+2015 Walimai engages top producers of baby food and alcohol with prototype anticounterfeiting technology
+Walimai wins innovation grant from Jiaxing city municipal government and is incorporated in Zhejiang province, China
+2016 iOS, Android APPs launch. A new version of the RFID label is developed
+
+Walimai begins sales in December 2016
+
+2017
+
+- Walimai signs up its first 3 infant nutrition stores in May 2017
+- WaBi blockchain-based loyalty system for safe products is developed and implemented
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Our Vision
+
+15
+
+The ultimate secure channel for consumer products spanning diverse categories and geographical locations
+
+Encapsulating all vulnerable categories Covering all consumer product categories that face the risk of counterfeiting. An `Omni-Channel' The Walimai label as a guarantee of product authenticity regardless of place of purchase. Comprehensive global coverage Operating on a worldwide scale, starting with countries in the greatest need of our technology.
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Our Vision
+
+16
+
+Safe omni-channel model naturally emerges from our technology base
+
+ A working label is a guarantee that the packaging has not been tempered with, whether the product is being sold on an open-air market in some remote countryside
+
+ Walimai labels greatly simplify the process of keeping track of products' `chain of custody' for manufacturers, while also enabling a much higher degree of control over products' distribution and circulation. The practice of arbitrage by distributors i.e. taking illicit advantage of price differentiation between regions can thus be drastically reduced.
+
+ For the consumers, products with Walimai protection signal a guarantee of authenticity as well as a certain minimum standard of quality and service.
+
+ Shifting the proof of authenticity from the channel to the product opens up opportunities for new retail formats. For example the peer-to-peer sales through social networks, a channel with double digit growth in China is particularly conducive for the product-centric protection.
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Our Vision
+
+17
+
+Safe omni-channel: Some Examples
+
+Traditional E-commerce Platforms
+
+P2P Social Networks Sales
+
+$XX $YY
+
+Online
+
+· Sub-channel of Walimai - protected products
+
+· Product level protection for p2p sales
+
+Online to Offline
+
+· Walimai in-store o2o terminal
+
+Supermarkets
+
+Corner Shops/ Markets
+
+Offline
+
+· Dedicated Walimai Shelf inside a supermarket
+
+· Walimai protected products sold through Traditional Trade
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Our Vision
+
+18
+
+We've already tested our technology with Chinese consumers and received very positive feedback
+
+Link to our digital shop: https://goo.gl/KfMczL
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Our Vision
+
+19
+
+We already tested our technology with Chinese consumers and got very positive results /translation/
+
+Link to our digital shop: https://goo.gl/Xc1JCd
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Our Vision
+
+20
+
+Walimai's technology has received recognition at the highest level
+Walimai's technology was presented to prime ministers of China and Russia at the Open Innovations Forum in Moscow.
+
+Video is available at www.wacoin.io
+Interviews were shot with consumers upon launching our pilot O2O terminals in China's baby shops.
+Video is available at https://vimeo.com/235879107 Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+WaBi () Coin Based System
+
+21
+
+WaBi () - crypto-coin backed by China's consumer market
+
+Unit of exchange in Walimai's protected goods eco-system.
+
+Free floating blockchain based crypto-token with strictly limited issue and exponential transaction growth potential.
+
+Unit in Walimai's loyalty program.
+
+Backed by consumer demand for safe products.
+
+How WaBi () can be used:
+Spending on Walimai protected products. WaBi () coins can be spent on products (such as baby food, cosmetics, alcohol, etc.) protected by Walimai labels.
+Mining WaBi () coins by purchasing Walimai protected products and participating in marketing activities. Coins can be obtained by consumers through purchase of Walimai protected products or by participating in other marketing activities.
+Buying and selling WaBi () coins. Coins will be listed on exchanges and will have a free floating price.
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+WaBi () Coin Based System
+
+22
+
+Impetus and growth: bootstrapping coin adoption on intrinsic value
+
+Chicken and egg problem.
+· For an individual user it is not worth adopting a coin if there are not enough people using it.
+· Coin utilisation never reaches the critical mass due to absent individual incentives to adopt it.
+
+Our system solves it.
+· Fear of fakes creates organic demand for Walimai protected products.
+· Core users of Walimai products adopt the Wabi () coin as part of the loyalty program.
+· Base transaction volume within the loyalty system backs general use of the Wabi () coin.
+
+Product range
+
+Free points
+
+Cash exchang-
+eable
+
+Authenticity
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+WaBi () Coin Based System
+
+23
+
+Other loyalty programs are ubiquitous but almost universally broken
+
+Loyalty programs don't work for consumers... · Points are issued, maintained, and honoured at the discretion of the issuer. · Points typically have a limited lifetime and will often expire before they are redeemed. · In most cases, points are non-transferable. · Even the largest and most successful programs typically only include a handful of participants in
+adjacent industries. · The policies of loyalty programs are complicated and prone to change.
+Nor for businesses... · Very high user acquisition cost. · Low utilisation, with points hanging on companies' balance sheets as liabilities. · Limited potential to increase customer attractiveness by expanding the program to other providers
+due to personal data sharing concerns. · Extra complexity becomes a burden on companies' IT infrastructure.
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+WaBi () Coin Based System
+
+24
+
+We will grow WaBi () usage in multiple ways
+
+Blockchain-based
+Wabi are owned and controlled by the customers. · Fully transferable. · Immediately available for use. · No balance-sheet liability for merchants.
+
+Open platform
+· Easy for merchants to join the system and get WaBi to reward their customers.
+· Customers can use WaBi for a wide range of goods and services stimulating transaction volume.
+
+Targeting
+Young women - most prolific loyalty program users in China.
+· High-margin product categories that invariably attract counterfeiters.
+· Growth through adjacent product categories: baby-food, mother and baby skincare, cosmetics, pharma, and alcohol.
+
+Seamless interface
+Managed through the same APP used for authenticity verification. · WaBi automatically
+added to the user wallets for purchases, stimulating utilisation.
+· User wallets linked to exchanges to enable real-time pricing and conversion.
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+WaBi () Coin Based System
+WaBi () Flowchart
+
+· Pre-ICO - 10m coins · ICO - 40m coins
+
+Walimai Merchants
+
+25 Locked WaBi ()
+after ICO - 50m
+
+Pre-ICO and ICO token buyers Escrow
+
+Some WaBi are sold by merchants to keep fiat trading volumes
+Exchange
+
+Merchants reward consumers with WaBi
+
+WaBi are bought at exchange to access discounts or pay for products
+
+Reward WaBi are spent on goods
+
+5% of quarterly sales growth given out as rewards by merchants to consumers
+
+Consumers
+
+Note: a detailed decription is available in the ICO part of this document.
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+WaBi () Coin Based System
+
+26
+
+China - Special Provisions: Main Features
+Wabi Project's ICO is taking place in times of significant regulatory turbulence. In the midst of our ICO preparation process, the People's Bank of China halted all ICO related activities in China. Wabi Project is a Singapore-based company. However, a major part of our business activities currently takes place in Mainland China. In order to comply with the existing regulatory framework, as well as to mitigate the risks of future changes, we are making special provisions for WaBi token circulation in regards to the China market. Below are the key features of these provisions.
+All crypto activities (crypto payment processing, token issuance,
+circulation of exchange-listed tokens) will be held outside of China.
+
+WaBi Project will develop a blockchain-based, remotely-hosted
+loyalty program that will be licensed to Walimai China.
+
+Point issuance in Walimai China loyalty program will be rigidly
+linked to WaBi through a smart escrow contract in a 1:1 ratio. In other words, to issue 100 additional points for the Walimai China loyalty program, WaBi Project must first obtain 100 WaBi tokens.
+
+Features and flexibility of the Walimai China loyalty program
+will be in-line with the maximum allowable standard for loyalty programs currently operational in China, pending further regulation regarding crypto-activities.
+
+WaBi tokens will be user-exchangeable to Walimai China loyalty points
+through the Wabi Project ltd., but NOT vice versa.
+
+In other markets WaBi tokens will be circulated in Walimai loyalty
+programs directly, local regulations permitting.
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+WaBi () Coin Based System
+
+27
+
+China Special Provisions: Flowchart
+CLP
+
+Legend
+China Loyalty Point Wabi Flow CLP Flow
+
+Global Exchanges
+
+WaBi Project SGP
+
+Wabi Initial Escrow
+Walimai International Ecosystem
+
+Smart Loyalty Escrow
+Walimai China Ecosystem
+
+WaBi
+WaBi
+
+CLP
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+WaBi () Coin Based System
+
+28
+
+Potential growth for WaBi () system is immense
+China market size in 2017, billion USD/year
+
+Milk powder
+
+Cosmetics
+
+Alcohol
+
+Electronics
+And this is just in China. There are more opportunities globally...
+Source: Euromonitor Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Future Development Timeline
+
+29
+
+2017
+Jul - WaBi () closes preICO, raising USD 300.000 Aug
+ (wa) - frog  (bi) - money, currency
+
+Sep Starting sales at 3 baby stores as a pilot project Nov WaBi () ICO selling up to 46.000.000 tokens
+
+Nov- WaBi () starts being traded on exchanges Dec
+Dec Activating sales of Walimai protected products through WaBi (). WaBi () is used seamlessly by consumers to purchase products.
+Dec- More baby shops sell Walimai protected products. Start of sales of alcohol with Jan Walimai labels.
+2018 Start of partnerships with producers and distributors of baby food and alcohol. Adjusting Walimai technology for pharmaceutical products.
+
+2019 Extending use of WaBi to other areas: - Loyalty programs by product manufacturers (`airmiles for consumer products'). - Partnerships with insurance companies. Product insurance.
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Future Development Timeline
+
+30
+
+O2O Baby Shop Pilot Started in September
+ We are extending access to safe and affordable infant formula to a grass-roots level.  Every baby shop we enlist is equipped with a `Walimai-shelf' which is placed in the middle of the
+retail space.  This shelf serves as a product display where consumers can get acquainted with the technology,
+product assortment and purchasing options.
+
+ The shelf plays the role of a checkout point. The consumer can place an order either through the embedded touch screen or by scanning the QR-code and ordering in Walimai's mobile
+marketplace.  Once the order is placed, it is sent to the connected warehouse for fulfillment.  The consumer can either choose their home address or the baby shop for product delivery.  We track the location of every order, and the baby shop where the order originated is
+compensated on a profit-sharing basis.
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Team
+Leadership
+
+31
+Alex Busarov
+Co-founder, CEO Former McKinsey & Co. consultant, Sales Director at a leading infant formula producer. Guided project development for Russia and China-based companies as an independent advisor. Graduate of the London School of Economics. Conversational in Mandarin Chinese.
+https://www.linkedin.com/in/alexanderbusarov/
+Yaz Belinskiy
+Co-founder Former consultant with Bain & Co., Business Development Manager at LP Amina. Extensive experience in consumer goods. Graduate of Oxford University and the London School of Economics. Fluent in Mandarin Chinese.
+https://www.linkedin.com/in/yaroslavbelinskiy/
+
+China: front-end management
+Kitty Xu
+Marketing Director
+Marketed semiconductor technologies for NXP, ARM and RS Components in Asia-Pacific and global, Business Consultant for Johnson & Johnson. Graduate of the Manchester Business School (MBA).
+https://www.linkedin.com/in/kittyx/
+Chi-Tung `Duomo' Pan
+Sales Project Manager
+Food Engineer. Former Sales Representative at TransGO, corporal in the Coast Guard and Google Local Guide. Graduate of the National Taiwan Ocean University and TAITRA.
+https://www.linkedin.com/in/duomo-pan-pan-chi-tung-105960a2/
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Team
+
+32
+Danjie Hu
+Project Manager Chemical engineer. Former Marketing Executive at two technology startups, Portus and Aerifai. Completed an overseas program in Entrepreneurial Innovation at Nanyang Technological University in Singapore. Graduate of China University of Geosciences and Wuhan University of Technology.
+https://www.linkedin.com/in/danjie-hu-a529bb125/
+Wouter `Walt' de Hoogd
+Social Media and Community Manager Former Head of Content Marketing for technology startup the Squirrelz. Experienced in SEO copywriting and social media management. Founder of a vinyl record label and e-commerce shop.
+https://www.linkedin.com/in/wasdehoogd/
+Zhu Fang
+Customer Support Manager Young mother. Online P2P Infant Formula Merchant.
+
+Technology leadership
+Artur Pinchyuk IT lead
+IT solutions architect with over 15 years of IT expertise. Blockchain and crypto economics specialist. Former founder and CTO at Mind Development. Co-founder at TechBuro, KIRM, KM-Alliance expert council member. Graduate of the Belarus State University.
+https://www.linkedin.com/in/skilus/
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+33
+Roman Tronenko Mobile Lead / Blockchain Architect
+Polyglot programmer and a seasoned Mobile Engineer with professional experience ranging from developing mobile solutions for Alibaba to designing and coding business systems for chinesepod.com, italki.com, and openlanguage.com. Roman is a blockchain pioneer and enthusiast, having started the open source blockchain-powered project gogo.tattoo which aims to connect tattoo masters, artwork and clients. He is an active open source contributor and holds two Master Degrees in Computer Science from Harbin Engineering University and Saint Petersburg State Marine Technical University. Fluent in Chinese and Esperanto.
+https://www.linkedin.com/in/roman-tronenko-48618333/
+Dmitry Korzhik Blockchain Development Engineer
+Smart contract architect, blockchain evangelist. 6 years in IT industry. Co-founder at outstaffing.me.Chief Business Development Officer at Mind Development. Master of Computer Science from Belarus State University.
+https://www.linkedin.com/in/dmitry-korzhik-07101982/
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Advisory Team
+
+34
+
+Igor Livant
+VP for Investments at TELF AG, Formerly Executive Director at Goldman Sachs, Associate Principal at McKinsey and Co.
+Igor's career spans over 17 years in financial services and consulting. He has worked as an Executive Director at Goldman Sachs, an Associate Principal at McKinsey & Company, ran his own consulting firm and now works as VP for Investments at TELF AG, a commodity trading firm. His extensive experience has given him advanced practical knowledge of financial management, capital raising, management consulting, and mergers & acquisitions.
+Area of expertise for Wabi: Fintech and fundraising.
+
+Mario F. Pazos
+COO at Pazos Law Group, Formerly Vice President, Regional Prepaid & Personal Payments Head at MasterCard
+After attaining his MBA at the University of Miami, Mario worked as a Business Analyst at Microsoft, a Senior Marketing Manager at Sony, Senior Vice President at Citi, and Vice President at Mastercard. With over 13 years of experience as an executive, entrepreneur, and angel investor, Mario has garnered himself a proven track record for building, leading and motivating strong teams. His strategic vision is always supported by a solid analytical approach and commitment to excellence.
+Area of expertise for Wabi: Crypto-markets
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Advisory Team
+
+35
+
+Long Chiu
+Vice President at a leading global resort and entertainment group Formerly Director of Digital Commerce Development & CRM at Mead Johnson Nutrition
+During his 18 years of experience with online and offline media, Long Chiu developed campaigns focused on connecting with consumers through nurtured brand affinity and loyalty programs. As Director of Digital Commerce Development at Mead Johnson Nutrition, he led the design of the brand's membership initiative. As Head of Digital Channels at the InterContinental Hotels Group, he created demand generating programs and established strategic partnerships.
+Area of expertise for Wabi: Loyalty Programs, Consumer Engagement
+
+Mark Zavadskiy
+Business Development Director at Aliexpress (Alibaba Group) Formerly Chief Asia Correspondent at Expert Business Weekly
+Mark currently holds a senior position at the leading global e-commerce company Alibaba. As a business journalist, he attained a stellar reputation and exhaustive knowledge of the Asia-Pacific region. His work as Bureau Chief and Correspondent at several multi-media companies allowed him to grow his professional network of business connections in both Asia and Russia. Mark has a degree in East Asian Studies from Moscow State University, is fluent in Chinese, and was ranked in the Association of Managers of Russia's top 10 managers of 2015-2016.
+Area of expertise for Wabi: E-commerce.
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+ICO Details
+
+36
+
+PreICO and ICO terms
+PreICO and ICO
+· There will be 2 stages: first a preICO, then the ICO itself. PreICO will enable us to put together an ICO that is appropriate for the scope of the project and the opportunity.
+WaBi () token
+· WaBi () token will be used to purchase Walimai protected products (similar to loyalty program points). This includes baby food, but also alcohol, cosmetics and any other products we plan to protect with our technology. In terms of geography, we will start in China* but we'll grow outside of China as well. It's hard to predict the exact timing at this stage. This will also not be limited to products that we sell ourselves: we plan to add other companies to the platform. These companies will also join the WaBi coin system*.
+· We will encourage the use of WaBi () tokens in several ways:
+· a) We set up a seamless usage process for consumers. b) We allow users to `mine' tokens with a proof of purchase of Walimai protected products. Buyers of products protected by Walimai technology will receive some initial tokens when they start buying. We are reserving tokens at the ICO specifically for that. c) Consumers using WaBi () will get better terms overall. This may include discounts, special offers, discounted purchases of WaBi () tokens, etc.
+· Maximum supply of WaBi () will be limited to 100.000.000 with the following split:
+a) Up to 10.000.000 tokens will be sold at the preICO at 0.03 USD/ token. Funds will be used to launch the ICO. Up to an additional 1.000.000 tokens will be distributed through the bounty program.
+b) Up to 46.000.000 will be distributed at the ICO stage in November 2017 at 0.25 USD/ token. The funds will be used to grow sales in baby stores, add more product categories (such as alcohol) and set up the WaBi Project blockchain based, remotely hosted loyalty system. Part of the funds will be used to buy back preWaBi tokens sold at preICO as described below.
+c) WaBi sold during the PreICO will be either locked up for 3 or 6 months after the ICO (for 5% or 10% bonus respectively, out of founders' token allocation) or bought back by WaBi Project at 25 USD cent per WaBi after the ICO and before the token is placed on exchanges. WaBis thus reclaimed will be put onto a company reserve with a 6 month lock-up period. (Assuming 50% of preICO contributors decide to sell, this reserve will amount to 5.500.000 tokens)
+d) 8.000.000 will distributed among the founders, team members and bounties.
+* Please see "China - Special Provisions'
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+ICO Details
+
+37
+
+PreICO and ICO terms
+
+e) The remaining 35.000.000 tokens will be reserved to be delivered to consumers through the mining process. Consumers will receive tokens by purchasing Walimai protected products and participating in other activities. These tokens will be held in an escrow. A merchant (seller of products protected by Walimai technology) will be entitled to release WaBi tokens equivalent of 5% worth of their quarterly increase in sales of his products, from the escrow into circulation, by distributing these tokens among the customers in the form of rewards and discounts. The merchant will just sign the distribution order, no WaBi will pass onto the merchant this way.
+Here is an example explaining point (e):
+Merchant H sells cosmetics with Walimai protection. H used to sell 1m USD/month of cosmetics and grew sales to 1.3m USD over a quarter. Suppose, at the same time the price of WaBi at an exchange is 10 USD. H will then be eligible to distribute (1.3m-1m)*5%/10=1500 WaBi to its current or future buyers from the escrow. The escrow holding the remaining tokens will be split into different wallets for additional security. Merchant/consumer interactions will be done through the Walimai Authentication Interface and go through a system of checks and balances to avoid any unintended use of the tokens.
+· Timing: preICO will start on 28th July at 17.00 Beijing time and run for 35 days or until reaching the maximum amount of 300k USD equivalent.
+· Minimum and maximum amounts for the preICO are 30k USD and 300k USD equivalent. If we don't reach 30k, the contributions will be returned. The preICO will be closed if/when we receive 300k USD equivalent in contributions.
+· The coin is called WaBi. Each WaBi will be sold at 0.03 USD during the preICO and 0.25 USD during the ICO.
+· Token parameters: ERC20 token standard.
+· Our preICO wallet will not have a 3rd party escrow. We are not securing it with a 3rd party due to relatively small amount of the raise. ICO wallet will be secured by 3rd party escrow and/or multisignature account.
+· Accepted currencies - preICO : BTC, ETH, LTC. ICO: BTC, ETH.
+· Important to note is that we are still having discussions with lawyers on some of the parameters of the ICO. Hence it is possible that some of the ICO terms may change. At the same time we shall do our best to minimise the changes and protect the interests of our contributors.
+· ICO timing: Starts in November 2017, will last for 30-60 days or until reaching the max. amount.
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+ICO Details
+
+38
+
+ICO Participation and KYC
+· KYC To participate in our token sale, you will need to pass KYC. We will require: - Full name - Citizenship(s) - Photo/scan of your government-issued ID which states citizenship. Passports will be accepted. Decisions on all other documents will be made on a case-by-case basis and will result in delay. - Selfie of you holding the submitted ID document - Email - Mobile phone number - ETH address to which we can send the WaBi tokens (you need to have control of this address, e.g. it can not be an exchange address) We will open the KYC site for registration on the 28th of October.
+· White list and Individual cap We will sell WaBi tokens through a Whitelist with individual caps. Participants who pass KYC will be added to the Whitelist. An individual cap will be applied on the first day of the ICO. It will be doubled on day 2 and doubled again on day 3. If not all WaBis are sold by then, we will remove the caps from day 4 onwards.
+· Participation restrictions: Unfortunately we will need to restrict certain groups of people: - Nationals of the People's Republic of China - US persons (US citizens, US residents, green card holders), if they don't have an accredited investor status. You will need to prove your accredited investor status through a 3rd party vendor that we are working with - Persons under 18 years of age We don't like to restrict people from participating in our sale but we also need to comply with relevant regulations and protect the project from any legal risks.
+· Timing: - 28th of October - KYC registration opens. Registered users added to Whitelist. - 21st of November - Whitelist closed - 28th of November - 1st day of ICO
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+ICO Details
+
+39
+
+We believe WaBi () will be a success
+
+Problem
+
+We are not building yet another piece of hyped vapourware with obscure prospects. We are solving a serious problem.
+
+Progress
+
+We have been working on this problem for 5 years. We've already built and commercially deployed the system, and are now looking to scale.
+
+Timing Team
+
+· RFID is getting wide adoption, with iPhones incorporating RFID scanning.
+· NFC enabled phones are getting adopted for public transport payments in China
+· China allowed families to have a 2nd child in 2015
+Expertise in key domains: Chinese market, product design, blockchain, confirmation/authentication technologies, FMCG.
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+Contacts
+
+40
+
+https://slack.wacoin.io
+
+https://twitter.com/wabiico
+
+Chat (English) https://t.me/joinchat/GOTG3EIRK4fBEURKmiOYFg Channel (English) @wabiico or t.me/wabiico
+Sign up to receive emails: http://eepurl.com/cWgQpv
+
+Not the final version. Please, check www.wacoin.io for the most up-to-date verson
+
+

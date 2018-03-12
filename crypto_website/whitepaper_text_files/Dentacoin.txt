@@ -1,0 +1,381 @@
+Dentacoin: The Blockchain Solution for the Global Dental Industry
+WHITEPAPER v.1.9
+"Creative destruction threatens power. This is why disruptive innovations require new models of thinking to truly enable new technology to reach its potential in a competitive market." ~Tim Wu, The Master Switch1
+Disclaimer: The information in this document is subject to change or update without notice and should not be construed as a commitment by Dentacoin Foundation. This document and parts thereof must not be reproduced or copied without Dentacoin's written permission, and contents thereof must not be imparted to a third party nor be used for any unauthorized purpose.
+1 Tim Wu, The Master Switch: The Rise and Fall of Information Empires (2010, Atlantic Books) Chapter One
+
+Table of Contents
+Abstract ................................................................................................................................................................ 3 A message to those, willing to contribute by means of reviewing the Whitepaper........................... 3
+Introduction......................................................................................................................................................... 4 Mission Statement............................................................................................................................................. 5 Core Objectives .................................................................................................................................................. 5 Project Development Phases.......................................................................................................................... 6
+Phase I: Blockchain-Based Trusted Review Platform .......................................................................... 6 Phase II: Dentacare Mobile App and DentaVox Opinion Platform ..................................................... 8 Phase III: Dental Assurance Concept ................................................................................................... 9 Phase IV: Healthcare Database ......................................................................................................... 10 Roadmap ............................................................................................................................................................ 11 The Strength of Dentacoin............................................................................................................................16 Possibility of Indirect Profit Sharing...........................................................................................................17 Token Creation................................................................................................................................................17 Token Sales........................................................................................................................................................18 Payments Handling........................................................................................................................................19 Smart Contract ................................................................................................................................................20 Dentacoin ERC20 Standard token contract....................................................................................... 20 Token Contract extensions................................................................................................................ 20 Allocation and supply.....................................................................................................................................22 Fundamental Price...........................................................................................................................................24 Estimated value per Dentacoin user ................................................................................................. 25 Planned business development of the Dentacoin blockchain concept ............................................ 26 Market Development Steps ..........................................................................................................................28 Funding ............................................................................................................................................................... 29 Reward Models ...............................................................................................................................................30 Core Team..........................................................................................................................................................32 Conclusion .........................................................................................................................................................36 Contact ...............................................................................................................................................................36 References .........................................................................................................................................................37
+2
+
+Abstract
+Dentacoin is an Ethereum-based blockchain platform regulated by smart contracts. The platform supports the dental community by building and creating solutions devoted to improving the quality of dental care worldwide. The blockchain gives Dentacoin the power to change the world for the better. Dentacoin develops the dental industry as well as creates market intelligence through a cryptocurrency reward system that inspires participation throughout the community. Dentacoin is the first cryptocurrency that uses a decentralized review platform and transparently rewards patients and dentists who make contributions that benefit the community. The Dentacoin Foundation team strongly believes in building a future healthcare industry that will fall into the hands of the people, resulting in the disruption of the existing industries and the creation of new industries in the short and long term. Looking forward, Dentacoin expects the platform to drastically improve dental health and hygiene habits, thus improving the quality of life for individuals resulting in improved overall health and increased longevity.
+A message to those, willing to contribute by means of reviewing the Whitepaper.
+This version of Dentacoins' whitepaper has been released as a draft - with the purpose of introducing the idea and to receive valuable feedback from the community. If you would like to contribute by leaving your comment or review, please email: admin@dentacoin.com or join our Slack on dentacoin.com.
+3
+
+Introduction
+The purpose of this paper is to thoroughly explain a new conceptual framework to be used within the dental industry for organizational purposes. Through the utilization of recent technological innovations, we have created a model with the ability to overcome the majority of the dental industries' major constraints and furthermore, proposes various measures that will significantly improve the efficiency of dental practice thus improving the patients' level of dental well-being. Dentacoin strives to create a dental industry community by rewarding people -who provide valuable contributions- with crypto currency. Through this reward system, the foundation will see a rise in a currency that will be able to reach a broad market, including a vast number of people who have yet to participate in any cryptocurrency economy. According to Harvard Business Review: "To protect the blockchain vision from political pressure and regulatory interference, blockchain networks rely on a decentralized infrastructure that can't be controlled by any one person or group." The integration of blockchain and dentistry is an extraordinary concept; one that requires the creation of a community in which transparency and shared responsibility can take place.
+4
+
+Mission Statement
+The Dentacoin Foundations' core missions are to improve the quality of dental care worldwide, reduce treatment costs and create a dental community. The Dentacoin Token was created to help assist the Dentacoin Foundation with the above mentioned missions by giving power to the people. Dentacoin focuses on developing a number of tools, each one targeting a different sector of the dental industry. Individuals who use and implement these tools will receive Dentacoin Tokens as a reward, which they can later use to pay for their dental treatment or to purchase dental products.
+The goal is not to compete with other cryptocurrencies, but rather to provide a solution and support for the healthcare industry through a blockchain. The Dentacoin Foundation is interested in evaluating the actual substance and value that can be created with a coin (Dentacoin) that represents the health of all individuals. Dentacoin will be both a Fin Tech and logistic platform of the global dental industry.
+The Foundation's exact contribution in ERC20 coins (Dentacoins) used for dental projects will be provided later on in the whitepaper.
+Core Objectives
+All service industries aiming at long-term success are driven by their customers' feedback. The healthcare Industry is no exception. No regulatory authority, no central institution, no powerful organization or individual could control the industry better than the patient community. People trust people, thus there is nothing more valuable to the industry players than constant, trustworthy feedback from the patients. However, a community needs to exist for this to be achieved and this is where Dentacoin steps in.
+Dentacoin emphasizes the industry's challenges and reveals the solutions for increasing the dental practice's efficiency. Implementing a blockchain based industrial cryptocurrency can incentivize the industry in solving the majority of the existing and future constraints. Below are the 4 phases of implementation each with its own milestones, goals, and focus.
+5
+
+Project Development Phases
+Phase I: Blockchain-Based Trusted Review Platform
+Through creating and implementing the first Blockchain-based platform for trusted dental treatment reviews, the Dentacoin Foundation will allow patients voices to be heard and dentists will have access to up-to-date, extremely valuable market research data and qualified patient feedback - the most powerful tool to improve service quality and to establish a loyal patient base. Through a self- executing Smart Contract, the Dentacoin review platform will assure optimal autonomy, trust, speed, and safety thus mitigating any risks in connection with manipulations.
+The brand new, blockchain-based feedback system (smart contract) will trigger a dynamic movement in patients and dentists to open DCN wallets.
+There will be a Dentacoin community that will create the prerequisites for the future steps that will be taken to penetrate the global market and will provide valuable market research results.
+At this moment in time, Dentacoins' developers are working on the frontend, the address database and the smart contract. This platform is already presented in the market despite the fact that the ICO only takes place in October 2017. Once the ICO begins the market offensive strategies and the advertising campaigns for the global expansion will be implemented and create a rapid growing community of patients and dentists.
+Benefits:
+ Transparent reviews  Once on the blockchain, reviews cannot be modified or manipulated  Permanent data storage  Market research value  Patients will have access to the rating and reviews of each dentist and can base
+their decision of which dentist to go to on the provided information.  Patients will have the option to speak out and present their opinions.  Dentacoin (DCN) will be diversely distributed. Every single review is rewarded
+from the foundation subject to the foundation having stock of DCNs.  The creation of closed economic system
+6
+
+The basic idea is to provide and maintain a decentralized review platform based on Ethereum smart contracts. This website rewards high quality "patient reviews" and "market research surveys" with Dentacoin. The incentive structure has a strong influence on the quality of dental treatments and increases the mutual responsibility between dentists and patients.
+The review project will be the first major milestone on Dentacoins' roadmap to the future of dentistry.
+Dentacoin's own research and experience in dental business teaches one important need that concerns dentists worldwide: The need to build strong relationships with clients and gaining valuable feedback /market research data to enhance their treatment plans and communications.
+On the other hand, patients lack a reliable source where different dentists can be compared by means of their rating and reviews as well as the possibility to give anonymous and unfiltered feedback when sharing their thoughts and opinions.
+Through the platform, patients will be able to find specific dentists in order to write an anonymous review. Each survey will be linked to the Ethereum blockchain and paid for in Dentacoin by a smart contract. In return, the earned amount can be used to pay for part of the further treatments at one of our partner dentists/clinics.
+By providing ways to earn and spend Dentacoin, the dental currency will be distributed throughout the industry. Furthermore: Dentacoin collects important knowledge of the industry and makes it available to all dentists and patients, thus allowing dentists and patients to form strong communities around the world and build upon mutual interest.
+Preliminary test campaigns signalled a strong demand towards the trusted review platform.
+Next step: Trusted reviews In order to provide trust worthier customer reviews, Dentacoin will implement a new notion of "trusted reviews", thus the review platform will have both standard reviews and trusted reviews. Standard reviews, which can be written by anyone and trusted reviews, which can only be written by actual patients.
+To ensure that a reviewer writes the feedback based on a prior treatment, each partner dentist will ask for the patients' e-mail address in the medical office and right before each treatment, the patient will get an email containing a review request link.
+7
+
+This link then leads to reviews.dentacoin.com, where the review form is marked as trusted and linked to the dentist/dental team in question.
+Trusted reviews are rewarded with a higher amount of Dentacoin (DCN) than a standard review.
+These trusted reviews would be seen as highly beneficial to the dentist and the industry as it will lead to an increase in trust gained and reviews of a higher quality and reliability standard which would result in more valuable market research data.
+The community will benefit from these trusted reviews due to the fact that the reviews are of a higher quality and reliability, which accomplishes an objective reference to each dentist's services, thus rendering them comparable.
+Due to the transparent, incentive-based and censorship resistant nature of the blockchain based solution, Dentacoin will create an extremely well functional review and market research system that will be accessible at reviews.dentacoin.com for all contributors.
+Phase II: Dentacare Mobile App and DentaVox Opinion Platform
+"Repetition of the same thought or physical action develops into a habit which, repeated frequently enough, becomes an automatic reflex." - Norman Vincent Peale
+Dentacare Mobile app aims to form long-lasting dental care habits through an intensive 3-month program in an engaging gamified environment. Through reminders, notifications, voice navigation and tutorials, users will be taught how to improve their dental hygiene and thus, form healthy habits. The app educates users how to brush, floss, rinse properly and advises them further on how to take proper care of their teeth with regular check-ups, better nutrition, etc. An emergency function implemented allows users to get advice from the dental specialists within the Dentacoin network in case of problems. The app is tremendously beneficial for children as well, as forming dental hygiene habits at a young age prevents the formation of deeper dental problems in future.
+The basic initial program lasts for 3 months, as it is considered that this is the time slot needed for a certain activity to be permanently integrated into the daily routine of an individual.
+8
+
+Only after maintaining a proper routine for a 3-month period, users will be rewarded with Dentacoin tokens, which they can later use for paying for dental services, dental care products, Dentacoin Assurance, or they can store them or trade on exchange platforms and thus, benefit from the expected value multiplication.
+"This is not the wisdom of the crowd, but the wisdom of someone in the crowd. It's not that the network itself is smart; it's that the individuals get smarter because they're connected to the network." ­ Steven Johnson
+DentaVox is a collective customer intelligence tool, that rewards users for their honest opinions on variety of dental health topics while simultaneously forms valuable upto-date market research data for dentists, suppliers, manufacturers. Thus, all Dentacoin network participants are in a win-win situation.
+DentaVox consists of questionnaires on variety of Healthcare topics with different length ­ from 8 to 100 questions, placed in an engaging interactive environment. The rewards in DCN are allocated according to the user efforts. Smart mechanism detects the concentration of the users when filling in the surveys in order to guarantee highquality results and prevent manipulations.
+DentaVox is a tribune for users to speak out, give their honest opinions, get rewarded and have a strong influence on the industry, as no one could ignore, delete or manipulate their true opinions. The statistics from each open questionnaire are visible to all registered users. They could then be used by dentists, suppliers, manufacturers, media as up-to-date, extremely valuable market research data and as a tool for constant service/ treatment/ product/ process improvement. Furthermore, DentaVox will offer options for businesses to conduct custom surveys, based on a pre-targeted audience.
+Phase III: Dental Assurance Concept
+Dentacoin's 'unique feedback platform will be supported by various other valuecreating solutions devoted to achieving the same purpose -to improve dental care quality worldwide-.
+The revolutionary, blockchain dental insurance will become one of Dentacoin's most powerful tools in the dental industry, as explained below.
+Dentacoin has created a uniquely original dental insurance smart contract that will exist between the individual and their corresponding dentist in order to achieve the
+9
+
+above-mentioned purpose. If agreed upon by both parties, the contract becomes tradable within the blockchain, this allows for the creation of value to be held by the contract. All smart contracts in existence will form part of a "super smart contract". "Super smart contracts" ensure that the patient is covered in the case of insolvency or death of the dentist.
+The smart contract focuses on the alignment of both parties' main interest - to maintain healthy teeth and overall oral hygiene. By entering into the smart contract, both the dentist and patient have obligations and duties to fulfil, upon completion, both parties will reap the benefits of the smart contract. Patients must attain the oral hygiene and care that is set out in the Dentacare mobile app and dentists, who restore and maintain their patients' teeth at their own expense, are to perform their job to the utmost quality and satisfaction. If both parties' duties and obligations are met, monetary rewards will be issued. This monetary motivation method creates an environment where both parties whilst performing to reach a common goal are simultaneously benefitting themselves and the dental industry as high levels of personal health are met as well as a high quality performance from the dentists.
+Phase IV: Healthcare Database
+Blockchain offers a model, which has the potential to enable secure lifetime medical record sharing across all healthcare providers. The rationale for considering a blockchain in electronic health care records is twofold. First, it avoids adding another organization between the patient and the records. The blockchain implies a decentralized control mechanism in which all have an interest, but no one exclusively owns it. This is an architectural change that generalizes past medical records.`2 `Second, it adds due consideration to a time-stamped, programmable ledger. That opens the door for intelligent control of record access without having to create custom functionality for each vendor. The ledger also inherently includes an audit trail.'3
+2 John D. Halamka, MD, Andrew Lippman and Ariel Ekblaw, `The Potential for Blockchain to Transform Electronic Health Records' (Harvard Business Review, 3 March 2017) <https://hbr.org/2017/03/the-potential-for-blockchainto-transform-electronic-health-records> 3 Dugan Maddux, MD, FACP, Vice President, Kidney Disease Initiatives,'Cybersecurity and Blockchain in Health Care' (Acumen Physical Solutions, 24 April 2017) <https://acumenmd.com/blog/cybersecurity-and-blockchain-inhealth-care/>; HibBucket,'Artificial Intelligence Blockchain Research and Development' (HubBucket Healthcare Blockchain-HubBlockchain) <http://hubblockchain.com/>
+10
+
+The blockchain has the potential to standardize secure data exchange in a less burdensome way than previous approaches.
+As the DCN distribution model is aimed at value creation for the dental industry worldwide, each patient activity, which generates value for the dental industry, will be rewarded with Dentacoin. DCNs could later be used for paying dental treatments. Dentists, on the other hands, could consider DCN as a financial investment or they could remunerate employees for their extraordinary performance in the workplace. They could also pay suppliers in Dentacoin with no extra time, no middlemen and no more high international transaction costs. This direct connection between producers and dentists will then allow dentists to provide lower prices to patients.
+The currency cycle is closed. Moreover, the establishment of Dentacoin as an industrial currency will put all market players - suppliers, dentists, and patients - in a "win-win-win" situation.
+Roadmap
+This section aims to explain the different phases Dentacoin intends to progress through over the next few years, and the various milestones connected with each phase Dentacoin wishes to achieve for the users, developers, and the industry overall. In total, there are 4 phases, namely: Knowledge, Expansion, Determination and Eternity. Each phase and its corresponding milestones, goals, and focuses are set out below.
+1) Knowledge - Gather the required market data, using a blockchain based review network to create a global, growing database.
+2) Expansion - Create a global community and motivate the participants to make use of the DCN currency.
+3) Determination - Implement a decentralized insurance model. 4) Eternity - Build up DCN infrastructure for direct international trading between
+dentists and suppliers in cooperation with UPS, Alibaba and Amazon.
+The Roadmap of Dentacoin is shown below:
+11
+
+12
+
+13
+
+The first major step after the release of the Dentacoin token on February 14th was the establishment and registration of the Dentacoin Foundation in Maastricht, The Netherlands on the 03.03.2017.
+There are no obligations of any kind of token-holders towards the Foundation. Neither is there any obligation of any kind whatsoever on the part of the Foundation towards token-holders.
+The public presale commenced on the 1st of July, 2017 (during which 16177500000 DCNs' were distributed) and the gathered funds are being used to create a team of front and back end developers for the Trusted Review Platform Testnet, the programming, and launching of the Trusted Review Platform (testnet) and its
+14
+
+supporting tools, being the Dentacare mobile app and the DentaVox opinion platform. Following the public presale, the testnet version of the review platform will be launched on the 8th of August 2017. On the 1st of October 2017, the first token sale will be publicly held during which 3% of the overall DCN amount will be distributed. The tokens that are not sold during our token sales will be locked and distributed after 2042. They will be released based on how much supply there is on the market during that period and if it aligns with the token distribution supply plan. In case there is a higher amount of tokens on the market than what was planned in the distribution supply plan, we will then release an amount that will fit the inflation ratios. Once all the necessary data from the test phase of the trusted review network has been gathered and analysed, necessary changes will be made to the testnet based on the gathered data and upon the completion of the testnet alterations, the Trusted Review Platform (mainnet) will launch later on in the 2017 year. The Review App that provides easier mobile access to the platform is expected to be released in the early months of 2018. 2018 is also the year in which the Market Research Survey Integration will take place, together with the second token sale and the launch of the Dentacoin Insurance Testnet. During 2019 the foundation expects Healthcare Database Integration. The Dentacoin Foundation was the first to develop a solution in the blockchain for the dental industry and has the potential to be the market leader in this industry.
+15
+
+The Strength of Dentacoin
+The Dentacoin Foundation recognizes that the value of all user contributions (reviews, recommendations, rewards, payments, trusted feedback, etc.) is one of the most important assets to the foundation. A single review is worth next to nothing, but millions of trusted and impartial reviews are worth many millions (or possibly even billions) of euros. Individuals should be paid for everything they do that brings value not only to Dentacoin but also to the dental industry. A major breakthrough for Dentacoin was the purchase of a real existing dental clinic, the Dentaprime International Plc. London. The transfer of ownership took place in July 2017 once the purchase price had been paid. This transaction was phenomenal due to the fact that the calculated purchase price to the value of 90 million USD was paid entirely in DCN. This means that even before the ICO, the DCN was given a high, real value by professionals of the M&A field. This purchase is unique in the history of the blockchain tokens. The Dentacoin Foundation will continue to be active in M&A and will purchase additional clinics if they can take a pilot function within Dental Industry 4.0.
+16
+
+Possibility of Indirect Profit Sharing
+Once a year, there is a possibility that the Dentacoin Foundation will be able to change back the Dentacoin tokens from market for Ether or Bitcoin with up to 50% of the operating profit. This will have the effect that the global DCN supply decreases. On the other hand, the Dentacoin Foundation may use the 50% of the operating profit to reinvest into the tools that are being developed by the Dentacoin Foundation. The decision how to use the resources - including any profits and liquidation proceeds - will be only and at every time in the hands of the management of the foundation. The operating profit includes interests from assets, profits of the clinics bought by the Foundation and any other return on investment.
+Token Creation
+There are 8,000,000,000,000 (eight trillion) coins. A "DCN" refers to one individual Dentacoin and because it is an ERC20 token, it is configured to be used globally by all individuals and its value is derived from the exchange with Ether. The symbol  has been chosen to represent a DCN.
+17
+
+Token Sales
+As for now (26/05/2017) the following sales steps have been planned:
+ July 1 2017 - Public Presale
+Hard-capped Presale volume: 80 000 000 000 DCN (1% of the total supply)
+Price: 0.00003521 USD / DCN or 284 DCN/USD cents
+UPDATE (28.06.2017) The exchange rate DCN/ETH during the Presale is fixed to 8 000 000 DCN/ETH. In other words: 1 ETH = 8 000 000 DCN.
+Funds allocation: 1) Creating a team of front and backend developers for the Trusted Review Platform Testnet. 2) Programming and launching the Trusted Review Platform (testnet). 3) Programming and launching the supporting tools being the Dentacare mobile app and the DentaVox opinion platform.
+ October 1 2017 - First Token Sale
+Hard-capped ICO volume: 240 000 000 000 DCN (3% of the total supply)
+Price: 0.00011723 USD / DCN or 85,3 DCN/USD cent
+UPDATE (25.09.2017) The ICO price of Dentacoin was set to 2 500 000 DCN/ETH and 33 000 000 DCN/BTC.
+Funds allocation: 1) Creating a team of insurance specialists, dentists and programmers to develop the Dental Insurance Model. 2) Launching the Trusted Review Platform Mainnet. 3) Initial Global Communication Campaign for acquiring partners and multipliers.
+18
+
+ October 1 2018 - Second Token Sale
+Funds allocation: 1) Coding and configuring the Blockchain Insurance and the Health database. 2) Developing the Market Research Platform. 3) Second Global Communication Campaign for acquiring partners and multipliers.
+Payments Handling
+Dentistry today is a growing, high-tech oriented, 500 billion USD industry4. Dentacoin is the first and only crypto coin created as a payment method in the dental industry worldwide.
+The Dentacoin Foundation will implement a state channel payment method. This method operates in a similar manner as to how payments of cheques are handled. In simple terms, a person (the benefiter) can receive a check from a bank account holder as means of payment.
+In order for the payee to receive the amount of money promised on the cheque, the issuer's name and benefiter's name must be written on the face of the cheque, the amount and currency specified and it should be signed (authorized) by the bank account holder. If all conditions are met this cheque order becomes exchangeable at the bank for the amount of money promised. The exchange, however, may not be completed due to insufficient funds in the issuer's account and hence denied.
+The transfer of Dentacoin (DCN) operates in a similar manner to the abovementioned example. Upon the wishes of one user (X) to obtain services or goods from another user (B), the exchange will happen when X promises B that payment in the form of DCNs' will take place upon the transfer of goods/ completion of services from B. Once B has fulfilled their obligation, a request by B will be made and the smart contract will carry out the request by means of transferring DCNs from Xs' account into B's account. History of all transfers will be stored in the ledgers of both parties and the balance for each account will be present in the contract state. Users may request to send tokens from their wallet to any Ethereum wallet through smart contract.
+4 Dental Services Market Global Report 2017, https://www.researchandmarkets.com/research/tlqzbb/dental_services.
+19
+
+Smart Contract
+Ethereum allows the running of decentralized code in conjunction with smart contracts, enabling reliable services and payments handling. `Smart Contracts are a central component of next- generation blockchain platforms.'5 Due to the contracts' self-executing nature, single party manipulation is averted because control over the execution of the smart contract does not fall into the hands of a single party. Hence, it could be said that smart contracts provide autonomy, trust, speed, and safety. Dentacoin smart contracts are computer protocols in the Ethereum blockchain that facilitate, verify, negotiate and conclude contracts between individuals and their contracting party. More information on the smart contract code will be provided later on in the whitepaper. Due to these smart contracts holding value, as mentioned earlier in this whitepaper, individuals may participate or audit all Dentacoins' smart contracts on Github. All smart contracts are connected to one "super smart contract"(SSC) but don't lose their individual rights. If a smart contract cannot be fulfilled due to performance impossibility (death), then the SSC saves the patients' rights! Thanks to the trustworthy nature of smart contracts, many of the industry problems can be mitigated or extinguished.
+Dentacoin ERC20 Standard token contract
+The core contract is an extended version of the Standard Ethereum token contract (ERC20). You can explore and prove it on https://etherscan.io.
+Token Contract extensions
+ Automated transaction fee handling
+Dentacoin owners need not worry about transaction fees (gas) in ether. It is not necessary for Dentacoin holders to hold any ether in order to send and receive DCN due to the fact that all fees are automatically deducted from the receiving amount (in DCN) that is received by the receiver.
+20
+
+This transfer function due to the upcoming Metropolis Ethereum hard fork might be updated to handle token fees internally.
+function transfer(address _to, uint256 _value) returns (bool success) { if (_value < DCNForGas) throw; if (msg.sender != owner && _to == DentacoinAddress && directTradeAllowed) { sellDentacoinsAgainstEther(_value); return true; }
+if (balances[msg.sender] >= _value && balances[_to] + _value > balances[_to]) { balances[msg.sender] = safeSub(balances[msg.sender], _value);
+if (msg.sender.balance >= minBalanceForAccounts && _to.balance >= minBalanceForAccounts) {
+balances[_to] = safeAdd(balances[_to], _value); Transfer(msg.sender, _to, _value); return true; } else { balances[this] = safeAdd(balances[this], DCNForGas); balances[_to] = safeAdd(balances[_to], safeSub(_value, DCNForGas)); Transfer(msg.sender, _to, safeSub(_value, DCNForGas));
+if(msg.sender.balance < minBalanceForAccounts) { if(!msg.sender.send(gasForDCN)) throw; }
+if(_to.balance < minBalanceForAccounts) { if(!_to.send(gasForDCN)) throw;
+} } } else { throw; } }
+ A Buy-and-Sell function for Presale, ICO and future Crowd Investing Dentacoin implemented two additional functions that allow sending DCN or ETH to the token address or dentacoin.eth in order to easily sell and buy Dentacoin (DCN) to/from the Foundation.
+21
+
+Allocation and supply
+There are two ways people can get involved with a crypto-currency: 1) Purchase the cryptocurrency. 2) Earn via work.
+In both cases, users are increasing the value of the currency.
+If people can earn money by working for one another then they will increase its value through mutual exchange facilitated by a fair currency system ­that is exactly the model through which Dentacoin operates.
+As a custom token and a solution, specially designed for the global dental Industry, Dentacoin has a highly promising future.
+As per the report from our partner clinic, which has already implemented the use of DCN as means of payment, it is clear that the majority of the dental industry will easily adopt this business model.
+The distribution of 76.1% of the coins (6.088.888.888.888 DCN) between 2018 and 2042 is planned as follows:
+
+Y 2018 % 1.9%
+
+2019 2.9%
+
+2020 3.8%
+
+2021 4.8%
+
+2022 5.7%
+
+2023 7.6%
+
+2024 9.5%
+
+2025 8.6%
+
+2026 7.6%
+
+Y 2027 % 7.6%
+
+2028 5.7%
+
+2029 4.8%
+
+2030 1.9%
+
+2031 1.9%
+
+2032 1.9%
+
+2033 1.9%
+
+2034 1.9%
+
+2035 1.9%
+
+Y 2036 2037 2038 2039 2040 2041 2042 2042/rest % 1.9% 1.9% 1.9% 1.9% 1.9% 1.9% 1.9% 4.8%
+
+The annual distribution amounts are locked in Timelock contracts that could be verified here: https://github.com/Dentacoin/ERC20token/blob/master/DCN%20time%20lock/DCN%20TimeLock%20addresses.pdf
+
+22
+
+The total DCN supply allocation is planned as follows:
+Locked amount TimeLock contracts (distribution 2018-2042) Coin option plan Founders ICO (locked until 01.10.2017) Foundation ­ future needs (after 2042) Dentaprime International plc. - bonus (if the targets are fulfilled in 8 years) Unlocked amount Presale Dentaprime International plc. (purchased in DCN) Core team members
+
+96,20% 76,1% 5,0% 5,0% 3,0% 4,1%
+3,0%
+3,8% 1,0%
+0,4%
+2,4%
+
+23
+
+Fundamental Price
+NB: For the calculations shown below5, the difference between fundamental value of the Dentacoin Foundation and the market value of the Dentacoin Foundation must be understood.
+Both of them are expressed in either DCN or $ USD, but their meaning and worth for investors and traders are indiviually very different.
+The calculated fundamental value (real value) of the Foundation remains almost unchanged throughout the development of Dentacoin, since it is bound to the size of the community and the value per user within the community.
+The market value can undergo typical market fluctuations and depends mostly on the demand for DCN.
+Respectively the calculated fundamental price has no influence on the market price (trading price).
+The market price per DCN is expected to exceed the real value over time. For further information please read the next chapter: Market Development Steps.
+
+Table comparison: Calculated fundamental value of DCN compared to the planned ICO price of DCN (Oct. 2017)
+
+Calculated fundamental value of the Dentacoin foundation per DCN $ 0,00452
+
+Planned price of DCN during the ICO in October 2017 $ 0.00011723 (85,3 DCN per USD cent)
+
+From the numbers above it can be seen that the fundamental value of the Dentacoin blockchain concept is 3756.65% higher than its planned ICO price. The value of the DCN is a calculated fundamental value for the Dentacoin blockchain concept on the basis of its business plan.
+5 All the calculations are based on the following resources: Bain&Company: Global Healthcare Private Equity Report, http://www.bain.com/publications/articles/global-healthcare-private-equity-report2015.aspx; World Health Organization: Global Health Observatory data repository, http://apps.who.int/gho/data/view.main.DENTISTS; World Health Organization: Oral Health publications http://www.who.int/oral_health/publications/en/; Dental Services Market Global Report 2017, https://www.researchandmarkets.com/research/tlqzbb/dental_services.
+24
+
+Estimated value per Dentacoin user
+Businesses that do not put their focus on trading but on the creating of user communities are usually valued by the amount of users, they have on their platform.
+Facebook's market cap, for example, is valued at $450 billion. That equals $225 of value per facebook user.
+The team of Dentacoin has worked intensively on the question, what is the value per user of the Dentacoin's blockchain. By looking at only one tool of the Dentacoin concept, namely the insurance concept, it was seen that the value per user was higher than those of facebook. Since we are only at the beginning of the development of all our tools and projects we used a cautious value of only $60 per user. We therefore used the highest possible risk factors.
+
+Table of comparison: Value per Facebook User compared to value per Dentacoin User
+
+Facebook Market Cap $450 000 000 000
+
+Number of Facebook Users 2 000 000 000
+
+Value per user $225
+
+Dentacoin Market Cap $36 120 000 000
+
+Number of Dentacoin Users 600 200 000
+
+Value per user $60
+
+25
+
+Planned business development of the Dentacoin blockchain concept
+
+Short-term target market (5 years)
+Details Total in (%) Total in (number of people) Patient/Dentist Correlation Market share in (number of people) Market share in (%) Value per individual per group
+
+Patients 100%
+6 000 000 000 3000
+6 000 000 0,10% $60
+
+Dentists 100%
+1 600 000 1
+2 000 0,13% $600
+
+Medium-term target market (10 years)
+Details Total in (%) Total in (number of people) Patient/Dentist Correlation Market share in (number of people) Market share in (%) Value per individual per group
+
+Patients 100%
+6 000 000 000 3000
+60 000 000 1,00% $60
+
+Dentists 100%
+1 600 000 1
+20 000 1,25% $600
+
+Long-term target market (25 years)
+Details Total in (%) Total in (number of people) Patient/Dentist Correlation Market share in (number of people) Market share in (%) Value per individual per group
+
+Patients 100%
+6 000 000 000 3000
+600 000 000 10,00% $60
+
+Dentists 100%
+1 600 000 1
+200 000 12,50%
+$600
+
+26
+
+Value estimation
+Value per group Value of Dentacoin foundation Total Amount of Dentacoin DCN Calculated fundamental value per Dentacoin DCN
+
+$36 000 000 000 $120 000 000 $36 120 000 000 8 000 000 000 000
+$0,00452
+
+Calculated fundamental value compared to the ICO price (Oct. 2017)
+
+Calculated fundamental value of the Dentacoin foundation per DCN $ 0,00452
+
+Planned price of DCN during the ICO in October 2017 $ 0.00011723 (85,3 DCN per USD cent)
+
+27
+
+Market Development Steps
+1. Short-term (5 years): First 3 global campaigns are to generate 0.1% of the target market share. 2. Medium-term (10 years): Reaching 1% of the target market through the developed Health Database, Dentacoin Insurance, and Trading Platform. 3. Long-term (25 years): In the planned rollout period 10% of the target market share will be reached. The calculation of the future value is based on the number of Dentacoin wallets created. Within the first 3 stages of its development, Dentacoin Foundation aims to achieve a market share of 10%. In the global dental industry, this 10% market share means 600 million patients and 200 000 dentists (12.5% of all dentists), using the Dentacoin value-creating tools. 10% of the market share, with a corresponding rate of USD 60 per patient and USD 600 per dentist, a company value of approximately USD 36.12 billion is generated. (USD 3.6 billion per 1% market share).
+28
+
+Funding
+Funds raised during the ICO will be used solely for the development of the Dentacoin network. The following distribution of funds is preliminary and can be subject to change.
+ Core Development ­ 40% Core development will involve the development of the technology as described in this document. This includes the integration of VPN protocols, smart contract systems, supporting of security protocols and services, end user applications... etc.
+ Operational ­ 25% This covers the necessary costs incurred for a functional system. This includes hosting and infrastructure costs, staffing, outsourcing, management and other related expenses.
+ Marketing and Sales ­ 25% Marketing costs will be used for partnership development and direct consumer marketing. Sales costs will largely be incurred through direct B2B sales.
+ Legal and Compliance ­ 10% There are legal costs associated with privacy protection and registrations with regulators. The legal costs might vary from region to region.
+29
+
+Reward Models
+"In the future, more and more things we do (passive or active) are going to get compensated by a token of some sort. In the same way today governments are issuing money, in the future companies will be issuing tokens to marry that value to a function that they have, or a product of their specific offering.", William Mougayar at Ethereal Summit 2017.
+Individuals should be compensated for both business works completed and effort and time used when providing businesses with valuable reviews and feedback (due to the fact that reviews and client feedback can possess extremely vital information that businesses will utilize to their benefit).
+As William Mougayar (@wmougayar), the author of The Business Blockchain said during the Ethereal Summit 2017, "We all have 3 jobs today: the job that we get paid to do at an office; the 2nd job is taking care of ourselves and our family and household, and the 3rd job has been given to us by another company for using their services ­ renting a car for example. All kinds of jobs have been given to us, without us getting compensated (paid) for them."
+This is not a new concept. The token economy is a reward system used to reward target behaviour. Many schools and kindergartens work with some sort of rewards (tokens, stickers or another form of points) to encourage positive behaviour in children. Tokens are also applied in all sorts of games, where players receive a reward upon achieving a certain stage, marked as a target by the game creator. A token economy can be seen in every workplace whereby each person who goes to work gets rewarded upon achieving the goals that are set by the business, and in return, they get paid. More often the payment is in the form of fiat currency, such as euro, dollars, etc. There are often additional rewards, in the form of lunch allowances, gym memberships, travel costs and paid annual leave. This also adds up to the remuneration that people receive by going to work. Individuals are all very much aware of the token economy and are active participants within it.
+People should get paid in different currencies (tokens) depending on how much value they have added to each company. Which makes all individuals collaborators of a company, without having a civil contract. People can have 10 different jobs where they dedicate different amounts of their time, so it is only fair to get paid for each hour of the time that is given to a business. Thus, no individual will have to depend on a single employer, but rather on many different employers, who benefit from the time and effort people dedicated to their business.
+The Dentacoin Token was created to help the Dentacoin Foundation improve the dental Industry globally, by giving power to the people (In this case- the patients).
+Review input from community members is critical for Dentacoin to accurately allocate payments to contributors. Reviews and dental practice registrations can, therefore be viewed as a crucial contribution and worthy of a reward on its own. Some platforms,
+30
+
+such as Slashdot, use meta-moderation as a way to rank and reward honest moderators. Dentacoin chooses to reward those who contribute to trusted reviews, dental practice registrations and valuable feedback content for the industry. The rewards are directly connected to the level of participation. A detailed explanation of how the rewarding system will work and how many DCNs will be distributed for each action that benefits the community will be added via a table or chart.
+31
+
+Core Team
+Prof. Dr. Dimitar Dimitrakiev Founder of Dentacoin Foundation The Founder. Highly respected University lecturer. More than 27 years experience in financial markets. Devoted to science and engineering. Member of the IEEE Computational Intelligence society, EADM and Union of Automation and Informatics.
+Philipp Grenzebach Co-Founder / Business Developer / M&A The Economic Brain behind Dentacoin. Studies in Law, Economics and Business Management. Adopted the tripple bottom line to Dentacoin while integrating technical sustainability. Fighter for free, decentralised markets.
+Jeremias Grenzebach Co-Founder / Core Developer Our Code Wizard. Early entrant into the Blockchain scene. Immersed within the peerto-peer technology for 8 years. Contributor to Ethereum, Waves, ZCash, uPort, Status, imToken, Byteball. Strong believer in decentralization and transparency.
+Sergey Ushakov Front-end & Solidity Developer / Digital Transformation Specialist Our Transformation Accelerator. True Blockchain enthusiast. Degree in Robotics & Mechatronics; currently specializing in Software Engineering. Experienced in Frontend, Solidity Programming, Digital Transformations and Business Process Automation.
+Alexander Atanasov Web Developer Our Review Platform developer. Experienced in creating web & mobile experiences and providing IT solutions for business processes optimization & automation. Diving into the deeps of AI, Machine Learning and crypto technologies.
+Atanas Chervarov Mobile App Developer The developer of our Dentacare Mobile App. Over 6 years experience in developing games and apps for mobile platforms. A solid background in cocos2d/cocos2dx game development as well as working on games with Unity3D. Following the latest innovations in the IT industry.
+32
+
+Ayredin Stoyanov Graphic Designer Our Visual Power. Education in Multimedia Design and Software Systems and Technologies. Experienced in using visuals to communicate ideas that inspire, inform and captivate. Passionate about video creation and photography.
+Dr. Desislava Gercheva Project Manager: Dental Insurance Our Fairness Compass. Experienced as a dentist and as a dental educator. Professional mission: to make first-class dentistry affordable to the crowd. Fights against the unequal access to dental care by constantly seeking new technologies, innovative treatment methods and fair payment options. Highly interested in peer-2peer Insurance models. Manages risks, budget, deadlines, resources, third parties communication in regards to the project Dental Insurance.
+Dr. Violina Filipova Project Manager: Market Research Platform The Health Science mind. Active researcher and lecturer on the topic: Dental Problems and their Impact on the Overall Health. Realizes the importance of up-todate, detailed market research data. Working on creating Blockchain-based methods to collect it, analyze it, make it accessible and usable as a tool for improving the overall treatment, communication and workflow quality in the industry. Manages risks, budget, deadlines, resources, third parties communication in regards to the project Market Research Platform.
+Dr. Deyan Novakovski Project Manager: Healthcare Database Our Patient Data Engine. Experienced dentist, passionate about implantology. Sees exceptional diagnostics capabilities as a mandatory prerequisite for a precise and risk-free treatment. Currently researching how to utilize Blockchain advantages in developing a storage for accurate, up-to-date and thorough patient information. Manages risks, budget, deadlines, resources, third parties communication in regards to the project Healthcare Database.
+Dr. Dimo Daskalov Dental Industry Development Catalyst The Strongest Link between DCN and the Dental Industry. Leading dentist, currently managing a team of 19 dentists. Educator in Prosthetic Dentistry. Constantly improving dental services by implementing future technologies, delivering "WOW"
+33
+
+patient experience and simultaneously reducing the costs. Eager to be a part of the paradigm shift.
+Dr. Ivan Peev Dentistry 4.0 Specialist Our Guide to the Digital Implantology world. Dental Implant Specialist with a significant experience in providinghigh-tech dental care by surgical guides and computer-navigated implantation systems. Phantom instructor, certified by the International Training Center for Dental Implantology (IFZI). With a Sixth sense for cutting-edge technical solutions.
+Tsvetomir Ivanov Industry 4.0 Engineer The Future Thinker. Digital Dentistry, CAD/CAM and 3D-printing expert. Highly focused on finding ways to achieve significant efficiency, cost reduction and revenue gains through digitalization and automation. Permanently researching, evaluating and implementing high-tech dental innovations.
+Dr. Klaus-Christian Werner Industry Partner Acquisition Manager Our Strategic Partnership Driver. Engineer with a long track record of managing multinational companies. Solid background in Management Consultancy, Trading, Innovation Implementation, New-age Leadership. Highly interested in modern technology and utilizing its advantages into the organizational workflow.
+Donika Kraeva Strategic Communications Manager The Communications Ambassador. Translates big and complex ideas to the target group's language. Experienced in Online Medical Marketing. Developed Feedback Systems and Patient Loyalty Programs for international dental clinics. Seeking ways to utilize Blockchain advantages in building a patient-driven Dental Industry.
+Mariam Nishanian Community & Public Relations Our Public Voice. International background in PR, social media management, communications consulting and UX design. Interested in Cryptocurrency Investing. Skilled entrepreneur with experience in start-up development. In constant pursuit of new challenges.
+34
+
+Tihomir Petrov Business Developer The Bridge between Blockchain and Dentistry. Education in International Business and Management. Background in Computer Technology and Industrial Management. Responsible for integrating Blockchain solutions into the industry partners' workflow. Passionate about Cryptoeconomics, Innovations and AI.
+Rafat Hamud Customer Support & Product Development Our Solid Customer Support Pillar. Education in Software Systems and Game Development. Passionate about projects with a global impact. Experience at a Norwegian startup company for mobile apps. Supporting the tech and creative aspects of the Dentacoin tools development.
+Betina Bogdanova Senior Legal Advisor The Voice of law. Supports the legal project management pillar of Dentacoin. Experienced in advising fintech and dental companies. Solid legal background including the Australian National University, Rijks Univesitet and Harvard Law. Previous collaborations with the WHO and Harvard School of Public Health.
+Ali Hashem Sales Specialist & Customer Support The Connector. Years of experience as a customer relations representative and sales manager in service industries. Always finding ways to align company targets with customer needs. Exploring the potential of Blockchain in building stronger bonds with customers.
+Hristo Gradechliev CFO The Finance Master. Responsible for managing the finance and accounting divisions. MBA in Law. Experienced in payment ecosystems, building analytic tools, processes and teams to manage the revenue, costs and risks inherent in the payment space. With a strong flair for successful investments.
+35
+
+Conclusion
+In conclusion, an industry specific cryptocurrency (such as Dentacoin) could significantly reduce the industry specific costs, lead to economies of scale and provide quality services to people from lower income groups. As more and more people earn Dentacoin (DCN) and use them in various ways, the value of the cryptocurrency will rise, giving more freedom to the community. Indeed, the idea behind Dentacoin is revolutionary but it is also inevitable. There is an obvious solution to the problems of various industries and it's just a matter of time until communities implement DCN and reap the benefits thereof.
+Contact
+To reach Dentacoin visit the website dentacoin.com Follow Dentacoin on Twitter: @dentacoin Facebook: https://www.facebook.com/dentacoin/ Join Slack: dentacoin.slack.com Or via email: admin@dentacoin.com
+---Please note that this document does not constitute to be a prospectus of any sort, is not a solicitation for investment or an initial public offering or share/equity offering and does not pertain in any way to an offering of securities in any jurisdiction. Any such offer or solicitation will be made only by means of a confidential offering memorandum and in accordance with the terms of all applicable securities and other laws.
+36
+
+References
+Tim Wu, The Master Switch: The Rise and Fall of Information Empires (2010, Atlantic Books) Chapter One Patrich Murck, ,Who Controls the Blockchain?` (Harvard Business Review, 19 April 2017) <https://hbr.org/2017/04/who-controls-the-blockchain> John D. Halamka, MD, Andrew Lippman and Ariel Ekblaw, `The Potential for Blockchain to Transform Electronic Health Records' (Harvard Business Review, 3 March 2017) <https://hbr.org/2017/03/the-potential-for-blockchain-to-transformelectronic-health-records> Dugan Maddux, MD, FACP, Vice President, Kidney Disease Initiatives,'Cybersecurity and Blockchain in Health Care' (Acumen Physical Solutions, 24 April 2017) https://acumenmd.com/blog/cybersecurity-and-blockchain-in-health-care/ HibBucket,'Artificial Intelligence Blockchain Research and Development' (HubBucket Healthcare Blockchain-HubBlockchain) <http://hubblockchain.com/> Blockchain Technologies,'Smart Contracts Explained' (Blockchain Technologies ) <http://www.blockchaintechnologies.com/blockchain-smart-contracts > Bain&Company: Global Healthcare Private Equity Report. Extract could be found here: <http://www.bain.com/publications/articles/global-healthcare-private-equity-report2015.aspx> World Health Organization: Global Health Observatory data repository <http://apps.who.int/gho/data/view.main.DENTISTS> World Health Organization: Oral Health publications <http://www.who.int/oral_health/publications/en/> Dental Services Market Global Report 2017 <https://www.researchandmarkets.com/research/tlqzbb/dental_services>
+37
+
+

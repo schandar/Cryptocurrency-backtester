@@ -1,0 +1,179 @@
+HPBTMHigh-performance BlockchainWhite Paper
+HPBTMHigh-performance BlockchainWhite Paper
+1
+
+HPBTMHigh-performance BlockchainWhite Paper
+Table of Contents
+1. Project Background................................................................................................................ 3 2. Design Concept ..................................................................................................................... 4 3. Technology Framework.......................................................................................................... 6
+3.1 Technology Features ........................................................................................................ 6 3.2 Consensus Algorithm (DPOS - Delegated Proof-of-Stake Consensus)............................10 3.3 Identity and Authorization Management...........................................................................11 3.4 Status Channel ................................................................................................................12 3.5 Application Services ........................................................................................................13 3.6 Smart Contract System....................................................................................................14 3.7 General Virtual Machine (GVM) Mechanism ....................................................................14 3.8 System Management.......................................................................................................16 4. Governance Framework........................................................................................................16 4.1 HPB Token Introduction (GXN)........................................................................................16 4.2 Crowdfunding Details.......................................................................................................17 4.3 Crowdfunding Allocation ..................................................................................................17 5. Implementation & Iteration ....................................................................................................18 5.1 Development Roadmap ..................................................................................................18 6. Applicable Scenarios & Economic Models ............................................................................19 6.1 Shared Medical Economy ................................................................................................19 6.2 Financial Inclusion ...........................................................................................................20 6.3 Intelligent Big Data ..........................................................................................................21 6.4 Block Chain Integrated System........................................................................................22 7. Cooperative Partners ............................................................................................................22 8. Summary & Outlook ..............................................................................................................23 9. Acknowledgements ...............................................................................................................23
+2
+
+HPBTMHigh-performance BlockchainWhite Paper
+1. Project Background
+After several years of development, blockchain technology has begun to gradually show potential in several domains. However, as an emerging technology, there are still many bottlenecks to be addressed. For example, TPS (Transactions per Second) within blockchain applications are still limited. Another important factor is ease of use restricting the progress of enterprise development, which means there is still no killer block chain apps. Furthermore, there is still no block chain solution to meet highly concurrent business needs.
+Some outstanding representatives of the community are actively promoting blockchain technology, and have made considerable progress in their respective fields. But, due to limitations in technological development, TPS is a problem faced by each platform. TPS 3000 is a common industry bottleneck, preventing blockchain from being established in high value concurrent businesses.
+To sum it all up, the industry needs a platform that supports the requirements of BAT (Baidu, Alibaba, Tencent) users' massively large-scale block chain delivery needs. HPB has arisen with the aim of solving this industry bottleneck. HPB will provide intelligent access to contract services with high frequency access requirements. In addition to a centralized server user experience, it can also support a billion-node, ultra large-scale IoT scenario.
+HPB hopes to eliminate the shame of having no "killer app" for blockchain, create a new blockchain ecosystem, and develop the infrastructure for a true enterprise blockchain world.
+3
+
+HPBTMHigh-performance BlockchainWhite Paper
+2. Design Concept
+HPB is a new blockchain architecture, positioned as an easy-to-use, highperformance blockchain platform. It aims to extend the performance of distributed applications to meet real world business needs. This is achieved by creating an architecture similar to an API operating system. The software architecture provides accounts, identity and authorization management, policy management, databases, and asynchronous communication on thousands of CPUs, FPGAs or clustered program schedulers. This blockchain is a new architecture that can support millions of transactions per second and support authorizations within seconds.
+4
+
+HPBTMHigh-performance BlockchainWhite Paper
+As shown above, the architecture consists of two part: hardware architecture and software architecture. It is a fusion of the HPC (High Performance Computing) block chain
+5
+
+HPBTMHigh-performance BlockchainWhite Paper concept and cloud computing, hardware system with distributed core nodes, HPC supporting universal communication network, and cloud terminal HPC support platform.
+In addition to network management, it supports core node blockchain standard, consensus algorithms and block chain task processing functions, hardware acceleration via core codes, and a software acceleration engine. Through TOE technology, consensus algorithm acceleration, data compression, data encryption and other technologies, it can achieve support access for millions of users. The cloud terminal under this architecture can be a traditional PC, intelligent terminal, and so on. At the same time, the terminal device gains hardware acceleration characteristics.
+3. Technology Framework
+3.1 Technology Features
+To be successful, a high performance blockchain platform must have the following characteristics:
+3.1.1 Open Source
+In the history of software development, the most successful large-scale software has essentially adopted the open source model. The open source model attracts more talented developers, and promotes quicker software iteration. From the commercial perspective, users do not have to pay to use the software, and free usage can attract more attention and improve usability. For software companies, open source reduces costs and allows them to serve users with limited resources. As user scale increases, the business
+6
+
+HPBTMHigh-performance BlockchainWhite Paper can create a corresponding profit model; the subsequent success of the company can then free up more resources to improve the open source software.
+3.1.2 Support Millions of Daily Users
+Applications like Google, Uber, and BAT require handling of millions of active users per day through block chain technology, so a platform that can handle massive amounts of user data are critical.
+3.1.3 Low Latency
+Confirmation within seconds. Timely feedback is the foundation of a good user experience. If the delay is more than even a few seconds, it will greatly affect the user experience, and it may even be unable to meet business needs, thus seriously reducing the competitiveness of the application.
+3.1.4 High Throughput, High Concurrency
+Because applications such as exchanges can only execute operations serially as opposed to in parallel, HPB must provide powerful serial capability.
+For other scenarios, we will provide powerful parallel processing capabilities, parallelization of most tasks, and a combination of hardware and software architectures that allows blockchain TPS to be raised by 2 orders of magnitude.
+HPB uses TOE technology, which aims to accomplish some or all packet processing tasks through a dedicated processor on a dedicated network card. In other words, by using a specialized network card with a TEO chip, it uses four layers of TCP processing to transfer
+7
+
+HPBTMHigh-performance BlockchainWhite Paper
+from the host processor to the hardware accelerator. The end result is accelerated response, enhanced network concurrency, reduced server complexity, and improved node processing performance.
+3.1.5 Acceleration Engine
+The traditional node block chain must support numerous functions on the software level, such as trade confirmations, which consist of broadcasting, transaction confirmation, confirming release of information, etc. The data connections between each node are serially processed, which leads to complex hierarchical network structure, long time delay, and low serial performance, which leads to user experience problems.
+Therefore, HPB is designed around block chain dedicated hardware acceleration units (including hardware and firmware acceleration) and software engine matching (system driver and software interface API hardware acceleration). Through parallel processing ability of CPU, GPU, FPGA and serial ASIC chip, it achieves high performance and high speed concurrent computation.
+The hardware acceleration engine can achieve high concurrent connections, while maintaining support for over 10000 TCP sessions, 10000 parallel sessions, and greatly reduces the number of network layers. It will take over traditional serial processing functions, i.e. transaction data broadcast, unverified blocks, whole network broadcast, transaction confirmation broadcasting, etc. The rate of response for each session as well as session maintenance is greater than 100 times the performance of an ordinary PC node.
+The HPB hardware acceleration engine, system architecture, and processes are described below:
+8
+
+HPBTMHigh-performance BlockchainWhite Paper
+1. System and hardware initialization , access to whole network configuration table entries, establish session, maintain reliable session 2. User initiates transaction request at any node. By accelerating the hardware, it sends signature information to the whole network via parallel broadcast, and also begins to monitor network confirmation status 3. Randomly designated nodes (through DPOS algorithm elected block generation) receives transaction with signature information, packages to form an unconfirmed block, and through accelerated hardware is broadcast network-wide 4. The HPB hardware of each node throughout the network is confirmed and the result is a block confirmation broadcast 5. Node receives the agreed K block acknowledgement message
+9
+
+HPBTMHigh-performance BlockchainWhite Paper 6. Consensus is reached and a complete block is issued. The whole network broadcasts a completed block, and each node updates their ledgers.
+Because the HPB hardware acceleration engine can maintain a large number of conversations with so many nodes, it does not have to wait until a complete block is released. Through statistical transaction confirmation, it pushes forward user confirmation, thus enhancing the user experience.
+3.2 Consensus Algorithm (DPOS - Delegated Proof-of-Stake Consensus)
+The HPB architecture uses the blockchain consensus algorithm DPOS, which is the only one capable of combining the previously mentioned performance requirements. According to this algorithm, the whole network of token holders is able to vote through the system to appoint new block producers. Anyone can participate in block production once elected.
+HPB is expected to produce a new block every 3 seconds. At any point, only one producer is authorized to produce blocks. If a block production fails at any time, then that block is skipped.
+Under normal circumstances, DPOS blocks to not experience any forking, because block producers work together to produce blocks rather than compete. If a block is split, the consensus will automatically switch to the longest chain. Blockchains with more producers will grow faster than blockchains with fewer producers. In addition, no block producers should simultaneously produce blocks on both forks of a blockchain. If it discovered a block producer has done this, it can be voted out.
+10
+
+HPBTMHigh-performance BlockchainWhite Paper
+3.2.1 Transaction Confirmation
+The block chains maintained by the DPOS algorithm are 100% online. That is to say, after an average of 1.5 seconds, a transaction will be written into the blockchain and all outgoing nodes will be aware of the transaction. This means that in only 1.5 seconds, a transaction can be identified as 99.9% confirmed received onto the blockchain.
+3.2.2 Plug-and-Play Consensus Algorithm Module
+The DPOS consensus algorithm can widely support public chains, alliance chains and private chains. If there is a specific business use scenario or specific business needs, HPB plug-and-play consensus algorithm module can flexibly support integrated handover of different consensus algorithms, as well as support a common interface for POS-type consensus algorithms.
+3.3 Identity and Authorization Management
+Identity authentication and authorization is an important basic module for enterprise applications. The HPB framework service layer design supports authentication and authorization of multi-level participants and related resources.
+HPB allows using only a 3 to 32 character long account name to refer to accounts, which is chosen by the account creator. All accounts must be filled with a minimum account balance at the time of creation in order to cover the costs of storing account data.
+11
+
+HPBTMHigh-performance BlockchainWhite Paper
+3.3.1 Role-Based Privilege Management
+Privilege management is chiefly concerned with defining whether or not a particular message is properly authorized. The simplest form of privilege management is to check if the transaction has the required signature, but this implies that the required signature is known. Usually, authority is tied to individuals or groups of individuals. HPB provides a declarative rights management system that allows for high-level account granularity and control for anyone at any time.
+It is essential that authentication and authority management is standardized and separated from the business logic of the application. This makes it possible to develop a tool that manages permissions in a general way, and allows for a wide range of performance optimization.
+Any account can be controlled by any weighted combination of other accounts and private keys. This mechanism creates a hierarchical authority structure that can truly reflect the reality of the organization's rights, and makes it easier than ever for users to control their funds. Multi-user control is the most important factor to strengthen security, and if properly used, it can greatly eliminate the risk of theft through hacking.
+3.4 Status Channel
+HPB should not deploy smart contracts onto the blockchain, but instead uses intelligent contracts on status channels to improve the speed, reliability and scalability of the blockchain. According to current practical applications, the blockchain system cannot completely replace existing systems, and more or less requires the introduction of
+12
+
+HPBTMHigh-performance BlockchainWhite Paper traditional centralized modules. The introduction of status channels is the most meaningful attempt to seal the blockchain system architecture.
+3.5 Application Services 3.5.1 Blockchain APIs
+At the base layer of the blockchain, the system provides a series of blockchain data access and interaction interfaces, and uses JSON-RPC and RESTful API to support various data applications and development languages. It supports multi-blockchain, data query, transaction submission and other blockchain operations. In different business scenarios, the interactive access interface can be further integrated with the privilege control system.
+3.5.2 Application SDKs
+Application SDKs are comprehensive services for development in different programming languages of comprehensive service function interfaces for blockchain operations and functions, packet-based encryption, data signatures, transaction generation, etc. It can be extended to integration of specific business logic functions, and seamlessly support expansion and integration into various business system languages. It will support Java, JavaScript, .NET, Ruby, Python and other SDK languages.
+13
+
+HPBTMHigh-performance BlockchainWhite Paper
+3.6 Smart Contract System 3.6.1 Smart Contract Lifecycle Management
+Each smart contract acts as a yoke on the asset management lifecycle, with submission, deployment, usage, and cancellation completely controlled and managed. Furthermore, with integration into the privilege management mechanism, comprehensive smart contract management is successfully implemented.
+3.6.2 Smart Contract Auditing
+Smart contract auditing is achieved through secure auditing, a combination of automated auditing tools and professional auditors. It goes a step further with automated code review and formal verification, as well as integrated unit coverage testing tools.
+3.6.3 Smart Contract Template
+According to a general business model and processes within different business domains, a general smart contract template is gradually formed, which can support flexible configurations for any kind of business scenario.
+3.7 General Virtual Machine (GVM) Mechanism
+The goal of HPB is to support a variety of virtual machines, and, over time, add new virtual machines as needed.
+14
+
+HPBTMHigh-performance BlockchainWhite Paper HPB smart contract virtual machines are lightweight and support multi-level contracts. They combine the underlying virtual machine with high-level program language analysis and transformation, and flexibly support the basic applications of the virtual machine. Through customized API operation, the external interface of the virtual machine can be realized, and can flexibly interact with ledger data and external data. This mechanism achieves high performance of native code execution when running the smart contract. A GVM supporting different blockchains is also implemented.
+3.7.1 Ethernet Virtual Machine (EVM)
+This virtual machine has been used on most existing smart contracts, and can be used on the HPB system's blockchain. It is feasible that the HPB operating system's blockchain and the EVM contract can run in an internal sandbox, and can interact with other HPB applications with only minor adaptations.
+3.7.2 Ant Virtual Machine (AVM)
+This virtual machine has been used in finance and other industries, and can be used on the HPB blockchain system. Hopefully, when future AVM users run into scenarios requiring high-performance, they can interact with HPB with only small adaptations.
+15
+
+HPBTMHigh-performance BlockchainWhite Paper
+3.8 System Management
+3.8.1 System Configuration
+In the application of distributed ledgers within blockchain systems, through a series of operation mechanisms such as block generation time, block capacity, participation, node restriction, etc., the system can be flexibly configured to a specific range of parameters, as well as operate based on different parameters.
+3.8.2 System Monitoring
+Provides the blockchain system, network, and nodes with comprehensive monitoring and logging visualization applications, real-time abnormal activity alerts and notifications, and supports the specific situations of remote fault recovery and network system restart services. Supports integrated monitoring and expansion according to the requirements of different business areas.
+4. Governance Framework
+4.1 HPB Token Introduction (GXN)
+The HPB network token (GXN) provides practical support tokens for the HPB network, including centralization of social media cooperation, financial data distribution and exchange, business process tracking and reputation evaluation, and a trusted network search and advertising system.
+16
+
+HPBTMHigh-performance BlockchainWhite Paper
+4.2 Crowdfunding Details
+Crowdfunding is divided into 2 phases: Phase 1: Start Date: June 28, 2017, pre-sale phase, with a duration of 3 days. 1 Ether token (ETH) is equal to 1300 GXN, with a total of 8000 ETH to be raised. Phase 2: Start Date: July 5, 2017, ICO phase, with a duration of 3 weeks. During this time, the 1st week's exchange rate will be 1 ETH=1200 GXN, the 2nd week 1 ETH=1100 GXN, and the 3rd week 1 ETH=1000 GXN. The ICO will be completed 8 hours after the ceiling for funding is met (22,000) or after 3 weeks, subject to the prior terms.
+4.3 Crowdfunding Allocation
+Token Allocation: Crowdfunding participants: 36%, ICO public sale, ICO raised funds will be used for project design, research and development, and marketing operations Early participants: 10%, distributed to project community members, contributors, and early investors in early project stages Founding Team and Cornerstone Investors: 20%, lock-in of 1 year, gradually released after the 2nd year, every six months will release 5% Reserve Fund: 19%, which is locked in for 2 years. Thereafter, depending on the development of the community, it may be liquidated.
+17
+
+HPBTMHigh-performance BlockchainWhite Paper Incentive: 15%, to provide incentives for teams, new entrants, and program contributors to grow and develop the community. Fund Allocation: Core development 50%, hardware 5%, security related 10%, operation 10%, marketing 10%, legal 5%, forming join research laboratory with universities and research institutions 10%.
+5. Implementation & Iteration
+5.1 Development Roadmap
+18
+
+HPBTMHigh-performance BlockchainWhite Paper
+6. Applicable Scenarios & Economic Models
+6.1 Shared Medical Economy
+HPB can be used to centralize the health care economy and serve the nation's health care business needs. At present, the medical industry has many problems and pain points, such as: 1) Data silos; institutions cannot easily share information 2) Traditional medical business processing, registration, waiting, payment issues 3) Patient information opacity; disagreement between doctors and patients is rampant, transaction costs per patient are high 4) Existing medical institutions cannot meet the high demands of specific populations
+The Central Committee of the CPC and the State Council issued and implemented the plan of "Healthy China 2030" on October 25, 2016. The outline is to promote the healthy development of China and improve the people's overall health level, according to the Party's Fifth Plenary Session of the 18th CPC Central Committee strategic plan. Some of the content mentions: co-construction and sharing is the basic path of building a healthy China. From both the supply and demand sides, we can coordinate the three aspects of society, industry, and individuals to form a strong force to promote and maintain health.
+HPB is responding to the country's call, and predicts that this is a blue ocean market. Through its own unique characteristics, it can solve the problems of future medical institutions through data, information sharing, and transactions. The service is oriented to
+19
+
+HPBTMHigh-performance BlockchainWhite Paper
+a "B side" and a "C side." B side access is provided through HPB tokens to pay transaction costs, and the C side provides data access licenses and requests data (for example, different hospitals' medical records) and may charge HPB tokens for its transaction costs. At the same time, it ensures validity of transaction data, and through practical high performance characteristics, HPB will play a huge role in helping the entire industry achieve data sharing, data analysis, save resources, and contribute to the country's health management.
+6.2 Financial Inclusion
+Currently, the domestic financial industry uses traditional financial architecture, where each financial institution is its own isolated information system. The future trend of centralization is inevitable. This is a greenfield to be developed, which contains conservative enterprises and customers; nevertheless, the trend of block chain is irresistible. At the same time, the traditional finance industry has certain requirements, such as security, high concurrency, high performance, off-site disaster recovery, etc., which justifies the need to improve block chain technology to solve these problems. The TPS3000 bottleneck is also a limiting factor in advancing this technology.
+The emergence of HPB will promote vigorous development of the industry itself in order to meet the national requirement of IOE policy. High performance and high concurrency HPB transactions will help solve performance problems, block chain data encryption security, distributed data storage, and meet the demands of financial industry customers. Through HPB's combination of hardware and software, the future of these institutions rests with accessing HPB's public chain, which will help with debugging, reduce
+20
+
+HPBTMHigh-performance BlockchainWhite Paper operating costs, and enhance HPB's performance, thus creating the foundation of a perfect ecosystem.
+The HPB team is developing a block chain financing and supply chain system with financial inclusion as its goal. It is actively exploring its HPB public chain use integration within the industry, such as automobile manufacturing research and development of car manufacturing moulds. It is expected to launch its first version in 2017 (Note: the supply chain of automobile manufacturing moulds is a huge market, and each vehicle type commonly uses a mould equivalent to 1 billion RMB).
+Glossary: IOE: Concept created by Alibaba. Its original meaning is, in Alibaba's IT framework, to use their own open source software instead of IBM miniprocessor, Oracle database and EMC storage device. At present the central bank has also issued a document requiring national banking and financial institutions to gradually move towards IOE for security considerations. Automotive mould: Refers to the production mould required to manufacture a car. Steel is the most commonly used material. A single mould has about 30 thousand parts, and in normal automotive R&D, costs 1 billion RMB and above.
+6.3 Intelligent Big Data
+Big data is still a hot sector, but because of cheap data access and privacy violations, has inherent problems in our country. Based on government policy, and along
+21
+
+HPBTMHigh-performance BlockchainWhite Paper national policy guidelines, the government has recently found more than 50 big data companies operating illegally, signaling a change in trends.
+Only by building an ecosystem around financial inclusion, combined with HPB software and hardware capability, smart contracts, data collection, data use, authorization, and intelligent processing to ensure the purity and cohesion of data, can big data truly mature. Through HPB's creation of a good ecosystem, big data can be used to greatly improve data security, authorization, privacy, and availability. Big data mining through wise use of blockchain is a blue ocean. Authorization and transmission of data on a public chain and transaction costs can be solved through HPB tokens.
+6.4 Block Chain Integrated System
+A block chain integrated system is a part of financial inclusion, but it is singled out here because HPB is now in cooperation with commercial banks. They are currently implementing their block chain integrated systems, and has entered the post-testing, production stage.
+Through the building of a block chain integrated system, the mechanism of an industry-wide block chain can be explored, and experience in implementing the future HPB public chain as well as best practices can be developed.
+7. Cooperative Partners
+Throughout the HPB design process, we have had extensive contact with all industry partners, and have listened to their advice. Through timely communication of HPB's design,
+22
+
+HPBTMHigh-performance BlockchainWhite Paper we have been honored to have the energetic support and cooperation of representatives in the financial, insurance, medical and other industries.
+After listening to the design concept of HPB, China's largest financial data company UnionPay has joined as a partner with HPB, with the common goal of technological practice and exploration of financial big data and high-performance blockchain platform. UnionPay Wisdom currently handles 80% of China's banking transaction data, with an annual turnover of 80 trillion yuan. HPB will join hands with China UnionPay to serve all industry partners, including large banks, insurance, retail enterprises, fintech companies and so on.
+8. Summary & Outlook
+HPB is based on universal authentication and long-term practical testing of its conceptual design. It represents the development direction of blockchain technology. HPB aims to contribute to the construction of a high-performance blockchain platform that, through distributed applications to a massive user base, creates real value to its users.
+9. Acknowledgements
+Throughout the HPB design process, we thank not only the work of the HPB core team, but also the contributions and funding of our partners, development communities, and industry organizations.
+We also thank our future participants in the development of the HPB architecture, the technology community, technology and business partners, colleagues, and blockchain
+23
+
+HPBTMHigh-performance BlockchainWhite Paper industry experts. We also sincerely invite technical and business partners to take part in the common cause of development of an open source, high-performance blockchain platform. HPB Core Team 2017/04
+24
+
+

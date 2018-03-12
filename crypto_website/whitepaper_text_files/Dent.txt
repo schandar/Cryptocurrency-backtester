@@ -1,0 +1,498 @@
+White Paper V15
+Roger Haenni / roger@datum.org
+24th June, 2017 - Updated: 29th October, 2017
+
+WHITE PAPER V 14
+IMPORTANT DISCLAIMER
+There are risks and uncertainties associated with Datum and/or the Distributor and their respective businesses and operations, the DAT tokens, the DAT Initial Token Sale and the Datum App (each as referred to in this Whitepaper). You can find a description of the risk related to the Token Sale under the section Legal, which should be read carefully. This Whitepaper, any part thereof and any copy thereof must not be taken or transmitted to any country where distribution or dissemination of Token Sale or Initial Coin Offering like the one described in this Whitepaper is prohibited or restricted. The DAT tokens are not intended to constitute securities in any jurisdiction. DAT tokens are utility token and cannot have a performance or a particular value outside the Datum Platform. Therefore this Whitepaper cannot constitute a prospectus or offer document for investment in securities. This Whitepaper does not constitute or form part of any opinion on any advice to sell, or any solicitation of any offer by Datum Network GmbH to purchase any DAT tokens or give any help in any investment decision. You are not eligible and you are not to purchase any DAT tokens in the Datum Token Sale (as referred to in this Whitepaper) if you are a citizen, resident (tax or otherwise) or green card holder of the United States of America or a resident of the People's Republic of China or South Korea.
+1
+
+WHITE PAPER V14
+datum
+noun 1. singular of data 2. a piece of information
+2
+
+IMPORTANT DISCLAIMER Executive Summary Background Stakeholders Privacy Datum Client Open Data
+Data Consumers Use Cases Smart Contract
+Datum Artifact Structure Data Retention Project Roadmap DAT - The Datum Network Token DAT Token Crowdsale DAT Allocation Overview Datum Budget Datum Foundation Governance User Growth Conclusion Team Advisory Board Acknowledgements Contact The Datum Token, Legal and Crowdsale
+
+WHITE PAPER V 14
+1 5 7 8 8 9 10 11 14 17 18 19 20 23 23 24 25 26 26 27 28 30 31 31 32
+3
+
+General information Knowledge required Risks Important disclaimer Representation and warranties Governing law and arbitration
+
+WHITE PAPER V14
+32 32 33 33 35 36
+
+4
+
+WHITE PAPER V 14
+Executive Summary
+Abstract: The Datum network allows anyone to store structured data securely in a decentralized way on a smart contract blockchain. The DAT smart token enables optional selling and buying of stored data while enforcing data usage rules as set by the data owner.
+Every day we create 2.5 Quintillion bytes of data, and 90% of the world's data today has been created in the last 2 years alone. Data stored grows 4x faster than the world economy and contributes to a substantial shift in economic power and source of economic value.
+A lot of this data is created by individuals or organizations; browsing the internet, interacting on social networks, uploading personal files, syncing devices and shopping online. This data is owned and stored by large private organizations in huge data silos where it is susceptible to selling, tampering, extraction and other exploitation. The originator of the data mostly loses control over its data when signing up to various services such as Facebook, Google, Instagram, Snap, Twitter etc., that offer `free' services in exchange for exploitation of data, e.g. Google's Gmail service reading emails and showing targeted ads as a result.
+Datum proposes a network run on a secure smart contract blockchain that allows all of its users to retake control of their data, not just the personal and habitual data they produce every day, but also data from the (IoT)1 devices that they control.
+Datum encompasses the following key elements:
+A fast decentralized data store allowing users to store structured data securely running on a smart contract blockchain
+The DAT token enabling this data storage and sharing
+The data marketplace, enabling individuals to monetize their data on their terms
+Datum leverages BigchainDB and IPFS to provide an infinitely scalable, decentralized data storage backend.
+Data storage and data sharing is paid for by the DAT token.
+1 https://en.wikipedia.org/wiki/Internet_of_things
+5
+
+WHITE PAPER V14
+The Datum network will consist out of 3 Billion DAT tokens, with 1.53 billion DAT tokens available in a public token crowdsale.
+The Datum network aims to provide entities such as researchers, companies or individuals the most efficient and frictionless access to data while respecting the data owner's terms and conditions. By becoming a dominant data marketplace, Datum aims to revolutionize the existing data market where data creators are rarely paid for the data and the monetization happens by middle men who do not add any value.
+The Datum network will support initiatives that aim to increase control of data by their sources (e.g. individuals). We aim to work towards a future where data is first and foremost owned by their creator (e.g. an individual posting an image) and where the creator can choose to share, monetize or destroy this data based on their own purview.
+This is in stark contrast with current data silos which collect vast amounts of humanities data under restrictive licensing terms, e.g. an individual giving up most rights to their image when posting it on Instagram. We feel that legislation in many regions is being worked on towards giving back more control of user data to the users themselves and feel the Datum network is an important facilitator and technical solution for such a future.
+The Datum network aims to disrupt current data broker model by giving more direct and better value access to users data.2 This in turn empowers users by regaining control of how their data gets used and shared. Users are incentivized to use the Datum network for data storage not only by privacy but also by monetization incentives. The more users using the Datum network the more powerful the momentum becomes, eventually users are able to insist that data is stored and handled through the Datum network.
+Datum can be thought of as a decentralized version of Apple's HealthKit, but for any type of data instead of just healthcare data. HealthKit has led to a massive opening of data by participating apps, however it is stored with a centralized entity, Apple Inc., and is only available within Apple's ecosystem. We expect to see the
+2 https://hbr.org/2017/10/smart-ledgers-can-help-us-reclaim-control-of-our-personal-data
+6
+
+WHITE PAPER V 14
+same rapid adoption effect with the Datum network once it gains critical momentum. Datum network is being built to enable the input of multiple types of data, and allow user control of the said data types.
+Background
+We live in a knowledge economy where data is a strategic asset that allows companies to acquire and maintain their competitive edge. The value of raw data varies from a hundred cents to over several hundred dollars per individual. The more it is enriched, analyzed and leveraged for specialized uses, the more its value increases. Despite the large-scale monetization of personal and business data, the only player in the chain that is currently not getting paid is paradoxically the individual him/her/itself - who happens to be t he source of harvested data. Your personal or corporate data is worth a lot of money. Facebook, Google and co. all happily collect data in return for nothing. This is the chance to gain back control of your data and determine if and when you want to sell it or share it. There is a quote which most certainly define the world we all live in today: "If you are not paying for the product, you a re the product." - Andrew Lewis, 2010. The Datum network model could provide a basic income for everyone by allowing them to monetize their anonymized data. As user of Facebook, Google, LinkedIn, Twitter, Yahoo and similar services - every year you create an excess of US $2,000, created directly from your personal data alone. For corporate entities, the value is even greater. This is only the value represented by data in each of these "data silos", when you connect this data, the richer and wider the information, the more money it is worth. What if you could monetize this data yourself, deciding yourself how much you are willing to share in return for rewards and new opportunities.
+7
+
+WHITE PAPER V14
+There is already a worldwide data market enabled by various data brokers that collect all types of personal data from various databases, Datum is the secure and decentralized alternative. 3
+Stakeholders
+Users Submit data. Data can be personal or business data and collections thereof or data from IOT devices and any other data source. Storage Nodes Provide compute power and storage capacity to store data in the de-centralized network. Storage Nodes are part of the BigchainDB cluster that allows Datum to provide global scale storage of submitted data. Data Consumers Any entity wishing to access data. Users can grant data under their precise terms, either for free or for a fee. DAT Token Holders Govern the Datum network and provide the "fuel" enabling transactions on the Datum network. Datum focuses on empowering the users (the source of data). Datum is Open Source and Free to participate. Fees are paid to store data, access stored data and rewards are paid out for submitting data.
+Privacy
+Each piece of data in the Datum network is marked with usage terms during the encryption. This way the user (the source of the data) can control in what way their data is to be shared and used by others. The usage terms are controlled by the DAT token smart contract.
+3 https://techcrunch.com/2015/10/13/whats-the-value-of-your-data/
+8
+
+WHITE PAPER V14
+Users have full control over privacy settings and can fine tune with whom to share data:
+1. Share disabled 2. Share with specific, identified and known data consumers 3. Share with specific, identified and known data consumers for a minimum fee 4. Share with everyone 5. Share with everyone for a minimum fee
+Datum Client
+The Datum Client empowers users to take control of all their data and optionally share or sell their data through the Datum network.
+The Datum Client is being designed for a large number of various platforms such as mobile and desktop. We are also designing support for embedded device platforms used in IoT devices, electric cars etc. to unlock the value of such device data.
+In the first phase the datum client will be offered as mobile app for iOS and Android.
+Focusing on the following key development goals:
+ Overview of stored data
+ Overview of DAT token holdings
+ Simple privacy controls
+ Detailed data access reports
+ Focused on end user adoption
+9
+
+WHITE PAPER V14
+Full Transparency means users can inspect the data that is being transmitted at any time.
+Traceable Access: Users can trace who accessed their data at any time.
+Open Data
+To allow humanitarian and other legitimate projects access to the data, these can register as projects. The user clients shows currently running projects requesting data access and users can control whether to give access or not based on their decision.
+An example could information from digital health devices to medical institutions and researchers, or IoT devices in case of accidents such as natural disasters.
+Datum - The Data Network
+Datum solves the following key problems. By focusing on data represented as key/value pairs, Datum ensures that availability, latency and query-ability/searchability are preserved and incentivized/rewarded.
+All data is encrypted and protected using AES256-GCM with 256-bit key size for every 128-bit block, ensuring data integrity.
+1. Data Storage a. Decentralized: Not controlled by any single party b. Secure: Encrypted at source and immutable c. Performant: i. Latency ii. Throughput d. Functionally Rich: i. Able to query data ii. Able to search data
+2. Marketplace a. Request data b. Bid for data c. Sell data
+10
+
+WHITE PAPER V 14
+User Specs
+The user (source of data) is looking to solve the following criterias: 1. Secure: D ata is encrypted at source 2. Tamper Proof: Data is immutable 3. Unlock value: Data can be monetized 4. Storage: Decentralized storage 5. Privacy: D ata is stored anonymously 6. Control: User stays in control of critical points such as:
+a. Life of data b. Detail of data c. Future use of data
+Data Consumers
+Data Consumers can request for data. Ultimately, it is down to individual network users to grant access to data. The credibility of data consumers is an important aspect. As such data consumers should be incentivized to build a trusted track record in handling data responsibly. The Datum network puts great importance on "Know your Consumer". While there is an industry focus on "Know your Customer (e.g. YOU), there is hardly anything advocating user's right to know their counterparty. The Datum network fixes this by empowering its users to determine who gets access to their data.
+11
+
+WHITE PAPER V14
+Data Consumers can choose to disclose the following (or nothing):
+1. Identity 2. General Privacy Policy 3. Use of Data 4. Lifetime of Data 5. Datum Network Trust Rating
+Regarding data requests consumers can specify further data specific items:
+1. Use of Data 2. Lifetime of Data
+Data Network Incentives
+The various parties and stakeholders making up the Datum network have different incentives.
+Users:
+1. Control of use of data 2. Secure and infinitely scalable data storage 3. Monetization of data
+Data Consumers:
+1. Direct access to validated and verifiable data 2. Lower costs by eliminating "data broker" middlemen
+Storage Node:
+1. Rewards for hosting data and providing compute power
+Data Validation
+Initially the Datum Network will rely on buyers to validate data and regulate fake or invalid data. However, the data validation mechanism can be implemented going forward and Datum also plans to implement a trust ranking system for all users (this includes owners of data and buyers of data as well as storage node operators).
+12
+
+WHITE PAPER V 14
+1. Users can link their data to their verified identity such as uPort or Civic. 2. Users can enrich their data with social media and other profiles. 3. Users can enrich their data with trusted 3rd party validators. An algorithm based on scientific method consensus, such as DSensor SenseMaking4, can be implemented.
+4 http://dsensor.org/
+13
+
+WHITE PAPER V 14
+Use Cases
+User submits data and gets paid by a consumer;
+1. User submits a piece of data to the Datum Network using the client software. The user pays gas to submit the data. As the data is encrypted, only the user can provide a decryption key to all the interested parties.
+2. A Storage Node receives the data and stores the data. The data is replicated to many other storage nodes.
+3. A Data Consumer declares interest to purchase the piece of data. 4. The User receives a data purchase request with the details such as purchaser and
+price offered. He can agree to the purchase request or counter offer with a modified proposal. 5. The User accepts the proposal, the user receives DAT Tokens and the decryption key is sent to the Data Consumer who pays in DAT Tokens.
+Data can be purchased as one-off, or on an on-going subscription basis. 14
+
+WHITE PAPER V14
+
+Token Economics
+DAT is a utility token that can be exchanged for certain privileges on the Datum Network. Such as participation in the data market and registration as the storage node etc. Tokens exchanged for these activities shall be destroyed, as the supply of DAT is fixed at issuance the net effect of these activities is that the supply of DAT will decrease over time (deflation).
+ Marketplace participation and activity drives spending (destruction) of tokens for privileged services
+Storage Nodes are paid fees for storing and transmitting data.
+
+An overview of the DAT Token role in various processes on the Datum Network
+
+Process
+
+Role
+
+Join Datum Network
+
+Participation Right
+
+Become a Storage Node Participation Right
+
+Become a Data Buyer
+
+Participation Right
+
+Store Data
+
+Value Exchange
+
+Buy Data
+
+Value Exchange
+
+Feature
+Become a user of the Datum Network
+Become a storage node on the Datum Network
+Become a data buyer on the Datum Network
+Pay DAT Tokens to store data
+Pay DAT Tokens to buy data
+
+15
+
+Overview of DAT Tokens flows in the Datum Network
+
+WHITE PAPER V 14
+
+Mechanics of the Token Economy described in this section are under review by our legal counsel and subject to change.
+Storage Nodes
+Storage nodes require 3 resources: 1. Compute Power 2. Storage Capacity 3. Bandwidth
+Storage Nodes are economically incentivized by DAT Token rewards, paid out as a fixed percentage of each transaction and shared amongst storage nodes according to their contribution of resources.
+16
+
+WHITE PAPER V 14
+Smart Contract
+The Datum network smart contract governs the following aspects;
+DAT Tokens are MiniMe enabled and as such allow for upgradeability. 17
+
+WHITE PAPER V 14
+Datum Artifact Structure
+The Datum structure is as follows; 1. Owner a. Can have no owner, one owner or several owners b. Can be encrypted c. Can be public 2. Metadata a. Can be encrypted b. Can be public 3. Time Stamp a. Can be encrypted b. Can be public 4. Data Payload a. Any arbitrary JSON structure
+18
+
+Data Network data storage structure example:
+
+WHITE PAPER V14
+
+Data Retention
+Storing data costs money. As such, Storage Nodes are incentivized to store data, and the following section provides answers on questions around retention, e.g. how long is data stored?
+Datum proposes the following mechanisms;
+Data is stored as long as storage is paid for, by either:  Data Source  Data Consumer
+Different levels of availability and retention:  Backup Safety: How many copies of the data exist in the Datum network  Latency: Where do copies exist  Retention: How long are copies retained
+19
+
+WHITE PAPER V 14
+
+Project Roadmap
+
+The Datum team has one focus: Creating a viable data marketplace in the shortest time possible.
+
+September 2016
+
+Concept Development Founders start exploring large scale data storage for IOT devices in the medical and smart home sector and devise first prototypes of structuring u nstructured d ata.
+
+June 2017
+
+White Paper & Concept Validation With the release of the white paper and the resulting community feedback we have fine tuned the concept and laid out the roadmap for the Datum Network.
+
+August 2017
+
+Pre-Sale & Alpha Version The Presale for the DAT Token started on 11th August 2017, and ended on 8th September 2017. DAT token allows users to participate in the new data economy.
+
+October 2017
+
+Datum Token Sale The Datum Token Sale is planned to launch from 29th October till 29th November or until the hard cap is reached. Datum released an early alpha release of the Datum app before the launch of token sale. The development of the Datum test network continues.
+
+December 2017
+
+Test Network Launch The launch of the Datum test network marks the beta release and will allow basic functionalities to be explored by developers and the community.
+
+March 2018
+
+Release Candidate The feature complete release candidate will be deployed to the test network and undergo intensive testing and bug fixing over the next three months.
+
+20
+
+WHITE PAPER V 14
+
+June 2018 June 2019 September 2020 Summer 2021
+
+Datum Main Network Launch The launch of the initial version of the Datum Main Network marks the start of the new data economy. At this point the Datum Network will consist of the decentralized Storage Layer, the Datum App, Open API's to submit and consume data and a full fledged trading system.
+Data Service Providers To increase adoption of the Datum Network we will release an SDK and support system that allows developers to use the network as a decentralized database for any personal user data collected by their application or service. Developers can become service providers that facilitate storage and monetization of such data and in return take a cut of the data monetization revenue.
+White Label Offering Implementation of an abstraction layer on top of the Datum Network that allows for white label offering of data storage solutions with specific control and governance differences from the public Datum Network. These offerings are targeted at enterprise and government users of the Datum Network that have additional requirements on top of the public network mechanics.
+Complete Developer Ecosystem Completion of functionality on the periphery of the Datum Network that completes a full development stack to store, share, monetize and analyze data, in particular solutions to help with user authorization, data indexing and analysis of stored data while still operating within terms set out by data owners. We will also have completed implementation of a legal framework that ensures storage of personal data in the Datum Network is compliant (and exceeding) standards of data protection within various jurisdictions.
+
+21
+
+WHITE PAPER V 14
+
+Autumn 2022
+
+The Global Data Marketplace At the 5 year milestone we plan to reach over 300M users in over 45 countries, although a continuous effort, we will by now have completed internationalization and localization for these markets. The implementation of a decentralized governance system for the Datum Network is completed and governance is planned to be transitioned to the Datum Foundation and governance decisions made by a quorum of token holders.
+
+22
+
+WHITE PAPER V 14
+
+DAT - The Datum Network Token
+The DAT token facilitates transactions in the Datum network, providing value to the data on the network.
+The DAT token sale will enable full development of the Datum network and provide an efficient, transparent and secure smart contract token to facilitate exchange of data on the network.
+
+DAT Token Crowdsale
+
+Role of Token
+
+Enable trade of data between data owners and buyers
+
+Symbol
+
+DAT
+
+Supply
+
+3,000,000,000
+
+For Sale
+
+1,530,000,000
+
+Emission Rate
+
+No new tokens will be created
+
+Price
+
+25'000 DAT per 1 ETH
+
+Sale Period
+
+29/10/2017 13:00 UTC to 29/11/2017 13:00 UTC
+
+Accepted Currencies ETH
+
+Token distribution 4th December to 11th December 2017
+
+Minimum goal
+
+5000 ETH (raised on 8th September 2017)
+
+Maximum goal
+
+61200 ETH
+
+23
+
+WHITE PAPER V14
+DAT Allocation Overview
+51% of all minted DAT tokens will be offered for purchase by the public under the ticker symbol DAT. The crowdsale will take place on 29th October 2017 at 1 PM UTC (GMT+0) and stay open for 31 days or until the hard cap of 61200 ETH is reached. 75000000 (75 million) DAT Tokens were offered to selected investors and the public as part of a Presale at the DAT Rate of 1 ETH = 10,000 DAT, which started on 11th August 2017 and ended on 8th September 2017. Including bonus offered to presale participants and adjusting for the DAT Rate change at time of main Token Sale (1 ETH = 25,000 DAT) the total amount of Tokens sold in the Presale was 214802742 (214.8 million) DAT Tokens representing ~7.16% of all tokens. 29% of minted DAT tokens will be held in a reserve by the Datum Network GmbH for community initiatives, user growth, business development, academic research, and future market expansion. 20% of raised DAT Tokens will be allocated to DAT core developers, founders and advisors with sales restrictions spread monthly over 2 years as incentive to ensure long term alignments of interest and commitments towards the future value of the tokens.
+24
+
+WHITE PAPER V14
+Datum Budget
+Funds raised will be allocated as follows. To mitigate volatile cryptocurrency markets and to provide Datum Network GmbH with a runway of 24+ months, up to 40% of raised funds will be hedged in USD/EUR/BTC. A budget is outlined below assuming a scenario where the first ceiling of 5000 ETH equivalent has been reached.
+25
+
+WHITE PAPER V 14
+Datum Foundation Governance
+Initially the Datum network governance is handled by the Datum Network GmbH, a limited liability entity incorporated in Switzerland. Longer Term we plan to migrate governance to a DAO empowering users and stakeholders with direct influence and control over the network and its development by transferring network governance to a Non-Profit Foundation registered and supervised by authorities in Switzerland.
+User Growth
+Datum allows anyone to monetize their data on their terms. We plan to leverage this in our user growth strategy. By rewarding users from the very beginning for submitting data we expect to be able to drive accelerated growth. A referral program will provide additional incentives to existing users to spread adoption.
+26
+
+WHITE PAPER V 14
+Conclusion
+Datum will initiate a change in how people think about data. By empowering data creators with a secure way to store and exchange their data, and a vibrant marketplace to monetize this data, a new economic model will be created that empowers consumers instead of large private companies. The DAT token will facilitate compensation of data sources and storage nodes and enable a new era of secure and decentralized data storage and exchange.
+27
+
+WHITE PAPER V 14
+Team
+Our team has over 100 years experience building large scale data processing and management systems. We are based in Switzerland, Singapore and Hong Kong and combine the best of these worlds: Swiss Quality with Singaporean Efficiency and Hong
+Kong's Dynamism.
+
+Roger Haenni
+Co-Founder, CEO
+Tech Wizard & Serial Entrepreneur, 17 years experience in big data systems. Co-Founder of StockX, SwissInvest, PCP.ch and Kosi.
+
+Gebhard Scherrer VC Tran
+Co-Founder, Operations Co-Founder, Marketing
+
+Product and Service Specialist, 20 years experience in operations and sales. Co-Founder of Gelid Thermal Solutions and Arctic Cooling.
+
+Brand and Marketing Expert, 10 years marketing experience taking Gelid from launch to one of the leading CPU Cooler & Fan brands.
+
+Theo Valich
+Head of Growth
+
+Florian Honegger
+Smart Contract Expert
+
+Entrepreneur, 21 years experience in technology, from GPU to supercomputer design. Co-Founder of Space Image Network, Robotic Systems and VR World.
+
+15 years experience as enterprise document and data management architect in automotive, defense and micromechanic sectors.
+
+Vitaly Krinitsin
+Community Manager
+Dreams and bleeds technology, years of experience as community liaison and online marketeer building engaged audiences in Russia and abroad.
+
+28
+
+WHITE PAPER V14
+
+Matt Kimball
+
+Tevon Strand Brown Luis Fernando Varela
+
+Programmer/Designer Blockchain Engineer
+
+Blockchain Engineer
+
+25 years of experience writing data intensive apps and websites, from real-time 3D to maze-solving AI's.
+
+Stanford University '19, B.S. Computer Science with a focus on AI, Blockchain and financial technologies. Developed Data Calculator app.
+
+Stanford University '19, B.S. Computer Science. Software Engineer with a strong interest in AI, blockchain and financial technologies.
+
+Christiana Kuo-chen Alex Yedomski
+
+Chien
+
+Programmer,
+
+Community Management Web-developer
+
+Eugene Kyselov
+Programmer, Front-end developer
+
+Over 15 years customer service experience in high-tech, finance, events & hotel management, international conferences and the educational field.
+
+7 years of experience writing web and mobile applications. Web-developer with a strong interest in front-end technologies.
+
+5+ years of experience in design, development and maintenance of web server-side projects, modules and solutions. Passionate about blockchain and AR technologies.
+
+29
+
+Advisory Board
+
+WHITE PAPER V 14
+
+Chris Miess
+Investment Banking Analyst & Executive
+
+Daniel Saito
+Co-Founder of RIMNET, MySQL K.K., RedRobot
+
+Michael Egorov
+Co-Founder and CTO of NuCypher
+
+Previously CFO at TenX, raising $80M in their Token Sale. Before finding his passion for blockchain Chris was with Goldman Sachs, Deutsche Bank and Morgan Stanley.
+
+Managing Director for MySQL In Asia. Co-Founder of MariaDB (formerly known as SkySQL), Daniel is a seasoned Marketing and Sales Executive with decades of big data experience and crypto.
+
+Proxy Re-Encryption expert and CTO/Co-Founder of NuCypher. In the past, Senior Software Engineer at LinkedIn; PhD in Physics of ultracold atoms
+
+KPMG Switzerland
+KPMG Switzerland was retained as legal counsel and helped with the legal structuring and documents as well as the coordination with regulatory authorities.
+
+30
+
+WHITE PAPER V14
+Acknowledgements
+We would like to express our thanks and gratitude to the numerous people, who have supported us in defining the Datum network vision and strategy.
+Contact
+We love to engage with our growing community, without whom we can not achieve our vision to liberate data and take back data ownership. Talk to us through the following channels: Visit our website at h ttps://datum.org Email us at h ello@datum.org Facebook Twitter Telegram Rocket Chat
+31
+
+WHITE PAPER V 14
+The Datum Token, Legal and Crowdsale
+General information
+In order to fund the development of the Datum ecosystem, token that will be sold to the public, in exchange of cryptocurrencies. The Datum token is a coin, which will allow the User to access the service provided by the Datum platform. User that intend purchase DAT Token are subject to the acceptance of the General Terms & Conditions.
+The Datum token does not have the legal qualification of a security, since it does not give any rights to dividends or interests. The sale of Datum tokens is final and non-refundable. Datum tokens are not shares and do not give any right to participate to the general meeting of Datum Network GmbH. Datum tokens cannot have a performance or a particular value outside the Datum Platform. Datum tokens shall therefore not be used or purchased for speculative or investment purposes. DAT Tokens will not be listed on any regulated stock exchange. Neither these Whitepaper nor any other material relating to the Offer, Datum Network or DAT Tokens will be or have been filed with regard to legal standards such as the Federal Act on Stock Exchanges and Securities Trading law, the Financial Market Infrastructure Act, the Collective Investment Schemes Act, which are not applicable to this token sale Therefore laws and acts that ensure that investors are sold investments that include all the proper disclosures and are subject to regulatory scrutiny for the investors' protection, are not applicable in this case. Every purchaser of the DAT Token should receive proper advice in order to understand whether the purchase of the Token is appropriate for him or not.
+Anyone purchasing Datum tokens expressly acknowledges and represents that she/he has carefully reviewed this white paper and fully understands the risks, costs and benefits associated with the purchase of Datum.
+Knowledge required
+32
+
+WHITE PAPER V14
+The purchaser of Datum tokens undertakes that she/he understands and has significant experience of cryptocurrencies, blockchain systems and services, and that she/he fully understands the risks associated with the crowdsale as well as the mechanism related to the use of cryptocurrencies (incl. storage).
+Datum shall not be responsible for any loss of Datum tokens or situations making it impossible to access Datum tokens, which may result from any actions or omissions of the user or any person undertaking to acquire Datum tokens, as well as in case of hacker attacks.
+Risks
+Acquiring Datum tokens and storing them involves various risks, in particular the risk that Datum Network GmbH may not be able to launch its operations and develop its blockchain and provide the services promised. Therefore, and prior to acquiring Datum tokens, any user should carefully consider the risks, costs and benefits of acquiring Datum tokens in the context of the crowdsale and, if necessary, obtain any independent advice in this regard. Any interested person who is not in the position to accept or to understand the risks associated with the activity (incl. the risks related to the non-development of the Datum platform) or any other risks as indicated in the Terms & Conditions of the crowdsale should not acquire Datum tokens.
+Important disclaimer
+This white paper shall not and cannot be considered as an invitation to enter into an investment. It does not constitute or relate in any way nor should it be considered as an offering of securities in any jurisdiction. This white paper does not include or contain any information or indication that might be considered as a recommendation or that might be used as a basis for any investment decision. Datum tokens are just utility tokens which can be used only on the Datum platform and are not intended to be used as an investment.
+The offering of Datum tokens on a trading platform is done in order to allow the use of the Datum platform and not for speculative purposes. The offering of Datum
+33
+
+WHITE PAPER V14
+tokens on a trading platform does not change the legal qualification of the tokens, which remain a simple means for the use of the Datum platform and are not a security.
+Datum Network GmbH is not to be considered as an advisor in any legal, tax or financial matters. Any information in the white paper is provided for general information purposes only and Datum Network GmbH does not provide any warranty as to the accuracy and completeness of this information.
+Datum Network GmbH is not a financial intermediary according to Swiss law and is not required to obtain any authorization for Anti Money Laundering purposes.
+Acquiring Datum tokens shall not grant any right or influence over Datum Network GmbH's organization and governance to the Purchasers.
+Regulatory authorities are carefully scrutinizing businesses and operations associated to cryptocurrencies in the world. In that respect, regulatory measures, investigations or actions may impact Datum Network GmbH's business and even limit or prevent it from developing its operations in the future. Any person undertaking to acquire Datum tokens must be aware of the Datum Network GmbH business model, the white paper or Terms & Conditions may change or need to be modified because of new regulatory and compliance requirements from any applicable laws in any jurisdictions. In such a case, purchasers and anyone undertaking to acquire Datum tokens acknowledge and understand that neither Datum Network GmbH nor any of its affiliates shall be held liable for any direct or indirect loss or damage caused by such changes.
+Datum Network GmbH will do its utmost to launch its operations and develop the Datum platform. Anyone undertaking to acquire Datum tokens acknowledges and understands that Datum Network GmbH does not provide any guarantee that it will manage to achieve it. They acknowledge and understand therefore that Datum Network GmbH (incl. its bodies and employees) assumes no liability or responsibility for any loss or damage that would result from or relate to the incapacity to use Datum tokens, except in case of intentional misconduct or gross negligence.
+34
+
+WHITE PAPER V14
+
+Representation and warranties
+
+By participating in the crowdsale, the purchaser agrees to the above and in particular, they represent and warrant that they:
+
+· have read carefully the Terms & Conditions attached to the white paper; agree to their full contents and accept to be legally bound by them;
+
+· are authorized and have full power to purchase Datum tokens according to the laws that apply in their jurisdiction of domicile;
+
+·
+
+a re not a U.S. citizen, resident or entity (a "U.S. Person") nor are they
+
+purchasing DAT or signing on behalf of a U.S. Person;
+
+· a re not resident in China or South Korea and nor are they purchasing DAT or signing on behalf of a Chinese or South Korea resident;
+
+· live in a jurisdiction which allows Datum Network GmbH to sell Datum tokens through a crowdsale without requiring any local authorization;
+
+· a re familiar with all related regulations in the specific jurisdiction in which they are based and that purchasing cryptographic tokens in that jurisdiction is not prohibited, restricted or subject to additional conditions of any kind;
+
+· w ill not use the crowdsale for any illegal activity, including but not limited to money laundering and the financing of terrorism;
+
+· have sufficient knowledge about the nature of the cryptographic tokens and have significant experience with, and functional understanding of, the usage and intricacies of dealing with cryptographic tokens and currencies and blockchain-based systems and services;
+
+·
+
+p urchase Datum tokens because they wish to have access to the Datum
+
+platform;
+
+· a re not purchasing Datum tokens for the purpose of speculative investment or usage.
+
+35
+
+WHITE PAPER V14
+Governing law and arbitration
+The Client acknowledges and accepts that the Datum ICO operation is taking place within a Swiss legal environment that is still under development. The Parties agree to seek an amicable settlement prior to bringing any legal action. All disputes arising with the with papers provided, shall be resolved by arbitration in accordance with the Swiss Rules of International Arbitration of the Swiss Chambers of Commerce in force on the date when the Notice of Arbitration is submitted in accordance with these Rules. The arbitration panel shall consist of one arbitrator only. The seat of the arbitration shall be Zug, Switzerland. The arbitral proceedings shall be conducted in English.
+36
+
+

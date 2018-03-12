@@ -1,0 +1,923 @@
+Whitepaper 2.1
+
+Contents
+
+1.0 Abstract
+
+4
+
+2.0 Letter from the CEO
+
+Dr Abdullah Albeyatti
+
+5
+
+3.0 Executive Summary
+
+6
+
+4.0 Introduction - The Healthcare of Today 7
+
+5.0 Medicalchain Solutions -
+
+12
+
+The Healthcare of Tomorrow
+
+6.0 Technical Explanation
+
+13
+
+7.0 A Better System for Care
+
+20
+
+8.0 Token Utilities
+
+25
+
+9.0 Cost Impact Analysis
+
+28
+
+10.0 Token Sale
+
+30
+
+11.0 Timelines
+
+31
+
+12.0 MedToken and Legal Crowdsale
+
+36
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+Disclaimer
+
+PLEASE READ THIS DISCLAIMER SECTION CAREFULLY. IF YOU ARE IN ANY DOUBT AS TO THE ACTION YOU SHOULD TAKE, YOU SHOULD CONSULT YOUR LEGAL, FINANCIAL, TAX, OR OTHER PROFESSIONAL ADVISOR(S).
+The information set forth below may not be exhaustive and does not imply any elements of a contractual relationship. While we make every effort to ensure that any material in this whitepaper is accurate and up to date, such as products, services, technical architecture, token distribution, company timelines - such material could be subject to change without notice and in no way constitutes a binding agreement or the provision of professional advice.
+Medicalchain does not guarantee, and accepts no legal liability whatsoever arising from or connected to, the accuracy, reliability, currency, or completeness of any material contained in this whitepaper. Potential MedToken holders should seek appropriate independent professional advice prior to relying on, or entering into any commitment or transaction based on, material published in this whitepaper, which material is purely published for reference purposes alone. MedTokens will not be intended to constitute securities in any jurisdiction.
+This whitepaper does not constitute a prospectus or offer document of any sort and is not intended to constitute an offer of securities or a solicitation for investment in securities in any jurisdiction. Medicalchain does not provide any opinion on any advice to purchase, sell, or otherwise transact with MedTokens and the fact of presentation of this whitepaper shall not form the basis of, or be relied upon in connection with, any contract or investment decision. No person is bound to enter into any contract or binding legal commitment in relation to the sale and purchase of MedTokens, and no cryptocurrency or other form of payment is to be accepted on the basis of this whitepaper.
+KPMG
+KPMG has been one of our earliest advisors who helped Medicalchain to navigate Switzerland's legal framework. They helped Medicalchain to draft the legal structure for the launch of the Medicalchain token, coordinated contacts with the regulatory authority, obtained the tax ruling before the launch of the token sale and supported Medicalchain in drafting the legal opinion (both legal and regulatory) and in finalizing the legal aspects related to the whitepaper. Finally, they are managing the tax ruling before the authority.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+3
+
+1.0 Abstract
+Thank you for taking the time to read the Medicalchain Whitepaper. This paper is the result of collaboration between doctors, allied health professionals, blockchain specialists, academics and business advisors.
+Medicalchain uses blockchain technology to create a user-focused electronic health record whilst maintaining a single true version of the user's data.
+Medicalchain enables the user to give healthcare professionals access to their personal health data. Medicalchain then records interactions with this data in an auditable, transparent and secure way on Medicalchain's distributed ledger.
+Lastly, Medicalchain is a platform for others to use to build applications that complement and improve the user experience. Users will be able to leverage their medical data to power a plethora of applications and services.
+Medicalchain Whitepaper 2.1 will outline the vision of Medicalchain and the current issues in healthcare, as well as give a brief summary of the blockchain technology used and how Medicalchain is utilising it to address specific issues to make healthcare better for users.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+4
+
+2.0 Letter from the CEO
+Dear Reader,
+Thank you for taking the time to research Medicalchain and read our Whitepaper. This has been a culmination of hard work and dedication from all of the team here at Medicalchain and we would like to proudly share our vision with you all.
+As a medical doctor, I have worked long hours whilst managing expectations and multitasking in order to satisfy tight deadlines. Despite such experiences, nothing had prepared me for the challenge of growing Medicalchain from the ground up. I could not have done this without the support of my Co-Founder and COO; Mo Tayeb. Working side by side, we have selected the finest individuals to join our team to become, what we now know as Medicalchain.
+Our team is a unique one: a perfect blend of clinicians, engineers, developers and visionaries from the world over. We have nine different nationalities representing us, each bringing with them their own personal views and experiences of healthcare in their respective countries.
+The Medicalchain team have the drive and commitment to improve healthcare for those who need it most - the patients.
+Our mission is to improve care for people by placing the patient at the centre of the digital transformation of healthcare.
+We enact this mission by empowering patients with the tools to engage in a more comprehensive healthcare experience, such as accessing their own records on their mobile device, or conducting a consultation via webcam with a doctor anywhere in the world, and by doing so, we can improve people's lives.
+It has been an amazing journey so far, and we are fortunate to have such strong support from the community who has helped to drive us onwards in developing this platform. We are only at the beginning and I truly believe the most exciting times lie ahead. Please continue to follow and support us here at Medicalchain, so that we can truly make a difference in the healthcare industry.
+Best wishes,
+Dr. Abdullah Albeyatti Medicalchain CEO and Co-Founder
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+5
+
+3.0 Executive summary
+
+Medicalchain is a decentralised platform that enables secure, fast and transparent exchange and usage of medical data. We use blockchain technology to create a user-focused electronic health record and maintain a single true version of the user's data.
+
+Medicalchain will enable users to give conditional access to different healthcare agents such as doctors, hospitals, laboratories, pharmacists and insurers to interact as they see fit.
+Each interaction with their medical data is auditable, transparent and secure, and will be recorded as a transaction on Medicalchain's distributed ledger. During this process, the patient's privacy is protected at all times. Medicalchain is built on the permission-based Hyperledger Fabric architecture which allows varying access levels; users control who can view their records, how much they see and for what length of time.
+By empowering users, we can build the future of healthcare together. Medicalchain will be a platform for other digital health applications to develop on; users will be able to sign for these applications and services which are powered by their health data and secured by smart contracts. Medicalchain is currently developing two applications to work alongside the platform: a doctor-to-patient telemedicine application and a health data marketplace.
+
+The telemedicine application will enable users to consult a real doctor remotely (for example, on their phone) for a small fee payable directly to the doctor.
+The Marketplace enables Medicalchain users to negotiate commercial terms with third parties for alternative uses or applications of their personal health data. For example, putting forward their data to be used in medical research. It is intended that Medicalchain and others will contribute many more applications to the platform - helping bring value to all stakeholders.
+Medicalchain's platform will be powered by "MedTokens". We are issuing 500 million tokens, which will be distributed at a rate up to 1 token to $0.25 USD in ETH and/or BTC. These will be offered in a crowd selling process commonly known as an "ICO" or "Initial Coin Offering."
+The contribution period will follow our pre-sale and begin on February 1st 2018. More details on our ICO can be found below on page 31.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+6
+
+4.0 Introduction to the Healthcare of Today
+4.1 Expectations of Healthcare Users
+In today's world, users expect an instantaneous and seamless flow of data. Many industries have adopted, or are beginning to adopt necessary technologies to guarantee their users' expectation for instant information. Unfortunately, the healthcare industry has lagged behind. Legacy systems are burdensome, slow, often vulnerable and have little role for the patient.
+4.2 Fragmented Health Services
+Health data contained in legacy systems is siloed and difficult to share with others because of varying formats and standards. In short, the current healthcare data landscape is fragmented and ill-suited to the instantaneous needs of modern users. As a result of this, stakeholders are incentivised to keep their own records, and no single version of the truth exists.
+4.3 Lack of Patient Centricity (passive user)
+The relationship between healthcare professionals and patients has long been a paternalistic one. In recent times, however, there has been a significant shift of authority.
+Medicine is being democratised and patients are more empowered.
+It is now considered reasonable to seek a second opinion and patients are expected to contribute to decisions made about their treatment choices.
+Even in single-payer system like the UK's National Health Service (NHS), patients have the right to choose where and when they receive their care. Thus, with patient mobility comes the need for information mobility. In order to be provided with the best care patients not only can, but must have control over their own data.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+7
+
+4.0 Introduction to the Healthcare of Today
+
+4.4 Ill-informed Clinical Decision Making (data driven decision making risk of fatalities)
+
+Clinicians rely upon investigations and tests to make
+
+informed decisions about a patient's diagnosis
+
+and possible treatment plan.
+
+Traditionally, an investigation or test should only be requested
+
+Death in the United States
+Johns Hopkins University researches estimate
+
+and arranged if this is going to lead to a different possible
+
+that medical error is now the third leading cause of death. Here's a ranking by yearly deaths.
+
+diagnosis or alternative treatment plan. Unfortunately, even when the results of an investigation
+
+Heart Disease Cancer
+
+or test have returned, these are rarely shared widely with all of
+
+Medical Error
+
+251,454
+
+the health professionals involved Respiratory Disease
+
+147,101
+
+in the patient's care and are normally isolated, or siloed, at the
+
+Accidents
+
+136,053
+
+institution which requested them
+
+Stroke
+
+133,103
+
+originally.
+
+Alzheimer's
+
+93,541
+
+614.348 591,699
+
+The patient's quality of care suffers as a result of this. Other institutions are not aware of a
+
+Diabetes Flu/pneumonia
+
+76,488 55,227
+
+patient's complete history and in turn, this could lead to incorrect
+
+Kidney Disease 48,146
+
+decision making, delays, and
+
+Suicide 42,773
+
+unnecessary costs for the patient or health institution. In the worst
+
+Source: National Center for Health Statistics, BMJ
+
+case, these medical errors can be fatal.
+
+Figure 1: Table showing yearly death rate as per
+
+Research at the American Johns Hopkins Hospital
+
+Johns Hopkins University research in 2016
+
+by Makary et al, 2016 concluded that medical errors
+
+are the third leading cause of death in the United
+
+States and that "most errors represent systemic
+
+problems, including poorly coordinated care."
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+8
+
+4.0 Introduction to the Healthcare of Today
+4.5 Security Risks to Patient Data
+At present, electronic health records (EHR) are stored on centralised databases in which medical data remains largely nonportable. Centralization increases the security risk footprint, and requires trust in a single authority. Moreover, centralised databases cannot ensure security and data integrity, regardless of de-identification and controlled access requirements. Centralised health databases are legally a requirement and necessity in most countries worldwide and therefore require an added layer of technology to improve their portability and security.
+As cybercrime around the world is on the rise, healthcare systems are no exception as shown by recent high profile ransomware hacking. In fact, the healthcare industry has more data breaches than any other sector and medical records are being stolen and passed on.
+"Your medical information is worth 10 times more than your credit card number on the black market."
+Figure 2: Technology News, Reuters, September 24th 2014
+Data security is paramount due to the increased sensitivity of medical data. This was highlighted in early 2017 when a cyber attack struck healthcare institutions around the globe. This highlighted to the public the vulnerability of our healthcare systems to potential threats and a sober warning regarding the inadequacies of the current infrastructure.
+Many have tried to overcome this issue, and it is high on the agenda of governments and a source of frustration for both doctors and patients. A significant component of the challenge focuses on data security.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+9
+
+4.0 Introduction to the Healthcare of Today
+
+4.6 Lack of Transparency
+
+4.62 Insurance Fraud
+
+4.61 Increasing Costs
+For patients and professionals, the present system is incredibly slow, inflexible and woefully opaque. These problems are equally visible throughout the claims process. When a patient needs services (from a provider such as a general practice, a pharmacy or nursing home), health plans are used to determine how much of the cost they will pay. In order to determine this cost, the health plan must validate services received from the provider against the agreement the patient and health plan have, and then share their findings with the provider. This only occurs if the provider is "in-network" with a health plan. For a provider to be considered in-network, a complex agreement needs to be negotiated which adds a significant expense to the provider's administration costs. One part of these costs are Billing and Insurance Related (BIR) costs which include activities such as maintaining benefits databases and keeping records of services delivered. BIR costs are projected to reach $315 billion dollars by 2018 and take up to 3.8 hours for the average physician to navigate.
+On average, this whole process takes between one to two weeks if done electronically and takes three to five weeks by paper. Moreover, this process is rife with places for miscommunication and misunderstanding to occur. For care to actually take place, multiple people need to check multiple archaic agreements against multiple records. The result is an inefficient and opaque process that leaves stakeholders and, ultimately patients feeling confused and sceptical.
+
+Whether you have employer-sponsored health insurance or you purchase your own insurance policy, health care fraud inevitably translates into higher premiums and out-of-pocket expenses for consumers, as well as reduced benefits and coverage. For employers, this increases the cost of providing insurance benefits to employees, which then increases the overall cost of doing business. Moreover, the reality for many patients is that the increased expense as a result of fraud, could mean the difference between affording health insurance or not.
+Fraud by design dictates that false information be represented as fact. A common healthcare fraud involves perpetrators who take advantage of patients, by entering into their health record false diagnoses of conditions they do not have, or of exaggerating conditions they actually do have. This is done so that fraudulent insurance claims can be submitted for payment.
+"The total cost of insurance fraud is estimated to be more than $40 billion per year."
+FBI.gov
+Unless this discovery is made early on, these false or exaggerated diagnoses become part of the patient's documented medical history within the health insurer's records if not in other databases as well.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+10
+
+4.0 Introduction to the Healthcare of Today
+
+4.63 Record Tampering
+Medical records are to be considered not only as medical documents, but also as legal documents. To pass off a rewritten record as contemporaneous is a criminal offence and any retrospective changes have to be clearly marked, dated and signed, and the reason for such changes clearly documented.
+Altering existing medical records, removing records, or adding false records puts a healthcare professional at risk of medicolegal repercussions. Disclosure of authentic and original clinical notes is essential when a claim is brought up, and failure to do so can make a claim indefensible.
+4.7 Telemedicine Market
+Healthcare costs are on the rise around the globe as societies struggle to deal with ageing populations and the rising chronic disease burden. Current models of care delivery, particularly in places like the US and UK, are unsustainable. One trend combating increased costs has been the rise in digital health services. The value of the global digital health market was valued at $80 billion US dollars in 2015 and is expected to increase to over $200 billion by 2020 with a CAGR of 21%.
+Digital health solutions such as Telemedicine will be critical for driving efficiency and reducing costs. The scope of Telemedicine covers referrals, second opinions, education, follow-up care, monitoring, diagnostics and treatments across numerous specialities.
+
+Examples include Telecardiology, Teleradiology, Telepathology, Telepsychiatry, Teledermatology and others. Clearly there is a large market, and benefits include:
+·Improved quality of care ·More time for doctor-patient interactions ·Improved access to consultation ·Reduced costs
+The market is currently dominated by North America and Europe though highest growth is expected in India, China, and Japan in the next few years. There are several challenges to full implementation:
+In 2017, the global telemedicine market was estimated to be worth $23.8 Billion and is projected to exceed $55 Billion by 2021.
+Unfortunately, most modern Telehealth systems are not integrated with the core financial and clinical systems used by healthcare organisations. Data remains within the Telehealth application and requires manual entry later into health records.
+Digitisation promises much potential, but adding an additional silo without incorporating the information does not add value. In order to succeed, systems, devices, and data need to be seamlessly integrated.
+Privacy and security law issues must consider the management of data in non-traditional formats (for example, audio and/or video) and the sharing of data responsibilities encountered.
+To minimize the privacy/security risk of Telehealth encounters, providers require reliable methods for verifying and authenticating the identities of the patient and practitioners. Blockchain solutions are a great tool to overcome these issues.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+11
+
+5.0 Medicalchain Solutions: The Healthcare of Tomorrow
+
+5.1 Medicalchain Dual Blockchain
+
+5.3 Ethereum and Smart Contracts
+
+5.4 Medicalchain as a Healthcare Platform
+
+Medicalchain is built using a dual blockchain structure. The first blockchain controls access to health records and is built using Hyperledger Fabric. The second blockchain is powered by an ERC20 token on Ethereum and underlies all the applications and services for our platform.
+5.2 Hyperledger Fabric
+The Hyperledger blockchain network is permission-based and requires users to sign up to use it. Permissioning on the network is controlled using Hyperledger modelling and access control languages. Hyperledger Fabric is a platform for distributed ledger solutions underpinned by a modular architecture delivering high degrees of confidentiality, resilience, flexibility and scalability.
+Medical information is often highly sensitive, in both a social and legal sense, so a closed blockchain such as Hyperledger Fabric helps to retain the necessary privacy required for such an application.
+Hyperledger Fabric is a better solution for managing access to health records, as it accommodates for multiple layers of permission, meaning the owner of a set of data can control which parts of their data is accessed.
+
+Ethereum is a digital platform where thousands of powerful computers around the world work in harmony to host the Ethereum network. Ethereum's blockchain represents all accounts and transactions made by its users. Every time you send an Ether, the currency of Ethereum, to another user, those computers act as accountants by verifying the validity of the transaction. Once the verification is approved by those "accountants" the money is then transferred to the other user, making transfers secure, transparent and conflict-free.
+Smart Contracts are code held and executed on the Ethereum blockchain. Anything that can be programmed normally can be programmed within the Ethereum network.
+Processes that normally require a professional or notary can be automated and validated by Smart Contracts in a wholly transparent and secure way. For example, the average physician spends 3.8 hours weekly on billing and insurance related activity. Imagine the cost savings if these processes were conducted on Smart Contracts and validated by the Ethereum network.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+Using blockchain technology, Smart Contracts, and our cryptocurrency, Medicalchain provides the infrastructure for digital health applications and services to be built. These applications and services will be seamlessly powered by user's health data. Anyone will be able to develop on Medicalchain's platform and we hope to foster a thriving ecosystem to provide value, reduce costs, and ultimately improve people's lives.
+5.5 Identity management using Civic
+Identity fraud is a massive problem in the world.
+Hackers steal identities and impersonate users to incur huge costs on both users and businesses. To combat this, Medicalchain has partnered with Civic and will use Civic's user authentication services to easily and securely manage the identities of users in a decentralised way. Civic identifies and verifies users using biometrics, which provides a simple and safe way of ensuring user's privacy.
+12
+
+6.0 Technical Explanation
+
+6.1 Participants Definitions and Permissions
+With a plethora of different actors, identity management and access to data is key to Medicalchain's solution. A dynamic system has been developed that identifies actors and gives them the appropriate scope over a health record, contingent on the patient's permission. Below are some examples of read/write permission:
+6.2 Table: Read / Write Permission
+
+Participant Practitioner Patient
+Research institution
+
+Permission
+· Read/Write on permissioned EHRs · Request permission for other Practitioner/
+Institutions to gain Read/Write access
+· Read their EHR · Permission a Practitioner/Institution to
+Read/Write EHR or a portion of their EHR · Revoke permission from
+Practitioners/Institutions · Permission next of kin/emergency
+contact to Read/Grant permission · Write certain attributes to EHR
+ Amount of tobacco consumed daily  Alcohol consumed weekly  Weekly exercise · Ability to integrate IoT data into EHR
+· Read permissioned EHRs
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+13
+
+6.3 Encryption Cryptography
+
+To ensure privacy, health records are encrypted using symmetric key cryptography. The record will be encrypted and stored in a data store within the appropriate regulatory jurisdiction. The symmetric key will be encrypted with the public key of a 2048-bit RSA key pair. Each time an entity is given permission to access the patient's record:
+1. The record is decrypted with the owner's private key
+2. The symmetric key is encrypted with the public key of the authorised user If a user is authorized to access a health record and requests access then the following process takes place:
+
+In the case that a participant's access is removed from a health record:
+1. The symmetric key is decrypted with the private key of the owner of the EHR
+2. The EHR is decrypted using the symmetric key 3. The record is re-encrypted with a new
+symmetric key 4. The symmetric key is encrypted with all the
+remaining authorised users' public keys
+
+Input Data Object
+
+Secure Data Storage
+
+Data Object encrypted and stored in secure data store
+
+Stored Object
+
+Data Object called from storage and unencrypted
+
+Hashing Algorithm
+Original Data Object
+
+Hash of object stored on ledger
+0x e3b0c4
+
+Stored Object
+
+Hash on ledger and hash of stored object compared
+Hash Comparison
+
+Ledger
+
+If hashes match data is served to user
+
+Flagged if compromised
+
+Verified Data Sent To Requester
+
+1. The private key of the requesting user is used to decrypt the symmetric key for the EHR
+2. The decrypted symmetric key is used to decrypt the patient's EHR
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+14
+
+6.0 Technical Explanation
+6.4 Transactions
+Any interactions with health records are recorded as transactions on the network. Transactions are viewable only to the participants associated with the transaction.
+Here are examples of how transactions take place on Medicalchain.
+Patient Granting Access
+· Patient A grants access to EHR to Practitioner A · Practitioner A's ID is added to Patient A's authorized asset on the ledger · Patient A's ID is added to Practitioner A's authorized asset on the ledger · The Symmetric key for the EHR is decrypted with Patient A's private key · Symmetric key is then encrypted with Practitioner A's public key
+Patient Revoking Access
+· Patient A revokes access from Practitioner A · Practitioner A's ID is removed from Patient A's authorized asset · Patient A's ID is removed from Practitioner A's authorized asset · Patient A's private key is used to decrypt Symmetric
+key for EHR which is used to decrypt the EHR · The EHR is encrypted with a new Symmetric key · The new Symmetric key is encrypted with Patient A's public key
+and the public keys of all the remaining IDs that have permission
+Practitioner Referring Patient
+· Practitioner A updates the permissions to allow Practitioner B to access the Patient's EHR.
+· Chaincode will check that Practitioner A has permission on the EHR. · Practitioner A uses its private key to decrypt the EHR's symmetric key · Practitioner B's public key is used to encrypt the Symmetric key · Practitioner B's ID is added to Patient A's authorized asset · Patient A's ID is added to Practitioner B's authorized asset
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+15
+
+6.0 Technical Explanation
+
+6.5 Data Structure
+
+Hyperledger's modelling language will be used to define the domain model for the network. Below are some examples from the .CTO file of how models will be defined and stored on the chain. These are subject to change depending upon different regulations and requirements in order to make the Medicalchain platform HIPPA and GDPR compliant.
+
+Participants
+
+Patient Variable Type String Asset String (Array)
+Asset
+
+Variable ID PersonalDetails authorized
+MedicalRecord
+
+Description
+A unique string (128-bit UUID) Structure defined in asset Array of all participants ID's that have been authorized to read EHR Structure defined in asset
+
+Practitioner Variable Type String Asset String (Array)
+Asset
+
+Variable ID PublicProfile Patient
+MedicalRecord
+
+Description
+A unique string (128-bit UUID) Structure defined in asset Array of all participants ID's that have been authorized to read EHR Structure defined in asset
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+16
+
+6.0 Technical Explanation
+
+Assets
+Personal Details Relationship: Patient (Participant)
+
+Variable Type
+String String String String Int concept Super-Type
+
+Variable
+ID FirstName Last Name EmailAddress Dob Address Owner
+
+Practitioner's public profile Relationship: Practitioner (Participant)
+
+Variable Type
+String String String String Int concept String
+
+Variable
+ID FirstName Last Name EmailAddress Dob Address Identification ID
+
+Array String Super-Type
+
+Qualification Image Url Owner
+
+Description
+Unique ID for asset User's given name User's last name User's email used to sign up Unix timestamp of DOB Defined in Concepts section Extends Patient (Participant) asset
+Description
+Unique ID for asset User's given name User's last name User's email used to sign up Unix timestamp of DOB Defined in Concepts section The assigned number the Practitioner was given when registered with practice Qualifications Practitioner holds Pointer to Practitioners image Extends Practitioner (Participant) asset
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+17
+
+6.0 Technical Explanation
+
+Medical Record
+Variable Type String Super-Type Super-Type Array String Float String
+Concepts
+Address Variable Type String String String String String
+
+Variable ID Owner Author Permissions File Hash Version Pointer
+Variable Number Street City Country Postal/zip code
+
+Description
+A unique string (128-bit UUID) Extends Patient (Participant) asset Extends Practitioner (Participant) asset Array of Participant IDS SHA-256 hash of the latest version of the file Int increments every time a file is updated This points to where the file is in storage outside of the blockchain
+Description
+Number/name of building A unique string (128-it UUID) Extends Patient (Participant) asset Extends Practitioner (Participant) asset Area code
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+18
+
+6.0 Technical Explanation
+6.6 Permission Definitions
+Hyperledger Fabric includes an access control language (ACL), which defines access over the elements of the .CTO domain model above. By defining ACL rules we are able to control which resources participants have access to on the network's domain model. Some examples of these access rules are shown below:
+
+6.7 Medicalchain API Platform
+Medicalchain will offer an API that will permit third parties to obtain and interact with EHRs with the user's permission. All endpoints available in the UI will be available to developers. We hope to cultivate a robust ecosystem of applications and services.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+19
+
+7.0 A Better System for Care
+
+7.1 User Control
+In the current healthcare system, patients have their health information spread over multiple systems, hospitals, networks and potentially countries.
+There are multiple fragmented records from the same patient, held at different institutions all with their own snapshot of the patient's health at the point of their interaction with them, such as blood tests, imaging and clinic letters. Medicalchain will chronologically arrange all of these records and filter them into the specific categories above to aid data handling. Such a categorisation would make the records more accessible and understandable for patients and it will also facilitate researchers in searching for the information relevant to them.
+Medicalchain provides the user, being the owner of their own medical records, full access and control over their data.
+
+Approved clinicians on the Medicalchain platform will have the ability to `read and write' on the patient's records. Moreover, the Medicalchain platform will provide the users with a full log of who has access to their medical data, the time of access and the particular types of data that can be accessed.
+7.2 Data Security
+The Medicalchain system uses a double encryption mechanism on a closed, permission-based blockchain.
+The security of health records is secured beyond any centralised data system currently in use. Patient data is not accessible directly on the blockchain.
+The blockchain acts as a pointer to where patient data is held in an encrypted format, meaning that anyone attempting to intercept patient data will be unable to with the ease that is required to access data existing in any central location.
+
+The user will have the capability to provide differing levels of access to various users, by assigning a set of access permissions and designating who can query and write data to their blockchain, and for how long.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+20
+
+7.0 A Better System for Care
+7.3 User Centric Model
+In the current healthcare system, patients have their health information spread over multiple systems, hospitals, networks and potentially countries. There are multiple fragmented records of the same patient, held at different institutions with their own snapshot of the patient's health during their interaction with them such as blood tests, imaging, and clinic letters. Medicalchain will order and filter all of these records into a chronological order and the specific categories above to aid data handling. Such categorisation would make the records more accessible and understandable for patients, and also facilitate researchers in seeking out the information important to them.
+7.4 Health Data Revolution
+Bold companies like 23 and Me, Fitbit, Apple, Nest, and Qardio are rapidly innovating to expand the frontier of the data that is collectable. We already have remarkable access to anatomic, biological, environmental, genomic, phenomic and physiological data. New ideas and technologies will only move this frontier further. If we can connect these disparate data sources, then caregivers and researchers will have unprecedented insight into patient's lives. Ultimately this will lead to lowered costs, better patient outcomes and better research.
+Medicalchain wants to be at the forefront of this revolution and will seek to integrate as many sources of health data to its platform as possible.
+Medicalchain will start by integrating with Apple HealthKit and common wearables, before moving to add support for diagnostic tests, IoT, and other digital health. Patients and their doctors will have the ability to view this data along with their electronic health record.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+21
+
+7.0 A Better System for Care
+7.5 Patient Safety
+Medicalchain has also developed a backup access system for emergency situations, ensuring patient safety at all times.
+A patient can generally grant or decline healthcare professionals access to their records. However, in the event of an emergency and with the patient incapacitated, there must be an ability to view certain information in order to provide the best possible care.
+The most vital information needed in an emergency would be the patient's name, their next of kin, medications, allergies and any advanced decisions they may have made. Patients using the Medicalchain platform will have the ability to select in advance which areas of their records can be viewed in an emergency situation.
+In the case that the patient is incapacitated or unconscious and unable to grant access to their records, the emergency bracelet the patient is wearing would be scanned to unlock this information. Two clinicians would have to agree that given the situation, access to this information without the patient's explicit consent was clinically in the patient's best interest. To be clear, a patient's entire record would not be unlocked, but only information that would be vital in an emergency situation and the patient had prior agreed to sharing in such a situation.
+To unlock this information, two doctors would need to scan the emergency bracelet the patient is wearing, or their wearable device which would unlock access to these key parts of their medical records.
+This would enable clinicians to provide the best care possible to a patient in an emergency situation based on their pre-authorised sample of relevant data.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+22
+
+7.6 Clinical Application
+7.61 Clinical Communication
+Along with increased access to emergency information, Medicalchain allows clinicians to communicate with each other with ease. When an authorised healthcare professional updates a patient health record, the system will update that record on Medicalchain. Any clinician with authorised access to that record will see the update in real time.
+As health records are updated via Medicalchain for all authorised parties, there is no need for patient data to be manually transferred from system to system. Medicalchain will be usable in any browser on any computer.
+As a result, any doctor with a browser and an internet connection will be able to access the users' documents shared with them. Issues currently associated with interoperability are resolved this way and costs that are associated with the transportation of notes currently undertaken by junior clinicians or administrative staff are cut down on.
+7.62 Borderless Health and Social Care
+With the utilisation of data compliant storage nodes alongside borderless blockchain technology, the user will be able to transport their records with them as they travel. Healthcare services become borderless as telemedicine services allow users to interact with clinicians in other countries. This will be particularly beneficial for frequent travellers and those moving abroad who want to avoid the inconvenience of transferring their health records to their new provider.
+Medicalchain has the vision of one day bringing its platform to developing nations around the world where there is less access to quality care. We believe the ability to carry your health information with you on a mobile phone is powerful.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+23
+
+7.7 Transparency
+7.71 Patients / Users
+In present-day healthcare, there is a lack of transparency between all parties involved. Patients have no immediate access to health records written by medical professionals. Medical professionals are only able to share data quickly within their own organisation or with other health professionals using the same EHR system. Insurance companies are kept in the dark, unless they request patient data which is required for a claim. Researchers are forced to seek anonymised data from multiple intermediaries, which is both costly and timely. The lack of transparency on how patient data is handled also leaves the user unaware of how their data is currently being used.
+7.72 Health Insurance & Transparency Cost Benefits
+Patients are unknowingly and in some instances, knowingly not disclosing their health conditions to insurance companies. As a result of this incorrect information, patients can pay incorrect premiums for years, only to discover that their claims are declined in the scenario they need to make one.
+The verifiability and immutability of health records on Medicalchain's platform allows insurance companies to make a more accurate assessment of an individual's health and health premiums should reflect this.
+By allowing health insurers access to their health records, patients could be rewarded for their transparency in the form of lower premiums.
+Moreover, patients could pledge to a set of health goals with their insurer and be rewarded as they reach milestones associated with those goals. As in turn, a healthier lifestyle works in favour of both the insurer and the patient.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+24
+
+8.0 Token Utilites
+
+8.1 MedToken
+
+8.21 Patient Benefits
+
+Once the patient has access to their own EHR this will enable the following key features to be used in conjunction with the Medicalchain platform:
+8.2 Telemedicine Consultations
+
+From the patient's perspective, the time for seeking a consultation is massively reduced by removing the need to physically attend the doctor's practice. There are many simple ailments that are currently managed over the telephone, but by providing a Telemedicine component we can improve the
+
+Patient controls access of records to doctors when conducting telemedicine consultation and pays the doctor for the consultation with MedTokens.
+
+Telemedicine, an online consultation with a doctor and patient using a webcam interface, is set to be the future of consultations. Medicalchain not only provides this established and successful format of consultation, but will accommodate the doctor by enabling them to interact live with the patient's records during the consultation. Patients would grant access to their records during the Telemedicine consultations, allowing for a more in-depth, informative, and valuable experience for both the patient and doctor. There are also further benefits from the telemedicine experience which Medicalchain delivers.
+Telemedicine platforms available today offer online visual consultations but do not have access to longitudinal health records. Medicalchain offers this unique value and provides patients with privacy controls. Patients will be able to choose the level of detail visible and allocate viewing rights to their chosen doctor for as long as they feel necessary.
+
+patient's experience by facilitating a visual consultation which would be more in-depth and beneficial to both the doctor and the patient.
+8.22 Clinician Benefits
+To attend a doctor's appointment requires a patient to cancel their work in advance or a take their child out of school for the appointment. There is then the waiting time at the clinic in order to see the doctor, often times for a simple request. Telemedicine provides the patient with the opportunity to select a specific time to conduct the consultation at their convenience, encouraging patient choice and freedom. Further, patients are able to choose which doctor they would like to conduct their consultation with offering greater choice and building a relationship between that doctor and patient, whereas perhaps logistically it would not have been possible beforehand if they were based in different cities.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+25
+
+8.0 Token Utilities
+
+The doctor also reaps many benefits from utilising telemedicine by providing the clinician with a flexible working pattern allowing them to conduct consultations from any location with adequate internet connectivity. Medicalchain will provide the doctor access to the patient's health record (with the patient's permission) during the telemedicine consultation. This will also give the clinician the added confidence during the consultation that they are being provided with all of the information they require to suggest appropriate investigations and organise a treatment plan.
+8.3 Health Data Marketplace Control
+
+Pharmaceutical and research companies will also benefit from the changes brought in by Medicalchain. They will be able to seek out patients who have opted into being contacted by researchers so that these institutions can interact directly with the patient. By doing so, companies will no longer need to approach a hospital or clinic and can go straight to the people whose information will be used. Not only will this increase efficiency, but it is a more transparent process that strikes a relationship which is symbiotic and sustainable.
+There would be a few broad categories of data leasing agreements though more are likely to evolve over time. Here are a few we envision:
+
+As with the founding principal of Medicalchain, patients should have control over their health records, and they should also benefit from the potential value that they possess. Medicalchain will connect research institutions with users who are willing to have their health data used in studies in a health data marketplace. Users will be given clear information as to how their data is being used and what data will be required. In many cases anonymised data will be permissible, ensuring the privacy of everyone involved.
+
+· One time leasing. Institutions will use APIs provided by Medicalchain to pull relevant data from participants from our servers.
+· Longitudinal studies. Institutions that need to see data over a period of time will be able to ask users to stream their data. Example: how many steps users have walked per day or what their heart rate looked like today.
+· Collated data. Medicalchain would combine normally disparate data sources and provide easy access to these data sources with user consent.
+
+Patient grants access of personal health data to researchers in return for incentivisation with MedTokens
+In return, participants will be compensated in MedTokens. Patients will be given the ability to unlock the monetary value that their health data holds, they will be more engaged with their health conditions and the next generation of cutting-edge medicine will be empowered.
+
+· Ongoing anonymised data offerings. Users could opt in to have their data anonymised and labelled as accessible to research institutions interested in it. Institutions would have the ability to filter by broad categories (e.g 40-50 year old, 25+ BMI, male) and users would be paid every time their data is accessed.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+26
+
+8.0 Token Utilities
+8.4 Potential Insurance Integration
+Users could allow health insurers access to their health records. In turn, insurers could rest assured that the information they are making decisions upon is trusted, verifiable and patients could be rewarded for their transparency in the form of lower premiums. Moreover, patients could pledge to a set of health goals with their
+Patient grants access to personal health data to insurance companies in return for incentivisation with MedTokens
+insurer and be rewarded as they hit milestones associated with those goals. Regular weight and blood pressure measurement uploads, proof of therapy compliance and attendance at a gym might incentivise rewards from health insurers with lower premiums or rewarding users with MedTokens.
+8.5 Powering Medicalchain's Platform
+Users will be able to pay for a variety of other applications and services that have been developed on Medicalchain's platform. Integrations with a plethora of different healthcare sectors are possible and the above is only the beginning of the revolution that is coming.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+27
+
+9.0 Cost Impact Analysis
+
+9.1 Users
+
+9.2 Clinicians
+
+Whereas typically for a patient to gain access to their medical records, they would need to apply to their service provider and pay all associated administrative fees to have these released to them, with Medicalchain, the user would provide consent to have their data retrieved on their behalf, and stored free of charge on Medicalchain's nodes. Once this has been carried out, the patient would then use the Medicalchain application to have a standardised, single point of access to those records at their discretion, eliminating the need for additional administration fees. Should they lose this data, or need to send original, physical copies at any time, they would grant access to any requesting parties.
+
+For Clinicians on-boarded onto the Medicalchain Clinicians using the Medicalchain platform would have immediate access to conduct Teleconsultations. This will provide an additional revenue stream, meaning they could practice without any overheads other than a computer with internet connection.
+This availability would decrease the chance of cancellations due to patients being unable to physically attend a consultation. Cutting this variable out saves on facility expenses, administration costs and the need for additional staff.
+
+With transportable personal data, the risk is significantly reduced if medical assistance is required away from a users healthcare provider.
+
+Utilising Medicalchain's Teleconsultation platform, users would have dramatically decreased waiting times and costs associated with travel.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+28
+
+9.0 Cost Impact Analysis
+9.3 Healthcare Providers
+There are a plethora of benefits to healthcare providers. First of all, they will benefit from having a more complete picture of a patient's health condition. Medicalchain's single true record will be the sole place providers would need to look for patient data, providing peace of mind and reducing time spent on gathering records. Moreover, providers would benefit from not having to constantly invest to upgrade or upkeep their health record systems.
+9.4 Researchers
+Researchers would have the ability to reach a global audience of patients through Medicalchain's health data Marketplace. This would increase the potential sample size used in research and improve the accuracy of the results. Costs would be reduced by simply pulling the relevant information from a participant's health record, with their consent, instead of the burdensome process of forming research groups and going through health providers for access to health data.
+9.5 Insurers
+Verifiable, immutable data, means that insurance companies will need to spend fewer man-hours checking data, that they can trust the data presented to them, both from the patient granting them access and likewise from the medical professional's notation.
+Similarly, if an insurance company wanted the patient to be completely transparent with them, in order to offer them an accurate premium based on their medical records. They would offer the patient MedTokens and/or offer a cheaper premium as an incentive for their transparency.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+29
+
+10.0 Token Sale
+
+Medicalchain's ICO will be a capped sale raising $24 million (24,000,000) equivalent of ETH and/ or BTC with whitelisted contribution caps. Medicalchain will be issuing 500 million (500,000,000) ERC20 tokens, called MedTokens, to create a new blockchain based healthcare ecosystem.
+These tokens will be offered in a Crowdsale to allow participants to purchase MedTokens early as well as contribute and support the further development of Medicalchain. Starting on 1st February, 2018, participants will have the ability to contribute and receive MedTokens in exchange for their ETH and/ or BTC by sending Ether to a designated address.
+During the ICO MedTokens will be distributed at an exchange rate of 1 token = $0.25 equivalent in ETH and offered before this date at a discount in a pre-sale.
+500 million tokens issued
+31% 35%
+
+Of these 500 million tokens...
+· 35% will be offered in the pre-sale and crowdsale.
+· 34% will be retained by the company, team,
+advisors, founders and future employees. Within this 34%...
+· 10% will have already vested.
+· 12% vests over 2 years.
+· 12% vests over 4 years.
+· Founders: 15%
+· Company development: 8%
+· Team, advisors, early backers: 11%
+· 31% will be retained for community development.
+Medicalchain will use these tokens to help grow an ecosystem on its blockchain by educating others, supporting node holders, bringing partners onto its platform, conducting pilots, and sponsoring industry leading events. This will vest over 4 years.
+
+34%
+community development crowdsale retained by the company
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+30
+
+11.0 Timelines
+
+11.1 Medicalchain to date
+The Story So Far
+Work on Medicalchain started in 2016 when founder Dr. Albeyatti identified an issue with writing clinical notes on patients being discharged out of the hospital and having their care transferred back to their family doctor (general practitioner). These notes, known as "Discharge Summaries" contain a substantial volume of mandatory information that is often written in freeform text by the doctors. The notes are subject to errors. For example, doctors may forget to include vital medical information, such as the correct dosage or course of drug prescription. These errors put the patients' wellbeing at risk, incur raised costs, and represent a liability for the hospital. To address this, Dr. Albeyatti co-founded Discharge Summary with Bara Mustafa.
+First deployed in Leeds Teaching Hospital Trust, UK, the tool was designed to generate accurate and timely notes when patients are sent home. Discharge Summary received a positive welcome and was adopted by junior doctors as well as consultants and other healthcare practitioners.
+Discharge Summary, by improving communication and standardising data, demonstrated to Dr. Albeyatti the power of digital health to lower costs and improve outcomes. He sought to apply this insight to a broader problem: disparate health systems. In short, documents are transferred, often on paper, to other organisations where the exchange of data results in no single version of the truth. Moreover, oftentimes IT systems are not interoperable; they cannot talk to each other let alone use each other's vital data.
+
+Dr. Albeyatti expanded the team by bringing Mo Tayeb, Jay Povey, Robert Miller as well as a combination of medical doctors, allied health professionals, and experts from the blockchain community. Together, the team has developed Medicalchain ­ complementing Discharge Summary and helping to build Dr. Albeyatti's vision.
+Over the past few months, a flurry of work has been completed and Medicalchain has been featured at world-renowned forums such as the Financial Times Digital Health Summit, Blockchain Labo, and the Technology Innovation. The work to date has resulted in a public Beta, which will be released in February, as well as several key partnerships. One thing is for sure: Medicalchain is leading the way in blockchain applications in healthcare and digital health's role in our daily lives.
+11.2 Current Developments
+The proof of concept is in its final phase and the development is now focused on design and UX/UI experience.The core of the application, Medicalchain's secure API and blockchain, is ready for the release of the Beta. The nodes setup and operated during the Beta are run by Medicalchain, but over time Medicalchain will include other nodes onto its network. Several of these conversations are underway already with hospitals, universities and non-profit organisations.
+11.3 Collaborative Design
+To enhance the user experience of Medicalchain a range of global advisors have been selected to work on specific use cases. Expert patients, doctors, health professionals, health providers, insurance and pharmaceutical companies will take part in system design consultation with blockchain developers. The Beta release with enable testing of each use case, with the trialling community providing feedback via the platform.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+31
+
+11.4 Roadmap
+
+Conceptualisation of ideas. Development started on Discharge Summary
+
+jan feb
+
+Cardiology department identified as good starting point to cultivate idea
+First release of Medicalchain prototype
+Medicalchain joins Hyperledger and Linux Foundation Medicalchain showcased at
+FT Digital Health Summit NYC
+
+dec
+
+jan feb
+
+mar
+
+apr Discharge Summary website launched
+may DS launched with Leeds Teaching Hospital trust
+jun
+
+jul
+
+aug
+
+sep DS launched with Queen Elizabeth Hospital
+
+oct DS launched with University Hospital Lewisham
+
+nov
+
+Medicalchain is nominated top 10 in Europe
+
+for Accenture healthtech Challenge
+
+dec
+
+Medicalchain is nominated top 20 in the
+
+world for H-Farm Health Accelerator Competition
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+32
+
+11.4 Roadmap
+
+Closed beta platform launch Doctor and patient enrollment for Telemedicine application
+US and UK pilot completed and collected data and feedback analysed with
+improvements made to the platform Wearable devices integrated
+into the Medicalchain platform
+China, Japan and South Korea Medicalchain pilots all completed and platform ready for worldwide launch
+
+jan
+
+feb
+
+DS launched with Princess Royal hospital
+
+mar
+
+Medicalchain set to present
+
+at European Parliament
+
+apr
+
+Medicalchain establishing links
+
+with world class universities
+
+may
+
+jun
+
+jul
+
+Medicalchain Emergency
+
+bracelet introduced into the pilots
+
+aug
+
+sep
+
+oct
+
+Pilot to be launched in China,
+
+Japan and South Korea
+
+nov
+
+dec
+
+2019 jan
+feb
+
+mar
+
+Phased roll out of fully
+
+functioning Medicalchain platform
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+33
+
+11.5 Route to market
+
+The identified actors that will require initial onboarding include:
+· Patients / Service Users · Clinicians · Non-Profit Node Services · Research Institutes / Pharma
+Expert patients have expressed great interest in the benefits of owning and managing their own health records. We are working with several disease-specific organisations to onboard experienced healthcare users to test the collation of data processes, alongside the user interface.
+Medicalchain has several community campaigns running, on a variety of platforms to raise awareness of the project and the benefits of blockchain for healthcare users.
+Communication platforms include:
+· Global Events · International Press Releases · Sponsored Meetups · Telegram · Email Campaigns · Linkedin · Reddit · Twitter · Bitcoin Chat · LINE · WeChat · Kakao Talk
+
+Communication to users is focused on safety and security of patient data. Education on blockchain technology is seen as a priority, to raise awareness, gain trust and influence adoption of Medicalchain. Innovators and early adopters will be the primary target market for system trials. Influential users that witness the benefits of Medicalchain will be the main catalysts for further patient onboarding. As we continue with awareness and onboarding campaigns, Medicalchain will offer a service where it will request healthcare records for consenting users. Our legal team are working with system developers to build API integration compliant with various international regulations. We acknowledge that some countries may have barriers to the decentralization of data and we are working with others to negotiate these barriers.
+The data migration process would require a user to complete a short form of consent, highlighting the providers they wish to obtain records from who they had previously visited.
+Physical documents will be scanned and mined for information which will then be encrypted and uploaded to data lakes. Electronic records will be standardised, encrypted and uploaded.
+Medicalchain is approaching clinicians individually and at an organisational level. This multilevel approach will allow for forward-thinking health providers to test the Medicalchain platform throughout their service but does not exclude innovative autonomous healthcare professionals. We will work alongside clinicians to test the pilot with consenting patients and assist providers with patient-targeted marketing material to improve user adoption.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+34
+
+11.5 Route to market
+
+The key incentives for clinical onboarding include:
+Cost savings: Decreased need for repeat diagnostics, decreased administrative costs for record retrieval/ transportation, decreased risk of errors associated with inaccurate or unobtainable medical records.
+Increased revenue: Access to global patients when completing chargeable telemedicine consultations complete with simultaneous up-to-date healthcare records.
+Non-profit organisations with the required compliance documents and experience in handling sensitive data, will have the opportunity to partner with Medicalchain. Organisations will be incentivised to act as secure nodes for holding encrypted health data.
+The key incentives for node onboarding include:
+Financial incentivisation: MedTokens will be used to support the maintenance of the node as well as incentivise the hospital, university and/or non-profit organisation to continue acting as a node.
+Public relations opportunity: To be a node for Medicalchain and part of an international community of healthcare providers. An opportunity to be a leader in the future of healthcare and become involved in blockchain technology.
+Research Institutes / Pharma Medicalchain is currently in discussion with several large pharmaceutical and health research organisations. These organisations will have the ability to request data from cohorts of users on Medicalchain's platform, and with their consent, use their health records for research.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+35
+
+11.6 Looking forward
+Medicalchain has ambitious goals for the future.
+We want to improve people's lives by building the digital infrastructure for the healthcare of the future.
+We're looking for driven people or organizations to help us realize that vision. If you're interested in joining our team or in building on your platform then please reach out to contact@medicalchain.com.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+36
+
+12.0 MedToken Legal and Crowdsale
+
+12.1 General Information
+
+12.3 Risks
+
+The MedToken does not have the legal qualification of a security, since it does not give any rights to dividends or interests. The sale of MedTokens is final and non-refundable. MedTokens are not shares and do not give any right to participate to the general meeting of Medicalchain SA. MedToken cannot have a performance or a particular value outside the Medicalchain SA network. MedToken shall therefore not be used or purchased for speculative or investment purposes. The purchaser of MedToken is aware that national securities laws, which ensure that investors are sold investments that include all the proper disclosures and are subject to regulatory scrutiny for the investors' protection, are not applicable.
+Anyone purchasing MedToken expressly acknowledges and represents that she/he has carefully reviewed this white paper and fully understands the risks, costs and benefits associated with the purchase of MedToken.
+12.2 General Knowledge
+The purchaser of MedToken undertakes that she/he understands and has significant experience of cryptocurrencies, blockchain systems and services, and that she/he fully understands the risks associated with the crowdsale as well as the mechanism related to the use of cryptocurrencies (incl. storage).
+Medicalchain SA shall not be responsible for any loss of MedToken or situations making it impossible to access MedTokens, which may result from any actions or omissions of the user or any person undertaking to acquire MedTokens, as well as in case of hacker attacks.
+
+Acquiring MedToken and storing them involves various risks, in particular the risk that Medicalchain SA may not be able to launch its operations and develop its blockchain and provide the services promised. Therefore, and prior to acquiring MedTokens, any user should carefully consider the risks, costs and benefits of acquiring MedToken in the context of the crowdsale and, if necessary, obtain any independent advice in this regard.
+Any interested person who is not in the position to accept or to understand the risks associated with the activity (incl. the risks related to the non-development of the Medicalchain SA platform) or any other risks as indicated in the Terms & Conditions of the crowdsale should not acquire MedTokens.
+12.4 Disclaimer
+This white paper shall not and cannot be considered as an invitation to enter into an investment. It does not constitute or relate in any way nor should be considered as an offering of securities in any jurisdiction. The white paper does not include nor contain any information or indication that might be considered as a recommendation or that might be used to base any investment decision. This document does not constitute an offer or an invitation to sell shares, securities or rights belonging to Medicalchain SA or any related or associated company. The MedToken is just a utility token which can be used only on the Medicalchain SA platform and is not intended to be used as an investment.
+The offering of MedToken on a trading platform is done in order to allow the use of the Medicalchain SA platform and not for speculative purposes. The offering of MedToken on a trading platform is not
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+37
+
+12.0 MedToken Legal and Crowdsale
+changing the legal qualification of the token, which remains a simple means for the use of the Medicalchain SA platform and is not a security.
+Medicalchain SA is not to be considered as advisor in any legal, tax or financial matters. Any information in the white paper is given for general information purpose only and Medicalchain SA does not provide with any warranty as to the accuracy and completeness of this information. Given the lack of crypto-token qualifications in most countries, each buyer is strongly advised to carry out a legal and tax analysis concerning the purchase and ownership of Medicalchain's according to their nationality and place of residence.
+Medicalchain SA today is not a financial intermediary according to Swiss Law and is not required to obtain any authorization for Anti-Money Laundering purpose. This qualification may change in case Medicalchain SA will offer services which are to be considered as qualifying a financial intermediation activity. In this case, the use of Medicalchain SA services may require the positive conclusion of an AML/KYC identification process.
+MedTokens confer no direct or indirect right to Medicalchain SA's capital or income, nor does it confer any governance right within Medicalchain SA; a MedToken is not proof of ownership or a right of control over Medicalchain SA and does not grant the controlling individual any asset or share in Medicalchain SA, or in the Medicalchain SA network. A MedToken does not grant any right to participate in control over Medicalchain SA's management or decision-making set-up, or over the Medicalchain SA network and governance to the Purchasers.
+Regulatory authorities are carefully scrutinizing businesses and operations associated with cryptocurrencies in the world. In that respect, regulatory measures, investigations or actions may impact Medicalchain SA's business and even limit or prevent it from developing its operations in the future. Any person undertaking to acquire MedToken must be aware of the Medicalchain SA business model, the white paper or terms and conditions may change or need to be modified because of new regulatory and compliance requirements from any applicable laws in any jurisdictions. In such a case, purchasers and anyone undertaking to acquire
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+38
+
+12.0 MedToken Legal and Crowdsale
+MedToken acknowledge and understand that neither Medicalchain SA nor any of its affiliates shall be held liable for any direct or indirect loss or damage caused by such changes. Medicalchain SA will do its utmost to launch its operations and develop the Medicalchain SA platform. Anyone undertaking to acquire MedToken acknowledges and understands that Medicalchain SA does not provide any guarantee that it will manage to achieve it. On concluding the Commercial Operation, these tokens will be issued by a technical process referred to as a «Blockchain». This is an open source IT protocol over which the Company has no rights or liability in terms of its development and operation.
+The token distribution mechanism will be controlled by a Smart Contract; this involves a computer program that can be executed on the Ethereum network or on a blockchain network that is compatible with Smart Contract programming language. They acknowledge and understand therefore that Medicalchain SA (incl. its bodies and employees) assumes no liability or responsibility for any loss or damage that would result from or relate to the incapacity to use MedToken s, except in case of intentional misconduct or gross negligence.
+MedTokens is based on the Ethereum protocol. Therefore, any malfunction, unplanned function or unexpected operation of the Ethereum protocol may cause the Medicalchain SA network or Medicalchain SAs to malfunction or operate in a way that is not expected. Ether, the native Ethereum Protocol account unit may itself lose value in a similar way to MedTokens, and also in other ways.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+39
+
+12.0 MedToken Legal and Crowdsale
+
+12.5 Representation and warranties
+By participating in the crowdsale, the purchaser agrees to the above and in particular, they represent and warrant that they:
+· have read carefully the terms and conditions attached to the
+white paper; agree to their full contents and accept to be legally bound by them;
+· are authorized and have full power to purchase MedToken
+according to the laws that apply in their jurisdiction of domicile;
+· are not a U.S. citizen, resident or entity (a "U.S. Person") nor are
+they purchasing Medicalchain SA or signing on behalf of a U.S. Person;
+· are not resident in China or South Korea and nor are they
+purchasing MedToken or signing on behalf of a Chinese or South Korean resident;
+· live in a jurisdiction which allows Medicalchain SA to sell
+MedToken through a crowdsale without requiring any local authorization and are in compliance with the local, state, and national laws and regulations when purchasing, selling and/or using Medicalchains;
+· are familiar with all related regulations in the specific jurisdiction
+in which they are based and that purchasing cryptographic tokens in that jurisdiction is not prohibited, restricted or subject to additional conditions of any kind;
+· will not use the crowdsale for any illegal activity, including but
+not limited to money laundering and the financing of terrorism;
+· have sufficient knowledge about the nature of the cryptographic
+tokens and have significant experience with, and functional understanding of, the usage and intricacies of dealing with cryptographic tokens and currencies and blockchain-based systems and services;
+· purchase MedToken because they wish to have access to the
+Medicalchain SA platform;
+· are not purchasing MedToken for the purpose of speculative
+investment or usage.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+40
+
+12.0 MedToken Legal and Crowdsale
+12.6 Governing law ­ Arbitration
+The Client acknowledges and accepts that the Medicalchain SA ICO operation is taking place within a Swiss legal environment that is still under development. The Parties agree to seek an amicable settlement prior to bringing any legal action. All disputes arising with the with papers provided, shall be resolved by arbitration in accordance with the Swiss Rules of International Arbitration of the Swiss Chambers of Commerce in force on the date when the Notice of Arbitration is submitted in accordance with these Rules. The arbitration panel shall consist of one arbitrator only. The seat of the arbitration shall be Lugano, Switzerland. The arbitral proceedings shall be conducted in English.
+MedTokens will not be listed on any regulated stock exchange, such as SIX Swiss Exchange, or SIX. These Terms have been prepared without regard to the legal standards for prospectuses under art. 1156 or art. 652a of the Swiss Code of Obligations or the legal standards for facilitated prospectuses under art. 5 of the Collective Investment Schemes Act ("CISA") or art. 27 ff. of the SIX Listing Rules or the listing rules of any other stock exchange in Switzerland.
+Neither these Terms nor any other material relating to the Offer, Medicalchain SA or MedTokens will be or have been filed with or approved by any Swiss regulatory authority. Specifically, these Terms will not be filed with, and the Offer of MedTokens will not be supervised by, the Swiss Financial Market Supervisory Authority FINMA (FINMA). Furthermore, the Offer of MedTokens has not been and will not be authorized under the CISA. Thus, the protection which is given to purchasers of interests or units in collective investment schemes under the CISA does not extend to purchasers of MedTokens.
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+41
+
+Copyright © 2018 Medicalchain. All rights reserved
+
+

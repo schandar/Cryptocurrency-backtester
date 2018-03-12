@@ -1,0 +1,208 @@
+a new cryptocurrency
+
+STK GLOBAL PAYMENTS
+DECEMBER 2017
+
+WHITEPAPER 1
+
+ABSTRACT
+The STK token will enable real time point of sale (POS) transactions directly from users' private cryptocurrency wallets. We predict the ability to make purchases in-store and online using cryptocurrencies will speed up mass adoption of the technology. The STK token is part of a global solution to facilitate borderless transactions. To make instant payments at point of sale from a blockchain wallet requires we do a real-time exchange of cryptocurrency into fiat. The STK token provides access to our state channels which a) ensure there is sufficient cryptocurrency (i.e. Bitcoin, Ether) in the digital wallet and b) users spending fiat at point of sale will complete the purchase from their cryptocurrency assets. STK automatically opens a state channel between each user and STK's own wallet. STK tokens fund the transaction, much like gas funds Ethereum transactions. The first implementation will be with STACK's digital wallet. STK tokens will be implemented on the public Ethereum blockchain and adhere to the ERC20 protocol.
+2
+
+PROBLEM STATEMENT
+To date, cryptocurrency has yet to gain mainstream adoption. The last barriers to mass market adoption will be removed when cryptocurrencies become embedded into everyday commerce. An estimated $22 trillion1 of consumer spending takes place annually between shoppers and merchants. Local/national currencies are used to pay for everything from your cup of coffee every morning to your weekly grocery run. What if you could pay for your cup of coffee with Bitcoin or Ether? Without requiring the merchant to change their point of sale equipment, STACK is enabling ubiquitous merchant acceptance of cryptocurrencies. This will greatly accelerate the adoption of cryptocurrency and tapping into the existing ecosystem of global commerce.
+VISION
+STK Global Payment's vision is to create a globally accessible alternative to traditional banking, allowing you to store your money safely, access it instantly and transact with it anywhere, in any currency including crypto by using the STK token, right from your smartphone, using the STACK app. Creating a digital wallet as a companion to a traditional card solution, the STACK app enables you to use any of your currencies at point of sale, anywhere in the world.
+STK WILL BE A PLATFORM THAT WILL FACILITATE REAL-TIME CRYPTOCURRENCY TRANSACTIONS AT POINT OF SALE.
+3
+
+CURRENT LIMITATIONS OF BLOCKCHAIN SETTLEMENT
+Because very few merchants accept cryptocurrencies at point of sale or online, consumers must exchange cryptocurrencies into their local currency to make everyday purchases. Through any existing exchanges this can be time consuming, and comes with sizeable fees. Though some companies have made products that enable retailers to accept Bitcoin payments, they are currently available at only a tiny number of locations.
+Our goal is for this exchange to occur in real time, anywhere credit cards are accepted, and with fees comparable to transaction costs on Ethereum. At present, the confirmation time for Bitcoin transactions averages 10 minutes2, far too long for point of sale purchases. Ethereum transactions are faster, at an average time of 24 seconds, but even this is too slow for point of sale.3 Furthermore, neither the merchant nor the local currency provider are willing to wait the required amount of time for the transaction to be confirmed on the blockchain, which is critical to protecting both parties against fraud.
+STK SOLUTION: STK STATE CHANNEL AND STK TOKEN
+There is a two-pronged problem that the STK solution will solve:
+1) A lack of merchant acceptance of cryptocurrency. STACK has partnered with an existing payment network that will allow the cryptocurrency wallet to be used at 39 million merchant locations.4
+2) Payments at point-of-sale must complete in near-instant time. Rather than writing each payment transaction to the blockchain, STACK, will create State Channels between the customer and STACK. These channels are an established way to provide real time transaction guarantees on the blockchain. Once this is done, customers' transactions will be funded through STK's liquidity pool to make point of sale purchases instantly.
+To use this system, the user is required to hold a STK token which grant access to the STK State Channel and will be limited to those who have STK tokens.
+4
+
+STK IS A SOLUTION THAT CAN BE IMPLEMENTED GLOBALLY, WITH THE FIRST IMPLEMENTATION OCCURRING WITH STACK
+In order for users of the STACK wallet to transact in real-time, the STK solution will be integrated into the STACK digital multi-currency wallet. This functionality can only be accessed with a STK token. The STK token will be used to pay for the operating cost of setting up the State Channel. Because STK tokens can change in value, the price per transaction is calculated similarly to how gas prices are on Ethereum.
+5
+
+STATE CHANNELS
+State Channels are a technique for making off-chain transactions with the same security guarantees as an onchain operation. State Channels allow us to conduct blockchain interactions as if they were being conducted on-chain, but require only that two or more users exchange information with each other5. Participants in a State Channel may exchange a large number of transactions between one another instantaneously, requiring an on-chain operation only when the channel is closed. State Channels provide the speed required for STACK's point-of-sale purchase mechanism: at the moment of purchase, the user sends STK tokens to STACK in exchange for STACK using their liquidity pool to make a fiat purchase through the global payment network. This is a cost effective approach to enabling transactions.
+HOW DOES THIS WORK IN PRACTICE?
+Step-by-step process: 1. Creating a State Channel:
+The user loads their STK token into the STACK mobile wallet, which authorizes the creation of a State Channel with the STK platform. Both the user's device and STACK keep a local copy of the current state of the channel. Creation of a state channel requires an on-chain operation.
+(continued on the next page)
+6
+
+2. Conducting Transactions and State Changes: When the user initiates a point of sale transaction using STACK, they receive a visual prompt in the STACK wallet showing the value of the transaction, similar to using traditional tap-to-pay mobile applications. Behind the scenes, the user authorizes a transaction to send the equivalent cryptocurrency to the STK platform.
+Almost immediately, the STK platform receives the signed transaction, counter-signs and stores a copy of that new state off-chain. STK then authorizes its local currency account to pay the requested purchase through its global payment network rails on behalf of the user. Because the transaction occurs off-chain, there is virtually no delay except for a small amount of computation time and network latency.
+3. Keeping Funds Ready: So long as the State Channel is open, there are no fees for conducting any number of transactions between the user and STK. Moreover, there is no fee for keeping the channel open.
+4. Withdrawing Funds: If the user wants to retrieve all or part of their STK token in the channel that has not been sent to STK, they can do so by withdrawing their funds. The user signs and publishes a withdrawal request, which requires an on-chain operation. It is possible to make partial withdrawals, so the user is always secure in being able retrieve his or her ether while still keeping the channel open for future transactions with the STK network.
+5. Closing: To close a State Channel, one of the parties signs and publishes a close request to the State Channel. This initiates a period during which either party can submit their most recent transactions, which determines the final state of the state channel.
+7
+
+WHAT IS STACK?
+STACK is an alternative to traditional banking with a better way to spend, save and share your money, fee-free and straight from your mobile. Our app provides its members with smart solutions to personal finance, with features like real time notifications, effortless savings, financial IQ and mobile tap-to-pay functionality. STACK is creating a community of users who celebrate the moments that matter most by sharing stories of transactions on the STACK World Stream. The STACK wallet is a working product that currently is in private beta with a waiting list of 20,000 people.
+STACK accesses a global payment network that enables worldwide acceptance of the STACK wallet around the world. The STACK wallet is a container for 10 sub-accounts that can hold up to 10 distinct currencies ­ both local currency and crypto.
+
+COMPETITIVE LANDSCAPE
+Unlike other crypto payment solutions, STACK also provides alternative financial services in local currencies. Our digital local currency account is a gateway to widespread cryptocurrency adoption, pairing it with access to mainstream financial services and smart new features on a simple, user-friendly platform. Currently STACK is in beta, and mobile tap-to-pay functionality is already built in.
+
+GLOBAL PAYMENT RAIL MOBILE TAP-TO-PAY EXISTING SOLUTION
+
+STACK
+
+COMPETITORS
+
+COMPLETE
+
+IN PROGRESS
+
+NO MENTION
+
+INCLUDES PAY, MCO, MTL. Based on publicly available information as of Sept. 18, 2017
+
+8
+
+TOKEN GENERATION EVENT
+In order to further develop and promote the STK platform, STK will conduct a token generation event that will offer for sale 275,000,000 STK tokens out of a 500 million total supply. The proceeds of the TGE will be used for marketing, solution development (both iOS and Android), integration of STK with STACK and the operation of crypto to local currency exchange. The remaining will be reserved for the liquidity pool, bounty programs and referrals. Any unsold tokens will be burned.
+For token sale pricing and timing, visit us at: https://stktoken.com
+
+TOKEN ALLOCATION:
+55% sold to public as part of token sale 25% held in reserve by STK Global Payments in order to fund future transactional costs and to expand liquidity pool required for future growth and exansion 10% founders and team
+5% advisors
+5% costs of token sale
+
+USE OF FUNDS:
+55%
+Marketing and customer acquisition
+
+20%
+
+20%
+
+Solution Development
+· Crypto to Fiat Exchange Platform · iOS App · Android App
+
+Operational costs
+
+5%
+Legal
+
+9
+
+STACK MONEY SERVICES
+STACK is a revolutionary new approach to personal finance, providing a fee-free alternative to traditional banking with a globally accessible platform to spend, save and share your money, in any currency, at any time and straight from your mobile. STACK is creating a community of users who celebrate moments that matter by sharing stories and providing personalized solutions to reach financial goals faster than ever before. Our digital fiat account provides a gateway to widespread cryptocurrency adoption by pairing it with access to mainstream financial services and smart new features on a simple, user-friendly platform.
+The current financial technology (FinTech) ecosystem is fragmented with different companies in isolated segments, providing singular solutions (i.e. lending marketplace, alternative finance, payments & international remittances and P2P money movement, and blockchain). STACK's goal is to be a full-service personal finance solution. In addition to the cryptocurrency wallet, STACK creates a positive, sustainable relationship between users and their money, without the stress associated with most financial products or transactions.
+STACK offers its members fee-free, digital money services including:
+· Real time conversion from crypto to local fiat currency at point-of-sale · Tap-to-pay functionality on the STACK mobile app and on participating 3rd party mobile wallets · Multi-currency wallet (crypto and fiat currencies) · Chip-and-PIN EMV card · Social sharing to celebrate moments that matter on the STACK World Stream · The ability to withdraw cash from any ATM · Tips, tools and tailored advice to reach your financial goals, faster
+Each STACK account includes a STACK card ­ a prepaid card ­ which complements the STACK digital wallet. STACK payment facilities which include the physical and virtual prepaid card can be used in almost 200 countries at over 39 million points of acceptance today. This is possible through our card issuance partnerships with global payment networks. Moreover, users and businesses can exchange their blockchain assets seamlessly from one user to another, with transparency that is currently lacking in a centralized solution.
+Data will be used to provide personalized recommendations, simple ways to save, relevant offers and rewards.
+10
+
+STACK UP Savings · Create savings goals as broad or as specific as you like. · Automated round-ups help you save a little or a lot. · Categorize your goals to receive relevant offers and rewards based on what you're saving towards.
+Financial IQ · Being smart with your money means you'll have more of it to spend on the things that matter. STACK gives you personalized tools to help you reach your goals faster. Spend Trends keeps you on track, providing insight into your spending and saving goals (i.e. the categories where you are overspending). STACK will be able to index your spending against similar peer sets and cohorts so that you'll know exactly how well you are stacking up against others in your same financial situation. Receive offers and rewards that are tailored just for you. Categorized spending helps you see where your money goes.
+Security STACK uses industry-leading safeguards to protect your money, data and privacy, so accounts are secure and protected. · Chip and Pin EMV Cards · Transition Notifications · In-app card freeze, pin resets
+STACK has built in KYC, AML and fraud monitoring processes. · Onboarding process utilizes waterfall methodology to verify the user using Trulioo's GlobalGatewayTM · AML Watchlist to comply with domestic and global Anti-Money Laundering (AML), Counter Terrorist Finance (CTF), and sanctions enforcement regulations.
+11
+
+DEVELOPMENT TIMELINE
+NOVEMBER 2016
+Alpha and Host Card Emulation (Tap-to-Pay functionality at POS)
+AUGUST 2017
+STACK Beta announcement and launch with global POS support and social sharing
+Q4 2017
+Commercial Launch with Fiat
+APRIL 2018
+Commercial Launch with Fiat in U.S.
+JUNE/JULY 2018
+Commercial Launch of Crypto Wallet in Canada and U.S.
+
+JULY 2017
+Token design leveraging State Channels with global advisory team
+OCTOBER 2017
+Token Generation Event
+MARCH 2018
+Beta of Crypto Wallet in Canada
+MAY 2018
+Beta of Crypto Wallet in U.S.
+Q3/Q4 2018
+European and International Launch of Crypto Wallet
+12
+
+TEAM
+Our team has decades of combined experience in financial services, technology, and marketing, with a consumer-focused approach to business. We created STACK as the first step towards a better way to spend, save and share your money. Now, the STK token will advance our mission to provide a universally accessible platform to store money safely, access it instantly and transact with it anywhere, in any currency, including crypto.
+
+MIRO PAVLETIC
+CEO
+
+NICOLAS DINH
+COO
+
+CHAD LEGER
+CFO
+
+ETHAN WILDING
+HEAD OF STRATEGY
+
+ALICIA WILSON
+MARKETING A N A LY S T
+
+YERVANT KULBASHIAN
+CTO
+
+TEDDY YIP
+PRODUCT
+
+AMANDA ASHFORD
+BRAND/PR
+
+CASEY ROVINELLI
+DIGITAL MARKETING
+
+JEFFREY ACE FULGAR
+HEAD OF DESIGN
+
+ANGELA AU
+S T R AT E G I C PA R T N E R S H I P S
+
+SHARAF ANSARI
+ENGINEERING
+
+13
+
+ADVISORS
+We've partnered with some of the top thought leaders and development experts from the Blockchain community who have helped to develop the STK token. Our ecosystem includes industry experts in tech, media, retail and regulatory affairs.
+
+ETHAN WILDING
+
+ETHAN WILDING
+Ethan Wilding is co-founder of Ledger Labs, and a founding team member of Ethereum. He is the former Chair of the Certified Bitcoin Professional exam, one of the first not-for-profit programs to establish a standard body of knowledge in the field of blockchain technologies. He also services as an advisor for several companies, including STACK and BEworks. Ethan earned a Ph.D. in Philosophy from the University of Waterloo and taught at the Balsille School of International Affairs.
+
+RICHARD KASTELEIN
+
+RICHARD KASTELEIN
+Richard Kastelein is the Founder of industry publication Blockchain News, partner at ICO services collective CryptoAsset Design Group, Director of education company Blockchain Partners (an Oracle Partner) and an ICO event organiser. An award-winning publisher and entrepreneur, Richard sits on the advisory boards of several successful Blockchain start-ups (ICOs) and has authored over 1400 articles on Blockchain technology and ICOs on Blockchain News, Harvard Business Review & Venturebeat.
+
+BENN GODENZI
+
+BENN GODENZI
+Director Of Marketing for Aion Network, a blockchain technology out of Toronto, Canada and recent founder of the Interoperability Alliance between Icon Foundation, Wanchain and Aion Network. Benn has been involved in the blockchain space since 2010. Introducing "out of the box" marketing, token sale structure and community exposure to maximise awareness and platform adoption.
+
+14
+
+SOURCES
+1 eMarketer, https://www.emarketer.com/Article/Worldwide-Retail-Ecommerce-Sales-Will-Reach-1915-Trillion-This-Year/1014369 2 Blockchain, https://blockchain.info/charts/avg-confirmation-time 3 Ethstat, https://ethstats.net 4 Fintech Finance: http://www.fintech.finance/01-news/number-of-card-accepting-outlets-set-to-double-by-2020-can-visa-and-mastercard-keep-up/ 5 Altheamesh: http://altheamesh.com/blog/universal-payment-channels/
+
+THIS DOCUMENT AND ANY OTHER DOCUMENTS PUBLISHED IN ASSOCIATION WITH THIS WHITE PAPER RELATE TO A POTENTIAL TOKEN OFFERING TO PERSONS (CONTRIBUTORS) IN RESPECT OF THE INTENDED DEVELOPMENT AND USE OF THE NETWORK BY VARIOUS PARTICIPANTS. THIS DOCUMENT DOES NOT CONSTITUTE AN OFFER OF SECURITIES OR A PROMOTION, INVITATION OR SOLICITATION FOR INVESTMENT PURPOSES. THE TERMS OF THE CONTRIBUTION ARE NOT INTENDED TO BE A FINANCIAL SERVICES OFFERING DOCUMENT OR A PROSPECTUS. THE TOKEN OFFERING INVOLVES AND RELATES TO THE DEVELOPMENT AND USE OF EXPERIMENTAL SOFTWARE AND TECHNOLOGIES THAT MAY NOT COME TO FRUITION OR ACHIEVE THE OBJECTIVES SPECIFIED IN THIS WHITE PAPER. THE PURCHASE OF TOKENS REPRESENTS A HIGH RISK TO ANY CONTRIBUTORS. TOKENS DO NOT REPRESENT EQUITY, SHARES, UNITS, ROYALTIES OR RIGHTS TO CAPITAL, PROFIT OR INCOME IN THE NETWORK OR SOFTWARE OR IN THE ENTITY THAT ISSUES TOKENS OR ANY OTHER COMPANY OR INTELLECTUAL PROPERTY ASSOCIATED WITH THE NETWORK OR ANY OTHER PUBLIC OR PRIVATE ENTERPRISE, CORPORATION, FOUNDATION OR OTHER ENTITY IN ANY JURISDICTION. THE TOKEN IS NOT THEREFORE INTENDED TO REPRESENT A SECURITY INTEREST.
+THIS VERSION OF THE WHITEPAPER SUPERCEEDS ANY PREVIOUS VERSIONS AND ANY TRANSLATED VERSIONS AS THE OFFICIAL STK TOKEN WHITEPAPER.
+
+WHITEPAPER · DECEMBER 2017
+
+15
+
+

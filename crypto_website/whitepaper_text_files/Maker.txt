@@ -1,0 +1,417 @@
+Eight Rules for Creating Great White Papers
+APRIL 2005
+
+
+
+Introduction
+
+White papers are one of the most misunderstood, miswritten and misused marketing tools available. While many companies think they need a white paper, few manage to write, design or use them to their full potential. This is unfortunate, because ­ written and applied well ­ white papers are one of the most powerful tools in the sales and marketing toolkit.
+
+White papers make companies credible. They help position companies as thought leaders, and they aid the selling process by informing and educating the prospect base.
+
+The best application of a white paper is to provide information that helps solve a problem that is meaningful to the reader. It should justify why the problem must be solved, objectively explore alternative ways to solve the problem, and logically lead the reader to the conclusion that your organization has the knowledge, expertise and tools required to solve the problem.
+
+White papers should be written to help move prospects
+
+White papers help make
+
+through the sales funnel; but they must do so using
+
+companies credible by
+
+objective analysis and thorough, informative content. Too
+
+demonstrating thought
+
+often, white papers are written in ways that place them
+
+leadership and an
+
+in the domain of technical papers or documentation, or
+
+1
+
+understanding of industry
+
+alternatively, in the territory of sales brochures and data
+
+issues and trends.
+
+sheets ­ either of which greatly diminish the paper's
+
+impact. Even worse, white papers often are written in
+
+ways that fail to engage any interest at all. The result: a
+
+wasted opportunity, a wasted investment.
+
+Properly conceived and executed though, white papers work. In one recent IT buying study by Forbes.com, 72% of respondents contacted a vendor or reseller after reading a white paper. In the same study, 57% of respondents said that reading a white paper influenced a product buying decision. There are several ways to ensure that a white paper delivers the results you expect. The following pages present eight straightforward techniques that will turn your next white paper into a valuable competitive differentiator that supports and augments the sales process.
+
+Eight Rules for Creating Great White Papers
+
+
+
+
+Eight Rules to Write By
+
+ONE  Use a Linear, Logical Approach
+
+All good communication has an objective. The primary mistake people make when writing white papers is to use the paper to talk about their product or solution. Instead, a white paper must be educational, not promotional in tone. It should possess the following linear objectives:
+
+1. It must attract the right audience. The right audience is not every sales prospect. Because they contain multiple pages of detailed content, white papers are highly audience specific. You should write different white papers tailored toward different groups of stakeholders.
+
+2. It must engage your reader. An engaged reader has
+
+White papers are best
+
+given you his or her full attention. Readers who are
+
+applied in complex,
+
+drawn into your message are willing to commit the
+
+technology-oriented
+
+time to fully explore it. You can engage them by
+
+markets with longer
+
+showing them you understand their problem and that
+
+sales cycles.
+
+you "feel their pain." You can also engage them by
+
+quickly showing mastery of the subject, and through
+
+good, clear writing. Nothing hurts readership more
+
+than dense language or overuse of business, industry
+2
+or technical jargon.
+
+3. It must inform your reader. White papers are not obvious sales pitches.
+
+Solid, engaging white papers are written more like an objective
+
+magazine article than a sales brochure ­ hopefully an article the reader
+
+can't put down. Their power is that they objectively
+
+White papers are not sales pitches. A reader should feel
+informed, not sold.
+
+present a problem, the business case for solving the problem, and alternative ways of solving the problem. In this way, the reader gains knowledge from having invested the time to read the paper. Ultimately, the
+
+reader feels informed, not sold.
+
+4. It must convince your reader. Only after you have attracted, engaged and informed your reader can you credibly move to the next step in a white paper, which is to convince the reader to give your organization consideration. In fact, your conclusion should more or less "fall out" as a natural result of the logical argument and information you have presented. For example, if your product has a high up-front cost but lower maintenance costs, your paper might include an analysis of ongoing "hidden" costs and a ROI model that shows how a high initial investment might actually be more cost-effective over the life of the purchase.
+
+Eight Rules for Creating Great White Papers
+
+
+
+
+TWO  Your Title Is Key to the Success of Your Paper
+
+The title is one of the most important parts of your white paper because the point of writing a white paper is to maximize the number of targeted prospects who read it. A creative, meaningful title drives readership, whether you promote your paper online, distribute it at a conference, or pitch it to trade magazine editors.
+
+Explore some timely magazine article titles, or go
+
+"What Hackers Know That You
+
+online, to get an idea of how to name your white paper.
+
+Don't" is a far better title than
+
+Focus on benefits, and use words that connote an easy,
+
+"An Exploration of Computer
+
+enjoyable read­not a dry textbook treatise. A title such
+
+Security Measures."
+
+as "What Hackers Know That You Don't" is far better
+
+than "An Exploration of Computer Security Measures."
+
+Your title also should convey a benefit of reading the
+
+paper, whether or not the reader eventually believes yours is the best
+
+solution. Self-serving titles such as "Keeping Your Computer Secure With
+
+ABC Company" lack appeal and are likely to be ignored for their obvious
+
+sales slant.
+
+Finally, the benefit promised in your title should appeal to the appropriate
+
+audience. "What Hackers Know That You Don't" is compelling to an IT
+
+professional whose job is to keep a company's computer systems secure.
+
+"Five Ways to Avoid the High Cost of Vulnerable Computer Networks" is
+
+3
+
+much better for the financial person who must approve of investments in
+
+computer security systems, software and services. The content, as well as
+
+the title, should be tailored to these different stakeholders involved in
+
+evaluating your product.
+
+THREE  Follow the 3-30-3 Rule
+
+... people make "snap decisions" within the first
+few seconds of observing something.
+
+Effective "short form" writing ­- that is, writing that can't take a novel's worth of time to make an impression and accomplish an objective ­- follows the 3-30-3 rule. This applies to great magazine articles, advertisements, brochures, press releases, business letters, web sites and hundreds of other short form formats, including your white paper.
+
+It works like this: You must earn a browsing prospect's interest within the first three seconds of glancing at your piece. In his bestseller Blink: The Power of Thinking Without Thinking, Malcolm Gladwell cites the latest research in neuroscience and psychology in support of how and why most people make "snap decisions" within the first few seconds of observing
+
+Eight Rules for Creating Great White Papers
+
+
+
+
+something. Decisions are made through a series of thought subsets, or "thin slicing," and often the most important information leading to the best decisions comes from the very first "slice" of thinking. In three seconds of glancing at your white paper, a prospect will make the first "snap" judgment about your company: do you have something meaningful to say, and are you a credible source?
+If you use your three seconds well, readers will move on to the next thinslice of their decision, and grant you 30 more seconds. In that time they will decide whether or not your message deserves more calculated consideration. Here, the first few paragraphs are key. A powerfully written introduction that speaks to the reader about his or her business need, and delivers the payoff of opportunity or improvement that can be gained through manageable and well-defined action, is absolutely necessary to win the next slice of the prospect's time. Remember, you must do this quickly. You have only 30 seconds of reading time.
+Assuming you've written a succinct, on-target introduction, your prospect now will grant you three more minutes to make your point. Here's where many white papers fall apart. No matter how complex your product or service, no matter how challenging the business issue is, you need to build your case in the first three minutes. If you get more time, great. But don't create a white paper that needs ten minutes' time to make its point.
+4
+How do you make a complex point in three minutes?
+· Remember to talk about business problems from the reader's perspective, not products from your perspective.
+· Honor the old adage that people who buy shovels don't want shovels; they want to make holes or fill in holes as quickly and easily as possible.
+· Make key points with devices other than body copy. Use illustrations showing the cycle from problem to solution.
+· Graph statistics on the problem and the benefit of solving it. · Use "display type" to showcase quotes from industry analysts,
+scientific experts or research studies. · Segment your body copy with subheads that make the main
+point of the paragraphs to follow.
+FOUR  Write in the Language of Your Reader
+To write in the language of the reader, you must first identify who you are writing for. Ask yourself, "Who am I trying to persuade with this white paper?" If you have three distinct audiences, consider writing three white papers to those three audiences. The papers can contain overlapping
+
+Eight Rules for Creating Great White Papers
+
+
+
+
+content, but should have very different titles, different word choices in the subheads, and specific body copy that relates to each audience's pain points.
+
+You should write different white papers tailored toward different stakeholder groups.
+
+Talk to your salespeople to identify stakeholder groups that can be effectively addressed with a white paper. Ask your salespeople what the primary objections are in each of the identified groups. What information do these decision makers lack? What are their fears when considering a solution? What are their hopes? Tailor your content accordingly, and write as though you are having a conversation with a representative of the group.
+
+Typically, there are three general stakeholder groups, each of which requires a different white paper approach:
+
+1. Strategic stakeholders are interested in implementing solutions to improve competitive advantage, augment the financial performance of the company, accelerate operational efficiency, or foster other business-oriented objectives.
+
+2. Technical stakeholders are interested in detailed feature/
+
+functionality comparisons, architectural advantages,
+
+compatibility and integration with existing systems, security,
+
+scalability, longevity and other measures that make the
+
+5
+
+technology a wise investment both today and in the future.
+
+3. User stakeholders are people whose day-to-day jobs are affected by the application of the solution. They are interested in usability, willingness and speed of adoption, learning curves, ability to simplify processes and boost efficiency, improving employee morale and enhancing overall job satisfaction.
+
+For any of these stakeholders it is important to favor statistics, numbers and facts over hype. Most people trust numbers more than adjectives. Quantify as many points as possible, and attribute data to third-party sources or independent research as often as possible. Even citing your own research showing a 30% improvement in an operating metric is better than saying organizations will "vastly improve performance" by applying your solution.
+
+FIVE  Be Knowledgeable and Principled
+Perhaps the number one sin of most white papers is a failure to be objective and inclusive. You must cover credible alternatives for resolving a
+
+Eight Rules for Creating Great White Papers
+
+
+
+
+problem, not just your alternative. Sometimes that even means you have to be "big enough" to mention your competitor in a favorable light.
+
+A white paper should be well researched and technically
+
+Your goal is not to
+
+documented, demonstrating your understanding of the
+
+completely discount
+
+entire industry and landscape of approaches. Remember,
+
+approaches other
+
+other approaches or solutions would not be in the market
+
+than your own.
+
+if they had no merit at all. Your goal is not to completely
+
+discount approaches other than your own, only to show
+
+that when all the pros and cons are tallied, your solution has the most
+
+tangible benefits.
+
+If you are developing an eight-page white paper, you should aim to provide a thorough and balanced discussion over the first six pages. After reading this "meat" of the paper, readers should feel like they have been educated, not "sold." Your company should be getting subconscious credit for being knowledgeable and forthright.
+
+SIX  Graphics Are Content Too
+
+Remember, when it comes to white papers, all graphics are not created
+
+equal. Many white papers owe their death to the wrong kind of visual
+
+6
+
+treatment. This includes "brochure type" graphics that depict your product
+
+packaging, smiling models holding your product or sitting at the
+
+ubiquitously generalized keyboard, or ­- in the worst case -- clip art. In 30
+
+seconds of a prospect's skimming, these scream "brochure" and turn off
+
+those expecting to be informed, not sold.
+
+TYPICAL SALES FUNNEL
+AWARENESS INTEREST
+PREFERENCE SALE
+
+White papers are interest- and preferencebuilding tools
+
+Eight Rules for Creating Great White Papers
+
+
+
+
+Instead, pepper your white paper with informative illustrations that walk the reader through a relevant process. Research shows that "pictograms," the combination of words and pictures in a chart or diagram, communicate much more effectively than either words or images by themselves.
+
+SEVEN  Have a Writer Write Your Paper
+
+Many companies make the mistake of having their product managers or engineers write white papers. Although engineers and technical professionals often write great drafts and notes on what the paper should cover, and can assist in identifying what is really "news," they should not be tasked with writing a white paper that will eventually end up in your prospects' or customers' hands. There are several problems with this approach:
+
+1. Product managers and engineers often are too close to your product or solution to really deliver the thorough, balanced coverage of all potential solutions that a white paper demands.
+
+2. Product managers and engineers often are not very
+
+It's important to favor
+
+interesting writers. True, they may be competent at
+
+statistics, numbers and
+
+informational writing, but that is different from being
+
+facts over hype.
+
+a master of balanced persuasive writing.
+
+7
+
+3. It is costly to have product managers and engineers dedicate time to writing white papers. Usually, product managers are highly-paid professionals who are the "business owners" of your product or solution, and are at the helm of its success or failure. Their focus is more appropriately dedicated to managing the product, not writing about it. It is appropriate, however, for product managers to supply content to writers of white papers and to serve as subject-matter experts by providing documents, interviews -- or preferably both. They also should be part of the editorial review process to ensure accuracy.
+
+EIGHT  Keep the Branding Subtle
+A white paper should be branded, but subtly. Think of the difference between a commercial appearing on network television during prime time
+
+Eight Rules for Creating Great White Papers
+
+
+
+
+and a PBS sponsorship. One screams at you, but the other is more effective because of the related content and its understated appeal.
+Put your logo on the front cover. Include your boilerplate at the end, and provide relevant details about your product in the conclusion. Leave it at that. When it comes to white paper branding, less is more.
+
+Once Your White Paper Is Written
+
+White papers deliver the highest level of value by bringing more highly qualified prospects into the sales funnel ­- prospects who are already predisposed to learning more about your organization based on the knowledge gained through reading the white paper. Effective ways to increase the number of people who read your white paper include:
+
+1. Post it on your web site.
+
+2. Post it on industry portals and directory sites if applicable.
+
+3. Build a search engine marketing campaign around it and use the white
+
+paper as fulfillment for relevant search terms.
+
+4. Post it on the web sites of companies that partner with your company.
+
+5. Send it to the media that cover your industry and have a public
+
+relations professional follow-up to encourage articles on the topic that
+
+8
+
+will cite information in your white paper. You also can rework excerpts
+
+from your paper into articles for newsletters, trade journals and
+
+magazines that cover your industry.
+
+6. Create direct response ads that appear when people search the
+
+Internet on topics your white paper covers.
+
+7. Place traditional classified ads offering the white paper in newsletters,
+
+trade journals and magazines that cover your industry.
+
+8. Mail it to your prospect list.
+
+9. Hand it out at trade shows and conferences.
+
+10. Develop speeches based on its content and secure speaking
+
+opportunities at trade shows and conferences. Hand out or email the
+
+full text to people who attend the presentation.
+
+11. Use it to educate your employees and distribution partners about the
+
+market and competing solutions.
+
+12. And yes, let your salespeople use it as "leave behind" material or to
+
+guide discussions in sales meetings.
+
+Eight Rules for Creating Great White Papers
+
+
+
+
+About Us
+
+About KnowledgeStorm
+
+KnowledgeStorm (www.knowledgestorm.com) specializes in online lead
+
+generation and brand awareness for the technology industry. Thousands of
+
+software, hardware, and IT services companies have filled their pipelines
+
+with quality prospects through their relationship with
+
+When it comes to white paper branding, less is more.
+
+KnowledgeStorm. Our IT directory and vertical search capabilities enable KnowledgeStorm to connect technology users with technology vendors at the point
+
+when these users are searching for solutions.
+
+About The Content Factor
+The Content Factor (www.contentfactor.com) is a highly focused team of senior communications professionals who create original content on behalf of client organizations. With special domain expertise in technology, financial services and health care, The Content Factor brings a professional services approach to contract writing. We regularly concept and write white papers, web sites, executive speeches, brochures, books and much more.
+9
+
+© 2005 KnowledgeStorm, The Content Factor Eight Rules for Creating Great White Papers
+
+The Content Factor tel :: 770 512 8217 www.contentfactor.com
+KnowledgeStorm 2520 Northwinds Parkway
+Suite 600 Alpharetta, Ga. 30004
+tel :: 770 290 8850 877 340 9274
+fax :: 770 290 8851 www.knowledgestorm.com
+
+
+
+

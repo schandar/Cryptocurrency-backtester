@@ -1,0 +1,289 @@
+Quantum Resistant Ledger (QRL)
+peterwaterland@gmail.com
+November 2016
+Abstract Private digital monies must be secure against computing advances to achieve longevity. The design and issuance of a cryptocurrency ledger utilising hash-based digital signatures which are resistant to classical and quantum computing attack is presented.
+1 Introduction
+The concept of a peer-to-peer internet ledger of value, recorded as a blockchain and secured by proof of work was first reported in 2008[11]. Bitcoin remains the most widely used cryptocurrency to date. Hundreds of similar cryptocurrency ledgers have been subsequently created but with few exceptions they rely on the same elliptic curve public-key cryptography (ECDSA) to generate digital signatures which allow transactions to be verified securely. The most commonly used signature schemes today such as ECDSA, DSA and RSA are theoretically vulnerable to quantum computing attack. It would be valuable to explore the design and construction of a quantum resistant blockchain ledger to counter the potential advent of a sudden non-linear quantum computing advance.
+2 Bitcoin Transaction Security
+It is currently only possible to spend (unspent transaction outputs) from a bitcoin address by creating a transaction containing a valid elliptic curve (secp256k1) signature from the private key (x  N |x < 2256) for that specific bitcoin address. If the truly randomly generated private key is kept secret or lost then no funds can reasonably be expected to move from that address ever. The chance of a specific bitcoin private key collision is 1 in 2256. The probability of any bitcoin address key collision can be estimated using the Birthday Problem. The number of bitcoin addresses which must be generated to result in a 0.1% chance of a collision is 5.4x1023[14].
+However, when a transaction is signed then the ECDSA public key of the sending address is revealed and stored in the blockchain. Best practice is for addresses not to be re-used, but as of November 2016 49.58% of the entire bitcoin ledger balance is held in addresses with exposed public keys[1].
+3 Quantum Computing Attack Vectors
+RSA, DSA and ECDSA remain secure based upon the computational difficulty of factorisation of large integers, the discrete logarithm problem and the elliptic-curve discrete logarithm problem. Shor's quantum algorithm (1994) solves factorisation of large integers and discrete logarithms in polynomial time. Therefore, a quantum computer could theoretically reconstitute the private key given an ECDSA public key. It is thought ECDSA is more vulnerable to quantum attack than RSA due to the use of smaller keysizes, with a 1300 and 1600 qubit (211) quantum computer able to solve 228 bit ECDSA.
+Public quantum computer development has not passed beyond 25 qubits or the factorisation of small numbers (15 or 21). However, in August 2015 the NSA deprecated elliptic curve cryptography ostensibly based
+1
+
+upon quantum computing concerns. It is unclear how advanced quantum computing may be presently or that any breakthroughs in this field will be publicised to allow cryptographic protocols in common usage in the internet to be made post-quantum secure. With somewhat anti-establishment origins, bitcoin could find itself the earliest target of an adversary with a quantum computer.
+If a significant quantum computing advance were to occur publicly, node developers could implement quantum-resistant cryptographic signature schemes into bitcoin and encourage all users to move their balances from ECDSA-based addresses to new quantum-safe addresses. To mitigate the proportion of effected addresses it would be reasonable to disable public key recycling at the protocol level. Such a planned upgrade would also result in the possible movement of the 1 million coins belonging to Satoshi Nakamoto with associated price volatility.
+A less favourable scenario would be a silent non-linear quantum computing advance followed by a nuanced quantum computing attack on bitcoin addresses with exposed public keys. Such thefts could have a devastating effect upon the bitcoin exchange price due to new heavy sell pressure and a complete loss of confidence in the system as the scale of thefts become known. The role of bitcoin as a store of value ('digital gold') would be very badly damaged with extreme consequences for the world. In this context the authors believe it is reasonable to experiment with quantum-resistant cryptographic signatures in a cryptocurrency ledger and potentially create a backup value store in the event of a black swan.
+4 Quantum-resistant signatures
+There are several important cryptographic systems which are believed to be quantum-resistant: hash-based cryptography, code-based cryptography, lattice-based cryptography, multivariate-quadratic-equations cryptography and secret-key cryptography. All these schemes are thought to resist both classical and quantum computing attack given sufficiently long key sizes.
+Forward secure hash-based digital signature schemes exist with minimal security requirements that rely only upon the collision-resistance of a cryptographic hash function. Changing the chosen hash function produces a new hash-based digital signature scheme. Hash-based digital signatures are well studied and represent the primary candidate for post-quantum signatures in the future. As such they are the chosen class of post-quantum signature for the QRL.
+5 Hash-based digital signatures
+Quantum resistant hash-based signatures rely upon the security of a one-way cryptographic hash function which takes a message, m and outputs a hash digest, h of fixed length, n. i.e SHA-256, SHA-512. Using a cryptographic hash function it should be computationally infeasible to brute force m from h (pre-image resistance), or brute force h from h2, where h2 = hash(h) (second pre-image resistance), whilst it should be very hard to find two messages (m1 = m2) that produce the same h (collision resistance).
+Grover's quantum algorithm may be used to attempt to find a hash collision or perform a pre-image attack to find m, requiring O(2n/2) operations. Thus to maintain 128 bit security, a hash digest length, n of at least 256 bit must be selected - assuming a perfect cryptographic hash function.
+Hash-based digital signatures require a public key, pk, for verification and a private key, sk for signing a message. Various hash-based one-time signatures (OTS) will be discussed regarding their suitability for inclusion as part of a blockchain ledger.
+5.1 Lamport-Diffie OTS
+In 1979 Lamport described a hash-based one-time signature for a message of length, m bits (usually the output of a collision resistant hash function). Keypair generation creates m pairs of random secret keys,
+2
+
+skjm  {0, 1}n where j  {0, 1}. i.e. the private key is: sk = ((sk01, sk11), .., .., (sk0m, sk1m)). Let f be a one-way hash function {0, 1}n  {0, 1}n, with m pairs of public keys generated pkjm = f (skjm), i.e. the public key is: pk = ((pk01, pk11), .., .., (pk0m, pk1m)). Signing involves bitwise inspection of the message hash to select skj (i.e. if bit = 0, skj = sk0, bit = 1, skj = sk1), creating the signature: s = (skj1, .., skjm) which reveals half the private key. To verify a signature, bitwise (j  {0, 1}) inspection of the message hash checks that (pkj = f (skj))m.
+Assuming that after Grover's algorithm 128 bit security is desired, where message length is a fixed hash output from SHA256, m = 256 and n = 256, resulting in a pk = sk = 16kb, and a signature of 8kb for each OTS used. A Lamport signature should be used only once, may be generated very quickly, but suffers from large key, signature and by extension transaction sizes, making it impractical for a public blockchain ledger.
+
+5.2 Winternitz OTS
+For a message digest, M , of length, m bits, with secret and public keys of length, n bits, a one-way function, f : {0, 1}n  {0, 1}n and a Winternitz parameter, w  N |w > 1, the general idea of the Winternitz one-time signature is to apply an iterating hash function on a list of random secret keys, sk  {0, 1}n, sk = (sk1, .., skm/w), creating chains of hashes of length, w - 1, ending with public keys, (pk  N |{0, 1}n), pkx = f 2w-1 (skx), pk = (pk1, .., pkm/w). Unlike the bitwise inspection of the message digest in in the Lamport signature, instead the message is parsed w bits at a time to extract a number, i  N, i < 2w - 1, from which the signature is generated, sx = f i(skx), s = (s1, ..sm/w). With a growing w providing a tradeoff between smaller keys and signatures for increased computational effort.[10]. Verification involves simply generating pkx = f 2w-1-i(sx) from M , s and confirming the public keys match.
+
+Using SHA-2 (SHA-256) as a one-way cryptographic hash function, f : m = 256 and n = 256, with w = 8
+
+results
+
+in
+
+a
+
+pk
+
+=
+
+sk
+
+=
+
+s
+
+size
+
+of
+
+(m/w)n 8
+
+bytes
+
+=
+
+1kb.
+
+To
+
+generate
+
+pk
+
+requires
+
+fi
+
+hash
+
+iterations,
+
+where
+
+i
+
+=
+
+m w
+
+2w-1
+
+= 8160 per OTS keypair generation.
+
+At
+
+w = 16 the keys and signatures halve in size, but i = 1048560 becoming impractical.
+
+5.3 Winternitz OTS+ (W-OTS+)
+Buchmann introduced a variant of the original Winternitz OTS by changing the iterating one-way function to instead be applied to a random number, x, repeatedly but this time parameterised by a key, k, which is generated from the previous iteration of fk(x). This is strongly unforgeable under adaptive chosen message attacks when using a pseudo random function (PRF) and a security proof can be computed for given parameters[3]. It eliminates the need for a collision resistant hash function family by performing a random walk through the function instead of simple iteration. Huelsing introduced a further variant W-OTS+, enabling creation of smaller signatures for equivalent bit security through the addition of a bitmask XOR in the iterative chaining function.[6] Another difference between W-OTS(2011 variant)/ W-OTS+ and W-OTS is that the message is parsed log2(w) bits at a time rather than w, decreasing hash function iterations but increasing keys and signature sizes.
+
+W-OTS+ will now be briefly described. With security parameter, n  N , corresponding to the length of message (m), keys and signature in bits, being determined by the cryptographic hash function chosen and the Winternitz parameter, w  N | w > 1 (usually {4, 16}), l is computed. l is the number of n bit string elements in a WOTS+ key or signature, where l = l1 + l2:
+
+l1 =
+
+m ,
+log2(w)
+
+l2 =
+
+log2(l1(w - 1)) log2(w)
+
++1
+
+A keyed hash function is used, fk : {0, 1}n  {0, 1}n | k  {0, 1}n. In pseudocode:
+
+fk(M ) = Hash(P ad(K)||P ad(M ))
+
+3
+
+Where P ad(x) = (x||10b|x|1) for |x| < b. The chaining function, cik(x, r): on input of x  {0, 1}n, iteration counter i, key, k  K, and randomisation elements, r = (r1, .., rj)  {0, 1}nj, with j  i, is defined as follows:
+Figure 1. W-OTS+ chaining function
+
+Where:
+
+ci(x, r) =
+
+x fk(cik-1(x, r)  ri)
+
+if i = 0; if i > 0;
+
+Figure 2. Example hash-chain generation
+
+That is a bitwise xor of the previous iteration of ck and the randomisation element followed by fk on the result, which is then fed into the next iteration of ck.
+5.3.1 Signature key To create the secret key, sk, l + w - 1 n bit strings are chosen uniformly at random (with PRF), of which the first l make up the secret key, sk = (sk1, ..skl) and the remaining w -1 n bit strings become r = (r1, .., rw-1). A function key, k is chosen uniformly at random.
+5.3.2 Verification key The public key is:
+pk = (pk0, pk1, .., pkl) = ((r, k), cwk -1(sk1, r), cwk -1(sk2, r), .., cwk -1(skl, r)) Note that pk0 contains r and k.
+5.3.3 Signing To perform a signature: message, M , of length m, is parsed such that M = (M1, ..Ml1 ), Mi  {0, w - 1} (creating a base-w representation of M). Next the checksum, C, of length, l2, is calculated and appended:
+l1
+C = (w - 1 - Mi)
+i=1
+Such that: M + C = b = (b0, ..bl) The signature is:
+s = (s1, .., sl) = (ckbi (sk1, r), .., ckbl (skl, r))
+4
+
+5.3.4 Verification To verify a signature b = (b1, .., bl) is reconstructed from M . If pk = (ckw-1-b1 (s1), .., cwk -1-bl (sl)) then the signature is valid. W-OTS+ provides a security level of at least n - w - 1 - 2log(lw) bits[3]. A typical signature where w = 16 using SHA-256 (n = m = 256) is ln bits or 2.1kb.
+6 Merkle tree signature schemes
+Whilst one-time signatures provide satisfactory cryptographic security for signing and verifying transactions they have a major drawback that they may only be used once safely. If a ledger address is based upon some transformation of the public key of a single OTS keypair then this would lead to an extremely restrictive blockchain ledger where all funds from a sending address would need to move with every single transaction performed - or those funds would be at risk of theft. A solution is to extend the signature scheme to incorporate more than one valid OTS signature for each ledger address allowing as many signatures as OTS keypairs are pre-generated. A binary hash tree known as a merkle tree is a logical way to achieve this.
+6.1 Binary hash tree
+The general idea behind a merkle tree is an inverted tree composed of parent nodes computed by hashing the concatenation of child sibling nodes upwards in layers to the root. The existence of any node or leaf can be cryptographically proven by computing the root. A merkle tree is formed from n base leaves and has height to merkle root, h (n = 2h) - starting from the leaf hashes (layer 0) and counting upwards with each layer of nodes. Each leaf node is created in our hypothetical ledger use-case by hashing a randomly pre-generated OTS public key. From the tree below it can be seen that the node above each pair of leaf hashes is itself formed by hashing a concatenation of the child hashes. Figure 3. Merkle tree signature scheme example
+This continues upwards through layers of the tree until confluence into the root hash of the tree, known as the merkle root. From the example tree in the diagram, taking the merkle root as the public key, four pre-computed OTS keypairs can be used to generate four cryptographically secure valid one-time signatures. The merkle root
+5
+
+of the binary hash tree can be transformed into a ledger address (possibly by iterative hashing with an appended checksum). A full signature, S, of a message, M , for a given OTS keypair includes: the signature, s, the ots key number, n, and the merkle authentication path. i.e. for OTS keypair 0 (thus n = 0):
+S = s, n, OT S public key 0, H1, H2, H5, H6, root Given the OTS public key and leaf hash can be deduced from s, and parent nodes can be computed from their children in fact this may be shortened to:
+S = s, n, H2, H6, root Where S is valid by verifying the OTS public key from s and M , then checking the hashes from the merkle authentication path recreate a matching merkle root (public key).
+6.2 State
+Using the above merkle signature scheme (MSS) securely relies upon not re-using the OTS keys. Therefore, it is dependent upon the state of signatures or signed transactions being recorded. Ordinarily in real world usage this would potentially be a problem, but an immutable public blockchain ledger is the ideal storage medium for a stateful cryptographic signature scheme. A newer hash-based cryptographic signature scheme called SPHINCS which offers practical stateless signatures with 2128 bit security was reported in 2015[2].
+6.3 Hypertrees
+A problem with the basic MSS is that the number of signatures possible is limited and all the OTS keypairs must be pre-generated prior to calculation of the merkle tree. Key generation and signature time grow exponentially with the height of the tree, h, meaning trees larger than 256 OTS keypairs becomes temporally and computationally expensive to generate. A strategy to defer computation during key and tree generation and also extend the number of OTS keypairs available is to use a tree which is itself composed of merkle trees called a hypertree. The general idea is to sign the merkle root of a child tree with an OTS key from the leaf hash of a parent merkle tree known as a certification tree.
+Figure 4. linking merkle trees
+In the most simple form (height, h = 2) a certification tree is precomputed with 21 OTS keypairs and when the first signature is required a new signature merkle tree (signature tree 0) is computed and signed by one
+6
+
+of the certification tree OTS keypairs. The signature tree is composed of n leaf hashes with corresponding OTS keypairs and these serve to sign messages as required. When each OTS keypair in the signature tree has been used then the next signature tree (signature tree 1) is signed by the second OTS keypair from the certification tree and the next batch of signatures is possible. A signature, S, of such a hypertree construction becomes slightly more complicated and would include: 1. from the signature tree: s, n, merkle path, root 2. from each certification tree: s (of child tree merkle root), n, merkle path, root It is theoretically possible to nest layers of trees down from the certification tree to extend the original MSS infinitely. Signature size grows linearly for each additional tree that is signed, whilst the hypertree signature capacity increases exponentially. 6.3.1 Hypertree examples To demonstrate how easily the MSS may be extended with a hypertree construction consider an initial certification tree of height, h1 = 5, with 25 leaf hashes and associated OTS keypairs. The merkle root of this tree is transformed to generate a ledger address. Another merkle tree, a signature tree of identical size (h2 = 5, 25 leaves and OTS keypairs) is instantiated. 32 signatures are possible before the next signature tree must be created. The total number of signatures possible is 2h1+h2 which in this case is 210 = 1024. On a Macbook pro 2.7Ghz i5, 8gb ram creating OTS keypairs and a merkle certification tree for various sizes yielded the following results (unoptimised python code, Winternitz OTS): 24 = 0.5s, 25 = 1.2s, 26 = 3.5s, 28 = 15.5s. A hypertree consisting of initial generation of two 24 trees takes around 1s compared with 15.5s for standard 28 MSS tree for the same signature capacity. Increasing the depth (or height) of a hypertree continues this trend. A hypertree composed of four chained 24 certification trees and a signature tree of size 24 is capable of 220 = 1, 048, 576 signatures with an added cost to the signature size but a creation time of only 2.5s. Figure 5. Hypertree construction
+There is no requirement for a hypertree to be symmetrical and so if composed initially of two trees it could later be extended later by signing further layers of trees. Signatures from a ledger address would therefore start small and eventually rise as the hypertree depth increased. Using a merkle hypertree to create and sign transactions from a ledger address is never likely to require > 212 transactions. Thus, the ability to sign with computational ease 220 times securely at a hypertree depth of h = 5 is more than sufficient.
+7
+
+6.4 XMSS
+The extended merkle signature scheme (XMSS) was first reported by Buchmann et al. in 2011 and was published as an IETF draft last year[4][7]. It is provably forward secure and existentially unforgeable under chosen message attacks with minimal security requirements: a PRF and a second pre-image resistant hash function. The scheme allows extension of one-time signatures via a merkle tree with a major difference being the use of bitmask XOR of the child nodes prior to concatenation of the hashes into the parent node. The use of the bitmask XOR allows the collision resistant hash function family to be replaced.
+The leaves of the tree are also not OTS keypair hashes but the root of child L-trees which hold the OTS public keys with, l pieces forming the base leaves. Winternitz OTS+ is used for the one-time signatures (though 2011 variant was first described). Figure 7. XMSS construction [8]
+The bit length of the XMSS public key is (2(H + logl ) + 1)n, an XMSS signature has length (l + H)n, and the length of the XMSS secret signature key is < 2n. Buchmann reports performance with an Intel(R) i5 2.5 Ghz for an XMSS tree of height, h = 20, where w = 16 and the cryptographic hash function used is SHA-256 (m = 256) of up to around a million signatures. With the same parameters and hardware, signing took 7ms, verification 0.52ms and key generation 466 seconds. The security level achieved with such parameters was 196 bits for a public key size of 1.7kb, private key of 280 bits and signature 2.8kb. XMSS is an attractive scheme with the main drawback being the extremely long key generation time.
+8
+
+6.5 XMSS tree performance
+Using an unoptimised python library constructed for a QRL testnode formation of a 4096 leaf XMSS tree (h=12) with all keys and bitmasks generated from a hash-based PRF took 32s on the same hardware described above (a Macbook pro 2.7Ghz i5, 8gb ram). This included generation via PRF of more than 8000 bitmasks and over 300,000 sk fragments. A more efficient merkle tree traversal algorithm and the need to only perform w -1 hashes per secret key chain function in WOTS+ rather than 2w-1 with WOTS contribute to the dramatic performance improvement over a conventional MSS.
+A complete signature size of around 5.75kb was achieved in this construction (11.75kb hexadecimal string encoding) including the: OTS keypair n, signature, XMSS auth route, OTS public key and the XMSS tree public key (including PRF public key seed and the XMSS tree root).
+For trees of various signature capacities generated using PRF and a random seed, the following performance was obtained: (h=9) 512 4.2s, (h=10) 1024 8.2s, (h=11) 2048 16.02s.
+7 Proposed signature scheme
+7.1 Security requirements
+In the design of the QRL it is important that the cryptographic security of the signature scheme is secure against classical and quantum computing attack both in present day and also future decades. XMSS using SHA-256, where w = 16, offers 196 bit security with predicted safety against brute force computational attack until the year 2164[9].
+7.2 QRL signatures
+An extensible stateful asymmetrical hypertree signature scheme composed of chained XMSS trees is proposed. This has the dual benefit of utilising a validated signature scheme and allowing generation of ledger addresses with the ability to sign transactions avoiding a lengthy pre-computation delay seen with giant XMSS constructions. W-OTS+ is the chosen hash-based one-time signature in the scheme for both security and performance reasons.
+7.3 Hypertree construction
+7.3.1 Key and signature sizes As the number of trees within a hypertree grows, key and signature sizes grow linearly - but signature capacity rises exponentially. Sizes for various XMSS tree derived public keys and signatures (based upon 2011 description), where w = 16, m = 256, h is tree height and SHA-256 is chosen as the cryptographic hash algorithm, are:
+· h = 2, 22 signatures: public key 0.59kb, signature 2.12kb (0.4s) · h = 5, 25 signatures: public key 0.78kb, signature 2.21kb (0.6s) · h = 12, 212 signatures: public key 1.23kb, signature 2.43kb (32s) · h = 20, 220 signatures: public key 1.7kb, signature 2.69kb (466s[3]) The tradeoff for creating an XMSS hypertree (4 trees, j = 3, h = 5) with eventual signature capacity of 220 in less than 3s compared with 466s, for a signature of 8.84kb instead of 2.69kb may be acceptable.
+9
+
+7.3.2 Asymmetry Creating an asymmetrical tree allows early signatures to take place with with a single XMSS tree construction, which is extended as required for later signatures at a cost to overall signature capacity. The rationale is that this is likely to be of no consequence for a blockchain ledger application and the wallet can give a user an option of signature capacity versus signature/key sizes. A maximum tree depth of j = 2 should suffice for all circumstances.
+Figure 8. Asymmetrical hypertree
+7.4 QRL hypertree specification
+The following default parameters are to be adopted for a standard hypertree construction: · j = 0 (j  {0  x  2}), h = 12 (h  {1  x  14}), upper bound of signatures possible: 236, minimum signature size: 2.21kb, maximum signature size: 7.65kb.
+i.e. A single XMSS tree, h = 12 with 4096 signatures available, which may be extended with futher trees of up to h = 14 as required. For most users additional trees are unlikely to be required at all. 7.4.1 Example QRL signature Assuming the most complicated hypertree construction where j = 2 and h = 14, a signature for transaction message, m, where n is the OTS keypair position for each XMSS tree, would require:
+· Signature tree, j = 2: OTS signature of m, n, merkle authentication proof, merkle root of signature tree
+· Certification tree, j = 1: OTS signature of merkle root from signature tree (j = 2), n, merkle authentication proof, merkle root
+· Original XMSS tree, j = 0: OTS signature of merkle root (j = 1), n, merkle authentication proof, merkle root
+Verification involves generating the OTS public key from m and the signature, then confirming the supplied merkle authentication proof generates the signature tree merkle root. This becomes the message for the next OTS signature and from this the next OTS public key is generated, the supplied merkle authentication proof used to recreate the certification tree merkle root, which becomes the message for the next certification tree OTS signature, and so on. A signature is only valid if the merkle root of the highest tree, the original XMSS tree, (j = 0) is correctly generated.
+10
+
+Notice the OTS public keys are not required for verification of the XMSS tree signature. In fact the merkle root for each tree can also be deduced and therefore omitted with hypertree signature verification if the sending ledger address is known (as this is a computed derivative of the merkle root for the highest XMSS certification tree (j = 0) within the QRL signature - see Accounts later).
+As the signature scheme is stateful the wallet implementation must retain and update n for each XMSS tree generated in the hypertree for a given address.
+7.5 PRF
+PRF from seed. HMAC DRBG.
+7.6 Deterministic wallet
+Using a single SEED it is possible to generate a very large XMSS tree which should suffice for most users for a prolonged period. A secure source of entropy is used to generate this SEED which is passed through a secure PRF function to generate a set of pseudorandom keys which generate the tree. One drawback of using the same XMSS tree is that the user is confined to a single address (although public key exposure is not a concern with a MSS). A bitcoin or ethereum address is derived from the associated public key and as such a single private or public key may only create a single address. However, an XMSS address is derived from the public key, PK, which contains the merkle root and public SEED. If the SEED remains constant but the number of OTS keypairs to compute the tree varies then the merkle root will change for each variation. Thus for every single addition or subtraction of a single OTS keypair the derived address will change. This feature may be used by wallet/node software to generate numerous variations of the XMSS tree (extending/contracting it as required using the same initial SEED) allowing as many unique addresses as required to be generated. To record this information in a safe, stateful and compact manner is computationally trivial.
+8 Cryptocurrency design parameters
+The remainder of the white paper will set out the proposed design parameters for the QRL ledger. The focus of the ledger is to be a public blockchain which is highly secure against classical and quantum computing attack vectors. This is a first draft and thus every aspect is subject to potential change.
+8.1 Proof-of-Stake
+QRL is to be an open public blockchain ledger secured by a proof-of-stake algorithm. An epoch lasts for 10,000 blocks. Stake validators are determined from stake transactions in the previous epoch. The general idea is that each stake validator signs a transaction containing the final hash of an iterative chain of length 10,000 hashes (a bitmask XOR may be applied during each iteration to reduce security requirements of the hash function). With the stake transaction confirmed in the chain every node on the network can now tie the cryptographic identity of the stake address to the hash chain for the next epoch.
+8.1.1 Design and randomness
+For every block each validating node which is staking the current epoch reveals the next consecutive previous hash in the chain to cryptographically prove participation and vote to be the winning block selector.
+HMAC DRBG is used to generate a pseudorandom number sequence of 32 byte outputs from seed data taken from the blockchain (the genesis block initially, then added entropy taken from concatenated recent block header hashes for each subsequent epoch).
+Thus each block the stake validator chosen to become the block selector is determined by being the reveal hash closest in number to the PRF output for that block. This is difficult to game as the PRF is
+11
+
+unknown by the stakers at the point of hash chain creation. Furthermore, an iterative (keyed) hash chain is essentially a random number sequence. Finally even if stake validators collude somehow they cannot know the other stake validator hash chain contents as they are not yet revealed.
+To prevent a block witholding attack the failure to produce a valid block after submission of a valid reveal hash is associated with loss of the entire block reward from that address, it is then banned from participating for a punishment period.
+To mitigate an empty block attack from sybil nodes or stake validator addresses with low account balances a flexible stake validator list threshold is employed. The block reward is paid in weighted fashion based upon stake address balance. With the reveal hash message each node also divulges a merkle tree root hash of a sorted list of txhashes in their transaction pools along with the number of transactions waiting for a block. Each node slices a percentage from the top and bottom to see how many transactions are expected in the next block. If the block is empty or has less than expected the number of stake validators allowed to stake contracts upwards (excluding stake validators from poor to rich) every block. If block selector nodes are behaving honestly then the reverse is true and the allowed number of participating stake validators grows. Funds may not move during the epoch they are staking - this prevents attempts to rig the block selection by sybil creation of numerous stake validator addresses.
+8.2 Fees
+The larger transaction sizes compared with other ledgers necessitates a transaction fee must be paid with each transaction. The author is of the opinion that artificial fee markets (see bitcoin) are unnecessary and run counter to the ideal of an open public blockchain ledger. Each transaction if it pays a minimum fee should be as valid as any other. The minimum fee miners are willing to accept should float and be set by the market. i.e. nodes/miners competitively set the lower bound of fees between themselves. An absolute minimum value will be enforced at protocol level. Thus, miners will order transactions from the mempool for inclusion in a block at their discretion.
+8.3 Blocks
+8.3.1 Block-times
+Bitcoin has a time between blocks of roughly 10 minutes, but with natural variance this can on occasion lead to fairly long periods before the next block is mined. Newer ledger designs such as ethereum have improved upon this and benefit from a much shorter block-times (15 seconds) without the loss of security or miner centralisation from high rates of orphan/stale blocks. Ethereum uses a modified version of the Greedy Heaviest Observed Subtree protocol which allows stale/orphan blocks to be included in the blockchain and rewarded[13, 5].
+As the QRL plans to use a proof-of-stake algorithm from the outset we expect to safely use a block-time of between 15 and 30 seconds.
+8.3.2 Block-rewards
+Each new block created will include a first 'coinbase' transaction containing a mining address into which a reward equal to the sum of the coinbase reward and the combined sum of transaction fees within the block. The block reward is weighted based upon the balance of the stake validator address selected as block selector.
+The block-reward is re-calculated by the mining node every block and follows the coin emission schedule.
+8.3.3 Blocksize
+To avoid controversy an out-of-the-box adaptive solution modelled upon the Bitpay proposal to increase the blocksize based upon a multiple, x, of the median size, y of the last z blocks would be employed[12]. The
+12
+
+use of the median prevents gaming by miners to include either empty or overstuffed blocks to alter the mean blocksize. x and z would then be hard consensus rules for the network to obey.
+Thus, a maximum blocksize, b could be simply calculated as:
+b = xy
+8.4 Currency unit and denominations
+The QRL will use a monetary token, the quantum (plural quanta), as the base currency unit. Each quantum is divisible to a smallest element as follows:
+· 1 : Shor · 103 : Nakamoto · 106 : Buterin · 1010 : Merkle · 1013 : Lamport · 1016 : Quantum Thus, each transaction involving a fraction of a quantum is actually a very large integer of Shor units. Transaction fees are paid and calculated in Shor units.
+8.5 Accounts
+User balances are kept in accounts. Each account is simply a unique re-usable ledger address denoted by a string beginning with 'Q'.
+An address is created by performing a SHA-256 upon the merkle root of the highest XMSS certification tree. A four byte checksum is appended to this (formed from the first four bytes of a double SHA-256 hash of the merkle root) and the letter 'Q' prepended. i.e. in pythonic pseudocode:
+Q + sha256(merkle root) + sha256(sha256(merkle root))[: 4]
+A typical account address:
+Qcea29b1402248d53469e352de662923986f 3a94cf 0f 51522bedd08f b5e64948af 479
+Each account has a balance denominated in quanta divisible down to a single Shor unit.
+Addresses are stateful with each transaction using a fresh OTS keypair and the QRL storing every public key ever used (this could be pruned as it can be regenerated on-the-fly from the transaction signature and message but would be operationally intensive) for each account. A transaction counter called a nonce is incremented with each transaction sent from an account. This allows wallets which do not store the entire blockchain to keep track of their location in the stateful merkle hypertree signature scheme.
+8.6 Coin issuance
+8.6.1 Historical considerations Bitcoin was the first decentralised cryptocurrency and initially experimental with no monetary value, so it was appropriate to distribute the currency entirely through mining. More recently Zcash has chosen the same process with a % of the coinbase mining reward in the early period of emission being passed to the open source project - with resultant incredible price volatility. Other ledgers such as ethereum have instead sold a large % of the final coin supply as part of an initial coin
+13
+
+offering (ICO). This has the benefit that early adopters still potentially gain through supporting the project, but additionally the project itself may generate funds to continue development and bootstrap and grow the project from infancy. The ICO approach also allows a market to develop easily as a larger float of coins is available to investors to buy and sell from the genesis block. Auroracoin (2014) took a different approach offering everyone in Iceland an equal share of the ICO, while developers kept 50% of the entire coin supply for themselves. Other cryptocurrencies have either simply cloned bitcoin entirely or started afresh with a new chain but different codebase.
+8.6.2 Interchain balance transfer
+It is possible to issue the QRL based upon a state snapshot of the current bitcoin ledger inserted in the QRL genesis block. The general idea would be to allow users to create a single use 'import' transaction containing a unique message and signature (i.e. a randomly generated QRL wallet address signed with a bitcoin private key from an address with a bitcoin balance at the time of the snapshot). This feature could remain active up to a certain blockheight and thereafter the remainder of the coin supply would be mined as normal. The initial bloat in the genesis block would be pruned at the same blockheight. A drawback with this is that whilst fair it penalises holders of other cryptocurrencies other than bitcoin and is technically potentially challenging for new users to perform. A technical concern may be that it is possible to recover an ECDSA public key from just a signature and the message. This would permanently expose public keys to bitcoin addresses used in the process and it would be important to move funds afterwards to a new randomly generated bitcoin address to mitigate this.
+(?could allow the same feature for ethereum holders)
+8.6.3 Proposed Issuance - draft
+The QRL initial issuance will be the following:
+· ICO of 1 million quanta (4.7% final coin supply) prior to launch.
+· A state snapshot of all bitcoin address balances above 0.01 btc used to form the initial QRL genesis block. Anyone wishing to directly transfer coins at a 1:1 ratio from the bitcoin ledger to the QRL ledger will be able to do so until blockheight 518400 (3 - 6 months) via the node wallet.
+· A further 1 million quanta will be held in a genesis block address for use by foundation
+· The remaining supply will be mined (21, 000, 000 - (2, 000, 000+btc balances imported by blockheight 518400))
+8.7 Coin emission schedule
+A defining feature of bitcoin is the scarcity and fixed upper limit to issuance of the underlying monetary token. QRL will follow bitcoin in this regard with a fixed upper limit to the coin supply of 21x106 quanta. A smoothly exponential decay in the block-reward is favoured up to the hard ceiling of coin supply. This will eliminate the volatility associated with the bitcoin 'halving' phenomenon.
+The total coin supply, x = 21x106, minus coins created at the genesis block, y, will exponentially reduce from Z0 downwards forever. The decay curve is calculated to distribute mining rewards for approximately 200 years (until 2217AD, 420480000 blocks at 15s block-times) until just a single quanta is left unmined (though mining could continue thereafter).
+The remaining coin supply at block t, Zt, may be calculated with:
+Zt = Z0e-t
+14
+
+The coefficient, , is calculated from:
+
+=
+
+lnZ0 t
+
+.
+
+Where t, is the total number of blocks in the emission
+
+schedule until the final quanta. Until block 518400,  = 3.98590885111x10-08. The block reward, b is
+
+calculated for each block with:
+
+b = Zt-1 - Zt
+
+Between the genesis block and block number 518400 bitcoins balances may be transferred onto the ledger via import transactions. At block 518401 the emission schedule will retarget locking in the new imported balances, reducing Zt and adjusting the block-reward accordingly.
+
+References
+[1] http://oxt.me/charts. [2] D. Bernstein. Sphincs: practical stateless hash-based signatures. 2015. [3] J Buchmann. On the security of the winternitz one-time signature scheme. [4] J. Buchmann. Xmss ­ a practical forward secure signature scheme based on minimal security assump-
+tions. 2011. [5] V Buterin. Ethereum whitepaper. 2013. [6] A. Hulsing. W-ots+ - shorter signatures for hash-based signature schemes. 2013. [7] A. Hulsing. Xmss: Extended hash-based signatures. 2015. [8] A Karina. An efficient software implementation of the hash-based signature scheme mss and its variants.
+2015. [9] A. Lenstra. Selecting cryptographic key sizes. 2001. [10] R. Merkle. A certified digital signature. CRYPTO, 435, 1989. [11] S. Nakamoto. Bitcoin: A peer-to-peer electronic cash system. 2008. [12] S Pair. A simple, adaptive blocksize limit. 2016. [13] Yonatan Sompolinsky. Accelerating bitcoin's transaction processing fast money grows on trees, not
+chains. 2014. [14] A. Toshi. The birthday paradox. 2013.
+
+15
+
+

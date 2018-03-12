@@ -1,0 +1,174 @@
+SingularDTV SNGLS Creation Specifications.
+1 of 13
+
+The SCS
+A set of smart contracts have been programmed, that "live" on the Ethereum network. We will refer to it as Smart Contract System from here on, or SCS.
+The source code of SCS is public and can be found here: https://github.com/ConsenSys/singulardtv-contracts
+The SCS is responsible for:
+· Token management functionality (adhering to Standard Token Interface)
+· Creation and allocation of Token (SNGLS) · Revenue allocation functionality · Releasing the ETH received during Creation Period to workshop · Release the revenue ETH obtained from workshop to eligible
+entities.
+2 of 13
+
+The Entities
+An entity, is a private key or an Ethereum smart contract that can make transactions on the Ethereum network. Entities are anonymous unless a person or a group of people claim otherwise and give proof of having access to the entity.
+Each entity has a public address on the ethereum network in hex format. E.g.: 0x253494827a52e50b463813a5530c460826ce15726b
+There are 2 special entities in the structure: The GUARD and The Workshop.
+The GUARD
+· Will audit the SCS · Will deploy the SCS · Has permission to update the token exchange value
+The Workshop
+· GmbH domiciled in Switzerland · All ETH sent to SCS during Creation Period will be assigned to its
+address for the execution of the S-DTV CODE Smart-Project. · Will receive 400m SNGLS for its future services. (In addition,
+100m SNGLS are assigned to early contributors.) · Will turn the revenue from the Project (Revenue) into ETH and
+send it to SCS. · Cannot transfer its 400m SNGLS for the first 2 years.
+The Project
+The SCS is programmed to allocate the ETH transferred to the SCS for the execution and development of the S-DTV CODE Smart Project (CODE Smart Project, or Project). This Project is intended to consist of the following S-DTV Projects (for further information on the individual S-DTV Projects, visit: https://singulardtv.com)
+3 of 13
+
+· the Singular Television Series (Season 1 of "Singular", which will be a three-episode mini-series that presents the Singular Multiverse to the world and launches the franchise);
+· the S-DTV Documentary Division (established with the production and distribution of one feature length documentary about the rise of Ethereum and blockchain technology, and an eight-episode short form documentary series);
+· the S-DTV rights/revenue/royalty management platform, which is a series of smart contract modules;
+· the S-DTV Transaction Video On-Demand brand/portal.
+SCS exposes a set of functions. In order for an entity to invoke a function, it needs to send a transaction to the SCS with the right data. The data contains the name of the functions and the arguments of the function among other things.
+Example function: transferFrom(address _from, address _to, uint256 _value)
+This function transfers _value amount of tokens from address _from to address _to.
+SCS holds a ledger for the tokens. Basically a list of entity addresses their corresponding tokens associated to it's address. When someone calls the transfer function for example, SCS modifies its internal ledger and subtracts the tokens from one address and adds the same amount to the second address. From here on, we call any entity that has tokens associated to its public address in SCS ledger, a token holder.
+To make things easier, and abstract away all these details, we will offer an interface (a dapp) on singulardtv.com that exposes these functions to the users in a friendly manner. Users will be able to create a lightwallet (a minimal ethereum javascript wallet) on the website, and using that wallet they can create and transfer tokens, withdraw their Revenue share and send/receive ETH. In the future other token functionality may be added to the dapp.
+4 of 13
+
+Of course, advanced users can interact with SCS directly, using Mist wallet or command line tools, without using a dapp. The dapp is just a user interface for the SCS. The tokens are fungible. The initial 400m transferred by the SCS to the Workshop have the same value and functionality that the other tokens have. This means that the Workshop should turn all the revenue (Revenue) into ETH and send it to SCS. After that, token holders can call a special function (let's call it withdrawRevenue) and receive a part of the Revenue proportional to their total tokens. If the Workshop still has the 400m tokens, it can then get 40% of the revenue back from the SCS.
+5 of 13
+
+Stage 0
+SCS is deployed by The GUARD.
+
+SCS
+400m SNGLS assigned to The Workshop for future services rendered. 100m to the Early Contributors of SingularDTV.
+500m SNGLS unassigned. Holds 0 ETH from Creation Period.
+Holds 0 ETH in revenue.
+
+Workshop (Gmbh)
+
+World
+
+6 of 13
+
+Stage 1
+SNGLS creation starts.
+
+SCS
+1b SNGLS assigned to many entities. Among them the Workshop.
+Holds ~500,000 ETH from Creation Period.
+
+Entities send ETH to SCS. SCS then creates and allocates corresponding SNGLS to the sending address. Eventually the
+remaining 500m are assigned
+
+Workshop (Gmbh)
+
+World
+
+7 of 13
+
+Stage 2
+Creation of SNGLS ended. The SCS transfers the ETH to the Workshop.
+SCS
+1b SNGLS assigned to many entities. Among them the Workshop. Holds 0 ETH from Creation Period.
+
+SCS function withdrawForWorkshop()
+is called.
+
+~500,000 ETH are sent to Gmbh address by SCS.
+
+Workshop (Gmbh)
+
+World
+
+· Meanwhile, the world transfers/trades their SNGLS tokens as they please. SNGLS exchange hands.
+· The Workshop uses the ETH for the execution and marketing of the CODE Smart Project.
+· If successful, the Project has made X amount of revenue (Revenue). This Revenue is sent to the Workshop!
+· The X amount of Revenue from the Project is turned back into ETH by the Workshop. Let's say Y amount ETH.
+8 of 13
+
+Stage 3
+Revenue is added to SCS.
+
+SCS
+1b SNGLS assigned to many entities. Among them the Workshop. Holds 0 ETH from Creation Period. Holds Y ETH in Revenue.
+The Workshop sends the Y amount of ETH to be divided by SCS among token holders.
+
+Workshop (Gmbh)
+
+World
+
+9 of 13
+
+Stage 4
+Revenue is claimed by token holders.
+
+SCS
+1b SNGLS assigned to many entities. Among them the Workshop.
+Holds 0 ETH from Creation Period.
+
+Each token holder calls the withdrawRevenue function.
+
+As a result of the function call, SCS sends the caller the proportional Revenue based
+on its number of SNGLS.
+
+Workshop (Gmbh)
+
+World
+
+10 of 13
+
+SCS Specifications
+1. Creation Period starts with deployment and lasts for maximal 4 weeks. (maximal duration of Creation Period). 2. Activation Threshold is at least 34M tokens created. If this target is missed after 4 weeks, the S-DTV Smart Project fails and anyone will have the possibility to initiate the transfer of the respective amount of ETH submitted to the SCS from the SCS's address back to the address used to transfer the ETH to the SCS. 3. Initial base Token exchange value is 1.25 finney (0.00125 ETH). Token exchange value will stay at 1x for the first 10 days, after which it increases by 12.5% every 4 days up to 50%. 4. Guard can update token base Token exchange value. Will do it exactly after the deployment to reflect 1.5 cents. If the price of ETH fluctuates significantly during the sale, Guard will update the Token exchange value as many times as needed. 5. Total and maximal number of tokens is 1,000,000,000 (one billion). We call them SNGLS. 0 decimals points. 6. Workshop and early contributors are assigned 500,000,000 SNGLS by SCS, hardcoded into the contract. (400m Workshop and 100m early contributors). 7. Creation Cap is at 500,000,000 SNGLS. 8. The Creation Period is successful if Activation Threshold is reached before the end of the maximal duration of the Creation Period. 9. The Creation Period is closed successfully if either:
+· Creation Cap is reached before end of the maximal duration of the Creation Period.
+· End of the maximal duration of the Creation Period and Activation Threshold is reached.
+10. SNGLS are transferable after deployment, even during the sale, like any other ERC20 standard token. The only exception is that Workshop has to wait 2 years to be able to transfer its tokens. 11. SCS will transfer all ETH to the (cold) wallet of Workshop after the Creation Period is successfully closed (#9). 12. Everyone can deposit Revenue to SingularDTVFund. 13. Everyone can withdraw their Revenue share from singular contract. The Revenue assigned to the Workshop will always be reinvested.
+11 of 13
+
+Token Creation FSM
+
+A
+· Activation Threshold not reached.
+· Creation Period going. · Workshop cannot transfer
+tokens.
+
+34m tokens created within 4
+weeks.
+
+B
+· Activation Threshold reached.
+· Creation Period going. · Workshop cannot transfer
+tokens.
+
+4 weeks passed AND less than 34M tokens
+created.
+
+4 weeks passed since stateA OR 500M tokens created.
+
+Campaign successful Workshop can withdraw funding.
+
+C
+· Activation Threshold reached. · Creation Period ended. · Workshop cannot transfer
+tokens.
+
+E
+· Funding goal not reached. · Creation Period ended. · Workshop cannot transfer
+tokens.
+
+Campaign failed, because Activation Threshold was not reached.
+Everyone who sent ETH to SCS (note: not token holder) can withdraw.
+
+12 of 13
+
+2 years passed.
+D
+· Activation Threshold reached. · Creation Period ended. · Workshop can transfer
+tokens.
+Workshop can sell their shares.
+
+Thank you.
+13 of 13
+
+

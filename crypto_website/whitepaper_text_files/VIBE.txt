@@ -1,0 +1,577 @@
+CRYPTO20: The First Tokenized Cryptocurrency Index Fund
+
+Daniel SCHWARTZKOPFF, Luke SCHWARTZKOPFF, Raymond BOTHA, Matthew FINLAYSON with Frans CRONJE, on behalf of CRYPTO20
+October 15, 2017
+
+PLEASE READ THIS SECTION AND THE SECTIONS AT THE END OF THIS WHITE PAPER ENTITLED DISCLAIMER OF LIABILITY, NO REPRESENTATIONS AND WARRANTIES, REPRESENTATIONS AND WARRANTIES BY YOU, CAUTIONARY NOTE ON FORWARD-LOOKING STATEMENTS, MARKET AND INDUSTRY INFORMATION AND NO CONSENT OF OTHER PERSONS, NO ADVICE, NO FURTHER INFORMATION OR UPDATE, RESTRICTIONS ON DISTRIBUTION AND DISSEMINATION, NO OFFER OF SECURITIES OR REGISTRATION AND RISKS AND UNCERTAINTIES CAREFULLY.
+You should consult with your legal, financial, tax and other professional advisors(s) before taking any action in connection with this White Paper.
+The tokens described in this White Paper are not intended to constitute securities in any jurisdiction. This White Paper does not constitute a prospectus or offer document of any sort and is not intended to constitute an offer of securities or a solicitation for investment in securities in any jurisdiction.
+This White Paper does not constitute or form part of any opinion on any advice to sell, or any solicitation of any offer by CRYPTO20, an exempted company registered under the laws of the Cayman Islands (the Company) to purchase any tokens (C20) nor shall it or any part of it, nor the fact of its presentation, form the basis of, or be relied upon in connection with, any contract or investment decision.
+The Company will deploy the proceeds of sale of the C20s to fund the project, businesses and operations, as outlined in this White Paper.
+
+You are not eligible and you are not to purchase any C20s in the CRYPTO20 token sale (as referred to in this White Paper) if you are a citizen, resident (tax or otherwise) or green card holder of the United States of America, or a citizen or resident of the Republic of South Africa or Cayman Islands.
+No regulatory authority has examined or approved of any of the information set out in this White Paper. No such action has been or will be taken under the laws, regulatory requirements or rules of any jurisdiction. The publication, distribution or dissemination of this White Paper does not imply that the applicable laws, regulatory requirements or rules have been complied with.
+There are risks and uncertainties associated with the Company and its business and operations, the C20s, the CRYPTO20 token sale and the underlying assets, as described below.
+This White Paper, any part thereof and any copy thereof must not be taken or transmitted to any country where distribution or dissemination of this White Paper is prohibited or restricted. No part of this White Paper is to be reproduced, distributed or disseminated without including this section and the following sections entitled Disclaimer of Liability, No Representations and Warranties, Representations and Warranties By You, Cautionary Note On Forward-Looking Statements, Market and Industry Information and No Consent of Other Persons, Terms Used, No Advice, No Further Information or Update, Restrictions On Distribution and Dissemination, No Offer of Securities Or Registration and Risks and Uncertainties.
+
+Any agreement between the Company and you as a purchaser, and in relation to any sale and purchase, of C20s is to be governed by only a separate document provided by the Company (the T&C). The T&C will set out the terms and conditions of such agreement. In the event of any inconsistencies between the T&Cs and this White Paper, the T&C shall prevail.
+
+This White Paper has been prepared in multiple languages. In the event of any inconsistencies between one version and another, the English language version shall prevail.
+
+1
+
+EXECUTIVE SUMMARY
+Cryptocurrencies have grown exponentially since their creation in 2009, with the total cryptocurrency market capitalization currently standing at over $150 billion. While growth has been strong, the market capitilization of cryptocurrencies as a whole is still only a fraction of that of the S&P 500 index - which is itself only a fraction of the global stock investment market. There is still room for considerable growth.
+There are now thousands of cryptocurrencies to choose from, with more appearing each day. Choice paralyzes - choice adds cost, complexity and the need for advice. High risk, extreme volatility and practical difficulty compound to render buying and safely storing an effective and diverse portfolio of coins (cryptocurrencies) a complex problem.
+CRYPTO20 is the worlds first cryptocurrency-only tokenized index fund, and aims to provide a solution to this problem. The portfolio will autonomously maintain a diverse portfolio of the top 20 cryptocurrencies by market capitalization in the same way that funds such as the Vanguard 500 maintain a portfolio based on the market capitilization of the top 500 publicly listed US companies (the S&P 500). In order to continue to track the market (index) over time, CRYPTO20'S asset portfolio is adjusted regularly in a process called rebalancing.
+CRYPTO20 is not a platform, it is a fully functioning product. CRYPTO20 cuts out the middleman and is thus able to offer the lowest fees in the industry.
+Index funds have consistently outperformed actively managed funds since their inception. For the 12-month period ending May 2016, investors poured more than $375 billion into index funds, while actively managed funds experienced outflows of roughly $308 billion during the same period. One reason why index funds outperform actively managed funds is due to their low annual fees. CRYPTO20 has an annual fee of only 0.5% whereas competing crypto offerings have fees of 3% per year. All crypto offerings built on one of the many recently launched fund platforms will apply their fees over and above those of the platform. CRYPTO20 can offer such low fees because it is independent and automated. Index strategies are a set of rules that an algorithm can act on with no human intervention required.
+C20 is a utility token that is representative of a portion of the total value of the CRYPTO20 cryptocurrecy index. The initial tokens can only be acquired during the token offering process which is a one off, closed cap offering. The tokens provided will represent a participant's share of the portfolio. 98% of the total amount contributed during the offering will go directly towards buying the underlying cryptocurrencies. C20 is an ERC20 token based upon the Ethereum blockchain. Operating on the blockchain allows for global accessability, 24/7 trading, transparency, public verification of CRYPTO20's holdings and no expensive legacy banking fees.
+
+The only opportunity for future participants to buy these tokens post-ICO will be from ICO participants on exchange ­ no further tokens will be sold or minted. 98% of the ICO funds will go towards purchasing the underlying assets. A full breakdown of funds utilization and token distribution is available in sections VI and XIII.
+The index hyperparameters for the portfolio and rebalancing methodology were carefully determined via a structured data science approach. A trading strategy was put in place to mitigate the risk of front-running and a viability study was conducted to confirm that a portfolio at the maximum raise size would be able to effectively acquire sufficient coins without paying a large premium. The minimum effective portfolio size is $2m and if this is not achieved all investor funds will be returned. A maximum component weight of 10% was selected to prevent any single asset from dominating the index.
+Security is extremely important and the smart contract code was audited by an independent third party (Hosho Group). Expert advisors were consulted, best practices implemented and strong identity verification procedures put in place to prevent Sybil attacks and bad actors from compromising CRYPTO20. CRYPTO20's holdings will be audited and the audit report made public post-ICO. A full list of advisors is available on the CRYPTO20 website.
+A public ICO will be held from the 16th of October to the 30th of November 2017. CRYPTO20 will use the ICO contributions to acquire assets and test rebalancing over December and the coin is expected to be listed on exchange in January 2018.
+All trading data will be stored during CRYPTO20's operations this valuable data includes order books, pricing, coin volumes and more. After approximately six months of trading this deep dataset will be utilized by our machine learning partner, DataProphet, to optimize rebalancing and produce trading strategies for future fund types. CRYPTO20 ICO participants will have priority access to these very limited cap funds and the C20 token will be convertible.
+In conclusion, CRYPTO20 is a closed-cap, tokenized cryptocurrency portfolio that autonomously tracks the top 20 cryptocurrencies with weekly rebalancing to a maximum component weight of 10%.
+Instantly owning a diverse cryptocurrency portfolio is now as easy as holding a single token.
+"Don't look for the needle in the haystack. Just buy the haystack!" ­ John C. Bogle, founder of the Vanguard Group and inventor of the index fund.
+
+The tokens value is linked directly to the 20 underlying cryptocurrency assets held by CRYPTO20 via the innovative price floor mechanism implemented in our smart contract. The smart contract allows participants to cash out for their share of the underlying assets at any time. This means that C20's value on exchange will be protected - it will be irrational to sell at a price lower than the tokens share of the underlying assets if a higher price is offered via the smart contract. Token holders are free to sell or exchange their tokens at any time and pay no exit fees, broker fees or advice fees.
+
+2
+
+CONTENTS
+
+I INTRODUCTION
+
+4
+
+II TYPICAL PORTFOLIO & FUND STRUCTURES
+
+5
+
+III RATIONALE BEHIND A CRYPTO INDEX STRATEGY 5
+
+IV SMART CONTRACT SPECIFICATIONS
+
+6
+
+V LIQUIDATION OPTION
+
+7
+
+VI TOKEN DISTRIBUTION AND STRUCTURE
+
+7
+
+VII PORTFOLIO HYPERPARAMETERS
+
+7
+
+VIII REBALANCING METHODOLOGY
+
+10
+
+IX SECURITY & TRANSPARENCY
+
+10
+
+X TRADING STRATEGY
+
+10
+
+XI AUTOMATION
+
+11
+
+XII MARKETING AND INVESTOR RELATIONS
+
+11
+
+XIII ICO FUNDS UTILIZATION
+
+12
+
+XIV REPORTING
+
+12
+
+XV PROJECT TIMELINE
+
+12
+
+XVI CONCLUSION
+
+13
+
+References
+
+13
+
+XVI-A RESTRICTIONS ON DISTRIBUTION AND DIS-
+
+SEMINATION . . . . . . . . . . . . . . . . . . . . 15
+
+LEGAL DISCLAIMER:
+1. Prospective ICO Participants should inform themselves as to the legal requirements and tax consequences within the countries of their citizenship, residence, domicile, and place of business with respect to the acquisition, holding or disposal of the Tokens, and any foreign exchange restrictions that may be relevant thereto. The distribution of this White Paper and the offer and sale of the Tokens in certain jurisdictions may be restricted by law. This White Paper does not constitute an offer to sell or the solicitation of an offer to buy to any person for whom it is unlawful to make such offer or solicitation.
+2. CRYPTO20 is not providing you legal, business, financial or tax advice about any matter. You may not legally be able to participate in this private, unregistered offering. You should consult with your own attorney, accountant and other advisors about those matters (including determining whether you may legally participate in this ICO). You should contact us with any questions about this ICO or the Tokens.
+3. It is the responsibility of any persons wishing to acquire the Tokens to inform themselves of and to observe all applicable laws and regulations of any relevant jurisdictions. Prospective ICO Participants should inform themselves as to the legal requirements and tax consequences within the countries of their citizenship, residence, domicile and place of business with respect to the acquisition, holding or disposal of the Tokens, and any restrictions that may be relevant thereto.
+4. This White Paper constitutes an offer of Tokens only in those jurisdictions and to those persons where and to whom they lawfully may be offered for sale. This White Paper does not constitute an offer to subscribe for securities except to the extent permitted by the laws of each applicable jurisdiction.
+
+5. Nothing in this White Paper is intended to create a contract for investment into CRYPTO20, and each potential ICO Participant acknowledges that CRYPTO20 will rely on this assertion of an ICO Participants statements with respect to compliance with the laws of the jurisdiction in which the ICO Participant is legally domiciled.
+
+AN IMPORTANT NOTE FROM OUR LAWYERS:
+
+Crypto20 is incorporated in the Cayman Islands. Its company registration number is 327608.
+
+This document should not be construed as an offer or solicitation of an offer for the sale of tokens.
+
+The individuals listed in this document are not and will not be selling tokens and have drafted this document on behalf of the legal entity that will be conducting the relevant token sale.
+
+Consider the English language version of all CRYPTO20 communications, media and documentation to be the only official version.
+
+3
+
+ABSTRACT
+CRYPTO20 is an autonomous cryptocurrency-only portfolio composed by utilizing an index strategy. The token sale funding will be used to buy the underlying cryptocurrency assets and CRYPTO20 will hold the top 20 cryptocurrencies by market capitalization. CRYPTO20 cuts out the middleman, the platform, and is thus able to offer significantly lower fees. Index funds have consistently beaten the average managed fund since their inception.
+CRYPTO20 is not a platform, it is a fully functioning product and its token value is not based on speculation but rather the product benefits and net asset value of the 20 underlying cryptocurrencies. There are no broker fees, advice fees or exit fees. CRYPTO20's utility token is called C20. It can be traded at any time, holdings are fully transparent and there are no legacy banking fees or expensive fund managers.
+C20 tokens are directly tied to the underlying assets with a novel liquidation option that can be exercised via the smart contract. This function ensures a greatest lower bound (infimum) on the market value of all tokens.
+CRYPTO20 allows for access to a diverse cryptocurrency portfolio by holding a single token. The tokens will be tradable on exchange post-ICO and no further tokens will be issued. The top 20 cryptocurrencies by market capitalization change, and so will CRYPTO20's holdings. This rebalancing process allows for tracking of the cryptocurrency market index and is an effective risk mitigation strategy.
+A cryptocurrency portfolio based on a hybrid index system consisting of the top 20 coins by market cap, with weekly rebalancing and a component cap of 10% produces a combination that has broad market exposure and acceptable turnover without allowing a single asset, and thus single source of risk, to dominate. This paper seeks to structure and justify our hypotheses and conclusions.
+
+I. INTRODUCTION
+The benefits are simple and many: convenience, no broker fees, no exit fees, full transparency, full control and a lower price bound. There is no need to keep your C20 tokens on a centralized platform and you are free to sell or exchange your tokens without restriction. Automation allows CRYPTO20 to operate with fees of only 0.5% p/a as opposed to the market average of 3% p/a.
+No trust is required in the ability of human fund administrators/traders ­ an index fund strategy does not require any discretion or judgment, just adherence to a method determined via data science. The number of tokens, rebalancing frequency and asset weightings were carefully determined and our approach is detailed in this white paper.
+The ICO funds will be used to buy the underlying assets. Tokens can be liquidated through the C20 smart contract for their share of the porfolio's net asset value (NAV). This is key: it protects the token price as it would not be rational to sell at a lower value on exchange when tokens can be directly liquidated for a higher value.
+Funds with stellar performance attract substantial amounts of new money. A manager will most likely have to use that new money to "chase" a relatively small group of coins. This buying pressure can drive up coin prices, forcing the fund manager to pay higher prices than would otherwise be the case ­ affecting all tokenholders by reducing the fund's future gains. This is the motivation for issuing no further tokens post-ICO.
+The total market cap of the S&P 500 (June 30th, 2017) was 21.83 trillion USD [1] while the entire combined cryptocurrency market cap is only a fraction (approximately 0.7%) of this [2]. The S&P 500 is only a small part of the global investment market. There is thus still significant potential to introduce retail investors into the crypto market.
+
+Exposure to crypto returns with a broad, limited risk profile offers a compelling case to both crypto and fiat investors. CRYPTO20's value proposition (diversification by holding a single token) will be heavily promoted via marketing and investor outreach. The only opportunity to purchase these tokens post-ICO will be on exchange from ICO participants ­ highlighting the real demand for reduced risk crypto investments whilst simultaneously creating value for participants.
+
+CRYPTO20 will be of benefit to the community as a whole ­ market transparency and liquidity will increase as a result of our trading activity. We will bring fresh support, funding, and understanding to the community. Conventional Investors who were uncertain about investing in a single technology or system will now have an option to support the emerging cryptocurrency market through CRYPTO20.
+
+4
+
+II. TYPICAL PORTFOLIO & FUND STRUCTURES
+
+III. RATIONALE BEHIND A CRYPTO INDEX STRATEGY
+Index investing has seen exponential growth among investors since the first index mutual fund was launched in 1976. This has proven to be a successful form of investment as the low-cost involved has allowed index funds to outperform the majority of active managers across market and asset styles.
+
+Fig. 1. Comparison of managed vs. index funds [3]
+
+Over a 10-year investment horizon more than 80% of large-cap fund managers failed to outperform their benchmark index. The odds of picking a winning fund manager are also low: studies show that regardless of past performance, future performance is virtually random [4].
+
+Definitions:
+Open-end mutual fund:
+An open-end fund is a mutual fund issuing unlimited shares of investments in stocks and/or bonds. Investing creates more shares, whereas selling shares takes them out of circulation. Shares are bought and sold on demand at their net asset value, which is based on the value of the fund's underlying securities and is calculated at the end of the trading day. When a large number of shares are redeemed, the fund may sell some of its investments to pay the investor. Shares are bought directly from the fund administrators.
+Exchange-traded fund (ETF):
+An exchange-traded fund is like an open-end mutual fund but instead trades as a common stock on a stock exchange. It is not purchased directly from fund administrators. An ETF may trade at a premium or discount to the NAV but this is often very short-lived due to arbitrage by institutional investors.
+Closed-end fund (CEF):
+A closed-end fund is seeded once-off via an IPO and then traded on exchange thereafter. No further shares are issued and CEFs may trade above net asset value as buying and selling the shares on exchange has no effect on the underlying assets.
+The structure of CRYPTO20 is analogous to a new hybridtype; a closed-hybrid fund (CHF):
+- A CHF is a closed-end fund that trades with an index strategy whereas traditionally all closed-end funds have been actively managed.
+- Post-ICO, investors will only be able to purchase the C20 tokens on exchange. No further tokens will be sold directly. Buying and selling tokens on an exchange does not affect the underlying NAV and CHFs are able to trade at a premium depending on market forces.
+- A price floor is created via the liquidation option in the smart contract, effectively ensuring that the token is not able to trade at a discount.
+
+Simply, an index fund allows investors to track the index ­ the underlying trend behind the selection of assets without being reliant on a particular one. There is no active trading apart from the rebalancing of assets at fixed time intervals. This allows the fund to consistently track the mean market performance even if some of the original assets fall out of favor.
+The CRYPTO20 tokenized portfolio would be the first of its kind ­ it is bought with crypto and holds only cryptocurrencies. It will bring stability and old-economy money into the ecosystem, which will boost liquidity and provide a stable instrument for those who previously thought it was too risky to invest in a single technology.
+It is hypothesized that one is not able to attribute the lack of cryptocurrency take-up by retail investors seeking to allocate 'high-risk' portfolio funds solely to the difficulty of purchasing cryptocurrencies. The number of exchanges, services and payment methods available to purchase cryptocurrencies is increasing exponentially. In many cases it is easier and less burdensome to purchase bitcoin than to invest in a USD denominated mutual fund.
+The authors believe this lack of investment may be due to the fact that no such product has previously been available, communicated effectively in plain non-technical language and actively marketed to this sector. There is a distinction between 'high risk' and 'unacceptable risk' in the minds of many investors ­ cryptocurrencies have traditionally been seen as the latter [5]. CRYPTO20 aims to bring the risk to an acceptable level for allocation to a retail investor's portfolio.
+Zero Sum Game
+The central concept underlying the case for indexfund investing is that of the zero-sum game. This theory states that, at any given time, the market consists of the cumulative holdings of all investors, and that the aggregate market return is equal to the asset-weighted return of all market participants. Since the market return represents the average return of all investors, for each position that outperforms the market, there must be a position that
+
+5
+
+underperforms the market by the same amount, such that, in aggregate, the excess return of all invested assets equals zero.
+This zero sum around the market weighted mean return means that for every profitable trade an investor makes, another investor must make the opposite side of that trade and incur a loss relative to the market. This holds true regardless of whether the coin or token in question is mispriced or not, and for the same reason, the zero-sum game theory must apply regardless of market direction.
+
+- Ethereum smart contracts enable a very transparent way of offering a liquidation option.
+The smart contract complies with the ERC20 token standard [8] and can be used from any compatible Ethereum wallet. The contract code facilitates an ICO crowdsale by specifying a start and end block number so as to restrict certain functions during the ICO period. The token to ether price ratio is adjusted dynamically throughout the presale such that token price tracks $1 (the bonus structure is then applied on top of this).
+
+The distribution of market returns will thus be centered around a mean - the index CRYPTO20 aims to track. By holding a basket of coins we hope to capture this mean return ­ we expect to see a few coins that underperform and a few that overperform, the sum of the returns should provide the mean or market/index return.
+Low-fee Fund Benefits
+Active traders and fund managers generally have a far higher fund expense ratio than that of an index fund ­ around 6 times higher than an index fund (3% p/a compared to 0.5% p/a). The effect of this is that the aggregate return of investors is less than zero sum which makes outperformance compared to an index strategy and to the market much less likely.
+Data from the Financial Research Corporation has been used to evaluate the predictive value of different fund metrics such as a fund's past performance, Morningstar rating, alpha, and beta [6]. In the study, a funds expense ratio was the most reliable predictor of its future performance, with low-cost funds delivering above-average performance relative to the funds in their peer group in all of the periods examined. Likewise, Morningstar performed a similar analysis across its universe of funds and found that, regardless of fund type, low expense ratios were the best predictors of future relative outperformance [7].
+A position as a large player in the crypto markets will afford CRYPTO20 access to lower exchange fees and none of the legacy banking costs. Fiat investors looking for crypto returns with a broad exposure and limited risk profile will be drawn to CRYPTO20.
+IV. SMART CONTRACT SPECIFICATIONS
+Reasons for Choosing the Ethereum Blockchain:
+- Security and predictability (as opposed to, for example, having to run a separate blockchain),
+- Use of robust and well-supported clients (Ethereumbased tokens can be managed with official Ethereum clients),
+- High liquidity (transferable for ether), - Easier listing on exchanges with infrastructure already
+in place,
+
+Participants can send ether to the contract directly or via the buy or buyTo functions. The ether purchase amount is used to calculate the tokens bought which are then added to the balance of the participant account. The participant account (the account that is debited with tokens) is the sender account when using the buy and fallback function or the specified address when using the buyTo function and passing an address as an argument.
+
+The smart contract has a two-tier control functionality which gives two controlling wallets different levels of authority. This allows future blockchain development and full on-chain automation without sacrificing the control of fund managers.
+
+The withdraw function automatically calculates the ether amount to send to the participant account based on a forward pricing policy [9] which uses the asset-backed price of the tokens less a 1% trading fee. This trading fee is not a fee that CRYPTO20 imposes - it is levied by the exchanges necessary to execute the liquidation procedure. The price will be updated regularly to accurately reflect the value of the underlying crypto assets.
+// simplified contract withdrawal function for illustrative purposes
+function withdraw(uint withdrawAmount) { address participant = msg.sender; require(block.number > fundingEndBlock); require(balanceOf(participant) >= withdrawAmount); uint withdrawValue = withdrawAmount / currentPrice;
+require(this.balance >= withdrawValue); balances[participant] =
+safeSub(balances[participant],withdrawAmount); balances[fundWallet] =
+safeAdd(balances[fundWallet],withdrawAmount); participant.transfer(withdrawValue); }
+
+This withdrawal function ensures a greatest lower bound (infimum) of the pseudo-continuous time market value of all tokens. Formally:
+
+inf imum{(µiFi)}  H
+
+(1)
+
+Where µi is the speculative market coefficient of any single participant's total initial contribution (Fi) and H represents the total asset value of the portfolio. Seeing that Fi per tokens
+
+6
+
+bought is fixed during the ICO and that no further tokens are minted; participants are assured a maximum minimum withdrawal amount that is independent of all market forces µi. The implications of this are explained below.
+V. LIQUIDATION OPTION
+High-volume traders may seek to exploit pricing to the detriment of the community by initiating sell-offs that cascade and result in flash crashes so that they can purchase the cheap tokens. The liquidation option offers a price floor protection ­ this ensures the price never drops below that of the underlying assets because of market manipulation. Prices are, however, free to increase as speculative value is created by the high demand for a low-cost, diversified and automated cryptocurrency portfolio that can be held as a single token.
+A small, dynamically allocated percentage of CRYPTO20's assets will be held by the smart contract (in ether) to facilitate the liquidation option. This amount will be controlled automatically as usage demands. The vast majority of other cryptocurrency assets will be held in various cold storage wallets.
+During a withdrawal, the C20 tokens are transferred back to CRYPTO20's managers. These tokens are then resold on exchange at the current NAV per token or market price, whichever is higher. This ensures that the underlying assets can be rebought in the event that an investor uses the liquidation option ­ which would be unlikely due to the market price floor explained above.
+
+VI. TOKEN DISTRIBUTION AND STRUCTURE
+There will be no token creation, minting or mining after the ICO period. Tokens will be transferable and tradable once the ICO is successfully completed and the underlying assets have been acquired. Investment can be made in ETH, BTC or LTC. The USD equivalent amount of any ETH, BTC or LTC invested will be locked in at the time of investment according to market rates and considered the participant's contribution.
+
+Token Type: ERC20 ­ Ethereum Blockchain
+
+Maximum Supply (Hard Cap):
+
+86 206 896
+
+Available for Purchase:
+
+75 000 000
+
+Minimum ICO Contribution:
+
+0.04 ETH
+
+Minimum Raise:
+
+$2 000 000
+
+Price per token: Pre-sale (1 Week, up to 7 500 000 tokens): Pre-sale & first 48 hours of ICO: 48 hrs to Week 4 of ICO: Week 4-6 of ICO:
+
+$0.95 $1.00 $1.05 $1.10
+
+Summary:
+- 7.5% C20 Team - 0.5% Advisory Team - 2.5% Marketing and Investor Relations - 1.0% Legal - 1.0% Security - Systems and Smart Contract - 0.5% Bounty Program - 87% ICO Participants
+The CRYPTO20 team tokens will vest over two years to ensure that team incentives are aligned with ICO participants. This is enabled via a public smart contract 'vault'.
+VII. PORTFOLIO HYPERPARAMETERS Future-proofing: Eventually crypto returns will likely settle and resemble real-world investment returns as the market becomes more efficient, and as altcoins reduce bitcoin market cap dominance. Exchange fees will then be more relevant as they become larger with respect to profits. Predicting the rise and fall of cryptocurrencies is near impossible [10] ­ and remarkably difficult even in established markets with decades of data.
+The rationale behind an index strategy was previously established ­ we will now focus on increasing market exposure and decreasing the costs of running such a system.
+Test Assumptions and Conditions:
+Back-tests for portfolio value as well as expenses were carried out for 105 175-day rolling windows, each separated by 4 days, over the period 1 January 2016 - 16 August 2017. The rolling windows are implemented to ensure the results are relatively time-invariant. The value and expense graphs are for disjoint windows, line graphs are used for clarity.
+Expenses are calculated as 0.2% of every trade required to rebalance the portfolio and are accumulated within each window. This includes both the selling off and purchasing of entire coin holdings that enter or exit the top N number of coins, as well as trades required to maintain the appropriate cap-ceiling.
+Blockchain forks were treated as anomalies and any new coins created were seen as disparate from any other coin holdings for the purpose of these tests. This was done to ensure that test results do not incorrectly value a smaller number of coins or a higher cap-ceiling due to this particular anomaly being present in the data set.
+Discrete values were chosen for analysis to prevent overfitting to the limited data. Tests of the various hyperparameters were performed simultaneously but are
+
+7
+
+presented in ordered sections for clarity. 1
+
+Section A: Rebalancing Frequency
+Rebalancing is the act of periodically adjusting a portfolio such that its asset composition reflects the index it aims to track. Rebalancing an index fund not only reduces risk but also increases the median return. Daily, weekly and monthly rebalancing periods were investigated as well as no rebalancing.
+Hypotheses:
+A1: It is hypothesized that a rebalanced portfolio is likely to provide a greater median return. This means that a rebalanced portfolio is likely to outperform a non-rebalanced porfolio over multiple periods. The test conducted will therefore be over multiple windows with each point on the line graph representing the portfolio value at the end of the window.
+
+Fig. 3. Portfolio Performance for Different Rebalancing Frequencies
+
+A2: The rebalancing frequency needs to achieve a balance between accurately tracking the index and keeping turnover, and thus expenses, low. It is hypothesized that a weekly rebalancing frequency will achieve this goal.
+Tests:
+A back-test of portfolio value for varying rebalancing frequencies for tracking an index of the top 20 coins by market cap was performed.
+
+Fig. 4. Expenses for Different Rebalancing Frequencies
+Analysis and Conclusion: A1: In Figure 2 it can be noted that rebalancing
+outperforms no-rebalancing across the majority of observations in terms of value. A rebalancing strategy is thus selected.
+A2: As can be seen in Figure 4 above the expense ratio increases dramatically with daily rebalancing. As crypto returns in the long-term begin to normalize the much greater expenses incurred by daily rebalancing will have a more significant effect on the total value of CRYPTO20's holdings. A Weekly rebalancing frequency tracks the index more accurately than monthly and has a more acceptable cost ratio than daily.
+
+Fig. 2. Portfolio Performance for Market-weighted Portfolios with Different Rebalancing Frequencies
+As can be seen in Figure 2 above, a portfolio without rebalancing does not track the index effectively. In Figure 3 below, weekly rebalancing seems to achieve the greatest portfolio value most often out of the four rebalancing frequencies.
+As the rebalancing frequency increases from weekly to daily there is a dramatic increase in expenses. This is undesirable. Figure 4 provides an illustration of this difference.
+1Note that the test results shown for each of the hypotheses presented below do not constitute the entirety of the data analyzed to reach their respective conclusions. A large test space was simultaneously analyzed and only the most relevant graphs are presented here.
+
+Section B: Number of Tracked Coins
+Hypotheses:
+B1: Is it hypothesized that portfolio expenses and returns are correlated with the number of coins held in the portfolio.
+Tests:
+A back-test of portfolio value with number of coins E  {10, 20, 30, 40} with a weekly rebalancing frequency and a 10% cap-ceiling was performed.
+Figure 6 below illustrates the frequency at which each coin selection has the greatest value at the end of each testing window.
+Figure 7 illustrates how expenses as percentage of portfolio value varies by the number of coins the portfolio tracks. Each point represents total expenses per rolling window period.
+
+8
+
+Fig. 5. Portfolio Performance for Different Number of Coins
+
+C2: It is hypothesized that decreasing the cap correlates to an increased total expense ratio as coins with lower marketcap (and thus lower index ranking) will have a higher than normal weighting and thus incur greater expenses when they churn in and out of the index.
+Tests:
+A back-test of portfolio value for top 20 coins at market cap ceiling  {10%, 20%, 30%, 40%} with weekly rebalancing was performed. A pure market-share weighted (no cap) portfolio was also back-tested for comparison.
+
+Fig. 6. Direct Return Comparison for Different Number of Coins
+
+Fig. 8. Portfolio Performance for Different Market Caps
+
+Fig. 7. Expenses for Different Number of Coins
+
+Analysis and Conclusions:
+B1: The number of coins in the tracked index does seem to be correlated to the portfilo's return and expense ratio. The number of outperforming windows is substantially higher for 20 coins when compared to the alternatives in Figure 6 above. The portfolio value incorporates turnover and thus expenses. 20 coins are therefore selected to represent the CRYPTO20 index.
+Section C: Cap-Ceiling
+A hybrid-market cap index strategy protects against a single coin dominating portfolio composition whether it be bitcoin now or another coin in future. The higher the market cap ceiling the closer the hybrid model emulates a pure market-share model, with a 50% cap being roughly functionally identical to the market-share model.
+Hypotheses
+C1: It is hypothesized that a hybrid-market capped portfolio will increase returns and give broader market exposure in comparison to a pure market-cap weighted portfolio due to the greater weighting altcoins will receive.
+
+Fig. 9. Expenses for Different Market Caps
+Analysis and Conclusions: C1: Figure 8 confirms that a capped portfolio performs
+substantially better over the most recent 30 windows (spanning the past 275 days).
+It is also seen that a 10% cap ceiling performs most consistently over all observed windows. A 10% cap is more profitable more often and it offers a decreased risk profile when compared to a portfolio without a cap where a single coin may entirely dominate.
+C2: A decreasing cap does correlate with an increasing expense ratio as hypothesized (Figure 9). This is due to the increased churn caused by a more evenly spread asset distribution and is a consequence of the greater weighting of the lower market-cap coins. A lower cap does, however, allow the portfolio to achieve greater and more consistent returns.
+
+9
+
+Hyperparameter Summary
+A portfolio utilising a hybrid-market cap weighted index strategy that tracks 20 coins with a 10% cap weighting provides broad market exposure with acceptable turnover and mitigates risk by more evenly weighting the tracked assets. The cap also assists in future-proofing the porfolio because a single asset, and thus single source of risk, is not allowed to dominate. A weekly rebalancing frequency offers an acceptable balance between portfolio turnover and the ability to accurately track the underlying index.
+
+CRYPTO20 will at any stage hold varying amounts of the 20 coins that form the index it tracks. The majority of each of these cryptocurrencies will be stored in cold wallets with a small percentage of each currency stored in a wallet on our servers so as to facilitate automatic rebalancing. If rebalancing necessitates moving more of the cryptocurrency to these hot wallets this will be done manually via interfacing with various cold wallets ­ CRYPTO20's portfolio managers will be notified ahead of time so as to accommodate this. The weekly rebalancing period affords more than sufficient time for this purpose.
+
+VIII. REBALANCING METHODOLOGY
+
+CRYPTO20's portfolio will be rebalanced in accordance with FTSE Russel's capping methodology [11]. The Constituent Capping Factor ci is given by:
+
+Z
+
+ci = I × (pi × si) jJ (pj × sj )
+
+(2)
+
+Where,
+· i denotes the crypto to be capped
+· j denotes an uncapped crypto
+· J is the subset of cryptos that are uncapped
+· pk is the official closing price of the kth crypto
+
+· sk is the circulating supply of the kth crypto
+· I is the percentage of the index represented by all uncapped constituents
+· Z is the percentage capping level (i.e. 10%)
+
+The constituent capping factor is calculated and applied to all constituents whose uncapped weighting is above 10%. The weights of the uncapped constituents are then calculated and if any previously uncapped crypto now has a weighting greater than 10%, the constituent capping factor is recalculated including this crypto in the subset that requires capping. This process is repeated until all cryptocurrencies are capped correctly.
+
+IX. SECURITY & TRANSPARENCY
+CRYPTO20 has implemented security industry best practices for defense against Sybil attacks and bad actors in co-operation with our team of expert advisors. Strong identity verification and authentication procedures are in place to ensure secure operations.
+The smart contract code has been thoroughly audited by the Hosho Group (https://hosho.io/) for vulnerabilities, confirmation of operation as described in this White Paper, static and manual analysis of the smart contract, gas analysis and verification of the deployment procedure.
+Transparency in CRYPTO20's trading activities and current holdings will be ensured through the use of viewonly exchange APIs as well as through proof of reserve for non-exchange wallets (this includes both hot and cold wallets).
+
+Trades will be executed over multiple exchanges at varying times within our weekly rebalancing window to mitigate the risk of front-running. The following section, TRADING STRATEGY, contains a quantitative analysis on liquidity and front-running.
+Ledger Nano Ss [12] will be used for the storage of all cryptocurrencies it supports. For all cryptocurrencies not supported, encrypted USB drives will be utilized. These storage devices will be held in secure safe deposit boxes with back-up paper-wallets stored at separate secure locations. Locations are undisclosed for security consideration. A public audit post-ICO will confirm the presence and safe storage of the USB drives and paper-wallets to ICO participants.
+Wallet interactions with CRYPTO20 will be facilitated through light clients running within their own containerized services. See the AUTOMATION section for additional detail.
+X. TRADING STRATEGY The S&P 500 is rebalanced quarterly and additions or deletions are announced several days prior to the actual change [13]. In most years 25 to 30 stocks in the S&P 500 are replaced [14]. Any funds tracking this index need to rebalance their portfolios in accordance with these changes. Some index funds trade the added or removed stocks in the days in the run-up to the change and some trade on the day of the change.
+As of 07/31/2017, the bottom 10 stocks of the Vanguard S&P 500 ETF are only approximately 0.063% of the index value [15]. The market cap of the Vanguard fund is $338.3 billion [16] and the bottom 10 stocks are $213.8m by market cap of the total fund. These stocks have a combined average daily trading volume of $40.25m [17] [18]. Front-running and purchasing of stocks is seemingly a much greater problem for fiat index funds ­ of which Vanguard is only one ­ and these funds only lose 20-28 basis points p/a (0.2 ­ 0.28 % per year) to front-runners [19].
+The CRYPTO20 portfolio's lowest weighted constituents would be approximately 1% of AUM on average [20]. This
+
+10
+
+name
+Waves NEM TenX EOS
+
+Coins pos.
+18 8 20 19
+
+avg 24hr vol. $7.4m $8.2m $9.4m $17.9m
+
+Amount in USD, per slippage
+
+1%
+
+2%
+
+3%
+
+% of AUM
+
+$128,033
+
+$458,886
+
+$812,491
+
+1.08
+
+$45,546
+
+$176,543
+
+$575,736
+
+0.77
+
+$140,405
+
+$844,399
+
+$1,628,245
+
+2.17
+
+$147,053
+
+$417,523
+
+$625,430
+
+0.83
+
+TABLE I Amount immediately purchasable for four low-volume coins in the
+CRYPTO20 index as of 28 August 2017
+
+equates to $750,000 with $75m-worth of AUM. The lowest market-cap coins in the index have average daily trading volumes of approximately $5-20m, as evident in Table 1. The amount immediately purchasable was calculated automatically by the CRYPTO20 exchange service via the ingestion of order book data from the utilized exchanges. Adding a coin thus generally necessitates the purchase of only 3% to 15% of average daily trading volume, while the Vanguard S&P500 index fund has to contend with the purchase of 200-500% of the average daily trading volume.
+The coin with the lowest trading volume, Waves, is able to comfortably support the purchase of more than 5% of AUM in the rebalancing period at a slippage of only 3% from the best price. Only 1.38% would need to be acquired for the 28th of August 2017 example. This effectively justifies the decision for a maximum portfolio value of $75,000,000.
+Any front runners would need to anticipate coins entering the top 20 and have enough liquid capital on exchange to move market rates. CRYPTO20's index strategy trading rules will be known ­ however, several strategies will be employed to mitigate this risk:
+1) Cryptocurrencies will be sent to the exchange 1-48hrs in advance of the trade so that traders cannot follow the hot-wallet to know exactly when a purchase or sale will be made. A weekly rebalancing window affords sufficient time to do this.
+2) Trades will be executed over multiple exchanges. 3) Trades will be executed at varying times within the
+rebalancing window to prevent predictability.
+
+XI. AUTOMATION
+CRYPTO20 will be automated via API integration with multiple exchanges, possibly including but not limited to: Bitstamp, Bitfinex, BTer, Bittrex and Poloniex. The full list of exchanges utilized will be available on our website when trading begins. Additional exchanges will be added when vetted and APIs with the minimum sufficient functionality are made available.
+The liquidation price of the C20 tokens will be determined through the use of an exchange service developed by CRYPTO20. Automation of liquidation price updates are an essential part of smooth business operation, however, automation can also expose security risks due to the necessity of online private key storage. We circumvent this risk by implementing a two-tier permissions system, with multiple addresses allocated only the necessary permissions to fulfill a particular task, such as updating the liquidation price. This strategy enables risk-mitigating automation without having to store crucial private keys online.
+The CRYPTO20 backend runs as a cluster of containerized services using a thoroughly scalable and redundant architecture running on Kubernetes. Security and reliability is central to our system design ­ we rely on public-key cryptography, multiple factor authentication and system isolation of private keys. The vast majority of CRYPTO20's holdings will be stored offline in cold wallets.
+Backend calls to exchange API services will be used to find optimum routes for different trading pairs so as to obtain best possible prices on trades. This method will ensure underlying assets are always bought at the most competitive rates and exchange fees.
+CRYPTO20's system architecture makes use of a microservice design pattern, incorporating messaging and task queues with full event logging. Isolating services that can act as potential attack vectors from the rest of our systems will enable us to enforce tight security preventing the kind of breaches some other Ethereum-based ventures have seen.
+
+Anomalies and Responses Forking: If a cryptocurrency were to fork, the forked
+currency would be added as a regular portfolio asset. Rebalancing would be performed as per usual at the next interval.
+Crypto base BTC-ETH swap: A BTC-ETH swap does not affect CRYPTO20's trading strategy. During rebalancing, the most supported single-base exchange pairs are used agnostic to the specific crypto.
+
+XII. MARKETING AND INVESTOR RELATIONS
+The CRYPTO20 team will invest significant time and effort into post-ICO marketing targeted towards investors in the traditional financial sector via the production of information sheets, explainer videos and planning documents that are easily understandable. Token holders will be able to view detailed information on their holdings and portfolio composition on the CRYPTO20 website. CRYPTO20 will focus marketing efforts solely on nonregulated markets. No promotion or solicitation will be performed where participation is forbidden or likely to be forbidden in the near future in order to remain compliant
+
+11
+
+with local legislation.
+XIII. ICO FUNDS UTILIZATION
+The CRYPTO20 team has completed the development of the trading system. The ICO funds (98%) will go towards purchasing the underlying assets. A small allocation (0.5%) is made for legal fees to ensure that CRYPTO20 is compliant with regulation upon commencement of exchange trading and a complete audit of received funds by a major auditing firm. CRYPTO20 and its cryptocurrency diversification value proposition will be heavily promoted to retail investors and a 1.5% allocation is made to facilitate this. Any unused funds from the 2% operating expense allocation will be utilized in a discretionary capacity once CRYPTO20 has commenced on-going trading.
+- 1.5% Continued Marketing Pre-Exchange Listing - 0.5% Legal Fees and Post-ICO Audit - 98% Underlying assets
+XIV. REPORTING
+Accounting standards for cryptocurrencies remain unclear. The International Accounting Standards Board (IASB) will either create a new standard or change existing standards to address accounting for investments in intangible assets, including digital currencies. They are known to set standards based on successful businesses leading the way in how to account for their investments, for example in the case of commodity broker-traders. The IASB might take years to develop and implement a new standard ­ considering all possibilities early might enable CRYPTO20 to pioneer a standard and give tokens credibility as an alternative investment vehicle.
+CRYPTO20 has conducted an analysis into the audit and accounts requirements in order to provide best effort in complying with existing legislation. CRYPTO20 will operate on a quarterly reporting basis with annual accounts. The quarterly reports will include information on governmental risk and legislation, risk/return analysis, portfolio performance and end of year predictive market analysis.
+Financial reports will include the following:
+- A balance sheet and a statement of the portfolio's total investment value
+- An income statement for the period covered - A list of the porfolio's amounts and values on the date
+the balance sheet was issued - A statement of salaries or any other monies paid to the
+directors, advisory board and officers - Total amounts of crypto purchases and sales The information will be made available on the investor portal of the CRYPTO20 website and CRYPTO20's assets will be viewable at any time with a blockchain explorer.
+
+XV. PROJECT TIMELINE Initial Research and Development
+- January - April 2017 ­ Developed the team and concept; conducted thorough backtests to determine portfolio hyperparameters; set wheels in motion to create a compliant legal structure.
+Develop Smart Contract and Autonomous Trading System - April - June 2017 ­ Developed innovative CRYPTO20 smart contract to best practice specifications; developed back-end for multi-exchange trading.
+Finalize Smart Contract and Trading Protocol - June - July 2017 ­ Complete smart contract to auditready state. Optimized autonomous index trading algorithm to mitigate front-running and slippage. Consultation with industry expert advisors.
+Test Trading System; Security Audit - July - September 2017 ­ Security audit and code review process. Trading system tested and completed.
+C20 Token Pre-Sale - 7th October - 14th October 2017 ­ Token pre-sale.
+C20 Token ICO - 16th October - 30th November 2017 ­ Token ICO.
+Public Audit of ICO Funds - December 2017 ­ Public auditing firm to audit CRYPTO20 ICO and release statement verifying holdings.
+Initial Top 20 Coin Acquisition; On-going Marketing and Investor Relations; First Rebalancing Procedure
+- December 2017 - January 2018 ­ Initial coin holdings acquired; final information sheets and reporting structures released to retail investors. First portfolio rebalance is performed and monitored.
+Public Launch on Exchange - January 2018 ­ C20 Token is listed for trade on exchange.
+Data Collection; Regular Operation - January 2018 - Future ­ The data pulled from multiple exchanges - order books, volumes etc. will be stored. After approximately 6 months of operation, this valuable deep dataset will be used to inform future development; incl. development of AI fund products by partner DataProphet. CRYPTO20 ICO participants will have priority acceptance into these very limited cap funds and C20 tokens will be transferable into these funds.
+
+12
+
+XVI. CONCLUSION A hybrid market-cap weighted (10%) index strategy portfolio consisting of the top 20 coins by market cap, with rebalancing weekly produces a combination that has broad market exposure and acceptable turnover without allowing a single asset (and thus a single source of risk) to dominate.
+CRYPTO20 is poised to set a new standard for cryptocurrency investments. As a transparent, secure and directly asset linked 'token-as-a-portfolio', CRYPTO20 aims to bring low-fee, broad market exposure crypto investment to the mainstream with its innovative single token offering.
+contact@crypto20.com https://www.crypto20.com
+
+REFERENCES
+[1] Siblis Research, "S&P 500 Total Market Capitalization," 2017. http://siblisresearch.com/data/total-market-cap-sp-500/
+[2] Coin Market Cap, "Total Market Capitalization," 2017. https://coinmarketcap.com/charts/
+[3] G. L. Harbron, "The case for low-cost index-fund investing," 2017. https://personal.vanguard.com/pdf/ISGIDX.pdf
+[4] A. M. Soe, "SPIVA US Scorecard," 2015. http://mkwinc.com/wp-content/uploads/2016/03/SPIVA2015.pdf
+[5] K. Close. "Why You Shouldn't Invest in Bitcoin," 2017. http://time.com/money/4623650/bitcoin-invest/
+[6] D. D. Guercio, J. Reuter, "Mutual Fund Performance and the Incentive to Generate Alpha," 2012. https://www2.bc.edu/jonathan-reuter/research/active 201208.pdf
+[7] R. Kinnel, "How Expense Ratios and Star Ratings Predict Success," 2010. http://news.morningstar.com/articlenet/article.aspx?id=347327
+[8] "ERC20 Token Standard". https://theethereum.wiki/w/index.php/ERC20 Token Standard
+[9] Investing Answers, "Forward Pricing." http://www.investinganswers.com/financial-dictionary/mutualfundsetfs/forward-pricing-3597
+[10] S. Chan, et al, "Statistical Analysis of Cryptocurrencies," 2017. http://www.mdpi.com/1911-8074/10/2/12/pdf
+[11] FTSE Russel, "Ground Rules: FTSE UK Capped Index Series," 2017. http://www.ftse.com/products/downloads/FTSE UK Capped Index Series.pdf?39
+[12] Ledger Nano S. https://www.ledgerwallet.com/products/ledger-nano-s
+[13] S&P Dow Jones, "S&P U.S. Indices Methodology", 2017. http://ca.spindices.com/documents/methodologies/methodology-sp-usindices.pdf
+[14] David Blitzer, "Inside the S&P 500," 2013. http://www.indexologyblog.com/2013/07/09/inside-the-sp-500selecting-stocks/
+[15] Vanguard, "Vanguard S&P 500 Fund Holdings," 2017. https://personal.vanguard.com/us/FundsAllHoldings?FundId=0968&FundIntExt= INT&tableName=Equity&tableIndex=10
+[16] Vanguard, "Vanguard S&P 500 ETF," 2017. https://personal.vanguard.com/us/funds/snapshot?FundIntExt=INT&FundId=0968
+[17] Investing, "S&P 500 Components," 2017. https://www.investing.com/indices/us-spx-500-components
+[18] Yahoo, "Yahoo Finance," 2017. https://finance.yahoo.com/quote/ua, https://finance.yahoo.com/quote/PDCO/, https://finance.yahoo.com/quote/an/, https://finance.yahoo.com/quote/MNK/, https://finance.yahoo.com/quote/bbby/, https://finance.yahoo.com/quote/mur/, https://finance.yahoo.com/quote/RIG/, https://finance.yahoo.com/quote/jbgs/, https://finance.yahoo.com/quote/cndt/
+[19] Bloomberg, "Can You Really Game Index Funds?", 2015. https://web.archive.org/web/20170502140906/https://www.bloomberg.com/ view/articles/2015-07-07/can-you-really-game-index-funds-
+[20] Coin Market Cap, "CryptoCurrency Market Capitalizations". https://coinmarketcap.com/historical/20170820/
+[21] Bloomberg, "The Hugely Profitable, Wholly Legal Way to Game the Stock Market", 2015. https://www.bloomberg.com/news/articles/2015-07-07/the-hugelyprofitable-wholly-legal-way-to-game-the-stock-market
+
+13
+
+DISCLAIMER OF LIABILITY
+To the maximum extent permitted by the applicable laws, regulations and rules, neither the Company nor the Crypto20 Team shall be liable for any indirect, special, incidental, consequential or other losses of any kind, in tort, contract or otherwise (including but not limited to loss of revenue, income or profits, and loss of use or data), arising out of or in connection with any acceptance of or reliance on this White Paper or any part thereof by you.
+NO REPRESENTATIONS AND WARRANTIES
+The Company does not make or purport to make, and hereby disclaims, any representation, warranty or undertaking in any form whatsoever to any entity or person, including any representation, warranty or undertaking in relation to the truth, accuracy and completeness of any of the information set out in this White Paper.
+REPRESENTATIONS AND WARRANTIES BY YOU
+By accessing and/or accepting possession of any information in this White Paper or such part thereof (as the case may be), you represent and warrant to the Company as follows:
+(a) you agree and acknowledge that the C20 tokens do not constitute securities in any form in any jurisdiction;
+(b) you agree and acknowledge that this White Paper does not constitute a prospectus or offer document of any sort and is not intended to constitute an offer of securities in any jurisdiction or a solicitation for investment in securities and you are not bound to enter into any contract or binding legal commitment and no cryptocurrency or other form of payment is to be accepted on the basis of this White Paper;
+(c) you agree and acknowledge that no regulatory authority has examined or approved of the information set out in this White Paper, no action has been or will be taken under the laws, regulatory requirements or rules of any jurisdiction and the publication, distribution or dissemination of this White Paper to you does not imply that the applicable laws, regulatory requirements or rules have been complied with;
+(d) you agree and acknowledge that this White Paper, the undertaking and/or the completion of the C20 token sale, or future trading of the C20 tokens on any cryptocurrency exchange, shall not be construed, interpreted or deemed by you as an indication of the merits of the Company, the C20 tokens, the C20 token sale and the underlying assets (each as referred to in this White Paper);
+(e) the distribution or dissemination of this White Paper, any part thereof or any copy thereof, or acceptance of the same by you, is not prohibited or restricted by the applicable laws, regulations or rules in your jurisdiction, and where any restrictions in relation to possession are applicable, you have observed and complied with all such restrictions at your own expense and without liability to the Company;
+(f) you agree and acknowledge that in the case where you wish to purchase any C20 tokens, the C20 tokens are not to be construed, interpreted, classified or treated as:
+(i) any kind of currency other than cryptocurrency;
+(ii) debentures, stocks or shares issued by any person or entity;
+(i) rights, options or derivatives in respect of such debentures, stocks or shares;
+(ii) rights under a contract for differences or under any other contract the purpose or pretended purpose of which is to secure a profit or avoid a loss; (iii) units in a collective investment scheme;
+(iv) units in a business trust;
+(v) derivatives of units in a business trust; or
+
+(vi) any other security or class of securities.
+(g) you are fully aware of and understand that you are not eligible to purchase any C20 tokens if you are a citizen, resident (tax or otherwise) or green card holder of the United States of America or a citizen or resident of the Republic of South Africa or the Cayman Islands;
+(h) you have a basic degree of understanding of the operation, functionality, usage, storage, transmission mechanisms and other material characteristics of cryptocurrencies, blockchain-based software systems, cryptocurrency wallets or other related token storage mechanisms, blockchain technology and smart contract technology;
+(i) you are fully aware and understand that in the case where you wish to purchase any C20 tokens, there are risks associated with the Company and its respective business and operations, the C20 tokens, C20 token sale and the underlying assets (each as referred to in the White Paper);
+(j) you agree and acknowledge that the Company or any of the Crypto20 Team is not liable for any indirect, special, incidental, consequential or other losses of any kind, in tort, contract or otherwise (including but not limited to loss of revenue, income or profits, and loss of use or data), arising out of or in connection with any acceptance of or reliance on this White Paper or any part thereof by you; and
+(k) all of the above representations and warranties are true, complete, accurate and non-misleading from the time of your access to and/or acceptance of possession this White Paper or such part thereof (as the case may be).
+CAUTIONARY NOTE ON FORWARD-LOOKING STATEMENTS
+All statements contained in this White Paper, statements made in press releases or in any place accessible by the public and oral statements that may be made by the Company or any of the Crypto20 Team on behalf of the Company, that are not statements of historical fact, constitute forward-looking statements. Some of these statements can be identified by forward-looking terms such as aim, target, anticipate, believe, could, estimate, expect, if, intend, may, plan, possible, probable, project, should, would, will or other similar terms. However, these terms are not the exclusive means of identifying forward-looking statements. All statements regarding the Companys financial position, business strategies, plans and prospects and the future prospects of the industry which the Company is in are forward-looking statements. These forward-looking statements, including but not limited to statements as to the Companys revenue and profitability, prospects, future plans, other expected industry trends and other matters discussed in this White Paper regarding Crypto20 are matters that are not historic facts, but only predictions.
+These forward-looking statements involve known and unknown risks, uncertainties and other factors that may cause the actual future results, performance or achievements of funds, cryptocurrencies, or the Company to be materially different from any future results, performance or achievements expected, expressed or implied by such forward-looking statements. These factors include, amongst others:
+(a) changes in political, social, economic and stock or cryptocurrency market conditions, and the regulatory environment in the countries in which the Company conducts its respective businesses and operations;
+(b) the risk that the Company may be unable or execute or implement their respective business strategies and future plans;
+(c) changes in interest rates and exchange rates of fiat currencies and cryptocurrencies;
+(d) changes in the anticipated growth strategies and expected internal growth of the Company;
+
+14
+
+(e) changes in the availability and fees payable to the Company in connection with their respective businesses and operations;
+(f) changes in the availability and salaries of employees who are required by the Company to operate their respective businesses and operations;
+(g) changes in preferences of customers of the Company;
+(h) changes in competitive conditions under which the Company operate, and the ability of the Company to compete under such conditions;
+(i) changes in the future capital needs of the Company and the availability of financing and capital to fund such needs;
+(j) war or acts of international or domestic terrorism;
+(k) occurrences of catastrophic events, natural disasters and acts of God that affect the businesses and/or operations of the Company;
+(l) other factors beyond the control of the Company; and
+(m) any risk and uncertainties associated with the Company and its business and operations, the C20 tokens, the C20 token sale and the underlying assets (each as referred to in the White Paper).
+All forward-looking statements made by or attributable to the Company and of the Crypto20 Team or other persons acting on behalf of the Company are expressly qualified in their entirety by such factors. Given that risks and uncertainties that may cause the actual future results, performance or achievements of the Company to be materially different from that expected, expressed or implied by the forward-looking statements in this White Paper, undue reliance must not be placed on these statements. These forward-looking statements are applicable only as of the date of this White Paper.
+Neither the Company nor any other person represents, warrants and/or undertakes that the actual future results, performance or achievements of the Company will be as discussed in those forward-looking statements. The actual results, performance or achievements of Crypto20 may differ materially from those anticipated in these forward-looking statements.
+Nothing contained in this White Paper is or may be relied upon as a promise, representation or undertaking as to the future performance or policies of the Company.
+Further, the Company disclaims any responsibility to update any of those forward-looking statements or publicly announce any revisions to those forward-looking statements to reflect future developments, events or circumstances, even if new information becomes available or other events occur in the future.
+MARKET AND INDUSTRY INFORMATION AND NO CONSENT OF OTHER PERSONS: This White Paper
+includes market and industry information and forecasts that have been obtained from internal surveys, reports and studies, where appropriate, as well as market research, publicly available information and industry publications. Such surveys, reports, studies, market research, publicly available information and publications generally state that the information that they contain has been obtained from sources believed to be reliable, but there can be no assurance as to the accuracy or completeness of such included information.
+Save for the Company and its respective directors, executive officers and employees, no person has provided his or her consent to the inclusion of his or her name and/or other information attributed or perceived to be attributed to such person in connection therewith in this White Paper and no representation, warranty or undertaking is or purported to be provided as to the accuracy or completeness of such information by such person and such persons shall not be obliged to provide any updates on the same.
+Neither the Company nor any of the Crypto20 Team has conducted
+
+any independent review of the information extracted from third party sources, verified the accuracy or completeness of such information or ascertained the underlying economic assumptions relied upon therein. Consequently, neither Crypto20 nor its directors, executive officers and employees acting on its behalf makes any representation or warranty as to the accuracy or completeness of such information and shall not be obliged to provide any updates on the same.
+TERMS USED
+To facilitate a better understanding of the C20 tokens being offered for purchase by the Company, and the businesses and operations of the Company, certain technical terms and abbreviations, as well as, in certain instances, their descriptions, have been used in this White Paper. These descriptions and assigned meanings should not be treated as being definitive of their meanings and may not correspond to standard industry meanings or usage.
+Words importing the singular shall, where applicable, include the plural and vice versa and words importing the masculine gender shall, where applicable, include the feminine and neuter genders and vice versa. References to persons shall include corporations.
+NO ADVICE
+No information in this White Paper should be considered to be business, legal, financial or tax advice regarding the Company, the C20 tokens and C20 token sale and the underlying assets (each as referred to in the White Paper). You should consult your own legal, financial, tax or other professional adviser regarding the Company and its business and operations, the C20 tokens, the C20 token sale and the underlying assets (each as referred to in the White Paper). You should be aware that you may be required to bear the financial risk of any purchase of Crypto20 tokens for an indefinite period of time.
+NO FURTHER INFORMATION OR UPDATE
+No person has been or is authorised to give any information or representation not contained in this White Paper in connection with the Company and its business and operations, the C20 tokens, the C20 token sale and the underlying assets (each as referred to in the White Paper) and, if given, such information or representation must not be relied upon as having been authorised by or on behalf of the Company. C20 token sale (as referred to in the White Paper) shall not, under any circumstances, constitute a continuing representation or create any suggestion or implication that there has been no change, or development reasonably likely to involve a material change in the affairs, conditions and prospects of C20 or in any statement of fact or information contained in this White Paper since the date hereof.
+A. RESTRICTIONS ON DISTRIBUTION AND DISSEMINATION
+The distribution or dissemination of this White Paper or any part thereof may be prohibited or restricted by the laws, regulatory requirements and rules of any jurisdiction. In the case where any restriction applies, you are to inform yourself about, and to observe, any restrictions which are applicable to your possession of this White Paper or such part thereof (as the case may be) at your own expense and without liability to the Company or any member of the Crypto20 Team.
+Persons to whom a copy of this White Paper has been distributed or disseminated, provided access to or who otherwise have the White Paper in their possession shall not circulate it to any other persons, reproduce or otherwise distribute this White Paper or any information contained herein for any purpose whatsoever nor permit or cause the same to occur.
+NO OFFER OF SECURITIES OR REGISTRATION
+This White Paper does not constitute a prospectus or offer document of any sort and is not intended to constitute an offer of securities or a solicitation for investment in securities in any jurisdiction. No person is bound to enter into any contract or binding legal commitment and
+
+15
+
+no cryptocurrency or other form of payment is to be accepted on the basis of this White Paper. Any agreement in relation to any sale and purchase of C20 tokens (as referred to in this White Paper) is to be governed by only the T&Cs of such agreement and no other document. In the event of any inconsistencies between the T&Cs and this White Paper, the former shall prevail. No regulatory authority has examined or approved of any of the information set out in this White Paper. No such action has been or will be taken under the laws, regulatory requirements or rules of any jurisdiction. The publication, distribution or dissemination of this White Paper does not imply that the applicable laws, regulatory requirements or rules have been complied with.
+RISKS AND UNCERTAINTIES
+Prospective purchasers of C20 tokens (as referred to in this White Paper) should carefully consider and evaluate all risks and uncertainties associated with the Company and its business and operations, the C20 tokens, the C20 token sale and the underlying assets (each as referred to in the White Paper), all information set out in this White Paper and the T&Cs prior to any purchase of C20 tokens. If any of such risks and uncertainties develops into actual events, the business, financial condition, results of operations and prospects of the Company could be materially and adversely affected. In such cases, you may lose all or part of the value of the C20 tokens.
+16
+
+

@@ -1,0 +1,340 @@
+SpankChain
+A cryptoeconomic powered adult entertainment ecosystem built on the Ethereum network.
+Pink Paper v0.1 October 23rd, 2017 Ameen Soleimani ameen@spankchain.com William Bentley de Vogelaere wills@spankchain.com
+
+Abstract
+In this paper, we present SpankChain, an adult entertainment ecosystem powered by blockchain technology. The SpankChain ecosystem possesses a tiered architecture featuring three layers: SpankChain Core, SpankChain Services, and SpankChain Applications. SpankChain Core is comprised of smart contracts and tooling which provide the foundational functionalities necessary to operate a streaming or static content distribution application, namely a user profile system and payment capabilities. The SpankChain Services layer contains a suite of ancillary services which add enhanced functionality to applications built upon SpankChain Core, including payment channel hubs, age verification, live video, an ad network, an affiliate network, indexing/search, and an interface builder. SpankChain Applications exist on top of SpankChain Core, leveraging various SpankChain Services. The applications layer is a collection of branded interfaces that tie together underlying pieces of the ecosystem to attract paying audiences. The SpankChain team will develop the ecosystem's first application, a live cam site aptly named SpankChain. SpankChain utilizes a multi-token economic model, beginning with the SPANK token. SPANK is a staking token which can be utilized to mint alternative tokens, offering specific payment and governance rights throughout the SpankChain ecosystem. The multi-token model is designed to abstract away ecosystem-wide coordination processes from mechanisms which meter platform usage rights. We also introduce a novel verification game called Proof-of-Spank to address underage model swapping and simultaneously incentivize active participation in the SpankChain ecosystem.
+1
+
+Table of Contents
+
+The Adult Entertainment Industry
+
+4
+
+The SpankChain Ecosystem
+
+6
+
+SpankChain Core
+
+7
+
+SpankChain Services
+
+9
+
+SpankChain Applications
+
+11
+
+Market Opportunity and Strategy
+
+14
+
+Token Model
+
+15
+
+Token Auction
+
+18
+
+Token Distribution
+
+23
+
+Roadmap
+
+24
+
+Management of Funds
+
+27
+
+Team
+
+28
+
+2
+
+Introduction
+The $100B1 adult entertainment industry has faced routine discrimination at the hands of banks, payment processors, and financial institutions. These service providers simply refuse to service those in the adult industry. In 2014, JPMorgan Chase closed the bank accounts of several high profile porn stars and their families without justification2. In 2015, Visa and Mastercard stopped processing payments for advertising on B ackpage.com3. Paypal is notorious for closing the accounts of performers and seizing their funds4. This discrimination and censorship has persisted despite the FDIC declaring it unconstitutional and in violation of the First Amendment5.
+Making matters worse, middlemen in the adult entertainment industry have historically extracted exorbitant fees due to a lack of competition in the space. The popular adult-friendly payment processor CCBill takes a 10.8-14.5% cut of payments and charges a $1,000 'high-risk' registration fee annually, pricing out many potential entrepreneurs. Most adult camsites take between a 30-50% cut of performer earnings, and adult content marketplaces such as ManyVids take a 40% cut or more.
+Blockchains represent a viable alternative to the discrimination and inefficiencies of legacy financial institutions. Public blockchains are globally distributed systems of record that provide permissionless access to anyone with an internet connection. Anyone, regardless of their profession, can use a public blockchain to store their funds and transact without fear of having their accounts shut down. Blockchain transactions also have strong finality guarantees, so the fraudulent chargebacks used as justification for classifying adult entertainment businesses as `high-risk' are effectively impossible. Further, blockchains such as Ethereum, which support smart contracts, can be used to decentralize the business processes of expensive middlemen and render them obsolete.
+1 https://www.nbcnews.com/business/business-news/things-are-looking-americas-porn-industry-n289431 2 http://www.businessinsider.com/porn-star-chase-bank-accounts-2014-4 3 http://reason.com/archives/2015/07/02/visa-mastercard-refuse-backpage-payments 4 https://www.vice.com/en_us/article/4w74jg/how-the-financial-sector-is-making-life-miserable-for-sex-workers-714 5 https://www.engadget.com/2015/12/02/paypal-square-and-big-bankings-war-on-the-sex-industry/
+3
+
+The Adult Entertainment Industry
+Adult Entertainment Historically
+Historically, the adult entertainment industry has consistently driven the mainstream adoption of new technologies. The printing press was propelled to glory by the publication of the famous I Modi (The Ways). I Modi, which consisted of graphic sexual illustrations and explicit sonnets, became one of the most widely distributed books of the Italian Renaissance and compelled many Italians to learn how to read6. Much of the internet's early value was captured by way of helping people find pornography. Jimmy Wales, founder of Wikipedia, funded the collaborative encyclopedia's early development with revenue from his adult site Bomis7.
+From the printing press to the Super 8 Film, from pay-per-view to VCRs, adult entertainment has accelerated technology for decades. The vast demand for porn on the internet has led to the creation of streaming video, credit-card verification sites, web referral rings and video technologies like Flash.
+Adult Entertainment Today
+Today, porn is driving innovation in the Internet-of-Things (IoT) with teledildonics, and there are physicists implementing advanced fluid dynamics in Virtual Reality (VR) graphics engines to perfect the "jiggle".
+Currently, the dominant forms of online adult entertainment businesses are paid membership sites, free tube sites, and live camsites. Paid sites are typically operated by a studio and charge a monthly subscription fee for access to their full content library.
+Free tube sites offer unlimited access to a collection of full-length videos, clips, photos and mashups. They earn revenue from video and display advertising, primarily supporting dating apps, adult toys and other porn sites. The most popular free tube site is P ornhub, which according to Alexa is the 20th most visited site in the US.
+Camsites typically fall into one of two categories: public tipping sites or pay-per-second private/group sites. Most camsites sell site-specific "tokens" to their viewers which they can use to tip models or pay for private shows. The most popular camsite is L iveJasmin, which offers private shows and is ranked 27th on Alexa. Close behind are Chaturbate and Bonga Cams, which offer public tipping shows and are ranked 109th and 149th on Alexa, respectively.
+6 https://www.wikiwand.com/en/I_Modi 7 https://www.wikiwand.com/en/Bomis
+4
+
+Adult Entertainment Trends
+In the last decade, a few notable adult industry trends have emerged. First, viewers are migrating from paid membership sites to free tube sites and live cam sites. Presumably, viewers prefer the range of free options they can find on tube sites and the engagement they can experience by joining live cam shows relative to purchasing memberships to individual sites. Second, social media distribution channels are becoming increasingly important. Studios, porn stars, and cam models are marketing their new videos and upcoming cam sessions to their followers on social networks like Twitter, Instagram, and SnapChat. A few tube sites have begun to build their own social networks so that users can follow their favorite performers, track their favorite videos, and get personalized recommendations. New marketplaces have emerged to allow performers to upload their content and sell access to their fans directly. ManyVids, for example, allows models to charge for access to their videos, and some performers use the platform to offer paid Skype and texting sessions. A third trend is the new status quo of rampant piracy perpetrated by free tube sites. Generally speaking, tube sites are not content creators, so all of their content can be reasonably expected to be pirated. Only in rare cases will tube sites partner with content creators to obtain distribution rights and offer them a share of the advertising revenue. Content creators have little power to defend themselves because the U.S. is complacent about enforcing DMCA (The Digital Millennium Copyright Act) takedown notices for adult content. A further complication is that most major tube sites are owned by M indGeek, the same porn conglomerate that owns most of the studios producing porn in the first place. Performers are afraid of speaking out against tube site piracy for fear of being blacklisted from the studios.
+5
+
+The SpankChain Ecosystem
+SpankChain has received significant support from those who recognize the adult entertainment industry as a driver of innovation and those who understand that the communities most motivated to switch to a new economic platform are those marginalized by the existing one. The SpankChain mission is to bring the core benefits of blockchain technologies - privacy, security, self-sovereign identity, and economic efficiency - to the adult entertainment industry. Our goal is to do this while remaining maximally compliant with legal codes. To execute this mission, we will deploy a framework which provides the core functionalities necessary to create and operate a streaming or static content distribution application, while offering a range of services that provide enhanced functionality for these applications. The SpankChain ecosystem will be composed of three layers: Core, Services, and Applications.
+6
+
+SpankChain Core
+The SpankChain Core layer provides the foundational smart contracts and infrastructure for the ecosystem: a Performer Registry contract, a Payment Channel contract, and the Vynos payment channels wallet. These will be open source and free to use.
+Performer Registry
+The Performer Registry smart contract is the basis for identity in the SpankChain ecosystem. Performers will use it to create their performer profiles, which will connect their Ethereum addresses with their existing profiles on social media sites, allow them to receive identity attestations (e.g. age verification), and allow them to link to any off-chain profile data they have on I PFS.
+Simply having the Performer Registry connect performer Ethereum addresses to their social media profiles will allow anyone to look up a performer and send them gifts of ETH or tokens without any intermediaries.
+More importantly, moving performer identity to Ethereum and storing their profile data on IPFS represents a paradigm shift to self-sovereign identity, moving away from centrally owned identity by traditional web 2.0 platforms. The end result is that performers have more freedom to switch between sites and applications they prefer since there is total freedom on the blockchain.
+Payment Channel Contract
+The Payment Channel contract allows for secure, instant off-chain payments that cost no gas. It manages the secure opening, closing, and settlement of peer-to-peer payment channels.
+SpankChain currently uses the M achinomy payment channel library and its `Broker.sol' smart contract which allows for unidirectional ether-only payment channels. In the future, we plan to iterate on the Payment Channel contract with new features including token transfers and trustless hash-locked atomic multi-hop payments.
+Vynos
+The Vynos wallet is the f irst Ethereum wallet with support for payment channels. It allows users to interact with our Payment Channel contract and make signed off-chain payments
+7
+
+to our SpankChain Hub. The current implementation is browser-based and lives in an iframe, allowing users to use it on all devices and without needing to download a browser extension. Similar to MetaMask, it stores private keys encrypted in the browser's local storage.
+Vynos will be open sourced in conjunction with the first production release of the SpankChain camsite. After, we will release an SDK allowing partner sites to easily integrate Vynos for their viewers and performers to use. In the future, we plan to add support for connecting to a bounty hunter network (to protect against replay attacks), as well as support for multi-hop payments. Vynos is a critical infrastructure component because it fundamentally changes the user experience of interacting with adult sites. In place of the status quo of usernames, passwords, email addresses, and credit cards for each website, users with Vynos wallets will be able to immediately start using and making payments on the SpankChain platform without any setup. The user's Ethereum address is their identity, and Vynos acts as a passport to the entire SpankChain ecosystem.
+8
+
+SpankChain Services
+The SpankChain Services layer will offer additional paid services to applications built on top of SpankChain Core. These services will include payment channel hubs, age verification, live video streaming, an ad network, an affiliate network, indexing/search, an interface builder, and more. These services are intended to be modular and interoperable, allowing businesses to pay only for what they require. In other words, we intend to develop the Amazon Web Services of the adult entertainment industry.
+Payment Channel Hubs
+The SpankChain Payment Channel Hub is the primary economic vector of the SpankChain ecosystem, allowing users to process payments for a fraction of the cost of traditional payment processors. Payment channels allow you to group a series of payments into a single blockchain transaction in order to avoid paying fees on each transaction and waiting for each transaction to get mined. Payment channels function similar to bar tabs. For example, a customer at a bar opens a tab upon arriving, orders some number of drinks, and then settles the final balance with the bartender when they are ready to leave. Similarly, someone who wants to make repeated payments for a service (e.g. a live cam show) can open a payment channel with the service provider by depositing ETH or ERC20 tokens in escrow on a smart contract, make numerous payments offchain (e.g. tips), then settle the final balance on the smart contract when they are finished receiving services.
+9
+
+In our current implementation, users open payment channels with the SpankChain Hub via the Vynos interface, deposit funds to the channel, send tips to performers, and make payments by the minute for private shows. The SpankChain Hub is responsible for verifying payments, monitoring for replay attacks, tracking performer earnings, and providing payouts upon request.
+The second iteration of the SpankChain Hub will include support for trustless multi-hop payments, allowing performers and partner sites to receive payouts instantly. In the future, we plan to open source the SpankChain Hub code and help grow a decentralized network of payment hubs with the goal of connecting all viewers, performers, and platforms within the adult industry.
+Age Verification
+SpankChain will comply with all age verification laws in the jurisdictions we serve. Performers on our platform will need to provide a valid form of government issued identification to prove they meet the age requirements for adult entertainment industry work. SpankChain will be responsible for keeping this sensitive information private and secure
+For platform businesses that wish to list and promote consenting performers, we will share verification information through an API. In the future, we plan to create an open platform via which performers can receive age verification attestations on their Performer Registry profiles.
+Live Video
+The SpankChain team is developing high-quality live video streaming infrastructure that supports the entire range of mobile devices. Platform businesses will be able to leverage our video player SDK to seamlessly connect performers with viewers.
+The video player will interoperate with the Vynos wallet, allowing users to join private shows and pay per second. In the future, we plan to upgrade our video player to be censorship resistant by supporting P2P connections over WebRTC and fully decentralized video streaming protocols like LivePeer.
+Ad Network
+Outside of payment processing, advertising represents the largest opportunity for monetization in the SpankChain ecosystem. The SpankChain team plans to develop an advertising network for display ads, video ads, and native ads (e.g. cam models reading sponsor messages). Our goal is to maximize revenue share with the entertainers whose
+10
+
+audiences we target. We believe this will motivate many performers and studios to make the SpankChain ecosystem the primary distribution channel for their free content.
+The first version of our ad network will only serve SpankChain applications, but we plan to release an SDK for platform businesses to use as well. The ad network architecture will use state channels to track impressions and conversions in real-time and eventually move to a per-ad micropayment model8. In the future, we plan to use a token curated registry mechanism, similar to A dChain, to verify that sites and apps selling their advertising opportunities are not fraudulent.
+Affiliate Network
+In place of rigid, exclusive promotional agreements with centralized camsites, we plan to create an open market for promotional revenue-sharing agreements through our affiliate network. Performers and platform businesses who wish to promote their live cam sessions and paid content can join our affiliate network to connect with distribution partners, give them unique referral links, and reward them with a share of the spend from viewers that followed their links.
+Just like our ad network, the affiliate network will only be available to SpankChain applications at first, made available later to platform businesses through an SDK. The affiliate network will interoperate with Vynos to manage affiliate payouts via payment channels.
+Indexing/Search
+SpankChain will expose an indexing/search API and SDK for platform businesses that want to help promote performers connected to the SpankChain platform on their own sites and apps. This API will allow them to access a list of live entertainers, search for entertainers by name and by keywords, and search for content by keyword. We plan to integrate payment channels with the API and use a metered access pay-per-query model.
+Interface Builder
+The Interface Builder will help non-technical performers and businesses easily set up their own applications to display their profiles, sell their content, and stream their cam sessions. It will integrate with the SDKs for all our services and provide a WYSIWYG (what you see is what you get) interface for site creation. The WYSIWYG editor will feature a set of standard template options and offer tools allowing for the rearranging and alteration of elements of an interface in real time.
+8 https://github.com/AdChain/AdMarket
+11
+
+SpankChain Applications
+The SpankChain Applications layer is composed of user interfaces that target various adult industry audiences. These applications can be specific to performers (e.g. Kayden Kross) or launch partners (e.g. C amversity) , language specific, interest based (e.g. fetish), or device specific (e.g. Virtual Reality). To bootstrap the SpankChain ecosystem, we will launch a live camsite named SpankChain, to be followed by an adult content marketplace developed in collaboration with d istrict0x, The Red Light District. We anticipate our efforts paving the way for third party platform developers to join us in building apps on our platform. Our vision for the SpankChain ecosystem is to have a wide variety of adult sites and apps built on top of the same infrastructure, SpankChain Core, allowing users and performers to seamlessly switch between any applications in our ecosystem.
+SpankChain Camsite
+To bootstrap adoption of our platform, we will build and operate our own adult camsite. At large, it will function like most existing camsites. Users will be able to join public shows for free and pay in tips, or they can pay per second to get access to private and group shows. Differentiating ourselves from the current industry options, we plan to charge a 5% fee on model earnings, in stark contrast to the 30-50% charged by traditional camsites today.
+12
+
+The Red Light District
+The Red Light District will allow performers to upload and sell digital content directly to their fans. The Red Light District is being developed as a joint venture with the district0x Network, a collective of decentralized community owned and operated marketplaces. Users will be able to purchase content directly via ETH and ERC20 transactions or by using the Vynos wallet and SpankChain Hub.
+Marketplaces on the district0x Network leverage the A ragon framework to provide community governance options via the district0x Network Token (DNT). Both teams have agreed to allow the Red Light District to be jointly governed with both DNT and SPANK tokens. As the total supply of either token is 1B each (2B total), they will be treated in equal accord. Either token can be staked to the Red Light District's deposit pool to mint tokenized voting rights in the Red Light District's Aragon entity. These voting rights can be utilize to propose and vote on various aspects of the Red Light District.
+We anticipate that the primary topics the community of token holders will propose and signal for will be the development roadmap, content quality controls, content ranking algorithms, the implementation of revenue generating modules, and the parameters of any modules in use.
+Future Applications
+Our goal is to make the SpankChain platform as open to innovation as possible, and we anticipate that third parties will use our platform to build applications which we could
+13
+
+never anticipate. That said, here are some of the applications that we do anticipate being launched across the SpankChain ecosystem.
+ Porn Bounties - A platform for crowdfunding the creation of new porn scenes, which could involve celebrities and sending some fraction of the proceeds to charity.
+ Ethereum Webcam Hardware - A webcam with a built-in hardware wallet and Vynos integration.
+ Tube Site - A tube site with free content paid for by advertising, possibly with an integrated attention market which allows users to earn a fraction of the ad revenue or pay the real-time price of an ad in order to avoid it.
+ VR Apps - The same set of apps that exists for the web (i.e. live cams, content marketplace, etc..), but also live social events (e.g. a strip club cantina where the dancers are holographic projections of real dancers).
+ Adult Dating - An adult dating matchmaking service that connects people based on their porn preferences.
+Market Opportunity and Strategy
+Aggregation Theory (l ink) states that when transaction costs fall, existing distributor-supplier relationships stop being as important as user experience. With payment channels, we can reduce transaction costs by one to two orders of magnitude, so we fully expect UX to be the most important differentiating factor moving forward. With SpankChain positioned to launch a community-owned ecosystem of adult dapps, all usable through a secure cryptocurrency wallet and without needing email addresses or credit cards, we believe we have an opportunity to gain significant market share.
+Market Strategy
+Our go to market strategy is to partner with top performers who have loyal followings and provide them with the tools to launch their own branded sites for both camming and clips on the SpankChain platform. This strategy is informed by our observation that performers are already disintermediating traditional distributors by cultivating followers for their personal social media brands and advertising their cam sessions and clips to their fans directly. This makes performers less dependent on the expensive paid advertising campaigns that traditional distributors run. In turn, this presents us with an opportunity to unbundle tech and payments from marketing and branding, and offer our superior technology at lower prices (l ink).
+14
+
+Advertising Opportunity
+SpankChain will also attempt to capitalize on the massive arbitrage opportunity that currently exists in advertising on adult content. An intuitive but obscure fact is that advertising on adult content - even major tube sites - typically earns 10x less than advertising on mainstream platforms like Google and Facebook9. This is despite the well-known statistics that nearly everyone watches porn10. The explanation is simple: big brands don't want to associate with adult content.
+We believe that gradually, over the next few years, this will change. For context, advertising revenue has consistently been 1-1.5% of the US GDP for the last 100 years11, which means that advertising is a zero-sum game (more ad spend in one area means less in another). Today, estimates suggest that at least 20% of the $80B online advertising market is fraudulent12. As the sex positivity movement continues to expand and the cultural stigma against sex and adult entertainment unwinds, we expect that some of this $16B+ will move from targeting botnets to targeting real humans consuming adult content, increasing revenues across the entire adult industry.
+Token Model
+SpankChain utilizes a multi-token economic model, beginning with the SPANK token. SPANK is a staking token which can be utilized to mint alternative tokens offering specific payment and governance rights throughout the SpankChain ecosystem. The multi-token model is designed to abstract away ecosystem-wide coordination processes from mechanisms which meter platform usage rights.
+SpankChain will mint a finite supply of 1,000,000,000 SPANK.
+For metering platform usage rights, SpankChain will develop a staking contract called the SpankBank which will allow SPANK holders to lock down their SPANK tokens to generate BOOTY tokens, which are redeemable for $1 in SpankChain infrastructure fees. While viewers will be able to pay models in ETH or any ERC20 token that models accept; performers and platform businesses can pay their SpankChain fees (payment channel hubs, live video, etc.) in BOOTY.
+This token model makes it possible to make a one time purchase of SPANK and then use the generated BOOTY to pay for SpankChain fees. At a very basic level, SPANK function as
+9 https://digiday.com/marketing/porn-pays-advertiser/ 10 https://gizmodo.com/5552899/finally-some-actual-stats-on-internet-porn 11 https://stratechery.com/2016/tv-advertisings-surprising-strength-and-inevitable-fall/ 12 http://www.businessinsider.com/ad-fraud-estimates-doubled-2017-3
+15
+
+fee credit (BOOTY) generation machines. As a result, SPANK give access to the platform at a fixed cost, comparable to holding a license.
+BOOTY Generation
+In order to mint BOOTY from SPANK, holders needs to lock down SPANK tokens. Locking down a token means that the token cannot be transferred during this period. The exact amount of BOOTY generated by the locking transaction is known prior to the users decision to lock down the SPANK tokens. This number is determined algorithmically and implemented by a smart contract. The algorithm adjusts the BOOTY emission rate constantly to create the right amount to maintain the total at 20 times the average monthly BOOTY use. Consequently, when the use of the platform grows, the amount of BOOTY generated per SPANK grows along with it. When the use of the platform is stagnant, the amount of BOOTY generated per SPANK remains the same. In this scenario, for every BOOTY consumed, one new BOOTY is generated. This will prevent hyperinflation of BOOTY and thus will give it a stable utility value. The lockdown period can be chosen by the user with options ranging from one month to twelve months. 30%(*) of the new BOOTY is generated immediately, and the rest is generated continuously over the locking period. Longer lock down periods receive a slightly higher BOOTY/time ratio.
+16
+
+The above table demonstrates a hypothetical BOOTY generation scenario. Initially, the total BOOTY supply is 200. During the first time period, 10 BOOTY is consumed in fees. Because the SpankBank BOOTY generation algorithm targets a total BOOTY supply of 20x the usage of each period, the new target BOOTY supply is 200. At the end of the first time period, 10 new BOOTY is generated and the final BOOTY supply is 200.
+During the second time period, the platform usage increases to 20 BOOTY, so the new target BOOTY supply is 400 and 220 new BOOTY are generated to hit the target (200 - 20 = 180; 180 + 220 = 400). In time period 3, platform usage decreases to 15 BOOTY which makes the target BOOTY supply 300. No new BOOTY is generated at the end period 3 because the total BOOTY supply is already 385--above the 300 target. In periods 4 and 5 we see platform usage stabilize at 20 BOOTY and so the target BOOTY supply is 400 in both. In period 4 the SpankBank generates 35 new BOOTY (to make up for the 15 used in period 3) and in period 5 only the 20 that were used are generated.
+In all of the above rounds, BOOTY is distributed proportionally to SPANK holders who have chosen to stake their SPANK on the SpankBank smart contract, taking into account the varying lockup periods.
+Proof-of-SPANK
+One problem which plagues live camsites is age verified models "swapping" with underage performers. Short of constantly running verification software, performer swapping is difficult to detect. In order to address swapping and simultaneously incentivize active participation in the SpankChain ecosystem, we are introducing a novel verification game called P roof-of-Spank. Every 10 minutes, one performer doing a live public show will be selected at random for spanking. Using a source of randomness (e.g. a recent blockhash) the performer will be presented with four numbers between 1-20, recite all four, pick one, and then spank themselves live that many times. Everyone staking SPANK on the
+17
+
+SpankBank contract will have the opportunity to participate in a token vote on whether the current performer matches their profile--if they vote that the performer is actually an imposter, the performer's account will be revoked.
+In order for those staking their SPANK in the SpankBank contract to receive their newly minted BOOTY, they must participate in at least some to-be-determined number of Proof-of-Spank rounds every month. As we scale, the SpankChain team plans to work closely with the Plasma project to develop an infinitely scalable, hierarchical Proof-of-Spank blockchain system.
+Fee Options
+If BOOTY were the only option to pay for fees on SpankChain someone might think about speculating on and horde BOOTY. We prevent this from happening by letting models and platform pay their fee with any widely used token they are willing to accept for payment (ETH / BTC-tokens / USD-tokens).
+Fee Reduction Mechanism
+We assume that most fees will be paid in BOOTY however, if fees are paid with any other token these fees will be credited directly to an external auction contract. The auction contract will sell the fees for SPANK. The SPANK acquired in this way will be used permanently to reduce the platform fee via concurrently triggering a linear fee reduction. For instance, if 10% of all existing SPANK is held by the auction contract, the fee will be automatically reduced by 10%. If the auction contract were to hold all SPANK tokens the fees would be 0. This long term perspective makes SpankChain even more appealing today for users and application developers. This process will not decrease the utility of the remaining SPANK. If the use of SpankChain remains constant, a fee reduction of 10% would mean that 10% less BOOTY is consumed and therefore 10% less BOOTY is generated as well. The newly generated BOOTY would then be distributed to 10% less SPANK tokens as the SPANK held by the smart contract does not receive BOOTY. Consequently, the ratio of BOOTY generated per user holding SPANK would stay constant. If we assume that reduced fees will lead to increased platform use, we can assume that the BOOTY/SPANK ratio will go up.
+18
+
+Token Distribution
+The SpankChain Genesis Contract will mint 1,000,000,000 SPANK tokens. The minted SPANK will be allocated as follows:
+ Up to 600,000,000 SPANK w ill be distributed during our Oct. 31 token sale. Leftover SPANK tokens will be distributed back into our reserve.
+ 160,000,000 SPANK will be distributed to founding team, team members, advisors, and early contributors.
+ 240,000,000 SPANK w ill be reserved for platform subsidies, industry partners, strategic incentives, and additional fundraising.
+SPANK tokens minted for allocation to founders, advisors, and early contributors, are subject to a one year time lock. The SpankChain team intends to keep 95% of SPANK tokens held in reserve locked up for a minimum of 6-months following the launch.
+Token Auction
+The SpankChain token sale will be conducted through a custom, single-round, blind, dutch, state channel auction system which eliminates blockchain network congestion and also allows our team greater flexibility to determine the price and quantity of tokens sold.
+Of the 1 billion SPANK tokens minted, we plan to sell between 30%-60% (300M-600M) for between $5M-$69M in ETH. The final price and quantity will be determined by the SpankChain team once all bids have been received. All buyers will receive their purchased SPANK for the same final price.
+Purchase Phase
+There will be a 2 week purchase phase during which buyers will submit an ETH deposit to the auction smart contract and then submit any number of bids offchain through our website (using MetaMask) to our server. Bids will each have an ETH quantity and an ETH/SPANK price, and thus will approximate a buyer's demand curve for SPANK.
+19
+
+In the above hypothetical auction, buyer 0x6969 places a 100 ETH deposit with the `Auction.sol' smart contract, and then sends a series of signed bids offchain to the SpankChain server.
+By bidding 50 ETH at 0.0004 ETH / SPANK ($120M Mkt Cap @ $300 / ETH) and 75 ETH at 0.0003 ETH/ SPANK ($90M Mkt Cap), they are rationally choosing to bid less ETH at higher SPANK prices.
+Because our auction contract verifies that signed bids and deposits are made from the same Ethereum address, and because we require buyers to sign their bids from their MetaMask wallets, ether deposits must also be placed from MetaMask (or at least using the same private key as MetaMask).
+20
+
+Processing Phase
+At the end of the the purchase phase, a 1 week processing phase will begin. SpankChain will generate a cumulative demand curve from all bids, evaluate it against our internal supply curve, and decide on the strike price. We will submit this strike price to the auction smart contract and submit selected bids (max 1 per buyer) to the contract for processing. Once all selected bids have been processed, we will trigger the completion of the auction, which will enable withdrawals of both ETH and SPANK for buyers and for SpankChain.
+21
+
+In the above continuation of the hypothetical auction from the previous diagram, after seeing all the bids, SpankChain decides on a strike price of 0.0003 ETH / SPANK. SpankChain sets this strike price on the auction contract and then submits the 75 ETH bid from 0x6969 and the 269 ETH bid from 0x1337 to the contract as well. After that, SpankChain ends the auction, withdrawing the ETH proceeds and all unsold SPANK. Once the auction is complete, buyer 0x6969 withdraws 325K SPANK (accounting for their 30% presale registration bonus) and their 25 remaining ETH (deposit of 100 ETH - bid quantity of 75 ETH), and buyer 0x1337 withdraws 897K SPANK and 0 ETH.
+Both of the accepted bids in the above example were exactly at the strike price--if there were accepted bids above the strike price they would have received the strike price as well.
+The SpankChain team can trigger auction completion any time during the processing phase; failure to do so before the end of the processing phase will result in a void auction and a full ETH refund for all buyers.
+The auction can only be completed successfully if the global constraints set at deployment are respected. If the total SPANK sold is outside of 30%-60% the total issuance, or if the ETH proceeds are not between $5M-$69M, any attempts to complete the auction will fail.
+In case of emergency during either the purchase phase or processing phase, the SpankChain team has the ability to cancel the auction which will allow buyers to immediately withdraw all their deposited funds.
+Bid Selection
+During the processing phase, SpankChain submits selected bids (max 1 per buyer) at or above the strike price to the auction contract until the desired quantity of ETH to accept is reached. SpankChain has full discretion over which bids to select and submit. Generally speaking, SpankChain intends to prioritize bids from registered presale buyers over regular unregistered auction participants, but we make no guarantees of participation for any buyers. If demand is high, it is quite possible for a buyer to place a bid above the strike price and still not have it accepted.
+In a high-demand auction, SpankChain may choose to favor a broader distribution by selecting smaller bids from a greater number of buyers. For example, if the strike price is 0.0003 ETH / SPANK, and a buyer has one bid exactly at 0.0003 ETH / SPANK for 75 ETH and another bid at 0.0004 ETH / SPANK for 50 ETH, we may select the higher priced bid (the buyer would still get the same strike price). We suspect that anyone placing a bid to buy SPANK for ETH will be happy to receive more SPANK for the same amount of ETH.
+22
+
+Contract Audits
+The SpankChain auction contract has received two independent audits and been subjected to a $50K bug bounty. The first bounty was conducted by Andrey Petrov and Max Veytsman in August on an early version of the auction, and the second was conducted by the Blockchain at Berkeley (B@B) and completed on October 18th on the most recent auction version. One participant in the bug bounty found an adversarial owner re-entrancy attack that would allow SpankChain to call the `completeSuccessfulAuction' function on the auction contract multiple times and withdraw additional ether. This bug was also discovered independently during the B@B audit, and has since been fixed. No other bugs were reported.
+Secure Browser Signing
+Another security concern addressed by the SpankChain team is cross-site scripting attacks in the browser. In order to participate in the auction, buyers must sign their bids using the MetaMask chrome extension. The web3 javascript object injected by MetaMask is secure against tampering by malicious client-side javascript due to process isolation enforced by the browser security model. However, the bid signing process takes place in two steps: First, the bid parameters are sent to web3 to be hashed, and only then is the resulting hash is sent back to web3 to be signed. This leaves a vulnerability open for malicious client-side JS to replace the hash the buyer is about to sign, which in the worst case could be a real Ethereum TX that sends the attacker all the buyer's ether. To eliminate this class of attack forever, we implemented Ethereum Improvement Proposal (EIP) 712 (l ink) , which combines hashing and signing into a single, secure, web3 function called `eth_signTypedData'. We also worked closely with the MetaMask team to include our implementation in the MetaMask extension (link) .
+23
+
+Roadmap
+
+SpankChain intends to deliver a decentralized adult social network with integrated payments and self-sovereign identity. To accomplish this more quickly, we plan to start with centralized infrastructure and focus on building our community and improving user experience with payment channels. Once we build the SpankChain camsite and the Red Light District, we plan to modularize and decentralize the infrastructure components and offer them to our platform partners. For more information, check out our comprehensive roadmap dependency graph (l ink) .
+Q1 2018
+
+SPANK / BOOTY Token Implementation
+ SPANK staking contract to mint BOOTY deployed on mainnet
+
+SpankChain Camsite v0
+ ETH payments  No Fees  Centralized performer identity
+profiles and video  Public shows only
+
+Platform Apps v0
+ Custom built for key performer partners
+ ETH payments  No fees
+Q2 2018
+SpankChain Camsite v1
+ ETH + ERC20 payments  5% fees in BOOTY  Public + Private Shows
+
+Red Light District v0
+ Buy content with ETH + ERC20  No fees  Centralized performer identity /
+profiles and content hosting
+
+24
+
+Q3 2018
+SpankChain Camsite v2
+ Uses decentralized performer profiles
+ Has integrated affiliate network and ad network
+
+Q4 2018
+
+Red Light District v1
+ Integrate with Vynos and SpankChain hub
+ Fees paid BOOTY (% tbd)  Uses dox infrastructure framework  Uses decentralized performer
+profiles
+
+Platform Apps v1
+ Open platform for performers and platform business
+ Uses open source SDKs  Must use SpankChain payment
+hub
+
+Q1 2019
+Platform Apps v2
+ Has integrated affiliate network and ad network
+ Integrated with WYSIWYG
+
+25
+
+Q2 2019
+Red Light District v2
+ Decentralized governance using district0x + Aragon
+ Stake DNT and SPANK to vote  Expand to merchandise, dom
+services, and escorting
+
+Q4 2019
+Decentralized Adult Social Content Network
+ Uses decentralized performer profiles and social data
+ Uses decentralized video  Uses decentralized payment  channel hub network
+
+Decentralized Ad Network
+ Open platform for adult industry advertising
+ Join the AdChain Registry or deploy our own version for the adult industry
+
+Management of Funds
+Funds received during our Auction will be used solely for the development and expansion of the SpankChain platform. That includes engineering, marketing, legal costs, daily operations, as well as financing the SpankFund.
+Development Expenses
+That covers costs associated with the advancement of the SpankChain ecosystem tech. This will include deployment of the SpankChain platform, security audits, creation of auxiliary modules, and the launch of our internal applications.
+
+26
+
+Operational Expenses
+That covers costs associated with maintaining day-to-day operations at SpankChain. Some examples of these costs include business development, community management and education activities, human resources and recruiting, accounting and other administrative obligations.
+Marketing Expenses
+That part of contributions will cover any costs associated with the promotion of the SpankChain Network including but not limited to entities on the SpankChain Platform, the SpankChain framework, and the SpankFund.
+Legal Expenses
+Contributions allocated for legal expenses will cover any legal costs associated with the establishment and operation of the SpankChain organization. These costs will include the establishment and operation of entities selected as service providers by the SpankChain Network and any unforeseen legal costs.
+The SpankFund
+Inspired by the Slack Fund and The district0x Power Plant, the SpankChain team will seek to establish an entity to support the expansion of the SpankChain platform, advance the infrastructure upon which it is built, back the efforts of partner projects that offer opportunities for interoperability, and overall foster the emergence of a thriving ecosystem around the platform.
+27
+
+Team
+Founding Team
+William Bentley de Vogelaere William began his career at Daniel Brian & Associates overseeing both digital and traditional marketing and product strategy for Livestream, Chic-fil-A, The Robb Report, Warner Bros., and The Walt Disney Company. It was there where he found his love for technology and the influence it has on society. From DBA Worldwide William went into app consulting building over 16 apps for both his own ventures and for companies from the likes of InterDigital, Caesarstone, New York Fashion Week, Wizard World to celebrities such as Norman Reedus and more. Previous to SpankChain, William worked for Delta Brain, Inc building their seizure prediction SaaS for healthcare specialists.
+Janice Griffith Janice is a writer, model, adult performer, and sex positivity activist. Griffith has been a part of the adult entertainment industry for over four years, participating in mainstream culture outreach and sex positive normalization. Griffith's focus on integrating sex and adult entertainment into everyday culture reflects in her writing and educational work - making her an integral part of the SpankChain team, connecting the adult world to tech. Janice Griffith is pushing for worldwide acceptance and utilization of sex tech through SpankChain.
+Sergey Ukustov Sergey is a software engineer from a home country of almighty hackers. After studying physics, dropped out of PhD programme at a local Russian university. Spent four years working on smart grid software used by few of the largest energy companies in US and Europe. Blockchain and distributed tech believer since 2013. Initiated KYC project under central bank backed Masterchain blockchain initiative. Founded Machinomy, micropayments technology provider, to move banking and market economy into previously unreached niches, such as adult industry.
+Yogesh Srihari Yogesh worked recently as a Lead Software Engineer at ZEFR for almost a year before leaving in June to join forces with Ameen to start SpankChain . Prior to that he was the Co-Founder of TeeSwipe, Director of Engineering at Wickr , Software Engineer at Google ( acquired through Anvato) and a Software Engineer at Hexagon geospatial. Yogesh has been world regional finalist on ACM programming olympiad in 2006. Yogesh is currently working on smart contract development, blockchain research, architecting and managing overall technology infrastructure at SpankChain.
+28
+
+David Wolever David is a software developer, startup founder, and community organizer from Toronto, Canada. After leaving a software engineering degree from the Univeristy of Toronto, he went on to develop software for furniture mass customization, found a large format digital signage company, start PyCon Canada (Canada's regional Python conference), and organize the international PyCon conference. Right now he's working to revolutionize paper-based assessments in colleges, and architecting the backend systems at SpankChain.
+James Young James has 20+ years as a software developer specializing in streaming video network design, social/mobile game development and online advertising. Three startup acquisitions later as well as working at larger known companies like Cisco and Zynga (launched FarmVille), he fell down the blockchain rabbit hole and helped launch adChain. Continually impressed by the Spankchain team, he is inspired to keep up by helping with software development.
+Ameen Soleimani Ameen worked as a software engineer at ConsenSys for almost a year before leaving to start SpankChain. At ConsenSys, his projects included peer-to-peer energy markets, decentralized hedge funds, state channels research, and AdChain. Prior to joining ConsenSys, Ameen studied chemical engineering at Rensselaer Polytechnic Institute, founded Potomac Code Camp to teach middle schoolers programming fundamentals, and founded Filter, a personalized news reader. He is now the founder of Moloch Ventures, a blockchain venture production studio with a focus on state channels and tokenized smart contract platforms.
+Advisors
+Joe Urgo Co-founder at district0x, Founder/CEO at Sourcerers, Joe is a curious explorer of decentralized business models and token-enabled governance structures. Previously Joe worked as an Operations Manager at Coinbase, a Derivatives Trader at Three Arrows Capital, and a Professional Poker Player.
+Steven McKie A crypto veteran of 5 years, and previous Head of Growth and Product Content at Purse, where he assumed many roles in Growth, Development, Product Management, and Content Strategy. He also assisted in building out the bcoin brand, site, and team; helping to organize the first ever Bcoin Hackathon (bcoin.io). Host and Editor of BlockChannel, a podcast and educational publication focused on Bitcoin and Ethereum. Steven is also a Founding Partner in Amentum, a soon to launch hybrid crypto hedge fund. He received his BSBA while studying Information Systems & Technology at Old Dominion University in `14.
+29
+
+Crypto Partners
+Moloch Ventures A blockchain venture production studio focused on launching scalable tokenized smart contract platforms. We work with our partner projects to provide expertise in smart contract development, blockchain scalability, token design, and token issuance.
+Machinomy A payments system for Internet of Everything. Built on Ethereum state channels, Machinomy enables micropayments in Ether and all ERC20 tokens.
+district0x A cooperative of decentralized marketplaces powered by Ethereum, Aragon, and IPFS. Markets within the network, known as `districts', are built upon a shared framework of smart contracts and front-end libraries. These provide the functionality necessary to operate peer-to-peer communal marketplaces.
+ConnextAPI An API that lets blockchain applications sell their utility tokens directly to users with credit cards. Instead of purchasing virtual currencies on exchanges and trading them for tokens, Connext facilitates the direct purchase of tokens for fiat currency, in the same way that Stripe facilitates the purchase of other non-blockchain digital products. Connext also abstracts away the need for wallets, with the creation of time-locked vaults which give limited access to user-purchased tokens to merchants, so that consumers can use applications without needing an understanding of blockchain payments. Sourcerers A boutique consulting firm specializing in cryptoeconomic modeling and tokenization designs. S ourcerers takes a hands-on role with partner projects to implement legal, transparency, and fundraising best practices, aiming to drive the Ethereum ecosystem forward by supporting innovative founders/teams.
+Industry Partners
+Kayden Kross Kayden is an Adult Entertainment veteran, activist, and multiple award winner. Kayden has been nominated for and awarded the prestigious AVN award in both 2011 and 2012, the XBIZ award in years 2011-2015, and the Erotixx award for best U.S. Actress in 2010. Kayden has joined the SpankChain team as a Brand Ambassador and intends to integrate the SpankChain payment channel infrastructure into trenchcoatx.com, Kayden's personal website where she distributes the majority of her content and hosts live webcam performances.
+30
+
+Legal Counsel
+Alex Lindgren Alexander advises technology and other fast-growth firms on regulatory and transactional matters. A late convert to the cryptocurrency scene, he has a particular interest in institutional cryptocurrency trading and investment issues, and advises a number of hedge and private equity funds in the cryptocurrency sector. Prior to becoming an attorney, Mr. Lindgren worked in pharmaceutical research and development, after which he went on to co-founding a series of biotechnology startup companies. Zoe Dolan Zoe is a Los Angeles and New York City based lawyer focusing on crypto and blockchain projects, fintech and start-up business representation, and Constitutional rights and freedoms. An experienced trial and appellate attorney, she has won acquittals and dismissals for clients in criminal cases on both coasts. Zoe is the author of various books exploring personal and sexual identity, transgender experience, and working in the law, and she has been profiled by the New York Times and Aljazeera, among other media outlets. She has lived or worked on five continents, speaks Arabic and Spanish, and is now enjoying teaching herself how to code.
+31
+
+

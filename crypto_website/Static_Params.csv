@@ -1,0 +1,251 @@
+,Coin_Name,Total_Reddit_Subscribers,Twitter_Mentions,White_Complexity
+0,bitcoin,757203,1000,10.4
+1,ethereum,334377,1000,11.7
+2,ripple,180104,1000,12.3
+3,bitcoin cash,0,1000,10.4
+4,litecoin,194311,1000,0
+5,neo,84467,1000,0
+6,cardano,57461,1000,0
+7,stellar,73313,1000,10.7
+8,eos,0,1000,15.2
+9,iota,107961,1000,9.9
+10,dash,0,1000,11.2
+11,monero,117846,1000,8.9
+12,ethereum classic,0,567,11.7
+13,nem,0,1000,11
+14,tron,0,1000,11.9
+15,vechain,42182,713,11.9
+16,tether,0,467,13
+17,qtum,12963,1000,0
+18,bitcoin gold,0,771,10.4
+19,lisk,28386,1000,8.6
+20,nano,0,1000,10.4
+21,omisego,0,1000,12.8
+22,icon,0,1000,11.8
+23,zcash,0,1000,0
+24,binance coin,0,561,9.6
+25,bytecoin,0,522,9.9
+26,steem,0,1000,10.3
+27,verge,5465,1000,10.1
+28,digixdao,0,271,11.1
+29,populous,0,454,10.3
+30,stratis,0,375,10.9
+31,dogecoin,113533,1000,13.5
+32,siacoin,30767,647,10
+33,rchain,1877,117,13.5
+34,waves,0,1000,26.2
+35,maker,0,1000,10.4
+36,status,0,1000,13.6
+37,bitshares,6761,1000,10.9
+38,waltonchain,0,1000,0
+39,0x,0,1000,13
+40,aeternity,2214,169,10.1
+41,decred,7371,103,0
+42,augur,7668,343,9.8
+43,veritaseum,0,28,10.3
+44,electroneum,0,870,11.2
+45,revain,0,859,0
+46,gas,0,1000,0
+47,ardor,6351,868,15
+48,kucoin shares,0,18,10.7
+49,komodo,0,1000,10.9
+50,hshare,0,48,11.1
+51,ark,0,1000,11
+52,basic attention token,0,87,11.5
+53,loopring,0,52,10.6
+54,digibyte,16780,554,0
+55,zilliqa,3784,101,9.1
+56,cryptonex,0,30,89.1
+57,syscoin,0,114,11.8
+58,bytom,0,70,0
+59,dragonchain,0,186,16.1
+60,monacoin,0,1000,9.8
+61,golem,0,1000,13.3
+62,aelf,0,1000,0
+63,nebulas,0,177,11.7
+64,pivx,7657,1000,10.2
+65,qash,0,904,11.4
+66,aion,0,1000,15.3
+67,dent,0,1000,11.4
+68,polymath,0,381,11.8
+69,byteball bytes,0,7,10.7
+70,factom,8280,143,10.2
+71,reddcoin,0,444,11.5
+72,zclassic,6285,783,0
+73,ethos,0,1000,15
+74,kyber network,0,133,120.3
+75,dentacoin,2085,95,11
+76,chainlink,0,426,12
+77,gxshares,0,3,14.3
+78,iostoken,0,269,11.9
+79,bitcore,0,98,11.8
+80,funfair,0,1000,0
+81,power ledger,0,37,9.9
+82,zcoin,0,92,12.4
+83,salt,0,1000,12.1
+84,nxt,9303,1000,12.6
+85,kin,0,1000,14
+86,bancor,4129,213,33.9
+87,cindicator,0,102,10.9
+88,enigma,0,1000,12.7
+89,request network,0,218,14.5
+90,pillar,0,1000,14.1
+91,neblio,0,88,0
+92,particl,2205,248,11.1
+93,vertcoin,34139,261,13.3
+94,singularitynet,0,144,13.8
+95,quantstamp,8080,68,14.8
+96,tenx,12867,1000,13.2
+97,smartcash,2244,807,0
+98,maidsafecoin,0,56,10.5
+99,emercoin,2053,38,0
+100,ignis,0,1000,0
+101,wax,0,1000,13.6
+102,raiden network token,0,1,11.7
+103,iconomi,0,71,12.9
+104,gnosis,0,402,0
+105,blocknet,0,345,9.2
+106,enjin coin,0,26,13.1
+107,gamecredits,0,1000,10.2
+108,po.et,0,279,15
+109,santiment network token,0,1,10
+110,digitalnote,3839,39,11.2
+111,bitcoindark,518,6,15.7
+112,pura,0,1000,0
+113,xpa,0,519,13.3
+114,zencash,0,670,12.5
+115,bridgecoin,0,24,11.5
+116,skycoin,0,1000,9.7
+117,storj,6664,1000,12.2
+118,civic,0,1000,9.5
+119,storm,0,1000,10.6
+120,substratum,0,583,11.4
+121,iexec rlc,0,28,14.6
+122,time new bank,0,92,11.3
+123,decentraland,4665,453,10.7
+124,achain,0,326,10.2
+125,aragon,0,1000,10.4
+126,ethlend,0,83,13.8
+127,blockv,1116,33,13
+128,high performance blockchain,0,18,10.6
+129,nav coin,0,230,0
+130,experience points,0,197,12.4
+131,adex,3950,412,15.7
+132,red pulse,0,55,0
+133,paccoin,0,617,12.5
+134,bluzelle,0,44,8.7
+135,dynamic trading rights,0,0,12.7
+136,telcoin,3171,204,10.9
+137,supernet,353,829,0
+138,dew,0,1000,10.2
+139,genesis vision,0,60,11.6
+140,oyster,0,1000,0
+141,monaco,0,1000,0
+142,medishares,0,27,7.5
+143,ubiq,0,174,38.6
+144,medibloc,0,172,0
+145,nexus,0,1000,11.4
+146,asch,0,936,14.2
+147,sophiatx,0,49,12.4
+148,iot chain,0,98,9.9
+149,ink,0,1000,0
+150,paypie,0,986,10
+151,vibe,0,1000,13.7
+152,crypto20,0,20,13
+153,metal,0,1000,12.4
+154,bibox token,0,7,0
+155,sonm,4479,257,5.2
+156,eidoo,0,165,34.7
+157,data,0,1000,13.1
+158,peercoin,5147,890,13.9
+159,deepbrain chain,0,4,11
+160,minexcoin,0,66,8.5
+161,edgeless,1879,79,0
+162,htmlcoin,0,828,11
+163,wagerr,1355,13,9.6
+164,u.cash,0,62,12
+165,simple token,0,71,11.6
+166,appcoins,0,43,11.6
+167,ambrosus,0,92,13.5
+168,xtrabytes,5475,62,6.8
+169,singulardtv,2057,29,11.6
+170,theta token,0,83,13.6
+171,jibrel network,0,25,12.4
+172,ripio credit network,0,1,12.4
+173,airswap,0,126,0
+174,cybermiles,649,74,10.4
+175,wabi,0,1000,12.3
+176,sirin labs token,0,8,15.4
+177,einsteinium,0,58,12.2
+178,nuls,0,1000,14.8
+179,wings,0,1000,0
+180,melon,0,1000,0
+181,coindash,0,153,11.2
+182,streamr datacoin,0,6,10.9
+183,metaverse etp,0,6,0
+184,bitbay,0,148,13.8
+185,etherparty,0,181,12.8
+186,gifto,0,1000,11.9
+187,blockmason credit protocol,0,19,12.9
+188,ins ecosystem,0,80,11.4
+189,quantum resistant ledger,0,2,12.4
+190,bread,0,1000,11.2
+191,viacoin,2084,180,0
+192,utrust,0,115,13.6
+193,wepower,0,55,0
+194,mobilego,0,84,13.1
+195,naga,0,1000,0
+196,gulden,0,392,12.3
+197,burst,0,1000,10.1
+198,lbry credits,0,31,13.8
+199,tierion,2466,144,10.9
+200,counterparty,0,51,10.2
+201,modum,0,305,0
+202,cobinhood,0,144,14.2
+203,triggers,0,1000,11.2
+204,delphy,0,81,11.9
+205,bottos,0,75,0
+206,taas,0,1000,7.6
+207,unikoin gold,0,5,11.6
+208,aeon,4857,1000,59.5
+209,spankchain,1578,60,13.2
+210,trinity network credit,0,0,15.2
+211,bean cash,0,16,10.9
+212,district0x,0,79,12.1
+213,cloakcoin,0,57,13.5
+214,hive project,0,23,12.9
+215,ion,0,1000,26.7
+216,atmchain,0,278,12
+217,qlink,5187,225,0
+218,medicalchain,0,53,0
+219,indahash,473,53,16.4
+220,centra,0,1000,12
+221,ecc,0,1000,12
+222,lunyr,2148,44,11.6
+223,everex,0,78,10.9
+224,stk,0,1000,11.9
+225,groestlcoin,5847,19,0
+226,crown,0,1000,11
+227,nimiq,1509,205,13.9
+228,feathercoin,0,107,11.5
+229,origintrail,0,54,13.4
+230,presearch,0,208,0
+231,coss,0,1000,10.1
+232,datum,0,793,9.3
+233,pepe cash,0,26,10.5
+234,namecoin,3620,38,12.3
+235,mintcoin,0,538,0
+236,decent,0,1000,18.6
+237,lykke,0,425,12.6
+238,steem dollars,0,40,10.3
+239,salus,0,420,10.7
+240,agoras tokens,0,0,0
+241,deeponion,12172,204,12.8
+242,internet node token,0,8,11.9
+243,viberate,0,806,0
+244,tokencard,0,5,11.9
+245,mercury,0,1000,11.6
+246,aeron,0,910,0
+247,bitcny,0,63,0
+248,safe exchange coin,0,6,0
+249,cappasity,1105,68,0

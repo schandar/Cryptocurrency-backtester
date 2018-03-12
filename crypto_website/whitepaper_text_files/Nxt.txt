@@ -1,0 +1,467 @@
+Kin: a decentralized ecosystem of digital services for daily life
+POSITION PAPER Kik Interactive, Inc. May 2017
+1
+
+Motivation
+The past 150 years have brought a series of momentous shifts in the advancement of communication and commerce, each catalyzed by new technologies that have increased the power of media: the telegraph, the telephone, radio, television, the web, and, finally, the mobile internet. In each case, these new modes of communication brought the world fresh commercial opportunities, facilitating the exchange and promotion of goods and services that could reach an ever greater, and increasingly targeted, population.
+Today, we are witnessing the next evolutionary leap: the assimilation of economic value into communication systems. Digital services such as chat, social media, and online payments have come to play a fundamental role in our daily lives, influencing not only our consumption behaviors, but also our discourse, politics, and methods of value exchange. Our digital communications platforms are becoming the most important media in the ongoing development of a global economy.
+Through an accident of history, today's dominant digital services have been organized largely around an attention-based economy and monetized through advertising. This fact can be explained partly by the "information wants to be free" ethos that characterized the early days of the internet, which encouraged content owners and communication platforms to provide their products and services without asking for payment. Inevitably, such companies would later sell the attention and data of their consumers to advertisers and marketers. The ad-based approach has also proven to be a reliable business model in the absence of universal and frictionless online payments solutions, which have only recently become available, let alone practical.
+The reliance on advertising for digital media revenue has resulted in advantages for companies whose products reach mass audiences. Such companies can leverage network effects and economies of scale to apply intense pressure to smaller competitors, while also stifling competition by providing their services free of charge. As a result, large companies enjoy the compounding interest of incumbency, concentrating wealth and power in the hands of the few. This is often to the detriment of consumer privacy and user experience and almost always at the expense of new entrants to the sector.
+In cases where digital communication providers have also been able to build meaningful businesses based on transactions, the trends are just as concerning. Again, the incumbents can use network effects and economies of scale to their advantage.
+2
+
+Increasing consolidation imperils consumer choice and concentrates wealth among a few major corporations that may grow to have outsized economic and political influence in society. These entities are motivated to create products that control attention instead of empowering consumers. If left unchecked, a few private companies will exercise absolute authority over the digital services everyone uses, effectively eliminating consumer choice on a global scale. To safeguard the key tenets of a market-based economy and prolong innovation in the technology sector, the internet needs a fundamentally different way of doing business. Kik believes the time is right for a roadmap for a new ecosystem for digital communications and commerce that delivers more power to developers and consumers. People everywhere would be well served by a digital ecosystem that fosters direct economic relationships between developers, creators, and consumers, with value and governance shared among the participants. Such an ecosystem would offer consumers a set of rich, diverse, and open digital services that put the user experience first. At the same time, Kik has been a close observer of the growing momentum of decentralized technologies such as Bitcoin and Ethereum. These blockchain-based networks offer open source models by which new digital ecosystems may thrive. Large communities can gather around such networks and encourage the development of customized digital economies. In such an ecosystem, consumers can trade currency for goods or services provided by creators and developers that have economic incentives, other than advertising, to make great products. In decentralized networks, both economic value and governance are distributed among the network's stakeholders rather than concentrated in a single and centralized organization. The stakeholders are its founders, investors, supporters, custodians, operators and, most importantly, its consumers. In these systems, economic value created by the decentralized organization is distributed among all participants, ensuring that the users who create it are compensated for their efforts. Decentralization offers the most promising path to realize Kik's vision of a sustainable future in online communication and commerce. In this work, Kik presents its vision for Kin, a decentralized ecosystem of digital services for daily life.
+3
+
+Table of Contents
+
+1. Kik's vision
+
+5  
+
+A new digital currency
+
+5  
+
+Building fundamental value
+
+5  
+
+Building an ecosystem
+
+6  
+
+A foundation for open governance
+
+6  
+
+Summary
+
+7  
+
+2. The Kin cryptocurrency
+
+8  
+
+Purpose and characterization
+
+8  
+
+Implementation: Ethereum and ERC20
+
+8  
+
+3. Building a digital economy inside Kik
+
+9  
+
+About Kik and currency
+
+9  
+
+The Kik Points experiment
+
+10  
+
+Kin integration in Kik
+
+11  
+
+An earnable currency
+
+11  
+
+Kin wallet
+
+12  
+
+Ethereum settlement layer
+
+12  
+
+Kik economy and prospective use cases
+
+12  
+
+Example use case: shoutout messages
+
+14  
+
+Example use case: tipping
+
+14  
+
+Example use case: bot monetization
+
+15  
+
+Example use case: brand missions
+
+15  
+
+4. The Kin Foundation
+
+16  
+
+Overview
+
+16  
+
+Governance goals
+
+16  
+
+Research goals
+
+16  
+
+Development goals
+
+16  
+
+Mandate and long-term goals
+
+17  
+
+Core technology summary
+
+17  
+
+5. Technical considerations
+
+18  
+
+Platform limitations and off-chain solution
+
+18  
+
+On-chain and off-chain tradeoffs
+
+19  
+
+Technical whitepaper
+
+19  
+
+The Kin Rewards Engine
+
+19  
+
+Identity service
+
+20  
+
+6. Kin token issuance
+
+21  
+
+Kin token allocations
+
+21  
+
+Supply schedule
+
+21  
+
+Inflation schedule
+
+22  
+
+Time series
+
+22  
+
+Token distribution event
+
+23  
+
+7. Conclusion
+
+23  
+
+8. Kin founding team
+
+24  
+
+Kik executive team
+
+24  
+
+Kin Core Team
+
+27  
+
+Lead Advisors
+
+28  
+
+4
+
+1. Kik's vision
+Kik has been a leading innovator in the chat space since the first million people signed up for the chat application in 2010. Kik was the first chat app to become a platform in 2011, and the first Western chat platform to integrate bots in 2014. Throughout 2015 and 2016, Kik also experimented with a form of digital currency on its platform, called Kik Points.
+As a company, Kik has been searching for a sustainable monetization model that does not compromise user experience or privacy. Rather than opt for mass display advertising or the selling of consumer data, Kik has decided to adopt a decentralized organizational model. Its goal is to encourage the development of a digital services ecosystem that is fair and open. Kik prefers to be a participant rather than a landlord in this user-first economy.
+To foster an ecosystem that is not only open and decentralized but also more compelling than its traditional counterpart, Kik must create a series of new products, services, and systems. Building a decentralized system is a complex process, and the transition to it must be done in a measured and responsible way over time. The following sections of this paper outline Kik's plan for launching an entirely new platform: the Kin Ecosystem.
+A new digital currency
+The first step is to create a new cryptocurrency: Kin. Related to the word "kinship," and conveying a feeling of being connected to community, the Kin identity and currency is designed specifically to bring people together in a new shared economy.
+But simply creating a digital currency is not enough. For a cryptocurrency to be viable, it must also be useful and valuable. To establish an economy around the new currency, Kik must help to establish Kin's fundamental value.
+Building fundamental value
+Kik has been experimenting with forms of in-app currency since 2014, when it launched Kik Points. The company wanted to see if users of its chat app would be eager to earn and spend a centralized digital currency. Key to this innovation was the notion that users would not have to purchase Kik Points but could instead earn them within the app. Millions of Kik users participated, resulting in an average monthly transaction volume nearly three times higher than the global transaction volume of Bitcoin.
+Today, Kik is one of the world's most used chat apps and the fifth most-searched term in the iOS App Store. The millions of people who use Kik each month are in a unique position to demonstrate how cryptocurrency economies might form and function in the context of a large mainstream user base.
+Kik will build fundamental value for the new currency by integrating Kin into its chat app. Indeed, Kin will be Kik's primary transaction currency, and Kik will be the first service to join the Kin Ecosystem. In the future, users will be able to earn Kin by providing value to other members of the Kik digital community through curation, content creation, and commerce. Kik users will be able to spend Kin on products,
+5
+
+services, and other valuable assets offered by merchants, developers, influencers, and other participants.
+Kin will sit at the center of a new digital economy inside Kik, driving demand and fundamental value for the cryptocurrency. Its resulting value will enable the launch of an economic incentive mechanism, the Kin Rewards Engine, to further grow the ecosystem.
+Building an ecosystem
+The Kin Rewards Engine will use economic incentives to bring other digital services and applications into the decentralized Kin Ecosystem. Inspired by previous systems like Bitcoin's block rewards1 and Steemit's posting rewards,2 the Rewards Engine will create natural incentives for digital service providers to adopt Kin and become partners in the ecosystem. The ecosystem will not impose any unnecessary restrictions or tolls on monetization strategies, beyond ensuring common ethics and legality of content and transactions. As more partners join, the network effect of the Kin Ecosystem will grow, building the value of the currency, and in turn encouraging new partners to join this initiative.
+A majority of the Kin supply will be allocated to the operation of the Kin Rewards Engine. Periodically, the Rewards Engine will unlock and distribute a specific amount of Kin to be shared among digital service providers in the Kin Ecosystem. The reward that each partner receives will be proportional to a measure of the utilization of kin within that digital service. Such value will be assessed by a well-defined process that ensures the rewards are distributed fairly using an objective, performance-based methodology. Rewards will be transparent, auditable, and secure.
+The Kin Rewards Engine will initially be administered by the Kin Foundation. However, over time, it will be decentralized based on smart contract technology.
+A foundation for open governance
+Over time, Kik will work to structure and form the Kin Foundation, a nonprofit organization to oversee the fair and productive growth of the Kin Ecosystem. The Kin Foundation will administer the Kin supply and the Kin Rewards Engine. It will also provide support and tools for digital services to operate more easily within the ecosystem. Ultimately, the Kin Foundation will facilitate the entire ecosystem's transition to a fully decentralized and autonomous network.
+As the founding member of the Kin Foundation, Kik will be the ecosystem's champion and will showcase Kin to its millions of users. Over time, Kik will also promote other Kin digital services. Such an approach demonstrates the power and promise of a decentralization strategy, which provides a path to transition from a competitive model to a cooperative one, where all participants benefit from their collective success.
+As part of this process, Kik will incrementally transition to open source for the majority of its currently proprietary codebase. Eventually, the foundation's membership and governance will become open to other ecosystem partners. The Kin Foundation will support them in onboarding Kin and developing or
+1 https://bitcoin.org/en/glossary/block-reward. 2 https://steem.io/getinvolved/posting-rewards.
+6
+
+augmenting digital services with integrated transaction economies. It will also oversee development of important fundamental components shared across the entire ecosystem, such as identity and reputation management, cryptocurrency wallets, and compliance solutions.
+Summary
+Through a series of economic and technological transitions, and based on a new cryptocurrency called Kin, Kik will work toward creating the first open and sustainable alternative ecosystem of digital services for our daily lives. Economic incentives at the core of this ecosystem will ensure that all participants ­ users, founders, and digital service partners ­ will ultimately benefit from this work. Kik will encourage a network effect for Kin by becoming its first large adopter and sponsor. It will also establish the Kin Foundation as the custodian of the Kin Ecosystem, driving the stability and growth of Kin services. Over time, the Kin Foundation will oversee the transition of the Kin Ecosystem to a fully decentralized model that can operate with no assistance from Kik or any other entity. The decentralized Kin Ecosystem will emerge as a sustainable autonomous economy that can empower the existing suite of chat, social, and other digital services, while building a platform for the best user experiences. The Kin Ecosystem will seek to establish a global network of digital services that constitutes a new cooperative operating model, focused on the long term. In this model, developers and service providers will enjoy the right and opportunity to innovate and compete for compensation, while users will benefit from a diverse digital experience, freedom of choice, and access to a broad range of commercial services.
+7
+
+2. The Kin cryptocurrency
+Purpose and characterization
+Kik is introducing an open source cryptographic token, named Kin, which is envisioned as a generalpurpose cryptocurrency for use in everyday digital services such as chat, social media, and payments. Kin will be the unit of account for all economic transactions within the Kin Ecosystem, and it will serve as the basis of interoperability with other digital services. In character, Kin is a pure cryptocurrency of fixed supply. It is fractionally divisible and long-term noninflationary. However, as described below, only a small portion of the Kin supply will become liquid in the near future, as most of the Kin supply is reserved for the Kin Rewards Engine. Like other cryptocurrencies, units of kin are fungible and transferable, and they will be expected to trade on cryptocurrency exchanges.
+Implementation: Ethereum and ERC20
+Kin will be implemented on the public Ethereum blockchain as an ERC20 token.3 The Ethereum blockchain is currently the industry standard for issuing custom digital assets and smart contracts. The ERC20 token interface allows for the deployment of a standard token that is compatible with the existing infrastructure of the Ethereum ecosystem, such as development tools, wallets, and exchanges. Ethereum's ability to deploy Turing-complete trustless smart contracts enables complex issuance rules for cryptocurrencies, digital financial contracts, and automated incentive structures. These advanced features and active ecosystem make Ethereum a natural fit for Kin.
+3 ERC20 is the Ethereum token standard: https://github.com/ethereum/EIPs/issues/20
+8
+
+3. Building a digital economy inside Kik
+About Kik and currency
+Kik is one of the world's most popular messaging platforms, ranked #7 in social networking with Facebook Messenger and WhatsApp, and trending more popular than LinkedIn, according to AppAnnie.4 Kik Interactive, Inc. was founded in 2009 by Ted Livingston, along with fellow University of Waterloo student Chris Best. Today, Kik Interactive has over 150 employees with offices in Waterloo, Toronto, New York City, and Tel Aviv.
+Kik is uniquely positioned in the marketplace as a chat platform that is highly targeted to the teen and young adult demographic. With more than 15 million monthly active users, 57 percent of Kik's active user base is comprised of the 13 to 24 years old age bracket. About 64 percent of Kik's users live in the United States.
+Kik enjoys a high level of engagement from its users. Over a quarter of a billion messages are sent on Kik every day. On average, Kik users spend 37 minutes and send 55 messages daily on the platform.5
+In addition to chat, Kik maintains an industry-leading bot platform: over 187,000 bots have been created by third-party developers.
+The size of the user base, its demographics, and its community ethos make Kik a unique venue where cryptocurrency may be introduced, adopted, and utilized by a large mainstream audience. Prior experience with Kik Points suggests that Kik users are amenable to digital currency.
+4 As of 5/17/2017, App Annie search results. 5 Kik internal data as of May 2017.
+9
+
+The Kik Points experiment
+Kik Points was introduced to experiment with a transactional unit of account within the Kik application. The project was sunsetted at the end of 2016 to prepare for a more advanced solution that would extend beyond a purely advertising-based use case. However, Kik was able to measure demand and gain valuable insights into user behavior with transactions in a messenger context. During a 2.5 year period from 2014 through 2016, Kik users completed 253 million offers and spent the points earned on 74 million purchases.
+
+Earn
+
+Redeem
+
+The Kik Points experiment was successful, with an average volume of 300,000 transactions per day for
+its lifetime from 2014 through 2016, reaching 2.6 million transactions per day at the peak. On average, the monthly number of transactions was nearly three times that of the Bitcoin network.6
+
+6 https://www.quandl.com/data/BCHAIN/NTRAN-Bitcoin-Number-of-Transactions. 10
+
+As a result of the Kik Points experiment, Kik learned there is a substantial audience inside of the messenger application for an economy built around chat. It also became clear how to successfully tailor such an economy to Kik's user base. While today the typical cryptocurrency experience is hardly accessible to the average consumer, Kik Points showed that users did not need to be technologically savvy to use digital currency. For Kik, the Kin project is an opportunity to integrate chat with true digital commerce within an existing user base.
+Kin integration in Kik
+The Kik Points experiment has demonstrated that there is demand for an economy built around chat. Over time, Kik will work to integrate Kin into Kik's chat ecosystem for the benefit of users, platform developers, and partners. Kik will do so by employing the same iterative process of research, experimentation, and fine-tuning that has made Kik successful. Kik's team has a proven track record in developing products for the mass market, and Kik looks forward to introducing cryptocurrency into the product process. The sections below describe some prospective use cases related to storing, earning, and spending cryptocurrency that Kik will explore and validate.
+An earnable currency
+One of the most compelling features of Kik Points was that users were not required to purchase them. Instead, millions of mainstreamers were able to earn Kik Points simply by performing valuable actions.
+As Kik expands its economy to include cryptocurrency that holds real value both inside and outside of the chat application, the economic possibilities for users are vastly enhanced. This makes it possible to transform attention, curation, and creation into real-world value simply by having a smartphone.
+11
+
+Kin wallet
+The primary feature required to enable a digital community to use cryptocurrency is a wallet. As a first step, Kik will integrate wallets for each Kik user account. The associated user interface will allow for the most common wallet interactions. By integrating the wallet to support Kik's millions of active users, the Kin wallet has the potential to become the world's most adopted and utilized cryptocurrency wallet.
+Facing the complexity of raw cryptocurrency technology is typically onerous for most consumers. Issues of transaction fees, private keys, and alphanumeric addresses create usability barriers for mainstream users, including the common requirement to hold cryptocurrency in the first place in order to obtain and utilize other tokens.7 Kik will aim to significantly reduce these onboarding frictions. The onboarding process for users will not require prior expertise with cryptocurrencies before interacting with Kin.
+
+Above is an example of a future Kik user Ethereum settlement layer
+
+wallet. The wallet shows options such as deposit, withdrawal, and transaction history, as well as recommendations based on earlier purchases.
+
+Users wishing to transfer Kin into and out of the Kik application will be able to do so by interacting with the public Ethereum network, which will serve as the currency's decentralized settlement layer. Users interacting with Kin inside Kik will have
+
+a more managed experience. This will allow the early version of
+
+the system to solve for blockchain scalability bottlenecks, feeless transactions, faster transaction times,
+
+and encapsulation of complex features like private keys. (For more details, see Section 6 and the Kin
+
+Technical Whitepaper.) Over time, Kin will grow with the development of blockchain technology to
+
+accommodate these features in a fully decentralized setting.
+
+Kik economy and prospective use cases
+Kik will introduce a number of marketplace use cases that will prompt consumers and brands to transact with Kin. Through experimentation, Kik plans to iterate on the product with applications that create unique two-sided marketplaces for users. On the supply side, both bots or content creators will create unique experiences. On the demand side, users will consume these products or services. In the near future, Kik's bots will have the ability to structure their own business models.
+Below are several possible use cases demonstrating how Kin may be integrated into the Kik application.
+7 https://cointelegraph.com/news/major-challenges-to-blockchain-mainstream-adoption-industry-view.
+
+12
+
+Example use case: VIP groups
+This example demonstrates how users can monetize their popularity within Kik. Today, Kik allows any user to access any public group focused on topics of their choice. The initiating user has the ability to moderate the discussion and to set forth rules that govern the group. VIP groups is a possible feature that allows "influencer" users to create premium, exclusive groups that require a paid entrance fee. Celebrities and thought leaders could use this feature as a platform for engaging their communities, while generating tangible value for their time and attention.
+This is an example of a VIP group bidding screen. The screen shows a user deciding how much he or she wants to bid for a chance to join a Selena Nobez private group, which is limited to 30 people.
+Example use case: premium user-generated content
+The Kin economy can be used to incentivize content creation by rewarding its creators. By allowing anyone to create content and earn Kin, Kik expects to encourage more users to participate and create content. This open market of content will incentivize competition for higher-quality content and ultimately create a better community. The "hidden" content feature shown here allows a creator to earn Kin by sharing audio, video, and pictures that are hidden until other users pay to unlock them.
+In this example, the creator is charging 2 kin for a new piece of media. Group members can spend kin to play the song. If they forward it to others (even after paying), those users will need to pay as well. Virally shared, such content makes it possible for creators to
+be well-rewarded for their work.
+13
+
+Example use case: shoutout messages
+Can users decide how much Kin to spend to gain attention of others, and how much they are willing to earn to give attention to others? This model is fundamentally different from the traditional model, where app owners manage who is notified on which action (using in-app push notifications) and is detached from any value. In this example, Kin allows users to promote messages and ping all group members instantly for a payment. Users who receive a shoutout will earn Kin at the same time.
+This is an example of a user sending a shoutout message to the group. The user is letting everyone know about a new server created for the Halo Wars 2
+game. Members of the group will now see this message on top of the chat for 30 seconds.
+Example use case: tipping
+This example demonstrates creation and sharing of content within the Kik ecosystem. Users are allowed to reward others for content they like.
+In this example, a member just wrote a funny joke. The correspondent likes this content and sends a tip using one of the tipping options.
+14
+
+Example use case: bot monetization
+Bots can perform services, order food for delivery, or operate games that offer in-game purchases such as creative assets, gameplays, or other media.
+This example illustrates how a bot can be used for pizza delivery. The bot and the user are chatting about what kind of pizza the user wants. After the
+selection is made, the pizza bot charges the user 12 kin.
+Example use case: brand missions
+Kik will provide a new way for brands to directly engage with consumers. Taking advantage of cryptocurrency, brands will be able to reward users with small amounts of Kin for completing simple tasks. This can include answering questions in a survey, creating themed content, or curating content.
+In this example, the "Sweet Corner" brand is suggesting users take a selfie with their new ice cream flavor to receive 0.5 kin.
+15
+
+4. The Kin Foundation
+Overview
+The Kin Ecosystem is envisioned as a community of ecosystem partners ­ digital services and applications ­ that adopt the Kin cryptocurrency. The Kin Foundation is intended as an independent, nonprofit, and democratic governance body for the members of this ecosystem.
+The principal functions of the Kin Foundation will include the open governance of its resources together with other ecosystem partners; the support and advancement of the technology related to Kin's implementation; and all matters related to ecosystem membership, including the Kin Rewards Engine.
+The Kin Foundation's mandate is to grow an open ecosystem of digital services that consumers can easily explore and find value in, while giving developers an open and sustainable platform to develop, deliver, and enhance those services and attract users. As time goes by it is likely that the foundation will be replaced by other, more innovative governance methods such as a decentralized autonomous organization (DAO).8 However, creating a formal legal body is an important first step in this process.
+To fulfill its mission, the Kin Foundation will dedicate resources to three specific goals related to research, development, and governance as described below.
+Governance goals
+The Kin Foundation will dedicate resources to establish a fair and transparent governance process that will take into account the voices and needs of all participants within the ecosystem. This open governance model will oversee decisions related to the membership process, the Kin Rewards Engine, participation rules, legal matters, and content and compliance guidelines.
+Research goals
+Resources will foster an environment of innovation by working with partners to test new ways to participate in the ecosystem and drive value creation and network effects.
+Development goals
+The foundation will direct and fund the development of tools that give ecosystem partners the ability to build, grow, and create value for one another. As part of this process, Kik will make its own codebase available as an open source project that can be leveraged to power new communities and add capabilities to existing ones. The Kin Foundation will further this work by engaging development teams to continue improving the technology suite supporting the Kin Ecosystem, and it will maintain an open source codebase for the benefit of ecosystem participants.
+8 For instance, the Aragon project (http://aragon.one) presents a smart contract framework for constructing and upgrading decentralized autonomous organizations (DAOs).
+16
+
+Mandate and long-term goals
+To aid the Kin Foundation in carrying out its mission, the majority of the supply allocation of kin will serve as a monetary reserve at the limited discretion of the foundation. The Kin Foundation is responsible for guaranteeing the security of the Kin reserve as well as transparency in its use of funds. As part of its mandate as the custodian of the reserve, the Kin Foundation will administer the Kin Rewards Engine. The goal of the Rewards Engine is to create incentives for digital services and applications that create vibrant services within the Kin Ecosystem. It will accomplish this by periodically unlocking a specific amount of kin and distributing it among ecosystem partners, favoring digital services in which the Kin cryptocurrency is highly utilized. In the long term, the Kin Foundation will fund research and development efforts to support an autonomous reward mechanism that is secure against economic vulnerabilities and gaming, with all transactions accounted in a trustless way. In the interim, the Kin Foundation will administer a centralized ledger and execute on its defined policies and protocols in an automated but trustful way, while working toward a fully decentralized method.
+Core technology summary
+The core technology initiatives of the Kin Foundation will focus on delivering (1) a transaction service that will enable centralized digital services to utilize Kin at scale, (2) an implementation of the Kin Rewards Engine, and (3) a decentralized identity service for users of Kin. This suite of tools will aim to lower the barriers of onboarding and integrating with the Kin Ecosystem for partners, users, and other third parties.
+17
+
+5. Technical considerations
+This section covers general technical considerations in grounding the Kin Ecosystem in the public Ethereum network.
+Platform limitations and off-chain solution
+The Ethereum network currently operates on a proof-of-work blockchain and is therefore limited in throughput, though future versions of Ethereum will work toward enhanced throughput and scalability. The current average confirmation time, or block time,9 is approximately 17 seconds. For technical reasons, the block time will marginally increase but will nevertheless be smaller than 30 seconds before August 2017.10
+The number of daily transactions on the Ethereum network has been growing. Daily transactions increased from 38,730 to 102,103 (163.6 percent) from the starting to the ending day of the first quarter 2017.11 Currently, the number of daily transactions is as high as 100,000; this volume is expected to continue increasing as new applications and users continue to enter the Ethereum ecosystem.
+The current throughput of Ethereum is approximately 8.5 transactions per second, or approximately 740,000 daily transactions.12 Over time, the Ethereum network can also adjust to higher volume conditions for additional throughput.
+In 2016, the Kik Points program saw nearly 109 million total transactions. On average, 1.7 million users engaged the product to earn Kik Points on a monthly basis. Based on Kik's experience with Kik Points, the expected daily transaction rate could potentially surpass Ethereum's throughput capability and presents a risk of congesting the network.
+There are two other issues that suggest that a purely on-chain architecture may not be optimal at the outset. The first issue is that Ethereum transaction confirmation times result in significantly delayed responsiveness than users typically expect from consumer applications. The second issue is that the Ethereum blockchain requires fees to be paid for every transaction. Fees are paid in Ether cryptocurrency, creating an adoption barrier for the average user.
+Given these barriers, Kik will initially implement a semi-centralized hybrid on-chain and off-chain transaction service for scalable interactions with the Kin cryptocurrency. At the core, the transactions in Kin will be settled on the Ethereum blockchain. However, the Kin Foundation will develop and host a centralized off-chain ledger with an API available to all digital service partners. This will (1) improve user experience due to latency, (2) avoid network fees when transacting between users, and (3) avoid stress on the public network due to large transaction volumes.
+9 The average time to confirm a block in a blockchain. 10 https://www.ethnews.com/vitalik-buterin-on-ether-price-affecting-the-metropolis-update. 11 https://etherscan.io/chart/tx. 12 https://ethereum.stackexchange.com/questions/1034/how-many-transactions-can-the-networkhandle.
+18
+
+On-chain and off-chain tradeoffs
+This hybrid solution creates a semi-centralized system in which end users will enjoy a standard user experience insulated from some of the complexity of blockchain systems. However, this approach also has the drawbacks typical of a centralized system, such as having to rely on trust between participants. In the long term, the Kin Foundation will move to migrate the transactional infrastructure to a fully decentralized system while retaining a low friction user experience. To enable highly scalable, low latency, and cost-effective decentralized systems and to eliminate the need for semi-centralized approaches, significant advances will need to be made in blockchain technology. Progress is already being made with projects such as the Ethereum Foundation's ongoing Casper research,13 the Raiden network,14 Tendermint/Cosmos,15 and Graphene16 in the areas of throughput scalability, sharding, efficient payment channels, and decentralized governance protocols. Kik would welcome the opportunity to work with the blockchain technology community on accelerating the required advances and testing them in production by integrating them into Kin's transaction services.
+Technical whitepaper
+As a separate work, Kik will publish the Kin technical whitepaper in order to describe the technical architecture of the managed solution for Kin tokens.
+The Kin Rewards Engine
+The Kin Foundation will oversee the reserve of uncirculated Kin with the mandate of promoting adoption and growth of the Kin Ecosystem. Sixty percent of the total supply of Kin will be secured in a smart contract, allocated to the Kin Rewards Engine, and introduced into circulation as periodic rewards. The rewards will be distributed among ecosystem partners and the Kin Foundation. Every year, 20 percent of the remaining rewards allocation will be issued as periodic incentive payments, diminishing over time as the currency gains overall value. For partners, the rewards will constitute strong economic incentives for integration with the Kin cryptocurrency.
+13 https://blog.ethereum.org/2015/08/01/introducing-casper-friendly-ghost/. 14 https://raiden.network. 15 https://cosmos.network. 16 https://docs.bitshares.eu/.
+19
+
+Market Cap
+
+$5B
+
+Daily Rewards
+
+Payout
+
+$2B
+
+~$1.1m ~$440k
+
+$1B
+
+$220k
+
+Daily Payout in Year 1
+
+The diagram above demonstrates the potential scale of Kin Rewards Engine daily payouts, at varying levels of Kin market capitalization.
+The Kin Foundation will use up to 5 percent of the reward allocation (up to 3 percent of the total supply of kin) for operations and marketing. The kin available for marketing purposes will be used strategically to help ecosystem partners acquire users and bring partners to the ecosystem. By seeding millions of users with a nominal supply of kin, users will learn how to interact with the cryptocurrency. In the longterm, the Kin Rewards Engine will be implemented in the form of an autonomous and trustless system.
+Identity service
+User identity becomes an important issue in a decentralized ecosystem of digital services. For instance, users should be able to transact without friction across multiple digital services. Such participation requires users to establish and communicate consistent identity across services, to maintain a single, robust wallet, and to own an ongoing reputation in the digital environment. A consistent and easy-touse identity service will be maintained by the Kin Foundation and will provide participants with the code and API necessary to integrate it. Third-party identity services, such as BlockStack's OneName,17 uPort,18 or Keybase,19 may also be integrated as part of the identity solution.
+
+17 http://onename.com. 18 http://uport.me. 19 http://keybase.io.
+20
+
+6. Kin token issuance
+Kin token allocations
+In order to finance the Kin roadmap, Kik will conduct a token distribution event that will offer for sale one trillion units out of a 10 trillion unit total supply of kin. The proceeds of the token distribution event will be used to fund Kik operations and to deploy the Kin Foundation. A portion of the funds raised in the token distribution will be used to execute upon the roadmap of additional feature development planned for the Kin integration into Kik.
+As of the conclusion of the sale, the distributed kin will constitute the entirety of the available liquid supply. Another three trillion kin will be preallocated to Kik as the founding member of the Kin Foundation and subject to a long-term vesting schedule. In exchange, Kik will provide startup resources, technology, and a covenant to integrate with the Kin cryptocurrency and brand.
+The remaining six trillion kin will be under the purview of the Kin Foundation, locked under the Kin Rewards Engine schema, and used strategically to grow the Kin Ecosystem and fund the operations of the foundation. The Kin Foundation's allocation will be used for three purposes: to administer the Kin token supply and Kin Rewards Engine, for marketing, and for operational costs. Twenty percent of the remaining reserve will be unlocked and distributed every year to the Kin Foundation in perpetuity.
+ Kin Rewards Engine operations: The Kin Foundation will administer the rewards mechanism used to incentivize participation in the Kin Ecosystem, described previously.
+ Marketing: A reserve of supply used for generating a starting balance for users in conjunction with partnership integrations.
+ Operational costs: The Kin Foundation is established to ensure independent governance and growth of the Kin Ecosystem. A small portion of Kin rewards will be allocated to fund ongoing operational, legal, and development costs.
+Supply schedule
+Kik's 30 percent pre-allocation will be unlocked and distributed to Kik at 10 percent per quarter, for 10 quarters. The Kin Rewards Engine is scheduled to release 60 percent of the supply over time at a rate of 20 percent of the remainder per annum and in perpetuity.
+21
+
+Inflation schedule
+The Rewards Engine is scheduled to release 60 percent of the supply over time. New partners are rewarded proportionately more for early adoption. The following chart outlines the effective inflation schedule of active supply over time (To isolate the impact of the Kin Rewards Engine on the active supply, it is assumed Kik's 30 percent is fully vested).
+Time series
+A time series of token allocation in circulation for the first three years.
+22
+
+Token distribution event
+The foundation will commence the token distribution event once Kik has completed the technology upgrade to integrate with Kin, and the cryptocurrency can be used functionally within Kik.
+To be notified of updates regarding the token distribution event, participants are invited to provide their email addresses at http://kin.kik.com. The pre-registration process may require proof of identity and residence for larger purchases to ensure regulatory compliance at the time of the token distribution event. Further announcements regarding the timing and structure of the sale will be communicated through the portal.
+7. Conclusion
+Kik's vision since 2011 has been to build the next great communications platform. The company's heritage has been built on chat, but it now hopes its legacy will be in catalyzing a new, decentralized ecosystem of digital services for daily life. With a new cryptocurrency at its center, this ecosystem will be open and sustainable while putting users first.
+Kik will pioneer a new economic model for digital services that empowers consumers instead of selling their attention and data to advertisers. In doing so, the company believes that the world will take great strides toward breaking up the centralizing powers possessed by the largest players in the technology industry today. In this new order, Kik plans to be one of many participants rather than a landlord.
+With the aim of fostering a vibrant economy based around the Kin cryptocurrency, the company will pledge all its resources to make Kin the primary transaction currency in its chat app and promote services from the Kin Ecosystem to its millions of users. It will establish the Kin Foundation to manage and encourage growth of the Kin Ecosystem, and it will create the Kin Rewards Engine to incentivize developers and creators to make new products and services. Based on the success of Kik Points, Kik has already identified a number of initial use cases for new economic experiences within a chat environment.
+The Kin cryptocurrency will be built on the Ethereum blockchain, initially using a hybrid on-chain and off-chain technology solution, with the goal of eventually transitioning to a fully decentralized and autonomous system. This cryptocurrency will be used to compensate ecosystem partners based on each service's contribution to Kin's overall growth. The Kin Foundation will allow the cryptocurrency to become platform-agnostic, but Kik will leverage its large existing user base to drive mass adoption. As a result, Kin can scale to meet the interoperability demands of modern applications and become the basis for a new form of monetization.
+Through this vision, Kin will bring to fruition a new era of decentralized community ownership, enabling a vibrant ecosystem of digital services that power daily life.
+23
+
+8. Kin founding team
+Kik executive team
+Ted Livingston
+Founder and CEO, Kik
+Ted Livingston is the founder and CEO of Kik and leads the vision for Kin. Founded in 2009, Kik is headquartered in Waterloo, Ontario, and has raised $120.5 million from investors including Tencent and Union Square Ventures. Ted maintains an active interest in the University of Waterloo's Velocity Fund, a startup accelerator he conceived of and first funded. He was also named one of Fast Company's Most Creative People In Business in 2017.
+Peter Heinke
+CFO and COO, Kik
+Peter Heinke is the chief financial officer and chief operating officer at Kik. He is leading compliance for the token sale and development of the corporate structure for Kin and the Kin Foundation. Before joining Kik, Peter spent more than 20 years leading finance, operations, and strategy for both established and startup companies in the media, technology and transportation sectors. Peter lives in Ontario.
+24
+
+Eran Ben-Ari
+CPO, Kik
+Eran Ben-Ari is the chief product officer at Kik and is leading how Kin will be integrated into the Kik community. Prior to joining Kik, he was the vice president of products at Rounds, an Israeli-based communications company that joined with Kik in the beginning of 2017. Eran brings startup and academic research experience to Kik, where he oversees product process, lifecycle, and strategy. Eran is in the final stages of completing his Ph.D. from the Hebrew University's School of Business Administration. He lives in Tel Aviv.
+Dany Fishel
+President, Kik Israel
+Dany Fishel is the president of Kik Israel following the acquisition of Rounds, an Israeli-based communications company he cofounded and ran as CEO. He oversees the technical and product teams responsible for Kin and the Kin Foundation. Prior to Rounds, Dany was the cofounder of Kwakwa, a strategic web consulting firm. Dany also managed the contextual and behavioral advertising for 888 Holdings, generating tens of millions of dollars in yearly revenue to one of the world's most popular online gaming entertainment companies. Dany is a decorated army sergeant, having commanded an elite paratroopers' unit in the Israel Defense Forces. He lives in Tel Aviv.
+Erin Clift
+CMO, Kik
+Erin Clift is the chief marketing officer at Kik and leads the teams responsible for connecting Kin and the Kin Foundation to partners, stakeholders, and consumers. Prior to joining Kik, Erin was vice president, global marketing and partnerships at Spotify, responsible for consumer and business marketing, brand partnerships, and industry programs. Before joining Spotify, Erin spent 15 years in leadership positions driving marketing and revenue strategy at companies including Google, AOL and Oprah.com. Erin lives in New York City.
+25
+
+Dave Simons
+SVP Engineering, Kik
+Dave Simons is the senior vice president of engineering at Kik and is leading the teams responsible for the technical architecture for the project. He joined the team in September 2016, bringing with him over 20 years of engineering and business experience from a variety of companies, including Points International, NeoEdge Networks, and AOL Time Warner.
+Eileen Lyon
+General Counsel and Chief Compliance Officer, Kik
+Eileen is Kik's general counsel and chief compliance officer. Prior to joining Kik, Eileen served as the executive vice president, general counsel at Citizens Business Bank. She was also partner at the law practice of Kin, Holmes, Paterno and Soriano LLP. Eileen holds 30 years of experience as an attorney, representing banks and other financial institutions.
+26
+
+Kin Core Team
+27
+
+Lead Advisors
+
+CoinFund
+Jake Brukhman Co-Founder and Managing Partner
+Aleksandr Bulkin Co-Founder and Managing Partner
+Alexander Felix Partner
+Oleg Golubov Partner
+
+CoinTree
+Uriel Peled Co-Founder and CEO
+Daniel Peled Co-Founder and CRO
+Amir Chetrit Ethereum Founder
+
+28
+
+
