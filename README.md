@@ -8,7 +8,7 @@ In this file you will find a description of the project and of
 each of the files in the crypto_website folder. 
 
 An overview of our project can be found at the following link:
-https://docs.google.com/presentation/d/1IRw2CAZUggStlQui1iLmNkWGrDhN6cKb3sXao_Freog/edit#slide=id.g2f1c04b915_0_5
+[https://docs.google.com/presentation/d/1IRw2CAZUggStlQui1iLmNkWGrDhN6cKb3sXao_Freog/edit#slide=id.g2f1c04b915_0_5](https://docs.google.com/presentation/d/1uDKrRHRf44le6iswrt7WnTfBzQs-JxBj4vX4rpi8eN8/edit?usp=sharing)
 
 Project Description:
 
